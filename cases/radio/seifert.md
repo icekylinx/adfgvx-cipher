@@ -1,8 +1,6 @@
 # Station control and the Seifert service exchange
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[ADFGVX Cipher](../../README.md) · [All cases](../README.md) · [Source certificate](../../experiments/p170_continuation/seifert_records.json)
+[ADFGVX Cipher](../../README.md) · [All cases](../README.md) · [Source certificate](../../experiments/p170_continuation/seifert_records.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Nine source records, seven message groups.** The November 7–9 and November 10–12 published keys recover a sequence of radio-station reports and short service messages. Two pairs are repeated transmissions. These records are outside the original 22-entry challenge; the open p170 challenge is section **A**, not any of these neighboring records.
 
@@ -34,15 +32,23 @@ The table above does not overwrite these source-derived strings.
 
 ### p168 A — 184 coordinates / 92 positions
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 STEHEAB2200UNTERAUFSICHTSOLATENRATSXSTATPERSONALFESTINMEINERHANDXBETRIEBUNVERAENDERTXSEIFERT
 ```
 
+</details>
+
 No cipher correction is required. Supplying `D` in `Soldatenrats` and expanding `STAT` are editorial reading choices only. The source is available in the [p168 A/B excerpt](../../sources/excerpts/childs_p168_AB.png).
 
 ### p168 B — 160 coordinates / 80 positions
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -50,9 +56,14 @@ No cipher correction is required. Supplying `D` in `Soldatenrats` and expanding 
 SOLDATENRA9XCOELNXWIRDBALDFUNKSTELLEBESETZENXVERSUCHTSCKONFUNKSPRUECHEAUFZUGEBEN
 ```
 
+</details>
+
 At zero-based ciphertext positions **89** and **141**, `F → V` and `G → X` give `SOLDATENRAT` and `SCHON`. The other **158 coordinates remain unchanged**. These are proposed source emendations, not alternative square assignments.
 
 ### p172 A — 136 slots / 68 positions
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -60,15 +71,22 @@ At zero-based ciphertext positions **89** and **141**, `F → V` and `G → X` g
 AKTEN?AEMTLICHVERNICHTETXSCHLUESSELINPERSOBHUTNOCHVORHANDENXXSEIFERT
 ```
 
+</details>
+
 The [source](../../sources/excerpts/childs_p172_AB.png) prints `DAAGC`: its final `C` is outside the ADFGVX alphabet and becomes one erasure at ciphertext position **119**. The plaintext domain at position **5** is exactly `{F,I,K,N,O,S}`. Filling that coordinate with `G` gives `S` and preserves all **135 valid received coordinates**. `PERSOBHUT` is retained; the readable expansion is *pers[önlicher] Obhut*.
 
 ### p174 B — 74 slots / 37 positions
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
 ```text
 WENNSEIFERTEINGETROFFE?BITTENACHRXTOF
 ```
+
+</details>
 
 The [source excerpt](../../sources/excerpts/childs_p174_BCDE.png) shows a `C`-like or defective `G` glyph at the start of group `CVXXF`, ciphertext position **20**. Its conservative analysis is `?VXXF`. The uncertain plaintext position **22** has domain `{1,5,6,7,8,9,E,N,V,X}`.
 
@@ -90,15 +108,23 @@ alternative remain in the earlier certificate and source analysis above.
 
 ### p174 C — 48 coordinates / 24 positions
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 WANNRUECKKUNFTSEIFERTXRE
 ```
 
+</details>
+
 No glyph change, erasure fill, square completion or length repair is needed.
 
 ### p172 B / p174 D — 40 coordinates / 20 positions each
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -106,9 +132,14 @@ No glyph change, erasure fill, square completion or length repair is needed.
 SOFORTXUSX?00XHOEREN
 ```
 
+</details>
+
 Both copies have the same ciphertext. All 40 coordinates are legible; the unknown digit comes solely from an unassigned cell in the published November 10–12 square. The verifier constructs a full bijective square witness for **each** candidate digit 5–9. The duplicate therefore confirms the transmitted coordinates but does not select a digit.
 
 ### p174 E — 46 coordinates / 23 positions
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -116,13 +147,20 @@ Both copies have the same ciphertext. All 40 coordinates are legible; the unknow
 SQIFQRTABGEFAHRENXRENTE
 ```
 
+</details>
+
 Changing ciphertext positions **2** and **28** from `G` to `X` gives:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 SEIFERTABGEFAHRENXRENTE
 ```
+
+</details>
 
 The other **44 coordinates remain unchanged**. The two corrections restore the same name directly present in the surrounding service traffic; the original `Q`s remain part of the raw edition.
 
@@ -138,11 +176,16 @@ proposal costs three observed-coordinate substitutions.
 
 Deleting either adjacent `G` at zero-based source position **158** or **159** gives the same 184-coordinate conditional layer and this raw decipherment:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional deletion of source 158 or 159; equivalent aliases retained:**
 
 ```text
 STEHEAB2200UNTEYAUFSICHTSOLATENRATWXSTATPERSONALFESTINMEIKERHANDXBETRIEBUNVERAENDURTXSEIFERT
 ```
+
+</details>
 
 It supports the repeated-message identification but is less clean than p168 A. Both deletion aliases are recorded. The untouched odd-length source is retained and is never silently decoded after dropping its last coordinate.
 

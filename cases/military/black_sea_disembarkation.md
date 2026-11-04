@@ -1,6 +1,6 @@
 # p98 — disembarkation at Odessa and a repeated shipping instruction
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Three complete source transcriptions and readable editions. The two versions of part 2 retain their separate lengths and place spellings. No missing-coordinate model is imposed.
 
@@ -21,13 +21,21 @@ The source has no erased slots. Source transcription restores the full printed r
 
 ## p98 A1
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 FECHXROEMX2XGROSSXBFRX52751XISTDAHINABZUAENDERNXDYSSAUCHSIEGFRIEDTZUPPENNICHTMEHRI5KONSTANZAXSONDERNINODESSAAUSZUSCHIFFENSINDX
 ```
 
+</details>
+
 Edition, with three coordinate substitutions:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
@@ -35,11 +43,16 @@ Edition, with three coordinate substitutions:
 FECHXROEMX2XGROSSXBFRX52751XISTDAHINABZUAENDERNXDASSAUCHSIEGFRIEDTRUPPENNICHTMEHRINKONSTANZAXSONDERNINODESSAAUSZUSCHIFFENSINDX
 ```
 
+</details>
+
 The cited instruction is to be amended so that the Siegfried troops, too, are to disembark at Odessa instead of Constanza. The three local proposals are `DYSS→DASS`, `TZUPPEN→TRUPPEN`, and `I5→IN`. Each changes one observed ciphertext coordinate. The last is a source repair in this word, not a reassignment of the key's digit5.
 
 `FECH`, `ROEM`, `GROSS`, `B`, `FR` and the reference digits remain literal source labels. Their codebook or procedural meanings are not supplied.
 
 ## p98 A2
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -47,11 +60,16 @@ The cited instruction is to be amended so that the Siegfried troops, too, are to
 DEMNACHGEHENNUMEHRSAEMTLICHESCHIFFEVONKOSPOLINACHODESSABEZWXNIKILJEWXVERTEILTWIEFRX52751XUNDXBVGXRUMXXF7CHXROEMX2XGROSSXBXFRX52787XX
 ```
 
+</details>
+
 The edition changes only `F7CH→FECH`, for one observed-coordinate substitution. The corresponding `E` is directly present in B. The text says that all ships from `KOSPOLI` are consequently to go to Odessa or the place written `NIKILJEW`, distributed according to the referenced instructions.
 
 The source form `NUMEHR` is retained, and `NIKILJEW` is not silently replaced by the longer spelling in B.
 
 ## p98 B — second witness of part2
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -64,6 +82,8 @@ DEMNACHGEHENNUMEGRSAEMTLFCHESCHIFFVVONKOSPOLINACHODESSABEZWXNIKOLAJEWXVERTEILTWI
 ```text
 DEMNACHGEHENNUMEHRSAEMTLICHESCHIFFEVONKOSPOLINACHODESSABEZWXNIKOLAJEWXVERTEILTWIEFRX52751XUNDXBVGXRUMXXFECHXROEMX2XGROSSXBXFRX52787XX
 ```
+
+</details>
 
 The three proposed letters in `NUMEHR`, `SAEMTLICHES` and `SCHIFFE` are each directly observed in A2. The raw `NIKOLAJEW` spelling is retained in B and supports identifying the destination as Nikolaiev in the reading of this witness. It does not prove which spelling appeared in an earlier original transmission.
 

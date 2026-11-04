@@ -1,6 +1,6 @@
 # Horses for a cavalry brigade: Poti shipment and handover inquiry
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -23,6 +23,9 @@ The [source crop](../../experiments/poti_horse_delivery/sources/p59_A2.png)
 has **220 slots**, including seven printed dashes, exactly matching
 `2 TL RICHI-220`.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 220-coordinate frame:**
 
 ```text
@@ -34,6 +37,8 @@ POTIXVERLADEBXDIEFUER7GBA8?BRIGXBE7THMMTXXDAABTEILUNGKNDERSHINBEO4DHGTXDRING?NDD
 ```text
 POTIXVERLADENXDIEFUER7XKAVXBRIGXBESTIMMTXXDAABTEILUNGANDERSHINBEORDERTXDRINGENDDRAHTEODERBRTVEXO0?NDWME??EL?XX
 ```
+
+</details>
 
 **Readable German — spacing of the conservative partial candidate, with its opaque ending retained:**
 
@@ -74,6 +79,9 @@ contains **230 slots**, with **31 printed dashes**, matching
 `3 TL RICHI-230`. Restoring the dash groups omitted by the earlier OCR
 is essential to preserving the source's frame.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 230-coordinate frame:**
 
 ```text
@@ -85,6 +93,8 @@ D?ES?4?FER1E??X???I?EBERGE?E?WUGWE?XF?R?ERBALQIG?T?ANTWIRTA??UNSE?ZNFU??S1RZCH?7
 ```text
 DIESEXPFERDEINXPOTIUEBERGEBENWURDENXFERNERBALDIGSTXANTWORTAUFUNSERENFUNKSPRUCH?79??7070V9?15X?XXXGENKDOX?2XTBXP?47?
 ```
+
+</details>
 
 **Readable German — spacing and punctuation, with the unresolved reference fields kept literal:**
 

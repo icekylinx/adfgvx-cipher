@@ -1,6 +1,6 @@
 # November 27: Helsingfors shipping and a vehicle-sale instruction
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -25,6 +25,9 @@ retains both messages and their distinct headers.
 **Reviewed source crops:** [p223_reviewed.png](../../experiments/nov27_ships_and_vehicle_sale/sources/p223_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## p223 B
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Source transcription — literal header:**
 
 ```text
@@ -44,6 +47,8 @@ ZENIRALFUNKLEITUNGXXELLEXVORBEREIT0GGENXGETRIFFENXSCHIFFEXNACZXMITTEILUNGXREICHS
 ```text
 ZENTRALFUNKLEITUNGXXALLEXVORBEREITUNGENXGETROFFENXSCHIFFEXNACHXMITTEILUNGXREICHSMARINEAMTSXSICHERGESTELLTXXFUSTAHELSINGFORS
 ```
+
+</details>
 
 The changes, at zero-based source indices, are **12 F→D**, **56 D→A**,
 **78 F→D**, **130 A→X**, **160 F→V**, **165 D→A** and **202 A→D**.
@@ -68,6 +73,9 @@ historical coordinates or altering the native frame.
 
 ## p223 C
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — literal header:**
 
 ```text
@@ -76,10 +84,15 @@ POT FUER COS GENERAL VON KRESS 1555 (11/27)
 RICHI-230?
 ```
 
+</details>
+
 The header retains both the November 28 reception date and the internal
 November 27 date. Its question mark after **230** is part of the length
 annotation. The source actually prints **235 body slots**, including two
 dashes in `DXX--` and these adjacent final-row groups:
+
+<details>
+<summary>Literal source transcription</summary>
 
 **Source transcription — final four groups, excerpt:**
 
@@ -87,10 +100,15 @@ dashes in `DXX--` and these adjacent final-row groups:
 DDFDD GAFDG GDFDG XGGAV
 ```
 
+</details>
+
 The primary analysis excludes the five observed coordinates **`GAFDG` at
 source indices 220–224**. The source does not clearly mark that group as
 cancelled. This is therefore an explicit conditional source exclusion, with
 the original sequence retained in full.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — conditional 230-slot frame after the five-coordinate exclusion; 113/115 fixed positions:**
 
@@ -103,6 +121,8 @@ AUFBEFEHLHEERESGRUPPEALLELASTAUTOSS?WIEALLESUE?ERFLUESSIGEMATERIALWEGENUNMOEGLIC
 ```text
 AUFBEFEHLHEERESGRUPPEALLELASTAUTOSSOWIEALLESUEBERFLUESSIGEMATERIALWEGENUNMOEGLICHKEITABTRANSPORTSVERKAUFENXXBXMXKXX
 ```
+
+</details>
 
 Filling the printed dashes at **source indices 83 and 84** with **D** and
 **A** supplies the O in `SOWIE` and the B in `UEBERFLUESSIGE`. All retained

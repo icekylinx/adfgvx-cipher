@@ -1,6 +1,6 @@
 # Sevastopol routing amendment with twelve opaque code groups
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -23,17 +23,16 @@ The [enlarged heading](../../experiments/sevastopol_coded_routing/sources/p139_A
 confirms `RICHI-200`; an initial page-scale impression of 300 was rejected
 before publication. There is no inferred 100-coordinate gap.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native 200-coordinate frame:**
 
 ```text
 NATEKOXSEWASTOPOLXVONSEEKRIEGSLTGXGRXHXYUXSLX4475XINABAENDERUNGXFECHX3XGROSSXBXFRX53083XSINDGEMAESSX
 ```
 
-**Edited output — unchanged, with zero substitutions or fills:**
-
-```text
-NATEKOXSEWASTOPOLXVONSEEKRIEGSLTGXGRXHXYUXSLX4475XINABAENDERUNGXFECHX3XGROSSXBXFRX53083XSINDGEMAESSX
-```
+</details>
 
 **Readable German — spacing, punctuation and umlauts; abbreviations remain literal:**
 
@@ -51,6 +50,9 @@ contains **220 visible slots**. Its first glyph is B in **BVAGD**, which
 is outside the ADFGVX coordinate alphabet. That occupied source slot is
 masked without deletion.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 220-coordinate frame:**
 
 ```text
@@ -62,6 +64,8 @@ XAX?RX11120XGEHOPXCUJOMAREMOX36117X59000X13814X39800X42097X85206X82520X51933X323
 ```text
 XAXNRX11120XGEHOPXCUJOMAREMOX36117X59000X13814X39800X42097X85206X82520X51933X32342X28215X38105X04376XZULEITENX
 ```
+
+</details>
 
 Source **0 B→X** supplies N in **NR**. The raw unknown is plaintext
 position **3**, pair **X?**, domain **4CMNST**, with source indices **194**
@@ -88,17 +92,16 @@ code.
 The [third-part crop](../../experiments/sevastopol_coded_routing/sources/p139_A3.png)
 contains **212 valid coordinates**, giving **106 / 106 fixed positions**.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native 212-coordinate frame:**
 
 ```text
 GLEICHESSXETRAXSUEDOSTXEZXKIEWXBVGXRUMXSXMXSTXDEUTSCHERSTABXNACARXRXMXAXADMIRALSTABFECH2XGROSZXBXERX53689X
 ```
 
-**Edited output — unchanged, with zero substitutions or fills:**
-
-```text
-GLEICHESSXETRAXSUEDOSTXEZXKIEWXBVGXRUMXSXMXSTXDEUTSCHERSTABXNACARXRXMXAXADMIRALSTABFECH2XGROSZXBXERX53689X
-```
+</details>
 
 **Readable German — spacing, punctuation and umlaut, with opaque fields and spelling retained:**
 

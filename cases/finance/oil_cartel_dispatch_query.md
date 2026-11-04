@@ -1,6 +1,6 @@
 # Oil cartel at Tiflis: details of shipments from Poti
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs p212, 22 November 1918; published `Nov22-24` key, unchanged. [Source crop](../../experiments/medical_return_transports/sources/p212_A3.png), [inputs](../../experiments/medical_return_transports/inputs.json), [exact certificate](../../experiments/medical_return_transports/certificates.json).
 
@@ -12,19 +12,29 @@ The source prints `RICHI 224` but **no visible “3 TL” label**. `A3` is the c
 
 All 224 coordinates are observed. Raw, 112 positions:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 OELKARTELLVIFLISXNUMM3R2XDRAHTETWANNWOHINWOLCHEADRESSEMITWELCHEMSCHCFFUNSEREPARTIENVONPOTIVERLADENSINDXXDEUTKAUF
 ```
 
+</details>
+
 Five observed-coordinate substitutions yield the conservative candidate:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 OELKARTELLTIFLISXNUMMER2XDRAHTETWANNWOHINWELCHEADRESSEMITWELCHEMSCHIFFUNSEREPARTIENVONPOTIVERLADENSINDXXDEUTKAUF
 ```
+
+</details>
 
 The candidate repairs `VIFLIS`, `NUMM3R`, `WOLCHE` and `SCHCFF`. The reference label `2`, `POTI` and `DEUTKAUF` remain unchanged. The raw 3 in the damaged word is retained in the certificate; no digit is globally relabeled.
 

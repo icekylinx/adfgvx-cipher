@@ -1,8 +1,6 @@
 # A telegram reports the Turkish armistice, with terms still unknown
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p86 C1
 
@@ -11,6 +9,9 @@
 **Source and dates:** Page heading: 31st OCTOBER, 1918; C) NKJ v OSM (3.15 a.m., November 1st); SSD KRESS COS (31) 2200 2 TEILE; 1 TL RICHI-168.
 
 ![Source p86 C1](../../experiments/oct31_armistice_and_followup/sources/p86_C1.png)
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -23,6 +24,8 @@ WAFFENSTILLSTANDHEUTEEINUHRNACHMVONTUERKEIABGESCHLOSSENXBEDINGUNGENNOCHNICHTBEKA
 ```text
 WAFFENSTILLSTANDHEUTEEINUHRNACHMVONTUERKEIABGESCHLOSSENXBEDINGUNGENNOCHNICHTBEKANNTX
 ```
+
+</details>
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
@@ -44,4 +47,4 @@ All indices are zero-based.
 
 The [input](../../experiments/oct31_armistice_and_followup/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/oct31_armistice_and_followup/certificates.json) contains the raw paired-coordinate domains, each source change and the forward checks. The [verifier](../../experiments/oct31_armistice_and_followup/verify.py) checks the unchanged published keys and the live German quotations, retaining all numerical and letter labels.
 
-Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/oct31_armistice_and_followup/prior_candidates.json). No first-decipherment priority is claimed.
+Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/oct31_armistice_and_followup/prior_candidates.json).

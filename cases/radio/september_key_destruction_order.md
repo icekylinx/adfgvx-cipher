@@ -1,12 +1,15 @@
 # September: a key-destruction instruction with a masked label
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
 ## p61 A
 
 Childs p61, PDF p64; [source crop](../../experiments/september_radio_instructions/sources/p61_A.png). Unchanged published **Sep19–21** key; native **176** coordinates, matching the printed length.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Source transcription — received header:**
 
@@ -28,6 +31,8 @@ FUN?AX?OTIXUNDTIFLSSXSCHLUESSEL77?77X77777LI?RS?FOTTZUVETZICHTENXDA?EKANNTXFU??A
 ```text
 FUNKAXPOTIXUNDTIFLISXSCHLUESSEL77?77X77777HIERSOFORTZUVERNICHTENXDABEKANNTXFUNKAXOSMANIE
 ```
+
+</details>
 
 Observed coordinate changes, with zero-based source indices: **0 G→D**, **25 X→V**, **53 G→X**, **77 G→D**, **83 V→F**, **164 G→X**, **171 X→A**.
 

@@ -1,6 +1,6 @@
 # The Danube field report: two companion parts, 10–11 November
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and exact repair audit: icekylinx and GPT-6 Astra Pro.**
 
@@ -24,19 +24,29 @@ square and ranks.
 The [252-coordinate source](../../experiments/nov10_delegates_and_field_report/sources/p176_B2.png)
 directly reads:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 FEHERTEMPLOMXFOLGENFRANZOSENXXBESATZUNSHEERXFEINDVORFUEHLTEGEGENNEUESTELLUNGENDONAUKNIEXSAMVITXNACHAGENTENSTARKMITENGLAEN?ERNX
 ```
 
+</details>
+
 A single observed-coordinate replacement gives:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 FEHERTEMPLOMXFOLGENFRANZOSENXXBESATZUNSHEERXFEINDVORFUEHLTEGEGENNEUESTELLUNGENDONAUKNIEXSAMVITXNACHAGENTENSTARKMITENGLAENDERNX
 ```
+
+</details>
 
 The final word becomes `ENGLAENDERN`, in a report attributed to agents.
 The source-derived `BESATZUNSHEER`, unusual order `FEINDVORFUEHLTE`, and
@@ -53,19 +63,29 @@ a fill of an erased coordinate or an assignment of an unknown key cell.
 The [272-coordinate source](../../experiments/nov10_delegates_and_field_report/sources/p176_B3.png)
 directly reads:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 MAROKANERNBELEG1XXSISTOWXZUGVERKEHRXXBEIXRUS2UKXSETZTENFRANZOSENRUMAENISCHUFERUEBERXXRESERVENBRACHTENSNENOERDLNCHXSLOBOZIEXZUMSTEHENXOKM
 ```
 
+</details>
+
 Four observed-coordinate replacements give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 MAROKANERNBELEGTXXSISTOWXZUGVERKEHRXXBEIXRUSTUKXSETZTENFRANZOSENRUMAENISCHUFERUEBERXXRESERVENBRACHTENSIENOERDLICHXSLOBOZIEXZUMSTEHENXOKM
 ```
+
+</details>
 
 This part mentions Moroccan troops and train traffic at `SISTOW`, then
 reports French forces crossing to the Romanian bank near `RUSTUK` and

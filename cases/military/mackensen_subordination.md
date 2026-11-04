@@ -1,6 +1,6 @@
 # Eleventh Army subordination to Mackensen
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
@@ -18,6 +18,9 @@ reads `UKS v ZON`, received at an unspecified time on November 2, origin
 printed `L` at source 39 and `C` at 56. The following page is explicitly
 marked as a continuation.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native source frame**
 
 ```text
@@ -29,6 +32,8 @@ OXKXMACKENSENX11XARMEE?ITALLENDEUTSCHENTEILENISTLAUT?XHXLXRMX1A11127
 ```text
 OXKXMACKENSENX11XARMEEMITALLENDEUTSCHENTEILENISTLAUTOXHXLXRMX1A11127
 ```
+
+</details>
 
 **Readable German — from the edited layer**
 
@@ -46,6 +51,9 @@ The [A2 source](../../experiments/nov1_mackensen_and_orient_reports/sources/p101
 has the same `UKS v ZON`, `2312 (1) 2 TLE` heading and is explicitly
 `2 TL RICHI-132`. All 132 native coordinates are valid.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native source frame**
 
 ```text
@@ -57,6 +65,8 @@ DEMOXKXMACKENSENUNTERSTELLTUNDBITTEPUMBEFEHLEXAXOXKX11XRMX1A7011XX
 ```text
 DEMOXKXMACKENSENUNTERSTELLTUNDBITTETUMBEFEHLEXAXOXKX11XRMX1A7011XX
 ```
+
+</details>
 
 **Readable German — from the edited layer**
 
@@ -88,6 +98,9 @@ five observed-coordinate operations; they are not free padding removal.
 All native 137-slot diagnostics, including the unpaired coordinate, remain
 in the certificate.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional 132-slot copy-alignment frame**
 
 ```text
@@ -99,6 +112,8 @@ in the certificate.
 ```text
 DEMOXKXMACKENSENUNTERSTELLTUNDBITTETUMBEFEHLEXAXOXKX11XRMX1A7011XX
 ```
+
+</details>
 
 **Readable German — from the conditional edited layer**
 

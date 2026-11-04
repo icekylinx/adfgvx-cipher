@@ -1,8 +1,6 @@
 # October staffing, manganese purchases and service traffic
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[All cases](../README.md) · [ADFGVX Cipher](../../README.md)
+[All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Six source-reviewed records under the previously published
 **Oct4–6 key**. The principal result is a two-part Bavarian personnel order;
@@ -110,11 +108,16 @@ Header: `ASO v NKJ (9.27 p.m., October 5th); COS1615(5); RICHI-190`.
 
 This record is fully determined, with no edit or fill:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 KDTURXTIFLISXXZUDORTXNRX80XREITXABTLGXBAYRX5OHNEERSTEBATTXBEIBXKXBXGEGENXKIEWXXGXUVXSEWASTOPOLX
 ```
+
+</details>
 
 A conservative division into words is:
 
@@ -138,11 +141,16 @@ headed October 5; no origin day is printed in this record's own `2030` field.
 
 The 60 coordinates directly fix all 30 plaintext characters:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 TELXREISENOX1AVOM20X9XERHALTEN
 ```
+
+</details>
 
 A conservative reading is “Tel. Reise No. 1A vom 20.9. erhalten.” The exact token
 `REISENO` and the reference `1A` remain visible; the interpretation does not

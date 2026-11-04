@@ -1,6 +1,6 @@
 # Internment letter to Mackensen's soldiers' council — p226 C / p227 A
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Prior reading: J. Rives Childs; George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker. Source edition and exact repair audit: icekylinx and GPT-6 Astra Pro.**
 
@@ -32,11 +32,16 @@ A separate model restores five-letter grouping at those two locations: remove on
 
 The two deletion indices are aliases of one reconstructed stream. Before supplying the new coordinate or changing any remaining source symbol, its raw plaintext is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional deletion-and-insertion frame; equivalent deletion aliases retained:**
 
 ```text
 ESIVTUNSE?BEMUEHENEUREINTERNIERUNGSOZUGESTALTENDASSIHRWEDERNHTNOCHMANGELLEIDETUNDNACHDEMMOJGLICHSTRASCHENFRIEDENSCHLUSSGLUECKLICHUNDGESUNDINDIEHEIMATZUJUECKKEHRENKOENNTY
 ```
+
+</details>
 
 Four explicit coordinate substitutions and the one supplied `V` give:
 

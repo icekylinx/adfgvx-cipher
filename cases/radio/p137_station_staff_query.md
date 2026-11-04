@@ -1,6 +1,6 @@
 # p137 B — Query about the station's former staff
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Recovery and source review: icekylinx and GPT-6 Astra Pro.** A conditional
 group-movement and three-loss reconstruction exposes a query about whether
@@ -16,11 +16,16 @@ to answer and the closing name Eilvese.
 The question mark after *besetzt* is editorial punctuation. The question mark
 inside `17?0` is one unresolved plaintext position, retained literally.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — primary conditional 138-slot frame, before substitutions and fills; 64/69 fixed positions:**
 
 ```text
 ICTDORTIGEVTATIONN?CHVOMALT?NPERSONALBESETZTXANTWO?TETUM17?0XEILBES?X
 ```
+
+</details>
 
 The source prints **135 slots**, including two dashes, against `RIZI-138`.
 The primary model moves the last printed group `VDF--` (source 130–134) to
@@ -38,11 +43,16 @@ raw positions and the same 68/69-position edited proposal. The certificate
 retains all five alternatives; boundary 105 is the primary display because
 it coincides with a printed group and row boundary.
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — same primary frame; three observed substitutions, two printed-mask fills and two inserted-slot fills; 68/69 fixed positions:**
 
 ```text
 ISTDORTIGESTATIONNOCHVOMALTENPERSONALBESETZTXANTWORTETUM17?0XEILVESEX
 ```
+
+</details>
 
 | Primary repair or frame operation | Exact account, zero-based indices |
 |---|---|
@@ -72,6 +82,9 @@ Childs, printed p137 / PDF p140, section B. The page heading is
 continuation, advertised length and footer below are contextual annotations,
 outside the 135 ciphertext slots.
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — full header, all 135 cipher slots and clear footer:**
 
 ```text
@@ -85,6 +98,8 @@ FFAFX XXAFF AADAA XVFDX XXFGA VDF--
 OSM
 V OUI
 ```
+
+</details>
 
 [Original source PDF, p140](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view)
 · [Reproduction and source recipe](../../experiments/p137_station_staff_query/README.md)

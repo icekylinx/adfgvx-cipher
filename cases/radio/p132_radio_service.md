@@ -1,6 +1,6 @@
-# Radio service: Eilvese repetition and a garbled Caucasus message
+# p132 A and C — An officer-register request and a garbled-message repeat
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -8,8 +8,8 @@ Childs p132 contains three separate records: a partly garbled request for
 an officer-register extract, a conditional recovery of a repeat-transmission
 instruction for Eilvese, and an exact request to repeat a garbled incoming
 Caucasus message. The unchanged published `Nov4-6` key applies throughout.
-The middle record is genuinely odd in length and requires a separate
-before-transposition error model; the other two have ordinary exact frames.
+The middle record has its own [canonical p132 case](../p132.md); A and C
+have ordinary exact frames and remain separately catalogued physical sources.
 
 The primary source is J. Rives Childs, *General Solution of the ADFGVX Cipher
 System*, [printed p132, PDF p135](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
@@ -21,6 +21,9 @@ is headed `5th NOVEMBER, 1918.`
 The [A source](../../experiments/november_radio_service/sources/childs_p132_A.png)
 has this header and exactly 242 slots, including one printed dash:
 
+<details>
+<summary>Source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -29,7 +32,12 @@ HIER 13 2207
 RICHI-242
 ```
 
+</details>
+
 The raw 121-position reading fixes 120 positions:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -37,14 +45,21 @@ The raw 121-position reading fixes 120 positions:
 MILLTAEGMISZIONKOSJOIIXUEBERTENDUNGEILESKRIEGSRANGLI?TRNAUSZUGESDESGENERALMAJRHYDEWALDERBETENXFELDEISENBAHNNHEFPAFR53540X
 ```
 
+</details>
+
 Six observed-coordinate substitutions and one dash fill repair ordinary
 words, giving:
+
+<details>
+<summary>Exact edited proposal</summary>
 
 **Edited output:**
 
 ```text
 MILITAERMISZIONKOSJOIIXUEBERSENDUNGEINESKRIEGSRANGLISTENAUSZUGESDESGENERALMAJRHYDEWALDERBETENXFELDEISENBAHNCHEFPAFR53540X
 ```
+
+</details>
 
 The readable clause is:
 
@@ -63,103 +78,20 @@ partial source edition, not a securely identified personnel record.
 
 ## B: repeat the fourth-period telegram in the fifth
 
-This is the same 155-slot physical source as [challenge p132](../p132.md), whose page preserves Thomas's 2017 fragment and Norbert's fuller sender-error reading and VORHER proposal. This section is a later source/model edition of that record. The two catalogue entries retain their own identifiers and count as one physical source.
-
-The [B source](../../experiments/november_radio_service/sources/childs_p132_B.png)
-is marked with explicit urgency:
-
-**Source transcription — clear header and/or literal source record:**
-
-```text
-B) LP v NKJ (6.13 p.m., November 5th)
-SSD EILT SOFORT LOESEN 1410 (5)
-RIZI-155
-```
-
-The printed length and manual transcription both give **155 slots**. There
-are two printed dashes in group `XFF--`; all other coordinates are retained.
-The direct odd-frame reading has 77 paired positions and one unpaired coordinate:
-
-**Raw output — original odd frame; paired prefix and orphan coordinate reported separately:**
-
-```text
-FFEREILVESEXWIEDERHOLETT?LEGGWD3?MYMFLWF7MFFS7KFNT8RLTIWFWUAFQLL3F1QF7PZNMDQQ
-```
-
-The latter portion becomes readable under the opposite coordinate-pair
-phase. The following **conditional model** produces the cleanest short
-telegram wording: one extra `V` was present in the fractionated intermediate
-stream before its 155-slot column transposition.
-
-After undoing that original transposition, interim indices **54, 55, 56 and
-57** are four identical consecutive `V` coordinates. Removing any one of
-them gives the same 154-coordinate stream and this conditional raw reading:
-
-**Raw output — conditional deletion of one V at interim indices 54–57 after untransposition:**
-
-```text
-FFEREILVESEXWIEDERHOLETT?LEGRXVO?VIERTERPERIODEINFU1NFTERXGEBETSORHER5MINXVVV
-```
-
-Three observed-coordinate substitutions and two printed-dash fills give:
-
-**Edited output — same conditional interim-deletion model, with the stated repairs and fills:**
-
-```text
-FUEREILVESEXWIEDERHOLETTELEGRXVONVIERTERPERIODEINFUENFTERXGEBETVORHER5MINXVVV
-```
-
-Readable German, expanding only the telegram abbreviation in brackets:
-
-**Readable German:**
-
-> Für Eilvese. Wiederholet Telegr[amm] von vierter Periode in fünfter.
-> Gebet vorher 5 Min. VVV.
-
-It asks Eilvese to repeat the fourth-period telegram during the fifth period
-and send **five minutes of `VVV`** beforehand. The old imperative forms
-`WIEDERHOLET` and `GEBET` are preserved. The paper by Lasry and colleagues
-separately identifies Eilvese and its OUI callsign in its discussion of
-p120/p123; that supplies station context, not prior publication of this p132
-body. [DOI 10.1080/01611194.2016.1169461, §6.5](https://doi.org/10.1080/01611194.2016.1169461)
-
-### Exact costs and the four equivalent positions
-
-| Received source index, zero-based | Printed group / position, one-based | Change | Effect |
-| ---: | --- | --- | --- |
-| 52 | 11 / 3 | `X` → `F` | `SORHER` → `VORHER` |
-| 64 | 13 / 5 | `A` → `D` | `FFER` → `FUER` |
-| 88 | 18 / 4 | `A` → `F` | `FU1NFTER` → `FUENFTER` |
-| 103 | 21 / 4 | printed dash → `F` | Missing `E` in `TELEGR` |
-| 104 | 21 / 5 | printed dash → `X` | Missing `N` in `VON` |
-
-The raw numeral label `1` in `FU1NFTER` is retained in both raw readings.
-Its change to `E` is an explicit local coordinate repair within a word; it
-does not reassign the square's digit `1`. The numerical `5` in `5MIN` remains
-unchanged.
-
-The extra coordinate is separately charged as **one extraneous intermediate
-coordinate**. It is not silently discarded from the received source. To
-reproduce the 155-slot witness, encode the 77-character proposal, reinsert
-the same `V` at the selected interim position, and apply the original rank
-order. All four choices produce the same transmitted witness after the
-five listed repairs/fills. Their differing source origins are retained in
-the certificate; there is no uniquely identified extra `V`.
-
-An initial insertion-only search retrieved the useful ending but left
-`TELEGAR` or `TELERGR`. Those earlier candidates remain in the
-[geometry audit](../../experiments/november_radio_service/geometry_audit.json).
-The later extra-coordinate interpretation was selected after inspecting
-the source and wording. All 156 one-insertion and 155 one-removal interim
-positions are preserved. For this retrospective 77-character template,
-the four identical-V removals uniquely form the minimum-cost set of three
-substitutions and two dash fills. This is a conditional consistency result,
-not independent proof of the historical mechanism.
+The complete source/model edition is consolidated in [canonical challenge
+p132](../p132.md). That page combines Thomas’s initial fragment, Norbert’s
+fuller sender-error reading and `VORHER` proposal, the later three-substitution
+and two-erasure-fill account, and all four equivalent intermediate-`V`
+positions. `p132_B` survives only as an identifier inside the frozen evidence
+package; it is not a second catalogue entry.
 
 ## C: request to repeat a garbled incoming message
 
 The [C source](../../experiments/november_radio_service/sources/childs_p132_C.png)
 has this header:
+
+<details>
+<summary>Source transcription</summary>
 
 **Source transcription — clear header and/or literal source record:**
 
@@ -169,14 +101,21 @@ FUER COS 2150 (5/11)
 RICHI-198
 ```
 
+</details>
+
 The November 5 origin line and November 6 reception line are retained.
 All 198 coordinates and all 99 plaintext labels are fixed without repair:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
 ```text
 KAUKASUSDELEGAXWIEDERHLGVERSTUEMMELTEINGEGXOSKACHIX54GRXSSX1912XANXNACHCHEFERBETENXNACHCHE5X150527X
 ```
+
+</details>
 
 The message addresses the Caucasus delegation and asks for repetition of a
 garbled incoming message to `NACHCHEF`. Its literal reference is

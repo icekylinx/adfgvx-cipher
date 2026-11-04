@@ -1,20 +1,23 @@
 # DEUTZITAG: requesting details of purchase dispatches
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs p80 A and p81 A/C, printed heading 30 October 1918, received 31 October. Published `Oct28-31` key, unchanged. [Inputs](../../experiments/deutzitag_dispatch_inquiries/inputs.json), [exact certificates](../../experiments/deutzitag_dispatch_inquiries/certificates.json), [method](../../experiments/deutzitag_dispatch_inquiries/README.md).
 
 The economic department of the Caucasus delegation is asked whether purchases have already been sent away, when and where further dispatches are expected, and how onward transport is intended. The request itself supplies no shipment answer.
 
 ## p80 A
 
-[Source crop](../../experiments/deutzitag_dispatch_inquiries/sources/p80_A.png). Receipt `COS v LP (6.36 a.m., October 31st)`; origin `SS BERLIN 30/10 ... 1900`; addressee `KAUKASUS DELEGATION WIRTSCHAFTSABTEILUNG`. All 274 printed coordinates give this unedited 137-character body:
+[Source crop](../../experiments/deutzitag_dispatch_inquiries/sources/p80_A.png). Receipt `COS v LP (6.36 a.m., October 31st)`; origin `SS BERLIN 30/10 ... 1900`; addressee `KAUKASUS DELEGATION WIRTSCHAFTSABTEILUNG`. All 274 printed coordinates give this unedited 137-character body: · [Reading conventions](../../docs/reading-conventions.md)
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
 ```text
 DRAHTETOBVONEURENKAEUFENBEREITSABTRANSPORTEERFOLGTSINDEVENTUELLWANNUNDWOHINSOLCHEERFOLGENWERDENUNDWIEWEITERTRANSPORTGEDACHTISTXXDEUTZITAG
 ```
+
+</details>
 
 Reading: “Drahtet, ob von euren Käufen bereits Abtransporte erfolgt sind, eventuell wann und wohin solche erfolgen werden und wie Weitertransport gedacht ist. Deutzitag.”
 
@@ -22,13 +25,21 @@ Reading: “Drahtet, ob von euren Käufen bereits Abtransporte erfolgt sind, eve
 
 [Source crop](../../experiments/deutzitag_dispatch_inquiries/sources/p81_A.png); [overprinted source glyph](../../experiments/deutzitag_dispatch_inquiries/sources/p81_A_overprint.png). Receipt `NKJ v LP (6.45 a.m., October 31st)`; origin `FUER COS SS BERLIN 30/10 B V K M KAUKASUS 1172`. All 338 coordinates are observed:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 FUERXSAULXWEINREICHXDOPPELPUNKTXDRAHTETJBVONEURENKAEUFENBEREITSABTRANSPORTEERFOLGTSINDEVENTUELLWANNUNDWOHINSOLCHEERFOLGENWERDENUNDWIEWEITERTRANSPORTGEDACHTISTXXDEUTZITAG
 ```
 
+</details>
+
 The received prefix is “Für Saul Weinreich:”. No independent personal identity is assigned. Source index 248 `G → F` changes the ordinary word `JB` to `OB`; the resulting suffix equals the complete p80 A and p81 C bodies at every coordinate pair. The corrected full candidate is:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
@@ -36,17 +47,24 @@ The received prefix is “Für Saul Weinreich:”. No independent personal ident
 FUERXSAULXWEINREICHXDOPPELPUNKTXDRAHTETOBVONEURENKAEUFENBEREITSABTRANSPORTEERFOLGTSINDEVENTUELLWANNUNDWOHINSOLCHEERFOLGENWERDENUNDWIEWEITERTRANSPORTGEDACHTISTXXDEUTZITAG
 ```
 
+</details>
+
 This is one local ciphertext repair. The published J label is not changed globally.
 
 ## p81 C
 
 [Source crop](../../experiments/deutzitag_dispatch_inquiries/sources/p81_C.png). Receipt `NKJ v LP (6.36 a.m., October 31st)`; origin `FUER COS SS BERLIN 30/10 1900`; addressee `KAUKASUS DELEGATION WIRTSCHAFTSABTEILUNG`. All 274 coordinates are **identical to p80 A**, and decrypt without repair:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 DRAHTETOBVONEURENKAEUFENBEREITSABTRANSPORTEERFOLGTSINDEVENTUELLWANNUNDWOHINSOLCHEERFOLGENWERDENUNDWIEWEITERTRANSPORTGEDACHTISTXXDEUTZITAG
 ```
+
+</details>
 
 ## Attribution and scope
 

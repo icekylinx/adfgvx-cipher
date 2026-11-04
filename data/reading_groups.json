@@ -4,7 +4,7 @@
     "icekylinx",
     "GPT-6 Astra Pro"
   ],
-  "scope": "Each other reviewed record has exactly one primary reading topic. Related challenge links retain the separate 22-entry challenge catalogue. Topics do not assert shared keys or source identity.",
+  "scope": "Each source outside the original challenge set has one primary navigation group. OPEN sources use the open group; topics do not assert shared keys or physical identity.",
   "groups": [
     {
       "id": "caucasus",
@@ -15,7 +15,6 @@
         "cases/p152.md"
       ],
       "related_challenge_ids": [
-        "p73",
         "p152"
       ]
     },
@@ -97,6 +96,18 @@
       "summary": "Appointments, staff transfers, travel permissions, personnel inquiries and civilian affairs are collected here.",
       "additional_case_paths": [],
       "related_challenge_ids": []
+    },
+    {
+      "id": "open",
+      "title": "OPEN sources",
+      "directory": "cases/open",
+      "summary": "Seven physical sources without an accepted body reading. Each case preserves the literal evidence, boundary questions and current research leads.",
+      "additional_case_paths": [],
+      "related_challenge_ids": [
+        "p73",
+        "p170",
+        "p198"
+      ]
     }
   ]
 }

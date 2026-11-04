@@ -1,0 +1,749 @@
+{
+  "schema": "adfgvx-open-source-records-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "review_date_utc": "2026-11-04",
+  "scope": "Literal source records for four unread physical bodies. No key, decryption frame, plaintext, repaired coordinates or accepted reading is asserted.",
+  "source_audit": {
+    "path": "data/reviews/source_gap_audit_20261103.json",
+    "sha256": "a2e244c956d9ca39083c39072d67bbb65785abdd67066ccdc08a2eae417da3f2"
+  },
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "id": "p70_B1",
+      "storage": "embedded_png",
+      "pdf_page_1based": 73,
+      "crop_pdf_points": [
+        95,
+        540,
+        535,
+        715
+      ],
+      "render_scale": 4,
+      "width": 1760,
+      "height": 700,
+      "rgb_sha256": "b3b41305410a177718e67ae121d6b08bb763adb9b1a251c5a44ffbd698d8bf1f",
+      "fresh_render_cache": true,
+      "path": "sources/p70_B1.png",
+      "sha256": "c9cce9b510975f752378aaec0c7bcfbb75da48362e39dd8b4d31531c71fec937"
+    },
+    {
+      "id": "p127_B2",
+      "storage": "embedded_png",
+      "pdf_page_1based": 130,
+      "crop_pdf_points": [
+        55,
+        440,
+        545,
+        675
+      ],
+      "render_scale": 4,
+      "width": 1960,
+      "height": 940,
+      "rgb_sha256": "95ac77729dc2efb568285e986929cb38b245e73f095c88b87692884522ad4752",
+      "fresh_render_cache": true,
+      "path": "sources/p127_B2.png",
+      "sha256": "4ef4b879d3d688a7c35eb342ceb01b1a78acdaebaaad625924032fe1acbbdc8b"
+    },
+    {
+      "id": "p145_A",
+      "storage": "embedded_png",
+      "pdf_page_1based": 148,
+      "crop_pdf_points": [
+        50,
+        226,
+        540,
+        370
+      ],
+      "render_scale": 4,
+      "width": 1960,
+      "height": 576,
+      "rgb_sha256": "0ede58681401dfde1888d49f68ead2f8736b8bfbe655699af8f88605c89f2a05",
+      "fresh_render_cache": true,
+      "path": "sources/p145_A.png",
+      "sha256": "4d61dd859569f5ae97a05570bb0d47346bff0ba5c2a33d57c45b90669fd83004"
+    },
+    {
+      "id": "p194_D1",
+      "storage": "embedded_png",
+      "pdf_page_1based": 197,
+      "crop_pdf_points": [
+        65,
+        545,
+        550,
+        620
+      ],
+      "render_scale": 4,
+      "width": 1940,
+      "height": 300,
+      "rgb_sha256": "050759b754a427275b66f540abb9f55a0c004ed450669806adcf0dc33a63da3b",
+      "fresh_render_cache": true,
+      "path": "sources/p194_D1.png",
+      "sha256": "0abf9da515e5a6ce09d6a0eb88dd365f51ed6856f9b34581fe4e1329b6e55cbe"
+    }
+  ],
+  "records": [
+    {
+      "id": "p70_B1",
+      "printed_page": 70,
+      "pdf_page_1based": 73,
+      "source_section": "B1",
+      "advertised_length": 206,
+      "source_rows": [
+        "FGV-- ADVDV GFXXF XFAFD VXFXA FGAAA",
+        "DDGVF FVFVA GFVFF VVDFG --XXA AADXV AAXDV XDXXX",
+        "DAXAX VFXAD FVA-X GXDAX AAFGX XGXDD GXXFG DDGGX",
+        "XDXVG GDDVV GAGAD DXFVF --DAG XDAFD DXXGA XXXGF",
+        "XGAFX DAAXX XADGV GVVVX DXXFD VGGDV XDAAD AADAV",
+        "XDVFG DAADF GGDFD V"
+      ],
+      "literal_sha256": "a7305f2018169112015e52427c4a7a4d6902e9a0fe6dc32861b5d9993cab809c",
+      "source_slots": 206,
+      "valid_source_coordinates": 199,
+      "masked_or_invalid_source_slots": [
+        {
+          "source_index": 3,
+          "glyph": "-"
+        },
+        {
+          "source_index": 4,
+          "glyph": "-"
+        },
+        {
+          "source_index": 50,
+          "glyph": "-"
+        },
+        {
+          "source_index": 51,
+          "glyph": "-"
+        },
+        {
+          "source_index": 83,
+          "glyph": "-"
+        },
+        {
+          "source_index": 130,
+          "glyph": "-"
+        },
+        {
+          "source_index": 131,
+          "glyph": "-"
+        }
+      ],
+      "source_observations": {
+        "annotations": [
+          {
+            "text": "(Jm’d)",
+            "source_boundary": 0,
+            "placement": "Before the first ciphertext group."
+          },
+          {
+            "text": "(Jm!d)",
+            "source_boundary": 30,
+            "placement": "To the right of the sixth ciphertext group; punctuation is irregular in the source."
+          },
+          {
+            "text": "(Continued on next page)",
+            "source_boundary": 206,
+            "placement": "Below the final row."
+          }
+        ],
+        "glyph_notes": [
+          "The two interruptions are annotations and are excluded from the source-coordinate count.",
+          "Seven printed dash slots are retained literally.",
+          "No same-header second part is present on printed page 71; its A header begins a separately identified two-part transmission."
+        ],
+        "row_geometry": [
+          {
+            "row": 0,
+            "source_start": 0,
+            "source_end": 30,
+            "groups": [
+              {
+                "literal": "FGV--",
+                "source_start": 0,
+                "source_end": 5
+              },
+              {
+                "literal": "ADVDV",
+                "source_start": 5,
+                "source_end": 10
+              },
+              {
+                "literal": "GFXXF",
+                "source_start": 10,
+                "source_end": 15
+              },
+              {
+                "literal": "XFAFD",
+                "source_start": 15,
+                "source_end": 20
+              },
+              {
+                "literal": "VXFXA",
+                "source_start": 20,
+                "source_end": 25
+              },
+              {
+                "literal": "FGAAA",
+                "source_start": 25,
+                "source_end": 30
+              }
+            ],
+            "approximate_pdf_baseline_y": 592
+          },
+          {
+            "row": 1,
+            "source_start": 30,
+            "source_end": 70,
+            "groups": [
+              {
+                "literal": "DDGVF",
+                "source_start": 30,
+                "source_end": 35
+              },
+              {
+                "literal": "FVFVA",
+                "source_start": 35,
+                "source_end": 40
+              },
+              {
+                "literal": "GFVFF",
+                "source_start": 40,
+                "source_end": 45
+              },
+              {
+                "literal": "VVDFG",
+                "source_start": 45,
+                "source_end": 50
+              },
+              {
+                "literal": "--XXA",
+                "source_start": 50,
+                "source_end": 55
+              },
+              {
+                "literal": "AADXV",
+                "source_start": 55,
+                "source_end": 60
+              },
+              {
+                "literal": "AAXDV",
+                "source_start": 60,
+                "source_end": 65
+              },
+              {
+                "literal": "XDXXX",
+                "source_start": 65,
+                "source_end": 70
+              }
+            ],
+            "approximate_pdf_baseline_y": 612
+          },
+          {
+            "row": 2,
+            "source_start": 70,
+            "source_end": 110,
+            "groups": [
+              {
+                "literal": "DAXAX",
+                "source_start": 70,
+                "source_end": 75
+              },
+              {
+                "literal": "VFXAD",
+                "source_start": 75,
+                "source_end": 80
+              },
+              {
+                "literal": "FVA-X",
+                "source_start": 80,
+                "source_end": 85
+              },
+              {
+                "literal": "GXDAX",
+                "source_start": 85,
+                "source_end": 90
+              },
+              {
+                "literal": "AAFGX",
+                "source_start": 90,
+                "source_end": 95
+              },
+              {
+                "literal": "XGXDD",
+                "source_start": 95,
+                "source_end": 100
+              },
+              {
+                "literal": "GXXFG",
+                "source_start": 100,
+                "source_end": 105
+              },
+              {
+                "literal": "DDGGX",
+                "source_start": 105,
+                "source_end": 110
+              }
+            ],
+            "approximate_pdf_baseline_y": 631
+          },
+          {
+            "row": 3,
+            "source_start": 110,
+            "source_end": 150,
+            "groups": [
+              {
+                "literal": "XDXVG",
+                "source_start": 110,
+                "source_end": 115
+              },
+              {
+                "literal": "GDDVV",
+                "source_start": 115,
+                "source_end": 120
+              },
+              {
+                "literal": "GAGAD",
+                "source_start": 120,
+                "source_end": 125
+              },
+              {
+                "literal": "DXFVF",
+                "source_start": 125,
+                "source_end": 130
+              },
+              {
+                "literal": "--DAG",
+                "source_start": 130,
+                "source_end": 135
+              },
+              {
+                "literal": "XDAFD",
+                "source_start": 135,
+                "source_end": 140
+              },
+              {
+                "literal": "DXXGA",
+                "source_start": 140,
+                "source_end": 145
+              },
+              {
+                "literal": "XXXGF",
+                "source_start": 145,
+                "source_end": 150
+              }
+            ],
+            "approximate_pdf_baseline_y": 650
+          },
+          {
+            "row": 4,
+            "source_start": 150,
+            "source_end": 190,
+            "groups": [
+              {
+                "literal": "XGAFX",
+                "source_start": 150,
+                "source_end": 155
+              },
+              {
+                "literal": "DAAXX",
+                "source_start": 155,
+                "source_end": 160
+              },
+              {
+                "literal": "XADGV",
+                "source_start": 160,
+                "source_end": 165
+              },
+              {
+                "literal": "GVVVX",
+                "source_start": 165,
+                "source_end": 170
+              },
+              {
+                "literal": "DXXFD",
+                "source_start": 170,
+                "source_end": 175
+              },
+              {
+                "literal": "VGGDV",
+                "source_start": 175,
+                "source_end": 180
+              },
+              {
+                "literal": "XDAAD",
+                "source_start": 180,
+                "source_end": 185
+              },
+              {
+                "literal": "AADAV",
+                "source_start": 185,
+                "source_end": 190
+              }
+            ],
+            "approximate_pdf_baseline_y": 670
+          },
+          {
+            "row": 5,
+            "source_start": 190,
+            "source_end": 206,
+            "groups": [
+              {
+                "literal": "XDVFG",
+                "source_start": 190,
+                "source_end": 195
+              },
+              {
+                "literal": "DAADF",
+                "source_start": 195,
+                "source_end": 200
+              },
+              {
+                "literal": "GGDFD",
+                "source_start": 200,
+                "source_end": 205
+              },
+              {
+                "literal": "V",
+                "source_start": 205,
+                "source_end": 206
+              }
+            ],
+            "approximate_pdf_baseline_y": 689
+          }
+        ]
+      },
+      "page_heading_literal": "6th OCTOBER, 1918.",
+      "header_transcription": "B) COS, POT, ASO v NKJ (9.05 p.m., October 6th) | COS FÜR POT 2 TLE | RICHI-206 | 1 TL",
+      "state": "OPEN",
+      "case_path": "cases/open/p70_B1.md",
+      "display_header_rows": [
+        "B) COS, POT, ASO v NKJ (9.05 p.m., October 6th)",
+        "COS FÜR POT 2 TLE",
+        "RICHI-206",
+        "1 TL"
+      ]
+    },
+    {
+      "id": "p127_B2",
+      "printed_page": 127,
+      "pdf_page_1based": 130,
+      "source_section": "B2",
+      "advertised_length": 152,
+      "source_rows": [
+        "AXAAD VVFGG DF--- AVGXF VAXVF GAFG- XXDX- XFFGG",
+        "XXXX- ----- XFFGG AADAX AXVX- ----- DA-FA XADXA",
+        "AVGXX ----- FXFDX GXVAG GVDDD VGFVA X-XFV GAVXV",
+        "FG--A XDFFA ----- ----- ----- ----- --"
+      ],
+      "literal_sha256": "b4390b530167f276e40aa2020fac9840cdf21b835891a62579a1df4a636d1b6c",
+      "source_slots": 152,
+      "valid_source_coordinates": 104,
+      "masked_or_invalid_source_slots": [
+        {
+          "source_index": 12,
+          "glyph": "-"
+        },
+        {
+          "source_index": 13,
+          "glyph": "-"
+        },
+        {
+          "source_index": 14,
+          "glyph": "-"
+        },
+        {
+          "source_index": 29,
+          "glyph": "-"
+        },
+        {
+          "source_index": 34,
+          "glyph": "-"
+        },
+        {
+          "source_index": 44,
+          "glyph": "-"
+        },
+        {
+          "source_index": 45,
+          "glyph": "-"
+        },
+        {
+          "source_index": 46,
+          "glyph": "-"
+        },
+        {
+          "source_index": 47,
+          "glyph": "-"
+        },
+        {
+          "source_index": 48,
+          "glyph": "-"
+        },
+        {
+          "source_index": 49,
+          "glyph": "-"
+        },
+        {
+          "source_index": 64,
+          "glyph": "-"
+        },
+        {
+          "source_index": 65,
+          "glyph": "-"
+        },
+        {
+          "source_index": 66,
+          "glyph": "-"
+        },
+        {
+          "source_index": 67,
+          "glyph": "-"
+        },
+        {
+          "source_index": 68,
+          "glyph": "-"
+        },
+        {
+          "source_index": 69,
+          "glyph": "-"
+        },
+        {
+          "source_index": 72,
+          "glyph": "-"
+        },
+        {
+          "source_index": 85,
+          "glyph": "-"
+        },
+        {
+          "source_index": 86,
+          "glyph": "-"
+        },
+        {
+          "source_index": 87,
+          "glyph": "-"
+        },
+        {
+          "source_index": 88,
+          "glyph": "-"
+        },
+        {
+          "source_index": 89,
+          "glyph": "-"
+        },
+        {
+          "source_index": 111,
+          "glyph": "-"
+        },
+        {
+          "source_index": 122,
+          "glyph": "-"
+        },
+        {
+          "source_index": 123,
+          "glyph": "-"
+        },
+        {
+          "source_index": 130,
+          "glyph": "-"
+        },
+        {
+          "source_index": 131,
+          "glyph": "-"
+        },
+        {
+          "source_index": 132,
+          "glyph": "-"
+        },
+        {
+          "source_index": 133,
+          "glyph": "-"
+        },
+        {
+          "source_index": 134,
+          "glyph": "-"
+        },
+        {
+          "source_index": 135,
+          "glyph": "-"
+        },
+        {
+          "source_index": 136,
+          "glyph": "-"
+        },
+        {
+          "source_index": 137,
+          "glyph": "-"
+        },
+        {
+          "source_index": 138,
+          "glyph": "-"
+        },
+        {
+          "source_index": 139,
+          "glyph": "-"
+        },
+        {
+          "source_index": 140,
+          "glyph": "-"
+        },
+        {
+          "source_index": 141,
+          "glyph": "-"
+        },
+        {
+          "source_index": 142,
+          "glyph": "-"
+        },
+        {
+          "source_index": 143,
+          "glyph": "-"
+        },
+        {
+          "source_index": 144,
+          "glyph": "-"
+        },
+        {
+          "source_index": 145,
+          "glyph": "-"
+        },
+        {
+          "source_index": 146,
+          "glyph": "-"
+        },
+        {
+          "source_index": 147,
+          "glyph": "-"
+        },
+        {
+          "source_index": 148,
+          "glyph": "-"
+        },
+        {
+          "source_index": 149,
+          "glyph": "-"
+        },
+        {
+          "source_index": 150,
+          "glyph": "-"
+        },
+        {
+          "source_index": 151,
+          "glyph": "-"
+        }
+      ],
+      "source_observations": {},
+      "page_heading_literal": "4th NOVEMBER,1918",
+      "header_transcription": "B) LP v NKJ (9.45 p.m., November5th);2200;2TLE;2TL;RIZI-152",
+      "state": "OPEN",
+      "case_path": "cases/open/p127_B2.md",
+      "display_header_rows": [
+        "B) LP v NKJ (9.45 p.m., November 5th)",
+        "2200   2 TLE",
+        "2 TL",
+        "RIZI-152"
+      ]
+    },
+    {
+      "id": "p145_A",
+      "printed_page": 145,
+      "pdf_page_1based": 148,
+      "source_section": "A",
+      "advertised_length": null,
+      "source_rows": [
+        "----- FDVXF AVXXF AXAFA XVVGA XXFDD FVDVA XFAFF",
+        "XFGVX FFVFG VAGVV GAXGD XAXGX AAVXA AXAXA XDGGD",
+        "XAXFX AADXV AVXAX AFAXD XDFVX XVGAX XFXAD DAVFV",
+        "XADAG XGDGD DAXFA XAXFV XVAVG FVGFV FAADD VAAAD",
+        "FGAFX AXFFV GVFVD VDVAV AVXXX FAXFG AD"
+      ],
+      "literal_sha256": "eb4c91ac75228c617fd07de3540130d542fa4fe78356c30ee44ee1aa0ab966c0",
+      "source_slots": 192,
+      "valid_source_coordinates": 187,
+      "masked_or_invalid_source_slots": [
+        {
+          "source_index": 0,
+          "glyph": "-"
+        },
+        {
+          "source_index": 1,
+          "glyph": "-"
+        },
+        {
+          "source_index": 2,
+          "glyph": "-"
+        },
+        {
+          "source_index": 3,
+          "glyph": "-"
+        },
+        {
+          "source_index": 4,
+          "glyph": "-"
+        }
+      ],
+      "source_observations": {
+        "source_boundary_note": "The nine-dash run is in theleftRICHI/designator margin; onlythefive-dash run alignswith thecipherfirstcolumn.",
+        "source_geometry": {
+          "label_run_x_pdf_points_approx": [
+            62,
+            122
+          ],
+          "first_cipher_column_x_pdf_points_approx": 136,
+          "second_cipher_column_x_pdf_points_approx": 182,
+          "evidence": "The nine-dash labelrun is left of all subsequent ciphertext rows and aligned with RICHI labels of adjacentB. The five-dash run aligns with subsequentfirstciphercolumn XFGVX and adjacent B firstciphergroup AVXXD."
+        },
+        "source_label_placeholder": "---------",
+        "leading_source_mask_run": "-----",
+        "trailing_cleartext": "NF HVC U",
+        "endpoint_note": "Final AD retained as two ciphertext coordinates before separate NF HVC U; no extra source exclusion."
+      },
+      "page_heading_literal": "6th NOVEMBER,1918",
+      "header_transcription": "A) --- v HVC (02.28 a.m., November7th);(missedfirstpart);--------- [labelplaceholder]",
+      "state": "OPEN",
+      "case_path": "cases/open/p145_A.md",
+      "display_header_rows": [
+        "A) --- v HVC (02.28 a.m., November 7th)",
+        "(missed first part)"
+      ]
+    },
+    {
+      "id": "p194_D1",
+      "printed_page": 194,
+      "pdf_page_1based": 197,
+      "source_section": "D1",
+      "advertised_length": 214,
+      "source_rows": [
+        "GAFGG AAVAA AFXVX GAXGF AAFGX FDAXX XXVGA AVVVV",
+        "DXFVV"
+      ],
+      "literal_sha256": "754ce67417b4fc11f7aa2d23d5d045aa36aa7000fad5b7e3a95260cf1f18fa39",
+      "source_slots": 45,
+      "valid_source_coordinates": 45,
+      "masked_or_invalid_source_slots": [],
+      "source_observations": {},
+      "header_transcription": "D) LP v WAU(7.47 a.m., November16th); SSDD0930(15)2TLE;1TL;RICHI-214",
+      "state": "OPEN",
+      "case_path": "cases/open/p194_D1.md",
+      "display_header_rows": [
+        "D) LP v WAU (7.47 a.m., November 16th)",
+        "SSDD 0930 (15)   2 TLE",
+        "1 TL",
+        "RICHI-214"
+      ]
+    }
+  ],
+  "limits": [
+    "OPEN means no accepted body reading; clear headers and advertised lengths are metadata, not decrypted text.",
+    "Received slots, printed masks and unprinted coordinate deficits are counted separately.",
+    "The shared source-only package does not imply shared keys, traffic or lost-message geometry."
+  ]
+}

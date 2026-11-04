@@ -1,8 +1,6 @@
 # Receipt request through Nikolajew: the other p105 telegram
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
@@ -24,11 +22,16 @@ The published `Nov1-3` key is unchanged. [Earlier OCR evidence](../../experiment
 
 **Source transcription — header:** `A) FUER UKS v LP (5.10 p.m., November 2nd); 1530 (2/11); RICHI-300`
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — every native source slot in printed order:**
 
 ```text
 ANXOBERKDOXMACKENSENXEMPFANGSBESTAETIGUNGXVONXRMX1XAXA1118XGEHXOPXUNDXRMX1XAX111M7XGEHXOPXUEBERXNIKOLAJEWXDURCHXFTXERBETENXOHLXRMX1XAXNOX104716XGEWXOP
 ```
+
+</details>
 
 **Readable German — the same nonseparator labels as the unchanged raw output:**
 
@@ -77,4 +80,4 @@ Run `python experiments/nov2_nikolajew_acknowledgment/verify.py --verify`. Add `
 
 The verifier reconstructs source-coordinate pairs, checks raw domains, replays all priced changes, verifies the readable display without dropping unresolved labels, and checks a global completion witness where required. Such a completion is mechanical evidence, not a historical guess.
 
-Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.
+Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro.

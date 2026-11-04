@@ -1,8 +1,6 @@
 # Aerial reconnaissance of ferries and horse loading
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p144 C1
 
@@ -11,6 +9,9 @@
 **Source and dates:** Page heading: 6th NOVEMBER, 1918; C) UKS v ZON (---- November 7th); 1 TL RICHI-142.
 
 ![Source p144 C1](../../experiments/nov6_resale_and_air_reconnaissance/sources/p144_C1.png)
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -23,6 +24,8 @@ OXKXM5XL?FTERKUN?UNG5X11X?BEIKIAD?VOFAEHRE?XVE?PMD?NGV?4PFE?DEN?TKANNTX
 ```text
 OXKXM5XLUFTERKUNDUNG5X11X?BEIKIAD?VOFAEHRENXVERLADUNGVONPFERDENERKANNTX
 ```
+
+</details>
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
@@ -56,4 +59,4 @@ All indices are zero-based. Unknown slots retain their position.
 
 The [input](../../experiments/nov6_resale_and_air_reconnaissance/inputs.json) binds the literal transcription to exact PDF crops. The [certificate](../../experiments/nov6_resale_and_air_reconnaissance/certificates.json) gives the raw paired-coordinate domains, every source change, and the forward checks. The [verifier](../../experiments/nov6_resale_and_air_reconnaissance/verify.py) reproduces them without changing the published Nov4–6 key.
 
-This edition is by icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical source; Lasry, Niebel, Kopal and Wacker supply the published reconstruction and key provenance. Earlier repository OCR and the p136/p152 continuation analysis are retained in the [attribution record](../../experiments/nov6_resale_and_air_reconnaissance/prior_candidates.json). No first-decipherment priority is claimed.
+This edition is by icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical source; Lasry, Niebel, Kopal and Wacker supply the published reconstruction and key provenance. Earlier repository OCR and the p136/p152 continuation analysis are retained in the [attribution record](../../experiments/nov6_resale_and_air_reconnaissance/prior_candidates.json).

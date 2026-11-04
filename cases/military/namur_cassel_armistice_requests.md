@@ -1,14 +1,12 @@
 # Namur arrival, Cassel transport and armistice-information requests
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 These four surviving source bodies report an arrival at Namur, direct prompt transport arrangements to Cassel, and request the local armistice conditions again. The Namur telegram explicitly lacks its second part; its first and third parts are presented without bridging that gap. Literal office labels, an opaque transport field and source-length spellings remain visible.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p172 excerpt](../../experiments/namur_cassel_armistice_requests/sources/p172_reviewed.png) · [Reviewed p180 excerpt](../../experiments/namur_cassel_armistice_requests/sources/p180_reviewed.png) · [Reviewed p181 excerpt](../../experiments/namur_cassel_armistice_requests/sources/p181_reviewed.png) · [Exact inputs](../../experiments/namur_cassel_armistice_requests/inputs.json) · [Position-by-position certificates](../../experiments/namur_cassel_armistice_requests/certificates.json)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p172 excerpt](../../experiments/namur_cassel_armistice_requests/sources/p172_reviewed.png) · [Reviewed p180 excerpt](../../experiments/namur_cassel_armistice_requests/sources/p180_reviewed.png) · [Reviewed p181 excerpt](../../experiments/namur_cassel_armistice_requests/sources/p181_reviewed.png) · [Exact inputs](../../experiments/namur_cassel_armistice_requests/inputs.json) · [Position-by-position certificates](../../experiments/namur_cassel_armistice_requests/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 The unchanged published keys are `Nov10-12`, `Nov13-15b`. The [earlier unreviewed candidates](../../experiments/namur_cassel_armistice_requests/prior_candidates.json) and [original OCR records](../../experiments/namur_cassel_armistice_requests/ocr_snapshot.json) are preserved. The present work supplies an image-reviewed source edition and a reproducible repair account; it does not claim that every body is a first public decipherment.
 
@@ -29,6 +27,9 @@ The unchanged published keys are `Nov10-12`, `Nov13-15b`. The [earlier unreviewe
 
 **Meaning:** The first surviving part names Major Kroeger and reports a recent arrival at Namur. The opening may address Kroeger, so the arriving person is not securely identified. GHQU and RXABLASS remain opaque labels. The surviving third part closes with Hpt. Mannstaedt, and the source explicitly marks part 2 as missing.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
@@ -40,6 +41,8 @@ MAJORKROEGERXGHQUXIOEBENXMITXXRXABLASSXNAMURXEINGETROFFENX
 ```text
 MAJORKROEGERXGHQUXSOEBENXMITXXRXABLASSXNAMURXEINGETROFFENX
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 
@@ -57,11 +60,16 @@ MAJORKROEGERXGHQUXSOEBENXMITXXRXABLASSXNAMURXEINGETROFFENX
 
 **Meaning:** The surviving third part asks for a response on the preceding matter and closes with the literal signature Hpt. Mannstaedt. The intervening second part is absent from the printed source.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
 ERBITTENXHIERUEBERXBESCHEIDXHPTXMANNSTAEDT
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 
@@ -78,6 +86,9 @@ ERBITTENXHIERUEBERXBESCHEIDXHPTXMANNSTAEDT
 
 **Meaning:** The instruction addresses Lt. Bauman, calls for immediate readiness to move, and directs transport to Cassel to be arranged as quickly as possible. The spelling STATON and the literal fields 0 and M? TRANSPORT remain unresolved; the specific transport type is not identified.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
@@ -89,6 +100,8 @@ LTXBAUMANXSTATONSOFORTXMARSCHBERECT0SEINFUERXM?TRANSPORTXCASSELXABTRANSPORTSOSCH
 ```text
 LTXBAUMANXSTATONSOFORTXMARSCHBEREIT0SEINFUERXM?TRANSPORTXCASSELXABTRANSPORTSOSCHNELLWIEMOEGLICHREGELNXKOMMANDEUR
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 
@@ -108,6 +121,9 @@ LTXBAUMANXSTATONSOFORTXMARSCHBEREIT0SEINFUERXM?TRANSPORTXCASSELXABTRANSPORTSOSCH
 
 **Meaning:** The sender again asks OHL, OKM and the literal addressee AOK11 for the specific armistice conditions applying to the local theater of operations. The text is a request for information, not the conditions themselves.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
@@ -120,6 +136,8 @@ ANXOHLXXOKMXUNDAOK11XERBITTENNOCHMALSMITTEILU?GDERBESONDERENXWAFFENS2ILLSTAXDSBE
 ANXOHLXXOKMXUNDAOK11XERBITTENNOCHMALSMITTEILUNGDERBESONDERENXWAFFENSTILLSTANDSBEDINGUNGENFUERHIESIGENKRIEGSSCHAUPLATZ
 ```
 
+</details>
+
 **Unresolved details and editorial limits.**
 
 - The printed source has one non-coordinate glyph O in OADDG. It occupies a source slot, is masked in the raw model, and is filled explicitly for MITTEILUNG.
@@ -128,7 +146,7 @@ ANXOHLXXOKMXUNDAOK11XERBITTENNOCHMALSMITTEILUNGDERBESONDERENXWAFFENSTILLSTANDSBE
 
 ## Evidence and credit
 
-Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.
+Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro.
 
 The certificates replay every coordinate alteration, compare the independent column/domain reconstruction with the cipher implementation, and re-encrypt every complete edited output. For a partial output, an injective global completion of the square and residual source masks supplies an explicitly nonhistorical roundtrip witness. Each readable passage preserves every nonseparator output label; literal protected fields are also checked without removing their internal separators. Source crops are bound to the original PDF by page, rectangle, scale, file digest and RGB-pixel digest.
 

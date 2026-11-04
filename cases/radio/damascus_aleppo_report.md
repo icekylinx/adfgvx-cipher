@@ -1,6 +1,6 @@
 # Damascus radio station and a smaller transmitter at Aleppo
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -17,6 +17,9 @@ The [source crop](../../experiments/p64_oil_and_radio/sources/p64_B.png)
 has **176 slots**, including one printed dash, matching `RICHI-176`.
 It uses the unchanged published **Oct4–6** key.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 176-coordinate frame:**
 
 ```text
@@ -29,6 +32,8 @@ dash still unfilled:**
 ```text
 NACHRCHEFXRADIODAMASKUSAM1X10X?600UHRGESPRENGTXKLEINERSENDERINALEPPOXAKONACH70XNRX30056X
 ```
+
+</details>
 
 **Readable German — spacing and punctuation of that candidate:**
 

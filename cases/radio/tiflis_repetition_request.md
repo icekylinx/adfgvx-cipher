@@ -1,6 +1,6 @@
 # Tiflis: request to repeat an encrypted telegram
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -11,6 +11,9 @@ Childs p77 A, PDF p80, is headed
 The [source crop](../../experiments/tiflis_repetition_request/sources/p77_A.png)
 contains exactly **314 valid coordinates**, matching `RICHI-314`.
 It uses the unchanged published **Oct28–31** key.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — native 314-coordinate frame:**
 
@@ -23,6 +26,8 @@ ZUERXBXDX5XMXKAUKASUSXTIFLISXXERBITT4NXWIEDERHOLUNGXCHIFFRIERTENXTELEGRAMMSXVOMX
 ```text
 FUERXBXDX5XMXKAUKASUSXTIFLISXXERBITTENXWIEDERHOLUNGXCHIFFRIERTENXTELEGRAMMSXVOMXEINUNDZWANZIGSTENXZEHNTENXCHIXZ53X12X10XUNTERSCHRIFTXX1874XSTRICHXZXROTX692XX
 ```
+
+</details>
 
 The exact changes are source **91 V→F** and **244 X→G**. They repair
 `ZUER` and `ERBITT4N`; every other plaintext position stays literal.

@@ -1,6 +1,6 @@
 # Armistice-departure report: the p151/p157 copy relation
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source comparison and edition: icekylinx and GPT-6 Astra Pro.**
 
@@ -55,15 +55,23 @@ exhaustive optimum over other total lengths is claimed.
 
 ## p157 A1
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — p157 coordinates only, with 105 absent prefix slots and two local gaps masked; conditional 190-slot frame, 0/95 fixed positions:**
 
 ```text
 ???????????????????????????????????????????????????????????????????????????????????????????????
 ```
 
+</details>
+
 Every pair still depends on at least one missing coordinate in this frame.
 The certificate retains the individual domains; the question marks do not
 mean that all 36 symbols are possible at every position.
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — fill the 112 masked or absent slots from the stated p151 candidate, before changing any observed p157 coordinate:**
 
@@ -71,16 +79,23 @@ mean that all 36 symbols are possible at every position.
 OHLXBPHXNACHRICHBVONABREISSDEUTSCHERUAFFENSTILLSTANDSKOMMISSIONHATANSAHEINENDGEMELDETENSTURZFSS
 ```
 
+</details>
+
 The 112 fills comprise **105 prefix fills, two short-group fills and five
 printed-mask fills**. Of these, 111 have actual p151 coordinate counterparts;
 one is the earlier conditional D supplying GEMELDETEN. Fixed positions in
 this copy-assisted layer are never counted as fixed raw p157 positions.
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — same copy-conditioned frame, five observed p157 substitutions plus the 112 separately accounted fills; opaque ending retained:**
 
 ```text
 OHLXBPXXNACHRICHTVONABREISEDEUTSCHERWAFFENSTILLSTANDSKOMMISSIONHATANSCHEINENDGEMELDETENSTURZFSS
 ```
+
+</details>
 
 The primary p157 substitutions are **9 X→V, 10 X→V, 11 X→V, 12 V→X,
 71 X→F**. The local gap values are V at source boundary 3 and D at boundary
@@ -138,11 +153,16 @@ that continuation to a proposed STURZ DES ending would read “Sturz des
 Ministeriums herbeigeführt.” This is a contextual proposal about the fall
 of a ministry, with the following additional cost.
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — further contextual STURZ DES proposal; two additional observed p151 substitutions, neither observed on the surviving p157 source:**
 
 ```text
 OHLXBPXXNACHRICHTVONABREISEDEUTSCHERWAFFENSTILLSTANDSKOMMISSIONHATANSCHEINENDGEMELDETENSTURZDES
 ```
+
+</details>
 
 Relative to the primary STURZFSS reading, this changes p151 source
 **103 X→V** for F→D and **46 X→V** for S→E. Both counterpart positions lie

@@ -1,6 +1,6 @@
 # p163 A16 — Conditional infrastructure clause in a jammed continuation
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and conditional reconstruction: icekylinx and GPT-6 Astra Pro.**
 The unnumbered fragment between parts 15 and 17 permits a partial clause about
@@ -24,21 +24,31 @@ source coordinate 172 from `G` to `D` to obtain `ERFOLGTNOCHBEFEHL`.
 Its `NOCHBEFEHL` portion is entirely observed without changes. None of that
 inherited repair is counted as a new A16 correction.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional 286-slot frame with 165 added leading unknown coordinates; unchanged Nov7–9 partial key; 0/143 fixed positions:**
 
 ```text
 ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
 ```
 
+</details>
+
 The received source constrains one half of many letter pairs, even though it
 does not fully determine a single plaintext position in this model. The
 certificate retains every half-coordinate domain and its received-source owner.
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — proposed clause at positions 84–142; zero observed substitutions, zero printed-mask fills and 65 added-slot fills; 59/143 assigned positions:**
 
 ```text
 ????????????????????????????????????????????????????????????????????????????????????WEGENZERSTOERUNGVONEISENBAHNENXSTRASSENUNDTELEPHONLEITUNGEN
 ```
+
+</details>
 
 The first **84 plaintext positions** remain unresolved, including the optional
 numbered heading. Of the 165 inferred missing coordinates, 100 remain
@@ -98,6 +108,9 @@ point 7 from the previous part.
 
 ## Source and independent checks
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — all 121 received coordinates in printed order; no added prefix is included here:**
 
 ```text
@@ -106,6 +119,8 @@ DDVVV DGXVV DXGVX VFDDD DXGXV GDXAX VGDVD GDGVV
 GDVVG GAGVV VVVVX XVVAG DADXD DDDXD DXXGA DDDDG
 XXGXD A
 ```
+
+</details>
 
 The page labels this fragment `J'md` and `RICHI----`. Its first surviving row
 has seven five-coordinate groups; two full rows and the final six coordinates

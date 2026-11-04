@@ -1,12 +1,10 @@
 # A parallel car enquiry with an explicit extra-coordinate model
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 The p183 D source is almost identical to the independently readable car enquiry in p183 E, but it has an extra observed coordinate and one other disagreement. This edition preserves D's native odd-length diagnostic and separately prices a parallel-copy proposal. The wording was already obtained directly from E; D adds another physical witness with explicit limitations.
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed D/E image](../../experiments/car_query_parallel_frame/sources/p183_D_E.png) · [Inputs](../../experiments/car_query_parallel_frame/inputs.json) · [All position and exclusion certificates](../../experiments/car_query_parallel_frame/certificates.json) · [Native E edition](nov12_arrival_departure_and_car.md#p183-e)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed D/E image](../../experiments/car_query_parallel_frame/sources/p183_D_E.png) · [Inputs](../../experiments/car_query_parallel_frame/inputs.json) · [All position and exclusion certificates](../../experiments/car_query_parallel_frame/certificates.json) · [Native E edition](nov12_arrival_departure_and_car.md#p183-e) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## The three lengths remain distinct
 
@@ -19,11 +17,16 @@ The p183 D source is almost identical to the independently readable car enquiry 
 
 D's literal header is `D) CZ v CM (17.20 p.m., November 12th); 12.40; RIZI-27`.
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — the complete 37-coordinate printed body:**
 
 ```text
 AAXDF AVDFA AADAG FVVAG DDAGV DDVFF VGDVG DX
 ```
+
+</details>
 
 The following `CM UM` is printed transmission control outside that body. D and E retain their different routing directions and time expressions. No unrecorded historical retransmission or cancellation is asserted.
 
@@ -31,11 +34,16 @@ The following `CM UM` is printed transmission control outside that body. D and E
 
 Undoing the published Nov10–12 transposition gives 18 complete pairs and one unpaired coordinate. The complete-pair diagnostic is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — complete pairs of the unchanged 37-coordinate source; the unpaired coordinate is recorded separately:**
 
 ```text
 AUPOXKRAMMTGIUTRF?
 ```
+
+</details>
 
 The unpaired coordinate is **V at native source index 6**, occupying intermediate index 36. It is retained explicitly in the certificate. It is not the final printed X later excluded in the comparison model. The final question mark in this diagnostic comes from an unassigned square cell, not from a missing printed glyph.
 
@@ -43,21 +51,31 @@ The unpaired coordinate is **V at native source index 6**, occupying intermediat
 
 The native E source supplies the independently fixed target `WOBLEIBTAUTOXKRAMM`. Against that target, excluding each of D's 37 observed positions in turn gives a unique lowest substitution cost when excluding **final source index 36, X**. In that frame, before any coordinate substitution, D reads:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional 36-coordinate frame excluding observed source 36 (X):**
 
 ```text
 WOBLEIBTAUTODKRAMM
 ```
 
+</details>
+
 The exclusion is a hypothesis based on the parallel source. The printed X is not visually canceled, and its exclusion is not justified merely by the existence of an odd count or by the printed 27 header.
 
 ## Edited output — one observed-coordinate exclusion and one substitution
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — conditional exclusion of observed source 36 (X) and substitution at retained source 3 (D→X):**
 
 ```text
 WOBLEIBTAUTOXKRAMM
 ```
+
+</details>
 
 **Readable German — exact nonseparator labels of the conditional edited output:**
 

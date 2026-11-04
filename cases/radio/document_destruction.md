@@ -1,6 +1,6 @@
 # Destroy written material and report by telephone
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -17,6 +17,9 @@ System*, [printed p177, PDF p180](https://drive.google.com/file/d/1_JiNMck7eUvdr
 The [source crop](../../experiments/november_radio_service/sources/childs_p177_A.png)
 retains both the page heading and reception line:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -26,6 +29,8 @@ A) MSX v MUA (11.50 a.m., November 10th)
 RIZI-186
 ```
 
+</details>
+
 The heading's November 11 and reception line's November 10 are preserved
 without resolving the chronology. No historical identities are assigned to
 MSX or MUA from the document-destruction wording alone.
@@ -33,11 +38,16 @@ MSX or MUA from the document-destruction wording alone.
 All 186 source coordinates are valid. The conservative published square fixes
 92 of 93 raw positions:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ALLESCHRIFTSTUECKEBISAUFNOTWENDIGESSCHLUESSELMATERIALVERNICHTENXME?DUNGGESLHEHENENTELEFONISCH
 ```
+
+</details>
 
 The `?` comes from an **unassigned square cell**, not an unreadable source
 coordinate. Its available labels are `56789` under the conservative partial
@@ -49,11 +59,16 @@ anchors; this edition does not do so.
 Two received-coordinate substitutions instead move the affected pairs to
 already known letter cells:
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output:**
 
 ```text
 ALLESCHRIFTSTUECKEBISAUFNOTWENDIGESSCHLUESSELMATERIALVERNICHTENXMELDUNGGESCHEHENENTELEFONISCH
 ```
+
+</details>
 
 Readable German, with an unencoded grammatical word explicitly bracketed:
 

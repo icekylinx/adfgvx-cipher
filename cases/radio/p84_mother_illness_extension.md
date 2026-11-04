@@ -1,8 +1,6 @@
 # p84 C — Illness and a request to come
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Evidence and verifier](../../experiments/p84_mother_illness_fragment/README.md)
+[Evidence and verifier](../../experiments/p84_mother_illness_fragment/README.md) · [Reading conventions](../../docs/reading-conventions.md)
 · [Earlier field-post fragment](p84_field_post_fragment.md)
 
 **Recovery and review: icekylinx and GPT-6 Astra Pro, 4 November 2026.**
@@ -39,6 +37,9 @@ Childs, printed p84 / PDF p87, labels the reception
 `C) FUER COS (4.30 a.m., November 1st)` and `1810 (30); RICHI-244`.
 The page heading is October 30. The source ends with **Balance jammed**.
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — all 118 printed slots; seven dash masks and the short FDFG group retained:**
 
 ```text
@@ -46,6 +47,8 @@ AFDAX AXGFD GXAVV AXDVG DAADV VXAGX GDVAA AXGGX
 AAAXA FXDDG DXXGX DFDVF FAXXX FXGGA AXGFG FDFG
 DADDA AVAFV XGXAD AAAAX DVXAF XAXXG FA--- ----
 ```
+
+</details>
 
 As in the earlier edition, one unobserved slot is inserted inside or beside
 the four-character `FDFG` group, before source index **75, 76, 77, 78 or 79**.
@@ -74,6 +77,9 @@ substitutions are not adopted as source corrections.
 
 ## Raw and edited outputs
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — common to all five frames; 14/122 fixed positions; no fills or observed substitutions:**
 
 ```text
@@ -91,6 +97,8 @@ substitutions are not adopted as source corrections.
 ```text
 ??9????????G????????U????????E????????R????????DEUTSCHEFELDPOST??7??MITTELSCHWERKRANKBITTEKOMMX??????N????????E????????G??
 ```
+
+</details>
 
 The new string occupies zero-based positions **68–94**. In frames 78 and 79,
 it retains **24 observed supporting coordinates**: `S` at 74, `N` at 83 and

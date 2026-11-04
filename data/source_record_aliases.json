@@ -1,0 +1,60 @@
+{
+  "schema": "adfgvx-source-record-aliases-v1",
+  "prepared_by": "icekylinx and GPT-6 Astra Pro",
+  "review_date_utc": "2026-11-04",
+  "scope": "Restricted identifiers inside existing source evidence. Every live catalogue location must remain unique.",
+  "records": [
+    {
+      "canonical_id": "p132",
+      "printed_page": 132,
+      "source_section": "B",
+      "source_slots": 155,
+      "literal_source_sha256": "66115bd2941724f227aa9b34651f977127c0bf27bc4b2aee3dd876f804ce79a1",
+      "canonical_case_path": "cases/p132.md",
+      "canonical_evidence": {
+        "path": "data/messages.json",
+        "records_key": "messages",
+        "record_id": "p132",
+        "literal_fields": [
+          "transcript",
+          "raw_source_compact"
+        ],
+        "printed_page_fields": [
+          "source",
+          "printed_page"
+        ],
+        "source_section_fields": [
+          "source",
+          "section"
+        ]
+      },
+      "finding": "The complete literal ciphertext, source location, header and published key agree. p132_B is a later source/model edition of challenge p132, not another reception or physical source.",
+      "record_alias": "p132_B",
+      "alias_evidence": {
+        "path": "experiments/november_radio_service/inputs.json",
+        "records_key": "records",
+        "record_id": "p132_B",
+        "literal_fields": [
+          "literal_source"
+        ],
+        "printed_page_fields": [
+          "printed_page"
+        ],
+        "source_section_fields": [
+          "source_section"
+        ]
+      },
+      "prior_reading_credit": "Thomas (fragment) and Norbert (body), 2017",
+      "evidence_paths": [
+        "experiments/november_radio_service/inputs.json",
+        "experiments/november_radio_service/certificates.json",
+        "experiments/november_radio_service/geometry_audit.json"
+      ],
+      "counting_rule": "The catalogue contains only canonical p132. The identifier p132_B is retained inside specifically registered historical evidence files and never creates a second catalogue entry."
+    }
+  ],
+  "limits": [
+    "An evidence alias requires exact literal-source identity at the same printed page and section. Similar readings or separately received copies do not qualify.",
+    "Alias lookup is restricted to an explicit canonical catalogue row, evidence path and record identifier; there is no inferred or fallback remapping."
+  ]
+}

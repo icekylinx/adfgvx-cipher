@@ -1,6 +1,6 @@
 # November 3 radio transmission schedule: surviving second part
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
@@ -13,6 +13,9 @@ The published Nov1–3 square and column order are unchanged.
 
 ### p110 A2
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output:**
 
 ```text
@@ -24,6 +27,8 @@ The published Nov1–3 square and column order are unchanged.
 ```text
 1000BIS1200X1545BIS1645X2100BIS2230XXOSMXSENDET0200BIS0330X0430BIS0530X0900BIS0X45X1900BIS0025X2230BIS2300XXRINGBAHNVERKERAENDERTSICHNICHTXX
 ```
+
+</details>
 
 Cost: **2 observed-coordinate substitutions** and **0 source-mask fills**. Source length and transposition are unchanged.
 

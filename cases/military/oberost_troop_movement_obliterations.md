@@ -1,14 +1,12 @@
 # Ober Ost troop movements: a conditional reading across two obliterations
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 The first part of p186 B proposes troop movements within the Ober Ost territory. This reading depends on explicitly excluding two obliterated group-width regions. The surviving second part independently describes soldiers wanting to travel home without authorization; it is published in the [native companion edition](home_departures_baltic_transport.md#p186-b2).
 
 ## Source geometry and its limits
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p186 excerpt](../../experiments/oberost_troop_movement_obliterations/sources/p186_reviewed.png) · [Inputs](../../experiments/oberost_troop_movement_obliterations/inputs.json) · [Position certificates and controls](../../experiments/oberost_troop_movement_obliterations/certificates.json)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p186 excerpt](../../experiments/oberost_troop_movement_obliterations/sources/p186_reviewed.png) · [Inputs](../../experiments/oberost_troop_movement_obliterations/inputs.json) · [Position certificates and controls](../../experiments/oberost_troop_movement_obliterations/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source transcription — header:** `B) NKJ v LP (06.23 a.m., November 13th); FUER WAU 07.00 2 TLE; 1 TL RICHI-308`
 
@@ -28,6 +26,9 @@ The certificate preserves all four choices: retain both regions (318 positions),
 
 ## p186 B1
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — retain both five-mask regions in the 318-position composite layout; diagnostic only:**
 
 ```text
@@ -45,6 +46,8 @@ GENXGOUVXWARSCHAUXZ0FORTX?MX1AXNRR6?1X15XGENXVX10X11XISTANOBOSTGEDRAHTETXXESWIRD
 ```text
 GENXGOUVXWARSCHAUXZ0FORTX?MX1AXNRR6?1X15XGENXVX10X11XISTANOBOSTGEDRAHTETXXESWIRDVORGESCHLAGENXTRUPPENVERSCHIEBUNGENINNERHALBDESOBEROSTGEBIETSVORZUNEHMENXX
 ```
+
+</details>
 
 All indices below refer to the 318-position composite source layout. The observed substitution is **88 D→V**. The two source-mask fills are **91 Y-like glyph→X** and **137 C/G-shaped glyph→G**. The ten excluded masks do not receive guessed coordinate values and are not counted as fills.
 
@@ -74,7 +77,7 @@ These counts exclude the already separate native second part. The certificate's 
 
 ## Evidence, credit and reproduction
 
-Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.
+Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro.
 
 [Earlier OCR candidates](../../experiments/oberost_troop_movement_obliterations/prior_candidates.json) and the [original OCR snapshot](../../experiments/oberost_troop_movement_obliterations/ocr_snapshot.json) remain separately frozen. The new source analysis does not treat an OCR token count as a historical received length.
 

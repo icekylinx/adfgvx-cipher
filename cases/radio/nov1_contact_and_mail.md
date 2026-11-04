@@ -1,11 +1,9 @@
 # November 1 contact times, service mail and receipt acknowledgment
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 Prepared by **icekylinx and GPT-6 Astra Pro**. These four physical records
 appear on Childs printed p99, under the November 1 heading. They use the
 published `Nov1-3` square and column ranks. The accompanying
-[Sava-crossing report](../military/sava_crossing_evening_report.md) is a
+[Sava-crossing report](../military/sava_crossing_evening_report.md) is a · [Reading conventions](../../docs/reading-conventions.md)
 separate message on the same page.
 
 The [full page](../../experiments/nov1_contact_mail_and_sava/sources/p99_full.png),
@@ -32,6 +30,9 @@ partial body. This is an explicit **134-slot conditional frame**, retaining
 all 133 source slots. The literal 133-slot output and its unpaired coordinate
 remain in the certificate.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional 134-slot frame, with one appended unknown coordinate**
 
 ```text
@@ -43,6 +44,8 @@ remain in the certificate.
 ```text
 ERBITTENVORSCHLAGFUERVERKEHRSZEITENXWI??E?RINGBAHNZEITENXAKONACHELF
 ```
+
+</details>
 
 The edited layer has **64/67 fixed positions**. It fills 21 source masks
 (20 dashes and the `E` at source 38) and the one missing coordinate. The
@@ -93,6 +96,9 @@ shows 136 slots, including 14 dashes. Its last line contains the visible
 three-coordinate group `AAA` after two dashes. Those three `A` characters
 are retained as observed coordinates.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 136-slot frame**
 
 ```text
@@ -104,6 +110,8 @@ OXH9L?OPXDIEDS?POSTXFUOR?AXOXKX?L?XNACHGA???SONKOM???DOXGLEI???ZXOXS
 ```text
 OXHXLXOPXDIENSTPOSTXFUERXAXOXKXELFXNACHGARNISONKOMMANDOXGLEIWITZXOXS
 ```
+
+</details>
 
 **Readable German — from the edited layer**
 
@@ -124,6 +132,9 @@ The same C header identifies the second part, `2 TL RICHI-102`. Its 102
 source slots begin with five printed dashes. The 97 valid coordinates are
 unchanged in both layers.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 102-slot frame**
 
 ```text
@@ -135,6 +146,8 @@ DORTA?HOLUNGDUR?HFLUGZEU?XAXOXKXEL?XRMXLXDX?RX7011X
 ```text
 DORTABHOLUNGDURCHFLUGZEUGXAXOXKXELFXRMXLXDXNRX7011X
 ```
+
+</details>
 
 **Readable German — from the edited layer**
 
@@ -153,11 +166,16 @@ origin `2015 (1) AN LP`, and `RICHI-100`. The
 [D crop](../../experiments/nov1_contact_mail_and_sava/sources/p99_D.png)
 contains 100 valid coordinates. The final group is `VXFGD`.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — unchanged native 100-slot frame**
 
 ```text
 ANXOXHXLXXEINSXAXNRX11127XGAHXOPXERHALTENXEXOXKX11
 ```
+
+</details>
 
 **Readable German — from the unchanged raw layer**
 

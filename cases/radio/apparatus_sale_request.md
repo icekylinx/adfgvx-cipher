@@ -1,6 +1,6 @@
 # Sale of communication apparatus: p157 B1–B2
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Two readable source parts, with one final source-erased symbol still unresolved.
 
@@ -24,6 +24,9 @@ A fixed position means a single symbol under the stated source frame and publish
 
 ## p157 B1 — Apparatus sale recommended because of transport difficulties
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output:**
 
 ```text
@@ -36,7 +39,12 @@ NA?HRICHTENCHEFGRXHX?XWEGENTRANSPORTSC0WIERIGKE?TENVERKAUFVONAPPARATENEMPFEHLE?S
 NACHRICHTENCHEFGRXHXQXWEGENTRANSPORTSCHWIERIGKEITENVERKAUFVONAPPARATENEMPFEHLENSWERTX
 ```
 
+</details>
+
 ## p157 B2 — Romanian purchase request and request for permission and price
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -49,6 +57,8 @@ RUMA?NENW?LLEN?IEME?SFERNSCHR?IBERUNDFE?NSPRECHAP?AR?TEKAU?ENX?ENEHMIGUNGUNGVERK
 ```text
 RUMAENENWOLLENSIEMENSFERNSCHREIBERUNDFERNSPRECHAPPARATEKAUFENXGENEHMIGUNGUNDVERKAUFSPREISDURCHFUNKSPRUCHERBETENXKONACH18ROEMX3ANRX11023?
 ```
+
+</details>
 
 ## Repairs and remaining reference
 

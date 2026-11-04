@@ -1,6 +1,6 @@
 # Redemption of stamped and unstamped lei notes
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
 
@@ -30,19 +30,29 @@ first-part alignment. All readings use the unchanged published
 With the single missing coordinate placed at source gap 176, the raw
 171-position reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional missing coordinate at source gap 176:**
 
 ```text
 OKMXUMEINLOESUNGABGESPANTELTENLEINOTENVORZUBEREITENXERBITTENDRAHTNCHRXUEBERUNGEFAEHRAUSGEGEBENENGESAOTBETRAGSTUECKELUNGUNDGENAUEEINZELHE?TENWIEABSP?NTELUNGVORGENOMMEWURDEX
 ```
 
+</details>
+
 The ordinary-word candidate is:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — same conditional missing-coordinate frame:**
 
 ```text
 OKMXUMEINLOESUNGABGESTEMPELTENLEINOTENVORZUBEREITENXERBITTENDRAHTNCHRXUEBERUNGEFAEHRAUSGEGEBENENGESAMTBETRAGSTUECKELUNGUNDGENAUEEINZELHEITENWIEABSTEMPELUNGVORGENOMMEWURDEX
 ```
+
+</details>
 
 The sender addresses `OKM` and asks for a telegraphic report of the
 approximate total issued, the denominations, and precise details of how
@@ -83,19 +93,29 @@ or received glyph was correct.
 
 The raw 124-position reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 WIRWOLLENOESTERRUNGXBANKENBEAUFTRXNICHTABGESPXLEINOTENVMNDORTXHEERESAZGXZXMKURSEVONJ1YKRONENFUERJYYLEIABZUGSFREIEINZULOESENX
 ```
 
+</details>
+
 Two observed-coordinate substitutions yield:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 WIRWOLLENOESTERRUNGXBANKENBEAUFTRXNICHTABGESPXLEINOTENVONDORTXHEERESAZGXZUMKURSEVONJ1YKRONENFUERJYYLEIABZUGSFREIEINZULOESENX
 ```
+
+</details>
 
 The message proposes commissioning Austrian/Hungarian banks to redeem
 unstamped lei notes without deductions, at the stated raw-label ratio
@@ -112,20 +132,30 @@ the name of a particular central bank.
 
 The raw 205-position reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ABGESPXABZUGSFRXZUMAUSGEDRUECKTENKRONEOBETRAGXDTXB?NKENWERDENOIT70BZW38MARKEINLYESENX?ERHANDLGXSCHWEBENXNACHIHREMABSCHL?SSSOLGENNAEHXEINZELHXKMXARMEEVERWXDEPX16Y8XJJXJ2B6XXKMXALLGXKRIEGSDE?J447XJJXJ2ANCHXX
 ```
 
+</details>
+
 Five observed-coordinate substitutions and four printed-erasure fills
 produce:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 ABGESPXABZUGSFRXZUMAUSGEDRUECKTENKRONENBETRAGXDTXBANKENWERDENMIT70BZW38MARKEINLOESENXVERHANDLGXSCHWEBENXNACHIHREMABSCHLUSSFOLGENNAEHXEINZELHXKMXARMEEVERWXDEPX16Y8XJJXJ2B6XXKMXALLGXKRIEGSDEPJ447XJJXJ2ANCHXX
 ```
+
+</details>
 
 Stamped notes are to be redeemed without deductions at the crown amount
 expressed on them. The German-bank clause gives raw `70 BZW 38 MARK`.

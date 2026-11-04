@@ -1,6 +1,6 @@
 # Additional listening times on the Ringbahn radio circuit
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
@@ -10,6 +10,9 @@ The header is `OUI v OSM`, received at 1.20 a.m. on November 4, with origin
 `1900 (3) SSD`. Its unenciphered reception note says that only the first
 item was found, that Nr2 could not be copied, and that the characters ran
 together. It requests another transmission. No missing second item is supplied.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — native source frame**
 
@@ -22,6 +25,8 @@ NACHRCEFXAUSSERVONFALKENHAUSENGENANNTENZEITENW8RDXYSZUDENALTENRINGBAHNZEITENAUFL
 ```text
 NACHRCEFXAUSSERVONFALKENHAUSENGENANNTENZEITENWIRDXYSZUDENALTENRINGBAHNZEITENAUFLPHOERENXIMMERINNAECHSTERPERIODEWDHXNURNOCHITOCHI
 ```
+
+</details>
 
 Price: 1 observed-coordinate substitution, 0 source-mask fills.
 

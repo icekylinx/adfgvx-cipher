@@ -1,14 +1,12 @@
 # Gomel route derailment and station-train forwarding
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 Two source editions concern railway operations: a freight-train derailment blocking both tracks on the proposed Gomel–Bachmatsch route, and a message about forwarding a station train and construction train to Group Winterfeld. The wagon count, train labels, abbreviations and office references remain literal.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed page excerpt](../../experiments/nov7_derailment_and_trains/sources/p155_reviewed.png) · [Second source excerpt](../../experiments/nov7_derailment_and_trains/sources/p169_reviewed.png) · [Exact inputs](../../experiments/nov7_derailment_and_trains/inputs.json) · [Position-by-position certificates](../../experiments/nov7_derailment_and_trains/certificates.json)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed page excerpt](../../experiments/nov7_derailment_and_trains/sources/p155_reviewed.png) · [Second source excerpt](../../experiments/nov7_derailment_and_trains/sources/p169_reviewed.png) · [Exact inputs](../../experiments/nov7_derailment_and_trains/inputs.json) · [Position-by-position certificates](../../experiments/nov7_derailment_and_trains/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 The unchanged published keys are `Nov7-9`. The [earlier unreviewed candidates](../../experiments/nov7_derailment_and_trains/prior_candidates.json) and [original OCR records](../../experiments/nov7_derailment_and_trains/ocr_snapshot.json) are preserved. The present work supplies an image-reviewed source edition and a reproducible repair account; it does not claim that every body is a first public decipherment.
 
@@ -27,6 +25,9 @@ The unchanged published keys are `Nov7-9`. The [earlier unreviewed candidates](.
 
 **Meaning:** A morning report addressed to Oberkommando Mackensen says a freight train derailed on the proposed Gomel–Bachmatsch route, that a quantity written 2? of wagons was wrecked, and that both tracks are blocked. The unresolved wagon-count label and final reference remain literal.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
@@ -38,6 +39,8 @@ OKXMACKENSENXXMORGENMELDUNGVOM7X11X18AUFSTRECKEXGOMELXBNCHMABSCH?ENBGLEISTEEI?GU
 ```text
 OKXMACKENSENXXMORGENMELDUNGVOM7X11X18AUFSTRECKEXGOMELXBACHMATSCHXENTGLEISTEEINGUETERZUGX2?WAGENZERTRUEMMERTXBEIDEGLEISESINDGESPERRTXXHRGRXKIEWXRMX1XAX7097X18X
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 
@@ -56,11 +59,16 @@ OKXMACKENSENXXMORGENMELDUNGVOM7X11X18AUFSTRECKEXGOMELXBACHMATSCHXENTGLEISTEEINGU
 
 **Meaning:** The station train labelled S11?2 and construction train labelled 1924 are to be forwarded promptly to Group Winterfeld. The opening NACHRUEBGEL and FECH are preserved without forcing an expansion, and the train and office labels are not independently numbered.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
 NACHRUEBGELXFECHWIRDBESCHLEUNIGTSTATIONSZUGXS11?2XUNDBAUZUGX1924XDERGRUPPEXWINTERFELDZUFUEHRENXNACHCHEFX1B1??1?X
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 
@@ -81,7 +89,7 @@ VF and XA carry the two remaining labels `{5, 6}` bijectively. There are therefo
 
 ## Evidence and credit
 
-Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.
+Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro.
 
 The certificates replay every coordinate alteration, compare the independent column/domain reconstruction with the cipher implementation, and re-encrypt every complete edited output. For a partial output, an injective global completion of the square and residual source masks supplies an explicitly nonhistorical roundtrip witness. Each readable passage preserves every nonseparator output label; literal protected fields are also checked without removing their internal separators. Source crops are bound to the original PDF by page, rectangle, scale, file digest and RGB-pixel digest.
 

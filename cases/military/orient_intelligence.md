@@ -1,6 +1,6 @@
 # Orient intelligence: expected landings and fighting on the Tigris
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source:** J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
 printed p92 B1, p93 A2–A4 and p94 A5–A6; PDF pp95–97.
@@ -23,19 +23,29 @@ distinctions.
 
 The source advertises and prints **328 valid coordinates**. Its raw body is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 DEUTSCQERNOOSMOHLZUGLFUERUNTERSTNOXBERICHTIGUNGZUVORTRXNOTORIENTVOMX30X10X2ABSATZSYRIENXMUSSAMSCHLUSSHEISSENXALSOANSCHEINENDX7XINDXDIVX60XGEMXDIVXODEDXFALLSX54XUSWX
 ```
 
+</details>
+
 The candidate repairs `DEUTSCQER` to `DEUTSCHER` and `ODED` to `ODER`:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 DEUTSCHERNOOSMOHLZUGLFUERUNTERSTNOXBERICHTIGUNGZUVORTRXNOTORIENTVOMX30X10X2ABSATZSYRIENXMUSSAMSCHLUSSHEISSENXALSOANSCHEINENDX7XINDXDIVX60XGEMXDIVXODERXFALLSX54XUSWX
 ```
+
+</details>
 
 This costs **three observed-coordinate substitutions**. The clear
 header independently contains `DEUTSCHER`. The report calls itself a
@@ -55,11 +65,16 @@ The source advertises and prints **252 coordinates**. Earlier OCR merged
 this part with A3 and A4; applying the printed boundary gives the
 following complete **126-position raw reading**, without any edit:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 VORTRAGSNOTIZENX31X10X1918XORIENTROEMX1XSYRIENBEVORSTEHENDELANDUNGINALEXANDRETTENACHFLIEGERMELUNGVOM29X10FUHREINGELEITZUGVONX2
 ```
+
+</details>
 
 This is headed presentation notes, raw `31 X 10 X 1918`, Orient,
 `ROEM X 1`, Syria: an expected landing at Alexandretta. It attributes a
@@ -72,11 +87,16 @@ into the ciphertext.
 The source advertises and prints **394 valid coordinates**. The
 **197-position raw reading** is complete and unchanged:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 GROESZERENTRANSPORTERN1KREUZERXUX4XTORPEDOBOOTENX40XKMXSUEDWESTLXALEXANDRETTEINFAHRTRICHTUNGALEXANDRETTEAUSZERDEMWURDEINDERBUCHTVONXARSUSXEINGROSZESSCHIFFBEOBACHTETNACHALLDENMELDUNGENDERLETZTENTAGE
 ```
+
+</details>
 
 Continuing A2, the report describes larger transports with a cruiser and
 torpedo boats southwest of Alexandretta, heading toward it, and another
@@ -91,11 +111,16 @@ geographical letter is supplied from a modern map.
 The source advertises and prints **328 valid coordinates**. Its
 **164-position direct reading** is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 UEBERGESTEIGERTENSCHIFFVERKEHRVORDERXSYRISCHENXKUESTEUNDDERTAETIGKEITDERAUFKLAERUNGSFAHRZEUGEVORXALEXANDRETTEXMUSSMITUNMITTELBARBEVORSTEHENDENLANDUNGSVERSUCHENINDER
 ```
+
+</details>
 
 It continues the assessment that, given recent reports of increased
 shipping off the Syrian coast and reconnaissance vessels near
@@ -113,19 +138,29 @@ unchanged observed source.
 The source advertises **368 slots**, with one printed dash in its first
 group, `GDGV-`. Its raw reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 BUCHTVONALEXANDRETTEXGERECHNETWERDENXROEMX2?MESOPOTAMIENX7NGLISCHERVORMARSCHAMXTIGRISXNACHENGLORIENTBERICHTGRIFFENENGLISCHETRUPPENAMX29X10XDIETUERKISCHENSTELLUNGENNOERDLXKALATXSHERGATX
 ```
 
+</details>
+
 The candidate is:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 BUCHTVONALEXANDRETTEXGERECHNETWERDENXROEMX2XMESOPOTAMIENXENGLISCHERVORMARSCHAMXTIGRISXNACHENGLORIENTBERICHTGRIFFENENGLISCHETRUPPENAMX29X10XDIETUERKISCHENSTELLUNGENNOERDLXKALATXSHERGATX
 ```
+
+</details>
 
 It fills the printed dash at source index **4** with **X** and changes
 source index **44 F→V**, repairing `7NGLISCHER`. All other coordinates
@@ -144,11 +179,16 @@ Turkish positions north of the received `KALAT X SHERGAT` on raw
 All **350 coordinates** are observed. The full **175-position raw text**
 needs no repair:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ANUNDDRANGENNACHHEFTIGENANSCHEINENDSCHWERENKAEMPFENINDIESTELLUNGENEINTEILEDERTUERKENDIEZUENTKOMMENVERSUCHTENWURDENANGEBLICHDURCHBRITISCHEKAVALLERIEABGESCHNITTENXABTFREMDEHEERE
 ```
+
+</details>
 
 **Readable German — continuation of A5; the leading ellipsis does not mark a missing position in A6:**
 

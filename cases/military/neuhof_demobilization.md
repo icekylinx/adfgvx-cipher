@@ -1,6 +1,6 @@
 # Demobilization at Neuhof, south of Fulda
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
 
@@ -16,12 +16,17 @@ The source is J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
 The [preserved section](../../experiments/neuhof_demobilization/sources/p228_B.png)
 appears under `30th NOVEMBER, 1918.` with the header:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
 B) ZON v BSL (01.33 a.m., December 1st)
 NO 152 1512 3 TLE
 ```
+
+</details>
 
 All three parts use the unchanged published `Nov28-Dec1` square and ranks.
 Raw `Y` separators, numeral labels and rare letters remain as recorded.
@@ -33,19 +38,29 @@ The first part advertises `RICHI-246` and has exactly **246 slots**, including
 six printed dashes. Its earlier OCR stream had 241 coordinates and did not
 produce a coherent reading. The visual transcription gives:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 0OKXXYYZUMERLYVJXYXXZX4NRP680YX4GEHYAY3YANLGYXLF?YNRYX4SPALTE9FLAKABTEILUNG?0WIRDNI?L3NDARMJT?DTSONDERNINYNEU?OFYSUEDHFUL?A
 ```
 
+</details>
+
 Five observed-coordinate substitutions and five fills of printed dashes give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 AOKXXYYZUMERLYVJXYXXZX4NRP680YX4GEHYAY3YANLGYXLFDYNRYX4SPALTE9FLAKABTEILUNG?0WIRDNICHINDARMSTADTSONDERNINYNEUHOFYSUEDLFULDA
 ```
+
+</details>
 
 The ordinary body names a Flak unit and places its destination at Neuhof,
 south of Fulda, with Darmstadt appearing in the negative part of the
@@ -61,19 +76,29 @@ The body continues into the middle part with the demobilization wording.
 The second part advertises `RICHI-264` and has **264 slots**, including
 **43 printed dashes**. Its direct label reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 A?ST??CKE?ANK?FUL?AD1?OBI?G5D??HT?I1??CHA?LL??UJD5S1??Y26U03??GEHX0Z??MBEDES??DESIT7???YYADA???MX8A8???OBPL2???ENREN???CKS?R???I4CEH
 ```
 
+</details>
+
 The proposed original-language span is limited to **positions 0-32**:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — partial proposed span only; positions 0–32:**
 
 ```text
 ANSTRECKEHANAUFULDADEMOBILGEMACHT
 ```
+
+</details>
 
 It says “demobilized on the Hanau-Fulda line.” This is a conditional
 editorial reconstruction requiring **five observed-coordinate changes and
@@ -92,20 +117,30 @@ groups gives **186 slots**, including one printed dash. The edition uses
 that actual 186-slot frame and preserves the questioned header length.
 It does not insert ten hypothetical coordinates. Its direct reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 DESFELDHEERESSINDDAHERNICHTNACHDAR?SADTSONDERNNACHNEUHOFZULEITENYCMTRUPPENDEPY3025YXXYX4YAY3Y
 ```
 
+</details>
+
 Filling the one printed dash at source index **15**, group **4**, coordinate
 **1**, with `X` gives:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 DESFELDHEERESSINDDAHERNICHTNACHDARMSADTSONDERNNACHNEUHOFZULEITENYCMTRUPPENDEPY3025YXXYX4YAY3Y
 ```
+
+</details>
 
 The final instruction says the relevant field-army items must therefore
 be directed to Neuhof. The preceding plural subject lies in the unread

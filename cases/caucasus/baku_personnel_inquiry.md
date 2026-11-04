@@ -1,6 +1,6 @@
 # Baku personnel inquiry: a duplicated-block reconstruction
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -25,6 +25,9 @@ credit to George Lasry and collaborators.
 
 [Reviewed source image — source-PDF reference](../../experiments/baku_personnel_inquiry/inputs.json).
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — literal header:**
 
 ```text
@@ -34,7 +37,12 @@ SS GENERAL V KRESS TIFLIS 19.59 (13/11)
 RICHI-268
 ```
 
+</details>
+
 The source's final row is:
+
+<details>
+<summary>Literal source transcription</summary>
 
 **Source transcription — final row, excerpt:**
 
@@ -42,12 +50,17 @@ The source's final row is:
 GGDAX XFVVF DXXVG XFVVF DXXVG VDDXA FXAVV DXXD
 ```
 
+</details>
+
 The two identical **`XFVVF DXXVG`** blocks occupy source ranges **245–254**
 and **255–264**, using zero-based indices. They remain in the complete
 literal transcription. The primary 268-slot model excludes the first block
 and the final D at source index **278**. No visible cancellation or free OCR
 correction is claimed. The full native 279-slot decode and its unpaired
 coordinate remain in the certificate.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — conditional 268-slot frame after the eleven-coordinate exclusion; 125/134 fixed positions:**
 
@@ -60,6 +73,8 @@ FU?KUNFTXUEBERXSCHICKSALXHEIRESANGEHOERIGERXJNX?AKUXERBET?NXKRIEGSMINISTERIUMXAB
 ```text
 AUSKUNFTXUEBERXSCHICKSALXHEERESANGEHOERIGERXINXBAKUXERBETENXKRIEGSMINISTERIUMXABTEILUNGXFUERXVERBUENDETEXHEEREXNR????STRICHA?XGEHXAXWX
 ```
+
+</details>
 
 The observed substitutions, in zero-based source coordinates, are
 **74 V→X**, **90 X→D**, **92 G→A**, **94 D→F**, **112 A→X**, **136 A→X**,

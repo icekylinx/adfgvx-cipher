@@ -1,6 +1,6 @@
 # Request for replies and radio priority
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -23,6 +23,9 @@ System*, [printed p128, PDF p131](https://drive.google.com/file/d/1_JiNMck7eUvdr
 The [full page](../../experiments/radio_telegram_priority/sources/childs_p128_full.png)
 is headed `5th NOVEMBER, 1918.` The shared header is:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -30,9 +33,14 @@ A) LP v NKJ (7.01 p.m., November 5th)
 1130 (5) 2 TLE
 ```
 
+</details>
+
 The [first part](../../experiments/radio_telegram_priority/sources/childs_p128_A1.png)
 is labeled `1 TL RICHI-226`. All 226 coordinates are valid and fix all
 113 raw plaintext positions:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -40,13 +48,20 @@ is labeled `1 TL RICHI-226`. All 226 coordinates are valid and fix all
 AUSWAERTIGBERLINNUMMER597XANTWORTAUFTELEGRAMME569X592UND598BISHERNICHTEINGETROFFENXZURZEWEISUNGINKLARTEXTERBETENX
 ```
 
+</details>
+
 One coordinate substitution changes `ZURZE` to `KURZE`:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 AUSWAERTIGBERLINNUMMER597XANTWORTAUFTELEGRAMME569X592UND598BISHERNICHTEINGETROFFENXKURZEWEISUNGINKLARTEXTERBETENX
 ```
+
+</details>
 
 Readable German:
 
@@ -68,19 +83,29 @@ The [second part](../../experiments/radio_telegram_priority/sources/childs_p128_
 is labeled `2 TL RICHI-282`. It contains exactly 282 printed slots, including
 seven dashes. Its ordinary source frame fixes 134 of 141 positions:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ANH9IMGRSTELLTFDNKENSTATIONAUSDRUEK?IC7?NZUHEISENXTELEGRAMMEVORALLENANDERENZUGEBENXD?SCHEINBAR?ILITAER?SCHETELE?RAMME?EVORZUGTWERDNXHORSTMANN
 ```
 
+</details>
+
 Five observed-coordinate substitutions and seven dash fills give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 ANHEIMGESTELLTFUNKENSTATIONAUSDRUEKLICHANZUWEISENXTELEGRAMMEVORALLENANDERENZUGEBENXDASCHEINBARMILITAERISCHETELEGRAMMEBEVORZUGTWERDNXHORSTMANN
 ```
+
+</details>
 
 Its meaning is: it is suggested that the wireless station be explicitly
 instructed to send these telegrams before all others, because military

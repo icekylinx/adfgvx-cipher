@@ -1,6 +1,6 @@
 # November Ringbahn keys and postponed December change
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 The edited first part says to retain the November Ringbahn key and postpone the December key. Its wording continues into the unedited second part: 1 December is to use the key as on the tenth of November, continuing through 21 December as on 30 November. These are literal instructions in the traffic; they do not independently recover the secret key material or verify that the instruction was followed.
 
@@ -16,6 +16,9 @@ The source has **309 slots** (307 valid coordinates). The conditional model has 
 
 **Cost:** 4 observed-coordinate substitutions; 2 printed-mask fills; 1 observed-coordinate exclusion; 0 mask exclusions; no inserted coordinates.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — under the explicitly conditional exclusion frame:
 
 ```text
@@ -27,6 +30,8 @@ NOVEMBERXRINGBAHNSCHLVESSELNICHTVERN9CHTENXNACHXCHEFX4XBX48929XDEZEMBERXRINGBAFN
 ```text
 NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHXCHEFX4XBX48929XDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGNICHTINKRAFTXDAFUERSCHLUESSEL1XDEZEMBERWIEZEHNTER
 ```
+
+</details>
 
 **Readable German** — spacing, case, punctuation and conventional umlaut rendering only; all non-`X` labels match the edited output:
 
@@ -42,17 +47,16 @@ The source has **144 slots** (144 valid coordinates). The native model has 144 s
 
 **Cost:** 0 observed-coordinate substitutions; 0 printed-mask fills; 0 observed-coordinate exclusions; 0 mask exclusions; no inserted coordinates.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output** — native source frame:
 
 ```text
 NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B498?9X
 ```
 
-**Edited output** — changes and source offsets are enumerated in the certificate:
-
-```text
-NOVEMBERUSWXBIS21XDEZEMBERWIE30XNOVEMBERXEMPFANGSBESTGXXNACHCHEF4B498?9X
-```
+</details>
 
 **Readable German** — spacing, case, punctuation and conventional umlaut rendering only; all non-`X` labels match the edited output:
 

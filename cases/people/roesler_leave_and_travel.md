@@ -1,6 +1,6 @@
 # Roesler: leave and departure on the next ship
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 The native p102 D frame concerns leave, the arrival of Rittm. Roesler, and departure on the next ship. It ends with **HOENIGSCHMID** and the abbreviation **S.M.St.Pers.** The complete body already appears in the earlier OCR screen; this edition adds source verification and a reproducible certificate without changing any coordinate.
 
@@ -10,6 +10,9 @@ Prepared by **icekylinx and GPT-6 Astra Pro**. Source: J. Rives Childs, *General
 
 ### Source and frame
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — literal cleartext header:**
 
 ```text
@@ -17,6 +20,8 @@ D) FÜR COS, ÖST v NKJ (0.24 a.m., November 3rd)
 UNG MISSION BARON FRANKENSTEIN FÜR HPTM BENEDIKT 0730 (1)
 RICHI-258
 ```
+
+</details>
 
 The [full page](../../experiments/nov1_ammunition_and_leave/sources/p102_full.png) and [native C/D detail](../../experiments/nov1_ammunition_and_leave/sources/p102_C_D_detail.png) show all 258 coordinates, matching the advertised length. The source frame contains no masks, added slots or excluded coordinates.
 
@@ -27,11 +32,16 @@ The [full page](../../experiments/nov1_ammunition_and_leave/sources/p102_full.pn
 
 ### Raw output
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — published Nov1–3 key, native source frame:**
 
 ```text
 AUFEXHXNR109XXURLAUBNACHEINTREFFENRITTMXROESLERXROESLERBEWILLIGTXGEHTMITNAECHSTEMSCHIFFDORTHINABXXOBSTXHOENIGSCHMIDXSXMXSTXPERSXX
 ```
+
+</details>
 
 ### Readable German
 

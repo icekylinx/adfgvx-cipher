@@ -1,6 +1,6 @@
 # November 3 evening report and its first-part copy
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** four physical records: the first-part witness on p111 and all
 three source-marked parts on p112. The two first parts support seventeen
@@ -24,6 +24,9 @@ remain. No abbreviation is expanded into a person's identity.
 
 The source has 202 slots, including three complete five-dash groups. All fifteen source-mask fills are supplied by the p112 witness. The single observed repair selects UJVIDEK at its first occurrence; the second occurrence is unchanged in both copies.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native source frame:**
 
 ```text
@@ -36,6 +39,8 @@ OKMXOK?XABENDMEL?UNGXANSA?EXDONAUXR?HEALPXKO?P?ERREICH?R?UMSUED?I?HUJVINE?X?JVID
 OKMXOKMXABENDMELDUNGXANSAVEXDONAUXRUHEALPXKORPSERREICHTRAUMSUEDLICHUJVIDEKXUJVIDEKX219219IDUXGXKX5353
 ```
 
+</details>
+
 **Readable German — based on the edited candidate above; the local qualifications remain in force:**
 
 > OKM. OKM. Abendmeldung. An Save, Donau Ruhe. Alp. Korps erreicht Raum südlich Ujvidek. Ujvidek. 219219IDU. G. K. 5353.
@@ -45,6 +50,9 @@ The candidate uses **1 observed-coordinate substitution**, **15 source-mask fill
 ## p112 A1
 
 This source also has 202 slots. Visible C in XGCXV and R in AARVA remain literal invalid-coordinate glyphs; the other copy supplies G and F. The ordinary DONOU → DONAU repair is separate.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — native source frame:**
 
@@ -57,6 +65,8 @@ OKMXOKMXABENDMELDU?GXANSAVEXDONOUXRUHEALPXKORPSERREICHTRAUMSUEDLICHUJVIDEKXUJVID
 ```text
 OKMXOKMXABENDMELDUNGXANSAVEXDONAUXRUHEALPXKORPSERREICHTRAUMSUEDLICHUJVIDEKXUJVIDEKX219219IDUXGXKX5353
 ```
+
+</details>
 
 **Readable German — based on the edited candidate above; the local qualifications remain in force:**
 
@@ -74,6 +84,9 @@ copying alone does not make either conflicting value unanimous.
 
 The native 218-slot source includes four complete five-dash groups. The older OCR lost one entire group and produced a misleading 213-slot frame. This is the most editorially uncertain part: the raw JAEVZE?G and ?ELLRA? are not independently proved to be FAHRZEUG and BELGRAD. Their repairs are priced, and two reference positions remain unknown.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native source frame:**
 
 ```text
@@ -85,6 +98,8 @@ The native 218-slot source includes four complete five-dash groups. The older OC
 ```text
 TRETENAX41??X11XMARSCHNACHNORDOSTENANXXLUFTAUFKLAERUNGXSTARKENFAHRZEUGVERKEHRXSEMENDRIABELGRADXGENXSTABSXOFFZ
 ```
+
+</details>
 
 **Readable German — based on the edited candidate above; the local qualifications remain in force:**
 
@@ -103,6 +118,9 @@ is added to the stream or the readable display.
 
 The native 108 slots include five dashes and printed R/S glyphs outside the coordinate alphabet. The candidate deliberately retains VORAUSSICHTLICHTLICH, including the repeated TLICH sequence; it is not shortened to the normal spelling.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native source frame:**
 
 ```text
@@ -114,6 +132,8 @@ F?IEGTXBUKA?ESTXVNRAU??ICHTLIC?TLICHX4X4?X4X11XAO?X11X
 ```text
 FLIEGTXBUKARESTXVORAUSSICHTLICHTLICHX4X4?X4X11XAOKX11X
 ```
+
+</details>
 
 **Readable German — based on the edited candidate above; the local qualifications remain in force:**
 

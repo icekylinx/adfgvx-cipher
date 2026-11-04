@@ -1,6 +1,6 @@
 # November 6 marine-service notice, with an unresolved station label
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -31,6 +31,9 @@ unchanged.
 [Complete reviewed crop — source-PDF reference](../../experiments/nov6_marine_service_notice/inputs.json)
 and [high-resolution stroke detail — source-PDF reference](../../experiments/nov6_marine_service_notice/inputs.json).
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — headers and cleartext ending:**
 
 ```text
@@ -40,6 +43,8 @@ C) UKS RAT v NKJ (10.32 p.m., November 6th, 1918.)
 RICHI-286
 Cleartext ending: B M K - UKS RAT v NKJ UM
 ```
+
+</details>
 
 The final `B M K - UKS RAT v NKJ UM` is a cleartext annotation after the
 ciphertext. It is not absorbed into the coordinate stream. The complete
@@ -55,11 +60,16 @@ it is not a claim that the historical character was a pipe or a valid
 coordinate. Including it gives **286 slots**, **279 valid coordinates** and
 **7 masked marks**.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native 286-slot frame including the stroke; 136/143 fixed positions:**
 
 ```text
 SEEM??OGSLEATUMG?ROSSESCFZYU9XADM6RAL2ER9GNXXUAC1CSE?XCDEYTSCBKXM8RLNEV1RTEZ?NWWEEGE2G8U6PE79IE?XXO?MKNREDUSYZFANF1NZALLESTRLPENB1NAC1RLCWTNGE6
 ```
+
+</details>
 
 This remains the source-preserving baseline. Its partly recognizable text
 is not silently presented as the clearer proposal.
@@ -70,6 +80,9 @@ The proposed frame omits only the masked stroke at **original source 225**
 and adds one unknown after the final source slot, at **original source
 boundary 286**. The resulting model still has **286 slots**. The added slot
 has **model index 285** because one earlier source mark was excluded.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — conditional stroke exclusion plus final-slot insertion; 136/143 fixed positions:**
 
@@ -82,6 +95,8 @@ SEEK??EGSLEITUNG?ROSSESXHZYUXXADMIRALBERLINXXPACHCHEFXXDEUTSCHEXMARINEVERTRX?NDH
 ```text
 SEEKRIEGSLEITUNGGROSSESXHZYUXXADMIRALBERLINXXNACHCHEFXXDEUTSCHEXMARINEVERTRXUNDHEERESGRUPPEXKIE?XXO?MANIEAUSGEFALLENXALLESTELLENBENACHRICHTIGEN
 ```
+
+</details>
 
 **Readable German — complete conditional edited stream, with unresolved labels retained:**
 

@@ -1,6 +1,6 @@
 # Radio apparatus sale and estimated value
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 The two source parts concern permission to sell apparatus and a value estimate of 80 to 90 percent. The readable edition retains abbreviations, 380L, 170M and the incomplete 21?00 field. It does not supply a currency, price separator or missing digit.
 
@@ -16,6 +16,9 @@ The source has **282 slots** (282 valid coordinates). The native model has 282 s
 
 **Cost:** 1 observed-coordinate substitution; 0 printed-mask fills; 0 observed-coordinate exclusions; 0 mask exclusions; no inserted coordinates.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — native source frame:
 
 ```text
@@ -27,6 +30,8 @@ The source has **282 slots** (282 valid coordinates). The native model has 282 s
 ```text
 AKONACHX18DZU1A11023XAPPARATEVERKGENEHMVERKFSPREISSIEMENSX21?00FERNSCHREIBERX380LXTISCHGEHAEUSEX170MXXHIERVONZEITWERTNACHSCHAETZGXANRECHNENXX
 ```
+
+</details>
 
 **Readable German** — spacing, case, punctuation and conventional umlaut rendering only; all non-`X` labels match the edited output:
 
@@ -42,6 +47,9 @@ The source has **84 slots** (82 valid coordinates). The native model has 84 slot
 
 **Cost:** 0 observed-coordinate substitutions; 1 printed-mask fill; 0 observed-coordinate exclusions; 0 mask exclusions; no inserted coordinates.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — native source frame:
 
 ```text
@@ -53,6 +61,8 @@ VERMU?LICH80BIS90PROZENTXNACHCHEF3C111?0?X
 ```text
 VERMUTLICH80BIS90PROZENTXNACHCHEF3C111?0?X
 ```
+
+</details>
 
 **Readable German** — spacing, case, punctuation and conventional umlaut rendering only; all non-`X` labels match the edited output:
 

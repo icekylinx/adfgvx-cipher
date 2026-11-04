@@ -1,6 +1,6 @@
 # November 12: additional arrival and return enquiry witnesses
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Printed p182 A and C are additional physical witnesses to two service enquiries already read on p174. They join the reviewed p183 arrival-enquiry copy. Direct comparison of their printed coordinates supplies a bounded recovery without selecting a German language score. The earlier body readings and the previously established p174/p183 complementary evidence retain their credit; these are **two newly reviewed source records, not two newly discovered message contents**.
 
@@ -30,6 +30,9 @@ The A row uses source 48 as a representative masked-slot exclusion. It is not si
 
 Literal header: `A) CM v CZ (19.35 p.m., November 12th); 19.30; RIZI-74`.
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — all 55 occupied slots, including invalid glyphs and dashes:**
 
 ```text
@@ -37,13 +40,20 @@ VVFVG XAVTA AGXVA VVVVA DAVDV AXFFI XD-VD FDDXA
 DDDDD --NTD DVDVD
 ```
 
+</details>
+
 The following CZ UM transmission-control text lies outside the body. The source’s seven non-coordinate slots are **8 T, 29 I, 32 dash, 45 dash, 46 dash, 47 N and 48 T**. They remain literal in the transcription and become analysis masks. They are not silently read as ADFGVX letters.
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output — native 55-slot diagnostic, with the unpaired coordinate retained separately:**
 
 ```text
 VAA2??WC3F2K??AQ?A?2?WWVGW1
 ```
+
+</details>
 
 This native frame has 27 complete pairs. Its intermediate orphan is **D at source 54**; the verifier does not drop a terminal source slot to hide it.
 
@@ -67,6 +77,9 @@ The equality concerns **observed substitution count**, not a single combined edi
 
 For the primary source-48 mask exclusion, the frame arithmetic is **55 − 1 + 20 = 74**. The printed shortfall of nineteen is therefore not represented as nineteen unexplained additions. The twenty inserted coordinates are model slots 5–24 and are all supplied by the independent source consensus.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional 74-slot frame, before any source or added-slot fills:**
 
 ```text
@@ -78,6 +91,8 @@ WE??S???????????TR??????I??E?A??RX?O?
 ```text
 WENNSEIFERTEINGETROFFENBITTENACHRXTOF
 ```
+
+</details>
 
 **Readable German — the complete edited stream, with spacing and punctuation only:**
 
@@ -91,15 +106,23 @@ Every filled coordinate in the primary model has an observed counterpart in p174
 
 The final two minimum maps, excluding source 49 or 50, have the following distinct unfilled diagnostic. Their final edited target is the same, but they require seven source-mask fills rather than six.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — alternate source-49/source-50 exclusions, before source-supported fills:**
 
 ```text
 WE??S???????????TR??????I??E????RX?O?
 ```
 
+</details>
+
 ## p182 C
 
 Literal header: `C) CM v CZ (21.25 p.m., November 12th); 21.00; RIZI-56`.
+
+<details>
+<summary>Literal source transcription</summary>
 
 **Source transcription — all 49 observed coordinates, including final X:**
 
@@ -108,7 +131,12 @@ VVVFF VDAFA XXVDA XXFAD DXGXV DDAAG DVFDV DXGFA
 DAGVX DDAX
 ```
 
+</details>
+
 The following CZ is transmission control outside the body. The source explicitly advertises **56**, contains **49**, and is compared with an independently printed **48-coordinate** p174 C body. None of those counts is silently substituted for another.
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output — native 49-slot diagnostic, with the unpaired coordinate retained separately:**
 
@@ -116,11 +144,16 @@ The following CZ is transmission control outside the body. The source explicitly
 2TNNFTQCIFU1RXFENIV0MI4E
 ```
 
+</details>
+
 The native intermediate orphan is **A at source 27**. The conditional model is a separate layer.
 
 All **49 possible single-coordinate exclusions** are compared directly with the p174 C source. The unique minimum within that class excludes **source 48 X** and leaves **one observed mismatch** at source 8: p182 prints F while p174 prints V. The other 47 coordinates agree exactly. This is source evidence for the same short enquiry; the uniqueness claim does not extend to other framing classes or establish why the final X was printed.
 
 Both sources print CM v CZ and the originating 21.00 field. The p174 interception header says 08.11 p.m.; the p182 header says 21.25 p.m. Those literal time expressions are not harmonized.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — conditional 48-slot frame after the explicit final-X exclusion:**
 
@@ -133,6 +166,8 @@ WANNRUECKKUNFTSEIFVRTXRE
 ```text
 WANNRUECKKUNFTSEIFERTXRE
 ```
+
+</details>
 
 **Readable German — the complete edited stream, with spacing and punctuation only:**
 

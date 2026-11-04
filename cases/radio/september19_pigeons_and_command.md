@@ -1,8 +1,6 @@
 # September 19: pigeons and Army Group East command arrangements
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
@@ -25,6 +23,9 @@ The unchanged published Sep19-21 key is used throughout. The page heading is Sep
 ## p56 A
 
 Literal header: `A) OSM v LP (02.00 p.m., September 20th); 1250 (19.9) FUER USK - UND - 1809 2 TLE; RICHI-222`.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Source transcription — all printed slots in their original order:**
 
@@ -49,6 +50,8 @@ AKONAC?22XZUDORTROEM3NR8S86VERSANDZIELANINACHDRAHTENDIE150AUSGESUCHTETAUBENUEBER
 AKONACH22XZUDORTROEM3NR8S86VERSANDZIELANINACHDRAHTENDIE150AUSGESUCHTETAUBENUEBERWEISENWIRDXNACHRXCHEFRM4D84760X
 ```
 
+</details>
+
 **Readable German — spacing and punctuation of the same nonseparator labels:**
 
 > AKONACH 22. Zu dort ROEM3 Nr. 8S86: Versandziel ANI nachdrahten. Die 150 ausgesuchte Tauben ueberweisen WIRD. Nachr. Chef RM4D84760.
@@ -64,6 +67,9 @@ AKONACH22XZUDORTROEM3NR8S86VERSANDZIELANINACHDRAHTENDIE150AUSGESUCHTETAUBENUEBER
 ## p56 B1
 
 Literal header: `B) OSM v LP (02.02 p.m., September 20th); 1800 (19.9) FUER OSM 2 TLE; 1 TL; RICHI-168`.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Source transcription — all printed slots in their original order:**
 
@@ -87,6 +93,8 @@ AKONA?H70XZURM1NR22750VX6X9X18XHGRXOSTWIRD6EMNAECHSTEIGENENDEUTSCHENAKONACHERHAL
 AKONACH70XZURM1NR22750VX6X9X18XHGRXOSTWIRDDEMNAECHSTEIGENENDEUTSCHENAKONACHERHALTENX
 ```
 
+</details>
+
 **Readable German — spacing and punctuation of the same nonseparator labels:**
 
 > AKONACH 70. Zu RM1 Nr. 22750 V. 6.9.18. Hgr. Ost wird demnaechst eigenen deutschen AKONACH erhalten.
@@ -103,6 +111,9 @@ AKONACH70XZURM1NR22750VX6X9X18XHGRXOSTWIRDDEMNAECHSTEIGENENDEUTSCHENAKONACHERHAL
 
 Literal header: `B) OSM v LP (02.02 p.m., September 20th); 1800 (19.9) FUER OSM 2 TLE; 2 TL; RICHI-152`.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Source transcription — all printed slots in their original order:**
 
 ```text
@@ -118,11 +129,7 @@ FXDGG GGFXX GVGFX XGVGX FXGFD DXDFD XX
 HIERAUFNEUREGELUNGDESUNTERSTELLUNGSVERHAELTNISSESFUNKA151XNACHRXCHEF1B16020X
 ```
 
-**Edited output — 0 observed substitutions and 0 source-mask fills:**
-
-```text
-HIERAUFNEUREGELUNGDESUNTERSTELLUNGSVERHAELTNISSESFUNKA151XNACHRXCHEF1B16020X
-```
+</details>
 
 **Readable German — spacing and punctuation of the same nonseparator labels:**
 

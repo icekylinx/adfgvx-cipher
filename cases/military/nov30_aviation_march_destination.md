@@ -1,6 +1,6 @@
 # November 30: aviation march destinations
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Printed **p228 A** reports proposed march destinations for an aviation staff and a numerically limited army aviation park. Its native body has **384 occupied slots**, although the questioned advertised count is **RICHI-374?**. A conditional 374-coordinate frame yields a largely readable body. Seven observed-coordinate substitutions and four printed-mask fills support the proposed word reading.
 
@@ -15,6 +15,9 @@ Page heading: **30th NOVEMBER, 1918.** The reception header is dated **December 
 Literal header: `A) ZÖN v BSL (01.00 a.m., December 1st); --------; RICHI-374?`.
 
 The original source crop was reviewed locally. [inputs.json](../../experiments/nov30_aviation_march_destination/inputs.json) pins the original PDF, page 231, crop rectangle, render scale, dimensions and RGB digest. **Reviewed source crops:** [p228_reviewed.png](../../experiments/nov30_aviation_march_destination/sources/p228_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify). `--pdf` verifies those pixels; ordinary verification explicitly reports that no source-pixel comparison was performed.
+
+<details>
+<summary>Literal source transcription</summary>
 
 **Source transcription — all 384 native slots, including all repeated groups and five non-coordinate glyphs:**
 
@@ -31,9 +34,14 @@ XFDXG DVXDF FDFVX AXAGV GXGGD VGXAA GFVVA XVFXD
 VGGDD AGVXX XXDVA VXVGX XVDA
 ```
 
+</details>
+
 Source indices **10, 25, 52, 57 and 117** contain **-, -, M, M, -**. They remain occupied source slots and become coordinate masks in analysis. The first row includes VGXXV twice, with -XVVG between the two copies; neither repetition is removed from this transcription. The final group has four coordinates, XVDA.
 
 ## Native and conditional raw layers
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output — all 384 source slots under the unchanged Nov28–Dec1 key:**
 
@@ -41,15 +49,22 @@ Source indices **10, 25, 52, 57 and 117** contain **-, -, M, M, -**. They remain
 FXLBR1JE5C?G6RU4FHPLXUJSS3A0O3XI?7U49XZZMAIMYVV03DKTTHVX1XZLAE7K6KHFKXRS?NF0CVD0AQ5TW2E?ZSLKW8UKQ418FAC0COF2R8ME8EAT8UR4MMSNRLBESHZRSERVANH0E0EMZDDGLEAKSHRWBDBJ0NAZMIAMXAHNA?WR6KBSQD0JN2EO7RKK
 ```
 
+</details>
+
 The native frame has **192 plaintext positions**, of which **187** have fixed labels. Those labels do not form a readable whole; fixing a label under a chosen key is distinct from confirming meaningful language.
 
 For the primary conditional frame, exclude source interval **[5,15)**: VGXXV followed by -XVVG. This removes **nine observed coordinate glyphs and one masked slot**. All remaining slots keep their printed order. No coordinate is inserted, and the column permutation is then applied at length **374**.
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output — conditional 374-coordinate frame, before any substitutions or mask fills:**
 
 ```text
 ?OFLXXYZUDORTXJ43YX4OPISTANKOGENLNFTGEDRATETXYMARSCHZIBLFUERSTABKOFLMACKYBUCKARESTJYMARSCHZYFUERZ0HLENMAEMMIG?ESCHRAENKTENARMEE?LUGPARKPLOEMTIYANDERBAHNKR?NSTADTBUCARESTYKOFLMACKYJYX4OPYY
 ```
+
+</details>
 
 This frame fixes **183/187 positions**. It already exposes the staff wording, most of the army aviation park wording, the railway reference and much of the closing. The raw wordforms GEDRATET and BUCKAREST remain unchanged below. **Y is the separator** for this key; X and XX remain literal labels throughout this edition.
 
@@ -89,11 +104,16 @@ All indices are zero-based. Each word proposal is priced against the primary sou
 
 The seven observed changes are **98 F→V, 133 X→V, 165 F→V, 186 F→V, 225 G→D, 233 G→D and 234 F→V**. The four mask fills are **25 -→D, 52 M→D, 57 M→D and 117 -→X**. These are separate from the nine valid and one masked source slots excluded by the frame.
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — primary frame, seven observed substitutions and four printed-mask fills:**
 
 ```text
 KOFLXXYZUDORTXJ43YX4OPISTANKOGENLUFTGEDRATETXYMARSCHZIELFUERSTABKOFLMACKYBUCKARESTJYMARSCHZYFUERZAHLENMAESSIGBESCHRAENKTENARMEEFLUGPARKPLOESTIYANDERBAHNKRONSTADTBUCARESTYKOFLMACKYJYX4OPYY
 ```
+
+</details>
 
 **Readable German — the complete primary edited stream, with spacing and punctuation only:**
 

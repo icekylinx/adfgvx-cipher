@@ -1,6 +1,6 @@
 # Payments through October and cheque acknowledgements
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition: icekylinx and GPT-6 Astra Pro.**
 
@@ -17,6 +17,9 @@ is inferred.
 
 ## p175 B2
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 204-coordinate frame:**
 
 ```text
@@ -29,6 +32,8 @@ substitutions and eight printed-dash fills give:
 ```text
 VOM?8XBISENDEOCTOBERGEZAHLTENMARKXFERNERANKUNFTSANZEIGEUEBERAM?XGESANDTECHEKSXHAUPTWECHSELAMT89240?11?
 ```
+
+</details>
 
 **Readable German — word spacing and punctuation of that candidate:**
 

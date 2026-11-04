@@ -1,11 +1,9 @@
 # Oil stocks and production: the Nobel and Hagelin message
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Prior body and interpretation:** George Lasry, Ingo Niebel, Nils Kopal
 and Arno Wacker, *Deciphering ADFGVX messages from the Eastern Front of
 World War I* (2016), **§6.6 and Table 5**, author PDF pp25–26,
-[DOI](https://doi.org/10.1080/01611194.2016.1169461).
+[DOI](https://doi.org/10.1080/01611194.2016.1169461). · [Reading conventions](../../docs/reading-conventions.md)
 
 **Current source edition and exact repair audit: icekylinx and GPT-6 Astra Pro.**
 
@@ -23,6 +21,9 @@ published **Oct4–6** key.
 
 ## p64 A1
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 346-coordinate frame:**
 
 ```text
@@ -35,6 +36,8 @@ printed-dash fill:**
 ```text
 HPTMXBENEDIKTXVERTRETERKUKAOKXINATOMXATOMXXERSUCHEDRINGENEZUSTELLUNGFOLGENDENTELEGRXUXVERANLASSUNGDASSANTWXTELEGRXANHERUEBERMITTELTWIRDXXGEBRUEDERNOBELXATOMXXDRAHTETVORRAETE
 ```
+
+</details>
 
 **Readable German — spacing, punctuation and the two bracketed
 editorial expansions noted below:**
@@ -57,6 +60,9 @@ not change the accepted transcript or conceal a length adjustment.
 
 ## p64 A2
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 354-coordinate frame, including both parenthesized
 X coordinates:**
 
@@ -69,6 +75,8 @@ NAPHTAXPRODUKTIONSAEMTLICHERSORTENBEIUNSUND6NDERENFIRMENATOMXFERNERWIEVIELBISJET
 ```text
 NAPHTAXPRODUKTIONSAEMTLICHERSORTENBEIUNSUNDANDERENFIRMENATOMXFERNERWIEVIELBISJETZTGELIEFERTXDIESELBENDATENBETREFFENNOVOROSSISKFALLSSOLCHEIHNENBEKANNTXHAGELINXXXOSTARMEEOXQU12059
 ```
+
+</details>
 
 **Readable German — spacing and punctuation of that candidate:**
 

@@ -1,6 +1,6 @@
 # Earlier case paths
 
-Complete source editions are now organized in the six [reading topics](../README.md#browse-by-topic). This directory keeps
+Complete source editions are organized in the [reading topics](../README.md#browse-by-topic). This directory keeps
 earlier URLs and their section anchors available for citations and
 preserved research records.
 

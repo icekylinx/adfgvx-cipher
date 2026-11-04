@@ -1,8 +1,6 @@
 # p178 — The naval armistice order of 11 November
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source and certificate](../../experiments/naval_armistice_order/README.md)
+[ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source and certificate](../../experiments/naval_armistice_order/README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Prior reading and interpretation:** George Lasry, Ingo Niebel, Nils Kopal
 and Arno Wacker, [*Deciphering ADFGVX messages from the Eastern Front of
@@ -77,6 +75,9 @@ one-loss positions within its short group for this proposed plaintext.
 The raw readings below use those explicit frames but leave the inserted
 symbols unknown and make no known-coordinate repairs:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional per-part frames listed above; added coordinates remain unknown:**
 
 ```text
@@ -86,6 +87,8 @@ STUETZTUNKTENSAMMEL?NACHANWEISUNGDERIMMEDIATBEFEHLSHABERX2XXANALLEUBOOTEISTBISAU
 DANICHTDAMITZURECHNENISTDASZALLEFEINDLICHENSEESTREITKRAEFTFHIERVONKENNTNIS2ABENXWEITERMITFEINDLICHENANGRIFFENRECHNENXWAFFENGEBRAUGHNURZURNOTWEHR
 XGENEHMIGUNGZUMBEFAHRENNEUT1ALERHOHEITSGEWAESSERUEBERWASZERISTBEINEUTRALENREGIERUNGENERBETENXX3XXE?PFANGSBESTAETIGUNGENXADMIRALXGGXXOP1A?44XXADMIRALSTAB1?340ZWEI
 ```
+
+</details>
 
 Fourteen substitutions and the two inserted values produce 717 fixed
 positions. Only part 5's reference digits remain unknown: position 137,

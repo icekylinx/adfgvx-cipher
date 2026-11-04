@@ -1,6 +1,6 @@
 # Meal allowances, communal provisioning and a refused supplement
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source:** J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
 printed p129 B1, p133 A2–A3 and p134 A4; PDF pp132, 136 and 137.
@@ -24,19 +24,29 @@ contains every source crop, coordinate and candidate edit.
 The source advertises and prints **398 slots**, including a dash in
 `XVFX-` and an invalid `C` in `CFGVV`. Their raw 199-position reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ?UXMXRMX30NRX228XFUERSELBSTVERPFLEGERDORTFESTGESETETEBEKOESTBGUNGSGELDERSINUZUHOCHUNDMUESSENAUCHFUERRUECKLIEGENDEZEITBEANSTANDETWERDENXSCHWEDISCHEGEVUE?RNISSEKOENNENNICHTALSSASSGEBENDANGESEHENWERDENX
 ```
 
+</details>
+
 The ordinary-word candidate is:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 ZUXMXRMX30NRX228XFUERSELBSTVERPFLEGERDORTFESTGESETZTEBEKOESTIGUNGSGELDERSINDZUHOCHUNDMUESSENAUCHFUERRUECKLIEGENDEZEITBEANSTANDETWERDENXSCHWEDISCHEGEBUEHRNISSEKOENNENNICHTALSMASSGEBENDANGESEHENWERDENX
 ```
+
+</details>
 
 It requires **five observed-coordinate substitutions and two printed
 erasure fills**. The initial reference remains unexpanded. With
@@ -56,14 +66,22 @@ The source advertises and prints **452 slots**. The opening `VXDVV` group
 is five characters, and the last group of the seventh row is the literal
 `VAXGL`, with an invalid final `L`. The raw text is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 HOHESELBSTBEKOESTIGUNGSGELDERBILDENDAUERNDERANREIZSICHDERALSREGELGEDACHTENNATURALVERPFLEGUNGZUENTZIEHENXHERABSETZ?NGDAHERDNBEDINGTERFORDERLICHXBEINEUFESTSETZUNGSINDDIEFUEREINEFELDKOSTPORTIONAUFZUWENDENDENPREISEZUGRUNDEZDLEGENX
 ```
 
+</details>
+
 The candidate costs **four observed-coordinate substitutions and one
 printed-glyph fill**:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
@@ -71,7 +89,7 @@ printed-glyph fill**:
 HOHESELBSTBEKOESTIGUNGSGELDERBILDENDAUERNDENANREIZSICHDERALSREGELGEDACHTENNATURALVERPFLEGUNGZUENTZIEHENXHERABSETZUNGDAHERUNBEDINGTERFORDERLICHXBEINEUFESTSETZUNGSINDDIEFUEREINEFELDKOSTPORTIONAUFZUWENDENDENPREISEZUGRUNDEZULEGENX
 ```
 
-With editorial spacing:
+</details>
 
 **Readable German:**
 
@@ -88,17 +106,20 @@ slots and omitted the complete final `GXFVD A`, leaving an incorrect
 482-slot stream. Correcting the transcription produces the following
 **243-position direct reading**:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 NATURALVERPFLEGUNGMUSSREGELBILDENXDIESEDURCHGEMEINSAMENEINKAUFXUMPREISENICHTUNNOETIGINHOEHEZUTREIBENUNDDURCHEINRICHTUNGDEUTSCHERSPEISEHAEUSERNACHMOEGLICHKEITFOERDERNSODASSSELBSTVERPFLEGUNGAUFTATSAECHLICHNICHTZUUMGEHENDEFAELLEBESCHRAENKTBLEIBTX
 ```
 
+</details>
+
 Every plaintext pair is complete. **No source coordinate is changed or
 filled.** The text encrypts back exactly to the observed source using
 the unchanged Nov4–6 key.
-
-With editorial spacing:
 
 **Readable German:**
 
@@ -114,11 +135,16 @@ been established.
 The source advertises and prints **424 valid coordinates**. Its raw
 212-character text is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 BALDIGEMITTEILUNGDESDORTSEITSVERANLASSTENERBETEN0BEANTRAGTETEUERUNGSZULAGEKANNNICHTGEWAEHRTWERDENXZULAGEREGELUNGMUSSNACHPASCHEXRMX2XVORSCHRIFTERFOLGENXKRIEGSMINISTERIUMARMEEVERWALTUNGSDEPARTEMENTXNRX1235X18XGXBX1
 ```
+
+</details>
 
 The candidate changes only the raw `0` after `ERBETEN` to `X`, costing
 **one coordinate substitution**.

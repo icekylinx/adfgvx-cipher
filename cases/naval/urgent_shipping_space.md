@@ -1,14 +1,12 @@
 # Urgent shipping capacity and probable reliance on sea transport
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 The surviving second and third parts request urgent shipping capacity and say that all troops will probably need sea transport. The source explicitly marks the first part missing. Repeated capacity labels, differing command fields and the unresolved source-mask position remain literal.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p218 excerpt](../../experiments/urgent_shipping_space/sources/p218_reviewed.png) · [Inputs](../../experiments/urgent_shipping_space/inputs.json) · [Position and change certificates](../../experiments/urgent_shipping_space/certificates.json)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p218 excerpt](../../experiments/urgent_shipping_space/sources/p218_reviewed.png) · [Inputs](../../experiments/urgent_shipping_space/inputs.json) · [Position and change certificates](../../experiments/urgent_shipping_space/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 The published `Nov25-28` key is unchanged. [Original OCR records](../../experiments/urgent_shipping_space/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/urgent_shipping_space/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 
@@ -21,6 +19,9 @@ The published `Nov25-28` key is unchanged. [Original OCR records](../../experime
 
 **Source transcription — header:** `B) KOW v RVA (01.36 a.m., November 26th); KR AN LP 2100 (11/25) 3 TLE; (1 TL missing); 2 TL RICHI-188`
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — every native source slot in printed order, with non-coordinate glyphs masked:**
 
 ```text
@@ -32,6 +33,8 @@ SOFORTIGESEGDUNGVONSCHIFFSRAUMFUERJ3YYYMANN3YYYPFERDEXJ3YYYMANN3YYYPFERDEXRTVLDR
 ```text
 SOFORTIGESENDUNGVONSCHIFFSRAUMFUERJ3YYYMANN3YYYPFERDEXJ3YYYMANN3YYYPFERDEXRTVLDRINGENDGEBOTENX
 ```
+
+</details>
 
 **Readable German — exact nonseparator labels of the edited output:**
 
@@ -50,11 +53,16 @@ SOFORTIGESENDUNGVONSCHIFFSRAUMFUERJ3YYYMANN3YYYPFERDEXJ3YYYMANN3YYYPFERDEXRTVLDR
 
 **Source transcription — header:** `B) KOW v RVA (01.36 a.m., November 26th); KR AN LP 2100 (11/25) 3 TLE; 3 TL RICHI-200`
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — every native source slot in printed order, with non-coordinate glyphs masked:**
 
 ```text
 DAWAHRSCHEINLICHALLETRUPPENAUFSEETRANSPORTANGEWIESENXGENXKDOX?XBXVX72XGENXKDOXZXBXNX72XJAXNR42XJ2GEH
 ```
+
+</details>
 
 **Readable German — exact nonseparator labels of the unchanged raw output:**
 
@@ -76,7 +84,7 @@ The third-part unknown is a printed source erasure under an otherwise fixed squa
 
 ## Evidence, credit and reproduction
 
-Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.
+Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro.
 
 The certificates independently reconstruct column positions and domains, compare them with the cipher implementation, replay every priced change, and check all readable nonseparator labels. Partial readings have one consistent injective square/source-mask completion witness that re-encrypts exactly; those witness choices are not historical identifications. Source images are bound to the original PDF by page, rectangle, scale, file digest and pixel digest.
 

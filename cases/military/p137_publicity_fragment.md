@@ -1,6 +1,6 @@
 # p137 A6 — Conditional publicity fragment in an interference-damaged report
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and conditional reconstruction: icekylinx and GPT-6 Astra Pro.**
 The sixth part preserves 74 coordinate slots after an explicit interference
@@ -21,21 +21,31 @@ something was to remain hidden, become known, or remain available to the public.
 Both the polarity and the intervening verb have materially different
 zero-change alternatives. No event or policy is inferred from this fragment.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional 254-slot frame with 180 added leading unknown coordinates; published Nov4–6 key; 0/127 fixed plaintext positions:**
 
 ```text
 ???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
 ```
 
+</details>
+
 Every plaintext position lacks at least one coordinate in this frame. The
 received halves still constrain letter domains, but do not independently
 fix even one complete letter pair.
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — 25 proposed letters at positions 13–30 and 45–51; zero observed substitutions, zero printed-mask fills and 35 added-slot fills:**
 
 ```text
 ?????????????DEROEFFENTLICHKEIT??????????????BLEIBEN???????????????????????????????????????????????????????????????????????????
 ```
+
+</details>
 
 **102 plaintext positions remain unassigned**, including all fourteen positions
 31–44. Of the 180 inferred leading coordinates, 145 remain unknown, and all
@@ -107,6 +117,9 @@ A7 printed-dash fill retain their separate costs.
 
 ## Source and verification
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — all 74 printed slots, preserving the three dashes:**
 
 ```text
@@ -114,6 +127,8 @@ DXXAF FVAAG FAVDA VVFAX VAXVV
 ---FV AAXGX VGGAV GXDGF XFAFG DAAGX FXVFA
 GXXAF FVXGA XGVX
 ```
+
+</details>
 
 The original labels this `6TL` and prints `RICHI` without a length. The leading
 `(interference)` annotation supports a loss hypothesis but supplies no count.

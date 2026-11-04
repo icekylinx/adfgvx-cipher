@@ -1,14 +1,12 @@
 # Wire communications, return instructions and the Tiraspol continuation
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source collation and edition: icekylinx and GPT-6 Astra Pro.**
 
 The two surviving copies supply complementary evidence. The short first
 part on printed p162 overlaps the end of the longer first part on p166,
 and their second parts differ at only two source positions. This edition
 adds three physical records: **p162 C1, p166 C1 and p166 C2**. The earlier
-[p162 C2 edition](../military/tiraspol_border_report.md) remains a supporting
+[p162 C2 edition](../military/tiraspol_border_report.md) remains a supporting · [Reading conventions](../../docs/reading-conventions.md)
 witness, with its original displays unchanged.
 
 The primary unfilled frames fix **205 of 362 plaintext positions** across
@@ -42,17 +40,25 @@ the unpaired final coordinate, is retained as a diagnostic in the
 certificate; it is not used as a readable message or included in the
 fixed-position total.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — 195 unassigned prefix slots followed by all 117 observed p162 coordinates; zero fixed labels out of 156:**
 
 ```text
 ????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
 ```
 
+</details>
+
 The next layer copies only p166's **original source coordinates 0:195**.
 Every complete pair retains both source origins. Of the resulting 156
 pairs, 117 combine a p162 coordinate with a p166 prefix coordinate; 39
 come entirely from the p166 prefix. None is independently observed as a
 complete p162 pair.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — source-linked comparison, with the 195-coordinate prefix copied from p166 and no alteration to the 117 p162 coordinates:**
 
@@ -65,6 +71,8 @@ AKONACH18XMITTEILTOBDRAHTVERKEHRODESSAXODELSAMITDORTBGERHGRXMOGGLICHXSTOERUNGSPO
 ```text
 AKONACH18XMITTEILTOBDRAHTVERKEHRODESSAXODESSAMITDORTIGERHGRXMOEGLICHXSTOERUNGSPOSTENACKERMANNSOLLVONBRAILAZURRUECKKEHRANGEWIESENSEINXSTOERUNGSPOSTENTIRASPOL
 ```
+
+</details>
 
 **Readable German — complete conditional source-linked edition, preserving the literal wording, separators and labels:**
 
@@ -88,6 +96,9 @@ aliases: insertion before original source 225 or 226 produces the same
 `XX` cannot be distinguished. Before the fill, the two aliases place the
 unknown at different plaintext positions; both raw streams are retained.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — all 311 original coordinates plus one unassigned slot before source 225; 155 of 156 labels fixed:**
 
 ```text
@@ -100,11 +111,16 @@ AKONACH18XMITTEILTOBDRAHTVERKEHRODESSAXODELSAMITDORTBGERHGRXM?GGLICHXSTOERUNGSPO
 AKONACH18XMITTEILTOBDRAHTVERKEHRODESSAXODELSAMITDORTBGERHGRXMOGGLICHXST?ERUNGSPOSTENACKERMANNSOLLVONBRAILAZURRUECKKEHRANGEWGESENSEINXOTOERUNGSPOSTENTIRASPOL
 ```
 
+</details>
+
 In the first alias the unresolved label is plaintext 61; in the second
 it is plaintext 71. Both have pair `F?` and domain **178COQ**. The p162
 copy provides `X` at source 30 or 31, respectively, fixing `O`. This fill
 is independently supported by a received coordinate, not chosen solely
 to spell a German word.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — source-linked missing-X fill only; both observed-copy disagreements and the three lexical defects remain visible:**
 
@@ -117,6 +133,8 @@ AKONACH18XMITTEILTOBDRAHTVERKEHRODESSAXODELSAMITDORTBGERHGRXMOGGLICHXSTOERUNGSPO
 ```text
 AKONACH18XMITTEILTOBDRAHTVERKEHRODESSAXODESSAMITDORTIGERHGRXMOEGLICHXSTOERUNGSPOSTENACKERMANNSOLLVONBRAILAZURRUECKKEHRANGEWIESENSEINXSTOERUNGSPOSTENTIRASPOL
 ```
+
+</details>
 
 **Readable German — complete optional p166 C1 edition, preserving every literal label:**
 
@@ -135,6 +153,9 @@ The second part is independently labeled **2 TL RICHI-100** and contains
 exactly 100 observed coordinates. Its native frame gives all 50 plaintext
 labels under the unchanged published **Nov7–9** key.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — all 100 printed source coordinates, with no fill or changed key:**
 
 ```text
@@ -146,6 +167,8 @@ TIRASPOLERHIELTMXGXFEUERANDERGRENZEXAKONACH17ROZM4
 ```text
 TIRASPOLERHIELTMXGXFEUERANDERGRENZEXAKONACH17ROEM4
 ```
+
+</details>
 
 **Readable German — complete optional second part, with every separator and closing label retained:**
 
@@ -232,4 +255,4 @@ remains with **George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker** (2016)
 and George Lasry's 2017 disclosure, as recorded in the unchanged key
 metadata. This is source restoration and explicit editorial collation by
 **icekylinx and GPT-6 Astra Pro**, with prior OCR and the earlier p162 C2
-edition preserved. No universal first-decipherment priority is asserted.
+edition preserved.

@@ -35,7 +35,10 @@ def check_case(data):
         section=text.split(heading,1)[1].split('\n## ',1)[0]
         assert f"Literal header: `{r['header_literal']}`." in section,r['id']
         fences=re.findall(r'```text\n(.*?)\n```',section,re.S)
-        assert fences==['\n'.join(r['source_rows']),r['expected_raw'],r['edited_output']],r['id']
+        expected=['\n'.join(r['source_rows']),r['expected_raw']]
+        if r['edited_output'] != r['expected_raw']:
+            expected.append(r['edited_output'])
+        assert fences==expected,r['id']
         assert re.findall(r'^> (.+)$',section,re.M)==[r['readable_german']],r['id']
     assert 'only one section-A ciphertext body is printed' in text
     assert 'not a historical numeral assignment' in text

@@ -1,6 +1,6 @@
 # p152 A2 — Proposed report on crossing attempts
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and partial word edition: icekylinx and GPT-6 Astra Pro.** The unchanged 128-slot frame gives 61/64 fixed native labels. Seven observed-coordinate substitutions and two printed-mask fills give a proposed 63/64-position reading about crossing attempts. The negative KEINE is part of that proposed repair, not a native source-fixed statement.
 
@@ -11,6 +11,9 @@
 > Bis VARC8IORO?A keine Uebergangsversuche. A O0Q 17 ROED 1Q NR V054.
 
 The proposed wording means that no crossing attempts are reported as far as the place encoded VARC8IORO?A. Its 8 and unresolved position remain literal. The entire closing field A O0Q 17 ROED 1Q NR V054 is retained, without changing it to a familiar headquarters signature or historical numeral.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Source transcription — all 128 printed slots, including E and two dashes:**
 
@@ -33,6 +36,8 @@ BIHVARC8IORO?AK1ILEPEVERG?NGVXERSU?HEXXAXO0QX17XROEDX1QXNRXV054X
 BISVARC8IORO?AKEINEUEBERGANGSVERSUCHEXXAXO0QX17XROEDX1QXNRXV054X
 ```
 
+</details>
+
 The changed observed source indices are 15, 31, 39, 40, 47, 78 and 79. The two printed dashes at 48–49 are filled. Printed E at source 1 remains an unresolved coordinate; it produces one of {2,3,B,H,S,V} at name position 12. All six complete re-encryption witnesses remain in the certificate.
 
 ## Place spelling: separately priced alternatives
@@ -40,6 +45,9 @@ The changed observed source indices are 15, 31, 39, 40, 47, 78 and 79. The two p
 An independent 1896 primary source prints **VERCSIOROVA**, supplying a rare CS spelling for comparison with the opaque place label. The inspected National Széchényi Library scan is *Természettudományi Közlöny*, printed p159 / PDF p6, a report of the botanical section's January 8 meeting. Its short locality statement reads “1885-ben pedig Vercsiorova alatt szedte.” The Romanian National History Museum also catalogues a 1901–1915 postcard under Verciorova, inventory 385510.
 
 The 1896 source supports the place-name comparison; it does not attest the exact A-vowel spelling VARCSIOROVA or the proposed telegram's negative statement. The two alternatives below therefore keep their own complete coordinate prices.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Edited output — optional VARCSIOROVA spelling; nine total observed substitutions and three total mask fills:**
 
@@ -52,6 +60,8 @@ BISVARCSIOROVAKEINEUEBERGANGSVERSUCHEXXAXO0QX17XROEDX1QXNRXV054X
 ```text
 BISVERCSIOROVAKEINEUEBERGANGSVERSUCHEXXAXO0QX17XROEDX1QXNRXV054X
 ```
+
+</details>
 
 Supplying S for literal 8 and V for the masked name position adds two observed substitutions and one mask fill to the primary reading. Changing VARCSIOROVA to the independently attested VERCSIOROVA costs two further observed substitutions. The primary edition leaves both normalizations unselected.
 

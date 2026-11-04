@@ -1,7 +1,5 @@
 # A second-part instruction on security measures at own discretion
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 A complete native second-part body directs security measures according to one’s own discretion. Its first part is not supplied. Six explicitly priced coordinate changes recover the ordinary-word clause while the opening label, two irregular spellings and three coupled reference positions remain literal or unresolved.
@@ -10,7 +8,7 @@ A complete native second-part body directs security measures according to one’
 **Reviewed source crops:** [p184_reviewed.png](../../experiments/group_security_measures_fragment/sources/p184_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p184 excerpt — source-PDF reference](../../experiments/group_security_measures_fragment/inputs.json) · [Inputs](../../experiments/group_security_measures_fragment/inputs.json) · [Position and change certificates](../../experiments/group_security_measures_fragment/certificates.json)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p184 excerpt — source-PDF reference](../../experiments/group_security_measures_fragment/inputs.json) · [Inputs](../../experiments/group_security_measures_fragment/inputs.json) · [Position and change certificates](../../experiments/group_security_measures_fragment/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 The published `Nov13-15b` key is unchanged. [Original OCR records](../../experiments/group_security_measures_fragment/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/group_security_measures_fragment/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 
@@ -21,6 +19,9 @@ The published `Nov13-15b` key is unchanged. [Original OCR records](../../experim
 ## p184 A2
 
 **Source transcription — header:** `Page heading 13th November 1918; A) 2 TL; RICHI-202`
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — every native source slot in printed order, with non-coordinate glyphs masked:**
 
@@ -33,6 +34,8 @@ HIFUERUALLEFUERDIESIMHERHEITDE6GRUPPENOTIGENMASSREGLNNACHEIG?NEMERMASSENZUTR?FFE
 ```text
 HIFUERUALLEFUERDIESICHERHEITDERGRUPPENOTIGENMASSREGLNNACHEIGENEMERMESSENZUTREFFENXOHLRM1ANR11???GEHOP
 ```
+
+</details>
 
 **Readable German — exact nonseparator labels of the edited output:**
 
@@ -50,7 +53,7 @@ HIFUERUALLEFUERDIESICHERHEITDERGRUPPENOTIGENMASSREGLNNACHEIGENEMERMESSENZUTREFFE
 
 ## Evidence, credit and reproduction
 
-Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.
+Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro.
 
 The certificates independently reconstruct column positions and domains, compare them with the cipher implementation, replay every priced change, and check all readable nonseparator labels. Partial readings have one consistent injective square/source-mask completion witness that re-encrypts exactly; those witness choices are not historical identifications. Source images are bound to the original PDF by page, rectangle, scale, file digest and pixel digest.
 

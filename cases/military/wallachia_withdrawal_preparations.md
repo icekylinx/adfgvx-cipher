@@ -1,6 +1,6 @@
 # Wallachia withdrawal preparations: p150 B1–B5
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Five readable parts in their unchanged native source frames. The edition resolves ordinary text while leaving one wholly erased date symbol open.
 
@@ -29,6 +29,9 @@ A fixed position means a single symbol under the stated source frame and publish
 
 ## p150 B1 — Opening to OHL: departure preparations and cited instruction
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output:**
 
 ```text
@@ -41,7 +44,12 @@ OHLOPXXOKMXHATVORBEREITUN?ENSOGETROFFE??ASSAUFB?FEHLXXVERGLXDORT1A11118OP2XXDERA
 OHLOPXXOKMXHATVORBEREITUNGENSOGETROFFENDASSAUFBEFEHLXXVERGLXDORT1A11118OP2XXDERABMARSCHVOM12X11AB
 ```
 
+</details>
+
 ## p150 B2 — Further delay and the Danube/Rustschuk threat
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -55,7 +63,12 @@ ANGETRETENWERDENKANNXWEITERE?RRZOEGE?UNGW?ZENFEIND?AGEANDO?AUINS?ESONDERE?EIRUST
 ANGETRETENWERDENKANNXWEITEREVERZOEGERUNGWEGENFEINDLAGEANDONAUINSBESONDEREBEIRUSTSCHUKWAEREAEUSSERST
 ```
 
+</details>
+
 ## p150 B3 — Earlier enemy crossing, Wallachian plain and advance parties
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -69,7 +82,12 @@ UNERWUENSCHTXSOLLTE??GNERVOR?2X11XUE??RDONAUA?GREILEN?SUESSTEX?ALACHEI??E?EGERA?
 UNERWUENSCHTXSOLLTEGEGNERVOR?2X11XUEBERDONAUANGREIFENXMUESSTEXWALACHEIEBENEGERAEUMTWERDENXVORKOMMANDOS
 ```
 
+</details>
+
 ## p150 B4 — Advance parties, railway operation and Constanta
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -83,7 +101,12 @@ SIN?NACHKRON?TADTUXH?RMANNSTA?TVORAUS?ESCHICKTX?AHNLINIENWERDENINDEUTSCHENBETRIE
 SINDNACHKRONSTADTUXHERMANNSTADTVORAUSGESCHICKTXBAHNLINIENWERDENINDEUTSCHENBETRIEBGENOMMENXKONSTANTAUX
 ```
 
+</details>
+
 ## p150 B5 — Medgidia and the Dobrudscha administration
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -96,6 +119,8 @@ MEDGIDIASINDGERAEU?TXBISHERNGEETXVERWXDOBRUD?CHAALSETA?PENVE?WALTUNGN?CHKRONSTRD
 ```text
 MEDGIDIASINDGERAEUMTXBISHERIGEETXVERWXDOBRUDSCHAALSETAPPENVERWALTUNGNACHKRONSTADTVERLEGTXXOXKXMX1A11280XOPX
 ```
+
+</details>
 
 ## Exact boundaries and unresolved date
 

@@ -1,8 +1,6 @@
 # p215 A — Breslau–Oderberg dispatch fragment
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[All cases](../README.md) · [ADFGVX Cipher](../../README.md)
+[All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Recovery and review: icekylinx and GPT-6 Astra Pro, 4 November 2026.**
 A conditional relocation of five printed mask slots reveals a dispatch from
@@ -48,6 +46,9 @@ five masks inside source[195:208] gives the same analysis ciphertext, with nine
 different mask-identity maps; none is treated as a new message or an additional
 reading. Further frame alternatives remain possible.
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — untouched body:**
 
 ```text
@@ -63,13 +64,20 @@ AVXFA VGVDF -FGAG FAFFF --XVX VXVVF GAFGX DDAXV
 ADXDV VXVXG VDDGV GVVXV XVADV FXGGF DA
 ```
 
+</details>
+
 ## Raw output and evidence
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output — conditional 392-slot frame, unchanged published key, 176/196 fixed positions, no coordinate substitutions or fills:**
 
 ```text
 D6EABSENDUNGRUERXYYXAR?PEDRI?GXBE??ETIG?ENXJ??11XPAARHU??ISENUND9K??11111XHUF??EGELUNDSC?RAUBNAEGEL?ST??UTEX?BBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNER6OLGTXN?AINDEPO?XBRESLAT5J85
 ```
+
+</details>
 
 The [source and frame certificate](../../experiments/p215_breslau_dispatch/certificates.json)
 lists all 196 domains, both coordinate origins for every plaintext position,
@@ -84,11 +92,16 @@ capability within the declared scope, not unique historical geometry.
 
 ## Proposed words and alternative mask positions
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — primary whole-group frame; 6 observed-coordinate substitutions, 14 printed-mask fills and 2 inserted-slot fills; 192/196 fixed positions:**
 
 ```text
 DIEABSENDUNGFUERXYYXARMEEDRINGXBENOETIGTENXJ??11XPAARHUFEISENUND9K??11111XHUFNAEGELUNDSCHRAUBNAEGELISTHEUTEXABBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNERFOLGTXTRAINDEPOTXBRESLAU5J85
 ```
+
+</details>
 
 **Readable German — the same primary edited stream with spacing and separator punctuation; numerical labels and unresolved quantity positions remain literal:**
 

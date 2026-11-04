@@ -1,6 +1,6 @@
 # Radio contact, operating times and an unavailable key
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -21,6 +21,9 @@ and all local repairs. Printed page numbers are three less than PDF page numbers
 The [source](../../experiments/radio_contacts_and_keys/sources/childs_p100_C.png)
 is under a November 1 heading, with this November 2 reception line:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -29,14 +32,21 @@ C) UKS v ZÖN (2.03 a.m., November 2nd)
 RIZI-158
 ```
 
+</details>
+
 All 158 coordinates give 79 fixed plaintext labels under `Nov1-3`, without
 any repair:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
 ```text
 WANNISTUNMITTELBARERVERKEHRMITEUCHXMUENCHENODERBRSLAUMEGLICHXDRAHTUNTERBROCHENX
 ```
+
+</details>
 
 The sender asks when direct communication with the recipient, Munich or
 the place written `BRSLAU` will be possible, and says the wire connection
@@ -55,6 +65,9 @@ The [source](../../experiments/radio_contacts_and_keys/sources/childs_p137_D.png
 has `RIZI-102`. Its upper sender initial is overprinted, so the header is
 conservatively retained as:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -63,6 +76,8 @@ RIZI-102
 NF NRO V OSM
 ```
 
+</details>
+
 The page heading is November 6. Neither it nor the footer is used to resolve
 the unclear upper callsign or the time's missing a.m./p.m. designation.
 The two dots after the final cipher group `AX` are punctuation; the footer
@@ -70,20 +85,30 @@ is outside the 102-coordinate body.
 
 All 51 raw plaintext positions are fixed under `Nov4-6`:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 POTSAGENDA3SSCHLUESSELOSKACHIHIERNICHTMEHRVORHANDEN
 ```
 
+</details>
+
 One observed-coordinate substitution, source **79: G→X**, changes the `3`
 inside `DA3S` to `S`:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 POTSAGENDASSSCHLUESSELOSKACHIHIERNICHTMEHRVORHANDEN
 ```
+
+</details>
 
 Readable German:
 
@@ -106,6 +131,9 @@ ledger. Its local word repair does not reassign the square's digit `3`.
 The [source](../../experiments/radio_contacts_and_keys/sources/childs_p142_A.png)
 is headed November 6:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -114,14 +142,21 @@ FUER ZÖN 1900 (6/11)
 RIZI-128
 ```
 
+</details>
+
 All 128 coordinates and 64 plaintext labels are fixed under `Nov4-6`, with
 no substitutions or fills:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
 ```text
 GEBENSIEX0430X10XMINXVVVXDANNIHREFKSPRUNDHOERENSIEUNSWIEDERX0645
 ```
+
+</details>
 
 The instruction is to send **10 minutes of `VVV` at 0430**, then the
 recipient's radiograms (`FKSPR`), and listen again at **0645**. All three
@@ -134,6 +169,9 @@ The [source](../../experiments/radio_contacts_and_keys/sources/childs_p150_A2.pn
 explicitly labels this **part 2**. Its first part has not been attached or
 reconstructed in this edition:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -144,6 +182,8 @@ FUER EILKESE ZU SS D (5) 2200
 UMGEHEND WEITERGEBEN
 ```
 
+</details>
+
 The page heading is November 6. The literal `OSMAINE` and `EILKESE` spellings
 and the November 7 reception remain unchanged. The instruction separator
 before `UMGEHEND WEITERGEBEN` is outside the ciphertext.
@@ -151,19 +191,29 @@ before `UMGEHEND WEITERGEBEN` is outside the ciphertext.
 The 180-slot source contains one dash and gives 89 fixed labels out of 90
 under `Nov4-6`:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 JEDOCHHOERTEMPEGSSTMTXINBOTSCHAFTAUFEUCHXNAMEXQZXXADT?SSENCHIFFRITENXINMLLENPERIDENANRUFEN
 ```
 
+</details>
+
 Six known-coordinate substitutions and one dash fill give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 JEDOCHHOERTEMPFGSSTATXINBOTSCHAFTAUFEUCHXNAMEXQZXXADRESSENCHIFFRIRENXINALLENPERIDENANRUFEN
 ```
+
+</details>
 
 The receiving station (`EMPFGSSTAT`) in the embassy listens for the
 recipient. The message supplies the literal name/separator field

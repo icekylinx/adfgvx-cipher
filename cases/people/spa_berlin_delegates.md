@@ -1,13 +1,11 @@
 # Delegates directed through Spa toward Berlin
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source edition: icekylinx and GPT-6 Astra Pro.**
 
 **Prior body and historical discussion:** George Lasry, Ingo Niebel,
 Nils Kopal and Arno Wacker, *Deciphering ADFGVX messages from the Eastern
 Front of World War I* (2016), §6.4, author PDF p24,
-[DOI](https://doi.org/10.1080/01611194.2016.1169461). That discussion
+[DOI](https://doi.org/10.1080/01611194.2016.1169461). That discussion · [Reading conventions](../../docs/reading-conventions.md)
 explicitly cites p175 A together with p172 C. This edition adds a
 source-exact transcript and quantified repairs; it does not claim the
 travel message as a new historical decipherment.
@@ -24,19 +22,29 @@ coordinates and use the unchanged published **Nov10–12** key.
 The [source crop](../../experiments/nov10_delegates_and_field_report/sources/p175_A1.png)
 directly decrypts to:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 HPTMXMANNITAED1XNAMUTXZUGLEICHFUERHPTMXVXWEIHERXEXIX2XXABGEORDNETEMITZUGODETAUTOSONACHSPALEITENX
 ```
 
+</details>
+
 Four observed-coordinate repairs give this readable candidate:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 HPTMXMANNSTAEDTXNAMURXZUGLEICHFUERHPTMXVXWEIHERXEXIX2XXABGEORDNETEMITZUGODERAUTOSONACHSPALEITENX
 ```
+
+</details>
 
 It addresses the officer named by the candidate `MANNSTAEDT` at Namur,
 also for Captain von Weiher, and directs delegates by train or car to
@@ -56,19 +64,29 @@ reconciliation remains unchanged.
 The [second-part crop](../../experiments/nov10_delegates_and_field_report/sources/p175_A2.png)
 directly reads:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 DASSWEITERFAHRTNACHBERLINAM11X11X?X03XNACWMXOHLRM4BX
 ```
 
+</details>
+
 One observed-coordinate repair changes `NACWM` to `NACHM`:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 DASSWEITERFAHRTNACHBERLINAM11X11X?X03XNACHMXOHLRM4BX
 ```
+
+</details>
 
 The continuation gives onward travel to Berlin on `11X11` at
 `?X03 NACHM`, followed by `OHLRM4B`. All these labels remain literal.

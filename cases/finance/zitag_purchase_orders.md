@@ -1,6 +1,6 @@
 # ZITAG stop-orders and cancellation of procurement contracts
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source:** J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
 printed pp102, 103 and 106, PDF pp105, 106 and 109. **Edition:** icekylinx
@@ -23,11 +23,16 @@ The source heading is 1 November 1918; the receipt header says November 2
 without a time. It addresses the Prussian War Ministry representative
 at Constantinople. All **180 coordinates** are observed. The raw reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 FUERXZITAGVOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSIVHERNXZITAG
 ```
+
+</details>
 
 The common readable candidate replaces source coordinates **29 G→X**
 and **55 G→D**. Both replacements are observed in the other copies.
@@ -39,11 +44,16 @@ War Ministry representative addressee. The source prints the different
 forms `VFFAX` and `FDGAG`; neither is silently changed in the transcript.
 Its raw **90-character** reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 FUERXZITAGXOENENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG
 ```
+
+</details>
 
 Only **source index 162 G→F** is changed for the common candidate,
 repairing `OENE` to `OHNE`. Both other copies witness that coordinate.
@@ -54,11 +64,16 @@ Header: `NKJ v LP (8.11 p.m., November 2nd); 1/11 2210`, again with the
 same addressee. The printed group `XGGGG` has five characters; the earlier
 OCR form `XXGGGG` was not an actual extra source coordinate. The raw body is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 FUERXZITAGVOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG
 ```
+
+</details>
 
 The common candidate changes only **source index 29 G→X**, witnessed by
 p103 D. The three literal copies differ at exactly three source positions:
@@ -71,13 +86,16 @@ p103 D. The three literal copies differ at exactly three source positions:
 
 The candidate is:
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output:**
 
 ```text
 FUERXZITAGXOHNENUMMERNICHTSWEITERKAUFENUNDNICHTSWEITERVERLADENALLESMOEGLICHSTSICHERNXZITAG
 ```
 
-With editorial spacing:
+</details>
 
 **Readable German:**
 
@@ -105,19 +123,29 @@ previously spoiled its frame.
 
 The source-aligned raw reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 DEUTSCHKAUFDRAHTETNRX5XXBEXTAETIQEN4TEWEGRXINDEDENBESCHAFBUNG6MILLIONENRUBE1ERSUCHGXXERLEDIGTDURCHUNSERTELEGRXNRX3XDASSNUR5EREITSBEZAHLTE
 ```
 
+</details>
+
 The explicit ordinary-word candidate is:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 DEUTSCHKAUFDRAHTETNRX5XXBESTAETIGENXTELEGRXINDENENBESCHAFFUNG6MILLIONENRUBELERSUCHTXXERLEDIGTDURCHUNSERTELEGRXNRX3XDASSNURBEREITSBEZAHLTE
 ```
+
+</details>
 
 It costs **10 observed-coordinate substitutions** and no fills. Its nine
 changed plaintext positions are all listed in the certificate, including
@@ -135,20 +163,30 @@ The second part advertises and prints **254 slots**. The first group is
 `GG-VF`, source group `FCXGD` contains an invalid `C`, and a later group is
 `AVG-G`. The raw text is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 PARTIENVERLADENWERDENSOL?ENXSTORNIERETSAEMTLXA?DEREKONTRAKTE?EGENALLGEMEINERLAGEXERSUCHENWESTERNHAGENNOCHMALSSOFORTIGERUECKKEHR
 ```
 
+</details>
+
 The candidate fills those three printed erasures and changes no observed
 coordinate:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 PARTIENVERLADENWERDENSOLLENXSTORNIERETSAEMTLXANDEREKONTRAKTEWEGENALLGEMEINERLAGEXERSUCHENWESTERNHAGENNOCHMALSSOFORTIGERUECKKEHR
 ```
+
+</details>
 
 Continuing B1 with editorial spacing:
 

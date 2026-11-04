@@ -1,8 +1,6 @@
 # p203 C / p210 C — inquiries about Richter in Aleppo
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source certificate](../../experiments/corpus_recovery/certificates.json)
+[ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source certificate](../../experiments/corpus_recovery/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Records:** two related personnel inquiries, on 18 and 20 November 1918,
 under different published period keys. **Result:** the earlier message
@@ -26,16 +24,24 @@ The source abbreviation **UNTFFZ** is retained. Its interpretation as an
 NCO is supported by the later message's directly read **UNTEROFFZ**.
 The earlier message itself does not supply the first name Kurt.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 KMXABTXNACHRICHTENMITTELXERBITTETNACHRICHTVERBLEIBUNTFFZXRICHTERXFUNKERPARKXALEPPOXFELDPOSTX???X
 ```
 
+</details>
+
 All **192** coordinates in [p203 C](../../experiments/corpus_recovery/sources/p203_C.png)
 are valid and unchanged. The three question marks are unknown square-cell
 values, not damaged source glyphs. The source section belongs to the
 **18 November** heading, below an earlier 16 November section:
+
+<details>
+<summary>Literal source transcription</summary>
 
 **Source transcription — clear header and/or literal source record:**
 
@@ -44,6 +50,8 @@ XYZ v LP (03.51 p.m., November 18th)
 IWE KOW AS FUER XYZ 14.50 (18/11)
 RICHI-192
 ```
+
+</details>
 
 ## The later inquiry, p210 C
 
@@ -68,6 +76,9 @@ numerals or a reconstructed reference.
 The [p210 C source](../../experiments/corpus_recovery/sources/p210_C.png)
 has **408** coordinate slots and this header:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -76,13 +87,20 @@ XYZ v LP (02.55 p.m., November 20th)
 RICHI-408
 ```
 
+</details>
+
 Its raw decipherment under the unchanged Nov19–21 key is:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
 ```text
 IS0XEBERDENUNTEROFFZXKURTXRICHTERXALEPPOXARMEENACHRICHTENPARKXJ527XDEUTSCLEFELDPOSTX227XAUSKUNFTUEBER3ETZIGENSTANDORTOWERVERBLEIBZUERFAHRENJXNRXQ90STRICHJJXJ4XAXNCHX?RIEGSMINISTXALLGEMXK?I?GSDEPARTEMENTXX
 ```
+
+</details>
 
 The invalid source glyphs in **AFEVF**, **CXVVA** and **EGFDF** retain
 their positions in the literal transcript. For analysis, they are masked

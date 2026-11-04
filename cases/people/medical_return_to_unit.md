@@ -1,6 +1,6 @@
 # Return to a replacement unit on medical grounds
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -22,6 +22,9 @@ The [full page](../../experiments/inventory_and_medical_return/sources/childs_p1
 places these parts under a November 2 heading. Their reception line says
 November 4:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -30,6 +33,8 @@ FÜR POT FÜR HAFENKDTR 1135 (2) 2 TLE
 1 TL RICHI-228
 2 TL RICHI-140
 ```
+
+</details>
 
 The unchanged published `Nov1-3` key applies. The heading, internal day `(2)`
 and later reception date are preserved without renaming the key period.
@@ -47,19 +52,29 @@ an unpaired coordinate; that result is preserved in the certificate. Under
 the conditional 228-slot model, inserting an unknown coordinate at index
 168 gives 113 fixed labels out of 114:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional insertion at source index 168:**
 
 ```text
 W?RDEHEUTEAUFGRUNDAERZTLXGUTACHTJDSEITENSSCHWARZMEERSTELLEDTSCHXSTAATZUSPEZIALAERZTLXBEHADDLUNGUXWIEDERHERSTELLUNG
 ```
 
+</details>
+
 Inserting `A` and applying three source-coordinate substitutions gives:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — same conditional missing-slot frame, with A supplied and three substitutions:**
 
 ```text
 WURDEHEUTEAUFGRUNDAERZTLXGUTACHTENSEITENSSCHWARZMEERSTELLEDTSCHXSTAATZUSPEZIALAERZTLXBEHANDLUNGUXWIEDERHERSTELLUNG
 ```
+
+</details>
 
 The phrase continues directly into part 2. It says that action was taken
 today on the basis of a medical opinion from the `SCHWARZMEERSTELLE`
@@ -96,19 +111,29 @@ is not an independently supplied crib or proof of a uniquely placed loss.
 The [second-part crop](../../experiments/inventory_and_medical_return/sources/childs_p104_C2.png)
 has exactly 140 valid coordinates and 70 fixed raw labels:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 DERGESUNDHEITZUMERSATZTRUPPJNTEILINMARSHGESETZTXXRETTERLXKETTERLXLTNXX
 ```
 
+</details>
+
 One known-coordinate substitution gives:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 DERGESUNDHEITZUMERSATZTRUPPENTEILINMARSHGESETZTXXRETTERLXKETTERLXLTNXX
 ```
+
+</details>
 
 Together the parts report being sent to the replacement unit for specialist
 treatment and recovery. The source spells the phrase `IN MARSH GESETZT`;

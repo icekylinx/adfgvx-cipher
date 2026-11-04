@@ -1,6 +1,6 @@
 # Mackensen's appeal over disarmament and internment
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Prior body identification:** Childs; summarized by George Lasry, Ingo
 Niebel, Nils Kopal and Arno Wacker (2016). **Source edition and exact repair
@@ -19,6 +19,9 @@ The source is [Childs's collection](https://drive.google.com/file/d/1_JiNMck7eUv
 printed **p220 C1–C4 and p221 A5–A6**, PDF pages 223–224. The repeated header
 links the six parts:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -26,6 +29,8 @@ NKJ v UKS (05.24 p.m., November 25th)
 1620 (11/25) KR MIM 6 TLE
 FUR LP
 ```
+
+</details>
 
 Both pages are headed 25 November 1918. The scan's `1620` differs from the
 `16:30` time in the earlier research-paper summary; the source time is
@@ -37,19 +42,29 @@ square and transposition are unchanged.
 All **222** printed slots are retained. The `C` in `ADCAV` is outside the
 coordinate alphabet. The literal-source reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 OHLOPXXKMXXVOLKSREGXBERLI7XXGENXBERTHELOTHATMITGETEILJKDASSGENXFOCHANWENDUNGDERWESTWAFFEN?TILLSTANDSBEDINGUNGEN
 ```
 
+</details>
+
 Four observed-coordinate substitutions and one invalid-glyph fill give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 OHLOPXXKMXXVOLKSREGXBERLINXXGENXBERTHELOTHATMITGETEILTXDASSGENXFOCHANWENDUNGDERWESTWAFFENSTILLSTANDSBEDINGUNGEN
 ```
+
+</details>
 
 With editorial spacing: “OHL, Op. KM. Volksreg. Berlin. Gen. Berthelot hat
 mitgeteilt, dass Gen. Foch Anwendung der Westwaffenstillstandsbedingungen …”
@@ -60,19 +75,29 @@ layer and the complete numeral/rare-letter inventory.
 
 The source contains exactly **264 valid coordinates**. Its raw reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 FUERDEUTSCHESUEDOSTFRONTABLEHNTUNDENTWAFFNUNGUNDINTERNIERUNGHGRMAPKENSENFORDERTXOKMWIRDIMPFANGDERNOTEBISZUMEINTREFFENDERENTSCHEIDUNG
 ```
 
+</details>
+
 Two observed-coordinate substitutions repair `MAPKENSEN` and `IMPFANG`:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 FUERDEUTSCHESUEDOSTFRONTABLEHNTUNDENTWAFFNUNGUNDINTERNIERUNGHGRMACKENSENFORDERTXOKMWIRDEMPFANGDERNOTEBISZUMEINTREFFENDERENTSCHEIDUNG
 ```
+
+</details>
 
 This continues: “… für deutsche Südostfront ablehnt und Entwaffnung und
 Internierung Hgr. Mackensen fordert. OKM wird Empfang der Note bis zum
@@ -84,19 +109,29 @@ The page prints **206 valid coordinates**. Earlier OCR omitted the complete
 final `DDADF D`, producing an incorrect 200-coordinate frame. Restoring
 those six observed coordinates gives:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 OHLXLEDIGLICHBESTAETIGENXSOLLJEALLGEMXLAGEERFUELLUNGFRANZXFORDERUNGVERLANGEBXMUESSTEERREICHTWERDENKDASU
 ```
 
+</details>
+
 Five observed-coordinate substitutions give the same-length candidate:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 OHLXLEDIGLICHBESTAETIGENXSOLLTEALLGEMXLAGEERFUELLUNGFRANZXFORDERUNGVERLANGENXMUESSTEERREICHTWERDENXDASS
 ```
+
+</details>
 
 With editorial spacing: “… OHL lediglich bestätigen. Sollte allgem. Lage
 Erfüllung franz. Forderung verlangen, müsste erreicht werden, dass …”
@@ -113,19 +148,29 @@ the German wording and its costs so the distinction can be assessed.
 The source contains **244 valid coordinates**. Its final `XGGG` was omitted
 by earlier OCR. With that observed group restored, the raw reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ENTWAFFNUNGDURCHINGARNXNICHTDURCHENTENTEERFOLTUXDVONWNTERNI9RUNGXDIEAUCHAUIVERPFLEGUNGSGRUENDENHOECHSTENSINUNGARNMOEGLICHX
 ```
 
+</details>
+
 Five observed-coordinate substitutions give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 ENTWAFFNUNGDURCHUNGARNXNICHTDURCHENTENTEERFOLTUNDVONINTERNIERUNGXDIEAUCHAUSVERPFLEGUNGSGRUENDENHOECHSTENSINUNGARNMOEGLICHX
 ```
+
+</details>
 
 The clause asks for disarmament by Hungary, rather than the Entente, and
 continues into the next part's internment proposal. The apparent omission
@@ -144,20 +189,30 @@ including three dashes. This discrepancy is present in the scan. Under
 the representative model of ten absent coordinates at the beginning, the
 raw reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional 232-slot frame with ten absent leading coordinates:**
 
 ```text
 ABS?AN0GE?OMME?WIRDKINTERN?ERUNGWUERD?NACH5EMSOEB?NKAR?ATHTN?NTERGROESST?NANSTRENGU?GENUEBERSCH?ITTENUNDAB?U?NSPORTE
 ```
 
+</details>
+
 Six observed-coordinate substitutions, three printed-dash fills and ten
 inserted-coordinate fills give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — same conditional leading-gap frame, with the stated repairs and fills:**
 
 ```text
 ABSTANDGENOMMENWIRDXINTERNIERUNGWUERDENACHDEMSOEBENKARPATHENUNTERGROESSTENANSTRENGUNGENUEBERSCHRITTENUNDABTRANSPORTE
 ```
+
+</details>
 
 With editorial spacing: “… Abstand genommen wird. Internierung würde,
 nachdem soeben Karpathen unter grössten Anstrengungen überschritten und
@@ -190,19 +245,29 @@ incorrect length indicator are not excluded by these bounded comparisons.
 
 All **194 source coordinates** are valid. The raw reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 EINGELEITETZUMASSENF8UC0TMITUNSAEGLICHEMELENDUNDZUOFFENERAUFLEHNUNGFUEHRENXFELDMXMACKENSENJAJJ6J4
 ```
 
+</details>
+
 Two observed-coordinate substitutions give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 EINGELEITETZUMASSENFLUCHTMITUNSAEGLICHEMELENDUNDZUOFFENERAUFLEHNUNGFUEHRENXFELDMXMACKENSENJAJJ6J4
 ```
+
+</details>
 
 The message warns that internment, after the stated crossing and start of
 return transports, would lead to mass flight, unspeakable misery and open

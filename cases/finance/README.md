@@ -1,104 +1,101 @@
 # Money, banking and purchases
 
-[All readings](../README.md) · [Repository map](../../docs/repository-map.md) · [Evidence and methods](../../docs/methods.md)
+[Catalogue](../README.md) · [Historical studies](../../docs/historical-studies/README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Follow requests for funds, currency exchange and purchasing decisions. Individual editions keep raw amount labels and proposed numerical interpretations separate.
 
-**50 reviewed entries across 22 case pages, representing 50 physical sources; 50 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**Historical study:** [What retreat cost](../../docs/historical-studies/what-retreat-cost.md).
 
-## Case pages
+## Cash that an army could use
 
-| Case | Reviewed entries |
-|---|---|
-| [Receipt addressed to General von Kress in Tiflis](kress_money_receipt.md) | p58 B |
-| [Caucasus hide purchasing — Meierkort, the contract and the Kiew instruction](caucasus_hide_purchasing.md) | p75 B1, p75 B2, p76 A3 |
-| [Order to stop premium payments and inform subordinate offices](premium_payment_stop.md) | p78 A1, p78 A2 |
-| [DEUTZITAG: requesting details of purchase dispatches](deutzitag_dispatch_inquiries.md) | p80 A, p81 A, p81 C |
-| [A complete ZITAG stop order with reporting instruction and literal footer](zitag_full_stop_order.md) | p96 A |
-| [ZITAG stop-orders and cancellation of procurement contracts](zitag_purchase_orders.md) | p102 A, p103 B1, p103 B2, p103 D, p106 B |
-| [Money-transport arrival acknowledgment](cash_arrival_acknowledgment.md) | p122 C |
-| [Meal allowances, communal provisioning and a refused supplement](military_allowances.md) | p129 B1, p133 A2, p133 A3, p134 A4 |
-| [Silk resale continuation confirmed by a third source](nov6_silk_resale_continuation.md) | p144 A2 |
-| [November 9: a crown airlift request and an urgent embassy address](nov9_crown_airlift_and_embassy.md) | p167 B1, p167 B2, p167 B3, p167 E1 |
-| [Ruble prices and payments above par: companions to p171 A1](ruble_rate_companions.md) | p171 A2, p171 A3 |
-| [State-bank accounting request and dispatched cheques](staatsbank_accounting_cheques.md) | p172 D1, p172 D2 |
-| [Crown airlift to Kronstadt and Hermannstadt](crown_airlift.md) | p174 A1, p174 A2, p174 A3 |
-| [Payments through October and cheque acknowledgements](hauptwechselamt_accounting.md) | p175 B2 |
-| [A request to send money to BRASSO by another means](brasso_money_alternative_route.md) | p185 A2 |
-| [The interrupted banknote instruction: a complete later witness](crown_banknote_completion.md) | p195 A2 |
-| [Odessa consular routing and a Magdeburg wagon-sale instruction](odessa_wagon_sale.md) | p201 A1, p201 A2 |
-| [A request for thirty million kroner](p205_A.md) | p205 A1, p205 A2, p205 A3, p205 A4 |
-| [Oil cartel at Tiflis: details of shipments from Poti](oil_cartel_dispatch_query.md) | p212 A3 |
-| [Cash transport to Hermannstadt](hermannstadt_cash_transport.md) | p216 B1, p216 B2 |
-| [Crown-cash requests for Arad and a report of banknote shortage](crown_cash_requests.md) | p219 A1, p219 A2, p219 B |
-| [Redemption of stamped and unstamped lei notes](lei_note_exchange.md) | p223 A1, p223 A2, p223 A3 |
+A request for money becomes more revealing when it specifies the currency, the route and the denomination. Follow the crown shortage from the airlift request to the later complete banknote instruction.
 
-## Reviewed source records
+- [A million crowns a day by aircraft](crown_airlift.md)
+- [The restored small-banknote instruction](crown_banknote_completion.md)
+- [Moving cash to Hermannstadt](hermannstadt_cash_transport.md)
 
-| Ciphertext | Most likely content | Reading status | Reading or review credit |
-|---|---|---|---|
-| [p58 B](kress_money_receipt.md#p58-b) | Receipt addressed to General von Kress, Tiflis | Native 148 slots; four observed-coordinate substitutions and two damaged-glyph fills | icekylinx and GPT-6 Astra Pro (2026); published Sep19–21 key; earlier unreviewed repository body candidate |
-| [p75 B1](caucasus_hide_purchasing.md#p75-b1) | Meierkort hide-purchasing exclusivity and return of the signed contract | 197/197 raw positions; 5 coordinate substitutions and 0 printed-dash fills | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed OCR candidates credited separately |
-| [p75 B2](caucasus_hide_purchasing.md#p75-b2) | Expenses to be settled later; purchasing must not stop | 102/102 raw positions; 0 coordinate substitutions and 0 printed-dash fills | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed OCR candidates credited separately |
-| [p76 A3](caucasus_hide_purchasing.md#p76-a3) | Departure for Kiew and report to Lederzentrale Magnus; separate handwritten layer | 118/119 raw positions; 1 coordinate substitutions and 1 printed-dash fills; typed-only 238-slot layer; handwritten D/O sensitivity retained | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed OCR candidates credited separately |
-| [p78 A1](premium_payment_stop.md#p78-a1) | Stop premium payments from Landesmitteln at the end of October18 | Native 240 valid coordinates; zero edits, fills or frame changes | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier exact unreviewed repository candidates |
-| [p78 A2](premium_payment_stop.md#p78-a2) | Notify all subordinate offices of the payment stop | Native 170 valid coordinates; zero edits, fills or frame changes | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier exact unreviewed repository candidates |
-| [p80 A](deutzitag_dispatch_inquiries.md#p80-a) | DEUTZITAG asks about purchase dispatches and onward transport | Direct source reading; exact repeated ciphertext | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates distinguished |
-| [p81 A](deutzitag_dispatch_inquiries.md#p81-a) | DEUTZITAG asks about purchase dispatches and onward transport | One coordinate repair witnessed by two exact short copies | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates distinguished |
-| [p81 C](deutzitag_dispatch_inquiries.md#p81-c) | DEUTZITAG asks about purchase dispatches and onward transport | Direct source reading; exact repeated ciphertext | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates distinguished |
-| [p96 A](zitag_full_stop_order.md#p96-a) | A complete ZITAG stop order with reporting instruction and literal footer | 160/160 native raw positions; 0 coordinate substitutions + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov1-3 key; prior OCR and body attribution retained |
-| [p102 A](zitag_purchase_orders.md#p102-a) | ZITAG instruction to stop buying and loading | Source-checked cross-copy reading; all candidate coordinates independently witnessed | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
-| [p103 B1](zitag_purchase_orders.md#p103-b1) | Procurement request and already-paid consignments | Source-aligned 274-coordinate reading; ordinary-word edits separately certified | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
-| [p103 B2](zitag_purchase_orders.md#p103-b2) | Cancel other contracts and request Westernhagen return | Three printed-erasure fills; no observed-coordinate substitutions | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
-| [p103 D](zitag_purchase_orders.md#p103-d) | ZITAG instruction to stop buying and loading | Source-checked cross-copy reading; all candidate coordinates independently witnessed | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
-| [p106 B](zitag_purchase_orders.md#p106-b) | ZITAG instruction to stop buying and loading | Source-checked cross-copy reading; all candidate coordinates independently witnessed | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; prior unreviewed OCR candidates distinguished |
-| [p122 C](cash_arrival_acknowledgment.md#p122-c) | Money transport reported to have arrived | 57/57 native raw positions; 0 coordinate substitutions and 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed repository body candidate retained |
-| [p129 B1](military_allowances.md#p129-b1) | Meal allowances judged excessive and Swedish rates rejected as a standard | Source-checked four-part message; ordinary-word repairs separately certified | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
-| [p133 A2](military_allowances.md#p133-a2) | Reduce cash allowances and use field-ration costs | Source-checked four-part message; ordinary-word repairs separately certified | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
-| [p133 A3](military_allowances.md#p133-a3) | Promote communal purchasing and German dining facilities | Direct complete 243-position reading; unchanged source ciphertext | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
-| [p134 A4](military_allowances.md#p134-a4) | Requested cost-of-living supplement refused | Source-checked four-part message; ordinary-word repairs separately certified | icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished |
-| [p144 A2](nov6_silk_resale_continuation.md#p144-a2) | Local silk resale continuation corroborates the p136/p152 witnesses | 135/135 native raw positions; 1 coordinate substitution + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4–6 key; prior continuation and OCR attribution retained |
-| [p167 B1](nov9_crown_airlift_and_embassy.md#p167-b1) | Thirty million crowns requested for pay and purchases in Hungary | Native 190-slot frame; 1 observed-coordinate substitution and 1 source-mask fill; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
-| [p167 B2](nov9_crown_airlift_and_embassy.md#p167-b2) | A giant aircraft to Brasso and a mix of banknote denominations | Native 192-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
-| [p167 B3](nov9_crown_airlift_and_embassy.md#p167-b3) | A limited crown supply and a high exchange rate | Native 144-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
-| [p167 E1](nov9_crown_airlift_and_embassy.md#p167-e1) | Urgent Constantinople embassy address signed Stumm | Native 98-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
-| [p171 A2](ruble_rate_companions.md) | Reported ruble prices in Kiev and Warsaw; companion to Norbert's A1 | Conditional 252-coordinate frame from 261 literal slots: two five-slot exclusions, one added unknown; six substitutions and four fills; two tied local gap placements | icekylinx and GPT-6 Astra Pro (2026); Norbert's prior A1 priority, Lasry et al. key and earlier unreviewed companion candidates preserved |
-| [p171 A3](ruble_rate_companions.md) | Waller recommends paying above par for Bons if necessary | Exact 152 source slots; 74/76 raw to 76/76 with two printed-erasure fills; no observed-coordinate change; duplicated PARI retained | icekylinx and GPT-6 Astra Pro (2026); Norbert's prior A1 priority, Lasry et al. key and earlier unreviewed companion candidates preserved |
-| [p172 D1](staatsbank_accounting_cheques.md#p172-d1) | State-bank accounting inquiry, first part with one missing coordinate | Conditional 198-slot frame from 197 received slots: one inserted coordinate; two observed substitutions, three source-mask fills and one inserted-slot fill; two equal insertion positions retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
-| [p172 D2](staatsbank_accounting_cheques.md#p172-d2) | Treasury payment period and arrival of dispatched cheques | Native 204-slot frame; 3 observed-coordinate substitutions and 4 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained |
-| [p174 A1](crown_airlift.md#p174-a1) | Urgent daily crown airlift request | Direct reading; every observed coordinate retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; prior unreviewed OCR candidates distinguished |
-| [p174 A2](crown_airlift.md#p174-a2) | One million crowns alternately to Kronstadt and Hermannstadt | Source-checked reading with one coordinate substitution and one printed-glyph fill | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; prior unreviewed OCR candidates distinguished |
-| [p174 A3](crown_airlift.md#p174-a3) | Small-denomination banknotes in an interrupted airlift request | Explicit missing-tail model; 12 ordinary-word fills; three tied one-gap frames retained | icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; prior unreviewed OCR candidates distinguished |
-| [p175 B2](hauptwechselamt_accounting.md#p175-b2) | Payments through October and cheque arrival acknowledgements | Native frame; four coordinate substitutions and eight printed-dash fills; four unresolved positions | icekylinx and GPT-6 Astra Pro (2026); published Nov7–9 key; earlier shorter OCR candidate distinguished |
-| [p185 A2](brasso_money_alternative_route.md#p185-a2) | Requested money to be sent to BRASSO by another means | Native 244-slot frame; 0 observed-coordinate substitutions and 2 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
-| [p195 A2](crown_banknote_completion.md) | Full witness to the interrupted small-banknote instruction | Source-copy edition; observed repairs and earlier-source support separated | icekylinx and GPT-6 Astra Pro (2026); prior period keys and earlier editions credited |
-| [p201 A1](odessa_wagon_sale.md#p201-a1) | Consulate and export-company address for a wagon-sale instruction | Native 254-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
-| [p201 A2](odessa_wagon_sale.md#p201-a2) | Wagon Magdeburg sale request with opaque DAMM LADWIG phrase | Native 236-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; literal fields retained | icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained |
-| [p205 A1](p205_A.md) | Thirty-million-kroner request; shortage of banknotes | 118/118 raw positions; explicit word repairs | icekylinx and GPT-6 Astra Pro (2026) |
-| [p205 A2](p205_A.md) | Vienna bank transfer to Kronstadt for German administration | 152/152 raw positions; explicit word repairs | icekylinx and GPT-6 Astra Pro (2026) |
-| [p205 A3](p205_A.md) | Initial five million in mixed denominations; confirm sufficiency | 117/117 raw positions; unchanged source | icekylinx and GPT-6 Astra Pro (2026) |
-| [p205 A4](p205_A.md) | Further requests to the General War Treasury; reference digits | 94/99 raw positions; reference digits unresolved | icekylinx and GPT-6 Astra Pro (2026) |
-| [p212 A3](oil_cartel_dispatch_query.md#p212-a3) | Oil cartel query about consignments shipped from Poti | Five ordinary-word coordinate repairs; association with medical report unasserted | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
-| [p216 B1](hermannstadt_cash_transport.md#p216-b1) | Conditional cash dispatch via Szolnok and Arad | Two tied single-coordinate gaps; five observed-coordinate word repairs | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed part-2 reading distinguished |
-| [p216 B2](hermannstadt_cash_transport.md#p216-b2) | Hermannstadt destination and arrival notifications | Direct source reading; raw 9EWEILS, 8 and reference labels retained | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed part-2 reading distinguished |
-| [p219 A1](crown_cash_requests.md) | Crown funds for Arad following agreement with the German military mission at Budapest | 167/167 raw labels; exact source edition and priced word/office repairs; amount and army labels retained | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately |
-| [p219 A2](crown_cash_requests.md) | Inquiry whether an advance can be drawn from the field war cash office | 115/115 raw labels; exact source edition and priced word/office repairs; amount and army labels retained | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately |
-| [p219 B](crown_cash_requests.md) | Crown remittances partly sent; severe banknote shortage reported | 177/177 raw labels; exact source edition and priced word/office repairs; amount and army labels retained | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately |
-| [p223 A1](lei_note_exchange.md) | Information requested on stamped lei-note amounts, denominations and stamping procedure | 169/171 raw-label positions; 171/171 ordinary-word candidate; monetary labels remain unassigned | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier OCR corpus and unreviewed A2 retrieval candidate; published key credited separately |
-| [p223 A2](lei_note_exchange.md) | Austro-Hungarian bank redemption proposal with raw J1Y/JYY exchange-rate labels | 124/124 raw-label positions; 124/124 ordinary-word candidate; monetary labels remain unassigned | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier OCR corpus and unreviewed A2 retrieval candidate; published key credited separately |
-| [p223 A3](lei_note_exchange.md) | Stamped-note redemption and German-bank raw 70/38 rate labels; negotiations pending | 201/205 raw-label positions; 205/205 ordinary-word candidate; monetary labels remain unassigned | icekylinx and GPT-6 Astra Pro (2026), source audit of earlier OCR corpus and unreviewed A2 retrieval candidate; published key credited separately |
+## Contracts and assets at the end of occupation
 
-## Related challenge entries
+Purchasing orders, resale permissions and abandoned transport connect military withdrawal with a commercial world that still expected accounts to be settled.
 
-These retain their original challenge identifiers and statuses; same-source later editions are explicitly linked in the table above.
+- [ZITAG purchasing instructions](zitag_purchase_orders.md)
+- [Silk resale recovered from two receptions](nov6_silk_resale_continuation.md)
+- [The Odessa wagon sale](odessa_wagon_sale.md)
 
-| Ciphertext | Most likely content | Reading status | Reading or review credit |
-|---|---|---|---|
-| [p171](../p171.md) | Ruble rates and expectations about Russia | Prior body reading; source audit | Norbert (2017) |
+## Pay, exchange and administration
 
-Topics are reading aids. Each family page preserves its own keys, source
-relationships, earlier credits and limits. The live reading catalogue
-supplies every record status and credit shown here, with reviewed
-count-unit and spacing corrections in the displayed status.
+Allowances and exchange rates show the continuing administrative demands behind the larger movements.
 
-Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
+- [Military allowances](military_allowances.md)
+- [Exchanging lei notes](lei_note_exchange.md)
+- [Companion ruble-rate messages](ruble_rate_companions.md)
+
+## Complete source index
+
+50 catalogue sources in this topic. [State definitions](../../docs/reading-conventions.md#catalogue-states).
+
+<details>
+<summary>Browse every source in printed-page order</summary>
+
+| Source | State | Subject |
+|---|---|---|
+| [p58 B](kress_money_receipt.md#p58-b) | READING | Receipt addressed to General von Kress, Tiflis |
+| [p75 B1](caucasus_hide_purchasing.md#p75-b1) | READING | Meierkort hide-purchasing exclusivity and return of the signed contract |
+| [p75 B2](caucasus_hide_purchasing.md#p75-b2) | READING | Expenses to be settled later; purchasing must not stop |
+| [p76 A3](caucasus_hide_purchasing.md#p76-a3) | CONDITIONAL | Departure for Kiew and report to Lederzentrale Magnus; separate handwritten layer |
+| [p78 A1](premium_payment_stop.md#p78-a1) | READING | Stop premium payments from Landesmitteln at the end of October18 |
+| [p78 A2](premium_payment_stop.md#p78-a2) | READING | Notify all subordinate offices of the payment stop |
+| [p80 A](deutzitag_dispatch_inquiries.md#p80-a) | READING | DEUTZITAG asks about purchase dispatches and onward transport |
+| [p81 A](deutzitag_dispatch_inquiries.md#p81-a) | READING | DEUTZITAG asks about purchase dispatches and onward transport |
+| [p81 C](deutzitag_dispatch_inquiries.md#p81-c) | READING | DEUTZITAG asks about purchase dispatches and onward transport |
+| [p96 A](zitag_full_stop_order.md#p96-a) | READING | A complete ZITAG stop order with reporting instruction and literal footer |
+| [p102 A](zitag_purchase_orders.md#p102-a) | READING | ZITAG instruction to stop buying and loading |
+| [p103 B1](zitag_purchase_orders.md#p103-b1) | READING | Procurement request and already-paid consignments |
+| [p103 B2](zitag_purchase_orders.md#p103-b2) | READING | Cancel other contracts and request Westernhagen return |
+| [p103 D](zitag_purchase_orders.md#p103-d) | READING | ZITAG instruction to stop buying and loading |
+| [p106 B](zitag_purchase_orders.md#p106-b) | READING | ZITAG instruction to stop buying and loading |
+| [p122 C](cash_arrival_acknowledgment.md#p122-c) | READING | Money transport reported to have arrived |
+| [p129 B1](military_allowances.md#p129-b1) | READING | Meal allowances judged excessive and Swedish rates rejected as a standard |
+| [p133 A2](military_allowances.md#p133-a2) | READING | Reduce cash allowances and use field-ration costs |
+| [p133 A3](military_allowances.md#p133-a3) | READING | Promote communal purchasing and German dining facilities |
+| [p134 A4](military_allowances.md#p134-a4) | READING | Requested cost-of-living supplement refused |
+| [p144 A2](nov6_silk_resale_continuation.md#p144-a2) | READING | Local silk resale continuation corroborates the p136/p152 witnesses |
+| [p167 B1](nov9_crown_airlift_and_embassy.md#p167-b1) | READING | Thirty million crowns requested for pay and purchases in Hungary |
+| [p167 B2](nov9_crown_airlift_and_embassy.md#p167-b2) | READING | A giant aircraft to Brasso and a mix of banknote denominations |
+| [p167 B3](nov9_crown_airlift_and_embassy.md#p167-b3) | READING | A limited crown supply and a high exchange rate |
+| [p167 E1](nov9_crown_airlift_and_embassy.md#p167-e1) | READING | Urgent Constantinople embassy address signed Stumm |
+| [p171 A2](ruble_rate_companions.md) | CONDITIONAL | Reported ruble prices in Kiev and Warsaw; companion to Norbert's A1 |
+| [p171 A3](ruble_rate_companions.md) | READING | Waller recommends paying above par for Bons if necessary |
+| [p172 D1](staatsbank_accounting_cheques.md#p172-d1) | CONDITIONAL | State-bank accounting inquiry, first part with one missing coordinate |
+| [p172 D2](staatsbank_accounting_cheques.md#p172-d2) | PARTIAL | Treasury payment period and arrival of dispatched cheques |
+| [p174 A1](crown_airlift.md#p174-a1) | READING | Urgent daily crown airlift request |
+| [p174 A2](crown_airlift.md#p174-a2) | READING | One million crowns alternately to Kronstadt and Hermannstadt |
+| [p174 A3](crown_airlift.md#p174-a3) | CONDITIONAL | Small-denomination banknotes in an interrupted airlift request |
+| [p175 B2](hauptwechselamt_accounting.md#p175-b2) | PARTIAL | Payments through October and cheque arrival acknowledgements |
+| [p185 A2](brasso_money_alternative_route.md#p185-a2) | PARTIAL | Requested money to be sent to BRASSO by another means |
+| [p195 A2](crown_banknote_completion.md) | READING | Full witness to the interrupted small-banknote instruction |
+| [p201 A1](odessa_wagon_sale.md#p201-a1) | PARTIAL | Consulate and export-company address for a wagon-sale instruction |
+| [p201 A2](odessa_wagon_sale.md#p201-a2) | READING | Wagon Magdeburg sale request with opaque DAMM LADWIG phrase |
+| [p205 A1](p205_A.md) | READING | Thirty-million-kroner request; shortage of banknotes |
+| [p205 A2](p205_A.md) | READING | Vienna bank transfer to Kronstadt for German administration |
+| [p205 A3](p205_A.md) | READING | Initial five million in mixed denominations; confirm sufficiency |
+| [p205 A4](p205_A.md) | PARTIAL | Further requests to the General War Treasury; reference digits |
+| [p212 A3](oil_cartel_dispatch_query.md#p212-a3) | READING | Oil cartel query about consignments shipped from Poti |
+| [p216 B1](hermannstadt_cash_transport.md#p216-b1) | CONDITIONAL | Conditional cash dispatch via Szolnok and Arad |
+| [p216 B2](hermannstadt_cash_transport.md#p216-b2) | PARTIAL | Hermannstadt destination and arrival notifications |
+| [p219 A1](crown_cash_requests.md) | READING | Crown funds for Arad following agreement with the German military mission at Budapest |
+| [p219 A2](crown_cash_requests.md) | READING | Inquiry whether an advance can be drawn from the field war cash office |
+| [p219 B](crown_cash_requests.md) | READING | Crown remittances partly sent; severe banknote shortage reported |
+| [p223 A1](lei_note_exchange.md) | CONDITIONAL | Information requested on stamped lei-note amounts, denominations and stamping procedure |
+| [p223 A2](lei_note_exchange.md) | PARTIAL | Austro-Hungarian bank redemption proposal with raw J1Y/JYY exchange-rate labels |
+| [p223 A3](lei_note_exchange.md) | PARTIAL | Stamped-note redemption and German-bank raw 70/38 rate labels; negotiations pending |
+
+</details>
+
+### Related original challenges
+
+| Source | State | Subject |
+|---|---|---|
+| [p171](../p171.md) | READING | Ruble rates and expectations about Russia |
+
+Research and editorial work: **icekylinx and GPT-6 Astra Pro**. Individual cases credit earlier readings and keys.

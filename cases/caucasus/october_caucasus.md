@@ -1,8 +1,6 @@
 # October Caucasus traffic — Kress, Westernhagen and a shipment for Poti
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[All readings](../README.md) · [ADFGVX Cipher](../../README.md) · [Source and verification](../../experiments/october_caucasus/README.md)
+[All readings](../README.md) · [ADFGVX Cipher](../../README.md) · [Source and verification](../../experiments/october_caucasus/README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and repair analysis:** icekylinx and GPT-6 Astra Pro. **Earlier key:** the published October 4–6 square and 22-column transposition, credited to Childs and George Lasry / Lasry, Niebel, Kopal and Wacker in the [key catalogue](../../data/keys.json).
 
@@ -96,11 +94,16 @@ The displayed **4.10.** date and several words are editorial repairs. `04WLI` an
 
 These models supply a slot because a printed group is short and the header is one longer. They do not prove that the historical loss occurred there. In B1 the editorial template has two tied minimum-cost placements. In B2, the proposed complete continuation is
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — conditional missing-slot frame for the short printed group:**
 
 ```text
 UNDMEHREREWAGXFUERDORTXTRUPPENXXX
 ```
+
+</details>
 
 It replaces the short printed `XFFF` by `GDFFF`: either insert `G` before the printed `X` and change that `X` to `D`, or change `X` to `G` and insert `D` after it. Both have exactly one known-coordinate substitution and one missing-coordinate fill. All five within-group placements, including the more expensive ones, remain in the certificate.
 
@@ -134,11 +137,16 @@ The actual body has **220 coordinates**, matching the header. Three parenthesize
 
 The literal inverse fixes **109/110 raw positions**:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 MITEINVERSTAEWDNISXOXHXLXWIRDRITTMXTELLNEIXTELLN1RXA?SVERBDGSXXBFZDERHEERELGRXNACHXTIKLCSXEN5SAND6XHEERGRXKJEW
 ```
+
+</details>
 
 The displayed ordinary words require **10 known-coordinate substitutions and one erased-coordinate fill**. The two raw surname copies, `TELLNEI` and `TELLN1R`, preserve complementary letters: `TELLNER` combines the sixth letter of the first copy with the seventh of the second. That is still an editorial reconstruction, not an independent personnel identification. `RITTM`, `VERBDGS` and `OFFZ` are expanded only in the explanation.
 
@@ -158,11 +166,16 @@ The published October 4–6 key gives a recognizable Kress/Tiflis address and eq
 
 The literal **220-slot** body has **22 coordinate erasures**, including the non-coordinate letters `W` and `K`, and fixes **89/110 raw positions**. Two erased coordinates fall in the same plaintext pair. Its unchanged inverse is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 G?NE??LOKR?SSXTIFL?LXX?1TSP?UC6NR?159F????9XBZTRW?NT?1?DU?G2OFFX0NAUHDTCFSISXZU??XKAUFVONA5SR5?STUNAS?TS?CKENX
 ```
+
+</details>
 
 The displayed ordinary wording needs **24 known-coordinate substitutions and 17 erased-coordinate fills**. This substantial editorial cost is why the reading remains **provisional**. The `T` in `TSPRUCH` survives directly and is not expanded to an asserted original abbreviation. Five date/reference positions and the first position after `NR` remain unassigned in the proposed template. No precise reference date is supplied.
 

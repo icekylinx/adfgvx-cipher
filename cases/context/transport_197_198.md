@@ -1,8 +1,6 @@
 # Equipment and lorry orders — p197/p198 parallels
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [Earlier transport traffic](transport.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [Earlier transport traffic](transport.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source linkage, reconstruction and review: icekylinx and GPT-6 Astra Pro.**
 Four additional intercepts extend the transport conversation under the
@@ -26,12 +24,17 @@ date/time. Signed Seifert. The abbreviations are read as *Nachrichtenchef* and
 
 The source-supported editorial template is:
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output:**
 
 ```text
 NACHRCHEFXEINHAFENXZWEIUSGERAETENACHDARMSTADTVERLADENX
 STATIONBLEIBTBIS16X0???BETRBEREITXSEIFERT
 ```
+
+</details>
 
 Of its **92 specified characters out of 95**, 91 have a complete coordinate
 pair in at least one aligned witness. The `E` in `VERLADEN` additionally needs
@@ -64,12 +67,17 @@ positions.
 trailer and have the petrol pump ready. The bracketed words include explicit
 editorial changes; the tonnage is not a recovered digit.
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output:**
 
 ```text
 ESKOMMTEIN?TONNENAUTOXNURBESTENANHAENGERBELADENX
 BENZINPUMPEBEREITHALTEN
 ```
+
+</details>
 
 Of **70 specified characters out of 71**, 66 have a complete observed pair,
 one combines coordinate halves from the two witnesses, and three require

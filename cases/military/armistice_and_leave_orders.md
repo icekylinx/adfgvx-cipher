@@ -1,7 +1,5 @@
 # Citadel surrender, local armistice terms and home leave
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source editions: icekylinx and GPT-6 Astra Pro.**
 
 Four physical parts on Childs p179 concern surrender terms, a request for
@@ -11,7 +9,7 @@ unresolved reference fields and unusual year form are preserved separately
 from the ordinary-word repairs.
 
 The source is Childs, *General Solution of the ADFGVX Cipher System*,
-[printed p179, PDF p182](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
+[printed p179, PDF p182](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). · [Reading conventions](../../docs/reading-conventions.md)
 The adjacent A record is a separate
 [radio-equipment transfer order](../radio/right_rhine_equipment.md).
 
@@ -21,19 +19,29 @@ The [158-coordinate telegram](../../experiments/november_armistice_orders/source
 has `WAU v LP (15.50, November 11th); KR (15.53)` and a separate `NF NF NF`
 postamble outside the ciphertext. Its direct reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ZITADELLEXWIDERSTANDAUFGEBENUEBERGABEBEDINGUNGENGORTFESTSETZENXKMX2??3X1?GXANCH
 ```
 
+</details>
+
 One observed-coordinate substitution proposes `DORT` for `GORT`:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 ZITADELLEXWIDERSTANDAUFGEBENUEBERGABEBEDINGUNGENDORTFESTSETZENXKMX2??3X1?GXANCH
 ```
+
+</details>
 
 The instruction is to abandon resistance at the citadel and set surrender
 terms there. The message does not name the citadel's city. Its final
@@ -49,20 +57,30 @@ interstitial `WP WP WP FF NKJ v ZO'N` are preserved in the input record.
 
 The raw output is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ANOHLXOBERKOMMANDOMACKE1SENUND11XARMEEERBITTENMITTEILUNGDERBESONDERENWAFFENSTILLSTANDSBESINGXFUERHIESIGEFRONTXAOK11X
 ```
 
+</details>
+
 Three observed-coordinate substitutions repair the two word fragments
 `MACKE1SEN→MACKENSEN` and `BESING→BEDING`:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 ANOHLXOBERKOMMANDOMACKENSENUND11XARMEEERBITTENMITTEILUNGDERBESONDERENWAFFENSTILLSTANDSBEDINGXFUERHIESIGEFRONTXAOK11X
 ```
+
+</details>
 
 Mackensen's high command and the 11th Army ask OHL to communicate the
 particular armistice conditions for their front. The abbreviation
@@ -74,12 +92,17 @@ B and C use the unchanged published Nov10–12 key.
 The [two-part source](../../experiments/november_armistice_orders/sources/p179_D.png)
 is separately headed:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
 12th NOVEMBER, 1918.
 D) FUER UKS (18.50, November 12th) 2 TLE
 ```
+
+</details>
 
 Its actual part lengths are **190 and 212 coordinates**, matching their
 printed labels. The earlier D1 OCR stream had 191 slots. Manual
@@ -93,11 +116,16 @@ chronology is unresolved.
 
 D1's direct output, with **zero source repairs**, is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 INFLGTRANSPTSCHWIERIGKINHEIMATISTDURCHKMDX????AMANGEORDNENTLASSGLDSTURMJAHRGX1560U61VERSCHOBENX
 ```
+
+</details>
 
 It reports that transport difficulties at home have caused a previously
 ordered discharge of Landsturm year groups to be postponed. The reference
@@ -107,11 +135,16 @@ year or assign a new digit value.
 
 D2's direct output, also with **zero source repairs**, is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 DRINGENDEHEIMATSURLAUBEHABENBISAUFWEITERESGAENZLICHZUUNTERBLEIBENXCHEFDESGENSTABESNRXRM1A11???GEHOPEZ??0?X
 ```
+
+</details>
 
 Urgent home leave is to cease entirely until further notice. The signatory
 is the chief of the general staff; the remaining reference string is not

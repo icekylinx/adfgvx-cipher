@@ -1,6 +1,6 @@
 # p167 C1 — Mission and Nachrichtenchef service address
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Partial recovery and source review: icekylinx and GPT-6 Astra Pro.**
 The native 132-coordinate first part addresses a mission and carries a
@@ -17,6 +17,9 @@ The readable content is an address/service fragment, with `MISSION`, `ABTLG`
 and `NACHRICHTENCHEF` as explicitly priced word repairs. Only the first part
 of the header's two-part transmission is identified here.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 132-slot frame, unchanged Nov7–9 key; 61/66 fixed labels:**
 
 ```text
@@ -28,6 +31,8 @@ ANMILBMIFLIONXA?TLG0RMX10XRELAXXNACHUIC0TENC?EAXROEMX?XKRX130?1?XX
 ```text
 ANMILBMISSIONXABTLG0RMX10XRELAXXNACHRICHTENCHEFXROEMX?XKRX130?1?XX
 ```
+
+</details>
 
 The six observed changes are source **20 D→X, 23 D→X, 83 V→D, 84 D→X,
 114 V→X, 126 X→D**. Source **14** is a printed dash filled as `G`;
@@ -62,6 +67,9 @@ Childs, printed p167 / PDF p170, section C1, `RICHI-132`. The page heading is
 `AS MOM 2015 NKJ AS 15 MINS. (9/11) 2 TLE; 1 TL`.
 The literal `MOM` and the service notation are preserved.
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — all 132 native slots; the dash and invalid Z are literal:**
 
 ```text
@@ -70,6 +78,8 @@ XFAVD AVDXV FVVVA GAAXA XGDDD GFGVG GVGDG DVVVD
 FVDVD DDDDD ZVVGX FVVFF GVFXF XXGDV GVVXV VXVGV
 DVXVF DXDDF AF
 ```
+
+</details>
 
 [Original source PDF, p170](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view)
 · [Reproduction and provenance](../../experiments/p167_mission_address/README.md)

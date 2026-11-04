@@ -1,6 +1,6 @@
 # Crown-cash requests for Arad and a report of banknote shortage
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
 
@@ -31,19 +31,29 @@ reversible repairs, not first computation of those candidate bodies.
 
 All 334 source coordinates are valid. Their raw 167-position reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ETXINTENDXJJFIALAXXNACHVEREINBARUNGMXDERDTXMILXMISSIONBUDAPESTOBLTXKUDELSOLLENAUSSERDENDORTANGEFORDERTEN6MILXKRONENNOCH3YYYYYKRONENFUERMG0ARADZURVERFGXGESTELLTWERDENXX
 ```
 
+</details>
+
 The candidate changes only `MG0` to `MGD`, at one observed coordinate:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 ETXINTENDXJJFIALAXXNACHVEREINBARUNGMXDERDTXMILXMISSIONBUDAPESTOBLTXKUDELSOLLENAUSSERDENDORTANGEFORDERTEN6MILXKRONENNOCH3YYYYYKRONENFUERMGDARADZURVERFGXGESTELLTWERDENXX
 ```
+
+</details>
 
 The address contains `ET. INTEND. JJ FIALA`. The message cites an
 arrangement with the German military mission at Budapest, followed by
@@ -61,19 +71,29 @@ a complete `KRONEN` reading. It is not a filled ciphertext erasure.
 
 All 230 coordinates are valid. The raw 115-position reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ERBITTENDRAHTANTWORTOBVORSCHUSSBISZUDIESERHOEHEAUSDORTXFELDKRIEGSKASSEERFORDERLXZEITPBGEHOBENWEGDENKANNXXMGDXARPDXX
 ```
 
+</details>
+
 Three observed-coordinate changes yield:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 ERBITTENDRAHTANTWORTOBVORSCHUSSBISZUDIESERHOEHEAUSDORTXFELDKRIEGSKASSEERFORDERLXZEITABGEHOBENWERDENKANNXXMGDXARADXX
 ```
+
+</details>
 
 A telegraphic reply is requested on whether an advance up to that amount
 can be drawn from the local field war cash office at the required time.
@@ -99,19 +119,29 @@ are included in the certificate.
 
 All 354 coordinates are valid. The raw 177-position reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 FELDINTENDXAXOXKXJJXXZUJ3Y20AUFDORTIGEKRONENANFORDERUNGDRAHTETKMXXKRONENBETRPEGETEILWEISEUEBERWIESENXRESTFOLGTNACHMOEGLICHK9ITXGROSSERNOTENMANGELXXXGENXINTENDANTXROEM4BJ411XJYJ2
 ```
 
+</details>
+
 Two observed-coordinate repairs restore `BETRAEGE` and `MOEGLICHKEIT`:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 FELDINTENDXAXOXKXJJXXZUJ3Y20AUFDORTIGEKRONENANFORDERUNGDRAHTETKMXXKRONENBETRAEGETEILWEISEUEBERWIESENXRESTFOLGTNACHMOEGLICHKEITXGROSSERNOTENMANGELXXXGENXINTENDANTXROEM4BJ411XJYJ2
 ```
+
+</details>
 
 The message addresses `FELDINTEND. A. O. K. JJ`, cites `J3Y20`, and
 reports a `KM` telegram that crown amounts have partly been remitted,

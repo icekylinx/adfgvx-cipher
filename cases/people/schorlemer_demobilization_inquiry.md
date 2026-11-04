@@ -1,14 +1,12 @@
 # Von Schorlemer: demobilization work inquiry and reply
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 A clear-address request on p122 and an encrypted reply on p155 form a source-linked exchange about von Schorlemer's availability for demobilization work. The earlier request asks whether he can be released to the Trade Ministry; the later administrative-staff reply says he cannot currently be spared. Both native frames and every repair remain explicit. The later reply supports the name and topic; the 33 supplied mask values in the first request remain editorial proposals.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed page excerpt](../../experiments/schorlemer_demobilization_inquiry/sources/p122_reviewed.png) · [Second source excerpt](../../experiments/schorlemer_demobilization_inquiry/sources/p155_reviewed.png) · [Exact inputs](../../experiments/schorlemer_demobilization_inquiry/inputs.json) · [Position-by-position certificates](../../experiments/schorlemer_demobilization_inquiry/certificates.json)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed page excerpt](../../experiments/schorlemer_demobilization_inquiry/sources/p122_reviewed.png) · [Second source excerpt](../../experiments/schorlemer_demobilization_inquiry/sources/p155_reviewed.png) · [Exact inputs](../../experiments/schorlemer_demobilization_inquiry/inputs.json) · [Position-by-position certificates](../../experiments/schorlemer_demobilization_inquiry/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 The unchanged published keys are `Nov4-6`, `Nov7-9`. The [earlier unreviewed candidates](../../experiments/schorlemer_demobilization_inquiry/prior_candidates.json) and [original OCR records](../../experiments/schorlemer_demobilization_inquiry/ocr_snapshot.json) are preserved. The present work supplies an image-reviewed source edition and a reproducible repair account; it does not claim that every body is a first public decipherment.
 
@@ -27,6 +25,9 @@ The unchanged published keys are `Nov4-6`, `Nov7-9`. The [earlier unreviewed can
 
 **Meaning:** The Trade Minister asks for a radio reply on whether the addressee can be released for work in the ministry demobilization group. The clear header names First Lieutenant von Schorlemer at the Oberkommando M administrative staff.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
@@ -38,6 +39,8 @@ E?BI?TERUE?KA?TFOT?DU?CHFUN?SP?UCHO?SI?ZU?BE?CH?E?TI?UN?IM?ANDEL?M?NISTE?GU?XDEM
 ```text
 ERBITTERUECKANTWORTDURCHFUNKSPRUCHOBSIEZURBESCHAEFTIGUNGIMHANDELSMINISTERIUMXDEMOBILMACHUNGSGRUPPEXABKOEMMLICHXHANDELSMINISTER
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 
@@ -55,6 +58,9 @@ ERBITTERUECKANTWORTDURCHFUNKSPRUCHOBSIEZURBESCHAEFTIGUNGIMHANDELSMINISTERIUMXDEM
 
 **Meaning:** The administrative staff informs the Trade Minister in Berlin that First Lieutenant von Schorlemer cannot currently be released.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
@@ -67,6 +73,8 @@ KANDELSMINISTERBERLINXOBLTXVXSCKORLEMERXZXZEIT?IERNI?HTABKOEM?LICKXOKMX?ERWXSTAB
 HANDELSMINISTERBERLINXOBLTXVXSCHORLEMERXZXZEITHIERNICHTABKOEMMLICHXOKMXVERWXSTAB
 ```
 
+</details>
+
 **Unresolved details and editorial limits.**
 
 - The source visibly prints four dashes. The 160-slot native frame is unchanged.
@@ -75,7 +83,7 @@ HANDELSMINISTERBERLINXOBLTXVXSCHORLEMERXZXZEITHIERNICHTABKOEMMLICHXOKMXVERWXSTAB
 
 ## Evidence and credit
 
-Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.
+Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro.
 
 The certificates replay every coordinate alteration, compare the independent column/domain reconstruction with the cipher implementation, and re-encrypt every complete edited output. For a partial output, an injective global completion of the square and residual source masks supplies an explicitly nonhistorical roundtrip witness. Each readable passage preserves every nonseparator output label; literal protected fields are also checked without removing their internal separators. Source crops are bound to the original PDF by page, rectangle, scale, file digest and RGB-pixel digest.
 

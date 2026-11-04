@@ -1,8 +1,6 @@
 # Gerlach oil-release inquiry: the overprinted parallel
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p83 A
 
@@ -12,17 +10,16 @@
 
 ![Source p83 A](../../experiments/oct30_oil_and_supply_records/sources/p83_A.png)
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — declared visual readings of the five overprints:**
 
 ```text
 DRAHTETOBERNEUTERBEFEHLIZZETPASCHAXIZZETPASCHAZURFREIGABEDEROELEERFOLGGEHABTHATXXKRIEGSAMTKRIEGSROHSTOFFABTLGXNRX0ROEMX1XX
 ```
 
-**Edited output — identical to the declared raw reading:**
-
-```text
-DRAHTETOBERNEUTERBEFEHLIZZETPASCHAXIZZETPASCHAZURFREIGABEDEROELEERFOLGGEHABTHATXXKRIEGSAMTKRIEGSROHSTOFFABTLGXNRX0ROEMX1XX
-```
+</details>
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
@@ -34,11 +31,16 @@ DRAHTETOBERNEUTERBEFEHLIZZETPASCHAXIZZETPASCHAZURFREIGABEDEROELEERFOLGGEHABTHATX
 
 ### Conservative overprint sensitivity
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — mask all five overprinted positions instead of reading the surviving glyphs:**
 
 ```text
 DRA?TETOBERN?U?ERBEFEHLIZZETPASCHAXIZZET?ASCHAZURFREIGABEDEROELEERFOLGGEHABTHATXXKRIEGSAMTKRIEGSROHSTOFF?BTLGXNRX0ROEMX1XX
 ```
+
+</details>
 
 That stricter branch fixes 117 of 122 positions. Filling source 99→X, 136→X, 146→G, 176→A and 177→F restores the same full reading with five counted fills and no observed-coordinate substitution. Each value is independently present in the clear [p84 witness](../../experiments/oct30_oil_and_supply_records/sources/p84_A_witness.png).
 
@@ -50,4 +52,4 @@ The [earlier p84 case](p84_AB.md) remains the previously documented body reading
 
 The [input](../../experiments/oct30_oil_and_supply_records/inputs.json) binds the complete literal rows to exact PDF crops. The [certificate](../../experiments/oct30_oil_and_supply_records/certificates.json) records every coordinate pair and the sensitivity branch. The [verifier](../../experiments/oct30_oil_and_supply_records/verify.py) checks the published Oct28–31 key, live German quotations, source-image hashes and optional PDF pixel regeneration.
 
-Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; the published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. The [attribution record](../../experiments/oct30_oil_and_supply_records/prior_candidates.json) retains earlier OCR and the already reviewed p84 source. No first-decipherment priority is claimed.
+Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; the published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. The [attribution record](../../experiments/oct30_oil_and_supply_records/prior_candidates.json) retains earlier OCR and the already reviewed p84 source.

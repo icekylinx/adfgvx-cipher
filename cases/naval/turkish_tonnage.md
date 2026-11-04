@@ -1,6 +1,6 @@
 # German tonnage and proposed ship sales to Turkey
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
 
@@ -36,20 +36,30 @@ the first printed grid row. They are retained in their original order.
 Source index 280 is the invalid `C` at the beginning of `CGVAD`.
 The raw 165-position reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 MMDXXAUFTELEGRAMMVOM?X11XVERKAUFGENERALKERKIJRANURIMAEUSSERSTENNOTFALLRATSAMX?ONHIERWIRDERSUCHTA3SWA?FENSTILLSTANDSBEDINGUNGABTRANSPORT?ITDEUTSCHERTONNAGEZUERWIRKENX
 ```
 
+</details>
+
 Three observed-coordinate substitutions and the invalid-coordinate fill
 produce this 164/165-position candidate:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 MMDXXAUFTELEGRAMMVOM?X11XVERKAUFGENERALKERKIJRANURIMAEUSSERSTENNOTFALLRATSAMXVONHIERWIRDERSUCHTALSWAFFENSTILLSTANDSBEDINGUNGABTRANSPORTMITDEUTSCHERTONNAGEZUERWIRKENX
 ```
+
+</details>
 
 Addressed to the M.M.D., it refers to a telegram of an unresolved November
 date. Sale of `GENERAL` and `KERKIJRA` is advisable only in the most extreme
@@ -69,11 +79,16 @@ coordinates**. Row 6, group 7 is `GDXV`, with only four letters.
 The representative model inserts a single erased coordinate at boundary
 232, inside that deficient group. Its raw 148-position reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional insertion at boundary 232 in the short printed group:**
 
 ```text
 WUNSCHDERTUERKENRICHTETSICHWOHLMEHRAUFERWERBDEUTSCHERTONNAGEALSAUFABTRANSPORTD?UTSCHERXVORSICHTGEBOTENXXREEDERWOLLENNURGEGENSOFORTIIEKASSEV?RKAUFENX
 ```
+
+</details>
 
 All **296** possible single-loss boundaries are screened against the same
 ordinary-word candidate. **Boundaries 232 and 233 tie** for the minimum of
@@ -86,11 +101,16 @@ complete corrected ciphertext.
 Two observed-coordinate changes, plus that one missing-coordinate fill,
 yield this exactly reencryptable candidate:
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — same conditional missing-slot frame, with the stated repairs and fill:**
 
 ```text
 WUNSCHDERTUERKENRICHTETSICHWOHLMEHRAUFERWERBDEUTSCHERTONNAGEALSAUFABTRANSPORTDEUTSCHERXVORSICHTGEBOTENXXREEDERWOLLENNURGEGENSOFORTIGEKASSEVERKAUFENX
 ```
+
+</details>
 
 The sender suspects that the Turkish aim is more to acquire German tonnage
 than to transport Germans away. Caution is required. The shipowners wish
@@ -102,19 +122,29 @@ does not force a unique loss boundary.
 
 All 374 coordinates are valid. The raw 187-position reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 FALLSDORTVERKAUFFUERUNAUFSCHIEBBARANGESEHENWIRDXISTDRAHTLICHZUBERICHTENXVERKAUFTNICHTOHNEGVNEHMIGUNGXFORDERUNGGENERAL1200MARKKEHKYRATAUSEN?MARKFUERZRUTTOREGISTERTONNEXXMARINEAMTXXA?S22?4?
 ```
 
+</details>
+
 Four observed-coordinate substitutions support this candidate:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 FALLSDORTVERKAUFFUERUNAUFSCHIEBBARANGESEHENWIRDXISTDRAHTLICHZUBERICHTENXVERKAUFTNICHTOHNEGENEHMIGUNGXFORDERUNGGENERAL1200MARKKERKYRATAUSENDMARKFUERBRUTTOREGISTERTONNEXXMARINEAMTXXA?S22?4?
 ```
+
+</details>
 
 If the recipient regards sale as impossible to postpone, it must report
 by telegraph. It must not sell without authorization. The price clause

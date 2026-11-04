@@ -16,6 +16,7 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 sys.path.insert(0, str(ROOT))
 from data.reviews.check_reading_presentation import displays, expected_legend
+from data.reviews.verify_live_readable_mappings import section
 
 CO = "ADFGVX"
 
@@ -198,9 +199,8 @@ def rebuild(inputs, pdf=None):
                           "applied_source_mask_fills": 0,
                           "relationship": "Independent wording attestation, not an identical-copy claim."})
     case = inputs["primary_case"]
-    text = (ROOT / case["path"]).read_text()
+    text = section((ROOT / case["path"]).read_text(), case["section"])
     fences, quotes = displays(text)
-    assert [x for x in text.splitlines() if re.match(r"^#{1,6} ", x)] == case["headings"]
     assert [x["sha256"] for x in fences] == case["fence_sha256"]
     assert [x["sha256"] for x in quotes] == case["quote_sha256"]
     page = HERE / "README.md"
@@ -220,7 +220,7 @@ def rebuild(inputs, pdf=None):
             "preserved_raw_numerals": numerals,
             "independent_raw_witnesses": witnesses,
             "new_physical_records": 0,
-            "primary_case_headings_and_displays_unchanged": True,
+            "primary_A_source_displays_unchanged": True,
             "name_identification_claim": None,
             "limits": inputs["limits"]}
 

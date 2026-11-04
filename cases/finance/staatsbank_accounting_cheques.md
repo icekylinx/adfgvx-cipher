@@ -1,14 +1,12 @@
 # State-bank accounting request and dispatched cheques
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 The two-part message addresses Staatsbank Berlin, asks for an accounting amount connected to the Generalkriegskasse, and requests notice of arrival of dispatched cheques. It contains no recovered payment amount. The first part needs one explicitly modeled missing coordinate; the second part uses its complete native frame.
 
 ## Source and frame
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p172 excerpt](../../experiments/staatsbank_accounting_cheques/sources/p172_reviewed.png) · [Inputs](../../experiments/staatsbank_accounting_cheques/inputs.json) · [All coordinate and insertion certificates](../../experiments/staatsbank_accounting_cheques/certificates.json)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p172 excerpt](../../experiments/staatsbank_accounting_cheques/sources/p172_reviewed.png) · [Inputs](../../experiments/staatsbank_accounting_cheques/inputs.json) · [All coordinate and insertion certificates](../../experiments/staatsbank_accounting_cheques/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 The source page heading says November 10. Section D has an interception header dated November 11 and an originating line `VON UKS LP 2127 (9/11) 2 TLE`. The published Nov7–9 key is retained with its two unresolved square cells; none of these date layers is silently normalized.
 
@@ -28,6 +26,9 @@ All indices are zero-based. Boundaries **27 and 28 tie**, and inserting the prop
 
 **Source transcription — header:** `D) LP v NKJ (6.06 p.m., November 11th); VON UKS LP 2127 (9/11) 2 TLE; 1 TL RICHI-198`
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional 198-coordinate frame after one modeled insertion; 95/99 fixed positions:**
 
 ```text
@@ -39,6 +40,8 @@ STAATSBANKBERLINXERBITTENDRINLICHOTFUNKSPRU?HFUERBEST?RREICHERABRECHNUNGBETRAGD?
 ```text
 STAATSBANKBERLINXERBITTENDRINLICHSTFUNKSPRUCHFUEROESTERREICHERABRECHNUNGBETRAGDERGENERALKRIEGSKASSE
 ```
+
+</details>
 
 **Readable German — preserves the exact nonseparator labels of the edited output:**
 
@@ -58,6 +61,9 @@ STAATSBANKBERLINXERBITTENDRINLICHSTFUNKSPRUCHFUEROESTERREICHERABRECHNUNGBETRAGDE
 
 **Source transcription — header:** `D) LP v NKJ (6.06 p.m., November 11th); VON UKS LP 2127 (9/11) 2 TLE; 2 TL RICHI-204`
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 204-coordinate frame; 97/102 fixed positions:**
 
 ```text
@@ -69,6 +75,8 @@ VOM18XBISENDEOOTOBERGEZAHLTENYAYKXFERNERA?KUNFTSANZ?IGEUEBERA??XGESANDTECHEKSXHA
 ```text
 VOM18XBISENDEOCTOBERGEZAHLTENMARKXFERNERANKUNFTSANZEIGEUEBERAM?XGESANDTECHEKSXHAUPTWECHSELAMT89240911X
 ```
+
+</details>
 
 **Readable German — preserves the exact nonseparator labels of the edited output:**
 
@@ -103,7 +111,7 @@ The proposed OESTERREICHER reading costs a source change and a separately disclo
 
 ## Credit and reproduction
 
-Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.
+Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro.
 
 The [earlier unreviewed candidates](../../experiments/staatsbank_accounting_cheques/prior_candidates.json) and [original OCR snapshot](../../experiments/staatsbank_accounting_cheques/ocr_snapshot.json) retain their attribution separately. Verification reconstructs the source-to-model mapping, replays all five local insertion choices, prices every edit and fill, and checks all plaintext domains and readable labels. Complete candidates and an injective completion witness for the partial second part re-encrypt exactly; the witness assigns no historical digit value.
 

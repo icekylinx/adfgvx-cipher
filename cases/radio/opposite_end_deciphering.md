@@ -1,6 +1,6 @@
 # “First half from the front, second half from the back”
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -30,6 +30,9 @@ The [full page](../../experiments/bidirectional_deciphering/sources/childs_p138_
 is headed **November 6**, but the [B reception line](../../experiments/bidirectional_deciphering/sources/childs_p138_B.png)
 reads **00.15 November 5**:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -38,6 +41,8 @@ SSD ZU 14.10 (5)
 RICHI-105
 NKJ 472
 ```
+
+</details>
 
 The `TEILE`/`RICHI` labels are overprinted, and the original image is retained.
 The date contradiction is not silently repaired. There are 21 complete
@@ -50,16 +55,24 @@ The external `NKJ 472` footer is outside the 105-slot ciphertext.
 Using all 105 slots in the unchanged published `Nov4-6` transposition gives
 52 paired labels plus an unpaired `G`, and no readable body:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — original odd frame; paired prefix is unreadable and an orphan coordinate remains:**
 
 ```text
 EIM1VLM3LFT1VRF91R4KF19LW?HMYL4W9S3ML6NMJML1REELLTM2
 ```
 
+</details>
+
 Under the preferred conditional model, the **final received `X`, source
 index 104**, is extraneous to a 104-coordinate cipher. Removing it for
 transposition, while preserving it in the source witness, gives 51 fixed
 labels out of 52:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output — conditional exclusion of final source 104 X:**
 
@@ -67,7 +80,12 @@ labels out of 52:
 ERSTEHAELFTEVONVORNEFFEIT?HAELFTEVONHINTENLOESENXNKJ
 ```
 
+</details>
+
 The proposal is:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — same conditional final-X exclusion, with the stated repairs:**
 
@@ -75,7 +93,12 @@ The proposal is:
 ERSTEHAELFTEVONVORNEZWEITEHAELFTEVONHINTENLOESENXNKJ
 ```
 
+</details>
+
 Removing the preceding received **`F`, source index 103**, instead gives:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output — alternate conditional exclusion of source 103 F:**
 
@@ -83,13 +106,20 @@ Removing the preceding received **`F`, source index 103**, instead gives:
 ERSTEHAELFTEVONVORNEFFEIT?HAELFTEVONHINTENLOESENXNMJ
 ```
 
+</details>
+
 After the same repairs, its complete alternative is:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — same alternate exclusion, with the stated repairs:**
 
 ```text
 ERSTEHAELFTEVONVORNEZWEITEHAELFTEVONHINTENLOESENXNMJ
 ```
+
+</details>
 
 Both variants require exactly the same source edits:
 
@@ -137,6 +167,9 @@ ties and earlier unsuccessful stage interpretations remain in the
 The [p132 B source edition](p132_radio_service.md#b-repeat-the-fourth-period-telegram-in-the-fifth)
 contains this header:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -144,6 +177,8 @@ B) LP v NKJ (6.13 p.m., November 5th)
 SSD EILT SOFORT LOESEN 1410 (5)
 RIZI-155
 ```
+
+</details>
 
 The two records share the route **LP v NKJ**, the urgency label `SSD` and
 the internal reference **1410 (5)**, with punctuation added in p138's

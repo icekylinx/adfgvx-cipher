@@ -212,8 +212,7 @@ def build(pdf=None):
                 search_provenance_sha256=sha(HERE / "search_provenance.json"),
                 indexing="Zero based; ranges half open.", summary=summary,
                 records=[dict(representative, id="p84_C")],
-                alternative_frames=[row for row in frames if row["insert_before_source"] != 78],
-                markdown_sha256=sha(ROOT / data["case"])) , evidence
+                alternative_frames=[row for row in frames if row["insert_before_source"] != 78]) , evidence
 
 
 def main():

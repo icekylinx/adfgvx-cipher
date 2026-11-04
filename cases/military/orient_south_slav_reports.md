@@ -1,6 +1,6 @@
 # Parallel Orient reports on South-Slav units
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
@@ -20,6 +20,9 @@ with three visible `G` characters; its
 [detail](../../experiments/nov1_mackensen_and_orient_reports/sources/p101_C1_GGGDA.png)
 prevents treating the second `G` as an additional mask.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native source frame**
 
 ```text
@@ -31,6 +34,8 @@ NO?MEC?E?SEN?NA?H?ORI?NTB?R?CHT?OM???10X?IOD?S?EDS?AVI??HEX?INH?I?EN5?NXM??TE8?G
 ```text
 NOXMACKENSENXNACHXORIENTBERICHTVOM??X10XSINDXSUEDSLAVISCHEXEINHEITENVONXMONTENEGROXVORGERUECKTX
 ```
+
+</details>
 
 **Readable German — from the edited layer**
 
@@ -60,6 +65,9 @@ by an identical complete header. The last group is `GVXDC`; the final
 [`C` at source 199](../../experiments/nov1_mackensen_and_orient_reports/sources/p101_B2_C199.png)
 is a mask, not a silently chosen `G`.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native source frame**
 
 ```text
@@ -71,6 +79,8 @@ WAHRSCHEINLICHDASXAUSDERXSUEUSLAVISCHENXDIVXGEBILDETEXDETACHEMENTX2RGTRXIVFX2RGT
 ```text
 WAHRSCHEINLICHDASXAUSDERXSUEDSLAVISCHENXDIVXGEBILDETEXDETACHEMENTX2RGTRXINFX2RGTRXKAVXMITGEBIRGSARTL
 ```
+
+</details>
 
 **Readable German — from the edited layer**
 
@@ -90,6 +100,9 @@ prints an unavailable station pair, an unspecified reception time on
 November 3, and `1227 ZON (1/11) 3 TLE`. Its first part is
 `1 TL RICHI-208`, with 208 valid coordinates.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native source frame**
 
 ```text
@@ -101,6 +114,8 @@ ABTXFRXHEEREXGDXHXQUXSXMXNACHXORIENTBESICHTXVOM28X10XSINDSUEDXLAVISCHEXEINHEITEN
 ```text
 ABTXFRXHEEREXGDXHXQUXSXMXNACHXORIENTBERICHTXVOM28X10XSINDSUEDSLAVISCHEXEINHEITENINMONTENEGROVORGERUECKTX
 ```
+
+</details>
 
 **Readable German — from the edited layer**
 
@@ -121,6 +136,9 @@ as an exact re-encryption of the whole first part.
 The same p102 B header identifies `2 TL RICHI-200`. All 200 source
 coordinates are valid.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native source frame**
 
 ```text
@@ -132,6 +150,8 @@ WAHRSCHEINLICHDASXAUSDERXSUEUSLAVISCHENXDIVXGEBILDETEXDETAIHEMENTXMRGTRXMNFZ2RGT
 ```text
 WAHRSCHEINLICHDASXAUSDERXSUEDSLAVISCHENXDIVXGEBILDETEXDETACHEMENTX2RGTRXINFX2RGTRXKAVXMITGEBIRGSARTL
 ```
+
+</details>
 
 **Readable German — from the edited layer**
 
@@ -166,6 +186,9 @@ The third part is `3 TL RICHI-192`. It has 192 valid coordinates. The
 shows a `D` at source 152, not an invalid `L`; no fill is charged or claimed
 at that position.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native source frame**
 
 ```text
@@ -177,6 +200,8 @@ AUSXAGEDESXSERBISCHENOFFIZIERSDER3BATTR3FELDARTLRGTSXDONAUDIEXNXOX11NR2429VOM19X
 ```text
 AUSSAGEDESXSERBISCHENOFFIZIERSDER3BATTR3FELDARTLRGTSXDONAUDIEXNXOX11NR2429VOM19X10XVODOHL11X0626
 ```
+
+</details>
 
 **Readable German — from the edited layer**
 

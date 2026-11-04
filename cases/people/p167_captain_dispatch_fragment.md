@@ -1,6 +1,6 @@
 # p167 D — Captain and replacement-detachment dispatch fragment
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Partial word proposal and source review: icekylinx and GPT-6 Astra Pro.**
 The source supports a partial personnel-dispatch reading: `HPTM`, the title
@@ -21,6 +21,9 @@ The fragment mentions a captain and dispatch in connection with a replacement
 detachment; the full destination and the person's identity remain unread.
 `NACHCHEF` is retained as the proposed closing designation.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional 190-slot frame with three added unknowns, unchanged Nov7–9 key; 84/95 fixed positions:**
 
 ```text
@@ -32,6 +35,8 @@ H?TMXLIMMER2ANGKODESELXFESDEILO?HEFWIRDN0?HRA2T11?RK?RZRLATZRBTLGJBBEAFE?DERF??A
 ```text
 HPTMXLIMMER2ANGKODESELXFESDEILOCHEFWIRDN0?HRA2T11?RK?RERSATZABTLGABBEFOERDERTXNACHCHEFT1B?7?17?
 ```
+
+</details>
 
 All output outside the proposed spans stays exactly raw. In particular,
 `LIMMER2ANG`, `KODESEL`, `FESDEILO` and the garbled destination/reference
@@ -77,6 +82,9 @@ Childs, printed p167 / PDF p170, section D. The header reads
 `(RAT) SSD BLITZBLUECHER (9/11) 2245; RICHI-190`.
 The original `(9/11)` corrects the earlier unreviewed OCR's `(8/11)`.
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — all 187 native slots; C, W and both dashes remain literal:**
 
 ```text
@@ -86,6 +94,8 @@ GGDGX GFVGV GVVCX VDVXX WVDG XDVXD DDXDF GXVGV
 DXXVV GVXDF GVV-- DDDFG XVXFA XXDAA DXVFF VVDGD
 XFGDG XXDDF DXDDD XXDXX FADGX FGDXG
 ```
+
+</details>
 
 [Original PDF, p170](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view)
 · [Reproduction and provenance](../../experiments/p167_captain_dispatch_fragment/README.md)

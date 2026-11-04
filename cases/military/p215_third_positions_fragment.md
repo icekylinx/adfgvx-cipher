@@ -1,8 +1,6 @@
 # p215 B3 — Divisional positions and railway fragment
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[All cases](../README.md) · [ADFGVX Cipher](../../README.md)
+[All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Recovery and review: icekylinx and GPT-6 Astra Pro, 4 November 2026.**
 The third part of the evening report contains geographical and railway
@@ -37,6 +35,9 @@ the report, not independent copies of this text.
 · [Source edition and verifier](../../experiments/p215_third_positions_fragment/README.md)
 · [Per-position certificates](../../experiments/p215_third_positions_fragment/certificates.json).
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — untouched body, including all 19 printed dashes:**
 
 ```text
@@ -47,6 +48,8 @@ VFAFD XADFD FXAAV DFVAA FDVFV ADFGX XGVVD -----
 FDDAG AXAAV ADAFF FVVGA DDAFA GXADA VFDAV AAXFV
 FXAVA XAXAG VVDDX VFFV
 ```
+
+</details>
 
 The literal body has **219 source slots: 200 observed coordinates and 19
 printed masks**, against the advertised 234. Indices below are zero based;
@@ -64,6 +67,9 @@ loss mechanism.
 
 ## Raw output and word proposal
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — primary mask-relocation frame, unchanged published key; 88/117 fixed positions, no coordinate substitutions or fills:**
 
 ```text
@@ -75,6 +81,8 @@ J?QXIDXR?U?G?ULAXSI?L?X?IS9ENO?X?E?EICHTX?I?X?TABAYSOS?M?N9X?CENX?X?XYJ?NSTR?C?E
 ```text
 J?QXIDXRAUMG4ULAXSIKLOXKIS9ENOEXERREICHTXDIVXSTABAYSOS?M?N9X?CENX?X?XYJ?NSTRECKERUTTKAXTESCHENXABGEFAHRENXXAOJY?EINAA
 ```
+
+</details>
 
 The two observed changes are source 115 `V→F` in `ERREICHT` and source 110
 `V→F` in `ABGEFAHREN`. These are proposed source repairs, not source-mask
@@ -135,11 +143,16 @@ but doing so costs **two more observed substitutions**: source 191 `F→G`
 and source 171 `D→G`, plus one printed-mask fill and one inserted-slot fill.
 The gazetteer attests the name; it does not select this proposed repair.
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — optional Alsosimand extension of the primary word layer; totals 4 observed substitutions, 15 printed-mask fills and 11 inserted-slot fills; 111/117 fixed positions:**
 
 ```text
 J?QXIDXRAUMG4ULAXSIKLOXKIS9ENOEXERREICHTXDIVXSTABALSOSIMANDX?CENX?X?XYJ?NSTRECKERUTTKAXTESCHENXABGEFAHRENXXAOJY?EINAA
 ```
+
+</details>
 
 **Readable German — excerpt from that optional edited layer; surrounding fields are omitted:**
 

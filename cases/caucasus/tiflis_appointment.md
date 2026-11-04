@@ -1,8 +1,6 @@
 # A Polish representative in Tiflis — p199 preamble and p192 parts 2 and 3
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [November 14 retransmissions](../radio/nov14_radio_retransmissions.md)
+[Case index](../README.md) · [November 14 retransmissions](../radio/nov14_radio_retransmissions.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition, missing-group recovery and historical comparison: icekylinx and GPT-6 Astra Pro.**
 
@@ -52,11 +50,16 @@ at row 6, column 5; the blank is not silently supplied with five erasures.
 
 Reading the floating group first, in physical top-to-bottom order, gives:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — floating group read first in physical top-to-bottom order:**
 
 ```text
 ANGENERALVO?KRESSTI5LISXNRXZ1?XBITTEWEITERLEITUNGFODGENDENTILEGRAMM6DESMTNISTERIUMDESAEUSSELSNINWARSCHAUANHERRNXWACLAWXVXOSTROWSKIX
 ```
+
+</details>
 
 The source's unusual layout is resolved independently of the personal names.
 The certificate places the five observed floating coordinates at all **258**
@@ -69,20 +72,30 @@ the same masked stencil. This movement adds and removes no coordinate.
 
 The selected geometry gives 129 fixed raw positions out of 131:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional placement of the floating group after ten main-grid coordinates:**
 
 ```text
 ANGENERALVONKRESSTIFLISXNRX?1?XBITTEWEITERLEITUNGFOLGENDENTELEGRAMMSDESMTNISTERIUMDESAEUSSERSNINWARSCHAUANHERRNXWACLAWXVXOSTROWSKIX
 ```
 
+</details>
+
 Two observed-coordinate substitutions restore `MINISTERIUM` and
 `AEUSSEREN`:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — same conditional floating-group placement, followed by the stated repairs:**
 
 ```text
 ANGENERALVONKRESSTIFLISXNRX?1?XBITTEWEITERLEITUNGFOLGENDENTELEGRAMMSDESMINISTERIUMDESAEUSSERENINWARSCHAUANHERRNXWACLAWXVXOSTROWSKIX
 ```
+
+</details>
 
 The received `MINISTERIUM` lacks the genitive `S` expected in this formula;
 it is not length-corrected. The two unresolved reference symbols remain
@@ -102,11 +115,16 @@ reading, and supplies no name crib to the group-placement test.
 
 All 230 source coordinates are valid. Their unmodified decryption is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 TIFLISDOPPELPUNKTXSIESINDZUMVSRTRAUENSMANNDERPOLNISCHENREGIERUNGFUERDIEREPUBLIKENXGRUSIENXARMENIENXUNDXASERBEJNZANX
 ```
+
+</details>
 
 The ordinary-word candidate changes one source coordinate to give
 `VERTRAUENSMANN`. The exact country spelling `ASERBEJNZAN` is retained in the
@@ -132,20 +150,30 @@ proof of the historical copying error.
 
 Under that geometry, before word repairs, the unchanged key gives:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional five-coordinate gap at source boundary 150; before word repairs:**
 
 ```text
 MITSITZINEIFLISERNANNTXXERNENNUNGUNDINST?UKTIONB?REITSDU?CHXT?DE?SKIXANS?EABGESANDTXXMINISTERIUMDESAEUSSERNXXBUSSCHE
 ```
 
+</details>
+
 Ordinary words supply four missing coordinates, and one observed-coordinate
 change corrects `EIFLIS` to `TIFLIS`. The result fixes **114/116 positions**:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — same conditional gap, with four added-slot fills and one observed substitution:**
 
 ```text
 MITSITZINTIFLISERNANNTXXERNENNUNGUNDINSTRUKTIONBEREITSDURCHXT?DE?SKIXANSIEABGESANDTXXMINISTERIUMDESAEUSSERNXXBUSSCHE
 ```
+
+</details>
 
 The unknown name letter at position 61 is a complete observed `FX` pair,
 made from **original source indices 80 and 138**. Both coordinates precede

@@ -1,12 +1,15 @@
 # Sevastopol: consent to a personnel transfer
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
 ## p104 E3
 
 Childs p104, PDF p107; [reviewed source crop](../../experiments/nov2_acknowledgments_and_personnel/sources/p104_E3.png). Key: unchanged published **Nov1–3**.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Source transcription — literal received header:**
 
@@ -27,6 +30,8 @@ KOMDEURXRESXJ?EGXBATLX?ISTMITVERSETZGXEINRERSTANDEDXXGOUVXSEWASTOPOLXX
 ```text
 KOMDEURXRESXJAEGXBATLX?ISTMITVERSETZGXEINVERSTANDENXXGOUVXSEWASTOPOLXX
 ```
+
+</details>
 
 Observed source changes, with zero-based indices: **41 A→G**, **130 A→G**.
 

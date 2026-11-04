@@ -1,6 +1,6 @@
 # November 2: acknowledgment instructions and a conflicting copy
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -9,6 +9,9 @@ The matching `FUER UKS 2/11 1300 3 TEILE` headers on pp105–106 identify three 
 ## p105 C1
 
 Childs p105, PDF p108; [reviewed source crop](../../experiments/nov2_acknowledgments_and_personnel/sources/p105_C1.png). Key: unchanged published **Nov1–3**.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Source transcription — literal received header:**
 
@@ -24,15 +27,9 @@ FUER UKS 2/11 1300 3 TEILE
 ERSTENSXANXAXOXKXMACKENSENXXBITTEDRAHTUNGXROEMX1XAX11118XGEHXOPXUNDFUNKSPRUCHXRMX1XAX11127XGEHXOPXINZUKUNFTEMPFANGALLER
 ```
 
-**Edited output — 0 observed-coordinate substitutions; 0 source-mask fills; 119/119 fixed positions:**
+</details>
 
-```text
-ERSTENSXANXAXOXKXMACKENSENXXBITTEDRAHTUNGXROEMX1XAX11118XGEHXOPXUNDFUNKSPRUCHXRMX1XAX11127XGEHXOPXINZUKUNFTEMPFANGALLER
-```
-
-Raw and edited outputs are identical and re-encrypt to the complete received ciphertext without repair.
-
-**Readable German — complete edited stream, with spacing and punctuation only:**
+**Readable German — complete raw stream, with spacing and punctuation only:**
 
 > Erstens an A. O. K. Mackensen. Bitte Drahtung ROEM. 1. A. 11118. GEH. OP. und Funkspruch RM. 1. A. 11127. GEH. OP. in Zukunft Empfang aller
 
@@ -41,6 +38,9 @@ Raw and edited outputs are identical and re-encrypt to the complete received cip
 ## p106 A2
 
 Childs p106, PDF p109; [reviewed source crop](../../experiments/nov2_acknowledgments_and_personnel/sources/p106_A.png). Key: unchanged published **Nov1–3**.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Source transcription — literal received header:**
 
@@ -56,15 +56,9 @@ FUER UKS 2/11 1300 3 TEILE
 TELEGRAMMEDURCHXFXTXZUBESTAETIGENXXOXHXLXRMX1XAX104660XOPXXZWEITENXANXAXOXKX11XXBITTEEMPFANGFUNKSPRUCHXRMX1XAX11127XGEHXOPXIN
 ```
 
-**Edited output — 0 observed-coordinate substitutions; 0 source-mask fills; 125/125 fixed positions:**
+</details>
 
-```text
-TELEGRAMMEDURCHXFXTXZUBESTAETIGENXXOXHXLXRMX1XAX104660XOPXXZWEITENXANXAXOXKX11XXBITTEEMPFANGFUNKSPRUCHXRMX1XAX11127XGEHXOPXIN
-```
-
-Raw and edited outputs are identical and re-encrypt to the complete received ciphertext without repair.
-
-**Readable German — complete edited stream, with spacing and punctuation only:**
+**Readable German — complete raw stream, with spacing and punctuation only:**
 
 > Telegramme durch F. T. zu bestaetigen. O. H. L. RM. 1. A. 104660. OP. Zweiten an A. O. K. 11. Bitte Empfang Funkspruch RM. 1. A. 11127. GEH. OP. in
 
@@ -73,6 +67,9 @@ Raw and edited outputs are identical and re-encrypt to the complete received cip
 ## p106 A3
 
 Childs p106, PDF p109; [reviewed source crop](../../experiments/nov2_acknowledgments_and_personnel/sources/p106_A.png). Key: unchanged published **Nov1–3**.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Source transcription — literal received header:**
 
@@ -88,15 +85,9 @@ FUER UKS 2/11 1300 3 TEILE
 ZUKUNFTEMPFANGALLERTELEGRAMMEDURCHXFXTXBESTAETIGENXXOXHXLXRMX1XAX104659XOP
 ```
 
-**Edited output — 0 observed-coordinate substitutions; 0 source-mask fills; 74/74 fixed positions:**
+</details>
 
-```text
-ZUKUNFTEMPFANGALLERTELEGRAMMEDURCHXFXTXBESTAETIGENXXOXHXLXRMX1XAX104659XOP
-```
-
-Raw and edited outputs are identical and re-encrypt to the complete received ciphertext without repair.
-
-**Readable German — complete edited stream, with spacing and punctuation only:**
+**Readable German — complete raw stream, with spacing and punctuation only:**
 
 > Zukunft Empfang aller Telegramme durch F. T. bestaetigen. O. H. L. RM. 1. A. 104659. OP.
 
@@ -109,6 +100,9 @@ The p104 source says that parts 1 and 2 are missing and dates its message `1/11`
 ## p104 A3
 
 Childs p104, PDF p107; [reviewed source crop](../../experiments/nov2_acknowledgments_and_personnel/sources/p104_A3.png). Key: unchanged published **Nov1–3**.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Source transcription — literal received header:**
 
@@ -126,15 +120,9 @@ WH UKS (1/11) 1300 3 TEILE
 ZUKUNFTEMPFANGALLERTELEGRAMMEDURCHXFXTXBESTAETIGENXXOXHXLXRMX1XAX104359XOP
 ```
 
-**Edited output — 0 observed-coordinate substitutions; 0 source-mask fills; 74/74 fixed positions:**
+</details>
 
-```text
-ZUKUNFTEMPFANGALLERTELEGRAMMEDURCHXFXTXBESTAETIGENXXOXHXLXRMX1XAX104359XOP
-```
-
-Raw and edited outputs are identical and re-encrypt to the complete received ciphertext without repair.
-
-**Readable German — complete edited stream, with spacing and punctuation only:**
+**Readable German — complete raw stream, with spacing and punctuation only:**
 
 > Zukunft Empfang aller Telegramme durch F. T. bestaetigen. O. H. L. RM. 1. A. 104359. OP.
 

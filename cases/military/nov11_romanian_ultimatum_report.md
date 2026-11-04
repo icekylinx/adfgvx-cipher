@@ -1,6 +1,6 @@
 # p180 D1 — Evening report on the Romanian evacuation ultimatum
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Recovery and source review: icekylinx and GPT-6 Astra Pro.** Restoring a
 mispaired duplicate/missing-group frame exposes this evening report to OHL.
@@ -20,11 +20,16 @@ literal time phrase; the edition does not turn it into a calendar deadline.
 letters. The related [p175 report](romanian_ultimatum_companions.md) concerns
 an ultimatum too, but supplies no copied text or coordinates here.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — primary conditional 196-slot frame, before all substitutions and fills; 85/98 fixed labels:**
 
 ```text
 ANOHLX?BE?DME??UN?XRU?AENXULT?MATUMFO?D2RTERAEUM?NG24STUNDENVORDERWAFFENSTRECKUN?XNICHTB?ANTW?RT?T
 ```
+
+</details>
 
 The manuscript prints **197 slots**, against `RICHI-196`: 187 observed
 coordinates, nine dashes and one invalid `O`-like glyph. The two `XGVXD` groups
@@ -44,11 +49,16 @@ ciphertext. Two independent encoders compare all **768** maps in this stated
 family against the fixed lexical proposal. The two-substitution minimum
 prices that proposal within this family.
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — same primary frame; two observed substitutions, ten printed-mask fills and five inserted-slot fills; 98/98 fixed labels:**
 
 ```text
 ANOHLXABENDMELDUNGXRUMAENXULTIMATUMFORDERTERAEUMUNG24STUNDENVORDERWAFFENSTRECKUNGXNICHTBEANTWORTET
 ```
+
+</details>
 
 Only source **40 V→X** and **121 X→D** change observed coordinates. These
 restore the `E` of `FORDERTE` and the `O` of `BEANTWORTET`; the latter is an
@@ -66,6 +76,9 @@ with a handwritten `11th`. The header reads
 The originating-time field has no separately printed date. The source note
 is `fairly correct - badly jammed`.
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — all 197 printed slots; dashes and the invalid O-like glyph retained:**
 
 ```text
@@ -75,6 +88,8 @@ AAGAA ADXGV XDXDF XXAVD DAA-D VD-O- G---- VDDDD
 VXX-- XGVXD XGVXD FVXDV DXXXV FGXXG DVDGV FXGVF
 GVAAD AAFDV VVXAV DFXGA FVFAV GAGDA VDAVD AA
 ```
+
+</details>
 
 [Original source PDF, p183](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view)
 · [Reproduction, independent check and repair ledgers](../../experiments/nov11_romanian_ultimatum_report/README.md)

@@ -31,8 +31,13 @@ preserved throughout.
 
 ## Ongoing source recovery
 
-Subsequent source editions and the topic-directory organization continue
-from that public head. The live [reading catalogue](../cases/README.md)
-records current coverage. The earlier
-[87-to-195 inventory](../experiments/session_review/README.md) retains its
-own fixed end snapshot, so later additions do not rewrite its counts.
+Subsequent editions continue from that public head. The live
+[reading catalogue](../cases/README.md) records current coverage, and the
+[historical studies](historical-studies/README.md) present the recovered
+content. Source certificates and earlier contributions remain with each case.
+
+The 4 November editorial revision consolidated each physical source into one
+catalogue record and included all seven OPEN bodies. Superseded publication
+inventories and presentation snapshots were removed from the working tree;
+their dated content remains in the Git history. Current checks follow the
+live source catalogue and evidence, rather than freezing an earlier layout.

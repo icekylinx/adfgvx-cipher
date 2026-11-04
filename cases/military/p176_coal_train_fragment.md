@@ -1,6 +1,6 @@
 # p176 A6 — Conditional coal-train continuation via Klausenburg
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Partial word proposal and source review: icekylinx and GPT-6 Astra Pro.**
 The sixth part permits a coherent continuation about coal trains via
@@ -36,6 +36,9 @@ The first `[…]` omits the 13-position field at 28–40; the second omits all
 `A`, `G`, `X` and `1` labels and every unresolved position. The excerpt
 supplies no intervening place name, signature or reference number.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 160-slot frame, unchanged Nov10–12 partial key; 14/80 fixed positions:**
 
 ```text
@@ -47,6 +50,8 @@ supplies no intervening place name, signature or reference number.
 ```text
 KOHLENZUEGENUEBERKLAUSENBURG???A???????G?GERECHNETWERDEN???????X???????1???????X
 ```
+
+</details>
 
 All **74 observed coordinates remain unchanged**. The proposal fills 44 of
 86 already printed dashes; the other 42 coordinate masks remain unassigned.
@@ -65,11 +70,16 @@ The exact native half-coordinate constraints also permit
 `UEBERKLAUSENBURG` at positions 12–27 and `GERECHNETWERDEN` at 41–55.
 These words are contextual proposals; compatibility does not prove them.
 
+<details>
+<summary>Earlier attributed reading</summary>
+
 **Earlier attributed reading — A5 proposal by icekylinx and GPT-6 Astra Pro, reproduced with its unresolved field; not counted as a new record here:**
 
 ```text
 NACHRICHTENUNDMATERIALZUNAECHSTNACHXHERMANNSTADTXXKANNMITZUFUEHRUNGVONVERPFLEG?ZXUND
 ```
+
+</details>
 
 That prior A5 reading costs **three observed substitutions** (source
 58 G→F, 108 X→D, 120 A→D) and **four printed-mask fills** (51 F, 52 G,
@@ -111,6 +121,9 @@ The header reads `LP v NKJ (5.40 p.m., November 10th)` and
 plaintext. All 160 slots remain in their printed order, including the 86
 dashes beginning at source 74.
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — native 160 slots; all printed dashes retained:**
 
 ```text
@@ -119,6 +132,8 @@ FFVGA VVGAV AXDDX FXXXX DXDAD XAGFV FXAF- -----
 ----- ----- ----- ----- ----- ----- ----- -----
 ----- ----- ----- ----- ----- ----- ----- -----
 ```
+
+</details>
 
 [Original source PDF, p179](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view)
 · [Reproduction and provenance](../../experiments/p176_coal_train_fragment/README.md)

@@ -1,18 +1,5 @@
 # Repository collaboration instructions
 
-## Owner authorization
-
-The owner of `icekylinx/adfgvx-cipher` explicitly authorized direct pushes to
-`main` on 3 November 2026. This authorization applies across conversations
-unless the owner later states otherwise. Continue the requested repository
-work, commit concrete reviewed changes, and push them without asking again
-for permission to push to `main`.
-
-On 3 November 2026 the owner also explicitly authorized public upload of the
-40 historical source crops listed in
-`data/reviews/source_image_publication_20261103.json`. Publish those assets
-alongside the reviewed edition without requesting repeat confirmation.
-
 ## Established presentation
 
 Repository content is in English. Credit the current research and editorial
@@ -24,8 +11,12 @@ manuscript page. The generated page and topic indexes come from
 `data/reading_catalog.json`; use `python -m adfgvx.catalog` and
 `python -m adfgvx.navigation` to refresh them.
 
-Continue the established [reading conventions](docs/reading-conventions.md):
-show raw output, explicitly priced edited output, readable German, and
-conditional interpretation with their distinct evidence limits. Preserve
-literal unknown positions and numerical labels, and retain reproducible
-source and cipher evidence beside every accepted reading.
+Keep one catalogue entry per physical source and public OPEN pages for
+unread targets. Remove obsolete presentation snapshots and repeated displays
+when their current evidence and useful attribution are preserved.
+Use the current [reading conventions](docs/reading-conventions.md): lead with
+the readable message and its historical significance, keep uncertainty local,
+and place detailed machine streams in expandable evidence sections. Preserve
+literal unknown positions, numerical labels, source evidence, repair costs
+and earlier contributions. Old presentation snapshots are not a requirement
+to preserve duplicated prose or an obsolete page structure.

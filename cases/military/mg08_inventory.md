@@ -1,6 +1,6 @@
 # Inventory query for German MG08 machine guns
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -16,6 +16,9 @@ System*, [printed p86, PDF p89](https://drive.google.com/file/d/1_JiNMck7eUvdrOT
 The [source crop](../../experiments/inventory_and_medical_return/sources/childs_p86_A.png)
 is under an October 31 heading:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -24,8 +27,13 @@ A) OSM v NKJ (3.35 a.m., November 1st)
 RICHI-298
 ```
 
+</details>
+
 All 298 printed coordinates are valid and give 149 fixed labels under the
 unchanged published `Oct28-31` key:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -33,13 +41,20 @@ unchanged published `Oct28-31` key:
 MGKOMMANDEUROSMANHGRXOSTXWIEVIELDEUTSCHEMG08MITDREIFUSSLAFETTEIMDORTIGEXBER4ICHVORHANDENXWELCHESKALIBERHABENSIEXOSMAN19ABTLGXGRXHXQUXNO835C120X10X18X
 ```
 
+</details>
+
 Two known-coordinate substitutions repair ordinary words:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 MGKOMMANDEUROSMANHGRXOSTXWIEVIELDEUTSCHEMG08MITDREIFUSSLAFETTEIMDORTIGENBEREICHVORHANDENXWELCHESKALIBERHABENSIEXOSMAN19ABTLGXGRXHXQUXNO835C120X10X18X
 ```
+
+</details>
 
 Readable core, preserving the telegram's abbreviated grammar:
 
@@ -52,11 +67,16 @@ The address field `MGKOMMANDEUROSMANHGRXOST` is not expanded into an
 identified individual or a formally established command title. The closing
 also remains unexpanded:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — unchanged closing-field excerpt:**
 
 ```text
 OSMAN19ABTLGXGRXHXQUXNO835C120X10X18X
 ```
+
+</details>
 
 In particular, the **08** in `MG08`, the **19** in `OSMAN19`, and the complete
 reference `NO835C120X10X18` are unchanged published-square labels. No unit,

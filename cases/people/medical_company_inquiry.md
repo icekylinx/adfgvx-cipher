@@ -1,6 +1,6 @@
 # Medical-company report and a request for clarification
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
@@ -11,6 +11,9 @@ Caucasus delegation. The page heading is November 3, the origin says
 `1807 (3)`, and the receipt line says **November 5**. The published key remains
 labelled Nov1–3; this delayed/conflicting receipt does not extend its date
 range. The middle letter of the printed `POT` call sign may be Q.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — native source frame**
 
@@ -23,6 +26,8 @@ IMDORTXBERICHTNR1314E16VOM29X9XISTEINESANITXKOMPXNR30ERWAEHNTXSOVIELHIERBEKANNTI
 ```text
 IMDORTXBERICHTNR1314E16VOM29X9XISTEINESANITXKOMPXNR30ERWAEHNTXSOVIELHIERBEKANNTISTNUREINFELDLAZARETTDORTXSOFORTDRAHTAUFKLAERUNGXDTSCHXFELDSANITXCHEFXGHQ38302X18
 ```
+
+</details>
 
 Price: 1 observed-coordinate substitution, 3 source-mask fills.
 

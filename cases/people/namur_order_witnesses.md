@@ -1,6 +1,6 @@
 # The Namur order: two witnesses for Staedt and Weiher
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source reconciliation and edition: icekylinx and GPT-6 Astra Pro.**
 
@@ -9,11 +9,16 @@ to contact `HPT V. WEIHER` at an Etappen inspection. The latter is to receive
 a detailed order by `11 VORM`; the message is signed `MJR KROEGER`.
 The witnesses together support this 126-position reading:
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — joint witness reconstruction under the stated same-message model:**
 
 ```text
 HPTMANNSTAEDTNAMURXXBITTESICHMITHPTVXXWEIHERETAPPENINSP1INVERBINDUNGSETZENDERBIS11VORMAUSFUEHRLICHENBEFEHLBEKOMMTXXMJRKROEGERX
 ```
+
+</details>
 
 The anomalous **`INSP1IN`** and literal **`HPTVXX`** are retained. The
 edition does not silently replace the `1` with a separator or insert letters
@@ -38,22 +43,32 @@ explicitly says November 10.
 
 C's direct reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 HPTMDNNSTAEDTNAMQRXXBITTESICHMITHPTVXXWEGHERE?AB?ENINSP1?NVERBINDUNGSETZENDE4BIS11VORMAUSFUEHRLICHENBQFE?LBEKOMMTXXMJRKROEGERX
 ```
 
+</details>
+
 E's earlier OCR stream had only 235 positions and did not yield this
 coherent body. Visual retranscription supplies its actual **242 received
 coordinates**. Under the same-message model, E is missing ten leading
 coordinates, giving this direct reading in a 252-coordinate frame:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output — conditional same-message 252-slot frame with ten absent leading coordinates:**
 
 ```text
 HPTMANN?1AEDTNA?URXXBIT?ESICHJI?HPTVXXW?IHERETA?PENINSP?I?VERBI?DUNGSET?ENDERBI?11VORMAUSFUEHRLICHENBEFEHLBEKOMMRXXPJRKROEGERX
 ```
+
+</details>
 
 The ten-coordinate leading loss is inferred from the relationship between
 the witnesses; E does not display a legible total length or explicitly
@@ -66,11 +81,16 @@ Aligning E's first received coordinate with C source index **10** compares
 E supplies observed values for all four printed dashes in C, while C
 supplies E's ten modeled missing leading values:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — ten leading coordinates supplied by the other witness:**
 
 ```text
 DGAAV FADFD
 ```
+
+</details>
 
 This offset is the unique highest agreement fraction among the **87 relative
 offsets with at least 200 jointly observed coordinate pairs**. The comparison

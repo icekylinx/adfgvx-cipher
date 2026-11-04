@@ -1,6 +1,6 @@
 # Recall of contract-bound military-mission members from Turkey
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source:** J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
 printed p130 A1–A2 and p131 A3–A4, PDF pp133–134.
@@ -23,11 +23,16 @@ The source advertises and prints **394 valid coordinates**. The second
 group, `VGVVF`, is complete in the source but was omitted by earlier OCR.
 The raw 197-position reading needs no coordinate change:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 MILITAERMISZIONKONSTANTINOPELXZURM2NR46873XSEMAJDERKAISERUKOENIGHABENBEFOHLENXSAEMTLICHEVERTRAGLICHVERPFLICHTETENMITGLIEDERDERMILMISZIONEINSCHLISZLICHDERJENIGENWELCHENDERVERTRAGBEREITSGEKUENDIGTIST
 ```
+
+</details>
 
 The text addresses the military mission at Constantinople, retains the
 raw reference `ZURM2NR46873`, and states an order of the Emperor and King
@@ -39,19 +44,29 @@ contracts had already been given notice. The transmitted `SZ` forms and
 
 The source advertises and prints **330 valid coordinates**. The raw text is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 WERDENAUFGRUNDMESIRTIKELS10DESMITGENERALDERKAVLIMANVONSANDERSABESCHLOSZENENVERTRAGSMITDEMTAGEDERVEROEFFENTLICHUNGDESWAFFENSTILLSTANDESDERTUERKEIZUMHEEREZURUCKBERUFEN
 ```
 
+</details>
+
 The conservative candidate makes only two ordinary-letter changes:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 WERDENAUFGRUNDDESARTIKELS10DESMITGENERALDERKAVLIMANVONSANDERSABESCHLOSZENENVERTRAGSMITDEMTAGEDERVEROEFFENTLICHUNGDESWAFFENSTILLSTANDESDERTUERKEIZUMHEEREZURUCKBERUFEN
 ```
+
+</details>
 
 These require source-coordinate **156 X→D** and **176 X→F**, both
 zero-based. They repair `MESIRTIKELS` to `DESARTIKELS`. The article label
@@ -70,11 +85,16 @@ The source advertises and prints **396 valid coordinates**, separately
 from the following fourth part. Earlier OCR merged the two frames.
 The 198-position raw reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 DIEMILMISZIONVERANLASZTZUGEGEBENENENZEITPUNKTDIEHEIMSENDUNGUWEISTDIEHEIMKEHRENDENANIHRENAUFENTHALTSORTSOGLEICHNACHEINTREFFENINDEUTSCHLANDDEMMILIGRHYUBEZWDENKRIEGSMINISTERIENDERBUNDESSTAATENZUDRAHTEN
 ```
+
+</details>
 
 No coordinate change is proposed. The mission is to arrange the return
 at the relevant time and instruct those returning to telegraph their
@@ -92,20 +112,30 @@ do not mean that every word has been editorially identified.
 
 The source advertises and prints **170 valid coordinates**. The raw text is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 LETZTERESINDBENACHRICHTIGTXWUFALLERHOECHSTENBEFEHLCHEFMILITAERKABINETTSFRHRMARSCHALLX
 ```
 
+</details>
+
 The candidate changes only **source index 133 A→V**, giving `AUF`
 instead of `WUF`:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 LETZTERESINDBENACHRICHTIGTXAUFALLERHOECHSTENBEFEHLCHEFMILITAERKABINETTSFRHRMARSCHALLX
 ```
+
+</details>
 
 It reports that the latter recipients have been notified and closes
 with the received title and signature. With editorial spacing:

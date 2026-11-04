@@ -1,77 +1,75 @@
 # Whole-material source coverage
 
-Prepared by **icekylinx and GPT-6 Astra Pro**. This dashboard separates source boundaries, catalogue editions, and decipherment evidence.
+[Catalogue](../cases/README.md) · [Source identity](catalogue-source-identity.md) · [Reading conventions](reading-conventions.md)
 
-## Scope and denominator
+Prepared by **icekylinx and GPT-6 Astra Pro**.
 
-**Appendix B contains 679 actual printed ciphertext bodies on printed pages 56–230 (175 pages).** A separately printed part or received copy is one physical body. Surviving damaged fragments count; advertised but absent parts do not. The two literal `AAA` items at p58 A1/A2 remain separately registered ambiguous stubs, outside this body count.
+## Catalogue coverage
 
-Every log page has a recorded boundary review. That review checks where bodies begin and end; it does not claim a fresh transcription of every glyph, a unique key for every body, or complete plaintext recovery.
+**All 679 reviewed physical ciphertext bodies have one canonical catalogue entry.** They occupy printed pages 56–230 of Appendix B. The 22 original challenge identifiers are preserved, and the other 657 bodies include the four previously uncatalogued unread fragments.
 
-## Current tree and preserved starting snapshot
+A separately printed part or received copy is one physical body. Surviving damaged fragments count; advertised but absent parts do not. The two literal `AAA` items at p58 A1/A2 remain separately registered ambiguous stubs outside this body count.
 
-| Measure | Current tree | Starting snapshot, 2026-11-03 08:04:46 UTC |
-|---|---:|---:|
-| Reviewed catalogue edition entries | 676 | 640 |
-| Distinct catalogued physical bodies | 675 | 639 |
-| Original challenge entries | 22 | 22 |
-| Other catalogue entries | 654 | 618 |
-| Additional physical bodies beyond challenges | 653 | 617 |
-| Bodies outside the current catalogue | 4 | 40 |
+| Current navigation state | Sources |
+|---|---:|
+| READING | 345 |
+| PARTIAL | 186 |
+| CONDITIONAL | 141 |
+| OPEN | 7 |
 
-Current catalogue metadata records source review for **675 distinct bodies**. This is the existing source-review evidence status, not a number of solved messages. The registered p132 / p132_B overlap is one physical body with two edition entries. The current counts come from the files in this checkout; the fixed baseline is never substituted for them.
+These states describe the kind of current edition, not a completion percentage. READING does not mean that every character or historical identification is settled; CONDITIONAL may include a partial proposal. OPEN sources have no accepted body reading. Their headers and source transcriptions are still useful evidence.
 
-There are **0 uncatalogued bodies** with an explicitly registered local review package in this checkout. They remain outside the catalogue count until integration. Publication status and local research status are distinct.
+Catalogue metadata records source review for **679 bodies**. The boundary census records every log page, but it does not claim a fresh transcription of every glyph or a unique key for every body. Dated baseline records remain in the machine-readable census; current coverage is recomputed from the files in this checkout.
+
+## OPEN sources
+
+| Source | Received source slots | Current question |
+|---|---:|---|
+| [p70_B1](../cases/open/p70_B1.md) | 206 | OPEN; 206 received slots, 199 observed coordinates and 7 printed erasures; interruption boundaries retained |
+| [p73](../cases/p73.md) | 178 | Open |
+| [p127_B2](../cases/open/p127_B2.md) | 152 | OPEN; 152 received slots, 104 observed coordinates and 48 printed erasures; both printed dates retained |
+| [p145_A](../cases/open/p145_A.md) | 192 | OPEN; 192 received slots, 187 observed coordinates and 5 printed erasures; transmitted length unknown |
+| [p170](../cases/p170.md) | 106 | Open |
+| [p194_D1](../cases/open/p194_D1.md) | 45 | OPEN; 45 observed coordinates against advertised 214; no accepted plaintext or loss frame |
+| [p198](../cases/p198.md) | 165 | Open |
+
+The four newly catalogued OPEN cases preserve 595 native slots: 535 observed coordinates and 60 printed erasures. Their [source-only package](../experiments/open_source_records/README.md) verifies the literal rows and original-PDF crops. It introduces no key, completed loss frame, plaintext or decipherment count.
 
 ## Quantitative evidence coverage
 
-The bounded structured adapters independently recompute primary source/model accounting for **559 of the 679 bodies**. The other **120 bodies remain unquantified by this dashboard**; that includes unsupported legacy certificate shapes and genuinely missing editions. It does not mean that all of them lack prior decipherment work.
+The structured adapters independently recompute primary source/model accounting for **559 of the 679 bodies**. The other **120 remain unquantified by these adapters**, including OPEN sources and unsupported legacy certificate formats. This is evidence-tool coverage, not the number of unread messages.
 
-| Verified primary frame class | Physical bodies | Native slots | Model positions | Fixed raw labels, all unobserved coordinates unassigned | Extra fixed labels from supplied unobserved coordinates |
+| Verified primary frame class | Physical bodies | Native slots | Model positions | Fixed raw labels, unobserved coordinates unassigned | Extra fixed labels from supplied unobserved coordinates |
 |---|---:|---:|---:|---:|---:|
 | Native order and length | 471 | 100274 | 50137 | 48886 | 0 |
-| Modified frame; its stated assumptions still apply | 88 | 18603 | 10028 | 8205 | 1 |
+| Modified frame; stated assumptions apply | 88 | 18603 | 10028 | 8205 | 1 |
 
-These position totals cover only the quantified subset. **They are not a whole-corpus plaintext-completion percentage.** A fully fixed raw stream can retain garbles or uninterpreted numbers. The checker separates native source slots, conditional model additions/exclusions, and coordinates supplied from another witness; it does not combine alternative models or optional prose into a primary total.
+**These position totals cover only the quantified subset.** A fully fixed stream can retain garbles or uninterpreted numbers. The checker separates native slots, model additions/exclusions, coordinates supplied by another witness and ordinary-word repairs. Optional readings and alternative frames are never added as extra physical sources.
 
-The per-body JSON output includes exact evidence paths and explicit reasons when a primary record cannot yet be quantified. Candidate-label and repair counts are included only where the candidate contract can also be independently decoded.
-
-## Complete current catalogue gap list
-
-| Printed page | Actual body sections outside catalogue | Registered local edition or existing artifact lead |
-|---:|---|---|
-| 70 | B1 | No structured edition registered here |
-| 127 | B2 | No structured edition registered here |
-| 145 | A | No structured edition registered here |
-| 194 | D1 | No structured edition registered here |
-
-An artifact lead can be a diagnostic or contextual mention. Its existence does not count as a recovered body. The local label A16 at p163 identifies the actual fragment between printed parts 15 and 17; it does not assert a printed `16 TL` heading.
+The JSON output identifies the canonical source, state, evidence path and exact count contract for each body. It gives explicit reasons where a primary record cannot yet be quantified. Restricted evidence aliases resolve older package identifiers without creating catalogue rows.
 
 ## Other material in the volume
 
 | Material | Printed pages | Separate accounting |
 |---|---|---|
-| Childs technical explanation | 1–22 | Includes reused cipher figures and an internal numeric teaching example; figures are not new intercepted messages. |
-| Twelve numbered teaching cryptograms I–XII | 19–22 | 12 instructional items under the published VIKINGSCROWNHOTEL example key; kept outside the 679-body log denominator. |
-| Konheim Appendix A | 23–54 | Theory and numerical 5×5 teaching examples, including repeated or excerpted ciphertext illustrations; no new historical-message count. |
-| Appendix B title | 55 | Ciphertext log starts on p56. |
-| Appendix C key tables | 232–244 | 15 printed tables on 13 pages, all represented by existing key IDs; unknown cells remain unknown. |
-| Cleartext, short stubs, header-only items and missing-part notes | Within the log | Explicit exceptions are retained separately in the census; they do not create invented ciphertext bodies. |
+| Childs technical explanation | 1–22 | Reused cipher figures and a numeric teaching example are not additional intercepted messages. |
+| Teaching cryptograms I–XII | 19–22 | Twelve instructional items under the published VIKINGSCROWNHOTEL example key, outside the log denominator. |
+| Konheim Appendix A | 23–54 | Theory and numerical 5×5 examples, including repeated or excerpted ciphertext figures. |
+| Appendix B title | 55 | The ciphertext log begins on p56. |
+| Appendix C key tables | 232–244 | Fifteen tables on thirteen pages; all have registered key IDs, with unknown cells retained. |
+| Cleartext, stubs, header-only items and missing-part notes | Within the log | Recorded exceptions do not create invented ciphertext bodies. |
 
-The frozen OCR pool has **788 unverified blocks on pp57–230**, omitting p56. Blocks can split, merge, or omit real bodies; subtracting catalogue entries from 788 does not measure remaining messages. Duplicate transmissions and separately printed parts are retained as physical witnesses. Their number is not a claim about the number of distinct complete historical messages.
+The older OCR retrieval pool contains 788 unverified blocks on pp57–230 and omits p56. A block may split, merge or omit a source body; its size is not a historical-message denominator. Repeated receptions and numbered parts remain distinct physical witnesses, not a count of distinct complete messages.
 
 ## Reproduction
 
-```bash
+```sh
 python data/reviews/verify_childs_material_coverage.py --verify
 python data/reviews/verify_childs_material_coverage.py --json > /tmp/childs-current-coverage.json
 python data/reviews/verify_childs_material_coverage.py --verify --pdf /path/to/childs.pdf
 python data/reviews/verify_childs_material_coverage.py --write-report
 ```
 
-`--verify` is read-only. `--write-report` explicitly refreshes this dashboard from the live tree. The optional PDF check pins the original file bytes and page count; the source-boundary inspection itself is a recorded manual review, not an automated glyph-recognition claim.
+`--verify` recomputes the structured contracts without writing. `--write-report` refreshes this page. The optional PDF check authenticates the original file and page count; the boundary inspection remains a recorded manual review.
 
-Current catalogue SHA-256: `ac384ffb6808bbfe56980e3c037196250ec62da8960efa6a226998bc0bf83d72`.
-Census SHA-256: `2edad8ccbe1e589ae5e1b0497dd4d594d197f3ec5a5c1178e499d47f8a37ef87`.
-
-Source: J. Rives Childs, *General Solution of the ADFGVX Cipher System*, [complete scanned volume](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). See the [machine-readable census](../data/reviews/childs_material_census_20261103.json) for page-level review bases and material exceptions.
+Source: J. Rives Childs, *General Solution of the ADFGVX Cipher System*, [scanned volume](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). The [machine-readable census](../data/reviews/childs_material_census_20261103.json) records page-level review bases, exceptions and the historical baseline; the live JSON output records current file digests.

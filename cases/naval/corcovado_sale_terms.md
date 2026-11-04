@@ -1,6 +1,6 @@
 # Corcovado: sale terms, Turkish crew and a conditional office number
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
 
@@ -41,20 +41,30 @@ invented. All four blocks use the published `Nov7-9` partial square.
 
 All 380 printed coordinates are valid. The raw 190-position reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 MITTELMEERDIVISIONXNICOLAJEFFXBEIVERKAUFXCORCOVAUOXMOEGLICHSTFOLGENDEBEDINGUNGENDURCHZUSETZENXXVERKAUFERFOLGTFUERHFMBURGAMERIKALINIEXKAUFPREISFESTX10XMILLXFUERSCHIFFOHNEINVENTARUNDMATERIALXX
 ```
 
+</details>
+
 Two observed-coordinate substitutions give this complete, exactly
 reencryptable candidate:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 MITTELMEERDIVISIONXNICOLAJEFFXBEIVERKAUFXCORCOVADOXMOEGLICHSTFOLGENDEBEDINGUNGENDURCHZUSETZENXXVERKAUFERFOLGTFUERHAMBURGAMERIKALINIEXKAUFPREISFESTX10XMILLXFUERSCHIFFOHNEINVENTARUNDMATERIALXX
 ```
+
+</details>
 
 Addressed to the Mediterranean Division at Nicolajeff, it asks that the
 following conditions be obtained if possible in the sale. The sale is for
@@ -75,20 +85,30 @@ The printed length is 458. Source coordinate 239 is `C` in `GVGVC`, and
 417 is `L` in `FALXX`; both are invalid ADFGVX coordinates. They remain
 erasures in the raw 229-position reading:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 MATERIALUNDINVENTARZUMSELBSTKOSTENPAEISMINUFABNUT?UNGXXSCHIFFWIRDVERKAUFTINAUGENBLICKLICHEMZUSTANDXAUS?ESCHLOSSENPERGOENLICHESEIGENTPMKAPITAENSUNDBESATZUNGXAUSSCHLIESSLICHKOHLENXXUEBERNAHMERISIKOVONSEITENTUERKEIGEGENBESCHLAGNAHME
 ```
 
+</details>
+
 Four observed-coordinate substitutions and the two erased-coordinate
 fills produce this complete candidate:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 MATERIALUNDINVENTARZUMSELBSTKOSTENPREISMINUSABNUTZUNGXXSCHIFFWIRDVERKAUFTINAUGENBLICKLICHEMZUSTANDXAUSGESCHLOSSENPERSOENLICHESEIGENTUMKAPITAENSUNDBESATZUNGXAUSSCHLIESSLICHKOHLENXXUEBERNAHMERISIKOVONSEITENTUERKEIGEGENBESCHLAGNAHME
 ```
+
+</details>
 
 Materials and inventory are to be valued at cost less wear. The ship is
 sold in its current condition; the captain's and crew's personal property
@@ -103,19 +123,29 @@ are visible source material, not a conjectural ciphertext insertion.
 
 All 380 source coordinates are valid. The raw reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 DURCHFEINDEDEUTSCHENREICHESVOMZEITPUNKTKAUFABSCHLUSSESABXXVERZINSUNGKAUFPREISESBEGINNTSPAETESTENSXSIEBENXUONATENACHKAUFABSCHLUSSXXBEINICHTZAHLUNGRUECKFORDERUNGSRECHTANDEMDAMPFERVORBEHALTENXX
 ```
 
+</details>
+
 One observed-coordinate change, `UONATE` to `MONATE`, gives:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 DURCHFEINDEDEUTSCHENREICHESVOMZEITPUNKTKAUFABSCHLUSSESABXXVERZINSUNGKAUFPREISESBEGINNTSPAETESTENSXSIEBENXMONATENACHKAUFABSCHLUSSXXBEINICHTZAHLUNGRUECKFORDERUNGSRECHTANDEMDAMPFERVORBEHALTENXX
 ```
+
+</details>
 
 The seizure risk is from enemies of the German Empire and begins at the
 conclusion of the sale. Interest on the purchase price is to begin no later
@@ -127,20 +157,30 @@ event of nonpayment is reserved.
 The printed `5 TL` has exactly 500 slots. The invalid glyphs are `J`, `L`
 and `C`, at source positions 90, 147 and 199. The raw reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 VORKAUFSRECHTDEUTSCHLANDSBEIETWAIGENWIEDERVERKAUFXVERBOTVERKAUFSANNICHTDEUTSCHEREEDEREIXVERWENDUNGDAMPFEASAUSSCHLIESSLICHODERINERSTERLINIEFUDRABTRANSPORTDERDEU?SCHENXWEITERGABEDIESESTELEGRAMMSNACHKONSTANTIYOPELNURGESCHLU?SSELTXMARINEAMTXAX?XSX8?3XGXG
 ```
 
+</details>
+
 Three observed-coordinate substitutions and two erased-coordinate fills
 restore the ordinary words, leaving both numerical uncertainties intact:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 VORKAUFSRECHTDEUTSCHLANDSBEIETWAIGENWIEDERVERKAUFXVERBOTVERKAUFSANNICHTDEUTSCHEREEDEREIXVERWENDUNGDAMPFERSAUSSCHLIESSLICHODERINERSTERLINIEFUERABTRANSPORTDERDEUTSCHENXWEITERGABEDIESESTELEGRAMMSNACHKONSTANTINOPELNURGESCHLUESSELTXMARINEAMTXAX?XSX8?3XGXG
 ```
+
+</details>
 
 Germany is to retain a right of first refusal on resale. Sale to a
 non-German shipping company is prohibited. The ship is to be used
@@ -162,20 +202,30 @@ Both blocks use the published `Nov10-12` partial square.
 
 All 242 coordinates are valid. The raw 121-position reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ZUDORDXA?S?24GXGXX2ITTELMEXRDIVISIONODERVERTRETERNICHTMEHRINNIKOLAJEWXXCORCOVADOFAEHRTBEREITSMI2TUERKISOHERBESATZUNGUNTER
 ```
 
+</details>
+
 Six observed-coordinate substitutions restore ordinary words while
 leaving both unknown reference digits unresolved:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 ZUDORTXA?S?24GXGXXMITTELMEERDIVISIONODERVERTRETERNICHTMEHRINNIKOLAJEWXXCORCOVADOFAEHRTBEREITSMITTUERKISCHERBESATZUNGUNTER
 ```
+
+</details>
 
 Referring to the recipient's `A?S?24 G G`, the report states that the
 Mediterranean Division or its representative is no longer in Nikolaev.
@@ -188,19 +238,29 @@ observed and needs no repair.
 The 160-slot source begins with `AGAD-`. Its final dash is an erased
 coordinate. The raw text is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 TUERKXKAPITAENXMITKONSTANTINOPEOXKEINFU?KVERKEHRMEHRMOEGLXXGOUVERNEMENTXNKJX1XAX
 ```
 
+</details>
+
 One observed-coordinate change and the erased-coordinate fill give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 TUERKXKAPITAENXMITKONSTANTINOPELXKEINFUNKVERKEHRMEHRMOEGLXXGOUVERNEMENTXNKJX1XAX
 ```
+
+</details>
 
 The captain is Turkish. Radio communication with Constantinople is no
 longer possible. The ending reads `GOUVERNEMENT NKJ 1 A`.

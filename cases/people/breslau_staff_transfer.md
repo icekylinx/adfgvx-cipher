@@ -1,6 +1,6 @@
 # A staff officer's assignment to Breslau
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
 
@@ -34,20 +34,30 @@ context, rather than first computation of those candidates.
 
 The raw 130-position reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 AOKJJXXMA9ORBEAUFTRAGTMITWAHRNEHMUNG0ERGESCHAEFT9DESCHEFDESGENERALSTX40XRESXKXXSTRZEMIECZNQISTUNTERVERSETZUNGZUDENOFFIZIERENVXDXAX
 ```
 
+</details>
+
 Three observed-coordinate substitutions repair the ordinary words `0ER`
 to `DER` and `GESCHAEFT9` to `GESCHAEFTS`:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 AOKJJXXMA9ORBEAUFTRAGTMITWAHRNEHMUNGDERGESCHAEFTSDESCHEFDESGENERALSTX40XRESXKXXSTRZEMIECZNQISTUNTERVERSETZUNGZUDENOFFIZIERENVXDXAX
 ```
+
+</details>
 
 The text addresses `AOKJJ` and describes the officer as acting in the
 capacity of chief of the general staff of the reserve corps labelled
@@ -67,20 +77,30 @@ labels are all retained.
 
 The raw 149-position reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 DEMGENERALKDOX7XAXKXBRESLAUZUBESXVERWENDUNGZUGETEILTISTUNMITTELBARBEORDERTXMITTEOLUNGANGENREALKDOX40AKEGBETENXXXCHEFDESGENERALSTABSDXFELDHEERES04013X
 ```
 
+</details>
+
 Six observed-coordinate changes restore `MITTEILUNG`, `GENERAL` in the
 second command reference, and `ERBETEN`:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 DEMGENERALKDOX7XAXKXBRESLAUZUBESXVERWENDUNGZUGETEILTISTUNMITTELBARBEORDERTXMITTEILUNGANGENERALKDOX40AKERBETENXXXCHEFDESGENERALSTABSDXFELDHEERES04013X
 ```
+
+</details>
 
 The officer is assigned to special employment with the command labelled
 `7 A K`, Breslau. He has already been ordered directly, and notification

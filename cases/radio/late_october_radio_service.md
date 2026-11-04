@@ -1,8 +1,6 @@
 # Late October radio service — calls, garbled traffic and network routing
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[All cases](../README.md) · [ADFGVX Cipher](../../README.md)
+[All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and review: icekylinx and GPT-6 Astra Pro.** Five physical
 records on pp. 74–75 describe daily calls, a garbled CHI telegram, and questions
@@ -25,6 +23,9 @@ three-part source sequence.
 
 The typed frame has **154 slots** and fixes **77 of 77 raw plaintext positions** under the unchanged published key.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — typed source frame; no word repairs.**
 
 ```text
@@ -36,6 +37,8 @@ DEUTSIHALTENBURGXOHDXWIRDSIEVOMX29XABTAEGLICHUMX1120XMXEXZXWELLEX5200XANRUFEN
 ```text
 DEUTSCHALTENBURGXOHDXWIRDSIEVOMX29XABTAEGLICHUMX1120XMXEXZXWELLEX5200XANRUFEN
 ```
+
+</details>
 
 **Readable German — with the one recorded word repair:**
 
@@ -61,11 +64,16 @@ The total is **1 observed-coordinate substitution and 0 printed-dash fills**. No
 
 The typed frame has **170 slots** and fixes **85 of 85 raw plaintext positions** under the unchanged published key.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — typed source frame; no word repairs.**
 
 ```text
 KAUKASUSDELEGAXSPRUCHTLGRLEITSTX639XOSKACHIX212GR3TLVERSTX2U3TLWHXNACHCHEFRM5X15031UX
 ```
+
+</details>
 
 **Readable German — abbreviations retained or explicitly expanded:**
 
@@ -87,6 +95,9 @@ No observed-coordinate substitutions or erased-coordinate fills are needed.
 
 The typed frame has **148 slots** and fixes **44 of 74 raw plaintext positions** under the unchanged published key.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — typed source frame; no word repairs.**
 
 ```text
@@ -98,6 +109,8 @@ ZUR?G???FTVE?K???SHAN?E???CHIF?E???EIST?T???LLEA?D???SCHESD???NETZAG???HLX
 ```text
 ZUREGELNFTVERKEHRSHANDELSSCHIFFEXWIEISTFTSTELLEANDEUTSCHESDRHTNETZAGESCHLX
 ```
+
+</details>
 
 **Conditional interpretation:** The source begins with six printed
 five-dash groups, exactly 30 erased coordinate slots. The full edited string
@@ -130,6 +143,9 @@ There are **30 printed-dash fills**, listed individually with their original row
 
 The typed frame has **130 slots** and fixes **65 of 65 raw plaintext positions** under the unchanged published key.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — typed source frame; no word repairs.**
 
 ```text
@@ -141,6 +157,8 @@ AUFWELCHENLTGNERFLGTAUSTAUSCH5ERTELGRMHTFREMDLAENDSCHENSTATIONENX
 ```text
 AUFWELCHENLTGNERFLGTAUSTAUSCHDERTELGRMITFREMDLAENDSCHENSTATIONENX
 ```
+
+</details>
 
 **Readable German — with the two priced repairs and marked expansions:**
 
@@ -168,6 +186,9 @@ The total is **2 observed-coordinate substitutions and 0 printed-dash fills**. N
 
 The typed frame has **154 slots** and fixes **77 of 77 raw plaintext positions** under the unchanged published key.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — typed source frame; no word repairs.**
 
 ```text
@@ -179,6 +200,8 @@ DURCHVERMITTLGDERDEUTSSCHENSTATIONOZUEAERRBESONDLTGNUWOHINXNACHCHEF3AX110701X
 ```text
 DURCHVERMITTLGDERDEUTSSCHENSTATIONODUEBERRBESONDLTGNUWOHINXNACHCHEF3AX110701X
 ```
+
+</details>
 
 **Readable German — spelling peculiarities retained:**
 

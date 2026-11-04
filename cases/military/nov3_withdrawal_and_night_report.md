@@ -1,6 +1,6 @@
 # Withdrawal from Hungarian and South Slav territory, and a night report
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
@@ -11,11 +11,16 @@ report, with an unknown sender and a November 4 receipt line.
 
 ## p117 C3
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native source frame**
 
 ```text
 DEUTSCHETRUPPENWERDENSOBALDALSMOEGLICHUNGARISCHENUNDSUEDSLAVISCHENBODENVERLASSEN
 ```
+
+</details>
 
 **Edited output:** identical to the raw output under the stated frame; no additional letter repair.
 
@@ -36,11 +41,16 @@ The printed length is 112, while the page actually contains **117** coordinates.
 The following reading is **conditional** on excluding five transmitted
 coordinates. The complete literal source remains in the input record.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional five-coordinate exclusion**
 
 ```text
 ARMEETRITTXVIERTEN11MARSCHXRUMAENIENANXAXOXK11XEINSA7029
 ```
+
+</details>
 
 **Edited output:** identical to the raw output under the stated frame; no additional letter repair.
 
@@ -76,6 +86,9 @@ claim is made about untested stages, keys or other corruption mechanisms.
 
 ## p117 D
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native source frame**
 
 ```text
@@ -87,6 +100,8 @@ OXKXMXXNACHTRUHOGVERLAUFENXXOXKX11
 ```text
 OXKXMXXNACHTRUHIGVERLAUFENXXOXKX11
 ```
+
+</details>
 
 Price: 1 observed-coordinate substitution, 0 source-mask fills.
 

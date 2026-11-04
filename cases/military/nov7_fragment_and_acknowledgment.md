@@ -1,6 +1,6 @@
 # November 7 report fragments and a separate telegram acknowledgment
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -20,6 +20,9 @@ shows **AVVG**, four symbols. The following layers assume one missing
 coordinate before that group: **?AVVG**. This is a conditional frame,
 not a source-supplied loss position.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional 190-coordinate frame with one missing coordinate at the AVVG short group:**
 
 ```text
@@ -31,6 +34,8 @@ OHLXBPXXNACHRICHTVONABREISEDEUTSCHERWAFFENSTILLSTANDSKOMMISSIONHATANSCHEINENDGEM
 ```text
 OHLXBPXXNACHRICHTVONABREISEDEUTSCHERWAFFENSTILLSTANDSKOMMISSIONHATANSCHEINENDGEMELDETENSTUR3FSS
 ```
+
+</details>
 
 The modeled missing coordinate at working index **55** is filled with D,
 supplying E at plaintext position **80**. Its raw domain is **DEQTUX**.
@@ -68,6 +73,9 @@ layers above retain their stated zero-observed-substitution candidate.
 The same source crop gives **186 valid coordinates** for
 `2 TL RICHI-186`, fixing **93 / 93 positions**.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 186-coordinate frame:**
 
 ```text
@@ -79,6 +87,8 @@ ANSCHEINENDXOMOLDOVAXUEBERGEGANGENERFEINDMARSCHIERTAUFXFEHERTEMPLOMXXARMEETRITTX
 ```text
 ANSCHEINENDXOMOLDOVAXUEBERGEGANGENERFEINDMARSCHIERTAUFXFEHERTEMPLOMXXARMEETRITTX8X11XABMARSCH
 ```
+
+</details>
 
 Source **27 V→X** repairs `0BMARSCH` to `ABMARSCH`. No global numeral
 relabeling follows, and the separate 8 and 11 remain literal.
@@ -100,6 +110,9 @@ Its **156 typed coordinates** match `RICHI-156`. Five additional
 read **VXXDV**, duplicating the immediately preceding typed group.
 The combined visible layer has **161 slots** and is odd in length.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — 156-coordinate typed source layer, with the five handwritten glyphs retained separately:**
 
 ```text
@@ -111,6 +124,8 @@ OXOXLXOPXDHRTIGESTELEGRAMMROEMX1ANOX11212OPXGEHXERHFLTENHOXKXMXOPXROEMX1A11302
 ```text
 OXHXLXOPXDORTIGESTELEGRAMMROEMX1ANOX11212OPXGEHXERHALTENHOXKXMXOPXROEMX1A11302
 ```
+
+</details>
 
 The changes are composite-source **0 F→V**, **40 V→F** and **115 X→D**.
 They repair the first `O O L`, `DHRTIGES` and `ERHFLTEN`. The additional

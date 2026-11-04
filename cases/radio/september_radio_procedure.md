@@ -1,6 +1,6 @@
 # September radio listening and acknowledgment procedure
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -23,6 +23,9 @@ ciphertext coordinate.
 The [first-part source](../../experiments/september_radio_procedure/sources/childs_p60_A1.png)
 has this header:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -31,14 +34,21 @@ A) COS v NKJ (10.02 p.m., Sept. 21st)
 1 TL  RIZI-176
 ```
 
+</details>
+
 The 176 source slots include a printed noncoordinate `T` and `L`. Treating
 both as erasures gives the following 88-position reading, with 86 positions fixed:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
 ```text
 BITTEVONHEUTEABTAEGLICHZUDENVONUNSINDIESSEITX22552255VOM14X14X9XRIZI286ANGEGEBE?ENZEITE?
 ```
+
+</details>
 
 Both unknown positions have the domain `1EGNPZ`. Filling both with `N`
 gives the proposed first-part ending `ANGEGEBENENZEITEN`. The rest of the
@@ -61,11 +71,16 @@ The [second-part source](../../experiments/september_radio_procedure/sources/chi
 is marked `2 TL RIZI-154`. All 154 coordinates are valid, and all 77 plaintext
 positions are read without repair:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 AUFUNSZUHOERENXXWIRRUFENZUBEGINNJEDERPERIODEAUCHWENNNICHTSVORLIEGTANXXNKJXNKJ
 ```
+
+</details>
 
 The complete readable instruction continues:
 
@@ -84,6 +99,9 @@ as their own 176- and 154-slot frames before their prose is joined.
 The [B source](../../experiments/september_radio_procedure/sources/childs_p60_B.png)
 has a separate clear service annotation above its encrypted body:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -92,6 +110,8 @@ B) ASO v NKJ (1.30 a.m., Sept. 21st)
 VE 2100 (21)
 RIZI-226
 ```
+
+</details>
 
 The annotation is retained literally. Its references to other parts are not
 counted as additional recovered records or included in the cipher frame.
@@ -103,20 +123,30 @@ The latter looks R/E-like and may be a damaged `F`; the conservative
 transcription treats it as an erasure. Both erased coordinates feed the
 same plaintext position. The raw reading therefore fixes 112 of 113 positions:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 RITTEFUNKSPRXFUERCOSANUNSWAEHRENDAUFNAHMENAUENPRESSEIMMEROHGEUNTYRBRECHUNGGEBENXXQUITTUNGFOLGTNACHPRESSE?CHLUSSXX
 ```
 
+</details>
+
 Three coordinate substitutions repair `RITTE`, `OHGE` and `UNTYRBRECHUNG`.
 Two coordinate fills supply the missing `S` in `PRESSESCHLUSS`:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 BITTEFUNKSPRXFUERCOSANUNSWAEHRENDAUFNAHMENAUENPRESSEIMMEROHNEUNTERBRECHUNGGEBENXXQUITTUNGFOLGTNACHPRESSESCHLUSSXX
 ```
+
+</details>
 
 Readable German, with abbreviation and grammar expansions bracketed:
 

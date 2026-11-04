@@ -1,8 +1,6 @@
 # Pera embassy address for Monsignore Dolci, reference 1882
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p147 D1
 
@@ -11,6 +9,9 @@
 **Source and dates:** Page heading: 6th NOVEMBER, 1918; D) YZ v LP (08.26 a.m., November 7th); FUER YZ 1[unclear]43 (6/11) 2 TEILE; 1 TL RICHI-140.
 
 ![Source p147 D1](../../experiments/nov6_evening_and_embassy_records/sources/p147_D1.png)
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -23,6 +24,8 @@ DEUTSCHEBO1SCHAFTXPERAXNRX1882X?UERMONSIGNOREXDOLCIXUNTERSCHRIVTXSTUMM
 ```text
 DEUTSCHEBOTSCHAFTXPERAXNRX1882XFUERMONSIGNOREXDOLCIXUNTERSCHRIFTXSTUMM
 ```
+
+</details>
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
@@ -47,4 +50,4 @@ All indices are zero-based.
 
 The [input](../../experiments/nov6_evening_and_embassy_records/inputs.json) binds literal source rows to exact PDF crops. The [certificate](../../experiments/nov6_evening_and_embassy_records/certificates.json) records raw paired-coordinate domains, all proposed changes and the separately priced optional reading. The [verifier](../../experiments/nov6_evening_and_embassy_records/verify.py) checks the unchanged Nov4–6 key and all live German quotations, including every unknown position and digit.
 
-Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR input is frozen in the [attribution record](../../experiments/nov6_evening_and_embassy_records/prior_candidates.json). No first-decipherment priority is claimed.
+Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR input is frozen in the [attribution record](../../experiments/nov6_evening_and_embassy_records/prior_candidates.json).

@@ -1,6 +1,6 @@
 # p217 B1 — Additional trains and divisional positions
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Conditional recovery: icekylinx and GPT-6 Astra Pro.** A repeated-group
 model recovers the train-dispatch sentence and an Oroshaza position report.
@@ -25,6 +25,9 @@ copy and inserts five unknown slots before retained-stream index 12. No
 cancellation mark is printed, and neither operation is an established
 historical correction.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional 204-slot frame; all printed masks and added slots unassigned:**
 
 ```text
@@ -36,6 +39,8 @@ historical correction.
 ```text
 ABENDMEL7GXALPXKORPS8WEITEREZUEGEABGEROLLTXJY0XIDUNV?RAENDERTX2?RDANFANGOROSHAZAX?Y?XANFANGB?KR0?SABAZ
 ```
+
+</details>
 
 Every known half-pair of `WEITERE ZUEGE ABGEROLLT` and `RD ANFANG OROSHAZA`
 agrees with those proposals. A separate, unrepaired [p217 A2 report](p217_A.md)
@@ -49,11 +54,16 @@ half-pair at position 52 and is therefore left unresolved above.
 
 > Abendmeldg. ALP KORPS 8 weitere Zuege abgerollt. JY0 ID unveraendert. 2? RD Anfang Oroshaza. ?Y? Anfang Bekescsaba Z.
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — four observed-coordinate substitutions, 19 printed-mask fills and four inserted-slot fills; three positions unresolved:**
 
 ```text
 ABENDMELDGXALPXKORPS8WEITEREZUEGEABGEROLLTXJY0XIDUNVERAENDERTX2?RDANFANGOROSHAZAX?Y?XANFANGBEKESCSABAZ
 ```
+
+</details>
 
 The four changes repair `ABENDMEL7G`, supply the excluded E, and propose
 `BEKESCSABA` for `B?KR0?SABA`. That place reading is a same-length lexical
@@ -83,6 +93,9 @@ Childs, printed p217 / PDF p220, B1, `RICHI-204`; header `UKS v ZON
 · [Source edition and verifier](../../experiments/nov24_train_report/README.md)
 · [Certificate](../../experiments/nov24_train_report/certificates.json).
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — all 204 printed slots, including masks:**
 
 ```text
@@ -93,6 +106,8 @@ FXVGA GGXGA GXFFG FDXVF G-FDA AAAXG AVDXX FAFDX
 VVVVA XGGXG AFFDA DFFAG AAXAF AVGAV VFXGV V-XXG
 FAXF
 ```
+
+</details>
 
 The unchanged Nov22–24 key comes from George Lasry, Ingo Niebel, Nils Kopal
 and Arno Wacker (2016), and Lasry's 2017 key list. The earlier

@@ -1,6 +1,6 @@
 # Tobacco ready for loading at Poti: a November 3 inquiry
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -17,6 +17,9 @@ There are no source-mask fills, insertions, deletions or source reorderings.
 
 [Reviewed source image — source-PDF reference](../../experiments/nov3_poti_tobacco_loading/inputs.json).
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — header:**
 
 ```text
@@ -26,11 +29,16 @@ SS FÜR POT V OSM (3) 1430
 RICHI-212
 ```
 
+</details>
+
 The embedded `28X10` is retained as a separate date-like label. Its readable
 rendering as `28/10` does not replace the November 3 page heading or
 November 4 intercept date. The literal header and complete grouped
 ciphertext are preserved in the
 [inputs](../../experiments/nov3_poti_tobacco_loading/inputs.json).
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — native 212-slot frame; 106/106 fixed positions:**
 
@@ -43,6 +51,8 @@ ciphertext are preserved in the
 ```text
 28X10XSCHUTZOFFZRSCHIFFSAUSGLXPOTIXKXAXSAGTPOTI2400TONSTABAKVERLADEBEREITXWANVERLADGMOEGLICHXSCHIFFSAUSGLX
 ```
+
+</details>
 
 The proposed change is **source index 81 F→V**, changing the first
 `SCHIFFZAUSGL` to `SCHIFFSAUSGL`. The closing raw `SCHIFFSAUSGL` already

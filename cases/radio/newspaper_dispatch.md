@@ -1,7 +1,5 @@
 # Newspaper sacks arriving via Orsova
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source edition: icekylinx and GPT-6 Astra Pro.**
 
 This two-part telegram tells the **Oberpostdirektion in Breslau** that sacks
@@ -11,9 +9,12 @@ references, `7?3` and `308`, without spelling out their exact administrative
 meaning.
 
 The source is Childs, *General Solution of the ADFGVX Cipher System*,
-[printed p171 B, PDF p174](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
+[printed p171 B, PDF p174](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). · [Reading conventions](../../docs/reading-conventions.md)
 The [two parts](../../experiments/newspaper_dispatch/sources/p171_B.png)
 have this header:
+
+<details>
+<summary>Literal source transcription</summary>
 
 **Source transcription — clear header and/or literal source record:**
 
@@ -22,11 +23,16 @@ B) NKJ v LP (1.01 a.m., November 10th)
 1858 (9/11) 2 TLE
 ```
 
+</details>
+
 The page heading says `9th NOVEMBER, 1918.`; the receiving timestamp is
 November 10. Both are retained. The source lengths are exactly 200 and
 186 coordinates, using the unchanged published Nov7–9 square and ranks.
 
 ## Exact readings and separately priced repairs
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -34,8 +40,13 @@ November 10. Both are retained. The source lengths are exactly 200 and
 OBERPOSTDIREKTIOKBRESLAUXGESTERNUNDHEUTEBERLINERZEITUNGSSAECKEUEBERO?SOVAHIERE?NGEGANGENXVERANLASSET
 ```
 
+</details>
+
 One observed-coordinate substitution repairs `DIREKTIOK→DIREKTION`, and
 two fills of printed dashes give:
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Edited output:**
 
@@ -49,13 +60,20 @@ OBERPOSTDIREKTIONBRESLAUXGESTERNUNDHEUTEBERLINERZEITUNGSSAECKEUEBERORSOVAHIEREIN
 S8FORT3OSTBEFOERDERUNGAUFSELTEMWEGEXVOUZUGSWEISE7?3UND308XXXEUTSCHEFELDPOSTDIREKTIONRUMAENIEN
 ```
 
+</details>
+
 Five observed-coordinate substitutions repair ordinary words:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 SOFORTPOSTBEFOERDERUNGAUFSELBEMWEGEXVORZUGSWEISE7?3UND308XXDEUTSCHEFELDPOSTDIREKTIONRUMAENIEN
 ```
+
+</details>
 
 The signatory is the German field-post directorate in Romania. The doubled
 `XX` before `DEUTSCHE` is retained, as are both reference fields.

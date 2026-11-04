@@ -1,6 +1,6 @@
 # Alpenkorps departure and march report
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 A conditional second-part reading concerns preparations to transport the Alpenkorps and the continuation of a march. The source is dated 8 November 1918; the receipt header is 11.44 p.m. on 8 November. The first part of this physical p160 transmission has not been identified. The place-like strings NAGYBESKEREK and WERGCHEEZ are left exactly as decoded.
 
@@ -16,6 +16,9 @@ The source has **240 slots** (239 valid coordinates). The conditional model has 
 
 **Cost:** 4 observed-coordinate substitutions; 1 printed-mask fill; 2 observed-coordinate exclusions; 0 mask exclusions; no inserted coordinates.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — under the explicitly conditional exclusion frame:
 
 ```text
@@ -27,6 +30,8 @@ ALPENKOYPSW2RDUJVERBASZZUMABTRFNSPORTBEREIT?ESTELLTXX219X217XUNU?XREXSETZEN9X11X
 ```text
 ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND?XREXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT
 ```
+
+</details>
 
 **Readable German** — spacing, case, punctuation and conventional umlaut rendering only; all non-`X` labels match the edited output:
 

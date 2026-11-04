@@ -1,6 +1,6 @@
 # Evening report on crossing the Sava
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
@@ -16,11 +16,16 @@ transcription correction, not an insertion into a historical transmission.
 The published `Nov1-3` square and column ranks give **86/86 fixed plaintext
 positions without any coordinate changes, fills or geometry changes**.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — unchanged native frame**
 
 ```text
 FUERXOXHXLXABENDMELDGXSAVEXISTVONX30XIXDXMITXHAUPTTEILENXVONXGXKX39GANZXUEBERSCHRITTEN
 ```
+
+</details>
 
 **Readable German — from the unchanged raw layer**
 

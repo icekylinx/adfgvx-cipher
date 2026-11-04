@@ -1,6 +1,6 @@
 # November 4: Eilvese reception and a setup notice
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -9,6 +9,9 @@ The embassy reception query contains an ambiguous overprint; its declared frame 
 ## p120 A
 
 Childs p120, PDF p123; [source crop](../../experiments/nov4_radio_and_departure_queries/sources/p120_A.png). Key: unchanged published **Nov4–6**.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Source transcription — literal received header:**
 
@@ -30,6 +33,8 @@ DEU?SCHMILIATTACHEXXKJDORTX8303X18XISTHELTERTSVERANLASSTXKANN8ORSCHAFTAUCHUNGEDA
 ```text
 DEUTSCHMILIATTACHEXXZUDORTX8303X18XISTWEITERESVERANLASSTXKANNBOTSCHAFTAUCHUNGEDAEMPFTXEILVESEEMPFANGENNACHCHEF4B47883X
 ```
+
+</details>
 
 Observed source changes, with zero-based indices: **2 F→V**, **7 V→X**, **34 D→G**, **169 A→V**, **171 G→F**, **186 X→F**, **200 A→V**.
 
@@ -80,6 +85,9 @@ not an extra unresolved decoded position.
 
 Childs p120, PDF p123; [source crop](../../experiments/nov4_radio_and_departure_queries/sources/p120_C.png). Key: unchanged published **Nov4–6**.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Source transcription — literal received header:**
 
 ```text
@@ -99,6 +107,8 @@ RIZI-56
 ```text
 0500ABBAUXAUFBAUNAGQBESCEREK
 ```
+
+</details>
 
 Observed source changes, with zero-based indices: **51 X→V**.
 

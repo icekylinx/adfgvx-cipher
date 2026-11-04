@@ -1,8 +1,6 @@
 # The Warsaw query and its later quotation — p181 A / p214 B
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case guide](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case guide](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** A 92-character query on p181 is quoted inside a later message on
 p214 under a different key. The two direct readings agree at **85 of 92**
@@ -60,11 +58,16 @@ are assessed separately in this edition.
 
 The unmodified p181 reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ERBITTENUMGEHENDNACHRICHTOBGERUECHTVOMANMARSCHMACKEN?ENSAUFWARSCHAUWAHRXSOLDATENRATWARSCHAUX
 ```
+
+</details>
 
 Its only unknown plaintext position comes from the printed invalid coordinate
 `C` in group `AACDD`. The later quote supplies the missing `S` in
@@ -74,11 +77,16 @@ unknown square cell is assigned.
 
 The p214 source decodes as:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ANOKMXHIEREINGINGFOLGENDERFUNKSPRUCHX?ERBI3TENUM?EHEN?NACHRICHTOBGERUECHT?OMANMARSCHMACKENSENSAUFWARACHAUWAHRXSOLDATENRATWARSCHA8XXAOKYYXRMYAQY?5X
 ```
+
+</details>
 
 Its 92-position quotation starts at plaintext index **38**. The p181 text
 supports three changes to fixed p214 characters and three erasure fills:

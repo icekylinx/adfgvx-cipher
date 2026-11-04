@@ -1,12 +1,15 @@
 # Constantinople: instruction to attempt a motorboat sale
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
 ## p147 A
 
 Childs p147, PDF p150; [source crop](../../experiments/nov4_radio_and_departure_queries/sources/p147_A.png). Key: unchanged published **Nov4–6**.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Source transcription — literal received header:**
 
@@ -28,6 +31,8 @@ BEVOLLMAECHTIGTERSCHIFFAHRTSBEBUFTRAGTERXKONSTANTINOPELXXBOOTXROEMXQ5XUNTERALLEN
 ```text
 BEVOLLMAECHTIGTERSCHIFFAHRTSBEAUFTRAGTERXKONSTANTINOPELXXBOOTXROEMXQ5XUNTERALLENUMSTAENDENZUVERKAUFENSUCHENXMOTORBOOTKORPSX6235
 ```
+
+</details>
 
 Observed source changes, with zero-based indices: **47 G→F**, **177 G→F**.
 

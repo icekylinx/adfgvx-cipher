@@ -1,6 +1,6 @@
 # November 22: reverse key use and an Aufbau date correction
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -18,6 +18,9 @@ collaborators recorded in the [key inventory](../../data/keys.json).
 
 [Reviewed source image — source-PDF reference](../../experiments/nov22_reverse_keys_and_date_correction/inputs.json).
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — literal headers:**
 
 ```text
@@ -27,15 +30,22 @@ A) ZOEN v BSL (04.25 a.m., November 23d)
 1 TL RIZI-180
 ```
 
+</details>
+
 `ZOEN` represents the O with two marks in the call sign. The November 22
 heading and internal date are kept separately from the November 23 receipt.
 The header advertises two parts, but this section prints only the first.
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output — native 180-slot frame; 90/90 fixed positions:**
 
 ```text
 BISAUFWEITERESSAEMTLICHESSCHLUESSELABJJXAUFBEWAHRENXFUERDEZEMBERDANNXRUECKWAERTSVERWENDENX
 ```
+
+</details>
 
 **Readable German — complete raw stream, with spacing and punctuation only:**
 
@@ -60,6 +70,9 @@ transcript; they do not add or remove coordinates from the source.
 
 ## p214 C
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — literal header:**
 
 ```text
@@ -67,10 +80,15 @@ C) BSL v ZOEN (06.09 p.m., November 22d)
 RIZI-88
 ```
 
+</details>
+
 The printed date is **November 22d**, unlike the earlier OCR's November 23d.
 The ciphertext contains the Y-like invalid initial glyph in **`YXAFF`**;
 that literal observation remains in the transcription and is masked for the
 raw decryption.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — native 88-slot frame; 43/44 fixed positions:**
 
@@ -83,6 +101,8 @@ A?FBAUNICHTJ8XODERJ7XSONDERNJ7XODERJ3XNOVXXX
 ```text
 AUFBAUNICHTJ8XODERJ7XSONDERNJ7XODERJ3XNOVXXX
 ```
+
+</details>
 
 Supplying **V** at **source index 60** gives the U in `AUFBAU`. The index is
 zero-based. This is a fill of an already present invalid source slot, not an

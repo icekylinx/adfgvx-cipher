@@ -1,8 +1,6 @@
 # Communication through Hungary — wireless routing, repetition and supplies
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[All cases](../README.md) · [ADFGVX Cipher](../../README.md)
+[All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and review: icekylinx and GPT-6 Astra Pro.** Three separate
 messages on Childs p. 97 concern retransmission, disrupted communication
@@ -20,11 +18,16 @@ and date do not make these three separate headings one multipart telegram.
 
 [Source crop](../../experiments/hungary_connection_and_supplies/sources/p97_A.png). `A) OSM v LP (8.50 p.m., November 1st)` | `RICHI-196`.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — all 196 observed coordinates; unchanged key.**
 
 ```text
 SOFORTIGEWIEDERHOLUNGDORTIGENTELEGRXKOFCHIX56XX30STRICH10XXROEMX2XDX8XONHXVOMX30STRICH10XXKXMXANCH
 ```
+
+</details>
 
 **Readable German — the request, with unexplained reference fields kept literal:**
 
@@ -43,11 +46,16 @@ All 98 raw labels are fixed. No edited stream is needed.
 
 [Source crop](../../experiments/hungary_connection_and_supplies/sources/p97_B.png). `B) UKS v LP (8.29 p.m., November 1st)` | `1710 (1/11) POLITISCHE ABTEILUNG BUKAREST` | `RICHI-246`.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — all 246 observed coordinates; unchanged key.**
 
 ```text
 NRX608XDAVERBINDUNGDURCHXUNGARNXGESTOERTXGEHENTELEGRAMMEBISAUFWEITERESFUNKENTELEGRAPHISCHXEMPFANGSBESTAETIGUNGXAUSWAERTIGXX
 ```
+
+</details>
 
 **Readable German — spacing and punctuation only:**
 
@@ -67,6 +75,9 @@ insertion. No edited stream is needed.
 
 [Source crop](../../experiments/hungary_connection_and_supplies/sources/p97_C.png). `C) UKS v LP (8.15 p.m., November 1st)` | `1330 (1/11)` | `RICHI-196`.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — all 196 observed coordinates; unchanged key.**
 
 ```text
@@ -78,6 +89,8 @@ AKONACH18XBZGDRTRM3CNRX25089XXGEHZUZIFF1XUEBEWSGROEHRENDUNMOELZU2XFOLGTWEITERESX
 ```text
 AKONACH18XBZGDRTRM3CNRX25089XXGEHZUZIFF1XUEBERSGROEHRENXUNDOELZU2XFOLGTWEITERESXNACHCHEFRM4B49240X
 ```
+
+</details>
 
 **Readable German — the proposed word repair; abbreviations retained:**
 

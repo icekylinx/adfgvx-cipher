@@ -1,6 +1,6 @@
 # Constantinople addresses, signatures and receipt instructions
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Three visible first parts, containing addresses, signatures and receipt instructions. Their headings announce two or three parts, but no missing continuation payload is claimed recovered here.
 
@@ -26,13 +26,21 @@ The physical-record total is **526 coordinate slots / 263 plaintext positions**.
 
 ## p147 C1 — German Embassy at Pera and Stumm signature
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ANXDEUTSCHEBOTSCHAFTXPERAXXUNTERSCHRIFTXXSTUMMXX
 ```
 
+</details>
+
 ## p148 B1 — Military Mission routing, Groener signature and officer receipt acknowledgement
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -46,13 +54,20 @@ ANXMILXMISSIONCOSPOLIXZUXRMX2XDXNRX755XXUNTERSCHRIFTFUERBEIUETLEXXIXAXGROENERXBX
 ANXMILXMISSIONCOSPOLIXZUXRMX2XDXNRX755XXUNTERSCHRIFTFUERBEIDETLEXXIXAXGROENERXBXRM811193XGEHXPX?ZUSXOPXFUERXKOSPOLIXDOPPELPUNKTXEMPFANGSBESTAETIGUNGDURCHOFFZERBETEN
 ```
 
+</details>
+
 ## p156 C1 — German charge d’affaires at Constantinople and raw BUSSCHS signature
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
 ```text
 DEUTSCHERGESCHAEFTSTRAEGERKONSTANTINOPELXXBUSSCHSXX
 ```
+
+</details>
 
 ## The p148 source annotation and invalid glyph
 

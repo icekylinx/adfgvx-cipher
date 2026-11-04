@@ -1,12 +1,10 @@
 # Request to repeat an unreadable eighth part
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source review and conditional edition: icekylinx and GPT-6 Astra Pro.**
 
 Childs p155 C is a two-part request to check and repeat an earlier eighth part that could not be deciphered. The second part reads directly under the published Nov7–9 key. The first part prints a six-coordinate group where its advertised length requires five; its body is shown under explicitly priced one-coordinate exclusions. The original earlier eighth part is not supplied or solved by this request.
 
-[Reviewed source](../../experiments/nov7_eighth_part_repetition/sources/p155_C.png) · [Exact inputs](../../experiments/nov7_eighth_part_repetition/inputs.json) · [All alternatives and joint witnesses](../../experiments/nov7_eighth_part_repetition/certificates.json)
+[Reviewed source](../../experiments/nov7_eighth_part_repetition/sources/p155_C.png) · [Exact inputs](../../experiments/nov7_eighth_part_repetition/inputs.json) · [All alternatives and joint witnesses](../../experiments/nov7_eighth_part_repetition/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source transcription — header:** `C) NKJ v LP (6.42 a.m., November 8th); FUER COS 2240 (7/11), 2 TLE; 1 TL RICHI-186; 2 TL RICHI-136`.
 
@@ -22,6 +20,9 @@ Childs p155 C is a two-part request to check and repeat an earlier eighth part t
 
 `AL?CHIS`, the date-like field `2?X10`, and the station/reference labels remain literal. The primary pair `707 / 1002` is one example, not a uniquely recovered identification.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional 186-slot frame**, before either word fill:
 
 ```text
@@ -34,6 +35,8 @@ DAACHTERTEILDESAL?CHISX2?X10XXLEIT?TELLE707POTNRX1002?NSEKTIONPOLITIKBERLINNICHT
 DAACHTERTEILDESAL?CHISX2?X10XXLEITSTELLE707POTNRX1002ANSEKTIONPOLITIKBERLINNICHTZUENTZIFFERNX
 ```
 
+</details>
+
 ## p155 C2
 
 **Readable German**, directly from the native 136-slot source frame:
@@ -42,11 +45,16 @@ DAACHTERTEILDESAL?CHISX2?X10XXLEITSTELLE707POTNRX1002ANSEKTIONPOLITIKBERLINNICHT
 
 **Meaning:** Checking and repetition of the eighth part are requested. The two unknowns in the final reference are the same globally unassigned square cell as the unknown in the first part date.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native 136-slot frame:** no source-coordinate edit, fill or change of frame.
 
 ```text
 PRUEFUNGUNDWIEDERHOLUNG8XTEILESERBETENXNACHRICHTENCHEFRMX?NRX1?3303X
 ```
+
+</details>
 
 ## The overlong group does not determine unique reference labels
 

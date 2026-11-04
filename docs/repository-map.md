@@ -1,52 +1,63 @@
 # Repository map
 
-**icekylinx and GPT-6 Astra Pro**
+[ADFGVX Cipher](../README.md) · [Catalogue](../cases/README.md) · [Historical studies](historical-studies/README.md)
 
-Start with the [case guide](../cases/README.md) for readable messages or the [page index](../cases/pages/README.md) for a printed source location. Every case connects the readable text to its original ciphertext, key, repair ledger and credits. Symbols and evidence layers follow the [reading conventions](reading-conventions.md).
+## Read the collection
 
-## Read by page or subject
-
-The page index groups the Childs collection into 25-page ranges, then short tables for each printed page. Challenge entries and other reviewed records have separate tables. Use the printed page number together with its section and part label.
-
-| Topic guide | Contents |
+| Start here | What it provides |
 |---|---|
-| [Caucasus](../cases/caucasus/README.md) | Tiflis administration, appointments, staffing and procurement |
-| [Naval](../cases/naval/README.md) | Ships, cargo, sale terms, embarkation and naval orders |
-| [Military](../cases/military/README.md) | Army movements, withdrawal, internment, reports and supplies |
-| [Radio](../cases/radio/README.md) | Stations, keys, couriers, call signs and repeated transmissions |
-| [Finance](../cases/finance/README.md) | Funds, currency, banknotes, allowances and purchases |
-| [People](../cases/people/README.md) | Transfers, travel, personnel inquiries and civilian affairs |
+| [Historical showcase](historical-showcase.md) | A selection of recoveries with the greatest historical interest. |
+| [Four historical studies](historical-studies/README.md) | Connected accounts of withdrawal, Black Sea shipping, material costs and individual lives. |
+| [Topic guides](../cases/README.md#browse-by-topic) | An ordered reading path and complete index for each subject. |
+| [Printed-page catalogue](../cases/pages/README.md) | One entry for each of the 679 physical ciphertext bodies. |
+| [Seven OPEN sources](../cases/open/README.md) | The three original open challenges and four other unread bodies. |
+| [Reading conventions](reading-conventions.md) | Page format, state labels, unknown text and repair accounts. |
 
-The 22 challenge pages retain their paths directly under `cases/`. Shared witnesses in `cases/context/` and supplementary editions in `cases/supplementary/` also appear in the topic guides. Earlier `cases/other/` links redirect to the canonical edition and preserve their section anchors.
+The six subject folders under `cases/` are `caucasus`, `naval`, `military`,
+`radio`, `finance` and `people`. The `open` folder holds the four wider unread
+bodies and a guide to all seven open targets. Original challenge pages retain
+their published paths directly under `cases/`; shared context and supplementary
+pages retain their links. The short files under `cases/other/` preserve older
+URLs and section anchors.
 
-## Evidence and code
+## Inspect the evidence
 
 | Location | Purpose |
 |---|---|
-| [cases/](../cases/README.md) | Readable German, English meaning, raw and edited text, status and credit |
-| [data/reading_catalog.json](../data/reading_catalog.json) | Authoritative record identifiers, source locations, statuses, credits and case paths |
-| [data/reading_groups.json](../data/reading_groups.json) | Topic membership and shared case links |
-| [data/](../data/README.md) | Challenge transcriptions, keys, prior readings, certificates and review ledgers |
-| [experiments/](../experiments/README.md) | Source-edition verifiers, attacks, exact results, controls and model provenance |
-| [sources/](../sources/README.md) | Bibliography, historical context, excerpts and the [latest reviewed crops](../sources/reviewed-crops.md) |
-| [adfgvx/](../adfgvx/) | Shared cipher arithmetic, verification and index generation |
+| [cases/](../cases/README.md) | Readable messages, historical explanation and local evidence links. |
+| [data/reading_catalog.json](../data/reading_catalog.json) | Canonical source identifiers, states, detailed statuses, credits and case paths. |
+| [data/reading_groups.json](../data/reading_groups.json) | Primary topic membership and related original challenges. |
+| [data/topic_reading_paths.json](../data/topic_reading_paths.json) | Curated order and explanations for the topic guides. |
+| [data/](../data/README.md) | Challenge transcripts, keys, prior readings and exact certificates. |
+| [experiments/](../experiments/README.md) | Source-specific verifiers, supported reconstruction methods, controls and exact bounds. |
+| [sources/](../sources/README.md) | Bibliography, historical sources and reviewed source images. |
+| [adfgvx/](../adfgvx/) | Shared cipher arithmetic, source verification and index generation. |
 
-Each case links its supporting package. Source images, inputs and certificates stay beside the relevant verifier; established package paths retain their recorded hash and import relationships. The [source-overlap register](catalogue-source-overlaps.md) reconciles later editions of a shared physical source, and [case aliases](../data/case_path_aliases.json) preserve earlier URLs.
+A case links its supporting package. Its exact streams and repair ledger live
+beside the verifier, with the inspected source crops. Historical evidence
+aliases are distinct from catalogue entries: see the
+[source identity rule](catalogue-source-identity.md).
 
-## Maintain the reading guides
+## Maintain the edition
 
-Add a new case to its topic folder and its reviewed source records to `data/reading_catalog.json`. The `additional_case_paths` entries in `data/reading_groups.json` handle shared challenge, context and supplementary pages. Then regenerate and check:
+Add a new physical source once to the catalogue. Revise its existing entry
+when a better reconstruction becomes available. Add a source page to its
+subject folder, or to `cases/open/` if it has no accepted body reading. Then
+regenerate the page and topic guides:
 
 ```sh
 python -m adfgvx.catalog
 python -m adfgvx.navigation
 python -m adfgvx.catalog --check
 python -m adfgvx.navigation --check
+python data/reviews/check_reading_presentation.py
 python -m adfgvx.verify
 ```
 
-The catalogue generator builds the homepage summaries, page index and page-range tables. Navigation builds the topic guides and compatibility pages. Checks cover every record, topic assignment, local link, retained anchor, status and credit. Preserve older anchors when changing a published heading. Edition-specific checks are listed in each package and the [verification workflow](../.github/workflows/verify.yml).
+The checks enforce unique source identities, valid states, topic coverage,
+working links and current evidence labels. Source-specific checks in the
+[workflow](../.github/workflows/verify.yml) verify the readings themselves.
+Old layout snapshots are retained in Git history rather than duplicated in
+the current edition.
 
-## Research and publication records
-
-The [research status](research-status.md) presents established contributions and current targets. The [whole-material census](whole-material-coverage.md) tracks the 679-body collection and remaining catalogue gaps. The [initial extension inventory](../experiments/session_review/README.md) and [post-publication inventory](../experiments/post_push_review/README.md) preserve their publication snapshots; live guides continue to grow from the current catalogue. The [publication history](publication-history.md) maps earlier local commits to their public equivalents.
+[Research status](research-status.md) · [Material census](whole-material-coverage.md) · [Publication history](publication-history.md)

@@ -1,8 +1,6 @@
 # November 14 cross-key notices: an arriving pilot and a backup radio station
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and cross-key comparison: icekylinx and GPT-6 Astra Pro.**
 
@@ -31,11 +29,16 @@ Perhaps Sevastopol; send an urgent reply to LP. The full city spelling
 The source abbreviation `DRING` is retained in the exact template; the
 expanded word above is explanatory.
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output:**
 
 ```text
 WELCHESTATIONKANNNKJBEIBETRIEBSSTOERUNGVERTRETENXXVIELLEICHTSEWASTOPOLXDRINGBESCHEIDANLP
 ```
+
+</details>
 
 Both ciphertexts have 176 source slots, giving 88 plaintext positions. Their
 published keys have different transposition widths: 16 columns for p190 B
@@ -78,11 +81,16 @@ is retained as transmitted. The transmitted abbreviation is `DRING`.
 
 The longer exact candidate is:
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output:**
 
 ```text
 VERMITTELTXXNKJXXFUNKSPRUECHEFUERMACKENSENHABTIHRVERBINDUNGUNDWIEXXDRINGBESCHEIDANFUGROSTAXXLP
 ```
+
+</details>
 
 The p190 D text uses `FUR`, giving 93 characters and 186 ciphertext
 coordinates. The p193 A text uses `FUER`, giving 94 characters and 188
@@ -93,6 +101,9 @@ to make their lengths agree.
 
 The literal decryptions are:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — separate literal witnesses under their stated period keys:**
 
 ```text
@@ -102,6 +113,8 @@ VERMITTELTXXNKJXXFUNKSPRUECHEFURMACKENSENHABTIHRV?RBINDUNOUNDWIEXXDRINGBESCHEIDA
 p193 A:
 LERMITTE?T0XDKRX5FUNKS0RUECHZF?ERMACTENSENHA?TIHRVERBINDUNGUNDWIEXXDRINGBE5CIE?DANFU?R0STA?XLP
 ```
+
+</details>
 
 The p190 D candidate requires two observed-coordinate substitutions. The
 p193 A candidate requires 15 substitutions and three fills for printed
@@ -129,6 +142,9 @@ inserted in brackets above. No personal identity is assigned.
 
 The literal decryptions are:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — separate literal witnesses under their stated period keys:**
 
 ```text
@@ -138,6 +154,8 @@ ZITADELLEXFUERSOLDATENRXTXXFLIEGERMFR?EXBEVOLLMAECHTIGTERSOLDATENRATSINBERLINWOH
 p194 B:
 ZITADELLEXWARSCHAUXFUERXSOLDATENRATXFLUGZEUGFUEHRERXFR?EXBEVOLLMAECHTIGTERXSOLDLTENRATSXINXBERLINXWOHLBEHALTENXEINGETROFFENXAUSWAERTIGESAMTX
 ```
+
+</details>
 
 The p190 A readable template changes three source coordinates to obtain
 `RAT`, the separator after `FLIEGER`, and `AUSWAERTIGES`. The p194 B template

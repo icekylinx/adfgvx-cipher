@@ -121,5 +121,5 @@ This check establishes count and source/model consistency. Source-image
 readability, historical numeral assignments, header ambiguities, unique
 historical wording and the choice of a historical error mechanism retain
 the separate limits of each source edition. The
-[complete readable mapping review](reading-conventions-continuation.md)
+[live readable mappings](../data/reviews/live_readable_mappings.json)
 checks the corresponding current quotations independently of these totals.

@@ -1,8 +1,6 @@
 # Divisional areas and staff locations: second part with explicit geographical alternatives
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p215 B2
 
@@ -11,6 +9,9 @@
 **Source and dates:** Page heading: 22nd NOVEMBER, 1918; B) UKS v ZON (03.20 a.m., November 23rd); 0009 KR 3 TLE; 2 TL RICHI-300; the first part separately says several groups are missing.
 
 ![Source p215 B2](../../experiments/southern_hungary_positions_part2/sources/p215_B2.png)
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -23,6 +24,8 @@
 ```text
 ?YDIXDXRAUMSZENTES?HODMEZOEXVASARHEY4XERREICHTX?DIVXSTX?UXHODMEZOEXVASARTEL4X?XK?38XOROSHUZ?X2RXDXRAUMNAG4BANHEG4ESXBATTRE4A?DIVXSTX6UXMEZOEKOVACSHAZA
 ```
+
+</details>
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
@@ -56,11 +59,16 @@ All indices are zero-based.
 
 The following alternative proposes **HODMEZOE VASARHELY, OROSHAZA, NAGYBANHEGYES and BATTONYA** for the retained garbled names. This is a linguistic/geographical hypothesis, without a parallel copy verifying this message’s intended wording. The complete cost is **18 observed-coordinate substitutions + 14 source-mask fills**, which adds 18 substitutions and one fill to the primary reading. Seven unresolved plaintext positions remain. The unit fields `?YDI D`, `? K?38`, `2R D` and `6U` remain literal; the final `6U` is not silently normalized to a preposition.
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — optional geographical hypothesis:**
 
 ```text
 ?YDIXDXRAUMSZENTES?HODMEZOEXVASARHELYXERREICHTX?DIVXSTX?UXHODMEZOEXVASARHELYX?XK?38XOROSHAZAX2RXDXRAUMNAGYBANHEGYESXBATTONYA?DIVXSTX6UXMEZOEKOVACSHAZA
 ```
+
+</details>
 
 **Readable German — optional geographical hypothesis:**
 
@@ -104,6 +112,6 @@ The extra fill at source 144 proposes the final A in OROSHAZA; its other coordin
 
 The [input](../../experiments/southern_hungary_positions_part2/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/southern_hungary_positions_part2/certificates.json) contains the raw paired-coordinate domains, each source change and the forward checks. The [verifier](../../experiments/southern_hungary_positions_part2/verify.py) checks the unchanged published keys and the live German quotations, retaining all numerical and letter labels.
 
-Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/southern_hungary_positions_part2/prior_candidates.json). No first-decipherment priority is claimed.
+Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/southern_hungary_positions_part2/prior_candidates.json).
 
 The [first-part train-departure fragment](p215_train_departure_fragment.md) now has a separate conditional partial word edition. Its missing groups, both source-glyph alternatives and unresolved fields remain explicit; this second part supplies context rather than a matching plaintext copy.

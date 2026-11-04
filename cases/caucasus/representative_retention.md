@@ -1,6 +1,6 @@
 # The Caucasus K.M. representative is to remain
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -16,6 +16,9 @@ System*, [printed p142, PDF p145](https://drive.google.com/file/d/1_JiNMck7eUvdr
 The [B crop](../../experiments/radio_contacts_and_keys/sources/childs_p142_B.png)
 is under a November 6 heading:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -24,9 +27,14 @@ FUER COS EINMAL 1250 (6/11)
 RICHI-286
 ```
 
+</details>
+
 All **286 coordinates** are visible and valid, matching the printed length.
 The earlier 280-slot OCR extraction omitted source content and is not the
 analysis frame. The unchanged published `Nov4-6` key fixes all 143 raw labels:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -34,13 +42,20 @@ analysis frame. The unchanged published `Nov4-6` key fixes all 143 raw labels:
 FUERXBEVXKMXKAUKASUCXT9FLISXZU4TELEGRAMMVOMX29X10X18XPOTX44XNRX2331XBEVXKXMXSOLLBLEIBENXKRIEGSAMTKRIEGSROHSTOFFABTLGXNRXZXROEMX1XAX23X11X18XKRA
 ```
 
+</details>
+
 Three observed-coordinate substitutions give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 FUERXBEVXKMXKAUKASUSXTIFLISXZUMTELEGRAMMVOMX29X10X18XPOTX44XNRX2331XBEVXKXMXSOLLBLEIBENXKRIEGSAMTKRIEGSROHSTOFFABTLGXNRXZXROEMX1XAX23X11X18XKRA
 ```
+
+</details>
 
 Readable core:
 
@@ -53,11 +68,16 @@ The source uses `BEVXKMX` in the address and `BEVXKXM` later; both exact
 separator patterns remain in the encoded edition. The following reference
 is retained verbatim and **not silently interpreted as a November date**:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — unchanged reference-field excerpt:**
 
 ```text
 KRIEGSAMTKRIEGSROHSTOFFABTLGXNRXZXROEMX1XAX23X11X18XKRA
 ```
+
+</details>
 
 | Source index, zero-based | Printed group / position, one-based | Change | Effect |
 | ---: | --- | --- | --- |

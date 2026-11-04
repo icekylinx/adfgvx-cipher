@@ -1,6 +1,6 @@
 # Caucasus ammunition: a request for loading instructions
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 The native p102 C frame asks whether ammunition still held at the reporting location should be loaded for the destination. The quantity is the literal **5280625** under the published Nov1–3 key. This source edition resolves three unknown labels in the earlier OCR reading; it uses no coordinate repair.
 
@@ -10,6 +10,9 @@ Prepared by **icekylinx and GPT-6 Astra Pro**. Source: J. Rives Childs, *General
 
 ### Source and frame
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — literal cleartext header:**
 
 ```text
@@ -17,6 +20,8 @@ C) POT v NKJ (1.00 a.m., November 3rd)
 DEUTSCHE DELEG KAUK 1622 (1)
 RICHI-262
 ```
+
+</details>
 
 The [full page](../../experiments/nov1_ammunition_and_leave/sources/p102_full.png) and [native C/D detail](../../experiments/nov1_ammunition_and_leave/sources/p102_C_D_detail.png) show all 262 coordinates, matching the advertised length. The source frame contains no masks, added slots or excluded coordinates.
 
@@ -27,11 +32,16 @@ The [full page](../../experiments/nov1_ammunition_and_leave/sources/p102_full.pn
 
 ### Raw output
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — published Nov1–3 key, native source frame:**
 
 ```text
 ZUDORTASRM1NR2078XLAGERNHIERNOCH5280625RUSSXISXDRAHTETOBMUNXNACHDORTVERLADENWERDENSOLLXMUVVERMITTLXSTELLESUEDOSTNR6829HITTMERXHPTMX
 ```
+
+</details>
 
 ### Readable German
 

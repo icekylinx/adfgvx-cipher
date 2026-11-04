@@ -1,8 +1,6 @@
 # Gokieloff sent back to Georgia; instruction not to transmit money
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p136 A1
 
@@ -11,6 +9,9 @@
 **Source and dates:** Page heading: 5th NOVEMBER, 1918; A) COS v NKJ (9.44 a.m., November 7th); DEUTSCHE DELEG KAUK MILITAERKOMM GENERAL VON KRESS; 0824 (5) 2 TLE; 1 TL RICHI-244.
 
 ![Source p136 A1](../../experiments/gokieloff_return_payment_stop/sources/p136_A1.png)
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -23,6 +24,8 @@ ZUDORTPAT487LEOXGOKIELOFFXGOKIELOFFX9STWEGENKRAIKHEITVOMMILXGOUVXCZENNTOCHAUMITD
 ```text
 ZUDORTPAT487LEOXGOKIELOFFXGOKIELOFFXISTWEGENKRANKHEITVOMMILXGOUVXCZENNTOCHAUMITDURCHREISESCHEINNACHGEORGIENZURUECKGESANDTX
 ```
+
+</details>
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
@@ -54,6 +57,9 @@ All indices are zero-based.
 
 ![Source p136 A2](../../experiments/gokieloff_return_payment_stop/sources/p136_A2.png)
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output:**
 
 ```text
@@ -65,6 +71,8 @@ KEING?LDUEBERMITTELNXHEERESGRXKIEWX1CXHRW8536X
 ```text
 KEINGELDUEBERMITTELNXHEERESGRXKIEWX1CXHRW8536X
 ```
+
+</details>
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
@@ -86,4 +94,4 @@ All indices are zero-based.
 
 The [input](../../experiments/gokieloff_return_payment_stop/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/gokieloff_return_payment_stop/certificates.json) contains the raw paired-coordinate domains, each source change and the forward checks. The [verifier](../../experiments/gokieloff_return_payment_stop/verify.py) checks the unchanged published keys and the live German quotations, retaining all numerical and letter labels.
 
-Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/gokieloff_return_payment_stop/prior_candidates.json). No first-decipherment priority is claimed.
+Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/gokieloff_return_payment_stop/prior_candidates.json).

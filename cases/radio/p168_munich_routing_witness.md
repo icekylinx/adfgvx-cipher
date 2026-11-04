@@ -1,8 +1,6 @@
 # p168 C — Full Munich routing witness for order 11338
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[All cases](../README.md) · [ADFGVX Cipher](../../README.md)
+[All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source-frame recovery and review: icekylinx and GPT-6 Astra Pro, 4 November 2026.**
 The full p168 C retransmission now has a **139/140-position raw certificate**.
@@ -24,6 +22,9 @@ Childs, printed p168 / PDF p171, section C:
 The separate `1803` field is retained literally. The [original page crop](../../sources/excerpts/childs_p168_CD.png)
 also shows the following section D.
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — all 280 observed coordinates, with irregular groups retained:**
 
 ```text
@@ -35,6 +36,8 @@ VDFXV XDAXG VXVVD DDAGX DVDGD DDGDX DXXXD VVVG
 VGVXV VVVFA DDXVD XGXDX AVFDX VGVXV VVVVG VVXDV
 VXADX VXDDV GXAVV GDVAA DGDVF VXFVX GFAXD DGDFA
 ```
+
+</details>
 
 Rows 3 and 5 contain 41 and 39 coordinates respectively. The six-coordinate
 `VDADDD` is source[80:86]; the four-coordinate `VVVG` is source[196:200]. Their
@@ -58,11 +61,16 @@ not a unique historical error mechanism.
 
 ## Raw and source-linked readings
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — primary frame, unchanged Nov7–9 key; 139/140 positions fixed, no coordinate substitutions or fills:**
 
 ```text
 UEBER2HBAYRXGENXKDOXMUENCXENXXAN7XRSSXDIVXXLA3DSBERGEAN0EECHXXNICH2DURCH1ABELXARMEESCHLUESSELDORPELTXEMPFANGBESTXXOXHXLXRMX1ANRX11338G?HXORX
 ```
+
+</details>
 
 The four insertion boundaries give four different unfilled streams, each
 fixing 139 positions. They agree at 136 positions. The repeated-D exclusions
@@ -73,11 +81,16 @@ Original p159 B coordinates 195–198 all read V. Under the inherited component
 correspondence, the relevant V fills the added coordinate in each alias. Every
 alias then produces the same completed ciphertext:
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — one inserted-slot V supplied by p159 B, no changes to retained p168 coordinates; 140/140 positions fixed:**
 
 ```text
 UEBER2HBAYRXGENXKDOXMUENCXENXXAN7XRSSXDIVXXLA3DSBERGEAN0EECHXXNICH2DURCH1ABELXARMEESCHLUESSELDORPELTXEMPFANGBESTXXOXHXLXRMX1ANRX11338GEHXORX
 ```
+
+</details>
 
 **Readable German — literal word excerpts from that source-linked stream; omitted passages are outside the quotation:**
 
@@ -104,11 +117,16 @@ This is one observed-coordinate substitution in p159 B, supported by a separate
 printed observation. It changes exactly one plaintext letter and preserves all
 other text in the established `p159B_supported_V` component layer.
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — earlier p159 B supported-V component plus the single X→G substitution at source169; all other inherited repairs and garbles retained:**
 
 ```text
 UEBER2XBAYRXGENXKDOXMUENCXENXXAN7XRSSXDIVXXLA3DSBERGXAN0LECHXXNICHTDURCHKABELXARMEESCHLUESSELDOWPELTXEMPFANGBESTXXOXHXLXRMX1ANRX11338GEHXORX
 ```
+
+</details>
 
 ## Joint-source reconciliation
 

@@ -1,6 +1,6 @@
 # Railway message: Laz. Zug 42 from Chemnitz and Zug 34 to VERBETZ
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -18,6 +18,9 @@ The earlier OCR omitted the final **FDGD** row and masked source **152 D**.
 Restoring those visible glyphs recovers the native frame; the exact old
 OCR is retained in a [frozen snapshot](../../experiments/p107_railway_and_dragoman/ocr_snapshot.json).
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 164-coordinate frame:**
 
 ```text
@@ -29,6 +32,8 @@ EISMNBAHNTRANB6ORTABTLGXSXOXPFESSXGXHX1XQXXBEILINIEN1DTXGXLAZXZUGX42XVONXCHEMNIT
 ```text
 EISENBAHNTRANSPORTABTLGXSXOXPFESSXGXHX1XQXXBEILINIENKDTXGXLAZXZUGX42XVONXCHEMNITZX
 ```
+
+</details>
 
 The changes are source **43 D→G**, **44 G→D**, **62 X→V**, **66 X→V** and
 **160 F→V**. The last is a genuine proposed source change within the
@@ -50,6 +55,9 @@ candidate re-encrypts exactly.
 The same crop has **110 visible slots** for `2 TL RICHI-110`, including
 the printed dash in **DGFG-** at source index **39**.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 110-coordinate frame:**
 
 ```text
@@ -61,6 +69,8 @@ WAZXZUGX34XNACHXVERBETZXA5ROLIENLASSENXX?BAXAEK11X10502
 ```text
 LAZXZUGX34XNACHXVERBETZXABROLLENLASSENXX?BAXAEK11X10502
 ```
+
+</details>
 
 The changes are source **12 G→A**, **21 D→F** and **54 X→V**. The printed
 dash remains unresolved. No character in the closing is supplied merely

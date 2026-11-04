@@ -1,6 +1,6 @@
 # p164 D — Partial receipt acknowledgement
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and review: icekylinx and GPT-6 Astra Pro.** The 116 native coordinates fix all 58 raw output positions. The readable portion addresses O.H.L., acknowledges receipt and ends with O.K.M.; its reference fields remain opaque.
 
@@ -11,6 +11,9 @@
 > An O. H. L. DORTNO RM 1A11329OP GEH erhalten. O. K. M. RM 1AI1312OP.
 
 The ordinary-word proposal ERHALTEN supports a receipt acknowledgement. DORTNO, GEH, RM 1A11329OP and RM 1AI1312OP remain literal. The edition does not expand GEH or select a document number.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Source transcription — all 116 native coordinates:**
 
@@ -31,6 +34,8 @@ ANOXHXLXDORTNOXRMX1A11329OPXGEHXERHAITENOXKXMXRMX1AI1312OP
 ```text
 ANOXHXLXDORTNOXRMX1A11329OPXGEHXERHALTENOXKXMXRMX1AI1312OP
 ```
+
+</details>
 
 Changing source indices 50 and 73 from G to D replaces raw I with L in ERHAITEN → ERHALTEN. Every other coordinate and output position is retained. All 58 positions are fixed in both layers; the word repair improves interpretation without adding recovered labels.
 

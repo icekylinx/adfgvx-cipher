@@ -1,8 +1,6 @@
 # p228 B2 — Demobilization district and formations
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[All cases](../README.md) · [The three-part Neuhof telegram](neuhof_demobilization.md)
+[All cases](../README.md) · [The three-part Neuhof telegram](neuhof_demobilization.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Recovery and review: icekylinx and GPT-6 Astra Pro, 4 November 2026.**
 Moving five printed mask slots exposes a substantial continuation of the
@@ -38,6 +36,9 @@ Childs, printed p228 / PDF p231, section B2, `2 TL RICHI-264`, under
 `B) ZON v BSL (01.33 a.m., December 1st); NO 152 1512 3 TLE`.
 The body contains exactly **264 slots: 221 observed coordinates and 43 dashes**.
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — unchanged 264-slot body:**
 
 ```text
@@ -49,6 +50,8 @@ DDVFV G-DAF GXFXX GGVFV FVGVD -GDXG FF--- -----
 ----- ----- ----- ----- DFGFF VAAVX XGFFD FGFFV
 XAVAA FVDXX FF--- ----- ----
 ```
+
+</details>
 
 All indices are zero based, with end-exclusive ranges. Remove the existing
 five printed masks at source[195:200], then insert them at boundary246 of
@@ -63,6 +66,9 @@ does not independently select the new location or any one of those identities.
 
 ## Raw and edited output
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — mask relocation, unchanged published key; 90/132 fixed positions; no observed substitutions or fills:**
 
 ```text
@@ -74,6 +80,8 @@ A?ST??CKEHAN??FULDAD??OBILGED??HTDIB??CHANLG??UJDESE??Y2680Y??GEHY0Y??MBEREI??DE
 ```text
 ANSTRECKEHANAUFULDADEMOBILGEMACHTDIENACHANLG??UJDESERLY2680Y??GEHY0Y?IMBEREICHDESSTELLVYYKDO???MX4AKDEMOBILMACHENDEN???CKFORMATIONEN
 ```
+
+</details>
 
 | Source index | Printed | Proposed | Word position |
 |---:|:---:|:---:|---|

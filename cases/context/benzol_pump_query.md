@@ -1,14 +1,12 @@
 # Benzol-pump inquiry with an explicit missing-coordinate model
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 The p189 D reading asks whether a benzol pump is available and requests a prompt answer. Its 102-coordinate analysis is conditional: the printed body contains 101 occupied positions, including one non-coordinate glyph, and the first row ends with a four-coordinate group. Every missing-slot assumption and textual repair is priced below.
 
 ## Source and context
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed query and neighboring reply](../../experiments/benzol_pump_query/sources/p189_reviewed.png) · [Inputs](../../experiments/benzol_pump_query/inputs.json) · [Position certificates and all 102 insertion prices](../../experiments/benzol_pump_query/certificates.json)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed query and neighboring reply](../../experiments/benzol_pump_query/sources/p189_reviewed.png) · [Inputs](../../experiments/benzol_pump_query/inputs.json) · [Position certificates and all 102 insertion prices](../../experiments/benzol_pump_query/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source transcription — header:** `D) CM v CZ (9.30 a.m., November 15th); RIZI-102`
 
@@ -18,13 +16,21 @@ The neighboring p189 E reverses the direction to `CZ v CM`, is timed 10.00 a.m. 
 
 ## p189 D
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native 101-position diagnostic, before any length change:**
 
 ```text
 ISEEIDEBENNOLPUMPE?OR1XBESKHLE?NIGTEANTWORTXSSIF??
 ```
 
+</details>
+
 This odd-length diagnostic has one unpaired intermediate coordinate. The certificate retains its intermediate position, source index and literal coordinate; it is not silently removed from the source account.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — conditional 102-coordinate frame with one masked insertion at source boundary 38; 47/51 fixed positions:**
 
@@ -37,6 +43,8 @@ IS?EIDEBENZOLPUMPEDOR1XBESAHLE?NIGTEANTWORTXSSIF??T
 ```text
 ISTEINEBENZOLPUMPEDORTXBESCHLEUNIGTEANTWORTXSEIFERT
 ```
+
+</details>
 
 **Readable German — labels from the edited output, with editorial word spacing and punctuation:**
 
@@ -76,7 +84,7 @@ The source and candidate permit the restored question, but the edition does not 
 
 ## Credit and reproduction
 
-Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.
+Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro.
 
 The earlier OCR body and its unchanged-key decoding remain in [separate provenance files](../../experiments/benzol_pump_query/prior_candidates.json). The missing coordinate is a source-length issue, not a claim that the earlier OCR simply omitted a visible fifth glyph. Verification replays all insertion prices, every source/model mapping and edit, the complete roundtrip, and exact readable-label preservation.
 

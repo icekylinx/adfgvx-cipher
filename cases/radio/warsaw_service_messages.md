@@ -1,6 +1,6 @@
 # Warsaw control markers and radio forwarding instructions
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **ADFGVX Cipher — icekylinx and GPT-6 Astra Pro**
 
@@ -26,20 +26,30 @@ treated as an erasure.
 
 Raw decryption, 171 fixed positions out of 175:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ANXOBLT0KRETZSCHMARBEIXOKMXWIRTSCHAFTSSTABABTX1XBUKARESTXNRX???XERBITTENNACHRICHTUEBERLAGENUN?AUSSICHTENSOWIEBEZUEGLICHUNSERERINTERESSENGEFASSTEBESCHLUESSEXDEUTKAUF5AUSWAERTIG
 ```
 
+</details>
+
 Filling that overstrike as `F` restores `UND`, with no change to an observed
 valid coordinate:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 ANXOBLT0KRETZSCHMARBEIXOKMXWIRTSCHAFTSSTABABTX1XBUKARESTXNRX???XERBITTENNACHRICHTUEBERLAGENUNDAUSSICHTENSOWIEBEZUEGLICHUNSERERINTERESSENGEFASSTEBESCHLUESSEXDEUTKAUF5AUSWAERTIG
 ```
+
+</details>
 
 The message asks Oberleutnant Kretzschmar, attached to the OKM economic staff,
 department 1, in Bucharest for news about the situation and prospects, and
@@ -57,19 +67,29 @@ has **267** coordinate letters: the 22nd printed group is only `FVGA`.
 Inserting one unknown coordinate immediately after that group gives this raw
 reading, with 131 fixed positions out of 134:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional insertion immediately after the short printed group:**
 
 ```text
 KWHXLPXUEBERMITTELTALLEVORLIEGENDENWICHTIGENNACHRICHTENFUERHEIMATDIENSTSTE?LENSOWIEXOHLXUNDUMGEKEHRTXKMXALLGXKRIEGSDEPXNRX?5?1115XANCH
 ```
 
+</details>
+
 The ordinary-word candidate is:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — same conditional missing-slot frame, with the stated repairs:**
 
 ```text
 KWHXLPXUEBERMITTELTALLEVORLIEGENDENWICHTIGENNACHRICHTENFUERHEIMATDIENSTSTELLENSOWIEXOHLXUNDUMGEKEHRTXKMXALLGXKRIEGSDEPXNRX?5?1115XANCH
 ```
+
+</details>
 
 Its meaning is direct: LP transmits all available important messages for home
 offices and OHL, and conversely. The ending names `KM`, the general war
@@ -91,20 +111,30 @@ The header is `IWE v WAU (2.31 a.m., November 16th)`, origin `2300 (15)`,
 
 Raw reading, 111 fixed positions out of 112:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 HEERESGRUPPEXKIEWXXWELCHENC?MARSCNWEGWAEHLTUEERESGRUPPEKIEWXXDRINGENDBALDIGSTBESCHEIDFUNKENXPRESSEXSXRXWARSCHAUX
 ```
 
+</details>
+
 Changing source index 5 from `X` to `A`, and source index 60 from `V` to `A`,
 restores the two clear ordinary words:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 HEERESGRUPPEXKIEWXXWELCHENC?MARSCHWEGWAEHLTHEERESGRUPPEKIEWXXDRINGENDBALDIGSTBESCHEIDFUNKENXPRESSEXSXRXWARSCHAUX
 ```
+
+</details>
 
 The message asks which march route the army group will choose, requesting an
 urgent prompt reply by radio, and ends with the Warsaw soldiers' council's
@@ -121,20 +151,30 @@ index 2 is treated as an erasure. The other 239 coordinates are valid.
 
 Raw reading, 119 fixed positions out of 120:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ZUKUENFTIGWERDENUNK?NTOLLIERTETELSDESXSXRXWARSCHAUDURCHXXFRANZXXXKONTROLLIERTEDURCHXXEMILXXGEKENNZEICHNETXXSXRXWARSCHAUX
 ```
 
+</details>
+
 Filling the invalid coordinate as `X` yields this complete, exactly
 reencryptable candidate without changing any valid source coordinate:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 ZUKUENFTIGWERDENUNKONTOLLIERTETELSDESXSXRXWARSCHAUDURCHXXFRANZXXXKONTROLLIERTEDURCHXXEMILXXGEKENNZEICHNETXXSXRXWARSCHAUX
 ```
+
+</details>
 
 Future unchecked telegrams from the Warsaw soldiers' council are to be marked
 `FRANZ`; checked telegrams are to be marked `EMIL`. The source plaintext spells

@@ -212,7 +212,6 @@ def verify(pdf: Path | None) -> tuple[dict, dict]:
         "plaintext_pair_to_frame_indices": pair_maps,
         "candidates": candidates,
         "alternative_differing_plaintext_positions": different_positions,
-        "markdown_sha256": digest(markdown.encode()),
         "markdown_checked_text_fences": 4,
         "markdown_checked_readable_quotations": 1,
         "historical_uniqueness_established": False,

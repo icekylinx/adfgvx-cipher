@@ -1,6 +1,6 @@
 # Eilvese/OUI: transmission arrangements and provisional traffic times
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -25,6 +25,9 @@ including the unusual **3X13**, remain literal.
 [Complete reviewed source — source-PDF reference](../../experiments/nov3_eilvese_traffic_schedule/inputs.json)
 and [repeated-group detail — source-PDF reference](../../experiments/nov3_eilvese_traffic_schedule/inputs.json).
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — header:**
 
 ```text
@@ -33,6 +36,8 @@ D) NKJ (UKS) v LP (3 p.m., November 3rd)
 0605 (3/11) 2 TLE
 1 TL RIZI-352
 ```
+
+</details>
 
 The page announces two parts. This edition recovers only the printed first
 part and does not attach an unrelated nearby telegram as its continuation.
@@ -46,11 +51,16 @@ printed dashes. In row 5, the source prints **FAGVD DG--- FAGVD**, at indices
 175–189. All three groups remain in the source record, along with the final
 `AV` that the earlier OCR omitted.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native 362-slot frame; 178/181 fixed positions:**
 
 ```text
 5DDVOQH855BS4KMW9LP08MP5BF6ENJA2P9S070OXIVGAU1O028PQVI8987C8X5RKBG57QU7H3RDPJFRS1EC57E3PBOFG8WNP1Q1IA?WLNBBCC2R?EZDJARQN?JK65TI83R2VX240D9VD9OM9N9LNYWJE2ODX6I3MPJOH1ARTS7XVC0OAM2UPM
 ```
+
+</details>
 
 The native output is retained as evidence of the frame conflict; it is not
 the readable message below. The printed length difference motivates a
@@ -63,6 +73,9 @@ The primary frame excludes **source indices 175–184 inclusive**: the first
 source positions and their order. The scan has no cancellation mark through
 the excluded groups, so this remains an editorial frame hypothesis.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional ten-slot exclusion; 176/176 fixed positions:**
 
 ```text
@@ -74,6 +87,8 @@ EILVESEXOUIXSENDETABX3X13X12XNACHTSXUNGEDAENPFTANSIEMITWELLE9500XOUIEMPFAENGTSIE
 ```text
 EILVESEXOUIXSENDETABX3X13X12XNACHTSXUNGEDAEMPFTANSIEMITWELLE9500XOUIEMPFAENGTSIEWELLEX4250XTOENENDXXVORLAUFIGEVERKEHRSZEITENXXOUIXSENDET12NACHTSBIS0100X0330BIS0345X0530BIS0600X
 ```
+
+</details>
 
 **Readable German — complete conditional edited stream, with literal labels and spelling retained:**
 

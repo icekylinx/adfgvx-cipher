@@ -1,8 +1,6 @@
 # Major Dunst — cancellation of the Turkey and military-mission assignment
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[All cases](../README.md) · [ADFGVX Cipher](../../README.md)
+[All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and review: icekylinx and GPT-6 Astra Pro.** This two-part
 message cancels the assignment of Major `DUNST` to Turkey and his allocation
@@ -46,6 +44,9 @@ The selected slot-0 model preserves every observed coordinate and needs no
 fill. This check prices alternatives to that fixed reading; it does not
 establish a unique historical copying mechanism.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — 282-coordinate frame, with the prefixed dash excluded.**
 
 ```text
@@ -57,6 +58,8 @@ DEUTSCHERMILITXBEVOLLMAECHTIGTERKONST1NTINOPELXXAXKXOX26X10X18XXDIEUNTERDEMDEZEM
 ```text
 DEUTSCHERMILITXBEVOLLMAECHTIGTERKONSTANTINOPELXXAXKXOX26X10X18XXDIEUNTERDEMDEZEMBERX2X1917XBEFOHLENEKOMMANDIERUNGDESMAJORSXDUNSTXVONDERARMEEX
 ```
+
+</details>
 
 **Readable German — first part, continuing into A2:**
 
@@ -86,6 +89,9 @@ prefixed dash, while working indices do not.
 [Source crop](../../experiments/dunst_assignment/sources/p95_A2.png).
 `2 TL RICHI-464`. The complete native frame contains 464 valid coordinates.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — all 464 observed coordinates; unchanged key.**
 
 ```text
@@ -97,6 +103,8 @@ ZULETZTDEMCHEFDESGENERALSTABESDESFELDHEERESZURBESONDERENVERWENDUNGZURVERFUEGUNGG
 ```text
 ZULETZTDEMCHEFDESGENERALSTABESDESFELDHEERESZURBESONDERENVERWENDUNGZURVERFUEGUNGGESTELLTXNACHDERTUERKEIUNDZUTEILUNGDESSELBENZURMILITAERMISSIONWIRDAUFGEHOBENXXISTBEORDRTXMITTEILUNGANMILITAERMISSIONERBETENXXCHEFXGENSTBXFELDHEERX92527XX
 ```
+
+</details>
 
 **Readable German — continuation of A1:**
 

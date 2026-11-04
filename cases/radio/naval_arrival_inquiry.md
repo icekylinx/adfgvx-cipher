@@ -1,6 +1,6 @@
 # Naval inquiry: has the referenced SKL item arrived?
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -14,17 +14,16 @@ contains **282 valid coordinates**, matching `RICHI-282`.
 The unchanged published **Nov1–3** key gives a complete reading without
 source-coordinate repairs.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native 282-coordinate frame:**
 
 ```text
 SLX4314XAUFXGGX2890XEINSXFRAGEDOPPELPUNKTXISTXSKLXBNRXGGX546XROEMX3XNUNMEHRDORTHINGELANGTFRAGEZEICHENXADMIRALSTABSEEKRIEGSLTGXGX1121XROEMX3XX
 ```
 
-**Edited output — unchanged, with zero substitutions or fills:**
-
-```text
-SLX4314XAUFXGGX2890XEINSXFRAGEDOPPELPUNKTXISTXSKLXBNRXGGX546XROEMX3XNUNMEHRDORTHINGELANGTFRAGEZEICHENXADMIRALSTABSEEKRIEGSLTGXGX1121XROEMX3XX
-```
+</details>
 
 **Readable German — complete decoded stream; the transmitted punctuation words remain visible:**
 

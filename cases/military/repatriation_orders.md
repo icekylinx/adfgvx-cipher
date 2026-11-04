@@ -1,6 +1,6 @@
 # Equipment disposal, Alpenkorps return, and Finland evacuation orders
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Seven source-reviewed physical records on Childs pp207–208 are now readable.** The clearest gain is the complete two-part Alpenkorps order: its first part was missing an entire row in the earlier OCR extraction, while its second part supplies a printed witness for five erased coordinates and one differing coordinate on p207. Two neighboring messages concern equipment and horses that cannot reach Germany, and the German force in Finland.
 
@@ -26,19 +26,29 @@ The complete diplomatic rows, raw readings, per-position domains, coordinate ori
 
 The p208 header reads `ZO'N v LP (20.59 p.m., November 18th)`, `07.10 (18/11) 2 TLE`. Part 1 gives this unaltered 123-label reading:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ANOBERKDOMACKENSENXXWENNVERHAELTNISSEESGESTATTENISTALPENKORPSSOANZUSETZENDASSPREUSSISCHEVERBAENDENACHSCHLESIENZURVERFUEGUNG
 ```
 
+</details>
+
 Part 2 continues, also without coordinate repairs:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
 ```text
 PREUSSXKMSXXBAYRXVERBAENDENACHBAYERNZURVERFUEGGDESBAYRXKMZUGEFUEHRTWERDENXXEMPFANGBESTAETIGENXXOHLXRM1AXX1?????OPX
 ```
+
+</details>
 
 With word spacing, the instruction is addressed to Oberkommando Mackensen. If conditions permit, the Alpenkorps is to be directed so that Prussian formations are sent to Silesia for the Prussian `K.M.`, and Bavarian formations to Bavaria for the Bavarian `K.M.`. Receipt is to be acknowledged. The abbreviation `VERFUEGG`, the office labels and the unresolved numerical reference are retained as deciphered.
 
@@ -50,11 +60,16 @@ Of p207 B's **223 observed coordinates, 222 agree** with the later printed witne
 
 The header reads `ZO'N v LP`, an unspecified reception time on November 18, and `13.00 (18/11) 2 TLE`. The first part's editorial reading is:
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output:**
 
 ```text
 ANXOKMXGERAETUNDPFERDEDIEWEDERDURCHMARSCHNOCHDURCHBAHNDEUTSCHLANDERREICHENKOENNENXFREIHAENDIGVERKAUFENXMOEGLICHSTVERHINDERNXDASSEIGENETRUPPEGANZENTBLOESSTWIRDX
 ```
+
+</details>
 
 This directs `OKM` to sell equipment and horses that can reach Germany neither by marching nor by rail, while preventing the German troops from being left entirely without them. The raw wording is already substantially legible, but this complete reading requires **seven observed-coordinate changes and twelve dash fills**. It is an explicitly repaired source edition.
 
@@ -62,11 +77,16 @@ The seven substitutions, at zero-based source indices, are `18 V→F`, `43 V→F
 
 The printed second part contains 44 complete five-coordinate groups followed by one extra X: **221 source slots against RICHI-220**. Excluding only that final X before untransposition yields:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional exclusion of the final observed X at source index 220:**
 
 ```text
 GLEICHESERGEHTANXETRAXSUEDOSTXFECHXGRXHXQUXUNDKRIWEISOKMXNRX??1?X11X1?XANCHXKMXALLGMXKRDPXNRX2???X1?XGEHXANCHX
 ```
+
+</details>
 
 The opening says that the same instruction goes to the listed addressees. `ETRA SUEDOST`, `FECH`, `KRIWEISOKM`, `KRDP`, the `ANCH` tokens and all partly known references remain literal. In particular, `FECH` has not been silently reordered into a more familiar word.
 
@@ -78,19 +98,29 @@ The header reads `KOW v LP (04.04 p.m., November 18th)`, `17.00 (18/11) FUER - H
 
 Part 1, after the single substitution `32 F→G`, reads:
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output:**
 
 ```text
 ANDEUTSCHENGENERALINFINNLANDXXDORTIGEXNRXBXCX212XUNDXRMX1AXNRX???XBEURTEILENLAGEVERSCHIEDENXOHLXNIMMTANX
 ```
 
+</details>
+
 Part 2, after `66 V→A` and `67 G→A`, reads:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 BALDIGERABTRAANSPORTFUERNOETIGGEHALTENWIRDXOHLXRMX1AXNOX11?1?XGEHXOPXX
 ```
+
+</details>
 
 The German general in Finland is told that two cited reports assess the situation differently. OHL assumes that early removal or transport of the force is considered necessary. The body contains the literal doubled A in `ABTRAANSPORT`; it has not been deleted. The references `B.C.212`, `RM.1A`, `11?1?`, and the other partly known number remain unexpanded.
 

@@ -1,6 +1,6 @@
 # Report of surrender to a Soldiers Council
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -13,17 +13,16 @@ contains **154 valid coordinates**, matching `RICHI-154`.
 The unchanged published partial **Nov7–9** key gives a complete reading;
 none of this record's pairs uses an unresolved square cell.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native 154-coordinate frame:**
 
 ```text
 GOUVERNEMENTUNDUMRADIOLIEGENDEKASERNENHABENSICHSOLDATENRATERGEBENXRADIOXROUXX
 ```
 
-**Edited output — unchanged, with zero substitutions or fills:**
-
-```text
-GOUVERNEMENTUNDUMRADIOLIEGENDEKASERNENHABENSICHSOLDATENRATERGEBENXRADIOXROUXX
-```
+</details>
 
 **Readable German — spacing and punctuation:**
 

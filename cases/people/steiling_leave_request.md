@@ -1,8 +1,6 @@
 # Steiling asks for additional leave pending a decision
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p119 A
 
@@ -12,17 +10,16 @@
 
 ![Source p119 A](../../experiments/early_radio_and_leave_records/sources/p119_A.png)
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 DRINGENDESREKLAMATIONSGESUCHBRUDERSOBERJAEGERSXSTEILINGXUNTERWEGSXERBITTEDRAHTLICHNACHURLAUBBISENTSCHEIDUNGXXHPTMXSTEILINGXKRIEGSBEKLEIDUNGSAMT
 ```
 
-**Edited output — counted proposal (identical to raw output):**
-
-```text
-DRINGENDESREKLAMATIONSGESUCHBRUDERSOBERJAEGERSXSTEILINGXUNTERWEGSXERBITTEDRAHTLICHNACHURLAUBBISENTSCHEIDUNGXXHPTMXSTEILINGXKRIEGSBEKLEIDUNGSAMT
-```
+</details>
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
@@ -40,4 +37,4 @@ No observed-coordinate substitution or source-mask fill is used.
 
 The [input](../../experiments/early_radio_and_leave_records/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/early_radio_and_leave_records/certificates.json) records each raw paired-coordinate domain and every proposed source change. The [verifier](../../experiments/early_radio_and_leave_records/verify.py) checks the live German quotation against the same candidate labels, preserving every digit and unknown position.
 
-This source edition is by icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection. The published reconstruction and unchanged key provenance credit Lasry, Niebel, Kopal and Wacker, with Lasry's published period-key list. Earlier repository OCR input is frozen in the [attribution record](../../experiments/early_radio_and_leave_records/prior_candidates.json); no first-decipherment priority is claimed.
+This source edition is by icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection. The published reconstruction and unchanged key provenance credit Lasry, Niebel, Kopal and Wacker, with Lasry's published period-key list. Earlier repository OCR input is frozen in the [attribution record](../../experiments/early_radio_and_leave_records/prior_candidates.json).

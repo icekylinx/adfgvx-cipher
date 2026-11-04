@@ -1,8 +1,6 @@
 # November 9 operational reports: Serbian cavalry and the retreat north
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[ADFGVX Cipher](../../README.md) · [All cases](../README.md) · [Source certificate](../../experiments/p170_continuation/military_records.json)
+[ADFGVX Cipher](../../README.md) · [All cases](../README.md) · [Source certificate](../../experiments/p170_continuation/military_records.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 **A missing 20-coordinate prefix is recovered from another intercept.** The three-part report on p166 and a differently framed two-part report on p170 describe Serbian cavalry, the northward march of German formations, and transport preparations for the Alpenkorps. A p167 copy restores the beginning missing from p166 part 3. The clearer parallel also preserves the order footer.
 
@@ -74,21 +72,31 @@ This selects one historical reading in four occurrences, not four independent ke
 
 The p167 copy begins:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription:**
 
 ```text
 ADFVF DDDVX DGVDD XVDAF
 ```
 
+</details>
+
 Its following 184 slots align with the complete p166 A3 fragment: **179 known matches, four known disagreements and one erasure**. Among all **21 contiguous placements** of the 184-slot fragment in the 204-slot copy, this offset 20 placement uniquely minimizes known-coordinate disagreements. The next-best placement has 136 disagreements.
 
 Prepending those **20 observed source coordinates** to p166 A3 preserves every one of its **184 received coordinates** and restores the advertised frame. It decrypts to:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output — conditional prefix placement from p167; all p166 observed coordinates retained:**
 
 ```text
 BEREITGESTELLBX219XX217XUND?XLXDXSETZSN9X11XMARSCHINLINENAGYBESKEREKXWERSCHETZFORTXOXKXMX1AXNO11319OPX
 ```
+
+</details>
 
 This is a **101/102-position raw reading under the restored geometry**, including its visible errors. The remaining question mark is the global square ambiguity **5/6**. The prefix was copied from an independent intercept, not invented to make this plaintext appear.
 
@@ -119,21 +127,31 @@ The literal spelling `LINE` is expanded to `Lin[i]e` only in prose; no extra cha
 
 ### p166 A1 — 174 coordinates / 87 positions
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 OXHXLXOXPXLAGE11XARMEE8X11HABENDSXSERBXKAVALLERIEPETERWARDEINUNDF3HERTEMPLOMEINGSRUECKT
 ```
 
+</details>
+
 The readable same-length edition uses three coordinate substitutions for the anomalous `H` after `8.11`, `F3HERTEMPLOM → FEHERTEMPLOM`, and `EINGSRUECKT → EINGERUECKT`. The candidate is kept beside the raw text, with each coordinate map in the certificate.
 
 ### p166 A2 — 212 coordinates / 106 positions
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
 ```text
 ABMARSCH217XIXDXUND?XRXFXNACHNORDENOHNEFEINDBERUEHRUNGXALPENKORPSWIRDUMVERBASZXFRAGEZEICHENXZUMABTRANSPQRT
 ```
+
+</details>
 
 The question mark is exactly **5/6**. Two explicit substitutions give `R.D.` in place of raw `R.F.` and `ABTRANSPORT` in place of `ABTRANSPQRT`. The raw `UMVERBASZ` and its following `FRAGEZEICHEN` remain unchanged.
 
@@ -143,15 +161,23 @@ The source-preserving prefix restoration and conservative combined template are 
 
 ### p167 A3 — 204 slots / 102 positions
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 BEREITGESTELLTX219XX217XUND?X2XDXSETZSN?X11XMARSCWINLINENAG?BESKEREKXWERSCHETZFORTXOXKXMX1AXNO11319OPX
 ```
 
+</details>
+
 The printed group `VGVA-` keeps one erased coordinate. The raw square also leaves two digit occurrences unresolved. The companion p166 copy improves the ending of this damaged group without requiring a completed square.
 
 ### p170 B1 — 236 coordinates / 118 positions
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -159,15 +185,22 @@ The printed group `VGVA-` keeps one erased coordinate. The raw square also leave
 ANENMELDUNGXSERBXKAVALLERIEPETERWADEINUNDFEHERTEMPLOMEINGSRUECKTXXABMARSCH217XIXDXUND?XRXDNACHNORDENOHNEFEINBELUEHRUNG
 ```
 
+</details>
+
 The recorded same-length candidate makes **four coordinate substitutions**, yielding `ABENMELDUNG`, `EINGERUECKT`, and `FEINBERUEHRUNG`. The readings `Aben[d]meldung`, `Peterwa[r]dein` and `Fein[d]berührung` additionally supply **three prose letters** absent from the raw frame; these additions are not claimed as a ciphertext recovery.
 
 ### p170 B2 — 238 slots / 119 positions
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
 ```text
 ALPENKORPSWIRDU?VERBASZZUMABTRFNSPORTBEREITGESTELLTXX219X217XUND?XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERSCHETZFORT
 ```
+
+</details>
 
 At plaintext position **15**, the erasure permits `{5,6,7,9,J,M,Z}`. Filling received coordinate **25** with `X` selects `J` in `UJVERBASZ`. Changing coordinate **134** from `X` to `D` gives `ABTRANSPORT`. The second question mark, at plaintext position **64**, remains **5/6**.
 

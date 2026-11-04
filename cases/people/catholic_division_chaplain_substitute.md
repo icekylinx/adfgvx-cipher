@@ -1,8 +1,6 @@
 # No substitute for the Catholic divisional chaplain
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p103 A
 
@@ -11,6 +9,9 @@
 **Source and dates:** Page heading: 1st NOVEMBER, 1918; A) FUER COS v NKJ (0.33 a.m., November 3rd); DELEG KAUK 0715 (1); RICHI-124.
 
 ![Source p103 A](../../experiments/nov1_nov2_native_dispatches/sources/p103_A.png)
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -23,6 +24,8 @@ VERTRETUNGDORTXKATHXDIVXPFARRPRSNICHTMOEGLICKXOKMXRM2CNR38029X
 ```text
 VERTRETUNGDORTXKATHXDIVXPFARRERSNICHTMOEGLICHXOKMXRM2CNR38029X
 ```
+
+</details>
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
@@ -45,4 +48,4 @@ All indices are zero-based.
 
 The [input](../../experiments/nov1_nov2_native_dispatches/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/nov1_nov2_native_dispatches/certificates.json) contains the raw paired-coordinate domains, each source change and the forward checks. The [verifier](../../experiments/nov1_nov2_native_dispatches/verify.py) checks the unchanged published keys and the live German quotations, retaining all numerical and letter labels.
 
-Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/nov1_nov2_native_dispatches/prior_candidates.json). No first-decipherment priority is claimed.
+Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/nov1_nov2_native_dispatches/prior_candidates.json).

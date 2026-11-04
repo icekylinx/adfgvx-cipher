@@ -1,18 +1,44 @@
 # November 9: Danube report and Arad provisions
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
-**Source recovery and review: icekylinx and GPT-6 Astra Pro.** The new p168 Arad witness supplies all **11 originally missing coordinates** of the earlier p159 primary reconstruction, raising its fixed raw output from **124 to 135 positions**. Its own printed pairs fix the previously unresolved leading quantity as **80000**. A corrected p164 glyph also restores raw **UEBER** and supplies independent support for the parallel Danube report.
+**Crossing a river and keeping troops supplied were separate tasks.** These
+two reports, received on 9 November, put them beside one another. The Danube
+message reports a completed crossing and busy crossing traffic; the Arad
+message concerns provision trains and dealings with the Hungarian government,
+with literal fields for 80000 men and 30000 animals.
 
-[Source edition and verification](../../experiments/danube_arad_witnesses/README.md) · [Exact certificate](../../experiments/danube_arad_witnesses/certificates.json) · [Original Childs scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view)
+The new physical comparisons improve both readings. A directly inspected
+p164 glyph restores `UEBER`; an independent Arad copy supplies eleven
+coordinates missing from the earlier p159 reconstruction. These are source
+findings, while the proposed ordinary-word repairs remain separately priced.
+
+**Source recovery and edition:** icekylinx and GPT-6 Astra Pro.
+[Source package](../../experiments/danube_arad_witnesses/README.md) ·
+[Exact certificate](../../experiments/danube_arad_witnesses/certificates.json) ·
+[Childs scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
 
 ## p164 C1
 
+**Readable German — complete edited stream, preserving the unresolved fields and literal labels:**
+
+> AOK11. Abendmeldung 8. C1 1?. Lage der ?1 Armee am 7 11 abends. Donauuebergang 219 I D beendet. Belgrad SEMUM. Lebhafter Uebersetzverkehr.
+
+The first part of this five-part report describes an evening situation dated
+7 November, a completed Danube crossing, and lively crossing traffic at the
+literal place labels `BELGRAD` and `SEMUM`. The report’s encoded formation
+and reference fields remain `C1`, `1?`, `?1` and `219`; they are not silently
+replaced with a historically plausible unit designation.
+
 Literal header: `C) ZON v UKS (1.57 a.m., November 9th); 2101 5 TLE; 1 TL RICHI-248`.
 
-The first part of a five-part report gives an AOK11 evening situation, a completed Danube crossing and busy crossing traffic near the literal labels BELGRAD and SEMUM. The source count is **248**, with **119/124 fixed raw positions**.
+The direct source supplies 119 of 124 raw labels. Two mask values from the
+parallel p153 passage raise this to 121 before lexical repair. The complete
+word proposal costs four observed substitutions and three printed-mask fills,
+leaving two fields unresolved.
 
-The printed fourth-row group is **GDXVV**, correcting the earlier edition's GDXXV. At original source index 148, the printed V restores raw E in UEBER at plaintext index 110. This is a transcription correction with **zero historical-coordinate repair cost**.
+<details>
+<summary>p164 source, unchanged streams and exact edited proposal</summary>
 
 **Source transcription — literal printed rows:**
 
@@ -38,27 +64,47 @@ AOKX11ABENDM?LDUNG8XC1X1?XLAGSTE0?1XARMEEAM7X11XABENDSXDONA?UEBERGANG219XIXDXBEE
 AOKX11ABENDM?LDUNG8XC1X1?XLAGSTE0?1XARMEEAM7X11XABENDSXDONAUUEBERGANG219XIXDXBEENDZTXBELGRADXSEMUMLEBHAFTERUEBERSETZVERKEHRX
 ```
 
-The parallel p153 B1 source directly supplies U in DONAU and S in SETZ. This gives **121/124 fixed positions** before lexical repair. Conversely, native p164 pairs support the E/A/E proposals in p153's U3BER, BELGR4D and UEBSR. The differing formation labels **219** and **21B** remain unchanged; the two complete telegrams are not equated.
-
 **Edited output — from the unfilled source: four observed substitutions and three printed-mask fills; two fields remain unresolved:**
 
 ```text
 AOKX11ABENDMELDUNG8XC1X1?XLAGEDER?1XARMEEAM7X11XABENDSXDONAUUEBERGANG219XIXDXBEENDETXBELGRADXSEMUMLEBHAFTERUEBERSETZVERKEHRX
 ```
 
-**Readable German — complete edited stream, preserving the unresolved fields and literal labels:**
+The source’s fourth-row group is GDXVV, correcting earlier OCR/edition GDXXV.
+Its printed V at source 148 restores the E in UEBER, with zero historical
+coordinate-repair cost. p153 directly supplies U in DONAU and S in SETZ;
+p164 in turn supports the E/A/E repairs in p153’s U3BER, BELGR4D and UEBSR.
+The formation labels 219 and 21B differ and remain separate. These are
+parallel passages, not an identity claim for both entire telegrams.
 
-> AOK11. Abendmeldung 8. C1 1?. Lage der ?1 Armee am 7 11 abends. Donauuebergang 219 I D beendet. Belgrad SEMUM. Lebhafter Uebersetzverkehr.
+LAGE DER and BEENDET are word repairs. ABENDMELDUNG uses one lexical mask
+fill beyond the two independent-passage fills. Every price is measured from
+the unfilled native source.
 
-The fields C1, 1?, ?1 and 219 remain exactly as encoded. The proposed LAGE DER and BEENDET are priced word repairs; ABENDMELDUNG adds one lexical mask fill beyond the two parallel-passage fills.
+</details>
 
 ## p168 E
 
+**Readable German — complete edited stream, preserving the unresolved fields and literal labels:**
+
+> An OHL. Verpflegung noch 14 Tage. 10 Tage. Verpfleg. Zuege nach Arad. Arad bei ungar. Regierung erwirken. STAEKE 80000 Mann, 30000 Tiere. AOK11. RM 1C18?GEH.
+
+The report asks for provisions trains to Arad and an approach to the
+Hungarian government. It gives `STAEKE 80000 MANN` and `30000 TIERE` under
+the published key; those are transmitted quantities, not an outside estimate
+of the forces present. The relationship between “14 Tage” and “10 Tage” is
+not supplied. `STAEKE`, the repeated Arad and the opaque footer remain visible.
+
 Literal header: `E) UKS v ZON (11.05 p.m., November 9th);AN LP 2000 KR; RICHI-272`.
 
-This separately received Arad report has **271 printed slots** under RICHI-272. Its short group DDGX corresponds to the observed DDGGX in p159. Supplying G has two source-origin placements, before source 52 or 53; both produce the same completed group and full ciphertext.
+The source prints 271 slots. In the conditional 272-slot frame, the short
+group DDGX lacks one G present in p159’s DDGGX. Either insertion boundary
+52 or 53 gives the same completed group. p159 also supplies the two printed
+masks in VF--F. These three borrowed values change no observed p168 coordinate
+and raise the reading from 132 to 135 fixed positions out of 136.
 
-The unfilled 272-slot primary frame fixes **132/136 positions**. Its own observed coordinate pairs already fix **80000 MANN**. The p159 witness supplies the missing G and the two printed-mask values in VF--F, giving **135/136 source-linked positions** with zero changes to an observed p168 coordinate.
+<details>
+<summary>p168 source, source-linked reading and four-repair proposal</summary>
 
 **Source transcription — literal printed rows:**
 
@@ -84,25 +130,30 @@ ANOHLXVERPFLEGUNGNOCH14TAGEX10TAGEXXVERPFLEGXEUEGENACHARADHARADNEIUNGARXREGIERUN
 ANOHLXVERPFLEGUNGNOCH14TAGEX10TAGEXXVERPFLEGXEUEGENACHARADHARADNEIUNGARXREGIERUNGERWIRKENXSTAEKE80000MANNX30000TIEREXAOK11XRMX1CX18?GEHX
 ```
 
-The two copies retain different raw errors. The native p168 duration separator is X: **14 TAGE X 10 TAGE**. The earlier p159 optional U is not copied into this source. STAEKE remains a six-position transmitted label; no missing R is inserted.
-
 **Edited output — four observed substitutions, two printed-mask fills and one added-slot fill; footer cell unassigned:**
 
 ```text
 ANOHLXVERPFLEGUNGNOCH14TAGEX10TAGEXXVERPFLEGXZUEGENACHARADXARADBEIUNGARXREGIERUNGERWIRKENXSTAEKE80000MANNX30000TIEREXAOK11XRMX1CX18?GEHX
 ```
 
-**Readable German — complete edited stream, preserving the unresolved fields and literal labels:**
+The p168 pairs independently fix 80000 and the X in 14 TAGE X 10 TAGE. The
+old p159 optional U is not imported. The common edited stream costs four
+observed p168 substitutions, its two mask fills and the one supplied gap
+coordinate. The remaining VF footer cell has the shared domain {5,6}, giving
+18{5,6}GEH; p159’s raw footer instead ends GLH.
 
-> An OHL. Verpflegung noch 14 Tage. 10 Tage. Verpfleg. Zuege nach Arad. Arad bei ungar. Regierung erwirken. STAEKE 80000 Mann, 30000 Tiere. AOK11. RM 1C18?GEH.
-
-The report requests provisions trains to Arad and an approach to the Hungarian government. The literal fields give STAEKE 80000 MANN and 30000 TIERE. These encoded quantities are recovered under the published key; no outside estimate is used.
-
-The remaining footer position is the globally unassigned VF cell: the two complete-square witnesses give **18{5,6}GEH**. The same assignment governs the p159 footer, where its raw spelling ends GLH.
+</details>
 
 ## Arad cross-copy restoration
 
-Under its published primary geometry, the earlier p159 A reconstruction improves from **124 to 135 fixed raw positions**. All **11 originally missing coordinates** now have original observed p168 source origins. The retained p159 coordinates are unchanged:
+The p168 witness raises the earlier p159 primary frame from **124 to 135**
+fixed raw positions. All **11 originally missing coordinates** now come
+from directly observed p168 positions; none depends on the G or printed-mask
+values that p168 itself borrowed. This acyclic source relationship is what
+changes the evidence for the old strength field.
+
+<details>
+<summary>Restored p159 stream and complete source-family comparison</summary>
 
 **Raw output — p159 primary geometry with all 11 missing coordinates supplied from observed p168 pairs:**
 
@@ -110,17 +161,41 @@ Under its published primary geometry, the earlier p159 A reconstruction improves
 0NOHLXVERPOLEGUNGNOCH14TAGEX10TAGEXXVERPFLEGXEUEGENACHARADXARADNEIUNGARXREGIERUNGERWIRKENXSTAEKE80000MANNX30000TISREXAOK11XRMX1CX18?GLHX
 ```
 
-The p168 quantity 80000 uses its own observed pairs at both coordinates of every label. None of the 11 values donated back to p159 uses the p168 gap or its two borrowed mask values. The certificate records every origin and verifies this acyclic dependency.
+The coordinate-only comparison covers 173,580 canonical layouts and 694,320
+source-origin maps. Five disagreements across 258 jointly observed positions
+are the minimum. Only two canonical layouts remain: short-slot boundary 118
+with five-slot boundaries (15,110) or (16,110). The four choices of duplicated
+group origin give eight minimizing maps, all with one completed ciphertext
+and 135/136 fixed labels. Each supplies its eleven additions from native
+p168 observations.
 
-The common edited Arad stream displayed above costs **seven observed-coordinate substitutions in p159** and **four in p168**. These are separate received-coordinate prices. The new p159 proposal retains the source-supported X duration separator and 80000 quantity; matching the p168 GEH footer adds one substitution to the earlier six-substitution lexical layer. The earlier p159 source, 64 tied source maps and optional U interpretation remain preserved in the prior snapshot.
+This narrows the old 64 word-conditioned minima to eight and removes all
+48 P0000 alternatives. The old six-change objective compared a supplied word
+template; the new five-disagreement objective compares received coordinates.
+The finite error family remains explicit, so the calculation does not claim
+unrestricted historical uniqueness.
 
-A source-only comparison now prices the complete earlier family: **173,580 canonical layouts and 694,320 source-origin maps**, against the unfilled p168 primary frame. It uses only positions observed in both sources, with no plaintext template. The minimum is **five coordinate disagreements across 258 observed comparisons**. Only two canonical layouts survive: short-slot boundary 118 with five-slot boundaries (15, 110) or (16, 110). The four duplicate-origin choices give **eight minimizing p159 source maps**. All eight yield the identical completed ciphertext above, with **135/136 fixed plaintext positions**. Each map fills its eleven missing coordinates from directly observed p168 origins.
+</details>
 
-This independently narrows the earlier **64 word-conditioned minima to eight** and eliminates all **48 P0000 alternatives**. The earlier word minimum was six observed changes against a supplied prose template; the new five-disagreement minimum compares received coordinates. These are separate objectives. The finite source-edit family remains explicit; unrestricted historical uniqueness is not asserted. The two global square completions share one footer value in both copies, while preserving their raw GLH/GEH disagreement.
+The common edited reading costs **seven observed substitutions in p159**
+and **four in p168**. The extra p159 repair beyond its earlier six-word layer
+adopts p168’s GEH footer spelling. Both copies keep the globally coupled
+unknown digit. The [current p159 case](arad_provisions_partial.md) now presents
+this improved collation first, with the superseded U and P0000 hypotheses
+in a historical comparison drawer.
 
 ## Source and prior work
 
-The sources are Childs printed pp164 and168, PDF pp167 and171. The separate p159 Arad and p153 Danube editions supply the directly observed comparison material. The published period key is credited to George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and Lasry's 2017 key list. Earlier contextual p164 outputs and the p159/p153 work are retained in the [prior snapshot](../../experiments/danube_arad_witnesses/prior_snapshot.json). This edition adds the independently inspected glyph correction, source-linked Arad restoration and exact cross-copy ledger.
+Childs printed pp164 and 168 correspond to PDF pp167 and 171. The separate
+p159 Arad and p153 Danube sources provide the observed comparison material.
+The Nov7–9 key remains credited to George Lasry, Ingo Niebel, Nils Kopal and
+Arno Wacker (2016), and Lasry’s 2017 key list. Earlier contextual outputs and
+p159/p153 work are retained in the [prior snapshot](../../experiments/danube_arad_witnesses/prior_snapshot.json).
+This edition’s contribution is the inspected glyph correction, source-copy
+restoration and exact ledger; it does not claim that every reported movement
+or strength has independent historical confirmation.
+
+## Reproduce
 
 ## Reproduce
 
@@ -129,4 +204,6 @@ python experiments/danube_arad_witnesses/verify.py --verify
 python experiments/danube_arad_witnesses/verify.py --verify --pdf /path/to/childs.pdf
 ```
 
-The verifier checks actual Markdown strings, coordinate origins, every source/frame/repair price, both global footer assignments and exact re-encryption. The optional PDF check reproduces all reviewed crop pixels.
+The verifier checks the exact displayed streams, coordinate origins, repair
+prices, both global footer assignments and re-encryption. The optional PDF
+check reproduces all reviewed source pixels.

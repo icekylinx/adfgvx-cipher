@@ -1,6 +1,6 @@
 # Hermannstadt radio station and armistice instructions
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
@@ -11,6 +11,9 @@ It reports construction of a radio station near Hermannstadt, railway difficulti
 ## p216 A1
 
 Radio station construction near Hermannstadt.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -24,11 +27,16 @@ ANOHLXXFUNK6NSTATXUNMITTELBARBEIHERMANNSTADTAUFGEBAUTXNACHDEMAUFBAUXDERDURCHSCHW
 ANOHLXXFUNKENSTATXUNMITTELBARBEIHERMANNSTADTAUFGEBAUTXNACHDEMAUFBAUXDERDURCHSCHWIERIGKEITENDERBAHNBEHOERDENSEHRVERLANGSAMTX
 ```
 
+</details>
+
 One observed-coordinate substitution; no length change.
 
 ## p216 A2
 
 Reception difficulties and raw NIKOLA3EW.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -42,11 +50,16 @@ AMYQXBEENDETXWARVERSTAENTIGUN6NICHTMOEGLICHXDANIKOLA3EWGARTICHTUNDWUSTERHAUSENNU
 AMYQXBEENDETXWARVERSTAENDIGUNGNICHTMOEGLICHXDANIKOLA3EWGARNICHTUNDWUSTERHAUSENNURZEITWEISEAUFNAHMENXVERSUCHEUEBERBUDAPEST
 ```
 
+</details>
+
 Six observed-coordinate substitutions. **NIKOLA3EW and AMYQ are unchanged.** Raw 3 is FD at source positions 26 and 180. Assigning J to GD elsewhere does not fix this occurrence; a same-spelling reading would require an additional copying/source assumption, which is not applied.
 
 ## p216 A3
 
 Breslau reception and missing message references.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — conditional deletion of source 56 F from the six-coordinate group:**
 
@@ -60,11 +73,16 @@ WIENMUENCHEQKRFOLGLOSXERSTSEITBRESLAUAUFNIMMTXJ7XYYXVERBINDUNGGESICHERTXDORTXOUN
 WIENMUENCHENERFOLGLOSXERSTSEITBRESLAUAUFNIMMTXJ7XYYXVERBINDUNGGESICHERTXDORTXFUNKSPRUECHERMYANRYY837XYY3J7NICHTEINGEGANGEN
 ```
 
+</details>
+
 The source prints 245 coordinates against 244 advertised, with six-letter VFAFDV. Deleting source 56 F is the unique minimum among all 245 single-coordinate deletions, followed by five ordinary-word coordinate repairs. Every date/reference label is retained. The minimum is conditional on the explicit candidate.
 
 ## p216 A4
 
 Request to repeat situation and armistice instructions.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — conditional deletion of one source X at 34, 35 or 36; aliases retained:**
 
@@ -77,6 +95,8 @@ ERBITTENWIEDERHOLUNGBEURTEILUNGDERLAGEBESONDERSAUSLEGUNGDESWAFFENSTILLSTANDESFU?
 ```text
 ERBITTENWIEDERHOLUNGBEURTEILUNGDERLAGEBESONDERSAUSLEGUNGDESWAFFENSTILLSTANDESFUEROKMXXOKMYAYY7Y1OPX
 ```
+
+</details>
 
 The source prints 199 slots against 198 advertised. Deleting any one of three adjacent Xs at source 34, 35 or 36 produces the same ciphertext. All three source maps are retained. One printed dash is filled for FUER; no observed coordinate is substituted.
 

@@ -1,6 +1,6 @@
 # p83 B — dissolution of formations and return of personnel
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Complete direct source reading, with no coordinate repairs. This page prints the second part of a message. Subsequent review of an exact p79 second-part witness supplies its first-part context; see the linked source edition below.
 
@@ -14,11 +14,16 @@ The p83 page itself contains no first part. Subsequent source review identified 
 
 ## Literal plaintext
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 BEIMXKXMXISTBEANTRAGTSIEFUERAUFGELOESTZUERKLAERENXXNOCHVORHANDENESPERSONALDIESERFORMATIONENISTZUDENHEIMISCHENERSATZTRUPPENTEILENINMARSCHZUSETZENXOHLXRMX1XCXNRX103577XOP
 ```
+
+</details>
 
 **Readable German:**
 

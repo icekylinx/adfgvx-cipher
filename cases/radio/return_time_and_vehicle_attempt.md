@@ -1,7 +1,5 @@
 # An expected return and an attempt to obtain a vehicle
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 Two complete short native bodies report an expected return and discuss obtaining a vehicle. The first is unchanged; the second has four explicitly priced coordinate substitutions. The incomplete spelling RUECKUNFT, the literal 0100 field and the elliptical sense of VERSUCHEN remain visible.
@@ -10,7 +8,7 @@ Two complete short native bodies report an expected return and discuss obtaining
 **Reviewed source crops:** [p182_reviewed.png](../../experiments/return_time_and_vehicle_attempt/sources/p182_reviewed.png) · [p189_reviewed.png](../../experiments/return_time_and_vehicle_attempt/sources/p189_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p182 excerpt — source-PDF reference](../../experiments/return_time_and_vehicle_attempt/inputs.json) · [Reviewed p189 excerpt — source-PDF reference](../../experiments/return_time_and_vehicle_attempt/inputs.json) · [Inputs](../../experiments/return_time_and_vehicle_attempt/inputs.json) · [Position and change certificates](../../experiments/return_time_and_vehicle_attempt/certificates.json)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p182 excerpt — source-PDF reference](../../experiments/return_time_and_vehicle_attempt/inputs.json) · [Reviewed p189 excerpt — source-PDF reference](../../experiments/return_time_and_vehicle_attempt/inputs.json) · [Inputs](../../experiments/return_time_and_vehicle_attempt/inputs.json) · [Position and change certificates](../../experiments/return_time_and_vehicle_attempt/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 The published `Nov10-12` and `Nov13-15b` keys are unchanged. [Original OCR records](../../experiments/return_time_and_vehicle_attempt/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/return_time_and_vehicle_attempt/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 
@@ -23,11 +21,16 @@ The published `Nov10-12` and `Nov13-15b` keys are unchanged. [Original OCR recor
 
 **Source transcription — header:** `B) CM v CZ (20.45 p.m., November 12th); 20.20; RIZI-62`
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — every native source slot in printed order, with non-coordinate glyphs masked:**
 
 ```text
 RUECKUNFTVORAUSSICHTLICH0100XSX
 ```
+
+</details>
 
 **Readable German — exact nonseparator labels of the unchanged raw output:**
 
@@ -46,6 +49,9 @@ RUECKUNFTVORAUSSICHTLICH0100XSX
 
 **Source transcription — header:** `B) CM v CZ (10.10 a.m., November 14th); RIZI-70`
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — every native source slot in printed order, with non-coordinate glyphs masked:**
 
 ```text
@@ -57,6 +63,8 @@ VERSUCHENI6GENDECNEIWWGENZUBEKOMMEN
 ```text
 VERSUCHENIRGENDEINENWAGENZUBEKOMMEN
 ```
+
+</details>
 
 **Readable German — exact nonseparator labels of the edited output:**
 
@@ -72,7 +80,7 @@ VERSUCHENIRGENDEINENWAGENZUBEKOMMEN
 
 ## Evidence, credit and reproduction
 
-Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.
+Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro.
 
 The certificates independently reconstruct column positions and domains, compare them with the cipher implementation, replay every priced change, and check all readable nonseparator labels. Partial readings have one consistent injective square/source-mask completion witness that re-encrypts exactly; those witness choices are not historical identifications. Source images are bound to the original PDF by page, rectangle, scale, file digest and pixel digest.
 

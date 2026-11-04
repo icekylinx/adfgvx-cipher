@@ -2,28 +2,27 @@
 
 ## Present a readable result
 
-Begin a case with the best-supported German reading, a concise English meaning, and the unresolved words or numbers. Keep exact compact plaintext and ciphertext below it. Use square brackets for editorial restoration and `?` for unresolved characters; explain case-specific notation.
+Begin a case with the best-supported German reading, a concise English meaning, and the unresolved words or numbers. Keep exact compact plaintext and ciphertext in expandable evidence blocks. Link the shared reading conventions instead of repeating the full legend. Use square brackets for editorial restoration and `?` for unresolved characters; explain case-specific notation.
 
 Distinguish a source-fixed reading, a partial decipherment, a source-linked recovery, and an editorial hypothesis. Do not count a supplementary or contextual record as another challenge entry.
 
 ## Place a new case
 
 Use the appropriate folder under `cases/`: `caucasus`, `naval`, `military`,
-`radio`, `finance` or `people`. The original challenge, context and supplementary
+`radio`, `finance` or `people`; use `open` for a body with no accepted reading. The original challenge, context and supplementary
 pages retain their established locations. The [repository map](docs/repository-map.md)
 describes the topic boundaries and the stable research-package locations.
 
-Add each reviewed physical record to `data/reading_catalog.json`, then run
+Add each physical source exactly once to `data/reading_catalog.json`, with its explicit READING, PARTIAL, CONDITIONAL or OPEN state. Improved editions update the same source entry. Then run
 `python -m adfgvx.catalog` and `python -m adfgvx.navigation`. These regenerate the
-same two complete reader tables and the topic indexes from the live catalogue.
+page catalogue and topic guides from the live catalogue. Curated topic order and explanations live in `data/topic_reading_paths.json`.
 Check both with `--check`. Topic coverage, local links and retained section
 anchors are verified by the navigation check.
 
 `cases/other/` now preserves earlier URLs. Its short compatibility pages are
 generated from `data/case_path_aliases.json`; complete case bodies belong in
 their canonical topic folders. Preserve old anchors when revising a published
-heading. Keep established source images, certificates, models and experiment
-packages at their recorded locations.
+heading. Keep the evidence needed to reproduce current claims. Remove superseded layout snapshots and redundant displays; Git history preserves earlier editions. Update dependent references when retiring an unused package.
 
 ## Preserve evidence and attribution
 

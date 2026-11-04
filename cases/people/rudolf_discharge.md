@@ -1,6 +1,6 @@
 # Two-part discharge instruction naming Rudolf twice
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -16,17 +16,16 @@ The [first part](../../experiments/p108_naval_and_personnel/sources/p108_B1.png)
 contains **130 valid coordinates**, matching `1 TL RICHI-130`.
 It fixes **65 / 65 plaintext positions** without repairs.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native 130-coordinate frame:**
 
 ```text
 MILITAERMISSXBITTEGEFRXRUDOLFRUDOLFZUGETDERDEUTSCHBOTSCHSOFORTAUS
 ```
 
-**Edited output — unchanged, with zero substitutions or fills:**
-
-```text
-MILITAERMISSXBITTEGEFRXRUDOLFRUDOLFZUGETDERDEUTSCHBOTSCHSOFORTAUS
-```
+</details>
 
 **Readable German — spacing, punctuation and umlaut:**
 
@@ -49,17 +48,16 @@ conditional model of one missing coordinate after its initial D:
 **D?AGD**. The scan identifies the short group, but does not specify that
 exact internal loss position.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional 136-coordinate frame with one missing coordinate inside DAGD:**
 
 ```text
 MILITAERDIENSTENTLASSENDEUTSCHEBOTSCHBENACHRNACHRICHXNACHCHEF2BO52?X
 ```
 
-**Edited output — same conditional frame, unchanged, with zero substitutions or fills:**
-
-```text
-MILITAERDIENSTENTLASSENDEUTSCHEBOTSCHBENACHRNACHRICHXNACHCHEF2BO52?X
-```
+</details>
 
 **Readable German — spacing, punctuation and umlaut, with the unresolved reference retained:**
 

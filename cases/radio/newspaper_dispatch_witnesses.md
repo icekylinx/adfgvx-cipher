@@ -1,6 +1,6 @@
 # p166 — a second witness of the newspaper-dispatch request
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Two newly source-reviewed physical parts, compared with the already published p171 B1/B2 edition. The first part is fully supported by observed coordinate pairs across the copies. In the second, three letter choices remain editorial and one numeral cell remains unassigned.
 
@@ -16,19 +16,29 @@ Both p166 native frame lengths are preserved. B1 contains a Q-shaped noncoordina
 
 ## p166 B1
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 OBERPOBTDIREKTIONBRESLAUXGESTERNUNDHEUTEBERLI?ERZEITUNGSSAECKEUEBERORSOVAHIEREINGEGANGENXVERANLASSET
 ```
 
+</details>
+
 Common proposed body:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 OBERPOSTDIREKTIONBRESLAUXGESTERNUNDHEUTEBERLINERZEITUNGSSAECKEUEBERORSOVAHIEREINGEGANGENXVERANLASSET
 ```
+
+</details>
 
 p166 needs one observed-coordinate substitution and one mask fill. The p171 copy directly supports both proposed letters. Conversely, p166 supplies complete source pairs for p171's previously repaired N in `DIREKTION` and the two previously erased letters in `ORSOVA` and `EINGEGANGEN`.
 
@@ -38,19 +48,29 @@ All 100 common candidate pairs are complete in at least one received copy. The t
 
 Literal decryption, with its printed erasures retained:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 SQF?Y?3???BEF?E?D???NGA?F?E???MWE?S?V???UES?E?S???3UN?3?8???E?T?C?E???D?O?T?I???T?O?R?J???I?N
 ```
 
+</details>
+
 The previously published p171 edition is the declared comparison target:
+
+<details>
+<summary>Earlier attributed reading</summary>
 
 **Earlier attributed reading — p171 edited comparison target; no new coordinate claim for p166:**
 
 ```text
 SOFORTPOSTBEFOERDERUNGAUFSELBEMWEGEXVORZUGSWEISE7?3UND308XXDEUTSCHEFELDPOSTDIREKTIONRUMAENIEN
 ```
+
+</details>
 
 Applying that target to p166 costs **seven observed-coordinate substitutions and 49 fills**. Of the 49 filled coordinates,48 are directly present in the raw p171 copy. The remaining fill at 173 follows the prior editorial D in `DEUTSCHE`; it is not independently observed in either copy.
 

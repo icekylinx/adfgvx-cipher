@@ -1,6 +1,6 @@
 # November 6 Ringbahn-key instruction: a second three-part witness
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Third reception restored.** The [p187 B1 fragment](nov13_ringbahn_retransmission.md) adds a separately received witness with an exact origin map for every restored coordinate.
 
@@ -23,6 +23,9 @@ p145 raw text directly supports all four earlier p211 word repairs.
 
 ## Dates and source identity
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — literal p145 headers:**
 
 ```text
@@ -34,6 +37,8 @@ SS DD 2230 (6/11) 3 TEILE
 3 TL RICHI-134
 ```
 
+</details>
+
 The [p211 source crop](../../experiments/open_targets_continuation/sources/childs_p211_selected.png)
 instead has a **19 November** heading and **22 November** receipt, with
 `FUER POT COS VON LP SS DD 2230 3 TLE`. Both copies decode under the unchanged
@@ -43,6 +48,9 @@ rewritten to fit the cipher period or the December instruction.
 ## p145 B1
 
 [Reviewed source crop](../../experiments/nov6_ringbahn_key_witnesses/sources/p145_B1.png).
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — native 214-slot frame; 107/107 fixed positions:**
 
@@ -56,6 +64,8 @@ NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHRCHEFXGXB848727XXDEZEMBERX1INGBAH
 NOVEMBERXRINGBAHNSCHLUESSELNICHTVERNICHTENXNACHRCHEFXGXB848727XXDEZEMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGX
 ```
 
+</details>
+
 Observed source changes, using zero-based indices: **46 A→V**.
 
 **Readable German — complete edited stream, with spacing and punctuation only:**
@@ -65,6 +75,9 @@ Observed source changes, using zero-based indices: **46 A→V**.
 ## p145 B2
 
 [Reviewed source crop](../../experiments/nov6_ringbahn_key_witnesses/sources/p145_B2.png).
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — conditional 184-slot frame: one unknown slot inserted at source boundary 33; 91/92 fixed positions:**
 
@@ -78,6 +91,8 @@ NICHTINKRAFTX?MFUERSCHLDESSELERSTERDEZEMBERWIEZEHNTERNOVEMBERUSWBISEINUNDZWKNZIG
 NICHTINKRAFTXDAFUERSCHLUESSELERSTERDEZEMBERWIEZEHNTERNOVEMBERUSWBISEINUNDZWANZIGSTERDEZEMBER
 ```
 
+</details>
+
 Observed source changes, using zero-based indices: **44 F→V**, **87 X→V**, **127 F→V**.
 
 The visibly short `XFVA` at source positions 30–33 becomes `XFVFA` by adding **F at source boundary 33**. This added value is not counted as a fill of a printed dash. The resulting complete ciphertext is **identical to the unedited p211 lower-B part 2**.
@@ -90,6 +105,9 @@ The visibly short `XFVA` at source positions 30–33 becomes `XFVFA` by adding *
 
 [Reviewed source crop](../../experiments/nov6_ringbahn_key_witnesses/sources/p145_B3.png).
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 134-slot frame; 67/67 fixed positions:**
 
 ```text
@@ -101,6 +119,8 @@ WIEDREISSIGSTERNOVEMBERXXEMPFANGSBESTAETIGUNGXXNKCHRCHEFX4XBX47857X
 ```text
 WIEDREISSIGSTERNOVEMBERXXEMPFANGSBESTAETIGUNGXXNACHRCHEFX4XBX47857X
 ```
+
+</details>
 
 Observed source changes, using zero-based indices: **68 F→V**.
 

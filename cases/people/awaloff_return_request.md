@@ -1,6 +1,6 @@
 # Request for Awaloff to come to Berlin
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 The first part addresses a political department with Oberkdo Mackensen; the matching source header carries the second part onto p161. The continuation requests that Fürsten Awaloff come to Berlin as soon as possible. LI, TSCHENKE, AWALOFF and STUMM remain source labels without added biographical identification.
 
@@ -16,6 +16,9 @@ The source has **140 slots** (135 valid coordinates). The native model has 140 s
 
 **Cost:** 2 observed-coordinate substitutions; 5 printed-mask fills; 0 observed-coordinate exclusions; 0 mask exclusions; no inserted coordinates.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — native source frame:
 
 ```text
@@ -27,6 +30,8 @@ POL?TISCHEABT2GXBEIMBBE?KDOMACKEN?ENXNR?41XAUFTELEGRAM?NRX?8?XTS?HENKE
 ```text
 POLITISCHEABTLGXBEIMOBERKDOMACKENSENXNR?41XAUFTELEGRAMMNRX?8?XTSCHENKE
 ```
+
+</details>
 
 **Readable German** — spacing, case, punctuation and conventional umlaut rendering only; all non-`X` labels match the edited output:
 
@@ -42,6 +47,9 @@ The source has **128 slots** (126 valid coordinates). The native model has 128 s
 
 **Cost:** 0 observed-coordinate substitutions; 2 printed-mask fills; 0 observed-coordinate exclusions; 0 mask exclusions; no inserted coordinates.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — native source frame:
 
 ```text
@@ -53,6 +61,8 @@ LIXBITTETFUERSTE?XAWALOFFXBALDMOEGLICHS?NACHBERLINZUKOMMENXSTUMM
 ```text
 LIXBITTETFUERSTENXAWALOFFXBALDMOEGLICHSTNACHBERLINZUKOMMENXSTUMM
 ```
+
+</details>
 
 **Readable German** — spacing, case, punctuation and conventional umlaut rendering only; all non-`X` labels match the edited output:
 

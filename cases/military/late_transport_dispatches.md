@@ -1,6 +1,6 @@
 # Rail stoppage, motor columns and aviation replenishment
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
 
@@ -31,11 +31,16 @@ slot and records the limited word repairs explicitly.
 
 Part A1, after the one-coordinate `M3T→MIT` repair:
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output:**
 
 ```text
 ABENDMELDGYVY26YXXYY8YRYDYISTMITANFANGBISTISZAFOELDVARAUFGERUECKTYUNTERBRINGUNGSRAUMDERJX5YUYJX0YIYDYUNVERAENDERTY
 ```
+
+</details>
 
 This is an evening report. It says that the leading element has advanced to
 `TISZAFOELDVAR` and that the accommodation area of the subsequently named
@@ -45,11 +50,16 @@ published-key labels, not certified dates or unit numbers.
 Part A2, with one substitution proposing `SWOLNOK→SZOLNOK` and the printed
 dash filled to give `ANGEHALTEN`:
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output:**
 
 ```text
 SEITJ5YXXYABENDSSINDALLETRANSPORTEAUFSTRECKEARADSZOLNOKAUFWEISUNGDERUNGYZYTYLYANGEHALTENWORDENYY
 ```
+
+</details>
 
 All transports on the proposed **Arad–Szolnok** route have been stopped on
 the instruction of the Hungarian `Z T L`. The latter abbreviation remains
@@ -57,11 +67,16 @@ unexpanded. The evening date-like field `J5YXX` is not numerically interpreted.
 
 Part A3, with two substitutions restoring `NICHT` and `GEFUNDEN`:
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output:**
 
 ```text
 DIEFUERHEUTEBEABSICHTIGTENVERLADUNGENHABENDAHERBISHERNICHTSTATTGEFUNDENYYAYOYKYXXYXYAYYY
 ```
+
+</details>
 
 As a consequence, the loadings intended for that day have not yet taken place.
 The three parts form a continuous operational report. No missing part,
@@ -74,11 +89,16 @@ has `ZON v BSL; NR 153 1900 (30/11) 2 TLE`, with exact lengths 268 and 248.
 In B1, two previously uncertain words are filled from printed dashes, and
 one observed coordinate repairs the office abbreviation `OH4→OHL`:
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output:**
 
 ```text
 AOKXXYOKMHATBEIOHL0KRAFTWAGENKOLONNENBEANTRAGTOHLDRAHTETMIRRMX?X63282ESWIRDGEBETENMITXXARMEEUNMITTELBARINVERBINDUNGZUTRETENOBVONDIESER
 ```
+
+</details>
 
 OKM has requested motor columns from OHL. OHL asks the sender to contact
 the army directly to establish whether further columns can be made available.
@@ -88,11 +108,16 @@ source does **not** establish a request for “40 columns.” The army labels
 
 B2 continues the question, after six substitutions and five erasure fills:
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output:**
 
 ```text
 NOCHWEITEREAKKSABGEGEBENWERDENKOENNENYTELRAMMSCHLUSSUMMITTEILUNGWIRDGEBETENWIEVIELKONNENABGEGEBENWERDENKOENNENYOKMRMXCX0?40Y
 ```
+
+</details>
 
 The body asks how many additional `AKKS` can be released. That abbreviation
 is retained, as are the shortened **`TELRAMM`** and six-character **`KONNEN`**.
@@ -120,20 +145,30 @@ it is not a seven-coordinate insertion into the historical ciphertext.
 
 The resulting direct reading under the published Nov28–Dec1 key is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 K?FLXXYYW?BLEIBTF?IEGER???LY24Y?A?SCHZIEL?STC?0IO?ADA?IER?IGE?ERP?RKE?RIC?TET?IR??BIT?ENA??HK?VER?ETZ?EFLIEGE?VERBAEN?EBESTIM?UNGSGEM?ESSAUFF??LLENYK?FLMACKY?3X4OPYY
 ```
 
+</details>
+
 Three observed-coordinate substitutions and 31 erasure fills support this
 separate conditional edition:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — conditional partial-source reconstruction with the stated erasure fills:**
 
 ```text
 KOFLXXYYWOBLEIBTFLIEGERABTLY24YMARSCHZIELISTCRAIOVADAHIEREIGENERPARKERRICHTETWIRD?BITTENACHHK?VERSETZTEFLIEGERVERBAENDEBESTIMMUNGSGEMAESSAUFFUELLENYKOFLMACKY?3X4OPYY
 ```
+
+</details>
 
 The proposed body asks where the flight detachment is, gives **Craiova** as
 its march destination because a park of its own is being established there,

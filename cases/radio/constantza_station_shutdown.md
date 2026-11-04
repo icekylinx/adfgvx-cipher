@@ -1,9 +1,7 @@
 # Conditional Constantza station-shutdown notice
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Status:** a readable conditional edition of p112 C. The enlarged
-[source](../../experiments/nov3_evening_and_nov4_radio/sources/p112_C_detail.png)
+[source](../../experiments/nov3_evening_and_nov4_radio/sources/p112_C_detail.png) · [Reading conventions](../../docs/reading-conventions.md)
 clearly advertises 122 coordinates but contains only 110. Its two short
 groups are `DVAX` and `AGFF`. A source-preserving 122-slot model adds twelve
 unprinted coordinates; their values are not an observed continuation.
@@ -22,6 +20,9 @@ A minimum for one chosen text does not prove unique wording or loss history.
 
 The header is OUI v OSM, received at 5.59 p.m. on November 4, origin (4) 1700. The readable passage follows the priced edited stream, including its loss assumptions. The literal spelling CONSTANTZA and abbreviation NACHRCHEF are retained in the readable display.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional 122-slot loss frame:**
 
 ```text
@@ -33,6 +34,8 @@ NAC?RCWE?XCO?STA?TZA?EITH?UTE?400AUSS?RB?TRI?B?ESETZTX?ILMISS
 ```text
 NACHRCHEFXCONSTANTZASEITHEUTE?400AUSSERBETRIEBGESETZTXMILMISS
 ```
+
+</details>
 
 **Readable German — based on the edited candidate above; the local qualifications remain in force:**
 

@@ -1,6 +1,6 @@
 # Flying units: should they depart or remain?
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -22,6 +22,9 @@ equally priced local gap positions are both retained.
 
 [Reviewed source image — source-PDF reference](../../experiments/nov4_flying_unit_inquiry/inputs.json).
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — header:**
 
 ```text
@@ -30,6 +33,8 @@ B) UKH v ZON (4.41 a.m., November ---)
 RICHI-184
 ```
 
+</details>
+
 The intercept's day is missing and remains missing. The November 4 page
 heading is a separate source layer. The [literal input](../../experiments/nov4_flying_unit_inquiry/inputs.json)
 preserves every dash and the invalid printed `U` in `GXXGU`.
@@ -37,6 +42,9 @@ preserves every dash and the invalid printed `U` in `GXXGU`.
 The short **XFVV** group occupies source indices **15–18**. The displayed
 frame inserts an unknown coordinate at **source boundary 17**, before
 original source index 17. No source slot is removed or reordered.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — conditional 184-slot frame, boundary 17; 67/92 fixed positions:**
 
@@ -49,6 +57,8 @@ original source index 17. No source slot is removed or reordered.
 ```text
 ??ERX?K??1?2??OP?NICHTVERSTAENDLICHXXSOLLENFLIEGERABTEILUNGENABFLIEGENXODERHIERBLEIBENXFRAGE
 ```
+
+</details>
 
 **Readable German — complete edited stream; the opening token stays literal:**
 
@@ -104,11 +114,16 @@ producing the same edited ciphertext group **XFFVV** and the same edited
 plaintext. Their unfilled raw frames differ because the unknown slot lies
 on opposite sides of the observed F.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — equally priced boundary-16 alternative; 67/92 fixed positions:**
 
 ```text
 ??ERX?K??1?2??OP??ICHT?E??T?ENDLI??XXSOLLEN?LI?GER???EI?UNGEN?B?LIEGENX?DERHIERRLEIBENXFRAGE
 ```
+
+</details>
 
 The displayed boundary-17 frame is a presentation choice. The certificate
 preserves both mappings and all five price comparisons. The comparison is

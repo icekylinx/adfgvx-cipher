@@ -1,6 +1,6 @@
 # Mackensen's withdrawal report: the separately received second part
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -23,6 +23,9 @@ and [short-group detail](../../experiments/mackensen_withdrawal_part2/sources/p1
 The page heading gives 3 November, reception is 6 November, and the explicit
 assembly note gives 20:00 on 11/3. These source date layers remain separate.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Source transcription — literal header:**
 
 ```text
@@ -43,6 +46,8 @@ SEIT1X11X18ERGIBTSICGJEDOCHDASBILDXDASSDIESERBIZC?ENARMEANMIT3LRANCXDMVXIMVO0MAR
 ```text
 SEIT1X11X18ERGIBTSICHJEDOCHDASBILDXDASSDIESERBISCHENARMEENMIT3FRANZXDIVXIMVORMARSCHGEGENBELGRADXSHMENDRIABEGRIFFENSINDUNDDERBEIXVID8NUNDOO2PALANKABEABSICHTIGTEANGRIFFAUFGEGEBENZUSEINSCHEINT
 ```
+
+</details>
 
 Observed coordinate changes, with zero-based source indices: **6 F→V**, **45 F→V**, **47 D→F**, **48 F→D**, **49 G→F**, **62 F→V**, **112 F→D**, **114 A→G**, **138 G→V**, **164 X→V**, **215 G→F**, **225 V→A**, **229 G→F**.
 

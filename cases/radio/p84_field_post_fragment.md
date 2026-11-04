@@ -1,8 +1,6 @@
 # p84 C — German field-post fragment
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[All cases](../README.md) · [ADFGVX Cipher](../../README.md)
+[All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Recovery and review: icekylinx and GPT-6 Astra Pro, 4 November 2026.**
 A source-directed frame and corpus phrase search identify **Deutsche Feldpost**
@@ -27,6 +25,9 @@ and `1810 (30); RICHI-244`. The page heading is October 30, and the explicit
 `(30)` dating agrees with the October 28–31 key used here. The reception ends
 with the annotation **Balance jammed**.
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — all 118 printed slots, including seven dash masks and the four-character FDFG group:**
 
 ```text
@@ -34,6 +35,8 @@ AFDAX AXGFD GXAVV AXDVG DAADV VXAGX GDVAA AXGGX
 AAAXA FXDDG DXXGX DFDVF FAXXX FXGGA AXGFG FDFG
 DADDA AVAFV XGXAD AAAAX DVXAF XAXXG FA--- ----
 ```
+
+</details>
 
 The conditional frame inserts one unknown inside or immediately beside the
 short group `FDFG`, then adds 125 unknown tail slots to reach the advertised
@@ -48,6 +51,9 @@ in the length diagnostic. Its exact position is not established.
 
 ## Raw and edited output
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — common to all five 244-slot frames; 14/122 fixed positions; no coordinate substitutions or fills:**
 
 ```text
@@ -59,6 +65,8 @@ in the length diagnostic. Its exact position is not established.
 ```text
 ??9????????G????????U????????E????????R????????DEUTSCHEFELDPOST??7????????S????????N????????M????????N????????E????????G??
 ```
+
+</details>
 
 The sixteen-letter proposal has **15 observed supporting coordinates**:
 `D` at 47 and `E` at 56 are already fixed; eleven further letters retain one

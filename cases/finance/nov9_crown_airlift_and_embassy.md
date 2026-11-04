@@ -1,6 +1,6 @@
 # November 9: a crown airlift request and an urgent embassy address
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -23,6 +23,9 @@ the attribution to George Lasry and collaborators.
 
 [Reviewed B source image — source-PDF reference](../../experiments/nov9_crown_airlift_and_embassy/inputs.json).
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — shared header and first-part label:**
 
 ```text
@@ -31,8 +34,13 @@ B) LP v NKJ (07.21 p.m., November 9th
 1 TL RICHI-190
 ```
 
+</details>
+
 The source does not visibly close the parenthesis in this header line.
 The part labels, routing and date remain as printed.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — native 190-slot frame; 94/95 fixed positions:**
 
@@ -45,6 +53,8 @@ OHLXOKMXBITTETFUERLOEHNUNGUNDANKAUFINUNGARNUMSCHREUNIGESE?DUNGVONDREISSIGMILLION
 ```text
 OHLXOKMXBITTETFUERLOEHNUNGUNDANKAUFINUNGARNUMSCHLEUNIGESENDUNGVONDREISSIGMILLIONENKRONENMITTELS
 ```
+
+</details>
 
 At zero-based **source index 185**, `A→D` gives `SCHLEUNIGE` in place of raw
 `SCHREUNIGE`. The invalid **C** in `DGVXC`, **source index 159**, is filled
@@ -61,6 +71,9 @@ continues directly in B2.
 
 ## p167 B2
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Source transcription — part label:**
 
 ```text
@@ -72,6 +85,8 @@ continues directly in B2.
 ```text
 RIESENFLUGZEUGNACHBRASSODEUTSCHEETAPPENXVERWALTUNGXANGEMESSENEVERTEILUNGINGROSSENUNDKLEINENNOTEN
 ```
+
+</details>
 
 **Readable German — complete raw stream, with spacing and punctuation only:**
 
@@ -85,6 +100,9 @@ keeps its original endings.
 
 ## p167 B3
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Source transcription — part label and following control:**
 
 ```text
@@ -97,6 +115,8 @@ keeps its original endings.
 ```text
 ERBETENXXKRONENVORATHIERBESCHRAENKTUNDHOCHIMKURSEXXOKMACKENSEN4ANRX41942
 ```
+
+</details>
 
 **Readable German — complete raw stream, with spacing and punctuation only:**
 
@@ -117,6 +137,9 @@ requested money was delivered.
 
 [Reviewed E source image — source-PDF reference](../../experiments/nov9_crown_airlift_and_embassy/inputs.json).
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — literal header:**
 
 ```text
@@ -125,14 +148,21 @@ E) XYZ v LP (06.43 a.m., November 10th
 1 TL RICHI-98
 ```
 
+</details>
+
 The November 10 reception and internal November 9 date remain distinct.
 Only part 1 is printed in this section.
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output — native 98-slot frame; 49/49 fixed positions:**
 
 ```text
 DEUTSCHEBOTSCHAFTCONSTANTINOPELDRINGENDXGEZXSTUMM
 ```
+
+</details>
 
 **Readable German — complete raw stream, with spacing and punctuation only:**
 

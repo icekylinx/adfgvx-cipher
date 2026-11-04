@@ -1,6 +1,6 @@
 # Odessa courier report: a conditional loss before transposition
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Printed p201 C has **324 received coordinates**, exactly its advertised count. Much of the direct reading concerns Elsner, Wilna, arriving here and further couriers, but a run in its opening is garbled. A bounded alternative inserts two missing coordinates **before transposition**: undo the **324-coordinate transposition**, restore two fractionation positions, and read **163 labels** from 326 coordinates. The opening becomes an address to the German representative in Odessa, followed by **KURIER ELSNER**.
 
@@ -13,6 +13,9 @@ Research and editorial work: **icekylinx and GPT-6 Astra Pro**. The published No
 Literal header: `C) NKJ (RAT) v LP (4.15 p.m., November 16th); FUER RAT 1720 (16) SSS BERLIN 15/11 (16); RICHI-324`.
 
 The source and two enlarged crops were visually reviewed locally. Their PDF page, rectangles, scales, dimensions and RGB hashes are pinned in [inputs.json](../../experiments/odessa_courier_pretransposition/inputs.json). **Reviewed source crops:** [p201_C_reviewed.png](../../experiments/odessa_courier_pretransposition/sources/p201_C_reviewed.png) · [p201_C_overstrike.png](../../experiments/odessa_courier_pretransposition/sources/p201_C_overstrike.png). [File and pixel verification](../../sources/reviewed-crops.md#verify). The optional `--pdf` check reproduces the reviewed pixels from the original Childs scan; ordinary verification explicitly reports that source-pixel checking was not requested.
+
+<details>
+<summary>Literal source transcription</summary>
 
 **Source transcription — all 324 native slots, with the two overstruck X-like glyphs retained:**
 
@@ -28,6 +31,8 @@ DXXFD FFXAD DXXFX DXFVD DAFDF FXGGX XDGAX AAXAX
 GXVG
 ```
 
+</details>
+
 Group 11, source 50–54, appears as **GXXDV**. Both X skeletons at **51 and 52** are visible beneath the heavy overstrike, but the image does not establish ink order or make either reading unambiguous. The primary transcription uses the visible X readings. A conservative **G??DV** analysis is separately retained below; the deciphered words do not select the glyphs. Thus 324 slots have primary ADFGVX readings, of which 322 are not affected by this overstrike qualification.
 
 An independent source audit corrected the initial draft’s row 1 group 4 from DDGAX to the clearly printed **GDGAX**. The [transcription audit](../../experiments/odessa_courier_pretransposition/source_transcription_audit.json) preserves both literal streams and the earlier artifact hashes. Source 15 is therefore already G, and BERLIN is present in the raw reading. This source-reading correction is not charged as a historical ciphertext substitution.
@@ -36,11 +41,16 @@ The earlier OCR retained only 315 slots in its p201 block 6. Reading the complet
 
 ## The direct native layer
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — unchanged Nov16–18 key, all 324 printed coordinates in the native transposition:**
 
 ```text
 DEUTSCHENBEVOLLMAEANO?NO?TJ?S?ETRJV?KERELSNERHEUTBBEBERWILNAHIEREINGETROFFENSOLLENKURIERENACHDORTNOCHABFAHR?NXVERBINDXOFFZXOXROEMX2XDERXOXHXLCBERLINXZT?NRX1?111?X
 ```
+
+</details>
 
 This layer fixes **153/162 positions**. ELSNER, WILNA, HIER EINGETROFFEN, SOLLEN KURIERE NACH DORT NOCH and much of the closing are already present. The opening BEVOLLMAEANO… is retained here exactly. The conservative G??DV source analysis fixes 151/162 positions; it does not erase any printed slot from the record.
 
@@ -58,11 +68,16 @@ Before the later word repairs, this process reproduces the entire native receive
 
 The first missing X can be described at position **36 or 37**, next to the same observed X. Both descriptions produce the same filled fractionated stream. They retain different origin maps and different unfilled pair domains; neither alias is selected as the historical location.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional 326-coordinate fractionation frame, with both added coordinates still unknown:**
 
 ```text
 DEUTSCHENBEVOLLMAE?HTIGTENXODESSAXKUR?ERELSNERHEUTBBEBERWILNAHIEREINGETROFFENSOLLENKURIERENACHDORTNOCHABFAHR?NXVERBINDXOFFZXOXROEMX2XDERXOXHXLCBERLINXZT?NRX1?111?X
 ```
+
+</details>
 
 This unfilled model fixes **157/163 positions**. The restored pair boundaries already expose most of the address and courier wording. Its two question marks at the inserted coordinates remain source absences rather than observed values.
 
@@ -104,11 +119,16 @@ The opening recovery and the following spelling proposals have different costs. 
 
 The unknown character in ABFAHR?N comes from an unassigned square cell in the unedited frame. Replacing its observed GG pair by the known E pair is a source-coordinate substitution; it does not assign that unknown square cell or alter the reference fields that also use it.
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — 2 added fractionation fills and 4 observed received-coordinate substitutions:**
 
 ```text
 DEUTSCHENBEVOLLMAECHTIGTENXODESSAXKURIERELSNERHEUTEUEBERWILNAHIEREINGETROFFENSOLLENKURIERENACHDORTNOCHABFAHRENXVERBINDXOFFZXOXROEMX2XDERXOXHXLXBERLINXZT?NRX1?111?X
 ```
+
+</details>
 
 **Readable German — the complete primary edited stream, with spacing and punctuation only:**
 
@@ -124,11 +144,16 @@ VERBIND, OFFZ, O, ROEM 2 and the final ZT? NR field remain as decoded; abbreviat
 
 Keeping source 51 and 52 masked, applying the same two fractionation fills and only the same four observed substitutions gives the following **158/163-position** edition. It does not add source-glyph fills.
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — conservative G??DV branch, with the two source glyph masks still unresolved:**
 
 ```text
 DEUTS?HENBEVOLL?AECHTIGTENXODESSAXKURIERELSNERHEUTEUEBERWILNAHIEREINGETROFFENSOLLENKURIERENACHDORTNOCHABFAHRENXVERBINDXOFFZXOXROEMX2XDERXOXHXLXBERLINXZT?NRX1?111?X
 ```
+
+</details>
 
 Completing those two masks as X reproduces the primary visible-X reading, but it would cost **two additional source-mask fills** in this branch. The source image supports the X skeletons; the mathematical completion does not make the overstrike unambiguous.
 

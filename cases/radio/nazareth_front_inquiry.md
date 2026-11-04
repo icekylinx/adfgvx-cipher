@@ -1,6 +1,6 @@
 # Nazareth evaluation office: request for news from the front
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -15,17 +15,16 @@ The [source crop](../../experiments/september_receipt_and_front_inquiry/sources/
 has **172 valid coordinates**, matching `RICHI-172`. Using the unchanged
 published **Sep19–21** key produces **86 / 86 fixed positions**.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native 172-coordinate frame:**
 
 ```text
 ANAKONACH70NAZARETHAUSWERTUNGSSTELLEXERBITTENNACHRICHTENVONKAMPFFRONTXBLITZXPHQX95267X
 ```
 
-**Edited output — identical to raw output; zero coordinate edits:**
-
-```text
-ANAKONACH70NAZARETHAUSWERTUNGSSTELLEXERBITTENNACHRICHTENVONKAMPFFRONTXBLITZXPHQX95267X
-```
+</details>
 
 **Readable German — spacing and punctuation only:**
 

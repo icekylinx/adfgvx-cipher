@@ -1,8 +1,6 @@
 # Kremp's request for a departure date — p131, p149 and p159
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case guide](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case guide](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** The unlettered final message on p159 is completely readable under
 the unchanged published `Nov7-9` partial key: all **98 plaintext positions**
@@ -10,7 +8,7 @@ use established cells and all **196 source coordinates** re-encrypt exactly.
 Its body supplies a second-key witness for the more damaged p131 B / p149 B
 version. **Source assembly, comparison and edition:** icekylinx and GPT-6
 Astra Pro. Period-key recovery retains [George Lasry's published
-attribution](../../data/keys.json); no first-decipherment priority is claimed.
+attribution](../../data/keys.json).
 
 ## Reading
 
@@ -28,11 +26,16 @@ incapacity are not inferred.
 
 The complete p159 plaintext is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 COELN11XAB1XSXMILMISSTRANSPABT1BCONSTANTINOPELXBINWIEDERHERGESTELLTBITTEABFAHRTSTAGBESTIMMENXKREMP
 ```
+
+</details>
 
 No source correction, missing-coordinate guess or unused square assignment is
 needed for this reading. The two unassigned digits in the published `Nov7-9`
@@ -61,11 +64,16 @@ p149 and **45 of 51** in p131.
 
 The p149 source decodes literally as:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 MILMISTRANSPABT1BKONSTANTINOPELXBINWIEDERHER4ESTELLTBITTEABFA7ETSTAGBESTIMMENXKREMPX
 ```
+
+</details>
 
 The independently readable p159 body supports `WIEDERHERGESTELLT` and
 `ABFAHRTSTAG`. The resulting p149 reconstruction requires precisely three

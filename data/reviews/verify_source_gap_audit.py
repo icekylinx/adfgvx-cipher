@@ -13,6 +13,7 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 sys.path.insert(0, str(ROOT))
 from adfgvx.source_evidence import verify_source_evidence
+from adfgvx.catalog import load_catalog
 
 TARGETS = set('p70_B1 p71_A2 p84_C p127_B2 p137_A6 p137_B p145_A '
               'p152_A2 p154_A2 p163_A16 p164_D p167_C1 p167_D p176_A6 '
@@ -66,18 +67,17 @@ def verify_matching_inputs(audited, matching):
 
 
 def report(data, editions):
-    lines = ['# Review of the 21 source gaps', '',
-             '**icekylinx and GPT-6 Astra Pro · 3 November 2026**', '',
-             'This audit covers the 21 physical bodies outside the readable catalogue at '
-             '`f3badb0`. All 21 have a fresh source transcription, an explicit slot count '
-             'and a reproducible original-PDF pixel reference. A source audit alone does '
-             'not turn an unread body into a recovered message. The edition column below '
-             'uses the current catalogue and includes partial and conditional readings.', '',
-             '| Source | Native slots | Valid coordinates | Mask/invalid slots | Advertised length | Current edition |',
+    lines = ['# Source audit for 21 damaged or short bodies', '',
+             'Source review: **icekylinx and GPT-6 Astra Pro**. The literal audit was recorded on 3 November 2026; catalogue states below are current.', '',
+             'All 21 bodies have an explicit native transcription, slot count and '
+             'reproducible original-PDF pixel reference. Each now has one canonical '
+             'catalogue entry, including four OPEN sources with no accepted body reading. '
+             'Source transcription and plaintext recovery remain separate results.', '',
+             '| Source | Native slots | Valid coordinates | Mask/invalid slots | Advertised length | Current state |',
              '|---|---:|---:|---:|---:|---|']
     for r in data['records']:
         edition = editions.get(r['id'])
-        link = ('[Partial/conditional edition](../' + edition['path'] + ')'
+        link = ('[' + edition['state'] + '](../' + edition['path'] + ')'
                 if edition else 'No accepted edition')
         lines.append('| ' + ' | '.join(map(str, [r['id'], r['source_slots'],
                      r['valid_source_coordinates'], len(r['masked_or_invalid_source_slots']),
@@ -120,7 +120,7 @@ def main():
     assert len(data['source_images']) == 21
     assert {r['id'] for r in data['source_images']} == TARGETS
     by_id = {r['id']: r for r in rows}
-    catalogue = load(ROOT / 'data/reading_catalog.json')
+    catalogue = load_catalog()
     editions = {r['id']: r for r in catalogue['challenge'] + catalogue['other']}
     input_reviews = []
     for r in rows:
@@ -158,7 +158,11 @@ def main():
         assert destination.read_text() == rendered, 'Refresh the source-gap audit report'
     print(json.dumps({'verified': True, 'audited_physical_sources': 21,
                       'source_slots': 3451, 'valid_coordinates': 3232, 'mask_or_invalid_slots': 219,
-                      'audited_sources_with_readable_editions': len(TARGETS & editions.keys()),
+                      'audited_sources_in_catalogue': len(TARGETS & editions.keys()),
+                      'audited_sources_with_readable_editions': sum(
+                          editions[ident]['state'] != 'OPEN' for ident in TARGETS & editions.keys()),
+                      'audited_sources_still_open': sorted(
+                          ident for ident in TARGETS & editions.keys() if editions[ident]['state'] == 'OPEN'),
                       'native_input_records_verified': sum(r['native_records_verified'] for r in input_reviews),
                       'sources_with_identical_supplemental_inputs': [r for r in input_reviews
                           if r['native_records_verified'] > 1],

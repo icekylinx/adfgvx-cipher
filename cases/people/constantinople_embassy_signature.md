@@ -1,6 +1,6 @@
 # Constantinople embassy address and Stumm signature
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Source edition and verification: **icekylinx and GPT-6 Astra Pro**.
 
@@ -19,6 +19,9 @@ represented by one mask in the analysis. The source does not acquire a
 different length. It decodes under the unchanged published **Nov7–9** key,
 although its receipt header is November 10.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 100-slot frame with the three printed C glyphs masked:**
 
 ```text
@@ -30,6 +33,8 @@ DEUTSCHEBOTSCHAFTKONSTA??INOPELXUNTERSCHRIF?STUMMX
 ```text
 DEUTSCHEBOTSCHAFTKONSTANTINOPELXUNTERSCHRIFTSTUMMX
 ```
+
+</details>
 
 **Readable German — exact nonseparator labels of the edited layer, with spacing and punctuation:**
 

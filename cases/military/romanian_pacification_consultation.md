@@ -1,12 +1,10 @@
 # Romanian pacification proposal and a request for consultation
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
 Childs p157 A, PDF p160, is headed `LP v NKJ (--- November 8th)` and
 `5 TLE`, beneath a page heading dated **7th NOVEMBER, 1918**. The
-[overview](../../experiments/romanian_pacification_consultation/sources/p157_overview.png)
+[overview](../../experiments/romanian_pacification_consultation/sources/p157_overview.png) · [Reading conventions](../../docs/reading-conventions.md)
 shows the surviving source divisions. Parts **2–5** are transcribed and
 decoded below using the unchanged partial **Nov7–9** key. The incomplete
 first part remains separate contextual evidence; the date difference is
@@ -23,6 +21,9 @@ herbeigeführt” is not supplied here.
 The [source crop](../../experiments/romanian_pacification_consultation/sources/p157_A2.png)
 contains **200 slots**, matching `2 TL RICHI-200`.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 200-coordinate frame:**
 
 ```text
@@ -34,6 +35,8 @@ MINISTERIUMLFERBEIGEFUEHRTXRUYAENISCHERLGIERUNGZIXTINERWAEGUNGXEINEMILITAEWISCHE
 ```text
 MINISTERIUMSHERBEIGEFUEHRTXRUMAENISCHEREGIERUNGZIETINERWAEGUNGXEINEMILITAERISCHEPAZIFIZIERUNGSAKTION
 ```
+
+</details>
 
 Seven observed-coordinate substitutions repair the indicated candidate words:
 **1 X→V, 32 G→F, 33 D→V, 137 X→D, 138 D→X, 141 D→X, 184 V→D**.
@@ -49,6 +52,9 @@ only in the displayed German. No coordinate or plaintext slot is added.
 The [source crop](../../experiments/romanian_pacification_consultation/sources/p157_A3.png)
 contains **218 slots**, matching `3 TL RICHI-218`.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 218-coordinate frame:**
 
 ```text
@@ -60,6 +66,8 @@ NACHSIEBENBUERGENXOBKDOXHATZRSUCHTXEINENBEVOLLMXGENERALSOFORTNACHBUKARSTZURBESPR
 ```text
 NACHSIEBENBUERGENXOBKDOXHATERSUCHTXEINENBEVOLLMXGENERALSOFORTNACHBUKARSTZURBESPRECHUNGUEBERDIESEANGELEGENHEIT
 ```
+
+</details>
 
 Two observed-coordinate substitutions, **177 F→V** and **196 A→X**,
 repair ERSUCHT and ANGELEGENHEIT. The literal **BUKARST** remains;
@@ -75,17 +83,16 @@ repair ERSUCHT and ANGELEGENHEIT. The literal **BUKARST** remains;
 The [source crop](../../experiments/romanian_pacification_consultation/sources/p157_A4.png)
 contains **210 slots**, matching `4 TL RICHI-210`.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native 210-coordinate frame:**
 
 ```text
 ZUENTSENDENXDAFUERSTELLUNGDESOXKXMXDIEHINSICHTLICHWAFFENSTILLSTANDESGEPFLOGENENVEREINBARUNGENENTSCHEIDEND
 ```
 
-**Edited output — 0 observed-coordinate substitutions and 0 printed-mask fills:**
-
-```text
-ZUENTSENDENXDAFUERSTELLUNGDESOXKXMXDIEHINSICHTLICHWAFFENSTILLSTANDESGEPFLOGENENVEREINBARUNGENENTSCHEIDEND
-```
+</details>
 
 This native frame requires no changes. “Da für” is a word-boundary reading
 of the literal DAFUER; no word or article has been added. Its final
@@ -100,6 +107,9 @@ ENTSCHEIDEND continues into the following source-labeled part.
 The [source crop](../../experiments/romanian_pacification_consultation/sources/p157_A5.png)
 contains **128 slots**, matching `5 TL RICHI-128`.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 128-coordinate frame:**
 
 ```text
@@ -111,6 +121,8 @@ SIFDXWIRDUMMOEGLICHSTBA?DIGEORIENTIERUNGGEBETENXOKMXCHEF11291GUH
 ```text
 SINDXWIRDUMMOEGLICHSTBALDIGEORIENTIERUNGGEBETENXOKMXCHEF11291GEH
 ```
+
+</details>
 
 Observed substitutions **6 A→D** and **64 X→G** repair SIND and GEH.
 The printed dash at source **99** is filled with D for BALDIGE. Before

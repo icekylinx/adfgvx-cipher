@@ -1,14 +1,12 @@
 # Postponed departure, a supper query and a farewell
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 Three separate service messages retain their complete native source frames: a postponed departure with reassurance, a proposed warm supper and headcount enquiry, and a short farewell. Source-transcription corrections recover the positions omitted by earlier OCR; ordinary-word repairs, printed-dash fills and literal abbreviations remain explicit.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p193 excerpt](../../experiments/nov14_15_departure_and_supper/sources/p193_reviewed.png) · [Reviewed p196 excerpt](../../experiments/nov14_15_departure_and_supper/sources/p196_reviewed.png) · [Inputs](../../experiments/nov14_15_departure_and_supper/inputs.json) · [Position and change certificates](../../experiments/nov14_15_departure_and_supper/certificates.json)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p193 excerpt](../../experiments/nov14_15_departure_and_supper/sources/p193_reviewed.png) · [Reviewed p196 excerpt](../../experiments/nov14_15_departure_and_supper/sources/p196_reviewed.png) · [Inputs](../../experiments/nov14_15_departure_and_supper/inputs.json) · [Position and change certificates](../../experiments/nov14_15_departure_and_supper/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 The published `Nov13-15b` key is unchanged. [Original OCR records](../../experiments/nov14_15_departure_and_supper/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/nov14_15_departure_and_supper/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 
@@ -22,6 +20,9 @@ The published `Nov13-15b` key is unchanged. [Original OCR records](../../experim
 
 **Source transcription — header:** `C) --- v CM (1.15 p.m., November 14th); RIZI-212`
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — every native source slot in printed order, with non-coordinate glyphs masked:**
 
 ```text
@@ -33,6 +34,8 @@ ABMARSCHVERSCHOBENKEIN6RUNDZURBEUNRUHIGUNGABMERFOLGTSPA5TERINVEREINBARTERWCISEDH
 ```text
 ABMARSCHVERSCHOBENKEINGRUNDZURBEUNRUHIGUNGABMERFOLGTSPAETERINVEREINBARTERWEISEDHFNBLEIBTBETRBEREITXSEIFERT
 ```
+
+</details>
 
 **Readable German — exact nonseparator labels of the edited output:**
 
@@ -51,6 +54,9 @@ ABMARSCHVERSCHOBENKEINGRUNDZURBEUNRUHIGUNGABMERFOLGTSPAETERINVEREINBARTERWEISEDH
 
 **Source transcription — header:** `D) CZ v CM (1.10 p.m., November 14th); RIZI-82`
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — every native source slot in printed order, with non-coordinate glyphs masked:**
 
 ```text
@@ -62,6 +68,8 @@ WOLLGNWALMESA?ENDBRXBEREITENVWIEVXKOEPFEX
 ```text
 WOLLENWARMESABENDBRXBEREITENXWIEVXKOEPFEX
 ```
+
+</details>
 
 **Readable German — exact nonseparator labels of the edited output:**
 
@@ -81,11 +89,16 @@ WOLLENWARMESABENDBRXBEREITENXWIEVXKOEPFEX
 
 **Source transcription — header:** `A) CZ v CM (15.22 p.m., November 15th); 16.15; RIZI-74`
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — every native source slot in printed order, with non-coordinate glyphs masked:**
 
 ```text
 ABFAHRXWIEDERSEHENXGRUESSEKRAMMXOPITZ
 ```
+
+</details>
 
 **Readable German — exact nonseparator labels of the unchanged raw output:**
 
@@ -102,7 +115,7 @@ ABFAHRXWIEDERSEHENXGRUESSEKRAMMXOPITZ
 
 ## Evidence, credit and reproduction
 
-Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.
+Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro.
 
 The certificates independently reconstruct column positions and domains, compare them with the cipher implementation, replay every priced change, and check all readable nonseparator labels. Partial readings have one consistent injective square/source-mask completion witness that re-encrypts exactly; those witness choices are not historical identifications. Source images are bound to the original PDF by page, rectangle, scale, file digest and pixel digest.
 

@@ -1,6 +1,6 @@
 # Military-intendant addresses and responsibilities
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
 
@@ -16,6 +16,9 @@ The source is J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
 Its [preserved section image](../../experiments/military_intendant_remit/sources/p202_B.png)
 has this header:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -23,6 +26,8 @@ B) NKJ v LP (4.00 p.m., November 16th)
 FUER UKS 1200 (16) 4 TEILE SS GRHQU 14/11 FLUGPOST O K M
 HERMANNSTADT (16)
 ```
+
+</details>
 
 The page heading is `16th NOVEMBER, 1918.`. The published `Nov16-18` key
 is used unchanged, including all eight unassigned square cells.
@@ -35,19 +40,29 @@ coordinates produces a clear body. The representative below puts that gap
 before received index **145**, before printed group **30**. Its raw reading
 is conditional on that placement:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional five-coordinate gap before source 145; representative placement:**
 
 ```text
 NEUBADRESSEX?XGENERALI?TENDANTB?RLINAUGSB?RGERSTRX??XFUERKRIEGSGL?EDERUNGENPERSONALIENFUERREINEVERWALTUNG?SACHENIW
 ```
 
+</details>
+
 Four observed-coordinate substitutions and three fills of added slots give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — same representative gap model, with the stated substitutions and added-slot fills:**
 
 ```text
 NEUEADRESSEX?XGENERALINTENDANTBERLINAUGSBURGERSTRX??XFUERKRIEGSGLIEDERUNGENPERSONALIENFUERREINEVERWALTUNGSSACHENIN
 ```
+
+</details>
 
 This announces a new address and names the Berlin Generalintendant on
 Augsburger Strasse. The street number and the field before the office name
@@ -86,19 +101,29 @@ At received index 86 the source prints the non-coordinate letter `Q` in
 `XQFDG`. A heavily overprinted final glyph in `GAAD?`, index 169, is also
 left undecided. Both are masked before decryption. The raw body is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 VERPFLEGUNGSANGELEGENHEIRENFUERGELDXKASSENXGEBUEHRNISANGELE?ENHEITENFUE?KONTRIBUTIONSGELDERUNDZWANGSAUFLAGENXX
 ```
 
+</details>
+
 One observed-coordinate change and two masked-slot fills give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 VERPFLEGUNGSANGELEGENHEITENFUERGELDXKASSENXGEBUEHRNISANGELEGENHEITENFUERKONTRIBUTIONSGELDERUNDZWANGSAUFLAGENXX
 ```
+
+</details>
 
 Together with B1, this assigns Berlin administrative victualling matters,
 money and treasury business, pay or allowance matters, contribution money
@@ -109,19 +134,29 @@ and compulsory levies. No numeral is inserted into the body.
 The third part contains exactly **210 valid coordinates**, agreeing with
 `RICHI-210`. Its raw reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 2XGENERALINTENDANTXGRHQUXALLENACHSCHUBANGELEGENHEITENSOWEITSIEMITTRANSPORT?NDHERANFUEHRUNNZUSAMMENHAENGEB
 ```
 
+</details>
+
 Four observed-coordinate substitutions give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 2XGENERALINTENDANTXGRHQUXALLENACHSCHUBANGELEGENHEITENSOWEITSIEMITTRANSPORTUNDHERANFUEHRUNGZUSAMMENHAENGEN
 ```
+
+</details>
 
 The message assigns the Generalintendant at `GRHQU` all supply matters
 insofar as they concern transport and delivery. The direct published-square
@@ -134,19 +169,29 @@ Three coordinates are masked: a faded `C/G`-shaped glyph in `VDA?D`, a
 faded glyph in `XAA?D`, and the printed non-coordinate `R` in `ARFXD`.
 Enlarged crops preserve the visible appearances. The raw reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 BEKL?IDUNGXUXA?SRUESTUNGFLEISCHVERSORGUNG?ARKETENDEREIWESENKRIEGSLEISTUNGENXGENERALIWTENDANTXRMX?XAX????XAX11X1?
 ```
 
+</details>
+
 One observed-coordinate change and three masked-slot fills give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 BEKLEIDUNGXUXAUSRUESTUNGFLEISCHVERSORGUNGMARKETENDEREIWESENKRIEGSLEISTUNGENXGENERALINTENDANTXRMX?XAX????XAX11X1?
 ```
+
+</details>
 
 The list continues with clothing and equipment, meat provision,
 *Marketendereiwesen* (sutlery), and wartime services or requisitions.

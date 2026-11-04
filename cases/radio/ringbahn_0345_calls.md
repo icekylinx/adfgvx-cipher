@@ -1,8 +1,6 @@
 # Ringbahn call arrangement: 0345 after the other station's traffic
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p107 A
 
@@ -11,6 +9,9 @@
 **Source and dates:** Page heading: 2nd NOVEMBER, 1918; A) UKS v ZON (9.10 p.m., November 2nd); 1715 AN LP; RIZI-130.
 
 ![Source p107 A](../../experiments/nov1_nov2_native_dispatches/sources/p107_A.png)
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -23,6 +24,8 @@ WIRXRUFENXSIEXJEDEXRIN7BAHNPERIODEX0345NACHIHREMVERKEHRXWELLE1200
 ```text
 WIRXRUFENXSIEXJEDEXRINGBAHNPERIODEX0345NACHIHREMVERKEHRXWELLE1200
 ```
+
+</details>
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
@@ -44,4 +47,4 @@ All indices are zero-based.
 
 The [input](../../experiments/nov1_nov2_native_dispatches/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/nov1_nov2_native_dispatches/certificates.json) contains the raw paired-coordinate domains, each source change and the forward checks. The [verifier](../../experiments/nov1_nov2_native_dispatches/verify.py) checks the unchanged published keys and the live German quotations, retaining all numerical and letter labels.
 
-Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/nov1_nov2_native_dispatches/prior_candidates.json). No first-decipherment priority is claimed.
+Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/nov1_nov2_native_dispatches/prior_candidates.json).

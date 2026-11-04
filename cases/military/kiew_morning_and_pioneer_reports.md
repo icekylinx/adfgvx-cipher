@@ -1,6 +1,6 @@
 # Kiew morning report and pioneer-park loading request
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
@@ -11,6 +11,9 @@ Both use the unchanged published Nov1–3 square and ranks.
 ## Morning report
 
 ### p110 B
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -23,6 +26,8 @@ OXKXMACKENSENXXMORGENMELDU?GXVX3X11X18XNICHTSN?UESXXHRGXKIEWXROMX1AX6915X18
 ```text
 OXKXMACKENSENXXMORGENMELDUNGXVX3X11X18XNICHTSNEUESXXHRGXKIEWXROMX1AX6915X18
 ```
+
+</details>
 
 Cost: **0 observed-coordinate substitutions** and **2 source-mask fills**. Source length and transposition are unchanged.
 
@@ -40,6 +45,9 @@ a new historical numerical assignment. [The independent glyph audit](../../exper
 
 ### p110 C
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output:**
 
 ```text
@@ -51,6 +59,8 @@ ANDENSTABSOFFIZIERDERPIONIEREDESXAXOXKXSCHOLTVXXPIONPARKKAMPX13XFIEGTBEI26X10INX
 ```text
 ANDENSTABSOFFIZIERDERPIONIEREDESXAXOXKXSCHOLTZXXPIONPARKKOMPX13XLIEGTBEI26X10INXPETREXVERLADEBEREITERBITTEPARKNUMMERDESWAGGONGESTELLUNGVERANLASSENDASONSTEINFORTKOMMENUNMOEGLICHXXBAYXPIONXPARKXKOMPX13
 ```
+
+</details>
 
 Cost: **8 observed-coordinate substitutions** and **0 source-mask fills**. Source length and transposition are unchanged.
 

@@ -1,7 +1,5 @@
 # Reports requested from General von Liman
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
 This two-part telegram requests regular information about troops near
@@ -10,9 +8,12 @@ and special requirements. It also requests acknowledgment. Almost the whole
 ordinary-language body is readable directly from the received coordinates.
 
 The source is J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
-[printed p222, PDF p225](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
+[printed p222, PDF p225](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). · [Reading conventions](../../docs/reading-conventions.md)
 The [preserved source image](../../experiments/liman_troop_reports/sources/childs_p222_A.png)
 shows the heading `26th NOVEMBER, 1918.`, followed by:
+
+<details>
+<summary>Literal source transcription</summary>
 
 **Source transcription — clear header and/or literal source record:**
 
@@ -20,6 +21,8 @@ shows the heading `26th NOVEMBER, 1918.`, followed by:
 A) XY v LP (02.56 a.m., December 18th, G.H.Q.American E.F.)
 0900 (26/11) 2 TEILE
 ```
+
+</details>
 
 The November heading and origin date and the December reception-line date
 are all retained. The edition does not resolve that chronological distinction.
@@ -30,11 +33,16 @@ The first part has exactly 214 valid coordinates, matching `RICHI-214`.
 Under the unchanged published `Nov25-28` square and ranks, its direct
 107-position reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 GENERALVONLIMANXXBITTEREGELMAESSIG9EDEWOCHEABTRANSPORTESTAERKEUNDZUSTANDDERBEIKONSTANTINOPELUNDHAIDARPASCHA
 ```
+
+</details>
 
 There is **no source repair** in this part. In ordinary words, it addresses
 General von Liman and asks for regular reports on troop transport, strength
@@ -55,19 +63,29 @@ account for the old `J` cell and the remaining labels.
 The second part has exactly 200 valid coordinates, matching `RICHI-200`.
 Its direct reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 BEFINDLICHENTRUPPENUNDBESOXDEREWUENSCHEMELDENXXBITTEEMPFANGSBESTAETIGUNGXXOHLXROEMXJAXJJ201XGEHXOPXX
 ```
 
+</details>
+
 One observed-coordinate substitution gives:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 BEFINDLICHENTRUPPENUNDBESONDEREWUENSCHEMELDENXXBITTEEMPFANGSBESTAETIGUNGXXOHLXROEMXJAXJJ201XGEHXOPXX
 ```
+
+</details>
 
 The change is received index **132**, printed group **27**, coordinate **3**:
 `V` to `A`. It replaces the `X` in `BESOXDERE` with `N`. The text then asks

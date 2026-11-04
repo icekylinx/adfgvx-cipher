@@ -1,6 +1,6 @@
 # Hungarian armistice negotiations: troop departure and instructions requested
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -14,6 +14,9 @@ the assembly. All three use the unchanged published **Nov4–6** key.
 The [first-part crop](../../experiments/hungarian_armistice_instructions/sources/p124_A1.png)
 contains **352 valid coordinates** and **176 / 176 fixed plaintext positions**.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 352-coordinate frame:**
 
 ```text
@@ -25,6 +28,8 @@ ANOXHXLXOPXHEERESGRUPPEKOOVESHATWAFFENSTILLSTANDSVERHANDLUNGENFDERUNGARISCHETRUP
 ```text
 ANOXHXLXOPXHEERESGRUPPEKOOVESHATWAFFENSTILLSTANDSVERHANDLUNGENFUERUNGARISCHETRUPPENEINGELEITETXDEUTSCHETRUPPENSOLLENSOBALDALSMOEGLICHUNGARISCHENUNDSUEDSLAVISCHENBODENVERLASSEN0
 ```
+
+</details>
 
 The changes are source **80 G→A**, **110 F→V** and **306 X→V**. They
 repair `FDER`, `PNGARISCHEN` and `SUEDSLAVISC3EN`. The name string
@@ -57,6 +62,9 @@ The separate `FDER`→`FUER` repair remains a word proposal.
 The [second-part crop](../../experiments/hungarian_armistice_instructions/sources/p124_A2.png)
 contains **266 valid coordinates** and **133 / 133 fixed plaintext positions**.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 266-coordinate frame:**
 
 ```text
@@ -68,6 +76,8 @@ AXOXKX11NSTBEAUFTRAGTXZWEIGENERLSTABSOFFIZIEREZUDENVERHANDLUNGENZUENTSENDENXWEIS
 ```text
 AXOXKX11ISTBEAUFTRAGTXZWEIGENERLSTABSOFFIZIEREZUDENVERHANDLUNGENZUENTSENDENXWEISUNGENANAXOXKX11UNDHIERHERFUERDIEVERHANDLUNGENERBETENX
 ```
+
+</details>
 
 The changes are source **16 X→V**, **88 D→G** and **106 G→A**. They
 repair `11NST`, the second `A J K` sequence, and `HIER3ER`. The first
@@ -90,17 +100,16 @@ instructions; it does not state that the officers had already arrived.
 The [third-part crop](../../experiments/hungarian_armistice_instructions/sources/p124_A3.png)
 contains **48 valid coordinates** and **24 / 24 fixed plaintext positions**.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native 48-coordinate frame:**
 
 ```text
 OXKXMXROEMX1XAX11222XOPX
 ```
 
-**Edited output — unchanged, with zero substitutions or fills:**
-
-```text
-OXKXMXROEMX1XAX11222XOPX
-```
+</details>
 
 **Readable German — spacing and punctuation, with abbreviations unexpanded:**
 

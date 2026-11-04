@@ -1,6 +1,6 @@
 # Telefunken inquiry about returning personnel
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** a complete unchanged-source reading of p112 B. The source has
 188 valid coordinates; the old OCR had 189. The native frame yields all
@@ -14,17 +14,16 @@ Nov4–6 key reads this body. The different date fields are preserved.
 
 The source asks about the fate and expected return of personnel. Question punctuation belongs to the readable display. The literal source spelling RUECKEHR is rendered Rückehr, without silently adding the extra K in standard Rückkehr. No source wording or identity is added.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native source frame:**
 
 ```text
 TELEFUNKENXKONSTANTINOPELXDRAHTETSCHICKSALUNSERESPERSONALSXISTRUECKEHRZUERWARTENUNDWANNXBREDOW
 ```
 
-**Edited output — identical to raw output; no source changes:**
-
-```text
-TELEFUNKENXKONSTANTINOPELXDRAHTETSCHICKSALUNSERESPERSONALSXISTRUECKEHRZUERWARTENUNDWANNXBREDOW
-```
+</details>
 
 **Readable German — based on the edited candidate above; the local qualifications remain in force:**
 

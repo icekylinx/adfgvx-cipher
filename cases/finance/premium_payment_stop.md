@@ -1,6 +1,6 @@
 # Order to stop premium payments and inform subordinate offices
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -15,17 +15,16 @@ without repair under the unchanged published **Oct28–31** key.
 The [first part](../../experiments/premium_payment_stop/sources/p78_A1.png)
 contains **240 valid coordinates** and **120 / 120 fixed plaintext positions**.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native 240-coordinate frame:**
 
 ```text
 GEMAESSXFECHXROEMISCHXNEUNX52021STRICH2949XSINDMITABLAUFOKTOBER18SAEMTLICHEPRAEMIENZAHLUNGENAUSLANDESMITTELNEINZUSTELLEN
 ```
 
-**Edited output — unchanged, with zero substitutions or fills:**
-
-```text
-GEMAESSXFECHXROEMISCHXNEUNX52021STRICH2949XSINDMITABLAUFOKTOBER18SAEMTLICHEPRAEMIENZAHLUNGENAUSLANDESMITTELNEINZUSTELLEN
-```
+</details>
 
 **Readable German — spacing, punctuation and umlauts:**
 
@@ -42,17 +41,16 @@ no missing date digit or numerical label is supplied.
 The [second part](../../experiments/premium_payment_stop/sources/p78_A2.png)
 contains **170 valid coordinates** and **85 / 85 fixed plaintext positions**.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native 170-coordinate frame:**
 
 ```text
 ALLEDORTUNTERSTELLTENDIENSTSTELLENSOFORTBENACHRICHTIGENXXSCHIFFAHRTXROEMX4XAXNRX14380
 ```
 
-**Edited output — unchanged, with zero substitutions or fills:**
-
-```text
-ALLEDORTUNTERSTELLTENDIENSTSTELLENSOFORTBENACHRICHTIGENXXSCHIFFAHRTXROEMX4XAXNRX14380
-```
+</details>
 
 **Readable German — spacing and punctuation:**
 

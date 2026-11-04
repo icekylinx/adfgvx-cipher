@@ -1,14 +1,12 @@
 # Wishing to travel home and uncertainty over Baltic transport
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 Two native source bodies need no coordinate repairs: one describes soldiers wishing to travel home without authorization; the other links transport difficulty to uncertainty in the Baltic Sea and begins an incomplete statement about Graf Goltz. The shared unknown GA cell remains globally coupled across their separate references. Missing context and abbreviated source spellings stay explicit.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p186 excerpt](../../experiments/home_departures_baltic_transport/sources/p186_reviewed.png) · [Exact inputs](../../experiments/home_departures_baltic_transport/inputs.json) · [Position-by-position certificates](../../experiments/home_departures_baltic_transport/certificates.json)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p186 excerpt](../../experiments/home_departures_baltic_transport/sources/p186_reviewed.png) · [Exact inputs](../../experiments/home_departures_baltic_transport/inputs.json) · [Position-by-position certificates](../../experiments/home_departures_baltic_transport/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 The unchanged published keys are `Nov13-15b`. The [earlier unreviewed candidates](../../experiments/home_departures_baltic_transport/prior_candidates.json) and [original OCR records](../../experiments/home_departures_baltic_transport/ocr_snapshot.json) are preserved. The present work supplies an image-reviewed source edition and a reproducible repair account; it does not claim that every body is a first public decipherment.
 
@@ -27,11 +25,16 @@ The unchanged published keys are `Nov13-15b`. The [earlier unreviewed candidates
 
 **Meaning:** The second part states that the difficulty is the same everywhere: soldiers want to travel home on their own authority. It closes with OHL and an unresolved office reference. It reports the problem; it does not itself authorize those departures.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
 DIESCHWIERIGKEITENXDASSMANNSCHAFTENEIGENMAECHTIGNACHHAUSEFAHRENWOLLENXSINDUEBERALLDIEGLEICHENXOHLXRMX1AXNRX11?01XGEHXOPXX
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 
@@ -50,11 +53,16 @@ DIESCHWIERIGKEITENXDASSMANNSCHAFTENEIGENMAECHTIGNACHHAUSEFAHRENWOLLENXSINDUEBERA
 
 **Meaning:** This first part concerns transport that is currently described as impossible because the situation in the Baltic Sea is unclear. It then begins a statement about preparations associated with the literal name and title GEN GRAF GOLTZ. The statement is incomplete in this source body, so no completed plan or action is supplied.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
 ZUDRTRM1A?5?XABTRSPRTXZXZTWEGENUNKLARERLAGEINOSTSEEUNMOGLCHXGENGRAFGOLTZHATJEDOCHVORBEREITG
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 
@@ -65,7 +73,7 @@ ZUDRTRM1A?5?XABTRSPRTXZXZTWEGENUNKLARERLAGEINOSTSEEUNMOGLCHXGENGRAFGOLTZHATJEDOC
 
 ## Evidence and credit
 
-Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.
+Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro.
 
 The certificates replay every coordinate alteration, compare the independent column/domain reconstruction with the cipher implementation, and re-encrypt every complete edited output. For a partial output, an injective global completion of the square and residual source masks supplies an explicitly nonhistorical roundtrip witness. Each readable passage preserves every nonseparator output label; literal protected fields are also checked without removing their internal separators. Source crops are bound to the original PDF by page, rectangle, scale, file digest and RGB-pixel digest.
 

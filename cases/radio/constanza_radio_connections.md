@@ -1,7 +1,5 @@
 # Constanza naval radio: telegram routing and exchange connections
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs p80 B1/B2 and p82 A1–A4, 30 October 1918; published `Oct28-31` key, unchanged. [Source inputs](../../experiments/constanza_radio_connections/inputs.json), [exact certificates](../../experiments/constanza_radio_connections/certificates.json), [method and limits](../../experiments/constanza_radio_connections/README.md).
 
 The four-part message quotes the naval department at Constanza on telegram routing and telephone-exchange connections. Telegrams for foreign stations are said to travel over German lines to Bucharest or Braila. The naval radio station is described as directly connected to the local main exchange and also to the naval department's exchange, allowing communication with the main exchange and other telephone points.
@@ -10,7 +8,10 @@ The source describes these arrangements. It does not independently demonstrate t
 
 ## p80 B1
 
-[Source crop](../../experiments/constanza_radio_connections/sources/p80_B1.png). The source advertises and prints 242 coordinates. Raw, 121 positions:
+[Source crop](../../experiments/constanza_radio_connections/sources/p80_B1.png). The source advertises and prints 242 coordinates. Raw, 121 positions: · [Reading conventions](../../docs/reading-conventions.md)
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -18,11 +19,16 @@ The source describes these arrangements. It does not independently demonstrate t
 MARINEABTLGXCONSTANZAFUNKTUNTERNRX13558X13558X1XROEMX1VOM29X10XXAUFDORTXTELEGRXNRX351BRUCHSTRX18VOM25X10XXALLETELEGRXNAPH
 ```
 
+</details>
+
 Source index 94 `X → D`, independently witnessed by p82 A1, repairs the final `NAPH` to `NACH`. The raw reference `13558X13558X1XROEMX1` and the two date fields are retained, including the repeated number.
 
 ## p80 B2
 
 [Source crop](../../experiments/constanza_radio_connections/sources/p80_B2.png). All 248 coordinates are observed. The **typed baseline** is:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -30,9 +36,14 @@ Source index 94 `X → D`, independently witnessed by p82 A1, repairs the final 
 FR9MDLAENDISCHENSTATIONENWERDENUEBERDEUTSCHELEITGXPACHBUKARESTODERBRAILAABGESETZTXXDIEMARINEFUNKSTATXISTUNMITTELBARANHIESIGE
 ```
 
+</details>
+
 At source index 55, a visible supralinear F is printed above the typed G. Applying only that source annotation gives `FREMDLAENDISCHEN` and makes this ciphertext identical to the typed p82 A2 copy. The annotation's author and date are unknown.
 
 Both copies still have `PACH`. A separate ordinary-word candidate, source index 142 `G → X`, produces the following reading:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
@@ -40,9 +51,14 @@ Both copies still have `PACH`. A separate ordinary-word candidate, source index 
 FREMDLAENDISCHENSTATIONENWERDENUEBERDEUTSCHELEITGXNACHBUKARESTODERBRAILAABGESETZTXXDIEMARINEFUNKSTATXISTUNMITTELBARANHIESIGE
 ```
 
+</details>
+
 ## p82 A1
 
 [Source crop](../../experiments/constanza_radio_connections/sources/p82_A1.png). The printed label is **RICHI-342**, but the source has **242 coordinates**. The independent p80 B1 copy advertises 242 and agrees at 241 coordinates. The edition uses the observed 242-coordinate frame, preserving the label discrepancy rather than inventing 100 missing coordinates. The raw text is already readable:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -50,9 +66,14 @@ FREMDLAENDISCHENSTATIONENWERDENUEBERDEUTSCHELEITGXNACHBUKARESTODERBRAILAABGESETZ
 MARINEABTLGXCONSTANZAFUNKTUNTERNRX13558X13558X1XROEMX1VOM29X10XXAUFDORTXTELEGRXNRX351BRUCHSTRX18VOM25X10XXALLETELEGRXNACH
 ```
 
+</details>
+
 ## p82 A2
 
 [Source crop](../../experiments/constanza_radio_connections/sources/p82_A2.png). All 248 source coordinates are observed:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -60,11 +81,16 @@ MARINEABTLGXCONSTANZAFUNKTUNTERNRX13558X13558X1XROEMX1VOM29X10XXAUFDORTXTELEGRXN
 FREMDLAENDISCHENSTATIONENWERDENUEBERDEUTSCHELEITGXPACHBUKARESTODERBRAILAABGESETZTXXDIEMARINEFUNKSTATXISTUNMITTELBARANHIESIGE
 ```
 
+</details>
+
 Here `FREMD` is direct, while `PACH → NACH` requires the same separately priced one-coordinate repair as p80 B2, source index 142 `G → X`. The candidate equals the p80 B2 candidate above. The repetition of the error is explicitly preserved in both raw strings.
 
 ## p82 A3
 
 [Source crop](../../experiments/constanza_radio_connections/sources/p82_A3.png). All 210 coordinates are observed. Raw, 105 positions:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -72,7 +98,12 @@ Here `FREMD` is direct, while `PACH → NACH` requires the same separately price
 HAUPTVERMITTLGXUNDAUSSERDEMANVERMITTLGXDERMARXABTLGANG9SCHLOSSENUEBERDIESIEEBENFALLSMITDERHAUPTVERMITTLGX
 ```
 
+</details>
+
 Source index 64 `G → F` gives the ordinary-word candidate:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
@@ -80,17 +111,24 @@ Source index 64 `G → F` gives the ordinary-word candidate:
 HAUPTVERMITTLGXUNDAUSSERDEMANVERMITTLGXDERMARXABTLGANGESCHLOSSENUEBERDIESIEEBENFALLSMITDERHAUPTVERMITTLGX
 ```
 
+</details>
+
 The original 9 remains in the certificate; this local coordinate repair is not a global reassignment of that digit.
 
 ## p82 A4
 
 [Source crop](../../experiments/constanza_radio_connections/sources/p82_A4.png). The 118 coordinates give 59 directly readable positions, without repair:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 UNDDARUEBERHINAUSMITALLENSPRECHSTELLENINVERKEHRTRETENKANNXX
 ```
+
+</details>
 
 ## Assembly and attribution
 

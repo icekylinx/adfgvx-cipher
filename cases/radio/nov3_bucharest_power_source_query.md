@@ -1,8 +1,6 @@
 # Bucharest dispatch enquiry and power-source specifications
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 
 **Reviewed source crops:** [p109_A2.png](../../experiments/nov3_bucharest_power_source/sources/p109_A2.png) · [p109_A3.png](../../experiments/nov3_bucharest_power_source/sources/p109_A3.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
@@ -13,6 +11,9 @@
 **Source and dates:** Page heading: 3rd NOVEMBER, 1918; A) UKS v OSM (2.09 a.m., November 3rd); VE; 2 TL RICHI-162.
 
 [Source p109 A2 — source-PDF reference](../../experiments/nov3_bucharest_power_source/inputs.json)
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -25,6 +26,8 @@ GLEICSTVOMOHNEKRAFTQELLEVEDSANDBERBITXBEINACHRCEFANGEFRAGTOBBUKARESTSENDENSOLLEN
 ```text
 GLEICSTROMOHNEKRAFTQELLEVERSANDBEREITXBEINACHRCEFANGEFRAGTOBBUKARESTSENDENSOLLENX
 ```
+
+</details>
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
@@ -53,17 +56,16 @@ All indices are zero-based.
 
 [Source p109 A3 — source-PDF reference](../../experiments/nov3_bucharest_power_source/inputs.json)
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ISTKRAFTQELLEMOTORETWA50PSMIT220VOLTGLEICHSTRDYNAMO25KWDORTBESCHAFFBARODERTRIEBWXKRAFTANLAGEVERWENDBARXFUNKANTWORT
 ```
 
-**Edited output — identical to raw output:**
-
-```text
-ISTKRAFTQELLEMOTORETWA50PSMIT220VOLTGLEICHSTRDYNAMO25KWDORTBESCHAFFBARODERTRIEBWXKRAFTANLAGEVERWENDBARXFUNKANTWORT
-```
+</details>
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
@@ -81,4 +83,4 @@ No source-coordinate substitution or source-mask fill is used.
 
 The [input](../../experiments/nov3_bucharest_power_source/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/nov3_bucharest_power_source/certificates.json) contains the raw paired-coordinate domains, each source change and the forward checks. The [verifier](../../experiments/nov3_bucharest_power_source/verify.py) checks the unchanged published keys and the live German quotations, retaining all numerical and letter labels.
 
-Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/nov3_bucharest_power_source/prior_candidates.json). No first-decipherment priority is claimed.
+Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/nov3_bucharest_power_source/prior_candidates.json).

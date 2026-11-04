@@ -1,8 +1,6 @@
 # Congratulation core under a conditional one-coordinate exclusion
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 
 **Reviewed source crops:** [p193_F.png](../../experiments/nov13_congratulation_conditional_frame/sources/p193_F.png) · [p193_date_heading.png](../../experiments/nov13_congratulation_conditional_frame/sources/p193_date_heading.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
@@ -16,17 +14,25 @@
 
 ### Native odd frame retained
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — paired portion of the unmodified 75-coordinate frame:**
 
 ```text
 JGXVER5EZNEAXRLHEMKNUIL?ICS0RK1AM1OCK
 ```
 
+</details>
+
 The unmodified inverse transposition leaves one orphan **A at inverse-stage index 74, originating at source index 27**. The 37 paired labels above are not the displayed congratulation. Excluding the last received X is therefore a different model from dropping the native orphan.
 
 ### Conditional terminal-X model
 
 Exclude the **observed X at source index 74 before inverse transposition**. This is an explicitly priced exclusion, not a source-mask fill, a claim that the source printed 74, or a correction to the header. All other 74 observed positions remain in order.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — conditional 74-coordinate model:**
 
@@ -39,6 +45,8 @@ JTNXKRXEK?XVERLIEHENXGLUECKWUN5CHXSXR
 ```text
 JTNXKRXEK?XVERLIEHENXGLUECKWUNSCHXSXR
 ```
+
+</details>
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
@@ -58,6 +66,9 @@ The unresolved label after EK is **plaintext index 9, pair VG, source indices 19
 ### Endpoint alternatives remain open
 
 The same congratulation core survives four source-exclusion choices, yielding three distinct streams. Each excludes one observed coordinate and changes the **same source index 12 from D to G**. The first two V exclusions are exact ciphertext aliases. These alternatives prevent a claim that the terminal-X error is historically unique.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — alternative excluding source 0 or 1 (V):**
 
@@ -83,6 +94,8 @@ JTNXKRXEK?XVERLIEHENXGLUECKWUN5CHXSCR
 JTNXKRXEK?XVERLIEHENXGLUECKWUNSCHXSCR
 ```
 
+</details>
+
 The V-exclusion alternative retains opaque opening K? and closing ?JKCJOEK. Excluding source 73 retains SCR at the end. None of these endpoints is expanded into a person, rank, unit or signature. The source-74 version above provides one convenient full-message presentation; the stable finding is the shared VERLIEHEN / GLUECKWUNSCH core.
 
 ### Exact prices and their limits
@@ -99,4 +112,4 @@ The verifier preserves all paired coordinates, including the unresolved VG pair,
 
 The [input](../../experiments/nov13_congratulation_conditional_frame/inputs.json) binds literal rows and date layers to exact source crops. The [certificate](../../experiments/nov13_congratulation_conditional_frame/certificates.json) retains the native odd frame, conditional models, full coordinate ledgers, all 150 exclusion prices and forward checks. The [verifier](../../experiments/nov13_congratulation_conditional_frame/verify.py) checks these values, the live German quotation and the unchanged published partial key.
 
-Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Historical source: J. Rives Childs. Published partial-key credit remains with Lasry, Niebel, Kopal and Wacker. The [attribution record](../../experiments/nov13_congratulation_conditional_frame/prior_candidates.json) preserves earlier OCR and the bounded discovery diagnostic. Search scores are not used as historical evidence; no first-decipherment priority is claimed.
+Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Historical source: J. Rives Childs. Published partial-key credit remains with Lasry, Niebel, Kopal and Wacker. The [attribution record](../../experiments/nov13_congratulation_conditional_frame/prior_candidates.json) preserves earlier OCR and the bounded discovery diagnostic. Search scores are not used as historical evidence.

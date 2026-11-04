@@ -1,6 +1,6 @@
 # Siegfried and Osthoff: later military-mission recall messages
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Four newly source-reviewed physical parts on Childs p161. The Osthoff body was already identified from p138/p148/p149; this edition adds a later differently keyed witness and directly supports three previously editorial letters.
 
@@ -27,6 +27,9 @@ The physical-record total is **802 coordinate slots / 401 plaintext positions**.
 
 ## p161 C1 — Siegfried posting cancellation, first part
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output:**
 
 ```text
@@ -39,7 +42,12 @@ SSDOPPELGRXHQXMKX2X?1XMILITA??MISZIONK?GSTANTINOPULXZU2NR4??10XKOMDOOBERLTSSIEGF
 SSDOPPELGRXHQXMKX2X?1XMILITAERMISZIONKONSTANTINOPELXZU2NR4??10XKOMDOOBERLTSSIEGFRIEDNACHTUERKEIUDESZEN
 ```
 
+</details>
+
 ## p161 C2 — Siegfried mission assignment cancelled and cabinet-order closing
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -47,7 +55,12 @@ SSDOPPELGRXHQXMKX2X?1XMILITAERMISZIONKONSTANTINOPELXZU2NR4??10XKOMDOOBERLTSSIEGF
 ZUTEILUNGZURMILMISZIONISTAUFGEHOBENAKOFOLGTXALLERHBEFXCHEFMILKABFRHRMARSCHALL
 ```
 
+</details>
+
 ## p161 D1 — Osthoff posting and mission assignment cancelled
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -61,13 +74,20 @@ SSDOPPELXGRXHQUXMKX2X11XMILITAERMISZIONKONSTANTINOPELXKOMMRNDODESHPTMSDXRXOSTHOF
 SSDOPPELXGRXHQUXMKX2X11XMILITAERMISZIONKONSTANTINOPELXKOMMANDODESHPTMSDXRXOSTHOFFNACHTUERKEIUNDZUTEILUNGZURMILMISZIONAUFGEHOBEN
 ```
 
+</details>
+
 ## p161 D2 — Osthoff railway battalion reassignment and cabinet-order closing
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
 ```text
 DERSELBEISTDEM1XERSBATLEISENBAHNREGMTS1ZUUEBERWEISENXAKOFOLGTXALLERHBEFXCHEFMILKABFRHRMARSCHALL
 ```
+
+</details>
 
 ## Cross-period evidence for the earlier Osthoff edition
 

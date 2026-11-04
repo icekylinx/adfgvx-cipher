@@ -13,7 +13,7 @@ import re
 import unicodedata
 
 ROOT = Path(__file__).resolve().parents[2]
-DEFAULT = ROOT / 'data/reviews/live_readable_mappings_20261103.json'
+DEFAULT = ROOT / 'data/reviews/live_readable_mappings.json'
 
 
 def sha(text):

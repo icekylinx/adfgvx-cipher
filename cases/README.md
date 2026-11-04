@@ -1,75 +1,57 @@
-# Case guide
+# Read the messages
 
-All reading layers and symbols follow the [reading conventions](../docs/reading-conventions.md). Raw output, edited output, readable German and conditional interpretations are identified separately.
+[ADFGVX Cipher](../README.md) · [Historical showcase](../docs/historical-showcase.md) · [Open problems](open/README.md) · [Sources](../sources/README.md)
 
-[ADFGVX Cipher](../README.md) · [Repository map](../docs/repository-map.md) · [Methods guide](../docs/methods.md) · [Sources](../sources/README.md) · [Experiments](../experiments/README.md)
-
-Each case opens with the most useful readable text or the present limits of recovery. The exact unspaced decipherment, source qualifications, original credits and reproducible evidence follow it. A readable sentence can depend on proposed repairs; the case states those dependencies.
+Choose a [historical study](../docs/historical-studies/README.md) for a connected
+account of the traffic, a topic below for a guided reading path, or a printed
+page for a particular source. The catalogue includes every body, including
+those for which no reading has been accepted.
 
 <!-- TOPIC-NAVIGATION:START -->
 ## Browse by topic
 
-| Topic | Reviewed entries | Additional physical sources | Case pages |
-|---|---:|---:|---:|
-| [Caucasus administration and procurement](caucasus/README.md) | 45 | 45 | 17 |
-| [Ships, cargo and naval orders](naval/README.md) | 44 | 44 | 18 |
-| [Armies, withdrawal and supplies](military/README.md) | 254 | 254 | 104 |
-| [Radio service, keys and message routing](radio/README.md) | 206 | 205 | 91 |
-| [Money, banking and purchases](finance/README.md) | 50 | 50 | 22 |
-| [People, appointments and civilian affairs](people/README.md) | 55 | 55 | 32 |
+Each topic opens with a guided reading path, followed by its complete source index.
 
-These topic guides cover every other reviewed catalogue entry. Additional physical sources exclude registered later editions of challenge sources. The page-number index below also retains all 22 original challenge entries.
+| Topic | Catalogue sources |
+|---|---:|
+| [Caucasus administration and procurement](caucasus/README.md) | 45 |
+| [Ships, cargo and naval orders](naval/README.md) | 44 |
+| [Armies, withdrawal and supplies](military/README.md) | 254 |
+| [Radio service, keys and message routing](radio/README.md) | 205 |
+| [Money, banking and purchases](finance/README.md) | 50 |
+| [People, appointments and civilian affairs](people/README.md) | 55 |
+| [OPEN sources](open/README.md) | 7 |
+
+The open-source guide brings together all seven unread bodies, including the three original challenges. The page catalogue gives every physical source exactly one entry.
 <!-- TOPIC-NAVIGATION:END -->
-
-## How to read a case
-
-- **Spaces, punctuation and capitalization** — Supplied for readability; they are not additional transmitted characters.
-- **`[word]`** — An editorial expansion, normalization or conjecture. It is not automatically fixed by the ciphertext.
-- **`?`** — An unresolved character. In a quoted raw string, each question mark occupies one position.
-- **`[…]` or `…` in a readable version** — The local caption states whether this marks an unresolved passage, a known excerpt or a continuation. It does not encode a gap length. The full raw string retains all known positions.
-- **`X` in raw plaintext** — An actual decoded character, often interpreted as a separator. Some readable versions replace it with punctuation.
-- **Recomputed or source reading** — Exact output under the named key, geometry and recorded source edits.
-- **Most likely reading** — An explicitly qualified editorial interpretation, not a numerical confidence estimate.
-- **Re-encryption** — A check that the plaintext generates the stated reconstructed ciphertext. It does not prove that conjectural edits occurred historically.
-
-**Attribution:** first decipherment, key recovery, later correction and the present review are credited separately. Our new research and editorial contributions use **icekylinx and GPT-6 Astra Pro**. External contributors retain their published names.
 
 <!-- READING-CATALOG:START -->
 ## Browse by source page
 
-Page numbers refer to the printed Childs volume. Choose a range below or [open the complete page index](pages/README.md).
+**679 physical sources, one entry each; 7 OPEN.** Page numbers refer to the printed Childs volume. [Complete page index](pages/README.md).
 
-### The 22 challenge entries
+| Printed source pages | Sources | OPEN |
+|---|---:|---:|
+| [pp. 56–74](pages/050-074/README.md) | 47 | 2 |
+| [pp. 75–99](pages/075-099/README.md) | 64 | 0 |
+| [pp. 100–124](pages/100-124/README.md) | 94 | 0 |
+| [pp. 125–149](pages/125-149/README.md) | 80 | 2 |
+| [pp. 150–174](pages/150-174/README.md) | 133 | 1 |
+| [pp. 175–199](pages/175-199/README.md) | 111 | 2 |
+| [pp. 200–224](pages/200-224/README.md) | 121 | 0 |
+| [pp. 225–230](pages/225-249/README.md) | 29 | 0 |
 
-Original challenge identifiers are retained; p198 denotes section D.
-
-| Printed source pages | Entries | Challenge identifiers |
-|---|---:|---|
-| [p. 73](pages/050-074/README.md) | 1 | [p73](p73.md) |
-| [pp. 100–109](pages/100-124/README.md) | 3 | [p100](p100.md), [p105](p105.md), [p109](p109.md) |
-| [pp. 132–146](pages/125-149/README.md) | 2 | [p132](p132.md), [p146](p146.md) |
-| [pp. 152–171](pages/150-174/README.md) | 8 | [p152](p152.md), [p153a](p153a.md), [p153b](p153b.md), [p158](p158.md), [p164a](p164a.md), [p164b](p164b.md), [p170](p170.md), [p171](p171.md) |
-| [pp. 176–198](pages/175-199/README.md) | 6 | [p176a](p176a.md), [p176b](p176b.md), [p187](p187.md), [p187b](p187b.md), [p189](p189.md), [p198](p198.md) |
-| [pp. 215–217](pages/200-224/README.md) | 2 | [p215](p215.md), [p217](p217.md) |
-
-### Other ciphertexts — 654 reviewed entries
-
-Numbered parts and separately received copies have their own entries.
-
-**676 catalogue entries from 675 source bodies.** The [source register](../docs/catalogue-source-overlaps.md) identifies 1 additional edition of an already listed source.
-
-| Printed source pages | Reviewed entries |
-|---|---:|
-| [pp. 56–74](pages/050-074/README.md) | 45 |
-| [pp. 75–99](pages/075-099/README.md) | 64 |
-| [pp. 100–124](pages/100-124/README.md) | 91 |
-| [pp. 125–149](pages/125-149/README.md) | 77 |
-| [pp. 150–174](pages/150-174/README.md) | 125 |
-| [pp. 175–199](pages/175-199/README.md) | 104 |
-| [pp. 200–224](pages/200-224/README.md) | 119 |
-| [pp. 225–230](pages/225-249/README.md) | 29 |
-
-Source review and current research: **icekylinx and GPT-6 Astra Pro**. Each detailed entry credits its earlier readings and keys.
 <!-- READING-CATALOG:END -->
 
-For exact source layers use [the challenge source catalog](../data/messages.json), [the reading catalog](../data/reading_catalog.json), and the linked certificates. [The review ledger](../data/review_ledger.json) records each contribution and its evidence.
+## How to read a case
+
+Read the German passage and English explanation first. Open the evidence
+blocks for the literal source, decoded labels and proposed repairs. A local
+note identifies conditional wording and unresolved numbers; the
+[reading conventions](../docs/reading-conventions.md) define the notation and
+catalogue states once for the whole edition.
+
+Each case credits earlier readings and keys alongside our own reconstruction
+and historical work. The [machine-readable catalogue](../data/reading_catalog.json)
+provides the full source, status and attribution records; its source identity
+rules are described in the [source register](../docs/catalogue-source-identity.md).

@@ -1,6 +1,6 @@
 # Caucasus delegation and radio transmitters at Tiflis
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -18,17 +18,16 @@ contains **172 visible slots**, matching `1 TL RICHI-172`. Source slot
 **57** contains a printed **Q** in `DVQXX`. It is masked as one invalid
 coordinate, with no change to the frame.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native 172-coordinate frame:**
 
 ```text
 DTSCHEKAUKASDELEGAXER?TTETRANSPORRTX800WATTROEHRENSENDTIFLISZURTAFUNKBERLINVERANLASSEN
 ```
 
-**Edited output — unchanged; no substitutions or fills are adopted:**
-
-```text
-DTSCHEKAUKASDELEGAXER?TTETRANSPORRTX800WATTROEHRENSENDTIFLISZURTAFUNKBERLINVERANLASSEN
-```
+</details>
 
 **Readable German — spacing and punctuation, with the malformed words retained:**
 
@@ -55,6 +54,9 @@ contains **134 visible slots**, matching `2 TL RICHI-134`. Source **53**
 is a [y-like non-coordinate glyph](../../experiments/caucasus_radio_transmitters/sources/p88_A2_y_glyph.png),
 recorded as Y in the literal transcript and masked without deleting it.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 134-coordinate typed frame:**
 
 ```text
@@ -66,6 +68,8 @@ UOBER1500WETTDOEHRENSENDVERFUEGTG?NERALVONKRESSXNACHCHEFRM4BX49523X
 ```text
 UEBER1500WATTROEHRENSENDVERFUEGTGENERALVONKRESSXNACHCHEFRM4BX49523X
 ```
+
+</details>
 
 The changes are source **22 A→V**, **37 G→D**, **107 V→X**, and the
 fill **53 Y→V**. The first three repair `UOBER`, `DOEHREN` and `WETT`;
@@ -94,11 +98,16 @@ reproducible effects; all indices are zero-based.
 | 116 | F → A | Position 32: `G?NERAL` → `0?NERAL` |
 | 119 | X → V | Position 61: `49523` → `M9523` |
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — all four aligned replacements, with the same native frame:**
 
 ```text
 UOBER1500WATTDOEHRENSEN0VERFUEGT0?NERALVONKRESSXNACHCHEFRM4BXM9523X
 ```
+
+</details>
 
 The certificate retains **all 16 combinations** of these four source
 choices. The primary edited candidate uses only the first annotation;

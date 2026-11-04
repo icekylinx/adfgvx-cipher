@@ -1,6 +1,6 @@
 # p215 B1 — Train-departure fragment of an evening report
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Partial recovery: icekylinx and GPT-6 Astra Pro.** The source's missing-groups
 note and advertised length define a conditional 220-slot frame with **37/110
@@ -18,6 +18,9 @@ unfinished; the ending retains `DIV ST ?U`, without expanding its unresolved
 label into a preposition. The two `SZEGED` spellings are lexical proposals.
 The intervening fields and the literal `J` and `0` retain their source limits.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — 75 added slots and every printed mask unassigned:**
 
 ```text
@@ -29,6 +32,8 @@ The intervening fields and the literal `J` and `0` retain their source limits.
 ```text
 ABENDMELDUNG?JXG??0?????TE???L?????INU??N?????XSZEGED??WEITEREZUEGEVOMALPEN????XABGEFAHRENXDIVXSTX?UXSZEGED???
 ```
+
+</details>
 
 The proposed words satisfy every retained half-pair together under one unchanged,
 complete Nov22–24 square. Both source-glyph readings below admit the same
@@ -51,6 +56,9 @@ slot, without exclusions or reordering. The verifier separately prices the
 proposed opening over 21 nearby even lengths; it does not claim that the
 historical length or loss mechanism is unique.
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — primary X-like glyph layer; coordinate 42 also has an A-like alternative:**
 
 ```text
@@ -60,6 +68,8 @@ DXAAD GXAGF VAGVV FDAAG FVFAA GXVFG GD-DX DXVDA
 DAAGF VDFFA FFVAA FXXGG FXFAF AGADV FVFAG VXDVX
 VFXXA
 ```
+
+</details>
 
 At native source index 42 the damaged third glyph in `XVXVG` can also be read
 as `A`, giving `XVAVG`. Both layers have 140 valid coordinates and five printed

@@ -1,6 +1,6 @@
 # November 11: Romanian mobilization and a crossing report
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 The surviving second part on printed page 180 reports mobilization and a crossing. Its last line is followed by **“(jammed to end)”**. The source contains **235 printed slots**, including two dashes, under a **RICHI-240** header. Keeping every printed slot and appending five unknown coordinates produces a conditional 240-coordinate frame with **110 of 120 plaintext positions fixed** under the unchanged published Nov10–12 key.
 
@@ -20,6 +20,9 @@ The damaged hour glyph remains ambiguous between `01.02` and `04.02`. The older 
 
 [The neighboring D1 header used only for glyph comparison — source-PDF reference](../../experiments/nov11_romanian_mobilization_report/inputs.json) is not a second recovered body in this edition.
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — all 235 native printed slots, including both dashes:**
 
 ```text
@@ -31,6 +34,8 @@ DGFDD FAGDX DVGVX XVGXF XAXDV AGXDX XDDFG XGGDA
 --AVG GAVAV XDXFX XFFFF XVGXV AGXVG GVGAD
 ```
 
+</details>
+
 Source note immediately below the body: `(jammed to end)`.
 
 The printed 2 TL identifies this as a second part. No first-part body is present under this reception header on page 180. All five-character groups remain intact and in order; the final line has seven groups. Source dashes occupy indices **200 and 201**. All indices in this edition are zero-based.
@@ -39,13 +44,21 @@ The printed 2 TL identifies this as a second part. No first-part body is present
 
 The native 235-slot stream is odd. Its unchanged-key diagnostic has 117 complete pairs and leaves the coordinate **G at source index 146** unpaired in the intermediate stream. It is retained below so the readable 240-slot model cannot be mistaken for the direct native result.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native 235-slot diagnostic, with the unpaired coordinate recorded separately:**
 
 ```text
 HR?GO4?MAKDHNKE2GLN?P4??RUYGXKENOBGC?141UND4XAXDA1GXL1A1ETN?I?MUG1FE113VKRGX?NJFSAXD?01DTX4Q1RW?ENAJQF1DNDE1XR12TUHNJ
 ```
 
+</details>
+
 The 240-slot model appends unknowns at model indices **235–239**. Every earlier model index maps to the identically numbered printed slot. The five-slot shortfall and the explicit terminal-jamming note motivate this position. They do not prove that an interior loss is impossible, and no exhaustive search for a unique loss geometry is claimed.
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output — unchanged Nov10–12 key in the conditional 240-slot terminal-loss frame:**
 
@@ -53,15 +66,22 @@ The 240-slot model appends unknowns at model indices **235–239**. Every earlie
 RUMA?NXMOBILMACHUNG?X11XA1GEORDNETXX1XTAG10X?1LXKRIE?FZUSAND10X1TX?UHRABENDSXFEIND1?X11XTUR?UMAGUR2?EZIMNIC?UEBERGE?ETZT
 ```
 
+</details>
+
 The words MOBILMACHUNG, TAG, UHRABENDS and FEIND are already fixed in this frame. Parts of ANGEORDNET and the two place-like sequences need explicit changes or fills. The numerical labels remain outputs of the published partial square, not independently established calendar dates.
 
 ## Priced word proposal
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — 4 observed-coordinate substitutions, 1 printed-mask fill and 4 added-tail fills:**
 
 ```text
 RUMAENXMOBILMACHUNG?X11XANGEORDNETXX1XTAG10X?1LXKRIEGSZUSAND10X1TX?UHRABENDSXFEIND1?X11XTURNUMAGURELEZIMNICAUEBERGESETZT
 ```
+
+</details>
 
 **Readable German — the complete edited stream, with spacing and punctuation only:**
 

@@ -141,7 +141,7 @@ def render_alias_index(aliases):
     destination = ROOT / 'cases/other/README.md'
     lines = [
         '# Earlier case paths', '',
-        'Complete source editions are now organized in the six '
+        'Complete source editions are organized in the '
         '[reading topics](../README.md#browse-by-topic). This directory keeps',
         'earlier URLs and their section anchors available for citations and',
         'preserved research records.', '',
@@ -158,61 +158,64 @@ def render_alias_index(aliases):
 
 def render_topic(group, rows, catalogue):
     destination = ROOT / group['directory'] / 'README.md'
-    accounting = physical_source_accounting(catalogue)
-    locations = accounting['locations']
-    represented_sources = {locations[row['id']] for row in rows}
-    challenge_sources = {locations[row['id']] for row in catalogue['challenge']}
-    families = {}
-    for row in rows:
-        families.setdefault(row['path'].split('#')[0], []).append(row)
-    lines = [
-        '# ' + group['title'], '',
-        '[All readings](../README.md) · [Repository map](../../docs/repository-map.md) · '
-        '[Evidence and methods](../../docs/methods.md)', '',
-        group['summary'], '',
-        f'**{len(rows)} reviewed entries across {len(families)} case pages, representing '
-        f'{len(represented_sources)} physical sources; {len(represented_sources - challenge_sources)} '
-        'are additional to the original challenge set.** '
-        'Multipart segments and repeated transmissions retain their separate source identifiers.', '',
-        '## Case pages', '', '| Case | Reviewed entries |', '|---|---|',
-    ]
-    for path, family in families.items():
-        title = page_title(ROOT / path).replace('|', '\\|')
-        labels = ', '.join(row['label'] for row in family)
-        lines.append(f'| [{title}]({relative_link(path, destination)}) | {labels} |')
-    lines.extend(['', '## Reviewed source records', '', table(rows, destination), ''])
     related_ids = group.get('related_challenge_ids', [])
-    if related_ids:
-        related = [r for r in catalogue['challenge'] if r['id'] in related_ids]
-        lines.extend(['## Related challenge entries', '',
-                      'These retain their original challenge identifiers and statuses; '
-                      'same-source later editions are explicitly linked in the table above.', '',
-                      table(related, destination), ''])
-    lines.extend([
-        'Topics are reading aids. Each family page preserves its own keys, source',
-        'relationships, earlier credits and limits. The live reading catalogue',
-        'supplies every record status and credit shown here, with reviewed',
-        'count-unit and spacing corrections in the displayed status.', '',
-        'Research and editorial work: **icekylinx and GPT-6 Astra Pro**.', '',
-    ])
+    related = [r for r in catalogue['challenge'] if r['id'] in related_ids]
+    lines = ['# ' + group['title'], '',
+             '[Catalogue](../README.md) · [Historical studies](../../docs/historical-studies/README.md) · '
+             '[Reading conventions](../../docs/reading-conventions.md)', '',
+             group['summary'], '']
+    if group['id'] == 'open':
+        locations = physical_source_accounting(catalogue)['locations']
+        all_open = sorted(rows + related,
+                          key=lambda r: locations[r['id']])
+        assert len(all_open) == 7 and all(r['state'] == 'OPEN' for r in all_open)
+        lines.extend([
+            '## Seven open sources', '',
+            'The original challenges p73, p170 A and p198 D appear here with the four '
+            'other unread bodies. Every source has its own catalogue entry, '
+            'literal transcription and research page.', '',
+            table(all_open, destination), '',
+            'A source is OPEN when no body reading has been accepted. Partial and '
+            'conditional editions elsewhere retain their own unresolved positions; '
+            'they are not counted as complete decipherments.', '',
+            '[Current research](../../docs/research-status.md#open-work) · '
+            '[Source inventory](../../docs/whole-material-coverage.md)', '',
+        ])
+    else:
+        editorial = json.loads((ROOT / 'data/topic_reading_paths.json').read_text())['topics'][group['id']]
+        study = '../../docs/historical-studies/' + editorial['study']
+        lines.extend(['**Historical study:** [' + editorial['study_title'] + '](' + study + ').', ''])
+        for section in editorial['sections']:
+            lines.extend(['## ' + section['title'], '', section['text'], ''])
+            for path, label in section['cases']:
+                assert (ROOT / path).is_file(), path
+                lines.append('- [' + label + '](' + relative_link(path, destination) + ')')
+            lines.append('')
+        lines.extend(['## Complete source index', '',
+                      f'{len(rows)} catalogue sources in this topic. '
+                      '[State definitions](../../docs/reading-conventions.md#catalogue-states).', '',
+                      '<details>', '<summary>Browse every source in printed-page order</summary>', '',
+                      table(rows, destination), '', '</details>', ''])
+        if related:
+            lines.extend(['### Related original challenges', '', table(related, destination), ''])
+    lines.extend(['Research and editorial work: **icekylinx and GPT-6 Astra Pro**. '
+                  'Individual cases credit earlier readings and keys.', ''])
     return '\n'.join(lines)
 
 
 def render_overview(groups, rows, catalogue=None):
     catalogue = load_catalog() if catalogue is None else catalogue
-    accounting = physical_source_accounting(catalogue)
-    locations = accounting['locations']
-    challenge_sources = {locations[row['id']] for row in catalogue['challenge']}
     lines = [START, '## Browse by topic', '',
-             '| Topic | Reviewed entries | Additional physical sources | Case pages |', '|---|---:|---:|---:|']
+             'Each topic opens with a guided reading path, followed by its complete source index.', '',
+             '| Topic | Catalogue sources |', '|---|---:|']
     for group in groups:
-        records = rows[group['id']]
-        families = len({r['path'].split('#')[0] for r in records})
-        additional = len({locations[row['id']] for row in records} - challenge_sources)
-        lines.append(f"| [{group['title']}]({group['id']}/README.md) | {len(records)} | {additional} | {families} |")
-    lines.extend(['', 'These topic guides cover every other reviewed catalogue entry. '
-                  'Additional physical sources exclude registered later editions of challenge sources. '
-                  'The page-number index below also retains all 22 original challenge entries.', END])
+        count = len(rows[group['id']])
+        if group['id'] == 'open':
+            count += len(group.get('related_challenge_ids', []))
+        lines.append(f"| [{group['title']}]({group['id']}/README.md) | {count} |")
+    lines.extend(['', 'The open-source guide brings together all seven unread bodies, '
+                  'including the three original challenges. The page catalogue gives '
+                  'every physical source exactly one entry.', END])
     return '\n'.join(lines)
 
 
@@ -271,10 +274,13 @@ def main():
     paths = set(generated) | {ROOT / 'README.md', ROOT / 'docs/repository-map.md'}
     paths |= {ROOT / r['path'].split('#')[0] for group in ['challenge', 'other']
               for r in catalogue[group]}
+    paths |= set((ROOT / 'docs').rglob('*.md'))
+    paths |= {ROOT / 'CONTRIBUTING.md', ROOT / 'experiments/README.md',
+              ROOT / 'sources/README.md', ROOT / 'data/README.md'}
     checked = check_links(paths)
     family_count = len({r['path'].split('#')[0] for r in catalogue['other']})
     accounting = physical_source_accounting(catalogue)
-    print(f'Navigation: {len(groups)} topics, {len(catalogue["other"])} reviewed entries, '
+    print(f'Navigation: {len(groups)} topics, {len(catalogue["other"])} catalogue sources, '
           f'{accounting["additional_physical_sources"]} physical sources beyond the challenge set, '
           f'{family_count} case pages, {len(aliases)} legacy aliases; '
           f'{checked} local links and their Markdown sections checked.')

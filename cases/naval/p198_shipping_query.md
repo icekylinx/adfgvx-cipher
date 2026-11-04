@@ -1,6 +1,6 @@
 # p198 A — Prices and freight for wheat delivered to Poti
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Conditional recovery: icekylinx and GPT-6 Astra Pro.** Source-defined group
 repairs and the registered **Nov7–9 key** recover a shipping-price query from
@@ -36,6 +36,9 @@ Thus it excludes three observed coordinates and one invalid T, adds one
 unknown slot, and retains all other source slots in order. The frame has
 244 slots and uses the unchanged registered Nov7–9 square and ranks.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional 244-slot frame; every printed mask and inserted slot unassigned:**
 
 ```text
@@ -47,6 +50,8 @@ DRAHT?TKAUFPREISS?HIFFSFRAC0TTRA?SP?RVERSICH?RUNGFUEYENDESEPTX?GTDAMPFER??PASIAU
 ```text
 DRAHTETKAUFPREISSCHIFFSFRACHTTRANSPORVERSICHERUNGFUERENDESEPTXMITDAMPFER??PASIAUNDIBALIAPOTIXGELIEFERTEX11??0KXPUDWEIZENXX
 ```
+
+</details>
 
 The word corrections repair `FRAC0T`, `FUEY`, `?GT` and `IELIEFERTE`.
 The numeral label `0` is changed only within the explicitly repaired word;
@@ -92,6 +97,9 @@ registered key identifier that decrypts this body, not a replacement date.
 · [Edition and verification](../../experiments/p198_shipping_query/README.md)
 · [Complete certificate](../../experiments/p198_shipping_query/certificates.json).
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — all 247 glyph slots, including invalid letters and masks:**
 
 ```text
@@ -103,6 +111,8 @@ GDAVG VADVG XDAXD GVVDV GVAVV DXDVD DCGGV XGXDA
 GXFGD VAFVX DXDVV DDDGV AGGAX AXAFD VXXVG DDDAX
 AXVDX X
 ```
+
+</details>
 
 The key retains the published Lasry–Niebel–Kopal–Wacker work and Lasry's
 2017 list. The earlier repository OCR block remains preserved as provenance;

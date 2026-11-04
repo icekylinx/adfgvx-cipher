@@ -1,6 +1,6 @@
 # Poti horse transport: a conditional first-part edition
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
@@ -16,6 +16,9 @@ The representative below excludes source indices 200–204, the visible `AFFDD` 
 
 ## Representative raw and limited repair
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional 220-coordinate frame after the five disclosed exclusions; unchanged Sep19–21 key:**
 
 ```text
@@ -27,6 +30,8 @@ The representative below excludes source indices 200–204, the visible `AFFDD` 
 ```text
 6X??FFQ274XHG6AM11X9XAUFDAMPFERXVUR?A4VA?NAX5XBATTAAM15X9XAUFDAMPFERXBURDALXBYRDA?XINSGESAMT52PFERDENACHXPOTI0
 ```
+
+</details>
 
 **Readable German — all representative candidate labels retained; no vessel identification or date normalization:**
 

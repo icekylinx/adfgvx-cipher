@@ -1,8 +1,6 @@
 # An enquiry about Glatz's whereabouts
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source audit](../../experiments/corpus_attack/SOURCE_FAMILIES.md)
+[ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source audit](../../experiments/corpus_attack/SOURCE_FAMILIES.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Records:** p140 B and p149 C. **Result:** 167 of 168 proposed positions have complete coordinate-pair support in a printed witness under the published Nov4–6 key. One damaged glyph needs an explicit reading to complete `KONSTANTINOPEL`.
 
@@ -21,11 +19,16 @@ it is not replaced by a Roman-numeral rendering.
 
 *Reg. Bmstr.* is probably *Regierungsbaumeister*. The precise institutional meanings of `MILVERKEHR`, `ROEM 2 A 100166 KO` and `KZ 95537` are not established here. The source-supported wording is **ERBETETEN**, with an extra `TE` compared with ordinary **ERBETEN**. The readable edition marks this irregularity; the fixed-length candidate retains all its letters.
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output:**
 
 ```text
 MILITAERXMISSIONKONSTANTINOPELXDRAHTNACHRICHTUEBERVERBLEIBREGXBMSTRXGLATZVOMSTRASSENBAUSONDERKOMMANDO1ERBETETENXMILVERKEHRXROEMX2XAX100166XKOXDURCHADMIRALSTABXKZX95537X
 ```
+
+</details>
 
 ## Source support and remaining repair
 

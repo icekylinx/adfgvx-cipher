@@ -1,6 +1,6 @@
 # Berlin General Staff map-sheet request
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Source edition and verification: **icekylinx and GPT-6 Astra Pro**.
 The published Nov7–9 period key retains its original attribution.
@@ -27,6 +27,9 @@ uses the stated F and explicitly pays for changing it. The E/masked
 sensitivity below retains the alternative; plaintext fluency is not used
 to make the source glyph certain.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional 182-slot frame, with the explicitly provisional F transcription:**
 
 ```text
@@ -38,6 +41,8 @@ STELLVERTRXG?NERJLSTABBERLINXZUSENDUNG?ONJE?0BL??TTERNKAR2E1ZU7?000XB1B2B3C1C2C3
 ```text
 STELLVERTRXGENERALSTABBERLINXZUSENDUNGVONJE?0BLAETTERNKARTE1ZU7?000XB1B2B3C1C2C3D1D2D3E2E3X
 ```
+
+</details>
 
 The substitutions are **source 110 F→D** (`J`→`A` in `GENERAL`) and
 **source 150 D→V** (`2`→`T` in `KARTE`). The first cost depends on the

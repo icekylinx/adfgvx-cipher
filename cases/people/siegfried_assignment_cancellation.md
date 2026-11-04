@@ -1,6 +1,6 @@
 # Siegfried's assignment to the Military Mission is cancelled
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -17,6 +17,9 @@ Childs p135, PDF p138; [source crop](../../experiments/siegfried_assignment_canc
 The page heading and internal date are 5 November, while reception is 7 November.
 The key remains the published **Nov4–6** key.
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — literal header:**
 
 ```text
@@ -26,15 +29,22 @@ FUER YZ 2400 (5/11)
 RICHI-401
 ```
 
+</details>
+
 The scan contains **401 source slots**, exactly its printed `RICHI-401`:
 397 valid coordinates and four printed dash slots. The original inverse
 transposition leaves one final coordinate unpaired.
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output — unaltered 401-coordinate frame, with its final orphan retained separately in the certificate:**
 
 ```text
 DTSCHEMILITAERMISS?ONINKONSTANTINOPELXZUNR45610XKOMDODESOBERLTSSIEGFRIEDNACHDERTUERKEIDESZENZUTEILUNGZURMILITAEEMRSNYSL4N6FXRGA13FQLMUKV1B14IWUXRGETMF13WLJ66WL4Q?A1ONJQ1?ZT4NFKFW?EYNMLLLOGR6LZZL6JYETM
 ```
+
+</details>
 
 ## A conditional surplus coordinate before transposition
 
@@ -57,6 +67,9 @@ in the certificate; no unique physical origin is asserted. The excluded X
 is an observed coordinate with an explicit one-coordinate model cost, not a
 free mask or an invisible omission from the source transcription.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional surplus-X exclusion at interim 230 or 231; 196/200 fixed positions:**
 
 ```text
@@ -68,6 +81,8 @@ DTSCHEMILITAERMISS?ONINKONSTANTINOPELXZUNR45610XKOMDODESOBERLTSSIEGFRIEDNACHDERT
 ```text
 DTSCHEMILITAERMISSIONINKONSTANTINOPELXZUNR45610XKOMDODESOBERLTSSIEGFRIEDNACHDERTUERKEIDESSENZUTEILUNGZURMILITAERMISSIONISTAUFGEHOBENXAKOFOLGTXAUFALLERHOECHSTENBEFEHLCHEFMILITAERKABINETTSFRHRMARSCHALLX
 ```
+
+</details>
 
 Observed substitutions, with zero-based received source indices: **127 F→X**, **186 A→V**, **187 V→A**, **225 F→V**, **258 X→V**, **293 V→G**, **367 A→X**.
 

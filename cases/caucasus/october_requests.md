@@ -1,8 +1,6 @@
 # October routing, weather and personnel requests
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[All cases](../README.md) · [ADFGVX Cipher](../../README.md)
+[All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Four source-reviewed records under the previously published
 **Oct4–6 key**, with different levels of certainty. The Sofia record is an
@@ -22,11 +20,16 @@ historical decipherment is claimed.
 Header: `ASO v LP (04.50 p.m., October 4th); 1030 (4.10); RICHI-124`.
 The heading is October 4, 1918. All 62 plaintext positions are directly fixed:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 SOFIAXAUSRINGBAHNVERKEHRAUSGESCHIEDENXXNACHRICHTENCHEF4BX49287
 ```
+
+</details>
 
 **Readable German:**
 
@@ -63,11 +66,16 @@ converted to punctuation. `DEUTKAUF` is retained as the signature token.
 
 The raw 130-character inverse is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 HPTMXVXWESTERNHA5ENX0BITTENRUECLKEHRBESCHLEUNIGENDAUEBERDOUTIGEHARKTLAGEDRINGENDBERICHTBENOETIGENMITEINLAUFBEGINNENWOLLENXDEUTKAUF
 ```
+
+</details>
 
 Five single-coordinate substitutions give `WESTERNHAGEN`, `RUECKKEHR`,
 `DORTIGE`, `MARKTLAGE` and `EINKAUF`. All five printed glyphs were checked
@@ -110,11 +118,16 @@ The two source layouts delete either index 79 or 80—one of the adjacent
 `FF` across `FFDGF FGAFRG`—and index 187, the final `X`. Both produce the
 same 186-slot stream and this raw inverse:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional deletion of source 79 or 80, and final source 187:**
 
 ```text
 FRONTWETTERWARTEXLITTEOBSXTELEGRXSTETKDATUMGRUPPENVORANZUSTELLENSONSTME?DGXWERT?OSXXFEWEWA110
 ```
+
+</details>
 
 `LITTE→BITTE` costs the received-coordinate change at source index 45,
 `F→G`. `STETK→STETS` costs index 157, `V→G`. Both remaining character
@@ -151,11 +164,16 @@ groups of five slots**, or 270 slots; the source field remains `RICHI-54`.
 
 The raw inverse is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 E?BITTEUEBER?EID5OGJEEINESBESRIEBSUNDVASCHIWNENMECH8ISCHENKONTROLLEWRSGENERALVSNKRESSEINVERSTAODENDEUTSCHEDELXKASKXABTXZXNRX474DG1MOOLX
 ```
+
+</details>
 
 A limited editorial reading, costing **12 known-coordinate substitutions
 and two erasure fills**, is:

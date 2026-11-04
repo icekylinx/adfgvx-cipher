@@ -1,8 +1,6 @@
 # Caucasus hide purchasing — Meierkort, the contract and the Kiew instruction
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[All cases](../README.md) · [ADFGVX Cipher](../../README.md)
+[All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and review: icekylinx and GPT-6 Astra Pro.** Three numbered
 parts on pp. 75–76 instruct that hide purchasing is assigned exclusively to
@@ -26,6 +24,9 @@ p76 is preserved as a separate source layer below.
 
 The typed frame has **394 slots** and fixes **197 of 197 raw plaintext positions** under the unchanged published key.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — typed source frame; no word repairs.**
 
 ```text
@@ -37,6 +38,8 @@ ERSUCHENFIRMAXMEIERKORTXMITZUTEILENDASSEINKAUFVONFELLENIHRALLEINUEBERTRAGENWORDE
 ```text
 ERSUCHENFIRMAXMEIERKORTXMITZUTEILENDASSEINKAUFVONFELLENIHRALLEINUEBERTRAGENWORDENISTXXFIRMAWAEREZUVERANLASSENDENIHRVOMHAEUTEEINFUHRSYNDIKATUEBERMITTELTENVERTRAGUNTERSCHRIEBENBALDIGSTZURUECKZUSENDEN
 ```
+
+</details>
 
 **Readable German — with the five individually priced word repairs:**
 
@@ -66,11 +69,16 @@ The total is **5 observed-coordinate substitutions and 0 printed-dash fills**. N
 
 The typed frame has **204 slots** and fixes **102 of 102 raw plaintext positions** under the unchanged published key.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — typed source frame; no word repairs.**
 
 ```text
 ETWAIGEWUENSCHEBEZUEGLICHSPESENZUSCHUSSWERDENSPAETERGEREGELTWERDENXXEINKAUFDARFNICHTUNTERBROCHENWERDEN
 ```
+
+</details>
 
 **Readable German — spacing and punctuation only:**
 
@@ -113,6 +121,9 @@ excluding **20 slots**, containing **20 observed coordinates under D** or
 separate conditional model, not a zero-cost deletion of transmitted symbols.
 The certificate retains both composite decodes and their full position maps.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — typed source frame; no word repairs.**
 
 ```text
@@ -124,6 +135,8 @@ ANWESENHEITWOLTERSNICHTMEHRERFORDERLICHERSUCHENIHNANZUWEISENNACHKIEWABZUREISENUN
 ```text
 ANWESENHEITWOLTERSNICHTMEHRERFORDERLICHERSUCHENIHNANZUWEISENNACHKIEWABZUREISENUNDSICHDORTBEILEDERZENTRALEMAGNUSZUMELDEN
 ```
+
+</details>
 
 **Readable German — under the typed-only source layer:**
 

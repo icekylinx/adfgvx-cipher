@@ -1,6 +1,6 @@
 # September: direct radio routing to Tiflis
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -9,6 +9,9 @@ The original page gives one three-part instruction. Reading its actual part boun
 ## p57 A1
 
 Childs p57, PDF p60; [source crop](../../experiments/september_radio_instructions/sources/p57_A.png). Unchanged published **Sep19–21** key; native **226** coordinates, matching the printed length.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Source transcription — received header:**
 
@@ -31,6 +34,8 @@ VORBEHALTLICHGENEHMIGUNGAKONACHSINDSAEMTLICHECPRUECHEFUERXTIFLISXTIFLISXBISAUFWE
 VORBEHALTLICHGENEHMIGUNGAKONACHSINDSAEMTLICHESPRUECHEFUERXTIFLISXTIFLISXBISAUFWEITERESVONDORTDIREKTBLINDZUFUNKENX
 ```
 
+</details>
+
 Observed coordinate changes, with zero-based source indices: **65 G→F**.
 
 Printed-mask fills: **205→G**.
@@ -47,6 +52,9 @@ The complete edited stream re-encrypts to exactly the source plus those changes.
 
 Childs p57, PDF p60; [source crop](../../experiments/september_radio_instructions/sources/p57_A.png). Unchanged published **Sep19–21** key; native **220** coordinates, matching the printed length.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — 109/110 fixed positions; no frame change:**
 
 ```text
@@ -58,6 +66,8 @@ DAXNKJXNKJXSEH?GUTXASOXASOXZULEISEV0NXCOSXCOSXGEHOERTWIRDXXSCHNELLEUEBERMITTLUNG
 ```text
 DAXNKJXNKJXSEHRGUTXASOXASOXZULEISEVONXCOSXCOSXGEHOERTWIRDXXSCHNELLEUEBERMITTLUNGWICHTIGXXZURSICHERSTELLUNGDESX
 ```
+
+</details>
 
 Observed coordinate changes, with zero-based source indices: **183 X→V**.
 
@@ -75,6 +85,9 @@ The complete edited stream re-encrypts to exactly the source plus those changes.
 
 Childs p57, PDF p60; [source crop](../../experiments/september_radio_instructions/sources/p57_A.png). Unchanged published **Sep19–21** key; native **176** coordinates, matching the printed length.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — 88/88 fixed positions; no frame change:**
 
 ```text
@@ -86,6 +99,8 @@ MITHOERENSVERKEHRMITXCOSXZUBESTIMMTENZEITENVORHER2NKUENDIGENXXGRUKONACH652ROEMX4
 ```text
 MITHOERENSVERKEHRMITXCOSXZUBESTIMMTENZEITENVORHERANKUENDIGENXXGRUKONACH652ROEMX4XNR43908
 ```
+
+</details>
 
 Observed coordinate changes, with zero-based source indices: **132 A→D**.
 

@@ -1,6 +1,6 @@
 # Kiel radio-control order — p140 A and p146 A
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Prior interpretation: J. Rives Childs; George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker. Source comparison and exact repair audit: icekylinx and GPT-6 Astra Pro.**
 
@@ -32,6 +32,9 @@ p146 prints **117 slots** despite its `RICHI-112` label. Its twelfth group, `VAA
 
 The resulting literal decryptions are:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — p146 uses the stated duplicate-group deletion; p140 is separate:**
 
 ```text
@@ -42,9 +45,14 @@ p146 A after the declared deletion
 SAEMTL?CHEFUNKS?ELLE?SOFORTDURCHOFFIFIERFEST?NHANDNE?MEN
 ```
 
+</details>
+
 Across the two copies, **55 of the 56 positions** in the readable first part are witnessed directly. The later copy supplies the first `F` in `OFFIZIER`, where p140 gives `1`. The letter `Z` remains an editorial correction: p140 gives `G` and p146 gives `F` at that position. Thus the repeat improves the text without turning every proposed letter into observed evidence.
 
 ## Other raw parts
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output — separate literal p140 parts:**
 
@@ -58,6 +66,8 @@ BEREITSA?FGENOMM?NETEXTEB?SCHLAGN?WMENUNDVERNICHTEN
 p140 A4
 GROESSTEKILEGEBOTONNACHRC?EFXR?EMB?ERXVX47?00XGEH
 ```
+
+</details>
 
 The literal transcripts retain the dashes, the invalid `C` in p140's `FDCGF`, and the invalid `O` in p146's `VOVVX`. Neither invalid glyph is silently replaced by a valid coordinate.
 

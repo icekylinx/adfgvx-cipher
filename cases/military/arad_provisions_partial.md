@@ -1,46 +1,91 @@
-# Arad provisions and strength report: conditional partial recovery
+<a id="arad-provisions-and-strength-report-conditional-partial-recovery"></a>
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+# Arad provisions and reported strength: the restored copies
 
-**Updated source recovery.** The independent [p168 E witness](danube_arad_witnesses.md#arad-cross-copy-restoration) supplies all eleven missing coordinates, fixes **80000 MANN** and the duration separator **X**, and raises this source to **135/136 fixed labels**. Comparing original coordinates across the full declared source family leaves **eight minimum maps with one completed stream**. The earlier text-conditioned reconstruction and its optional U below are preserved as the baseline.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
-Source review, partial reading and audit: **icekylinx and GPT-6 Astra Pro**.
-Published Nov7–9 key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker;
-unchanged here. Earlier repository OCR is retained beside the new source
-transcript. No universal first-decipherment priority is asserted.
+**The second reception turns an uncertain strength field into an observed
+80000 MANN.** The report addresses provisions, trains to Arad and an approach
+to the Hungarian government; it also gives 30000 TIERE. Its two durations,
+14 and 10 days, remain in the transmitted order without an invented
+explanation of how they relate.
 
+The p159 A source is damaged by repeated groups and missing coordinates.
+The independently received [p168 E copy](danube_arad_witnesses.md#p168-e)
+now supplies all eleven missing values and fixes the duration separator as
+X, replacing the earlier optional U. The current source-linked reading has
+**135 of 136 fixed labels**. The last uncertainty is a shared footer cell,
+not the strength figure.
 
-**Reviewed source crops:** [p159_A_reviewed.png](../../experiments/arad_provisions_partial/sources/p159_A_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
+**Source recovery and edition:** icekylinx and GPT-6 Astra Pro.
+The unchanged Nov7–9 key is credited to George Lasry, Ingo Niebel, Nils
+Kopal and Arno Wacker. Earlier OCR and the original reconstruction remain
+attributed in their evidence packages.
+
 ## What can be read, and under which model
 
-The source on printed p159 A has **271 valid coordinates** against an
-advertised **272**. It visibly repeats `VDAGG` in the first row and `FFXDF`
-in the third, and prints the four-coordinate group `GDDA` at the end of the
-third row. These observations motivate a conditional layout; they do not
-by themselves prove that the repetitions are accidental or where other
-coordinates were lost.
+**Readable German — current p159 common reading; seven observed substitutions, source-supported fills, footer unresolved:**
 
-The stated model excludes one instance of each repeated group, adds two
-five-slot gaps and one slot in `GDDA`, and uses the published key unchanged.
-It exposes **124 of 136 raw plaintext positions**. A partial word proposal
-then makes **six observed-coordinate substitutions** and fills **ten of
-the eleven added slots**, giving **134/136 fixed positions** in the primary
-display. The first strength quantity and a footer label remain unresolved.
+> An OHL. Verpflegung noch 14 Tage. 10 Tage. Verpfleg. Zuege nach Arad. Arad bei ungar. Regierung erwirken. STAEKE 80000 Mann, 30000 Tiere. AOK11. RM 1C18?GEH.
 
-The readable portions concern provisions, trains to Arad, the Hungarian
-government, and fields containing `MANN` and `TIERE`. The exact duration
-sequence remains `14 TAGE U10 TAGE`; the repeated `ARAD`, damaged `STAEKE`
-and footer `1C 18?GLH` are also retained. Their relationship and intended
-normalization are not silently supplied.
+The message asks for provision trains to Arad and for something to be
+obtained through the Hungarian government. It records the military and
+administrative work of sustaining movement: food, trains, permission and
+reported manpower and animals appear in one compact telegram. It does not
+establish that the trains arrived or independently authenticate the strength
+as an actual headcount.
 
-This is a **conditional partial recovery with a substantial structural
-cost**, not a native whole-body decipherment. The minimum below is
-conditioned on one stated partial text and one bounded source family.
-The independently received p168 copy now supplies the source constraints
-linked above. Its finite source-family minimum replaces the earlier
-text-only ambiguity for the improved collation.
+`STAEKE` stays as its six transmitted labels; no R is inserted. The repeated
+`ARAD` and the separate 14-day/10-day statements are retained. The common
+edited footer is `18?GEH`, with ?={5,6}; adopting the p168 E spelling in p159
+costs one of the seven observed-coordinate substitutions. Raw p159 ends
+`GLH`, and that disagreement remains in the source-linked stream below.
+
+<details>
+<summary>Current p159 source-linked and explicitly repaired streams</summary>
+
+**Raw output — p159 primary geometry with all 11 missing coordinates supplied from observed p168 pairs:**
+
+```text
+0NOHLXVERPOLEGUNGNOCH14TAGEX10TAGEXXVERPFLEGXEUEGENACHARADXARADNEIUNGARXREGIERUNGERWIRKENXSTAEKE80000MANNX30000TISREXAOK11XRMX1CX18?GLHX
+```
+
+**Edited output — current p159 collation; seven observed substitutions and eleven source-supported added-coordinate fills:**
+
+```text
+ANOHLXVERPFLEGUNGNOCH14TAGEX10TAGEXXVERPFLEGXZUEGENACHARADXARADBEIUNGARXREGIERUNGERWIRKENXSTAEKE80000MANNX30000TIEREXAOK11XRMX1CX18?GEHX
+```
+
+</details>
+
+## Explicit structural cost
+
+The copy supplies source evidence for the missing values; it does not erase
+the reconstruction’s structural assumptions. The current collation uses
+the same finite family of duplicated groups and gaps, now compared against
+observed coordinates in the second reception.
+
+| Operation in the current p159 collation | Count or result |
+|---|---|
+| Native p159 source | 271 observed coordinates; header advertises 272 |
+| Exclude one copy of each repeated `VDAGG` and `FFXDF` | 10 observed coordinates |
+| Add two five-slot gaps and one slot in `GDDA` | 11 slots; model length 272 |
+| Supply those additions from directly observed p168 coordinates | All 11; no donation uses p168’s borrowed or missing values |
+| Minimum source-to-source disagreement | 5 differences across 258 jointly observed comparisons |
+| Retained source-origin maps | 8, all producing the same completed ciphertext |
+| Common word proposal | 7 observed p159 substitutions; 135/136 fixed labels |
+
+The source-only comparison examines 173,580 canonical layouts and 694,320
+source-origin maps. The eight minima replace the earlier 64 word-conditioned
+maps and remove their P0000 alternatives. This is a minimum within a declared
+source-edit family, not proof of a unique historical transmission failure.
+The [cross-copy certificate](../../experiments/danube_arad_witnesses/certificates.json)
+records every origin, price and both globally consistent footer assignments.
 
 ## Native source and literal header
+
+<details>
+<summary>Original p159 header, literal ciphertext and odd-frame diagnostic</summary>
 
 **Literal header:** `A) UKS? v ZON (11.12 p.m., November 8th); AN LP 2000 KR; RICHI-272; following control: ZON`
 
@@ -60,11 +105,13 @@ VFVGF VDGDD VXDAD XDADV GVVVV GDVDD DDVGG VVDGG
 DVVVV VAFVA DXXXV VVVFA FFADV DAXVV FV
 ```
 
+
 **Raw output — native odd-frame diagnostic, before any exclusions or additions:**
 
 ```text
 HAQSTYKGWPOG3IRIDD1CXCKETTPUC0BCEEQXUEYPNCLK0L0XEEAAQFEYTKKAREAGYIEAEAYQRUN2GQYNSDRSKUP0AXLZADKE3A000DNGAXXLH0KNTWZE10QK8?KLSXLEH18EL0I
 ```
+
 
 The last unpaired intermediate coordinate is
 `V` at source index
@@ -72,29 +119,16 @@ The last unpaired intermediate coordinate is
 unaltered source remain in the certificate; they are not replaced by the
 conditional readable frame.
 
-## Explicit structural cost
+</details>
 
-All indices are zero-based.
+## Earlier reconstruction, before the complete-copy evidence
 
-| Operation in the primary display | Count | Source/model location |
-|---|---:|---|
-| Retain native source slots | 271 | All remain in the native source layer |
-| Exclude one `VDAGG` | 5 valid coordinates | Source 25–29; excluding 30–34 is an equal alternative |
-| Exclude one `FFXDF` | 5 valid coordinates | Source 80–84; excluding 85–89 is an equal alternative |
-| Add a five-slot gap | 5 new slots | Before source 15, at the beginning of `XADVV` |
-| Add a short-group slot | 1 new slot | Before source 118 in `GDDA` |
-| Add another five-slot gap | 5 new slots | Before source 119, following that printed row |
-| Model length | 272 | 271 − 10 + 11 |
-| Fill added slots in the primary proposal | 10 | `XADDX`, `G`, and `XADV?` |
-| Keep an added slot unresolved | 1 | The last coordinate of `XADV?` |
-| Change retained valid coordinates | 6 | Listed below |
+<details>
+<summary>Superseded word-conditioned baseline — exact displays and historical tests</summary>
 
-The ten excluded coordinates are not erased or illegible: every one is a
-valid printed coordinate, and every exclusion is charged. The eleven new
-slots are not present elsewhere in an independently observed copy. Their
-proposed values are editorial supplies conditioned on the partial reading.
-The G supply turns source `GDDA` into model `GDDGA`; the source transcript
-itself stays `GDDA`.
+The sections in this drawer document the earlier reconstruction before
+p168 supplied the missing source values. They remain available for comparison;
+their U, unresolved strength and P0000 alternatives are not the current reading.
 
 ## Raw output — conditional 272-coordinate frame
 
@@ -104,9 +138,8 @@ itself stays `GDDA`.
 0NOHLXVERPOLEGUNG?OCH14TAGE?10TAGEXX??RPFLEGXEU?GENACHAR??XARADNEI?NGARXREGI?RUNGERWIR?ENXSTAEKE?0000MANNX30000TISREXAOK11XRMX1CX18?GLHX
 ```
 
-This is the **124/136-position** raw reading under the primary geometry.
-Both the geometry and the output are retained independently of the word
-proposal.
+The early frame fixed 124 of 136 positions while all eleven additions were
+left unknown.
 
 ## Edited output — primary partial proposal
 
@@ -116,95 +149,36 @@ proposal.
 ANOHLXVERPFLEGUNGNOCH14TAGEU10TAGEXXVERPFLEGXZUEGENACHARADXARADBEIUNGARXREGIERUNGERWIRKENXSTAEKE?0000MANNX30000TIEREXAOK11XRMX1CX18?GLHX
 ```
 
-| Source index | Printed coordinate | Proposed coordinate |
-|---:|:---:|:---:|
-| 60 | G | X |
-| 65 | X | V |
-| 68 | V | X |
-| 69 | F | X |
-| 210 | X | G |
-| 235 | V | F |
-
-These are word proposals including `0NOHL → ANOHL`,
-`VERPOLEGUNG → VERPFLEGUNG`, `ARADNEI → ARADBEI`, the Z of
-`ZUEGE`, and `TISRE → TIERE`. The B proposal requires two coordinate
-changes; the others account for the remaining four. All eleven added slots,
-the ten supplied values and the unresolved coordinate are separately mapped
-in the certificate.
+The early proposal changed observed source indices 60, 65, 68, 69, 210 and
+235, filled ten added coordinates, and left the strength and footer open.
+Its exact readable display was:
 
 **Readable German — exact nonseparator labels of the primary partial proposal:**
 
 > An OHL. Verpflegung noch 14 Tage U10 Tage. Verpfleg. Zuege nach Arad. Arad bei ungar. Regierung erwirken. STAEKE ?0000 Mann, 30000 Tiere. AOK11. RM. 1C. 18?GLH.
 
-**Conditional interpretation:** The readable portion appears to be a
-provisions report to OHL, with a proposal concerning provision trains to
-Arad and obtaining something through the Hungarian government. A following
-field apparently concerns manpower and animals. `STAEKE` is preserved as
-a damaged word; no R is inserted into its plaintext. The duration sequence
-and repeated destination remain as transmitted in this candidate. The
-strength values are not authenticated historical quantities, and the
-administrative footer is not expanded.
+Its duration U was a lexical supply. It should no longer compete on equal
+evidence with the directly observed p168 separator X.
 
 ## Every tied source map is retained
 
-The bounded family chooses one of the two copies of each repeated group;
-places one new slot at each of the five boundaries in or immediately around
-`GDDA` (source 115–119); and places two ordered five-slot gaps at all
-boundaries of the resulting 262-slot stage, including coincident gaps.
+The earlier text-conditioned search covered 173,580 canonical layouts and
+694,320 source-origin maps: either instance of each duplicated group could
+be excluded, a single slot was added around GDDA, and two five-slot gaps
+were placed at the remaining boundaries. It retained 64 minimum source
+maps at six observed-coordinate changes. Those old prices and every map
+remain in the [original certificate](../../experiments/arad_provisions_partial/certificates.json).
 
-There are **173,580 canonical gap comparisons**. The four choices of which
-duplicate instances to exclude have identical retained coordinate strings;
-the verifier proves that equivalence and preserves their different source
-maps. They represent **694,320 source-labelled models**. The comparison is
-conditioned on the stated partial text, with the strength row coordinate
-free and the footer bound to the existing VF cell.
-
-| Constraint among all minima | Retained alternatives |
-|---|---|
-| Observed-coordinate substitutions | 6 |
-| New slot in the short group | Before source 118 |
-| First five-slot gap, measured in the 262-slot stage | 15, 16, 17 or 18 |
-| Second five-slot gap, in that same stage | 107, 108, 109 or 110 |
-| Which `VDAGG` instance is excluded | Start 25 or 30 |
-| Which `FFXDF` instance is excluded | Start 80 or 85 |
-| Distinct source-labelled minimum maps | 64 |
-
-All **16 canonical** and **64 source-labelled** minima are retained with
-their original-source indices, unfilled raw outputs, substitutions, fills
-and quantity domains. The primary map uses stage boundaries 15 and 110
-because these place the two five-slot additions at printed group/row
-boundaries. That is a display choice, not proof of the historical error
-mechanism.
-
-The verifier recomputes every canonical price, its full histogram and a
-deterministic digest of all 173,580 rows. It also directly recounts edits
-for every retained minimum. This is an exact source-consistency calculation
-for the target; it does not establish that the target was historically
-written or that no different error family fits better.
+The new coordinate-only comparison retains eight maps with one completed
+stream. Its five-disagreement objective compares two sources, rather than
+a supplied plaintext template; these are different costs, not competing
+claims about the same repair count.
 
 ## The first quantity and footer stay linked
 
-The primary edited strength position **96** has coordinate pair `?A` and
-exact domain **{3,4,5,6,8,P,V}**. It is displayed as `?0000`, including the
-possibility of letters. The footer at position **131** is `VF`, with domain
-**{5,6}** under the published partial square.
-
-Among the tied source maps:
-
-- **48 maps** retain an observed A at the strength row coordinate, giving
-  literal `P0000` under the key.
-- **16 maps**, including the primary display, leave that coordinate in the
-  added five-slot gap, with the full `?A` domain above.
-
-The ties minimize observed-coordinate substitutions only. The 48 literal
-`P0000` maps fill all **eleven** added slots and fix **135/136** positions;
-the 16 open-domain maps fill **ten** and fix **134/136**, as in the primary
-display. The certificate preserves both fill ledgers rather than treating
-all tied maps as having the same number of supplied coordinates.
-
-These counts describe alternative maps; they are not independent witnesses,
-probabilities, or a vote for P. A plausible-looking digit string is not
-selected to replace the unresolved field.
+Before the complete copy was inspected, the primary strength pair had domain
+{3,4,5,6,8,P,V}. Sixteen word-minimum maps left it open; forty-eight produced
+literal P0000 and filled all eleven additions. The latter display was:
 
 **Conditional interpretation — one tied map retaining literal P0000; six substitutions and eleven added-slot fills:**
 
@@ -212,37 +186,18 @@ selected to replace the unresolved field.
 ANOHLXVERPFLEGUNGNOCH14TAGEU10TAGEXXVERPFLEGXZUEGENACHARADXARADBEIUNGARXREGIERUNGERWIRKENXSTAEKEP0000MANNX30000TIEREXAOK11XRMX1CX18?GLHX
 ```
 
-If the unresolved strength pair is `XA`, its leading label is 5 or 6.
-The footer `VF` must then use the **other** digit, because the two unused
-square cells are globally injective. For example, leading 5 requires footer
-6, and leading 6 requires footer 5. The source family also permits the
-known leading labels 3, 4, 8, P and V.
-
-The certificate retains **12 exact global witnesses**: all six possible
-row coordinates for the primary `?A`, combined with both global VF/XA
-assignments. Every witness decrypts and re-encrypts the full candidate
-exactly. Each of the 64 source maps lists the subset of those witnesses
-compatible with its retained coordinates. No historical completion is
-selected.
+These were alternative maps, not independent witnesses or votes for P.
+The new observed p168 pairs fix 80000 and eliminate those P0000 alternatives
+within the tested source family. Only the footer’s shared VF={5,6} choice
+remains unresolved. The original twelve global completion witnesses and
+map-specific compatibility records remain historical calculation evidence.
 
 ## Exploration, verification and credit
 
-[The input record](../../experiments/arad_provisions_partial/inputs.json)
-contains the native rows, source header, unchanged key, primary map,
-partial candidate, complete family bounds and prior credits.
-[The certificate](../../experiments/arad_provisions_partial/certificates.json)
-contains the native odd diagnostic, orphan, all 64 tied maps, every repair,
-the exhaustive price digest/histogram, linked quantity domains and all 12
-full reencryption witnesses. The source crop is bound by both file and RGB
-hashes and can be regenerated exactly from the pinned PDF.
-
-The initial search was language-guided. Its vocabulary was chosen after a
-provisions/strength lead appeared; it is not a blind or held-out test.
-[The portable exploration script](../../experiments/arad_provisions_partial/explore.py)
-and [its retained top results](../../experiments/arad_provisions_partial/exploration.json)
-make that step explicit. The later fixed-target price comparison is a
-separate conditional calculation, not independent confirmation of the
-language choices.
+The original vocabulary search followed a provisions/strength lead; it was
+not a blind test. Its [portable script](../../experiments/arad_provisions_partial/explore.py)
+and [retained results](../../experiments/arad_provisions_partial/exploration.json)
+remain reproducible, alongside the fixed-template audit:
 
 **Reproduction commands:**
 
@@ -252,8 +207,14 @@ python experiments/arad_provisions_partial/verify.py --verify --pdf /path/to/chi
 python experiments/arad_provisions_partial/explore.py --verify
 ```
 
-The [README](../../experiments/arad_provisions_partial/README.md) summarizes
-the package. Earlier OCR and recomputed unchanged-key diagnostics remain
-in the frozen comparison artifacts. Published-key authorship is preserved;
-the present contribution is the source review and explicitly bounded
-partial recovery.
+</details>
+
+The [current witness edition](danube_arad_witnesses.md#arad-cross-copy-restoration)
+explains the source relationship; the [original experiment](../../experiments/arad_provisions_partial/README.md)
+keeps the earlier search and candidate unchanged. The reviewed [p159 crop](../../experiments/arad_provisions_partial/sources/p159_A_reviewed.png)
+and p168 crop are bound to the authenticated Childs PDF.
+
+```sh
+python experiments/danube_arad_witnesses/verify.py --verify
+python experiments/danube_arad_witnesses/verify.py --verify --pdf /path/to/childs.pdf
+```

@@ -1,6 +1,6 @@
 # Receipt addressed to General von Kress in Tiflis
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -16,6 +16,9 @@ The [source crop](../../experiments/september_receipt_and_front_inquiry/sources/
 contains **148 slots**, matching `RICHI-148`. The unchanged published
 **Sep19–21** key gives the following native-frame reading.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 148-coordinate frame:**
 
 ```text
@@ -27,6 +30,8 @@ GENERALVONKRECSTIFLISXXMARKXSECHUENHUNDERZXERHALTENXXMARINE?TTA?HEXSOTIAXX
 ```text
 GENERALVONKRESSTIFLISXXMARKXSECHZENHUNDERTXERHALTENXXMARINEATTACHEXSOFIAXX
 ```
+
+</details>
 
 **Readable German — spacing and punctuation, with the one spelling expansion bracketed:**
 

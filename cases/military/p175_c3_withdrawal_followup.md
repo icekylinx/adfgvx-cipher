@@ -1,6 +1,6 @@
 # Withdrawal from the Danube and Sereth front: p175 C3
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source analysis and edition: icekylinx and GPT-6 Astra Pro.**
 
@@ -34,6 +34,9 @@ coordinate **95**. This is the smallest of six equally cheap placements
 for the candidate, chosen as a stable representative. All indices are
 zero-based. The published **Nov10–12** square and ranks are unchanged.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional frame with five missing coordinates:**
 
 ```text
@@ -47,6 +50,8 @@ fills give the following **111-position candidate**:
 ```text
 OKMXGEHTHEUTENACHTVONDONAUXUNDSERETHFRONTAUFGEBIRGEZURUECKXWIRDUEBERXKRONSTADTXHERMANNSTADTXRICHTUNGXKLUZENBURG
 ```
+
+</details>
 
 **Readable German — punctuation and word spacing of the conditional candidate; the final ellipsis marks continuation into the next part:**
 

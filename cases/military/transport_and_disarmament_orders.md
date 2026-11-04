@@ -1,6 +1,6 @@
 # Prague transport fragment, Ukrainian provisions priority and disarmament orders
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and exact repair accounting: icekylinx and GPT-6 Astra Pro (2026).** Published Nov19–21 key: Lasry, Niebel, Kopal and Wacker. Earlier unreviewed machine candidates for p209 are preserved and credited; this is not a universal first-decipherment claim.
 
@@ -53,6 +53,9 @@ C2 has four single-coordinate repairs: `WESN→WENN`, `GESCHLOSNENE→GESCHLOSSE
 
 ### p209 A1
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output:**
 
 ```text
@@ -65,7 +68,12 @@ ANOKMAC?ENSENXXMI?ISTERPRAE?IDENTPRAG?ATERKLAER?DASSTS8HESCHICHEREGIERUNGTRANSPO
 ANOKMACKENSENXXMINISTERPRAESIDENTPRAGHATERKLAERTDASSTS8HESCHICHEREGIERUNGTRANSPORTHGRXMACKENSENAUFSTRECKETESCHEN
 ```
 
+</details>
+
 ### p209 B1
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -79,7 +87,12 @@ HEERESGRXKIEWXABMMDXWEGENSCHWIERIGKEITENERNAEHRUNGSFRAGEUNDMANGELTRANSPORTMITTEC
 HEERESGRXKIEWXABMMDXWEGENSCHWIERIGKEITENERNAEHRUNGSFRAGEUNDMANGELTRANSPORTMITTELISTABBEFOERDERUNGSAEMTLICHERINXUKRAINEBESCHAFFTENUNDGREIFBARENLEBENSMITTELM
 ```
 
+</details>
+
 ### p209 B2
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -93,7 +106,12 @@ AUFDASAEUSSERSTEZUBESCHLEUNIGENUNDAUCQ6ERABBE9OERDERUNGVONROHSTOFFENALLERARTVORA
 AUFDASAEUSSERSTEZUBESCHLEUNIGENUNDAUCHDERABBEFOERDERUNGVONROHSTOFFENALLERARTVORANZUSTELLENXNOXJ0192SMXBEWEGEXBERLIN
 ```
 
+</details>
+
 ### p209 C1
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -107,7 +125,12 @@ IMFRUEHERENGENGOUVWARSCHAUHABENGROSSEDNZAHLGESCCLOJSENERVERBAENDEDENPOLENWAFFENA
 IMFRUEHERENGENGOUVWARSCHAUHABENGROSSEANZAHLGESCHLOSSENERVERBAENDEDENPOLENWAFFENABGEGEBENXXESDARFKEINEMZWEIFELUNTERLIEGENX
 ```
 
+</details>
+
 ### p209 C2
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -120,6 +143,8 @@ DASSESEHRLOSISTXWESNGESCHLOSNENEVERBAENDESICLOHNEKAMPFENTWAFFNENLNSSENXXOHLXRMJA
 ```text
 DASSESEHRLOSISTXWENNGESCHLOSSENEVERBAENDESICHOHNEKAMPFENTWAFFNENLASSENXXOHLXRMJAJJ970GEHXOP
 ```
+
+</details>
 
 ## Evidence and reproduction
 

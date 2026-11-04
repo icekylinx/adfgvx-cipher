@@ -1,6 +1,6 @@
 # Turkish armistice and the Dardanelles–Bosporus notice
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** a native 230-slot source edition of p112 D, with six observed
 coordinate substitutions, one printed-dash fill and one unresolved final
@@ -16,6 +16,9 @@ letters; its character mapping is checked against the priced edited stream.
 
 The date-like 31X10 is a literal source label. The original grammatical form WAFFENSTILLSTAND has no added genitive ending. BVN, BEIBVG and 7OSPOLI remain as received, and the final unknown has domain 9EKVXZ.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native source frame:**
 
 ```text
@@ -27,6 +30,8 @@ INFOLGE31X10XABGESCHLOSSENENWAFF?NSTILLSTANDXTUERAEIXDARDANE9LXNXBOS6ORFSXDERENT
 ```text
 INFOLGE31X10XABGESCHLOSSENENWAFFENSTILLSTANDXTUERKEIXDARDANELLENXBOSPORUSXDERENTENTEGEOEFFNETXXBVNXBEIBVGX7OSPOLIX?
 ```
+
+</details>
 
 **Readable German — based on the edited candidate above; the local qualifications remain in force:**
 

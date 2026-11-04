@@ -1,6 +1,6 @@
 # Batum: Lieutenant Meier ordered to Berlin
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -9,6 +9,9 @@ The source advertises **RICHI-150** but contains **149 typed coordinates**. The 
 ## p104 D
 
 Childs p104, PDF p107; [reviewed source crop](../../experiments/nov2_acknowledgments_and_personnel/sources/p104_D.png). Key: unchanged published **Nov1–3**.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Source transcription — literal received header:**
 
@@ -29,6 +32,8 @@ LTXMEIERXBATUMXSO?ORTBERLINABREISENXBEIMERSXBATLX2XGARDEREGTXMELDENXMILMISS
 ```text
 LTXMEIERXBATUMXSOFORTBERLINABREISENXBEIMERSXBATLX2XGARDEREGTXMELDENXMILMISS
 ```
+
+</details>
 
 The full edited stream re-encrypts exactly under the declared frame and listed changes.
 

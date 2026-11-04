@@ -1,13 +1,11 @@
 # November 6 Ringbahn-key instruction to Tiflis
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
 The two-part **section C on Childs p146** tells the Caucasus delegation at
 Tiflis to retain November Ringbahn keys and use them for the beginning of
 December. Its schedule agrees with independently readable spans in the
-[p145 instruction](nov6_ringbahn_key_witnesses.md) and
+[p145 instruction](nov6_ringbahn_key_witnesses.md) and · [Reading conventions](../../docs/reading-conventions.md)
 [p211 lower-B instruction](p211_key_schedule.md), but this dispatch has its
 own wording, address and part boundaries. The original
 [p146 challenge](../p146.md) is section B; these are two different physical
@@ -27,6 +25,9 @@ The insertion positions and complete wording remain stated hypotheses.
 
 [Reviewed source image — source-PDF reference](../../experiments/nov6_tiflis_ringbahn_instruction/inputs.json).
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — headers and cleartext annotation:**
 
 ```text
@@ -38,6 +39,8 @@ TIFLIS 2 TLE
 2 TL RICHI-192
 Cleartext ending after part 2: NKJ v LP UM
 ```
+
+</details>
 
 The dispatch date in the heading and address line is November 6; the
 intercept line says November 7. These layers are retained. The separately
@@ -55,6 +58,9 @@ A boundary is before the original source index of that number. Consequently,
 the inserted slots have **model indices 66 and 174**; original source indices
 do not shift in the transcription.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional 176-slot frame; 86/88 fixed positions:**
 
 ```text
@@ -66,6 +72,8 @@ RINGBAHNNOVEMBERSCHLUESSELNICHTVERNICHTENX?CHLUESSELERSTERDEZEMBERWIEZEHNTE?NOVE
 ```text
 RINGBAHNNOVEMBERSCHLUESSELNICHTVERNICHTENXSCHLUESSELERSTERDEZEMBERWIEZEHNTERNOVEMBERUSWX
 ```
+
+</details>
 
 | Added source boundary | Model index | Supplied coordinate | Plaintext position supplied |
 | --- | ---: | --- | --- |
@@ -101,6 +109,9 @@ is inserted at **source boundary 37**. The literal two dashes, the two dashes
 in the following `VF--X`, the `W` in `FXXDW`, and the dash in `-DGVD` all
 remain source observations.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional 192-slot frame; 89/96 fixed positions:**
 
 ```text
@@ -112,6 +123,8 @@ BISEINUNDZWANZIGSTERDEZEMBERWI?DREISSIG?TERNO?E?BERXEMPFANGS?ESTAETIGUNGX?A8HRIC
 ```text
 BISEINUNDZWANZIGSTERDEZEMBERWIEDREISSIGSTERNOVEMBERXEMPFANGSBESTAETIGUNGXNACHRICHTENCHEF4B47857X
 ```
+
+</details>
 
 The sole observed-coordinate substitution is **source 132 V→X**, supplying
 `C` in the proposed word `NACHRICHTENCHEF` where the raw output has `8`.

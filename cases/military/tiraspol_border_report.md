@@ -1,6 +1,6 @@
 # Tiraspol fragment: fire at the border
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Source edition and verification: **icekylinx and GPT-6 Astra Pro**.
 
@@ -16,6 +16,9 @@ The [source crop](../../experiments/nov8_map_and_boundary/sources/p162_C_detail.
 contains **100 slots**, including a printed dash at source 36 in `D-XDF`.
 The unchanged published **Nov7–9** key gives 49 of 50 fixed positions.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 100-slot frame:**
 
 ```text
@@ -27,6 +30,8 @@ TIRASPOLERHIEL?MXGXFEUERANDERGRENZEXAKONACH17ROEM4
 ```text
 TIRASPOLERHIELTMXGXFEUERANDERGRENZEXAKONACH17ROEM4
 ```
+
+</details>
 
 **Readable German — exact nonseparator labels of the edited layer, with spacing, punctuation and conventional umlaut rendering:**
 

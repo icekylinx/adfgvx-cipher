@@ -1,6 +1,6 @@
 # p217 B2 — Report sent by teleprinter via Budapest
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review: icekylinx and GPT-6 Astra Pro.** The complete native stream
 has **176 coordinates and 88 fixed raw labels**, with zero edits or fills.
@@ -13,11 +13,16 @@ has **176 coordinates and 88 fixed raw labels**, with zero edits or fills.
 
 The report is additionally being sent by teleprinter through Budapest.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — complete native stream, unchanged Nov22–24 key:**
 
 ```text
 OLFENINIUSERREICHTARADJZXEYXXMELDUNGGEHTAUSSERDEMDURCHFERNSCHREIBERUEBERBUDAPESTXAOKYYXX
 ```
+
+</details>
 
 `OLFENINIUS`, `ARADJZ`, `EY` and `AOKYY` are retained literally. The displayed
 sentence quotes only the intact central span.
@@ -34,6 +39,9 @@ and lexical fill itemized.
 · [Source edition and verification](../../experiments/nov24_budapest_report/README.md)
 · [Per-position certificate](../../experiments/nov24_budapest_report/certificates.json)
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — all 176 printed coordinates:**
 
 ```text
@@ -43,6 +51,8 @@ FDFGF DFAFF XGVVF VDXVX FFVFG FAGGA FVDFA VAFVA
 GFAAF FVDGF VGFVG AVVVX VAGXD XGDVF XAAVA VVFFF
 VAAAF VGAFV XXGDV D
 ```
+
+</details>
 
 ## Attribution
 

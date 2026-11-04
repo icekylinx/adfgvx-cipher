@@ -1,7 +1,5 @@
 # Warsaw station report: a conditional missing-row continuation
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source review and conditional reconstruction: icekylinx and GPT-6 Astra Pro.**
 
 Childs p204 C2 prints **242 coordinate slots** but advertises **282**. Inserting a hypothetical row of eight five-coordinate groups before the terminal `GX` produces a coherent continuation of [part 1](nov16_18_command_inquiries.md#p204-c1): equipment has not arrived from home, operation is to pass to the Poles on Monday evening, and WAU is transferring personnel. The proposed words require **no change to any observed coordinate** and **36 fills in the 40 hypothesized missing slots**. Four plaintext positions remain unknown.
@@ -10,7 +8,7 @@ The longer frame and those 36 fills remain a **conditional reconstruction**. The
 
 ## p204 C2
 
-[Reviewed source excerpt](../../experiments/warsaw_station_missing_row/sources/p204_C.png) · [Exact inputs](../../experiments/warsaw_station_missing_row/inputs.json) · [All gap placements and global witnesses](../../experiments/warsaw_station_missing_row/certificates.json)
+[Reviewed source excerpt](../../experiments/warsaw_station_missing_row/sources/p204_C.png) · [Exact inputs](../../experiments/warsaw_station_missing_row/inputs.json) · [All gap placements and global witnesses](../../experiments/warsaw_station_missing_row/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source transcription — header:** `C) KOW v WAU (1.50 a.m., November 18th); 0115 (17), 2 TLE; 2 TL RICHI-282`.
 
@@ -24,6 +22,9 @@ The seven printed lines contain six lines of 40 coordinates and a final two-coor
 
 The literal tokens `NO?A`, `A` after `FESTFUNK`, `DES?K?` and `OA?` are retained. `Bezkdos` is left as the transmitted abbreviation. The ending is not silently made into a fluent unit name or a plausible destination.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional 282-slot frame**, before filling any missing coordinate. Every one of the 242 printed coordinates remains unchanged.
 
 ```text
@@ -35,6 +36,8 @@ DASN?C?TAUSHE?MA?EINGET?O?F?NXNO?AW?U?FEST?E?N?FEST?UN?A?EBER?E?E?BETR?EB?O?TAGA
 ```text
 DASNICHTAUSHEIMATEINGETROFFENXNO?AWAUXFESTFERNXFESTFUNKAUEBERGEBENBETRIEBMONTAGABENDPOLENXSXRXWAUUEBERWEISTMANNSCHAFTENBEZKDOSXDES?K?NACHOA?X
 ```
+
+</details>
 
 ## What the terminal alternatives establish
 
@@ -55,11 +58,16 @@ The [preceding source part](nov16_18_command_inquiries.md#p204-c1) ends with cre
 <details>
 <summary>Native 242-slot raw output</summary>
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native 242-slot frame**, unchanged and without any hypothesized missing coordinate:
 
 ```text
 OOXJSBN?N?NXR?MY?C?B??H2EWJ??UGH?ONGTRQEGGFWA?YSB?BT1WYU?SRD?CNTWR?E?SYCCWABOA?OCCOBNNBSTG?T?X?THG1GWJEWQSCEEBYWA?O?Q?OGW
 ```
+
+</details>
 
 This native output is not an accepted body reading. The proposed 282-slot reading is kept in its own conditional frame.
 

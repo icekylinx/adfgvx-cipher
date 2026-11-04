@@ -1,14 +1,12 @@
 # Radio notices, Tiflis personnel and internment on p230
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 Four source-length telegrams on Childs p230 become complete literal readings under the published Nov28–Dec1 square. All 490 coordinates are preserved: no coordinate substitution, source-mask fill or frame change is needed. The source itself gives two first-group readings for C; both are retained.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed page excerpt](../../experiments/nov30_radio_personnel/sources/p230_reviewed.png) · [Exact inputs](../../experiments/nov30_radio_personnel/inputs.json) · [Position-by-position certificates](../../experiments/nov30_radio_personnel/certificates.json)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed page excerpt](../../experiments/nov30_radio_personnel/sources/p230_reviewed.png) · [Exact inputs](../../experiments/nov30_radio_personnel/inputs.json) · [Position-by-position certificates](../../experiments/nov30_radio_personnel/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 The unchanged published key is `Nov28-Dec1`. The [earlier unreviewed candidates](../../experiments/nov30_radio_personnel/prior_candidates.json) and [original OCR records](../../experiments/nov30_radio_personnel/ocr_snapshot.json) are preserved. The present work supplies an image-reviewed source edition and a reproducible repair account; it does not claim that every body is a first public decipherment.
 
@@ -29,11 +27,16 @@ The unchanged published key is `Nov28-Dec1`. The [earlier unreviewed candidates]
 
 **Meaning:** The inspection and the War Ministry have been notified; a reply is still outstanding. Signed Papp.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
 INSPEKTIONUNDKRIEGSMINISTERIUMVERSTAENDIGTYYANTWORTSTEHTNOCHAUSYPAPP
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 
@@ -50,6 +53,9 @@ INSPEKTIONUNDKRIEGSMINISTERIUMVERSTAENDIGTYYANTWORTSTEHTNOCHAUSYPAPP
 
 **Meaning:** A station announces when it will dismantle. The printed key labels do not establish the historical day or hour; Burkard is the literal signature.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
@@ -61,6 +67,8 @@ STATIONBAUT0ZXJYFRUEH9YUHRABYYBURKARDYY
 ```text
 STATIONBAUT0ZXJZFRUEH9YUHRABYYBURKARDYY
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 
@@ -78,11 +86,16 @@ STATIONBAUT0ZXJZFRUEH9YUHRABYYBURKARDYY
 
 **Meaning:** The central radio command asks where the radio operators and construction personnel of the Tiflis station have gone. The final 54X05 remains a literal reference.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
 ZENTRALFUNKLEITGERBITTENNACHRICHTUEBERVERBLEIBFUNKERUNDBAUPERSONALDERFUNKENSTATIONTIFLISY54X05
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 
@@ -99,11 +112,16 @@ ZENTRALFUNKLEITGERBITTENNACHRICHTUEBERVERBLEIBFUNKERUNDBAUPERSONALDERFUNKENSTATI
 
 **Meaning:** Give timely notification here of the internment. Signed Papp. The short message does not name the persons or formation to be interned.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
 INTERNIERUNGRECHTZEITIGHIERHERMITTEILENYPAPP
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 

@@ -1,97 +1,104 @@
-# Experiments and source verification
+# Evidence and research methods
 
-**icekylinx and GPT-6 Astra Pro** · [Read the messages](../cases/README.md) · [Research status](../docs/research-status.md) · [Methods](../docs/methods.md)
+[Historical results](../docs/historical-showcase.md) · [Read the messages](../cases/README.md) · [Research status](../docs/research-status.md) · [Method guide](../docs/methods.md)
 
-Our experiments recovered the shared p153 key, reconstructed damaged transmissions from independent copies, and established exact bounds for the hardest source models. This guide highlights the results and the tools behind them. The [page catalogue](../cases/pages/README.md) lists every source edition and links its complete evidence package.
+Each accepted reading links a source-specific package: transcript, key or key
+hypothesis, exact coordinate map, repair account and verifier. This index
+selects the methods and source relationships that carry the current research.
+The [catalogue](../cases/pages/README.md) is the complete index of individual
+bodies; this page does not duplicate all 679 entries.
 
 ## Readings, parallels and source review
 
+The most informative reconstruction often comes from another reception of
+the same traffic. It can supply an observed coordinate where a single-copy
+language guess would remain conjectural.
+
+| Reconstruction | Evidence package |
+|---|---|
+| Arad provisions: eleven lost coordinates and the received 80,000 figure | [Two-way source maps and one completed stream](danube_arad_witnesses/README.md) |
+| A 135-position silk-resale continuation | [Two receptions and their separate damage](nov6_resale_and_air_reconnaissance/README.md) |
+| November 14 radio traffic with an 85-coordinate missing prefix | [Retransmission comparison](nov14_retransmissions/README.md) |
+| Crown-airlift request completed by the later banknote copy | [Cross-copy source reconciliation](retrieved_copy_editions/README.md) |
+| Munich routing and independent support for GEN KDO | [Near-complete native reception](p168_munich_routing_witness/README.md) |
+| Romanian ultimatum report | [Source reconstruction](nov11_romanian_ultimatum_report/README.md) and [independent implementation](nov11_romanian_ultimatum_report/independent.py) |
+
 ### Latest source editions and follow-up methods
 
-| Result | Evidence |
-|---|---|
-| **p137 conditional publicity fragment** — 25 proposed letters preserve all 71 received coordinates; ten wholly absent letters, three equivalent frames and contrary semantic alternatives remain explicit | [Exact source map, complete-family controls and narrow primary layer](p137_publicity_fragment/README.md) |
-| **p163 jammed infrastructure clause** — 59 proposed positions preserve all 121 received coordinates; inferred frame length, six wholly absent letters and connector alternatives remain explicit | [Source map, equivalent frames and separate continuation repair](p163_infrastructure_clause/README.md) |
-| **p176 conditional repeated place** — a second Klausenburg proposal gives 59/80 positions with zero observed substitutions; Blankenburg and four wholly absent letters remain explicit | [Two native spans, repeated-word limits and all 120 squares](p176_repeated_place/README.md) |
-| **p163 repeated rearguard position** — paired NACHHUTSTELLUNG proposals add twenty half-supported positions; part 15 reaches 116/117 while its coupled numeral remains unresolved | [Two received word spans, 96 tied minima and exact repairs](p163_rearguard_continuation/README.md) |
-| **p89 guard-battalion destination fragment** — independent word witness and separate Berlin proposal extend the conditional layer from 151/179 to 166/179 with no new observed substitutions | [Five donor frames, source checks and retrieval controls](p89_guard_battalion_extension/README.md) |
-| **p68 procurement continuation** — fifteen new half-supported positions give a common 76/93 layer; the wholly missing internal verb letter retains G/L alternatives | [Native word witnesses and explicit repair prices](p68_procurement_continuation/README.md) |
-| **p84 illness-and-return proposal** — conditional 52/122-position layer with zero observed substitutions; MUTTER and MITTEL remain equally compatible | [Lexical provenance, five frames and separate alternatives](p84_mother_illness_fragment/README.md) |
-| **p163 independent headquarters map** — contemporary Scholtz–Calimanesti context supports an existing place repair without adding plaintext positions | [Primary map crops and exact provenance](p163_headquarters_map_context/README.md) |
-| **Unknown-key crib solver with source errors** — nine exhaustive small oracles, ten hidden-key controls and a replay of the existing p153 solution validate a reusable consistency search | [Substitution budget, global square and rank search](substitution_crib_csp/README.md) |
-| **Original p164a occupation-army fragment** — BESATZUNGSHEER matches 18 observed halves at zero substitutions; revised prior clauses give 104/121 positions with four substitutions | [Cross-key native witnesses and exact word layers](p164_occupation_fragment/README.md) |
-| **Personnel-removal governing clause** — p137 A5 reaches an optional 124/126 positions, retaining two unknowns and all repair prices | [Date marker and military-movement proposal](p137_governing_clause/README.md) |
-| **German field-post fragment** — p84 C gains a 28/122-position conditional word layer at zero observed substitutions; five source frames and three wholly missing word letters remain explicit | [Source, corpus phrase search and calibrated replay](p84_field_post_fragment/README.md) |
-| **Withdrawal report ending** — p116 A13 has a 90/111 route-and-approval proposal; optional shared footer format and historical closing extend it to 97 and 101/111, with zero observed substitutions | [Route and approval](p116_optional_route_fragment/APPROVAL.md), [separate footer layers](p116_optional_route_fragment/FOOTER.md) |
-| **Cross-key withdrawal parallel** — 59 letters in p117 C3 support two existing p124 A1 repairs | [Independent observed-source witness](hungarian_armistice_instructions/withdrawal_parallel.json) |
-| **Demobilization continuation** — p228 B2 reaches 121/132 positions, or optionally 123/132 using two reference-field fills from part 1 | [Mask relocation and cross-part reference](p228_demobilization_fragment/README.md) |
-| **Weisskirchen halt and security fragment** — p154 A2 rises from 36/81 raw to 56/81 with two substitutions and 20 added-slot fills, after one explicit observed-coordinate exclusion | [Source frame and independent review](p154_weisskirchen_fragment/README.md) |
-| **Full Munich routing witness** — p168 C fixes 139/140 raw positions; a p159 coordinate fills the last slot and p168 independently supports GEN KDO | [Joint source certificate](p168_munich_routing_witness/README.md) |
-| **Breslau horseshoe and nail dispatch** — p215 A has 176/196 raw positions and a 192/196 primary word proposal; alternatives retain the numerical uncertainty | [Dispatch and frame alternatives](p215_breslau_dispatch/README.md) |
-| **Divisional positions and railway departure** — p215 B3 has 88/117 raw positions and a 109/117 word proposal, with inherited global J/Y evidence | [Positions and Ruttka–Teschen fragment](p215_third_positions_fragment/README.md) |
-| **Hospital and transport fragment** — 129/151 primary positions; optional extension 148/151 at 102 missing-half fills; zero observed-coordinate changes in a conditional 302-slot frame | [p212 A4: all 197 observations retained](p212_medical_fragment/README.md) |
-| **Captain-dispatch fragment** — 45 proposed positions mention a chief, a replacement detachment and dispatch; six tied source maps and all 432 primary completions retained | [p167 D: exact partial-word repair account](p167_captain_dispatch_fragment/README.md) |
-| **Original p215 closing field** — shared Hungarian Y and the earlier J/numeral hypotheses reduce 90 possibilities to 56, with complete globally consistent witnesses | [Shared-cell propagation across 26 bodies](p215_hungarian_y/README.md) |
-| **Station-staff query** — 68/69 positions; all five minimum source maps independently reproduced | [p137 B: 481,032 models](p137_station_staff_query/README.md) |
-| **Provision-train completion** — 84/84 positions with one extra mask fill supported by the next part | [A5/A6 joint reading](p176_verpflegs_joint_completion/README.md) |
-| **Kiev unrest and soldiers’ council neutrality** — 139/147 positions with zero observed substitutions after resolving printed group alternatives | [p219 C: all 81 source maps](p219_kiev_unrest/README.md) |
-| **Wheat-shipping price query** — 118/122 positions, with vessel and quantity alternatives retained | [p198 A: 2,700 maps and 432 completions](p198_shipping_query/README.md) |
-| **Technical and transport fragments** — direct-current machines, coal trains via Klausenburg, and further train departures | [p71 A2](p71_dc_machines_fragment/README.md), [p176 A6](p176_coal_train_fragment/README.md), [p215 B1](p215_train_departure_fragment/README.md) |
-| **Crossing report, receipt and mission address** — three separately priced partial editions | [p152 A2](p152_crossing_fragment/README.md), [p164 D](p164_acknowledgment/README.md), [p167 C1](p167_mission_address/README.md) |
-| **Arad copy restores eleven lost coordinates**, including native support for 80000 MANN | [694,320 source-only maps](danube_arad_witnesses/README.md) |
-| **Romanian ultimatum evening report** — complete 98-position body under eight tied source maps | [Exact reconstruction](nov11_romanian_ultimatum_report/README.md) |
-| **Third Ringbahn-key reception** — 84 additional directly witnessed coordinates | [Cross-copy recovery](nov13_ringbahn_retransmission/README.md) |
-| **Budapest teleprinter report** — all 176 native coordinates, with an intact 51-label report-transmission sentence | [Source edition](nov24_budapest_report/README.md) |
+The [recent-partials table](../docs/research-status.md#recent-partial-reconstructions)
+gives the current proposed readings and their limits. Three methodological
+patterns recur:
 
-The [21-source audit](../docs/source-gap-audit.md) records the fresh transcriptions, boundaries and PDF pixel recipes used in this campaign. The [whole-material census](../docs/whole-material-coverage.md) tracks current collection coverage.
+- **Native word witnesses:** [p164 occupation-army wording](p164_occupation_fragment/README.md)
+  and the [p89 guard-battalion continuation](p89_guard_battalion_extension/README.md)
+  compare damaged spans with words actually observed under other keys.
+- **Coupled passages:** the [p163 rearguard extension](p163_rearguard_continuation/README.md)
+  tests one shared word across two received parts, preserving every equal-cost
+  alternative and the unresolved numeral relation.
+- **Sparse fragments with calibrated language search:** the
+  [p163 infrastructure clause](p163_infrastructure_clause/README.md) and
+  [p137 publicity fragment](p137_publicity_fragment/README.md) keep inferred
+  geometry, wholly absent letters and competing meanings explicit.
 
-### Earlier source editions
-
-The [page index](../cases/pages/README.md) is the complete reading catalogue. Each edition contains its source, earlier attribution, raw output, edited text and reproducible repair ledger. The [initial inventory](session_review/README.md) and [post-publication inventory](post_push_review/README.md) retain their dated publication snapshots.
+The [AOK 11 map comparison](p163_headquarters_map_context/README.md) supplies
+independent historical support for a place-name repair. It adds historical
+context, not missing ciphertext coordinates.
 
 ## p153 recovery and exact constraints
 
-| Result or method | Evidence |
+| Question | Result and reproducible method |
 |---|---|
-| **New shared 18-column key and partial decipherment** | [Recovery and discovery lineage](p153_recovery/README.md), [joint search](joint_search/README.md) |
-| **Only width 18 fits the sixty-letter crib across widths 14–26**; 3,492,604 length-class layouts checked | [Even widths](p153_even_widths/README.md), [odd widths](p153_odd_widths/README.md) |
-| **Two equivalent partial-key representations**, independently enumerated | [C and Python crib checks](p153_crib/README.md) |
-| Linked date, serial and footer cells across both parts | [Global constraints](p153_extension/README.md) |
-| Keyword construction, phrase retrieval and companion search | [Key structure](p153_key_structure/README.md), [corpus screen](p153_corpus/README.md), [source headers](p153_headers/README.md) |
+| How was the key found? | [Recovery record](p153_recovery/README.md) and [joint square/rank search](joint_search/README.md). |
+| Is the sixty-letter crib consistent with other widths? | [Even widths](p153_even_widths/README.md) and [odd widths](p153_odd_widths/README.md): only width 18 fits among widths 14–26, across 3,492,604 length-class layouts. |
+| How many width-18 partial keys fit? | [Independent C and Python enumeration](p153_crib/README.md): two equivalent representations under the declared crib. |
+| What remains linked but unread? | [Date, serial and cross-part cells](p153_extension/README.md). |
+| Can the original key construction resolve the digits? | [Keyword and convention investigation](p153_key_structure/README.md), with its tested scope retained. |
 
 ## Exact optimization of damaged texts
 
-| Result or method | Evidence |
+| Method | What it establishes |
 |---|---|
-| **All `2^42` minimum-cost p109 readings** optimized without a plaintext crib | [Multi-witness decoder](parallel_decoder/README.md) |
-| **Exact p176a source-retention bound** — the earlier fixed proposal needs at least 68 substitutions with every slot retained, or 13 after excluding its final printed mask | [All optimal maps and independent programs](p176a_source_retention_bound/README.md) |
-| **8,670,506,592,384 five-loss witnesses per fixed complete key**, including loss positions and fills | [Joint loss decoder](p198_joint_exact/README.md) |
-| **At least ten digits/Q/Y combined** across all 40,320 Nov13–15b square completions under the fixed-rank five-loss model | [Exact bound](p198_letter_bounds/CATEGORY_BOUNDS.md) |
-| **Eight-point digit/Q/Y frontier**; three digits require at least thirteen Q/Y positions | [Independent frontier verification](p198_category_frontier/README.md) |
-| Longer-context exact optimization and loss before transposition | [Six-gram decoder](p198_joint_six/README.md), [pre-transposition loss](p198_pretransposition_loss/README.md) |
-| p215 source-compatible completions and command interpretation | [Exact completion model](p215_completion/README.md), [Corps Kosch reading](p215_context/README.md) |
+| [Multi-witness dynamic programming](parallel_decoder/README.md) | Exact ranking of all `2^42` minimum-cost p109 readings under the chosen language objective. |
+| [p176a source-retention bound](p176a_source_retention_bound/README.md) | The earlier fixed proposal costs at least 68 substitutions with all slots retained, or 13 after excluding its last printed mask. |
+| [Joint five-loss decoder](p198_joint_exact/README.md) | 8,670,506,592,384 loss-position/fill witnesses per fixed complete key. p198 D remains OPEN. |
+| [Category and digit bounds](p198_letter_bounds/CATEGORY_BOUNDS.md) | Exact restrictions over all 40,320 completions of the stated Nov13–15b square. |
+| [Category frontier](p198_category_frontier/README.md) | The trade-off between digit and Q/Y counts under that fixed-rank loss model. |
+| [Crib consistency with source substitutions](substitution_crib_csp/README.md) | Joint unknown-square/rank constraints checked against exhaustive small oracles and hidden-key controls. |
+| [Domain-constrained word search](p163_infrastructure_clause/domain_words_oracle.py) | An exact word/bigram recurrence checked on 660 exhaustive small cases. |
+
+A mathematical optimum is a result about its stated model. It becomes a
+historical reading only when the source, key and independent evidence support
+that interpretation.
 
 ## Open-target searches and calibration
 
-The original 22 challenges remain a research priority. **p73, p170 A and p198 D are wholly open**; the other challenge pages document recovered text and remaining fields.
+The [seven OPEN pages](../cases/open/README.md) give the literal inputs and
+current questions. The maintained search families include:
 
-| Target or shared tool | Current method record |
+| Approach | Record |
 |---|---|
-| **p73** | [Square/rank reuse, source retrieval and controls](p73_new_methods/README.md) |
-| **p170 A** | [Truncated-source and radio-domain methods](p170_new_methods/README.md), [exact truncation scope](known_key/P170_TRUNCATION_NOTE.md) |
-| **p198 D** | [Word/loss campaign](p198_word_search/README.md), [exact bounds and witnesses](p198_category_frontier/README.md) |
-| Radio language models and hidden-rank recovery | [Frozen models and calibration](radio_domain_model/README.md), [digit symmetry](radio_domain_model/digit_symmetry/README.md) |
-| Joint, anchored and fixed-component searches | [Joint engine](joint_search/README.md), [anchored search](anchored_search/README.md), [fixed search](fixed_search/README.md) |
-| Copy retrieval and source reconciliation | [Source similarity](source_similarity/README.md), [source-guided recovery](source_recovery/README.md), [follow-up review](source_followup/README.md) |
+| Coordinate contacts and coincidence, with the same maximization applied to shuffled controls | [All-seven source diagnosis](open_target_contact_diagnosis/README.md) |
+| Unknown-square and transposition search | [Joint engine](joint_search/README.md), [anchored search](anchored_search/README.md), [source-error consistency search](substitution_crib_csp/README.md) |
+| Partial-key and truncation hypotheses | [p73](p73_new_methods/README.md), [p170](p170_new_methods/README.md), [p170 frame scope](known_key/P170_TRUNCATION_NOTE.md) |
+| Loss models and longer-context scoring | [p198 word/loss search](p198_word_search/README.md), [six-gram optimization](p198_joint_six/README.md), [loss before transposition](p198_pretransposition_loss/README.md) |
+| Independent-copy retrieval | [Source similarity](source_similarity/README.md), [source recovery](source_recovery/README.md), [follow-up](source_followup/README.md) |
+| Language-model calibration | [Radio-domain model and hidden-rank controls](radio_domain_model/README.md) |
+
+Completed older searches remain where a current result or dependency needs
+them. Obsolete publication inventories and layout snapshots have been removed;
+the current source and cipher checks are the maintained verification target.
 
 ## Reproduction and interpretation
-
-Start with the shared verification and current indexes:
 
 ```sh
 python -m adfgvx.verify
 python -m adfgvx.catalog --check
 python -m adfgvx.navigation --check
+python data/reviews/check_reading_presentation.py
 ```
 
-Each package supplies its exact inputs, verifier and reproduction commands. The [CI workflow](../.github/workflows/verify.yml) runs the full suite. Search controls, model hashes and completed scopes accompany the relevant engines; historical readings are established in the linked source editions, with their explicit repair prices.
+Each package supplies its focused command. The [CI workflow](../.github/workflows/verify.yml)
+runs the maintained suite. [Source-evidence modes](../docs/source-evidence-modes.md)
+distinguish a stored image check from replay against the original PDF.
+
+Research and editorial work: **icekylinx and GPT-6 Astra Pro**.

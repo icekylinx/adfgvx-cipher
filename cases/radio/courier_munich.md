@@ -1,8 +1,6 @@
 # Munich couriers carrying radio operating documents
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source and certificate](../../experiments/courier_recovery/README.md)
+[ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source and certificate](../../experiments/courier_recovery/README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Records:** the repeated first part p153 E1 / p162 A1 and second parts
 p151 D2 / p153 D2 / p158 C2, intercepted on 9 November 1918.
@@ -48,11 +46,16 @@ All three second-part records contain exactly 136 coordinates. Under the
 known partial square, each fixes 67 of 68 plaintext positions. The p158 C2
 text is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 GRUKONACH?02BENACHRICHTIGENEINTREFFENHIERHERDRAHTENXNACHRCHEF4B49909
 ```
+
+</details>
 
 The p151 D2 repeat has `GRU1ONACH` at the beginning, and p153 D2 has
 `BENACHWICHTIGEN`; the source edition preserves both. The unaltered p158

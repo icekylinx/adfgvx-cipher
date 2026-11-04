@@ -1,6 +1,6 @@
 # Optional address spelling in p132 A
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Reading conventions](../../docs/reading-conventions.md)
 
 **Source comparison and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -98,10 +98,11 @@ listed spans is nevertheless fixed by observed coordinate pairs.
 and already published source images. [The certificate](certificates.json)
 contains the raw decoding, existing and optional complete forward witnesses,
 exact incremental edit ledger, numeral preservation and the independent
-span mappings. The verifier also checks that the existing case's headings,
-fenced displays and quoted displays retain their original bytes.
+span mappings. The verifier also checks that the primary p132 A section’s source, raw and
+edited displays and complete German quotation retain their original bytes.
+The separately catalogued B and C bodies are outside this spelling proposal.
 
-The [live readable mapping](../../data/reviews/p132_optional_address_readable_mapping_20261103.json)
+The [live readable mapping](../../data/reviews/live_readable_mappings.json)
 separately binds the complete optional quotation to 118 ordered
 nonseparator labels, including the unchanged opaque name and footer.
 It adds no display-only letters or new source positions.
@@ -114,6 +115,6 @@ printed pp90, 98, 132 and 148, [collected scan](https://drive.google.com/file/d/
 
 ```sh
 python experiments/p132_optional_address/verify.py --verify
-python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/p132_optional_address_readable_mapping_20261103.json
+python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/live_readable_mappings.json
 python experiments/p132_optional_address/verify.py --verify --pdf /tmp/adfgvx-childs.pdf
 ```

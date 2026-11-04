@@ -1,8 +1,6 @@
 # p201 B / p206 A — reporting orders linked by a shared reference
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case guide](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case guide](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Two complete multipart messages are assembled from the source:
 a two-part reporting order on p201 and a three-part request for receipt
@@ -33,6 +31,9 @@ shown as `werden` using one explicitly costed source-coordinate correction.
 
 The full raw readings are:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — two separately identified source parts:**
 
 ```text
@@ -43,9 +44,14 @@ p201 B2:
 WERD?NOBMITBAHNFUSSMARSCHUNDWELCHETEILEDESSINDEMPFANGBESTAETIGENXOHLXNMX1XAX11??2XGEHXOPX
 ```
 
+</details>
+
 The p201 [source crop](../../experiments/open_targets_continuation/sources/childs_p201_selected.png)
 shows a **16 November** heading and receipt, while the clear internal origin
 stamp says **`OHL OP 15/11`**:
+
+<details>
+<summary>Literal source transcription</summary>
 
 **Source transcription — clear header and/or literal source record:**
 
@@ -55,6 +61,8 @@ NKJ, UKS, RAT v LP (3.49 p.m., November 16th)
 1 TL: RICHI-210
 2 TL: RICHI-178
 ```
+
+</details>
 
 All 388 printed coordinates are valid. In part 2, `WERD?N` uses the unknown
 cell `GG` at its fifth letter; the established `E` is in `AG`. Source index
@@ -74,6 +82,9 @@ acknowledgment of the present order.
 The [p206 source](../../experiments/open_targets_continuation/sources/childs_p206_selected.png)
 has an **18 November** heading and internal stamp but a **19 November** receipt:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -83,6 +94,8 @@ ZON v LP (06.28 a.m., November 19th)
 2 TL: RICHI-400
 3 TL: RICHI-248
 ```
+
+</details>
 
 The first OCR block ended after 40 coordinates, before the printed `RICHI`
 label. Rejoining the two visually continuous source rows restores the

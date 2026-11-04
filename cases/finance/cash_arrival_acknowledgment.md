@@ -1,6 +1,6 @@
 # Money-transport arrival acknowledgment
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -8,21 +8,20 @@
 
 Childs p122, PDF p125; [reviewed source crop](../../experiments/nov4_repetition_and_connections/sources/p122_C.png). The unchanged published **Nov4–6** key uses the native **114-slot** frame.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — 57/57 fixed positions:**
 
 ```text
 OXKXMXWISTABXXGELDTRANSPORTANGEKOMMENXXKXMXKRIEGSAMTXAX8X
 ```
 
-**Edited output — 0 observed-coordinate substitutions and 0 source-mask fills; 57/57 fixed positions:**
-
-```text
-OXKXMXWISTABXXGELDTRANSPORTANGEKOMMENXXKXMXKRIEGSAMTXAX8X
-```
+</details>
 
 The edited stream is identical to the raw stream and re-encrypts to every source coordinate without repair.
 
-**Readable German — complete edited stream, with spacing and punctuation only:**
+**Readable German — complete raw stream, with spacing and punctuation only:**
 
 > O. K. M. Wistab. Geldtransport angekommen. K. M. Kriegsamt A. 8.
 

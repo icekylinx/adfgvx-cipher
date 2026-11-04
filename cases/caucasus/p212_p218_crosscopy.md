@@ -1,7 +1,5 @@
 # A truncated copy of the Tiflis armistice notice
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source edition and cross-copy analysis: icekylinx and GPT-6 Astra Pro.** Newly edited record: Childs p212 A2. Earlier full witness: p218 A2, already in the [Tiflis armistice edition](p218_A.md). Published `Nov25-28` key, unchanged. [Inputs](../../experiments/p212_p218_crosscopy/inputs.json), [exact certificate](../../experiments/p212_p218_crosscopy/certificates.json), [method and limits](../../experiments/p212_p218_crosscopy/README.md).
 
 The fragment is part of the previously known notice concerning withdrawal from territory that belonged to Russia before the war and the Allies' assessment of its internal situation. Its role is established by the close ciphertext correspondence with the complete p218 part, not by joining it to the medical passages printed around p212.
@@ -10,9 +8,12 @@ The fragment is part of the previously known notice concerning withdrawal from t
 
 ## p212 A2
 
-[Short-fragment source crop](../../experiments/p212_p218_crosscopy/sources/p212_A2.png); [full p218 A2 witness](../../experiments/p212_p218_crosscopy/sources/p218_A2.png). The p212 source advertises 284 coordinates but prints 160. Of those, 157 are identical to the corresponding p218 prefix. The differences are source indices 46 (`F/G`), 67 (`A/printed dash`) and 103 (`G/X`).
+[Short-fragment source crop](../../experiments/p212_p218_crosscopy/sources/p212_A2.png); [full p218 A2 witness](../../experiments/p212_p218_crosscopy/sources/p218_A2.png). The p212 source advertises 284 coordinates but prints 160. Of those, 157 are identical to the corresponding p218 prefix. The differences are source indices 46 (`F/G`), 67 (`A/printed dash`) and 103 (`G/X`). · [Reading conventions](../../docs/reading-conventions.md)
 
 In the 284-coordinate frame, with the absent tail left as 124 erasures, only 30 plaintext positions have both source coordinates visible:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output — conditional 284-slot frame with 124 absent tail coordinates left unknown:**
 
@@ -20,15 +21,22 @@ In the 284-coordinate frame, with the absent tail left as 124 erasures, only 30 
 ?????????K??E????U??L?N?????????N??A????S??A?D?????????R??7????R??R?E?????????U??D????N??E?L?????????G??I????E??U?E?????????R??K????N??A?H????
 ```
 
+</details>
+
 ### A conditional tail from the full printed witness
 
 Borrowing p218's 124 literal tail coordinates, while preserving every p212 coordinate, gives:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output — conditional cross-copy tail completion from p218:**
 
 ```text
 DIEVORDEMKRIEGZURUSZLANDGEHOERTENXHABENXSOBALDDIEALLIIERTE7UNTERBERUECKSICHTIGUNGDERJNNERENLAGEDIESERGEBIETEDENAUGENBLICKFUERGEKOMMENERACHTENX
 ```
+
+</details>
 
 This is a **source-copy reconstruction**, not a reading derived from the fragment alone. All borrowed coordinates have individual provenance in the certificate. Exhausting the 161 possible positions of one contiguous 124-coordinate loss gives the tail placement a unique minimum of two valid-coordinate disagreements. That supports the alignment under the copy assumption; it does not prove that an unseen historical tail was identical.
 
@@ -38,11 +46,16 @@ The copies are complementary. p212's F at index 46 independently supports the ea
 
 Using that one p218 witness correction in the observed p212 prefix, then separately changing borrowed coordinate 217 `X → F` for `JNNEREN → INNEREN`, gives:
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — conditional cross-copy tail completion, followed by the stated repairs:**
 
 ```text
 DIEVORDEMKRIEGZURUSZLANDGEHOERTENXHABENXSOBALDDIEALLIIERTENUNTERBERUECKSICHTIGUNGDERINNERENLAGEDIESERGEBIETEDENAUGENBLICKFUERGEKOMMENERACHTENX
 ```
+
+</details>
 
 The received `RUSZLAND` spelling is retained. This is a continuation: “… die vor dem Krieg zu Russland gehörten, haben, sobald die Alliierten unter Berücksichtigung der inneren Lage dieser Gebiete den Augenblick für gekommen erachten …”. The surrounding withdrawal context belongs to the earlier complete three-part p218 notice; no complete p212 medical message is inferred.
 

@@ -20,7 +20,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
-from adfgvx.catalog import load_catalog, physical_source_accounting
+from adfgvx.catalog import load_catalog, physical_source_accounting, evidence_record_id
 
 DEFAULT = ROOT / 'data/reviews/childs_material_census_20261103.json'
 REPORT = ROOT / 'docs/whole-material-coverage.md'
@@ -374,6 +374,8 @@ def build(manifest, pdf=None):
             loc = tuple(account['locations'][e['id']])
             assert loc in expected, ('catalogue location missing from reviewed census', e['id'], loc)
             current.setdefault(loc, []).append(dict(e, group=group))
+    assert set(current) == expected and all(len(entries) == 1 for entries in current.values()), (
+        'Every reviewed physical body requires exactly one canonical catalogue entry')
     local = {}
     for package in manifest['additional_review_packages']:
         path = ROOT / 'experiments' / package / 'inputs.json'
@@ -390,6 +392,8 @@ def build(manifest, pdf=None):
     for page, section in sorted(expected):
         loc = (page, section)
         entries = current.get(loc, [])
+        assert len(entries) == 1
+        entry = entries[0]
         evidence = []
         source_reviewed = False
         for e in entries:
@@ -397,12 +401,17 @@ def build(manifest, pdf=None):
                 source_reviewed |= bool(core[e['id']]['transcript'].get('verification'))
             else:
                 source_reviewed |= e.get('source_reviewed') is True
-            evidence.extend((p, e['id']) for p in e.get('evidence', [])
+            evidence.extend((p, evidence_record_id(e, p)) for p in e.get('evidence', [])
                             if 'certificat' in p and p.endswith('.json'))
         for e in local.get(loc, []):
             evidence.append((f"experiments/{e['package']}/certificates.json", e['id']))
         count = None
         reasons = []
+        if entry['state'] == 'OPEN':
+            # Diagnostic experiments can be cited by an OPEN case. None is an
+            # accepted primary model merely because it has a certificate file.
+            evidence = []
+            reasons = ['OPEN source: no accepted primary plaintext model. Native transcription remains source evidence only.']
         for ep, rid in dict.fromkeys(evidence):
             if not (ROOT / ep).exists():
                 reasons.append(f'{ep}: unavailable in this tree')
@@ -417,18 +426,41 @@ def build(manifest, pdf=None):
                                          'record_id': rid, 'certificate': ep, 'error': str(exc)})
                 reasons.append(f'{ep}: structured contract rejected ({exc})')
         source_slots = None
+        source_only_evidence = None
         if count:
             source_slots = count['native_source_slots']
         else:
             challenge = next((e for e in entries if e['group'] == 'challenge'), None)
             if challenge:
                 source_slots = len(core[challenge['id']]['transcript']['raw_source_compact'])
+            else:
+                # OPEN source transcription is evidence of native slots, never
+                # a plaintext frame or a zero-repair decipherment certificate.
+                for entry in entries:
+                    for path in entry.get('evidence', []):
+                        if not path.endswith('/inputs.json'):
+                            continue
+                        inputs = read(path)
+                        if inputs.get('schema') != 'adfgvx-open-source-records-v1':
+                            continue
+                        native = record(inputs, evidence_record_id(entry, path))
+                        text = literal(native)
+                        assert entry['state'] == native['state'] == 'OPEN'
+                        assert (native['printed_page'], native['source_section']) == loc
+                        assert native['case_path'] == entry['path']
+                        assert len(text) == native['source_slots']
+                        assert hashlib.sha256(text.encode()).hexdigest() == native['literal_sha256']
+                        if source_slots is not None:
+                            assert source_slots == len(text), 'Conflicting source-only slot counts'
+                        source_slots = len(text)
+                        source_only_evidence = path
         result.append({'printed_page': page, 'source_section': section,
-                       'catalogue_edition_ids': [e['id'] for e in entries],
+                       'catalogue_id': entry['id'], 'catalogue_state': entry['state'],
+                       'case_path': entry['path'],
                        'source_reviewed_in_current_catalogue_metadata': source_reviewed,
-                       'current_catalogue_statuses': [e['status'] for e in entries],
-                       'local_review_packages_not_yet_catalogued': [e['package'] for e in local.get(loc, [])] if not entries else [],
+                       'current_catalogue_status': entry['status'],
                        'native_source_slots_if_known': source_slots,
+                       'source_only_evidence': source_only_evidence,
                        'quantitative_status': 'independently_recomputed_primary_record' if count else 'unquantified_primary_record',
                        'counts': count,
                        'unquantified_reasons': (reasons or ['No supported primary certificate is referenced for this physical body.']) if not count else []})
@@ -446,7 +478,7 @@ def build(manifest, pdf=None):
                      'added_model_slots', 'excluded_source_slots', 'excluded_valid_source_coordinates']:
             totals[kind][name] = sum(r[name] for r in rows_for_kind)
     return {
-        'schema': 'adfgvx-live-whole-material-coverage-v1', 'authors': manifest['authors'],
+        'schema': 'adfgvx-live-whole-material-coverage-v2', 'authors': manifest['authors'],
         'census_sha256': sha(DEFAULT),
         'current_catalogue_sha256': sha(ROOT / 'data/reading_catalog.json'),
         'historical_log_pages': 175, 'actual_printed_ciphertext_bodies': 679,
@@ -458,9 +490,10 @@ def build(manifest, pdf=None):
                     'other_entries': len(catalogue['other']),
                     'additional_physical_sources_beyond_challenges': account['additional_physical_sources'],
                     'uncatalogued_bodies': 679 - len(current),
+                    'state_counts': account['state_counts'],
+                    'open_source_ids': sorted(r['catalogue_id'] for r in result if r['catalogue_state'] == 'OPEN'),
                     'independently_quantified_primary_records': len(quantified),
-                    'unquantified_primary_records': 679 - len(quantified),
-                    'uncatalogued_bodies_with_registered_local_review_package': sum(bool(r['local_review_packages_not_yet_catalogued']) for r in result)},
+                    'unquantified_primary_records': 679 - len(quantified)},
         'quantified_subset_totals': totals,
         'quantitative_contract_rejections': integrity_errors,
         'records': result,
@@ -475,65 +508,49 @@ def build(manifest, pdf=None):
 def render(report, manifest):
     now = report['current']
     lines = ['# Whole-material source coverage', '',
-             'Prepared by **icekylinx and GPT-6 Astra Pro**. This dashboard separates source boundaries, catalogue editions, and decipherment evidence.', '',
-             '## Scope and denominator', '',
-             '**Appendix B contains 679 actual printed ciphertext bodies on printed pages 56–230 (175 pages).** A separately printed part or received copy is one physical body. Surviving damaged fragments count; advertised but absent parts do not. The two literal `AAA` items at p58 A1/A2 remain separately registered ambiguous stubs, outside this body count.', '',
-             'Every log page has a recorded boundary review. That review checks where bodies begin and end; it does not claim a fresh transcription of every glyph, a unique key for every body, or complete plaintext recovery.', '',
-             '## Current tree and preserved starting snapshot', '',
-             '| Measure | Current tree | Starting snapshot, 2026-11-03 08:04:46 UTC |',
-             '|---|---:|---:|',
-             f"| Reviewed catalogue edition entries | {now['catalogue_entries']} | 640 |",
-             f"| Distinct catalogued physical bodies | {now['catalogued_physical_sources']} | 639 |",
-             f"| Original challenge entries | {now['challenge_entries']} | 22 |",
-             f"| Other catalogue entries | {now['other_entries']} | 618 |",
-             f"| Additional physical bodies beyond challenges | {now['additional_physical_sources_beyond_challenges']} | 617 |",
-             f"| Bodies outside the current catalogue | {now['uncatalogued_bodies']} | 40 |", '',
-             f"Current catalogue metadata records source review for **{now['source_reviewed_physical_sources_per_metadata']} distinct bodies**. This is the existing source-review evidence status, not a number of solved messages. The registered p132 / p132_B overlap is one physical body with two edition entries. The current counts come from the files in this checkout; the fixed baseline is never substituted for them.", '',
-             f"There are **{now['uncatalogued_bodies_with_registered_local_review_package']} uncatalogued bodies** with an explicitly registered local review package in this checkout. They remain outside the catalogue count until integration. Publication status and local research status are distinct.", '',
-             '## Quantitative evidence coverage', '',
-             f"The bounded structured adapters independently recompute primary source/model accounting for **{now['independently_quantified_primary_records']} of the 679 bodies**. The other **{now['unquantified_primary_records']} bodies remain unquantified by this dashboard**; that includes unsupported legacy certificate shapes and genuinely missing editions. It does not mean that all of them lack prior decipherment work.", '',
-             '| Verified primary frame class | Physical bodies | Native slots | Model positions | Fixed raw labels, all unobserved coordinates unassigned | Extra fixed labels from supplied unobserved coordinates |',
-             '|---|---:|---:|---:|---:|---:|']
-    for kind, name in [('native_order_and_length', 'Native order and length'), ('modified_frame', 'Modified frame; its stated assumptions still apply')]:
+             '[Catalogue](../cases/README.md) · [Source identity](catalogue-source-identity.md) · [Reading conventions](reading-conventions.md)', '',
+             'Prepared by **icekylinx and GPT-6 Astra Pro**.', '',
+             '## Catalogue coverage', '',
+             f"**All {report['actual_printed_ciphertext_bodies']} reviewed physical ciphertext bodies have one canonical catalogue entry.** They occupy printed pages 56–230 of Appendix B. The 22 original challenge identifiers are preserved, and the other 657 bodies include the four previously uncatalogued unread fragments.", '',
+             'A separately printed part or received copy is one physical body. Surviving damaged fragments count; advertised but absent parts do not. The two literal `AAA` items at p58 A1/A2 remain separately registered ambiguous stubs outside this body count.', '',
+             '| Current navigation state | Sources |', '|---|---:|']
+    for state in ('READING', 'PARTIAL', 'CONDITIONAL', 'OPEN'):
+        lines.append(f"| {state} | {now['state_counts'][state]} |")
+    lines += ['', 'These states describe the kind of current edition, not a completion percentage. READING does not mean that every character or historical identification is settled; CONDITIONAL may include a partial proposal. OPEN sources have no accepted body reading. Their headers and source transcriptions are still useful evidence.', '',
+              f"Catalogue metadata records source review for **{now['source_reviewed_physical_sources_per_metadata']} bodies**. The boundary census records every log page, but it does not claim a fresh transcription of every glyph or a unique key for every body. Dated baseline records remain in the machine-readable census; current coverage is recomputed from the files in this checkout.", '',
+              '## OPEN sources', '',
+              '| Source | Received source slots | Current question |', '|---|---:|---|']
+    for r in report['records']:
+        if r['catalogue_state'] != 'OPEN':
+            continue
+        slots = r['native_source_slots_if_known']
+        lines.append(f"| [{r['catalogue_id']}](../{r['case_path']}) | {slots if slots is not None else 'Not quantified here'} | {r['current_catalogue_status']} |")
+    lines += ['', 'The four newly catalogued OPEN cases preserve 595 native slots: 535 observed coordinates and 60 printed erasures. Their [source-only package](../experiments/open_source_records/README.md) verifies the literal rows and original-PDF crops. It introduces no key, completed loss frame, plaintext or decipherment count.', '',
+              '## Quantitative evidence coverage', '',
+              f"The structured adapters independently recompute primary source/model accounting for **{now['independently_quantified_primary_records']} of the 679 bodies**. The other **{now['unquantified_primary_records']} remain unquantified by these adapters**, including OPEN sources and unsupported legacy certificate formats. This is evidence-tool coverage, not the number of unread messages.", '',
+              '| Verified primary frame class | Physical bodies | Native slots | Model positions | Fixed raw labels, unobserved coordinates unassigned | Extra fixed labels from supplied unobserved coordinates |',
+              '|---|---:|---:|---:|---:|---:|']
+    for kind, name in [('native_order_and_length', 'Native order and length'), ('modified_frame', 'Modified frame; stated assumptions apply')]:
         t = report['quantified_subset_totals'][kind]
         lines.append(f"| {name} | {t['physical_sources']} | {t['native_source_slots']} | {t['model_positions']} | {t['fixed_raw_labels_with_all_unobserved_coordinates_unassigned']} | {t['additional_fixed_labels_from_supplied_unobserved_coordinates']} |")
-    lines += ['', 'These position totals cover only the quantified subset. **They are not a whole-corpus plaintext-completion percentage.** A fully fixed raw stream can retain garbles or uninterpreted numbers. The checker separates native source slots, conditional model additions/exclusions, and coordinates supplied from another witness; it does not combine alternative models or optional prose into a primary total.', '',
-              'The per-body JSON output includes exact evidence paths and explicit reasons when a primary record cannot yet be quantified. Candidate-label and repair counts are included only where the candidate contract can also be independently decoded.', '',
-              '## Complete current catalogue gap list', '',
-              '| Printed page | Actual body sections outside catalogue | Registered local edition or existing artifact lead |',
-              '|---:|---|---|']
-    gaps = [r for r in report['records'] if not r['catalogue_edition_ids']]
-    for page in sorted({r['printed_page'] for r in gaps}):
-        rr = [r for r in gaps if r['printed_page'] == page]
-        leads = []
-        for r in rr:
-            for name in r['local_review_packages_not_yet_catalogued']:
-                leads.append(f"{r['source_section']}: `{name}` (local reviewed edition)")
-            rid = f"p{page}_{r['source_section']}"
-            for path in manifest['artifact_leads'].get(rid, []):
-                package = str(Path(path).parent)
-                if package.split('/')[-1] not in r['local_review_packages_not_yet_catalogued']:
-                    leads.append(f"{r['source_section']}: `{path}` (lead; coverage not inferred)")
-        lines.append(f"| {page} | {', '.join(r['source_section'] for r in rr)} | {'; '.join(dict.fromkeys(leads)) or 'No structured edition registered here'} |")
-    lines += ['', 'An artifact lead can be a diagnostic or contextual mention. Its existence does not count as a recovered body. The local label A16 at p163 identifies the actual fragment between printed parts 15 and 17; it does not assert a printed `16 TL` heading.', '',
+    lines += ['', '**These position totals cover only the quantified subset.** A fully fixed stream can retain garbles or uninterpreted numbers. The checker separates native slots, model additions/exclusions, coordinates supplied by another witness and ordinary-word repairs. Optional readings and alternative frames are never added as extra physical sources.', '',
+              'The JSON output identifies the canonical source, state, evidence path and exact count contract for each body. It gives explicit reasons where a primary record cannot yet be quantified. Restricted evidence aliases resolve older package identifiers without creating catalogue rows.', '',
               '## Other material in the volume', '',
               '| Material | Printed pages | Separate accounting |', '|---|---|---|',
-              '| Childs technical explanation | 1–22 | Includes reused cipher figures and an internal numeric teaching example; figures are not new intercepted messages. |',
-              '| Twelve numbered teaching cryptograms I–XII | 19–22 | 12 instructional items under the published VIKINGSCROWNHOTEL example key; kept outside the 679-body log denominator. |',
-              '| Konheim Appendix A | 23–54 | Theory and numerical 5×5 teaching examples, including repeated or excerpted ciphertext illustrations; no new historical-message count. |',
-              '| Appendix B title | 55 | Ciphertext log starts on p56. |',
-              '| Appendix C key tables | 232–244 | 15 printed tables on 13 pages, all represented by existing key IDs; unknown cells remain unknown. |',
-              '| Cleartext, short stubs, header-only items and missing-part notes | Within the log | Explicit exceptions are retained separately in the census; they do not create invented ciphertext bodies. |', '',
-              'The frozen OCR pool has **788 unverified blocks on pp57–230**, omitting p56. Blocks can split, merge, or omit real bodies; subtracting catalogue entries from 788 does not measure remaining messages. Duplicate transmissions and separately printed parts are retained as physical witnesses. Their number is not a claim about the number of distinct complete historical messages.', '',
-              '## Reproduction', '', '```bash',
+              '| Childs technical explanation | 1–22 | Reused cipher figures and a numeric teaching example are not additional intercepted messages. |',
+              '| Teaching cryptograms I–XII | 19–22 | Twelve instructional items under the published VIKINGSCROWNHOTEL example key, outside the log denominator. |',
+              '| Konheim Appendix A | 23–54 | Theory and numerical 5×5 examples, including repeated or excerpted ciphertext figures. |',
+              '| Appendix B title | 55 | The ciphertext log begins on p56. |',
+              '| Appendix C key tables | 232–244 | Fifteen tables on thirteen pages; all have registered key IDs, with unknown cells retained. |',
+              '| Cleartext, stubs, header-only items and missing-part notes | Within the log | Recorded exceptions do not create invented ciphertext bodies. |', '',
+              'The older OCR retrieval pool contains 788 unverified blocks on pp57–230 and omits p56. A block may split, merge or omit a source body; its size is not a historical-message denominator. Repeated receptions and numbered parts remain distinct physical witnesses, not a count of distinct complete messages.', '',
+              '## Reproduction', '', '```sh',
               'python data/reviews/verify_childs_material_coverage.py --verify',
               'python data/reviews/verify_childs_material_coverage.py --json > /tmp/childs-current-coverage.json',
               'python data/reviews/verify_childs_material_coverage.py --verify --pdf /path/to/childs.pdf',
               'python data/reviews/verify_childs_material_coverage.py --write-report', '```', '',
-              '`--verify` is read-only. `--write-report` explicitly refreshes this dashboard from the live tree. The optional PDF check pins the original file bytes and page count; the source-boundary inspection itself is a recorded manual review, not an automated glyph-recognition claim.', '',
-              f"Current catalogue SHA-256: `{report['current_catalogue_sha256']}`.",
-              f"Census SHA-256: `{report['census_sha256']}`.", '',
-              'Source: J. Rives Childs, *General Solution of the ADFGVX Cipher System*, [complete scanned volume](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). See the [machine-readable census](../data/reviews/childs_material_census_20261103.json) for page-level review bases and material exceptions.', '']
+              '`--verify` recomputes the structured contracts without writing. `--write-report` refreshes this page. The optional PDF check authenticates the original file and page count; the boundary inspection remains a recorded manual review.', '',
+              'Source: J. Rives Childs, *General Solution of the ADFGVX Cipher System*, [scanned volume](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). The [machine-readable census](../data/reviews/childs_material_census_20261103.json) records page-level review bases, exceptions and the historical baseline; the live JSON output records current file digests.', '']
     return '\n'.join(lines)
 
 
@@ -548,6 +565,7 @@ def main():
     report = build(manifest, args.pdf)
     if args.verify:
         assert not report['quantitative_contract_rejections'], report['quantitative_contract_rejections']
+        assert REPORT.read_text() == render(report, manifest), 'Refresh whole-material-coverage.md with --write-report'
     if args.write_report:
         assert not report['quantitative_contract_rejections'], report['quantitative_contract_rejections']
         REPORT.write_text(render(report, manifest))

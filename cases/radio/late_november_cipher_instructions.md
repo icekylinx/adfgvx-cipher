@@ -1,6 +1,6 @@
 # Late-November cipher and routing instructions — p225–228
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source reading and verification: icekylinx and GPT-6 Astra Pro. Published period keys: George Lasry and collaborators.**
 
@@ -19,11 +19,16 @@ Five ciphertext records and one cleartext notice describe missing December key t
 
 p225 A is headed `BSL v UKS (09.24 p.m., November 28th)`, `2200 (28/11)`, `RIZI-232`. Its raw text is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 STATI?NUKSCHIFFRABERSTENDEZMITNSLNOVYD?DEZTAFELNNOCHNICGTEINGEGANG?NYBITTE?EL?GDANUNSEBENFALLSMITNSLNOVSCHLUES?ELNYY
 ```
+
+</details>
 
 The readable content is an instruction that station UKS should encipher from 1 December using the November material, because the December tables have not yet arrived. It requests reciprocal use of that material. The raw string **`NSL` occurs twice** and is preserved: interpreting it as another call sign or replacing it with `BSL` would be an additional assumption.
 
@@ -32,6 +37,9 @@ The literal invalid `R` in `DFGVR` and all five printed dashes remain source slo
 ## An explicit agreement to use the same key
 
 p228 C is headed `BSL v ZON` (the O has two marks), `04.47 a.m., December 1st`, `0420 (11/30) 2 TLE`. Both parts are directly readable without any coordinate repair:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output — two separate source parts under the unchanged key:**
 
@@ -43,11 +51,16 @@ p228 C2
 IMVERKEHRYBSLYUNDYUKSYGLEICHENSCHLUESSELVERWENDENYYUKSYISTEINVERSTANDENY
 ```
 
+</details>
+
 The first part reports an arrangement with UKS concerning the December key as proposed between BSL and ZOEN. The second is explicit: use the same key in BSL–UKS traffic, and UKS agrees. Together, the two source streams retain **320/320 coordinates** and directly fix **160/160 plaintext positions**. This does not establish which particular November day's key the parties subsequently used. [Source image](../../experiments/corpus_extension/sources/p228_C.png).
 
 ## Numerical-code fragment and army routing
 
 p226 B2 says that its first part is missing. The surviving continuation directly gives:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -55,15 +68,22 @@ p226 B2 says that its first part is missing. The surviving continuation directly
 ZAHLENREIHENVONRUECKWAERTSGELESENYSODASSXYXSZ8HLEN3Y5Y9YX5YX0YUYSYWYYBENUTZENSIEGLEICHESMITUNFYANTWORTYY
 ```
 
+</details>
+
 The beginning says that numerical sequences are read backwards; the end asks the recipient to use the same procedure in communication with the sender and to answer. `Z8HLEN → ZAHLEN` and `MITUNF → MITUNS` cost two coordinate substitutions. The central examples, including `XYXS` and `3Y5Y9YX5YX0`, remain literal. The missing first part and those garbles prevent reconstruction of a complete numerical-code rule. [Source image](../../experiments/corpus_extension/sources/p226_B2.png).
 
 p227 B directly reads:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
 ```text
 BITTEFUNKSPRUECHEANXXYARMEEUNDUNTERSTEL6TEFORMATIONENUNMITTELBARANZOENGEBENY
 ```
+
+</details>
 
 Restoring `UNTERSTELLTE` costs one coordinate substitution. The raw army field **`XX`** is retained, without silently treating it as an Arabic number or Roman numeral. [Source image](../../experiments/corpus_extension/sources/p227_B.png).
 

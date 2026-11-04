@@ -1,8 +1,6 @@
 # Osthoff's posting to Turkey is cancelled
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source audit](../../experiments/corpus_attack/SOURCE_FAMILIES.md)
+[ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source audit](../../experiments/corpus_attack/SOURCE_FAMILIES.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Records:** p138 A1–A2 and p148 C1 / p149 A2. **Result:** a two-part message reconstructed from four printed witnesses under the published Nov4–6 key. The first part has complete coordinate-pair support for all 121 positions. The second has support for 115 of 118 positions; three proposed emendations remain explicit.
 
@@ -25,11 +23,16 @@ Spacing, punctuation and capitalization are editorial. The expansions of *Ers. B
 
 The literal p149 second part is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 DERSELBEISTUEM1XERSBKTLEISENBAHNREGM1SZUUEBERWEISENAKOFOLGTXAUFALLERHOECHSTENBEFEHLCHEFMILITAERKABINETTSFRHRMARSCHALLX
 ```
+
+</details>
 
 Two of its three changes form one adjacent coordinate exchange, `VF → FV`, at transmitted indices 210–211; the other is `A → X` at index 31. These are hypotheses about source errors, not assignments to unknown square cells. The complete raw readings, all differences, every plaintext-to-source map and exact candidate costs are in the [certificate](../../experiments/corpus_attack/source_pair_results.json).
 

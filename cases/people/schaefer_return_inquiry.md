@@ -1,6 +1,6 @@
 # Braila inquiry about dragoman Schaefer's return from leave
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -11,6 +11,9 @@ Childs p107 C, PDF p110, is a separate message headed
 The [source crop](../../experiments/p107_railway_and_dragoman/sources/p107_C.png)
 contains **348 valid coordinates**, matching `RICHI-348`.
 It uses the unchanged published **Nov1–3** key.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — native 348-coordinate frame:**
 
@@ -23,6 +26,8 @@ GEHEIMRATENDERHEIDENBRAILAXXISTRUECKKEHRDRAGOMANSXSCHAEFERXDESSENURLAUBBALDABLAE
 ```text
 GEHEIMRATENDERHEIDENBRAILAXXISTRUECKKEHRDRAGOMANSXSCHAEFERXDESSENURLAUBBALDABLAEUFTSOFERNUEBERHAUPTAUSFUEHRBARJETZTERWUENSCHTUNDZWECKMAESSIGDRAHTBERICHTXXAUSWAERTIGESXAMTX1XB
 ```
+
+</details>
 
 The changes are source **45 X→V**, **182 F→V**, **253 X→V** and
 **292 D→A**. They repair `SO9ERN`, `DRAHTBERIC1T` and

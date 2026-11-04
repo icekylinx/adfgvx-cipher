@@ -1,6 +1,6 @@
 # Armistice transit and withdrawal planning
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -22,12 +22,17 @@ and [p126](../../experiments/armistice_transit_planning/sources/childs_p126_full
 are preserved. The page heading is `4th NOVEMBER, 1918.`, and the report's
 repeated header reads:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
 A) --- v NKJ (6.52 p.m., November 5th)
 2345 (4/11) AN LP 6 TLE
 ```
+
+</details>
 
 Parts 1-4 occur on p125 and parts 5-6 continue on p126. The missing addressee
 in the reception line is retained as `---`; `AN LP` remains in the origin
@@ -39,15 +44,23 @@ The complete published `Nov4-6` square and 17-column rank order are unchanged.
 The [first part](../../experiments/armistice_transit_planning/sources/childs_p125_A1.png)
 has exactly 244 valid coordinates and reads without repair:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 OXHXLXOPXXNACHSOEBENHIERAUSUNGARISCHENZEITUNGENBEKANNTWERDENDENWAFFENSTILLSTANDSBEDINGUNGENFUEROESTUNGXISTDEUTSCHENTRUPPEN
 ```
 
+</details>
+
 The [second part](../../experiments/armistice_transit_planning/sources/childs_p125_A2.png)
 has 238 valid coordinates. Its raw `FUENFXEHN` is repaired to `FUENFZEHN`
 by one coordinate substitution:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
@@ -55,15 +68,22 @@ by one coordinate substitution:
 NURFUENFZEHNTAEGIGESDURCHZUGSRECHTZUGESTANDENXXOXKXMXHATTEBEABSICHTIGTX11XARMEEZUNAECHSTANDONAUZUBELASSENXSIEDEMNAECHST
 ```
 
+</details>
+
 The [third part](../../experiments/armistice_transit_planning/sources/childs_p125_A3.png)
 has 200 valid coordinates. One coordinate substitution changes the raw
 `RGEUMT` to `RAEUMT`:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 FALLSBESATZUNGSHEERWALACHEIRAEUMTXALSSCHUTZRECHTERFLANKEZWISCHENTHEISSUNDGEBIRGEZURUECKGEHENZULASSEN
 ```
+
+</details>
 
 With spaces and ordinary punctuation, the three parts read:
 
@@ -91,11 +111,16 @@ The [fourth part](../../experiments/armistice_transit_planning/sources/childs_p1
 has 212 slots. A printed noncoordinate `2`/Z-like glyph is one erasure. It
 leaves only the `N` in `BEFOERDERUNG` unknown; filling that position gives:
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output:**
 
 ```text
 XDIEBESTIMMUNGXDASSENTENTERECHTZURBEFOERDERUNGIHRERTRUPPENASAEMTLICHENEISENBAHNENUNDRECHTDERBESETZUNGALLER
 ```
+
+</details>
 
 The clause describes a provision giving the Entente the right to transport
 its troops on the railways and occupy strategic points. The source literally
@@ -110,11 +135,16 @@ is explicitly marked `RICHI-267` and contains exactly **267 slots**, including
 two printed dashes. Its original untransposed coordinate stream is odd.
 The direct paired reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — original odd frame; paired prefix with an unpaired coordinate reported separately:**
 
 ```text
 STRATEGISCHWICHTIGENPU?K?HABENSOLLXWUERDEFUERDIEMIT1A11204GRMELDETEN3L4QL3LCZWFFQ7K7I7I4IQFNCIC9Z9J6WLNL6JQFCX94A2FYZ6KZL6JY94ALFWLFL
 ```
+
+</details>
 
 One final coordinate remains unpaired. The first portion is readable; the
 latter portion becomes readable under the opposite pairing phase. This
@@ -125,20 +155,30 @@ from the fractionated intermediate stream before the sender transposed its
 Keeping the received frame and its ranks intact, insert one unknown at
 interim index 136 after untransposition. The conditional raw reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional insertion at interim index 136 after untransposition:**
 
 ```text
 STRATEGISCHWICHTIGENPU?K?HABENSOLLXWUERDEFUERDIEMIT1A11204GRMELDETEN?ONBESONDRERBEDEUTUNGSEINUNDMACHTENTSCHEIDDNGXOBABMKRSCHANGETRETRN
 ```
 
+</details>
+
 The two printed-dash fills, the inserted interim coordinate `F`, and four
 observed-coordinate substitutions give this 134-character proposal:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — same interim-insertion model, with the stated fills and substitutions:**
 
 ```text
 STRATEGISCHWICHTIGENPUNKTHABENSOLLXWUERDEFUERDIEMIT1A11204GEMELDETENVONBESONDRERBEDEUTUNGSEINUNDMACHTENTSCHEIDUNGXOBABMARSCHANGETRETEN
 ```
+
+</details>
 
 It continues the strategic-points clause, invokes the literal reference
 `1A11204`, calls the matter of particular significance, and says that a
@@ -168,11 +208,16 @@ direct reading of an ordinary even frame.
 The [sixth part](../../experiments/armistice_transit_planning/sources/childs_p126_A6.png)
 returns to an ordinary 242-slot frame. Its raw reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 WERDENSOLLXAEUSSERSTDRINGDXXUMANGABEDERTATSAECGLICHENVEREINBARUNGENUEBERWAFFENSTILLSTANDWIRDGEBET?NXXOXKXMX1BNOX11230OPXX
 ```
+
+</details>
 
 Two coordinate substitutions repair the single plaintext `G` in
 `TATSAECGLICHEN` to `H`; a printed `T` erasure is filled to give the missing
@@ -192,6 +237,9 @@ abbreviation. The footer's numerical and letter labels remain literal.
 The [adjacent B record](../../experiments/armistice_transit_planning/sources/childs_p126_B.png)
 is a separate 134-coordinate message, not a seventh part of A:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -200,7 +248,12 @@ B) LP v NKJ (6.28 p.m., November 5th)
 RICHI-134
 ```
 
+</details>
+
 All 67 raw positions are fixed. The literal reading is:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -208,13 +261,20 @@ All 67 raw positions are fixed. The literal reading is:
 OXHXL0XDRBHTUNGRM1XAX11118XOPGEH02XANGXORHALTENXOXK0M0RM1A011232XOP
 ```
 
+</details>
+
 Two observed-coordinate substitutions give `DRAHTUNG` and `ERHALTEN`:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 OXHXL0XDRAHTUNGRM1XAX11118XOPGEH02XANGXERHALTENXOXK0M0RM1A011232XOP
 ```
+
+</details>
 
 It is a receipt notification with reference labels including `11118` and
 `11232`. All `0`, `1`, other numeral labels and the `RM` strings are retained;

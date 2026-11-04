@@ -1,8 +1,6 @@
 # Troop crossing in boats: a fragmentary November 6 report
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
@@ -24,6 +22,9 @@ The published `Nov4-6` key is unchanged. [Earlier OCR evidence](../../experiment
 
 **Source transcription — header:** `B) UKS v ZON (---- November 7th); RICHI-192; page heading 6th NOVEMBER, 1918`
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — every native source slot in printed order:**
 
 ```text
@@ -35,6 +36,8 @@ SOCSTDENVU4RONEE4HEXXLUHLEGKU?GXUEBERSETZECVONTRUPPEIXINBOOJENBEIBRFIRBD9SONSTNI
 ```text
 SOCSTDENVU4RONEE4HEXXLUHLEGKU?GXUEBERSETZENVONTRUPPENXINBOOTENBEIBRFIRBD9SONSTNICHTSWESENTLICHES
 ```
+
+</details>
 
 **Readable German — the same nonseparator labels as the edited output:**
 
@@ -86,11 +89,16 @@ observed-coordinate substitutions**. The full optional candidate therefore
 costs **13 observed substitutions and the same 2 source-mask fills**, with
 no frame or key change. It remains outside the primary totals.
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — optional opening proposal; 13 observed substitutions, 2 source-mask fills; 95/96 fixed positions:**
 
 ```text
 SONSTDONAUFRONTRUHEXXLUHLEGKU?GXUEBERSETZENVONTRUPPENXINBOOTENBEIBRFIRBD9SONSTNICHTSWESENTLICHES
 ```
+
+</details>
 
 **Readable German — optional opening, with the remaining opaque fields unchanged:**
 
@@ -115,4 +123,4 @@ Run `python experiments/nov6_boat_crossing_fragment/verify.py --verify`. Add `--
 
 The verifier reconstructs source-coordinate pairs, checks raw domains, replays all priced changes, verifies the readable display without dropping unresolved labels, and checks a global completion witness where required. Such a completion is mechanical evidence, not a historical guess.
 
-Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.
+Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro.

@@ -1,11 +1,9 @@
 # Two additional witnesses to the armistice-planning traffic
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source comparison and edition: icekylinx and GPT-6 Astra Pro.**
 
 Printed p137 preserves two fragments already represented in the
-[pp125–126 armistice-planning edition](armistice_transit_planning.md).
+[pp125–126 armistice-planning edition](armistice_transit_planning.md). · [Reading conventions](../../docs/reading-conventions.md)
 Their actual coordinate strings distinguish an independently supported
 source-mask fill from two corrupt words repeated by both copies.
 Neither case changes the published **Nov4–6** key.
@@ -15,11 +13,16 @@ Neither case changes the published **Nov4–6** key.
 The source explicitly labels this block `4 TL RICHI-212`; `LP v NKJ`
 appears after its final `GV`. All 212 observed coordinates give:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 XDIEBESTIMMUNGXDASSENTENTERECHTZURBEFOERDERUNGIHRERTRUPPENASAEMTLICHENEISENBAHNENUNDRECHTDERBESETZUNGALLER
 ```
+
+</details>
 
 This is the clause about Entente rights to transport troops on the railways
 and occupy places described in the following part. Its literal
@@ -41,19 +44,29 @@ The header reads `LP v NKJ 464 (12.01 November 5th), RICHI-134`.
 Its **134 coordinates are exactly identical** to p126 B, including the
 two values responsible for the damaged words:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 OXHXL0XDRBHTUNGRM1XAX11118XOPGEH02XANGXORHALTENXOXK0M0RM1A011232XOP
 ```
 
+</details>
+
 The same conservative ordinary-word candidate remains available:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 OXHXL0XDRAHTUNGRM1XAX11118XOPGEH02XANGXERHALTENXOXK0M0RM1A011232XOP
 ```
+
+</details>
 
 It changes source indices **27 and 56, both G→F**, giving `DRAHTUNG` and
 `ERHALTEN`. Because both copies repeat the same corrupt values, the new

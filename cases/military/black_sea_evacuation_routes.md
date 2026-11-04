@@ -1,6 +1,6 @@
 # Black Sea evacuation routes, the Braila prohibition and onward rail movement
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **New source editions and verification: icekylinx and GPT-6 Astra Pro.**
 **Existing part2 body: Ayush Agarwal (@AyushAg1002), 2026-10-28.**
@@ -21,6 +21,9 @@ coordinate cost and its unresolved tail.
 The [first-part crop](../../experiments/black_sea_evacuation_routes/sources/p88_C1.png)
 contains **298 valid coordinates**, matching `1 TL RICHI-298`.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 298-coordinate frame:**
 
 ```text
@@ -32,6 +35,8 @@ ERSTENSXZUXFECHXRMX2XGROSSXBXFRX50749XXFUERABSCHUBGELTENFOLGENREZIELEDOPPELPUNKT
 ```text
 ERSTENSXZUXFECHXRMX2XGROSSXBXFRX50749XXFUERABSCHUBGELTENFOLGENDEZIELEDOPPELPUNKTXSIEGFRIEDXNACHXKONSTANZAXALLESUEBRIGEXODESSAXUNDFALLSDIESESNICHTMEHR
 ```
+
+</details>
 
 **Readable German — spacing and punctuation; the clause continues into part 2:**
 
@@ -51,11 +56,16 @@ It has **290 source slots**, **145 plaintext positions**, and
 **142 fixed positions** in that conservative layer. It is **not** one
 of the four new records or part of their totals.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — existing credited conservative source reading, unchanged:**
 
 ```text
 AUFNAHMEFAEHIGXNIKOLAJEWXAUFWUNSCHXEZXKIEWXBESTIMMTXHPTMXJOELXVXOXFECHXODESSAX?ELCHES?HI?FEETWAXWEGENXEISENBAHNLAGEXNACHXNIKOLAJEWXZUGEHENHABENXX
 ```
+
+</details>
 
 This continues the Odessa capacity clause and gives Nikolajew as another
 destination, naming Hptm. Joel and railway-related routing from Odessa.
@@ -72,6 +82,9 @@ boundary200** produces the source-declared 358-coordinate frame.
 The gap's size and placement are supplied by the page, not selected by
 optimizing the language.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — source-declared frame with 100 missing coordinates:**
 
 ```text
@@ -83,6 +96,8 @@ optimizing the language.
 ```text
 ZWEITENSNACHXBRAILAXGEHTNICHTSXDORTHINUNTERWEGSBEFINDLICHEDAMPFERABDREHENXXDRITTENSXWEITERLEITUNGINGESCHLOSSENENZUEGENXZIELFUERMI?I?D???STE???N???SX?A?L???GAR???E???XZ?F?SZ??ERL??
 ```
+
+</details>
 
 **Readable German — the restored prefix; the bracketed note marks the unresolved continuation:**
 
@@ -125,6 +140,9 @@ has **360 valid coordinates**, matching `4 TL RICHI-360`. Detail
 crops confirm the G in `GVGAG` and the X in `XDXFX`, which can look
 misleading at lower resolution; neither requires an editorial source edit.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 360-coordinate frame:**
 
 ```text
@@ -136,6 +154,8 @@ XIVILPERSONENBERLINXZIELFUERGESCHLOSSENETRUPPENTEILEHIER7RFRAGENXXVIERTENSXUMUNT
 ```text
 ZIVILPERSONENBERLINXZIELFUERGESCHLOSSENETRUPPENTEILEHIERERFRAGENXXVIERTENSXUMUNTERBRINGUNGUNDWEITERLEITUNGSICHERZUSTELLENXSORGTXSXMXSTXFUERMOEGLICHSTFRUEHZEITIGEUNDGENAUEVORMELDUNG
 ```
+
+</details>
 
 **Readable German — spacing and punctuation:**
 
@@ -153,6 +173,9 @@ reference fields remain unchanged.
 The [fifth-part crop](../../experiments/black_sea_evacuation_routes/sources/p90_A5.png)
 contains **398 valid coordinates**, matching `5 TL RICHI-398`.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 398-coordinate frame:**
 
 ```text
@@ -165,6 +188,8 @@ ANEMPFANGSSTELLENINXUKRAINEXGLEICHESANXETRAXOSTXSUEDOSTXBVGXKOSPOLIXEZXKI7WXSXMX
 ANEMPFANGSSTELLENINXUKRAINEXGLEICHESANXETRAXOSTXSUEDOSTXBVGXKOSPOLIXEZXKIEWXSXMXSTXDTSCHXSTABXSXAXBERLINXNATEKOXNACHRXRXMXAXADMIRALSTABXSEEKRIEGSLEITUNGXFELDEISENBAHNCHEFXRMX2XGROSSXBXFRX52751X31X10X
 ```
 
+</details>
+
 **Readable German — spacing and punctuation, keeping abbreviations literal:**
 
 > An Empfangsstellen in Ukraine. Gleiches an Etra Ost, Südost, BVG
@@ -175,12 +200,17 @@ ANEMPFANGSSTELLENINXUKRAINEXGLEICHESANXETRAXOSTXSUEDOSTXBVGXKOSPOLIXEZXKIEWXSXMX
 The source continues with the following **printed cleartext**, which
 is outside the encrypted body and all plaintext-position counts.
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — printed cleartext outside the encrypted body:**
 
 ```text
 BITTE JETZT NUR QUITTUNG FALLS FUNKSPRUECHE VORLIEGEN
 SENDEN SIE DIESE VON 1830 BIS 20,25 H v OSM v LP UM
 ```
+
+</details>
 
 ## Conditional interpretation and unresolved space
 

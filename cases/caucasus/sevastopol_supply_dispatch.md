@@ -1,8 +1,6 @@
 # Food dispatch from Sevastopol to the Caucasus delegation
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p85 A1
 
@@ -12,17 +10,16 @@
 
 ![Source p85 A1](../../experiments/oct30_oil_and_supply_records/sources/p85_A1.png)
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 NACHSCHUBSTELLESEWASTOPOLSANDTE27X10X18ANKAUKASUSDELEGXFOLGXMENGENABX16400KGZUCKER16300KGHARTFUTTER24200KGKARTOFFELN4900KGHIRSE8700KGFRISCHESGEMUESE
 ```
 
-**Edited output — identical to the raw reading:**
-
-```text
-NACHSCHUBSTELLESEWASTOPOLSANDTE27X10X18ANKAUKASUSDELEGXFOLGXMENGENABX16400KGZUCKER16300KGHARTFUTTER24200KGKARTOFFELN4900KGHIRSE8700KGFRISCHESGEMUESE
-```
+</details>
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
@@ -48,4 +45,4 @@ The [enlarged GDGAA group](../../experiments/oct30_oil_and_supply_records/source
 
 The [input](../../experiments/oct30_oil_and_supply_records/inputs.json) binds the complete literal rows to exact PDF crops. The [certificate](../../experiments/oct30_oil_and_supply_records/certificates.json) records every coordinate pair and the sensitivity branch. The [verifier](../../experiments/oct30_oil_and_supply_records/verify.py) checks the published Oct28–31 key, live German quotations, source-image hashes and optional PDF pixel regeneration.
 
-Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; the published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. The [attribution record](../../experiments/oct30_oil_and_supply_records/prior_candidates.json) retains earlier OCR and the already reviewed p84 source. No first-decipherment priority is claimed.
+Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; the published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. The [attribution record](../../experiments/oct30_oil_and_supply_records/prior_candidates.json) retains earlier OCR and the already reviewed p84 source.

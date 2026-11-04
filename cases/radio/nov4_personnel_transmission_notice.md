@@ -1,8 +1,6 @@
 # Existing personnel and agreed radio transmissions
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p127 B1
 
@@ -11,6 +9,9 @@
 **Source and dates:** Page heading: 4th NOVEMBER, 1918; B) LP v NKJ (9.45 p.m., November 5th); 2200 2 TLE; 1 TL RIZI-160.
 
 ![Source p127 B1](../../experiments/early_radio_and_leave_records/sources/p127_B1.png)
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -23,6 +24,8 @@
 ```text
 HIERNOCHALTESPERSONALXWIRSENDENWIEVERABREDETXWENNNICTMEHRDANNISTOS?AUSGESCHIEDEN
 ```
+
+</details>
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
@@ -51,11 +54,16 @@ The unresolved position 66 has domain `4CMNST`, from `X?` at source 44 and
 observed-coordinate change: the optional total is **one substitution and
 four printed-mask fills**, fixing 80/80 positions under the same native frame.
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — optional OSM identification, one mask fill beyond the preceding proposal:**
 
 ```text
 HIERNOCHALTESPERSONALXWIRSENDENWIEVERABREDETXWENNNICTMEHRDANNISTOSMAUSGESCHIEDEN
 ```
+
+</details>
 
 **Readable German — same optional labels, retaining NICT:**
 
@@ -78,4 +86,4 @@ or clock reconciliation is asserted. The second announced part remains unread.
 
 The [input](../../experiments/early_radio_and_leave_records/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/early_radio_and_leave_records/certificates.json) records each raw paired-coordinate domain and every proposed source change. The [verifier](../../experiments/early_radio_and_leave_records/verify.py) checks the live German quotation against the same candidate labels, preserving every digit and unknown position.
 
-This source edition is by icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection. The published reconstruction and unchanged key provenance credit Lasry, Niebel, Kopal and Wacker, with Lasry's published period-key list. Earlier repository OCR input is frozen in the [attribution record](../../experiments/early_radio_and_leave_records/prior_candidates.json); no first-decipherment priority is claimed.
+This source edition is by icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection. The published reconstruction and unchanged key provenance credit Lasry, Niebel, Kopal and Wacker, with Lasry's published period-key list. Earlier repository OCR input is frozen in the [attribution record](../../experiments/early_radio_and_leave_records/prior_candidates.json).

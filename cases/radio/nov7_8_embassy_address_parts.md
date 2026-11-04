@@ -1,8 +1,8 @@
 # November 7–8: embassy, legation and Etappe address parts
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
-Source review and editorial work: **icekylinx and GPT-6 Astra Pro**. Published Nov7–9 key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker; unchanged here. The earlier repository OCR and explicitly recomputed unchanged-key outputs are retained. No universal first-decipherment priority is asserted.
+Source review and editorial work: **icekylinx and GPT-6 Astra Pro**. Published Nov7–9 key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker; unchanged here. The earlier repository OCR and explicitly recomputed unchanged-key outputs are retained.
 
 
 **Reviewed source crops:** [p156_reviewed.png](../../experiments/nov7_8_embassy_address_parts/sources/p156_reviewed.png) · [p158_reviewed.png](../../experiments/nov7_8_embassy_address_parts/sources/p158_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
@@ -44,6 +44,9 @@ establish identical missing payloads or a historical copying mechanism.
 
 **Literal header:** `A) YZ v LP (6.11 a.m., November 8th); FUER YZ 2200 (7/11) [2/3] TLE; 1 TL RICHI-84`
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output:**
 
 ```text
@@ -55,6 +58,8 @@ DERTSCHEXBOTSCHAFTXKSNSTANTIOPELXXBUSSCHEX
 ```text
 DEUTSCHEXBOTSCHAFTXKONSTANTIOPELXXBUSSCHEX
 ```
+
+</details>
 
 **Readable German:**
 
@@ -77,11 +82,16 @@ All indices below are zero-based. The exact source remains unchanged in the raw 
 
 **Retained overstrike alternative:** `VVXVX` instead of primary `VXXVX`, changing source index 51 from X to V, gives:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — retained V overstrike alternative:**
 
 ```text
 DERTSCXEXBOTSCHAFTXKSNSTANTIOPELXXBUSSCHEX
 ```
+
+</details>
 
 The same readable proposal then costs **three observed substitutions**, including V→X at source index 51. The stronger German produced by the primary X reading is not treated as independent proof of that glyph. Both variants and their repair ledgers are verified.
 
@@ -91,11 +101,16 @@ The same readable proposal then costs **three observed substitutions**, includin
 
 **Literal header:** `B) YZ v LP (5.52 a.m., November 8th); 1835 (7/11) 2TLE; 1 TL RICHI-80`
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 DEUTSCHEBOTSCHAFTKONSTANTINOPELXXSTUMMXX
 ```
+
+</details>
 
 **Edited output:** identical to raw; zero repairs.
 
@@ -115,6 +130,9 @@ The first printed part is a complete address and signature field, not a recovere
 
 **Literal header:** `D) YZ v LP (6.21 a.m., November 8th); FUER YZ 0127 2 TLE; 1 TL RICHI-44`
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output:**
 
 ```text
@@ -126,6 +144,8 @@ ETAPPEXKHNSTANTINOPELX
 ```text
 ETAPPEXKONSTANTINOPELX
 ```
+
+</details>
 
 **Readable German:**
 
@@ -149,11 +169,16 @@ All indices below are zero-based. The exact source remains unchanged in the raw 
 
 **Literal header:** `E) YZ v LP (6.15 a.m., November 8th); FUER YZ 2330 (8/11) 2 TLE; 1 TL RICHI-78`
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 FUERXLEGATIONXALLEMANDEXKONSTANTINOPELX
 ```
+
+</details>
 
 **Edited output:** identical to raw; zero repairs.
 
@@ -175,6 +200,9 @@ Only the first of two advertised parts is visible in this section.
 
 **Literal header:** `A) YZ v LP (05.05 p.m., November 8th); 1331 (7/11) 2 TTLE; 1 TL RICHI-100`
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output:**
 
 ```text
@@ -186,6 +214,8 @@ DEUTSCHEBOTSAHAFTKONSTCNTINOPELXDNTERSCHRIOTSTUMMX
 ```text
 DEUTSCHEBOTSCHAFTKONSTANTINOPELXUNTERSCHRIFTSTUMMX
 ```
+
+</details>
 
 **Readable German:**
 
@@ -214,6 +244,9 @@ All indices below are zero-based. The exact source remains unchanged in the raw 
 
 **Literal header:** `2 TL RICHI-106; following control: LP`
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output:**
 
 ```text
@@ -225,6 +258,8 @@ UPK3DEWTSCHEBOTSCHAATKONSTANTINOPELXUNTERSCHRIFTSTUMM
 ```text
 UPK3DEUTSCHEBOTSCHAFTKONSTANTINOPELXUNTERSCHRIFTSTUMM
 ```
+
+</details>
 
 **Readable German:**
 
@@ -251,6 +286,9 @@ All indices below are zero-based. The exact source remains unchanged in the raw 
 
 **Literal header:** `B) YZ v LP (05.15 p.m., November 8th); FUER YZ 1325 (7/11) 2 TEILE; 1 TL RICHI-76; following control: LP`
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output:**
 
 ```text
@@ -262,6 +300,8 @@ DNDEUTSCHEBOTSCHAFVUNTERSCHRIFTXSTUMMX
 ```text
 ANDEUTSCHEBOTSCHAFTUNTERSCHRIFTXSTUMMX
 ```
+
+</details>
 
 **Readable German:**
 
@@ -288,11 +328,16 @@ The earlier [p162 D1 edition](../people/constantinople_embassy_signature.md)
 preserves three C-like source glyphs as masks. Its independently recomputed
 raw output is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — independently recomputed p162 D1 witness:**
 
 ```text
 DEUTSCHEBOTSCHAFTKONSTA??INOPELXUNTERSCHRIF?STUMMX
 ```
+
+</details>
 
 Its literal header is `D) XYZ v LP (06.12 a.m., November 10th); 1330 (8/13)
 2 TEILE; 1 TL RICHI-100`. The unusual `8/13` field remains literal. This

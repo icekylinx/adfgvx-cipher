@@ -1,6 +1,6 @@
 # Operations-map sheets for the Gleiwitz garrison
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source restoration and edition: icekylinx and GPT-6 Astra Pro.**
 
@@ -32,6 +32,9 @@ arithmetic remain in the experiment for comparison.
 
 ## Raw and optional edited readings
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — all 224 printed source slots in order, with the two dashes and unknown key cells retained:**
 
 ```text
@@ -43,6 +46,8 @@ OPERATIONSKA0TE1ZU100000SALZ?URGWIENLE?BERGBRESLAUJE40BLATTXWARSCHAU10BLATTANGAR
 ```text
 OPERATIONSKARTE1ZU100000SALZBURGWIENLEMBERGBRESLAUJE40BLATTXWARSCHAU10BLATTANGARNISONKDOGLEIWITZFSXAOK11X1D70??X
 ```
+
+</details>
 
 **Readable German — complete optional stream, retaining the literal separators, quantities and closing labels:**
 

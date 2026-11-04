@@ -1,6 +1,6 @@
 # November 7: Danube crossings and short message reports
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **New parallel evidence.** [p164 C1](danube_arad_witnesses.md#p164-c1) supplies native pair witnesses for the E/A/E proposals in p153 B1's U3BER, BELGR4D and UEBSR. The two reports retain their distinct formation labels.
 
@@ -37,6 +37,9 @@ Security force near Belgrad attacked after a crossing.
 
 Literal header: `B) UKS v ZON (--- November 7th); 2 TL RICHI-190`.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Source transcription — 190 native printed slots:**
 
 ```text
@@ -58,6 +61,8 @@ ERREI?HT9XHXEB?QXTIT?L?XSICHERUNG219IXDXNOORDLXBELGRADDUECHDORTUEBERGEGANGENESER
 ```text
 ERREICHT9XHXEB?QXTITELXXSICHERUNG219IXDXNOORDLXBELGRADDURCHDORTUEBERGEGANGENESERBENANGEGRIFFENX
 ```
+
+</details>
 
 **Readable German — the complete edited stream, with punctuation and spacing:**
 
@@ -102,6 +107,9 @@ Morning report: no special events.
 
 Literal header: `C) --- v ZON (--- November 7th); 1235; RICHI----`.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Source transcription — 108 native printed slots:**
 
 ```text
@@ -121,6 +129,8 @@ OXKXMXUORGENMELDUNGX7X11XKEINEBESQEREIGNISSEXAXOXKX11X
 ```text
 OXKXMXMORGENMELDUNGX7X11XKEINEBESXEREIGNISSEXAXOXKX11X
 ```
+
+</details>
 
 **Readable German — the complete edited stream, with punctuation and spacing:**
 
@@ -145,6 +155,9 @@ Receipt of a FunkSpruch with literal numerical fields.
 
 Literal header: `D) UKS v ZON (--- November --); 1850 1010; RICHI-140`.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Source transcription — 140 native printed slots:**
 
 ```text
@@ -165,6 +178,8 @@ FUERXOXKCMXFUNKSPRUCHXEINSA11205BM4X1189X35XVORMXEINGETROFFENXAXOXWX11
 ```text
 FUERXOXKXMXFUNKSPRUCHXEINSA11205BM4X1189X35XVORMXEINGETROFFENXAXOXKX11
 ```
+
+</details>
 
 **Readable German — the complete edited stream, with punctuation and spacing:**
 
@@ -189,6 +204,9 @@ A prescribed line and a Temesvar headquarters field.
 
 Literal header: `A) UKS v ZÖN (10.55 p.m., November 7th); 2010; 3 TL RICHI-180`.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Source transcription — 180 native printed slots:**
 
 ```text
@@ -210,6 +228,8 @@ INBEFOHLENELINIEXNAYYBECSKEREKXVERSSCZXANXDIE10X11XERREICHTXXAXHXQX9X11XTEMESVAR
 ```text
 INBEFOHLENELINIEXNAGYBECSKEREKXVERSECZXANXDIE10X11XERREICHTXXAXHXQX9X11XTEMESVARXXAXOXKX11
 ```
+
+</details>
 
 **Readable German — the complete edited stream, with punctuation and spacing:**
 
@@ -238,6 +258,9 @@ Danube crossing completed and busy crossing traffic.
 
 Literal header: `B) UKS v ZÖN (9.42 p.m., November 7th); 2010 3 TLE; 1 TL RICHI-160`.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Source transcription — 160 native printed slots:**
 
 ```text
@@ -258,6 +281,8 @@ ANXOXKXMXXDONAUU3BERGANG21BXIXDXBEENDUTXBELGR4DXSEMUMXLEBHAFTERUEBSRSETZVERKEHRX
 ```text
 ANXOXKXMXXDONAUUEBERGANG21BXIXDXBEENDETXBELGRADXSEMUMXLEBHAFTERUEBERSETZVERKEHRX
 ```
+
+</details>
 
 **Readable German — the complete edited stream, with punctuation and spacing:**
 
@@ -298,4 +323,4 @@ The verifier binds the native transcriptions to raw output, prices every propose
 
 [Certificate](../../experiments/nov7_danube_and_message_reports/certificates.json) · [Experiment notes](../../experiments/nov7_danube_and_message_reports/README.md) · [Verifier](../../experiments/nov7_danube_and_message_reports/verify.py)
 
-Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.
+Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro.

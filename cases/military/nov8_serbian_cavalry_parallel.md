@@ -1,11 +1,9 @@
 # November 8: a separate Serbian-cavalry report witness
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 Source review and editorial work: **icekylinx and GPT-6 Astra Pro**. Published
 Nov7–9 key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker; unchanged
 here. The operational body and p170 word proposals were already edited in
-[the p166/p167/p170 report study](nov9_operational_reports.md). This addition
+[the p166/p167/p170 report study](nov9_operational_reports.md). This addition · [Reading conventions](../../docs/reading-conventions.md)
 is a new physical witness and source-alignment audit, not a claim to a new
 body decipherment or universal priority.
 
@@ -52,11 +50,16 @@ to it as its second part.
 The literal source has odd length. Its diagnostic output, before adding
 anything, is retained in full:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — native odd-frame diagnostic:**
 
 ```text
 NDSGREXNRNL0LERBT4DVDLSDDI2YETEWU0EETDMNAFZSIRGSRPECYTXNASMULO0X2X7TYAUEQFD1X0TXN0RKN?YUXDFF1SFOINSNCXDXRENNTELWLHGU?
 ```
+
+</details>
 
 The final unpaired intermediate coordinate is
 `D` from source index
@@ -67,11 +70,16 @@ readable report. Its native length and orphan remain in the certificate.
 
 Adding the independently printed A at primary source boundary **85** gives:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional frame with one source-linked A:**
 
 ```text
 ANENMELDUNGXSERBXKAVALLERITPETERWADE2NUNDFEHERTEMPLOMEINGSRUECKTXXABMARSCH217XIXDXUND?XRXDNACHNOYDENOHNEFEINBELUEHRUNG
 ```
+
+</details>
 
 This frame has **117 fixed positions / 118**. If the added coordinate is
 left unfilled, **116/118** positions are fixed. The other question mark is
@@ -79,11 +87,16 @@ the unchanged square cell `VF`, whose two global alternatives are **5/6**.
 
 ## Edited output — five observed substitutions
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — five observed-coordinate substitutions:**
 
 ```text
 ANENMELDUNGXSERBXKAVALLERIEPETERWADEINUNDFEHERTEMPLOMEINGERUECKTXXABMARSCH217XIXDXUND?XRXDNACHNORDENOHNEFEINBERUEHRUNG
 ```
+
+</details>
 
 All source indices below are zero-based. The source-linked addition is
 listed separately from the five substitutions.
@@ -166,11 +179,16 @@ The earlier p170 edition proposes `ABENMELDUNG` for raw `ANENMELDUNG`.
 Applying that same proposal here adds **two observed-coordinate
 substitutions**, for **seven total**:
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — optional earlier headline, seven observed substitutions:**
 
 ```text
 ABENMELDUNGXSERBXKAVALLERIEPETERWADEINUNDFEHERTEMPLOMEINGERUECKTXXABMARSCH217XIXDXUND?XRXDNACHNORDENOHNEFEINBERUEHRUNG
 ```
+
+</details>
 
 The D of `Aben[d]meldung` would still be a prose-only supplied letter. The
 primary five-substitution reading retains `ANENMELDUNG`; both exact

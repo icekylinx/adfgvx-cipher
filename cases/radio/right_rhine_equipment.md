@@ -1,7 +1,5 @@
 # Equipment transfer east of the Rhine, with radio service maintained
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source recovery and edition: icekylinx and GPT-6 Astra Pro.**
 
 This order directs equipment identified by the unexpanded label **`U.S.`**
@@ -10,8 +8,11 @@ station operation to be maintained. `U.S.` is preserved as a source label;
 the text does not establish an American origin or a particular equipment type.
 
 The source is Childs, *General Solution of the ADFGVX Cipher System*,
-[printed p179 A, PDF p182](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view),
+[printed p179 A, PDF p182](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view), · [Reading conventions](../../docs/reading-conventions.md)
 with this [visible header and ciphertext](../../experiments/november_armistice_orders/sources/p179_A.png):
+
+<details>
+<summary>Literal source transcription</summary>
 
 **Source transcription — clear header and/or literal source record:**
 
@@ -19,6 +20,8 @@ with this [visible header and ciphertext](../../experiments/november_armistice_o
 A) KS CZ FG v XF (20.07, November 11th)
 RICHI-266
 ```
+
+</details>
 
 ## A cancelled duplicate restores the printed frame length
 
@@ -36,19 +39,29 @@ view of the damaged but readable `X` at source position 190 is also
 Under the unchanged published Nov10–12 square and ranks, the resulting raw
 reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — frame excluding the visibly cancelled duplicate group; exclusion priced separately:**
 
 ```text
 DORTBEFINDXUXSXGERAETEZURNAECHSTENRECHTSRHEINXERSXABTLGXOCHAFKENXFU?OSTELLENB2TRIEBMUSSAUFRECHTERHA?TENBLEIBENXNACHRICHTENC0EF4B4??3?
 ```
 
+</details>
+
 Seven separately recorded observed-coordinate substitutions give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — same cancelled-group frame, followed by seven word repairs:**
 
 ```text
 DORTBEFINDXUXSXGERAETEZURNAECHSTENRECHTSRHEINXERSXABTLGXSCHAFFENXFUNKSTELLENBETRIEBMUSSAUFRECHTERHALTENBLEIBENXNACHRICHTENCHEF4B4??3?
 ```
+
+</details>
 
 A readable expansion, with abbreviation completions in brackets, is:
 

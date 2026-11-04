@@ -1,12 +1,15 @@
 # p212 A4: hospitals, patients and transport
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition: icekylinx and GPT-6 Astra Pro.** This conditional fragment concerns institutions where patients can remain, transport, personnel and medicines. It retains all **197 printed coordinates**, uses the unchanged published **Nov22–24** key, and assumes a **302-coordinate frame with 105 missing transmitted-prefix slots**. The source gives no total length.
 
 ## p212 A4
 
 Childs, printed page 212 / PDF page 215: `22nd NOVEMBER, 1918`; `XYZ v LP (03.54 p.m., November 22nd); ----- 7 TLE`. This block is explicitly **4 TL (Missed start)**.
+
+<details>
+<summary>Literal source transcription</summary>
 
 **Source transcription — all 197 printed coordinates:**
 
@@ -18,9 +21,14 @@ DVFVF AAGAD VXDVX AAFVF AVXGA VFAGV VAFFD VVFFV
 XVXVF FFVVD VXDVV DFAAA VDXFA FGAGD FAVAD AG
 ```
 
+</details>
+
 [Previously archived source crop](../../experiments/p212_p218_crosscopy/sources/p212_A4.png) · [Original PDF](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). The [inputs](../../experiments/p212_medical_fragment/inputs.json) give the exact PDF crop recipe; no image is duplicated.
 
 Prepending 105 unassigned slots and undoing the published transposition yields **46 fully observed pairs and 105 pairs with one observed half**. No plaintext position is wholly unobserved.
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output — conditional 302-slot frame; all missing coordinates unassigned:**
 
@@ -28,13 +36,20 @@ Prepending 105 unassigned slots and undoing the published transposition yields *
 ??ZA???T?????ST???E?????HI???K?????UG???N?????AN???E?????BE???E?????3X???9?????RA???O?????YA???M?????ER???S?????ME?I?A?????NZ?T?I?????SS?N?N?????DE?Z?G
 ```
 
+</details>
+
 Each `?` has an exact six-label domain. Five selected lexical spans fit those domains and require **83 missing-half fills, zero observed-coordinate changes**.
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — same frame and key; 83 inserted-half fills, 22 positions unresolved:**
 
 ```text
 LAZARETT???ANSTALTENDORTHINBEKANNTZUGEBENXWOKRANKEVERBLEIBENKOENNENX3X???9????TRANSPORT???YA???M?????ERPERSONAL?MEDIKAMENTENZUTEILENLASSENUNDIN9EDEMZUG
 ```
+
+</details>
 
 | Plaintext span, zero-based end exclusive | Selected wording |
 |---|---|

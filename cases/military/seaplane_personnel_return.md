@@ -1,6 +1,6 @@
 # Return Seeflugstation Ost personnel to the second detachment
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -17,6 +17,9 @@ contains **340 valid coordinates**, exactly matching `RICHI-340`.
 The unchanged published **Nov4–6** key fixes all **170 positions** before
 editing, although three resulting symbols require ordinary-word repairs.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 340-coordinate frame:**
 
 ```text
@@ -28,6 +31,8 @@ SEEFLUGSTATIONXOSTXFRUEHERXSEWASTOPOLXETWAZURUECKZUUEBERWEISENDESPERSONALISTANXZ
 ```text
 SEEFLUGSTATIONXOSTXFRUEHERXSEWASTOPOLXETWAZURUECKZUUEBERWEISENDESPERSONALISTANXZWEITEXSEEFLIEGERABTEILUNGUNDNICHTANXERSTEXSXFXAXZUUEBERWEISENXMARINEFLUGCHEFXGX4774XROEMX1
 ```
+
+</details>
 
 **Readable German — spacing and punctuation:**
 

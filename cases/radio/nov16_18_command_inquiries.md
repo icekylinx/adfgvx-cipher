@@ -1,14 +1,12 @@
 # Armistice acknowledgments, personnel and Warsaw radio inquiries
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 Seven native source records cover an armistice-receipt query, nightly radio listening, an inquiry for Captain von Borries, the location of the Warsaw general government, and radio equipment and personnel. Two previously OCR-damaged short messages become clear when their actually printed final groups are restored. All unresolved fields and missing-letter spellings remain explicit.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [p202 source](../../experiments/nov16_18_command_inquiries/sources/p202_reviewed.png) · [p203 source](../../experiments/nov16_18_command_inquiries/sources/p203_reviewed.png) · [p204 source](../../experiments/nov16_18_command_inquiries/sources/p204_reviewed.png) · [Exact inputs](../../experiments/nov16_18_command_inquiries/inputs.json) · [Position-by-position certificates](../../experiments/nov16_18_command_inquiries/certificates.json)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [p202 source](../../experiments/nov16_18_command_inquiries/sources/p202_reviewed.png) · [p203 source](../../experiments/nov16_18_command_inquiries/sources/p203_reviewed.png) · [p204 source](../../experiments/nov16_18_command_inquiries/sources/p204_reviewed.png) · [Exact inputs](../../experiments/nov16_18_command_inquiries/inputs.json) · [Position-by-position certificates](../../experiments/nov16_18_command_inquiries/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 The unchanged published keys are `Nov16-18`, `Nov13-15b`. The [earlier unreviewed candidates](../../experiments/nov16_18_command_inquiries/prior_candidates.json) and [original OCR records](../../experiments/nov16_18_command_inquiries/ocr_snapshot.json) are preserved. The present work supplies an image-reviewed source edition and a reproducible repair account; it does not claim that every body is a first public decipherment.
 
@@ -32,6 +30,9 @@ The unchanged published keys are `Nov16-18`, `Nov13-15b`. The [earlier unreviewe
 
 **Meaning:** Immediate confirmation is requested that a telegram on armistice conditions has arrived. The reference and date labels remain unresolved; the sentence continues in A2.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
@@ -43,6 +44,8 @@ ANXOKMXXSOFORTIGEBESTAETIGUNGERFORDERLICHOBFUNKSYRUCHX1XAXC?XRXVOM1RX11MBETRXNAF
 ```text
 ANXOKMXXSOFORTIGEBESTAETIGUNGERFORDERLICHOBFUNKSPRUCHX1XAXC?XRXVOM1RX11XBETRXWAFFENSTILLSTANDSBEDINGUNGENX
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 
@@ -58,6 +61,9 @@ ANXOKMXXSOFORTIGEBESTAETIGUNGERFORDERLICHOBFUNKSPRUCHX1XAXC?XRXVOM1RX11XBETRXWAF
 
 **Meaning:** The continuation asks whether the order to continue the withdrawal has arrived. The OHL reference is preserved as a literal field.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
@@ -69,6 +75,8 @@ UNDBEFEHLZURFORTSETZUNGDESABMAR?CHESDORTANGEKOMMENXOHLX1XAXNRX1???12XOP
 ```text
 UNDBEFEHLZURFORTSETZUNGDESABMARSCHESDORTANGEKOMMENXOHLX1XAXNRX1???12XOP
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 
@@ -85,6 +93,9 @@ UNDBEFEHLZURFORTSETZUNGDESABMARSCHESDORTANGEKOMMENXOHLX1XAXNRX1???12XOP
 
 **Meaning:** Maintain reception every night; a connection with Germany is urgently needed. Only the source-labelled second part is present in this record.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
@@ -96,6 +107,8 @@ STE?ETJEDEN?CHTAUF?MPFANGXVERBINDUNGMITDEUTSCHLXRRINGENDBENOETIGTX
 ```text
 STEHETJEDENACHTAUFEMPFANGXVERBINDUNGMITDEUTSCHLXDRINGENDBENOETIGTX
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 
@@ -113,11 +126,16 @@ STEHETJEDENACHTAUFEMPFANGXVERBINDUNGMITDEUTSCHLXDRINGENDBENOETIGTX
 
 **Meaning:** The War Ministry communications-equipment section asks for information on the whereabouts of Captain von Borries. The general-command label ?2 is not numbered historically.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
 KMXABTXNACHRICHTENMITTELXERBITTETNACHRICHTUEBERVERBLEIBXHPTMXVXBORRIESXGENXKDOX?2X
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 
@@ -134,11 +152,16 @@ KMXABTXNACHRICHTENMITTELXERBITTETNACHRICHTUEBERVERBLEIBXHPTMXVXBORRIESXGENXKDOX?
 
 **Meaning:** A direct query asks the present location of the Warsaw general government.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
 WOBEFINDETSICHJETZTGENERALGOUVERNEMENTWARSCHAU
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 
@@ -154,6 +177,9 @@ WOBEFINDETSICHJETZTGENERALGOUVERNEMENTWARSCHAU
 
 **Meaning:** The whereabouts of the light units or equipment in Lomza and Czenstochau are unknown; they are presumed to have departed with their governors. The crews of the other two stations have no equipment. The opening is opaque and several transmitted abbreviations and the missing-letter spelling ABERUECKT remain visible.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
@@ -165,6 +191,8 @@ GE?NACH2O2LE?CHTEINLOMZAUNDCZENSTOCHAUXV?RBLEIBUNBEKANNTXVERMUTLMITI?RENGOUVSABE
 ```text
 GE?NACH2O2LEICHTEINLOMZAUNDCZENSTOCHAUXVERBLEIBUNBEKANNTXVERMUTLMITIHRENGOUVSABERUECKTXBESATZGBEIDENANDERENSTATOHNEGERAETX
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 
@@ -182,11 +210,16 @@ GE?NACH2O2LEICHTEINLOMZAUNDCZENSTOCHAUXVERBLEIBUNBEKANNTXVERMUTLMITIHRENGOUVSABE
 
 **Meaning:** A short numbered reply answers no to item 1 and gives the literal call-sign-like pair PSO BSL for item 2. The inquiry number, date and expansion of PSO remain unresolved.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
 ZU2??FVOM1?XX1XNEINXX2XPSOXBSLXXFUSTAWAUXX
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 

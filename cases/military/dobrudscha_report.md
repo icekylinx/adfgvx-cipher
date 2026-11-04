@@ -1,6 +1,6 @@
 # Request for a position on a Dobrudscha report
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -17,6 +17,9 @@ System*, [printed p142, PDF p145](https://drive.google.com/file/d/1_JiNMck7eUvdr
 The [C crop](../../experiments/radio_contacts_and_keys/sources/childs_p142_C.png)
 is under a November 6 heading:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -25,8 +28,13 @@ FUER UKS 1915 (6/11)
 RICHI-242
 ```
 
+</details>
+
 The 242-slot source contains two printed dashes. The unchanged published
 `Nov4-6` key fixes 119 of 121 raw positions:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -34,13 +42,20 @@ The 242-slot source contains two printed dashes. The unchanged published
 ?NXNXOXMACKENSENXENTENTEMELDETX5011XERNEUTRUMAENISCHE?ESETZUNGDERXDOBRU2SCHAXSTELLUNGSNAHMEERBETENXABTXFREMDEHEERED17U560
 ```
 
+</details>
+
 One known-coordinate substitution and two dash fills give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 ANXNXOXMACKENSENXENTENTEMELDETX5011XERNEUTRUMAENISCHEBESETZUNGDERXDOBRUDSCHAXSTELLUNGSNAHMEERBETENXABTXFREMDEHEERED17U560
 ```
+
+</details>
 
 Readable core, with the reference retained literally:
 

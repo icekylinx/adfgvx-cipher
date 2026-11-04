@@ -1,6 +1,6 @@
 # Surviving Transylvania situation report
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
@@ -16,6 +16,9 @@ The p128 copy explicitly states that parts 2–6 are missing. The separate p137 
 
 Military situation after the collapse in Transylvania and Hungary’s armistice.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native source frame with its printed mask retained:**
 
 ```text
@@ -28,9 +31,14 @@ OHLOPXXFEINDLAGEXVOELLIGEDEROUTEINSIEBENBUERGENUNDWAFFENSTILLSTANDUNGARNSMACHTMI
 OHLOPXXFEINDLAGEXVOELLIGEDEROUTEINSIEBENBUERGENUNDWAFFENSTILLSTANDUNGARNSMACHTMILITAERISCHELAGEDER
 ```
 
+</details>
+
 ## p137 A4
 
 Security measures at Kronstadt/Hermannstadt and intended material transport.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — conditional single-slot and five-coordinate gaps; one representative tied layout:**
 
@@ -44,11 +52,16 @@ OXKXM0HATMASSNAHMENZURSICHERUNGVONKRONST?D1UNDHERMANNSTADTGETROFFENUNDB?AB?ICHTI
 OXKXMXHATMASSNAHMENZURSICHERUNGVONKRONSTADTUNDHERMANNSTADTGETROFFENUNDBEABSICHTIGTMITABTRANSPORTVONMATERIALIENVONMORGENABZUBEGINNENX
 ```
 
+</details>
+
 Printed 258 / advertised 264: a one-coordinate gap in AAAV plus a five-coordinate gap are modeled separately. All 1,295 placements give four tied minima: single gap 5/6/7/8 and five-coordinate gap 69. The primary candidate needs three observed-coordinate changes, two invalid-glyph fills and six missing-coordinate fills. An independently retained A/X source-glyph alternative lowers the observed changes to two; primary totals use A.
 
 ## p137 A5
 
 Interference-damaged personnel removal passage; four partial word completions.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — conditional 0/37 interference-loss allocation, selected by the stated prefix crib:**
 
@@ -61,6 +74,8 @@ ANS?HLI?SSE?DMUE?SEN?ORB?GNN?MI?I?AER?SC??RSO?RG?N?ENP?RS??ALD?RW?R?SSH?FT??UNQ?
 ```text
 ANSCHLIESSENDMUESSEN?ORB?GNN?MILITAERISCHERSO?RG?N?ENPERSONALDERW?R?SSH?FT??UNQ?ER?K?TUN?SS??EBE?B6?NOVEMBERABGESCHOBENWERDEN?
 ```
+
+</details>
 
 Printed 215 / advertised 252 means 37 missing coordinates in addition to four printed dashes. All 38 allocations between the two explicit INTERFERENCE locations are retained. The 0/37 model is the unique zero-observed-error fit for the explicit 20-character prefix ANSCHLIESSENDMUESSEN; this remains conditional on that crib. Four compatible word spans fill 21 erased coordinates without changing any observed coordinate. Twenty plaintext positions and the awkward observed middle wording remain unresolved. This is a partial reading, not a completed sentence.
 
@@ -85,6 +100,9 @@ unread; the governing clause is a priced contextual reconstruction.
 
 Request concerning the unknown general political situation and a possible armistice.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native source frame with its printed dash retained:**
 
 ```text
@@ -97,11 +115,16 @@ ALLGEMEINERHIERNICHTBEKANNTERPOLITISCHERLAGEXXEVTLXEINTRITTEINESWAFFENS?ILLSTAND
 ALLGEMEINERHIERNICHTBEKANNTERPOLITISCHERLAGEXXEVTLXEINTRITTEINESWAFFENSTILLSTANDESVXABHAENGIGZUMACHENWAEREXDRINGENDERBETENXX
 ```
 
+</details>
+
 Only its printed dash is filled. Raw VX and the absent governing context remain unresolved.
 
 ## p129 A8
 
 Request for acknowledgment; raw secret reference retained.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — native source frame; baseline reference labels retained:**
 
@@ -114,6 +137,8 @@ GLENCHESDURCHFER4SPRUCHVEMPFANGBESTAETIGENXXOXKXMX1ANOX11226O6XGEHEIMX
 ```text
 GLEICHESDURCHFERNSPRUCHXEMPFANGBESTAETIGENXXOXKXMX1ANOX11226O6XGEHEIMX
 ```
+
+</details>
 
 Three coordinate substitutions repair two words and the separator before EMPFANG. The reference 1ANOX11226O6 retains its original 1 and letter O.
 

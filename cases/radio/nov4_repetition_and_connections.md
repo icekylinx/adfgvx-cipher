@@ -1,6 +1,6 @@
 # November 4: repeated-part request and communications inquiry
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -11,6 +11,9 @@ The two p121 A parts have the header `FUER COS 1955 (4.11) 2 TL`, explicitly add
 ## p121 A1
 
 Childs p121, PDF p124; [reviewed source crop](../../experiments/nov4_repetition_and_connections/sources/p121_A.png). The unchanged published **Nov4–6** key uses the native **236-slot** frame.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — 118/118 fixed positions:**
 
@@ -23,6 +26,8 @@ ZUXTELEGEAMMXVOMX30X10XNRX8538X18XZXAX1XKXCXHATTEXUMUW9EDERWOLUNGXDESXERSTENXTEI
 ```text
 ZUXTELEGRAMMXVOMX30X10XNRX8538X18XZXAX1XKXCXHATTEXUMXWIEDERHOLUNGXDESXERSTENXTEILSXGEBETENXDERX2XUND3XTEILXISTXBEREITS
 ```
+
+</details>
 
 Source indices are zero-based. Observed changes: **14 F→V**, **90 F→G**, **103 D→F**, **187 V→D**, **215 F→V**.
 
@@ -38,6 +43,9 @@ The complete edited stream re-encrypts to the source with exactly the listed sub
 
 Childs p121, PDF p124; [reviewed source crop](../../experiments/nov4_repetition_and_connections/sources/p121_A.png). The unchanged published **Nov4–6** key uses the native **236-slot** frame.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — 117/118 fixed positions:**
 
 ```text
@@ -49,6 +57,8 @@ DECHIFFRIERTXWEI?ERGEGEBENXERNEUTEXBITTEXUMXWIKDERHOLUNGXDESXERSTENXTEILSXKRIEGS
 ```text
 DECHIFFRIERTXWEITERGEGEBENXERNEUTEXBITTEXUMXWIEDERHOLUNGXDESXERSTENXTEILSXKRIEGSMINISTERIUMXNRX8538X18XGXAX1XRMX2XANGX
 ```
+
+</details>
 
 Source indices are zero-based. Observed changes: **74 F→A**.
 
@@ -70,21 +80,20 @@ p121 B1 and p122 A2 both print `FUER UKS (4.11) 0035 2 TLE` with parts `1 TL` an
 
 Childs p121, PDF p124; [reviewed source crop](../../experiments/nov4_repetition_and_connections/sources/p121_B1.png). The unchanged published **Nov4–6** key uses the native **262-slot** frame.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — 131/131 fixed positions:**
 
 ```text
 AKONACHX18XXZUMTELEGRVONXHPTMXZIMMERMANNXWEGENXKONSTANZAXDRAHTETXOBVERBINDUNGXBUKARESTKONSTANZAXNOCHIMBETRIEBXUXWASWEGENXKONSTANZAX
 ```
 
-**Edited output — 0 observed-coordinate substitutions and 0 source-mask fills; 131/131 fixed positions:**
-
-```text
-AKONACHX18XXZUMTELEGRVONXHPTMXZIMMERMANNXWEGENXKONSTANZAXDRAHTETXOBVERBINDUNGXBUKARESTKONSTANZAXNOCHIMBETRIEBXUXWASWEGENXKONSTANZAX
-```
+</details>
 
 The edited stream is identical to the raw stream and re-encrypts to every source coordinate without repair.
 
-**Readable German — complete edited stream, with spacing and punctuation only:**
+**Readable German — complete raw stream, with spacing and punctuation only:**
 
 > AKONACH 18. Zum Telegr. von Hptm. Zimmermann wegen Konstanza: drahtet, ob Verbindung Bukarest-Konstanza noch im Betrieb, u. was wegen Konstanza
 
@@ -93,6 +102,9 @@ The edited stream is identical to the raw stream and re-encrypts to every source
 ## p122 A2
 
 Childs p122, PDF p125; [reviewed source crop](../../experiments/nov4_repetition_and_connections/sources/p122_A2.png). The unchanged published **Nov4–6** key uses the native **182-slot** frame.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — 91/91 fixed positions:**
 
@@ -105,6 +117,8 @@ UXKABELSVERA9LASSTXWIESTEHTSMITVERBINDUNGNACHXAOKX11XXNACHRICHEFX3XAX111511XDXAD
 ```text
 UXKABELSVERANLASSTXWIESTEHTSMITVERBINDUNGNACHXAOKX11XXNACHRICHEFX3XAX111511XDXADMSXKZX95086
 ```
+
+</details>
 
 Source indices are zero-based. Observed changes: **1 F→X**.
 

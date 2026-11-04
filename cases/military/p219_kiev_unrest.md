@@ -1,6 +1,6 @@
 # p219 C — Kiev unrest and the soldiers' council
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Conditional recovery: icekylinx and GPT-6 Astra Pro.** Resolving printed
 group alternatives and the marked jamming loss reveals a Kiev report.
@@ -35,6 +35,9 @@ The later parenthesized `FXVDD` remains in sequence. Twenty-five unknown
 slots are inserted at the printed jamming boundary before original source
 85. The model has 294 coordinates and uses the published Nov25–28 key.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional 294-slot frame; all 25 added coordinates unassigned:**
 
 ```text
@@ -46,6 +49,8 @@ HEER?SGRU?PEXKIE?XXUN?UHENX?WISC?ENXREG?ERUN?XHETM?NXUN?XPEDF9?RAX7?VORST?HEND?S
 ```text
 HEERESGRUPPEXKIEWXXUNRUHENXZWISCHENXREGIERUNGXHETMANXUNDXPEDF9?RAX7?VORSTEHEND?SOLDATENRATXBESCHLOSSXNEUTRALITAETXX7XVX?XODELSA?RM1?3230TMA?KO?SKQX
 ```
+
+</details>
 
 Choosing the printed `VDFDD` alternative matters: its surviving half-pair
 permits E in `HEERESGRUPPE`. The other printed group would require a
@@ -70,11 +75,16 @@ identities from an external document.
 
 > Heeresgruppe Kiew. Unruhen zwischen Regierung Hetman und Petljura. […] Soldatenrat beschloss Neutralitaet.
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — optional combined names; seven observed substitutions and 20 inserted-slot fills; five positions unresolved:**
 
 ```text
 HEERESGRUPPEXKIEWXXUNRUHENXZWISCHENXREGIERUNGXHETMANXUNDXPETLJURAX7?VORSTEHEND?SOLDATENRATXBESCHLOSSXNEUTRALITAETXX7XVX?XODESSA?RM1?3230TMARKOWSKYX
 ```
+
+</details>
 
 No extra letter is inserted to complete `VORSTEHEND?`. Numerical and compact
 footer fields such as `7XVX?`, `RM1?3230T` remain literal.
@@ -102,6 +112,9 @@ Childs, printed p219 / PDF p222, `C) IWE v RAT (------- November 25th)`;
 · [Edition and verifier](../../experiments/p219_kiev_unrest/README.md)
 · [Complete certificate](../../experiments/p219_kiev_unrest/certificates.json).
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — all 284 coordinate observations; parentheses and the jamming annotation retained separately:**
 
 ```text
@@ -114,6 +127,8 @@ ADFFV VDGDD (VDFDD) DDDFV GXXGF GGFDX DGVFV GVDFA
 FVGFD GDADX ADAAA DDFFF GDDDX (FXVDD) XFDFV XXFGF
 XVADX DFVX
 ```
+
+</details>
 
 The key retains the Lasry–Niebel–Kopal–Wacker work and Lasry's 2017 list.
 The earlier unverified repository OCR block is preserved. The source-model

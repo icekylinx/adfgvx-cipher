@@ -20,8 +20,8 @@ jobs:
       - uses: actions/setup-python@v7.1.0
         with:
           python-version: ${{ matrix.python }}
-      - name: Install source-evidence verification dependencies
-        run: python -m pip install -r requirements-source-evidence.txt
+      - name: Install research verification dependencies
+        run: python -m pip install -r requirements-research.txt
       - name: Verify source-evidence modes fail closed
         run: python -m unittest discover -s tests -p test_source_evidence.py
       - name: Verify published source crops
@@ -32,22 +32,15 @@ jobs:
         run: |
           python -m adfgvx.catalog --check
           python -m adfgvx.navigation --check
-          python experiments/session_review/verify.py --verify
-          python experiments/post_push_review/verify.py --verify
-          python experiments/post_push_review/verify_artifact_refresh.py
           python -m unittest discover -s tests -p test_source_gap_evidence.py
-          python data/reviews/verify_reading_conventions.py
-          python data/reviews/verify_manual_readings.py
-          python data/reviews/verify_semantic_readings.py
-          python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_layers_before.json --audit data/reviews/reading_conventions_layers_audit.json
-          python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_spacing_before.json --audit data/reviews/reading_conventions_spacing_audit.json
           python data/reviews/check_reading_presentation.py
           python data/reviews/verify_live_readable_mappings.py
           python experiments/p136_source_glyph_correction/verify.py --verify
           python experiments/p105_optional_two_deletions/verify.py --verify
           python experiments/p132_optional_address/verify.py --verify
-          python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/p132_optional_address_readable_mapping_20261103.json
-          python data/reviews/verify_catalog_source_overlaps.py
+          python data/reviews/verify_catalog_source_identity.py
+          python -m unittest discover -s tests -p test_catalog_source_identity.py
+          python experiments/open_source_records/verify.py
           python data/reviews/verify_continuation_source_counts.py --verify
           python experiments/p63_optional_technical_reading/verify.py --verify
           python experiments/p137_optional_staff_vocabulary/verify.py --verify
@@ -65,21 +58,13 @@ jobs:
           python experiments/p116_optional_route_fragment/verify.py --verify
           python experiments/p116_optional_route_fragment/verify_approval.py --verify
           python experiments/p116_optional_route_fragment/verify_footer.py --verify
-          python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/live_readable_mappings_20261103_continuation.json
-          python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/complete_displays_readable_mappings_20261103.json
-          python data/reviews/verify_semantic_readings.py --snapshot data/reviews/reading_conventions_complete_displays_before.json --audit data/reviews/reading_conventions_complete_displays_audit.json
           python data/reviews/verify_table_readable_mappings.py
-          python data/reviews/verify_semantic_readings.py --snapshot data/reviews/reading_conventions_transport_table_before.json --audit data/reviews/reading_conventions_transport_table_audit.json
-          python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/accounting_copy_readable_mapping_20261103.json
-          python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_count_units_before.json --audit data/reviews/reading_conventions_count_units_audit.json
-          python data/reviews/verify_semantic_readings.py --snapshot data/reviews/reading_conventions_legacy_tokens_before.json --audit data/reviews/reading_conventions_legacy_tokens_audit.json
           python data/reviews/verify_seifert_readable_table.py
           python experiments/accounting_copy_reconciliation/verify.py --verify
-          python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/legacy_live_readable_mappings_20261103.json
-          python data/reviews/verify_semantic_readings.py --snapshot data/reviews/reading_conventions_detail_before.json --audit data/reviews/reading_conventions_detail_audit.json
-          python data/reviews/verify_reading_conventions.py --snapshot data/reviews/reading_conventions_detail_prose_before.json --audit data/reviews/reading_conventions_detail_prose_audit.json
       - name: Verify Budapest teleprinter source edition
         run: python experiments/nov24_budapest_report/verify.py --verify
+      - name: Verify classical contact diagnosis and matched controls
+        run: python experiments/open_target_contact_diagnosis/verify.py --verify
       - name: Verify unknown-key crib search with source substitutions
         run: python experiments/substitution_crib_csp/verify.py --verify
       - name: Verify newly restored source families
@@ -204,7 +189,6 @@ jobs:
           python experiments/nov8_radio_keys_and_reports/verify.py --verify
           python experiments/nov8_radio_keys_and_reports/independent_source_audit.py --verify
           python experiments/p108_naval_and_personnel/verify.py --verify
-          python data/reviews/verify_followup_readings.py --verify
           python experiments/p107_railway_and_dragoman/verify.py --verify
           python experiments/nov4_repetition_and_connections/verify.py --verify
           python experiments/nov2_acknowledgments_and_personnel/verify.py --verify

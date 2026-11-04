@@ -1,6 +1,6 @@
 # Armistice conditions and urgent provisions requests on Childs p188
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and exact repair accounting: icekylinx and GPT-6 Astra Pro (2026).** Published Nov13–15b partial key: Lasry, Niebel, Kopal and Wacker. Earlier unreviewed machine readings are retained in the evidence package; no universal decipherment-priority claim is made.
 
@@ -49,6 +49,9 @@ These domains share one global square bijection. They cannot be selected indepen
 
 ### p188 A
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional 224-slot frame excluding the separately priced extra mark:**
 
 ```text
@@ -61,7 +64,12 @@ A?O?LXX6A?UNDAVK1PSRB?ITENMIK?EILUNGDERBESCNZFFENSTIL5STANDSBLDINGUNGENFUERNIESI
 ANOHLXXOKMUNDAOK1PERBITTENMITTEILUNGDERBESXWAFFENSTILLSTANDSBEDINGUNGENFUERHIESIGENKRIEGSSCHAUPLATZXXAXOXKX11XXX
 ```
 
+</details>
+
 ### p188 B2
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -75,7 +83,12 @@ BEDARF?EHRDRINGENDVVGLPFLEGUNGREICHTLAENGSTE?SOC?HUENFTAGEXFELDINTENTENDWNTVA?K1
 BEDARFSEHRDRINGENDXVERPFLEGUNGREICHTLAENGSTENSOCHFUENFTAGEXFELDINTENTENDANTVAOK11X6011XX
 ```
 
+</details>
+
 ### p188 C1
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -88,6 +101,8 @@ GENERALINTENDANTFELDHEERESXGRXHX?UXXBITTEALLE?TAGEVVZUGMIT??0000VOLLENPORTIONENE
 ```text
 GENERALINTENDANTFELDHEERESXGRXHX?UXXBITTEALLE?TAGEVVZUGMIT??0000VOLLENPORTIONENEINSCHLXMEHLXRESTHAFERXNACHSZOLNOKANDERTHEISSXABSENDENX
 ```
+
+</details>
 
 ## Evidence, reproduction and limits
 

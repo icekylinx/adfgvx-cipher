@@ -1,6 +1,6 @@
 # Native restoration of the p151 E2 operations-map fragment
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Reading conventions](../../docs/reading-conventions.md)
 
 **Source restoration and verification: icekylinx and GPT-6 Astra Pro.**
 

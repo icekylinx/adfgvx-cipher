@@ -1,6 +1,6 @@
 # German civilians in Constantinople: an enquiry and a diplomatic appeal
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
 
@@ -32,20 +32,30 @@ The first part advertises 298 coordinates but prints **297**. The source
 has a four-letter `ADDG` group at positions 225–228. Inserting an erased
 coordinate at boundary 227 gives this 149-position raw reading:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional insertion at source boundary 227 in the short group:**
 
 ```text
 ANDEUTSCHENGESCHAEFTSTRAEGERKONSTANTINOPELXHIERVORLIEGENMELDUNGENWONACH0YYDEUTSCHEZI?ILPERSONENHAUPTSAECHLICHXRAUENKINDERVONDORTHIERHERABGEREISTSINDX
 ```
 
+</details>
+
 One observed-coordinate change, `XRAUEN` to `FRAUEN`, and filling the
 missing coordinate for `ZIVILPERSONEN` give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — same conditional insertion model, with the stated repair and fill:**
 
 ```text
 ANDEUTSCHENGESCHAEFTSTRAEGERKONSTANTINOPELXHIERVORLIEGENMELDUNGENWONACH0YYDEUTSCHEZIVILPERSONENHAUPTSAECHLICHFRAUENKINDERVONDORTHIERHERABGEREISTSINDX
 ```
+
+</details>
 
 Addressed to the German chargé d'affaires at Constantinople, the text
 says that reports received at the sender's end describe German civilians,
@@ -76,21 +86,31 @@ This part advertises 344 coordinates and prints **345 slots**. Its
 six-letter group `AXDGXF` occupies source positions 130–135. Removing
 source index 134, the second `X`, gives:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional deletion of the second X at source index 134:**
 
 ```text
 BITTEDURCHVERMITTELUNGSCHWEDISCHERGESANDTSCHAFTDRAHTENOBMELDUNGZUTREFFENDWANNUNDWOHINABREISEERFOLGTXW6SUEBERVERBLEIBBEKANNTISTUNDUMWELCHEKA?EGORIENNUNPERSONENESSICHHANDELTX
 ```
 
+</details>
+
 The question mark comes from the printed dash in `A-FGA`, source index
 207. Four observed-coordinate substitutions and one erased-coordinate
 fill produce:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — same conditional deletion model, with the stated substitutions and dash fill:**
 
 ```text
 BITTEDURCHVERMITTELUNGSCHWEDISCHERGESANDTSCHAFTDRAHTENOBMELDUNGZUTREFFENDWANNUNDWOHINABREISEERFOLGTXWASUEBERVERBLEIBBEKANNTISTUNDUMWELCHEKATEGORIENVONPERSONENESSICHHANDELTX
 ```
+
+</details>
 
 The sender asks for a telegraphic report through the Swedish legation:
 is the report correct, when and to where did the departure occur, what is
@@ -108,19 +128,29 @@ The received `W6S` and `NUNPERSONEN` remain visible in the raw layer.
 The third part has exactly **348 slots**. Its invalid `Y` in `DGADY`,
 source index 319, remains an erasure. The raw reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 BITTEFERNERDRAHTEN?EBERSTANDDERTRUPPENTRANSPORTEUNDALLGEMEINELZGEDERDEUTSCHENI8DERTUERKEIX0NSERERSUCHENUMBELASSUNGDERDEUTSCHENZIVILPERSONENINDERTUERKEIISTVONPRAESIDENTWILSONX
 ```
 
+</details>
+
 Three observed-coordinate changes and the erased-coordinate fill give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 BITTEFERNERDRAHTENUEBERSTANDDERTRUPPENTRANSPORTEUNDALLGEMEINELAGEDERDEUTSCHENINDERTUERKEIXUNSERERSUCHENUMBELASSUNGDERDEUTSCHENZIVILPERSONENINDERTUERKEIISTVONPRAESIDENTWILSONX
 ```
+
+</details>
 
 The sender also requests the status of troop transports and the general
 situation of Germans in Turkey. Its request for German civilians to be
@@ -136,19 +166,29 @@ coordinates**. The visibly deficient group is `XDXG`, source positions
 190–193. Constraining the missing coordinate to that group gives its best
 fit at boundary **190**. This primary, source-local model reads:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional missing-slot placement at source boundary 190:**
 
 ```text
 DENALLWEERTENUNDDEMOBERKRWEGSR6TINPARISVORQELEGTWORDE?XBEFOERDERUNGDERZIVILPERSONENDURCHXUKRAINEXZURZELTUNMYEGLICHXXYUSWAERTIGBERLINX
 ```
 
+</details>
+
 Nine observed-coordinate changes and one missing-coordinate fill support:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — same conditional missing-slot frame, with the stated repairs and fill:**
 
 ```text
 DENALLIIERTENUNDDEMOBERKRIEGSRATINPARISVORGELEGTWORDENXBEFOERDERUNGDERZIVILPERSONENDURCHXUKRAINEXZURZEITUNMOEGLICHXXAUSWAERTIGBERLINX
 ```
+
+</details>
 
 The request has been submitted to the Allies and the Supreme War Council
 in Paris. Transport of civilians through Ukraine is currently impossible.

@@ -1,14 +1,12 @@
 # Radio reception instructions and a brief no-events report
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 The two-part p224 A telegram asks for experienced listeners, clear transmission and a suitable reception wavelength. The separate p224 B report states that nothing special has happened. This edition preserves the source-length spellings SICERES and MORENMELDUNG and the date-like field 17XJJ.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed page excerpt](../../experiments/nov27_receiving_instructions/sources/p224_reviewed.png) · [Exact inputs](../../experiments/nov27_receiving_instructions/inputs.json) · [Position-by-position certificates](../../experiments/nov27_receiving_instructions/certificates.json)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed page excerpt](../../experiments/nov27_receiving_instructions/sources/p224_reviewed.png) · [Exact inputs](../../experiments/nov27_receiving_instructions/inputs.json) · [Position-by-position certificates](../../experiments/nov27_receiving_instructions/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 The unchanged published key is `Nov25-28`. The [earlier unreviewed candidates](../../experiments/nov27_receiving_instructions/prior_candidates.json) and [original OCR records](../../experiments/nov27_receiving_instructions/ocr_snapshot.json) are preserved. The present work supplies an image-reviewed source edition and a reproducible repair account; it does not claim that every body is a first public decipherment.
 
@@ -28,6 +26,9 @@ The unchanged published key is `Nov25-28`. The [earlier unreviewed candidates](.
 
 **Meaning:** Staff the station with especially good listeners; transmit at a moderate speed with clear signs and spaces between groups. The sentence continues in part 2.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
@@ -39,6 +40,8 @@ BITTESTATIONOITBESONDERS9UTENHOERERNZUBESETZENXMAESSIGS?HNELLXDEUTLICDEZEICHENIN
 ```text
 BITTESTATIONMITBESONDERSGUTENHOERERNZUBESETZENXMAESSIGSCHNELLXDEUTLICHEZEICHENINGRUPPENABSTAENDENZUSENDENXDAFUNKSTATION
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 
@@ -55,6 +58,9 @@ BITTESTATIONMITBESONDERSGUTENHOERERNZUBESETZENXMAESSIGSCHNELLXDEUTLICHEZEICHENIN
 
 **Meaning:** The radio station is described as the only secure communication link with home; the recipient is asked which interference-free receiving wavelength is desired.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
@@ -66,6 +72,8 @@ EINQIGESXSICERESN6CHRICHTENMITTELMITHEIMATXWELCHESTOERUNGSFREIEEMPFANGSWELLEERWU
 ```text
 EINZIGESXSICERESNACHRICHTENMITTELMITHEIMATXWELCHESTOERUNGSFREIEEMPFANGSWELLEERWUENSCHTXX
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 
@@ -82,6 +90,9 @@ EINZIGESXSICERESNACHRICHTENMITTELMITHEIMATXWELCHESTOERUNGSFREIEEMPFANGSWELLEERWU
 
 **Meaning:** A short report says there are no special events. Its apparent morning-report heading lacks a letter in this source-length reading; the field 17XJJ stays literal.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output** — every native source slot in printed order, under the stated published key.
 
 ```text
@@ -93,6 +104,8 @@ MMRENMOLDUNG17XJJXXKETNEBESOGDERENERETGNISSEXX
 ```text
 MORENMELDUNG17XJJXXKEINEBESONDERENEREIGNISSEXX
 ```
+
+</details>
 
 **Unresolved details and editorial limits.**
 

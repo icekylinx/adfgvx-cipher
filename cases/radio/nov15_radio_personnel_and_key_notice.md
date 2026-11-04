@@ -1,6 +1,6 @@
 # November 15: Warsaw radio personnel and a repeated key notice
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -28,6 +28,9 @@ Lasry and collaborators as recorded in [data/keys.json](../../data/keys.json).
 
 [Reviewed source image — source-PDF reference](../../experiments/nov15_radio_personnel_and_key_notice/inputs.json).
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — shared header and first-part length:**
 
 ```text
@@ -36,11 +39,16 @@ A) WAU v LP (03.55 p.m., November 15th)
 1 TL RICHI-198
 ```
 
+</details>
+
 The five printed rows contain **193 slots**, including one dash in `VDVG-`,
 against the advertised **198**. This edition keeps those 193 source slots
 unchanged in the literal record. Its proposed analysis frame inserts **five
 unknown slots at source boundary 165**, between the final row's `AFXFF` and
 `GFVAX`. That location is an editorial hypothesis, not a printed gap mark.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — conditional 198-slot frame with five added unknown slots; 93/99 fixed positions:**
 
@@ -53,6 +61,8 @@ FESTUNGSFUNKAXWARSCHAUXDASGESAMTE?MBEREIC?DESGOUV?RNEMENT?WARSCHA?VERFUEGBAREFUN
 ```text
 FESTUNGSFUNKAXWARSCHAUXDASGESAMTEIMBEREICHDESGOUVERNEMENTSWARSCHAUVERFUEGBAREFUNKERPERSONALISTNACHX
 ```
+
+</details>
 
 The complete price, with zero-based source indices, is:
 
@@ -95,6 +105,9 @@ and its unpaired final coordinate are retained separately in the certificate.
 
 ## p197 A2
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Source transcription — second-part label:**
 
 ```text
@@ -106,6 +119,8 @@ and its unpaired final coordinate are retained separately in the certificate.
 ```text
 XFESTUNGSFUNKAXPOSENXINMARSCHZUSETZENXXINACHXFUNKLEITUNGHEIMATXNRX???6?5
 ```
+
+</details>
 
 **Readable German — complete raw stream, with spacing and punctuation only:**
 
@@ -126,6 +141,9 @@ is assigned.
 
 ## p197 B
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — literal header:**
 
 ```text
@@ -134,8 +152,13 @@ B) NKJ v LP (04.24 p.m., November 15th)
 RIZI-124-
 ```
 
+</details>
+
 The dash after the length label is outside the ciphertext. The visible
 final group `XFXX` belongs to the 124-slot body; the earlier OCR omitted it.
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output — native 124-slot frame; 60/62 fixed positions:**
 
@@ -148,6 +171,8 @@ UNLOES?A?EHUNKSPRUECHENACHDEZEMBERSCHLUESSELENTZIFFERNXXIRRTUM
 ```text
 UNLOESBAREFUNKSPRUECHENACHDEZEMBERSCHLUESSELENTZIFFERNXXIRRTUM
 ```
+
+</details>
 
 The changes are **source index 23 V→F**, **62 A→D**, and **93 F→G**. Unknown
 square cells are not filled to make these words: the letters B and R already

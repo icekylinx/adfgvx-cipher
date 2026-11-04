@@ -1,6 +1,6 @@
 # Mecklenburg inquiry about a letter to Herzog Karl Michael
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -18,6 +18,9 @@ has **304 slots**, matching `1 TL RICHI-304`. There is one printed dash
 and one unreadable visible glyph. The unchanged published **Nov4–6** key
 fixes **150 / 152 positions** before editing.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 304-coordinate frame:**
 
 ```text
@@ -29,6 +32,8 @@ BXMXKXSEWASTOPOLX?ECKLENBURGISCHEGESZNDTSCHAFTBITTETDRINZENDBEIKAPITAENLEUTNANTX
 ```text
 BXMXKXSEWASTOPOLXMECKLENBURGISCHEGESANDTSCHAFTBITTETDRINGENDBEIKAPITAENLEUTNANTXWAGNERXUNDKONSULATXTIFLISXSCHNELLEBEANTWORTUNGFOLGENDERFRAGENZUERWIRKENX
 ```
+
+</details>
 
 **Readable German — spacing and punctuation:**
 
@@ -48,6 +53,9 @@ The [second-part crop](../../experiments/mecklenburg_and_seaplane_personnel/sour
 contains **422 slots**, including six printed dashes, exactly matching
 `2 TL RICHI-422`. Its raw reading fixes **205 / 211 positions**.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 422-coordinate frame:**
 
 ```text
@@ -59,6 +67,8 @@ contains **422 slots**, including six printed dashes, exactly matching
 ```text
 1XSTOPXISTBEKANNTXOBDASIMJULIANXHERZOGXKARLXMICHAELXABGESANDTHANDSCHREIBENDESGROSSHERZOGSABGESANDTWORDENISTX2XSTOPXISTBEKANNTXOBHERZOGGELEGENHEITZUEINERRUECKAEUSSERUNGGEHABTHATXBESTAETIGUNGXADMIRALSTABX32982XBX2
 ```
+
+</details>
 
 **Readable German — spacing and punctuation; one grammatical spelling expansion is bracketed:**
 

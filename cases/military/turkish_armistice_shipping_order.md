@@ -1,6 +1,6 @@
 # Turkish armistice report: stop supply shipments and send evacuation ships
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -20,6 +20,9 @@ conditions or of ships actually sailing.
 The [first-part crop](../../experiments/turkish_armistice_shipping_order/sources/p90_B1.png)
 has **338 valid coordinates**, matching `1 TL RICHI-338`.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 338-coordinate frame:**
 
 ```text
@@ -31,6 +34,8 @@ BVGXKOSPOLIXXNACHAUFGEFANG7NEMFUNKSPRUCHWAFFENSTILLSTANDTUERHEIMITENTE8TAABGESCH
 ```text
 BVGXKOSPOLIXXNACHAUFGEFANGENEMFUNKSPRUCHWAFFENSTILLSTANDTUERKEIMITENTENTEABGESCHLOSSENXBEDINGUNGENDOPPELPUNKTFREIEDURCHFAHRTXDARDANELLENXUNDXBOSPORUSXINSCHWARZESMEERSTOP
 ```
+
+</details>
 
 **Readable German — spacing and punctuation:**
 
@@ -50,6 +55,9 @@ already fully present in the raw output.
 The [second-part crop](../../experiments/turkish_armistice_shipping_order/sources/p91_A2.png)
 has **344 valid coordinates**, matching `2 TL RICHI-344`.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 344-coordinate frame:**
 
 ```text
@@ -61,6 +69,8 @@ KEINERLEIMATEVIALTRANSPORPEEINSCHLXKOHLEXUNDXOELXMEHRNACHXTUERKEIXABSENDENXLEDIG
 ```text
 KEINERLEIMATERIALTRANSPORTEEINSCHLXKOHLEXUNDXOELXMEHRNACHXTUERKEIXABSENDENXLEDIGLICHLEERDAMPFERFUERRAEUMUNGSZWECKEIMEINVERNEHMENMITMITTELMEERDIVISIONNACHXKOSPOLIXSENDENSTOP
 ```
+
+</details>
 
 **Readable German — spacing and punctuation:**
 
@@ -78,6 +88,9 @@ decrypted in the source.
 The [third-part crop](../../experiments/turkish_armistice_shipping_order/sources/p91_A3.png)
 contains **236 valid coordinates**, matching `3 TL RICHI-236`.
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — native 236-coordinate frame:**
 
 ```text
@@ -89,6 +102,8 @@ GLXSXMXSTXDTSCHXSGABXZUGLXFUERXSCHIFFSAUSQL7ICHXXETRASOXBVGXRUMXKOSPOLIXSXAXBERL
 ```text
 GLXSXMXSTXDTSCHXSTABXZUGLXFUERXSCHIFFSAUSGLEICHXXETRASOXBVGXRUMXKOSPOLIXSXAXBERLINXXFECHXRMX2XGROSSXBXRMX5XBXFRX52758X
 ```
+
+</details>
 
 **Readable German — spacing and punctuation of the abbreviated distribution:**
 

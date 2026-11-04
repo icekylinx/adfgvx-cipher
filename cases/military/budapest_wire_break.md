@@ -1,6 +1,6 @@
 # Bridges and the wire connection through Budapest
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
@@ -17,6 +17,9 @@ System*, [printed p100, PDF p103](https://drive.google.com/file/d/1_JiNMck7eUvdr
 The [B crop](../../experiments/radio_contacts_and_keys/sources/childs_p100_B.png)
 is under a November 1 heading:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -24,10 +27,15 @@ B) UKS v ZÖN (------ November 2nd)
 RICHI-194
 ```
 
+</details>
+
 Manual transcription finds **194 valid coordinates**, matching the printed
 length. An earlier 195-slot OCR extraction produced a garbled result; its
 extra slot is not treated as a historical cipher error. The unchanged
 published `Nov1-3` key fixes all 97 raw plaintext positions:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
@@ -35,13 +43,20 @@ published `Nov1-3` key fixes all 97 raw plaintext positions:
 BRUECKENXDORTXGESPRENGTXDRAHTLEITUNGENXUEBERXBUDAPESTXDURCHSUNGXNATIONALRATXUNTERBJOCHENXAXOXKX11
 ```
 
+</details>
+
 Two observed-coordinate substitutions give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 BRUECKENXDORTXGESPRENGTXDRAHTLEITUNGENXUEBERXBUDAPESTXDURCHXUNGXNATIONALRATXUNTERBROCHENXAXOXKX11
 ```
+
+</details>
 
 Readable German, expanding only the explicit abbreviation in brackets:
 

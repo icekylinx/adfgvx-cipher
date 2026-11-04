@@ -1,6 +1,6 @@
 # A conditional governing clause for p137 A5
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and reconstruction: icekylinx and GPT-6 Astra Pro.**
 

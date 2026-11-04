@@ -1,8 +1,6 @@
 # Evening Danube report with unresolved unit and place labels
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p143 A
 
@@ -11,6 +9,9 @@
 **Source and dates:** Page heading: 6th NOVEMBER, 1918; A) UKS v ZON (8.45 p.m., November 6th); RICHI-188.
 
 ![Source p143 A](../../experiments/nov6_evening_and_embassy_records/sources/p143_A.png)
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -23,6 +24,8 @@ FUERX?KMXABEN?MELDUNGX?LPENZOR?SNORDWES?LXUJVID?KX217IXD?IMDONAUUEBERG?NGBEIXS?A
 ```text
 FUERX?KMXABENDMELDUNGX?LPENZOR?SNORDWESTLXUJVID?KX217IXBEIMDONAUUEBERGANGBEIXS?ANKAMENX?JVIDEK
 ```
+
+</details>
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
@@ -52,11 +55,16 @@ All indices are zero-based.
 
 The readable name proposal is compatible with the damaged labels, including the two occurrences of Ujvidek. It requires one additional observed-coordinate substitution and five additional mask fills. Its full source cost is four substitutions plus nine fills; one command-label position remains unknown. No independent copy of this report is claimed to supply these names.
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — optional name proposal:**
 
 ```text
 FUERX?KMXABENDMELDUNGXALPENKORPSNORDWESTLXUJVIDEKX217IXBEIMDONAUUEBERGANGBEIXSLANKAMENXUJVIDEK
 ```
+
+</details>
 
 **Readable German — optional name proposal:**
 
@@ -77,4 +85,4 @@ The literal field `217I` is retained in both quotations; neither version inserts
 
 The [input](../../experiments/nov6_evening_and_embassy_records/inputs.json) binds literal source rows to exact PDF crops. The [certificate](../../experiments/nov6_evening_and_embassy_records/certificates.json) records raw paired-coordinate domains, all proposed changes and the separately priced optional reading. The [verifier](../../experiments/nov6_evening_and_embassy_records/verify.py) checks the unchanged Nov4–6 key and all live German quotations, including every unknown position and digit.
 
-Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR input is frozen in the [attribution record](../../experiments/nov6_evening_and_embassy_records/prior_candidates.json). No first-decipherment priority is claimed.
+Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR input is frozen in the [attribution record](../../experiments/nov6_evening_and_embassy_records/prior_candidates.json).

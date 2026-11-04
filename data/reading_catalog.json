@@ -1,8 +1,8 @@
 {
-  "schema": "adfgvx-reading-catalog-v1",
+  "schema": "adfgvx-reading-catalog-v2",
   "project": "ADFGVX Cipher",
   "prepared_by": "icekylinx and GPT-6 Astra Pro",
-  "scope": "Curated source-reviewed records; challenge entries and all other represented physical ciphertexts are kept separate. Uninspected OCR candidates are not admitted.",
+  "scope": "One canonical entry per physical ciphertext body in the reviewed Childs log, including OPEN sources. Original challenge identifiers and specific reading credits are preserved. Evidence versions and supplements do not create additional entries.",
   "challenge": [
     {
       "id": "p73",
@@ -10,7 +10,8 @@
       "subject": "Message routed to General von Kress",
       "status": "Open",
       "credit": "—",
-      "path": "cases/p73.md"
+      "path": "cases/p73.md",
+      "state": "OPEN"
     },
     {
       "id": "p100",
@@ -18,7 +19,8 @@
       "subject": "Enemy divisions approaching Belgrade",
       "status": "Prior body reading; source audit",
       "credit": "Armin (2017)",
-      "path": "cases/p100.md"
+      "path": "cases/p100.md",
+      "state": "READING"
     },
     {
       "id": "p105",
@@ -26,7 +28,8 @@
       "subject": "Naval telegram acknowledgments",
       "status": "Prior body reading; source audit",
       "credit": "Norbert (2017)",
-      "path": "cases/p105.md"
+      "path": "cases/p105.md",
+      "state": "READING"
     },
     {
       "id": "p109",
@@ -34,15 +37,31 @@
       "subject": "Evening report; likely Sava crossing",
       "status": "Prior body; new source parallel",
       "credit": "Norbert (2017)",
-      "path": "cases/p109.md"
+      "path": "cases/p109.md",
+      "state": "READING"
     },
     {
       "id": "p132",
       "label": "p132",
       "subject": "Repeat-transmission instructions for Eilvese",
-      "status": "Prior body reading; source audit",
-      "credit": "Thomas (fragment) and Norbert (body), 2017",
-      "path": "cases/p132.md"
+      "status": "75/77 fixed labels under a conditional extra-interim-V model; four equivalent positions; 3 substitutions and 2 source-erasure fills",
+      "credit": "Thomas (fragment), Norbert (body and VORHER alternative), and Max Baertl (editorial proposal), 2017; source and arithmetic review by icekylinx and GPT-6 Astra Pro (2026)",
+      "path": "cases/p132.md",
+      "prior_reading_credit": "Thomas (fragment) and Norbert (body), 2017",
+      "evidence": [
+        "experiments/november_radio_service/inputs.json",
+        "experiments/november_radio_service/certificates.json",
+        "experiments/november_radio_service/geometry_audit.json",
+        "data/messages.json",
+        "data/prior_readings.json",
+        "data/certificates/editorial_readings.json"
+      ],
+      "evidence_record_ids": {
+        "experiments/november_radio_service/inputs.json": "p132_B",
+        "experiments/november_radio_service/certificates.json": "p132_B",
+        "experiments/november_radio_service/geometry_audit.json": "p132_B"
+      },
+      "state": "CONDITIONAL"
     },
     {
       "id": "p146",
@@ -50,7 +69,8 @@
       "subject": "Kerch radio call-sign instruction",
       "status": "Prior body; duplicate-group repair",
       "credit": "Norbert (2017)",
-      "path": "cases/p146.md"
+      "path": "cases/p146.md",
+      "state": "CONDITIONAL"
     },
     {
       "id": "p152",
@@ -58,7 +78,8 @@
       "subject": "Silk purchases and transport from the Caucasus",
       "status": "Source-linked body",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
-      "path": "cases/p152.md"
+      "path": "cases/p152.md",
+      "state": "READING"
     },
     {
       "id": "p153a",
@@ -66,7 +87,8 @@
       "subject": "Earlier orders; action still to be completed",
       "status": "New partial: 60/66 plaintext positions; date/number fields open",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
-      "path": "cases/p153a.md"
+      "path": "cases/p153a.md",
+      "state": "PARTIAL"
     },
     {
       "id": "p153b",
@@ -74,7 +96,8 @@
       "subject": "Rearguard artillery ammunition report",
       "status": "New raw partial; conditional body and footer",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
-      "path": "cases/p153b.md"
+      "path": "cases/p153b.md",
+      "state": "CONDITIONAL"
     },
     {
       "id": "p158",
@@ -82,7 +105,8 @@
       "subject": "Routing and army-key instructions",
       "status": "Composite sources identified",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
-      "path": "cases/p158.md"
+      "path": "cases/p158.md",
+      "state": "CONDITIONAL"
     },
     {
       "id": "p164a",
@@ -94,7 +118,8 @@
       "evidence": [
         "experiments/p164_occupation_fragment/inputs.json",
         "experiments/p164_occupation_fragment/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p164b",
@@ -102,7 +127,8 @@
       "subject": "Height 828 and an uneventful situation report",
       "status": "Prior partial; constraint audit",
       "credit": "Norbert (2017)",
-      "path": "cases/p164b.md"
+      "path": "cases/p164b.md",
+      "state": "PARTIAL"
     },
     {
       "id": "p170",
@@ -110,7 +136,8 @@
       "subject": "Short intercept; original length uncertain",
       "status": "Open",
       "credit": "—",
-      "path": "cases/p170.md"
+      "path": "cases/p170.md",
+      "state": "OPEN"
     },
     {
       "id": "p171",
@@ -118,7 +145,8 @@
       "subject": "Ruble rates and expectations about Russia",
       "status": "Prior body reading; source audit",
       "credit": "Norbert (2017)",
-      "path": "cases/p171.md"
+      "path": "cases/p171.md",
+      "state": "READING"
     },
     {
       "id": "p176a",
@@ -126,7 +154,8 @@
       "subject": "Breakthrough toward the north or northeast",
       "status": "Prior body reading; source audit",
       "credit": "Norbert (2017)",
-      "path": "cases/p176a.md"
+      "path": "cases/p176a.md",
+      "state": "READING"
     },
     {
       "id": "p176b",
@@ -134,7 +163,8 @@
       "subject": "Army positions near Peterreve and Versecz",
       "status": "Prior contextual reading; constraint audit",
       "credit": "Prinz and GPT-6 Astra (2026)",
-      "path": "cases/p176b.md"
+      "path": "cases/p176b.md",
+      "state": "PARTIAL"
     },
     {
       "id": "p187",
@@ -142,7 +172,8 @@
       "subject": "Monitoring Russian and Polish army traffic",
       "status": "Prior body reading; source audit",
       "credit": "George Lasry and Norbert (2017)",
-      "path": "cases/p187.md"
+      "path": "cases/p187.md",
+      "state": "READING"
     },
     {
       "id": "p187b",
@@ -150,7 +181,8 @@
       "subject": "Teleprinter failure and written reporting",
       "status": "Prior body; adjacent-swap explanation",
       "credit": "George Lasry and Norbert (2017)",
-      "path": "cases/p187b.md"
+      "path": "cases/p187b.md",
+      "state": "CONDITIONAL"
     },
     {
       "id": "p189",
@@ -158,7 +190,8 @@
       "subject": "Apparent vehicle request / await orders",
       "status": "Conditional partial",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
-      "path": "cases/p189.md"
+      "path": "cases/p189.md",
+      "state": "CONDITIONAL"
     },
     {
       "id": "p198",
@@ -166,7 +199,8 @@
       "subject": "CHI intercept with a five-coordinate shortfall",
       "status": "Open",
       "credit": "—",
-      "path": "cases/p198.md"
+      "path": "cases/p198.md",
+      "state": "OPEN"
     },
     {
       "id": "p215",
@@ -178,7 +212,8 @@
       "evidence": [
         "experiments/p215_hungarian_y/inputs.json",
         "experiments/p215_hungarian_y/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p217",
@@ -186,7 +221,8 @@
       "subject": "British cruiser and Allied squadron at Sevastopol",
       "status": "Prior body reading; correction verified",
       "credit": "Prinz and GPT-6 Astra (2026); correction: Christian Horvat",
-      "path": "cases/p217.md"
+      "path": "cases/p217.md",
+      "state": "READING"
     }
   ],
   "other": [
@@ -202,7 +238,8 @@
       "source_reviewed": true,
       "evidence": [
         "experiments/source_followup/source_context.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p85_B",
@@ -217,7 +254,8 @@
       "evidence": [
         "experiments/corpus_readings/selected_sources.json",
         "experiments/corpus_readings/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p89_A2",
@@ -231,7 +269,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/supplementary_readings.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p96_B",
@@ -246,7 +285,8 @@
       "evidence": [
         "experiments/corpus_readings/selected_sources.json",
         "experiments/corpus_readings/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p107_D",
@@ -260,7 +300,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/supplementary_readings.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p109_B",
@@ -274,7 +315,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p109_parallel.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p111_B",
@@ -289,7 +331,8 @@
       "evidence": [
         "experiments/corpus_readings/selected_sources.json",
         "experiments/corpus_readings/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p120_B1",
@@ -304,7 +347,8 @@
       "evidence": [
         "experiments/corpus_readings/selected_sources.json",
         "experiments/corpus_readings/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p122_D_suffix",
@@ -319,7 +363,8 @@
       "evidence": [
         "experiments/corpus_readings/selected_sources.json",
         "experiments/corpus_readings/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p123_A2",
@@ -334,7 +379,8 @@
       "evidence": [
         "experiments/corpus_readings/selected_sources.json",
         "experiments/corpus_readings/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p123_A3",
@@ -349,7 +395,8 @@
       "evidence": [
         "experiments/corpus_readings/selected_sources.json",
         "experiments/corpus_readings/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p131_B",
@@ -364,7 +411,8 @@
       "evidence": [
         "experiments/open_targets_continuation/inputs.json",
         "experiments/open_targets_continuation/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p134_B",
@@ -378,7 +426,8 @@
       "source_reviewed": true,
       "evidence": [
         "experiments/source_followup/source_context.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p136_B1",
@@ -392,7 +441,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p152.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p136_B2",
@@ -406,7 +456,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p152.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p138_A1",
@@ -414,14 +465,15 @@
       "printed_page": 138,
       "source_section": "A1",
       "subject": "Osthoff's Turkey posting cancelled, first witness",
-      "status": "Missing group supplied by p148; all 121 candidate letters witnessed",
+      "status": "Missing group supplied by p148; all 121 candidate positions witnessed",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/people/osthoff.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/corpus_attack/source_pairs.json",
         "experiments/corpus_attack/source_pair_results.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p138_A2",
@@ -436,7 +488,8 @@
       "evidence": [
         "experiments/corpus_attack/source_pairs.json",
         "experiments/corpus_attack/source_pair_results.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p140_B",
@@ -444,14 +497,15 @@
       "printed_page": 140,
       "source_section": "B",
       "subject": "Enquiry about Glatz's whereabouts",
-      "status": "167/168 letters witnessed; one damaged-glyph fill",
+      "status": "167/168 positions witnessed; one damaged-glyph fill",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/people/glatz.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/corpus_attack/source_pairs.json",
         "experiments/corpus_attack/source_pair_results.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p148_C1",
@@ -459,14 +513,15 @@
       "printed_page": 148,
       "source_section": "C1",
       "subject": "Osthoff's posting cancellation, clearer repeat",
-      "status": "120/121 raw positions; remaining letter supplied by p138",
+      "status": "120/121 raw positions; remaining position supplied by p138",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/people/osthoff.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/corpus_attack/source_pairs.json",
         "experiments/corpus_attack/source_pair_results.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p149_A2",
@@ -474,14 +529,15 @@
       "printed_page": 149,
       "source_section": "A2",
       "subject": "Repeated Osthoff reassignment and cabinet-order closing",
-      "status": "115/118 letters witnessed; three editorial changes",
+      "status": "115/118 positions witnessed; three editorial changes",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/people/osthoff.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/corpus_attack/source_pairs.json",
         "experiments/corpus_attack/source_pair_results.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p149_B",
@@ -496,7 +552,8 @@
       "evidence": [
         "experiments/open_targets_continuation/inputs.json",
         "experiments/open_targets_continuation/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p149_C",
@@ -511,7 +568,8 @@
       "evidence": [
         "experiments/corpus_attack/source_pairs.json",
         "experiments/corpus_attack/source_pair_results.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p151_D2",
@@ -526,7 +584,8 @@
       "evidence": [
         "experiments/courier_recovery/inputs.json",
         "experiments/courier_recovery/certificate.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p152_E2",
@@ -540,7 +599,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p152.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p153_D2",
@@ -555,7 +615,8 @@
       "evidence": [
         "experiments/courier_recovery/inputs.json",
         "experiments/courier_recovery/certificate.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p153_E1",
@@ -570,7 +631,8 @@
       "evidence": [
         "experiments/courier_recovery/inputs.json",
         "experiments/courier_recovery/certificate.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p155_A1",
@@ -584,7 +646,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p155.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p155_A2",
@@ -598,7 +661,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p155.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p158_C2",
@@ -613,7 +677,8 @@
       "evidence": [
         "experiments/courier_recovery/inputs.json",
         "experiments/courier_recovery/certificate.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p159_B",
@@ -627,7 +692,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p158.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p159_C",
@@ -641,7 +707,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p158.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p159_D",
@@ -656,7 +723,8 @@
       "evidence": [
         "experiments/open_targets_continuation/inputs.json",
         "experiments/open_targets_continuation/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p162_A1",
@@ -671,7 +739,8 @@
       "evidence": [
         "experiments/courier_recovery/inputs.json",
         "experiments/courier_recovery/certificate.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p164_A4",
@@ -685,7 +754,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p164_A4_editorial.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p166_A1",
@@ -700,7 +770,8 @@
       "evidence": [
         "experiments/p170_continuation/military_records.json",
         "experiments/p170_continuation/military_context.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p166_A2",
@@ -715,7 +786,8 @@
       "evidence": [
         "experiments/p170_continuation/military_records.json",
         "experiments/p170_continuation/military_context.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p166_A3",
@@ -730,7 +802,8 @@
       "evidence": [
         "experiments/p170_continuation/military_records.json",
         "experiments/p170_continuation/military_context.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p167_A3",
@@ -745,7 +818,8 @@
       "evidence": [
         "experiments/p170_continuation/military_records.json",
         "experiments/p170_continuation/military_context.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p168_A",
@@ -759,7 +833,8 @@
       "source_reviewed": true,
       "evidence": [
         "experiments/p170_continuation/seifert_records.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p168_B",
@@ -773,7 +848,8 @@
       "source_reviewed": true,
       "evidence": [
         "experiments/p170_continuation/seifert_records.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p168_C",
@@ -788,7 +864,8 @@
       "evidence": [
         "experiments/p168_munich_routing_witness/inputs.json",
         "experiments/p168_munich_routing_witness/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p168_D",
@@ -802,7 +879,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p158.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p169_A",
@@ -816,7 +894,8 @@
       "source_reviewed": true,
       "evidence": [
         "experiments/p170_continuation/seifert_records.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p170_B1",
@@ -831,7 +910,8 @@
       "evidence": [
         "experiments/p170_continuation/military_records.json",
         "experiments/p170_continuation/military_context.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p170_B2",
@@ -846,7 +926,8 @@
       "evidence": [
         "experiments/p170_continuation/military_records.json",
         "experiments/p170_continuation/military_context.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p172_A",
@@ -860,7 +941,8 @@
       "source_reviewed": true,
       "evidence": [
         "experiments/p170_continuation/seifert_records.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p172_B",
@@ -874,7 +956,8 @@
       "source_reviewed": true,
       "evidence": [
         "experiments/p170_continuation/seifert_records.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p174_B",
@@ -888,7 +971,8 @@
       "source_reviewed": true,
       "evidence": [
         "experiments/p170_continuation/seifert_records.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p174_C",
@@ -902,7 +986,8 @@
       "source_reviewed": true,
       "evidence": [
         "experiments/p170_continuation/seifert_records.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p174_D",
@@ -916,7 +1001,8 @@
       "source_reviewed": true,
       "evidence": [
         "experiments/p170_continuation/seifert_records.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p174_E",
@@ -930,7 +1016,8 @@
       "source_reviewed": true,
       "evidence": [
         "experiments/p170_continuation/seifert_records.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p181_A",
@@ -945,7 +1032,8 @@
       "evidence": [
         "experiments/open_targets_continuation/inputs.json",
         "experiments/open_targets_continuation/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p185_C",
@@ -959,7 +1047,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p189.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p185_D",
@@ -973,7 +1062,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p185_D_transport.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p186_A1",
@@ -987,7 +1077,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/reviews/p186_chi_parallel.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p186_A2",
@@ -1001,7 +1092,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/reviews/p186_chi_parallel.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p187_C",
@@ -1017,7 +1109,8 @@
         "data/supplementary_readings.json",
         "experiments/aviation_connection/companion_inputs.json",
         "experiments/aviation_connection/companion_certificate.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p189_C",
@@ -1031,7 +1124,8 @@
       "source_reviewed": true,
       "evidence": [
         "experiments/source_similarity_extension/source_inspection.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p189_E",
@@ -1045,7 +1139,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p185_D_transport.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p193_E",
@@ -1059,7 +1154,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p185_D_transport.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p194_A",
@@ -1073,7 +1169,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p185_D_transport.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p196_B",
@@ -1087,7 +1184,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p185_D_transport.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p197_C",
@@ -1101,7 +1199,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p197_p198_transport.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p197_D",
@@ -1115,7 +1214,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p197_p198_transport.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p197_E",
@@ -1129,7 +1229,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p185_D_transport.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p198_B",
@@ -1143,7 +1244,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p197_p198_transport.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p198_C",
@@ -1157,7 +1259,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p185_D_transport.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p198_E",
@@ -1171,7 +1274,8 @@
       "source_reviewed": true,
       "evidence": [
         "data/certificates/p197_p198_transport.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p201_B1",
@@ -1186,7 +1290,8 @@
       "evidence": [
         "experiments/open_targets_continuation/inputs.json",
         "experiments/open_targets_continuation/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p201_B2",
@@ -1201,7 +1306,8 @@
       "evidence": [
         "experiments/open_targets_continuation/inputs.json",
         "experiments/open_targets_continuation/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p204_A",
@@ -1216,7 +1322,8 @@
       "evidence": [
         "experiments/open_targets_continuation/inputs.json",
         "experiments/open_targets_continuation/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p205_A1",
@@ -1231,7 +1338,8 @@
       "evidence": [
         "experiments/corpus_joint/p205_inputs.json",
         "experiments/corpus_joint/p205_readings.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p205_A2",
@@ -1246,7 +1354,8 @@
       "evidence": [
         "experiments/corpus_joint/p205_inputs.json",
         "experiments/corpus_joint/p205_readings.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p205_A3",
@@ -1261,7 +1370,8 @@
       "evidence": [
         "experiments/corpus_joint/p205_inputs.json",
         "experiments/corpus_joint/p205_readings.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p205_A4",
@@ -1276,7 +1386,8 @@
       "evidence": [
         "experiments/corpus_joint/p205_inputs.json",
         "experiments/corpus_joint/p205_readings.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p205_B1",
@@ -1291,7 +1402,8 @@
       "evidence": [
         "experiments/corpus_joint/p205_inputs.json",
         "experiments/corpus_joint/p205_readings.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p205_B2",
@@ -1306,7 +1418,8 @@
       "evidence": [
         "experiments/corpus_joint/p205_inputs.json",
         "experiments/corpus_joint/p205_readings.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p206_A1",
@@ -1321,7 +1434,8 @@
       "evidence": [
         "experiments/open_targets_continuation/inputs.json",
         "experiments/open_targets_continuation/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p206_A2",
@@ -1336,7 +1450,8 @@
       "evidence": [
         "experiments/open_targets_continuation/inputs.json",
         "experiments/open_targets_continuation/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p206_A3",
@@ -1351,7 +1466,8 @@
       "evidence": [
         "experiments/open_targets_continuation/inputs.json",
         "experiments/open_targets_continuation/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p211_B_lower1",
@@ -1366,7 +1482,8 @@
       "evidence": [
         "experiments/open_targets_continuation/inputs.json",
         "experiments/open_targets_continuation/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p211_B_lower2",
@@ -1381,7 +1498,8 @@
       "evidence": [
         "experiments/open_targets_continuation/inputs.json",
         "experiments/open_targets_continuation/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p211_B_lower3",
@@ -1396,7 +1514,8 @@
       "evidence": [
         "experiments/open_targets_continuation/inputs.json",
         "experiments/open_targets_continuation/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p214_B",
@@ -1411,7 +1530,8 @@
       "evidence": [
         "experiments/open_targets_continuation/inputs.json",
         "experiments/open_targets_continuation/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p218_A1",
@@ -1426,7 +1546,8 @@
       "evidence": [
         "experiments/corpus_readings/selected_sources.json",
         "experiments/corpus_readings/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p218_A2",
@@ -1441,7 +1562,8 @@
       "evidence": [
         "experiments/corpus_readings/selected_sources.json",
         "experiments/corpus_readings/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p218_A3",
@@ -1456,7 +1578,8 @@
       "evidence": [
         "experiments/corpus_readings/selected_sources.json",
         "experiments/corpus_readings/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p92_A",
@@ -1471,7 +1594,8 @@
       "evidence": [
         "experiments/corpus_recovery/inputs.json",
         "experiments/corpus_recovery/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p203_C",
@@ -1486,7 +1610,8 @@
       "evidence": [
         "experiments/corpus_recovery/inputs.json",
         "experiments/corpus_recovery/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p210_A1",
@@ -1501,7 +1626,8 @@
       "evidence": [
         "experiments/corpus_recovery/inputs.json",
         "experiments/corpus_recovery/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p210_A2",
@@ -1516,7 +1642,8 @@
       "evidence": [
         "experiments/corpus_recovery/inputs.json",
         "experiments/corpus_recovery/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p210_B",
@@ -1531,7 +1658,8 @@
       "evidence": [
         "experiments/corpus_recovery/inputs.json",
         "experiments/corpus_recovery/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p210_C",
@@ -1546,7 +1674,8 @@
       "evidence": [
         "experiments/corpus_recovery/inputs.json",
         "experiments/corpus_recovery/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p210_D",
@@ -1561,7 +1690,8 @@
       "evidence": [
         "experiments/corpus_recovery/inputs.json",
         "experiments/corpus_recovery/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p84_A",
@@ -1576,7 +1706,8 @@
       "evidence": [
         "experiments/corpus_recovery/inputs.json",
         "experiments/corpus_recovery/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p84_B",
@@ -1591,7 +1722,8 @@
       "evidence": [
         "experiments/corpus_recovery/inputs.json",
         "experiments/corpus_recovery/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p140_A1",
@@ -1606,7 +1738,8 @@
       "evidence": [
         "experiments/corpus_extension/inputs.json",
         "experiments/corpus_extension/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p140_A2",
@@ -1621,7 +1754,8 @@
       "evidence": [
         "experiments/corpus_extension/inputs.json",
         "experiments/corpus_extension/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p140_A3",
@@ -1636,7 +1770,8 @@
       "evidence": [
         "experiments/corpus_extension/inputs.json",
         "experiments/corpus_extension/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p140_A4",
@@ -1651,7 +1786,8 @@
       "evidence": [
         "experiments/corpus_extension/inputs.json",
         "experiments/corpus_extension/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p146_A",
@@ -1666,7 +1802,8 @@
       "evidence": [
         "experiments/corpus_extension/inputs.json",
         "experiments/corpus_extension/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p226_B2",
@@ -1681,7 +1818,8 @@
       "evidence": [
         "experiments/corpus_extension/inputs.json",
         "experiments/corpus_extension/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p226_C1",
@@ -1696,7 +1834,8 @@
       "evidence": [
         "experiments/corpus_extension/inputs.json",
         "experiments/corpus_extension/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p226_C2",
@@ -1711,7 +1850,8 @@
       "evidence": [
         "experiments/corpus_extension/inputs.json",
         "experiments/corpus_extension/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p226_C3",
@@ -1726,7 +1866,8 @@
       "evidence": [
         "experiments/corpus_extension/inputs.json",
         "experiments/corpus_extension/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p227_A4",
@@ -1741,7 +1882,8 @@
       "evidence": [
         "experiments/corpus_extension/inputs.json",
         "experiments/corpus_extension/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p225_A",
@@ -1756,7 +1898,8 @@
       "evidence": [
         "experiments/corpus_extension/inputs.json",
         "experiments/corpus_extension/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p227_B",
@@ -1771,7 +1914,8 @@
       "evidence": [
         "experiments/corpus_extension/inputs.json",
         "experiments/corpus_extension/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p228_C1",
@@ -1786,7 +1930,8 @@
       "evidence": [
         "experiments/corpus_extension/inputs.json",
         "experiments/corpus_extension/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p228_C2",
@@ -1801,7 +1946,8 @@
       "evidence": [
         "experiments/corpus_extension/inputs.json",
         "experiments/corpus_extension/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p163_A13",
@@ -1818,7 +1964,8 @@
         "experiments/withdrawal_recovery/certificates.json",
         "experiments/p163_rearguard_continuation/inputs.json",
         "experiments/p163_rearguard_continuation/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p163_A14",
@@ -1833,7 +1980,8 @@
       "evidence": [
         "experiments/withdrawal_recovery/inputs.json",
         "experiments/withdrawal_recovery/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p163_A15",
@@ -1850,7 +1998,8 @@
         "experiments/withdrawal_recovery/certificates.json",
         "experiments/p163_rearguard_continuation/inputs.json",
         "experiments/p163_rearguard_continuation/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p163_A16",
@@ -1865,7 +2014,8 @@
       "evidence": [
         "experiments/p163_infrastructure_clause/inputs.json",
         "experiments/p163_infrastructure_clause/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p163_A17",
@@ -1881,7 +2031,8 @@
         "experiments/withdrawal_recovery/inputs.json",
         "experiments/withdrawal_recovery/certificates.json",
         "experiments/p163_headquarters_map_context/context.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p163_A18",
@@ -1896,7 +2047,8 @@
       "evidence": [
         "experiments/withdrawal_recovery/inputs.json",
         "experiments/withdrawal_recovery/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p164_B",
@@ -1911,7 +2063,8 @@
       "evidence": [
         "experiments/withdrawal_recovery/inputs.json",
         "experiments/withdrawal_recovery/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p69_B1",
@@ -1926,7 +2079,8 @@
       "evidence": [
         "experiments/october_caucasus/inputs.json",
         "experiments/october_caucasus/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p69_B2",
@@ -1941,7 +2095,8 @@
       "evidence": [
         "experiments/october_caucasus/inputs.json",
         "experiments/october_caucasus/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p70_A1",
@@ -1956,7 +2111,8 @@
       "evidence": [
         "experiments/october_caucasus/inputs.json",
         "experiments/october_caucasus/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p70_A2",
@@ -1971,7 +2127,8 @@
       "evidence": [
         "experiments/october_caucasus/inputs.json",
         "experiments/october_caucasus/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p72_A1",
@@ -1986,7 +2143,8 @@
       "evidence": [
         "experiments/october_caucasus/inputs.json",
         "experiments/october_caucasus/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p72_A2",
@@ -2001,7 +2159,8 @@
       "evidence": [
         "experiments/october_caucasus/inputs.json",
         "experiments/october_caucasus/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p72_A3",
@@ -2016,7 +2175,8 @@
       "evidence": [
         "experiments/october_caucasus/inputs.json",
         "experiments/october_caucasus/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p72_B",
@@ -2031,7 +2191,8 @@
       "evidence": [
         "experiments/october_caucasus/inputs.json",
         "experiments/october_caucasus/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p71_A1",
@@ -2046,7 +2207,8 @@
       "evidence": [
         "experiments/october_caucasus/inputs.json",
         "experiments/october_caucasus/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p180_A3",
@@ -2061,7 +2223,8 @@
       "evidence": [
         "experiments/operational_recovery/inputs.json",
         "experiments/operational_recovery/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p217_A1",
@@ -2076,7 +2239,8 @@
       "evidence": [
         "experiments/operational_recovery/inputs.json",
         "experiments/operational_recovery/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p217_A2",
@@ -2091,7 +2255,8 @@
       "evidence": [
         "experiments/operational_recovery/inputs.json",
         "experiments/operational_recovery/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p217_A3",
@@ -2106,7 +2271,8 @@
       "evidence": [
         "experiments/operational_recovery/inputs.json",
         "experiments/operational_recovery/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p217_A4",
@@ -2121,7 +2287,8 @@
       "evidence": [
         "experiments/operational_recovery/inputs.json",
         "experiments/operational_recovery/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p217_A5",
@@ -2136,7 +2303,8 @@
       "evidence": [
         "experiments/operational_recovery/inputs.json",
         "experiments/operational_recovery/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p230_A3",
@@ -2151,7 +2319,8 @@
       "evidence": [
         "experiments/operational_recovery/inputs.json",
         "experiments/operational_recovery/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p230_A4",
@@ -2166,7 +2335,8 @@
       "evidence": [
         "experiments/operational_recovery/inputs.json",
         "experiments/operational_recovery/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p190_A",
@@ -2181,7 +2351,8 @@
       "evidence": [
         "experiments/nov14_retransmissions/inputs.json",
         "experiments/nov14_retransmissions/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p190_B",
@@ -2196,7 +2367,8 @@
       "evidence": [
         "experiments/nov14_retransmissions/inputs.json",
         "experiments/nov14_retransmissions/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p190_D",
@@ -2211,7 +2383,8 @@
       "evidence": [
         "experiments/nov14_retransmissions/inputs.json",
         "experiments/nov14_retransmissions/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p190_E",
@@ -2226,7 +2399,8 @@
       "evidence": [
         "experiments/nov14_retransmissions/inputs.json",
         "experiments/nov14_retransmissions/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p193_A",
@@ -2234,14 +2408,15 @@
       "printed_page": 193,
       "source_section": "A",
       "subject": "Ask whether NKJ relays Mackensen messages and how contact is maintained",
-      "status": "94/94 candidate letters independently witnessed across the pair",
+      "status": "94/94 candidate positions independently witnessed across the pair",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/radio/nov14_radio_retransmissions.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/nov14_retransmissions/inputs.json",
         "experiments/nov14_retransmissions/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p193_B",
@@ -2249,14 +2424,15 @@
       "printed_page": 193,
       "source_section": "B",
       "subject": "Interrupted pilot-arrival notice; exact suffix of p194 B",
-      "status": "85 missing coordinates and 85 raw letters restored by independent copy",
+      "status": "85 missing coordinates and 85 raw positions restored by independent copy",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/radio/nov14_radio_retransmissions.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/nov14_retransmissions/inputs.json",
         "experiments/nov14_retransmissions/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p194_B",
@@ -2271,7 +2447,8 @@
       "evidence": [
         "experiments/nov14_retransmissions/inputs.json",
         "experiments/nov14_retransmissions/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p187_D1",
@@ -2286,7 +2463,8 @@
       "evidence": [
         "experiments/aviation_connection/inputs.json",
         "experiments/aviation_connection/certificate.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p69_A",
@@ -2301,7 +2479,8 @@
       "evidence": [
         "experiments/october_caucasus/inputs.json",
         "experiments/october_caucasus/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p68_A1",
@@ -2316,7 +2495,8 @@
       "evidence": [
         "experiments/october_caucasus/inputs.json",
         "experiments/october_caucasus/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p68_A2",
@@ -2333,7 +2513,8 @@
         "experiments/october_caucasus/certificates.json",
         "experiments/p68_procurement_continuation/inputs.json",
         "experiments/p68_procurement_continuation/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p192_2",
@@ -2348,7 +2529,8 @@
       "evidence": [
         "experiments/tiflis_appointment/inputs.json",
         "experiments/tiflis_appointment/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p192_3",
@@ -2363,7 +2545,8 @@
       "evidence": [
         "experiments/tiflis_appointment/inputs.json",
         "experiments/tiflis_appointment/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p192_A",
@@ -2378,7 +2561,8 @@
       "evidence": [
         "experiments/warsaw_service_messages/inputs.json",
         "experiments/warsaw_service_messages/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p192_B",
@@ -2393,7 +2577,8 @@
       "evidence": [
         "experiments/warsaw_service_messages/inputs.json",
         "experiments/warsaw_service_messages/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p194_C",
@@ -2408,7 +2593,8 @@
       "evidence": [
         "experiments/warsaw_service_messages/inputs.json",
         "experiments/warsaw_service_messages/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p194_E",
@@ -2423,7 +2609,8 @@
       "evidence": [
         "experiments/warsaw_service_messages/inputs.json",
         "experiments/warsaw_service_messages/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p178_A1",
@@ -2438,7 +2625,8 @@
       "evidence": [
         "experiments/naval_armistice_order/inputs.json",
         "experiments/naval_armistice_order/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p178_A2",
@@ -2453,7 +2641,8 @@
       "evidence": [
         "experiments/naval_armistice_order/inputs.json",
         "experiments/naval_armistice_order/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p178_A3",
@@ -2468,7 +2657,8 @@
       "evidence": [
         "experiments/naval_armistice_order/inputs.json",
         "experiments/naval_armistice_order/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p178_A4",
@@ -2483,7 +2673,8 @@
       "evidence": [
         "experiments/naval_armistice_order/inputs.json",
         "experiments/naval_armistice_order/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p178_A5",
@@ -2498,7 +2689,8 @@
       "evidence": [
         "experiments/naval_armistice_order/inputs.json",
         "experiments/naval_armistice_order/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p199_B1",
@@ -2513,7 +2705,8 @@
       "evidence": [
         "experiments/tiflis_appointment/inputs.json",
         "experiments/tiflis_appointment/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p199_A1",
@@ -2521,14 +2714,15 @@
       "printed_page": 199,
       "source_section": "A1",
       "subject": "Feigenhaus 618: Herkules report of incoming steamers and a garbled cocoa cargo description",
-      "status": "Prior body identification; One surplus coordinate in six-letter group; three broad tied fits retained; 145/146 raw",
+      "status": "Prior body identification; one surplus coordinate in a six-coordinate group; three broad tied fits retained; 145/146 raw",
       "credit": "Lasry, Niebel, Kopal and Wacker (2016); source audit by icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/naval/black_sea_shipping.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/black_sea_shipping/inputs.json",
         "experiments/black_sea_shipping/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p199_A2",
@@ -2543,7 +2737,8 @@
       "evidence": [
         "experiments/black_sea_shipping/inputs.json",
         "experiments/black_sea_shipping/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p199_A3",
@@ -2558,7 +2753,8 @@
       "evidence": [
         "experiments/black_sea_shipping/inputs.json",
         "experiments/black_sea_shipping/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p200_B1",
@@ -2573,7 +2769,8 @@
       "evidence": [
         "experiments/black_sea_shipping/inputs.json",
         "experiments/black_sea_shipping/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p200_B2",
@@ -2588,7 +2785,8 @@
       "evidence": [
         "experiments/black_sea_shipping/inputs.json",
         "experiments/black_sea_shipping/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p200_A",
@@ -2603,7 +2801,8 @@
       "evidence": [
         "experiments/siedlce_withdrawal/inputs.json",
         "experiments/siedlce_withdrawal/certificate.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p66_A",
@@ -2618,7 +2817,8 @@
       "evidence": [
         "experiments/october_staffing/inputs.json",
         "experiments/october_staffing/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p66_B",
@@ -2633,7 +2833,8 @@
       "evidence": [
         "experiments/october_staffing/inputs.json",
         "experiments/october_staffing/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p66_C1",
@@ -2648,7 +2849,8 @@
       "evidence": [
         "experiments/october_staffing/inputs.json",
         "experiments/october_staffing/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p67_A2",
@@ -2663,7 +2865,8 @@
       "evidence": [
         "experiments/october_staffing/inputs.json",
         "experiments/october_staffing/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p67_B",
@@ -2678,7 +2881,8 @@
       "evidence": [
         "experiments/october_staffing/inputs.json",
         "experiments/october_staffing/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p67_C",
@@ -2693,7 +2897,8 @@
       "evidence": [
         "experiments/october_staffing/inputs.json",
         "experiments/october_staffing/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p165_A1",
@@ -2708,7 +2913,8 @@
       "evidence": [
         "experiments/corcovado_sale_terms/inputs.json",
         "experiments/corcovado_sale_terms/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p165_A2",
@@ -2723,7 +2929,8 @@
       "evidence": [
         "experiments/corcovado_sale_terms/inputs.json",
         "experiments/corcovado_sale_terms/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p165_A3",
@@ -2738,7 +2945,8 @@
       "evidence": [
         "experiments/corcovado_sale_terms/inputs.json",
         "experiments/corcovado_sale_terms/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p165_A5",
@@ -2753,7 +2961,8 @@
       "evidence": [
         "experiments/corcovado_sale_terms/inputs.json",
         "experiments/corcovado_sale_terms/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p173_A1",
@@ -2768,7 +2977,8 @@
       "evidence": [
         "experiments/corcovado_sale_terms/inputs.json",
         "experiments/corcovado_sale_terms/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p173_A2",
@@ -2783,7 +2993,8 @@
       "evidence": [
         "experiments/corcovado_sale_terms/inputs.json",
         "experiments/corcovado_sale_terms/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p191_A1",
@@ -2799,7 +3010,8 @@
         "experiments/boots_request/inputs.json",
         "experiments/boots_request/geometry_certificate.json",
         "experiments/boots_request/certificate.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p191_A2",
@@ -2815,7 +3027,8 @@
         "experiments/boots_request/inputs.json",
         "experiments/boots_request/geometry_certificate.json",
         "experiments/boots_request/certificate.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p177_B1",
@@ -2830,7 +3043,8 @@
       "evidence": [
         "experiments/turkish_tonnage/inputs.json",
         "experiments/turkish_tonnage/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p177_B2",
@@ -2845,7 +3059,8 @@
       "evidence": [
         "experiments/turkish_tonnage/inputs.json",
         "experiments/turkish_tonnage/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p177_B3",
@@ -2860,7 +3075,8 @@
       "evidence": [
         "experiments/turkish_tonnage/inputs.json",
         "experiments/turkish_tonnage/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p62_A",
@@ -2875,7 +3091,8 @@
       "evidence": [
         "experiments/october_requests/inputs.json",
         "experiments/october_requests/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p62_B",
@@ -2890,7 +3107,8 @@
       "evidence": [
         "experiments/october_requests/inputs.json",
         "experiments/october_requests/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p63_A",
@@ -2905,7 +3123,8 @@
       "evidence": [
         "experiments/october_requests/inputs.json",
         "experiments/october_requests/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p65_A",
@@ -2920,7 +3139,8 @@
       "evidence": [
         "experiments/october_requests/inputs.json",
         "experiments/october_requests/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p221_B1",
@@ -2936,7 +3156,8 @@
         "experiments/constantinople_civilians/inputs.json",
         "experiments/constantinople_civilians/certificates.json",
         "experiments/constantinople_civilians/historical_context.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p221_B2",
@@ -2944,7 +3165,7 @@
       "printed_page": 221,
       "source_section": "B2",
       "subject": "Verify civilian departures and whereabouts through the Swedish legation",
-      "status": "171/172 raw; unique deletion134 in six-letter group; four word repairs and one dash fill",
+      "status": "171/172 raw; unique deletion 134 in a six-coordinate group; four word repairs and one dash fill",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key credited separately",
       "path": "cases/people/constantinople_civilians.md",
       "source_reviewed": true,
@@ -2952,7 +3173,8 @@
         "experiments/constantinople_civilians/inputs.json",
         "experiments/constantinople_civilians/certificates.json",
         "experiments/constantinople_civilians/historical_context.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p221_B3",
@@ -2968,7 +3190,8 @@
         "experiments/constantinople_civilians/inputs.json",
         "experiments/constantinople_civilians/certificates.json",
         "experiments/constantinople_civilians/historical_context.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p221_B4",
@@ -2984,7 +3207,8 @@
         "experiments/constantinople_civilians/inputs.json",
         "experiments/constantinople_civilians/certificates.json",
         "experiments/constantinople_civilians/historical_context.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p224_C1",
@@ -3000,7 +3224,8 @@
         "experiments/breslau_staff_transfer/inputs.json",
         "experiments/breslau_staff_transfer/certificates.json",
         "experiments/breslau_staff_transfer/historical_context.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p224_C2",
@@ -3016,7 +3241,8 @@
         "experiments/breslau_staff_transfer/inputs.json",
         "experiments/breslau_staff_transfer/certificates.json",
         "experiments/breslau_staff_transfer/historical_context.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p223_A1",
@@ -3031,7 +3257,8 @@
       "evidence": [
         "experiments/lei_note_exchange/inputs.json",
         "experiments/lei_note_exchange/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p223_A2",
@@ -3046,7 +3273,8 @@
       "evidence": [
         "experiments/lei_note_exchange/inputs.json",
         "experiments/lei_note_exchange/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p223_A3",
@@ -3061,7 +3289,8 @@
       "evidence": [
         "experiments/lei_note_exchange/inputs.json",
         "experiments/lei_note_exchange/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p219_A1",
@@ -3076,7 +3305,8 @@
       "evidence": [
         "experiments/crown_cash_requests/inputs.json",
         "experiments/crown_cash_requests/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p219_A2",
@@ -3091,7 +3321,8 @@
       "evidence": [
         "experiments/crown_cash_requests/inputs.json",
         "experiments/crown_cash_requests/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p219_B",
@@ -3106,7 +3337,8 @@
       "evidence": [
         "experiments/crown_cash_requests/inputs.json",
         "experiments/crown_cash_requests/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p174_A1",
@@ -3121,7 +3353,8 @@
       "evidence": [
         "experiments/crown_airlift/inputs.json",
         "experiments/crown_airlift/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p174_A2",
@@ -3136,7 +3369,8 @@
       "evidence": [
         "experiments/crown_airlift/inputs.json",
         "experiments/crown_airlift/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p174_A3",
@@ -3151,7 +3385,8 @@
       "evidence": [
         "experiments/crown_airlift/inputs.json",
         "experiments/crown_airlift/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p102_A",
@@ -3166,7 +3401,8 @@
       "evidence": [
         "experiments/zitag_purchase_orders/inputs.json",
         "experiments/zitag_purchase_orders/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p103_D",
@@ -3181,7 +3417,8 @@
       "evidence": [
         "experiments/zitag_purchase_orders/inputs.json",
         "experiments/zitag_purchase_orders/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p106_B",
@@ -3196,7 +3433,8 @@
       "evidence": [
         "experiments/zitag_purchase_orders/inputs.json",
         "experiments/zitag_purchase_orders/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p103_B1",
@@ -3211,7 +3449,8 @@
       "evidence": [
         "experiments/zitag_purchase_orders/inputs.json",
         "experiments/zitag_purchase_orders/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p103_B2",
@@ -3226,7 +3465,8 @@
       "evidence": [
         "experiments/zitag_purchase_orders/inputs.json",
         "experiments/zitag_purchase_orders/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p129_B1",
@@ -3241,7 +3481,8 @@
       "evidence": [
         "experiments/military_allowances/inputs.json",
         "experiments/military_allowances/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p133_A2",
@@ -3256,7 +3497,8 @@
       "evidence": [
         "experiments/military_allowances/inputs.json",
         "experiments/military_allowances/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p133_A3",
@@ -3264,14 +3506,15 @@
       "printed_page": 133,
       "source_section": "A3",
       "subject": "Promote communal purchasing and German dining facilities",
-      "status": "Direct complete243-letter reading; unchanged source ciphertext",
+      "status": "Direct complete 243-position reading; unchanged source ciphertext",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; prior unreviewed OCR candidates distinguished",
       "path": "cases/finance/military_allowances.md#p133-a3",
       "source_reviewed": true,
       "evidence": [
         "experiments/military_allowances/inputs.json",
         "experiments/military_allowances/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p134_A4",
@@ -3286,7 +3529,8 @@
       "evidence": [
         "experiments/military_allowances/inputs.json",
         "experiments/military_allowances/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p92_B1",
@@ -3301,7 +3545,8 @@
       "evidence": [
         "experiments/orient_intelligence/inputs.json",
         "experiments/orient_intelligence/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p93_A2",
@@ -3316,7 +3561,8 @@
       "evidence": [
         "experiments/orient_intelligence/inputs.json",
         "experiments/orient_intelligence/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p93_A3",
@@ -3331,7 +3577,8 @@
       "evidence": [
         "experiments/orient_intelligence/inputs.json",
         "experiments/orient_intelligence/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p93_A4",
@@ -3346,7 +3593,8 @@
       "evidence": [
         "experiments/orient_intelligence/inputs.json",
         "experiments/orient_intelligence/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p94_A5",
@@ -3361,7 +3609,8 @@
       "evidence": [
         "experiments/orient_intelligence/inputs.json",
         "experiments/orient_intelligence/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p94_A6",
@@ -3376,7 +3625,8 @@
       "evidence": [
         "experiments/orient_intelligence/inputs.json",
         "experiments/orient_intelligence/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p222_A1",
@@ -3391,7 +3641,8 @@
       "evidence": [
         "experiments/liman_troop_reports/inputs.json",
         "experiments/liman_troop_reports/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p222_A2",
@@ -3406,7 +3657,8 @@
       "evidence": [
         "experiments/liman_troop_reports/inputs.json",
         "experiments/liman_troop_reports/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p202_B1",
@@ -3421,7 +3673,8 @@
       "evidence": [
         "experiments/military_intendant_remit/inputs.json",
         "experiments/military_intendant_remit/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p202_B2",
@@ -3436,7 +3689,8 @@
       "evidence": [
         "experiments/military_intendant_remit/inputs.json",
         "experiments/military_intendant_remit/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p202_B3",
@@ -3451,7 +3705,8 @@
       "evidence": [
         "experiments/military_intendant_remit/inputs.json",
         "experiments/military_intendant_remit/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p202_B4",
@@ -3466,7 +3721,8 @@
       "evidence": [
         "experiments/military_intendant_remit/inputs.json",
         "experiments/military_intendant_remit/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p228_B1",
@@ -3481,7 +3737,8 @@
       "evidence": [
         "experiments/neuhof_demobilization/inputs.json",
         "experiments/neuhof_demobilization/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p228_B2",
@@ -3497,7 +3754,8 @@
         "experiments/p228_demobilization_fragment/inputs.json",
         "experiments/p228_demobilization_fragment/certificates.json",
         "experiments/p228_demobilization_fragment/reference_witness.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p228_B3",
@@ -3512,7 +3770,8 @@
       "evidence": [
         "experiments/neuhof_demobilization/inputs.json",
         "experiments/neuhof_demobilization/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p130_A1",
@@ -3527,7 +3786,8 @@
       "evidence": [
         "experiments/turkish_mission_recall/inputs.json",
         "experiments/turkish_mission_recall/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p130_A2",
@@ -3542,7 +3802,8 @@
       "evidence": [
         "experiments/turkish_mission_recall/inputs.json",
         "experiments/turkish_mission_recall/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p131_A3",
@@ -3557,7 +3818,8 @@
       "evidence": [
         "experiments/turkish_mission_recall/inputs.json",
         "experiments/turkish_mission_recall/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p131_A4",
@@ -3572,7 +3834,8 @@
       "evidence": [
         "experiments/turkish_mission_recall/inputs.json",
         "experiments/turkish_mission_recall/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p184_B1",
@@ -3587,7 +3850,8 @@
       "evidence": [
         "experiments/hungary_transport_warning/inputs.json",
         "experiments/hungary_transport_warning/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p184_B2",
@@ -3602,7 +3866,8 @@
       "evidence": [
         "experiments/hungary_transport_warning/inputs.json",
         "experiments/hungary_transport_warning/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p184_B3",
@@ -3617,7 +3882,8 @@
       "evidence": [
         "experiments/hungary_transport_warning/inputs.json",
         "experiments/hungary_transport_warning/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p184_C1",
@@ -3632,7 +3898,8 @@
       "evidence": [
         "experiments/hungary_transport_warning/inputs.json",
         "experiments/hungary_transport_warning/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p184_C2",
@@ -3647,7 +3914,8 @@
       "evidence": [
         "experiments/hungary_transport_warning/inputs.json",
         "experiments/hungary_transport_warning/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p184_C3",
@@ -3662,7 +3930,8 @@
       "evidence": [
         "experiments/hungary_transport_warning/inputs.json",
         "experiments/hungary_transport_warning/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p60_A1",
@@ -3677,7 +3946,8 @@
       "evidence": [
         "experiments/september_radio_procedure/inputs.json",
         "experiments/september_radio_procedure/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p60_A2",
@@ -3692,7 +3962,8 @@
       "evidence": [
         "experiments/september_radio_procedure/inputs.json",
         "experiments/september_radio_procedure/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p60_B",
@@ -3707,7 +3978,8 @@
       "evidence": [
         "experiments/september_radio_procedure/inputs.json",
         "experiments/september_radio_procedure/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p229_A1",
@@ -3722,7 +3994,8 @@
       "evidence": [
         "experiments/late_transport_dispatches/inputs.json",
         "experiments/late_transport_dispatches/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p229_A2",
@@ -3737,7 +4010,8 @@
       "evidence": [
         "experiments/late_transport_dispatches/inputs.json",
         "experiments/late_transport_dispatches/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p229_A3",
@@ -3752,7 +4026,8 @@
       "evidence": [
         "experiments/late_transport_dispatches/inputs.json",
         "experiments/late_transport_dispatches/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p229_B1",
@@ -3767,7 +4042,8 @@
       "evidence": [
         "experiments/late_transport_dispatches/inputs.json",
         "experiments/late_transport_dispatches/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p229_B2",
@@ -3782,7 +4058,8 @@
       "evidence": [
         "experiments/late_transport_dispatches/inputs.json",
         "experiments/late_transport_dispatches/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p229_C",
@@ -3797,7 +4074,8 @@
       "evidence": [
         "experiments/late_transport_dispatches/inputs.json",
         "experiments/late_transport_dispatches/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p125_A1",
@@ -3812,7 +4090,8 @@
       "evidence": [
         "experiments/armistice_transit_planning/inputs.json",
         "experiments/armistice_transit_planning/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p125_A2",
@@ -3827,7 +4106,8 @@
       "evidence": [
         "experiments/armistice_transit_planning/inputs.json",
         "experiments/armistice_transit_planning/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p125_A3",
@@ -3842,7 +4122,8 @@
       "evidence": [
         "experiments/armistice_transit_planning/inputs.json",
         "experiments/armistice_transit_planning/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p125_A4",
@@ -3857,7 +4138,8 @@
       "evidence": [
         "experiments/armistice_transit_planning/inputs.json",
         "experiments/armistice_transit_planning/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p126_A5",
@@ -3873,7 +4155,8 @@
         "experiments/armistice_transit_planning/inputs.json",
         "experiments/armistice_transit_planning/certificates.json",
         "experiments/armistice_transit_planning/geometry_audit.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p126_A6",
@@ -3888,7 +4171,8 @@
       "evidence": [
         "experiments/armistice_transit_planning/inputs.json",
         "experiments/armistice_transit_planning/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p126_B",
@@ -3903,7 +4187,8 @@
       "evidence": [
         "experiments/armistice_transit_planning/inputs.json",
         "experiments/armistice_transit_planning/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p80_A",
@@ -3918,7 +4203,8 @@
       "evidence": [
         "experiments/deutzitag_dispatch_inquiries/inputs.json",
         "experiments/deutzitag_dispatch_inquiries/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p81_A",
@@ -3933,7 +4219,8 @@
       "evidence": [
         "experiments/deutzitag_dispatch_inquiries/inputs.json",
         "experiments/deutzitag_dispatch_inquiries/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p81_B",
@@ -3948,7 +4235,8 @@
       "evidence": [
         "experiments/deutzitag_dispatch_inquiries/inputs.json",
         "experiments/deutzitag_dispatch_inquiries/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p81_C",
@@ -3963,7 +4251,8 @@
       "evidence": [
         "experiments/deutzitag_dispatch_inquiries/inputs.json",
         "experiments/deutzitag_dispatch_inquiries/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p80_B1",
@@ -3978,7 +4267,8 @@
       "evidence": [
         "experiments/constanza_radio_connections/inputs.json",
         "experiments/constanza_radio_connections/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p80_B2",
@@ -3993,7 +4283,8 @@
       "evidence": [
         "experiments/constanza_radio_connections/inputs.json",
         "experiments/constanza_radio_connections/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p82_A1",
@@ -4008,7 +4299,8 @@
       "evidence": [
         "experiments/constanza_radio_connections/inputs.json",
         "experiments/constanza_radio_connections/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p82_A2",
@@ -4023,7 +4315,8 @@
       "evidence": [
         "experiments/constanza_radio_connections/inputs.json",
         "experiments/constanza_radio_connections/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p82_A3",
@@ -4038,7 +4331,8 @@
       "evidence": [
         "experiments/constanza_radio_connections/inputs.json",
         "experiments/constanza_radio_connections/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p82_A4",
@@ -4053,7 +4347,8 @@
       "evidence": [
         "experiments/constanza_radio_connections/inputs.json",
         "experiments/constanza_radio_connections/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p220_C1",
@@ -4068,7 +4363,8 @@
       "evidence": [
         "experiments/mackensen_armistice_appeal/inputs.json",
         "experiments/mackensen_armistice_appeal/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p220_C2",
@@ -4083,7 +4379,8 @@
       "evidence": [
         "experiments/mackensen_armistice_appeal/inputs.json",
         "experiments/mackensen_armistice_appeal/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p220_C3",
@@ -4098,7 +4395,8 @@
       "evidence": [
         "experiments/mackensen_armistice_appeal/inputs.json",
         "experiments/mackensen_armistice_appeal/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p220_C4",
@@ -4113,7 +4411,8 @@
       "evidence": [
         "experiments/mackensen_armistice_appeal/inputs.json",
         "experiments/mackensen_armistice_appeal/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p221_A5",
@@ -4128,7 +4427,8 @@
       "evidence": [
         "experiments/mackensen_armistice_appeal/inputs.json",
         "experiments/mackensen_armistice_appeal/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p221_A6",
@@ -4143,7 +4443,8 @@
       "evidence": [
         "experiments/mackensen_armistice_appeal/inputs.json",
         "experiments/mackensen_armistice_appeal/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p171_B1",
@@ -4158,7 +4459,8 @@
       "evidence": [
         "experiments/newspaper_dispatch/inputs.json",
         "experiments/newspaper_dispatch/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p171_B2",
@@ -4173,7 +4475,8 @@
       "evidence": [
         "experiments/newspaper_dispatch/inputs.json",
         "experiments/newspaper_dispatch/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p171_A2",
@@ -4188,7 +4491,8 @@
       "evidence": [
         "experiments/ruble_rate_companions/inputs.json",
         "experiments/ruble_rate_companions/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p171_A3",
@@ -4203,7 +4507,8 @@
       "evidence": [
         "experiments/ruble_rate_companions/inputs.json",
         "experiments/ruble_rate_companions/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p171_C",
@@ -4218,7 +4523,8 @@
       "evidence": [
         "experiments/namur_order_witnesses/inputs.json",
         "experiments/namur_order_witnesses/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p172_E",
@@ -4233,7 +4539,8 @@
       "evidence": [
         "experiments/namur_order_witnesses/inputs.json",
         "experiments/namur_order_witnesses/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p212_A1",
@@ -4248,7 +4555,8 @@
       "evidence": [
         "experiments/medical_return_transports/inputs.json",
         "experiments/medical_return_transports/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p212_A3",
@@ -4263,7 +4571,8 @@
       "evidence": [
         "experiments/medical_return_transports/inputs.json",
         "experiments/medical_return_transports/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p212_A5",
@@ -4278,7 +4587,8 @@
       "evidence": [
         "experiments/medical_return_transports/inputs.json",
         "experiments/medical_return_transports/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p213_A6",
@@ -4293,7 +4603,8 @@
       "evidence": [
         "experiments/medical_return_transports/inputs.json",
         "experiments/medical_return_transports/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p213_A7",
@@ -4308,7 +4619,8 @@
       "evidence": [
         "experiments/medical_return_transports/inputs.json",
         "experiments/medical_return_transports/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p213_A1",
@@ -4323,7 +4635,8 @@
       "evidence": [
         "experiments/reval_steamer_notice/inputs.json",
         "experiments/reval_steamer_notice/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p213_A2",
@@ -4338,7 +4651,8 @@
       "evidence": [
         "experiments/reval_steamer_notice/inputs.json",
         "experiments/reval_steamer_notice/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p213_A3",
@@ -4353,7 +4667,8 @@
       "evidence": [
         "experiments/reval_steamer_notice/inputs.json",
         "experiments/reval_steamer_notice/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p114_A1",
@@ -4368,7 +4683,8 @@
       "evidence": [
         "experiments/mackensen_withdrawal_report/inputs.json",
         "experiments/mackensen_withdrawal_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p113_A3",
@@ -4383,7 +4699,8 @@
       "evidence": [
         "experiments/mackensen_withdrawal_report/inputs.json",
         "experiments/mackensen_withdrawal_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p114_A4",
@@ -4398,7 +4715,8 @@
       "evidence": [
         "experiments/mackensen_withdrawal_report/inputs.json",
         "experiments/mackensen_withdrawal_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p115_A5",
@@ -4413,7 +4731,8 @@
       "evidence": [
         "experiments/mackensen_withdrawal_report/inputs.json",
         "experiments/mackensen_withdrawal_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p115_A6",
@@ -4428,7 +4747,8 @@
       "evidence": [
         "experiments/mackensen_withdrawal_report/inputs.json",
         "experiments/mackensen_withdrawal_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p115_A7",
@@ -4443,7 +4763,8 @@
       "evidence": [
         "experiments/mackensen_withdrawal_report/inputs.json",
         "experiments/mackensen_withdrawal_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p115_A8",
@@ -4458,7 +4779,8 @@
       "evidence": [
         "experiments/mackensen_withdrawal_report/inputs.json",
         "experiments/mackensen_withdrawal_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p113_B9",
@@ -4473,7 +4795,8 @@
       "evidence": [
         "experiments/mackensen_withdrawal_report/inputs.json",
         "experiments/mackensen_withdrawal_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p116_A10",
@@ -4488,7 +4811,8 @@
       "evidence": [
         "experiments/mackensen_withdrawal_report/inputs.json",
         "experiments/mackensen_withdrawal_report/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p116_A11",
@@ -4503,7 +4827,8 @@
       "evidence": [
         "experiments/mackensen_withdrawal_report/inputs.json",
         "experiments/mackensen_withdrawal_report/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p116_A12",
@@ -4518,7 +4843,8 @@
       "evidence": [
         "experiments/mackensen_withdrawal_report/inputs.json",
         "experiments/mackensen_withdrawal_report/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p116_A13",
@@ -4536,7 +4862,8 @@
         "experiments/p116_optional_route_fragment/inputs.json",
         "experiments/p116_optional_route_fragment/approval_extension.json",
         "experiments/p116_optional_route_fragment/footer_extension.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p132_A",
@@ -4551,23 +4878,8 @@
       "evidence": [
         "experiments/november_radio_service/inputs.json",
         "experiments/november_radio_service/certificates.json"
-      ]
-    },
-    {
-      "id": "p132_B",
-      "label": "p132 B",
-      "printed_page": 132,
-      "source_section": "B",
-      "subject": "Eilvese repetition order: fourth period in fifth, preceded by five minutes of VVV",
-      "status": "75/77 fixed labels under a conditional extra-interim-V model; four equivalent positions; 3 substitutions and 2 source-erasure fills",
-      "credit": "icekylinx and GPT-6 Astra Pro (2026); prior published keys and earlier OCR-derived candidates credited separately",
-      "path": "cases/radio/p132_radio_service.md",
-      "source_reviewed": true,
-      "evidence": [
-        "experiments/november_radio_service/inputs.json",
-        "experiments/november_radio_service/certificates.json",
-        "experiments/november_radio_service/geometry_audit.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p132_C",
@@ -4582,7 +4894,8 @@
       "evidence": [
         "experiments/november_radio_service/inputs.json",
         "experiments/november_radio_service/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p177_A",
@@ -4597,7 +4910,8 @@
       "evidence": [
         "experiments/november_radio_service/inputs.json",
         "experiments/november_radio_service/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p212_A2",
@@ -4612,7 +4926,8 @@
       "evidence": [
         "experiments/p212_p218_crosscopy/inputs.json",
         "experiments/p212_p218_crosscopy/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p179_A",
@@ -4627,7 +4942,8 @@
       "evidence": [
         "experiments/november_armistice_orders/inputs.json",
         "experiments/november_armistice_orders/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p179_B",
@@ -4642,7 +4958,8 @@
       "evidence": [
         "experiments/november_armistice_orders/inputs.json",
         "experiments/november_armistice_orders/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p179_C",
@@ -4657,7 +4974,8 @@
       "evidence": [
         "experiments/november_armistice_orders/inputs.json",
         "experiments/november_armistice_orders/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p179_D1",
@@ -4672,7 +4990,8 @@
       "evidence": [
         "experiments/november_armistice_orders/inputs.json",
         "experiments/november_armistice_orders/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p179_D2",
@@ -4687,7 +5006,8 @@
       "evidence": [
         "experiments/november_armistice_orders/inputs.json",
         "experiments/november_armistice_orders/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p128_A1",
@@ -4702,7 +5022,8 @@
       "evidence": [
         "experiments/radio_telegram_priority/inputs.json",
         "experiments/radio_telegram_priority/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p128_A2",
@@ -4717,7 +5038,8 @@
       "evidence": [
         "experiments/radio_telegram_priority/inputs.json",
         "experiments/radio_telegram_priority/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p83_B",
@@ -4732,7 +5054,8 @@
       "evidence": [
         "experiments/formation_dissolution/inputs.json",
         "experiments/formation_dissolution/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p98_A1",
@@ -4747,7 +5070,8 @@
       "evidence": [
         "experiments/black_sea_disembarkation/inputs.json",
         "experiments/black_sea_disembarkation/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p98_A2",
@@ -4762,7 +5086,8 @@
       "evidence": [
         "experiments/black_sea_disembarkation/inputs.json",
         "experiments/black_sea_disembarkation/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p98_B",
@@ -4777,7 +5102,8 @@
       "evidence": [
         "experiments/black_sea_disembarkation/inputs.json",
         "experiments/black_sea_disembarkation/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p216_B1",
@@ -4792,7 +5118,8 @@
       "evidence": [
         "experiments/hermannstadt_cash_transport/inputs.json",
         "experiments/hermannstadt_cash_transport/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p216_B2",
@@ -4807,7 +5134,8 @@
       "evidence": [
         "experiments/hermannstadt_cash_transport/inputs.json",
         "experiments/hermannstadt_cash_transport/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p150_B1",
@@ -4822,7 +5150,8 @@
       "evidence": [
         "experiments/wallachia_withdrawal_preparations/inputs.json",
         "experiments/wallachia_withdrawal_preparations/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p150_B2",
@@ -4837,7 +5166,8 @@
       "evidence": [
         "experiments/wallachia_withdrawal_preparations/inputs.json",
         "experiments/wallachia_withdrawal_preparations/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p150_B3",
@@ -4852,7 +5182,8 @@
       "evidence": [
         "experiments/wallachia_withdrawal_preparations/inputs.json",
         "experiments/wallachia_withdrawal_preparations/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p150_B4",
@@ -4867,7 +5198,8 @@
       "evidence": [
         "experiments/wallachia_withdrawal_preparations/inputs.json",
         "experiments/wallachia_withdrawal_preparations/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p150_B5",
@@ -4882,7 +5214,8 @@
       "evidence": [
         "experiments/wallachia_withdrawal_preparations/inputs.json",
         "experiments/wallachia_withdrawal_preparations/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p157_B1",
@@ -4897,7 +5230,8 @@
       "evidence": [
         "experiments/apparatus_sale_request/inputs.json",
         "experiments/apparatus_sale_request/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p157_B2",
@@ -4912,7 +5246,8 @@
       "evidence": [
         "experiments/apparatus_sale_request/inputs.json",
         "experiments/apparatus_sale_request/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p100_B",
@@ -4927,7 +5262,8 @@
       "evidence": [
         "experiments/radio_contacts_and_keys/inputs.json",
         "experiments/radio_contacts_and_keys/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p100_C",
@@ -4942,7 +5278,8 @@
       "evidence": [
         "experiments/radio_contacts_and_keys/inputs.json",
         "experiments/radio_contacts_and_keys/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p137_D",
@@ -4957,7 +5294,8 @@
       "evidence": [
         "experiments/radio_contacts_and_keys/inputs.json",
         "experiments/radio_contacts_and_keys/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p142_A",
@@ -4972,7 +5310,8 @@
       "evidence": [
         "experiments/radio_contacts_and_keys/inputs.json",
         "experiments/radio_contacts_and_keys/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p142_B",
@@ -4987,7 +5326,8 @@
       "evidence": [
         "experiments/radio_contacts_and_keys/inputs.json",
         "experiments/radio_contacts_and_keys/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p142_C",
@@ -5002,7 +5342,8 @@
       "evidence": [
         "experiments/radio_contacts_and_keys/inputs.json",
         "experiments/radio_contacts_and_keys/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p150_A2",
@@ -5017,7 +5358,8 @@
       "evidence": [
         "experiments/radio_contacts_and_keys/inputs.json",
         "experiments/radio_contacts_and_keys/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p216_A1",
@@ -5032,7 +5374,8 @@
       "evidence": [
         "experiments/hermannstadt_radio_report/inputs.json",
         "experiments/hermannstadt_radio_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p216_A2",
@@ -5047,7 +5390,8 @@
       "evidence": [
         "experiments/hermannstadt_radio_report/inputs.json",
         "experiments/hermannstadt_radio_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p216_A3",
@@ -5062,7 +5406,8 @@
       "evidence": [
         "experiments/hermannstadt_radio_report/inputs.json",
         "experiments/hermannstadt_radio_report/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p216_A4",
@@ -5077,7 +5422,8 @@
       "evidence": [
         "experiments/hermannstadt_radio_report/inputs.json",
         "experiments/hermannstadt_radio_report/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p161_C1",
@@ -5092,7 +5438,8 @@
       "evidence": [
         "experiments/military_mission_recalls/inputs.json",
         "experiments/military_mission_recalls/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p161_C2",
@@ -5107,7 +5454,8 @@
       "evidence": [
         "experiments/military_mission_recalls/inputs.json",
         "experiments/military_mission_recalls/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p161_D1",
@@ -5122,7 +5470,8 @@
       "evidence": [
         "experiments/military_mission_recalls/inputs.json",
         "experiments/military_mission_recalls/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p161_D2",
@@ -5137,7 +5486,8 @@
       "evidence": [
         "experiments/military_mission_recalls/inputs.json",
         "experiments/military_mission_recalls/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p147_C1",
@@ -5152,7 +5502,8 @@
       "evidence": [
         "experiments/constantinople_address_parts/inputs.json",
         "experiments/constantinople_address_parts/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p148_B1",
@@ -5167,7 +5518,8 @@
       "evidence": [
         "experiments/constantinople_address_parts/inputs.json",
         "experiments/constantinople_address_parts/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p156_C1",
@@ -5182,7 +5534,8 @@
       "evidence": [
         "experiments/constantinople_address_parts/inputs.json",
         "experiments/constantinople_address_parts/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p138_B",
@@ -5198,7 +5551,8 @@
         "experiments/bidirectional_deciphering/inputs.json",
         "experiments/bidirectional_deciphering/certificates.json",
         "experiments/bidirectional_deciphering/search/original_phase_screen.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p137_B4",
@@ -5213,7 +5567,8 @@
       "evidence": [
         "experiments/retrieved_copy_editions/inputs.json",
         "experiments/retrieved_copy_editions/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p137_C",
@@ -5228,7 +5583,8 @@
       "evidence": [
         "experiments/retrieved_copy_editions/inputs.json",
         "experiments/retrieved_copy_editions/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p195_A2",
@@ -5243,7 +5599,8 @@
       "evidence": [
         "experiments/retrieved_copy_editions/inputs.json",
         "experiments/retrieved_copy_editions/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p79_A1",
@@ -5258,7 +5615,8 @@
       "evidence": [
         "experiments/palestine_medical_dissolution/inputs.json",
         "experiments/palestine_medical_dissolution/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p79_A2",
@@ -5273,7 +5631,8 @@
       "evidence": [
         "experiments/palestine_medical_dissolution/inputs.json",
         "experiments/palestine_medical_dissolution/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p166_B1",
@@ -5288,7 +5647,8 @@
       "evidence": [
         "experiments/newspaper_dispatch_witnesses/inputs.json",
         "experiments/newspaper_dispatch_witnesses/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p166_B2",
@@ -5303,7 +5663,8 @@
       "evidence": [
         "experiments/newspaper_dispatch_witnesses/inputs.json",
         "experiments/newspaper_dispatch_witnesses/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p86_A",
@@ -5318,7 +5679,8 @@
       "evidence": [
         "experiments/inventory_and_medical_return/inputs.json",
         "experiments/inventory_and_medical_return/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p104_C1",
@@ -5333,7 +5695,8 @@
       "evidence": [
         "experiments/inventory_and_medical_return/inputs.json",
         "experiments/inventory_and_medical_return/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p104_C2",
@@ -5348,7 +5711,8 @@
       "evidence": [
         "experiments/inventory_and_medical_return/inputs.json",
         "experiments/inventory_and_medical_return/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p128_B1",
@@ -5363,7 +5727,8 @@
       "evidence": [
         "experiments/transylvania_situation_report/inputs.json",
         "experiments/transylvania_situation_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p129_A7",
@@ -5378,7 +5743,8 @@
       "evidence": [
         "experiments/transylvania_situation_report/inputs.json",
         "experiments/transylvania_situation_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p129_A8",
@@ -5393,7 +5759,8 @@
       "evidence": [
         "experiments/transylvania_situation_report/inputs.json",
         "experiments/transylvania_situation_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p137_A4",
@@ -5408,7 +5775,8 @@
       "evidence": [
         "experiments/transylvania_situation_report/inputs.json",
         "experiments/transylvania_situation_report/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p137_A5",
@@ -5425,7 +5793,8 @@
         "experiments/transylvania_situation_report/certificates.json",
         "experiments/p137_governing_clause/inputs.json",
         "experiments/p137_governing_clause/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p137_A6",
@@ -5440,7 +5809,8 @@
       "evidence": [
         "experiments/p137_publicity_fragment/inputs.json",
         "experiments/p137_publicity_fragment/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p188_A",
@@ -5455,7 +5825,8 @@
       "evidence": [
         "experiments/armistice_provisions_requests/inputs.json",
         "experiments/armistice_provisions_requests/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p188_B2",
@@ -5470,7 +5841,8 @@
       "evidence": [
         "experiments/armistice_provisions_requests/inputs.json",
         "experiments/armistice_provisions_requests/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p188_C1",
@@ -5485,7 +5857,8 @@
       "evidence": [
         "experiments/armistice_provisions_requests/inputs.json",
         "experiments/armistice_provisions_requests/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p209_A1",
@@ -5500,7 +5873,8 @@
       "evidence": [
         "experiments/transport_and_disarmament_orders/inputs.json",
         "experiments/transport_and_disarmament_orders/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p209_B1",
@@ -5515,7 +5889,8 @@
       "evidence": [
         "experiments/transport_and_disarmament_orders/inputs.json",
         "experiments/transport_and_disarmament_orders/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p209_B2",
@@ -5530,7 +5905,8 @@
       "evidence": [
         "experiments/transport_and_disarmament_orders/inputs.json",
         "experiments/transport_and_disarmament_orders/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p209_C1",
@@ -5545,7 +5921,8 @@
       "evidence": [
         "experiments/transport_and_disarmament_orders/inputs.json",
         "experiments/transport_and_disarmament_orders/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p209_C2",
@@ -5560,7 +5937,8 @@
       "evidence": [
         "experiments/transport_and_disarmament_orders/inputs.json",
         "experiments/transport_and_disarmament_orders/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p207_A1",
@@ -5575,7 +5953,8 @@
       "evidence": [
         "experiments/repatriation_orders/inputs.json",
         "experiments/repatriation_orders/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p207_A2",
@@ -5590,7 +5969,8 @@
       "evidence": [
         "experiments/repatriation_orders/inputs.json",
         "experiments/repatriation_orders/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p207_B",
@@ -5605,7 +5985,8 @@
       "evidence": [
         "experiments/repatriation_orders/inputs.json",
         "experiments/repatriation_orders/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p207_C1",
@@ -5620,7 +6001,8 @@
       "evidence": [
         "experiments/repatriation_orders/inputs.json",
         "experiments/repatriation_orders/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p207_C2",
@@ -5635,7 +6017,8 @@
       "evidence": [
         "experiments/repatriation_orders/inputs.json",
         "experiments/repatriation_orders/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p208_A1",
@@ -5650,7 +6033,8 @@
       "evidence": [
         "experiments/repatriation_orders/inputs.json",
         "experiments/repatriation_orders/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p208_A2",
@@ -5665,7 +6049,8 @@
       "evidence": [
         "experiments/repatriation_orders/inputs.json",
         "experiments/repatriation_orders/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p175_A1",
@@ -5680,7 +6065,8 @@
       "evidence": [
         "experiments/nov10_delegates_and_field_report/inputs.json",
         "experiments/nov10_delegates_and_field_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p175_A2",
@@ -5695,7 +6081,8 @@
       "evidence": [
         "experiments/nov10_delegates_and_field_report/inputs.json",
         "experiments/nov10_delegates_and_field_report/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p176_B2",
@@ -5710,7 +6097,8 @@
       "evidence": [
         "experiments/nov10_delegates_and_field_report/inputs.json",
         "experiments/nov10_delegates_and_field_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p176_B3",
@@ -5725,7 +6113,8 @@
       "evidence": [
         "experiments/nov10_delegates_and_field_report/inputs.json",
         "experiments/nov10_delegates_and_field_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p211_A2",
@@ -5740,7 +6129,8 @@
       "evidence": [
         "experiments/prague_route_and_situation/inputs.json",
         "experiments/prague_route_and_situation/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p211_B_upper",
@@ -5755,7 +6145,8 @@
       "evidence": [
         "experiments/prague_route_and_situation/inputs.json",
         "experiments/prague_route_and_situation/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p175_C1",
@@ -5770,7 +6161,8 @@
       "evidence": [
         "experiments/romanian_ultimatum_companions/inputs.json",
         "experiments/romanian_ultimatum_companions/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p175_C2",
@@ -5785,7 +6177,8 @@
       "evidence": [
         "experiments/romanian_ultimatum_companions/inputs.json",
         "experiments/romanian_ultimatum_companions/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p176_A5",
@@ -5802,7 +6195,8 @@
         "experiments/romanian_ultimatum_companions/certificates.json",
         "experiments/p176_verpflegs_joint_completion/inputs.json",
         "experiments/p176_verpflegs_joint_completion/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p110_A2",
@@ -5817,7 +6211,8 @@
       "evidence": [
         "experiments/nov3_radio_and_pioneer/inputs.json",
         "experiments/nov3_radio_and_pioneer/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p110_B",
@@ -5832,7 +6227,8 @@
       "evidence": [
         "experiments/nov3_radio_and_pioneer/inputs.json",
         "experiments/nov3_radio_and_pioneer/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p110_C",
@@ -5847,7 +6243,8 @@
       "evidence": [
         "experiments/nov3_radio_and_pioneer/inputs.json",
         "experiments/nov3_radio_and_pioneer/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p175_C3",
@@ -5862,7 +6259,8 @@
       "evidence": [
         "experiments/p175_c3_gap_followup/edition_inputs.json",
         "experiments/p175_c3_gap_followup/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p175_B2",
@@ -5877,7 +6275,8 @@
       "evidence": [
         "experiments/hauptwechselamt_accounting/inputs.json",
         "experiments/hauptwechselamt_accounting/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p64_A1",
@@ -5892,7 +6291,8 @@
       "evidence": [
         "experiments/p64_oil_and_radio/inputs.json",
         "experiments/p64_oil_and_radio/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p64_A2",
@@ -5907,7 +6307,8 @@
       "evidence": [
         "experiments/p64_oil_and_radio/inputs.json",
         "experiments/p64_oil_and_radio/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p64_B",
@@ -5922,7 +6323,8 @@
       "evidence": [
         "experiments/p64_oil_and_radio/inputs.json",
         "experiments/p64_oil_and_radio/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p74_A",
@@ -5937,7 +6339,8 @@
       "evidence": [
         "experiments/late_october_radio_and_materials/inputs.json",
         "experiments/late_october_radio_and_materials/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p74_B",
@@ -5952,7 +6355,8 @@
       "evidence": [
         "experiments/late_october_radio_and_materials/inputs.json",
         "experiments/late_october_radio_and_materials/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p74_C1",
@@ -5967,7 +6371,8 @@
       "evidence": [
         "experiments/late_october_radio_and_materials/inputs.json",
         "experiments/late_october_radio_and_materials/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p74_C2",
@@ -5982,7 +6387,8 @@
       "evidence": [
         "experiments/late_october_radio_and_materials/inputs.json",
         "experiments/late_october_radio_and_materials/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p75_A3",
@@ -5997,7 +6403,8 @@
       "evidence": [
         "experiments/late_october_radio_and_materials/inputs.json",
         "experiments/late_october_radio_and_materials/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p75_B1",
@@ -6012,7 +6419,8 @@
       "evidence": [
         "experiments/late_october_radio_and_materials/inputs.json",
         "experiments/late_october_radio_and_materials/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p75_B2",
@@ -6027,7 +6435,8 @@
       "evidence": [
         "experiments/late_october_radio_and_materials/inputs.json",
         "experiments/late_october_radio_and_materials/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p76_A3",
@@ -6042,7 +6451,8 @@
       "evidence": [
         "experiments/late_october_radio_and_materials/inputs.json",
         "experiments/late_october_radio_and_materials/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p117_A",
@@ -6057,7 +6467,8 @@
       "evidence": [
         "experiments/nov3_medical_radio_withdrawal/inputs.json",
         "experiments/nov3_medical_radio_withdrawal/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p117_B",
@@ -6072,7 +6483,8 @@
       "evidence": [
         "experiments/nov3_medical_radio_withdrawal/inputs.json",
         "experiments/nov3_medical_radio_withdrawal/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p117_C3",
@@ -6087,7 +6499,8 @@
       "evidence": [
         "experiments/nov3_medical_radio_withdrawal/inputs.json",
         "experiments/nov3_medical_radio_withdrawal/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p117_C4",
@@ -6102,7 +6515,8 @@
       "evidence": [
         "experiments/nov3_medical_radio_withdrawal/inputs.json",
         "experiments/nov3_medical_radio_withdrawal/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p117_D",
@@ -6117,7 +6531,8 @@
       "evidence": [
         "experiments/nov3_medical_radio_withdrawal/inputs.json",
         "experiments/nov3_medical_radio_withdrawal/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p58_B",
@@ -6132,7 +6547,8 @@
       "evidence": [
         "experiments/september_receipt_and_front_inquiry/inputs.json",
         "experiments/september_receipt_and_front_inquiry/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p59_B",
@@ -6147,7 +6563,8 @@
       "evidence": [
         "experiments/september_receipt_and_front_inquiry/inputs.json",
         "experiments/september_receipt_and_front_inquiry/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p97_A",
@@ -6162,7 +6579,8 @@
       "evidence": [
         "experiments/hungary_connection_and_supplies/inputs.json",
         "experiments/hungary_connection_and_supplies/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p97_B",
@@ -6177,7 +6595,8 @@
       "evidence": [
         "experiments/hungary_connection_and_supplies/inputs.json",
         "experiments/hungary_connection_and_supplies/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p97_C",
@@ -6192,7 +6611,8 @@
       "evidence": [
         "experiments/hungary_connection_and_supplies/inputs.json",
         "experiments/hungary_connection_and_supplies/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p59_A2",
@@ -6207,7 +6627,8 @@
       "evidence": [
         "experiments/poti_horse_delivery/inputs.json",
         "experiments/poti_horse_delivery/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p59_A3",
@@ -6222,7 +6643,8 @@
       "evidence": [
         "experiments/poti_horse_delivery/inputs.json",
         "experiments/poti_horse_delivery/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p95_A1",
@@ -6237,7 +6659,8 @@
       "evidence": [
         "experiments/dunst_assignment/inputs.json",
         "experiments/dunst_assignment/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p95_A2",
@@ -6252,7 +6675,8 @@
       "evidence": [
         "experiments/dunst_assignment/inputs.json",
         "experiments/dunst_assignment/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p141_A1",
@@ -6267,7 +6691,8 @@
       "evidence": [
         "experiments/mecklenburg_and_seaplane_personnel/inputs.json",
         "experiments/mecklenburg_and_seaplane_personnel/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p141_A2",
@@ -6282,7 +6707,8 @@
       "evidence": [
         "experiments/mecklenburg_and_seaplane_personnel/inputs.json",
         "experiments/mecklenburg_and_seaplane_personnel/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p141_B",
@@ -6297,7 +6723,8 @@
       "evidence": [
         "experiments/mecklenburg_and_seaplane_personnel/inputs.json",
         "experiments/mecklenburg_and_seaplane_personnel/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p111_A1",
@@ -6312,7 +6739,8 @@
       "evidence": [
         "experiments/nov3_evening_and_nov4_radio/inputs.json",
         "experiments/nov3_evening_and_nov4_radio/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p112_A1",
@@ -6327,7 +6755,8 @@
       "evidence": [
         "experiments/nov3_evening_and_nov4_radio/inputs.json",
         "experiments/nov3_evening_and_nov4_radio/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p112_A2",
@@ -6342,7 +6771,8 @@
       "evidence": [
         "experiments/nov3_evening_and_nov4_radio/inputs.json",
         "experiments/nov3_evening_and_nov4_radio/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p112_A3",
@@ -6357,7 +6787,8 @@
       "evidence": [
         "experiments/nov3_evening_and_nov4_radio/inputs.json",
         "experiments/nov3_evening_and_nov4_radio/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p112_B",
@@ -6372,7 +6803,8 @@
       "evidence": [
         "experiments/nov3_evening_and_nov4_radio/inputs.json",
         "experiments/nov3_evening_and_nov4_radio/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p112_C",
@@ -6387,7 +6819,8 @@
       "evidence": [
         "experiments/nov3_evening_and_nov4_radio/inputs.json",
         "experiments/nov3_evening_and_nov4_radio/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p112_D",
@@ -6402,7 +6835,8 @@
       "evidence": [
         "experiments/nov3_evening_and_nov4_radio/inputs.json",
         "experiments/nov3_evening_and_nov4_radio/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p90_B1",
@@ -6417,7 +6851,8 @@
       "evidence": [
         "experiments/turkish_armistice_shipping_order/inputs.json",
         "experiments/turkish_armistice_shipping_order/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p91_A2",
@@ -6432,7 +6867,8 @@
       "evidence": [
         "experiments/turkish_armistice_shipping_order/inputs.json",
         "experiments/turkish_armistice_shipping_order/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p91_A3",
@@ -6447,7 +6883,8 @@
       "evidence": [
         "experiments/turkish_armistice_shipping_order/inputs.json",
         "experiments/turkish_armistice_shipping_order/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p77_A",
@@ -6462,7 +6899,8 @@
       "evidence": [
         "experiments/tiflis_repetition_request/inputs.json",
         "experiments/tiflis_repetition_request/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p78_A1",
@@ -6477,7 +6915,8 @@
       "evidence": [
         "experiments/premium_payment_stop/inputs.json",
         "experiments/premium_payment_stop/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p78_A2",
@@ -6492,7 +6931,8 @@
       "evidence": [
         "experiments/premium_payment_stop/inputs.json",
         "experiments/premium_payment_stop/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p88_A1",
@@ -6507,7 +6947,8 @@
       "evidence": [
         "experiments/caucasus_radio_transmitters/inputs.json",
         "experiments/caucasus_radio_transmitters/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p88_A2",
@@ -6522,7 +6963,8 @@
       "evidence": [
         "experiments/caucasus_radio_transmitters/inputs.json",
         "experiments/caucasus_radio_transmitters/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p88_C1",
@@ -6537,7 +6979,8 @@
       "evidence": [
         "experiments/black_sea_evacuation_routes/inputs.json",
         "experiments/black_sea_evacuation_routes/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p89_A3",
@@ -6554,7 +6997,8 @@
         "experiments/black_sea_evacuation_routes/certificates.json",
         "experiments/p89_guard_battalion_extension/inputs.json",
         "experiments/p89_guard_battalion_extension/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p89_A4",
@@ -6569,7 +7013,8 @@
       "evidence": [
         "experiments/black_sea_evacuation_routes/inputs.json",
         "experiments/black_sea_evacuation_routes/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p90_A5",
@@ -6584,7 +7029,8 @@
       "evidence": [
         "experiments/black_sea_evacuation_routes/inputs.json",
         "experiments/black_sea_evacuation_routes/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p99_A",
@@ -6599,7 +7045,8 @@
       "evidence": [
         "experiments/nov1_contact_mail_and_sava/inputs.json",
         "experiments/nov1_contact_mail_and_sava/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p99_B1",
@@ -6614,7 +7061,8 @@
       "evidence": [
         "experiments/nov1_contact_mail_and_sava/inputs.json",
         "experiments/nov1_contact_mail_and_sava/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p99_C1",
@@ -6629,7 +7077,8 @@
       "evidence": [
         "experiments/nov1_contact_mail_and_sava/inputs.json",
         "experiments/nov1_contact_mail_and_sava/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p99_C2",
@@ -6644,7 +7093,8 @@
       "evidence": [
         "experiments/nov1_contact_mail_and_sava/inputs.json",
         "experiments/nov1_contact_mail_and_sava/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p99_D",
@@ -6659,7 +7109,8 @@
       "evidence": [
         "experiments/nov1_contact_mail_and_sava/inputs.json",
         "experiments/nov1_contact_mail_and_sava/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p160_A2",
@@ -6674,7 +7125,8 @@
       "evidence": [
         "experiments/nov8_radio_keys_and_reports/inputs.json",
         "experiments/nov8_radio_keys_and_reports/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p160_B1",
@@ -6689,7 +7141,8 @@
       "evidence": [
         "experiments/nov8_radio_keys_and_reports/inputs.json",
         "experiments/nov8_radio_keys_and_reports/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p160_B2",
@@ -6704,7 +7157,8 @@
       "evidence": [
         "experiments/nov8_radio_keys_and_reports/inputs.json",
         "experiments/nov8_radio_keys_and_reports/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p160_C1",
@@ -6719,7 +7173,8 @@
       "evidence": [
         "experiments/nov8_radio_keys_and_reports/inputs.json",
         "experiments/nov8_radio_keys_and_reports/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p160_C2",
@@ -6734,7 +7189,8 @@
       "evidence": [
         "experiments/nov8_radio_keys_and_reports/inputs.json",
         "experiments/nov8_radio_keys_and_reports/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p160_D1",
@@ -6749,7 +7205,8 @@
       "evidence": [
         "experiments/nov8_radio_keys_and_reports/inputs.json",
         "experiments/nov8_radio_keys_and_reports/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p161_A2",
@@ -6764,7 +7221,8 @@
       "evidence": [
         "experiments/nov8_radio_keys_and_reports/inputs.json",
         "experiments/nov8_radio_keys_and_reports/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p108_A",
@@ -6779,7 +7237,8 @@
       "evidence": [
         "experiments/p108_naval_and_personnel/inputs.json",
         "experiments/p108_naval_and_personnel/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p108_B1",
@@ -6794,7 +7253,8 @@
       "evidence": [
         "experiments/p108_naval_and_personnel/inputs.json",
         "experiments/p108_naval_and_personnel/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p108_B2",
@@ -6809,7 +7269,8 @@
       "evidence": [
         "experiments/p108_naval_and_personnel/inputs.json",
         "experiments/p108_naval_and_personnel/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p107_B1",
@@ -6824,7 +7285,8 @@
       "evidence": [
         "experiments/p107_railway_and_dragoman/inputs.json",
         "experiments/p107_railway_and_dragoman/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p107_B2",
@@ -6839,7 +7301,8 @@
       "evidence": [
         "experiments/p107_railway_and_dragoman/inputs.json",
         "experiments/p107_railway_and_dragoman/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p107_C",
@@ -6854,7 +7317,8 @@
       "evidence": [
         "experiments/p107_railway_and_dragoman/inputs.json",
         "experiments/p107_railway_and_dragoman/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p100_D1",
@@ -6869,7 +7333,8 @@
       "evidence": [
         "experiments/nov1_mackensen_and_orient_reports/inputs.json",
         "experiments/nov1_mackensen_and_orient_reports/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p101_A2",
@@ -6884,7 +7349,8 @@
       "evidence": [
         "experiments/nov1_mackensen_and_orient_reports/inputs.json",
         "experiments/nov1_mackensen_and_orient_reports/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p101_B2",
@@ -6899,7 +7365,8 @@
       "evidence": [
         "experiments/nov1_mackensen_and_orient_reports/inputs.json",
         "experiments/nov1_mackensen_and_orient_reports/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p101_C1",
@@ -6914,7 +7381,8 @@
       "evidence": [
         "experiments/nov1_mackensen_and_orient_reports/inputs.json",
         "experiments/nov1_mackensen_and_orient_reports/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p101_D2",
@@ -6929,7 +7397,8 @@
       "evidence": [
         "experiments/nov1_mackensen_and_orient_reports/inputs.json",
         "experiments/nov1_mackensen_and_orient_reports/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p102_B1",
@@ -6944,7 +7413,8 @@
       "evidence": [
         "experiments/nov1_mackensen_and_orient_reports/inputs.json",
         "experiments/nov1_mackensen_and_orient_reports/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p102_B2",
@@ -6959,7 +7429,8 @@
       "evidence": [
         "experiments/nov1_mackensen_and_orient_reports/inputs.json",
         "experiments/nov1_mackensen_and_orient_reports/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p102_B3",
@@ -6974,7 +7445,8 @@
       "evidence": [
         "experiments/nov1_mackensen_and_orient_reports/inputs.json",
         "experiments/nov1_mackensen_and_orient_reports/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p102_C",
@@ -6989,7 +7461,8 @@
       "evidence": [
         "experiments/nov1_ammunition_and_leave/inputs.json",
         "experiments/nov1_ammunition_and_leave/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p102_D",
@@ -7004,7 +7477,8 @@
       "evidence": [
         "experiments/nov1_ammunition_and_leave/inputs.json",
         "experiments/nov1_ammunition_and_leave/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p124_A1",
@@ -7019,7 +7493,8 @@
       "evidence": [
         "experiments/hungarian_armistice_instructions/inputs.json",
         "experiments/hungarian_armistice_instructions/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p124_A2",
@@ -7034,7 +7509,8 @@
       "evidence": [
         "experiments/hungarian_armistice_instructions/inputs.json",
         "experiments/hungarian_armistice_instructions/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p124_A3",
@@ -7049,7 +7525,8 @@
       "evidence": [
         "experiments/hungarian_armistice_instructions/inputs.json",
         "experiments/hungarian_armistice_instructions/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p139_A1",
@@ -7064,7 +7541,8 @@
       "evidence": [
         "experiments/sevastopol_coded_routing/inputs.json",
         "experiments/sevastopol_coded_routing/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p139_A2",
@@ -7079,7 +7557,8 @@
       "evidence": [
         "experiments/sevastopol_coded_routing/inputs.json",
         "experiments/sevastopol_coded_routing/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p139_A3",
@@ -7094,7 +7573,8 @@
       "evidence": [
         "experiments/sevastopol_coded_routing/inputs.json",
         "experiments/sevastopol_coded_routing/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p162_B1",
@@ -7109,7 +7589,8 @@
       "evidence": [
         "experiments/nov8_map_and_boundary/inputs.json",
         "experiments/nov8_map_and_boundary/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p162_C2",
@@ -7124,7 +7605,8 @@
       "evidence": [
         "experiments/nov8_map_and_boundary/inputs.json",
         "experiments/nov8_map_and_boundary/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p162_D1",
@@ -7139,7 +7621,8 @@
       "evidence": [
         "experiments/nov8_map_and_boundary/inputs.json",
         "experiments/nov8_map_and_boundary/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p151_A1",
@@ -7154,7 +7637,8 @@
       "evidence": [
         "experiments/nov7_fragments_and_council/inputs.json",
         "experiments/nov7_fragments_and_council/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p151_A2",
@@ -7169,7 +7653,8 @@
       "evidence": [
         "experiments/nov7_fragments_and_council/inputs.json",
         "experiments/nov7_fragments_and_council/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p151_B",
@@ -7184,7 +7669,8 @@
       "evidence": [
         "experiments/nov7_fragments_and_council/inputs.json",
         "experiments/nov7_fragments_and_council/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p151_C",
@@ -7199,7 +7685,8 @@
       "evidence": [
         "experiments/nov7_fragments_and_council/inputs.json",
         "experiments/nov7_fragments_and_council/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p161_B1",
@@ -7214,7 +7701,8 @@
       "evidence": [
         "experiments/nov9_urgent_embassy_address/inputs.json",
         "experiments/nov9_urgent_embassy_address/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p157_A2",
@@ -7229,7 +7717,8 @@
       "evidence": [
         "experiments/romanian_pacification_consultation/inputs.json",
         "experiments/romanian_pacification_consultation/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p157_A3",
@@ -7244,7 +7733,8 @@
       "evidence": [
         "experiments/romanian_pacification_consultation/inputs.json",
         "experiments/romanian_pacification_consultation/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p157_A4",
@@ -7259,7 +7749,8 @@
       "evidence": [
         "experiments/romanian_pacification_consultation/inputs.json",
         "experiments/romanian_pacification_consultation/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p157_A5",
@@ -7274,7 +7765,8 @@
       "evidence": [
         "experiments/romanian_pacification_consultation/inputs.json",
         "experiments/romanian_pacification_consultation/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p121_A1",
@@ -7289,7 +7781,8 @@
       "evidence": [
         "experiments/nov4_repetition_and_connections/inputs.json",
         "experiments/nov4_repetition_and_connections/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p121_A2",
@@ -7304,7 +7797,8 @@
       "evidence": [
         "experiments/nov4_repetition_and_connections/inputs.json",
         "experiments/nov4_repetition_and_connections/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p121_B1",
@@ -7319,7 +7813,8 @@
       "evidence": [
         "experiments/nov4_repetition_and_connections/inputs.json",
         "experiments/nov4_repetition_and_connections/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p122_A2",
@@ -7334,7 +7829,8 @@
       "evidence": [
         "experiments/nov4_repetition_and_connections/inputs.json",
         "experiments/nov4_repetition_and_connections/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p122_C",
@@ -7349,7 +7845,8 @@
       "evidence": [
         "experiments/nov4_repetition_and_connections/inputs.json",
         "experiments/nov4_repetition_and_connections/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p104_A3",
@@ -7364,7 +7861,8 @@
       "evidence": [
         "experiments/nov2_acknowledgments_and_personnel/inputs.json",
         "experiments/nov2_acknowledgments_and_personnel/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p104_B",
@@ -7379,7 +7877,8 @@
       "evidence": [
         "experiments/nov2_acknowledgments_and_personnel/inputs.json",
         "experiments/nov2_acknowledgments_and_personnel/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p104_D",
@@ -7394,7 +7893,8 @@
       "evidence": [
         "experiments/nov2_acknowledgments_and_personnel/inputs.json",
         "experiments/nov2_acknowledgments_and_personnel/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p104_E3",
@@ -7409,7 +7909,8 @@
       "evidence": [
         "experiments/nov2_acknowledgments_and_personnel/inputs.json",
         "experiments/nov2_acknowledgments_and_personnel/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p105_C1",
@@ -7424,7 +7925,8 @@
       "evidence": [
         "experiments/nov2_acknowledgments_and_personnel/inputs.json",
         "experiments/nov2_acknowledgments_and_personnel/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p106_A2",
@@ -7439,7 +7941,8 @@
       "evidence": [
         "experiments/nov2_acknowledgments_and_personnel/inputs.json",
         "experiments/nov2_acknowledgments_and_personnel/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p106_A3",
@@ -7454,7 +7957,8 @@
       "evidence": [
         "experiments/nov2_acknowledgments_and_personnel/inputs.json",
         "experiments/nov2_acknowledgments_and_personnel/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p230_B",
@@ -7469,7 +7973,8 @@
       "evidence": [
         "experiments/nov30_radio_personnel/inputs.json",
         "experiments/nov30_radio_personnel/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p230_C",
@@ -7484,7 +7989,8 @@
       "evidence": [
         "experiments/nov30_radio_personnel/inputs.json",
         "experiments/nov30_radio_personnel/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p230_D",
@@ -7499,7 +8005,8 @@
       "evidence": [
         "experiments/nov30_radio_personnel/inputs.json",
         "experiments/nov30_radio_personnel/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p230_E",
@@ -7514,7 +8021,8 @@
       "evidence": [
         "experiments/nov30_radio_personnel/inputs.json",
         "experiments/nov30_radio_personnel/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p224_A1",
@@ -7529,7 +8037,8 @@
       "evidence": [
         "experiments/nov27_receiving_instructions/inputs.json",
         "experiments/nov27_receiving_instructions/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p224_A2",
@@ -7544,7 +8053,8 @@
       "evidence": [
         "experiments/nov27_receiving_instructions/inputs.json",
         "experiments/nov27_receiving_instructions/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p224_B",
@@ -7559,7 +8069,8 @@
       "evidence": [
         "experiments/nov27_receiving_instructions/inputs.json",
         "experiments/nov27_receiving_instructions/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p202_A1",
@@ -7574,7 +8085,8 @@
       "evidence": [
         "experiments/nov16_18_command_inquiries/inputs.json",
         "experiments/nov16_18_command_inquiries/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p202_A2",
@@ -7589,7 +8101,8 @@
       "evidence": [
         "experiments/nov16_18_command_inquiries/inputs.json",
         "experiments/nov16_18_command_inquiries/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p203_A2",
@@ -7604,7 +8117,8 @@
       "evidence": [
         "experiments/nov16_18_command_inquiries/inputs.json",
         "experiments/nov16_18_command_inquiries/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p203_B",
@@ -7619,7 +8133,8 @@
       "evidence": [
         "experiments/nov16_18_command_inquiries/inputs.json",
         "experiments/nov16_18_command_inquiries/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p204_B",
@@ -7634,7 +8149,8 @@
       "evidence": [
         "experiments/nov16_18_command_inquiries/inputs.json",
         "experiments/nov16_18_command_inquiries/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p204_C1",
@@ -7649,7 +8165,8 @@
       "evidence": [
         "experiments/nov16_18_command_inquiries/inputs.json",
         "experiments/nov16_18_command_inquiries/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p204_D",
@@ -7664,7 +8181,8 @@
       "evidence": [
         "experiments/nov16_18_command_inquiries/inputs.json",
         "experiments/nov16_18_command_inquiries/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p145_B1",
@@ -7679,7 +8197,8 @@
       "evidence": [
         "experiments/nov6_ringbahn_key_witnesses/inputs.json",
         "experiments/nov6_ringbahn_key_witnesses/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p145_B2",
@@ -7694,7 +8213,8 @@
       "evidence": [
         "experiments/nov6_ringbahn_key_witnesses/inputs.json",
         "experiments/nov6_ringbahn_key_witnesses/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p145_B3",
@@ -7709,7 +8229,8 @@
       "evidence": [
         "experiments/nov6_ringbahn_key_witnesses/inputs.json",
         "experiments/nov6_ringbahn_key_witnesses/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p204_C2",
@@ -7724,7 +8245,8 @@
       "evidence": [
         "experiments/warsaw_station_missing_row/inputs.json",
         "experiments/warsaw_station_missing_row/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p157_A1",
@@ -7739,7 +8261,8 @@
       "evidence": [
         "experiments/armistice_departure_copy/inputs.json",
         "experiments/armistice_departure_copy/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p186_B2",
@@ -7754,7 +8277,8 @@
       "evidence": [
         "experiments/home_departures_baltic_transport/inputs.json",
         "experiments/home_departures_baltic_transport/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p186_C1",
@@ -7769,7 +8293,8 @@
       "evidence": [
         "experiments/home_departures_baltic_transport/inputs.json",
         "experiments/home_departures_baltic_transport/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p118_A2",
@@ -7784,7 +8309,8 @@
       "evidence": [
         "experiments/mackensen_withdrawal_part2/inputs.json",
         "experiments/mackensen_withdrawal_part2/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p172_C1",
@@ -7799,7 +8325,8 @@
       "evidence": [
         "experiments/namur_cassel_armistice_requests/inputs.json",
         "experiments/namur_cassel_armistice_requests/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p172_C3",
@@ -7814,7 +8341,8 @@
       "evidence": [
         "experiments/namur_cassel_armistice_requests/inputs.json",
         "experiments/namur_cassel_armistice_requests/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p180_E",
@@ -7829,7 +8357,8 @@
       "evidence": [
         "experiments/namur_cassel_armistice_requests/inputs.json",
         "experiments/namur_cassel_armistice_requests/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p181_B",
@@ -7844,7 +8373,8 @@
       "evidence": [
         "experiments/namur_cassel_armistice_requests/inputs.json",
         "experiments/namur_cassel_armistice_requests/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p120_A",
@@ -7859,7 +8389,8 @@
       "evidence": [
         "experiments/nov4_radio_and_departure_queries/inputs.json",
         "experiments/nov4_radio_and_departure_queries/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p120_C",
@@ -7874,7 +8405,8 @@
       "evidence": [
         "experiments/nov4_radio_and_departure_queries/inputs.json",
         "experiments/nov4_radio_and_departure_queries/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p147_A",
@@ -7889,7 +8421,8 @@
       "evidence": [
         "experiments/nov4_radio_and_departure_queries/inputs.json",
         "experiments/nov4_radio_and_departure_queries/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p123_B",
@@ -7904,7 +8437,8 @@
       "evidence": [
         "experiments/nov4_radio_and_departure_queries/inputs.json",
         "experiments/nov4_radio_and_departure_queries/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p155_D",
@@ -7919,7 +8453,8 @@
       "evidence": [
         "experiments/nov7_derailment_and_trains/inputs.json",
         "experiments/nov7_derailment_and_trains/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p169_B",
@@ -7934,7 +8469,8 @@
       "evidence": [
         "experiments/nov7_derailment_and_trains/inputs.json",
         "experiments/nov7_derailment_and_trains/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p155_C1",
@@ -7949,7 +8485,8 @@
       "evidence": [
         "experiments/nov7_eighth_part_repetition/inputs.json",
         "experiments/nov7_eighth_part_repetition/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p155_C2",
@@ -7964,7 +8501,8 @@
       "evidence": [
         "experiments/nov7_eighth_part_repetition/inputs.json",
         "experiments/nov7_eighth_part_repetition/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p186_B1",
@@ -7979,7 +8517,8 @@
       "evidence": [
         "experiments/oberost_troop_movement_obliterations/inputs.json",
         "experiments/oberost_troop_movement_obliterations/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p122_B",
@@ -7994,7 +8533,8 @@
       "evidence": [
         "experiments/schorlemer_demobilization_inquiry/inputs.json",
         "experiments/schorlemer_demobilization_inquiry/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p155_B",
@@ -8009,7 +8549,8 @@
       "evidence": [
         "experiments/schorlemer_demobilization_inquiry/inputs.json",
         "experiments/schorlemer_demobilization_inquiry/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p57_A1",
@@ -8024,7 +8565,8 @@
       "evidence": [
         "experiments/september_radio_instructions/inputs.json",
         "experiments/september_radio_instructions/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p57_A2",
@@ -8039,7 +8581,8 @@
       "evidence": [
         "experiments/september_radio_instructions/inputs.json",
         "experiments/september_radio_instructions/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p57_A3",
@@ -8054,7 +8597,8 @@
       "evidence": [
         "experiments/september_radio_instructions/inputs.json",
         "experiments/september_radio_instructions/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p61_A",
@@ -8069,7 +8613,8 @@
       "evidence": [
         "experiments/september_radio_instructions/inputs.json",
         "experiments/september_radio_instructions/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p135_A",
@@ -8077,14 +8622,15 @@
       "printed_page": 135,
       "source_section": "A",
       "subject": "Siegfried assignment cancelled; conditional surplus coordinate before transposition",
-      "status": "401 received slots; surplus-X interim aliases230/231; 7 substitutions+4mask fills; 58-letter closing independently witnessed",
+      "status": "401 received slots; surplus-X interim aliases 230/231; 7 substitutions + 4 mask fills; 58-position closing independently witnessed",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier Osthoff closing/source credit retained",
       "path": "cases/people/siegfried_assignment_cancellation.md#p135-a",
       "source_reviewed": true,
       "evidence": [
         "experiments/siegfried_assignment_cancellation/inputs.json",
         "experiments/siegfried_assignment_cancellation/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p172_D1",
@@ -8099,7 +8645,8 @@
       "evidence": [
         "experiments/staatsbank_accounting_cheques/inputs.json",
         "experiments/staatsbank_accounting_cheques/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p172_D2",
@@ -8114,7 +8661,8 @@
       "evidence": [
         "experiments/staatsbank_accounting_cheques/inputs.json",
         "experiments/staatsbank_accounting_cheques/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p144_A2",
@@ -8129,7 +8677,8 @@
       "evidence": [
         "experiments/nov6_resale_and_air_reconnaissance/inputs.json",
         "experiments/nov6_resale_and_air_reconnaissance/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p144_C1",
@@ -8144,7 +8693,8 @@
       "evidence": [
         "experiments/nov6_resale_and_air_reconnaissance/inputs.json",
         "experiments/nov6_resale_and_air_reconnaissance/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p87_A1",
@@ -8159,7 +8709,8 @@
       "evidence": [
         "experiments/early_radio_and_leave_records/inputs.json",
         "experiments/early_radio_and_leave_records/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p119_A",
@@ -8174,7 +8725,8 @@
       "evidence": [
         "experiments/early_radio_and_leave_records/inputs.json",
         "experiments/early_radio_and_leave_records/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p127_A3",
@@ -8189,7 +8741,8 @@
       "evidence": [
         "experiments/early_radio_and_leave_records/inputs.json",
         "experiments/early_radio_and_leave_records/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p127_B1",
@@ -8206,7 +8759,8 @@
         "experiments/early_radio_and_leave_records/certificates.json",
         "experiments/early_radio_and_leave_records/osmanie_field.json",
         "experiments/early_radio_and_leave_records/osmanie_field_certificate.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p201_A1",
@@ -8221,7 +8775,8 @@
       "evidence": [
         "experiments/odessa_wagon_sale/inputs.json",
         "experiments/odessa_wagon_sale/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p201_A2",
@@ -8236,7 +8791,8 @@
       "evidence": [
         "experiments/odessa_wagon_sale/inputs.json",
         "experiments/odessa_wagon_sale/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p218_B2",
@@ -8251,7 +8807,8 @@
       "evidence": [
         "experiments/urgent_shipping_space/inputs.json",
         "experiments/urgent_shipping_space/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p218_B3",
@@ -8266,7 +8823,8 @@
       "evidence": [
         "experiments/urgent_shipping_space/inputs.json",
         "experiments/urgent_shipping_space/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p189_D",
@@ -8281,7 +8839,8 @@
       "evidence": [
         "experiments/benzol_pump_query/inputs.json",
         "experiments/benzol_pump_query/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p154_B3",
@@ -8296,7 +8855,8 @@
       "evidence": [
         "experiments/airfield_german_troop_fragment/inputs.json",
         "experiments/airfield_german_troop_fragment/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p180_C",
@@ -8311,7 +8871,8 @@
       "evidence": [
         "experiments/okm_radio_route/inputs.json",
         "experiments/okm_radio_route/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p83_A",
@@ -8326,7 +8887,8 @@
       "evidence": [
         "experiments/oct30_oil_and_supply_records/inputs.json",
         "experiments/oct30_oil_and_supply_records/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p85_A1",
@@ -8341,7 +8903,8 @@
       "evidence": [
         "experiments/oct30_oil_and_supply_records/inputs.json",
         "experiments/oct30_oil_and_supply_records/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p143_A",
@@ -8356,7 +8919,8 @@
       "evidence": [
         "experiments/nov6_evening_and_embassy_records/inputs.json",
         "experiments/nov6_evening_and_embassy_records/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p147_B1",
@@ -8371,7 +8935,8 @@
       "evidence": [
         "experiments/nov6_evening_and_embassy_records/inputs.json",
         "experiments/nov6_evening_and_embassy_records/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p147_D1",
@@ -8386,7 +8951,8 @@
       "evidence": [
         "experiments/nov6_evening_and_embassy_records/inputs.json",
         "experiments/nov6_evening_and_embassy_records/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p225_B1",
@@ -8401,7 +8967,8 @@
       "evidence": [
         "experiments/regimental_journey_report/inputs.json",
         "experiments/regimental_journey_report/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p225_B2",
@@ -8416,7 +8983,8 @@
       "evidence": [
         "experiments/regimental_journey_report/inputs.json",
         "experiments/regimental_journey_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p219_D1",
@@ -8431,7 +8999,8 @@
       "evidence": [
         "experiments/nov25_provisions_and_evening_report/inputs.json",
         "experiments/nov25_provisions_and_evening_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p220_A2",
@@ -8446,7 +9015,8 @@
       "evidence": [
         "experiments/nov25_provisions_and_evening_report/inputs.json",
         "experiments/nov25_provisions_and_evening_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p220_B",
@@ -8461,7 +9031,8 @@
       "evidence": [
         "experiments/nov25_provisions_and_evening_report/inputs.json",
         "experiments/nov25_provisions_and_evening_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p227_D",
@@ -8476,7 +9047,8 @@
       "evidence": [
         "experiments/avoid_fighting_instruction/inputs.json",
         "experiments/avoid_fighting_instruction/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p226_A2",
@@ -8491,7 +9063,8 @@
       "evidence": [
         "experiments/radio_traffic_transfer_fragment/inputs.json",
         "experiments/radio_traffic_transfer_fragment/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p86_B2",
@@ -8506,7 +9079,8 @@
       "evidence": [
         "experiments/oct31_armistice_and_followup/inputs.json",
         "experiments/oct31_armistice_and_followup/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p86_C1",
@@ -8521,7 +9095,8 @@
       "evidence": [
         "experiments/oct31_armistice_and_followup/inputs.json",
         "experiments/oct31_armistice_and_followup/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p96_A",
@@ -8536,7 +9111,8 @@
       "evidence": [
         "experiments/nov1_nov2_native_dispatches/inputs.json",
         "experiments/nov1_nov2_native_dispatches/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p103_A",
@@ -8551,7 +9127,8 @@
       "evidence": [
         "experiments/nov1_nov2_native_dispatches/inputs.json",
         "experiments/nov1_nov2_native_dispatches/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p103_C",
@@ -8566,7 +9143,8 @@
       "evidence": [
         "experiments/nov1_nov2_native_dispatches/inputs.json",
         "experiments/nov1_nov2_native_dispatches/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p107_A",
@@ -8581,7 +9159,8 @@
       "evidence": [
         "experiments/nov1_nov2_native_dispatches/inputs.json",
         "experiments/nov1_nov2_native_dispatches/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p136_A1",
@@ -8596,7 +9175,8 @@
       "evidence": [
         "experiments/gokieloff_return_payment_stop/inputs.json",
         "experiments/gokieloff_return_payment_stop/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p136_A2",
@@ -8611,7 +9191,8 @@
       "evidence": [
         "experiments/gokieloff_return_payment_stop/inputs.json",
         "experiments/gokieloff_return_payment_stop/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p183_F",
@@ -8626,7 +9207,8 @@
       "evidence": [
         "experiments/jaeger_accommodation_area/inputs.json",
         "experiments/jaeger_accommodation_area/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p183_A",
@@ -8641,7 +9223,8 @@
       "evidence": [
         "experiments/nov12_arrival_departure_and_car/inputs.json",
         "experiments/nov12_arrival_departure_and_car/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p183_B",
@@ -8656,7 +9239,8 @@
       "evidence": [
         "experiments/nov12_arrival_departure_and_car/inputs.json",
         "experiments/nov12_arrival_departure_and_car/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p183_C",
@@ -8671,7 +9255,8 @@
       "evidence": [
         "experiments/nov12_arrival_departure_and_car/inputs.json",
         "experiments/nov12_arrival_departure_and_car/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p183_E",
@@ -8686,7 +9271,8 @@
       "evidence": [
         "experiments/nov12_arrival_departure_and_car/inputs.json",
         "experiments/nov12_arrival_departure_and_car/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p88_B",
@@ -8701,7 +9287,8 @@
       "evidence": [
         "experiments/radio_relay_and_march_notice/inputs.json",
         "experiments/radio_relay_and_march_notice/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p109_C1",
@@ -8716,7 +9303,8 @@
       "evidence": [
         "experiments/radio_relay_and_march_notice/inputs.json",
         "experiments/radio_relay_and_march_notice/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p109_C2",
@@ -8731,7 +9319,8 @@
       "evidence": [
         "experiments/radio_relay_and_march_notice/inputs.json",
         "experiments/radio_relay_and_march_notice/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p190_C",
@@ -8746,7 +9335,8 @@
       "evidence": [
         "experiments/mmd_command_whereabouts/inputs.json",
         "experiments/mmd_command_whereabouts/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p206_B1",
@@ -8761,7 +9351,8 @@
       "evidence": [
         "experiments/nov18_negotiation_repetition/inputs.json",
         "experiments/nov18_negotiation_repetition/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p206_B2",
@@ -8776,7 +9367,8 @@
       "evidence": [
         "experiments/nov18_negotiation_repetition/inputs.json",
         "experiments/nov18_negotiation_repetition/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p193_C",
@@ -8791,7 +9383,8 @@
       "evidence": [
         "experiments/nov14_15_departure_and_supper/inputs.json",
         "experiments/nov14_15_departure_and_supper/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p193_D",
@@ -8806,7 +9399,8 @@
       "evidence": [
         "experiments/nov14_15_departure_and_supper/inputs.json",
         "experiments/nov14_15_departure_and_supper/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p196_A",
@@ -8821,7 +9415,8 @@
       "evidence": [
         "experiments/nov14_15_departure_and_supper/inputs.json",
         "experiments/nov14_15_departure_and_supper/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p215_B2",
@@ -8838,7 +9433,8 @@
         "experiments/southern_hungary_positions_part2/certificates.json",
         "experiments/p215_hungarian_y/inputs.json",
         "experiments/p215_hungarian_y/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p183_D",
@@ -8853,7 +9449,8 @@
       "evidence": [
         "experiments/car_query_parallel_frame/inputs.json",
         "experiments/car_query_parallel_frame/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p148_A1",
@@ -8868,7 +9465,8 @@
       "evidence": [
         "experiments/nov6_embassy_8956_annotation/inputs.json",
         "experiments/nov6_embassy_8956_annotation/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p182_B",
@@ -8883,7 +9481,8 @@
       "evidence": [
         "experiments/return_time_and_vehicle_attempt/inputs.json",
         "experiments/return_time_and_vehicle_attempt/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p189_B",
@@ -8898,7 +9497,8 @@
       "evidence": [
         "experiments/return_time_and_vehicle_attempt/inputs.json",
         "experiments/return_time_and_vehicle_attempt/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p184_A2",
@@ -8913,7 +9513,8 @@
       "evidence": [
         "experiments/group_security_measures_fragment/inputs.json",
         "experiments/group_security_measures_fragment/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p185_A2",
@@ -8928,7 +9529,8 @@
       "evidence": [
         "experiments/brasso_money_alternative_route/inputs.json",
         "experiments/brasso_money_alternative_route/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p109_A2",
@@ -8943,7 +9545,8 @@
       "evidence": [
         "experiments/nov3_bucharest_power_source/inputs.json",
         "experiments/nov3_bucharest_power_source/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p109_A3",
@@ -8958,7 +9561,8 @@
       "evidence": [
         "experiments/nov3_bucharest_power_source/inputs.json",
         "experiments/nov3_bucharest_power_source/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p193_F",
@@ -8973,7 +9577,8 @@
       "evidence": [
         "experiments/nov13_congratulation_conditional_frame/inputs.json",
         "experiments/nov13_congratulation_conditional_frame/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p105_A",
@@ -8988,7 +9593,8 @@
       "evidence": [
         "experiments/nov2_nikolajew_acknowledgment/inputs.json",
         "experiments/nov2_nikolajew_acknowledgment/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p144_B",
@@ -9003,7 +9609,8 @@
       "evidence": [
         "experiments/nov6_boat_crossing_fragment/inputs.json",
         "experiments/nov6_boat_crossing_fragment/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p146_C1",
@@ -9018,7 +9625,8 @@
       "evidence": [
         "experiments/nov6_tiflis_ringbahn_instruction/inputs.json",
         "experiments/nov6_tiflis_ringbahn_instruction/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p146_C2",
@@ -9033,7 +9641,8 @@
       "evidence": [
         "experiments/nov6_tiflis_ringbahn_instruction/inputs.json",
         "experiments/nov6_tiflis_ringbahn_instruction/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p113_C",
@@ -9048,7 +9657,8 @@
       "evidence": [
         "experiments/nov3_poti_tobacco_loading/inputs.json",
         "experiments/nov3_poti_tobacco_loading/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p124_B",
@@ -9063,7 +9673,8 @@
       "evidence": [
         "experiments/nov4_flying_unit_inquiry/inputs.json",
         "experiments/nov4_flying_unit_inquiry/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p138_C",
@@ -9078,7 +9689,8 @@
       "evidence": [
         "experiments/nov6_marine_service_notice/inputs.json",
         "experiments/nov6_marine_service_notice/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p113_D1",
@@ -9093,7 +9705,8 @@
       "evidence": [
         "experiments/nov3_eilvese_traffic_schedule/inputs.json",
         "experiments/nov3_eilvese_traffic_schedule/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p214_A1",
@@ -9108,7 +9721,8 @@
       "evidence": [
         "experiments/nov22_reverse_keys_and_date_correction/inputs.json",
         "experiments/nov22_reverse_keys_and_date_correction/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p214_C",
@@ -9123,7 +9737,8 @@
       "evidence": [
         "experiments/nov22_reverse_keys_and_date_correction/inputs.json",
         "experiments/nov22_reverse_keys_and_date_correction/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p197_A1",
@@ -9138,7 +9753,8 @@
       "evidence": [
         "experiments/nov15_radio_personnel_and_key_notice/inputs.json",
         "experiments/nov15_radio_personnel_and_key_notice/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p197_A2",
@@ -9153,7 +9769,8 @@
       "evidence": [
         "experiments/nov15_radio_personnel_and_key_notice/inputs.json",
         "experiments/nov15_radio_personnel_and_key_notice/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p197_B",
@@ -9168,7 +9785,8 @@
       "evidence": [
         "experiments/nov15_radio_personnel_and_key_notice/inputs.json",
         "experiments/nov15_radio_personnel_and_key_notice/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p223_B",
@@ -9183,7 +9801,8 @@
       "evidence": [
         "experiments/nov27_ships_and_vehicle_sale/inputs.json",
         "experiments/nov27_ships_and_vehicle_sale/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p223_C",
@@ -9198,7 +9817,8 @@
       "evidence": [
         "experiments/nov27_ships_and_vehicle_sale/inputs.json",
         "experiments/nov27_ships_and_vehicle_sale/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p185_B",
@@ -9213,7 +9833,8 @@
       "evidence": [
         "experiments/baku_personnel_inquiry/inputs.json",
         "experiments/baku_personnel_inquiry/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p167_B1",
@@ -9228,7 +9849,8 @@
       "evidence": [
         "experiments/nov9_crown_airlift_and_embassy/inputs.json",
         "experiments/nov9_crown_airlift_and_embassy/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p167_B2",
@@ -9243,7 +9865,8 @@
       "evidence": [
         "experiments/nov9_crown_airlift_and_embassy/inputs.json",
         "experiments/nov9_crown_airlift_and_embassy/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p167_B3",
@@ -9258,7 +9881,8 @@
       "evidence": [
         "experiments/nov9_crown_airlift_and_embassy/inputs.json",
         "experiments/nov9_crown_airlift_and_embassy/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p167_E1",
@@ -9273,7 +9897,8 @@
       "evidence": [
         "experiments/nov9_crown_airlift_and_embassy/inputs.json",
         "experiments/nov9_crown_airlift_and_embassy/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p156_A1",
@@ -9288,7 +9913,8 @@
       "evidence": [
         "experiments/nov7_8_embassy_address_parts/inputs.json",
         "experiments/nov7_8_embassy_address_parts/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p156_B1",
@@ -9303,7 +9929,8 @@
       "evidence": [
         "experiments/nov7_8_embassy_address_parts/inputs.json",
         "experiments/nov7_8_embassy_address_parts/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p156_D1",
@@ -9318,7 +9945,8 @@
       "evidence": [
         "experiments/nov7_8_embassy_address_parts/inputs.json",
         "experiments/nov7_8_embassy_address_parts/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p156_E1",
@@ -9333,7 +9961,8 @@
       "evidence": [
         "experiments/nov7_8_embassy_address_parts/inputs.json",
         "experiments/nov7_8_embassy_address_parts/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p158_A1",
@@ -9348,7 +9977,8 @@
       "evidence": [
         "experiments/nov7_8_embassy_address_parts/inputs.json",
         "experiments/nov7_8_embassy_address_parts/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p158_A2",
@@ -9363,7 +9993,8 @@
       "evidence": [
         "experiments/nov7_8_embassy_address_parts/inputs.json",
         "experiments/nov7_8_embassy_address_parts/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p158_B1",
@@ -9378,7 +10009,8 @@
       "evidence": [
         "experiments/nov7_8_embassy_address_parts/inputs.json",
         "experiments/nov7_8_embassy_address_parts/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p158_E1",
@@ -9393,7 +10025,8 @@
       "evidence": [
         "experiments/nov8_serbian_cavalry_parallel/inputs.json",
         "experiments/nov8_serbian_cavalry_parallel/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p159_A",
@@ -9410,7 +10043,8 @@
         "experiments/arad_provisions_partial/certificates.json",
         "experiments/danube_arad_witnesses/inputs.json",
         "experiments/danube_arad_witnesses/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p152_B2",
@@ -9425,7 +10059,8 @@
       "evidence": [
         "experiments/nov7_danube_and_message_reports/inputs.json",
         "experiments/nov7_danube_and_message_reports/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p152_C",
@@ -9440,7 +10075,8 @@
       "evidence": [
         "experiments/nov7_danube_and_message_reports/inputs.json",
         "experiments/nov7_danube_and_message_reports/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p152_D",
@@ -9455,7 +10091,8 @@
       "evidence": [
         "experiments/nov7_danube_and_message_reports/inputs.json",
         "experiments/nov7_danube_and_message_reports/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p153_A3",
@@ -9470,7 +10107,8 @@
       "evidence": [
         "experiments/nov7_danube_and_message_reports/inputs.json",
         "experiments/nov7_danube_and_message_reports/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p153_B1",
@@ -9485,7 +10123,8 @@
       "evidence": [
         "experiments/nov7_danube_and_message_reports/inputs.json",
         "experiments/nov7_danube_and_message_reports/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p56_A",
@@ -9500,7 +10139,8 @@
       "evidence": [
         "experiments/september19_pigeons_and_command/inputs.json",
         "experiments/september19_pigeons_and_command/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p56_B1",
@@ -9515,7 +10155,8 @@
       "evidence": [
         "experiments/september19_pigeons_and_command/inputs.json",
         "experiments/september19_pigeons_and_command/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p56_B2",
@@ -9530,7 +10171,8 @@
       "evidence": [
         "experiments/september19_pigeons_and_command/inputs.json",
         "experiments/september19_pigeons_and_command/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p180_B2",
@@ -9545,7 +10187,8 @@
       "evidence": [
         "experiments/nov11_romanian_mobilization_report/inputs.json",
         "experiments/nov11_romanian_mobilization_report/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p182_A",
@@ -9560,7 +10203,8 @@
       "evidence": [
         "experiments/nov12_seifert_additional_witnesses/inputs.json",
         "experiments/nov12_seifert_additional_witnesses/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p182_C",
@@ -9575,7 +10219,8 @@
       "evidence": [
         "experiments/nov12_seifert_additional_witnesses/inputs.json",
         "experiments/nov12_seifert_additional_witnesses/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p151_E2",
@@ -9590,7 +10235,8 @@
       "evidence": [
         "experiments/nov9_operations_map_sheets/inputs.json",
         "experiments/nov9_operations_map_sheets/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p59_A1",
@@ -9605,7 +10251,8 @@
       "evidence": [
         "experiments/poti_first_part_conditional/inputs.json",
         "experiments/poti_first_part_conditional/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p201_C",
@@ -9620,7 +10267,8 @@
       "evidence": [
         "experiments/odessa_courier_pretransposition/inputs.json",
         "experiments/odessa_courier_pretransposition/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p228_A",
@@ -9635,7 +10283,8 @@
       "evidence": [
         "experiments/nov30_aviation_march_destination/inputs.json",
         "experiments/nov30_aviation_march_destination/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p162_C1",
@@ -9650,7 +10299,8 @@
       "evidence": [
         "experiments/nov9_wire_return_source_family/inputs.json",
         "experiments/nov9_wire_return_source_family/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p166_C1",
@@ -9665,7 +10315,8 @@
       "evidence": [
         "experiments/nov9_wire_return_source_family/inputs.json",
         "experiments/nov9_wire_return_source_family/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p166_C2",
@@ -9680,7 +10331,8 @@
       "evidence": [
         "experiments/nov9_wire_return_source_family/inputs.json",
         "experiments/nov9_wire_return_source_family/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p217_B2",
@@ -9695,7 +10347,8 @@
       "evidence": [
         "experiments/nov24_budapest_report/inputs.json",
         "experiments/nov24_budapest_report/certificates.json"
-      ]
+      ],
+      "state": "READING"
     },
     {
       "id": "p164_C1",
@@ -9710,7 +10363,8 @@
       "evidence": [
         "experiments/danube_arad_witnesses/inputs.json",
         "experiments/danube_arad_witnesses/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p168_E",
@@ -9725,7 +10379,8 @@
       "evidence": [
         "experiments/danube_arad_witnesses/inputs.json",
         "experiments/danube_arad_witnesses/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p187_B1",
@@ -9740,7 +10395,8 @@
       "evidence": [
         "experiments/nov13_ringbahn_retransmission/inputs.json",
         "experiments/nov13_ringbahn_retransmission/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p217_B1",
@@ -9755,7 +10411,8 @@
       "evidence": [
         "experiments/nov24_train_report/inputs.json",
         "experiments/nov24_train_report/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p180_D1",
@@ -9770,7 +10427,8 @@
       "evidence": [
         "experiments/nov11_romanian_ultimatum_report/inputs.json",
         "experiments/nov11_romanian_ultimatum_report/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p152_A2",
@@ -9785,7 +10443,8 @@
       "evidence": [
         "experiments/p152_crossing_fragment/inputs.json",
         "experiments/p152_crossing_fragment/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p164_D",
@@ -9800,7 +10459,8 @@
       "evidence": [
         "experiments/p164_acknowledgment/inputs.json",
         "experiments/p164_acknowledgment/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p167_C1",
@@ -9815,7 +10475,8 @@
       "evidence": [
         "experiments/p167_mission_address/inputs.json",
         "experiments/p167_mission_address/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p198_A",
@@ -9830,7 +10491,8 @@
       "evidence": [
         "experiments/p198_shipping_query/inputs.json",
         "experiments/p198_shipping_query/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p215_B1",
@@ -9845,7 +10507,8 @@
       "evidence": [
         "experiments/p215_train_departure_fragment/inputs.json",
         "experiments/p215_train_departure_fragment/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p219_C",
@@ -9860,7 +10523,8 @@
       "evidence": [
         "experiments/p219_kiev_unrest/inputs.json",
         "experiments/p219_kiev_unrest/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p71_A2",
@@ -9875,7 +10539,8 @@
       "evidence": [
         "experiments/p71_dc_machines_fragment/inputs.json",
         "experiments/p71_dc_machines_fragment/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p176_A6",
@@ -9892,7 +10557,8 @@
         "experiments/p176_coal_train_fragment/certificates.json",
         "experiments/p176_repeated_place/inputs.json",
         "experiments/p176_repeated_place/certificates.json"
-      ]
+      ],
+      "state": "PARTIAL"
     },
     {
       "id": "p137_B",
@@ -9907,7 +10573,8 @@
       "evidence": [
         "experiments/p137_station_staff_query/inputs.json",
         "experiments/p137_station_staff_query/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p167_D",
@@ -9922,7 +10589,8 @@
       "evidence": [
         "experiments/p167_captain_dispatch_fragment/inputs.json",
         "experiments/p167_captain_dispatch_fragment/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p212_A4",
@@ -9938,7 +10606,8 @@
         "experiments/p212_medical_fragment/inputs.json",
         "experiments/p212_medical_fragment/certificates.json",
         "experiments/p212_medical_fragment/optional_underpersonal.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p215_A",
@@ -9953,7 +10622,8 @@
       "evidence": [
         "experiments/p215_breslau_dispatch/inputs.json",
         "experiments/p215_breslau_dispatch/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p215_B3",
@@ -9968,7 +10638,8 @@
       "evidence": [
         "experiments/p215_third_positions_fragment/inputs.json",
         "experiments/p215_third_positions_fragment/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p154_A2",
@@ -9983,7 +10654,8 @@
       "evidence": [
         "experiments/p154_weisskirchen_fragment/inputs.json",
         "experiments/p154_weisskirchen_fragment/certificates.json"
-      ]
+      ],
+      "state": "CONDITIONAL"
     },
     {
       "id": "p84_C",
@@ -10000,7 +10672,78 @@
         "experiments/p84_field_post_fragment/certificates.json",
         "experiments/p84_mother_illness_fragment/inputs.json",
         "experiments/p84_mother_illness_fragment/certificates.json"
+      ],
+      "state": "CONDITIONAL"
+    },
+    {
+      "id": "p70_B1",
+      "label": "p70 B1",
+      "printed_page": 70,
+      "source_section": "B1",
+      "subject": "Jammed first part routed through NKJ",
+      "state": "OPEN",
+      "status": "OPEN; 206 received slots, 199 observed coordinates and 7 printed erasures; interruption boundaries retained",
+      "credit": "Source transcription and review by icekylinx and GPT-6 Astra Pro (2026); no accepted body reading",
+      "path": "cases/open/p70_B1.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/open_source_records/inputs.json",
+        "data/reviews/source_gap_audit_20261103.json"
+      ]
+    },
+    {
+      "id": "p127_B2",
+      "label": "p127 B2",
+      "printed_page": 127,
+      "source_section": "B2",
+      "subject": "Heavily erased second part from NKJ",
+      "state": "OPEN",
+      "status": "OPEN; 152 received slots, 104 observed coordinates and 48 printed erasures; both printed dates retained",
+      "credit": "Source transcription and review by icekylinx and GPT-6 Astra Pro (2026); no accepted body reading",
+      "path": "cases/open/p127_B2.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/open_source_records/inputs.json",
+        "data/reviews/source_gap_audit_20261103.json"
+      ]
+    },
+    {
+      "id": "p145_A",
+      "label": "p145 A",
+      "printed_page": 145,
+      "source_section": "A",
+      "subject": "HVC fragment with its first part missing",
+      "state": "OPEN",
+      "status": "OPEN; 192 received slots, 187 observed coordinates and 5 printed erasures; transmitted length unknown",
+      "credit": "Source transcription and review by icekylinx and GPT-6 Astra Pro (2026); no accepted body reading",
+      "path": "cases/open/p145_A.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/open_source_records/inputs.json",
+        "data/reviews/source_gap_audit_20261103.json"
+      ]
+    },
+    {
+      "id": "p194_D1",
+      "label": "p194 D1",
+      "printed_page": 194,
+      "source_section": "D1",
+      "subject": "Short first-part fragment from WAU",
+      "state": "OPEN",
+      "status": "OPEN; 45 observed coordinates against advertised 214; no accepted plaintext or loss frame",
+      "credit": "Source transcription and review by icekylinx and GPT-6 Astra Pro (2026); no accepted body reading",
+      "path": "cases/open/p194_D1.md",
+      "source_reviewed": true,
+      "evidence": [
+        "experiments/open_source_records/inputs.json",
+        "data/reviews/source_gap_audit_20261103.json"
       ]
     }
-  ]
+  ],
+  "state_definitions": {
+    "READING": "Documented substantive text under the stated source evidence and explicit repairs; not a claim of complete historical recovery.",
+    "PARTIAL": "Readable portions are documented, with unresolved spans, fields or source ambiguities retained.",
+    "CONDITIONAL": "The primary body or fragment interpretation depends on stated frame, key or reconstruction assumptions; it may also remain partial.",
+    "OPEN": "No accepted body reading. Clear headers, native transcriptions and research leads may be available."
+  }
 }

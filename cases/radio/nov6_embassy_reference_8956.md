@@ -1,8 +1,6 @@
 # German embassy address and abbreviated signature label, reference RM3D8956
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p148 A1
 
@@ -11,6 +9,9 @@
 **Source and dates:** Page heading: 6th NOVEMBER, 1918; A) YZ v LP (08.31 a.m., November 7th); FUER YZ 1645 (6/11) 2 TEILE; 1 TL RICHI-130.
 
 ![Source p148 A1](../../experiments/nov6_embassy_8956_annotation/sources/p148_A1.png)
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -23,6 +24,8 @@ DEUTSCHEBETSCHAFTXKONSTANTINOPEFXD4TERSC1RXAUSWAERTIGXRMX3XDX8956
 ```text
 DEUTSCHEBOTSCHAFTXKONSTANTINOPELXUNTERSCHRXAUSWAERTIGXRMX3XDX8956
 ```
+
+</details>
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
@@ -48,11 +51,16 @@ All indices are zero-based.
 
 The above-line **G** at source index 70 is retained separately from the printed baseline **F**. Applying only this visible annotation costs one observed-coordinate substitution. It changes **BETSCHAFT** to **BOTSCHAFT**, while the other garbles remain:
 
+<details>
+<summary>Proposed text and exact labels</summary>
+
 **Edited output — annotation-only branch, applying just source 70 F→G:**
 
 ```text
 DEUTSCHEBOTSCHAFTXKONSTANTINOPEFXD4TERSC1RXAUSWAERTIGXRMX3XDX8956
 ```
+
+</details>
 
 The complete reading above costs five substitutions in total: this annotated F→G correction plus four further linguistic proposals. The 130-slot source frame is already present in the scan; restoring the two groups omitted by OCR does not insert anything into the original ciphertext.
 
@@ -60,4 +68,4 @@ The complete reading above costs five substitutions in total: this annotated F�
 
 The [input](../../experiments/nov6_embassy_8956_annotation/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/nov6_embassy_8956_annotation/certificates.json) contains the raw paired-coordinate domains, each source change and the forward checks. The [verifier](../../experiments/nov6_embassy_8956_annotation/verify.py) checks the unchanged published keys and the live German quotations, retaining all numerical and letter labels.
 
-Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/nov6_embassy_8956_annotation/prior_candidates.json). No first-decipherment priority is claimed.
+Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/nov6_embassy_8956_annotation/prior_candidates.json).

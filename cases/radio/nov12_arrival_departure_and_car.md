@@ -1,14 +1,12 @@
 # Short arrival, departure and car enquiries on November 12
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 Four short native records report arrival and departure, request an arrival notification, and enquire about a car. The arrival enquiry and departure text have earlier p174 parallels already published in this repository; the new witnesses add source support to those readings. In particular, the two complementary arrival-enquiry witnesses now supply every coordinate and every plaintext pair without changing an observed coordinate under the conservative glyph masks. The previously catalogued witnesses are not counted again.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p183 excerpt](../../experiments/nov12_arrival_departure_and_car/sources/p183_reviewed.png) · [Reviewed p174 excerpt](../../experiments/nov12_arrival_departure_and_car/sources/p174_parallel.png) · [Inputs](../../experiments/nov12_arrival_departure_and_car/inputs.json) · [Position and change certificates](../../experiments/nov12_arrival_departure_and_car/certificates.json)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p183 excerpt](../../experiments/nov12_arrival_departure_and_car/sources/p183_reviewed.png) · [Reviewed p174 excerpt](../../experiments/nov12_arrival_departure_and_car/sources/p174_parallel.png) · [Inputs](../../experiments/nov12_arrival_departure_and_car/inputs.json) · [Position and change certificates](../../experiments/nov12_arrival_departure_and_car/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 The published `Nov10-12` key is unchanged. [Original OCR records](../../experiments/nov12_arrival_departure_and_car/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/nov12_arrival_departure_and_car/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 
@@ -23,11 +21,16 @@ The published `Nov10-12` key is unchanged. [Original OCR records](../../experime
 
 **Source transcription — header:** `A) CZ v CM (20.00 p.m., November 12th); 20.00; RIZI-64`
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — every native source slot in printed order, with non-coordinate glyphs masked:**
 
 ```text
 GUTANGEKOMMENXISTDORTWASLOSXSEIF
 ```
+
+</details>
 
 **Readable German — exact nonseparator labels of the unchanged raw output:**
 
@@ -45,6 +48,9 @@ GUTANGEKOMMENXISTDORTWASLOSXSEIF
 
 **Source transcription — header:** `B) CM v CZ (18.54 p.m., November 12th); 19.10; RIZI-74`
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — every native source slot in printed order, with non-coordinate glyphs masked:**
 
 ```text
@@ -56,6 +62,8 @@ WENN??IFERTE?NGETROF?ENBITTE?ACHR?TO?
 ```text
 WENNSEIFERTEINGETROFFENBITTENACHRXTOF
 ```
+
+</details>
 
 **Readable German — exact nonseparator labels of the edited output:**
 
@@ -76,6 +84,9 @@ WENNSEIFERTEINGETROFFENBITTENACHRXTOF
 
 **Source transcription — header:** `C) CM v CZ (17.26 p.m., November 12th); 18.20; RIZI-46`
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — every native source slot in printed order, with non-coordinate glyphs masked:**
 
 ```text
@@ -87,6 +98,8 @@ SQIFERTABGEFAHRENXRENTE
 ```text
 SEIFERTABGEFAHRENXRENTE
 ```
+
+</details>
 
 **Readable German — exact nonseparator labels of the edited output:**
 
@@ -105,11 +118,16 @@ SEIFERTABGEFAHRENXRENTE
 
 **Source transcription — header:** `E) CM v CZ (17.12 p.m., November 12th); 17.40; RIZI-36`
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — every native source slot in printed order, with non-coordinate glyphs masked:**
 
 ```text
 WOBLEIBTAUTOXKRAMM
 ```
+
+</details>
 
 **Readable German — exact nonseparator labels of the unchanged raw output:**
 
@@ -142,7 +160,7 @@ The literal interception and originating times differ between the parallel recor
 
 ## Evidence, credit and reproduction
 
-Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted. The arrival-enquiry and departure wording was already presented for p174 B/E in cases/radio/seifert.md. The new p183 witnesses add coordinate support and a separately priced comparison, not a new claim to that wording or extra message groups.
+Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. The arrival-enquiry and departure wording was already presented for p174 B/E in cases/radio/seifert.md. The new p183 witnesses add coordinate support and a separately priced comparison, not a new claim to that wording or extra message groups.
 
 The certificates independently reconstruct column positions and domains, compare them with the cipher implementation, replay every priced change, and check all readable nonseparator labels. Partial readings have one consistent injective square/source-mask completion witness that re-encrypts exactly; those witness choices are not historical identifications. Source images are bound to the original PDF by page, rectangle, scale, file digest and pixel digest.
 

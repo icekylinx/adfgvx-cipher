@@ -1,6 +1,6 @@
 # Mackensen's November 3 withdrawal report and its separately received ninth part
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and assembly audit: icekylinx and GPT-6 Astra Pro.**
 
@@ -163,11 +163,16 @@ Three observed-coordinate substitutions, six source-mask fills and one modeled m
 
 **Part 13: Jammed final part, left partial.**
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ??????DERX?????MEED??M???CHDU?????GARN??F???R?CH??????A?Z??????N?EI?????T??N??????R?ET?????XK????M???A?1G?????X
 ```
+
+</details>
 
 The source prints 160 slots against RICHI-222 and explicitly says “Balance jammed.” The stated tail-loss model appends 62 unknown coordinates. Only 38 of 111 plaintext positions are fixed, and **no source mask, lost coordinate or word is filled**. The existing historical translation is not converted into invented cipher evidence.
 

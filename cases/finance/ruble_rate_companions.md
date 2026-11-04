@@ -1,6 +1,6 @@
 # Ruble prices and payments above par: companions to p171 A1
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Companion source editions: icekylinx and GPT-6 Astra Pro.**
 
@@ -17,6 +17,9 @@ The source is Childs, *General Solution of the ADFGVX Cipher System*,
 The [three-part section](../../experiments/ruble_rate_companions/sources/p171_A.png)
 is headed:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -24,6 +27,8 @@ is headed:
 A) COS v NKJ (1.58 a.m., November 10th)
 COS POT FUR GENERAL VON KRESS 1425 (9/11) 3 TLE
 ```
+
+</details>
 
 Only A2 and A3 are new physical source records in this package. A1 remains
 in [the canonical challenge case](../p171.md), credited to Norbert, with
@@ -33,20 +38,30 @@ Max Baertl's later editorial `KURSE STARK` separately identified.
 
 Under the conditional layout described below, the direct reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional 252-slot layout after two group exclusions and one added slot:**
 
 ```text
 GEMEINS0MXXINKIEWXKIEWW?RDENFUERHUNDERTZAYENRUBEL?UNDERTVIERZIGMARKGEZAHLTXINWARSCHAUSO2LENBISHUNDERTNEUNZINMAR?GEZAHATWE?XENX
 ```
 
+</details>
+
 Six observed-coordinate substitutions, three fills of retained printed
 dashes, and one fill of the added unknown coordinate give:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — same conditional layout, with observed substitutions and separately priced fills:**
 
 ```text
 GEMEINSAMXXINKIEWXKIEWWURDENFUERHUNDERTZARENRUBELHUNDERTVIERZIGMARKGEZAHLTXINWARSCHAUSOLLENBISHUNDERTNEUNZIGMARKGEZAHLTWERDENX
 ```
+
+</details>
 
 The opening `GEMEINSAM` continues A1's reference to Germany and the Entente.
 The message reports that **140 marks were paid for 100 Tsar rubles in Kiev**,
@@ -99,19 +114,29 @@ control or a global proof of the original geometry.
 The third part is source-exact at **152 slots** and has two printed dashes.
 Its direct reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 EMPFEHLEDAHERNOTFALLSFUE?BONSAUCHMEHRALSPARIXPARIB?WILLIGENXXWALLERXWALLERXX
 ```
 
+</details>
+
 Filling those two dashes, with no observed-coordinate change, yields:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 EMPFEHLEDAHERNOTFALLSFUERBONSAUCHMEHRALSPARIXPARIBEWILLIGENXXWALLERXWALLERXX
 ```
+
+</details>
 
 The sender, `WALLER` repeated, therefore recommends authorizing more than
 par for `BONS` if needed. `Bons` is retained as the message's term; the

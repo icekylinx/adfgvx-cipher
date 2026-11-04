@@ -1,8 +1,6 @@
 # Transport traffic — p185/p189 and parallel messages
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status: source-preserving partial reading under a plausible, unproved gap geometry.** This supplementary **p185 D** intercept is outside the 22-message challenge. Its header reads `CM v CZ (20.15 p.m., November 13th), 21.00, RIZI-198`, but the body contains 193 slots: 192 valid ADFGVX coordinates and one literal `Y`. The raw `Y` is retained in the source layer and treated as one unknown coordinate in analysis.
 
@@ -37,11 +35,16 @@ We enumerated all 194 possible positions for a contiguous block of five missing 
 
 Inserting five erasures before source index **55**, a printed group boundary, gives this exact partial plaintext:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional five-coordinate gap before source index 55:**
 
 ```text
 STATMETXMARSCHIERTLCST?UT?SMORGEN1500UEBERDHFNXAB?A6SCHBE?EITSEIN?VS6GROV?AN?IERE?XBITTEF6EXSEIFERT
 ```
+
+</details>
 
 Under this geometry, **91 of 99 characters are fixed**. The eight unresolved positions consist of six positions touched by uncertain coordinates and two positions using unassigned square cells. The fixed portions include `MARSCHIERT`, `MORGEN1500UEBERDHFN`, and `SEIFERT`; malformed portions are retained literally. `DHFN` and `STATMET` are not expanded into place or station names.
 
@@ -70,11 +73,16 @@ The p194/p196 pair repeats `DHFN` and names `HANAU` as the march destination. It
 
 For the transport-order pair, a separately labelled source-supported composite takes `X` at index 82 and `V` at index 167 from p196 while retaining p194's `D` at index 173. It reads:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional source-supported composite of the p194 and p196 witnesses:**
 
 ```text
 ABTRANSPORTINVERABREDETERWEISEFREITAGDHFN1?00XWAGENBEREITHALTENXMARSCHZIELHANAUXSEIFERT
 ```
+
+</details>
 
 This composite fixes 86 of 87 characters. It makes an editorial choice between disagreeing source witnesses, with every chosen value attested in at least one. The certificate also retains all four combinations of the two disagreements between valid coordinates. The time cell `FV` remains unassigned; no numerical time is inferred. These messages support a transport context for the p185/p189 traffic but do not supply p185 D's missing five coordinates or prove a new square-cell assignment.
 

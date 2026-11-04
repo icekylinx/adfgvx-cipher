@@ -1,8 +1,6 @@
 # p154 A2 — Weisskirchen halt and security fragment
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[All cases](../README.md) · [ADFGVX Cipher](../../README.md)
+[All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Recovery and review: icekylinx and GPT-6 Astra Pro, 4 November 2026.**
 A newly reviewed frame recovers the phrases **Weisskirchen angehalten** and
@@ -28,6 +26,9 @@ The [other message on the same page](airfield_german_troop_fragment.md) also
 uses the November 4–6 key successfully. The two records have different station
 directions and times; they are not joined as parts of one report.
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — all 118 observed coordinates, including the six-character group VDFDVD:**
 
 ```text
@@ -36,6 +37,8 @@ DAFXA FGVFV AFXFV XXVDV XVAXV DVVVG XXFAD
 DVDXF AFXXA FAGFV VFXFF GGVFA XGXVF GAFAA
 AFVGX ADGVA VF
 ```
+
+</details>
 
 The source contains 118 observed coordinates and no printed masks, against
 its advertised 162. The primary frame makes two explicit assumptions:
@@ -51,6 +54,9 @@ and header length, but does not establish how the text was historically lost.
 
 ## Raw and edited output
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output — conditional 162-slot frame and unchanged key; 36/81 fixed positions; one excluded observation, no coordinate substitutions or fills:**
 
 ```text
@@ -62,6 +68,8 @@ and header length, but does not establish how the text was historically lost.
 ```text
 21??X??B?I?A??B??AR??X??R?G?R??U??ED??WEISSKIRCHENANGEHALTENX?SICHERUNGENANDEN?U?
 ```
+
+</details>
 
 | Proposed fragment | Zero-based plaintext start | Observed substitutions | Added-slot fills |
 |---|---:|---:|---:|

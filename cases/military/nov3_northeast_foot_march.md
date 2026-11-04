@@ -1,8 +1,6 @@
 # Two-part march notice and officer dispatch: a priced editorial reading
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p109 C1
 
@@ -11,6 +9,9 @@
 **Source and dates:** Page heading: 3rd NOVEMBER, 1918; C) UKS v ZON (0.55 a.m., November 3rd); 2135 2 TLE; 1 TL RICHI-210.
 
 ![Source p109 C1](../../experiments/radio_relay_and_march_notice/sources/p109_C1.png)
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -23,6 +24,8 @@ IXPXMXZU1163EPB41NUERJEHSAUFAOLE8STRECKENSUEDUNGARVSUNTERBROCHEVXARMMETRITT4X11X
 ```text
 IXPXMXZU1163EPB41NVERKEHRAUFALLENSTRECKENSUEDUNGARNSUNTERBROCHENXARMEETRITT4X11XFUSSMARSCHNACHNORDOSTENAN
 ```
+
+</details>
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
@@ -61,6 +64,9 @@ All indices are zero-based.
 
 ![Source p109 C2](../../experiments/radio_relay_and_march_notice/sources/p109_C2.png)
 
+<details>
+<summary>Source and cipher evidence</summary>
+
 **Raw output:**
 
 ```text
@@ -72,6 +78,8 @@ GENERAL?TABSOFFZX?MFLUGZEUGWIRDEN0SANRTXXAXOXKX11XEINSX4X7023
 ```text
 GENERALSTABSOFFZXIMFLUGZEUGWIRDENTSANDTXXAXOXKX11XEINSX4X7023
 ```
+
+</details>
 
 **Readable German — the same candidate labels with spacing and punctuation:**
 
@@ -96,4 +104,4 @@ All indices are zero-based.
 
 The [input](../../experiments/radio_relay_and_march_notice/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/radio_relay_and_march_notice/certificates.json) contains the raw paired-coordinate domains, each source change and the forward checks. The [verifier](../../experiments/radio_relay_and_march_notice/verify.py) checks the unchanged published keys and the live German quotations, retaining all numerical and letter labels.
 
-Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/radio_relay_and_march_notice/prior_candidates.json). No first-decipherment priority is claimed.
+Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/radio_relay_and_march_notice/prior_candidates.json).

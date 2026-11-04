@@ -1,8 +1,6 @@
 # Radio instructions: p77 B and p134 B
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case index](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Two source-checked contextual records, outside the 22-target challenge. The established period keys are credited to the earlier corpus researchers. Source transcription, comparison, and verification: **icekylinx and GPT-6 Astra Pro**. No first decipherment priority is claimed for these wider-corpus messages.
 
@@ -28,11 +26,16 @@ Source: [Childs p77 B](../../sources/excerpts/childs_p77_B.png), PDF page 80; he
 
 The **102 source slots** yield **50 of 51 fixed characters** under `Nov4-6`:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 EGLV2SSEXT?LEGRXDE8X4XPORIODEINX5XWIEDERHOLENXOSMXX
 ```
+
+</details>
 
 The malformed final glyph of group 16, source index 79, remains unknown. The place name and other corrected words are editorial. The repeated instruction independently supports the corresponding vocabulary in [p132](../p132.md); it is not an identical copy, does not establish `VORHER`, and does not explain what the numbered periods denote.
 

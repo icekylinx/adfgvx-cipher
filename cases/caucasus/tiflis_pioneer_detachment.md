@@ -1,6 +1,6 @@
 # A pioneer detachment may remain in Tiflis
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs p81 B (PDF p84), 30 October 1918; published `Oct28-31` key, unchanged. [Source crop](../../experiments/deutzitag_dispatch_inquiries/sources/p81_B.png), [inputs](../../experiments/deutzitag_dispatch_inquiries/inputs.json), [exact certificate](../../experiments/deutzitag_dispatch_inquiries/certificates.json).
 
@@ -10,11 +10,16 @@ The clear header addresses General von Kress in Tiflis: `NKJ v LP (3.53 p.m., Oc
 
 All 132 source coordinates are observed. They decrypt directly to 66 fixed labels with no repair:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ZUXNRX4452XPIONXABTXKANNINTIFLISBELASZENWERDENXGROENERXBX103830XO9
 ```
+
+</details>
 
 Reading: “Zu Nr. 4452: Pion.-Abt. kann in Tiflis belassen werden. Groener. B. 103830 O9.”
 

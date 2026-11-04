@@ -1,8 +1,6 @@
 # p84 A/B — Release of oil and Black Sea shipping safety
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Coordinate certificate](../../experiments/corpus_recovery/certificates.json)
+[ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Coordinate certificate](../../experiments/corpus_recovery/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Two complete, unchanged-source readings.** The published October 28–31 key
 deciphers all **223 plaintext positions** from **446 received coordinates**.
@@ -32,11 +30,16 @@ The [source](../../experiments/corpus_recovery/sources/p84_A.png) gives
 `FUER POT v NKJ (4.17 a.m., November 1st)` and `RICHI-244`. A time before
 `(30)` is partly illegible. All 244 ciphertext coordinates are legible.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 DRAHTETOBERNEUTERBEFEHLIZZETPASCHAXIZZETPASCHAZURFREIGABEDEROELEERFOLGGEHABTHATXXKRIEGSAMTKRIEGSROHSTOFFABTLGXNRX0ROEMX1XX
 ```
+
+</details>
 
 All **122/122** positions follow directly from the stated source and key.
 The displayed prose adds spacing and punctuation only.
@@ -63,11 +66,16 @@ The [source](../../experiments/corpus_recovery/sources/p84_B.png) gives
 `316 15/10 V POT 1021 FUER OSM UND COS (30) VON POT`, and `RICHI-202`.
 The body has exactly 202 valid coordinates.
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ERBITTENFUERTRUPPENKDOXKAUKASUSWENNMOEGLICHTAEGLICHKURZEMITTEILUNGOBSCHWARZEMEERSCHIFFAHRTGEFAEHRDETX
 ```
+
+</details>
 
 All **101/101** positions are fixed with no source edit.
 

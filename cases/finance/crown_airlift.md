@@ -1,26 +1,49 @@
 # Crown airlift to Kronstadt and Hermannstadt
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
-**Source:** J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
-printed p174, PDF p177, A1–A3. **Edition:** icekylinx and GPT-6 Astra Pro.
-The source is a three-part message dated 10 November 1918, with header
+**A daily million crowns, delivered by air.** This three-part message of
+10 November 1918 asks OHL for ordinary aircraft to bring cash alternately
+to Kronstadt and Hermannstadt. Its interrupted final instruction asks for
+small-denomination notes. A complete second copy now supplies the missing
+ciphertext behind that instruction, leaving one explicitly priced word
+repair.
+
+The request concerns usable cash at a destination, not merely a monetary
+total. Regular delivery, alternating landing places and small notes all
+appear in the message. The [thirty-million-crown request of the previous day](nov9_crown_airlift_and_embassy.md)
+and the [later reply about a shortage of banknotes](p205_A.md) place it in a
+wider exchange about paying and purchasing during withdrawal. Their surviving
+references do not establish that one proposed airlift replaced another.
+None of these requests proves that a flight took place.
+
+**Source:** Childs printed p174, PDF p177, A1–A3; header
 `--- v ZO'N (07.24 p.m., November 10th); 17.50 3 TLE`.
+**Source edition and comparison:** icekylinx and GPT-6 Astra Pro.
 
-The message describes an urgent shortage of crowns and requests daily
-delivery of one million crowns by ordinary aircraft, alternately to
-Kronstadt and Hermannstadt. An explicitly interrupted final part can be
-read as requesting small-denomination notes. This is evidence of a
-request, not proof of completed flights or receipt of cash.
+## Later complete-copy witness
 
-The period square and transposition are unchanged. The source images,
-literal rows, every coordinate-to-plaintext map and exact candidate
-edits are in [the experiment](../../experiments/crown_airlift/README.md).
+The [complete p195 A2 witness](crown_banknote_completion.md) prints all
+98 coordinates of the final instruction. It supplies the nineteen missing
+tail slots and selects the end gap within the tested single-gap family.
+Eleven of the twelve earlier word-based fills agree with it; one is contradicted.
+
+The full copy still requires one observed-coordinate repair for SENDEN.
+The receptions disagree at one prefix coordinate and carry different dates
+and part numbers. The linked comparison retains these qualifications.
 
 ## p174 A1
 
-The source advertises and prints **146 coordinates**. The raw 73-character
-plaintext requires no repair:
+**Readable German — first-part wording; the final ellipsis marks continuation in A2:**
+
+> An OHL, Op. Kronenbedarf sehr dringend. Bitte täglich mit gewöhnlichem Flugzeug …
+
+This intact first part states the urgency and proposes daily delivery by
+ordinary aircraft. It prints the advertised 146 coordinates and gives
+73 raw labels without a repair.
+
+<details>
+<summary>Source-exact first-part stream</summary>
 
 **Raw output:**
 
@@ -28,15 +51,20 @@ plaintext requires no repair:
 ANXOHLXOPXXKRONENBEDARFSEHRDRINGENDXBITTETAEGLICHMITGEWOEHNLICHEMFLUGZEUG
 ```
 
-**Readable German — first-part wording; the final ellipsis marks continuation in A2:**
-
-> An OHL, Op. Kronenbedarf sehr dringend. Bitte täglich mit gewöhnlichem Flugzeug …
+</details>
 
 ## p174 A2
 
-The source advertises and prints **146 slots**. One printed glyph is `C`,
-outside the ADFGVX coordinate alphabet, and is retained as an erasure in
-the model. The raw reading is:
+**Readable German — second-part wording; the ellipses mark its joins with A1 and A3:**
+
+> … eine Million Kronen abwechselnd nach Kronstadt u. Hermannstadt. Feldkriegskasse …
+
+This is the amount and destination instruction: one million crowns,
+alternately to the two named places. `Feldkriegskasse` remains the exact
+office word at the part boundary; no missing verb or address is supplied.
+
+<details>
+<summary>Second-part streams and two explicit coordinate changes</summary>
 
 **Raw output:**
 
@@ -44,33 +72,34 @@ the model. The raw reading is:
 EINEMILLIONKRONENABWECHSWLNDNACHXKRONSTADTXUXHERMANNSTADTXFELDKR?EGSKASSE
 ```
 
-The explicit ordinary-word candidate is:
-
 **Edited output:**
 
 ```text
 EINEMILLIONKRONENABWECHSELNDNACHXKRONSTADTXUXHERMANNSTADTXFELDKRIEGSKASSE
 ```
 
-This changes observed source coordinate **103 from D to X**, repairing
-`ABWECHSWLND`, and fills the invalid printed `C` at source index **80**
-with **D**, producing the missing `I` in `FELDKRIEGSKASSE`. Indices are
-zero-based. The candidate encrypts exactly to the certified repaired
-ciphertext; no coordinate is inserted or removed in this part.
+The source prints all 146 advertised slots. Observed source coordinate 103
+changes D→X for `ABWECHSELND`; the invalid printed C at index 80 is filled
+with D for the I in `FELDKRIEGSKASSE`. These zero-based changes cost one
+observed-coordinate substitution and one printed-glyph fill. The frame and
+published key are unchanged.
 
-**Readable German — second-part wording; the ellipses mark its joins with A1 and A3:**
-
-> … eine Million Kronen abwechselnd nach Kronstadt u. Hermannstadt. Feldkriegskasse …
-
-The exact unpunctuated office word at the boundary with A3 is retained;
-the edition does not invent a missing verb or office address.
+</details>
 
 ## p174 A3
 
-The source indicator is **RICHI-98**, but only **79 coordinates** are
-printed, followed by **“Did not finish.”** The second line begins with a
-complete `GAVGX` group that earlier OCR omitted. Appending 19 absent
-coordinates gives the declared source model and raw 49-position reading:
+The current copy-supported instruction is **in möglichst kleinen Scheinen
+senden**: send the money in notes as small as possible. Its reference
+`OKM1A4A11333OP` remains literal. Only 79 of the advertised 98 coordinates
+survive in p174 itself; the complete evidence is in p195. The drawer below
+preserves the earlier reconstruction as a historical comparison.
+
+<details>
+<summary>Earlier A3 reconstruction — superseded by the complete-copy evidence</summary>
+
+The early edition modeled the advertised 98 slots by appending nineteen
+unknown coordinates to the 79-coordinate source, after “Did not finish.”
+It also restored the complete printed group GAVGX omitted by earlier OCR.
 
 **Raw output — conditional 98-slot frame; nineteen absent tail coordinates left unknown:**
 
@@ -78,29 +107,19 @@ coordinates gives the declared source model and raw 49-position reading:
 INM???LICHS???EINEN???EINEN???DENLX???1A4A1????OP
 ```
 
-The first 33 positions admit the ordinary-word candidate:
-
 **Edited output — same conditional 98-slot frame; proposed first 33 positions:**
 
 ```text
 INMOEGLICHSTKLEINENSCHEINENSENDENLX???1A4A1????OP
 ```
 
-With editorial spacing, its readable prefix is:
-
 **Readable German — proposed body excerpt under the incomplete-tail model:**
 
 > In möglichst kleinen Scheinen senden …
 
-The candidate fills 12 absent coordinates and makes **zero substitutions
-to the 79 observed coordinates**. Seven absent coordinates remain
-unfilled. In particular, the observed `L` immediately after `SENDEN` is
-not silently changed to a separator, and `1A4A1` is not converted into a
-date or reference number.
-
-Ordinary words alone leave a geometry ambiguity. Screening all 80
-positions for one gap of 19 coordinates, while masking the last 16
-plaintext positions, finds these three zero-substitution fits:
+The proposal filled twelve absent coordinates without changing an observed
+p174 value; seven remained unknown. Its L after SENDEN and 1A4A1 labels were
+retained. Three placements supported the same ordinary prefix:
 
 | Gap before source index | Raw reading |
 |---:|---|
@@ -108,40 +127,31 @@ plaintext positions, finds these three zero-substitution fits:
 | 78 | `INM???LICHS???EINEN???EINEN???DENLX????A4A1????OP` |
 | 79 | `INM???LICHS???EINEN???EINEN???DENLX???1A4A1????OP` |
 
-All three support the same ordinary prefix without observed-coordinate
-changes. The primary gap at 79 follows the source interruption, rather
-than selecting a plausible-looking reference field. Every tied fit is
-retained in the certificate. The absent letters remain an editorial
-candidate, even when the candidate fits all observed pairs exactly.
+Boundary 79 was chosen from the printed interruption, before the complete
+copy independently selected it within this gap family. The earlier fills
+remained conjectures; the new witness subsequently contradicted one.
+
+The original three-part package counted 371 native slots (370 valid
+coordinates), 195 modeled plaintext positions, 175 fixed raw labels and
+188 after its then-current proposals. These are historical package counts,
+not the current cross-copy restoration total.
+
+</details>
 
 ## Attribution and reproducibility
 
-The published Nov10–12 square and ranks supply the cryptographic key.
-The first two bodies also predate this edition as unreviewed repository
-OCR-derived screen results, now frozen with their original hashes.
-This edition adds visual source correction, a documented reconstruction
-of the interrupted third part and exact repair costs. Bounded checks of
-the Lasry et al. paper, dissertation chapter and cached comment thread
-did not locate an explicit discussion of this message; that does not
-establish historical priority.
+The unchanged Nov10–12 key is prior published work. **icekylinx and GPT-6
+Astra Pro** contribute the inspected source edition and the later physical
+copy comparison. The first two parts had already appeared as unreviewed
+repository OCR candidates; their frozen records and original hashes remain
+in the experiment. Bounded prior-work checks did not locate an explicit
+published discussion of this message, without establishing universal priority.
 
-The three physical records contain **371 source slots**, of which **370**
-are valid coordinates. Their declared models contain **195 plaintext
-positions**, with **175 fixed raw positions** and **188 fixed positions**
-after the explicit candidates. These are source-edition counts, not 188
-newly discovered plaintext characters or new key assignments.
+The [original source package](../../experiments/crown_airlift/README.md)
+keeps the early frame and repair audit. The [copy-retrieval package](../../experiments/retrieved_copy_editions/README.md)
+records the stronger current source relationship. Both can be reproduced.
 
 ```bash
 python experiments/crown_airlift/verify.py --verify
 python experiments/crown_airlift/verify.py --verify --pdf /path/to/childs.pdf
 ```
-
-## Later complete-copy witness
-
-The [p195 A2 source edition](crown_banknote_completion.md) supplies the
-nineteen missing tail coordinates of p174 A3. Eleven earlier conjectural
-fills agree with the new source and one is contradicted. The literal copy
-resolves the contiguous-gap location within the tested family, but `SENDEN`
-still needs one observed-coordinate repair. The conflicting source dates
-and part numbers remain explicit. This page and its original certificate
-retain the earlier, more limited reconstruction for comparison.

@@ -1,6 +1,6 @@
 # Oderberg transport fragment and a troop-situation query
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Two additional physical records from the upper part of Childs p211 have source-reviewed readings.** The 176-coordinate second part is readable without repairs. A separate 68-coordinate query asks about the situation and the troops' behavior, with three word repairs. The lower three-part key-schedule message on the same page is [already cataloged separately](../radio/p211_key_schedule.md).
 
@@ -19,11 +19,16 @@ The upper section is headed **INTERCEPTED BY BRITISH STATIONS**, **20 November 1
 
 The literal 88-label reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 ODERBERGKEINESCHWIERIGKEITENINDENWEGLEGENWIRDXXEMPFANGSBESTAETIGUNGXXOHLXRMJAJJ9JJOPXGEH
 ```
+
+</details>
 
 The surviving clause ends with “will place no difficulties in the way,” followed by a request to acknowledge receipt. Its beginning names Oderberg. The missing first part contains the subject and preceding context, so this fragment alone does not identify who made the undertaking, what complete route was involved, or a final permission decision. The closing `OHL X RMJAJJ9JJ OP X GEH` remains exactly as deciphered; no J or 9 is normalized into a different reference format.
 
@@ -50,19 +55,29 @@ This is the short B immediately below the transport fragment, before the horizon
 
 The unchanged source yields:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 WIELAGEDORTXWIRVERHALTANDERTRUPPAN
 ```
 
+</details>
+
 The editorial proposal is:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 WIELAGEDORTXWIEVERHALTENDERTRUPPEN
 ```
+
+</details>
 
 With spacing and punctuation: **“Wie Lage dort? Wie Verhalten der Truppen?”** It asks about the situation there and the behavior of the troops. The context does not identify which troops or location.
 

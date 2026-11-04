@@ -1,6 +1,6 @@
 # Supply cargo at Nikolaev and the sale of Corcovado
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
 
@@ -44,22 +44,32 @@ The source advertises `RICHI-292`, but prints **293 valid coordinates**.
 Its tenth group is the six-letter `XAXADV`. Removing its final `V`, source
 index 50, gives this 146-position raw decryption:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional removal of the final V in six-coordinate group XAXADV:**
 
 ```text
 ANFEIGENHAUSSECHSHUNDERTACHTZEHNXHERKULESMELDETZWOEZFTENNOVEMBERDASSNIKOLAJEWMEHREREDAMPFERLEBERKAKAUPULSERAUSXOPERETTEXZIRKA1?0TONNENEINGELAUFENX
 ```
 
+</details>
+
 It addresses Feigenhaus and reports Herkules's news of November 12 about
 several steamers entering Nikolaev. The cargo wording is damaged. Three
 observed-coordinate substitutions support the same-length ordinary-word
 repairs `ZWOELFTEN` and `KAKAOPULVER`:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — same conditional single-coordinate deletion, followed by word repairs:**
 
 ```text
 ANFEIGENHAUSSECHSHUNDERTACHTZEHNXHERKULESMELDETZWOELFTENNOVEMBERDASSNIKOLAJEWMEHREREDAMPFERLEBERKAKAOPULVERAUSXOPERETTEXZIRKA1?0TONNENEINGELAUFENX
 ```
+
+</details>
 
 `LEBER` remains unexplained, and `OPERETTE` is retained without claiming its
 referent. The amount remains the literal `1?0`; the middle symbol is at the
@@ -76,20 +86,30 @@ broader models, including the alternatives' changed code-name/quantity text.
 
 All 344 source coordinates are valid. The raw 172-position reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 DASCHWALBENSCHWANZUNDABTRANVPORTABNIKO?AJEWELSEVORLAEUFIGUNMOEGLICHXWAREBLEIBTDAHERUNTERMILITAERISCHERBEWACHUNGANBORDXVERSUCHETDURCHVORZUGSKARTENDARUEBERNAEHERESZUERFAHRENX
 ```
 
+</details>
+
 Two observed-coordinate changes restore `ABTRANSPORT` and `NIKOLAJEW`,
 giving a complete, exactly reencryptable candidate:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 DASCHWALBENSCHWANZUNDABTRANSPORTABNIKOLAJEWELSEVORLAEUFIGUNMOEGLICHXWAREBLEIBTDAHERUNTERMILITAERISCHERBEWACHUNGANBORDXVERSUCHETDURCHVORZUGSKARTENDARUEBERNAEHERESZUERFAHRENX
 ```
+
+</details>
 
 The plain passage says that the goods therefore remain aboard under military
 guard, and asks the recipient to obtain more information through
@@ -109,19 +129,29 @@ Five positions, **164–168**, tie at **zero changes to observed coordinates**
 for the ordinary-word body. Gap 165 is a representative, not an established
 unique location. Its raw reading is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output — conditional missing-slot placement at gap 165; equivalent alternatives retained:**
 
 ```text
 SINDBEUNR?HIGTDANICHTWISS?NWASIHRINANBETRACHTLAGEBEGINNENWERDETXREICHSVERSORGUNGXADMIRALSTAB15?16DZWCIX
 ```
 
+</details>
+
 Filling two source erasures gives:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output — same conditional gap model, with the two stated fills:**
 
 ```text
 SINDBEUNRUHIGTDANICHTWISSENWASIHRINANBETRACHTLAGEBEGINNENWERDETXREICHSVERSORGUNGXADMIRALSTAB15?16DZWCIX
 ```
+
+</details>
 
 The sender is concerned because it does not know what the recipient will do
 in view of the situation. The message ends with `REICHSVERSORGUNG` and
@@ -145,20 +175,30 @@ The association with Corcovado is kept separate from that literal spelling.
 The first part has 394 source slots. The last glyph in group 7, `AAXFY`,
 is an invalid coordinate `Y` and remains an erasure in the raw reading:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 MXMXDXNICOLAJEFFXWENNVERKAUFXCORCOWADOXANTUERKEINOCINICHTINORDNUNGSOLLVERKAUFNI?HTSTA?TFINDENXFALLSAUFGRUNDBEREITSGETAETIGTENVERKAUFSEIGENTUMSUEBERTRAGUNGNOCHWICHTERFOLGTISTHATSOLCHEZUUNTERBLEIBENX
 ```
 
+</details>
+
 Three observed-coordinate substitutions and one invalid-glyph fill give
 this complete 197-position candidate:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 MXMXDXNICOLAJEFFXWENNVERKAUFXCORCOWADOXANTUERKEINOCHNICHTINORDNUNGSOLLVERKAUFNICHTSTATTFINDENXFALLSAUFGRUNDBEREITSGETAETIGTENVERKAUFSEIGENTUMSUEBERTRAGUNGNOCHNICHTERFOLGTISTHATSOLCHEZUUNTERBLEIBENX
 ```
+
+</details>
 
 Addressed to `M. M. D., Nicolajeff`, it says that if the sale to Turkey has
 not yet been settled, it should not take place. If a sale has already been
@@ -171,20 +211,30 @@ about what ultimately happened to the ship.
 All 360 printed slots are retained. One glyph is unreadable and another is
 an `E`-like overstrike, both preserved as source erasures. The raw text is:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 TUERKEIGEGENUEBERKNNGELTENDGEMCHTWERDENXREED?REIWILLDAMPFERANTUEKEINICHTVERKAUFENESSEIDENNDASSKAUFPREISINDEUTSCHLANDVOREIGENTUMSUEBERTRAGUNGBARBEZAHLTWERDEXMARIN?AMTXAXSECHSXS????0
 ```
 
+</details>
+
 Filling those two erased coordinates recovers `REEDEREI` and `MARINEAMT`,
 without changing any observed valid coordinate:
+
+<details>
+<summary>Proposed text and exact labels</summary>
 
 **Edited output:**
 
 ```text
 TUERKEIGEGENUEBERKNNGELTENDGEMCHTWERDENXREEDEREIWILLDAMPFERANTUEKEINICHTVERKAUFENESSEIDENNDASSKAUFPREISINDEUTSCHLANDVOREIGENTUMSUEBERTRAGUNGBARBEZAHLTWERDEXMARINEAMTXAXSECHSXS????0
 ```
+
+</details>
 
 The message supplies the position to present to Turkey: the shipowner will
 not sell the steamer unless the purchase price is paid in cash in Germany

@@ -1,6 +1,6 @@
 # p79 — medical formations lost in Palestine and their dissolution
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** A complete two-part source edition. The second part is identical in all 336 observed coordinates to the previously reviewed p83 B. Its immediately preceding first part supplies the medical-formation antecedent that was missing from the p83-only edition.
 
@@ -16,6 +16,9 @@ This identifies the antecedent of “these formations” in p83 B. The reading i
 
 Childs printed page 79 / PDF page 82 gives:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -26,6 +29,8 @@ SS DD AN TUERK GR H QU (GEN V SEECKT)
 2 TL RICHI-336
 ```
 
+</details>
+
 The first and second parts contain 262 and 336 printed slots. The first includes one P-shaped glyph outside the ADFGVX alphabet; it is retained literally in the input and treated as an unknown coordinate. The second is entirely valid coordinate text.
 
 The p83 repeat is separately headed4.09 p.m. on30 October. Both interception times remain as printed. The exact ciphertext equality connects the second parts without assuming a particular relay or retransmission chronology.
@@ -33,6 +38,9 @@ The p83 repeat is separately headed4.09 p.m. on30 October. Both interception tim
 ## p79 A1
 
 Raw decryption:
+
+<details>
+<summary>Source and cipher evidence</summary>
 
 **Raw output:**
 
@@ -46,15 +54,22 @@ NACHMELDUNGDESFELDSANCHEFSSINDDIEF?LDLAZX212X213X219XSANXKPX300XUNDXERSXSANXKPXI
 NACHMELDUNGDESFELDSANCHEFSSINDDIEFELDLAZX212X213X219XSANXKPX300XUNDXERSXSANXKPXINXPALAESTINABISAUFTEILEDESPERSONALSVERLORENGEGANGEN
 ```
 
+</details>
+
 The E in `FELDLAZ` fills the invalid-glyph coordinate at index 134. It costs **one source-mask fill and zero observed-coordinate substitutions**. All other 130 plaintext positions are direct readings.
 
 ## p79 A2
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
 ```text
 BEIMXKXMXISTBEANTRAGTSIEFUERAUFGELOESTZUERKLAERENXXNOCHVORHANDENESPERSONALDIESERFORMATIONENISTZUDENHEIMISCHENERSATZTRUPPENTEILENINMARSCHZUSETZENXOHLXRMX1XCXNRX103577XOP
 ```
+
+</details>
 
 This is a direct168-position reading with no source repairs. The verifier checks its full336-coordinate equality with the frozen p83 B transcription; the match is not limited to a selected plaintext passage. `K.M.` and the closing reference remain source abbreviations and labels.
 

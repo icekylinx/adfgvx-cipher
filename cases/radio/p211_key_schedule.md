@@ -1,8 +1,6 @@
 # p211, lower B — an explicit November/December key schedule
 
-**Reading layers:** [Raw output · Edited output · Readable German · Conditional interpretation](../../docs/reading-conventions.md). In decoded streams, `?` marks one unresolved position; `X` and numeral/letter labels remain literal.
-
-[Case guide](../README.md) · [ADFGVX Cipher](../../README.md)
+[Case guide](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Three source-checked parts form a readable key-handling
 instruction. The unchanged published `Nov4-6` key fixes **265 of 266 raw
@@ -61,6 +59,9 @@ is printed p211 / PDF p214. That page contains two different `B` labels under
 different headings. This case concerns the **lower B**, following a new
 **19 November 1918** heading:
 
+<details>
+<summary>Literal source transcription</summary>
+
 **Source transcription — clear header and/or literal source record:**
 
 ```text
@@ -70,6 +71,8 @@ FUER POT COS VON LP SS DD 2230 3 TLE
 2 TL: RICHI-184
 3 TL: RICHI-134
 ```
+
+</details>
 
 The page heading, the 22 November receipt and the undated `2230` internal
 time are all preserved. The later receipt does not justify relabelling the
@@ -81,11 +84,16 @@ confusing them with the upper B.
 
 Part 1, 214 slots / 107 fixed plaintext positions:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 NOVEMBERXGINGBAHNSC7LUESSELNICHTVERNICHTENXNACHRCHEFX4XB848727XXDEZRMBERXRINGBAHNSCHLUESSELTRITTVORLAEUFIGX
 ```
+
+</details>
 
 The proposed `GINGBAHN→RINGBAHN`, `SC7LUESSEL→SCHLUESSEL` and
 `DEZRMBER→DEZEMBER` each cost one known-coordinate substitution:
@@ -94,19 +102,29 @@ All other 211 coordinates stay unchanged.
 
 Part 2, 184 slots / 92 fixed positions, needs no repair:
 
+<details>
+<summary>Raw decoded text</summary>
+
 **Raw output:**
 
 ```text
 NICHTINKRAFTXDAFUERSCHLUESSELERSTERDEZEMBERWIEZEHNTERNOVEMBERUSWBISEINUNDZWANZIGSTERDEZEMBER
 ```
 
+</details>
+
 Part 3, 134 slots / 66 of 67 fixed positions:
+
+<details>
+<summary>Raw decoded text</summary>
 
 **Raw output:**
 
 ```text
 WIEDREISSI?STERNOVEMBERXXEMPFANGSBESTAETIGUNGXXNACHRCHEFZ4XBX47857X
 ```
+
+</details>
 
 The printed `R` in `FRXXX` is outside the coordinate alphabet. Filling that
 one slot, source index **16**, with `V` supplies the `G` in `DREISSIGSTER` and
