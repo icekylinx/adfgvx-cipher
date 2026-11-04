@@ -35,6 +35,7 @@ jobs:
           python experiments/session_review/verify.py --verify
           python experiments/post_push_review/verify.py --verify
           python experiments/post_push_review/verify_artifact_refresh.py
+          python -m unittest discover -s tests -p test_source_gap_evidence.py
           python data/reviews/verify_reading_conventions.py
           python data/reviews/verify_manual_readings.py
           python data/reviews/verify_semantic_readings.py
@@ -57,6 +58,8 @@ jobs:
           python experiments/p84_mother_illness_fragment/verify.py --verify
           python experiments/p163_headquarters_map_context/verify.py --verify
           python experiments/p163_rearguard_continuation/verify.py --verify
+          python experiments/p163_infrastructure_clause/verify.py --verify
+          python experiments/p163_infrastructure_clause/domain_words_oracle.py
           python experiments/p176_repeated_place/verify.py --verify
           python experiments/p116_optional_route_fragment/verify.py --verify
           python experiments/p116_optional_route_fragment/verify_approval.py --verify

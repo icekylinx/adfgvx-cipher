@@ -6483,7 +6483,7 @@
     {
       "path": "cases/military/p163_A.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "6bf53373d7ad5e35d75e3ca704d089338a9242a9a42667ee982bd32852186dc8",
+      "file_sha256_at_review": "49a50374665f7623f19053531278f8b25a5f836ada755e9570c7dff3dd3f373c",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -16988,6 +16988,56 @@
           "caption_required": true,
           "caption": "**Readable German — an equally compatible lexical counterexample:**",
           "review_note": "Literal bytes, layer, conditional frame and equal-price alternative qualifier reviewed together."
+        }
+      ]
+    },
+    {
+      "path": "cases/military/p163_infrastructure_clause.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "a4b4234ea75815dbfec472399e7e226e0b3d373966e401119b95245367ef68a0",
+      "review_basis": "Independent source-owner reconstruction and original PDF crop inspection; all 121 received coordinates retained, 53 clause halves matched, 65 added-slot fills priced; equivalent 284/286 frames and six wholly absent letters explicit.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "15f199ba2672d98fa91c9899fa0db958d22d1fa5ad327b4e26adefd1502ec03c",
+          "role": "raw_output",
+          "caption_required": true,
+          "review_note": "Original 121-coordinate source, unfilled 286-slot model, separately priced 59-position proposal and exact absent-letter/frame alternatives independently reviewed.",
+          "caption": "**Raw output — conditional 286-slot frame with 165 added leading unknown coordinates; unchanged Nov7–9 partial key; 0/143 fixed positions:**"
+        },
+        {
+          "index": 1,
+          "sha256": "c5f87a5fd1775e2539a5eadbfcd429c53bfc13eede628ebb487fc4c2f075a1a9",
+          "role": "edited_output",
+          "caption_required": true,
+          "review_note": "Original 121-coordinate source, unfilled 286-slot model, separately priced 59-position proposal and exact absent-letter/frame alternatives independently reviewed.",
+          "caption": "**Edited output — proposed clause at positions 84–142; zero observed substitutions, zero printed-mask fills and 65 added-slot fills; 59/143 assigned positions:**"
+        },
+        {
+          "index": 2,
+          "sha256": "1b25e7149616ef7ff8608725d536dd8335996996e0e3e44ab65a14a0ce80f209",
+          "role": "source_transcription",
+          "caption_required": true,
+          "review_note": "Original 121-coordinate source, unfilled 286-slot model, separately priced 59-position proposal and exact absent-letter/frame alternatives independently reviewed.",
+          "caption": "**Source transcription — all 121 received coordinates in printed order; no added prefix is included here:**"
+        },
+        {
+          "index": 3,
+          "sha256": "dad849bb9c482a5be2884deb11fde1f90a56b5c0b63bf5ed4b2d6884b48c8370",
+          "role": "reproduction_command",
+          "caption_required": false,
+          "review_note": "Original 121-coordinate source, unfilled 286-slot model, separately priced 59-position proposal and exact absent-letter/frame alternatives independently reviewed.",
+          "caption": "**Reproduction:**"
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "41942a25319a59b8666b77f08666b50fe8521f555acf0a1168f9f12db9828896",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — conditional clause in the 286-slot model; the first omission remains unread:**",
+          "review_note": "Conditional source clause only; inherited A17 wording and its repair remain separate."
         }
       ]
     }

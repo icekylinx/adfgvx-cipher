@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 125–149](../125-149/README.md) · [pp. 175–199 →](../175-199/README.md)
 
-**8 challenge entries · 124 other reviewed entries · 25 printed pages · 132 physical sources.**
+**8 challenge entries · 125 other reviewed entries · 25 printed pages · 133 physical sources.**
 
 Jump to page: [p150](#p150) · [p151](#p151) · [p152](#p152) · [p153](#p153) · [p154](#p154) · [p155](#p155) · [p156](#p156) · [p157](#p157) · [p158](#p158) · [p159](#p159) · [p160](#p160) · [p161](#p161) · [p162](#p162) · [p163](#p163) · [p164](#p164) · [p165](#p165) · [p166](#p166) · [p167](#p167) · [p168](#p168) · [p169](#p169) · [p170](#p170) · [p171](#p171) · [p172](#p172) · [p173](#p173) · [p174](#p174).
 
@@ -196,6 +196,7 @@ Page numbers refer to the printed Childs volume. Each row links to the complete 
 | [p163 A13](../../military/p163_A.md) | Evacuation instructions and a repeated rearguard-position word | 126/134 raw; repeated-word layer 134/134 fixed at thirteen substitutions and eight fills, retaining ALS3Q; separator and AUS layers separately priced | icekylinx and GPT-6 Astra Pro (2026) |
 | [p163 A14](../../military/p163_A.md) | Final evacuation in one move; retain the Bucharest garrison | 121/122 raw positions; five substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
 | [p163 A15](../../military/p163_A.md) | Bucharest garrison transfer and third rearguard-position continuation | 36/117 raw; conditional 116/117 at three substitutions and 81 mask fills; shared 5/6 digit and DER/NUR alternative retained | icekylinx and GPT-6 Astra Pro (2026) |
+| [p163 A16 (local label)](../../military/p163_infrastructure_clause.md#p163-a16) | Conditional infrastructure clause in an unnumbered jammed continuation | 121 unchanged received coordinates; conditional 286-slot frame, raw 0/143; 59-position clause at zero observed changes and 65 added-slot fills; six letters wholly absent, 84 unknown positions, equivalent 284-slot frame retained | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier source edition credited |
 | [p163 A17](../../military/p163_A.md) | Danube vessels and Scholtz headquarters movement to Calimanesti | 125/132 raw positions; sixteen substitutions and six fills | icekylinx and GPT-6 Astra Pro (2026) |
 | [p163 A18](../../military/p163_A.md) | Headquarters moves to Hermannstadt, Kronstadt and Sinaia | 131/155 raw positions; twenty-one substitutions and 24 fills | icekylinx and GPT-6 Astra Pro (2026) |
 

@@ -1,0 +1,375 @@
+{
+  "schema": "adfgvx-p163-infrastructure-clause-inputs-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "indexing": "All source, modeled-coordinate and plaintext positions are zero-based. Span ends are exclusive.",
+  "case": "cases/military/p163_infrastructure_clause.md",
+  "baseline_inputs": {
+    "path": "experiments/withdrawal_recovery/inputs.json",
+    "sha256": "07a7dfcb2f28918c4c9dad2303d42cdf074f0698fa9f1abb190e0a2200d9d334"
+  },
+  "baseline_certificate": {
+    "path": "experiments/withdrawal_recovery/certificates.json",
+    "sha256": "d14806081bc0b2183653238f024d05ac745b35904fa4dd084922602bc96454de"
+  },
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "id": "p163_A16_source",
+      "path": "sources/p163_unlabelled.png",
+      "printed_page": 163,
+      "pdf_page_1based": 166,
+      "crop_pdf_points": [
+        55,
+        519,
+        506,
+        574
+      ],
+      "render_scale": 4,
+      "storage": "embedded_png",
+      "width": 1804,
+      "height": 220,
+      "sha256": "da934dc76267ffebc66cd560ec39f27c1dcf01e749120a9d2ac3a7e2c2e8818d",
+      "rgb_sha256": "3e00d29892e3fce612b52d772cc304fa23d577d62de0525c310c86c6b98d2300"
+    }
+  ],
+  "key": {
+    "id": "Nov7-9",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      7,
+      15,
+      1,
+      11,
+      16,
+      5,
+      8,
+      14,
+      3,
+      18,
+      9,
+      13,
+      2,
+      17,
+      20,
+      10,
+      19,
+      4
+    ],
+    "column_count": 20,
+    "square": "PRMYUW3LZGES8C71QOV29ITB40?KXH?AJNDF",
+    "square_rows": [
+      "PRMYUW",
+      "3LZGES",
+      "8C71QO",
+      "V29ITB",
+      "40?KXH",
+      "?AJNDF"
+    ],
+    "known_cell_count": 34,
+    "missing_plaintext_symbols": "56",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 241,
+        "pdf_page_1based": 244,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      },
+      {
+        "type": "author_dissertation",
+        "author": "George Lasry",
+        "year": 2018,
+        "url": "https://www.uni-kassel.de/upress/online/OpenAccess/978-3-7376-0458-1.OpenAccess.pdf",
+        "table": "6.2",
+        "printed_page": 99,
+        "pdf_page_1based": 120,
+        "notes": "Visually verified partial square. The table has unrelated transposition typesetting errors; it is used here only to corroborate unfilled substitution cells."
+      }
+    ],
+    "notes": [
+      "These cells are unfilled both in the historical appendix and in Lasry et al. Table 2 / Lasry dissertation Table 6.2, not merely unknown to the 1918 analysts. Baseline fills remain separate hypotheses unless an independent constraint supports them.",
+      "An illustrative square in paper Figure 2 / dissertation Figure 6.2 places VF=6 and XA=5, opposite the baseline fill. It also prints N twice (AX and XG), contradicting the final key table. Treat the two digits as unresolved, rather than elevating the inconsistent illustrative figure to an established key."
+    ],
+    "baseline_square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+    "baseline_differences": [
+      {
+        "coordinate": "VF",
+        "baseline": "5",
+        "audited": "?"
+      },
+      {
+        "coordinate": "XA",
+        "baseline": "6",
+        "audited": "?"
+      }
+    ],
+    "category": "published_period_or_CHI_key",
+    "previously_published_completion": {
+      "square": "PRMYUW3LZGES8C71QOV29ITB405KXH6AJNDF",
+      "author": "Norbert (2017 comment author)",
+      "date": "2017-03-01",
+      "comment": 20,
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-852668",
+      "status": "Published solver hypothesis, not an invention of the later baseline repository. The conservative square retains cells left unknown in Lasry's final published table.",
+      "extra_cells": [
+        {
+          "row_column": "VF",
+          "proposed": "5"
+        },
+        {
+          "row_column": "XA",
+          "proposed": "6"
+        }
+      ]
+    }
+  },
+  "records": [
+    {
+      "id": "p163_A16",
+      "legacy_source_record_id": "p163_A_unlabelled",
+      "printed_page": 163,
+      "pdf_page_1based": 166,
+      "printed_part_number": null,
+      "contextual_part_number": 16,
+      "source_header": "A) --- v UKS (1.21 a.m., November 9th); unlabelled continuation, J'md; RICHI----",
+      "source_rows": [
+        "FVVAX XAGVD VGDXV VGDVV VGDDX VXGGG XXGVG",
+        "DDVVV DGXVV DXGVX VFDDD DXGXV GDXAX VGDVD GDGVV",
+        "GDVVG GAGVV VVVVX XVVAG DADXD DDDXD DXXGA DDDDG",
+        "XXGXD A"
+      ],
+      "source_slots": 121,
+      "advertised_length": null,
+      "source_annotation": "(J'md) precedes the received body; the part label and RICHI value are absent.",
+      "model": {
+        "kind": "leading_loss",
+        "modeled_coordinates": 286,
+        "added_unknown_prefix_coordinates": 165,
+        "all_received_source_indices_retained_in_order": true,
+        "transmitted_length_established": false
+      },
+      "expected_raw": "???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????",
+      "readable_candidate": "????????????????????????????????????????????????????????????????????????????????????WEGENZERSTOERUNGVONEISENBAHNENXSTRASSENUNDTELEPHONLEITUNGEN",
+      "proposed_span": {
+        "start": 84,
+        "stop": 143,
+        "text": "WEGENZERSTOERUNGVONEISENBAHNENXSTRASSENUNDTELEPHONLEITUNGEN"
+      },
+      "readable_german": "Wegen Zerstoerung von Eisenbahnen, Strassen und Telephonleitungen […]",
+      "primary_variant_id": "plural_und"
+    }
+  ],
+  "variants": [
+    {
+      "id": "plural_und",
+      "modeled_coordinates": 286,
+      "leading_unknown_coordinates": 165,
+      "start": 84,
+      "text": "WEGENZERSTOERUNGVONEISENBAHNENXSTRASSENUNDTELEPHONLEITUNGEN",
+      "connector": "UND",
+      "optional_heading": false
+    },
+    {
+      "id": "plural_mit",
+      "modeled_coordinates": 286,
+      "leading_unknown_coordinates": 165,
+      "start": 84,
+      "text": "WEGENZERSTOERUNGVONEISENBAHNENXSTRASSENMITTELEPHONLEITUNGEN",
+      "connector": "MIT",
+      "optional_heading": false
+    },
+    {
+      "id": "plural_wie",
+      "modeled_coordinates": 286,
+      "leading_unknown_coordinates": 165,
+      "start": 84,
+      "text": "WEGENZERSTOERUNGVONEISENBAHNENXSTRASSENWIETELEPHONLEITUNGEN",
+      "connector": "WIE",
+      "optional_heading": false
+    },
+    {
+      "id": "plural_with_heading",
+      "modeled_coordinates": 286,
+      "leading_unknown_coordinates": 165,
+      "start": 82,
+      "text": "8XWEGENZERSTOERUNGVONEISENBAHNENXSTRASSENUNDTELEPHONLEITUNGEN",
+      "connector": "UND",
+      "optional_heading": true
+    },
+    {
+      "id": "singular_separator_und",
+      "modeled_coordinates": 284,
+      "leading_unknown_coordinates": 163,
+      "start": 84,
+      "text": "WEGENZERSTOERUNGVONEISENBAHNENXSTRASSENUNDTELEPHONLEITUNGX",
+      "connector": "UND",
+      "optional_heading": false
+    },
+    {
+      "id": "singular_separator_mit",
+      "modeled_coordinates": 284,
+      "leading_unknown_coordinates": 163,
+      "start": 84,
+      "text": "WEGENZERSTOERUNGVONEISENBAHNENXSTRASSENMITTELEPHONLEITUNGX",
+      "connector": "MIT",
+      "optional_heading": false
+    },
+    {
+      "id": "singular_separator_wie",
+      "modeled_coordinates": 284,
+      "leading_unknown_coordinates": 163,
+      "start": 84,
+      "text": "WEGENZERSTOERUNGVONEISENBAHNENXSTRASSENWIETELEPHONLEITUNGX",
+      "connector": "WIE",
+      "optional_heading": false
+    },
+    {
+      "id": "singular_separator_with_heading",
+      "modeled_coordinates": 284,
+      "leading_unknown_coordinates": 163,
+      "start": 82,
+      "text": "8XWEGENZERSTOERUNGVONEISENBAHNENXSTRASSENUNDTELEPHONLEITUNGX",
+      "connector": "UND",
+      "optional_heading": true
+    }
+  ],
+  "suffix_geometry_audit": {
+    "minimum_modeled_coordinates": 122,
+    "maximum_modeled_coordinates": 1000,
+    "step": 2,
+    "minimum_reported_observed_halves": 25,
+    "model": "One leading unknown run followed by all 121 received coordinates; each candidate is anchored at the plaintext end. No rank or square changes."
+  },
+  "following_context": {
+    "record_id": "p163_A17",
+    "raw_opening": "ERFOGGTNOCHBEFEHL",
+    "earlier_edited_opening": "ERFOLGTNOCHBEFEHL",
+    "inherited_observed_change": {
+      "source_index": 172,
+      "from": "G",
+      "to": "D",
+      "plaintext_index": 4,
+      "raw": "G",
+      "edited": "L"
+    },
+    "native_predicate_span": {
+      "start": 7,
+      "stop": 17,
+      "text": "NOCHBEFEHL"
+    },
+    "limit": "The following part supports a sentence continuation. ERFOLGT includes the separately priced earlier repair; NOCHBEFEHL is native."
+  },
+  "numbering_context": {
+    "preceding_record": "p163_A15",
+    "preceding_literal_number": {
+      "plaintext_index": 92,
+      "text": "7"
+    },
+    "following_record": "p163_A17",
+    "following_literal_heading": "X9X",
+    "limit": "The wholly absent 8 is a structural proposal between literal 7 and 9, not an observed number."
+  },
+  "native_word_witnesses": [
+    {
+      "id": "p206_A1_zerstoerung",
+      "inputs": {
+        "path": "experiments/open_targets_continuation/inputs.json",
+        "sha256": "3e725d540949ed1b654d15d5e9282e49acf6ba2029443fbead7e606ffed9a1d8"
+      },
+      "container": "messages",
+      "record_id": "p206_A1",
+      "source_field": "source_rows",
+      "expected_raw_field": "expected_raw",
+      "key_id": "Nov16-18",
+      "word": "ZERSTOERUNG",
+      "scope": "A native stem inside ZERSTOERUNGEN; no identity with the p163 order is asserted."
+    },
+    {
+      "id": "p137_B4_eisenbahnen",
+      "inputs": {
+        "path": "experiments/retrieved_copy_editions/inputs.json",
+        "sha256": "c979ee62863e1e649650f268e525eb1640a225beb59a2ad60020dd9aa0c73a0c"
+      },
+      "container": "records",
+      "record_id": "p137_B4",
+      "source_field": "source_rows",
+      "expected_raw_field": "expected_raw",
+      "key_id": "Nov4-6",
+      "word": "EISENBAHNEN",
+      "scope": "A native word in another dispatch."
+    },
+    {
+      "id": "p100_B_leitungen",
+      "inputs": {
+        "path": "experiments/radio_contacts_and_keys/inputs.json",
+        "sha256": "87487f9517fb468dfaeb735e0921ec5b8bfd3d31e048fab5f9abbe7b6c484633"
+      },
+      "container": "records",
+      "record_id": "p100_B",
+      "source_field": "rows",
+      "expected_raw_field": "expected_raw",
+      "key_id": "Nov1-3",
+      "word": "LEITUNGEN",
+      "scope": "A native suffix inside DRAHTLEITUNGEN; TELEPHON is not supplied by this witness."
+    },
+    {
+      "id": "p140_B_strassen",
+      "inputs": {
+        "path": "experiments/corpus_attack/source_pairs.json",
+        "sha256": "a825bead697c662ecfdf93e839291957b9fd6b90203be08fa73ce1257eec70fc"
+      },
+      "container": "records",
+      "record_id": "p140_B",
+      "source_field": "raw_grouped",
+      "key_id": "Nov4-6",
+      "word": "STRASSEN",
+      "scope": "A native stem inside STRASSENBAUSONDERKOMMANDO; no shared message is asserted."
+    }
+  ],
+  "limits": [
+    "This is a conditional partial reading under an inferred leading-loss frame; the printed source does not establish its full length or part number.",
+    "All 121 received coordinates remain unchanged and in their original order. The 165 additional unknown positions are inferred missing coordinates, not printed masks.",
+    "The primary 59-character proposal supplies 65 added-coordinate values, changes no observed coordinate, and has 53 directly observed halves. Six proposed letters have neither half observed.",
+    "N284 and N286 have identical received-coordinate pairs and source ownership over their shared142 plaintext positions. N286 adds a wholly unobserved143rd plaintext position. The source therefore does not choose between their singular-plus-separator and plural endings.",
+    "UND, MIT and WIE each fit the three-letter connector with the same observed-coordinate price. The candidate UND follows the coordinated-list interpretation.",
+    "The optional8X heading is separately priced. Its8 is wholly unobserved. The primary record retains both heading positions as unknown.",
+    "The first84 primary plaintext positions remain unresolved. No fluent opening inferred by a language model is accepted.",
+    "The four listed individual-word witnesses and adjacent context are not a duplicate plaintext of the whole clause. No native full TELEPHON witness was found.",
+    "Language scores and shuffled controls are discovery diagnostics, not proofs of uniqueness or calibrated historical probabilities.",
+    "The two unfilled square cells remain globally unassigned and injective over 5 and 6; neither value is decided by this clause."
+  ],
+  "discovery_metadata": {
+    "path": "experiments/p163_infrastructure_clause/discovery.json",
+    "sha256": "03d17692bc8eedad2638b0ff5c345580ee6c3c1d76d20f8f55e960d120466abb"
+  }
+}

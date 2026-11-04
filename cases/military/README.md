@@ -4,7 +4,7 @@
 
 Follow unit movements, evacuation, disarmament, internment, position reporting and army supply requests.
 
-**252 reviewed entries across 102 case pages, representing 252 physical sources; 252 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**253 reviewed entries across 103 case pages, representing 253 physical sources; 253 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -60,6 +60,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [Alpenkorps departure and march report](nov8_alpenkorps_report.md) | p160 A2 |
 | [Tiraspol fragment: fire at the border](tiraspol_border_report.md) | p162 C2 |
 | [p163 A — Withdrawal instructions and headquarters movements](p163_A.md) | p163 A13, p163 A14, p163 A15, p163 A17, p163 A18 |
+| [p163 A16 — Conditional infrastructure clause in a jammed continuation](p163_infrastructure_clause.md) | p163 A16 (local label) |
 | [p164 A4 — cavalry report](../context/p164_A4.md) | p164 A4 |
 | [November 9: Danube report and Arad provisions](danube_arad_witnesses.md) | p164 C1, p168 E |
 | [November 9 operational reports: Serbian cavalry and the retreat north](nov9_operational_reports.md) | p166 A1, p166 A2, p166 A3, p167 A3, p170 B1, p170 B2 |
@@ -238,6 +239,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p163 A13](p163_A.md) | Evacuation instructions and a repeated rearguard-position word | 126/134 raw; repeated-word layer 134/134 fixed at thirteen substitutions and eight fills, retaining ALS3Q; separator and AUS layers separately priced | icekylinx and GPT-6 Astra Pro (2026) |
 | [p163 A14](p163_A.md) | Final evacuation in one move; retain the Bucharest garrison | 121/122 raw positions; five substitutions and one fill | icekylinx and GPT-6 Astra Pro (2026) |
 | [p163 A15](p163_A.md) | Bucharest garrison transfer and third rearguard-position continuation | 36/117 raw; conditional 116/117 at three substitutions and 81 mask fills; shared 5/6 digit and DER/NUR alternative retained | icekylinx and GPT-6 Astra Pro (2026) |
+| [p163 A16 (local label)](p163_infrastructure_clause.md#p163-a16) | Conditional infrastructure clause in an unnumbered jammed continuation | 121 unchanged received coordinates; conditional 286-slot frame, raw 0/143; 59-position clause at zero observed changes and 65 added-slot fills; six letters wholly absent, 84 unknown positions, equivalent 284-slot frame retained | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier source edition credited |
 | [p163 A17](p163_A.md) | Danube vessels and Scholtz headquarters movement to Calimanesti | 125/132 raw positions; sixteen substitutions and six fills | icekylinx and GPT-6 Astra Pro (2026) |
 | [p163 A18](p163_A.md) | Headquarters moves to Hermannstadt, Kronstadt and Sinaia | 131/155 raw positions; twenty-one substitutions and 24 fills | icekylinx and GPT-6 Astra Pro (2026) |
 | [p164 A4](../context/p164_A4.md) | Dismounted cavalry west of an unidentified MIRCO | 87/99 raw positions; full proposal explicitly repaired | icekylinx and GPT-6 Astra Pro (2026) |

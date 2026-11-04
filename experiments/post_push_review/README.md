@@ -20,8 +20,12 @@ review-evidence artifacts to the pin map. It does not exempt any original path
 from hashing. All original fenced displays and headings in the five changed
 case pages are unchanged. The reading-layer manifest retains every earlier
 role, display and review-basis record; its updates are case-file hashes and the
-separately reviewed p84 page. The coverage dashboard changes only its live
-catalogue digest.
+separately reviewed p84 and p163 A16 pages. The live coverage dashboard adds
+one conditional physical-source edition, p163 A16: 121 received coordinates
+in a 286-slot frame with 165 hypothesized leading losses, 0 fixed raw labels
+and a separately counted 59-label candidate. The verifier reverses this one
+source contribution and the catalogue digest to recover the originally
+pinned dashboard byte-for-byte. Its 679-body census denominator is unchanged.
 
 The standard inventory verifier remains byte-identical. Run the additional
 check with:
@@ -35,7 +39,9 @@ text and exact inverse spans, verifies its original digest, checks the complete
 old-to-new pin map, and proves that the preserved inventory changed only its
 input digest and artifact count. It requires no historical checkout or network
 access. New reading claims and their repair prices remain in the linked source
-packages; this artifact review adds no source or raw plaintext count.
+packages. The preserved inventory adds no source or raw plaintext count;
+the independently recomputed live dashboard adds the one conditional A16
+source edition and keeps its supplied labels outside the raw total.
 
 ## Current preserved inventory
 

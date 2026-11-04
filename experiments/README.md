@@ -10,6 +10,7 @@ Our experiments recovered the shared p153 key, reconstructed damaged transmissio
 
 | Result | Evidence |
 |---|---|
+| **p163 jammed infrastructure clause** — 59 proposed positions preserve all 121 received coordinates; inferred frame length, six wholly absent letters and connector alternatives remain explicit | [Source map, equivalent frames and separate continuation repair](p163_infrastructure_clause/README.md) |
 | **p176 conditional repeated place** — a second Klausenburg proposal gives 59/80 positions with zero observed substitutions; Blankenburg and four wholly absent letters remain explicit | [Two native spans, repeated-word limits and all 120 squares](p176_repeated_place/README.md) |
 | **p163 repeated rearguard position** — paired NACHHUTSTELLUNG proposals add twenty half-supported positions; part 15 reaches 116/117 while its coupled numeral remains unresolved | [Two received word spans, 96 tied minima and exact repairs](p163_rearguard_continuation/README.md) |
 | **p89 guard-battalion destination fragment** — independent word witness and separate Berlin proposal extend the conditional layer from 151/179 to 166/179 with no new observed substitutions | [Five donor frames, source checks and retrieval controls](p89_guard_battalion_extension/README.md) |

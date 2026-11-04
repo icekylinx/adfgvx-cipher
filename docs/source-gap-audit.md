@@ -8,14 +8,14 @@ This audit covers the 21 physical bodies outside the readable catalogue at `f3ba
 |---|---:|---:|---:|---:|---|
 | p70_B1 | 206 | 199 | 7 | 206 | No accepted edition |
 | p71_A2 | 85 | 85 | 0 | 192 | [Partial/conditional edition](../cases/radio/p71_dc_machines_fragment.md#p71-a2) |
-| p84_C | 118 | 111 | 7 | 244 | [Partial/conditional edition](../cases/radio/p84_field_post_fragment.md) |
+| p84_C | 118 | 111 | 7 | 244 | [Partial/conditional edition](../cases/radio/p84_mother_illness_extension.md) |
 | p127_B2 | 152 | 104 | 48 | 152 | No accepted edition |
 | p137_A6 | 74 | 71 | 3 | Not printed | No accepted edition |
 | p137_B | 135 | 133 | 2 | 138 | [Partial/conditional edition](../cases/radio/p137_station_staff_query.md#p137-b) |
 | p145_A | 192 | 187 | 5 | Not printed | No accepted edition |
 | p152_A2 | 128 | 125 | 3 | 128 | [Partial/conditional edition](../cases/military/p152_crossing_fragment.md#p152-a2) |
 | p154_A2 | 118 | 118 | 0 | 162 | [Partial/conditional edition](../cases/military/p154_weisskirchen_fragment.md) |
-| p163_A16 | 121 | 121 | 0 | Not printed | No accepted edition |
+| p163_A16 | 121 | 121 | 0 | Not printed | [Partial/conditional edition](../cases/military/p163_infrastructure_clause.md#p163-a16) |
 | p164_D | 116 | 116 | 0 | 116 | [Partial/conditional edition](../cases/radio/p164_acknowledgment.md#p164-d) |
 | p167_C1 | 132 | 130 | 2 | 132 | [Partial/conditional edition](../cases/radio/p167_mission_address.md#p167-c1) |
 | p167_D | 187 | 183 | 4 | 190 | [Partial/conditional edition](../cases/people/p167_captain_dispatch_fragment.md#p167-d) |

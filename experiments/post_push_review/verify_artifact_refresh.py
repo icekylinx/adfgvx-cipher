@@ -10,7 +10,6 @@ from difflib import unified_diff
 from hashlib import sha256
 import json
 from pathlib import Path
-import re
 import sys
 
 HERE = Path(__file__).resolve().parent
@@ -77,6 +76,77 @@ def verify_manifest(before, after, record):
     assert sorted(set(current) - set(earlier)) == record['manifest_review']['added_case_paths']
 
 
+def verify_coverage_extension(before, after, record):
+    """Admit exactly one newly catalogued, independently recomputed source.
+
+    Reverse its live accounting contribution and recover the original pinned
+    dashboard byte-for-byte. The older source inventory remains unchanged.
+    """
+    from copy import deepcopy
+    import verify_childs_material_coverage as coverage
+
+    review = record['coverage_source_extension']
+    assert review['record_id'] == 'p163_A16'
+    manifest = coverage.read(str(coverage.DEFAULT.relative_to(ROOT)))
+    live = coverage.build(manifest)
+    assert not live['quantitative_contract_rejections']
+    assert coverage.render(live, manifest) == after
+    targets = [r for r in live['records']
+               if (r['printed_page'], r['source_section']) == (163, 'A16')]
+    assert len(targets) == 1
+    target = targets[0]
+    assert target['catalogue_edition_ids'] == ['p163_A16']
+    assert target['source_reviewed_in_current_catalogue_metadata'] is True
+    count = target['counts']
+    required = {
+        'record_id': 'p163_A16', 'key_id': 'Nov7-9',
+        'native_source_slots': 121, 'valid_source_coordinates': 121,
+        'native_mask_slots': 0, 'frame_kind': 'modified_frame',
+        'model_slots': 286, 'model_positions': 143,
+        'fixed_raw_labels_with_all_unobserved_coordinates_unassigned': 0,
+        'fixed_raw_labels_as_displayed_in_primary_certificate': 0,
+        'additional_fixed_labels_from_supplied_unobserved_coordinates': 0,
+        'prefilled_unobserved_model_indices': [], 'added_model_slots': 165,
+        'excluded_source_slots': 0, 'excluded_valid_source_coordinates': 0,
+        'candidate_counts': {'fixed_candidate_labels': 59,
+                             'observed_coordinate_substitutions': 0,
+                             'source_mask_fills': 0, 'added_coordinate_fills': 65},
+    }
+    assert {key: count[key] for key in required} == required
+    assert review['expected_primary_counts'] == required
+    prior = review['prior_unquantified_record']
+    assert (prior['printed_page'], prior['source_section']) == (163, 'A16')
+    assert prior['catalogue_edition_ids'] == [] and prior['counts'] is None
+    assert prior['source_reviewed_in_current_catalogue_metadata'] is False
+    before_current = review['before_current_summary']
+    deltas = {'catalogue_entries': 1, 'catalogued_physical_sources': 1,
+              'source_reviewed_physical_sources_per_metadata': 1,
+              'other_entries': 1, 'additional_physical_sources_beyond_challenges': 1,
+              'uncatalogued_bodies': -1, 'independently_quantified_primary_records': 1,
+              'unquantified_primary_records': -1}
+    assert set(before_current) == set(live['current'])
+    assert live['current'] == {key: value + deltas.get(key, 0)
+                               for key, value in before_current.items()}
+    before_totals = review['before_quantified_subset_totals']
+    expected_totals = deepcopy(before_totals)
+    changed = expected_totals['modified_frame']
+    changed['physical_sources'] += 1
+    changed['native_unpaired_orphan_coordinates'] += count['native_orphan_source_index'] is not None
+    changed['model_unpaired_orphan_coordinates'] += count['model_orphan_index'] is not None
+    special = {'physical_sources', 'native_unpaired_orphan_coordinates',
+               'model_unpaired_orphan_coordinates'}
+    for key in set(changed) - special:
+        changed[key] += count[key]
+    assert expected_totals == live['quantified_subset_totals']
+    original = deepcopy(live)
+    original['current'] = before_current
+    original['quantified_subset_totals'] = before_totals
+    original['current_catalogue_sha256'] = review['original_dashboard_catalogue_sha256']
+    original['records'] = [prior if (r['printed_page'], r['source_section']) == (163, 'A16') else r
+                           for r in live['records']]
+    assert coverage.render(original, manifest) == before
+
+
 def run():
     inputs = load('experiments/post_push_review/inputs.json')
     inventory = load('experiments/post_push_review/inventory.json')
@@ -130,11 +200,7 @@ def run():
         elif record['kind'] == 'reading_layer_manifest':
             verify_manifest(before, after, record)
         elif record['kind'] == 'coverage_dashboard':
-            pattern = r'Current catalogue SHA-256: `[0-9a-f]{64}`\.'
-            assert len(re.findall(pattern, before)) == len(re.findall(pattern, after)) == 1
-            assert re.sub(pattern, '', before) == re.sub(pattern, '', after)
-            current_catalog = digest((ROOT / 'data/reading_catalog.json').read_bytes())
-            assert f'Current catalogue SHA-256: `{current_catalog}`.' in after
+            verify_coverage_extension(before, after, record)
         else:
             raise AssertionError(record['kind'])
         for dependency in record['review_evidence']:

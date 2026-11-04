@@ -12,6 +12,17 @@ The [whole-material census](whole-material-coverage.md) registers **679 cipherte
 
 ## Current source refinements
 
+The [jammed p163 continuation](../cases/military/p163_infrastructure_clause.md)
+now has a **59-position conditional infrastructure clause**, proposing further
+orders about destruction of railways, roads and telephone lines when joined to
+the separately edited following part. All **121 received coordinates** remain
+unchanged. Its inferred 286-slot frame leaves **84 plaintext positions unknown**;
+the clause supplies 65 added-coordinate values and six wholly absent letters.
+An equivalent 284-slot model and multiple connector choices remain explicit.
+The 165 missing leading slots and local part label 16 are hypotheses, not
+printed source values. Catalogue coverage gains one reviewed partial edition;
+this does not make the whole damaged body readable.
+
 The [p176 repeated-place supplement](../experiments/p176_repeated_place/README.md)
 adds a conditional second `KLAUSENBURG` to the coal-train fragment, raising
 48/80 to **59/80 assigned positions** without changing an observed coordinate.
@@ -27,8 +38,8 @@ and eighteen mask fills, reaching **116/117 fixed positions** while retaining
 the unknown corps digit. Part 13 gains the repeated word at three substitutions
 and two fills. Together they add twenty proposed positions; all have observed
 half-coordinate support. Ninety-six equal-price shared strings and separate
-preposition alternatives remain explicit, and the intervening jammed part
-still has no accepted reading.
+preposition alternatives remain explicit. The neighboring jammed fragment
+now has the separately scoped conditional clause linked above.
 
 The [p89 A3 destination fragment](../experiments/p89_guard_battalion_extension/README.md)
 now admits `ERSXBATLX2XGARDEREGT`, independently observed in p104 D and
@@ -73,8 +84,8 @@ assign **52/122**, up from 28, with no observed substitutions in three of the
 five retained frames. The primary price is five printed-mask and 42 added-slot
 fills. `MUTTER SCHWER KRANK` and `MITTELSCHWER KRANK` are equally compatible;
 six new letters are wholly absent. No independent cipher copy of the new
-clause is known. **Fifteen of the original 21 source gaps now have reviewed
-editions; six still have none.**
+clause is known. With the new p163 conditional clause, **sixteen of the
+original 21 source gaps now have reviewed editions; five still have none.**
 
 The [jammed ending of Mackensen's withdrawal report](../experiments/p116_optional_route_fragment/APPROVAL.md)
 now has a **90/111-position conditional route-and-approval reading**. The
