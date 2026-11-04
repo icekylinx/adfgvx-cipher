@@ -2,13 +2,7 @@
 
 [Case guide](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
-**Status:** The unlettered final message on p159 is completely readable under
-the unchanged published `Nov7-9` partial key: all **98 plaintext positions**
-use established cells and all **196 source coordinates** re-encrypt exactly.
-Its body supplies a second-key witness for the more damaged p131 B / p149 B
-version. **Source assembly, comparison and edition:** icekylinx and GPT-6
-Astra Pro. Period-key recovery retains [George Lasry's published
-attribution](../../data/keys.json).
+Kremp reports his recovery and asks the military mission's transport section to set his departure date. The unlettered final message on p159 reads completely under the published **Nov7–9** key: **98 positions, with no source correction**. Its different-key reception also repairs the earlier p131 B / p149 B version.
 
 ## Reading
 
@@ -19,10 +13,7 @@ attribution](../../data/keys.json).
 
 **Meaning:** Kremp reports that he has recovered and asks the transport section
 of the military mission in Constantinople to specify his departure date.
-The opening `COELN11XAB1XSX` is directly decoded, but its administrative
-meaning is not established. Spaces, punctuation and the displayed abbreviation
-breaks are editorial. The person's identity and the cause of his earlier
-incapacity are not inferred.
+The opening `COELN11XAB1XSX` is directly decoded; its administrative meaning remains unknown. The displayed spacing and abbreviation breaks are editorial.
 
 The complete p159 plaintext is:
 
@@ -37,9 +28,7 @@ COELN11XAB1XSXMILMISSTRANSPABT1BCONSTANTINOPELXBINWIEDERHERGESTELLTBITTEABFAHRTS
 
 </details>
 
-No source correction, missing-coordinate guess or unused square assignment is
-needed for this reading. The two unassigned digits in the published `Nov7-9`
-square are not used by this message.
+All 196 source coordinates re-encrypt exactly using established square cells.
 
 ## Three source witnesses
 
@@ -53,12 +42,7 @@ The last item follows a fresh **9 November** heading below the three messages
 under 8 November. The machine-readable identifier `p159_D` is a local label
 for the fourth item; the source itself does not print a `D` beside it.
 
-The p131 and p149 ciphertexts differ at only three slots: p131 has two printed
-dashes where p149 has `A`, and one printed `D` where p149 has `V`. They are
-therefore close ciphertext witnesses, rather than two independent keys.
-The p159 message uses a different transposition, square and address prefix.
-Its 51-character body aligns with **48 of 51** directly decoded characters in
-p149 and **45 of 51** in p131.
+The p131 and p149 ciphertexts differ at three slots: two p131 dashes correspond to p149 `A`s, and one `D` corresponds to `V`. The p159 reception uses a different transposition, square and address prefix. Its 51-character body matches **48 of 51** directly decoded characters in p149 and **45 of 51** in p131.
 
 ## Exact repairs to the earlier version
 
@@ -85,17 +69,11 @@ changes to valid source coordinates, with no insertions or erasure fills:
 | 26 | D | G | `7` becomes `H` in `ABFAHRTSTAG`. |
 | 106 | F | V | The following `E` becomes `R`. |
 
-The remaining **165 printed coordinates** are unchanged. Re-encryption of
-the 84-position reconstruction reproduces precisely this three-change
-witness. The original `MILMIS` and `KONSTANTINOPEL` spellings are retained;
-the later message's `MILMISS` and `CONSTANTINOPEL` do not justify changing
-the earlier address.
+The remaining **165 printed coordinates** and the earlier address forms `MILMIS` and `KONSTANTINOPEL` are retained. The 84-position reconstruction re-encrypts to this three-change witness.
 
 For p131, the same body additionally fills its two dashes and changes source
 index 145 from `D` to `V`, yielding `BITTE` followed by `ABFAHRTSTAG`.
-Its complete repair cost is **four known-coordinate substitutions and two
-erasure fills**. The literal source remains preserved separately in every
-case.
+Its complete repair cost is **four known-coordinate substitutions and two erasure fills**.
 
 ## Verification and credit
 
@@ -109,6 +87,4 @@ the two cross-key body alignments.
 python3 experiments/open_targets_continuation/verify.py --verify
 ```
 
-This is a supplementary corpus reading, outside the 22 challenge targets.
-The period keys are prior work; the source checks and comparison here are by
-**icekylinx and GPT-6 Astra Pro**.
+The source identification, comparison and edition are by **icekylinx and GPT-6 Astra Pro**. Period-key recovery retains [George Lasry's published attribution](../../data/keys.json).

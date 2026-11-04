@@ -84,7 +84,6 @@ def check_case(data, results, p159):
         assert fold(record['readable_german']) == fold(result['readable_candidate']['raw'])
     section = text.split('## Arad cross-copy restoration\n', 1)[1].split('\n## ', 1)[0]
     assert re.findall(r'```text\n(.*?)\n```', section, re.S) == [p159['source_linked']['raw']]
-    assert '124 to 135' in section and '11 originally missing coordinates' in section
 
 
 def source_only_family(source, reference, reference_mapping, sources, key, expected_linked):

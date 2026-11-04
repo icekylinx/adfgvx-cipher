@@ -2,13 +2,7 @@
 
 [ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source and certificate](../../experiments/courier_recovery/README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
-**Records:** the repeated first part p153 E1 / p162 A1 and second parts
-p151 D2 / p153 D2 / p158 C2, intercepted on 9 November 1918.
-**Result:** a direct continuation with **67 of 68 plaintext positions fixed**,
-plus a qualified **134-position reconstruction** of the damaged first part,
-using the unchanged published Nov7–9 key. The unit number remains
-**GRUKONACH{5,6}02** in the published-key layer. A separately supported
-historical condition gives **GRUKONACH602**, as recorded below.
+Five records intercepted on 9 November concern couriers carrying radio operating documents to Munich: first parts p153 E1 / p162 A1 and continuations p151 D2 / p153 D2 / p158 C2. The best continuation fixes **67 of 68 positions** under the published Nov7–9 key; the damaged first part has a conditional 134-position reconstruction. The unit numeral remains **{5,6}** in the key, with a historical argument for **6** below.
 
 ## Most likely reading
 
@@ -33,12 +27,7 @@ Munich that the two named men left at 7 p.m. as couriers carrying radio
 operating documents for `GRUKONACH?02`. The continuation instructs the
 recipient to notify that unit and telegraph the arrival back to the sender.
 
-The reconstruction retains the name-like strings `GERAUS` and `MAHRER`;
-neither name is independently identified. Their `U` and `H`, respectively,
-are not among the positions supported under every fit of both alignment
-models. `FELDGR` is retained as an unexpanded abbreviation. The singular
-`ALS KURIER` is also retained. Spacing, capitalization and punctuation are
-editorial; the reading does not add letters to regularize these expressions.
+The names `GERAUS` and `MAHRER` remain unidentified; their U and H are not supported across every fit of both alignment models. The reading retains the unexpanded `FELDGR` and singular `ALS KURIER`.
 
 ## What is directly supported
 
@@ -61,28 +50,13 @@ The p151 D2 repeat has `GRU1ONACH` at the beginning, and p153 D2 has
 `BENACHWICHTIGEN`; the source edition preserves both. The unaltered p158
 witness independently supplies the readable forms of both words.
 
-The `?` is coordinate pair **VF**, still an unassigned square cell with
-domain **5 or 6**. It is not a missing or illegible source coordinate.
-No spelling or grammatical repair can settle that digit.
+The question mark denotes the observed pair **VF**, whose unassigned square value is **5 or 6**.
 
 ### A separately linked conditional reading: GRUKONACH602
 
-The [November 9 operational reports](../military/nov9_operational_reports.md#historical-identification-most-likely-the-6th-reserve-division)
-use the same unknown **VF** cell for a reserve-division number. A contemporary
-French operational telegram identifies the matching formation as the
-**6th Reserve Division**. Accepting that historical identification gives
-**VF=6** in the shared Nov7–9 square. The source, its date limits and the
-earlier p176b use are documented in the linked edition and its
-[context certificate](../../experiments/p170_continuation/military_context.json).
+The [November 9 operational reports](../military/nov9_operational_reports.md#historical-identification-most-likely-the-6th-reserve-division) use the same **VF** cell for a reserve-division numeral. A contemporary French telegram identifies the matching formation as the **6th Reserve Division**. Under that historical identification, **VF=6**, and both courier fields read **GRUKONACH602** with no additional source-coordinate changes.
 
-Under exactly that assumption, the courier instruction reads
-**“Grukonach602 benachrichtigen”** with no source-coordinate changes.
-The first-part reconstruction's matching field also becomes 602 at no
-additional coordinate cost. This is propagation of one independently
-recorded historical assumption through a shared cipher cell; the courier
-message is not a second proof of the digit. Its base domain remains 5/6,
-and the damaged first part and proposed part association retain their
-separate qualifications.
+This is one historical inference applied through a shared key cell. The base domain remains 5/6; the first-part reconstruction and its association with the continuation retain the assumptions below. The [context certificate](../../experiments/p170_continuation/military_context.json) records the external source, its date limits and the earlier p176b application.
 
 ## First-part damage and explicit reconstruction cost
 
@@ -103,20 +77,9 @@ For the **stated 134-position candidate**, exact alignment gives:
 | Retain every source coordinate | Insert 9 slots; change 6 known coordinates; 32 tied minimum fits | Insert 4 slots; change 8 known coordinates; 2 tied minimum fits |
 | Delete one received coordinate | Delete 1, insert 10; change 4 known coordinates; 192 tied minimum fits | Delete 1, insert 5; change 6 known coordinates; 14 tied minimum fits |
 
-All source-deletion positions were tested for the second model, and every
-tied optimum is preserved. The alternatives have different source assumptions;
-neither is silently selected as the true transmission history. Any proposed
-fill of the overstruck p162 glyph is accounted for separately from substitutions
-of valid source coordinates.
+Every deletion position and tied optimum is retained. A fill of the overstruck p162 glyph is charged separately from observed-coordinate changes.
 
-Under the first model, **123/134 proposed positions** have a complete
-unchanged coordinate pair in at least one witness for every choice of their
-minimum fits. Requiring that support across both models reduces the count
-to **118/134**. These are conditional checks of the candidate and the stated
-models, not proof that its wording or missing-slot geometry is unique.
-The [certificate](../../experiments/courier_recovery/certificate.json)
-contains every raw masked-frame reading before the editorial fills and
-changes, including garbles such as `MU?NCSEN` and `ALLKURIER`.
+Within the first model, **123/134 proposed positions** have an unchanged coordinate pair in at least one witness for every combination of minimum fits. Requiring that support under both models gives **118/134**. These counts are conditional on the proposed wording and alignment families. The [certificate](../../experiments/courier_recovery/certificate.json) includes all raw masked-frame readings and exact costs.
 
 ## Association, source and credit
 
@@ -137,9 +100,7 @@ literal rows, headers and reproducible image rectangles. The Nov7–9 key
 retains its historical and George Lasry / coauthor attribution in
 [the key register](../../data/keys.json).
 
-Source inspection, duplicate recovery, exact candidate accounting and this
-edition: **icekylinx and GPT-6 Astra Pro**. No first historical decipherment
-priority is claimed.
+Source inspection, repeated-copy recovery, reconstruction and edition: **icekylinx and GPT-6 Astra Pro**.
 
 ```sh
 python3 experiments/courier_recovery/build.py --verify

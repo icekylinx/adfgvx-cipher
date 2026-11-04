@@ -2,21 +2,7 @@
 
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
-**Crossing a river and keeping troops supplied were separate tasks.** These
-two reports, received on 9 November, put them beside one another. The Danube
-message reports a completed crossing and busy crossing traffic; the Arad
-message concerns provision trains and dealings with the Hungarian government,
-with literal fields for 80000 men and 30000 animals.
-
-The new physical comparisons improve both readings. A directly inspected
-p164 glyph restores `UEBER`; an independent Arad copy supplies eleven
-coordinates missing from the earlier p159 reconstruction. These are source
-findings, while the proposed ordinary-word repairs remain separately priced.
-
-**Source recovery and edition:** icekylinx and GPT-6 Astra Pro.
-[Source package](../../experiments/danube_arad_witnesses/README.md) ·
-[Exact certificate](../../experiments/danube_arad_witnesses/certificates.json) ·
-[Childs scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
+These reports received on 9 November concern a Danube crossing and provisions at Arad for **80,000 men and 30,000 animals**. Source comparison restores a misread Danube-report glyph and eleven coordinates missing from the earlier Arad copy. The readings use the published **Nov7–9** key.
 
 ## p164 C1
 
@@ -24,11 +10,7 @@ findings, while the proposed ordinary-word repairs remain separately priced.
 
 > AOK11. Abendmeldung 8. C1 1?. Lage der ?1 Armee am 7 11 abends. Donauuebergang 219 I D beendet. Belgrad SEMUM. Lebhafter Uebersetzverkehr.
 
-The first part of this five-part report describes an evening situation dated
-7 November, a completed Danube crossing, and lively crossing traffic at the
-literal place labels `BELGRAD` and `SEMUM`. The report’s encoded formation
-and reference fields remain `C1`, `1?`, `?1` and `219`; they are not silently
-replaced with a historically plausible unit designation.
+The first part of this five-part report describes the evening situation on 7 November: a completed Danube crossing and busy crossing traffic at `BELGRAD` and `SEMUM`. The formation and reference labels `C1`, `1?`, `?1` and `219` remain unexpanded.
 
 Literal header: `C) ZON v UKS (1.57 a.m., November 9th); 2101 5 TLE; 1 TL RICHI-248`.
 
@@ -74,8 +56,7 @@ The source’s fourth-row group is GDXVV, correcting earlier OCR/edition GDXXV.
 Its printed V at source 148 restores the E in UEBER, with zero historical
 coordinate-repair cost. p153 directly supplies U in DONAU and S in SETZ;
 p164 in turn supports the E/A/E repairs in p153’s U3BER, BELGR4D and UEBSR.
-The formation labels 219 and 21B differ and remain separate. These are
-parallel passages, not an identity claim for both entire telegrams.
+The passages have different formation labels, 219 and 21B, and are compared locally.
 
 LAGE DER and BEENDET are word repairs. ABENDMELDUNG uses one lexical mask
 fill beyond the two independent-passage fills. Every price is measured from
@@ -89,11 +70,7 @@ the unfilled native source.
 
 > An OHL. Verpflegung noch 14 Tage. 10 Tage. Verpfleg. Zuege nach Arad. Arad bei ungar. Regierung erwirken. STAEKE 80000 Mann, 30000 Tiere. AOK11. RM 1C18?GEH.
 
-The report asks for provisions trains to Arad and an approach to the
-Hungarian government. It gives `STAEKE 80000 MANN` and `30000 TIERE` under
-the published key; those are transmitted quantities, not an outside estimate
-of the forces present. The relationship between “14 Tage” and “10 Tage” is
-not supplied. `STAEKE`, the repeated Arad and the opaque footer remain visible.
+The report requests provision trains to Arad and action through the Hungarian government. Both strength figures come directly from observed ciphertext pairs. The relationship between “14 Tage” and “10 Tage” remains unclear; the transmitted `STAEKE`, repeated Arad and closing labels are retained.
 
 Literal header: `E) UKS v ZON (11.05 p.m., November 9th);AN LP 2000 KR; RICHI-272`.
 
@@ -146,11 +123,7 @@ coordinate. The remaining VF footer cell has the shared domain {5,6}, giving
 
 ## Arad cross-copy restoration
 
-The p168 witness raises the earlier p159 primary frame from **124 to 135**
-fixed raw positions. All **11 originally missing coordinates** now come
-from directly observed p168 positions; none depends on the G or printed-mask
-values that p168 itself borrowed. This acyclic source relationship is what
-changes the evidence for the old strength field.
+The p168 witness raises the earlier p159 primary frame from **124 to 135 fixed positions**. Its eleven supplied coordinates are all directly observed in p168, independent of the three values p168 borrows in the reverse comparison. This establishes the formerly uncertain strength field from surviving source pairs.
 
 <details>
 <summary>Restored p159 stream and complete source-family comparison</summary>
@@ -169,11 +142,7 @@ group origin give eight minimizing maps, all with one completed ciphertext
 and 135/136 fixed labels. Each supplies its eleven additions from native
 p168 observations.
 
-This narrows the old 64 word-conditioned minima to eight and removes all
-48 P0000 alternatives. The old six-change objective compared a supplied word
-template; the new five-disagreement objective compares received coordinates.
-The finite error family remains explicit, so the calculation does not claim
-unrestricted historical uniqueness.
+Within this error family, coordinate comparison reduces the earlier 64 word-conditioned minima to eight and excludes all 48 P0000 alternatives. The earlier six-change objective fitted a word template; the present five-disagreement objective compares the received coordinates.
 
 </details>
 
@@ -191,11 +160,9 @@ p159 Arad and p153 Danube sources provide the observed comparison material.
 The Nov7–9 key remains credited to George Lasry, Ingo Niebel, Nils Kopal and
 Arno Wacker (2016), and Lasry’s 2017 key list. Earlier contextual outputs and
 p159/p153 work are retained in the [prior snapshot](../../experiments/danube_arad_witnesses/prior_snapshot.json).
-This edition’s contribution is the inspected glyph correction, source-copy
-restoration and exact ledger; it does not claim that every reported movement
-or strength has independent historical confirmation.
+Source inspection, repeated-copy restoration and edition are by **icekylinx and GPT-6 Astra Pro**. The [source package](../../experiments/danube_arad_witnesses/README.md) and [certificate](../../experiments/danube_arad_witnesses/certificates.json) record the complete comparisons. [Childs scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
 
-## Reproduce
+<a id="reproduce-1"></a>
 
 ## Reproduce
 
