@@ -10,6 +10,10 @@ Our experiments recovered the shared p153 key, reconstructed damaged transmissio
 
 | Result | Evidence |
 |---|---|
+| **p89 guard-battalion destination fragment** — independent word witness and separate Berlin proposal extend the conditional layer from 151/179 to 166/179 with no new observed substitutions | [Five donor frames, source checks and retrieval controls](p89_guard_battalion_extension/README.md) |
+| **p68 procurement continuation** — fifteen new half-supported positions give a common 76/93 layer; the wholly missing internal verb letter retains G/L alternatives | [Native word witnesses and explicit repair prices](p68_procurement_continuation/README.md) |
+| **p84 illness-and-return proposal** — conditional 52/122-position layer with zero observed substitutions; MUTTER and MITTEL remain equally compatible | [Lexical provenance, five frames and separate alternatives](p84_mother_illness_fragment/README.md) |
+| **p163 independent headquarters map** — contemporary Scholtz–Calimanesti context supports an existing place repair without adding plaintext positions | [Primary map crops and exact provenance](p163_headquarters_map_context/README.md) |
 | **Original p164a occupation-army fragment** — BESATZUNGSHEER matches 18 observed halves at zero substitutions; revised prior clauses give 104/121 positions with four substitutions | [Cross-key native witnesses and exact word layers](p164_occupation_fragment/README.md) |
 | **Personnel-removal governing clause** — p137 A5 reaches an optional 124/126 positions, retaining two unknowns and all repair prices | [Date marker and military-movement proposal](p137_governing_clause/README.md) |
 | **German field-post fragment** — p84 C gains a 28/122-position conditional word layer at zero observed substitutions; five source frames and three wholly missing word letters remain explicit | [Source, corpus phrase search and calibrated replay](p84_field_post_fragment/README.md) |

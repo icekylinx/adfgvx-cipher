@@ -1,0 +1,66 @@
+{
+  "schema": "adfgvx-p68-discovery-provenance-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "raw_retrieval": {
+    "manifest": "experiments/p164_occupation_fragment/donor_manifest.json",
+    "method": "All recipient offsets against frozen raw donor substrings; prices count mismatching observed coordinate halves, not missing halves.",
+    "discovery_hits": [
+      {
+        "target_start": 27,
+        "text": "REGIERUNG",
+        "observed_substitutions": 0
+      },
+      {
+        "target_start": 40,
+        "text": "EINGEGANGEN",
+        "observed_substitutions": 1
+      }
+    ],
+    "scope_note": "These are word matches. The whole recipient clause is not copied from an independently received telegram."
+  },
+  "book_model": {
+    "builder": "experiments/p198_word_search/build_lexicon.py",
+    "source_manifest": "experiments/joint_search/models/provenance.json",
+    "word_count": 53465,
+    "lexicon_sha256": "6ea36fc166dd884a3a46f99aa7fd9ab03ae237d5a79c1a30f059e983d5f0d9ef",
+    "selected_words": [
+      {
+        "word": "REGIERUNG",
+        "start": 27,
+        "observed_substitutions": 0,
+        "observed_halves": 13
+      },
+      {
+        "word": "EINGEGANGEN",
+        "start": 40,
+        "observed_substitutions": 1,
+        "observed_halves": 16
+      },
+      {
+        "word": "KIEW",
+        "start": 74,
+        "observed_substitutions": 0,
+        "observed_halves": 6
+      },
+      {
+        "word": "ROSTOW",
+        "start": 81,
+        "observed_substitutions": 0,
+        "observed_halves": 10
+      }
+    ]
+  },
+  "editorial_composition": [
+    "DON joins the observed DO with a compatible N half-fill; historical context was checked afterward.",
+    "DORT already has observed DRT and a compatible O half-fill.",
+    "HGRU is already fully observed and is not expanded.",
+    "The wholly absent internal letter of EINGE?ANGEN is left unassigned in the common layer; G and L are separately priced alternatives."
+  ],
+  "no_claim": [
+    "No calibrated probability or exhaustive unique historical phrase claim.",
+    "No all-corpus exclusion claim; selected lexical matches only."
+  ]
+}

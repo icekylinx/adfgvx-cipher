@@ -6,7 +6,7 @@
 
 **Source edition and repair analysis:** icekylinx and GPT-6 Astra Pro. **Earlier key:** the published October 4–6 square and 22-column transposition, credited to Childs and George Lasry / Lasry, Niebel, Kopal and Wacker in the [key catalogue](../../data/keys.json).
 
-Twelve source records cover seven exchanges about the Caucasus: personnel and money for Kress's delegation, price instructions to Westernhagen, electrical equipment sent to Tiflis, a cargo leaving Braila for Poti, radio timings, a liaison officer and equipment procurement. The p68 procurement pair has a **provisional, heavily repaired first part and an opening-only second part**; it is not a direct recovery of the complete exchange. Another interrupted continuation is retained separately without an accepted reading. The German readings below use explicit editorial repairs. Every received coordinate, surviving garble, ambiguous layout and repair cost is retained in the [certificate](../../experiments/october_caucasus/certificates.json). This is a new reproducible edition in this repository, without a first-historical-decipherment claim.
+Twelve source records cover seven exchanges about the Caucasus: personnel and money for Kress's delegation, price instructions to Westernhagen, electrical equipment sent to Tiflis, a cargo leaving Braila for Poti, radio timings, a liaison officer and equipment procurement. The p68 procurement pair has a **provisional, heavily repaired first part and a partially extended second part**; it is not a direct recovery of the complete exchange. Another interrupted continuation is retained separately without an accepted reading. The German readings below use explicit editorial repairs. Every received coordinate, surviving garble, ambiguous layout and repair cost is retained in the [certificate](../../experiments/october_caucasus/certificates.json). This is a new reproducible edition in this repository, without a first-historical-decipherment claim.
 
 **Display notes:** The German readings use the stated edited witnesses. Square brackets identify a supplied spelling, a proposed value or an explicitly described unresolved passage; the nearby record notes give the category. Uninterpreted literal fields are shown in code, not promoted to names or quantities. A bracketed whole value does not mean that all its characters are unknown.
 
@@ -174,7 +174,18 @@ Part 2 has exactly **186 slots**, with **41 coordinate erasures** and **56/93 fi
 
 > [continued from part 1] und Artilleriemunition [remaining text unresolved]
 
-The bracketed continuation and unresolved-text notices are display descriptions, not recovered German words or a new gap-length hypothesis. The template asserts only `UNDARTILLERIEMUNITION`, requiring **four known-coordinate substitutions and five erasure fills**. The remaining **72 plaintext positions are unasserted**. The certificate retains their raw domains, and its arbitrary coordinate fillers for a complete arithmetic roundtrip are not promoted to a further sentence, quantity, date or signature.
+The bracketed continuation and unresolved-text notices are display descriptions, not recovered German words or a new gap-length hypothesis. The earlier template asserts only `UNDARTILLERIEMUNITION`, requiring **four known-coordinate substitutions and five erasure fills**. The remaining **72 plaintext positions are unasserted**. The certificate retains their raw domains, and its arbitrary coordinate fillers for a complete arithmetic roundtrip are not promoted to a further sentence, quantity, date or signature.
+
+A [separately priced continuation](../../experiments/p68_procurement_continuation/README.md)
+now proposes `DONREGIERUNG`, `DORTEINGE?ANGEN`, `HGRUKIEW` and `ROSTOW`.
+Retaining the other raw letters, the earlier opening fixes **61/93 positions**;
+the common extension reaches **76/93**, with **one additional observed
+substitution and 15 printed-mask fills**. All fifteen newly assigned positions
+retain an observed half-coordinate. The wholly missing internal verb letter
+admits both `EINGEGANGEN` and `EINGELANGEN` at the same two-fill price, giving
+77/93 only under either optional completion. `F??`, the fields `?0` and `1??8`,
+and the intervening damaged text remain literal. Native messages attest three
+individual words; no complete independent copy of this clause is claimed.
 
 ## Relation to the open p73 challenge
 

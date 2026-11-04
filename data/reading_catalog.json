@@ -1860,7 +1860,8 @@
       "source_reviewed": true,
       "evidence": [
         "experiments/withdrawal_recovery/inputs.json",
-        "experiments/withdrawal_recovery/certificates.json"
+        "experiments/withdrawal_recovery/certificates.json",
+        "experiments/p163_headquarters_map_context/context.json"
       ]
     },
     {
@@ -2301,16 +2302,18 @@
     {
       "id": "p68_A2",
       "label": "p68 A2",
-      "status": "Partial: 21/93 positions proposed; remaining 72 unasserted",
+      "status": "56/93 raw; conditional common layer 76/93 with five substitutions and twenty mask fills; optional G/L verb alternatives 77/93 at two further fills",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
-      "subject": "Artillery-ammunition opening only",
+      "subject": "Procurement continuation: Donregierung, Kiev and Rostow",
       "path": "cases/caucasus/october_caucasus.md#p68-a--provisional-procurement-text-carrying-chi-labels",
       "printed_page": 68,
       "source_section": "A part 2",
       "source_reviewed": true,
       "evidence": [
         "experiments/october_caucasus/inputs.json",
-        "experiments/october_caucasus/certificates.json"
+        "experiments/october_caucasus/certificates.json",
+        "experiments/p68_procurement_continuation/inputs.json",
+        "experiments/p68_procurement_continuation/certificates.json"
       ]
     },
     {
@@ -6507,14 +6510,16 @@
       "label": "p89 A3",
       "printed_page": 89,
       "source_section": "A3",
-      "subject": "Stop Braila-bound traffic and arrange onward movement in whole trains",
-      "status": "Explicit100-coordinate loss;one observed substitution+one dash fill+69conditional lost-coordinate fills;28plaintext positions unresolved",
+      "subject": "Braila traffic, whole trains and a conditional guard-battalion destination",
+      "status": "81/179 raw; conditional 166/179 with one observed substitution, one dash fill and 85 lost-coordinate fills; thirteen positions unresolved",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; existing Ayush Agarwal p89_A2 companion retained separately",
       "path": "cases/military/black_sea_evacuation_routes.md#p89-a3",
       "source_reviewed": true,
       "evidence": [
         "experiments/black_sea_evacuation_routes/inputs.json",
-        "experiments/black_sea_evacuation_routes/certificates.json"
+        "experiments/black_sea_evacuation_routes/certificates.json",
+        "experiments/p89_guard_battalion_extension/inputs.json",
+        "experiments/p89_guard_battalion_extension/certificates.json"
       ]
     },
     {
@@ -9949,14 +9954,16 @@
       "label": "p84 C",
       "printed_page": 84,
       "source_section": "C",
-      "subject": "German field-post fragment in an interrupted reception",
-      "status": "Conditional 244-slot frame with five short-group loss alternatives; raw 14/122, word 28/122; zero observed substitutions, 2 printed-mask and 15 lost-tail fills; three word letters wholly absent; most of message unread",
+      "subject": "Field post, illness and a conditional request to come",
+      "status": "14/122 raw; conditional 52/122 with zero observed substitutions, five printed-mask and 42 added-slot fills; MUTTER/MITTEL ambiguity and five frames retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); source Childs and published Oct28–31 key credited separately",
-      "path": "cases/radio/p84_field_post_fragment.md",
+      "path": "cases/radio/p84_mother_illness_extension.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/p84_field_post_fragment/inputs.json",
-        "experiments/p84_field_post_fragment/certificates.json"
+        "experiments/p84_field_post_fragment/certificates.json",
+        "experiments/p84_mother_illness_fragment/inputs.json",
+        "experiments/p84_mother_illness_fragment/certificates.json"
       ]
     }
   ]

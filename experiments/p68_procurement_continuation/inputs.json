@@ -1,0 +1,124 @@
+{
+  "schema": "adfgvx-p68-procurement-continuation-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "experiments/october_caucasus/inputs.json": "8f2f9217f1ebdcd72b07733110c7784ecb316d2203c022fca4f972a89fe3cd7c",
+    "experiments/october_caucasus/certificates.json": "f8976e1203f9e5d26e5a96ad971d1fba6c00f7cd91437333bf2be94b41cefc06",
+    "experiments/transport_and_disarmament_orders/inputs.json": "db35066130bf6e0c7900bbaf5164d9acdb8f9cdbccb3a8aeeaca8fc7b54fc23e",
+    "experiments/newspaper_dispatch_witnesses/inputs.json": "f0d165028c187cbc4fb4e9791b198c240443348fc4179027ece53f738ad4a343",
+    "experiments/october_staffing/inputs.json": "62045bdbfa36917d6d9601b1314098907a663e5cbebe8e62727c3b762a6586ba",
+    "experiments/p68_procurement_continuation/context.json": "b12be62188f777a73c4dbd416b58ededa3abb1d483916194b8acca4f35d2d328",
+    "experiments/p68_procurement_continuation/discovery.json": "5e0ff3d642312122750c21e6025ca66cfd3b43e52131f2b3de7df3297740413b",
+    "experiments/p164_occupation_fragment/donor_manifest.json": "82130b99097610d5eb600fc8c4a9b3178bc26e68755f7c6f030fdb4734461df9"
+  },
+  "target": {
+    "input_path": "experiments/october_caucasus/inputs.json",
+    "certificate_path": "experiments/october_caucasus/certificates.json",
+    "record_id": "p68_A2"
+  },
+  "new_spans": [
+    {
+      "start": 24,
+      "text": "DONREGIERUNG",
+      "kind": "new_word_proposal"
+    },
+    {
+      "start": 36,
+      "text": "DORTEINGE?ANGEN",
+      "kind": "common_template_of_declared_verbs"
+    },
+    {
+      "start": 70,
+      "text": "HGRUKIEW",
+      "kind": "place_word_completion_with_raw_HGRU_retained"
+    },
+    {
+      "start": 81,
+      "text": "ROSTOW",
+      "kind": "place_word_proposal"
+    }
+  ],
+  "verb_alternatives": {
+    "plaintext_index": 45,
+    "labels": [
+      "G",
+      "L"
+    ],
+    "words": [
+      "EINGEGANGEN",
+      "EINGELANGEN"
+    ],
+    "status": "Both complete candidates have the same coordinate price; position45 has two absent source halves."
+  },
+  "donors": [
+    {
+      "input_path": "experiments/transport_and_disarmament_orders/inputs.json",
+      "record_id": "p209_A1",
+      "rows_field": "source_rows",
+      "text": "REGIERUNG",
+      "plaintext_start": 64
+    },
+    {
+      "input_path": "experiments/newspaper_dispatch_witnesses/inputs.json",
+      "record_id": "p166_B1",
+      "rows_field": "source_rows",
+      "text": "EINGEGANGEN",
+      "plaintext_start": 77
+    },
+    {
+      "input_path": "experiments/october_staffing/inputs.json",
+      "record_id": "p66_A",
+      "rows_field": "rows",
+      "text": "KIEW",
+      "plaintext_start": 73
+    }
+  ],
+  "expected_outputs": {
+    "raw": "??DARTILLER??T7QITJO?F??DO?RE?I????GD?RTEI?G??A??EOX??O????TA?SE?X??O?HGRUK?E??0X?OSTO?1??8XX",
+    "prior_opening": "UNDARTILLERIEMUNITIONF??DO?RE?I????GD?RTEI?G??A??EOX??O????TA?SE?X??O?HGRUK?E??0X?OSTO?1??8XX",
+    "common": "UNDARTILLERIEMUNITIONF??DONREGIERUNGDORTEINGE?ANGENX??O????TA?SE?X??O?HGRUKIEW?0XROSTOW1??8XX",
+    "eingegangen": "UNDARTILLERIEMUNITIONF??DONREGIERUNGDORTEINGEGANGENX??O????TA?SE?X??O?HGRUKIEW?0XROSTOW1??8XX",
+    "eingelangen": "UNDARTILLERIEMUNITIONF??DONREGIERUNGDORTEINGELANGENX??O????TA?SE?X??O?HGRUKIEW?0XROSTOW1??8XX"
+  },
+  "expected_prices": {
+    "raw": [
+      56,
+      0,
+      0
+    ],
+    "prior_opening": [
+      61,
+      4,
+      5
+    ],
+    "common": [
+      76,
+      5,
+      20
+    ],
+    "eingegangen": [
+      77,
+      5,
+      22
+    ],
+    "eingelangen": [
+      77,
+      5,
+      22
+    ]
+  },
+  "limits": [
+    "The literal186-slot source frame, 145 observations and41 printed masks remain unchanged; no inserted, deleted or moved coordinate is introduced.",
+    "The prior opening asserts21 word positions, rather than21 fixed raw positions. Its four observed substitutions and five mask fills remain inherited costs.",
+    "The common new layer fixes15 additional positions and adds one observed substitution plus15 printed-mask fills above the prior opening. It leaves the wholly unobserved verb character45 unknown.",
+    "The two stated verb completions fill both halves of position45 at identical price. Their comparison does not exhaust all possible historical wording.",
+    "The prefix F?? at21\u201323 remains raw: both22 and23 are wholly absent. FUR or any other expansion is not supplied.",
+    "DONREGIERUNG and ROSTOW are lexical/contextual proposals. Independent raw donors attest REGIERUNG, EINGEGANGEN and KIEW, not a complete retransmission of this message.",
+    "HGRU is a raw abbreviation and remains unexpanded. The fields ?0 and1??8 and the intervening garbled text remain literal.",
+    "The heavy repair price of the preceding first part is unchanged; no claim of a completely recovered two-part exchange is made."
+  ]
+}

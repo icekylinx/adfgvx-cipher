@@ -1,0 +1,88 @@
+{
+  "schema": "adfgvx-p89-guard-battalion-extension-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "case_path": "cases/military/black_sea_evacuation_routes.md",
+  "dependencies": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "experiments/black_sea_evacuation_routes/inputs.json": "5513f86e09fb9a03d7444a4a5fca21f346646affbc08137e2ee5f50f180edf3e",
+    "experiments/black_sea_evacuation_routes/certificates.json": "c7f33ddbac91c5a616b5bc8be5bcca494eb6617b14adf2a348f8f4b07fdf3635",
+    "experiments/nov2_acknowledgments_and_personnel/inputs.json": "8c48c46d608cb4af1e750dd9eaa132259885a43f377cb8e04a727044f1479db2",
+    "experiments/nov2_acknowledgments_and_personnel/certificates.json": "3c502d5c8c3f2b8772dc6c5c1a60056220eb06c6aad6223a9b3ac5d469141915",
+    "experiments/p164_occupation_fragment/donor_manifest.json": "82130b99097610d5eb600fc8c4a9b3178bc26e68755f7c6f030fdb4734461df9",
+    "experiments/p89_guard_battalion_extension/search_report.json": "217a51e5f56f681c565f02e829f72c67f4fd6e1360ee6e8cc5cc9c40599b3414",
+    "experiments/p89_guard_battalion_extension/replay_search.py": "34eb56fd7cc2e080c6ed088b847a1a13dd2a98346571a3beabfe24ed0cf7c9e2"
+  },
+  "target": {
+    "input_path": "experiments/black_sea_evacuation_routes/inputs.json",
+    "certificate_path": "experiments/black_sea_evacuation_routes/certificates.json",
+    "record_id": "p89_A3"
+  },
+  "donor": {
+    "input_path": "experiments/nov2_acknowledgments_and_personnel/inputs.json",
+    "certificate_path": "experiments/nov2_acknowledgments_and_personnel/certificates.json",
+    "record_id": "p104_D",
+    "short_group_source_interval": [
+      100,
+      104
+    ],
+    "all_local_gap_boundaries": [
+      100,
+      101,
+      102,
+      103,
+      104
+    ],
+    "primary_gap_boundary": 103
+  },
+  "spans": [
+    {
+      "id": "guard_battalion",
+      "target_start": 144,
+      "donor_start": 40,
+      "text": "ERSXBATLX2XGARDEREGT",
+      "observed_target_halves": 27,
+      "new_lost_coordinate_fills": 13,
+      "new_fixed_positions": 12,
+      "wholly_unobserved_target_positions": [
+        150
+      ]
+    },
+    {
+      "id": "berlin",
+      "target_start": 173,
+      "donor_start": 21,
+      "text": "BERLIN",
+      "observed_target_halves": 9,
+      "new_lost_coordinate_fills": 3,
+      "new_fixed_positions": 3,
+      "wholly_unobserved_target_positions": []
+    }
+  ],
+  "expected_outputs": {
+    "prior": "ZWEITENSNACHXBRAILAXGEHTNICHTSXDORTHINUNTERWEGSBEFINDLICHEDAMPFERABDREHENXXDRITTENSXWEITERLEITUNGINGESCHLOSSENENZUEGENXZIELFUERMI?I?D???STE???N???SX?A?L???GAR???E???XZ?F?SZ??ERL??",
+    "guard_with_prior": "ZWEITENSNACHXBRAILAXGEHTNICHTSXDORTHINUNTERWEGSBEFINDLICHEDAMPFERABDREHENXXDRITTENSXWEITERLEITUNGINGESCHLOSSENENZUEGENXZIELFUERMI?I?D???STE???N?ERSXBATLX2XGARDEREGT?XZ?F?SZ??ERL??",
+    "guard_and_berlin_with_prior": "ZWEITENSNACHXBRAILAXGEHTNICHTSXDORTHINUNTERWEGSBEFINDLICHEDAMPFERABDREHENXXDRITTENSXWEITERLEITUNGINGESCHLOSSENENZUEGENXZIELFUERMI?I?D???STE???N?ERSXBATLX2XGARDEREGT?XZ?F?SZ?BERLIN"
+  },
+  "source_images": [
+    {
+      "input_path": "experiments/black_sea_evacuation_routes/inputs.json",
+      "path": "sources/p89_A3.png"
+    },
+    {
+      "input_path": "experiments/nov2_acknowledgments_and_personnel/inputs.json",
+      "path": "sources/p104_D.png"
+    }
+  ],
+  "limits": [
+    "The recipient keeps the source-declared100-coordinate loss at boundary200; its size and position are printed evidence, not a search-selected gap.",
+    "The donor has149 native coordinates against RICHI150. Its existing one-slot frame is conditional; the20-letter guard-battalion phrase is fully observed and invariant across all five placements inside the short ADAG group.",
+    "The donor BERLIN is fully observed in the primary frame and three other short-group alternatives. The fifth alternative leaves its finalN unresolved; it is not represented as an all-frame invariant.",
+    "The target T in BATL at plaintext150 is wholly absent and supplied by the donor phrase. The target numeral2 at153 retains one observed half; its other half is a declared fill, not an independent unit-number identification.",
+    "The immediately preceding position143 and the following position164 remain unresolved. In particular, PERS versus a separator before ERS is not decided, and no genitiveS is supplied.",
+    "The short BERLIN extension is context-conditioned by the same donor and the recipient ERL; its three new letters all retain one observed half. The13 remaining target unknowns stay unassigned.",
+    "No identical-message claim, complete body recovery, change to the published square or new physical record is made. The prior127-position prefix and its1observed substitution remain a separate inherited proposal."
+  ]
+}

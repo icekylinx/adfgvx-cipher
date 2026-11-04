@@ -1,7 +1,7 @@
 {
   "schema": "adfgvx-reading-layer-manifest-v1",
   "prepared_by": "icekylinx and GPT-6 Astra Pro",
-  "review_date_utc": "2026-11-03",
+  "review_date_utc": "2026-11-04",
   "scope": "Reviewed case pages present at this snapshot. The checker independently scans every current substantive case and rejects uncovered new pages or displays. README navigation and explicit compatibility redirects are excluded.",
   "semantic_limit": "Role labels are explicitly reviewed editorial classifications, not inferred cryptographic facts. Raw outputs can depend on the explicitly stated key/frame assumptions. Earlier attributed and recomputed readings retain prior authorship.",
   "preservation_records": [
@@ -272,7 +272,7 @@
     {
       "path": "cases/caucasus/october_caucasus.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "581d43ed8370336a1f1cbca1f10a9866a5cb9e06ce4e80c37113741cc225d54f",
+      "file_sha256_at_review": "b5cb34746be5445108eab07128e8459ac6a1af323a90b5abfe3c252c981e0ae5",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -2993,7 +2993,7 @@
     {
       "path": "cases/military/black_sea_evacuation_routes.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "e4366f34cbab096f6b485a867a4f920b396c26f2f79e3c2565911167f24068ac",
+      "file_sha256_at_review": "8c0ad53a16c97f22855cad40e5880aa613c6f263d078a9e30768d4777b9ed031",
       "review_basis": "Explicit review of four new source parts, existing attributed A2 context, conditional100-coordinate loss and exact28-unknown suffix. A5 EZ remains literal; final plaintext service instruction is source transcription outside cipher counts. Caption cleanup on 2026-11-03 preserves all literal displays; reversible before/after text and hashes are recorded in caption_cleanup_20261103.json.",
       "fences": [
         {
@@ -6483,7 +6483,7 @@
     {
       "path": "cases/military/p163_A.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "167f488f4819393836d16ccc16b43866739ade763403c6dd5dca1a82f46627f9",
+      "file_sha256_at_review": "9f6aa26c74a63c6561125fc3060b60065de82c75398d7e0aee8145cbbff13f82",
       "review_basis": "Explicit editorial review of reading layers, retained case context and source-model qualifiers; cipher/source verification is separate.",
       "fences": [
         {
@@ -16930,6 +16930,64 @@
           "caption_required": true,
           "caption": "**Readable German — the conditional word fragment; all surrounding passages remain unresolved:**",
           "review_note": "Exact source/raw/conditional word displays and local qualifiers reviewed; sparse vocabulary quotation is explicitly a fragment."
+        }
+      ]
+    },
+    {
+      "path": "cases/radio/p84_mother_illness_extension.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "681aa7d7dd0e5b21713996673daa332c50af9f016001d96ddb33c3215ad58eb7",
+      "review_basis": "Independent source/frame and coordinate-price audit; both equal-price lexical alternatives reviewed. Quotations are explicitly conditional excerpts, not complete mapped displays.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "3f70e22c6570e4964631f3cae575ca6263c70b2b4e62025a553b04e60f1d6b79",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — all 118 printed slots; seven dash masks and the short FDFG group retained:**",
+          "review_note": "Literal bytes, layer, conditional frame and equal-price alternative qualifier reviewed together."
+        },
+        {
+          "index": 1,
+          "sha256": "2e5fccecbc5228b136bf9837a22353185191d7a8b556c30aae436a8f55981eab",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — common to all five frames; 14/122 fixed positions; no fills or observed substitutions:**",
+          "review_note": "Literal bytes, layer, conditional frame and equal-price alternative qualifier reviewed together."
+        },
+        {
+          "index": 2,
+          "sha256": "b001db4ae8c91b00f6c13ef2a72298f555f54778222938a5b1657897cc45d1fb",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — conditional MUTTER proposal in frame 78; 0 observed substitutions, 5 printed-mask fills and 42 added-slot fills; 52/122 fixed positions:**",
+          "review_note": "Literal bytes, layer, conditional frame and equal-price alternative qualifier reviewed together."
+        },
+        {
+          "index": 3,
+          "sha256": "5deea7cc5c589bd918693fc115d628dde01075056aa8af34a5c6d6d080b910c5",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — equally compatible MITTEL counterexample; the same 0 substitutions, 5 printed-mask fills and 42 added-slot fills:**",
+          "review_note": "Literal bytes, layer, conditional frame and equal-price alternative qualifier reviewed together."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "23eeaa9e5d1771e93132789503c07765bb283c302ef6647ead9d4de22089f30d",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — conditional lexical proposal; the surrounding passages remain unresolved:**",
+          "review_note": "Literal bytes, layer, conditional frame and equal-price alternative qualifier reviewed together."
+        },
+        {
+          "index": 1,
+          "sha256": "57fa6be8ac398be686d371cc0119d786a62865d87f81de556cafbb56d0b2531f",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — an equally compatible lexical counterexample:**",
+          "review_note": "Literal bytes, layer, conditional frame and equal-price alternative qualifier reviewed together."
         }
       ]
     }

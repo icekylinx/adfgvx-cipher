@@ -12,6 +12,27 @@ The [whole-material census](whole-material-coverage.md) registers **679 cipherte
 
 ## Current source refinements
 
+The [p89 A3 destination fragment](../experiments/p89_guard_battalion_extension/README.md)
+now admits `ERSXBATLX2XGARDEREGT`, independently observed in p104 D and
+compatible with all 27 surviving recipient halves. Together with a separately
+scoped `BERLIN` completion, the conditional layer reaches **166/179 positions**,
+up from 151, at sixteen further lost-coordinate fills and no new observed
+substitutions. One new letter is wholly absent; the other fourteen retain an
+observed half. The surrounding destination fields remain unresolved.
+
+The [p68 A2 procurement continuation](../experiments/p68_procurement_continuation/README.md)
+adds conditional `DONREGIERUNG`, `DORTEINGE?ANGEN`, `HGRUKIEW` and `ROSTOW`
+readings. The common layer reaches **76/93 positions**, up from 61 when the
+earlier opening is combined with the remaining raw text. The fifteen new
+positions are all half-supported and cost one further observed substitution
+and fifteen printed-mask fills. Two equal-price verb completions, G and L,
+remain separate; the original two-part exchange is still provisional.
+
+An [independent headquarters map](../experiments/p163_headquarters_map_context/README.md)
+supports the existing Calimanesti place repair in p163 A17. The map's interval
+is 13–18 November; it does not date the individual headquarters symbol.
+This is historical corroboration, adding no cipher positions or repairs.
+
 The original [p164a challenge](../cases/p164a.md) now has a new
 **BESATZUNGSHEER** reading. Its 14 letters agree with all 18 observed
 coordinate halves; ten mask fills complete the word with no observed
@@ -27,13 +48,14 @@ military movements and an `AB6XNOVEMBER` marker. The extension adds four
 observed substitutions and eight fills to the staff proposal. Both remaining
 positions stay explicit; the governing clause remains contextual.
 
-The [p84 C field-post fragment](../cases/radio/p84_field_post_fragment.md)
-adds a conditional reading to another former source gap. The advertised
-244-slot frame and a missing coordinate in the printed four-character group
-give **14/122 raw positions**; `DEUTSCHE FELDPOST` raises this to **28/122**
-with no observed substitutions. All five loss positions are retained. Three
-letters of the proposed phrase are wholly missing, and most of the telegram
-remains unread. **Fifteen of the original 21 source gaps now have reviewed
+The [p84 C conditional extension](../cases/radio/p84_mother_illness_extension.md)
+adds a proposed illness-and-return clause after the earlier `DEUTSCHE FELDPOST`
+fragment. The source still fixes **14/122 raw positions**. Combined proposals
+assign **52/122**, up from 28, with no observed substitutions in three of the
+five retained frames. The primary price is five printed-mask and 42 added-slot
+fills. `MUTTER SCHWER KRANK` and `MITTELSCHWER KRANK` are equally compatible;
+six new letters are wholly absent. No independent cipher copy of the new
+clause is known. **Fifteen of the original 21 source gaps now have reviewed
 editions; six still have none.**
 
 The [jammed ending of Mackensen's withdrawal report](../experiments/p116_optional_route_fragment/APPROVAL.md)

@@ -104,6 +104,20 @@ military, garrison and `BERL??` fragments are not filled from the next
 part's clearer wording. The candidate is a constrained editorial reading,
 not an independently witnessed complete plaintext.
 
+A [later guard-battalion extension](../../experiments/p89_guard_battalion_extension/README.md)
+proposes `ERSXBATLX2XGARDEREGT`, supported by an independently observed word
+span in p104 D. It matches all **27 observed recipient halves**, adds twelve
+positions at thirteen lost-coordinate fills, and changes no observation.
+A separately scoped `BERLIN` completion adds three more half-supported
+positions. The combined conditional layer reaches **166/179**, with the same
+one observed substitution and one printed-dash fill as above, plus **85**
+conditional lost-coordinate fills in total. Thirteen plaintext positions and
+fifteen coordinate masks remain unresolved. The T in `BATL` is wholly absent;
+the numeral 2 is half-supported. The preceding word boundary and the other
+unclear tail fields remain open. The exact new layer, all five donor frames,
+source checks and retrieval controls are retained in that extension; the
+original prefix edition and its prices below remain a separate baseline.
+
 ## p89 A4
 
 The [fourth-part crop](../../experiments/black_sea_evacuation_routes/sources/p89_A4.png)
@@ -172,11 +186,11 @@ SENDEN SIE DIESE VON 1830 BIS 20,25 H v OSM v LP UM
 
 The four new editions comprise **1,314 visible source slots**, **1,313
 valid observed coordinates** and **707 modeled plaintext positions**.
-Their main candidates use **eight observed substitutions**, **one
+The original baseline candidates use **eight observed substitutions**, **one
 printed-dash fill** and **69 fills of explicitly lost coordinates**.
 The existing Ayush part2 remains outside those totals.
 
-In A3, **31 missing coordinates** remain unfilled. They occupy 25
+In the original A3 baseline, **31 missing coordinates** remain unfilled. They occupy 25
 plaintext positions with one erased coordinate and three positions with
 two. The complete square and transposition therefore permit exactly
 **6^31 = 1,326,443,518,324,400,147,398,656** different complete plaintexts

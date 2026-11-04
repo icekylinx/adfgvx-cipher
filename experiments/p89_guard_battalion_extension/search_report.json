@@ -1,0 +1,102 @@
+{
+  "schema": "adfgvx-p89-guard-battalion-search-v1",
+  "manifest": "experiments/p164_occupation_fragment/donor_manifest.json",
+  "excluded_same_message_inputs": "experiments/black_sea_evacuation_routes/inputs.json",
+  "donor_streams": 485,
+  "donor_characters": 51526,
+  "target_plaintext_interval": [
+    127,
+    179
+  ],
+  "minimum_length": 12,
+  "seed": 20261104030689,
+  "historical": {
+    "observed_support": 27,
+    "length": 20,
+    "hits": [
+      [
+        144,
+        "ERSXBATLX2XGARDEREGT"
+      ]
+    ]
+  },
+  "null_summary": {
+    "count": 500,
+    "minimum_matched_length": 12,
+    "hits_at_minimum_length": 0,
+    "maximum_observed_support": 0,
+    "at_or_above_historical_support": 0,
+    "result_sha256": "5250bb20c81d03cc5499e28109329fe883340a3ea2bbf52bd5956bb1339ad199"
+  },
+  "planted": [
+    {
+      "word": "OBERKOMMANDO",
+      "offset": 144,
+      "plaintext": "DVCP9DZ7MLY6XDO4R2R14TPGRVSW8SO4WFH40VQDTVJ14T4ACMUENTRXSBHK3S6VSE944DDCVBDSA0LZI7WGMUT39RCR9O59CR5MDV5I481X0DMXAQWRVYIDRY100W5611D7FVLK60MKNV2SOBERKOMMANDOPUTV0H9AAO2U20L18RF1QY8",
+      "source": "AXAVFFXDGDAVAXDVAAVFADDFADVFXGXXAGGDDGGFXDFGGXXAADGADDXFXDAXVGDVDFXDDDAAVGXGAAGGXVAVAXXVFVFDVFXGXGGVVGFDXFAXXVGAVDXFGFDVDAVDFDFVGGGDXAFAAGVDDDDGDXADXFFDDFDDDGDDGDFFAGVAAFDGXDDGGFAGDAGVAXFAVDGAXXVAVGAG????????????????????????????????????????????????????????????????????????????????????????????????????FAAFFVGDAAAVAAXFGVGXVXVDDAXADXGXXXXVAGAGGD?XGXDFDGAGFVAADF",
+      "result": {
+        "observed_support": 16,
+        "length": 12,
+        "hits": [
+          [
+            144,
+            "OBERKOMMANDO"
+          ]
+        ]
+      }
+    },
+    {
+      "word": "MITTELMEERDIVISION",
+      "offset": 144,
+      "plaintext": "7SLD5LH6PWOOSZ3BNDMH7TX7MKJ4YV4E52BIVY0PRFLHXYVNP4VMH1WRD5VGPJBZ8A02N3ZR3H4E0TCJSNE0NWBDR470327WK1WN54ZPQA0OMBIYS0CA35T39U9J8EKHKXPIZFLN5LD5TR8LMITTELMEERDIVISIONA8HFKGZIQJ011ZQS9",
+      "source": "FGDGFXVXGFXAVDAVDFVXGVDXFGFFVDAAXFFAFAFFVAFGGAFFGVDAADVGVDGFGVXDDFVVGXDAFDGFGDXAGAFGGGFAVFGGGVADXGVVXDAXFVXVXFDAFAGFDDDFGDAXAXGGDGDXXXGFFVADVFGGXVFFGVFXVDXGGGVGFXFXDAVGFFGVAXGFVGXDXXVXAVDVVAXGDAXDGDVV????????????????????????????????????????????????????????????????????????????????????????????????????AGFFXADVFDDGDFFAXDVDGVDGAGVVVAGGGVGDAFXAVV?VFGAGGGVXVGXAVF",
+      "result": {
+        "observed_support": 26,
+        "length": 19,
+        "hits": [
+          [
+            144,
+            "MITTELMEERDIVISIONN"
+          ]
+        ]
+      }
+    },
+    {
+      "word": "WAFFENSTILLSTAND",
+      "offset": 144,
+      "plaintext": "JX7PL39HY10MB3A1QIR44M77MQ3RNO00RGNLW77G0PBQETU7LLHMDAOBBOEUE57F8BZPVMXIY1PQEZBNM0IUSWZCLXW0ZFMTU5Y165G5B321MZBN99CC3O3P4LNNZK8SQENTEI1U1TQYBK9JWAFFENSTILLSTANDKHEX3IDLDD8APVSZF0E",
+      "source": "VXDGVXGXAFXGXVVVGAVVVXFFGGFAFFGAGGGGAVVFXGFGAFVFFVDGAXAFXDAXGFFVXDFAVDFXAAGVXAGGFVDVGDGXGGAXVDXXGDXVGDGDAVGDFAVAVFDVAFFAGGDGDXVAFAXDFXGFVGXADGFDVFXAXGFADAFAGVFVVXAGVVFVGXFVAGAVXDDXGDGAGGGAXDDFAVGXDVGX????????????????????????????????????????????????????????????????????????????????????????????????????GAVFAGDGXVXXDXVFVFDDVVFAVFVDGFXFADXGDVDXGV?FAFDFFXFVVFVXAA",
+      "result": {
+        "observed_support": 24,
+        "length": 18,
+        "hits": [
+          [
+            143,
+            "RWAFFENSTILLSTANDS"
+          ]
+        ]
+      }
+    },
+    {
+      "word": "KONSTANTINOPEL",
+      "offset": 144,
+      "plaintext": "ZGCXKN7KZF2I9OMJ1588CWXL1WMVG79141VSYPZQ6V4VAOWRIRAOQMNYQ4Q0WTC6O6DRSKXDEJX53FN8G2U5Z67Y5O86SDGXHZDANXO2BTU4I5ZA3Y2KY44I56OXSLIWK554P7T3RD79K8EXKONSTANTINOPELTMUGFD5Z6AC3V5FMBZ1Y1",
+      "source": "GVFDGVDVDXGDDGGFFXFVFVVAGAAGVAGXXVGVDXDVGFDAXAXXDVFXFGAFGFDDGFDFAAGVXVVFXGVAADFXDVGXXFGADXVXFGXAXXGAFDDAAADGAGXDVDDGXXAFVGADAXFXVAAVVVFXDFXGFGGGDVADGXFFGGVFFXGFFDXGVDFADGXFDGGXVADXXXGXXXDADXDAGAXXDAFV????????????????????????????????????????????????????????????????????????????????????????????????????XVGADXGFXFGXDXFGGVFDDXDFDGGVGXGDXDDGVXGGDX?DVDAFDGXAVFVAXX",
+      "result": {
+        "observed_support": 24,
+        "length": 17,
+        "hits": [
+          [
+            142,
+            "EXKONSTANTINOPELX"
+          ]
+        ]
+      }
+    }
+  ],
+  "limits": [
+    "The twenty-character phrase is the frozen zero-substitution retrieval result.",
+    "The shorter BERLIN proposal is subsequent contextual work, outside this twelve-character retrieval threshold.",
+    "Coordinate shuffles calibrate this declared retrieval only; they do not prove unique wording or a null probability."
+  ]
+}

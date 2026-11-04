@@ -1,0 +1,56 @@
+{
+  "schema": "adfgvx-p84-mother-illness-search-provenance-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "discovery_date": "2026-11-04",
+  "prior_case": "cases/radio/p84_field_post_fragment.md",
+  "prior_search": "experiments/p84_field_post_fragment/search_provenance.json",
+  "independent_lexicon": {
+    "lexicon_sha256": "6ea36fc166dd884a3a46f99aa7fd9ab03ae237d5a79c1a30f059e983d5f0d9ef",
+    "lexicon_provenance": "experiments/p198_word_search/lexicon_provenance.json",
+    "builder": "experiments/p198_word_search/build_lexicon.py",
+    "distinct_words": 53465,
+    "book_sources": 10,
+    "all_ten_download_hashes_match_frozen_sources": true,
+    "words_used": [
+      {
+        "plaintext_start": 68,
+        "word": "MUTTER",
+        "log10_unigram_frequency": -3.475612687
+      },
+      {
+        "plaintext_start": 68,
+        "word": "MITTEL",
+        "log10_unigram_frequency": -3.773087728
+      },
+      {
+        "plaintext_start": 74,
+        "word": "SCHWER",
+        "log10_unigram_frequency": -3.61960426
+      },
+      {
+        "plaintext_start": 80,
+        "word": "KRANK",
+        "log10_unigram_frequency": -4.606541787
+      },
+      {
+        "plaintext_start": 85,
+        "word": "BITTE",
+        "log10_unigram_frequency": -3.804909441
+      },
+      {
+        "plaintext_start": 90,
+        "word": "KOMM",
+        "log10_unigram_frequency": -4.252575716
+      }
+    ]
+  },
+  "discovery": "An exploratory scan matched individual independent-book words against the unchanged half-coordinate domains. MUTTER or MITTEL at68 and SCHWER at74 led to the composed clause MUTTER SCHWER KRANK BITTE. Inspecting all five previously retained source frames permitted KOMM at90 in frames77,78,79. X94 is a compatible telegraphic separator. Composition and contextual preference are editorial judgments, not an automatic or unique decipherment.",
+  "vocabulary_layers": "The exploratory scan also considered tokens in existing edition quotations. All five accepted words and the MITTEL counterexample occur in the independent book lexicon; none requires edition-only vocabulary.",
+  "native_donor_status": "No independent strictly native ciphertext donor or authenticated retransmission is claimed for the new clause. The earlier DEUTSCHEFELDPOST vocabulary match remains separately credited.",
+  "selection_limits": [
+    "The new word proposal was composed after inspecting the domains and field-post context. No corrected significance or exhaustive uniqueness claim follows.",
+    "The earlier 100 shuffled-source controls apply to the earlier DEUTSCHEFELDPOST retrieval only, not to this new clause.",
+    "A counterexample with MITTEL instead of MUTTER has exactly the same coordinate price in all five frames. The sender, recipient, post-office number and remaining text stay unidentified.",
+    "All five original within-FDFG insertion locations remain costed; frames77–79 are compatible with the new clause without changing observations. These are phrase-conditioned frame preferences."
+  ]
+}

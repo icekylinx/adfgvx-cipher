@@ -21,7 +21,7 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [Tiflis: request to repeat an encrypted telegram](tiflis_repetition_request.md) | p77 A |
 | [Radio instructions: p77 B and p134 B](../context/radio_instructions.md) | p77 B, p134 B |
 | [Constanza naval radio: telegram routing and exchange connections](constanza_radio_connections.md) | p80 B1, p80 B2, p82 A1, p82 A2, p82 A3, p82 A4 |
-| [p84 C — German field-post fragment](p84_field_post_fragment.md) | p84 C |
+| [p84 C — Illness and a request to come](p84_mother_illness_extension.md) | p84 C |
 | [p85 B — Telephone censorship through Budapest](p85_B.md) | p85 B |
 | [Transmitter dispatch and a 220-volt converter motor](transmitter_dispatch_220_volts.md) | p87 A1 |
 | [Expected heavier traffic: direct UKS connection or OSM relay](uks_direct_or_osm_relay.md) | p88 B |
@@ -132,7 +132,7 @@ Station control, call signs, key schedules, retransmissions, couriers and routin
 | [p82 A2](constanza_radio_connections.md#p82-a2) | German-line routing to Bucharest or Braila and naval-station connection | One ordinary-word repair; repeated PACH error explicit | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates and source annotation distinguished |
 | [p82 A3](constanza_radio_connections.md#p82-a3) | Main and naval-department telephone exchange connections | One ordinary-word repair; raw 9 retained in source inventory | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates and source annotation distinguished |
 | [p82 A4](constanza_radio_connections.md#p82-a4) | Communication through the exchanges with all telephone points | Direct source reading without repair | icekylinx and GPT-6 Astra Pro (2026); published Oct28–31 key; earlier unreviewed candidates and source annotation distinguished |
-| [p84 C](p84_field_post_fragment.md) | German field-post fragment in an interrupted reception | Conditional 244-slot frame with five short-group loss alternatives; raw 14/122, word 28/122; zero observed substitutions, 2 printed-mask and 15 lost-tail fills; three word letters wholly absent; most of message unread | icekylinx and GPT-6 Astra Pro (2026); source Childs and published Oct28–31 key credited separately |
+| [p84 C](p84_mother_illness_extension.md) | Field post, illness and a conditional request to come | 14/122 raw; conditional 52/122 with zero observed substitutions, five printed-mask and 42 added-slot fills; MUTTER/MITTEL ambiguity and five frames retained | icekylinx and GPT-6 Astra Pro (2026); source Childs and published Oct28–31 key credited separately |
 | [p85 B](p85_B.md) | Telephone censorship through Budapest | 99/99 raw positions; two word repairs explicit | icekylinx and GPT-6 Astra Pro (2026) |
 | [p87 A1](transmitter_dispatch_220_volts.md#p87-a1) | Transmitter dispatch and a 220-volt converter motor | 82/83 native raw positions; 0 coordinate substitutions + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov1-3 key; prior OCR provenance retained |
 | [p88 B](uks_direct_or_osm_relay.md#p88-b) | Expected heavier traffic: direct UKS connection or OSM relay | 102/102 native raw positions; 0 coordinate substitutions + 0 source-mask fills; no frame change | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov1-3 key; prior OCR and body attribution retained |

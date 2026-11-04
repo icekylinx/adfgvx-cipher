@@ -129,7 +129,7 @@ Page numbers refer to the printed Childs volume. Each row links to the complete 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p68 A1](../../caucasus/october_caucasus.md#p68-a--provisional-procurement-text-carrying-chi-labels) | Kress procurement message; proposed dispatch of two officers | Provisional; 24 known-coordinate substitutions; damaged reference open | icekylinx and GPT-6 Astra Pro (2026) |
-| [p68 A2](../../caucasus/october_caucasus.md#p68-a--provisional-procurement-text-carrying-chi-labels) | Artillery-ammunition opening only | Partial: 21/93 positions proposed; remaining 72 unasserted | icekylinx and GPT-6 Astra Pro (2026) |
+| [p68 A2](../../caucasus/october_caucasus.md#p68-a--provisional-procurement-text-carrying-chi-labels) | Procurement continuation: Donregierung, Kiev and Rostow | 56/93 raw; conditional common layer 76/93 with five substitutions and twenty mask fills; optional G/L verb alternatives 77/93 at two further fills | icekylinx and GPT-6 Astra Pro (2026) |
 
 ## p69
 

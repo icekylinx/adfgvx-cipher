@@ -103,7 +103,7 @@ Page numbers refer to the printed Childs volume. Each row links to the complete 
 |---|---|---|---|
 | [p84 A](../../naval/p84_AB.md) | Ask whether Izzet Pasha's order to release oil succeeded | 122/122 raw positions; unchanged source roundtrip | icekylinx and GPT-6 Astra Pro (2026) |
 | [p84 B](../../naval/p84_AB.md) | Request daily Black Sea shipping-safety reports for the Caucasus command | 101/101 raw positions; unchanged source roundtrip | icekylinx and GPT-6 Astra Pro (2026) |
-| [p84 C](../../radio/p84_field_post_fragment.md) | German field-post fragment in an interrupted reception | Conditional 244-slot frame with five short-group loss alternatives; raw 14/122, word 28/122; zero observed substitutions, 2 printed-mask and 15 lost-tail fills; three word letters wholly absent; most of message unread | icekylinx and GPT-6 Astra Pro (2026); source Childs and published Oct28–31 key credited separately |
+| [p84 C](../../radio/p84_mother_illness_extension.md) | Field post, illness and a conditional request to come | 14/122 raw; conditional 52/122 with zero observed substitutions, five printed-mask and 42 added-slot fills; MUTTER/MITTEL ambiguity and five frames retained | icekylinx and GPT-6 Astra Pro (2026); source Childs and published Oct28–31 key credited separately |
 
 ## p85
 
@@ -150,7 +150,7 @@ Page numbers refer to the printed Childs volume. Each row links to the complete 
 | Ciphertext | Most likely content | Reading status | Reading or review credit |
 |---|---|---|---|
 | [p89 A2](../../supplementary/p89_A2.md) | Shipping and railway routing to Nikolayev | Earlier reading; one source glyph uncertain | Ayush Agarwal; review by D. Bourdeau (2026) |
-| [p89 A3](../../military/black_sea_evacuation_routes.md#p89-a3) | Stop Braila-bound traffic and arrange onward movement in whole trains | Explicit100-coordinate loss;one observed substitution+one dash fill+69conditional lost-coordinate fills;28plaintext positions unresolved | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; existing Ayush Agarwal p89_A2 companion retained separately |
+| [p89 A3](../../military/black_sea_evacuation_routes.md#p89-a3) | Braila traffic, whole trains and a conditional guard-battalion destination | 81/179 raw; conditional 166/179 with one observed substitution, one dash fill and 85 lost-coordinate fills; thirteen positions unresolved | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; existing Ayush Agarwal p89_A2 companion retained separately |
 | [p89 A4](../../military/black_sea_evacuation_routes.md#p89-a4) | Civilian destination Berlin and advance notice for onward movement | Native360 coordinates;four observed substitutions | icekylinx and GPT-6 Astra Pro (2026); published Nov1–3 key; existing Ayush Agarwal p89_A2 companion retained separately |
 
 ## p90
