@@ -72,6 +72,7 @@ jobs:
         run: python experiments/substitution_crib_csp/verify.py --verify
       - name: Verify newly restored source families
         run: |
+          python experiments/nov6_danube_completion/verify.py
           python experiments/danube_arad_witnesses/verify.py --verify
           python experiments/nov13_ringbahn_retransmission/verify.py --verify
           python experiments/nov24_train_report/verify.py --verify

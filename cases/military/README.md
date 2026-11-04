@@ -128,9 +128,9 @@ Read the appeal against internment beside the later internment traffic and the r
 | [p139 A3](sevastopol_coded_routing.md#p139-a3) | READING | Distribution and reference 53689 for the coded routing message |
 | [p141 B](seaplane_personnel_return.md#p141-b) | READING | Return Seeflugstation Ost personnel to second rather than first seaplane detachment |
 | [p142 C](dobrudscha_report.md) | PARTIAL | Request position on Entente report of renewed Romanian occupation of Dobrudscha |
-| [p143 A](nov6_evening_danube_report.md#p143-a) | PARTIAL | Evening Danube report with unresolved unit and place labels |
+| [p143 A](nov6_evening_danube_report.md#completed-reading) | CONDITIONAL | Evening Danube report: Alpenkorps near Ujvidek and the Slankamen crossing |
 | [p144 B](nov6_boat_crossing_fragment.md#p144-b) | PARTIAL | Troop crossing in boats and a no-further-events ending; opening and place unresolved |
-| [p144 C1](nov6_horse_loading_reconnaissance.md#p144-c1) | PARTIAL | Ferries and horse loading in aerial reconnaissance; place remains KIAD?VO |
+| [p144 C1](nov6_horse_loading_reconnaissance.md#completed-reading) | CONDITIONAL | Aerial reconnaissance: ferries and horse loading at Kladovo |
 | [p150 B1](wallachia_withdrawal_preparations.md) | READING | Opening to OHL: departure preparations and cited instruction |
 | [p150 B2](wallachia_withdrawal_preparations.md) | READING | Further delay and the Danube/Rustschuk threat |
 | [p150 B3](wallachia_withdrawal_preparations.md) | PARTIAL | Earlier enemy crossing, Wallachian plain and advance parties |

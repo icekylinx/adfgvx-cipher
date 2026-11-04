@@ -160,7 +160,7 @@ This range contains 80 sources, including 2 OPEN. [Reading states](../../../docs
 
 | Source | State | Subject |
 |---|---|---|
-| [p143 A](../../military/nov6_evening_danube_report.md#p143-a) | PARTIAL | Evening Danube report with unresolved unit and place labels |
+| [p143 A](../../military/nov6_evening_danube_report.md#completed-reading) | CONDITIONAL | Evening Danube report: Alpenkorps near Ujvidek and the Slankamen crossing |
 
 ## p144
 
@@ -168,7 +168,7 @@ This range contains 80 sources, including 2 OPEN. [Reading states](../../../docs
 |---|---|---|
 | [p144 A2](../../finance/nov6_silk_resale_continuation.md#p144-a2) | READING | Local silk resale continuation corroborates the p136/p152 witnesses |
 | [p144 B](../../military/nov6_boat_crossing_fragment.md#p144-b) | PARTIAL | Troop crossing in boats and a no-further-events ending; opening and place unresolved |
-| [p144 C1](../../military/nov6_horse_loading_reconnaissance.md#p144-c1) | PARTIAL | Ferries and horse loading in aerial reconnaissance; place remains KIAD?VO |
+| [p144 C1](../../military/nov6_horse_loading_reconnaissance.md#completed-reading) | CONDITIONAL | Aerial reconnaissance: ferries and horse loading at Kladovo |
 
 ## p145
 

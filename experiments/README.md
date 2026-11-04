@@ -22,6 +22,7 @@ language guess would remain conjectural.
 | Crown-airlift request completed by the later banknote copy | [Cross-copy source reconciliation](retrieved_copy_editions/README.md) |
 | Munich routing and independent support for GEN KDO | [Near-complete native reception](p168_munich_routing_witness/README.md) |
 | Romanian ultimatum report | [Source reconstruction](nov11_romanian_ultimatum_report/README.md) and [independent implementation](nov11_romanian_ultimatum_report/independent.py) |
+| Two Danube reports: completed command address and Kladovo reconnaissance | [Conditional completions, native address witnesses and map attestation](nov6_danube_completion/README.md) |
 
 ### Latest source editions and follow-up methods
 

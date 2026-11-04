@@ -1,0 +1,68 @@
+{
+  "schema": "adfgvx-nov6-danube-completion-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "key_id": "Nov4-6",
+  "records": [
+    {
+      "id": "p143_A",
+      "case_path": "cases/military/nov6_evening_danube_report.md",
+      "base_certificate": "experiments/nov6_evening_and_embassy_records/certificates.json",
+      "base_layer": [
+        "optional_name_candidate",
+        "total_from_source"
+      ],
+      "source_sha256": "207c8d832078d483b5d445447d80ceed995905ae0d0d1ab238cfa522beabda10",
+      "base_template": "FUERX?KMXABENDMELDUNGXALPENKORPSNORDWESTLXUJVIDEKX217IXBEIMDONAUUEBERGANGBEIXSLANKAMENXUJVIDEK",
+      "proposal": "FUERXOKMXABENDMELDUNGXALPENKORPSNORDWESTLXUJVIDEKX217IXBEIMDONAUUEBERGANGBEIXSLANKAMENXUJVIDEK",
+      "readable_german": "Fuer OKM. Abendmeldung. Alpenkorps nordwestl. Ujvidek. 217I beim Donauuebergang bei Slankamen, Ujvidek.",
+      "expected_additional_substitutions": 0,
+      "expected_additional_fills": 1,
+      "expected_total_substitutions": 4,
+      "expected_total_fills": 10
+    },
+    {
+      "id": "p144_C1",
+      "case_path": "cases/military/nov6_horse_loading_reconnaissance.md",
+      "base_certificate": "experiments/nov6_resale_and_air_reconnaissance/certificates.json",
+      "base_layer": [
+        "readable_candidate"
+      ],
+      "source_sha256": "749be469b63edcf54144feedf0a87090151289935a46045705e02b82ee8f4430",
+      "base_template": "OXKXM5XLUFTERKUNDUNG5X11X?BEIKIAD?VOFAEHRENXVERLADUNGVONPFERDENERKANNTX",
+      "proposal": "OXKXM5XLUFTERKUNDUNG5X11XXBEIKLADOVOFAEHRENXVERLADUNGVONPFERDENERKANNTX",
+      "readable_german": "O. K. M5. Lufterkundung 5 / 11. Bei Kladovo Faehren, Verladung von Pferden erkannt.",
+      "expected_additional_substitutions": 1,
+      "expected_additional_fills": 2,
+      "expected_total_substitutions": 6,
+      "expected_total_fills": 10
+    }
+  ],
+  "place_attestation": {
+    "institution": "National Library of Serbia",
+    "title": "Ђенералштабна карта Краљевине Србије. К 2, Кладово",
+    "transliterated_title": "General Staff map of the Kingdom of Serbia, K 2, Kladovo",
+    "publisher": "Geographical Department of the Main General Staff, Belgrade",
+    "year": 1893,
+    "scale": "1:75000",
+    "cobiss_id": "129724684",
+    "url": "https://digitalna.nb.rs/view/URN:NB:RS:SD_571C5F8EA57C630BE1A06E28BA3ECF0E?virtuelne=NBS/Karte/srbija",
+    "reviewed": "2026-11-04",
+    "evidence": "The library catalogue identifies the historical map sheet as Кладово (Kladovo). This is independent place-name support for the proposed reading, not evidence of the 1918 reconnaissance event."
+  },
+  "address_witnesses": [
+    {
+      "id": "p124_A3",
+      "input_path": "experiments/hungarian_armistice_instructions/inputs.json",
+      "plaintext_start": 0,
+      "phrase": "OXKXM",
+      "key_id": "Nov4-6"
+    },
+    {
+      "id": "p226_A2",
+      "input_path": "experiments/radio_traffic_transfer_fragment/inputs.json",
+      "plaintext_start": 39,
+      "phrase": "FUEROKM",
+      "key_id": "Nov28-Dec1"
+    }
+  ]
+}

@@ -1,8 +1,47 @@
-# Evening Danube report with unresolved unit and place labels
+# Evening Danube report at Ujvidek and Slankamen
 
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
+## Completed reading
+
+The 6 November evening report places the Alpenkorps northwest of Ujvidek
+and describes a Danube crossing near Slankamen and Ujvidek. Completing the
+address as **OKM** fills the last position in the earlier geographical
+proposal, giving a **94/94-position conditional reading**.
+
+**Readable German — completed conditional proposal, retaining the literal 217I field:**
+
+> Fuer OKM. Abendmeldung. Alpenkorps nordwestl. Ujvidek. 217I beim Donauuebergang bei Slankamen, Ujvidek.
+
+The O comes from filling printed dash 33 with G; its surviving half-pair
+allows `1EJORT`, so the command abbreviation supplies the choice. This adds
+one fill to the existing name proposal and no further observed-coordinate
+change. The complete account is **four substitutions and ten printed-mask
+fills**. The transmitted `217I` remains as written.
+
+The address formula is independently attested in the native `OXKXM` opening
+of [p124 A3](hungarian_armistice_instructions.md#p124-a3) and the `FUEROKM`
+phrase in [p226 A2](../radio/radio_traffic_transfer_fragment.md). These
+separate messages support the abbreviation used in the completion.
+
+<details>
+<summary>Completed exact stream</summary>
+
+**Edited output — completed conditional proposal:**
+
+```text
+FUERXOKMXABENDMELDUNGXALPENKORPSNORDWESTLXUJVIDEKX217IXBEIMDONAUUEBERGANGBEIXSLANKAMENXUJVIDEK
+```
+
+</details>
+
+[Completion and independent re-encryption](../../experiments/nov6_danube_completion/README.md).
+
 ## p143 A
+
+<details>
+<summary>Source, earlier partial readings and repair account</summary>
+
 
 **Status:** 84/94 native raw positions fixed; 3 coordinate substitutions and 4 source-mask fills. No frame or key change.
 
@@ -86,3 +125,5 @@ The literal field `217I` is retained in both quotations; neither version inserts
 The [input](../../experiments/nov6_evening_and_embassy_records/inputs.json) binds literal source rows to exact PDF crops. The [certificate](../../experiments/nov6_evening_and_embassy_records/certificates.json) records raw paired-coordinate domains, all proposed changes and the separately priced optional reading. The [verifier](../../experiments/nov6_evening_and_embassy_records/verify.py) checks the unchanged Nov4–6 key and all live German quotations, including every unknown position and digit.
 
 Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR input is frozen in the [attribution record](../../experiments/nov6_evening_and_embassy_records/prior_candidates.json).
+
+</details>

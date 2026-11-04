@@ -8689,16 +8689,18 @@
       "label": "p144 C1",
       "printed_page": 144,
       "source_section": "C1",
-      "subject": "Ferries and horse loading in aerial reconnaissance; place remains KIAD?VO",
-      "status": "61/71 native raw positions; 5 coordinate substitutions + 8 source-mask fills; no frame change",
+      "subject": "Aerial reconnaissance: ferries and horse loading at Kladovo",
+      "status": "71/71 conditional positions; native 61/71; 6 observed substitutions and 10 mask fills; historical place-name support",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4–6 key; prior continuation and OCR attribution retained",
-      "path": "cases/military/nov6_horse_loading_reconnaissance.md#p144-c1",
+      "path": "cases/military/nov6_horse_loading_reconnaissance.md#completed-reading",
       "source_reviewed": true,
       "evidence": [
         "experiments/nov6_resale_and_air_reconnaissance/inputs.json",
-        "experiments/nov6_resale_and_air_reconnaissance/certificates.json"
+        "experiments/nov6_resale_and_air_reconnaissance/certificates.json",
+        "experiments/nov6_danube_completion/readings.json",
+        "experiments/nov6_danube_completion/verify.py"
       ],
-      "state": "PARTIAL"
+      "state": "CONDITIONAL"
     },
     {
       "id": "p87_A1",
@@ -8915,16 +8917,18 @@
       "label": "p143 A",
       "printed_page": 143,
       "source_section": "A",
-      "subject": "Evening Danube report with unresolved unit and place labels",
-      "status": "84/94 native raw positions; 3 coordinate substitutions + 4 source-mask fills; native frame; optional names separately priced",
+      "subject": "Evening Danube report: Alpenkorps near Ujvidek and the Slankamen crossing",
+      "status": "94/94 conditional positions; native 84/94; 4 observed substitutions and 10 mask fills; original frame retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov4–6 key; prior OCR attribution retained",
-      "path": "cases/military/nov6_evening_danube_report.md#p143-a",
+      "path": "cases/military/nov6_evening_danube_report.md#completed-reading",
       "source_reviewed": true,
       "evidence": [
         "experiments/nov6_evening_and_embassy_records/inputs.json",
-        "experiments/nov6_evening_and_embassy_records/certificates.json"
+        "experiments/nov6_evening_and_embassy_records/certificates.json",
+        "experiments/nov6_danube_completion/readings.json",
+        "experiments/nov6_danube_completion/verify.py"
       ],
-      "state": "PARTIAL"
+      "state": "CONDITIONAL"
     },
     {
       "id": "p147_B1",
