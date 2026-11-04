@@ -1,6 +1,6 @@
 # p198 A: wheat purchase price, freight and insurance
 
-**icekylinx and GPT-6 Astra Pro** · [Read the recovered query](../../cases/naval/p198_shipping_query.md)
+**icekylinx and GPT-6 Astra Pro** · [Read the recovered query](../../cases/pages/198.md#edition-cases-naval-p198-shipping-query)
 
 The irregular p198 A transmission becomes a readable query under the
 registered Nov7–9 key and a source-directed group model. It asks for the

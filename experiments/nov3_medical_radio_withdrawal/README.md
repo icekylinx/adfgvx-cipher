@@ -20,9 +20,9 @@ silently changed.
 
 ## Read the messages
 
-- [Medical-company inquiry](../../cases/people/medical_company_inquiry.md): three source-mask fills and one word repair; receipt/date conflict and all unit/reference labels preserved.
-- [Ringbahn listening notice](../../cases/radio/nov3_ringbahn_notice.md): one word repair; NACHRCEF, YS, WDH and NURNOCHITOCHI remain literal.
-- [Withdrawal and night reports](../../cases/military/nov3_withdrawal_and_night_report.md): the actual 160-slot C3 source yields an unchanged 80-position body; C4 has a transparent conditional exclusion model; D reports a quiet night after one repair.
+- [Medical-company inquiry](../../cases/pages/117.md#edition-cases-people-medical-company-inquiry): three source-mask fills and one word repair; receipt/date conflict and all unit/reference labels preserved.
+- [Ringbahn listening notice](../../cases/pages/117.md#edition-cases-radio-nov3-ringbahn-notice): one word repair; NACHRCEF, YS, WDH and NURNOCHITOCHI remain literal.
+- [Withdrawal and night reports](../../cases/pages/117.md#edition-cases-military-nov3-withdrawal-and-night-report): the actual 160-slot C3 source yields an unchanged 80-position body; C4 has a transparent conditional exclusion model; D reports a quiet night after one repair.
 
 ## Conditional C4 frame and completed arithmetic
 

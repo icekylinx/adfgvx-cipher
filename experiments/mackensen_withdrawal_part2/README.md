@@ -5,7 +5,7 @@ Historical report decipherment remains credited to **J. Rives Childs**;
 the published reconstruction and Nov1–3 key retain the attribution to
 **George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker**.
 
-The [new p118 source edition](../../cases/military/mackensen_withdrawal_part2.md)
+The [new p118 source edition](../../cases/pages/118.md#edition-cases-military-mackensen-withdrawal-part2)
 supplies the second physical part missing from the earlier twelve-part
 repository report. Its header explicitly names the second part of the
 thirteen-part message sent at 20:00 on 11/3. The source contributes 377 valid

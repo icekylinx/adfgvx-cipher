@@ -16,7 +16,7 @@ Norbert's 2017 repair inserted `FVXAA` and replaced the ten-coordinate block `XA
 
 For this complete proposed plaintext, exhaustive comparison of every five-coordinate deletion and insertion finds eighteen exact alignments: deletion starts 219–227 and insertion starts 44 or 45. Their ambiguity comes from repeated source symbols. The two alignments on printed group boundaries delete either of the identical groups and insert `AAXAA` at 45.
 
-See the [case](../../cases/p146.md), [certificate](../../data/certificates/p146_duplicate_group.json), and [independent review](../../data/reviews/p146_duplicate_independent.json).
+See the [case](../../cases/pages/146.md#edition-cases-p146), [certificate](../../data/certificates/p146_duplicate_group.json), and [independent review](../../data/reviews/p146_duplicate_independent.json).
 
 ## p109: use the neighboring imperfect witness
 
@@ -24,7 +24,7 @@ Printed p109 B and the challenge's section D are near-parallel 248-position ciph
 
 The readable 124-character proposal still needs 23 coordinate changes relative to each witness. Under a shared-plaintext hypothesis, 42 total substitutions are unavoidable; the proposal needs 46. The additional four occur at three plaintext positions. The different timestamps and endings remain unresolved, and the exact common-plaintext hypothesis is not asserted as historical fact.
 
-See the [case](../../cases/p109.md), [source comparison](../../data/certificates/p109_parallel.json), and [complete change maps](../../data/certificates/editorial_readings.json).
+See the [case](../../cases/pages/109.md#edition-cases-p109), [source comparison](../../data/certificates/p109_parallel.json), and [complete change maps](../../data/certificates/editorial_readings.json).
 
 ## Reproduce
 

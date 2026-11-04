@@ -10,19 +10,19 @@ coordinate substitutions**, **2 printed-mask fills**, and **1 fill in an
 added slot**. One battalion position remains unresolved. The published
 Nov1–3 key is unchanged.
 
-The [Meier order](../../cases/people/meier_berlin_order.md) recovers a complete
+The [Meier order](../../cases/pages/104.md#edition-cases-people-meier-berlin-order) recovers a complete
 75-position instruction from the visibly short four-coordinate group ADAG.
 Adding A gives ADAAG with no observed-coordinate substitution. Two adjacent
 gap alignments produce the identical ciphertext and text; both are retained.
 The certificate prices all five local alignments, without claiming a unique
 historical loss position.
 
-The [acknowledgment edition](../../cases/radio/nov2_telegram_acknowledgments.md)
+The [acknowledgment edition](../../cases/pages/104.md#edition-cases-radio-nov2-telegram-acknowledgments)
 assembles the native three-part p105 C1 / p106 A2–A3 message. All 318 positions
 read without repair. A fourth physical witness, p104 A3, preserves the
 conflicting source date and one-coordinate/reference-digit difference.
-The [UKS service message](../../cases/radio/nov2_uks_connection.md) retains
-literal 5UKS, NSM and 6NKJ. The [Sevastopol transfer consent](../../cases/people/sevastopol_transfer_consent.md)
+The [UKS service message](../../cases/pages/104.md#edition-cases-radio-nov2-uks-connection) retains
+literal 5UKS, NSM and 6NKJ. The [Sevastopol transfer consent](../../cases/pages/104.md#edition-cases-people-sevastopol-transfer-consent)
 keeps its unknown unit field.
 
 `inputs.json` freezes literal rows, annotations, headers, all geometry,

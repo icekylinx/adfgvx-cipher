@@ -22,6 +22,8 @@ jobs:
           python-version: ${{ matrix.python }}
       - name: Install research verification dependencies
         run: python -m pip install -r REQUIREMENTS.txt
+      - name: Prepare preserved source fixtures
+        run: python -m adfgvx.source_editions --materialize
       - name: Verify source-evidence modes fail closed
         run: python -m unittest discover -s tests -p test_source_evidence.py
       - name: Verify published source crops
@@ -32,9 +34,9 @@ jobs:
         run: |
           python -m adfgvx.catalog --check
           python -m adfgvx.navigation --check
-          python -m adfgvx.case_views --check
+          python -m adfgvx.source_editions --check
           python -m adfgvx.page_editions --check
-          python -m unittest discover -s tests -p test_case_views.py
+          python -m unittest discover -s tests -p test_source_editions.py
           python -m unittest discover -s tests -p test_page_editions.py
           python -m unittest discover -s tests -p test_source_gap_evidence.py
           python data/reviews/check_reading_presentation.py
@@ -426,3 +428,7 @@ jobs:
         run: |
           cc -O3 -std=c11 -Wall -Wextra -Werror experiments/p153_odd_widths/enumerate_components.c -o /tmp/p153-components
           python experiments/p153_odd_widths/run_and_verify.py --engine /tmp/p153-components --output /tmp/p153-components-results
+
+      - name: Remove generated source fixtures
+        if: always()
+        run: python -m adfgvx.source_editions --clean

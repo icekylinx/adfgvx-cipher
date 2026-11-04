@@ -153,4 +153,4 @@ python experiments/transylvania_situation_report/verify.py --verify --pdf /path/
 
 The standard-library verifier independently reconstructs transposition and domains, checks all source mappings and exact repairs, both 1,295-model geometry grids, all 38 interference allocations, all 214 unread-fragment models, and the full 788-block copy search. The optional PDF mode additionally uses PyMuPDF and Pillow to compare the complete source PDF hash and crop pixels.
 
-See [inputs.json](inputs.json), [certificates.json](certificates.json), [catalog_proposal.json](catalog_proposal.json), and the [reading page](../../cases/military/transylvania_situation_report.md).
+See [inputs.json](inputs.json), [certificates.json](certificates.json), [catalog_proposal.json](catalog_proposal.json), and the [reading page](../../cases/pages/128.md#edition-cases-military-transylvania-situation-report).

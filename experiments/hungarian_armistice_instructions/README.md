@@ -7,7 +7,7 @@ lengths **352 / 266 / 48**. Their message line is `1715 (4/11) 3 TLE`;
 the receiving header is November 5 at 7.17 p.m. All three parts use the
 unchanged published **Nov4–6** key. The separate damaged p124 B is excluded.
 
-The [reading case](../../cases/military/hungarian_armistice_instructions.md)
+The [reading case](../../cases/pages/124.md#edition-cases-military-hungarian-armistice-instructions)
 reports negotiations for Hungarian troops, the requested departure of
 German troops from Hungarian and South-Slav territory, an assignment to
 send two staff officers and a request for instructions. These are the

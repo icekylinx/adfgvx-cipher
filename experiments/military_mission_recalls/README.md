@@ -4,7 +4,7 @@ Prepared by **icekylinx and GPT-6 Astra Pro**; published keys credited to Lasry,
 
 **4 physical records; 802 native coordinate slots; 401 plaintext positions.** The raw layer fixes 394 positions and the edition fixes 398, with 6 observed-coordinate substitutions and 4 fills. No geometry, key or numerical-label assignment changes.
 
-See [the complete case](../../cases/people/military_mission_recalls.md). `inputs.json` records the source rows and crop provenance; `prior_candidates.json` retains earlier readings; `certificates.json` records exact costs, remaining domains and raw/edited round trips. The catalog proposal includes only the listed new physical records.
+See [the complete case](../../cases/pages/161.md#edition-cases-people-military-mission-recalls). `inputs.json` records the source rows and crop provenance; `prior_candidates.json` retains earlier readings; `certificates.json` records exact costs, remaining domains and raw/edited round trips. The catalog proposal includes only the listed new physical records.
 
 ```bash
 python experiments/military_mission_recalls/verify.py --verify

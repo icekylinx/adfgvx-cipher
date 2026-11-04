@@ -1,6 +1,6 @@
 # One source, one catalogue entry
 
-[Catalogue](../cases/README.md) · [Evidence coverage](whole-material-coverage.md) · [Reading conventions](reading-conventions.md)
+[Catalogue](../topics/README.md) · [Evidence coverage](whole-material-coverage.md) · [Reading conventions](reading-conventions.md)
 
 The catalogue contains one canonical entry for each of the **679 physical
 ciphertext bodies** in the reviewed Childs log. A separately printed part or
@@ -16,7 +16,7 @@ sources; their inclusion does not add a decipherment.
 
 ## The canonical p132 case
 
-[Challenge p132](../cases/p132.md) is Childs printed p132, section B. The
+[Challenge p132](../cases/pages/132.md#edition-cases-p132) is Childs printed p132, section B. The
 later source package calls this same record `p132_B`. Both inputs have the
 same header, source location and complete **155-slot** ciphertext, including
 the same two printed erasures. Its literal SHA-256 is:
@@ -35,7 +35,7 @@ positions and the explicit three-substitution/two-erasure-fill account.
 [source-record alias register](../data/source_record_aliases.json) binds
 that spelling only to those specific files and canonical `p132`. It does
 not authorize a second live catalogue row. The old
-[radio-service B anchor](../cases/radio/p132_radio_service.md#b-repeat-the-fourth-period-telegram-in-the-fifth)
+[radio-service B anchor](../cases/pages/132.md#edition-cases-radio-p132-radio-service-b-repeat-the-fourth-period-telegram-in-the-fifth)
 now points to the consolidated case. The independent A and C sources on
 that page retain their own entries.
 

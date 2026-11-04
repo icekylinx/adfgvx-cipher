@@ -13,8 +13,8 @@ lost-tail slots.
 
 | Original donor | Raw span, zero based | Original field | Proposed target start |
 |---|---:|---|---:|
-| [p164 D](../../cases/radio/p164_acknowledgment.md) | 41–50 | `XKXMXRMX1` | 91 |
-| [p105 C1](../../cases/radio/nov2_telegram_acknowledgments.md) | 77–84 | `XRMX1XA` | 95 |
+| [p164 D](../../cases/pages/164.md#edition-cases-radio-p164-acknowledgment) | 41–50 | `XKXMXRMX1` | 91 |
+| [p105 C1](../../cases/pages/104.md#edition-cases-radio-nov2-telegram-acknowledgments) | 77–84 | `XRMX1XA` | 95 |
 
 Both donor fields consist entirely of original observed pairs. Their common
 `XRMX1` permits the joined eleven-position proposal, which has fifteen

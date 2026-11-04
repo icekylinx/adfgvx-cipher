@@ -11,7 +11,7 @@ It says the report is additionally being sent by teleprinter through Budapest.
 The source requires **zero coordinate edits or fills**. The prefix and compact
 fields remain literal: `OLFENINIUS`, `ARADJZ`, `EY`, `AOKYY`.
 
-[Read the edition](../../cases/military/nov24_budapest_report.md) ·
+[Read the edition](../../cases/pages/217.md#edition-cases-military-nov24-budapest-report) ·
 [Original source PDF, p220](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) ·
 [Certificate](certificates.json)
 

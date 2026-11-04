@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-The [p138 C edition](../../cases/radio/nov6_marine_service_notice.md#completed-reading)
+The [p138 C edition](../../cases/pages/138.md#edition-cases-radio-nov6-marine-service-notice-completed-reading)
 now reads **KIEW** and **OSMANIE**. Both names have independent native-source
 witnesses: p110 B closes with `HRG KIEW`; p77 B names `FUNKERABTLG OSMANIE`.
 The new letters fill source masks 44 and 146 without changing an observed

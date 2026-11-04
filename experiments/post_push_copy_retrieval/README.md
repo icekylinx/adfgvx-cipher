@@ -42,11 +42,11 @@ the number of retrieval pairs is not the number of new records.
 
 | Literal reference → OCR lead | Manually reviewed outcome |
 |---|---|
-| p125 A4 → p137 block 5 | [p137 B4](../../cases/military/armistice_clause_witnesses.md) independently supplies one previously masked coordinate. |
-| p126 B → p137 block 6 | [p137 C](../../cases/military/armistice_clause_witnesses.md) repeats both earlier corrupt words; their repairs remain editorial. |
-| p171 B1/B2 → p166 blocks 4/5 | [Newspaper dispatch copies](../../cases/radio/newspaper_dispatch_witnesses.md) preserve complementary evidence and three still unwitnessed editorial letters. |
-| p83 B → p79 blocks 2/3 | [Palestine medical-unit dissolution](../../cases/military/palestine_medical_dissolution.md) supplies the earlier missing first-part context and an exact second-part copy. |
-| p174 A3 → p195 block 1 | [Banknote completion](../../cases/finance/crown_banknote_completion.md) supplies nineteen absent coordinates while contradicting one earlier conjectural fill. |
+| p125 A4 → p137 block 5 | [p137 B4](../../cases/pages/137.md#edition-cases-military-armistice-clause-witnesses) independently supplies one previously masked coordinate. |
+| p126 B → p137 block 6 | [p137 C](../../cases/pages/137.md#edition-cases-military-armistice-clause-witnesses) repeats both earlier corrupt words; their repairs remain editorial. |
+| p171 B1/B2 → p166 blocks 4/5 | [Newspaper dispatch copies](../../cases/pages/166.md#edition-cases-radio-newspaper-dispatch-witnesses) preserve complementary evidence and three still unwitnessed editorial letters. |
+| p83 B → p79 blocks 2/3 | [Palestine medical-unit dissolution](../../cases/pages/079.md#edition-cases-military-palestine-medical-dissolution) supplies the earlier missing first-part context and an exact second-part copy. |
+| p174 A3 → p195 block 1 | [Banknote completion](../../cases/pages/195.md#edition-cases-finance-crown-banknote-completion) supplies nineteen absent coordinates while contradicting one earlier conjectural fill. |
 
 The other eighteen cross-page pairs concern already reviewed DEUTZITAG,
 ZITAG, Constanza, Namur and p212/p218 relationships. Every retained pair,

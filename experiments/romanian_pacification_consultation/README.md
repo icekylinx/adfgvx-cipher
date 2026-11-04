@@ -78,6 +78,6 @@ Full re-encryption establishes compatibility with the stated key/frame,
 not the unique wording of a historical message. The earlier source
 fragment and historical event identity remain explicitly limited.
 
-See [the reading edition](../../cases/military/romanian_pacification_consultation.md),
+See [the reading edition](../../cases/pages/157.md#edition-cases-military-romanian-pacification-consultation),
 [inputs](inputs.json), [certificates](certificates.json) and
 [catalog proposal](catalog_proposal.json).

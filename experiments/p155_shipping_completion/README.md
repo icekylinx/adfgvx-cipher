@@ -1,6 +1,6 @@
 # Exact completion of the p155 shipping reading
 
-The [case edition](../../cases/context/p155.md#completed-reading) already
+The [case edition](../../cases/pages/155.md#edition-cases-context-p155-completed-reading) already
 proposed Asgard's arrival at Poti, the troop pickup and the acknowledgment
 request in a bracketed reconstruction. This supplement supplies exact
 repaired streams for both parts and binds the vocabulary to observed words

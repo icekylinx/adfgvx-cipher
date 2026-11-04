@@ -6,27 +6,27 @@ All 21 bodies have an explicit native transcription, slot count and reproducible
 
 | Source | Native slots | Valid coordinates | Mask/invalid slots | Advertised length | Current state |
 |---|---:|---:|---:|---:|---|
-| p70_B1 | 206 | 199 | 7 | 206 | [OPEN](../cases/open/p70_B1.md) |
-| p71_A2 | 85 | 85 | 0 | 192 | [CONDITIONAL](../cases/radio/p71_dc_machines_fragment.md#p71-a2) |
-| p84_C | 118 | 111 | 7 | 244 | [CONDITIONAL](../cases/radio/p84_mother_illness_extension.md) |
-| p127_B2 | 152 | 104 | 48 | 152 | [OPEN](../cases/open/p127_B2.md) |
-| p137_A6 | 74 | 71 | 3 | Not printed | [CONDITIONAL](../cases/military/p137_publicity_fragment.md#p137-a6) |
-| p137_B | 135 | 133 | 2 | 138 | [CONDITIONAL](../cases/radio/p137_station_staff_query.md#p137-b) |
-| p145_A | 192 | 187 | 5 | Not printed | [OPEN](../cases/open/p145_A.md) |
-| p152_A2 | 128 | 125 | 3 | 128 | [PARTIAL](../cases/military/p152_crossing_fragment.md#p152-a2) |
-| p154_A2 | 118 | 118 | 0 | 162 | [CONDITIONAL](../cases/military/p154_weisskirchen_fragment.md) |
-| p163_A16 | 121 | 121 | 0 | Not printed | [CONDITIONAL](../cases/military/p163_infrastructure_clause.md#p163-a16) |
-| p164_D | 116 | 116 | 0 | 116 | [PARTIAL](../cases/radio/p164_acknowledgment.md#p164-d) |
-| p167_C1 | 132 | 130 | 2 | 132 | [CONDITIONAL](../cases/radio/p167_mission_address.md#p167-c1) |
-| p167_D | 187 | 183 | 4 | 190 | [CONDITIONAL](../cases/people/p167_captain_dispatch_fragment.md#conditional-name-proposal) |
-| p176_A6 | 160 | 74 | 86 | 160 | [PARTIAL](../cases/military/p176_coal_train_fragment.md#p176-a6) |
-| p194_D1 | 45 | 45 | 0 | 214 | [OPEN](../cases/open/p194_D1.md) |
-| p198_A | 247 | 237 | 10 | 244 | [CONDITIONAL](../cases/naval/p198_shipping_query.md#p198-a) |
-| p212_A4 | 197 | 197 | 0 | Not printed | [CONDITIONAL](../cases/military/p212_medical_fragment.md#p212-a4) |
-| p215_A | 390 | 372 | 18 | 392 | [CONDITIONAL](../cases/military/p215_breslau_dispatch.md) |
-| p215_B1 | 145 | 140 | 5 | 220 | [CONDITIONAL](../cases/military/p215_train_departure_fragment.md#p215-b1) |
-| p215_B3 | 219 | 200 | 19 | 234 | [CONDITIONAL](../cases/military/p215_third_positions_fragment.md) |
-| p219_C | 284 | 284 | 0 | 294 | [CONDITIONAL](../cases/military/p219_kiev_unrest.md#p219-c) |
+| p70_B1 | 206 | 199 | 7 | 206 | [OPEN](../cases/pages/070.md#edition-cases-open-p70-b1) |
+| p71_A2 | 85 | 85 | 0 | 192 | [CONDITIONAL](../cases/pages/071.md#edition-cases-radio-p71-dc-machines-fragment-p71-a2) |
+| p84_C | 118 | 111 | 7 | 244 | [CONDITIONAL](../cases/pages/084.md#edition-cases-radio-p84-mother-illness-extension) |
+| p127_B2 | 152 | 104 | 48 | 152 | [OPEN](../cases/pages/127.md#edition-cases-open-p127-b2) |
+| p137_A6 | 74 | 71 | 3 | Not printed | [CONDITIONAL](../cases/pages/137.md#edition-cases-military-p137-publicity-fragment-p137-a6) |
+| p137_B | 135 | 133 | 2 | 138 | [CONDITIONAL](../cases/pages/137.md#edition-cases-radio-p137-station-staff-query-p137-b) |
+| p145_A | 192 | 187 | 5 | Not printed | [OPEN](../cases/pages/145.md#edition-cases-open-p145-a) |
+| p152_A2 | 128 | 125 | 3 | 128 | [PARTIAL](../cases/pages/152.md#edition-cases-military-p152-crossing-fragment-p152-a2) |
+| p154_A2 | 118 | 118 | 0 | 162 | [CONDITIONAL](../cases/pages/154.md#edition-cases-military-p154-weisskirchen-fragment) |
+| p163_A16 | 121 | 121 | 0 | Not printed | [CONDITIONAL](../cases/pages/163.md#edition-cases-military-p163-infrastructure-clause-p163-a16) |
+| p164_D | 116 | 116 | 0 | 116 | [PARTIAL](../cases/pages/164.md#edition-cases-radio-p164-acknowledgment-p164-d) |
+| p167_C1 | 132 | 130 | 2 | 132 | [CONDITIONAL](../cases/pages/167.md#edition-cases-radio-p167-mission-address-p167-c1) |
+| p167_D | 187 | 183 | 4 | 190 | [CONDITIONAL](../cases/pages/167.md#edition-cases-people-p167-captain-dispatch-fragment-conditional-name-proposal) |
+| p176_A6 | 160 | 74 | 86 | 160 | [PARTIAL](../cases/pages/176.md#edition-cases-military-p176-coal-train-fragment-p176-a6) |
+| p194_D1 | 45 | 45 | 0 | 214 | [OPEN](../cases/pages/194.md#edition-cases-open-p194-d1) |
+| p198_A | 247 | 237 | 10 | 244 | [CONDITIONAL](../cases/pages/198.md#edition-cases-naval-p198-shipping-query-p198-a) |
+| p212_A4 | 197 | 197 | 0 | Not printed | [CONDITIONAL](../cases/pages/212.md#edition-cases-military-p212-medical-fragment-p212-a4) |
+| p215_A | 390 | 372 | 18 | 392 | [CONDITIONAL](../cases/pages/215.md#edition-cases-military-p215-breslau-dispatch) |
+| p215_B1 | 145 | 140 | 5 | 220 | [CONDITIONAL](../cases/pages/215.md#edition-cases-military-p215-train-departure-fragment-p215-b1) |
+| p215_B3 | 219 | 200 | 19 | 234 | [CONDITIONAL](../cases/pages/215.md#edition-cases-military-p215-third-positions-fragment) |
+| p219_C | 284 | 284 | 0 | 294 | [CONDITIONAL](../cases/pages/219.md#edition-cases-military-p219-kiev-unrest-p219-c) |
 
 The 21 literal transcriptions contain **3,451 source slots: 3,232 valid coordinates and 219 printed masks or invalid glyphs**. Source annotations are retained separately from coordinates.
 

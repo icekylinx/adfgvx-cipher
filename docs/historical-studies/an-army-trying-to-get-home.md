@@ -1,16 +1,16 @@
 # German Withdrawal through Hungary, November 1918: Provisioning, Transit and Internment
 
-[Historical studies](README.md) · [Selected discoveries](../historical-showcase.md) · [Complete editions by printed page](../../cases/README.md)
+[Historical studies](README.md) · [Selected discoveries](../historical-showcase.md) · [Complete editions by printed page](../../cases/pages/README.md)
 
 **Historical study: icekylinx and GPT-6 Astra Pro.**
 
-German withdrawal from southeastern Europe required more than an order to march home. The intercepted correspondence distinguishes three conditions for movement: permission to cross territory, the trains and provisions needed to do so, and cooperation from the authorities controlling successive sections of the route. These conditions did not advance together. Early-November traffic sought supply trains and instructions; late-November reports combined coal shortages and demands for disarmament with accounts of individual transports reaching their destinations. Headquarters appeals against internment therefore describe a crisis within an uneven withdrawal, rather than a single moment at which every movement ceased.
+German withdrawal from southeastern Europe depended on transit permission, transport and provisions, and cooperation from authorities along the route. These conditions did not advance together. Late-November correspondence reported both obstructions and arrivals after the armistice's stated transit period. Headquarters appeals against internment belong to this uneven withdrawal; they do not establish when every formation ceased moving.
 
-The sources are intercepted messages preserved in J. Rives Childs's collection, read alongside armistice texts, a contemporary railway announcement, an operational map and Berlin council documents. A telegram establishes what its sender reported or requested. Independent documents can corroborate a place, date or institutional position without confirming every reported movement.
+Childs's intercepted messages are compared here with armistice texts, a railway announcement, an operational map and Berlin council documents. Each witness establishes a report, request or instruction; corroborating one detail does not authenticate the whole account.
 
 ## Chronology and the dates of the evidence
 
-An originating date, the date of an event described in a message, and an interception date answer different questions. Newspaper publication adds another interval. The chronology below preserves these distinctions and leaves unprinted dates unresolved.
+The chronology distinguishes events and originating dates from interception and publication. Unprinted dates remain unresolved.
 
 | Event or originating date | Interception or publication | Evidence and complete edition |
 |---|---|---|
@@ -23,15 +23,17 @@ An originating date, the date of an event described in a message, and an interce
 | 28 November, 11:30 originating line; arrival on the 27th is conditional | 29 November, 01:17 interception | Regimental journey and assistance received. [p225 B1–B2](../../cases/pages/225.md#edition-cases-military-regimental-journey-report) |
 | Berlin counterpart dated 28 November, dispatched 29 November; radio origin 29 November, 22:00 | 2 December, 04:20 interception | Council letter accepting the prospect of internment. [pp226–227](../../cases/pages/226.md#edition-cases-military-mackensen-internment) |
 
-The Transylvania report cannot be placed as precisely. Its associated parts carry conflicting 5–6 November headings and receipt times, and two parts remain missing. Its evidence belongs to the early withdrawal discussions, but cannot establish their exact sequence. The [full editions on pp128–129](../../cases/pages/128.md#edition-cases-military-transylvania-situation-report) and [p137](../../cases/pages/137.md#edition-cases-military-transylvania-situation-report) retain those conflicts.
+The Transylvania report's conflicting 5–6 November headings, receipt times and two missing parts prevent a precise sequence. The [editions on pp128–129](../../cases/pages/128.md#edition-cases-military-transylvania-situation-report) and [p137](../../cases/pages/137.md#edition-cases-military-transylvania-situation-report) retain these limits.
 
 ## The legal terms of passage
 
-The Austro-Hungarian armistice was signed on 3 November; its supplementary protocol fixed the cessation of hostilities at 15:00 Central European time on 4 November. Military clause 5 required German evacuation within fifteen days and prescribed internment for troops remaining. The Belgrade convention of 13 November allowed German passage and temporary quartering in Hungary, but clause 11 counted its fifteen days from **4 November at 15:00**. It did not restart the clock on 13 November. Clauses 11 and 14 also subjected communications and railways to Allied control and prohibited military telegraphic communication with Germany.[^armistices]
+Signed on 3 November, the Austro-Hungarian armistice took effect at 15:00 Central European time on 4 November. Military clause 5 required German evacuation within fifteen days, with internment for troops remaining. Belgrade clause 11, agreed on 13 November, counted its passage and quartering allowance from **4 November at 15:00**. Clauses 11 and 14 placed communications and railways under Allied control.[^armistices]
 
-The [message originating on 4 November](../../cases/pages/124.md#edition-cases-military-hungarian-armistice-instructions) already treats departure as a matter requiring negotiation: German troops should leave Hungarian and South Slav territory as soon as possible; AOK 11 is to send two general-staff officers and receive instructions. The surviving name `KOOVES` is not needed to identify an individual for this argument. The text records an assignment, not the officers' arrival or an agreement secured by them.
+The stated fifteen days end, by calculation, on **19 November at 15:00**. The reports originating on 24 and 28 November postdate that allowance without interpreting body digits. They establish neither an extension nor uniform enforcement.
 
-Information about applicable terms remained a separate problem. In [p179 C, intercepted on 11 November](../../cases/pages/179.md#edition-cases-military-armistice-and-leave-orders), Mackensen's high command and the Eleventh Army ask OHL for the particular armistice conditions governing their front. [p181 B](../../cases/pages/181.md#edition-cases-military-namur-cassel-armistice-requests-p181-b) asks for them again, naming OKM and AOK11. Its printed 01:00 interception and 23:10 originating fields both carry 12 November, so it cannot supply a reliable elapsed interval between the requests. The repetition nevertheless shows that obtaining authoritative instructions was itself part of withdrawal administration.
+The [message originating on 4 November](../../cases/pages/124.md#edition-cases-military-hungarian-armistice-instructions) instructs German troops to leave Hungarian and South Slav territory promptly and directs AOK 11 to send two staff officers to negotiations. It requests instructions without reporting an agreement or the officers' arrival. The name `KOOVES` remains unidentified.
+
+In [p179 C, intercepted on 11 November](../../cases/pages/179.md#edition-cases-military-armistice-and-leave-orders), Mackensen's high command and the Eleventh Army request OHL's particular armistice conditions for their front. [p181 B](../../cases/pages/181.md#edition-cases-military-namur-cassel-armistice-requests-p181-b) asks again, naming OKM and AOK11. Its 01:00 interception and 23:10 originating fields both carry 12 November, preventing a reliable interval between requests. The repetition documents a continuing demand for authoritative instructions.
 
 ## Provisioning the route: Arad and the railway allocation
 
@@ -39,17 +41,17 @@ The [Arad report received on 9 November](../../cases/pages/168.md#edition-cases-
 
 > Verpflegung noch 14 Tage. 10 Tage. Verpfleg. Zuege nach Arad. Arad bei ungar. Regierung erwirken. STAEKE 80000 Mann, 30000 Tiere.
 
-The two duration fields have no securely established relationship. The strength figures, however, are supported by observed ciphertext pairs in p168 E. Comparison with the [earlier p159 witness](../../cases/pages/159.md#edition-cases-military-arad-provisions-partial) resolves the previously incomplete 80,000 field. The reported scale is therefore firmer than either the meaning of the two time allowances or the unresolved closing reference.
+The two duration fields have no established relationship. Observed ciphertext pairs in p168 E support both strength figures and resolve the incomplete 80,000 field in the [earlier p159 witness](../../cases/pages/159.md#edition-cases-military-arad-provisions-partial). The closing reference remains unresolved.
 
-Arad appears as a requested provisioning point, and cooperation from the Hungarian government must be obtained. The message provides no receipt for supplies or account of completed delivery. The [Danube report](../../cases/pages/164.md#edition-cases-military-danube-arad-witnesses-p164-c1) describes the 219th Infantry Division's crossing as complete and busy crossing traffic at the transmitted `BELGRAD` and `SEMUM`. Together, the messages show crossing and onward supply as distinct stages; neither establishes that the whole force had secured its route home.
+The sender seeks Hungarian cooperation for provisioning at Arad, without reporting delivery. The [Danube report](../../cases/pages/164.md#edition-cases-military-danube-arad-witnesses-p164-c1) describes the 219th Infantry Division's crossing as complete and busy crossing traffic at `BELGRAD` and `SEMUM`. Crossing and onward supply appear as distinct requirements.
 
-The *Central-Volksblatt* of 14 November published a WTB dispatch from Berlin dated 12 November, citing the German liaison officer in Budapest. It announced that the Hungarian government had made six trains daily available **to each** of the Eleventh Army and Mackensen's army. The source's *je* matters: six is not a combined daily total for the two named formations.[^railway]
+The *Central-Volksblatt* of 14 November printed a WTB dispatch dated 12 November, citing the German liaison officer in Budapest. It announced six trains daily, supplied by the Hungarian government **to each** of the Eleventh Army and Mackensen's army. The quantifier *je* establishes separate allocations.[^railway]
 
 ![Contemporary announcement of six daily trains for each army](../../sources/excerpts/central_volksblatt_19181114_mackensen.png)
 
 *“Die Armee Mackensen,” Central-Volksblatt, no. 265, 14 November 1918, front page, lower right column. Stadtarchiv Werl.*
 
-This was an announced allocation, issued before the Belgrade convention; it was not a timetable or an operating return. No train loads, journey durations or completed departures are given. It cannot be divided into the Arad strength figure to calculate an evacuation time. Its historical significance is institutional: both provisioning and railway access required cooperation beyond the German command structure.
+The announcement preceded the Belgrade convention and gives no loads, journey times or operating returns from which to calculate evacuation capacity. Like the Arad request, it locates essential transport decisions outside the German command structure.
 
 ## Moving headquarters and pressure from Romania
 
@@ -59,33 +61,33 @@ The [instruction intercepted on 9 November, p163](../../cases/pages/163.md#editi
 
 *CAMO/TsAMO 500-12519-274, map no. 9. German-Russian archival digitization project.*
 
-The map corroborates the proposed destination and distinguishes the two headquarters. Its symbols have no individual dates; the map's 13–18 November interval does not prove the precise execution of the earlier order. It supplies geographical evidence of command displacement without turning a projected itinerary into a completed one.
+The map corroborates the proposed destination and distinguishes the two headquarters. Its symbols have no individual dates; the 13–18 November interval does not date arrival or prove execution of the projected schedule.
 
-The [Romanian ultimatum report received on 11 November, p180 D1](../../cases/pages/180.md#edition-cases-military-nov11-romanian-ultimatum-report), adds pressure from another direction. Its reconstructed text reports a Romanian evacuation demand and states that it was unanswered. The phrase `Raeumung 24 Stunden vor der Waffenstreckung` remains difficult to interpret; the originating time has no separately printed date. Neither a precise deadline nor the time of Romanian action can be established from this damaged witness alone.
+The reconstructed [Romanian ultimatum report received on 11 November, p180 D1](../../cases/pages/180.md#edition-cases-military-nov11-romanian-ultimatum-report) reports an unanswered evacuation demand. Its difficult phrase `Raeumung 24 Stunden vor der Waffenstreckung` and undated originating time cannot establish a precise deadline or the timing of Romanian action.
 
 ## Coal, contested territory and disarmament
 
-The [five-part report originating on 24 November](../../cases/pages/217.md#edition-cases-military-p217-a) brings material and political obstacles together. It attributes a halt in outward transport to coal shortage, reports a battalion's arrival at Poestyen, and says that other battalions appear to have been misdirected. Its closing passage states:
+The [report originating on 24 November](../../cases/pages/217.md#edition-cases-military-p217-a) attributes a transport stoppage to coal shortage, reports a battalion's arrival at Poestyen and suggests that others were misdirected. Its closing passage states:
 
 > Cechen verweigern Aufenthalt. Wollen auch Durchfahrt nur nach Entwaffnung gestatten.
 
-Massow in Budapest is asked to clarify these questions. The interpreted date of the coal stoppage, 22 November, and several formation numbers depend on the separately documented numeral interpretation. Poestyen uses an established shared-letter interpretation; damaged unit fields remain unresolved. The historical argument rests on the explicit relationship between fuel, location and permission to pass, rather than on completing those unit numbers.
+Massow in Budapest is asked to clarify the conditions. The coal-stoppage date, 22 November, and several formation numbers are conditional numeral interpretations. Poestyen uses a shared-letter interpretation; damaged unit fields remain unresolved. The independently printed 24 November originating date places the report after the stated transit period.
 
-A Budapest newspaper report dated 21 November, reprinted in the *Hamburgischer Correspondent* on 22 November, describes the Slovak council at Poestyen protesting Czech occupation and neighboring communities already under Czech control.[^poestyen] Its hostile description of the Czechs belongs to the report's political perspective. The comparison places the telegram's route in contested territory; it does not independently authenticate the battalion's arrival or the reported disarmament demand. It helps explain why an arrangement with the Hungarian government could not by itself establish unobstructed passage along every section of the route.
+A Budapest report dated 21 November, reprinted in the *Hamburgischer Correspondent* on the 22nd, describes the Slovak council at Poestyen protesting Czech occupation and neighboring communities under Czech control.[^poestyen] Its hostile language reflects the newspaper's position. It independently reports a territorial dispute, without confirming the battalion's arrival or disarmament demand. Together, the accounts distinguish Hungarian cooperation from local control of the route.
 
-The [regimental journey report originating on 28 November](../../cases/pages/225.md#edition-cases-military-regimental-journey-report) provides a different local experience. It reports that minor interruptions had been overcome, that a transport had arrived at the literal `SILEIN`, and that every assistance had been received. The arrival day **27** is conditional on the shared numeral interpretation; route spellings and unit labels remain partly unresolved. This is evidence that favorable arrival reports continued to circulate alongside reports of obstruction. It does not establish unrestricted passage for other formations or a secure total for troops already home.
+The [journey report originating on 28 November](../../cases/pages/225.md#edition-cases-military-regimental-journey-report) states that minor interruptions had been overcome, arrival at the literal `SILEIN` achieved, and every assistance received. Its arrival day **27** is conditional; route spellings and unit labels remain partly unresolved. The header dates this favorable arrival account after the transit period, alongside demands for disarmament and internment.
 
 ## Negotiating internment and maintaining cohesion
 
-The [six-part appeal originating and intercepted on 25 November, pp220–221](../../cases/pages/220.md#edition-cases-military-mackensen-armistice-appeal), reports that Berthelot had conveyed Foch's refusal to apply the Western armistice conditions to the southeastern front, together with demands for disarmament and internment. If disarmament proved unavoidable, Mackensen's headquarters wanted it carried out by Hungary and sought exemption from internment. Provisioning remained central: the appeal argued that even internment was practicable, on supply grounds, at most in Hungary.
+The [appeal originating and intercepted on 25 November, pp220–221](../../cases/pages/220.md#edition-cases-military-mackensen-armistice-appeal), reports Berthelot conveying Foch's refusal to apply Western armistice conditions to the southeastern front and demands for disarmament and internment. Mackensen's headquarters sought exemption from internment and, if disarmament proved unavoidable, its execution by Hungary. It argued that supply considerations made internment practicable at most in Hungary.
 
-The connected text distinguishes acknowledgment from assent. Pending OHL's decision, headquarters would merely acknowledge receipt of the note. The warning of mass flight, misery and open resistance expresses the sender's feared consequences of internment; it is not evidence that these outcomes had already occurred. The fifth part depends on a missing-group reconstruction, retained in the [p221 edition](../../cases/pages/221.md#edition-cases-military-mackensen-armistice-appeal).
+Pending OHL's decision, headquarters would merely acknowledge receipt of the note. Its warnings of mass flight, misery and open resistance express feared consequences. The fifth part depends on the missing-group reconstruction retained in the [p221 edition](../../cases/pages/221.md#edition-cases-military-mackensen-armistice-appeal).
 
 Berlin council documents connect these negotiations to discipline. A telegram approved on 26 November and sent on the 28th urged technical personnel to remain at their posts and soldiers to obey existing commanders. The internment letter, dated 28 November and dispatched on the 29th, reported failed negotiations, urged order and promised assistance toward eventual return.[^council]
 
 That letter survives in the [interception of 2 December, pp226–227](../../cases/pages/226.md#edition-cases-military-mackensen-internment). The published counterpart supports the signatures Molkenbuhr and Müller; Richard comes from that edition. Wording differences preserve distinct versions. The comparison used its transcription, without inspecting the carbon copy. Discipline remained central under the prospect of detention.
 
-The correspondence thus reveals different forms of dependence within the same withdrawal. Hungarian cooperation was sought for provisions and trains; fuel and local control affected particular movements; Allied demands and negotiations shaped the fate of troops still abroad. Reports of arrival and appeals against internment overlap in time. The evidence supports a fragmented transition from withdrawal to detention, with different formations encountering different constraints.
+The treaty period and the reported movements followed different chronologies. After the stated allowance, correspondence still concerned fuel, passage, arrival and the terms of detention. These overlapping reports support an uneven transition to internment, without establishing uniform enforcement or every formation's legal status.
 
 ## Sources and attribution
 

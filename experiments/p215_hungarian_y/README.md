@@ -52,7 +52,7 @@ The joint layer retains **VASARHE1Y, VASARTELY, BATTREYA and BACYLON**. It does 
 
 A separately costed B2 geographical proposal can be re-encoded with Y at DD: **8 observed substitutions + 14 printed-mask fills**, versus the earlier baseline-square proposal’s 18 + 14. Its ten-coordinate reduction simply restores five Y pairs to the original observed DD coordinates. It remains an additional geographical word hypothesis, with all other repairs priced explicitly.
 
-Operational p217 A1–A5 belong to this key cohort. **Original challenge p217 C is a separate 170-slot, 19-column TRUPPENVERSCHIEBUNG message and is not included.** Unknown-key or unframed bodies are not treated as recovered here. Prior authors and geometry credit remain in the [original p215 case](../../cases/p215.md), [J constraint](../nov22_nikolajew_constraint/README.md), [operational report](../operational_recovery/README.md) and [B2 source edition](../southern_hungary_positions_part2/README.md).
+Operational p217 A1–A5 belong to this key cohort. **Original challenge p217 C is a separate 170-slot, 19-column TRUPPENVERSCHIEBUNG message and is not included.** Unknown-key or unframed bodies are not treated as recovered here. Prior authors and geometry credit remain in the [original p215 case](../../cases/pages/215.md#edition-cases-p215), [J constraint](../nov22_nikolajew_constraint/README.md), [operational report](../operational_recovery/README.md) and [B2 source edition](../southern_hungary_positions_part2/README.md).
 
 ## Reproduce
 

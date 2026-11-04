@@ -4,7 +4,7 @@
 
 A clear-address request on p122 and an encrypted reply on p155 form a source-linked exchange about von Schorlemer's availability for demobilization work. The earlier request asks whether he can be released to the Trade Ministry; the later administrative-staff reply says he cannot currently be spared. Both native frames and every repair remain explicit. The later reply supports the name and topic; the 33 supplied mask values in the first request remain editorial proposals.
 
-Read the [complete source edition](../../cases/people/schorlemer_demobilization_inquiry.md).
+Read the [complete source edition](../../cases/pages/122.md#edition-cases-people-schorlemer-demobilization-inquiry).
 
 ## Exact scope
 

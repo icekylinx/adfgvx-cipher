@@ -8,7 +8,7 @@ second part and proposes a separately qualified 134-position first part about
 couriers travelling to Munich with radio operating documents. It does not
 recover a new transposition key or assign either unresolved numeral cell.
 
-Read the [message edition](../../cases/other/courier_munich.md) first. The
+Read the [message edition](../../cases/pages/151.md#edition-cases-radio-courier-munich) first. The
 [literal inputs](inputs.json) preserve every printed coordinate. The
 [certificate](certificate.json) preserves the source alignments, raw readings,
 editorial candidate, all minimum candidate-specific fits, and a second
@@ -163,7 +163,7 @@ the association remains an interpretation. The second part stands on its own.
 
 ## Linked historical consequence: conditionally GRUKONACH602
 
-The separate [November 9 operational-report edition](../../cases/other/nov9_operational_reports.md#historical-identification-most-likely-the-6th-reserve-division)
+The separate [November 9 operational-report edition](../../cases/pages/166.md#edition-cases-military-nov9-operational-reports-historical-identification-most-likely-the-6th-reserve-division)
 records a historical identification of its reserve division as the **6th
 Reserve Division**. Its primary support is General Franchet d'Esperey's
 telegram 5.956/3 of 19 November, describing the forces on 11 November,

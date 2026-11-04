@@ -2,7 +2,7 @@
 
 **icekylinx and GPT-6 Astra Pro · 4 November 2026**
 
-[Read the edition](../../cases/military/p215_breslau_dispatch.md).
+[Read the edition](../../cases/pages/215.md#edition-cases-military-p215-breslau-dispatch).
 
 A five-mask group relocation and two unfilled short-group coordinates reveal
 176/196 raw positions under the unchanged published Nov22–24 key. All 372

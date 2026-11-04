@@ -2,7 +2,7 @@
 
 **Source review and partial word edition: icekylinx and GPT-6 Astra Pro.**
 
-[Read the edition](../../cases/military/p152_crossing_fragment.md) · [Exact certificate](certificates.json) · [Independent place attestation](place_attestation.json)
+[Read the edition](../../cases/pages/152.md#edition-cases-military-p152-crossing-fragment) · [Exact certificate](certificates.json) · [Independent place attestation](place_attestation.json)
 
 The native **128-slot** source gives **61/64 fixed raw labels** under the unchanged Nov4–6 key. A priced partial word proposal reads **BIS VARC8IORO?A KEINE UEBERGANGSVERSUCHE** and preserves the complete closing field. It makes **seven observed-coordinate substitutions and two printed-mask fills**, fixing **63/64 positions**. The negative KEINE belongs to this proposed word edition; it is not a native source-fixed conclusion.
 

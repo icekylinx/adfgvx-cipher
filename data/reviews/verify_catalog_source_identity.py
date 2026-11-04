@@ -39,7 +39,7 @@ def verify():
         assert case.count("```text\n" + source[field] + "\n```") == 1, field
     rendered = catalog.table([canonical], ROOT / "cases/README.md")
     assert rendered.splitlines()[0] == "| Source | State | Subject |"
-    assert rendered.count("[p132](p132.md)") == 1 and "p132_B" not in rendered
+    assert rendered.count("[p132](pages/132.md#source-p132)") == 1 and "p132_B" not in rendered
     assert "Thomas" not in rendered  # attribution belongs in data and the case
     return {"verified": True, "physical_sources": 679, "canonical_entries": 679,
             "original_challenge_identifiers": 22, "open_sources": sorted(OPEN_IDS),

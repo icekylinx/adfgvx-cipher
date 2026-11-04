@@ -15,8 +15,8 @@ parts also appeared in earlier unreviewed repository screening. This
 edition contributes exact source transcription, coordinate repair
 certificates and explicit limits on annotated or unresolved fields.
 
-Read the [oil inquiry](../../cases/caucasus/nobel_oil_inquiry.md) and
-the [radio report](../../cases/radio/damascus_aleppo_report.md).
+Read the [oil inquiry](../../cases/pages/064.md#edition-cases-caucasus-nobel-oil-inquiry) and
+the [radio report](../../cases/pages/064.md#edition-cases-radio-damascus-aleppo-report).
 
 ## Native frames and source annotations
 

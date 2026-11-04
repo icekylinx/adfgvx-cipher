@@ -2,7 +2,7 @@
 
 Research and source edition: **icekylinx and GPT-6 Astra Pro**.
 
-[Read the full source edition](../../cases/military/nov30_aviation_march_destination.md).
+[Read the full source edition](../../cases/pages/228.md#edition-cases-military-nov30-aviation-march-destination).
 
 p228 A contains 384 native source slots, including 379 coordinate glyphs and
 five printed masks, beside the questioned count RICHI-374?. Excluding source

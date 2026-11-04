@@ -4,7 +4,7 @@
 
 The surviving second and third parts request urgent shipping capacity and say that all troops will probably need sea transport. The source explicitly marks the first part missing. Repeated capacity labels, differing command fields and the unresolved source-mask position remain literal.
 
-Read the [complete source edition](../../cases/naval/urgent_shipping_space.md).
+Read the [complete source edition](../../cases/pages/218.md#edition-cases-naval-urgent-shipping-space).
 
 | Scope | Count |
 | --- | ---: |

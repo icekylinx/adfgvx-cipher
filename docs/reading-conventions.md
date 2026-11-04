@@ -1,30 +1,35 @@
 # Reading the edition
 
-[Catalogue](../cases/README.md) · [Historical studies](historical-studies/README.md) · [Methods](methods.md)
+[By page](../cases/pages/README.md) · [By subject](../topics/README.md) · [Historical studies](historical-studies/README.md) · [Methods](methods.md)
 
-Each source has one catalogue entry. A case may bring together several
-transmissions or successive parts of a message, but their source identifiers
-remain separate. The edition has two principal parts:
+Each physical source has one catalogue entry. A source edition may assemble
+several transmissions or successive parts while preserving their separate
+identifiers. Readers reach the complete editions through two routes:
 
-| Part | Purpose |
+| Route | Purpose |
 |---|---|
-| [Ciphertext pages](../cases/pages/README.md) | A dedicated Markdown edition for every printed page: its sources, German readings, English interpretations, explanations and evidence. Every page number in the home-page table opens that page directly. |
-| [Historical research](historical-studies/README.md) | Studies organized around historical questions, supported by the source editions, a dated chronology and comparisons with contemporary records. |
+| [Printed pages](../cases/pages/README.md) | The home page offers eight ranges. Each opens a page-number table leading to the complete edition of a printed page. |
+| [Subject exploration](../topics/README.md) | Six guides contain 50 curated summaries, each linking its sources directly to the complete numbered pages. |
+
+Historical studies develop arguments across those sources. Their links also
+lead to the full page editions. There is no intermediate standalone case view.
+
+<a id="source-editions"></a>
 
 ## Page format
 
-Each printed-page edition begins with its source table. **Reading** jumps to
-the detailed source section; **Case** opens the short account of the message.
-The complete page presents readable German, English interpretation,
-reconstruction arguments and source evidence. A shared edition names the
-companion receptions from other pages so that a cross-copy argument remains
-intelligible.
+Each printed-page edition begins with its source table. A source link jumps
+to the detailed reading and evidence on that page. The complete edition
+presents readable German, English interpretation, reconstruction arguments
+and source evidence. Shared editions identify companion receptions on other
+pages so that the evidence for a cross-copy argument remains intelligible.
 
 Raw decoded streams and literal transcriptions are expandable within the
-full edition. The local passage states any assumption that affects its
-reading. Attribution and source comparisons stay with the text. Existing
-case files preserve the full source body and earlier section citations,
-with a short English account at the top.
+full edition. The local passage states assumptions affecting its reading;
+attribution and source comparisons stay with the text. The canonical archive,
+`data/source_editions.json`, preserves 307 complete edition texts under their
+original case-path identifiers. Those identifiers support research dependencies;
+public source links use numbered pages and stable section anchors.
 
 ## Historical studies
 
@@ -49,7 +54,7 @@ parts of the archive without changing their catalogue identities.
 | **CONDITIONAL** | The principal proposed reading depends on a stated source frame, key interpretation or reconstruction assumption. It may also be incomplete. |
 | **OPEN** | No accepted body reading. Source transcription and tested hypotheses are available. |
 
-These are navigation labels. The case and certificate carry the exact result.
+These are navigation labels. The full edition and certificate carry the exact result.
 Adding an OPEN source completes the catalogue; it does not add a decipherment.
 For physical-source identity, see the [source register](catalogue-source-identity.md).
 
@@ -88,7 +93,7 @@ historical argument establish why that particular reconstruction is credible.
 
 Unknown square cells are globally coupled: one cell has one value, and two
 cells cannot independently take the same symbol. The linked date and serial
-fields in [p153](../cases/p153a.md) illustrate why replacing every unknown by
+fields in [p153](../cases/pages/153.md#source-p153a) illustrate why replacing every unknown by
 an unrelated question mark loses evidence.
 
 Keep transmitted repetitions, abbreviations, unusual spellings and numerical
@@ -137,27 +142,44 @@ message. A historical statement also distinguishes an order from its
 execution, a request from receipt, and a contemporary report from a verified
 event. Those distinctions belong beside the affected passage, once.
 
+<a id="maintain-the-edition"></a>
+
 ## Verification
 
-The [current structure check](../data/reviews/check_reading_presentation.py)
-checks case titles, convention links, evidence labels and expandable blocks.
-The page-edition check verifies coverage of every catalogue source, page
-assignment, section anchors, local links and evidence drawers. Concise case
-views preserve the complete source body when regenerated.
-Live readable mappings compare ordered German labels with decoded streams;
-source packages separately replay the cipher, repairs and image provenance.
+The source-archive check verifies the complete texts and their SHA-256 hashes.
+The page-edition check covers catalogue sources, page assignments, section
+anchors, local links and evidence drawers. Navigation checks the two reading
+routes and the curated topic selections. Live readable mappings compare
+ordered German labels with decoded streams; research packages separately
+replay cipher operations, repairs and source-image provenance.
 
-After editing an edition or its English summary, follow the
-[regeneration sequence](repository-map.md#maintain-the-edition), then run:
+Edit the canonical archive text and hash, or the topic summary and its
+`source_ids`, then follow the
+[regeneration sequence](repository-map.md#maintain-the-edition). Check the
+public edition with:
 
 ```sh
-python -m adfgvx.case_views --check
+python -m adfgvx.source_editions --check
 python -m adfgvx.catalog --check
 python -m adfgvx.navigation --check
 python -m adfgvx.page_editions --check
+```
+
+Frozen research checks may still use the archived case paths as file inputs.
+Materialize those paths for verification and clean them afterward:
+
+```sh
+python -m adfgvx.source_editions --materialize
 python data/reviews/check_reading_presentation.py
 python data/reviews/verify_live_readable_mappings.py
 python -m adfgvx.verify
+# Run affected source-specific checks from the verification workflow.
+python -m adfgvx.source_editions --clean
 ```
+
+Materialized files are temporary verification inputs. Persist intentional
+changes in the canonical archive before cleanup; keep those temporary files
+out of commits. Full plaintext, ciphertext, certificates and reconstruction
+accounts remain in the archive and numbered page editions.
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.

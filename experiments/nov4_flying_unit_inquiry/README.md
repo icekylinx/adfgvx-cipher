@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-Read the [complete p124 B edition](../../cases/military/nov4_flying_unit_inquiry.md).
+Read the [complete p124 B edition](../../cases/pages/124.md#edition-cases-military-nov4-flying-unit-inquiry).
 A conditional short-group repair produces an ordinary-language body while
 preserving the entire unresolved opening reference.
 

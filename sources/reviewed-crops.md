@@ -1,6 +1,6 @@
 # Reviewed source images
 
-**icekylinx and GPT-6 Astra Pro** · [Read the messages](../cases/README.md) · [Source bibliography](README.md)
+**icekylinx and GPT-6 Astra Pro** · [Read the messages](../topics/README.md) · [Source bibliography](README.md)
 
 All 40 crops from the 3 November source editions are available below. Each is bound to the original Childs scan by page, crop rectangle and RGB-pixel hash. The first 30 also reproduce the reviewed archive bytes; the remaining ten were rendered from the same authenticated scan.
 

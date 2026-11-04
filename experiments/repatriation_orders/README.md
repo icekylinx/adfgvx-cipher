@@ -2,7 +2,7 @@
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
-This package supplies seven manually source-reviewed records under the unchanged, conservative published **Nov16–18** key. The readable case is [Equipment disposal, Alpenkorps return, and Finland evacuation orders](../../cases/military/repatriation_orders.md). The main gains are whole first rows omitted by the older OCR extraction, a printed copy that supplies five erasures, and a clearly limited 221-to-220-coordinate interpretation.
+This package supplies seven manually source-reviewed records under the unchanged, conservative published **Nov16–18** key. The readable case is [Equipment disposal, Alpenkorps return, and Finland evacuation orders](../../cases/pages/207.md#edition-cases-military-repatriation-orders). The main gains are whole first rows omitted by the older OCR extraction, a printed copy that supplies five erasures, and a clearly limited 221-to-220-coordinate interpretation.
 
 ## Completed work
 

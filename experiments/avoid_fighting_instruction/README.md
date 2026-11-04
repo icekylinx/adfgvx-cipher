@@ -4,7 +4,7 @@
 
 A fully preserved native ciphertext directs that fighting be avoided and states that further instructions will follow. Four coordinate substitutions supply two word proposals; every abbreviated authority, demand and closing reference label stays visible. The account distinguishes the order from evidence that it was carried out.
 
-Read the [complete source edition](../../cases/military/avoid_fighting_instruction.md).
+Read the [complete source edition](../../cases/pages/227.md#edition-cases-military-avoid-fighting-instruction).
 
 | Scope | Count |
 | --- | ---: |

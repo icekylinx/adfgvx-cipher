@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-Read the [complete source edition](../../cases/context/benzol_pump_query.md). The received p189 D body has 101 occupied positions against advertised 102 and a four-character XVGF group. A conditional 102-coordinate frame gives 47/51 fixed raw labels; six observed substitutions, one source-glyph fill and one additional-coordinate fill give the displayed 51-position question about a benzol pump and a prompt answer.
+Read the [complete source edition](../../cases/pages/189.md#edition-cases-context-benzol-pump-query). The received p189 D body has 101 occupied positions against advertised 102 and a four-character XVGF group. A conditional 102-coordinate frame gives 47/51 fixed raw labels; six observed substitutions, one source-glyph fill and one additional-coordinate fill give the displayed 51-position question about a benzol pump and a prompt answer.
 
 All 102 possible insertion boundaries are priced. Only 37 and 38 attain the six-substitution minimum for the disclosed words, and both alternatives remain in the certificate. No observed coordinate is deleted or moved. The neighboring pump reply supports the topic but supplies neither missing ciphertext nor an independently established signature.
 

@@ -2,10 +2,10 @@
 
 **Source comparison and edition: icekylinx and GPT-6 Astra Pro.**
 
-The repeated place fields in [p226 A2](../../cases/radio/radio_traffic_transfer_fragment.md#the-repeated-place-grosswardein)
+The repeated place fields in [p226 A2](../../cases/pages/226.md#edition-cases-radio-radio-traffic-transfer-fragment-the-repeated-place-grosswardein)
 restore **Grosswardein** in a radio-traffic transfer notice. A contemporary
 newspaper adds context to the already established **Poestyen** reading in
-[p217 A3](../../cases/military/p217_A.md#poestyen-and-the-contested-route).
+[p217 A3](../../cases/pages/217.md#edition-cases-military-p217-a-poestyen-and-the-contested-route).
 
 ## A repeated place in the radio notice
 

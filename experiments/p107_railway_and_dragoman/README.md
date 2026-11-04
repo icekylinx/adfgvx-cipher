@@ -5,8 +5,8 @@ Source edition and verification by **icekylinx and GPT-6 Astra Pro**.
 Childs p107 B1/B2 form one source-labeled two-part railway message; C is a
 separate inquiry about dragoman Schaefer's return as his leave ends. All
 three use the unchanged published **Nov1–3** key. Read the
-[railway case](../../cases/military/chemnitz_verbetz_trains.md) and the
-[return inquiry](../../cases/people/schaefer_return_inquiry.md).
+[railway case](../../cases/pages/107.md#edition-cases-military-chemnitz-verbetz-trains) and the
+[return inquiry](../../cases/pages/107.md#edition-cases-people-schaefer-return-inquiry).
 
 ## Source corrections and conservative readings
 

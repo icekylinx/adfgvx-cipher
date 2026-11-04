@@ -9,7 +9,7 @@ bars are visible beside the different X forms. Correcting source position 144
 changes just plaintext position 2 from P to D. The raw opening is therefore
 **ZUDORTPAT487LEO**, displayed as **Zu dort PAT487 Leo**.
 
-The [current edition](../../cases/people/gokieloff_return_payment_stop.md) includes
+The [current edition](../../cases/pages/136.md#edition-cases-people-gokieloff-return-payment-stop) includes
 this correction. PAT487 remains a literal reference; the repeated Gokieloff name,
 CZENNTOCHAU spelling, numbers, unknown Q-derived position and all other labels
 retain their earlier interpretation limits. This is a correction to our source

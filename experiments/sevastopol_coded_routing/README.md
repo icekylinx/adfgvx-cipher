@@ -4,7 +4,7 @@ Source edition and verification by **icekylinx and GPT-6 Astra Pro**.
 
 Childs p139 A1/A2/A3, PDF p142, form a source-labeled three-part message
 with native lengths **200 / 220 / 212**. It uses the unchanged published
-**Nov4–6** key. The [reading case](../../cases/military/sevastopol_coded_routing.md)
+**Nov4–6** key. The [reading case](../../cases/pages/139.md#edition-cases-military-sevastopol-coded-routing)
 preserves the routing opening, the distribution and all twelve five-figure
 groups following **CUJOMAREMO**.
 

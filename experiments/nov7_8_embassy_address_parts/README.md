@@ -2,7 +2,7 @@
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
-[Read the source edition](../../cases/radio/nov7_8_embassy_address_parts.md).
+[Read the source edition](../../cases/pages/156.md#edition-cases-radio-nov7-8-embassy-address-parts).
 
 Seven native records contain **568 source coordinates / 284 plaintext
 positions**, all fixed under the primary overstrike transcription.

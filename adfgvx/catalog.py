@@ -14,6 +14,8 @@ import posixpath
 from pathlib import Path
 import re
 
+from .source_editions import source_exists
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data/reading_catalog.json"
 SOURCE_ALIASES = ROOT / "data/source_record_aliases.json"
@@ -89,7 +91,7 @@ def source_record_aliases():
         assert first_location == later_location == location, (alias, "source locations differ")
         assert first == later and len(first) == record["source_slots"], (alias, "literal sources differ")
         assert hashlib.sha256(first.encode()).hexdigest() == record["literal_source_sha256"], alias
-        assert (ROOT / record["canonical_case_path"]).is_file()
+        assert source_exists(ROOT / record["canonical_case_path"])
         paths = record["evidence_paths"]
         assert paths and len(paths) == len(set(paths)), alias
         assert record["alias_evidence"]["path"] in paths, alias
@@ -155,7 +157,7 @@ def load_catalog():
                 assert isinstance(row[field], str) and row[field].strip(), (row["id"], field)
                 assert "\n" not in row[field] and "|" not in row[field], (row["id"], field)
             path = row["path"].split("#")[0]
-            assert (ROOT / path).is_file(), path
+            assert source_exists(ROOT / path), path
             for evidence in row.get("evidence", []):
                 assert (ROOT / evidence).is_file(), evidence
             if group == "other":
@@ -196,21 +198,18 @@ def relative_link(path, destination):
 def table(rows, destination):
     lines = ["| Source | State | Subject |", "|---|---|---|"]
     for row in rows:
-        link = relative_link(row["path"], destination)
+        link = relative_link(source_target(row), destination)
         assert row["state"] in STATES, row["id"]
         lines.append(f"| [{row['label']}]({link}) | {row['state']} | {row['subject']} |")
     return "\n".join(lines)
 
 
-def page_table(rows, destination, page):
-    """Give the full page edition and the concise case equal, explicit routes."""
-    lines = ["| Source | State | Subject | Case |", "|---|---|---|---|"]
-    for row in rows:
-        anchor = 'source-' + re.sub(r'[^a-z0-9]+', '-', row['id'].lower()).strip('-')
-        edition = relative_link(f"cases/pages/{page:03d}.md#{anchor}", destination)
-        case = relative_link(row['path'].split('#', 1)[0], destination)
-        lines.append(f"| [{row['label']}]({edition}) | {row['state']} | {row['subject']} | [Meaning]({case}) |")
-    return "\n".join(lines)
+def source_target(row):
+    page = row.get('printed_page')
+    if page is None:
+        page = source_messages()[row['id']]['source']['printed_page']
+    anchor = 'source-' + re.sub(r'[^a-z0-9]+', '-', row['id'].lower()).strip('-')
+    return f"cases/pages/{page:03d}.md#{anchor}"
 
 
 def natural_key(value):
@@ -271,63 +270,28 @@ def bands(pages):
 
 
 def compact_table(pages, destination):
-    """Every page number opens its dedicated source edition in one click."""
-    lines = ["| Printed pages | Open a page edition |", "|---|---|"]
+    lines = ['| Printed pages | Sources |', '|---|---:|']
     for start in bands(pages):
-        label = band_label(pages, start)
-        numbers = [
-            f"[{page}]({relative_link(f'cases/pages/{page:03d}.md', destination)})"
-            for page in band_pages(pages, start)]
-        width = (len(numbers) + 1) // 2 if len(numbers) > 13 else len(numbers)
-        links = "<br>".join(" · ".join(numbers[i:i + width])
-                           for i in range(0, len(numbers), width))
-        lines.append(f"| {label} | {links} |")
-    return "\n".join(lines)
+        count = sum(len(band_rows(pages, start, group)) for group in ('challenge', 'other'))
+        link = relative_link(band_path(start), destination)
+        lines.append(f"| [{band_label(pages, start)}]({link}) | {count} |")
+    return '\n'.join(lines)
 
 
 def render(data, destination, pages=None):
     pages = page_groups(data) if pages is None else pages
-    index = relative_link("cases/pages/README.md", destination)
-    if destination == ROOT / "cases/README.md":
-        return "\n".join([
-            START, "## Find a source by page", "",
-            f"The [175 full page editions]({index}) follow the printed Childs volume, "
-            "from page 56 to page 230, with German readings, English meanings, "
-            "source explanations and evidence.", "", END,
-        ])
-    lines = [
-        START,
-        "## Read the ciphertexts by page", "",
-        "Each number opens a dedicated edition of that printed Childs page: "
-        "ciphertexts, German readings, English interpretations and source explanations.", "",
-        compact_table(pages, destination), "",
-        END,
-    ]
-    return "\n".join(lines)
+    return '\n'.join([START, '## Browse by printed page', '',
+        'Choose a range to see its pages and message subjects. Each page opens its complete ciphertexts, readings and source explanations.', '',
+        compact_table(pages, destination), '', END])
 
 
 def render_page_index(data, pages):
-    destination = PAGE_ROOT / "README.md"
-    counts = physical_source_accounting(data)
-    lines = [
-        "# Complete editions by printed page", "", GENERATED, "",
-        "[ADFGVX Cipher](../../README.md) · [Browse by topic](../README.md#browse-by-topic) · [Reading conventions](../../docs/reading-conventions.md)", "",
-        f"Read all {counts['catalogue_entries']} sources in {len(pages)} complete page editions. "
-        "Each page includes German readings, English meanings, explanations and evidence; "
-        f"{counts['state_counts']['OPEN']} sources remain OPEN. "
-        "The original challenge identifiers are retained, with p198 denoting section D.", "",
-        "| Printed source pages | Sources | OPEN | Jump to an individual page |",
-        "|---|---:|---:|---|",
-    ]
-    for start in bands(pages):
-        link = relative_link(band_path(start), destination)
-        page_links = " · ".join(f"[p{page}]({page:03d}.md)" for page in band_pages(pages, start))
-        rows = [row for group in ("challenge", "other") for row in band_rows(pages, start, group)]
-        lines.append(f"| [{band_label(pages, start)}]({link}) | {len(rows)} | {sum(row['state'] == 'OPEN' for row in rows)} | {page_links} |")
-    lines.extend([
-        "", "[State definitions](../../docs/reading-conventions.md#catalogue-states) · [Canonical source identity](../../docs/catalogue-source-identity.md) · [Evidence coverage](../../docs/whole-material-coverage.md)", "",
-    ])
-    return "\n".join(lines)
+    destination = PAGE_ROOT / 'README.md'
+    return '\n'.join(['# Browse by printed page', '', GENERATED, '',
+        '[ADFGVX Cipher](../../README.md) · [Browse by subject](../../topics/README.md) · [Historical research](../../docs/historical-studies/README.md)', '',
+        'Choose a range for its page-and-subject table. Each page opens a complete source edition.', '',
+        compact_table(pages, destination), '',
+        '[Reading conventions](../../docs/reading-conventions.md) · [Source identity](../../docs/catalogue-source-identity.md)', ''])
 
 
 def render_band(data, pages, start):
@@ -335,8 +299,7 @@ def render_band(data, pages, start):
     members = band_pages(pages, start)
     starts = bands(pages)
     at = starts.index(start)
-    nav = ["[All source pages](../README.md)", "[Browse by topic](../../README.md#browse-by-topic)",
-           "[Reading conventions](../../../docs/reading-conventions.md)"]
+    nav = ['[All page ranges](../README.md)', '[Browse by subject](../../../topics/README.md)']
     if at:
         previous = starts[at - 1]
         nav.append(f"[← {band_label(pages, previous)}]({relative_link(band_path(previous), destination)})")
@@ -344,24 +307,19 @@ def render_band(data, pages, start):
         following = starts[at + 1]
         nav.append(f"[{band_label(pages, following)} →]({relative_link(band_path(following), destination)})")
     locations = source_locations(data)
-    band_entries = [r for group in ("challenge", "other") for r in band_rows(pages, start, group)]
-    n_sources = len({locations[r["id"]] for r in band_entries})
-    lines = [
-        f"# Sources from {band_label(pages, start)}", "", GENERATED, "",
-        " · ".join(nav), "",
-        "Jump to page: " + " · ".join(f"[p{page}](#p{page})" for page in members) + ".", "",
-        f"This range contains {n_sources} sources, including "
-        f"{sum(row['state'] == 'OPEN' for row in band_entries)} OPEN. "
-        "[Reading states](../../../docs/reading-conventions.md#catalogue-states).", "",
-    ]
+    lines = [f'# Childs {band_label(pages, start)}', '', GENERATED, '', ' · '.join(nav), '',
+             '| Page | Messages and subjects |', '|---|---|']
     for page in members:
-        edition = relative_link(f"cases/pages/{page:03d}.md", destination)
-        lines.extend([f"## [p{page}]({edition})", ""])
-        rows = sorted(pages[page]["challenge"] + pages[page]["other"],
-                      key=lambda row: natural_key(locations[row["id"]][1]))
-        lines.extend([page_table(rows, destination, page), ""])
-    lines.extend(["[Return to all source pages](../README.md).", ""])
-    return "\n".join(lines)
+        edition = relative_link(f'cases/pages/{page:03d}.md', destination)
+        rows = sorted(pages[page]['challenge'] + pages[page]['other'],
+                      key=lambda row: natural_key(locations[row['id']][1]))
+        subjects = []
+        for row in rows:
+            link = relative_link(source_target(row), destination)
+            state = ' **OPEN**' if row['state'] == 'OPEN' else ''
+            subjects.append(f"[{row['label']}]({link}){state} — {row['subject']}")
+        lines.append(f'| <a id="p{page}"></a>[{page}]({edition}) | {"<br>".join(subjects)} |')
+    return '\n'.join(lines) + '\n'
 
 
 def main():
@@ -372,7 +330,7 @@ def main():
     pages = page_groups(data)
     generated = {PAGE_ROOT / "README.md": render_page_index(data, pages)}
     generated.update({ROOT / band_path(start): render_band(data, pages, start) for start in bands(pages)})
-    for path in (ROOT / "README.md", ROOT / "cases/README.md"):
+    for path in (ROOT / "README.md",):
         current = path.read_text()
         assert current.count(START) == current.count(END) == 1, path
         before, rest = current.split(START)

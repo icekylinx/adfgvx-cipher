@@ -4,7 +4,7 @@
 
 **Source comparison and verification: icekylinx and GPT-6 Astra Pro.**
 
-The [existing Transylvania report edition](../../cases/military/transylvania_situation_report.md#p137-a5)
+The [existing Transylvania report edition](../../cases/pages/137.md#edition-cases-military-transylvania-situation-report-p137-a5)
 keeps p137 A5 partial. A separately priced proposal completes the staff
 vocabulary as `WIRTSCHAFTS?UNDVERWALTUNGSSTAEBE`, retaining the intervening
 unknown position. It adds **three observed-coordinate substitutions and ten

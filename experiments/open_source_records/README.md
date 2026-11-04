@@ -8,10 +8,10 @@ no accepted key, plaintext, completed transposition frame or repaired source.
 
 | Canonical source | Received slots | Observed coordinates | Printed erasures | Advertised length |
 |---|---:|---:|---:|---:|
-| [p70 B1](../../cases/open/p70_B1.md) | 206 | 199 | 7 | 206 |
-| [p127 B2](../../cases/open/p127_B2.md) | 152 | 104 | 48 | 152 |
-| [p145 A](../../cases/open/p145_A.md) | 192 | 187 | 5 | Not printed |
-| [p194 D1](../../cases/open/p194_D1.md) | 45 | 45 | 0 | 214 |
+| [p70 B1](../../cases/pages/070.md#edition-cases-open-p70-b1) | 206 | 199 | 7 | 206 |
+| [p127 B2](../../cases/pages/127.md#edition-cases-open-p127-b2) | 152 | 104 | 48 | 152 |
+| [p145 A](../../cases/pages/145.md#edition-cases-open-p145-a) | 192 | 187 | 5 | Not printed |
+| [p194 D1](../../cases/pages/194.md#edition-cases-open-p194-d1) | 45 | 45 | 0 | 214 |
 
 The [inputs](inputs.json) retain every field of the corresponding frozen
 [21-source audit](../../data/reviews/source_gap_audit_20261103.json). The new

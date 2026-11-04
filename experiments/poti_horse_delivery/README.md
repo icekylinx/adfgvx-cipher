@@ -90,7 +90,7 @@ pixel. No external language model or temporary screen file is required.
 [Inputs](inputs.json), [certificates](certificates.json),
 [earlier candidates and bounded attribution checks](prior_candidates.json),
 [catalog proposal](catalog_proposal.json), and the
-[readable case](../../cases/caucasus/poti_horse_delivery.md) form the complete
+[readable case](../../cases/pages/059.md#edition-cases-caucasus-poti-horse-delivery) form the complete
 edition. A2 already had a partially readable repository candidate. The earlier
 A3 OCR fragments omitted many dash slots and did not yield this native-frame
 reading. Bounded paper, thesis and comment searches found no explicit separate

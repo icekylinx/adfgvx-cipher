@@ -4,8 +4,8 @@
 
 Five physical records produce two readable case pages:
 
-- [Radio equipment moved east of the Rhine](../../cases/radio/right_rhine_equipment.md), p179 A.
-- [Citadel surrender, local armistice conditions and leave](../../cases/military/armistice_and_leave_orders.md), p179 B/C/D1/D2.
+- [Radio equipment moved east of the Rhine](../../cases/pages/179.md#edition-cases-radio-right-rhine-equipment), p179 A.
+- [Citadel surrender, local armistice conditions and leave](../../cases/pages/179.md#edition-cases-military-armistice-and-leave-orders), p179 B/C/D1/D2.
 
 The main source-recovery gains are A and D1. A's literal 271-coordinate
 transcript includes a visibly cancelled duplicate `ADADG`; excluding those

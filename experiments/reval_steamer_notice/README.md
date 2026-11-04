@@ -6,7 +6,7 @@ This edition covers the three explicitly numbered parts on the lower half of Chi
 
 The message says two steamers for troops and provisions are expected in Reval by the end of November, further tonnage will follow, and raw-material transport is also being arranged. The three vessel-like fields are retained as **`PETERXBENVIT`, `B9VERN`, `BAC4LON`**. No actual vessel identity, normalized name or historical tonnage is asserted.
 
-See the [reading edition](../../cases/naval/reval_steamer_notice.md), [inputs](inputs.json), [certificates](certificates.json), and [source crops](sources/).
+See the [reading edition](../../cases/pages/213.md#edition-cases-naval-reval-steamer-notice), [inputs](inputs.json), [certificates](certificates.json), and [source crops](sources/).
 
 ## Source readings and repairs
 

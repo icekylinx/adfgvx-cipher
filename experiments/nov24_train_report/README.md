@@ -1,6 +1,6 @@
 # Conditional recovery of the p217 B1 train report
 
-**icekylinx and GPT-6 Astra Pro** · [Read the edition](../../cases/military/nov24_train_report.md)
+**icekylinx and GPT-6 Astra Pro** · [Read the edition](../../cases/pages/217.md#edition-cases-military-nov24-train-report)
 
 A source-directed repeated-group model recovers a further part of the evening
 report adjacent to the Budapest teleprinter message. The primary completion

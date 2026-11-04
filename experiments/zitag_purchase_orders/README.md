@@ -8,7 +8,7 @@ an order to stop buying and loading goods and secure what is available.
 The separate two-part message allows loading only consignments already
 paid for, cancels other contracts and renews a request for Westernhagen's
 return. Their different instructions and headers are preserved in the
-[case](../../cases/finance/zitag_purchase_orders.md).
+[case](../../cases/pages/102.md#edition-cases-finance-zitag-purchase-orders).
 
 ## Actual cross-copy support
 

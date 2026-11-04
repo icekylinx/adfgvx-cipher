@@ -4,7 +4,7 @@
 
 **Source comparison and verification: icekylinx and GPT-6 Astra Pro.**
 
-The [primary withdrawal-report edition](../../cases/military/mackensen_withdrawal_report.md#p116-a13)
+The [primary withdrawal-report edition](../../cases/pages/116.md#edition-cases-military-mackensen-withdrawal-report-p116-a13)
 leaves the final part raw-only. This separate supplement tests five German
 word spans suggested by the surviving coordinates and the already published
 historical translation. They produce **75 fixed labels out of 111** under

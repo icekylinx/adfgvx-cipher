@@ -11,7 +11,7 @@ All **226 valid coordinates** survive. The literal `NICGT` and `TELEGD` can
 then be read as `NICHT` and `TELEGR` at **two separately counted substitutions**.
 `NSL` occurs twice and remains unchanged.
 
-The [source edition](../../cases/radio/late_november_cipher_instructions.md)
+The [source edition](../../cases/pages/225.md#edition-cases-radio-late-november-cipher-instructions)
 connects this notice about missing December tables with the separate agreement
 on p228 to share a key. No particular November day is supplied.
 

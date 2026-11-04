@@ -4,7 +4,7 @@
 
 Two complete short native bodies report an expected return and discuss obtaining a vehicle. The first is unchanged; the second has four explicitly priced coordinate substitutions. The incomplete spelling RUECKUNFT, the literal 0100 field and the elliptical sense of VERSUCHEN remain visible.
 
-Read the [complete source edition](../../cases/radio/return_time_and_vehicle_attempt.md).
+Read the [complete source edition](../../cases/pages/182.md#edition-cases-radio-return-time-and-vehicle-attempt).
 
 | Scope | Count |
 | --- | ---: |

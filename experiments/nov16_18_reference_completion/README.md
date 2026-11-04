@@ -22,13 +22,13 @@ records.
 
 | Record | Earlier → conditional fixed positions | Additional reading |
 |---|---:|---|
-| [p201 A1](../../cases/finance/odessa_wagon_sale.md#p201-a1) | 124 → **125/127** | Consular reference **8?** |
-| [p202 B4](../../cases/military/military_intendant_remit.md#b4-clothing-meat-sutlery-and-wartime-services) | 106 → **109/112** | `RM ? A 5?5? A 11 18` |
-| [p204 D](../../cases/radio/nov16_18_command_inquiries.md#p204-d) | 39 → **40/42** | `VOM 15`, followed by the preserved separators |
-| [p206 B1](../../cases/military/nov18_negotiation_repetition.md#p206-b1) | 120 → **122/124** | **1125?**; one additional `1XA` separator |
-| [p206 B2](../../cases/military/nov18_negotiation_repetition.md#p206-b2) | 113 → **114/118** | **11225** |
-| [p207 A2](../../cases/military/repatriation_orders.md#equipment-and-horses-p207-a1a2) | 102 → **107/110** | `5?18 / 11 / 18` and `25?? / 18` |
-| [p207 C1](../../cases/military/repatriation_orders.md#finland-p207-c1c2) | 101 → **102/104** | Finland-report reference **?8?** |
+| [p201 A1](../../cases/pages/201.md#edition-cases-finance-odessa-wagon-sale-p201-a1) | 124 → **125/127** | Consular reference **8?** |
+| [p202 B4](../../cases/pages/202.md#edition-cases-military-military-intendant-remit-b4-clothing-meat-sutlery-and-wartime-services) | 106 → **109/112** | `RM ? A 5?5? A 11 18` |
+| [p204 D](../../cases/pages/204.md#edition-cases-radio-nov16-18-command-inquiries-p204-d) | 39 → **40/42** | `VOM 15`, followed by the preserved separators |
+| [p206 B1](../../cases/pages/206.md#edition-cases-military-nov18-negotiation-repetition-p206-b1) | 120 → **122/124** | **1125?**; one additional `1XA` separator |
+| [p206 B2](../../cases/pages/206.md#edition-cases-military-nov18-negotiation-repetition-p206-b2) | 113 → **114/118** | **11225** |
+| [p207 A2](../../cases/pages/207.md#edition-cases-military-repatriation-orders-equipment-and-horses-p207-a1a2) | 102 → **107/110** | `5?18 / 11 / 18` and `25?? / 18` |
+| [p207 C1](../../cases/pages/207.md#edition-cases-military-repatriation-orders-finland-p207-c1c2) | 101 → **102/104** | Finland-report reference **?8?** |
 
 The numeral positions all retain both observed coordinates. The source
 exclusion of p207 A2's final X remains part of its earlier conditional
@@ -54,7 +54,7 @@ the earlier p204, p205, p206 A and p203 C consequences are not counted again.
 
 ## Odessa courier footer
 
-The same assignments add one further native position in [p201 C](../../cases/radio/odessa_courier_pretransposition.md): **ZT? Nr. 1?1118**, taking the existing word edition from **160 to 161/163** fixed positions. The final **8** uses the observed **FD** pair at received positions **187** and **289**. Both retained fractionation-loss maps and the conservative overstrike branch preserve it; the latter advances from **158 to 159/163**.
+The same assignments add one further native position in [p201 C](../../cases/pages/201.md#edition-cases-radio-odessa-courier-pretransposition): **ZT? Nr. 1?1118**, taking the existing word edition from **160 to 161/163** fixed positions. The final **8** uses the observed **FD** pair at received positions **187** and **289**. Both retained fractionation-loss maps and the conservative overstrike branch preserve it; the latter advances from **158 to 159/163**.
 
 The four earlier observed substitutions and two fractionation fills remain the full repair cost. The [courier certificate](courier_certificate.json) checks both forward models under all **720** surviving squares, retains all **30** ordered alternatives for the two remaining reference cells, and checks all **36** fillings of the two source-glyph masks in each geometry.
 

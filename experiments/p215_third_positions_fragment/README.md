@@ -53,7 +53,7 @@ in `search_provenance.json`.
 `verify.py` reuses only the pinned, model-free arithmetic helpers from the
 adjacent Breslau package. No trained model or large source PDF is committed.
 
-- [Reading and limitations](../../cases/military/p215_third_positions_fragment.md)
+- [Reading and limitations](../../cases/pages/215.md#edition-cases-military-p215-third-positions-fragment)
 - [Inputs and exact frames](inputs.json)
 - [Recomputed certificate](certificates.json)
 - [Independent contemporary geographical references](historical_context.json)

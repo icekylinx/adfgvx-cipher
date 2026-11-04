@@ -2,8 +2,8 @@
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
-The already published [p172 D2](../../cases/finance/staatsbank_accounting_cheques.md#p172-d2)
-and [p175 B2](../../cases/finance/hauptwechselamt_accounting.md#p175-b2)
+The already published [p172 D2](../../cases/pages/172.md#edition-cases-finance-staatsbank-accounting-cheques-p172-d2)
+and [p175 B2](../../cases/pages/175.md#edition-cases-finance-hauptwechselamt-accounting-p175-b2)
 are closely matching second parts of an accounting and cheque-arrival
 inquiry. Comparing their native sources supplies two previously unresolved
 labels in the conservative p175 reading: **`VOM?8` becomes `VOM18`**, and

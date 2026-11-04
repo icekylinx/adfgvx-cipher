@@ -10,9 +10,9 @@ The map request needs a conditional length model and retains two coupled numeric
 
 | Record | Source / working slots | Raw fixed / total | Edited fixed / total | Primary operation counts |
 | --- | ---: | ---: | ---: | --- |
-| [p162 B1](../../cases/radio/map_sheet_request.md#p162-b1) | 181 / 182 | 85 / 91 | 89 / 91 | 2 observed substitutions, 3 source-mask fills, 1 missing-coordinate fill |
-| [p162 C2](../../cases/military/tiraspol_border_report.md#p162-c2) | 100 / 100 | 49 / 50 | 50 / 50 | 1 source-dash fill |
-| [p162 D1](../../cases/people/constantinople_embassy_signature.md#p162-d1) | 100 / 100 | 47 / 50 | 50 / 50 | 3 source-C fills |
+| [p162 B1](../../cases/pages/162.md#edition-cases-radio-map-sheet-request-p162-b1) | 181 / 182 | 85 / 91 | 89 / 91 | 2 observed substitutions, 3 source-mask fills, 1 missing-coordinate fill |
+| [p162 C2](../../cases/pages/162.md#edition-cases-military-tiraspol-border-report-p162-c2) | 100 / 100 | 49 / 50 | 50 / 50 | 1 source-dash fill |
+| [p162 D1](../../cases/pages/162.md#edition-cases-people-constantinople-embassy-signature-p162-d1) | 100 / 100 | 47 / 50 | 50 / 50 | 3 source-C fills |
 
 ### B1: a one-coordinate model with two equivalent source origins
 

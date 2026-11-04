@@ -4,7 +4,7 @@
 
 An independently preserved AOK 11 map places **O.K. Scholtz at Calimanesti**
 during the withdrawal interval **13–18 November 1918**. This supports the place
-name already proposed in [p163 A17](../../cases/military/p163_A.md). It adds
+name already proposed in [p163 A17](../../cases/pages/163.md#edition-cases-military-p163-a). It adds
 **no plaintext positions and no coordinate repairs**.
 
 The source is CAMO / TsAMO **500-12519-274**, map no. 9, published by the

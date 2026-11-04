@@ -2,7 +2,7 @@
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
-[Read the source edition](../../cases/radio/nov15_radio_personnel_and_key_notice.md).
+[Read the source edition](../../cases/pages/197.md#edition-cases-radio-nov15-radio-personnel-and-key-notice).
 
 Three physical source records contain **461 printed slots**. The declared
 frames contain **466 coordinates** and **233 plaintext positions**, of which

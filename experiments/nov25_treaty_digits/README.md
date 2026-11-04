@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-The [Tiflis telegram](../../cases/caucasus/p218_A.md) paraphrases the
+The [Tiflis telegram](../../cases/pages/218.md#edition-cases-caucasus-p218-a) paraphrases the
 withdrawal condition in **Article XII** of the 11 November armistice.
 Its received article-number pairs are `FX VG`, labelled `J1` by the
 published Nov25–28 square. Interpreting these pairs as **1 and 2** restores
@@ -95,8 +95,8 @@ location; it does not reproduce the personnel order or identify its officer.
 
 ## The shared Y in Strzemieczny and Nagymagocs
 
-The surname in [p224 C1](../../cases/people/breslau_staff_transfer.md)
-and the place name in the [p220 B evening report](../../cases/military/nov25_provisions_and_evening_report.md#p220-b)
+The surname in [p224 C1](../../cases/pages/224.md#edition-cases-people-breslau-staff-transfer)
+and the place name in the [p220 B evening report](../../cases/pages/220.md#edition-cases-military-nov25-provisions-and-evening-report-p220-b)
 use the same complete received pair, `AD`, where the earlier partial square
 has no assigned value. Reading it as **Y** gives two meaningful names:
 
@@ -150,7 +150,7 @@ with no new source repair or numeral hypothesis.
 
 ## The Kiev report outside the original snapshot
 
-The separately reviewed [p219 C report](../../cases/military/p219_kiev_unrest.md)
+The separately reviewed [p219 C report](../../cases/pages/219.md#edition-cases-military-p219-kiev-unrest)
 contains received `PEDF9?RA`. The existing `VD=J` assignment gives
 `PEDFJ?RA` without source changes. Its optional `PETLJURA` proposal now
 needs **two observed-coordinate substitutions and 18 inserted-slot fills**,

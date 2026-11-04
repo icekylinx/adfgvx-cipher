@@ -2,7 +2,7 @@
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. Published Nov13–15b partial key: Lasry, Niebel, Kopal and Wacker. Earlier machine candidates and bounded prior-body checks are retained in `prior_candidates.json`.
 
-The complete readable edition is [armistice_provisions_requests.md](../../cases/military/armistice_provisions_requests.md).
+The complete readable edition is [armistice_provisions_requests.md](../../cases/pages/188.md#edition-cases-military-armistice-provisions-requests).
 
 ## Scope and price
 

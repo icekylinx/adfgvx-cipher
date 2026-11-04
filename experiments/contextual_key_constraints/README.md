@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-The [Tiflis appointment edition](../../cases/other/tiflis_appointment.md)
+The [Tiflis appointment edition](../../cases/pages/192.md#edition-cases-caucasus-tiflis-appointment)
 independently supports a conditional **Nov13–15b FX = Y** assignment through
 the historically attested surname TYDELSKI. That edition also defines a
 separate, stronger assumption: if the two pilot notices name the same person
@@ -87,7 +87,7 @@ inventory therefore does not count those four letters again as discoveries.
 
 ### The p187 D reference fields stay open
 
-In the [aircraft-connection edition](../../cases/other/p187_D.md), all twelve
+In the [aircraft-connection edition](../../cases/pages/187.md#edition-cases-radio-p187-d), all twelve
 unresolved reference positions use five distinct Nov13–15a cells. None is
 DG. Assigning DG=Y removes Y from those cells' available labels, leaving
 `0123456789Q`. It fixes **no reference digit**.

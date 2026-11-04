@@ -7,7 +7,7 @@ ordinary-word proposals restore `MISSION`, `ABTLG` and `NACHRICHTENCHEF`,
 giving **63/66 fixed candidate labels** with six observed substitutions
 and two printed-mask fills. The labels `MILB`, `0RM` and `RELA` stay opaque.
 
-[Read the edition](../../cases/radio/p167_mission_address.md)
+[Read the edition](../../cases/pages/167.md#edition-cases-radio-p167-mission-address)
 · [Reviewed inputs](inputs.json)
 · [Per-position certificate](certificates.json)
 · [Original PDF, p170](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view)

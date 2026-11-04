@@ -11,3 +11,8 @@ runs/
 bin/
 /experiments/**/work/
 /experiments/**/p170_output/
+
+# Exact source fixtures generated only for legacy research verification.
+/cases/**/*.md
+!/cases/pages/
+!/cases/pages/**/*.md

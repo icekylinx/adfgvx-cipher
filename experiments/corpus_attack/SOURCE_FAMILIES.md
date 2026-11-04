@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro · 2026**
 
-[Osthoff reading](../../cases/other/osthoff.md) · [Glatz reading](../../cases/other/glatz.md) · [All readings](../../cases/README.md)
+[Osthoff reading](../../cases/pages/138.md#edition-cases-people-osthoff) · [Glatz reading](../../cases/pages/140.md#edition-cases-people-glatz) · [All readings](../../topics/README.md)
 
 This follow-up supplies **407 likely plaintext positions** in two messages:
 the two-part Osthoff posting order (121 + 118 positions) and the Glatz enquiry

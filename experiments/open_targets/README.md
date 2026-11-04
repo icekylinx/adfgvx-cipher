@@ -27,7 +27,7 @@ column direction and unresolved digit assignments. No 53-character window in
 either pinned German reference book meets them under joined or sentence-X
 normalization; two unrestored operational references also exceed them.
 
-The [case explanation](../../cases/p170.md#coordinate-count-constraint-for-a-complete-body)
+The [case explanation](../../cases/pages/170.md#edition-cases-p170-coordinate-count-constraint-for-a-complete-body)
 gives the equations and limits. The compact [evidence record](p170_coordinate_budget.json)
 is reproduced by `python experiments/open_targets/p170_coordinate_budget.py`;
 add `--cache /path/to/heldout-books` to recompute all reference windows.

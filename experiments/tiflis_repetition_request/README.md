@@ -11,7 +11,7 @@ one damaged-glyph fill supplies the separator between Z and ROT. The
 unchanged edited candidate fixes **157/157 positions**. No source insertion,
 deletion, frame change or key change is used.
 
-The [reading case](../../cases/radio/tiflis_repetition_request.md) preserves
+The [reading case](../../cases/pages/077.md#edition-cases-radio-tiflis-repetition-request) preserves
 the raw address `B D 5 M`, `CHI Z53 12 10`, and the closing
 `1874 STRICH Z ROT 692`. It does not infer an organization or reconcile
 the references by changing their letters or digits. The missing earlier

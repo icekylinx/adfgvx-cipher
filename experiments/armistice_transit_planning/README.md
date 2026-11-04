@@ -5,7 +5,7 @@ Source edition and verification: **icekylinx and GPT-6 Astra Pro**.
 This package edits a six-part report dated November 4, received November 5,
 about reported armistice transit conditions and plans for the 11th Army.
 It also preserves a separate adjacent receipt note. The
-[reader edition](../../cases/military/armistice_transit_planning.md) explains
+[reader edition](../../cases/pages/125.md#edition-cases-military-armistice-transit-planning) explains
 the bodies and their limits. All use the unchanged published `Nov4-6` key.
 
 Six records have ordinary, exact-length cipher frames. The fifth part of

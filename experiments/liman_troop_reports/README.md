@@ -33,7 +33,7 @@ These literal dates are preserved without choosing an explanation.
   prior credits, source-image hash and proposed text.
 - [certificates.json](certificates.json): exact raw and edited strings,
   coordinate-pair/source-position mapping, repair and untouched label fields.
-- [Readable edition](../../cases/military/liman_troop_reports.md).
+- [Readable edition](../../cases/pages/222.md#edition-cases-military-liman-troop-reports).
 
 ```sh
 python experiments/liman_troop_reports/verify.py --verify

@@ -1,8 +1,8 @@
 # November radio service and document destruction
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. This source package contains
-[three p132 records](../../cases/radio/p132_radio_service.md) and the separate
-[p177 A destruction order](../../cases/radio/document_destruction.md).
+[three p132 records](../../cases/pages/132.md#edition-cases-radio-p132-radio-service) and the separate
+[p177 A destruction order](../../cases/pages/177.md#edition-cases-radio-document-destruction).
 
 The useful new geometry result is p132 B's genuine 155-slot frame. An
 insertion-only search found its readable ending; manual source inspection

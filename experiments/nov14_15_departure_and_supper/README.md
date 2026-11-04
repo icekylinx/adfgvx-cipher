@@ -4,7 +4,7 @@
 
 Three separate service messages retain their complete native source frames: a postponed departure with reassurance, a proposed warm supper and headcount enquiry, and a short farewell. Source-transcription corrections recover the positions omitted by earlier OCR; ordinary-word repairs, printed-dash fills and literal abbreviations remain explicit.
 
-Read the [complete source edition](../../cases/radio/nov14_15_departure_and_supper.md).
+Read the [complete source edition](../../cases/pages/193.md#edition-cases-radio-nov14-15-departure-and-supper).
 
 | Scope | Count |
 | --- | ---: |

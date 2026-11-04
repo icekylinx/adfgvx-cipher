@@ -4,7 +4,7 @@
 
 **Source comparison and verification: icekylinx and GPT-6 Astra Pro.**
 
-The [existing p63 A edition](../../cases/caucasus/october_requests.md#p63-a--a-partially-readable-inspector-request)
+The [existing p63 A edition](../../cases/pages/063.md#edition-cases-caucasus-october-requests-p63-a--a-partially-readable-inspector-request)
 leaves the 21-character span `VASCHIWNENMECH8ISCHEN` unassigned. A more
 specific **optional** reading is now available: `MASCHINENTECHNISCHEN`,
 conditional on treating one raw `W` as surplus and making three additional

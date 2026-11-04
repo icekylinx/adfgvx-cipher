@@ -4,7 +4,7 @@
 
 **Source restoration and verification: icekylinx and GPT-6 Astra Pro.**
 
-The [complete case](../../cases/radio/nov9_operations_map_sheets.md) gives
+The [complete case](../../cases/pages/151.md#edition-cases-radio-nov9-operations-map-sheets) gives
 the four reading layers, exact coordinate changes and the coupled numerical
 alternatives. This package restores the **224 actually printed slots** from
 an earlier 225-slot OCR record. The difference is OCR group 16 `GGVVXX`

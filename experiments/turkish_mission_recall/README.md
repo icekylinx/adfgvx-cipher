@@ -8,7 +8,7 @@ It concerns contract-bound military-mission members, including those
 already under notice of termination, and cites a contract provision for
 their recall to the army upon publication of Turkey's armistice. The
 mission is to arrange return and require arrivals to report their
-whereabouts. The [case](../../cases/military/turkish_mission_recall.md)
+whereabouts. The [case](../../cases/pages/130.md#edition-cases-military-turkish-mission-recall)
 retains the complete received text.
 
 One received office field, **`MILIGRHYU`**, remains unresolved. All its

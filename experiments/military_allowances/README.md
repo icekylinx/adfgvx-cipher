@@ -15,7 +15,7 @@ It calls for lower rates based on the price of a field ration. Communal
 purchasing and German dining facilities should support normal provision
 of food in kind, leaving cash self-provisioning for unavoidable cases.
 The final part refuses a requested cost-of-living supplement. The full
-[case](../../cases/finance/military_allowances.md) preserves raw text,
+[case](../../cases/pages/129.md#edition-cases-finance-military-allowances) preserves raw text,
 explicit repairs and unexpanded reference fields.
 
 ## A complete direct reading of part three

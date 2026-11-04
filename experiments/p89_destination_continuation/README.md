@@ -20,7 +20,7 @@ case and punctuation are editorial. The spelling **DIENSTELLEN** is retained
 literally: it is a proposal for a shortened spelling of **DIENSTSTELLEN**,
 with one of the adjacent `ST` repetitions omitted. It does not recover the
 standard spelling or change the cipher frame. The source page presents the
-[whole five-part order](../../cases/military/black_sea_evacuation_routes.md#p89-a3).
+[whole five-part order](../../cases/pages/089.md#edition-cases-military-black-sea-evacuation-routes-p89-a3).
 
 ## What the new evidence contributes
 

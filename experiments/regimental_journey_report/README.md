@@ -4,7 +4,7 @@
 
 This two-part native report describes a journey and assistance received after minor interruptions. The route, date-like and unit labels remain in their exact source form. The five printed dashes in part 1 are explicit source erasures: four are supplied by priced wording proposals and one remains unresolved. The Nov28–Dec1 square uses Y as the separator; X inside the displayed labels stays literal.
 
-Read the [complete source edition](../../cases/military/regimental_journey_report.md).
+Read the [complete source edition](../../cases/pages/225.md#edition-cases-military-regimental-journey-report).
 
 | Scope | Count |
 | --- | ---: |

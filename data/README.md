@@ -1,11 +1,13 @@
 # Research data
 
-[ADFGVX Cipher](../README.md) · [Readable cases](../cases/README.md) · [Methods guide](../docs/methods.md) · [Experiments](../experiments/README.md)
+[ADFGVX Cipher](../README.md) · [Browse by subject](../topics/README.md) · [Methods guide](../docs/methods.md) · [Experiments](../experiments/README.md)
 
 | File or directory | Content |
 |---|---|
 | [messages.json](messages.json) | The 22 challenge entries, original and legacy transcriptions, conservative analysis layers, and header conventions |
-| [reading_catalog.json](reading_catalog.json) | Canonical identities, reading states and source-account paths for all 679 physical ciphertexts |
+| [reading_catalog.json](reading_catalog.json) | Canonical identities, reading states and stable evidence identifiers for all 679 physical ciphertexts |
+| [source_editions.json](source_editions.json) | Complete source texts, integrity digests and former identifiers; the basis of the full page editions |
+| [topic_exploration.json](topic_exploration.json) | Curated subject summaries and source IDs for direct page navigation |
 | [keys.json](keys.json) | Historical, comparison, reported, and newly recovered partial keys, with provenance and unknown cells preserved |
 | [prior_readings.json](prior_readings.json) | Earlier attributed readings, exact repair variants, and recomputed arithmetic |
 | [supplementary_readings.json](supplementary_readings.json) | The October 2026 supplementary readings and their primary-source corrections |

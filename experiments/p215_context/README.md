@@ -112,7 +112,7 @@ records the advance ships' departure on 23 November and the main fleet's
 planned departure on 25 November. Its
 [first enclosure](https://transcribe.awm.gov.au/sites/default/files/transcription-images/2025-07/61774-rcdig0000179-page54.jpg)
 organizes destroyers in two divisions. This supplies naval context and an
-independent check on the broad chronology relevant to [p217](../../cases/p217.md).
+independent check on the broad chronology relevant to [p217](../../cases/pages/217.md#edition-cases-p217).
 It does **not** identify p215's proposed divisions as destroyers or establish a
 New Zealand landing. The original images were checked because the site's
 community transcription was still marked “Awaiting approval.”

@@ -7,7 +7,7 @@ published **Nov1–3** key. Its receipt is dated November 2; its message line
 is `1330 (1.11)`. The native lengths are 172 and 134 coordinates. The
 adjacent **RIZI-204** message B is separate and is not included.
 
-The [reading case](../../cases/caucasus/caucasus_radio_transmitters.md)
+The [reading case](../../cases/pages/088.md#edition-cases-caucasus-caucasus-radio-transmitters)
 keeps a mostly readable first part without forcing its malformed verb.
 The second part yields a compact readable notice about General von Kress
 and a 1500-watt tube transmitter after three observed-coordinate changes

@@ -13,12 +13,12 @@ visible and are not silently treated as corrected historical text.
 
 | Message | Source result | Readable edition |
 |---|---|---|
-| p84 A/B | 223/223 fixed; no coordinate edits or fills | [Oil release and Black Sea shipping safety](../../cases/other/p84_AB.md) |
-| p92 A | 214/214 fixed; one explicit substitution gives a clean body | [Dutch courier Vreede: onward passage to Constantinople](../../cases/other/p92_A.md) |
-| p210 A1–A2 | 208/208 fixed; four substitutions for body words and sender | [Helsinki and return transport for the Ostsee Division](../../cases/other/p210_A.md) |
-| p210 B | 158/158 fixed; five body-word substitutions; date/reference strings remain literal | [Consul Burkhardt's oil-company assignment](../../cases/other/p210_B.md) |
-| p203 C / p210 C | 93/96 and 201/204 fixed; the later body has six substitutions and three erasure fills | [Two inquiries about Richter in Aleppo](../../cases/other/richter_aleppo.md) |
-| p210 D | 58/58 fixed; one substitution | [Request for the situation in Reval](../../cases/other/p210_D.md) |
+| p84 A/B | 223/223 fixed; no coordinate edits or fills | [Oil release and Black Sea shipping safety](../../cases/pages/084.md#edition-cases-naval-p84-ab) |
+| p92 A | 214/214 fixed; one explicit substitution gives a clean body | [Dutch courier Vreede: onward passage to Constantinople](../../cases/pages/092.md#edition-cases-people-p92-a) |
+| p210 A1–A2 | 208/208 fixed; four substitutions for body words and sender | [Helsinki and return transport for the Ostsee Division](../../cases/pages/210.md#edition-cases-naval-p210-a) |
+| p210 B | 158/158 fixed; five body-word substitutions; date/reference strings remain literal | [Consul Burkhardt's oil-company assignment](../../cases/pages/210.md#edition-cases-people-p210-b) |
+| p203 C / p210 C | 93/96 and 201/204 fixed; the later body has six substitutions and three erasure fills | [Two inquiries about Richter in Aleppo](../../cases/pages/203.md#edition-cases-people-richter-aleppo) |
+| p210 D | 58/58 fixed; one substitution | [Request for the situation in Reval](../../cases/pages/210.md#edition-cases-military-p210-d) |
 
 The editions use **17 explicitly listed valid-coordinate substitutions and
 three erasure fills**, with no source-length or key changes. Their arithmetic

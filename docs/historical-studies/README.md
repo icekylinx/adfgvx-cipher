@@ -22,7 +22,7 @@ A message number can join two instructions more securely than their position in 
 
 A second reception can change the historical scale of a report. In the [Arad correspondence](../../cases/pages/168.md#source-p168-e), it supplies the missing coordinates behind **80,000 men and 30,000 animals**. The [withdrawal study](an-army-trying-to-get-home.md) places that stated strength beside the announced allocation of trains and the armistice transit provisions.
 
-A completed instruction can also clarify the kind of problem being addressed. The [banknote witnesses](../../cases/finance/crown_banknote_completion.md) recover the request for small denominations; the [financial study](what-retreat-cost.md) connects it with the distinction between a remittance and the money available for local payment. The [vehicle study](transport-and-demobilisation.md) similarly separates an order to be ready from a later report that a truck had left.
+A completed instruction can also clarify the kind of problem being addressed. The [banknote witnesses](../../cases/pages/195.md#edition-cases-finance-crown-banknote-completion) recover the request for small denominations; the [financial study](what-retreat-cost.md) connects it with the distinction between a remittance and the money available for local payment. The [vehicle study](transport-and-demobilisation.md) similarly separates an order to be ready from a later report that a truck had left.
 
 ## The source collection
 
@@ -30,12 +30,12 @@ The [175 printed-page editions](../../cases/pages/README.md) contain the complet
 
 | Source index | Material |
 |---|---|
-| [Armies and supplies](../../cases/military/README.md) | Operational reports, transit, provisioning, medical formations and internment. |
-| [Ships and cargo](../../cases/naval/README.md) | Sailing instructions, loading, sale terms and naval orders. |
-| [Money and purchases](../../cases/finance/README.md) | Pay, procurement, remittances, banknotes, exchange and liquidation. |
-| [Radio service](../../cases/radio/README.md) | Station authority, routing, repetition, keys and personnel movements. |
-| [Caucasus affairs](../../cases/caucasus/README.md) | Mission administration, representation, supplies and evacuation. |
-| [People and civilian affairs](../../cases/people/README.md) | Appointments, leave, discharge, civilian departure and personal enquiries. |
+| [Armies and supplies](../../topics/military.md) | Operational reports, transit, provisioning, medical formations and internment. |
+| [Ships and cargo](../../topics/naval.md) | Sailing instructions, loading, sale terms and naval orders. |
+| [Money and purchases](../../topics/finance.md) | Pay, procurement, remittances, banknotes, exchange and liquidation. |
+| [Radio service](../../topics/radio.md) | Station authority, routing, repetition, keys and personnel movements. |
+| [Caucasus affairs](../../topics/caucasus.md) | Mission administration, representation, supplies and evacuation. |
+| [People and civilian affairs](../../topics/people.md) | Appointments, leave, discharge, civilian departure and personal enquiries. |
 
 ## External comparisons
 

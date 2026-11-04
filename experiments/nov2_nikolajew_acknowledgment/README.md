@@ -2,9 +2,9 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-This is the 300-slot **section A** on Childs p105, a request to confirm receipt of two communications to Mackensen command through Nikolajew. It is separate from the original [p105 challenge](../../cases/p105.md), which is the 290-slot section B. The complete native source yields 150 fixed output labels without changing any coordinate or square cell.
+This is the 300-slot **section A** on Childs p105, a request to confirm receipt of two communications to Mackensen command through Nikolajew. It is separate from the original [p105 challenge](../../cases/pages/105.md#edition-cases-p105), which is the 290-slot section B. The complete native source yields 150 fixed output labels without changing any coordinate or square cell.
 
-Read the [complete source edition](../../cases/radio/nov2_nikolajew_acknowledgment.md).
+Read the [complete source edition](../../cases/pages/105.md#edition-cases-radio-nov2-nikolajew-acknowledgment).
 
 | Scope | Count |
 | --- | ---: |

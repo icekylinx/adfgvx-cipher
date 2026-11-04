@@ -22,10 +22,10 @@ Five plaintext positions remain unresolved. No published key is changed.
 
 ## Read the editions
 
-- [Evening report and its first-part copy](../../cases/military/nov3_evening_report.md): Save–Danube and Alpenkorps positions, damaged vehicle-traffic continuation, Bucharest flight notice and unresolved reference labels.
-- [Telefunken personnel inquiry](../../cases/radio/telefunken_staff_inquiry.md): all 94 positions read directly from the native 188-coordinate source, with no edits.
-- [Conditional Constantza station closure](../../cases/radio/constantza_station_shutdown.md): twelve unprinted coordinates, one observed repair and an unresolved `?400` field; all framing qualifications remain explicit.
-- [Turkish armistice and straits notice](../../cases/military/turkish_armistice_straits_notice.md): costed ordinary-word repairs; the source date-like label and opaque ending remain literal.
+- [Evening report and its first-part copy](../../cases/pages/111.md#edition-cases-military-nov3-evening-report): Save–Danube and Alpenkorps positions, damaged vehicle-traffic continuation, Bucharest flight notice and unresolved reference labels.
+- [Telefunken personnel inquiry](../../cases/pages/112.md#edition-cases-radio-telefunken-staff-inquiry): all 94 positions read directly from the native 188-coordinate source, with no edits.
+- [Conditional Constantza station closure](../../cases/pages/112.md#edition-cases-radio-constantza-station-shutdown): twelve unprinted coordinates, one observed repair and an unresolved `?400` field; all framing qualifications remain explicit.
+- [Turkish armistice and straits notice](../../cases/pages/112.md#edition-cases-military-turkish-armistice-straits-notice): costed ordinary-word repairs; the source date-like label and opaque ending remain literal.
 
 Every readable German passage has a [character-level mapping](readable_mapping.json)
 to its edited stream. After removing X separators and normalizing only

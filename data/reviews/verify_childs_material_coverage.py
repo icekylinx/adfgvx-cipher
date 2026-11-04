@@ -21,6 +21,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 from adfgvx.catalog import load_catalog, physical_source_accounting, evidence_record_id
+from adfgvx.source_editions import page_target
 
 DEFAULT = ROOT / 'data/reviews/childs_material_census_20261103.json'
 REPORT = ROOT / 'docs/whole-material-coverage.md'
@@ -508,7 +509,7 @@ def build(manifest, pdf=None):
 def render(report, manifest):
     now = report['current']
     lines = ['# Whole-material source coverage', '',
-             '[Catalogue](../cases/README.md) · [Source identity](catalogue-source-identity.md) · [Reading conventions](reading-conventions.md)', '',
+             f"[Catalogue](../{page_target('cases/README.md')}) · [Source identity](catalogue-source-identity.md) · [Reading conventions](reading-conventions.md)", '',
              'Prepared by **icekylinx and GPT-6 Astra Pro**.', '',
              '## Catalogue coverage', '',
              f"**All {report['actual_printed_ciphertext_bodies']} reviewed physical ciphertext bodies have one canonical catalogue entry.** They occupy printed pages 56–230 of Appendix B. The 22 original challenge identifiers are preserved, and the other 657 bodies include the four previously uncatalogued unread fragments.", '',
@@ -524,7 +525,7 @@ def render(report, manifest):
         if r['catalogue_state'] != 'OPEN':
             continue
         slots = r['native_source_slots_if_known']
-        lines.append(f"| [{r['catalogue_id']}](../{r['case_path']}) | {slots if slots is not None else 'Not quantified here'} | {r['current_catalogue_status']} |")
+        lines.append(f"| [{r['catalogue_id']}](../{page_target(r['case_path'])}) | {slots if slots is not None else 'Not quantified here'} | {r['current_catalogue_status']} |")
     lines += ['', 'The four newly catalogued OPEN cases preserve 595 native slots: 535 observed coordinates and 60 printed erasures. Their [source-only package](../experiments/open_source_records/README.md) verifies the literal rows and original-PDF crops. It introduces no key, completed loss frame, plaintext or decipherment count.', '',
               '## Quantitative evidence coverage', '',
               f"The structured adapters independently recompute primary source/model accounting for **{now['independently_quantified_primary_records']} of the 679 bodies**. The other **{now['unquantified_primary_records']} remain unquantified by these adapters**, including OPEN sources and unsupported legacy certificate formats. This is evidence-tool coverage, not the number of unread messages.", '',

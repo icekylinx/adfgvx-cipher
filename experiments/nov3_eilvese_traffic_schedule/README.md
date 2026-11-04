@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-Read the [complete p113 D1 edition](../../cases/radio/nov3_eilvese_traffic_schedule.md).
+Read the [complete p113 D1 edition](../../cases/pages/113.md#edition-cases-radio-nov3-eilvese-traffic-schedule).
 The source has 362 slots against RIZI-352, with FAGVD DG--- FAGVD in row 5.
 A conditional ten-slot exclusion exposes a complete 176-position radio
 schedule; two ordinary-word repairs cost three observed substitutions.

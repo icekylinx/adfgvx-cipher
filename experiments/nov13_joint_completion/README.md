@@ -32,7 +32,7 @@ retaining DD's **numerical value 1**; that value does not follow merely from
 the published label. With that numeral interpretation and the stated
 award-class identification, the sole compatible class is **2**.
 
-The separate [p186 B1 troop-movement message](../../cases/military/oberost_troop_movement_obliterations.md#p186-b1)
+The separate [p186 B1 troop-movement message](../../cases/pages/186.md#edition-cases-military-oberost-troop-movement-obliterations-p186-b1)
 has the native field `GENXVX10X11XISTANOBOSTGEDRAHTET`. Within its existing
 conditional obliteration frame, all ten coordinates of `10X11` are
 originally observed and unchanged:
@@ -83,18 +83,18 @@ JTNXKRXEK2XVERLIEHENXGLUECKWUNSCHXSXR
 
 | Record | Before → after | Consequence |
 |---|---:|---|
-| [p193 F](../../cases/people/nov13_conditional_congratulation.md) | 36 → **37/37** | **EK2 verliehen**, under the stated award interpretation |
-| [p188 C1](../../cases/military/armistice_provisions_requests.md#c1-flour-and-oats-to-szolnok) | 130 → **132/134** | **GR H QU**; **alle 2 Tage** |
-| [p179 D2](../../cases/military/armistice_and_leave_orders.md#d-discharge-delayed-and-urgent-home-leave-suspended) | 100 → **101/106** | Reference **RM1A11?2?** |
-| [p197 A2](../../cases/radio/nov15_radio_personnel_and_key_notice.md#p197-a2) | 68 → **69/72** | Reference **2??6?5** |
-| [p186 B1](../../cases/military/oberost_troop_movement_obliterations.md#p186-b1) | 152 → **153/154** | The opaque `?M` becomes `2M`; no ordinary word is recovered |
+| [p193 F](../../cases/pages/193.md#edition-cases-people-nov13-conditional-congratulation) | 36 → **37/37** | **EK2 verliehen**, under the stated award interpretation |
+| [p188 C1](../../cases/pages/188.md#edition-cases-military-armistice-provisions-requests-c1-flour-and-oats-to-szolnok) | 130 → **132/134** | **GR H QU**; **alle 2 Tage** |
+| [p179 D2](../../cases/pages/179.md#edition-cases-military-armistice-and-leave-orders-d-discharge-delayed-and-urgent-home-leave-suspended) | 100 → **101/106** | Reference **RM1A11?2?** |
+| [p197 A2](../../cases/pages/197.md#edition-cases-radio-nov15-radio-personnel-and-key-notice-p197-a2) | 68 → **69/72** | Reference **2??6?5** |
+| [p186 B1](../../cases/pages/186.md#edition-cases-military-oberost-troop-movement-obliterations-p186-b1) | 152 → **153/154** | The opaque `?M` becomes `2M`; no ordinary word is recovered |
 
 The p188 portion quantity remains `??0000`. Its four earlier observed
 substitutions are unchanged. The p193 representative still costs one
 observed exclusion and one substitution; the p186 obliteration model is
 also retained. All six new labels arise from complete observed pairs.
 
-The Q assignment has an adverse effect in the [p191 boot request](../../cases/military/p191_A.md#compatibility-with-the-shared-headquarters-reading):
+The Q assignment has an adverse effect in the [p191 boot request](../../cases/pages/191.md#edition-cases-military-p191-a-compatibility-with-the-shared-headquarters-reading):
 its quantity becomes `?0Q0`. A decimal reading requires a further source
 repair; that field is not counted as a recovered quantity.
 
@@ -130,11 +130,11 @@ explained above; they supply no independent evidence for those assumptions.
 
 | Record | Before → after | Conditional field |
 |---|---:|---|
-| [p199 A1](../../cases/naval/black_sea_shipping.md#a1-incoming-steamers-and-a-garbled-cargo-description) | 145 → **146/146** | Cargo **120 tonnes** |
-| [p200 B2](../../cases/naval/black_sea_shipping.md#b2-payment-in-germany-before-ownership-transfer) | 176 → **178/180** | Closing reference **S22??0** |
-| [p199 B1](../../cases/caucasus/tiflis_appointment.md#part-1-on-p199-the-recipient-and-a-floating-group) | 129 → **130/131** | Tiflis reference **21?** |
-| [p192 A](../../cases/radio/warsaw_service_messages.md#p192-a-request-to-kretzschmar-in-bucharest) | 172 → **173/175** | Bucharest reference **2??**, with equal unknowns |
-| [p192 B](../../cases/radio/warsaw_service_messages.md#p192-b-lp-relays-traffic-in-both-directions) | 132 → **133/134** | War-department reference **?521115** |
+| [p199 A1](../../cases/pages/199.md#edition-cases-naval-black-sea-shipping-a1-incoming-steamers-and-a-garbled-cargo-description) | 145 → **146/146** | Cargo **120 tonnes** |
+| [p200 B2](../../cases/pages/199.md#edition-cases-naval-black-sea-shipping-b2-payment-in-germany-before-ownership-transfer) | 176 → **178/180** | Closing reference **S22??0** |
+| [p199 B1](../../cases/pages/192.md#edition-cases-caucasus-tiflis-appointment-part-1-on-p199-the-recipient-and-a-floating-group) | 129 → **130/131** | Tiflis reference **21?** |
+| [p192 A](../../cases/pages/192.md#edition-cases-radio-warsaw-service-messages-p192-a-request-to-kretzschmar-in-bucharest) | 172 → **173/175** | Bucharest reference **2??**, with equal unknowns |
+| [p192 B](../../cases/pages/192.md#edition-cases-radio-warsaw-service-messages-p192-b-lp-relays-traffic-in-both-directions) | 132 → **133/134** | War-department reference **?521115** |
 
 The cargo edition retains its earlier single-coordinate exclusion and three
 word repairs. All three equally priced broader exclusion models remain in
@@ -154,7 +154,7 @@ each displayed reference and the three cargo geometry alternatives.
 
 ## The transport exchange: two vehicles and two trailers
 
-The native 94-slot [p189 E report](../../cases/context/transport.md#two-vehicles-and-two-trailers--p189-e)
+The native 94-slot [p189 E report](../../cases/pages/189.md#edition-cases-context-transport-two-vehicles-and-two-trailers--p189-e)
 has two complete VG count fields and one invalid printed coordinate in
 `ANH?ENGER`. VG=2 supplies both counts; replacing the invalid `B` at source
 81 with **V** supplies the missing **A**. The message reaches **47/47**

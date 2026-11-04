@@ -12,7 +12,7 @@ The report corrects an earlier note, describes expected landings around
 Alexandretta after convoy and ship observations, and relays an English
 Orient report about fighting near `KALAT SHERGAT` on the Tigris. Its
 reported sightings, forecasts and qualifications remain distinct in the
-[case](../../cases/military/orient_intelligence.md).
+[case](../../cases/pages/092.md#edition-cases-military-orient-intelligence).
 
 ## Recovery of the missing part boundaries
 

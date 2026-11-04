@@ -4,7 +4,7 @@
 
 This package source-reviews all six physical parts of three telegrams on
 Childs p229, using the unchanged published Nov28–Dec1 key. The
-[readable case](../../cases/military/late_transport_dispatches.md) gives the
+[readable case](../../cases/pages/229.md#edition-cases-military-late-transport-dispatches) gives the
 full conditional texts and preserves all unit, quantity and reference labels.
 
 ## What is recovered

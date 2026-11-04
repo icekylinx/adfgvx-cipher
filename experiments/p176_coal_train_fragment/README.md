@@ -8,7 +8,7 @@ supplies grammatical context. The result is explicitly conditional and
 partial: the 13-position routing field and full 24-position tail retain
 the raw output, including their fixed labels and unresolved positions.
 
-[Read the edition](../../cases/military/p176_coal_train_fragment.md)
+[Read the edition](../../cases/pages/176.md#edition-cases-military-p176-coal-train-fragment)
 · [Reviewed inputs](inputs.json)
 · [Prior A5/A6 source snapshot](context_snapshot.json)
 · [Per-position certificate and witnesses](certificates.json)

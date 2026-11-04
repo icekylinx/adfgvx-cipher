@@ -4,7 +4,7 @@
 
 This short native body reports a communication route to OKM. Its readable wording is an explicitly priced proposal, while AOK1? and FXT remain literal. The unresolved address character is a source erasure with both numerical and alphabetic possibilities.
 
-Read the [complete source edition](../../cases/radio/okm_radio_route.md).
+Read the [complete source edition](../../cases/pages/180.md#edition-cases-radio-okm-radio-route).
 
 | Scope | Count |
 | --- | ---: |

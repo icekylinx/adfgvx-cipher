@@ -1,6 +1,6 @@
 # Kiev unrest: printed alternatives recover the p219 C body
 
-**icekylinx and GPT-6 Astra Pro** · [Read the recovered report](../../cases/military/p219_kiev_unrest.md)
+**icekylinx and GPT-6 Astra Pro** · [Read the recovered report](../../cases/pages/219.md#edition-cases-military-p219-kiev-unrest)
 
 The source's parentheses, duplicate prefix and jamming annotation supply a
 working 294-coordinate model under the published Nov25–28 key. It describes

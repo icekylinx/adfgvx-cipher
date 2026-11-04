@@ -4,7 +4,7 @@ Prepared by **icekylinx and GPT-6 Astra Pro**, using unchanged published period 
 
 This package adds **2 physical source records, 386 native coordinate slots and 193 plaintext positions**. Raw fixed positions: 143; edited fixed positions: 192. Exact costs: 8 observed-coordinate substitutions and 50 source-mask fills. No coordinates are inserted, deleted or reordered; no baseline key or numeral assignment changes.
 
-See [the complete case](../../cases/radio/newspaper_dispatch_witnesses.md). `inputs.json` preserves manual rows, original headers, invalid glyphs and all crop-rendering metadata. `prior_evidence.json` pins the earlier source package and credits the fixed copy-retrieval lead and unreviewed candidates. Existing source records and costs are unchanged.
+See [the complete case](../../cases/pages/166.md#edition-cases-radio-newspaper-dispatch-witnesses). `inputs.json` preserves manual rows, original headers, invalid glyphs and all crop-rendering metadata. `prior_evidence.json` pins the earlier source package and credits the fixed copy-retrieval lead and unreviewed candidates. Existing source records and costs are unchanged.
 
 ```bash
 python experiments/newspaper_dispatch_witnesses/verify.py --verify

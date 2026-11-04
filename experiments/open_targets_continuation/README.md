@@ -12,11 +12,11 @@ key inference. No open challenge is claimed solved.
 
 | Source family | Result | Evidence |
 | --- | --- | --- |
-| [Kremp, p131 / p149 / p159](../../cases/other/kremp.md) | A recovered man asks the military mission to specify his departure date. | p159 is wholly fixed: 98/98 letters, 196/196 coordinates. Its 51-character body repairs earlier witnesses under another key. |
-| [Warsaw query, p181 / p214](../../cases/other/mackensen_warsaw.md) | The Soldiers' Council asks whether Mackensen is advancing on Warsaw; a later message quotes the query. | 85/92 directly decoded quote positions match across different keys; complementary evidence resolves the query with exact repair costs. The p181 interpretation is prior published work. |
-| [p211 lower B](../../cases/other/p211_key_schedule.md) | Keep the November Ringbahn key; use 10 November for 1 December through 30 November for 21 December. | Three parts, 265/266 fixed positions. The schedule is directly readable and its historical execution is not assumed. |
-| [p204 A](../../cases/other/p204_A.md) | Local radio station to be handed over on Monday 1?. | 69/70 fixed positions. The November calendar conditionally identifies 18 and square cell FD=8. |
-| [p201 B / p206 A](../../cases/other/p201_p206_orders.md) | Report reached positions; confirm receipt of seven earlier orders. | Matching reference 11{FA}{VV}2 and subject, together with the clear origin date 15/11, conditionally give VA=5. |
+| [Kremp, p131 / p149 / p159](../../cases/pages/131.md#edition-cases-people-kremp) | A recovered man asks the military mission to specify his departure date. | p159 is wholly fixed: 98/98 letters, 196/196 coordinates. Its 51-character body repairs earlier witnesses under another key. |
+| [Warsaw query, p181 / p214](../../cases/pages/181.md#edition-cases-military-mackensen-warsaw) | The Soldiers' Council asks whether Mackensen is advancing on Warsaw; a later message quotes the query. | 85/92 directly decoded quote positions match across different keys; complementary evidence resolves the query with exact repair costs. The p181 interpretation is prior published work. |
+| [p211 lower B](../../cases/pages/211.md#edition-cases-radio-p211-key-schedule) | Keep the November Ringbahn key; use 10 November for 1 December through 30 November for 21 December. | Three parts, 265/266 fixed positions. The schedule is directly readable and its historical execution is not assumed. |
+| [p204 A](../../cases/pages/204.md#edition-cases-radio-p204-a) | Local radio station to be handed over on Monday 1?. | 69/70 fixed positions. The November calendar conditionally identifies 18 and square cell FD=8. |
+| [p201 B / p206 A](../../cases/pages/201.md#edition-cases-military-p201-p206-orders) | Report reached positions; confirm receipt of seven earlier orders. | Matching reference 11{FA}{VV}2 and subject, together with the clear origin date 15/11, conditionally give VA=5. |
 
 The two conditional digit assignments are not added to `data/keys.json`.
 Their assumptions and every propagated consequence appear separately in the
@@ -89,7 +89,7 @@ the historical copy or inferred date was correct.
 
 ## Optional completion of the p214 quotation boundary
 
-The current [Warsaw case](../../cases/military/mackensen_warsaw.md) presents
+The current [Warsaw case](../../cases/pages/181.md#edition-cases-military-mackensen-warsaw) presents
 the complete forwarding introduction and quoted request. One additional
 source-mask fill, source **3** `–→A`, reads the erased position after
 `FUNKSPRUCHX` as a second separator. This is an editorial punctuation choice

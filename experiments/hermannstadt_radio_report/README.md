@@ -103,4 +103,4 @@ python experiments/hermannstadt_radio_report/verify.py --verify
 python experiments/hermannstadt_radio_report/verify.py --verify --pdf /path/to/adfgvx-childs.pdf
 ```
 
-The first command uses the standard library and repository cipher code. It independently checks column offsets, domains, source mappings, every deletion trial, repair coordinates and re-encryption. The optional PDF check additionally uses PyMuPDF and Pillow to compare the full PDF hash and crop pixels. See [certificates.json](certificates.json), [catalog_proposal.json](catalog_proposal.json), and the [reading page](../../cases/radio/hermannstadt_radio_report.md).
+The first command uses the standard library and repository cipher code. It independently checks column offsets, domains, source mappings, every deletion trial, repair coordinates and re-encryption. The optional PDF check additionally uses PyMuPDF and Pillow to compare the full PDF hash and crop pixels. See [certificates.json](certificates.json), [catalog_proposal.json](catalog_proposal.json), and the [reading page](../../cases/pages/216.md#edition-cases-radio-hermannstadt-radio-report).

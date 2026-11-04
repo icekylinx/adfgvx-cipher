@@ -4,7 +4,7 @@
 
 The first two printed parts of a four-part heading repeat an assessment that participation in negotiations is pointless and state that earlier messages are dealt with by an order to depart. Both source bodies remain in their complete native frames. No missing later parts, numerical references or execution of the departure order are supplied from context.
 
-Read the [complete source edition](../../cases/military/nov18_negotiation_repetition.md).
+Read the [complete source edition](../../cases/pages/206.md#edition-cases-military-nov18-negotiation-repetition).
 
 | Scope | Count |
 | --- | ---: |

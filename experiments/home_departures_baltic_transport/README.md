@@ -4,7 +4,7 @@
 
 Two native source bodies describe soldiers wishing to travel home without authorization and transport difficulty linked to uncertainty in the Baltic Sea. The second begins an incomplete statement about Graf Goltz. One damaged source glyph in that body is retained as unknown; its unchanged edited reading requires one explicit source-mask fill. The shared unknown GA cell remains globally coupled across their separate references. Missing context and abbreviated source spellings stay explicit.
 
-Read the [complete source edition](../../cases/military/home_departures_baltic_transport.md).
+Read the [complete source edition](../../cases/pages/186.md#edition-cases-military-home-departures-baltic-transport).
 
 ## Exact scope
 

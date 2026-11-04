@@ -59,7 +59,7 @@ For p73, even the most favorable completion lies beyond every reference block un
 | Flex | Joined letters/digits | 1,348 | 0 | 7.72% of 1,412 blocks |
 | Flex | Sentence `X` | 1,388 | 0 | 2.54% of 1,454 blocks |
 
-The p155 fractions use the more favorable of the two reference digit assignments. p155 A1 is a useful independent control: it is the readable `POT v NKJ` shipping message intercepted five minutes before p73, under the published Nov7–9 key. Its [source and interpretation](../../cases/context/p155.md) remain separate from this diagnostic.
+The p155 fractions use the more favorable of the two reference digit assignments. p155 A1 is a useful independent control: it is the readable `POT v NKJ` shipping message intercepted five minutes before p73, under the published Nov7–9 key. Its [source and interpretation](../../cases/pages/155.md#edition-cases-context-p155) remain separate from this diagnostic.
 
 These are **descriptive reference fractions, not p-values or probabilities of a key being correct**. Blocks within a book are not treated as independent random telegrams. War prose has different name, digit, abbreviation, and code-group distributions from operational radio traffic. The transformed conventions reuse the same text and are not pooled as separate evidence.
 

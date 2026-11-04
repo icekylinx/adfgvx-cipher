@@ -68,4 +68,4 @@ python experiments/hermannstadt_cash_transport/verify.py --verify --pdf /path/to
 
 The first command uses the standard library and the repository cipher code. It independently reconstructs column offsets, all domains, source mappings, all gap costs, and exact repairs. The optional PDF check additionally requires PyMuPDF and Pillow; it checks the complete PDF hash and every crop's pixels. The full source PDF is not duplicated in this directory.
 
-See [inputs.json](inputs.json), [certificates.json](certificates.json), [the proposed catalog records](catalog_proposal.json), and the [reading page](../../cases/finance/hermannstadt_cash_transport.md).
+See [inputs.json](inputs.json), [certificates.json](certificates.json), [the proposed catalog records](catalog_proposal.json), and the [reading page](../../cases/pages/216.md#edition-cases-finance-hermannstadt-cash-transport).

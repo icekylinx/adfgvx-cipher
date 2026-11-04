@@ -4,7 +4,7 @@
 
 Four source-length telegrams on Childs p230 become complete literal readings under the published Nov28–Dec1 square. All 490 coordinates are preserved: no coordinate substitution, source-mask fill or frame change is needed. The source itself gives two first-group readings for C; both are retained.
 
-Read the [complete source edition](../../cases/radio/nov30_radio_personnel.md).
+Read the [complete source edition](../../cases/pages/230.md#edition-cases-radio-nov30-radio-personnel).
 
 ## Exact scope
 

@@ -16,7 +16,7 @@ The gain is narrow. Two ordinary-word labels improve, while the river's
 last label and the footer also change. The complete older editorial
 candidate still costs **23** observed-coordinate changes in D under either
 geometry. This supplement does not turn p109 into an unedited historical
-plaintext or replace its [earlier credited edition](../../cases/p109.md).
+plaintext or replace its [earlier credited edition](../../cases/pages/109.md#edition-cases-p109).
 
 ## The two sources and the retained older reading
 
@@ -110,7 +110,7 @@ endings leave the exact historical relationship of B and D unresolved.
 
 ## SAVE and SAVA under this geometry
 
-The same-key, separately received [p99 B1 report](../../cases/military/sava_crossing_evening_report.md)
+The same-key, separately received [p99 B1 report](../../cases/pages/099.md#edition-cases-military-sava-crossing-evening-report)
 contains the exact native token **SAVE**, with no source exclusion, fill
 or coordinate change. Its [source image](../nov1_contact_mail_and_sava/sources/p99_B1.png)
 was inspected again. The four pairs and their original-source positions are

@@ -2,7 +2,7 @@
 
 Research and source edition: **icekylinx and GPT-6 Astra Pro**.
 
-[Read the complete source edition](../../cases/radio/odessa_courier_pretransposition.md).
+[Read the complete source edition](../../cases/pages/201.md#edition-cases-radio-odessa-courier-pretransposition).
 
 p201 C has 324 native received coordinates and advertises 324. The unchanged
 Nov 16–18 key directly fixes 153/162 labels. Independent visual audit corrected

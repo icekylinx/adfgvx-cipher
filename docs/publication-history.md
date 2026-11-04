@@ -32,7 +32,7 @@ preserved throughout.
 ## Ongoing source recovery
 
 Subsequent editions continue from that public head. The live
-[reading catalogue](../cases/README.md) records current coverage, and the
+[reading catalogue](../topics/README.md) records current coverage, and the
 [historical studies](historical-studies/README.md) present the recovered
 content. Source certificates and earlier contributions remain with each case.
 

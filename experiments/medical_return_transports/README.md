@@ -4,7 +4,7 @@
 
 Five source editions are recorded from Childs pp212–213 (22 November 1918): four readable medical passages and an interposed oil-cartel dispatch query. The medical passages recommend a heated sick wagon, cooking equipment and continuously available hot tea, and ask for the arrangements to be made as far as possible from Constantinople. They cite an appeal to the German governor at received `NIKOLA9EW`. They do not establish that the requested arrangements were made.
 
-The [medical reading](../../cases/military/medical_return_transports.md) and [separate oil query](../../cases/finance/oil_cartel_dispatch_query.md) retain every raw string. [inputs.json](inputs.json), [certificates.json](certificates.json), [source crops](sources/) and the verifier supply exact coordinates, mappings and repairs.
+The [medical reading](../../cases/pages/212.md#edition-cases-military-medical-return-transports) and [separate oil query](../../cases/pages/212.md#edition-cases-finance-oil-cartel-dispatch-query) retain every raw string. [inputs.json](inputs.json), [certificates.json](certificates.json), [source crops](sources/) and the verifier supply exact coordinates, mappings and repairs.
 
 The later [p212 A4 partial edition](../p212_medical_fragment/README.md) supplies a separately verified 302-slot hypothesis and 129/151 labels. The original five-record certificate below remains unchanged; A4 is counted once through its new catalogue entry.
 

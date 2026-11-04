@@ -7,11 +7,11 @@ corpus into image-checked messages, exact coordinate certificates and annotated
 German readings. The published period keys remain credited to George Lasry and
 the historical and research sources recorded in `data/keys.json`.
 
-The edition includes [telephone censorship through Budapest](../../cases/other/p85_B.md),
-[entry permission for Filittis and family](../../cases/other/p96_B.md), and
-[an instruction to use radio for important messages](../../cases/other/p111_B.md).
-Two assembled multipart messages add [the instruction to Feigenhaus](../../cases/other/p120_p123.md)
-and [the Kress/Tiflis withdrawal notice](../../cases/other/p218_A.md).
+The edition includes [telephone censorship through Budapest](../../cases/pages/085.md#edition-cases-radio-p85-b),
+[entry permission for Filittis and family](../../cases/pages/096.md#edition-cases-people-p96-b), and
+[an instruction to use radio for important messages](../../cases/pages/111.md#edition-cases-radio-p111-b).
+Two assembled multipart messages add [the instruction to Feigenhaus](../../cases/pages/120.md#edition-cases-naval-p120-p123)
+and [the Kress/Tiflis withdrawal notice](../../cases/pages/218.md#edition-cases-caucasus-p218-a).
 Nine full message parts and one repeated transmitted suffix have inspected
 source layers. The p123 third part has one explicit deletion; p218 keeps
 all three original message lengths and itemizes every editorial substitution.

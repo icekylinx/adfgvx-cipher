@@ -4,7 +4,7 @@
 
 These four surviving source bodies report an arrival at Namur, direct prompt transport arrangements to Cassel, and request the local armistice conditions again. The Namur telegram explicitly lacks its second part; its first and third parts are presented without bridging that gap. Literal office labels, an opaque transport field and source-length spellings remain visible.
 
-Read the [complete source edition](../../cases/military/namur_cassel_armistice_requests.md).
+Read the [complete source edition](../../cases/pages/172.md#edition-cases-military-namur-cassel-armistice-requests).
 
 ## Exact scope
 

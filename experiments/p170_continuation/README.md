@@ -4,7 +4,7 @@
 
 Fifteen checked source records on printed pp. 166–174 contain 2,161 received slots. Nine records provide seven message groups about radio-station control, destroyed records, retained cipher keys and Seifert's arrival, return and departure. Six further records preserve overlapping operational reports about Serbian cavalry and the northward movement of German formations. A full copy on p167 supplies the missing 20-coordinate prefix of p166 part 3. The records use the published November 7–9 and November 10–12 keys.
 
-The readable editions are [Station control and the Seifert service exchange](../../cases/other/seifert.md) and [November 9 operational reports](../../cases/other/nov9_operational_reports.md).
+The readable editions are [Station control and the Seifert service exchange](../../cases/pages/168.md#edition-cases-radio-seifert) and [November 9 operational reports](../../cases/pages/166.md#edition-cases-military-nov9-operational-reports).
 
 The central p170 challenge is **section A** and remains open. These neighboring records are catalog additions; their source arithmetic and historical priority are recorded separately.
 

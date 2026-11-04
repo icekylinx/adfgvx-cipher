@@ -2,7 +2,7 @@
 
 **Source recovery and review: icekylinx and GPT-6 Astra Pro.**
 
-[Read the source editions](../../cases/military/danube_arad_witnesses.md) · [Exact certificate](certificates.json) · [Original Childs scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view)
+[Read the source editions](../../cases/pages/164.md#edition-cases-military-danube-arad-witnesses) · [Exact certificate](certificates.json) · [Original Childs scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view)
 
 Reviewed source crops: [p164 C1](sources/p164_C1.png) · [p168 E](sources/p168_E.png).
 
@@ -46,7 +46,7 @@ Native p164 pairs support three word-letter proposals in p153: U3BER → UEBER, 
 A further conditional layer completes **p164 C1 to 124/124 positions**.
 It reads `8XC1X1?` as **8.11.18** and `?1 ARMEE` as **11 ARMEE**. The
 first interpretation follows the day.month.year form directly observed in
-the [p155 D morning report](../../cases/military/nov7_derailment_and_trains.md#p155-d);
+the [p155 D morning report](../../cases/pages/155.md#edition-cases-military-nov7-derailment-and-trains-p155-d);
 the second repeats the native `AOK11` at the start of p164 itself.
 
 Compared with the earlier word layer, this costs **one additional observed

@@ -4,7 +4,7 @@
 
 Two physically numbered parts request a complete stop to provisions after a reduction in the strength being provisioned. Their association is explicit across the p219/p220 page break. A separate evening report on p220 preserves its unresolved unit and place labels. All three use their complete native printed frames and the unchanged Nov25–28 key.
 
-Read the [complete source edition](../../cases/military/nov25_provisions_and_evening_report.md).
+Read the [complete source edition](../../cases/pages/219.md#edition-cases-military-nov25-provisions-and-evening-report).
 
 | Scope | Count |
 | --- | ---: |

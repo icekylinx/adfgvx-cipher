@@ -1,6 +1,6 @@
 # p187b: one adjacent swap explains two word corrections
 
-[ADFGVX Cipher](../../README.md) · [Case and earlier readings](../../cases/p187b.md) · [Experiment index](../README.md)
+[ADFGVX Cipher](../../README.md) · [Case and earlier readings](../../cases/pages/187.md#edition-cases-p187b) · [Experiment index](../README.md)
 
 **icekylinx and GPT-6 Astra Pro · 2 November 2026**
 

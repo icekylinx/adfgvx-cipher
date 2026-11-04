@@ -4,7 +4,7 @@
 
 Two source editions concern railway operations: a freight-train derailment blocking both tracks on the proposed Gomel–Bachmatsch route, and a message about forwarding a station train and construction train to Group Winterfeld. The wagon count, train labels, abbreviations and office references remain literal.
 
-Read the [complete source edition](../../cases/military/nov7_derailment_and_trains.md).
+Read the [complete source edition](../../cases/pages/155.md#edition-cases-military-nov7-derailment-and-trains).
 
 ## Exact scope
 

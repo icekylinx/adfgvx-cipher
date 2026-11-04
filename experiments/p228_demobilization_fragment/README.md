@@ -62,7 +62,7 @@ slightly higher language score but changes observed order; it is not silently
 substituted for this mask-only frame. No claim of exhaustive source-error
 correction is made.
 
-- [Readable edition](../../cases/military/p228_demobilization_fragment.md)
+- [Readable edition](../../cases/pages/228.md#edition-cases-military-p228-demobilization-fragment)
 - [Exact inputs](inputs.json)
 - [Per-position certificates](certificates.json)
 - [Earlier three-part source edition](../neuhof_demobilization/README.md)

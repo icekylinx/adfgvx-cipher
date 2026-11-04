@@ -6,7 +6,7 @@ This source edition covers Childs **p174 A1–A3**, a three-part message of
 10 November 1918. The first two parts request the daily dispatch of one
 million crowns by ordinary aircraft, alternately to Kronstadt and
 Hermannstadt. The interrupted third part supports a request for notes of
-the smallest practical denomination. The [case](../../cases/finance/crown_airlift.md)
+the smallest practical denomination. The [case](../../cases/pages/174.md#edition-cases-finance-crown-airlift)
 keeps the literal decryptions and the editorial limits together.
 
 The source prints 146, 146 and 79 coordinates or coordinate-sized glyphs.

@@ -14,6 +14,7 @@ ROOT = HERE.parents[1]
 sys.path.insert(0, str(ROOT))
 from adfgvx.source_evidence import verify_source_evidence
 from adfgvx.catalog import load_catalog
+from adfgvx.source_editions import page_target
 
 TARGETS = set('p70_B1 p71_A2 p84_C p127_B2 p137_A6 p137_B p145_A '
               'p152_A2 p154_A2 p163_A16 p164_D p167_C1 p167_D p176_A6 '
@@ -102,7 +103,7 @@ def report(data, editions):
              '|---|---:|---:|---:|---:|---|']
     for r in data['records']:
         edition = editions.get(r['id'])
-        link = ('[' + edition['state'] + '](../' + edition['path'] + ')'
+        link = ('[' + edition['state'] + '](../' + page_target(edition['path']) + ')'
                 if edition else 'No accepted edition')
         lines.append('| ' + ' | '.join(map(str, [r['id'], r['source_slots'],
                      r['valid_source_coordinates'], len(r['masked_or_invalid_source_slots']),

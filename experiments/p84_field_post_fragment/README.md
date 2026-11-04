@@ -9,7 +9,7 @@ layer fixes 28/122 with **zero observed substitutions, two printed-mask fills
 and fifteen added-tail fills**. H53, F55 and T62 are wholly unobserved lexical
 completions. The missing short-group slot is not filled by the proposal.
 
-- [Source edition](../../cases/radio/p84_field_post_fragment.md)
+- [Source edition](README.md)
 - [Source, key and five frame assumptions](inputs.json)
 - [Coordinate domains, exact costs and full witnesses](certificates.json)
 - [Discovery scope and controls](search_provenance.json)

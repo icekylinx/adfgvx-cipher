@@ -3,14 +3,14 @@
 Prepared by **icekylinx and GPT-6 Astra Pro**. Seven manually reviewed
 records provide readable source editions under unchanged published keys:
 
-- [Four radio records](../../cases/radio/radio_contacts_and_keys.md): direct
+- [Four radio records](../../cases/pages/100.md#edition-cases-radio-radio-contacts-and-keys): direct
   communication during a wire interruption, an unavailable OSKACHI key,
   exact calling/listening times, and a receiving station in the embassy.
-- [p100 B](../../cases/military/budapest_wire_break.md): bridges and the
+- [p100 B](../../cases/pages/100.md#edition-cases-military-budapest-wire-break): bridges and the
   interrupted wire lines through Budapest.
-- [p142 B](../../cases/caucasus/representative_retention.md): the Caucasus
+- [p142 B](../../cases/pages/142.md#edition-cases-caucasus-representative-retention): the Caucasus
   `BEV K.M.` representative is to remain.
-- [p142 C](../../cases/military/dobrudscha_report.md): a request for a
+- [p142 C](../../cases/pages/142.md#edition-cases-military-dobrudscha-report): a request for a
   position on an Entente report about the Dobrudscha.
 
 ## Accounting

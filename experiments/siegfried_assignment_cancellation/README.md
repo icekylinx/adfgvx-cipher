@@ -2,7 +2,7 @@
 
 Source edition and verification by **icekylinx and GPT-6 Astra Pro**.
 
-The [p135 A edition](../../cases/people/siegfried_assignment_cancellation.md)
+The [p135 A edition](../../cases/pages/135.md#edition-cases-people-siegfried-assignment-cancellation)
 preserves **401 source slots**, including **397 observed coordinates** and
 **four printed masks**, exactly matching RICHI-401. Its original odd-frame
 raw reading and orphan coordinate remain available.

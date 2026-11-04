@@ -1,6 +1,6 @@
 # Evidence and research methods
 
-[Historical results](../docs/historical-showcase.md) · [Read the messages](../cases/README.md) · [Research status](../docs/research-status.md) · [Method guide](../docs/methods.md)
+[Historical results](../docs/historical-showcase.md) · [Read the messages](../topics/README.md) · [Research status](../docs/research-status.md) · [Method guide](../docs/methods.md)
 
 Each accepted reading links a source-specific package: transcript, key or key
 hypothesis, exact coordinate map, repair account and verifier. This index
@@ -90,7 +90,7 @@ that interpretation.
 
 ## Open-target searches and calibration
 
-The [seven OPEN pages](../cases/open/README.md) give the literal inputs and
+The [seven OPEN pages](../topics/open.md) give the literal inputs and
 current questions. The maintained search families include:
 
 | Approach | Record |

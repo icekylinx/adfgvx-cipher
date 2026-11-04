@@ -4,7 +4,7 @@
 
 This complete native second part records a request to send money to BRASSO by another means. Two printed non-coordinate slots supply explicit word proposals without changing any valid observed coordinate. The first part, institutional abbreviations, amount and seven coupled reference labels remain unsupplied or literal.
 
-Read the [complete source edition](../../cases/finance/brasso_money_alternative_route.md).
+Read the [complete source edition](../../cases/pages/185.md#edition-cases-finance-brasso-money-alternative-route).
 
 | Scope | Count |
 | --- | ---: |

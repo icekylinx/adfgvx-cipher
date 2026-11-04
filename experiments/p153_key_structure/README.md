@@ -38,7 +38,7 @@ The reported p217 square similarly matches `TRUPPENVERSCHIEBUNG` with
 `0…9` after `A…J`. Its recorded full square is used only as a construction
 control. This does not independently resolve the ambiguous handwritten
 digits or supply a missing parent-document provenance. See the
-[p217 case](../../cases/p217.md) and the key's provenance in
+[p217 case](../../cases/pages/217.md#edition-cases-p217) and the key's provenance in
 [the key catalogue](../../data/keys.json).
 
 Lasry, Niebel, Kopal, and Wacker analyze the substitution key as an arbitrary
@@ -203,7 +203,7 @@ small result records belong in this experiment.
 ## Consequence for the case
 
 The most likely p153 body readings remain those in
-[p153a](../../cases/p153a.md) and [p153b](../../cases/p153b.md). The exact
+[p153a](../../cases/pages/153.md#edition-cases-p153a) and [p153b](../../cases/pages/153.md#edition-cases-p153b). The exact
 date/serial/footer ambiguity is documented in the
 [extension analysis](../p153_extension/README.md). A justified further
 completion needs new traffic evidence, a recovered companion part, or

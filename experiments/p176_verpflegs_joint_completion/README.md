@@ -6,7 +6,7 @@ gives `DG=S` and a complete **84/84** word layer. The price above the prior
 83/84 proposal is one mask fill and zero observed substitutions; the total
 is three observed substitutions and five printed-mask fills.
 
-[Edition](../../cases/military/romanian_ultimatum_companions.md#optional-verpflegsz-completion)
+[Edition](../../cases/pages/175.md#edition-cases-military-romanian-ultimatum-companions-optional-verpflegsz-completion)
 · [Inputs](inputs.json) · [Certificate](certificates.json).
 
 The prior A5 stream, A6 partial stream and source assembly are snapshot-pinned.

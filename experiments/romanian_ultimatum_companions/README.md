@@ -6,7 +6,7 @@ Three readable parts of a six-part message are source-edited here:
 **p175 C1**, **p175 C2**, and **p176 A5**. They report a Romanian-government
 ultimatum, French forces beginning a Danube crossing near Rustschuk, and
 messages and material being directed first to Hermannstadt. Read the
-[case](../../cases/military/romanian_ultimatum_companions.md) for the raw
+[case](../../cases/pages/175.md#edition-cases-military-romanian-ultimatum-companions) for the raw
 and candidate texts and the limits of the historical interpretation.
 
 The complete source-defined sequence is preserved without treating
@@ -101,7 +101,7 @@ totals above. C3's five-coordinate arithmetic shortage has no selected
 location or full frame. A6 has only 74 observed coordinates and receives
 an unfilled native-frame domain diagnostic; no readable body is claimed.
 
-Part A4 is the existing [p176a case](../../cases/p176a.md), with earlier
+Part A4 is the existing [p176a case](../../cases/pages/176.md#edition-cases-p176a), with earlier
 credit to **Norbert, 2 March 2017, comment 26**, and **Max Baertl,
 11 March 2017, comment 39**. Its proposed breakthrough text, block
 repairs and extra editorial corrections remain distinct. The new

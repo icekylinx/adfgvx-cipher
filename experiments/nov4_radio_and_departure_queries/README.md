@@ -8,7 +8,7 @@ positions**, with **432 fixed raw positions**. The baseline edited proposals
 fix **441/443 positions**, with **17 observed-coordinate substitutions** and
 **9 printed-mask fills**. No key change or numeral relabeling is made.
 
-The [Eilvese and setup edition](../../cases/radio/nov4_eilvese_and_setup.md)
+The [Eilvese and setup edition](../../cases/pages/120.md#edition-cases-radio-nov4-eilvese-and-setup)
 preserves a six-slot overprinted group XXFTVA in p120 A: there are 237 source
 slots against RICHI-236. A conditional exclusion of the T-like masked slot
 retains every valid coordinate. All six local single-exclusion cost vectors
@@ -16,9 +16,9 @@ are retained; the scan alone does not prove cancellation intent. The
 short p120 C notice has no source mask or added slot, and its location-like
 label remains literal.
 
-The [boat-sale order](../../cases/naval/motorboat_sale_attempt.md) repairs two
+The [boat-sale order](../../cases/pages/147.md#edition-cases-naval-motorboat-sale-attempt) repairs two
 words but retains the raw identifier Q5, refusing to inherit the OCR 35.
-The [director-departure inquiry](../../cases/people/director_departure_query.md)
+The [director-departure inquiry](../../cases/pages/123.md#edition-cases-people-director-departure-query)
 keeps T4SCHASCHEL and 027 in its baseline and retains two unresolved closing
 reference positions. A separate optional TISCHASCHEL interpretation costs
 two additional coordinate substitutions and is not counted in the baseline.

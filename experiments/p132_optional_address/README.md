@@ -4,7 +4,7 @@
 
 **Source comparison and verification: icekylinx and GPT-6 Astra Pro.**
 
-The [existing p132 primary reading](../../cases/radio/p132_radio_service.md)
+The [existing p132 primary reading](../../cases/pages/132.md#edition-cases-radio-p132-radio-service)
 remains unchanged. Its raw addressee field is `KOSJOII`. The spelling `KOSPOLI` is a
 useful **optional** proposal because this exact token is independently fixed
 in other source-reviewed telegrams from the same traffic. It costs **two

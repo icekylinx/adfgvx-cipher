@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-This package source-reviews p204 C2 and constructs a conditional continuation of the native [part 1](../../cases/radio/nov16_18_command_inquiries.md#p204-c1). The [readable case](../../cases/radio/warsaw_station_missing_row.md) keeps the native and conditional frames separate.
+This package source-reviews p204 C2 and constructs a conditional continuation of the native [part 1](../../cases/pages/204.md#edition-cases-radio-nov16-18-command-inquiries-p204-c1). The [readable case](../../cases/pages/204.md#edition-cases-radio-warsaw-station-missing-row) keeps the native and conditional frames separate.
 
 ## Positive result
 

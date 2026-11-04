@@ -4,7 +4,7 @@
 
 Two native parts give the consular and export-company routing of an instruction involving the sale of a railway wagon. The primary edition retains the opaque DAMM LADWIG phrase and all incomplete references. More fluent cargo-word proposals are priced separately rather than silently treated as source wording.
 
-Read the [complete source edition](../../cases/finance/odessa_wagon_sale.md).
+Read the [complete source edition](../../cases/pages/201.md#edition-cases-finance-odessa-wagon-sale).
 
 | Scope | Count |
 | --- | ---: |

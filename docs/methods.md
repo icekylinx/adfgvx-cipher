@@ -1,6 +1,6 @@
 # How the readings are established
 
-[ADFGVX Cipher](../README.md) · [Read the cases](../cases/README.md) · [Experiment index](../experiments/README.md)
+[ADFGVX Cipher](../README.md) · [Browse the sources](../topics/README.md) · [Experiment index](../experiments/README.md)
 
 **Research and editorial work: icekylinx and GPT-6 Astra Pro.**
 
@@ -12,7 +12,7 @@ alternatives determine how much of that sentence is established.
 
 | Your question | Where to look |
 | --- | --- |
-| What does a message most likely say? | The **Most likely reading** and explanation at the beginning of its [case page](../cases/README.md). |
+| What does a message most likely say? | The **Most likely reading** and explanation at the beginning of its [page edition](../cases/pages/README.md). |
 | Which characters are actually determined? | The raw, unspaced text and character domains in that case's linked certificate. |
 | How much was changed to obtain a readable sentence? | The explicit insertion, deletion, erasure-fill and known-coordinate substitution counts. |
 | Who first published the reading or correction? | The case's attribution and [prior-reading registry](../data/prior_readings.json). |
@@ -49,11 +49,11 @@ serial numbers and words across messages that share a key.
 
 | Layer | What it establishes | Example |
 | --- | --- | --- |
-| Source transcription | What is printed in the inspected witness, including damaged or invalid glyphs. | [p198 D](../cases/p198.md) has 165 valid coordinates although its header says `CHI-170`. |
-| Source-preserving calculation | What follows under a declared key and structural repair, preserving every known coordinate retained by that explicit hypothesis. | [p146](../cases/p146.md) fixes 117/122 positions after the documented duplicate deletion and missing-group insertion. |
-| Explicit editorial repair | What becomes readable after specified fills or substitutions. | [p153b](../cases/p153b.md) has 33/54 raw positions; its 50/54 conditional template also needs the recorded repairs and separator interpretation. |
-| Parallel transmission | What another independently inspected witness contributes to a damaged text. | [p152](../cases/p152.md) is linked to the fuller p136 transmission; [p109](../cases/p109.md) has a same-page near-parallel. |
-| Historical interpretation | Why a name, abbreviation or event is plausible in context. | [p215](../cases/p215.md) costs `KORPSXKOSCH` explicitly and links contemporary command records. |
+| Source transcription | What is printed in the inspected witness, including damaged or invalid glyphs. | [p198 D](../cases/pages/198.md#edition-cases-p198) has 165 valid coordinates although its header says `CHI-170`. |
+| Source-preserving calculation | What follows under a declared key and structural repair, preserving every known coordinate retained by that explicit hypothesis. | [p146](../cases/pages/146.md#edition-cases-p146) fixes 117/122 positions after the documented duplicate deletion and missing-group insertion. |
+| Explicit editorial repair | What becomes readable after specified fills or substitutions. | [p153b](../cases/pages/153.md#edition-cases-p153b) has 33/54 raw positions; its 50/54 conditional template also needs the recorded repairs and separator interpretation. |
+| Parallel transmission | What another independently inspected witness contributes to a damaged text. | [p152](../cases/pages/152.md#edition-cases-p152) is linked to the fuller p136 transmission; [p109](../cases/pages/109.md#edition-cases-p109) has a same-page near-parallel. |
+| Historical interpretation | Why a name, abbreviation or event is plausible in context. | [p215](../cases/pages/215.md#edition-cases-p215) costs `KORPSXKOSCH` explicitly and links contemporary command records. |
 | Language ranking | Which permitted candidate a specified statistical model prefers. | The [p109 decoder](../experiments/parallel_decoder/README.md) ranks texts at exact source-edit budgets. |
 
 These layers answer different questions. A historical record can support a name
@@ -64,7 +64,7 @@ conjectural. Case pages keep the readable interpretation alongside those limits.
 Spaces and punctuation are editorial unless the raw text explicitly encodes
 them. `X` is a decoded character that often serves as a separator. A question
 mark in a raw string occupies one position; an ellipsis in readable prose does
-not specify a number of missing characters. See the [notation guide](../cases/README.md#how-to-read-a-case).
+not specify a number of missing characters. See the [notation guide](reading-conventions.md#source-editions).
 
 ## Follow a candidate back to its source
 
@@ -130,7 +130,7 @@ alternatives remain in the readable edition.
 
 ### Locate scattered missing coordinates
 
-Under the hypothesis that [p198 D](../cases/p198.md) lost exactly five symbols
+Under the hypothesis that [p198 D](../cases/pages/198.md#edition-cases-p198) lost exactly five symbols
 from a 170-coordinate transmission, there are
 
 \[

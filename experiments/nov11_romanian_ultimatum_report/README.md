@@ -8,7 +8,7 @@ phrase `24 STUNDEN VOR DER WAFFENSTRECKUNG`. The new body needs two changes
 to observed coordinates; the other additions fill explicitly recorded
 source masks and missing coordinates.
 
-[Read the report](../../cases/military/nov11_romanian_ultimatum_report.md)
+[Read the report](../../cases/pages/180.md#edition-cases-military-nov11-romanian-ultimatum-report)
 · [Reviewed inputs](inputs.json)
 · [Complete certificate](certificates.json)
 · [Independent check](independent.py)

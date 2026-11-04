@@ -1,7 +1,7 @@
 # Major Dunst: cancellation of the Turkey assignment
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. The
-[reader case](../../cases/people/dunst_assignment.md) presents two numbered
+[reader case](../../cases/pages/095.md#edition-cases-people-dunst-assignment) presents two numbered
 parts on Childs printed p. 95 / PDF p. 98, headed 1 November 1918. Their shared
 header reads `OSM v LP (5.22 p.m., November 1st)`,
 `SSD GRHQU (1/11)0400 2 TEILE`.

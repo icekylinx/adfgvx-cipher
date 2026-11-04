@@ -12,12 +12,12 @@ Our source research also identifies repeated receptions, restores printed groups
 
 | Source recovery | Result |
 |---|---|
-| [Arad provisions](../cases/military/danube_arad_witnesses.md) | Eleven missing coordinates restored and the strength figure **80000** established from observed pairs. |
-| [Small-banknote instruction](../cases/finance/crown_banknote_completion.md) | Nineteen absent tail coordinates supplied by a complete reception; the gap located and one earlier conjecture corrected. |
-| [Caucasus silk resale](../cases/finance/nov6_silk_resale_continuation.md) | Direct pair support across receptions for all **135 positions** of the continuation. |
-| [Palestine medical formations](../cases/military/palestine_medical_dissolution.md) | The missing medical antecedent restored to a dissolution order. |
-| [Seifert arrival enquiry](../cases/radio/nov12_arrival_departure_and_car.md#p183-b) | Complete pair support from two complementary damaged receptions. |
-| [Mackensen's appeal](../cases/military/mackensen_armistice_appeal.md) | A recovered part boundary clarifies the distinction between acknowledgment and acceptance of an Allied note. |
+| [Arad provisions](../cases/pages/164.md#edition-cases-military-danube-arad-witnesses) | Eleven missing coordinates restored and the strength figure **80000** established from observed pairs. |
+| [Small-banknote instruction](../cases/pages/195.md#edition-cases-finance-crown-banknote-completion) | Nineteen absent tail coordinates supplied by a complete reception; the gap located and one earlier conjecture corrected. |
+| [Caucasus silk resale](../cases/pages/144.md#edition-cases-finance-nov6-silk-resale-continuation) | Direct pair support across receptions for all **135 positions** of the continuation. |
+| [Palestine medical formations](../cases/pages/079.md#edition-cases-military-palestine-medical-dissolution) | The missing medical antecedent restored to a dissolution order. |
+| [Seifert arrival enquiry](../cases/pages/183.md#edition-cases-radio-nov12-arrival-departure-and-car-p183-b) | Complete pair support from two complementary damaged receptions. |
+| [Mackensen's appeal](../cases/pages/220.md#edition-cases-military-mackensen-armistice-appeal) | A recovered part boundary clarifies the distinction between acknowledgment and acceptance of an Allied note. |
 
 Research, source recovery and historical synthesis are by **icekylinx and GPT-6 Astra Pro**. The case editions separately credit earlier keys and readings, subsequent source restoration and historical interpretation.
 
@@ -29,6 +29,6 @@ Research, source recovery and historical synthesis are by **icekylinx and GPT-6 
 
 **Klaus Schmeh's 2017 challenge publication** brought Lasry's unresolved material into public discussion. Armin, Norbert, Thomas, Max Baertl and Lasry contributed attacks, readings and corrections. The [attribution audit](../data/reviews/attribution_review_2017.json) reviews 56 numbered comments and records the contributors' displayed names. [Original discussion](https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1).
 
-**Daniel Bourdeau's 2026 survey** consolidates earlier challenge results and reproduces repairs under known keys. Prinz with GPT-6 Astra published the [p217 body](../cases/p217.md) on 17 September; Christian Horvat supplied the subsequent date correction. Further credits appear in [Contributors](../AUTHORS.md). [Bourdeau's survey](https://dbourdeau.github.io/cyphersolver/adfgvx.html).
+**Daniel Bourdeau's 2026 survey** consolidates earlier challenge results and reproduces repairs under known keys. Prinz with GPT-6 Astra published the [p217 body](../cases/pages/217.md#edition-cases-p217) on 17 September; Christian Horvat supplied the subsequent date correction. Further credits appear in [Contributors](../AUTHORS.md). [Bourdeau's survey](https://dbourdeau.github.io/cyphersolver/adfgvx.html).
 
 The public-source review was updated on **4 November 2026**. Its dated audits retain the inspected versions and retrieval limits. German quotations follow the case editions; substantive reconstruction is identified beside the affected passage, with the complete technical evidence available through the source links. [Reading conventions](reading-conventions.md).

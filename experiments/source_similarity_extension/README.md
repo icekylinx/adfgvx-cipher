@@ -49,7 +49,7 @@ raw position cannot simply receive `R`: its domain is `234789QY`, and `R`
 already occupies another square cell. No square is completed and no erased
 coordinate is filled.
 
-The [reader-facing case](../../cases/context/p189_C.md) and
+The [reader-facing case](../../cases/pages/189.md#edition-cases-context-p189-c) and
 [source inspection](source_inspection.json) retain the November/December
 chronology tension, the closing `IRRTUM`, all position maps, and the three
 unchanged-key comparisons. An independent column-offset implementation checks

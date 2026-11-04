@@ -13,7 +13,7 @@ which restores 85 missing prefix coordinates and 85 further raw letters.
 The p190 D / p193 A relay request supplies a complete 94-letter comparison
 after explicitly aligning its `FUR` / `FUER` wording difference.
 
-See the [readable case](../../cases/other/nov14_radio_retransmissions.md),
+See the [readable case](../../cases/pages/190.md#edition-cases-radio-nov14-radio-retransmissions),
 [literal inputs and key provenance](inputs.json), and
 [full coordinate certificate](certificates.json).
 
