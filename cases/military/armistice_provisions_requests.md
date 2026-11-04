@@ -36,18 +36,39 @@ All 176 received slots are present, yet the source explicitly says “jammed to 
 
 ## C1: flour and oats to Szolnok
 
-The proposal asks the Generalintendant of the field army to send a train at an unknown interval, with an unresolved number of full portions including flour and the remainder oats, to Szolnok on the Theiss. Four observed-coordinate substitutions produce `EINSCHL`, `SZOLNOK` and `ANDER`; the quantity and dispatch interval are not inferred. The raw `VVZUG` abbreviation stays unchanged.
+**Readable German — conditional headquarters and award-class assignments:**
 
-The clearly printed E in `EFXGF` is outside the coordinate alphabet and remains unfilled at source index 140. All four unresolved plaintext positions (zero-based) remain explicit:
+> Generalintendant Feldheeres. Gr. H. Qu. Bitte alle 2 Tage VV Zug mit ??0000 vollen Portionen einschl. Mehl, Rest Hafer, nach Szolnok an der Theiss absenden.
 
-| Position | Field | Source pair | Domain under unchanged partial key |
-|---:|---|---|---|
-| 32 | `GR X H X ?U` headquarters label | XX | 234789QY |
-| 45 | `ALLE ? TAGE` interval | VG | 234789QY |
-| 58 | First character of `??0000` portions | ?D, literal ED | 1234789JKQTY |
-| 59 | Second character of `??0000` portions | FV | 234789QY |
+The request asks the Generalintendant of the field army for a train of
+provisions to Szolnok on the Theiss. The quantity remains unresolved;
+`VVZUG` is retained. Four earlier substitutions supply `EINSCHL`, `SZOLNOK`
+and `ANDER`.
 
-These domains share one global square bijection. They cannot be selected independently, and no Q or numeral assignment is introduced.
+Two independent readings in the shared square complete the address and
+interval. The native [p202 B3 intendant address](military_intendant_remit.md#b3-the-headquarters-supply-office)
+has `GENERALINTENDANT GRHQU`; reading the p188 destination as the same
+headquarters gives **XX=Q**. Separately, interpreting `EK?` in the
+[p193 congratulation](../people/nov13_conditional_congratulation.md)
+as an Iron Cross class while retaining numerical **DD=1** gives **VG=2**,
+hence **every two days** here. The independent p186 `10X11` field supports
+DD=1 only under its explicit date interpretation, as the linked account explains.
+These assignments raise C1 from **130 to 132/134** positions without
+adding a source change. Their assumptions and propagation are checked in
+the [joint certificate](../../experiments/nov13_joint_completion/certificates.json).
+
+The clearly printed E in `EFXGF` remains unfilled at source index 140.
+The four baseline uncertainties and their present treatment are:
+
+| Position | Field | Source pair | Baseline domain | Conditional treatment |
+|---:|---|---|---|---|
+| 32 | `GR X H X ?U` headquarters label | XX | 234789QY | Q from the headquarters interpretation |
+| 45 | `ALLE ? TAGE` interval | VG | 234789QY | 2 from the award-class interpretation |
+| 58 | First character of `??0000` portions | ?D, literal ED | 1234789JKQTY | Still unresolved |
+| 59 | Second character of `??0000` portions | FV | 234789QY | Still unresolved |
+
+The remaining values share one square. The historical quantity is not
+selected from a presumed ration requirement.
 
 ## Literal and edited streams
 

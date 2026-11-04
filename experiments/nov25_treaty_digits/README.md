@@ -14,6 +14,10 @@ This conditional interpretation extends the existing
 complete snapshot of **23 reviewed records, 3,176 plaintext positions**.
 The published key and source editions retain their original data and costs.
 
+A later extension tests **`AD=Y`** in **Strzemieczny** and **Nagymágocs**,
+using two visually checked contemporary sources. Its expanded **33-record**
+audit fixes two further body letters without changing a received coordinate.
+
 ## Documentary identification and source cost
 
 Article XII distinguishes withdrawal from former Russian territory by
@@ -89,6 +93,52 @@ giving **9! = 362,880** square completions. The
 layer as its dependency. The contemporary decree supports the command's
 location; it does not reproduce the personnel order or identify its officer.
 
+## The shared Y in Strzemieczny and Nagymagocs
+
+The surname in [p224 C1](../../cases/people/breslau_staff_transfer.md)
+and the place name in the [p220 B evening report](../../cases/military/nov25_provisions_and_evening_report.md#p220-b)
+use the same complete received pair, `AD`, where the earlier partial square
+has no assigned value. Reading it as **Y** gives two meaningful names:
+
+| Record and position | Original source pair | Published labels | Conditional reading |
+|---|---|---|---|
+| p224 C1, 90 | 86 A + 210 D | `STRZEMIECZNQ` | **STRZEMIECZNY** |
+| p220 B, 90 | 74 A + 180 D | `NAGQMAGOCS` | **NAGYMAGOCS** |
+
+*Schlesische Zeitung*, no. 337, **17 May 1913**, morning edition, PDF
+page 6, visibly prints the surname in an officer-awards notice.
+[Institutional scan](https://bibliotekacyfrowa.pl/Content/139045/GSL_P_31292_IV_1913_26511_337.pdf)
+· [Masthead](sources/schlesische_1913_title.png)
+· [Name crop](sources/strzemieczny_1913_military.png).
+The notice names a captain of Infantry Regiment 143; it supports the
+spelling without identifying him with the intercepted 1918 major.
+
+The county official gazette *Csongrád vármegye Hivatalos Lapja*, no. 59,
+**21 December 1912**, p349, items 86–89, prints **Nagymágocs** in entries
+for the municipality's 1913 budgets.
+[National-library scan](https://epa.hu/05200/05279/00539/pdf/EPA05279_csongradvarmegye_hivatalos_lapja_1912_059.pdf)
+· [Masthead](sources/csongrad_1912_title.png)
+· [Place-name entries](sources/nagymagocs_1912.png).
+It establishes a contemporary spelling, not the reported troop movement.
+The geographical occurrence was found after the surname hypothesis; it
+is a separate supporting message, not a preregistered blind test.
+
+The audit retains the original 23-record snapshot and adds **ten
+source-reviewed records, 1,000 positions**, from the provisioning/evening,
+receiving-instructions, ships/vehicle-sale and urgent-shipping editions.
+Across all **33 records and 4,176 positions**, the four native `AD`
+occurrences are the two names plus damaged `VORQELEGT` and `EINQIGES`.
+Their existing one- and two-coordinate ordinary-word repairs remain
+priced; no new repair is added for this assignment.
+
+Both newly fixed body letters use untouched source pairs. The shared
+assignment narrows **9! = 362,880** complete squares to
+**8! = 40,320**, leaving `0345789Q` for the eight unassigned cells.
+The [inputs](names_inputs.json) pin both historical PDFs and their crop
+geometry; the [certificate](names_certificate.json) records every
+occurrence, earlier source cost and re-encryption witness. The original
+three extension certificates remain unchanged.
+
 ## The Kiev report outside the original snapshot
 
 The separately reviewed [p219 C report](../../cases/military/p219_kiev_unrest.md)
@@ -102,9 +152,53 @@ and 155 A→F.
 The [separate calculation](kiev_certificate.json) rechecks all 81 declared
 source-annotation models under the shared partial square. Four models
 still tie, and the opaque field still has two readings, now `6?` or `B?`.
-The signature and other numerical fields remain unresolved. This is an
+At this J-only stage, the signature and other numerical fields remain unresolved. This is an
 additional source outside the original 23-record snapshot; its positions
 are not included in the 35-plus-three numeral totals above.
+
+### Joining the body with BEVORSTEHEND
+
+The newer **`AD=Y`** interpretation also acts on the Kiev signature:
+`MA?KO?SKQ` becomes **`MA?KO?SKY`**, using original source **73 A and
+206 D**. The optional `MARKOWSKY` spelling therefore needs **zero
+observed changes and 19 inserted-slot fills**, instead of two changes
+and the same nineteen fills. No historical identity is inferred.
+This native pair is a further occurrence outside the names study's
+33-record snapshot.
+
+One of the earlier retained source models has `B?VORSTEHEND?` before
+`SOLDATENRAT`. Two compatible gap fills give **`BEVORSTEHENDX`**:
+the missing first half of `?D` becomes F for E, and the missing second
+half of `X?` becomes V for the separator X. This joins the body as:
+
+**Conditional interpretation — body with the separately priced PETLJURA spelling:**
+
+> Heeresgruppe Kiew. Unruhen zwischen Regierung Hetman und Petljura bevorstehend. Soldatenrat beschloss Neutralitaet.
+
+The completed clause selects the printed **`GXAFV`** alternative; its
+F at original source 28 supplies B together with source 131 A.
+Rechecking all **81 declared annotation models** leaves **two minima**,
+differing only in which initial `XFXDD` duplicate is retained. Both give
+one identical completed ciphertext. The printed alternative and the
+duplicate's source origin remain separate questions.
+
+| Current conditional scope | Observed changes | Total inserted-slot fills | Fixed positions |
+|---|---:|---:|---:|
+| Complete clause, raw names | 0 | 19 | 137/147 |
+| Clause and `MARKOWSKY` | 0 | 21 | 139/147 |
+| Clause and `PETLJURA` | 2 | 20 | 138/147 |
+| Clause and all three proposed names | 3 | 22 | 140/147 |
+
+The 25-coordinate jamming gap and fifteen excluded observations remain
+those of the original model. Only two further unknown coordinates are
+filled for the clause. The all-names proposal retains source repairs
+**10 V→X, 85 X→F and 155 A→F** for Petljura and Odessa. Its numerical
+footer remains partial; the fixed-position counts use the current
+partial square, not the original fully populated label table.
+
+[Completion inputs](kiev_completion_inputs.json) ·
+[All model prices and both minimum source maps](kiev_completion_certificate.json).
+The original source edition and the earlier J-only certificate are unchanged.
 
 ## Reproduce
 
@@ -112,6 +206,8 @@ are not included in the 35-plus-three numeral totals above.
 python experiments/nov25_treaty_digits/verify.py --verify
 python experiments/nov25_treaty_digits/verify_breslau.py --verify
 python experiments/nov25_treaty_digits/verify_kiev.py --verify
+python experiments/nov25_treaty_digits/verify_names.py --verify
+python experiments/nov25_treaty_digits/verify_kiev_completion.py --verify
 ```
 
 The verifier checks the complete earlier dependency chain, independently
@@ -124,6 +220,18 @@ their coordinate-derived streams.
 
 For pixel comparison with the complete historical PDF, pass
 `--historical-pdf /path/to/gebirgsbote_1918_129.pdf` to `verify_breslau.py`.
+
+The name extension also checks all four historical crops against their
+pinned original PDFs:
+
+```sh
+python experiments/nov25_treaty_digits/verify_names.py --verify \
+  --surname-pdf /path/to/GSL_P_31292_IV_1913_26511_337.pdf \
+  --place-pdf /path/to/EPA05279_csongradvarmegye_hivatalos_lapja_1912_059.pdf
+```
+
+Pass `--pdf /path/to/childs.pdf` to `verify_kiev_completion.py` to verify
+the Kiev source image against the pinned original scan.
 
 Published key credit remains with **George Lasry, Ingo Niebel, Nils Kopal
 and Arno Wacker**. The article identification and original source reading

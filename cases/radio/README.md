@@ -146,7 +146,7 @@ A delayed departure, a supper query and the Seifert correspondence preserve the 
 | [p159 B](../p158.md#component-readings) | CONDITIONAL | Munich routing and army-key instruction |
 | [p159 C](../p158.md#component-readings) | CONDITIONAL | Munich–Innsbruck routing and army-key instruction |
 | [p160 B1](radio_equipment_sale_prices.md#p160-b1) | CONDITIONAL | Radio apparatus sale and estimated value |
-| [p160 B2](radio_equipment_sale_prices.md#p160-b2) | PARTIAL | Radio apparatus sale and estimated value |
+| [p160 B2](radio_equipment_sale_prices.md#p160-b2) | CONDITIONAL | Radio apparatus sale and estimated value |
 | [p160 C1](ringbahn_key_reuse.md#p160-c1) | CONDITIONAL | November Ringbahn keys and postponed December change |
 | [p160 C2](ringbahn_key_reuse.md#p160-c2) | CONDITIONAL | November Ringbahn keys and postponed December change |
 | [p162 A1](courier_munich.md) | PARTIAL | Repeated Munich courier departure notice |
@@ -158,7 +158,7 @@ A delayed departure, a supper query and the Seifert correspondence preserve the 
 | [p166 B2](newspaper_dispatch_witnesses.md) | PARTIAL | Damaged dispatch-order witness; two old letter proposals gain mixed-coordinate support |
 | [p166 C1](nov9_wire_return_source_family.md#p166-c1) | CONDITIONAL | Wire communications and return instructions |
 | [p166 C2](nov9_wire_return_source_family.md#p166-c2) | READING | Tiraspol border-fire continuation |
-| [p167 C1](p167_mission_address.md#p167-c1) | PARTIAL | Mission address and Nachrichtenchef routing/signature field |
+| [p167 C1](p167_mission_address.md#p167-c1) | CONDITIONAL | Mission address and Nachrichtenchef routing/signature field |
 | [p168 A](seifert.md) | READING | Station under a soldiers' council; operation unchanged |
 | [p168 B](seifert.md) | READING | Cologne soldiers' council plans to occupy a radio station |
 | [p168 C](p168_munich_routing_witness.md) | CONDITIONAL | Munich routing order 11338: full retransmission and KDO support |
@@ -194,7 +194,7 @@ A delayed departure, a supper query and the Seifert correspondence preserve the 
 | [p190 B](nov14_radio_retransmissions.md) | PARTIAL | Request a backup station for NKJ; Sevastopol proposed |
 | [p190 D](nov14_radio_retransmissions.md) | PARTIAL | Ask whether NKJ relays Mackensen messages and how contact is maintained |
 | [p190 E](nov14_radio_retransmissions.md) | PARTIAL | Request a backup station for NKJ; Sevastopol proposed |
-| [p192 A](warsaw_service_messages.md) | PARTIAL | Request to Kretzschmar in Bucharest about conditions, prospects and commercial interests |
+| [p192 A](warsaw_service_messages.md) | CONDITIONAL | Request to Kretzschmar in Bucharest about conditions, prospects and commercial interests |
 | [p192 B](warsaw_service_messages.md) | CONDITIONAL | LP forwarding important messages for home offices and OHL in both directions |
 | [p193 A](nov14_radio_retransmissions.md) | READING | Ask whether NKJ relays Mackensen messages and how contact is maintained |
 | [p193 B](nov14_radio_retransmissions.md) | CONDITIONAL | Interrupted pilot-arrival notice; exact suffix of p194 B |
@@ -205,7 +205,7 @@ A delayed departure, a supper query and the Seifert correspondence preserve the 
 | [p194 E](warsaw_service_messages.md) | PARTIAL | FRANZ and EMIL control markers for Warsaw soldiers’ council telegrams |
 | [p196 A](nov14_15_departure_and_supper.md#p196-a) | READING | Short departure and farewell message with Kramm and Opitz labels |
 | [p197 A1](nov15_radio_personnel_and_key_notice.md#p197-a1) | CONDITIONAL | Warsaw radio-personnel order under a missing-group model |
-| [p197 A2](nov15_radio_personnel_and_key_notice.md#p197-a2) | PARTIAL | Warsaw radio personnel: native continuation naming Posen |
+| [p197 A2](nov15_radio_personnel_and_key_notice.md#p197-a2) | CONDITIONAL | Warsaw radio personnel: native continuation naming Posen |
 | [p197 B](nov15_radio_personnel_and_key_notice.md#p197-b) | READING | A second physical witness of the December-key and IRRTUM notice |
 | [p197 C](../context/transport_197_198.md) | CONDITIONAL | Transport of radio equipment to Darmstadt |
 | [p197 D](../context/transport_197_198.md) | PARTIAL | Lorry, trailer and petrol-pump instruction |

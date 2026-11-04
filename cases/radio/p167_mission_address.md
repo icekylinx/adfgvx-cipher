@@ -7,6 +7,10 @@ The native 132-coordinate first part addresses a mission and carries a
 Nachrichtenchef routing/signature field. The opaque labels `MILB`, `0RM`
 and `RELA` remain literal; no particular institution or location is identified.
 
+## Conditional digit reading
+
+The [shared Nov7–9 reference interpretation](../../experiments/nov7_9_joint_digits/README.md) reads **Roem 5; KR 130615**, completing **66/66 conditional edited labels**. The opposite assignment gives Roem 6; KR 130516. All three affected pairs are originally observed. The six word substitutions and two printed-mask fills are unchanged, and the labels MILB, 0RM and RELA remain literal.
+
 ## p167 C1
 
 **Readable German — primary word proposal; six observed-coordinate substitutions and two printed-mask fills; three unresolved positions retained:**
@@ -53,7 +57,8 @@ The three question marks use two distinct unknown square cells:
 Under the published partial square, alpha and beta take `5` and `6` in
 opposite orders. The two complete-square witnesses are `ROEM 5 / KR 130615`
 and `ROEM 6 / KR 130516`. They prove compatibility of these literal label
-assignments, without selecting a historical numeral or date.
+assignments under the published partial square. The conditional reference
+comparison above supplies a separate documentary basis for choosing 5/6.
 
 An optional interpretation of the `B` in `MILB` as separator `X` costs two
 further observed substitutions: **13 G→V** and **113 X→V**. Its total is eight,

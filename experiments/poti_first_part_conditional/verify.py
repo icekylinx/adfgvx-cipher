@@ -166,9 +166,10 @@ def build():
         assert result['minimum_paths'] == spec['minimum_paths'], (name, result)
         holdouts[name] = {**result, 'anchors': chosen, 'plaintext_stencil': stencil}
     case = (ROOT / inp['case']).read_text()
-    displays = re.findall(r'```text\n(.*?)\n```', case, re.S)
+    primary_section = case.split('## Representative raw and limited repair\n', 1)[1].split('\n## ', 1)[0]
+    displays = re.findall(r'```text\n(.*?)\n```', primary_section, re.S)
     assert displays == [record['expected_raw'], record['edited_output']]
-    quote = '\n'.join(line[2:] for line in case.splitlines() if line.startswith('> '))
+    quote = '\n'.join(line[2:] for line in primary_section.splitlines() if line.startswith('> '))
     assert quote == record['readable_german']
     fold = lambda s: re.sub('[^A-Z0-9?]', '', s.upper()).replace('X', '')
     assert fold(quote) == fold(record['edited_output'])

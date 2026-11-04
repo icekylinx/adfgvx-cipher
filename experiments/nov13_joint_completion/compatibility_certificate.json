@@ -1,0 +1,84 @@
+{
+  "schema": "adfgvx-nov13-quantity-compatibility-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "input_sha256": "e6909a585648236e87a595790b0d2fccd872f2ad488010a9ac68e21463235411",
+  "indexing": "Zero-based plaintext and source positions.",
+  "record": "p191_A1",
+  "published_edition": "SELLVXGENXKOMX?XAXKXBRESLAUXXBITTEWEGENDRINGENDERNOTLAGEINBEKLEIDUNGX?0?0XPAARSTIEFELZUNAECHSTNACHXODERBERG",
+  "joint_interpretation": "SELLVXGENXKOMX?XAXKXBRESLAUXXBITTEWEGENDRINGENDERNOTLAGEINBEKLEIDUNGX?0Q0XPAARSTIEFELZUNAECHSTNACHXODERBERG",
+  "Q_position": {
+    "plaintext_index": 71,
+    "source_indices": [
+      102,
+      21
+    ],
+    "pair": "XX",
+    "domain": "Q"
+  },
+  "one_coordinate_decimal_repairs_without_Y": [
+    {
+      "source_index": 102,
+      "coordinate": "D",
+      "digit": "0"
+    },
+    {
+      "source_index": 102,
+      "coordinate": "F",
+      "digit": "3"
+    },
+    {
+      "source_index": 102,
+      "coordinate": "F",
+      "digit": "4"
+    },
+    {
+      "source_index": 102,
+      "coordinate": "F",
+      "digit": "7"
+    },
+    {
+      "source_index": 102,
+      "coordinate": "F",
+      "digit": "8"
+    },
+    {
+      "source_index": 102,
+      "coordinate": "F",
+      "digit": "9"
+    }
+  ],
+  "one_coordinate_decimal_repairs_with_Y": [
+    {
+      "source_index": 102,
+      "coordinate": "D",
+      "digit": "0"
+    }
+  ],
+  "optional_repaired_ciphertext": "FXVVFGDFGVFAXFVFDAFFAXDAVGXGXXVFXXDGAVFGVVFXFFXFDXVXXXDDVXXVVADXXAFDDFAXVVFFFVXXFDDXXAXGAGAVVGXDGXFXXXDXVVAFVVAVVGAVDDXDXVVGGFAVFVGFDFFAVFDGGAAXAVVFGAADXXFVDVFGFGDFAAAGFXFXAGFVVVFAAAXVFFAGVVGVGFFDVVFFAFGDDXXXXXVXAG",
+  "optional_repaired_text": "SELLVXGENXKOMX?XAXKXBRESLAUXXBITTEWEGENDRINGENDERNOTLAGEINBEKLEIDUNGX?000XPAARSTIEFELZUNAECHSTNACHXODERBERG",
+  "additional_observed_substitution": {
+    "source_index": 102,
+    "from": "X",
+    "to": "D",
+    "value": "0"
+  },
+  "additional_mask_fills": [],
+  "quantity_candidates": [
+    "3000",
+    "4000",
+    "7000",
+    "8000",
+    "9000"
+  ],
+  "full_squares_with_Y": 120,
+  "counted_as_recovered_positions": 0,
+  "limits": [
+    "XX=Q makes the unaltered p191 quantity field nonnumeric; this is an adverse consequence, not a recovered count.",
+    "The optional repair assumes both the Q address identification and independent FX=Y historical-name interpretation, plus a decimal quantity.",
+    "One observed source coordinate changes; the remaining thousands digit is not selected.",
+    "The new completion count is not added to recovered-character totals."
+  ]
+}

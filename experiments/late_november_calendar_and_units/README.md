@@ -69,6 +69,34 @@ division field `3L3`; assigning its labels does not repair that word. Existing
 source erasures, remaining reference characters and the shared 4/5 choice
 are retained.
 
+## A separately priced 303rd Division proposal
+
+The same printed p11 order of battle lists the **89th Infantry Division
+and 303rd Landsturm Division** under the 63rd Bavarian corps. It supports
+reading p230 A4's received `3L3` as **303**, giving **89 und 303 Div. um
+Kronstadt**. This is a further historical proposal, separate from the
+thirteen no-edit numeral assignments above.
+
+At plaintext position 7, the original pair is `GG`, from source positions
+0 and 86. One observed substitution, **source 86 G→A**, changes it to
+`GA=0`. The full 230-slot frame and all other coordinates are preserved.
+Part 4 then costs **two observed substitutions**, including its earlier
+`HEUPT→HAUPT` repair; both surviving parts together cost nine. No source
+mask or additional key cell is filled.
+
+The [division certificate](division_certificate.json) enumerates the
+equally cheap numeric fields **303, 313, 373 and 383**. The historical
+formation list supports 303; the cipher edit cost alone does not select
+it. Both existing full-square completions re-encrypt the complete proposed
+115-position reading exactly. The older calendar/unit certificate remains
+unchanged and continues to display the native `3L3` field.
+
+[Proposal and source provenance](division_inputs.json).
+
+```sh
+python experiments/late_november_calendar_and_units/verify_division.py --verify
+```
+
 ## Additional aviation and radio traffic
 
 The same two squares extend to four further records. In [p229 C](../../cases/military/late_transport_dispatches.md#c-an-aviation-unit-and-a-park-at-craiova),

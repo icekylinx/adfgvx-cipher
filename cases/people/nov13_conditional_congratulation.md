@@ -1,4 +1,4 @@
-# Congratulation core under a conditional one-coordinate exclusion
+# An award notification and a congratulation
 
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
@@ -6,11 +6,43 @@
 **Reviewed source crops:** [p193_F.png](../../experiments/nov13_congratulation_conditional_frame/sources/p193_F.png) · [p193_date_heading.png](../../experiments/nov13_congratulation_conditional_frame/sources/p193_date_heading.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## p193 F
 
-**Status:** The source and its header both have **75 coordinates**. The displayed reading uses a conditional 74-coordinate model: **one observed terminal X excluded + one observed D→G substitution**, with no source-mask fill and no key-cell assignment. Of its 37 plaintext positions, 36 are fixed.
+**Status:** The source and its header both have **75 coordinates**. The conditional 74-coordinate edition excludes one observed terminal X and changes one observed D to G. Its baseline fixes **36/37** positions; the separate class interpretation below completes the remaining label.
 
 **Source and dates:** Page heading 14 November 1918; F) CM v CZ (1.24 a.m., November 13th); separate label `2.10`; RIZI-75. The date layers and the label 2.10 are retained without reconciliation.
 
 [Source p193 F — source-PDF reference](../../experiments/nov13_congratulation_conditional_frame/inputs.json)
+
+### Conditional award-class reading
+
+**Readable German — EK interpreted as an Iron Cross class and numerical DD=1 retained; existing terminal-X frame and word repair retained:**
+
+> JTN. KR. EK2 verliehen. Glueckwunsch. S. R.
+
+The message reports an award and offers congratulations. If `EK` denotes
+the Iron Cross and the following character its class, **and the separate
+DD cell retains numerical value 1**, the remaining square domain admits
+only **2**. Numerical DD=1 is a contextual interpretation, not a fact
+established by the published label alone. The independent native
+`10X11` in [p186 B1](../military/oberost_troop_movement_obliterations.md#p186-b1)
+supports it if that field is a day/month date: its repeated month can only
+be 11. The [joint source account](../../experiments/nov13_joint_completion/README.md#the-award-class)
+replays all ten untouched coordinates and states the date condition.
+
+The resulting representative text has **37/37** fixed labels, with the
+earlier **one observed-coordinate exclusion and one substitution**, and no
+new source edit. `JTN`, `KR` and `S R` remain opaque. Without retaining DD's
+numerical value, the distinct square cells alone do not exclude class 1.
+
+The royal decree of 5 August 1914 specifies two classes and a Grand Cross.
+Its contemporary reprint in *Die Presse*, 8 August 1914, p1, supplies the
+[class-system evidence](../../experiments/nov13_joint_completion/sources/die_presse_1914_decree.png)
+and [continuation](../../experiments/nov13_joint_completion/sources/die_presse_1914_classes.png).
+It does not identify this recipient. The resulting **VG=2** assignment
+also gives `ALLE 2 TAGE` in the [p188 supply request](../military/armistice_provisions_requests.md#c1-flour-and-oats-to-szolnok).
+
+All four endpoint alternatives below retain the same received `VG` pair
+at source positions 19 and 60. The class interpretation leaves those
+geometries unresolved. [Joint certificate](../../experiments/nov13_joint_completion/certificates.json).
 
 ### Native odd frame retained
 
@@ -46,13 +78,11 @@ JTNXKRXEK?XVERLIEHENXGLUECKWUN5CHXSXR
 JTNXKRXEK?XVERLIEHENXGLUECKWUNSCHXSXR
 ```
 
-</details>
-
 **Readable German — the same candidate labels with spacing and punctuation:**
 
 > JTN. KR. EK? verliehen. Glueckwunsch. S. R.
 
-**Meaning:** Under this model the message says that something denoted EK? has been awarded and offers congratulations. JTN, KR, the exact EK? designation and S R remain unidentified. No rank, recipient, decoration name, class or signatory is established.
+</details>
 
 **Explicit source changes:**
 
@@ -61,7 +91,7 @@ JTNXKRXEK?XVERLIEHENXGLUECKWUNSCHXSXR
 | 74 | X | Exclude before inverse transposition | One observed-coordinate exclusion |
 | 12 | D | Propose G | One observed-coordinate substitution; GLUECKWUN5CH → GLUECKWUNSCH |
 
-The unresolved label after EK is **plaintext index 9, pair VG, source indices 19 and 60**. Both source coordinates are observed; the published square leaves VG unassigned. Its conservative domain is `234789QY`. No value is chosen, and the missing key assignment is not counted as a source erasure.
+The baseline label after EK is **plaintext index 9, pair VG, source indices 19 and 60**. Both source coordinates are observed; the published square leaves VG unassigned, with domain `234789QY`. The separate class interpretation above assigns 2; it is not a source erasure fill.
 
 ### Endpoint alternatives remain open
 

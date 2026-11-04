@@ -14,16 +14,24 @@
 | p193 E | Kleiner Federwagen zu[m] Anhaengen hier. Kommt Auto. | A small sprung cart for attachment is available; the message mentions a car. Punctuation and the `M` are editorial. |
 | p194 A / p196 B composite | Abtransport in verabredeter Weise Freitag DHFN 1?00. Wagen bereithalten. Marschziel Hanau. Seifert. | Departure as arranged on Friday; keep vehicles ready; Hanau is the destination. Every selected coordinate is attested in one of the two witnesses, but one time digit remains unknown. |
 | p197 E / p198 C | Lastauto 1?00 abgefahren. Ich bleibe mit ? Mann bis Sonntag. Alles Gute, auf Wiedersehen. [Seifert]. Gruss Bocho. | The truck has departed; the sender remains with an unknown number of men until Sunday. The signature is normalized editorially; neither witness spells it exactly this way. |
-| p189 E | Ja, Hebepumpe aus Blech. Kommen ? Autos. Hier ? Anh?enger. | A pump, motor vehicles and trailers are mentioned. The counts and the punctuation remain uncertain. This is not the p189 challenge entry. |
+| p189 E, conditional shared digit | Ja, Hebepumpe aus Blech. Kommen 2 Autos. Hier 2 Anhaenger. | Two vehicles and two trailers; VG=2 and one invalid-coordinate fill complete the short message. |
 
 Brackets mark editorial interpretations; `?` retains an unresolved character. `DHFN`, `STATMET` and `BOCHO` are not expanded or geographically identified. The exact readings and witness disagreements follow below.
 
-In p189 E, `ANH?ENGER` retains the unresolved word position caused by the
-literal invalid B at source index **81**. Its plaintext position **41**
-has the partial pair `V?`. The other two question marks, at plaintext
-positions **26** and **37**, both come from the complete pair `VG` and
-therefore share one unknown value with domain **`234789QY`**. Their
-count-like context does not select a numeral. All indices here are zero-based.
+### Two vehicles and two trailers — p189 E
+
+**Readable German — conditional shared VG=2, with one invalid-coordinate fill:**
+
+> Ja, Hebepumpe aus Blech. Kommen 2 Autos. Hier 2 Anhaenger.
+
+The [award-class interpretation](../../experiments/nov13_joint_completion/README.md#the-award-class)
+supplies **VG=2** to both count fields, at plaintext positions **26 and 37**.
+The word `ANH?ENGER` has the partial pair `V?`, with the invalid printed `B`
+at source position **81**. Filling it as **V** gives `ANHAENGER`. This takes
+the native 94-slot message from **44 to 47/47** fixed positions: two digits
+from the shared square and one ordinary-word fill, with **no observed-coordinate
+substitution**. The source's `B` remains visible in the literal transcription.
+Indices are zero-based. [Exact completion and source mapping](../../experiments/nov13_joint_completion/transport_certificate.json).
 
 ## p185 D source and gap model
 
@@ -84,7 +92,19 @@ ABTRANSPORTINVERABREDETERWEISEFREITAGDHFN1?00XWAGENBEREITHALTENXMARSCHZIELHANAUX
 
 </details>
 
-This composite fixes 86 of 87 characters. It makes an editorial choice between disagreeing source witnesses, with every chosen value attested in at least one. The certificate also retains all four combinations of the two disagreements between valid coordinates. The time cell `FV` remains unassigned; no numerical time is inferred. These messages support a transport context for the p185/p189 traffic but do not supply p185 D's missing five coordinates or prove a new square-cell assignment.
+This composite fixes 86 of 87 characters. It makes an editorial choice
+between disagreeing source witnesses, with every chosen value attested in
+at least one. The certificate retains all four combinations of the two
+disagreements between valid coordinates. The planned-time cell `FV`
+remains unassigned.
+
+Under the separate shared VG=2 interpretation, the reported-hour cell
+`AF` cannot also be 2. If the departure occurred on the report's date
+before its `13.45` origin time, `1?00` therefore becomes **13:00**. That
+chronological assumption is kept separate from the source-supported
+composite. The [linked-field comparison](transport_197_198.md#linked-number-fields)
+also shows why this reading cannot be combined with the earlier extra
+assumption that the reported departure was no earlier than the planned one.
 
 The [certificate](../../data/certificates/p185_D_transport.json) contains every gap geometry, its full plaintext domains, exact source-to-plaintext mapping, all six direct context readings, both near-parallel comparisons, and the conditional composite. The [standalone verifier](../../adfgvx/transport.py) recomputes all 194 constraint sets and exact coordinate roundtrips without a language model. It checks the consistency of the stored ranking order but does not recompute the heuristic scores. The [portable ranking script](../../experiments/known_key/README.md) reproduces both complete rankings from a pinned upstream model; every stored score matched exactly in the recorded environment.
 

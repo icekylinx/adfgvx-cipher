@@ -10,6 +10,8 @@ Source: Childs, printed pp.160–161 (PDF pp.163–164). [Source images and inpu
 
 The [cross-period reference comparison](../../experiments/nov7_9_joint_digits/README.md) supports **21600** for the first part’s `21?00` field. This conditional digit interpretation adds no source edit and supplies no currency or punctuation; the opposite square gives 21500.
 
+The same shared assignment changes the second part’s reference from `111?0?` to **`111?05`**, giving **41/42** fixed labels with no new source edit; the opposite square gives `111?06`. Its earlier question mark still depends on the invalid printed B at source 83. The selected domain there is **3458PV**, so neither a unique digit nor a complete reference is established.
+
 ## p160 B1
 
 Header: `B) NKJ v LP (06.32 a.m., November 9th); FUER UKS (8/11) 2000 2 TLE; 1 TL; RICHI-282`.

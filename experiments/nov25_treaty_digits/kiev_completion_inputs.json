@@ -1,0 +1,252 @@
+{
+  "schema": "adfgvx-kiev-clause-completion-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": {
+    "experiments/p219_kiev_unrest/inputs.json": "71cf2fcdbe5dcbfa51ad39828fc7ef15bc6d20dea86805a144803a3318af8e52",
+    "experiments/p219_kiev_unrest/verify.py": "2aac6f87c8ec487f9e7239845b0655b7690b22d228c9d677c05e587a653c770c",
+    "experiments/p219_kiev_unrest/certificates.json": "a2292ce75dd1a886bd9ff08fba263fdd4ed238d3c4cdad0ed69a15167d41c4e6",
+    "experiments/nov25_treaty_digits/names_inputs.json": "d675f7990fd479d4f005dc91c54be4fb4f9b3b6b61aa077fe25a525dc50661c3",
+    "experiments/nov25_treaty_digits/verify_names.py": "897134e5d127a27bda53613f5bf275cebea46771bd78c2266e59d150022c359f",
+    "experiments/nov25_treaty_digits/names_certificate.json": "28e3011e0fb61191ad0b7c777947dc1d31326cd670ededd4e4ebf1ce3e44cd50",
+    "experiments/nov25_treaty_digits/kiev_certificate.json": "68cd32996cb396d36804486c378526a916e10e53491afe7fe529a8e982fbf82b"
+  },
+  "shared_square_certificate": "experiments/nov25_treaty_digits/names_certificate.json",
+  "source_package": "experiments/p219_kiev_unrest",
+  "clause": {
+    "range": [
+      66,
+      79
+    ],
+    "text": "BEVORSTEHENDX",
+    "selected_parenthetical_choices": [
+      2,
+      2,
+      0
+    ],
+    "duplicate_exclusion_aliases": [
+      0,
+      5
+    ],
+    "support": [
+      {
+        "plaintext_index": 66,
+        "native_pair": "FA",
+        "model_indices": [
+          18,
+          146
+        ],
+        "source_indices": [
+          28,
+          131
+        ],
+        "value": "B",
+        "origin": "F in the printed GXAFV alternative, together with the original A at source 131."
+      },
+      {
+        "plaintext_index": 67,
+        "native_pair": "?D",
+        "model_indices": [
+          95,
+          235
+        ],
+        "source_indices": [
+          null,
+          225
+        ],
+        "value": "E",
+        "fill": {
+          "model_index": 95,
+          "to": "F"
+        }
+      },
+      {
+        "plaintext_index": 78,
+        "native_pair": "X?",
+        "model_indices": [
+          147,
+          96
+        ],
+        "source_indices": [
+          132,
+          null
+        ],
+        "value": "X",
+        "fill": {
+          "model_index": 96,
+          "to": "V"
+        }
+      }
+    ]
+  },
+  "name_fields": {
+    "leader": {
+      "range": [
+        57,
+        65
+      ],
+      "text": "PETLJURA"
+    },
+    "odessa": {
+      "range": [
+        121,
+        127
+      ],
+      "text": "ODESSA"
+    },
+    "signature": {
+      "range": [
+        137,
+        146
+      ],
+      "text": "MARKOWSKY"
+    }
+  },
+  "shared_Y": {
+    "plaintext_index": 145,
+    "pair": "AD",
+    "model_indices": [
+      63,
+      216
+    ],
+    "source_indices": [
+      73,
+      206
+    ],
+    "raw_signature": "MA?KO?SKQ",
+    "conditional_signature": "MA?KO?SKY",
+    "removed_substitutions": [
+      {
+        "source_index": 73,
+        "from": "A",
+        "to": "D"
+      },
+      {
+        "source_index": 206,
+        "from": "D",
+        "to": "G"
+      }
+    ]
+  },
+  "scopes": [
+    {
+      "id": "signature_shared_key_only",
+      "clause": false,
+      "names": [
+        "signature"
+      ],
+      "expected": {
+        "minimum_observed_substitutions": 0,
+        "minimum_models": 4,
+        "distinct_edited_streams": 2,
+        "inserted_fills": 19,
+        "fixed_positions": 137
+      }
+    },
+    {
+      "id": "combined_shared_key_only",
+      "clause": false,
+      "names": [
+        "leader",
+        "odessa",
+        "signature"
+      ],
+      "expected": {
+        "minimum_observed_substitutions": 3,
+        "minimum_models": 4,
+        "distinct_edited_streams": 2,
+        "inserted_fills": 20,
+        "fixed_positions": 138
+      }
+    },
+    {
+      "id": "clause",
+      "clause": true,
+      "names": [],
+      "expected": {
+        "minimum_observed_substitutions": 0,
+        "minimum_models": 2,
+        "distinct_edited_streams": 1,
+        "inserted_fills": 19,
+        "fixed_positions": 137
+      }
+    },
+    {
+      "id": "clause_leader",
+      "clause": true,
+      "names": [
+        "leader"
+      ],
+      "expected": {
+        "minimum_observed_substitutions": 2,
+        "minimum_models": 2,
+        "distinct_edited_streams": 1,
+        "inserted_fills": 20,
+        "fixed_positions": 138
+      }
+    },
+    {
+      "id": "clause_signature",
+      "clause": true,
+      "names": [
+        "signature"
+      ],
+      "expected": {
+        "minimum_observed_substitutions": 0,
+        "minimum_models": 2,
+        "distinct_edited_streams": 1,
+        "inserted_fills": 21,
+        "fixed_positions": 139
+      }
+    },
+    {
+      "id": "clause_all_names",
+      "clause": true,
+      "names": [
+        "leader",
+        "odessa",
+        "signature"
+      ],
+      "expected": {
+        "minimum_observed_substitutions": 3,
+        "minimum_models": 2,
+        "distinct_edited_streams": 1,
+        "inserted_fills": 22,
+        "fixed_positions": 140
+      }
+    }
+  ],
+  "expected_source": {
+    "physical_records": 1,
+    "source_observations": 284,
+    "modeled_coordinates": 294,
+    "excluded_observed_coordinates": 15,
+    "added_unknown_slots": 25,
+    "declared_source_models": 81
+  },
+  "display": {
+    "case": "cases/military/p219_kiev_unrest.md",
+    "scope": "clause_leader",
+    "range": [
+      0,
+      113
+    ],
+    "german": "Heeresgruppe Kiew. Unruhen zwischen Regierung Hetman und Petljura bevorstehend. Soldatenrat beschloss Neutralitaet.",
+    "fields": [
+      "BEVORSTEHENDX",
+      "MA?KO?SKY",
+      "MARKOWSKY"
+    ]
+  },
+  "limits": [
+    "BEVORSTEHEND and the following separator are a lexical completion of two already-modeled unknown half-pairs; no new source slot is inserted for this layer.",
+    "The complete clause chooses the printed GXAFV alternative. The source still prints GXAGV too; selection follows the conditional language proposal, not a new visual transcription.",
+    "Both duplicate-prefix origins remain. They produce one identical completed ciphertext, not two distinct recovered messages.",
+    "MARKOWSKY remains a proposed surname spelling. The source-compatible fills do not identify a person from an independent historical document. PETLJURA and ODESSA retain two and one observed-coordinate repairs respectively.",
+    "The original primary and optional editions, original J-only extension, all source observations and all prior prices remain unchanged.",
+    "The current partial-square counts include unresolved numerical cells and therefore differ from the original fixed published-label counts. All eight unresolved cells share one injective completion; no additional numeral is assigned.",
+    "This source is outside the names extension’s 33-record snapshot. Its native AD is one further supporting occurrence of the same Y cell, not another independently assigned key cell."
+  ]
+}

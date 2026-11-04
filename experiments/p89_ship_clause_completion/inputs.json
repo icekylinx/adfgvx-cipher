@@ -1,0 +1,198 @@
+{
+  "schema": "adfgvx-p89-ship-clause-completion-input-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "case_path": "cases/supplementary/p89_A2.md",
+  "indexing": "All indices are zero-based.",
+  "source": {
+    "author": "J. Rives Childs",
+    "title": "General Solution of the ADFGVX Cipher System",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "key": {
+    "id": "Nov1-3",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      3,
+      16,
+      4,
+      15,
+      7,
+      12,
+      18,
+      6,
+      17,
+      8,
+      19,
+      1,
+      13,
+      10,
+      2,
+      14,
+      11,
+      9,
+      5
+    ],
+    "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36"
+  },
+  "records": [
+    {
+      "id": "p89_A2",
+      "printed_page": 89,
+      "source_section": "A2",
+      "header": "OSM de LP (01.18 p.m., November 1st); SSD BVG KOSPOLI (1/11) 1400 5 TEILE; 2 TL RICHI-290",
+      "source_rows": [
+        "FGXDV VGGDV GGFGF VDAGD XAGVX VFGXG XGAFV DVVXD",
+        "DVVVF GAGXA ADAGD FGGDG VXXGG XAXAV ?GDFV AGGFG",
+        "DFDFD GAFXG VGAFV GVDVD GDVGG FVXGD FVXVX AFVGV",
+        "DVGVA VDXDX DVXDF DAGDA GVGFX VFFXA XDGAV AFFDD",
+        "VDFAG AFVVA ADGFG V--GG GXFVG XXVXD AVGDG DFXGV",
+        "ADVVG DGGGX GDVAV GGDVG DXAFG XAGDG VFAVV AVGVX",
+        "VGAFD XFGDD XDXAV VGDAG GDVVG XAFVV FVXGV VXDFG",
+        "FDGDG GFVGV"
+      ],
+      "source_slots": 290,
+      "advertised_length": 290,
+      "expected_raw": "AUFNAHMEFAEHIGXNIKOLAJEWXAUFWUNSCHXEZXKIEWXBESTIMMTXHPTMXJOELXVXOXFECHXODESSAX?ELCHES?HI?FEETWAXWEGENXEISENBAHNLAGEXNACHXNIKOLAJEWXZUGEHENHABENXX",
+      "readable_candidate": "AUFNAHMEFAEHIGXNIKOLAJEWXAUFWUNSCHXEZXKIEWXBESTIMMTXHPTMXJOELXVXOXFECHXODESSAXWELCHESCHIFFEETWAXWEGENXEISENBAHNLAGEXNACHXNIKOLAJEWXZUGEHENHABENXX",
+      "prior_published_plaintext": "AUFNAHMEFAEHIGXNIKOLAJEWXAUFWUNSCHXEZXKIEWXBESTIMMTXHPTMXJOELXVXOXFECHXODESSAX?ELCHESCHI?FEETWAXWEGENXEISENBAHNLAGEXNACHXNIKOLAJEWXZUGEHENHABENXX",
+      "prior_published_fill": {
+        "source_index": 70,
+        "value": "D"
+      },
+      "printed_dash_indices": [
+        176,
+        177
+      ],
+      "uncertain_glyph": {
+        "index": 70,
+        "preferred": "D",
+        "alternative_appearance": "E",
+        "conservative": "?",
+        "reason": "Weak right-hand curve on the source glyph; independent readers disagree on certainty."
+      }
+    }
+  ],
+  "baseline": {
+    "input_path": "data/supplementary_readings.json",
+    "record_id": "p89_A2",
+    "source_field": "source_ciphertext_conservative",
+    "raw_fixed_positions": 142,
+    "published_fixed_positions": 143
+  },
+  "assignments": [
+    {
+      "plaintext_index": 78,
+      "label": "W",
+      "source_index": 176,
+      "coordinate": "F",
+      "kind": "printed_dash_fill"
+    },
+    {
+      "plaintext_index": 85,
+      "label": "C",
+      "source_index": 70,
+      "coordinate": "D",
+      "kind": "uncertain_glyph_fill"
+    },
+    {
+      "plaintext_index": 88,
+      "label": "F",
+      "source_index": 177,
+      "coordinate": "A",
+      "kind": "printed_dash_fill"
+    }
+  ],
+  "native_word_witnesses": [
+    {
+      "input_path": "experiments/inventory_and_medical_return/inputs.json",
+      "record_id": "p86_A",
+      "key_id": "Oct28-31",
+      "source_rows": [
+        "GGAVD DADDA VVVFD FVVXA GGADA XDFGD XGXXF DXDAA",
+        "VXVAV XXXGG GAAAG AAXAA XFXDX FDAAA VGFDG GFFGA",
+        "VFXFX FAAAX GDFAA FDDAD AXDAV VGAVD AAVAD XGVVF",
+        "GAAAD VAAGA GXXVA DAGVD XGFFX XDGXX XDDDD FFXAG",
+        "FGAXA XXXVX AXAGF AGAXD AXDDX GXXVF AXGAG AVAXA",
+        "AXXFF XAVFA FXDFA FFFFF DVDVX ADAGA GDGAD AVDVG",
+        "FAADV XAXGD DAVDA FVAAF FDAXF XGGAF AVXXA XFGXX",
+        "AAVAA XXAAA FDXXX XFF"
+      ],
+      "expected_raw": "MGKOMMANDEUROSMANHGRXOSTXWIEVIELDEUTSCHEMG08MITDREIFUSSLAFETTEIMDORTIGEXBER4ICHVORHANDENXWELCHESKALIBERHABENSIEXOSMAN19ABTLGXGRXHXQUXNO835C120X10X18X",
+      "word_start": 89,
+      "word": "WELCHES",
+      "purpose": "Native inflected form in WELCHES KALIBER supports the WELCHE stem; not an exact occurrence of the target inflection and not a received copy of its sentence."
+    },
+    {
+      "input_path": "experiments/black_sea_disembarkation/inputs.json",
+      "record_id": "p98_A2",
+      "key_id": "Nov1-3",
+      "source_rows": [
+        "DVDVF DVFAG XVXFF FVGGG AGGXA XDXGF XVVDD GFGFD",
+        "FAVGV DAFGF GXDFD XVVDG DGVFF GDXDG AXAXV GVGAA",
+        "AVFVG VFDGD XAFDX AXGVF AGDDD VGDVV GGDGG GVAAD",
+        "DGDVF VDDDX DVXDX DVDVA VGXVV DFVFD AXDGD AVGXD",
+        "DDADG FVGDG AVAXD ADDGG FDFAG GFAXG VFXDG GGVGA",
+        "FDFXX DAGAV GDVVF GXGFV FDXAA VAGAG AAVGD GGGFD",
+        "VAGGV XAADD DDAVA VVADG DGDD"
+      ],
+      "expected_raw": "DEMNACHGEHENNUMEHRSAEMTLICHESCHIFFEVONKOSPOLINACHODESSABEZWXNIKILJEWXVERTEILTWIEFRX52751XUNDXBVGXRUMXXF7CHXROEMX2XGROSSXBXFRX52787XX",
+      "word_start": 28,
+      "word": "SCHIFFE",
+      "purpose": "Native lexical witness; not a received copy of the target sentence."
+    }
+  ],
+  "source_images": [
+    {
+      "path": "experiments/black_sea_evacuation_routes/sources/p89_A_header.png",
+      "sha256": "25b7f1f12e78d6d784b2b299803698b55360e326bf31d88bd7ca11520ad27a54",
+      "pdf_page_1based": 92,
+      "crop_pdf_points": [
+        62,
+        243,
+        529,
+        445
+      ],
+      "render_scale": 4
+    },
+    {
+      "path": "experiments/inventory_and_medical_return/sources/childs_p86_A.png",
+      "sha256": "1844846458a273f35212186bad72cb82a5b0188de84b583889cdf7930190f5af",
+      "pdf_page_1based": 89,
+      "crop_pdf_points": [
+        55,
+        217,
+        520,
+        439
+      ],
+      "render_scale": 4
+    },
+    {
+      "path": "experiments/black_sea_disembarkation/sources/p98_A2.png",
+      "sha256": "47cbe875e4388ab76fff129b16ae57d311df4e0f45792f9b7ed21069b52f7384",
+      "pdf_page_1based": 101,
+      "crop_pdf_points": [
+        65,
+        359,
+        541,
+        514
+      ],
+      "render_scale": 3.4
+    }
+  ],
+  "prior_credit": {
+    "original_reading": "Ayush Agarwal (@AyushAg1002), 2026-10-28",
+    "url": "https://github.com/dbourdeau/cyphersolver/issues/181",
+    "prior_review": "D. Bourdeau; source-image and arithmetic review by icekylinx and GPT-6 Astra Pro (2026-11-02)",
+    "contribution": "Exact conditional completion, source-coordinate pricing and independent native word checks. The ship-routing interpretation and proposed phrase were already present; no priority claim is made for them."
+  },
+  "limits": [
+    "All 290 source slots, the native frame and the published Nov1-3 key remain unchanged.",
+    "The source fixes 142 of 145 plaintext positions. The proposed 145-position layer requires three source-mask fills and no observed-coordinate substitutions.",
+    "Source70 remains a disputed D/E-like glyph in the conservative transcription. Filling it with D is conditional and is not a new visual reading.",
+    "The three unknown half-coordinate pairs allow 216 complete cryptographic witnesses. The selected W,C,F labels are a lexical reading, not a unique consequence of the cipher.",
+    "Native WELCHES in p86 A supports the WELCHE stem, and native SCHIFFE occurs in p98 A2; the p86 inflection is different from the target phrase. The p98 witness uses the same key and concerns ships from Kospoli to Odessa/Nikolayev; it is not an identical retransmission.",
+    "Literal EZ, V O FECH, names, numbers and all other plaintext labels are retained. No office-title expansion or new historical identification is asserted.",
+    "One existing physical record is completed conditionally; no new source record is counted."
+  ]
+}

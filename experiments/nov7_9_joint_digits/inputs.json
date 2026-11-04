@@ -81,6 +81,29 @@
       "conditional_note": "The [cross-period reference comparison](../../experiments/nov7_9_joint_digits/README.md) supports **21600** for the first part’s `21?00` field. This conditional digit interpretation adds no source edit and supplies no currency or punctuation; the opposite square gives 21500."
     },
     {
+      "id": "p160_B2",
+      "inputs": "experiments/nov8_radio_keys_and_reports/inputs.json",
+      "record_id": "p160_B2",
+      "input_root": [],
+      "rows_field": "rows",
+      "source_sha256": "96d36d5f1866b2243b0d967397e9fd31b5862ceb92ab96edf86e376246867c10",
+      "certificate": "experiments/nov8_radio_keys_and_reports/certificates.json",
+      "certificate_record_id": "p160_B2",
+      "cipher_path": [
+        "edited_reading",
+        "interim"
+      ],
+      "previous_plaintext": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111?0?X",
+      "selected_plaintext": "VERMUTLICH80BIS90PROZENTXNACHCHEF3C111?05X",
+      "new_digit_positions": 1,
+      "case_path": "cases/radio/radio_equipment_sale_prices.md",
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "cipher_is_interim": true,
+      "conditional_note": "The same shared assignment changes the second part’s reference from `111?0?` to **`111?05`**, giving **41/42** fixed labels with no new source edit; the opposite square gives `111?06`. Its earlier question mark still depends on the invalid printed B at source 83. The selected domain there is **3458PV**, so neither a unique digit nor a complete reference is established."
+    },
+    {
       "id": "p160_C2",
       "inputs": "experiments/nov8_radio_keys_and_reports/inputs.json",
       "record_id": "p160_C2",
@@ -236,7 +259,7 @@
       "mapping_path": [
         "frame_to_source_indices"
       ],
-      "conditional_note": "An earlier Siegfried cancellation, [p135 A](siegfried_assignment_cancellation.md), directly supplies **45610** under the Nov4–6 key. If both orders cite the same reference, p161 C1’s observed XA/VF pairs fix **XA=5, VF=6**, so its reference reads **ZU2NR45610**. The two orders differ in wording and reception; [the complete comparison](../../experiments/nov7_9_joint_digits/README.md) retains the alternative 46510 and the separate erased date digit."
+      "conditional_note": "An earlier Siegfried cancellation, [p135 A](siegfried_assignment_cancellation.md), directly supplies **45610** under the Nov4–6 key. If both orders cite the same reference, p161 C1’s observed XA/VF pairs fix **XA=5, VF=6**, so its reference reads **ZU2NR45610**. The two orders differ in wording and reception; [the complete comparison](../../experiments/nov7_9_joint_digits/README.md) retains the alternative 46510. The erased date digit has the separately priced\ncompletion below."
     },
     {
       "id": "p175_B2",
@@ -256,6 +279,305 @@
       "new_digit_positions": 2,
       "case_path": "cases/finance/hauptwechselamt_accounting.md",
       "conditional_note": "The [shared Nov7–9 digit interpretation](../../experiments/nov7_9_joint_digits/README.md) reads **am 6. gesandte Cheks** and the literal closing **892409116**, without additional coordinate changes or fills. The opposite assignment gives am 5. and 892409115. The final label is preserved as transmitted, rather than normalized to a date or matched to another reception’s separator."
+    },
+    {
+      "id": "p167_C1",
+      "inputs": "experiments/p167_mission_address/inputs.json",
+      "record_id": "p167_C1",
+      "input_root": [],
+      "rows_field": "source_rows",
+      "source_sha256": "50ae31742fc3b8784bd1bcd98686591329626c175dac898658db0e072502dd64",
+      "certificate": "experiments/p167_mission_address/certificates.json",
+      "certificate_record_id": "p167_C1",
+      "cipher_path": [
+        "readable_candidate",
+        "ciphertext"
+      ],
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "previous_plaintext": "ANMILBMISSIONXABTLG0RMX10XRELAXXNACHRICHTENCHEFXROEMX?XKRX130?1?XX",
+      "selected_plaintext": "ANMILBMISSIONXABTLG0RMX10XRELAXXNACHRICHTENCHEFXROEMX5XKRX130615XX",
+      "new_digit_positions": 3,
+      "case_path": "cases/radio/p167_mission_address.md",
+      "conditional_note": "The [shared Nov7–9 reference interpretation](../../experiments/nov7_9_joint_digits/README.md) reads **Roem 5; KR 130615**, completing **66/66 conditional edited labels**. The opposite assignment gives Roem 6; KR 130516. All three affected pairs are originally observed. The six word substitutions and two printed-mask fills are unchanged, and the labels MILB, 0RM and RELA remain literal."
+    },
+    {
+      "id": "p167_D",
+      "inputs": "experiments/p167_captain_dispatch_fragment/inputs.json",
+      "record_id": "p167_D",
+      "input_root": [],
+      "rows_field": "source_rows",
+      "source_sha256": "4b9d804b758dce1f1c70044b187964fb883270fbbb9593057341006f5a583ec2",
+      "certificate": "experiments/p167_captain_dispatch_fragment/certificates.json",
+      "certificate_record_id": "p167_D",
+      "cipher_path": [
+        "readable_candidate",
+        "ciphertext"
+      ],
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "previous_plaintext": "HPTMXLIMMER2ANGKODESELXFESDEILOCHEFWIRDN0?HRA2T11?RK?RERSATZABTLGABBEFOERDERTXNACHCHEFT1B?7?17?",
+      "selected_plaintext": "HPTMXLIMMER2ANGKODESELXFESDEILOCHEFWIRDN06HRA2T115RK?RERSATZABTLGABBEFOERDERTXNACHCHEFT1B?7617?",
+      "new_digit_positions": 3,
+      "case_path": "cases/people/p167_captain_dispatch_fragment.md",
+      "conditional_note": "The [shared Nov7–9 reference interpretation](../../experiments/nov7_9_joint_digits/README.md) fixes positions **41, 49 and 91 as 6, 5 and 6**, giving **92/95 conditional edited labels**. The opposite assignment gives 5, 6 and 5. This adds no source change or fill and applies equally to the separately priced Zimmermann proposal. The resulting destination field remains garbled; only three numerical labels are selected. Positions 52, 89 and 94 remain source-mask uncertainty."
+    },
+    {
+      "id": "p168_E",
+      "inputs": "experiments/danube_arad_witnesses/inputs.json",
+      "record_id": "p168_E",
+      "input_root": [],
+      "rows_field": "source_rows",
+      "source_sha256": "8c6b7a46523f6576cc339034dde5daf26c7e656640e90b66c34349f1d21e9f2f",
+      "certificate": "experiments/danube_arad_witnesses/certificates.json",
+      "certificate_record_id": "p168_E",
+      "cipher_path": [
+        "readable_candidate",
+        "ciphertext"
+      ],
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "previous_plaintext": "ANOHLXVERPFLEGUNGNOCH14TAGEX10TAGEXXVERPFLEGXZUEGENACHARADXARADBEIUNGARXREGIERUNGERWIRKENXSTAEKE80000MANNX30000TIEREXAOK11XRMX1CX18?GEHX",
+      "selected_plaintext": "ANOHLXVERPFLEGUNGNOCH14TAGEX10TAGEXXVERPFLEGXZUEGENACHARADXARADBEIUNGARXREGIERUNGERWIRKENXSTAEKE80000MANNX30000TIEREXAOK11XRMX1CX186GEHX",
+      "new_digit_positions": 1,
+      "case_path": "cases/military/danube_arad_witnesses.md",
+      "conditional_note": "The [shared Nov7–9 reference interpretation](../../experiments/nov7_9_joint_digits/README.md) supplies **6** in the Arad footer, giving **RM 1C 186 GEH** and **136/136 conditional edited labels** in p168 E. The opposite assignment gives 185 GEH. Both coordinates of this VF pair are original observations. The four word substitutions, two printed-mask fills and one supplied gap coordinate remain unchanged."
+    },
+    {
+      "id": "p159_A",
+      "inputs": "experiments/danube_arad_witnesses/prior_snapshot.json",
+      "input_root": [
+        "p159_record"
+      ],
+      "rows_field": "source_rows",
+      "source_sha256": "e9a66641aef75ffcdf317966a083e25717a9afaf8bec889a9893d928af5f267f",
+      "certificate": "experiments/danube_arad_witnesses/certificates.json",
+      "certificate_root": [
+        "p159_source_collation"
+      ],
+      "cipher_path": [
+        "common_edited_candidate",
+        "ciphertext"
+      ],
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "previous_plaintext": "ANOHLXVERPFLEGUNGNOCH14TAGEX10TAGEXXVERPFLEGXZUEGENACHARADXARADBEIUNGARXREGIERUNGERWIRKENXSTAEKE80000MANNX30000TIEREXAOK11XRMX1CX18?GEHX",
+      "selected_plaintext": "ANOHLXVERPFLEGUNGNOCH14TAGEX10TAGEXXVERPFLEGXZUEGENACHARADXARADBEIUNGARXREGIERUNGERWIRKENXSTAEKE80000MANNX30000TIEREXAOK11XRMX1CX186GEHX",
+      "new_digit_positions": 1,
+      "case_path": "cases/military/arad_provisions_partial.md",
+      "conditional_note": "The [shared Nov7–9 reference interpretation](../../experiments/nov7_9_joint_digits/README.md) supplies **6** in the footer, giving **RM 1C 186 GEH** and **136/136 conditional edited labels**. The opposite assignment gives 185 GEH. This adds no coordinate change or fill to the current seven-substitution collation. The pair is originally observed in all eight retained source maps; raw p159 still ends 186 GLH before the separately priced GEH repair."
     }
-  ]
+  ],
+  "retained_variant_checks": [
+    {
+      "record": "p167_D",
+      "certificate": "experiments/p167_captain_dispatch_fragment/certificates.json",
+      "frames_path": [
+        "geometry_enumeration",
+        "all_six_minimum_maps"
+      ],
+      "frame_fields": [
+        "source_insertion_boundaries"
+      ],
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "layers": [
+        {
+          "name": "raw",
+          "cipher_path": [
+            "ciphertext"
+          ],
+          "expected_new_positions": [
+            41,
+            49,
+            77,
+            91
+          ]
+        },
+        {
+          "name": "word_proposal",
+          "cipher_path": [
+            "readable_candidate",
+            "ciphertext"
+          ],
+          "expected_new_positions": [
+            41,
+            49,
+            91
+          ]
+        }
+      ]
+    },
+    {
+      "record": "p167_D",
+      "certificate": "experiments/p167_captain_dispatch_fragment/certificates.json",
+      "single_frame_path": [
+        "records",
+        0
+      ],
+      "frame_fields": [],
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "layers": [
+        {
+          "name": "optional_ZIMMERMANN",
+          "cipher_path": [
+            "optional_name_proposal",
+            "primary_completed_word_layer",
+            "ciphertext"
+          ],
+          "expected_new_positions": [
+            41,
+            49,
+            91
+          ]
+        }
+      ]
+    },
+    {
+      "record": "p167_C1",
+      "certificate": "experiments/p167_mission_address/certificates.json",
+      "single_frame_path": [
+        "records",
+        0
+      ],
+      "frame_fields": [],
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "layers": [
+        {
+          "name": "optional_MIL_separator",
+          "cipher_path": [
+            "optional_separator_proposal",
+            "ciphertext"
+          ],
+          "expected_new_positions": [
+            53,
+            61,
+            63
+          ]
+        }
+      ]
+    },
+    {
+      "record": "p159_A",
+      "certificate": "experiments/danube_arad_witnesses/certificates.json",
+      "frames_path": [
+        "source_only_crosscopy_family",
+        "minimizing_source_maps"
+      ],
+      "frame_fields": [
+        "excluded_group_starts",
+        "one_coordinate_source_boundary",
+        "first_five_gap_stage_boundary",
+        "second_five_gap_stage_boundary"
+      ],
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "layers": [
+        {
+          "name": "unfilled_source_frame",
+          "cipher_path": [
+            "ciphertext_with_unfilled_additions"
+          ],
+          "expected_new_positions": [
+            131
+          ]
+        }
+      ]
+    },
+    {
+      "record": "p159_A",
+      "certificate": "experiments/danube_arad_witnesses/certificates.json",
+      "single_frame_path": [
+        "p159_source_collation"
+      ],
+      "frame_fields": [],
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "layers": [
+        {
+          "name": "source_linked_raw",
+          "cipher_path": [
+            "source_linked",
+            "ciphertext"
+          ],
+          "expected_new_positions": [
+            131
+          ]
+        }
+      ]
+    },
+    {
+      "record": "p168_E",
+      "certificate": "experiments/danube_arad_witnesses/certificates.json",
+      "single_frame_path": [
+        "records",
+        1
+      ],
+      "frame_fields": [],
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "layers": [
+        {
+          "name": "source_linked_raw",
+          "cipher_path": [
+            "source_linked",
+            "ciphertext"
+          ],
+          "expected_new_positions": [
+            131
+          ]
+        }
+      ]
+    }
+  ],
+  "local_date_completion": {
+    "record": "p161_C1",
+    "plaintext_index": 19,
+    "source_index": 185,
+    "printed": "-",
+    "coordinate": "F",
+    "native_pair": "?G",
+    "native_domain": "1GIKNY",
+    "proposed_label": "1",
+    "date_before": "2X?1",
+    "date_after": "2X11",
+    "donor": {
+      "inputs": "experiments/military_mission_recalls/inputs.json",
+      "record_id": "p161_D1",
+      "rows_field": "source_rows",
+      "source_sha256": "58584045b604592c65e506b98801f70cc34ac80a0f37ede2e9a7dddf7827382e",
+      "expected_raw": "SSDOPPELXGRXHQUXMKX2X11XMILITAERMISZIONKONSTANTINOPELXKOMMRNDODESHPTMSDXRXOSTHOFFNACHTUERKEIENDZUTEILUNGZURMILMISZIONAUFGEHOBEN"
+    },
+    "donor_phrase": "MKX2X11",
+    "donor_plaintext_start": 16,
+    "continuation": {
+      "inputs": "experiments/military_mission_recalls/inputs.json",
+      "record_id": "p161_C2",
+      "rows_field": "source_rows",
+      "source_sha256": "8602c0709a85326ad72896572b112dc993533d204c12996012e5265cabb15054",
+      "expected_raw": "ZUTEILUNGZURMILMISZIONISTAUFGEHOBENAKOFOLGTXALLERHBEFXCHEFMILKABFRHRMARSCHALL"
+    },
+    "case": "cases/people/military_mission_recalls.md",
+    "case_note": "A separately priced date completion reads **MK 2.11**. The erased position has native domain **1GIKNY**, so 1 is its only numerical value if this is a day/month date. The distinct Osthoff recall on p161 D1 directly preserves `MKX2X11` in observed pairs. This supports the format and month, rather than treating the two orders as copies.",
+    "readable_german": "SS Doppel GR. HQ. MK. 2.11. Militaermiszion Konstantinopel. Zu 2 Nr. 45610. Komdo Oberlts Siegfried nach Tuerkei u deszen Zuteilung zur Milmiszion ist aufgehoben. AKO folgt. Allerh. Bef. Chef Milkab Frhr Marschall.",
+    "total_observed_substitutions": 4,
+    "total_source_mask_fills": 5,
+    "assumptions": [
+      "The 2X?1 field after MK is a numeric day/month date.",
+      "The separate Osthoff recall provides an observed date-format and same-month example, not a duplicate of the Siegfried order."
+    ],
+    "limit": "The raw domain 1GIKNY remains unchanged. Numeral 1 is selected contextually; nonnumeric alternatives require rejecting the date reading."
+  }
 }

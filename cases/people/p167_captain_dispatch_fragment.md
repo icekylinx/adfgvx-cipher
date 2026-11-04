@@ -10,6 +10,10 @@ proposal reads **Zimmermann**, supported by another telegram that names a
 captain in the radio service. The full title, destination and footer remain
 unread.
 
+## Conditional digit reading
+
+The [shared Nov7–9 reference interpretation](../../experiments/nov7_9_joint_digits/README.md) fixes positions **41, 49 and 91 as 6, 5 and 6**, giving **92/95 conditional edited labels**. The opposite assignment gives 5, 6 and 5. This adds no source change or fill and applies equally to the separately priced Zimmermann proposal. The resulting destination field remains garbled; only three numerical labels are selected. Positions 52, 89 and 94 remain source-mask uncertainty.
+
 ## Conditional name proposal
 
 **Readable German — optional Zimmermann reading; unread fields remain omitted:**

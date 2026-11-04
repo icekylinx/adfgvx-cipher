@@ -14,13 +14,18 @@ The p159 A source is damaged by repeated groups and missing coordinates.
 The independently received [p168 E copy](danube_arad_witnesses.md#p168-e)
 now supplies all eleven missing values and fixes the duration separator as
 X, replacing the earlier optional U. The current source-linked reading has
-**135 of 136 fixed labels**. The last uncertainty is a shared footer cell,
+**135 of 136 fixed labels under the published partial square**. The last
+uncertainty in that layer is a shared footer cell,
 not the strength figure.
 
 **Source recovery and edition:** icekylinx and GPT-6 Astra Pro.
 The unchanged Nov7–9 key is credited to George Lasry, Ingo Niebel, Nils
 Kopal and Arno Wacker. Earlier OCR and the original reconstruction remain
 attributed in their evidence packages.
+
+## Conditional digit reading
+
+The [shared Nov7–9 reference interpretation](../../experiments/nov7_9_joint_digits/README.md) supplies **6** in the footer, giving **RM 1C 186 GEH** and **136/136 conditional edited labels**. The opposite assignment gives 185 GEH. This adds no coordinate change or fill to the current seven-substitution collation. The pair is originally observed in all eight retained source maps; raw p159 still ends 186 GLH before the separately priced GEH repair.
 
 ## What can be read, and under which model
 

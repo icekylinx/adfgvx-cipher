@@ -1,5 +1,6 @@
 """Conflicting source inputs must not pass as supplemental evidence."""
 import copy
+import hashlib
 import importlib.util
 import json
 from pathlib import Path
@@ -60,6 +61,26 @@ class SupplementalSourceEvidenceTests(unittest.TestCase):
             with self.subTest(matches=len(matches)):
                 with self.assertRaises(AssertionError):
                     AUDIT.verify_matching_inputs(self.source, matches)
+
+    def reference(self):
+        return dict(id='p84_C', record_id='p84_C', inputs=self.matches[0][0],
+                    rows_field='source_rows', input_root=[],
+                    source_sha256=hashlib.sha256(AUDIT.literal(self.source).encode()).hexdigest())
+
+    def test_derived_reference_resolves_to_the_canonical_source(self):
+        path, native, review = AUDIT.resolve_native_input('joint/inputs.json', self.reference())
+        self.assertEqual((path, native), self.matches[0])
+        self.assertEqual(review['native_input'], self.matches[0][0])
+        self.assertEqual(AUDIT.verify_matching_inputs(self.source, [(path, native)])['native_records_verified'], 1)
+
+    def test_conflicting_reference_identity_and_digest_are_rejected(self):
+        for field, value in [('record_id', 'p84_D'), ('source_sha256', '0' * 64),
+                             ('rows_field', 'edited_ciphertext')]:
+            with self.subTest(field=field):
+                ref = self.reference()
+                ref[field] = value
+                with self.assertRaises(AssertionError):
+                    AUDIT.resolve_native_input('joint/inputs.json', ref)
 
 
 if __name__ == '__main__':

@@ -97,9 +97,12 @@ ANGENERALVONKRESSTIFLISXNRX?1?XBITTEWEITERLEITUNGFOLGENDENTELEGRAMMSDESMINISTERI
 
 </details>
 
-The received `MINISTERIUM` lacks the genitive `S` expected in this formula;
-it is not length-corrected. The two unresolved reference symbols remain
-`?1?` rather than being assigned from historical expectation.
+The received `MINISTERIUM` lacks the genitive `S` expected in this formula.
+The [shared conditional VG=2 reading](../../experiments/nov13_joint_completion/README.md#the-award-class)
+completes the first reference digit: **`21?`**, giving **130/131** labels in
+the preamble. This uses the existing floating-group placement and its two
+word repairs, with no new source edit. The baseline quotation and streams
+above retain `?1?` for comparison.
 
 The association with p192 is supported by complementary part numbers,
 the same published key, and continuous address/appointment syntax: p199 ends
@@ -238,7 +241,8 @@ do not create another fixed letter.
 The three records contain 719 valid source coordinates. The declared
 724-coordinate frame fixes 354/362 raw positions before repairs, 358/362
 after the ordinary-word layer, and 360/362 under the historical-name layer.
-The p192 subset is unchanged at 225/231, 229/231 and 231/231; the p199
-preamble retains two unresolved reference symbols in every layer.
+The p192 subset is unchanged at 225/231, 229/231 and 231/231. The further
+VG=2 interpretation leaves one unresolved reference symbol in the p199
+preamble and is compatible with the separate historical-name layer.
 Raw fixed positions include source garbles; these counts describe the
 mathematical consequences of each explicitly stated layer.

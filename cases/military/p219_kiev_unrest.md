@@ -2,16 +2,72 @@
 
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
-**Conditional recovery: icekylinx and GPT-6 Astra Pro.** Resolving printed
-group alternatives and the marked jamming loss reveals a Kiev report.
-The selected frame fixes **122/147 raw positions**. Seventeen inserted-slot
-fills give **139/147 with zero observed-coordinate substitutions**.
+**Conditional recovery: icekylinx and GPT-6 Astra Pro.** The printed group
+alternatives and marked jamming loss reveal a report of impending unrest
+in Kiev and a soldiers' council decision for neutrality. The new
+`BEVORSTEHENDX` completion joins the previously separated body excerpts;
+the shared Y also makes the proposed `MARKOWSKY` signature compatible
+with every retained observed coordinate.
+
+## Current joint completion
+
+**Conditional interpretation — continuous body with the PETLJURA proposal;
+two observed substitutions and twenty inserted-slot fills:**
+
+*Heeresgruppe Kiew. Unruhen zwischen Regierung Hetman und Petljura bevorstehend. Soldatenrat beschloss Neutralitaet.*
+
+The report says that unrest between the Hetman government and the named
+opponent is impending, and that the soldiers' council decided on
+neutrality. Petljura remains a separately priced name proposal. Without
+those two substitutions, the new clause is still source-compatible and
+the received name remains `PEDFJ?RA`.
+
+The [joint completion certificate](../../experiments/nov25_treaty_digits/kiev_completion_certificate.json)
+rechecks **all 81 declared source models**. The full word selects the
+printed **`GXAFV`** alternative over `GXAGV`: its original F at source
+28 and A at 131 give **B** at plaintext position 66. The next half-pair
+`?D` admits **E**, and the final `X?` admits separator **X**. Filling
+modeled slots **95 with F and 96 with V** completes `BEVORSTEHENDX`.
+Both slots already belong to the twenty-five-coordinate jamming gap;
+this layer introduces no further missing coordinates or observed changes.
+
+Two minimum models remain, differing only in which copy of the duplicated
+initial `XFXDD` supplies the first five retained coordinates. They give
+**one identical completed ciphertext and body**. The printed group-choice
+question and the duplicate-origin ambiguity are therefore distinct.
+
+The original `AD` pair at plaintext 145, source **73 A and 206 D**, now
+gives **`MA?KO?SKY`**. The optional spelling **`MARKOWSKY`** needs two
+compatible inserted-slot fills and **zero observed substitutions**, down
+from two under the published labels. This is a spelling proposal, not
+an independently established personal identity.
+
+| Current conditional scope | Observed substitutions | Total inserted-slot fills | Fixed positions |
+|---|---:|---:|---:|
+| `BEVORSTEHENDX`, raw names | 0 | 19 | 137/147 |
+| Clause plus `MARKOWSKY` | 0 | 21 | 139/147 |
+| Clause plus `PETLJURA` | 2 | 20 | 138/147 |
+| Clause plus all three proposed names | 3 | 22 | 140/147 |
+
+The combined version retains the one-coordinate `ODELSA→ODESSA` repair.
+Its three observed changes are source **10 V→X, 85 X→F and 155 A→F**.
+All compact footer fields remain unresolved where their source or square
+values are unknown. These counts use the shared partial square and do
+not treat unresolved numeral labels as historically established digits.
+
+## Earlier recovery layers
+
+The earlier selected frame fixes **122/147 raw published-label positions**.
+Seventeen inserted-slot fills give **139/147** with zero observed-coordinate
+substitutions. Its complete streams and the separately priced original
+name proposals remain below.
 
 The later [shared-square reading](../../experiments/nov25_treaty_digits/README.md#the-kiev-report-outside-the-original-snapshot)
 reduces the optional `PETLJURA` spelling from four to **two observed-coordinate changes**.
 The received name becomes `PEDFJ?RA` under the independently proposed
 `VD=J` assignment. Reading its remaining damaged letters as `PETLJURA`
-keeps the same 18 inserted-slot fills and all four minimum source models.
+keeps the same 18 inserted-slot fills and all four minimum source models
+at that J-only stage, before the new complete-word constraint.
 The two preserved source coordinates are V at index 181 and D at 212;
 the remaining substitutions are V→X at 10 and A→F at 155.
 
@@ -37,7 +93,7 @@ as data and tests how to use them in the cipher frame.
 `{JAMMED}` in the transcription marks the original `(jammed)` annotation;
 the braces are a boundary marker, not coordinate observations.
 
-The selected model excludes source 0–4 (one duplicate), 25–29 (parenthesized
+The earlier selected model excludes source 0–4 (one duplicate), 25–29 (parenthesized
 `GXAFV`) and 200–204 (`VDGDD`, choosing its parenthesized `VDFDD` alternative).
 The later parenthesized `FXVDD` remains in sequence. Twenty-five unknown
 slots are inserted at the printed jamming boundary before original source
@@ -98,8 +154,9 @@ HEERESGRUPPEXKIEWXXUNRUHENXZWISCHENXREGIERUNGXHETMANXUNDXPETLJURAX7?VORSTEHEND?S
 
 </details>
 
-No extra letter is inserted to complete `VORSTEHEND?`. Numerical and compact
-footer fields such as `7XVX?`, `RM1?3230T` remain literal.
+In this earlier layer, no extra letter is inserted to complete `VORSTEHEND?`.
+Numerical and compact footer fields such as `7XVX?`, `RM1?3230T` retain
+their earlier literal labels.
 
 ## Complete declared source-model check
 
@@ -109,7 +166,8 @@ retains both initial duplicates or excludes either copy: **27 × 3 = 81 maps**.
 Each model adds enough unknown slots at the marked jamming boundary to reach
 294 coordinates.
 
-Four maps attain the primary template's zero-substitution minimum. The
+In the earlier comparison, four maps attain the primary template's
+zero-substitution minimum. The
 combined optional names also have four minimum maps, at seven substitutions.
 Both scopes retain two edited streams: an opaque field reads `7?` or `B?`
 depending on the first printed alternative. All prices, origins and streams

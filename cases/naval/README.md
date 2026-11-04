@@ -34,7 +34,7 @@ Ship-sale terms reveal who could authorize a sale, how payment was to work and w
 | [p83 A](gerlach_oil_release_query.md#p83-a) | READING | Gerlach oil-release inquiry: the overprinted parallel |
 | [p84 A](p84_AB.md) | READING | Ask whether Izzet Pasha's order to release oil succeeded |
 | [p84 B](p84_AB.md) | READING | Request daily Black Sea shipping-safety reports for the Caucasus command |
-| [p89 A2](../supplementary/p89_A2.md) | PARTIAL | Shipping and railway routing to Nikolayev |
+| [p89 A2](../supplementary/p89_A2.md) | CONDITIONAL | Shipping and railway routing to Nikolayev |
 | [p113 C](nov3_poti_tobacco_loading.md#p113-c) | READING | Poti tobacco loading inquiry, with literal quantity 2400 |
 | [p120 B1](p120_p123.md) | READING | Instruction to Feigenhaus; contact with Herkules |
 | [p122 D suffix](p120_p123.md) | PARTIAL | Repeat of the Feigenhaus instruction, part 1 |
@@ -63,7 +63,7 @@ Ship-sale terms reveal who could authorize a sale, how payment was to work and w
 | [p199 A2](black_sea_shipping.md) | PARTIAL | Goods remain aboard under military guard; coded supply terms retained |
 | [p199 A3](black_sea_shipping.md) | CONDITIONAL | Concern over the recipient’s intentions; Reichsversorgung and Admiralstab ending |
 | [p200 B1](black_sea_shipping.md) | PARTIAL | Order to halt CORCOWADO sale or ownership transfer to Turkey |
-| [p200 B2](black_sea_shipping.md) | PARTIAL | Ship sale conditional on cash payment in Germany before ownership transfer |
+| [p200 B2](black_sea_shipping.md) | CONDITIONAL | Ship sale conditional on cash payment in Germany before ownership transfer |
 | [p205 B1](p205_B.md) | READING | End submissions to the dissolved Naval Warfare Command |
 | [p205 B2](p205_B.md) | PARTIAL | Continue keeping war diaries; naval reporting addressees |
 | [p210 A1](p210_A.md) | READING | Helsinki: confirm return transport for the Ostsee Division |

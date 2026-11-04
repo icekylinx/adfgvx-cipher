@@ -17,7 +17,7 @@ All 21 bodies have an explicit native transcription, slot count and reproducible
 | p154_A2 | 118 | 118 | 0 | 162 | [CONDITIONAL](../cases/military/p154_weisskirchen_fragment.md) |
 | p163_A16 | 121 | 121 | 0 | Not printed | [CONDITIONAL](../cases/military/p163_infrastructure_clause.md#p163-a16) |
 | p164_D | 116 | 116 | 0 | 116 | [PARTIAL](../cases/radio/p164_acknowledgment.md#p164-d) |
-| p167_C1 | 132 | 130 | 2 | 132 | [PARTIAL](../cases/radio/p167_mission_address.md#p167-c1) |
+| p167_C1 | 132 | 130 | 2 | 132 | [CONDITIONAL](../cases/radio/p167_mission_address.md#p167-c1) |
 | p167_D | 187 | 183 | 4 | 190 | [CONDITIONAL](../cases/people/p167_captain_dispatch_fragment.md#conditional-name-proposal) |
 | p176_A6 | 160 | 74 | 86 | 160 | [PARTIAL](../cases/military/p176_coal_train_fragment.md#p176-a6) |
 | p194_D1 | 45 | 45 | 0 | 214 | [OPEN](../cases/open/p194_D1.md) |

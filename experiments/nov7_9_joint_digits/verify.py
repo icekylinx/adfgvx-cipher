@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check a cross-period reference and propagate one shared 5/6 assignment.
 
+The separate p161 date-mask completion keeps its own source price.
 Independent column reconstruction; standard-library Python only.
 Research and edition: icekylinx and GPT-6 Astra Pro. Apache-2.0.
 """
@@ -112,6 +113,109 @@ def readable(spec, text):
     assert labels == text.replace("X", ""), spec["id"]
 
 
+def retained_variants(data, key, square, rival):
+    """Apply the same cell assignment to retained source and editorial alternatives."""
+    literals = {spec['id']: source(spec) for spec in data['records']}
+    out = []
+    for group in data['retained_variant_checks']:
+        certificate = read(group['certificate'])
+        frames = (at(certificate, group['frames_path']) if 'frames_path' in group
+                  else [at(certificate, group['single_frame_path'])])
+        literal = literals[group['record']]
+        for frame in frames:
+            mapping = at(frame, group['mapping_path'])
+            for layer in group['layers']:
+                cipher = at(frame, layer['cipher_path'])
+                old, domains = decode(cipher, key['column_rank_order'], key['square'], mapping)
+                selected, _ = decode(cipher, key['column_rank_order'], square, mapping)
+                alternative, _ = decode(cipher, key['column_rank_order'], rival, mapping)
+                gained = [i for i, (a, b) in enumerate(zip(old, selected)) if a != b]
+                assert gained == layer['expected_new_positions']
+                ledger = []
+                for index in gained:
+                    p = domains[index]
+                    assert p['domain'] == '56' and p['pair'] in data['assignment']
+                    assert all(i is not None and literal[i] == value
+                               for i, value in zip(p['source_indices'], p['pair']))
+                    ledger.append({**p, 'selected': selected[index],
+                                   'alternative': alternative[index],
+                                   'both_original_coordinates_observed': True})
+                roundtrip(cipher, key['column_rank_order'], square)
+                roundtrip(cipher, key['column_rank_order'], rival)
+                out.append({'record': group['record'], 'layer': layer['name'],
+                            'frame': {field: frame[field] for field in group['frame_fields']},
+                            'selected_plaintext': selected, 'alternative_plaintext': alternative,
+                            'gained_positions': ledger,
+                            'counted_as_additional_physical_record': False})
+    return out
+
+
+def complete_date(data, key, square, rival):
+    """Keep the source-mask date choice separate from the shared key assignment."""
+    spec = data['local_date_completion']
+    target = next(r for r in data['records'] if r['id'] == spec['record'])
+    literal = source(target)
+    base = record(target['certificate'], target.get('certificate_record_id'),
+                  target.get('certificate_root', ()))
+    earlier = at(base, target['cipher_path'])
+    mapping = at(base, target['mapping_path'])
+    old, domains = decode(earlier, key['column_rank_order'], key['square'], mapping)
+    index, source_index = spec['plaintext_index'], spec['source_index']
+    native_cipher = ''.join(literal[i] if literal[i] in CO else '?' for i in mapping)
+    _, native = decode(native_cipher, key['column_rank_order'], key['square'], mapping)
+    assert domains[index] == native[index]
+    assert native[index]['pair'] == spec['native_pair'] == '?G'
+    assert native[index]['domain'] == spec['native_domain'] == '1GIKNY'
+    assert set(spec['native_domain']) & set('0123456789') == {spec['proposed_label']}
+    model = mapping.index(source_index)
+    assert literal[source_index] == spec['printed'] == '-' and earlier[model] == '?'
+    changed = earlier[:model] + spec['coordinate'] + earlier[model+1:]
+    dated, after = decode(changed, key['column_rank_order'], key['square'], mapping)
+    assert [(i, a, b) for i, (a, b) in enumerate(zip(old, dated)) if a != b] == [(index, '?', '1')]
+    assert old[17:21] == spec['date_before'] and dated[17:21] == spec['date_after']
+    selected, _ = decode(changed, key['column_rank_order'], square, mapping)
+    alternative, _ = decode(changed, key['column_rank_order'], rival, mapping)
+    assert '?' not in selected and '?' not in alternative and len(selected) == 102
+    roundtrip(changed, key['column_rank_order'], square)
+    roundtrip(changed, key['column_rank_order'], rival)
+    substitutions = [{'source_index': i, 'from': literal[i], 'to': changed[m]}
+                     for m, i in enumerate(mapping) if literal[i] in CO and literal[i] != changed[m]]
+    fills = [{'source_index': i, 'printed': literal[i], 'to': changed[m]}
+             for m, i in enumerate(mapping) if literal[i] not in CO and changed[m] in CO]
+    assert len(substitutions) == spec['total_observed_substitutions'] == 4
+    assert len(fills) == spec['total_source_mask_fills'] == 5
+    donor_literal = source(spec['donor'])
+    donor, donor_positions = decode(donor_literal, key['column_rank_order'], key['square'])
+    assert donor == spec['donor']['expected_raw']
+    start = spec['donor_plaintext_start']
+    assert donor[start:start + len(spec['donor_phrase'])] == spec['donor_phrase']
+    donor_span = donor_positions[start:start + len(spec['donor_phrase'])]
+    assert all(set(p['pair']) <= set(CO) and len(p['domain']) == 1 for p in donor_span)
+    continuation_literal = source(spec['continuation'])
+    continuation, _ = decode(continuation_literal, key['column_rank_order'], key['square'])
+    assert continuation == spec['continuation']['expected_raw'] and '?' not in continuation
+    assert set(continuation_literal) <= set(CO)
+    roundtrip(continuation_literal, key['column_rank_order'], square)
+    roundtrip(continuation_literal, key['column_rank_order'], rival)
+    combined = selected + continuation
+    page = (ROOT / spec['case']).read_text()
+    assert spec['case_note'] in page and '> ' + spec['readable_german'] in page
+    assert re.sub('[^A-Z0-9?]', '', spec['readable_german'].upper()) == combined.replace('X', '')
+    return {'record': spec['record'], 'native_position': native[index],
+            'completed_position': after[index], 'additional_source_mask_fill': {
+                'source_index': source_index, 'printed': spec['printed'], 'to': spec['coordinate']},
+            'additional_observed_substitutions': 0, 'additional_fixed_positions': 1,
+            'total_observed_substitutions': substitutions, 'total_source_mask_fills': fills,
+            'conditional_ciphertext': changed, 'selected_plaintext': selected,
+            'alternative_plaintext': alternative, 'fixed_positions': 102,
+            'native_date_format_donor': {**spec['donor'], 'phrase': spec['donor_phrase'],
+                                        'positions': donor_span},
+            'continuation': {**spec['continuation'], 'new_physical_record_claim': False},
+            'complete_reading': {'raw': combined, 'readable_german': spec['readable_german'],
+                                 'physical_parts': ['p161_C1', 'p161_C2'], 'fixed_positions': 179},
+            'assumptions': spec['assumptions'], 'limit': spec['limit']}
+
+
 def build():
     data = read(HERE.relative_to(ROOT) / "inputs.json")
     keys = {k["id"]: k for k in read("data/keys.json")["keys"]}
@@ -172,6 +276,7 @@ def build():
             p = domains[index]
             assert before == "?" and p["pair"] in data["assignment"] and p["domain"] == "56"
             support = all(i is not None and literal[i] == value for i, value in zip(p["source_indices"], p["pair"]))
+            assert support, (spec["id"], index)
             gains.append({**p, "selected": after, "alternative": alternative[index],
                           "both_original_coordinates_observed": support})
         assert len(gains) == spec["new_digit_positions"], spec["id"]
@@ -190,8 +295,12 @@ def build():
                           "assumption": reference["assumption"]},
             "assignment": data["assignment"], "selected_square": square,
             "alternative_square": rival, "records": results,
+            "retained_variants": retained_variants(data, key, square, rival),
+            "local_date_completion": complete_date(data, key, square, rival),
             "new_conditional_digit_positions": sum(len(r["gained_positions"]) for r in results),
-            "additional_coordinate_changes": 0, "additional_source_mask_fills": 0,
+            "additional_coordinate_changes": 0, "shared_digit_layer_source_mask_fills": 0,
+            "additional_source_mask_fills": 1,
+            "total_new_fixed_positions": 1 + sum(len(r["gained_positions"]) for r in results),
             "published_partial_key_changed": False}
 
 
@@ -207,4 +316,4 @@ if __name__ == "__main__":
         path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
     print(f"Siegfried reference 45610: XA=5, VF=6 under the common-reference relation; "
           f"{result['new_conditional_digit_positions']} conditional positions in {len(result['records'])} records; "
-          "no additional source edits or fills.")
+          "no source edits in the digit layer; one separate date-mask fill completes p161 C1.")

@@ -84,7 +84,7 @@ Appointments and transfers continue beside the withdrawal. Read them as evidence
 | [p221 B2](constantinople_civilians.md) | CONDITIONAL | Verify civilian departures and whereabouts through the Swedish legation |
 | [p221 B3](constantinople_civilians.md) | READING | Troop-transport enquiry and request to allow German civilians to remain in Turkey |
 | [p221 B4](constantinople_civilians.md) | CONDITIONAL | Appeal referred to Allies and Supreme War Council; civilian transit through Ukraine impossible |
-| [p224 C1](breslau_staff_transfer.md) | READING | Staff officer raw STRZEMIECZNQ transferred from acting corps chief-of-staff duties |
+| [p224 C1](breslau_staff_transfer.md) | CONDITIONAL | Staff officer raw STRZEMIECZNQ transferred from acting corps chief-of-staff duties |
 | [p224 C2](breslau_staff_transfer.md) | CONDITIONAL | Special employment with Breslau command; separate historical VI Corps context |
 
 </details>

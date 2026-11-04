@@ -1,0 +1,226 @@
+{
+  "schema": "adfgvx-nov25-names-input-v1",
+  "prepared_by": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": {
+    "experiments/nov25_treaty_digits/breslau_inputs.json": "81b4d11e6e5cc81364e437c731ad941a84ffb555299cc2a74d930b062b88c28d",
+    "experiments/nov25_treaty_digits/verify_breslau.py": "2121d412d79c3fdbdbdc11c145842c1f6a3841c03dd764b03f90d5c7aed7636c",
+    "experiments/nov25_treaty_digits/breslau_certificate.json": "5122e814c83ca23826c67499c7e642bddbe548d09d7463e0faf789181032f3f1",
+    "experiments/nov25_provisions_and_evening_report/inputs.json": "75e81aa68766efd08f5a5eff96a9f8d9b3a2c9fb3598db474bb066380ba13232",
+    "experiments/nov25_provisions_and_evening_report/certificates.json": "c3161fbb398ce0c64031dd5a33b43e0bee32fc9da30a664bb2a976afd66ca0de",
+    "experiments/nov27_receiving_instructions/inputs.json": "1f9d57701920a386646aae4adff0b2b357efe0640f94bbea0763287d3f8a3fa1",
+    "experiments/nov27_receiving_instructions/certificates.json": "55575d925c1e80a2297d4409235fb55bc4728035bd7de1ef07acff8d0f5f2da9",
+    "experiments/nov27_ships_and_vehicle_sale/inputs.json": "0aa0ce1f7add42c3121a06a9e58e16b6e08906f49748aae00c29ba9809a14950",
+    "experiments/nov27_ships_and_vehicle_sale/certificates.json": "ce7953fbcef09f3da15f668f72c3e6ed6e4cd34177d638ddcecd91687510f0db",
+    "experiments/urgent_shipping_space/inputs.json": "fa37abb521ba6ecaf2bf549f7567da7cd7d679e547f47bce87d6949cee56309d",
+    "experiments/urgent_shipping_space/certificates.json": "e843b5601eb6d372bcebb4338f7bfa369874890d96aa3baf3e23dd3f08ade01a"
+  },
+  "prior_certificate": "experiments/nov25_treaty_digits/breslau_certificate.json",
+  "assignment": {
+    "pair": "AD",
+    "value": "Y",
+    "original_label": "Q",
+    "condition": "Read the complete received name patterns as Strzemieczny and Nagymagocs, using independently printed contemporary spellings."
+  },
+  "anchors": [
+    {
+      "record_id": "p224_C1",
+      "plaintext_index": 90,
+      "source_indices": [
+        86,
+        210
+      ],
+      "word_range": [
+        79,
+        91
+      ],
+      "baseline_word": "STRZEMIECZNQ",
+      "interpreted_word": "STRZEMIECZNY",
+      "historical_source": "surname",
+      "role": "Initial surname-spelling hypothesis; individual identity remains unestablished."
+    },
+    {
+      "record_id": "p220_B",
+      "plaintext_index": 90,
+      "source_indices": [
+        74,
+        180
+      ],
+      "word_range": [
+        87,
+        97
+      ],
+      "baseline_word": "NAGQMAGOCS",
+      "interpreted_word": "NAGYMAGOCS",
+      "historical_source": "place",
+      "role": "A second unchanged pair in a distinct telegram, found after the surname hypothesis; not a preregistered blind test."
+    }
+  ],
+  "additional_source_packages": [
+    {
+      "input": "experiments/nov25_provisions_and_evening_report/inputs.json",
+      "certificate": "experiments/nov25_provisions_and_evening_report/certificates.json"
+    },
+    {
+      "input": "experiments/nov27_receiving_instructions/inputs.json",
+      "certificate": "experiments/nov27_receiving_instructions/certificates.json"
+    },
+    {
+      "input": "experiments/nov27_ships_and_vehicle_sale/inputs.json",
+      "certificate": "experiments/nov27_ships_and_vehicle_sale/certificates.json"
+    },
+    {
+      "input": "experiments/urgent_shipping_space/inputs.json",
+      "certificate": "experiments/urgent_shipping_space/certificates.json"
+    }
+  ],
+  "historical_sources": [
+    {
+      "id": "surname",
+      "title": "Schlesische Zeitung",
+      "publication_date": "1913-05-17",
+      "issue": 337,
+      "url": "https://bibliotekacyfrowa.pl/Content/139045/GSL_P_31292_IV_1913_26511_337.pdf",
+      "pdf_bytes": 11417439,
+      "pdf_sha256": "fc13340451c6cd4501ec19daa5ad1e10fd65e3b996165ab5b108110c7de1256d",
+      "crops": [
+        {
+          "path": "sources/schlesische_1913_title.png",
+          "pdf_page_1based": 1,
+          "clip_points": [
+            0,
+            40,
+            925.68,
+            300
+          ],
+          "scale": 2,
+          "sha256": "7555c5c1c5195abdb766912a1ca6bebb6ce006ebc93b5d1b954f132c8b886493",
+          "width": 1852,
+          "height": 520,
+          "rgb_sha256": "3e35d48535aeb2d804ae99908772c6d3f217d04bea56f8b20998c5102cff7ee5"
+        },
+        {
+          "path": "sources/strzemieczny_1913_military.png",
+          "pdf_page_1based": 6,
+          "clip_points": [
+            20,
+            735,
+            330,
+            882
+          ],
+          "scale": 3,
+          "sha256": "68ddac4ca3fef7730f376608d09b85fd2c4b1b328aaa0597504c2ebfeacb8eb1",
+          "width": 930,
+          "height": 441,
+          "rgb_sha256": "d8db55bafd7c6b5ae95f537baa6cdf0105216c584ebb806c61efd1acd64e8001"
+        }
+      ],
+      "volume": 172,
+      "edition": "Morning edition",
+      "source_excerpt": "dem Hauptm. von Strzemieczny, Inf.-Regt. Nr. 143",
+      "scope": "Contemporary surname spelling only; no identification of this 1913 captain with the intercepted 1918 major."
+    },
+    {
+      "id": "place",
+      "title": "Csongrád vármegye Hivatalos Lapja",
+      "publication_date": "1912-12-21",
+      "issue": 59,
+      "url": "https://epa.hu/05200/05279/00539/pdf/EPA05279_csongradvarmegye_hivatalos_lapja_1912_059.pdf",
+      "pdf_bytes": 1996800,
+      "pdf_sha256": "332b0f5b29189edfc9663ad8aef1ccb5c28727c207e0964027eb236ccb0d166a",
+      "crops": [
+        {
+          "path": "sources/csongrad_1912_title.png",
+          "pdf_page_1based": 1,
+          "clip_points": [
+            50,
+            50,
+            620,
+            290
+          ],
+          "scale": 2,
+          "sha256": "51e130559c1e42f67321ef7669c2312700056216403e8606f7a05764a098ac24",
+          "width": 1140,
+          "height": 480,
+          "rgb_sha256": "1c8a02984ee2428b5ae33557b761063551b493b5d56fb38ce8a8cfba0dba298b"
+        },
+        {
+          "path": "sources/nagymagocs_1912.png",
+          "pdf_page_1based": 3,
+          "clip_points": [
+            320,
+            395,
+            615,
+            536
+          ],
+          "scale": 3,
+          "sha256": "da48f42da16263119d99f7e5aa563a23d229fe7ceb7098163b346aff05157506",
+          "width": 885,
+          "height": 423,
+          "rgb_sha256": "d5e4b2edec5abbe51b2e5b750cbd0fd4f37b54fb6ffbe162c627fad681c5ea9c"
+        }
+      ],
+      "volume": 10,
+      "printed_page": 349,
+      "items": [
+        86,
+        87,
+        88,
+        89
+      ],
+      "source_excerpt": "Nagymágocs község 1913. évi",
+      "scope": "The county official gazette names the municipality in its 1913 budgets; it does not attest military movements in November 1918."
+    }
+  ],
+  "expected": {
+    "reviewed_records": 33,
+    "plaintext_positions": 4176,
+    "previous_snapshot_records": 23,
+    "additional_records": 10,
+    "observed_AD_occurrences": 4,
+    "retained_edition_occurrences": 2,
+    "inconvenient_raw_occurrences": 2,
+    "new_fixed_body_positions": 2,
+    "additional_coordinate_changes": 0,
+    "prior_square_completions": 362880,
+    "remaining_square_completions": 40320
+  },
+  "case_fields": [
+    {
+      "case": "cases/people/breslau_staff_transfer.md",
+      "record_id": "p224_C1",
+      "range": [
+        79,
+        91
+      ],
+      "text": "STRZEMIECZNY"
+    },
+    {
+      "case": "cases/military/nov25_provisions_and_evening_report.md",
+      "record_id": "p220_B",
+      "range": [
+        87,
+        97
+      ],
+      "text": "NAGYMAGOCS"
+    }
+  ],
+  "limits": [
+    "This is a conditional shared-square spelling assignment, not a new substitution in either received ciphertext.",
+    "The 1913 source establishes a surname, not the identity or wartime service of the 1918 major. The geographical source establishes a place spelling, not that a formation actually reached it.",
+    "The pre-existing VORQELEGT and EINQIGES word repairs remain separately priced; the raw occurrences are not hidden.",
+    "The original 23-record snapshot remains intact. Ten additional source-reviewed records extend this audit to 33 physical records; this is not a claim to cover every message from the period.",
+    "Earlier framing and source-variant qualifications remain those of the underlying editions, including both equivalent five-slot exclusions in p223 C.",
+    "All other unassigned cells share one injective completion over 0345789Q; no money, reference or corps number is selected."
+  ],
+  "readable_quote": {
+    "case": "cases/people/breslau_staff_transfer.md",
+    "record_ids": [
+      "p224_C1",
+      "p224_C2"
+    ],
+    "german": "AOK 11. Major beauftragt mit Wahrnehmung der Geschaefts des Chef des Generalst. ?? Res. K. Strzemieczny ist unter Versetzung zu den Offizieren V. D. A. dem Generalkdo. 6 A. K. Breslau zu bes. Verwendung zugeteilt, ist unmittelbar beordert. Mitteilung an Generalkdo. ?? AK erbeten. Chef des Generalstabs d. Feldheeres. ???2?."
+  }
+}

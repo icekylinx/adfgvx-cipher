@@ -118,7 +118,7 @@ This range contains 133 sources, including 1 OPEN. [Reading states](../../../doc
 |---|---|---|
 | [p160 A2](../../military/nov8_alpenkorps_report.md#p160-a2) | CONDITIONAL | Alpenkorps departure and march report |
 | [p160 B1](../../radio/radio_equipment_sale_prices.md#p160-b1) | CONDITIONAL | Radio apparatus sale and estimated value |
-| [p160 B2](../../radio/radio_equipment_sale_prices.md#p160-b2) | PARTIAL | Radio apparatus sale and estimated value |
+| [p160 B2](../../radio/radio_equipment_sale_prices.md#p160-b2) | CONDITIONAL | Radio apparatus sale and estimated value |
 | [p160 C1](../../radio/ringbahn_key_reuse.md#p160-c1) | CONDITIONAL | November Ringbahn keys and postponed December change |
 | [p160 C2](../../radio/ringbahn_key_reuse.md#p160-c2) | CONDITIONAL | November Ringbahn keys and postponed December change |
 | [p160 D1](../../people/awaloff_return_request.md#p160-d1) | CONDITIONAL | Request for Awaloff to come to Berlin |
@@ -195,7 +195,7 @@ This range contains 133 sources, including 1 OPEN. [Reading states](../../../doc
 | [p167 B1](../../finance/nov9_crown_airlift_and_embassy.md#p167-b1) | READING | Thirty million crowns requested for pay and purchases in Hungary |
 | [p167 B2](../../finance/nov9_crown_airlift_and_embassy.md#p167-b2) | READING | A giant aircraft to Brasso and a mix of banknote denominations |
 | [p167 B3](../../finance/nov9_crown_airlift_and_embassy.md#p167-b3) | READING | A limited crown supply and a high exchange rate |
-| [p167 C1](../../radio/p167_mission_address.md#p167-c1) | PARTIAL | Mission address and Nachrichtenchef routing/signature field |
+| [p167 C1](../../radio/p167_mission_address.md#p167-c1) | CONDITIONAL | Mission address and Nachrichtenchef routing/signature field |
 | [p167 D](../../people/p167_captain_dispatch_fragment.md#conditional-name-proposal) | CONDITIONAL | Captain and replacement-detachment dispatch fragment |
 | [p167 E1](../../finance/nov9_crown_airlift_and_embassy.md#p167-e1) | READING | Urgent Constantinople embassy address signed Stumm |
 

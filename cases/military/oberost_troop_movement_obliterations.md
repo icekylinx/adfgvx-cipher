@@ -61,7 +61,28 @@ All indices below refer to the 318-position composite source layout. The observe
 
 The two remaining unknowns come from unresolved square cells: VG at plaintext index 25 and AF at index 35. The AF position is coupled to p186 C1 index 11; it must differ from GA, which is shared by p186 B2 index 109 and C1 index 9. All indices are zero-based, and none of these reference labels is historically assigned. The published Nov13–15b key is unchanged; its nonhistorical injective completion witness verifies compatibility without selecting historical numeral labels. Z0FORT is not silently normalized to SOFORT, and the reference `?MX1AXNRR6?1X15XGENXVX10X11` remains literal. The phrase “ist an OBOST gedrahtet” reports earlier transmission of the referenced item; the following sentence proposes movements. Neither establishes that troop movements occurred.
 
+## Native date context and numerical labels
+
+The unchanged field `GENXVX10X11XISTANOBOSTGEDRAHTET` provides a separate
+contextual check on DD, which carries the published label 1. Within the
+same conditional obliteration frame, the two final month labels use the
+original **DD** pairs at composite source indices **170/122** and **305/6**.
+All ten coordinates of `10X11` are observed; none uses a word repair or
+mask fill. The [joint verifier](../../experiments/nov13_joint_completion/README.md#the-award-class)
+replays the complete field from the source transcription.
+
+If `10X11` is a day/month date, 11 is the only valid repeated-digit month,
+so this supports retaining **numerical DD=1** independently of the p193
+award. The date reading is explicitly conditional, and the larger reference
+remains opaque. This argument changes no source coordinate or fixed-label
+count and does not resolve the obliteration geometry.
+
 ## Exact account
+
+The separate [p193 award-class interpretation](../../experiments/nov13_joint_completion/README.md)
+propagates `VG=2` to the opening field, giving `2MX1AXNRR6?1`.
+This raises the conditional label count to **153/154** but leaves the
+opening opaque. It supplies no additional ordinary word or source repair.
 
 | Quantity | Count |
 | --- | ---: |

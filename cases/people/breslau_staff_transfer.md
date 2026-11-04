@@ -14,7 +14,25 @@ The later [Article XII numeral interpretation](../../experiments/nov25_treaty_di
 reads the addressee as `AOK11`, using the two received `FX` pairs without
 source changes. Together with the earlier `VD=J` letter interpretation,
 the opening addresses the 11th Army command and identifies the officer's
-rank as Major. His surname and corps numbers remain unresolved.
+rank as Major. A further shared **`AD=Y`** assignment now supports the
+surname **Strzemieczny**, also completing the place name **Nagymágocs** in
+a different telegram. The previous corps numbers remain unresolved.
+
+## Conditional reading
+
+**Readable German — shared letter and numeral interpretation, with the
+same nine observed-coordinate word repairs:**
+
+> AOK 11. Major beauftragt mit Wahrnehmung der Geschaefts des Chef des Generalst. ?? Res. K. Strzemieczny ist unter Versetzung zu den Offizieren V. D. A. dem Generalkdo. 6 A. K. Breslau zu bes. Verwendung zugeteilt, ist unmittelbar beordert. Mitteilung an Generalkdo. ?? AK erbeten. Chef des Generalstabs d. Feldheeres. ???2?.
+
+The order concerns Major Strzemieczny's assignment to special employment
+with the VI Army Corps command at Breslau. The reserve-corps and second
+command numbers, as well as most of the closing reference, stay unknown.
+The [joint surname and place check](../../experiments/nov25_treaty_digits/README.md#the-shared-y-in-strzemieczny-and-nagymagocs)
+adds no coordinate repair. It identifies the spelling of the surname,
+without establishing the officer's given name or service record.
+
+## Source and earlier edition
 
 The source is J. Rives Childs, *General Solution of the ADFGVX Cipher
 System*, printed p224 C, PDF p227. The header reads
@@ -159,20 +177,35 @@ The earlier [July 1917 decree](../../experiments/boots_request/breslau_context/s
 provided the initial institutional lead. The November source supplies the
 closer dated witness; neither decree identifies the officer named in p224.
 
-### Surname spelling: an OCR lead without identity confirmation
+<a id="surname-spelling-an-ocr-lead-without-identity-confirmation"></a>
 
-The digitized [*Deutscher Reichsanzeiger*, no. 94, April 21, 1913,
-p4](https://digi.bib.uni-mannheim.de/reichsanzeiger/ocr/film/tesseract-4.0.0-20181201/126-9532/0243.hocr)
-has an OCR entry `v. Strzemieczny` in its official army personnel changes.
-It lists a captain of that name on the staff of Infantry Regiment 143
-among appointments as company commanders.
+### The surname and the shared Y cell
 
-The underlying scan image was unavailable during the check, so this is
-an **OCR-only spelling lead**. No independent link to the officer in the
-1918 message was established. The received `STRZEMIECZNQ` is therefore
-retained, and no `Q→Y` assignment or individual identification is made.
-These two different types of context are documented in
-[`historical_context.json`](../../experiments/breslau_staff_transfer/historical_context.json).
+The original `AD` pair at C1 position 90, source positions **86 and 210**,
+gives `STRZEMIECZNQ` under the published labels. The optional assignment
+`AD=Y` gives **`STRZEMIECZNY`** without changing either observed coordinate.
+
+The spelling is visible in *Schlesische Zeitung*, 172nd year, no. 337,
+morning edition, **17 May 1913**, PDF page 6: an officer-awards notice
+names a captain von Strzemieczny of Infantry Regiment 143.
+[Institutional scan](https://bibliotekacyfrowa.pl/Content/139045/GSL_P_31292_IV_1913_26511_337.pdf)
+· [Masthead](../../experiments/nov25_treaty_digits/sources/schlesische_1913_title.png)
+· [Printed name](../../experiments/nov25_treaty_digits/sources/strzemieczny_1913_military.png).
+This supplies image evidence beyond the earlier
+[*Reichsanzeiger* OCR lead](https://digi.bib.uni-mannheim.de/reichsanzeiger/ocr/film/tesseract-4.0.0-20181201/126-9532/0243.hocr)
+recorded in the original
+[historical-context file](../../experiments/breslau_staff_transfer/historical_context.json).
+The 1913 captain is not identified here with the 1918 major.
+
+The same unchanged pair completes `NAGYMAGOCS` in the
+[p220 evening report](../military/nov25_provisions_and_evening_report.md#p220-b).
+Across **33 reviewed records**, four native `AD` occurrences include these
+two names and the earlier damaged `VORQELEGT` and `EINQIGES`; their separate
+word repairs are retained. With the earlier conditional assignments,
+the shared Y reduces **362,880 to 40,320** possible complete squares.
+The [certificate](../../experiments/nov25_treaty_digits/names_certificate.json)
+keeps both supporting pairs, both inconvenient occurrences and all
+earlier source costs.
 
 ## Scope, credit and reproduction
 

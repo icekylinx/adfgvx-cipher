@@ -153,6 +153,11 @@ is the chief of the general staff; the remaining reference string is not
 completed. The question marks in these two parts are unassigned key cells,
 not printed erasures, and their domains share one global square bijection.
 
+The separate [p193 award-class interpretation](../../experiments/nov13_joint_completion/README.md)
+assigns `VG=2`, giving `RM1A11?2?` in D2. This fixes one further position,
+**101/106**, while leaving the reference incomplete and adding no source
+repair.
+
 ## Exact accounting and attribution
 
 | Part | Received coordinates | Raw fixed labels | Edition fixed labels | Known-coordinate substitutions | Source insertions/deletions/fills |

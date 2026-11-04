@@ -1,0 +1,123 @@
+{
+  "schema": "adfgvx-nov13-transport-completion-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "input_sha256": "5d41040b288e23690fca3fca09113c99ae689d741121759f4aee4cd626447c08",
+  "indexing": "Zero-based plaintext and source positions.",
+  "square": "H??BMUF15PX0DJLR????S6VONKZ2AWITEGCQ",
+  "completion_count": 720,
+  "record": {
+    "id": "p189_E",
+    "literal_source": "FVVVFAXFVFADAAGVFFAXXDAVDXVAVXGGXVXAFAGAFAFAGVAXAVXXFFXDGFDVFFVAAAVAFXGGVXVGVGVAABGXDXGGXVDVXV",
+    "baseline": "JAHEBEPUMPEAUSBLECHXKOMMEN?AUTOSXHIER?ANH?ENGER",
+    "shared_raw": "JAHEBEPUMPEAUSBLECHXKOMMEN2AUTOSXHIER2ANH?ENGER",
+    "edited_ciphertext": "FVVVFAXFVFADAAGVFFAXXDAVDXVAVXGGXVXAFAGAFAFAGVAXAVXXFFXDGFDVFFVAAAVAFXGGVXVGVGVAAVGXDXGGXVDVXV",
+    "joint_interpretation": "JAHEBEPUMPEAUSBLECHXKOMMEN2AUTOSXHIER2ANHAENGER",
+    "positions": 47,
+    "fixed_before": 44,
+    "fixed_after": 47,
+    "new_fixed_positions": [
+      {
+        "plaintext_index": 26,
+        "source_indices": [
+          49,
+          38
+        ],
+        "pair": "VG",
+        "domain": "2"
+      },
+      {
+        "plaintext_index": 37,
+        "source_indices": [
+          33,
+          56
+        ],
+        "pair": "VG",
+        "domain": "2"
+      },
+      {
+        "plaintext_index": 41,
+        "source_indices": [
+          28,
+          81
+        ],
+        "pair": "VV",
+        "domain": "A"
+      }
+    ],
+    "observed_substitutions": [],
+    "source_mask_fills": [
+      {
+        "source_index": 81,
+        "literal": "B",
+        "coordinate": "V",
+        "plaintext_index": 41,
+        "word": "ANHAENGER"
+      }
+    ],
+    "readable_german": "Ja, Hebepumpe aus Blech. Kommen 2 Autos. Hier 2 Anhaenger."
+  },
+  "departure_sources": [
+    {
+      "id": "p197_E",
+      "header": "CM v CZ (06.20 p.m., November 15th) 13.45 RIZI-186",
+      "hour_position": {
+        "plaintext_index": 9,
+        "source_indices": [
+          47,
+          151
+        ],
+        "pair": "AF",
+        "domain": "34789Y"
+      }
+    },
+    {
+      "id": "p198_C",
+      "header": "CM v CZ (13.03 p.m., November 15th) 13.45 RIZI-186",
+      "hour_position": {
+        "plaintext_index": 9,
+        "source_indices": [
+          47,
+          151
+        ],
+        "pair": "AF",
+        "domain": "34789Y"
+      }
+    }
+  ],
+  "scenarios": [
+    {
+      "assumptions": "VG=2 and XX=Q; four distinct transport fields are decimal digits.",
+      "field_assignments": 120,
+      "full_squares": 240
+    },
+    {
+      "assumptions": "Also treat the reported departure as same-day and no later than origin 13:45.",
+      "field_assignments": 24,
+      "full_squares": 48,
+      "reported_hour": "13:00",
+      "conditional_AF": "3",
+      "planned_hour_digit_domain": "4789"
+    },
+    {
+      "assumptions": "Also identify planned and reported movements and prohibit early departure.",
+      "field_assignments": 0,
+      "full_squares": 0,
+      "incompatibility": "The earlier scenario assigns 2 to FV; the award-class hypothesis assigns 2 to distinct VG."
+    }
+  ],
+  "reported_time_only": {
+    "assumptions": "VG=2, XX=Q, and only the reported departure is a same-day clock before 13:45.",
+    "AF": "3",
+    "full_squares": 120
+  },
+  "limits": [
+    "The two quantity digits use VG=2, conditional on the p193 EK class interpretation.",
+    "ANHAENGER is a one-coordinate word completion at a printed invalid B; no valid coordinate is changed.",
+    "The original published-key streams and all earlier frame alternatives remain unchanged.",
+    "Chronological constraints are separately conditional; they do not date the departure independently.",
+    "The earlier no-early-departure scenario and VG=2 cannot both hold in the shared bijective square."
+  ]
+}

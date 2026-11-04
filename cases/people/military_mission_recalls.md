@@ -8,7 +8,28 @@ Source edition and verification: **icekylinx and GPT-6 Astra Pro**. Published pe
 
 ## Conditional digit reading
 
-An earlier Siegfried cancellation, [p135 A](siegfried_assignment_cancellation.md), directly supplies **45610** under the Nov4–6 key. If both orders cite the same reference, p161 C1’s observed XA/VF pairs fix **XA=5, VF=6**, so its reference reads **ZU2NR45610**. The two orders differ in wording and reception; [the complete comparison](../../experiments/nov7_9_joint_digits/README.md) retains the alternative 46510 and the separate erased date digit.
+An earlier Siegfried cancellation, [p135 A](siegfried_assignment_cancellation.md), directly supplies **45610** under the Nov4–6 key. If both orders cite the same reference, p161 C1’s observed XA/VF pairs fix **XA=5, VF=6**, so its reference reads **ZU2NR45610**. The two orders differ in wording and reception; [the complete comparison](../../experiments/nov7_9_joint_digits/README.md) retains the alternative 46510. The erased date digit has the separately priced
+completion below.
+
+## Conditional complete Siegfried order
+
+A separately priced date completion reads **MK 2.11**. The erased position has native domain **1GIKNY**, so 1 is its only numerical value if this is a day/month date. The distinct Osthoff recall on p161 D1 directly preserves `MKX2X11` in observed pairs. This supports the format and month, rather than treating the two orders as copies.
+
+The completion supplies **F at printed dash 185**, changing `?G` to `FG`.
+It adds one source-mask fill and no observed-coordinate substitution.
+Together with the 45610 reference interpretation, C1 reaches **102/102
+fixed labels** at **four observed substitutions and five printed-erasure
+fills**. C2 is already an unchanged 77-label source reading.
+
+**Readable German — complete conditional C1–C2 order; source abbreviations and spellings retained:**
+
+> SS Doppel GR. HQ. MK. 2.11. Militaermiszion Konstantinopel. Zu 2 Nr. 45610. Komdo Oberlts Siegfried nach Tuerkei u deszen Zuteilung zur Milmiszion ist aufgehoben. AKO folgt. Allerh. Bef. Chef Milkab Frhr Marschall.
+
+The two parts therefore have **179/179 conditional fixed labels**. The
+spelling `DESZEN`, the abbreviation `u` and the received `MISZION` spellings
+remain literal. The calendar reading does not force the reference
+assignment: under the opposite 5/6 square the same date reads 2.11 while
+the reference becomes 46510.
 
 ## Meaning and exact scope
 
@@ -19,6 +40,10 @@ These are readings of the telegrams. The edition does not establish a further bi
 Childs printed page 161 / PDF page 164 gives C at 05.57 a.m. on 9 November, `NR16 (9/11) 2 TLE`, and D at 06.05 a.m., `FUER YZ NR17 (9/11) 2 TEILE`. All four parts decrypt under the unchanged Nov7–9 key. Their printed lengths 204/154/254/190 exactly match the counted source slots.
 
 ## Counts and source readings
+
+The table retains the baseline editions. With the separate reference and date
+completion above, all four parts have **401/401 conditional fixed labels**,
+at six observed substitutions and five printed-erasure fills in total.
 
 | Record | Source slots | Raw fixed positions | Edited fixed positions | Observed-coordinate substitutions | Source fills |
 |---|---:|---:|---:|---:|---:|
@@ -109,9 +134,9 @@ The later wording is abbreviated and includes an additional raw `1` after `REGMT
 
 ## Remaining uncertainty
 
-C1's edited date-like field remains `2X?1`: its erased position 19 has domain **1GIKNY**. The two question marks in `ZU2NR4??10` are different: they arise from the observed XA and VF cells of the published partial square, at plaintext positions 58 and 59. Their joint assignments are **56 or 65**, not independent choices that could both be 5 or both be 6. The conservative streams retain both assignments; the optional cross-period interpretation is given above.
+In the unchanged baseline edition, C1's date-like field remains `2X?1`: its erased position 19 has domain **1GIKNY**. The two question marks in `ZU2NR4??10` are different: they arise from the observed XA and VF cells of the published partial square, at plaintext positions 58 and 59. Their joint assignments are **56 or 65**, not independent choices that could both be 5 or both be 6. The conservative streams retain both assignments; the optional cross-period interpretation is given above.
 
-C1 has four known-coordinate changes and four printed-erasure fills. The local `0→U` proposal before `DESZEN` alone costs two observed-coordinate substitutions; it is not a global reassignment of the digit0 key label. D1 has two word repairs, `KOMMRNDO→KOMMANDO` and `END→UND`. C2 and D2 are entirely unchanged source readings.
+The baseline C1 layer has four known-coordinate changes and four printed-erasure fills; the conditional date completion adds the fifth fill. The local `0→U` proposal before `DESZEN` alone costs two observed-coordinate substitutions; it is not a global reassignment of the digit0 key label. D1 has two word repairs, `KOMMRNDO→KOMMANDO` and `END→UND`. C2 and D2 are entirely unchanged source readings.
 
 ## Evidence and reproduction
 

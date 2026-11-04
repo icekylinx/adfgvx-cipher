@@ -14,7 +14,7 @@ This range contains 121 sources, including 0 OPEN. [Reading states](../../../doc
 |---|---|---|
 | [p200 A](../../military/p200_A.md) | READING | Siedlce and Minsk Maziowicki garrisons reach Thorn; Battalion Ostrowo whereabouts unknown |
 | [p200 B1](../../naval/black_sea_shipping.md) | PARTIAL | Order to halt CORCOWADO sale or ownership transfer to Turkey |
-| [p200 B2](../../naval/black_sea_shipping.md) | PARTIAL | Ship sale conditional on cash payment in Germany before ownership transfer |
+| [p200 B2](../../naval/black_sea_shipping.md) | CONDITIONAL | Ship sale conditional on cash payment in Germany before ownership transfer |
 
 ## p201
 
@@ -210,7 +210,7 @@ This range contains 121 sources, including 0 OPEN. [Reading states](../../../doc
 | Source | State | Subject |
 |---|---|---|
 | [p220 A2](../../military/nov25_provisions_and_evening_report.md#p220-a2) | READING | Second part: stop further provisions and notify Dresden |
-| [p220 B](../../military/nov25_provisions_and_evening_report.md#p220-b) | READING | Separate evening report with unresolved unit and place labels |
+| [p220 B](../../military/nov25_provisions_and_evening_report.md#p220-b) | CONDITIONAL | Separate evening report with unresolved unit and place labels |
 | [p220 C1](../../military/mackensen_armistice_appeal.md#p220-c1-berthelots-notification) | READING | Berthelot notification of Foch's armistice position |
 | [p220 C2](../../military/mackensen_armistice_appeal.md#p220-c2-southeastern-front-and-pending-decision) | READING | Southeastern front disarmament and internment demand |
 | [p220 C3](../../military/mackensen_armistice_appeal.md#p220-c3-limited-acknowledgment-and-conditional-proposal) | READING | Limited acknowledgment pending OHL's decision |
@@ -251,7 +251,7 @@ This range contains 121 sources, including 0 OPEN. [Reading states](../../../doc
 | [p224 A1](../../radio/nov27_receiving_instructions.md#p224-a1) | READING | Use especially good radio listeners and send clearly |
 | [p224 A2](../../radio/nov27_receiving_instructions.md#p224-a2) | READING | Only secure link home and preferred reception wavelength |
 | [p224 B](../../radio/nov27_receiving_instructions.md#p224-b) | READING | Brief report of no special events |
-| [p224 C1](../../people/breslau_staff_transfer.md) | READING | Staff officer raw STRZEMIECZNQ transferred from acting corps chief-of-staff duties |
+| [p224 C1](../../people/breslau_staff_transfer.md) | CONDITIONAL | Staff officer raw STRZEMIECZNQ transferred from acting corps chief-of-staff duties |
 | [p224 C2](../../people/breslau_staff_transfer.md) | CONDITIONAL | Special employment with Breslau command; separate historical VI Corps context |
 
 [Return to all source pages](../README.md).

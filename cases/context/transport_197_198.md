@@ -99,17 +99,31 @@ conversation. These identities help future recovery without choosing a digit:
 | Men remaining, p197 E / p198 C | `GD` |
 
 The planned and reported hour digits therefore **differ** under the common
-bijective square. The tonnage equals the planned-hour digit. If all four
-distinct fields are ordinary single decimal digits, they range over
-`2, 3, 4, 7, 8, 9`, giving 360 joint assignments. Treating the reported departure
-as same-day and no later than its `13.45` origin field narrows its time to
-12:00 or 13:00. Further identifying the two movements and forbidding an early
-departure would force the conditional scenario “planned 12:00, departed
-13:00, a 2-ton lorry.” Those extra assumptions are unproved, so **the historical
-key and the preferred plaintext retain their question marks**.
+bijective square. The tonnage equals the planned-hour digit. Under the
+published partial key, treating all four distinct fields as ordinary
+decimal digits gives **360** assignments. A same-day departure no later
+than the `13.45` origin field could then be 12:00 or 13:00. Further assuming
+the same movement and prohibiting early departure gave the earlier scenario
+“planned 12:00, departed 13:00, a 2-ton lorry.”
+
+The [shared conditional VG=2 interpretation](../../experiments/nov13_joint_completion/README.md#the-award-class)
+changes that comparison. Digit 2 belongs to VG and cannot also occupy
+either hour cell. The four decimal fields now have **120** assignments.
+If the reported departure is same-day and before `13.45`, it must be
+**13:00**, assigning **AF=3**; **24** joint field assignments remain. The
+planned-hour/tonnage cell FV is then one of `4, 7, 8, 9`.
+
+No assignment satisfies the additional “no early departure” condition.
+The earlier 12:00/13:00 scenario and the new award-class interpretation are
+therefore incompatible within this square. Neither the common-movement
+assumption nor the chronology is supplied by the ciphertext. The current
+readings retain the unknown time fields, with the 13:00 branch recorded
+separately in the [joint transport certificate](../../experiments/nov13_joint_completion/transport_certificate.json).
+The p198 C source itself prints a `13.03 p.m.` receipt before its `13.45`
+origin time, so the recorded times cannot all be accepted without qualification.
 
 The [linked-field analysis](../../experiments/transport_followup/linked_fields.json)
-records the exact source indices and all three scenario counts; its separate
+records the exact source indices and the earlier three scenario counts; its separate
 enumeration checks every one of the square's 40,320 bijective completions.
 An [independent review](../../data/reviews/transport_linked_fields_independent.json)
 reconstructs the mappings by column offsets and confirms that every tied

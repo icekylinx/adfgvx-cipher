@@ -1,0 +1,38 @@
+{
+  "schema": "adfgvx-nov13-transport-inputs-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "data/certificates/p185_D_transport.json": "4d2ec54fa8a8fa1d7b2a902519e05ee94d4894ef4cc9a44510acfbc11aabc926",
+    "data/certificates/p197_p198_transport.json": "9cb285bfa1e0e2dafc6c9841f55447e910e4063103b071925d636b0286053950",
+    "experiments/nov13_joint_completion/inputs.json": "2738680ee022529e19e8868df319b04bde55faf3c2267c52e6e04e56a580b646",
+    "experiments/transport_followup/linked_fields.json": "88b216ef59051e817f6398dcdb09df92ca3547826d458f79ea3b2688e78079c5",
+    "experiments/late_november_joint_completion/verify.py": "7a56f75689f4cc174c3d371b6a5e3c44520087aba34a3e599cd6c0c70a707cc1",
+    "sources/excerpts/childs_p189_context.png": "62b55cb31bbfefd665e052ce52cc38dacc2c99c14145db80c5d78cd1410913dd",
+    "sources/excerpts/childs_p197_context.png": "27c34e5ffb78383fc8f287086115244d87e634b08f47f862bac82c1bf4d88324",
+    "sources/excerpts/childs_p198_context.png": "e4512f375acc0c3e229b15c54cfc28c582cec9c81063597d49b2e1d6f576eee2"
+  },
+  "record": "p189_E",
+  "source_certificate": "data/certificates/p185_D_transport.json",
+  "mask_fill": {
+    "source_index": 81,
+    "literal": "B",
+    "coordinate": "V",
+    "plaintext_index": 41,
+    "word": "ANHAENGER"
+  },
+  "expected_interpretation": "JAHEBEPUMPEAUSBLECHXKOMMEN2AUTOSXHIER2ANHAENGER",
+  "readable_german": "Ja, Hebepumpe aus Blech. Kommen 2 Autos. Hier 2 Anhaenger.",
+  "case": "cases/context/transport.md",
+  "linked_fields": "experiments/transport_followup/linked_fields.json",
+  "limits": [
+    "The two quantity digits use VG=2, conditional on the p193 EK class interpretation.",
+    "ANHAENGER is a one-coordinate word completion at a printed invalid B; no valid coordinate is changed.",
+    "The original published-key streams and all earlier frame alternatives remain unchanged.",
+    "Chronological constraints are separately conditional; they do not date the departure independently.",
+    "The earlier no-early-departure scenario and VG=2 cannot both hold in the shared bijective square."
+  ]
+}

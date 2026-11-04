@@ -87,6 +87,10 @@ same full reading and ciphertext.
 
 </details>
 
+## Conditional digit reading
+
+The [shared Nov7–9 reference interpretation](../../experiments/nov7_9_joint_digits/README.md) supplies **6** in the Arad footer, giving **RM 1C 186 GEH** and **136/136 conditional edited labels** in p168 E. The opposite assignment gives 185 GEH. Both coordinates of this VF pair are original observations. The four word substitutions, two printed-mask fills and one supplied gap coordinate remain unchanged.
+
 ## p168 E
 
 **Readable German — complete edited stream, preserving the unresolved fields and literal labels:**

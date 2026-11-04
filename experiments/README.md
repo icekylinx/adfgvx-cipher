@@ -24,11 +24,14 @@ language guess would remain conjectural.
 | Romanian ultimatum report | [Source reconstruction](nov11_romanian_ultimatum_report/README.md) and [independent implementation](nov11_romanian_ultimatum_report/independent.py) |
 | Two Danube reports: completed command address and Kladovo reconnaissance | [Conditional completions, native address witnesses and map attestation](nov6_danube_completion/README.md) |
 | Missing December tables and a shared J in two late messages | [Six word fills and a shared-square interpretation that removes four source changes](late_november_joint_completion/README.md) |
-| Late-November dates and formations | [Thirteen numeral positions across seven messages](late_november_calendar_and_units/README.md) |
-| The repeated Siegfried cancellation reference | [Seventeen shared 5/6 positions across ten source parts](nov7_9_joint_digits/README.md) |
+| Late-November dates and formations | [Thirteen numeral positions and a separately priced 303rd Division identification](late_november_calendar_and_units/README.md) |
+| The repeated Siegfried cancellation reference | [Twenty-six shared 5/6 positions across fifteen parts and a completed date](nov7_9_joint_digits/README.md) |
+| November 13–15 headquarters, award class and transport | [Fourteen unchanged-pair gains, one word fill and compatibility checks](nov13_joint_completion/README.md) |
 | November 16–18 dates and references | [Thirteen further numerals and a repeated reference prefix](nov16_18_reference_completion/README.md) |
 | Asgard's return to Poti | [A complete two-part reading with both tied source accounts](p155_shipping_completion/README.md) |
-| Article XII, Breslau's VI Corps and the Kiev report | [Shared numeral constraints and reduced source repairs](nov25_treaty_digits/README.md) |
+| Article XII, Breslau's VI Corps, name spellings and the Kiev report | [Shared square constraints and reduced source repairs](nov25_treaty_digits/README.md) |
+| p89 ship-return clause | [Three mask fills, native word witnesses and every compatible completion](p89_ship_clause_completion/README.md) |
+| Repeated vessel labels in the Poti message | [Common letters across all equal-cost label pairs and source frames](p59_repeated_vessel_labels/README.md) |
 | The Berlin council's letter to Mackensen's soldiers | [An archival counterpart and independent signature evidence](mackensen_archival_comparison/README.md) |
 
 ### Latest source editions and follow-up methods

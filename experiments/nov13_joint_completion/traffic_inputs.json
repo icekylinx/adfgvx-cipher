@@ -1,0 +1,109 @@
+{
+  "schema": "adfgvx-nov13-shared-traffic-inputs-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "experiments/black_sea_shipping/certificates.json": "83f28b05d666033aaf07d13c7530ce9ee5ac94b114c64cb961921b05c588df8e",
+    "experiments/black_sea_shipping/inputs.json": "6d9f14e8d21652c2de9ae582bcdc0a8b3d8cb6632390227d1517e469631d3a1b",
+    "experiments/late_november_joint_completion/verify.py": "7a56f75689f4cc174c3d371b6a5e3c44520087aba34a3e599cd6c0c70a707cc1",
+    "experiments/nov13_joint_completion/inputs.json": "2738680ee022529e19e8868df319b04bde55faf3c2267c52e6e04e56a580b646",
+    "experiments/tiflis_appointment/certificates.json": "08c8cfece0c835a3e0858b51876cf1c20bc3571e9d37a711ab54709c5315a1db",
+    "experiments/tiflis_appointment/inputs.json": "8c6798e8501287d17b4da19412d311ebb9c877db10286f45fb40e4d3b8ca140a",
+    "experiments/warsaw_service_messages/certificates.json": "26fb0512fe2171f1c3b2916ee079523feffa91684750131ccfcaac88226c3840",
+    "experiments/warsaw_service_messages/inputs.json": "8b1a448c40914e035a2d49ac3f302b9e8342dfbcd984c62132396e0d72f19da7"
+  },
+  "key_id": "Nov13-15b",
+  "records": [
+    {
+      "id": "p199_A1",
+      "certificate": "experiments/black_sea_shipping/certificates.json",
+      "candidate": "ordinary_words",
+      "case": "cases/naval/black_sea_shipping.md",
+      "expected_interpretation": "ANFEIGENHAUSSECHSHUNDERTACHTZEHNXHERKULESMELDETZWOELFTENNOVEMBERDASSNIKOLAJEWMEHREREDAMPFERLEBERKAKAOPULVERAUSXOPERETTEXZIRKA120TONNENEINGELAUFENX",
+      "new_fixed_positions": 1
+    },
+    {
+      "id": "p200_B2",
+      "certificate": "experiments/black_sea_shipping/certificates.json",
+      "candidate": "source_erasure_fills",
+      "case": "cases/naval/black_sea_shipping.md",
+      "expected_interpretation": "TUERKEIGEGENUEBERKNNGELTENDGEMCHTWERDENXREEDEREIWILLDAMPFERANTUEKEINICHTVERKAUFENESSEIDENNDASSKAUFPREISINDEUTSCHLANDVOREIGENTUMSUEBERTRAGUNGBARBEZAHLTWERDEXMARINEAMTXAXSECHSXS22??0",
+      "new_fixed_positions": 2
+    },
+    {
+      "id": "p199_B1",
+      "certificate": "experiments/tiflis_appointment/certificates.json",
+      "candidate": "ordinary_word_repairs",
+      "case": "cases/caucasus/tiflis_appointment.md",
+      "expected_interpretation": "ANGENERALVONKRESSTIFLISXNRX21?XBITTEWEITERLEITUNGFOLGENDENTELEGRAMMSDESMINISTERIUMDESAEUSSERENINWARSCHAUANHERRNXWACLAWXVXOSTROWSKIX",
+      "new_fixed_positions": 1
+    },
+    {
+      "id": "p192_A",
+      "certificate": "experiments/warsaw_service_messages/certificates.json",
+      "candidate": "one_overstrike_fill",
+      "case": "cases/radio/warsaw_service_messages.md",
+      "expected_interpretation": "ANXOBLT0KRETZSCHMARBEIXOKMXWIRTSCHAFTSSTABABTX1XBUKARESTXNRX2??XERBITTENNACHRICHTUEBERLAGENUNDAUSSICHTENSOWIEBEZUEGLICHUNSERERINTERESSENGEFASSTEBESCHLUESSEXDEUTKAUF5AUSWAERTIG",
+      "new_fixed_positions": 1
+    },
+    {
+      "id": "p192_B",
+      "certificate": "experiments/warsaw_service_messages/certificates.json",
+      "candidate": "single_missing_coordinate",
+      "case": "cases/radio/warsaw_service_messages.md",
+      "expected_interpretation": "KWHXLPXUEBERMITTELTALLEVORLIEGENDENWICHTIGENNACHRICHTENFUERHEIMATDIENSTSTELLENSOWIEXOHLXUNDUMGEKEHRTXKMXALLGXKRIEGSDEPXNRX?521115XANCH",
+      "new_fixed_positions": 1
+    }
+  ],
+  "readable_quotes": [
+    {
+      "record": "p199_A1",
+      "case": "cases/naval/black_sea_shipping.md",
+      "german": "An Feigenhaus sechshundertachtzehn. Herkules meldet zwoelften November, dass Nikolajew mehrere Dampfer LEBER Kakaopulver aus OPERETTE, zirka 120 Tonnen, eingelaufen."
+    }
+  ],
+  "case_fields": [
+    {
+      "record": "p200_B2",
+      "start": 174,
+      "end": 180,
+      "field": "S22??0",
+      "case": "cases/naval/black_sea_shipping.md",
+      "text": "`S22??0`"
+    },
+    {
+      "record": "p199_B1",
+      "start": 27,
+      "end": 30,
+      "field": "21?",
+      "case": "cases/caucasus/tiflis_appointment.md",
+      "text": "`21?`"
+    },
+    {
+      "record": "p192_A",
+      "start": 60,
+      "end": 63,
+      "field": "2??",
+      "case": "cases/radio/warsaw_service_messages.md",
+      "text": "`2??`"
+    },
+    {
+      "record": "p192_B",
+      "start": 122,
+      "end": 129,
+      "field": "?521115",
+      "case": "cases/radio/warsaw_service_messages.md",
+      "text": "`?521115`"
+    }
+  ],
+  "limits": [
+    "VG=2 is conditional on the p193 EK class identification and retaining numerical DD=1, corroborated by the independent p186 date-shaped 10X11 only under its explicit date interpretation. XX=Q is conditional on the shared headquarters abbreviation.",
+    "Every pre-existing source geometry, word repair, mask fill and rival remains in its source certificate.",
+    "All six newly fixed labels use complete observed VG pairs; no coordinate is changed or filled.",
+    "The p199 A1 canonical model deletes source50; equally priced broader models51/52 remain, the last retaining a nonnumeric1G0 amount.",
+    "The fixed-label gains are conditional consequences, not independent evidence for the award identification."
+  ]
+}

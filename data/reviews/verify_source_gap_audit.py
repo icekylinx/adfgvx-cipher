@@ -28,6 +28,31 @@ def literal(record):
     return ''.join(''.join(record['source_rows']).split())
 
 
+def resolve_native_input(path, candidate):
+    """Resolve a joint-analysis reference without counting it as another copy."""
+    if 'source_rows' in candidate:
+        return path, candidate, None
+    ident = candidate['id']
+    assert candidate.get('record_id') == ident, (path, ident, 'Reference identifier differs')
+    assert candidate.get('rows_field') == 'source_rows', (path, ident, 'Unknown source field')
+    native_path = candidate.get('inputs')
+    assert isinstance(native_path, str) and native_path.endswith('/inputs.json'), (
+        path, ident, 'Missing canonical input reference')
+    source = load(ROOT / native_path)
+    for key in candidate.get('input_root', []):
+        source = source[key]
+    records = source.get('records')
+    if records is None and isinstance(source.get('record'), dict):
+        records = [source['record']]
+    matches = [r for r in (records or []) if r['id'] == ident]
+    assert len(matches) == 1, (path, ident, 'Reference must resolve to one native record')
+    native = matches[0]
+    assert 'source_rows' in native, (path, ident, 'Reference does not resolve to a transcription')
+    assert hashlib.sha256(literal(native).encode()).hexdigest() == candidate.get('source_sha256'), (
+        path, ident, 'Referenced source digest differs')
+    return native_path, native, dict(source_id=ident, derived_input=path, native_input=native_path)
+
+
 def verify_matching_inputs(audited, matching):
     """Verify every cited native transcription, including later supplements.
 
@@ -122,7 +147,7 @@ def main():
     by_id = {r['id']: r for r in rows}
     catalogue = load_catalog()
     editions = {r['id']: r for r in catalogue['challenge'] + catalogue['other']}
-    input_reviews = []
+    input_reviews, reference_reviews = [], []
     for r in rows:
         text = literal(r)
         assert r['pdf_page_1based'] == r['printed_page'] + 3
@@ -133,15 +158,23 @@ def main():
         assert r['valid_source_coordinates'] + len(masks) == len(text)
         assert isinstance(r['header_transcription'], str) and r['header_transcription']
         if r['id'] in editions:
-            matching = []
+            matching = {}
             for name in dict.fromkeys(editions[r['id']]['evidence']):
                 if name.endswith('/inputs.json'):
                     inputs = load(ROOT / name)
                     records = inputs.get('records')
                     if records is None and isinstance(inputs.get('record'), dict):
                         records = [inputs['record']]
-                    matching += [(name, x) for x in (records or []) if x['id'] == r['id']]
-            input_reviews.append(verify_matching_inputs(r, matching))
+                    selected = [x for x in (records or []) if x['id'] == r['id']]
+                    assert len(selected) <= 1, (name, r['id'], 'Repeated record in one input file')
+                    for candidate in selected:
+                        native_path, native, reference = resolve_native_input(name, candidate)
+                        if native_path in matching:
+                            assert matching[native_path] == native, (native_path, r['id'], 'Conflicting source reference')
+                        matching[native_path] = native
+                        if reference is not None:
+                            reference_reviews.append(reference)
+            input_reviews.append(verify_matching_inputs(r, list(matching.items())))
     assert sum(r['source_slots'] for r in rows) == 3451
     assert sum(r['valid_source_coordinates'] for r in rows) == 3232
     assert by_id['p84_C']['source_rows'][-1].endswith('FA--- ----')
@@ -164,6 +197,7 @@ def main():
                       'audited_sources_still_open': sorted(
                           ident for ident in TARGETS & editions.keys() if editions[ident]['state'] == 'OPEN'),
                       'native_input_records_verified': sum(r['native_records_verified'] for r in input_reviews),
+                      'derived_source_references_verified': reference_reviews,
                       'sources_with_identical_supplemental_inputs': [r for r in input_reviews
                           if r['native_records_verified'] > 1],
                       'source_evidence': evidence['summary']}, indent=2))

@@ -1,8 +1,8 @@
 {
   "schema": "adfgvx-table-readable-mappings-v1",
   "prepared_by": "icekylinx and GPT-6 Astra Pro",
-  "review_date_utc": "2026-11-03",
-  "scope": "Exactly one complete p189 E readable table row is mapped to its unchanged 47-position raw stream. The other four readable rows are preserved without asserting an exact mapping for their excerpts and composite interpretations.",
+  "review_date_utc": "2026-11-04",
+  "scope": "The complete p189 E readable table row is mapped to its separately priced 47-position conditional completion. Original source-pair equality and the printed invalid coordinate are checked against the unchanged native certificate. The other four rows retain their existing excerpt and composite qualifications.",
   "case_path": "cases/context/transport.md",
   "section": "Most likely readings",
   "table_header": [
@@ -16,30 +16,29 @@
     "p193 E",
     "p194 A / p196 B composite",
     "p197 E / p198 C",
-    "p189 E"
+    "p189 E, conditional shared digit"
   ],
   "required_case_notes": [
-    "In p189 E, `ANH?ENGER` retains the unresolved word position caused by the",
-    "literal invalid B at source index **81**. Its plaintext position **41**",
-    "positions **26** and **37**, both come from the complete pair `VG` and",
-    "therefore share one unknown value with domain **`234789QY`**."
+    "**Readable German — conditional shared VG=2, with one invalid-coordinate fill:**",
+    "supplies **VG=2** to both count fields, at plaintext positions **26 and 37**.",
+    "The word `ANH?ENGER` has the partial pair `V?`, with the invalid printed `B`",
+    "at source position **81**. Filling it as **V** gives `ANHAENGER`."
   ],
   "evidence_files": {
-    "data/certificates/p185_D_transport.json": "4d2ec54fa8a8fa1d7b2a902519e05ee94d4894ef4cc9a44510acfbc11aabc926"
+    "data/certificates/p185_D_transport.json": "4d2ec54fa8a8fa1d7b2a902519e05ee94d4894ef4cc9a44510acfbc11aabc926",
+    "experiments/nov13_joint_completion/transport_certificate.json": "dc9eca54ddef57251aae3ab4723920dbd54b7a39da6dddcf26f329e27c12f531"
   },
   "rows": [
     {
       "id": "p189_E_transport_table",
       "table_row_index": 4,
-      "source_cell": "p189 E",
-      "qualification_sha256": "2bf62ebdeff4fb20f25bbcad138cb7e58607d48e2cef8abc911658e6f262b219",
+      "source_cell": "p189 E, conditional shared digit",
+      "qualification_sha256": "6b1597aace7a67f096fa6c2a89da9b2d6044b4879b0625b4f43e5be47a7f9899",
       "plaintext_source": {
-        "path": "data/certificates/p185_D_transport.json",
+        "path": "experiments/nov13_joint_completion/transport_certificate.json",
         "keys": [
-          "direct_transport_context",
-          5,
-          "analysis",
-          "raw_partial_plaintext"
+          "record",
+          "joint_interpretation"
         ]
       },
       "separator_label": "X",
@@ -47,10 +46,12 @@
       "brackets": [],
       "question_punctuation": [],
       "protected_fields": [
-        "ANH?ENGER"
+        "ANHAENGER",
+        "KOMMEN2AUTOS",
+        "HIER2"
       ],
       "mapped_positions": 45,
-      "unresolved_positions": 3
+      "unresolved_positions": 0
     }
   ],
   "unmapped_rows_preserved": [
@@ -135,15 +136,15 @@
     "exactly_mapped_rows": 1,
     "other_rows_preserved": 4,
     "mapped_nonseparator_positions": 45,
-    "unresolved_positions_in_display": 3,
+    "unresolved_positions_in_display": 0,
     "same_cell_groups": 1,
     "distinct_shared_unknown_positions": 2,
     "displayed_source_erasure_positions": 1
   },
   "limits": [
-    "This live mapping is a presentation correction; no source, key, coordinate or existing certificate changes.",
-    "Two displayed unknowns are the same unassigned key-cell value. The third has an erased source coordinate and remains a separate uncertainty.",
-    "The count-like position domains include Q and Y as well as digits. Neither a numerical-only assumption nor a historical number is adopted.",
+    "The displayed completion assumes VG=2 under the separately documented award-class and numeral-one interpretations, plus one invalid-coordinate word fill.",
+    "The native coordinate pairs, original unassigned-cell domain and source erasure remain checked against the unchanged source certificate.",
+    "The new conditional square and mask fill do not change an observed coordinate. Their complete source account and all 720 square witnesses are verified separately.",
     "The other four table rows retain their previously disclosed editorial interpretations and excerpts; byte preservation does not establish an exact semantic mapping."
   ]
 }

@@ -4,7 +4,7 @@
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
-This is a conditional partial edition of the previously uncounted first part of the [Poti horse-delivery exchange](poti_horse_delivery.md). The original source has **225 positions** under the printed label **RICHI-220**. Its two transport clauses and footer can be repaired at a small explicit cost, but the source frame, opening and vessel-like fields remain unresolved.
+This is a conditional partial edition of the previously uncounted first part of the [Poti horse-delivery exchange](poti_horse_delivery.md). The original source has **225 positions** under the printed label **RICHI-220**. Its two transport clauses and footer can be repaired at a small explicit cost. A separate repeated-field extension now supplies three conditional letters, reaching **108/110** positions while retaining the original frame alternatives, unread opening and competing vessel-like labels.
 
 ## Source and complete frame comparison
 
@@ -37,7 +37,65 @@ The representative below excludes source indices 200–204, the visible `AFFDD` 
 
 > 6 X ??FFQ274 X HG6 am 11 X 9 X auf Dampfer X VUR?A4VA?NA X 5 X BATT A am 15 X 9 X auf Dampfer X BURDAL X BYRDA? X insgesamt 52 Pferde nach X POTI0.
 
-The two `AUF DAMPFER` clauses and the `INSGESAMT52PFERDENACH` footer support a limited horse-transport interpretation toward the literal `POTI0` ending. The separately printed second and third parts concern horses and Poti, which supplies context but does not identify the names or restore the opening. `VUR?A4VA?NA`, `BURDAL` and `BYRDA?` remain opaque; they are not silently converted into named ships.
+The two `AUF DAMPFER` clauses and the `INSGESAMT52PFERDENACH` footer support a limited horse-transport interpretation toward the literal `POTI0` ending. The separately printed second and third parts concern horses and Poti, which supplies context but does not identify the names or restore the opening. In this earlier 105/110 layer, `VUR?A4VA?NA`, `BURDAL` and `BYRDA?` remain opaque. The separate extension below transfers three missing letters; it does not identify either vessel with certainty.
+
+## Conditional repeated-field completion
+
+Each `AUF DAMPFER` clause is followed by two similar short fields. If each
+pair repeats one label, and extra observed-coordinate changes are minimized,
+three missing letters are common to every minimum-cost reconstruction:
+**N at position 35**, **R at 40**, and **L at 81**. The corresponding letters
+are directly present in the other copy at positions 41, 34 and 74.
+
+| Raw pair in every retained frame | Minimum equal-copy alternatives | Common missing-letter transfers |
+|---|---|---|
+| `VUR?A` / `VA?NA` | `VARNA` or `VURNA` | N into the first copy; R into the second |
+| `BURDAL` / `BYRDA?` | `BURDAL` or `BYRDAL` | L into the second copy |
+
+These are conditional repetition inferences. The source itself still fixes
+103/110 positions under the five-exclusion frame. Transferring just the
+three common letters gives **108/110**, at **four additional printed-mask
+fills and no additional observed-coordinate substitutions**. N and R each
+need one missing half; L needs both halves. The totals are **five observed
+substitutions, six mask fills and five separately declared source
+exclusions**. All 21 previously minimizing source maps remain represented.
+
+**Readable German — the common extension, with the three conditional letters bracketed:**
+
+> 6 X ??FFQ274 X HG6 am 11 X 9 X auf Dampfer X VUR[N]A4VA[R]NA X 5 X BATT A am 15 X 9 X auf Dampfer X BURDAL X BYRDA[L] X insgesamt 52 Pferde nach X POTI0.
+
+The differing U/A and U/Y letters and the raw `4` remain literal in this
+common layer. Enforcing identical complete copies costs one further observed
+substitution for each pair and leaves **four joint minimum variants**; all
+are retained. The extension does not silently choose `VARNA`, replace `4`
+with a separator, or turn `BURDAL`/`BYRDAL` into a different ship name. The
+two opening unknowns still permit **36** complete strings in each frame.
+
+<details>
+<summary>Common conditional extension and exact machine labels</summary>
+
+**Edited output — three repetition-based letters; five substitutions and six mask fills after the existing five exclusions:**
+
+```text
+6X??FFQ274XHG6AM11X9XAUFDAMPFERXVURNA4VARNAX5XBATTAAM15X9XAUFDAMPFERXBURDALXBYRDALXINSGESAMT52PFERDENACHXPOTI0
+```
+
+</details>
+
+For limited context, the shipping company's own
+[history](https://navibulgar.com/en/company/history/index.php) records a
+steamer *Varna* among deliveries in 1903–1906 and wartime mobilization of its
+vessels in 1916–1918. A separate public
+[photograph caption](https://www.flickr.com/photos/39631091@N03/15359293270/)
+is titled *Poti, Ship Varna* and attributed by its uploader to a German
+officer in winter 1918. Only the caption was inspected; this metadata does
+not verify a September voyage or identify the telegram's vessel. These
+contextual sources make `VARNA` plausible without selecting it by arithmetic.
+
+The [extension package](../../experiments/p59_repeated_vessel_labels/README.md)
+records all label costs, all four equal-copy variants and exact source
+ledgers for every retained frame. The original first-part edition and its
+source inputs are preserved.
 
 ## Alternative frames and withheld constraints
 

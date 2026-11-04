@@ -1,0 +1,130 @@
+{
+  "schema": "adfgvx-p59-repeated-vessel-labels-input-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "case": "cases/caucasus/poti_first_part_conditional.md",
+  "indexing": "All plaintext and source-coordinate indices are zero-based.",
+  "baseline": {
+    "inputs": "experiments/poti_first_part_conditional/inputs.json",
+    "inputs_sha256": "1bf95c90053da4fc6151c25a0b5e8d0dd182871c02373c1b49709bbfeb72766c",
+    "certificate": "experiments/poti_first_part_conditional/certificates.json",
+    "certificate_sha256": "0e9b1d4221686bff7687d15d1da7f9f9784368d13f2b45df752b10808b181fcc",
+    "record_id": "p59_A1",
+    "existing_frame_maps": 21,
+    "representative_excluded_source_indices": [
+      200,
+      201,
+      202,
+      203,
+      204
+    ]
+  },
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "path": "../poti_horse_delivery/sources/p59_A1.png",
+      "printed_page": 59,
+      "pdf_page_1based": 62,
+      "crop_pdf_points": [
+        85,
+        210,
+        538,
+        390
+      ],
+      "render_scale": 4,
+      "sha256": "f62654df8599fd230ece18072cbc25ee1cd9f3ea863d78f79fdbef5c8becdbd5",
+      "width": 1812,
+      "height": 720,
+      "channels": 3,
+      "rgb_sha256": "f7e4cbb70825217b8b5566d9f145a9ea4b4d76d31a552d29cb2d18221ff62572"
+    }
+  ],
+  "repeated_fields": [
+    {
+      "id": "first_vessel_like_field",
+      "plaintext_starts": [
+        32,
+        38
+      ],
+      "length": 5,
+      "raw_copies": [
+        "VUR?A",
+        "VA?NA"
+      ],
+      "minimum_equal_copy_variants": [
+        "VARNA",
+        "VURNA"
+      ]
+    },
+    {
+      "id": "second_vessel_like_field",
+      "plaintext_starts": [
+        69,
+        76
+      ],
+      "length": 6,
+      "raw_copies": [
+        "BURDAL",
+        "BYRDA?"
+      ],
+      "minimum_equal_copy_variants": [
+        "BURDAL",
+        "BYRDAL"
+      ]
+    }
+  ],
+  "common_assignments": [
+    {
+      "plaintext_index": 35,
+      "label": "N",
+      "donor_plaintext_index": 41
+    },
+    {
+      "plaintext_index": 40,
+      "label": "R",
+      "donor_plaintext_index": 34
+    },
+    {
+      "plaintext_index": 81,
+      "label": "L",
+      "donor_plaintext_index": 74
+    }
+  ],
+  "representative_common_plaintext": "6X??FFQ274XHG6AM11X9XAUFDAMPFERXVURNA4VARNAX5XBATTAAM15X9XAUFDAMPFERXBURDALXBYRDALXINSGESAMT52PFERDENACHXPOTI0",
+  "representative_readable_german": "6 X ??FFQ274 X HG6 am 11 X 9 X auf Dampfer X VUR[N]A4VA[R]NA X 5 X BATT A am 15 X 9 X auf Dampfer X BURDAL X BYRDA[L] X insgesamt 52 Pferde nach X POTI0.",
+  "contextual_sources": [
+    {
+      "id": "navibulgar_history",
+      "url": "https://navibulgar.com/en/company/history/index.php",
+      "publisher": "Navigation Maritime Bulgare",
+      "title": "History",
+      "retrieved": "2026-11-04",
+      "observation": "The company history records delivery of steamships Varna, Sofia and Kiril in 1903–1906, and wartime mobilization of company vessels in 1916–1918.",
+      "role": "Supports the existence of a period steamer named Varna; does not establish this telegram, voyage, horse shipment or exact ship identity."
+    },
+    {
+      "id": "poti_varna_photo_caption",
+      "url": "https://www.flickr.com/photos/39631091@N03/15359293270/",
+      "publisher": "Gunter Hartnagel (blauepics), Flickr",
+      "title": "Poti, Ship Varna",
+      "uploaded": "2014-10-15",
+      "retrieved": "2026-11-04",
+      "short_caption": "Photograph taken by a German officer in winter 1918.",
+      "role": "Public caption inspected as contextual metadata only; the image itself was not retrieved. The stated winter date does not attest the September transport. No image is redistributed."
+    }
+  ],
+  "limits": [
+    "The unchanged source has 225 slots under RICHI-220; the five source exclusions and all 21 previously minimizing frame maps remain conditional and unchanged.",
+    "The repeated spans and their equal-length correspondence are explicit hypotheses. Shared letters are inferred at the minimum extra observed-coordinate cost of making each pair identical, not directly observed at the missing slots.",
+    "The common layer transfers only N35, R40 and L81. It preserves the conflicting U/A and U/Y observations and the literal 4 between the first two names, so it does not itself assert identical whole names.",
+    "Exactly two minimum equal-copy variants survive for each field. All four joint variants are retained, including VURNA and BYRDAL; none is selected as historically unique.",
+    "VARNA is a plausible named-ship reading with external contextual support. No September voyage or particular hull is identified, and BURDAL/BYRDAL is not silently converted to Burgas.",
+    "The opening remains unresolved, all numeric labels and raw 4 are retained, and no additional source map or key assignment is introduced. This extension adds no physical source record."
+  ],
+  "credit": "Childs source and published Sep19–21 key; earlier source transcription, A2/A3 reading and first-part frame analysis retain their attribution. Repeated-field domain comparison and exact conditional extension: icekylinx and GPT-6 Astra Pro. No historical first-decipherment claim."
+}

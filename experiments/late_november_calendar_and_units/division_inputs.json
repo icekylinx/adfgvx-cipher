@@ -1,0 +1,65 @@
+{
+  "schema": "adfgvx-p230-303rd-division-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": {
+    "experiments/late_november_calendar_and_units/inputs.json": "dedac55058a5189db17fbd1a515e7b6047967a49a7a7c29676fb9886d65f64dc",
+    "experiments/late_november_calendar_and_units/certificates.json": "41d9a4f7018bc3aa0ad20f7222a893653eb2d4de8be89042707bc324b6df280d",
+    "experiments/late_november_calendar_and_units/verify.py": "5a9f27b9bd5ed66471f4d4c902aa79ac874348ae6eb5e0ee29ece7076c5393f6",
+    "experiments/operational_recovery/inputs.json": "32d9098d4c9f3451fce6b380754525d4cfb850f41afafa462d679fac8f12acfe",
+    "experiments/operational_recovery/certificates.json": "ea2f6e677c4f5795699d5462165ca7f0eb0e956c31c071f3be619a409c19c2fc"
+  },
+  "record_id": "p230_A4",
+  "historical_source": {
+    "provenance": "experiments/late_november_calendar_and_units/inputs.json",
+    "crop": "experiments/late_november_calendar_and_units/sources/barkoczy_p11.png",
+    "printed_page": 11,
+    "pdf_page_1based": 15,
+    "identified_formations": [
+      "89th Infantry Division",
+      "303rd Landsturm Division"
+    ],
+    "scope": "The 1923 military order of battle lists both divisions under the 63rd Bavarian corps. It identifies formations without proving the 30 November position report."
+  },
+  "proposal": {
+    "plaintext_index": 7,
+    "native_pair": "GG",
+    "native_source_indices": [
+      0,
+      86
+    ],
+    "from": "3L3",
+    "to": "303",
+    "additional_substitution": {
+      "source_index": 86,
+      "from": "G",
+      "to": "A"
+    },
+    "conditional_prefix": "89XUND303XDIVXUMKRONSTADTX"
+  },
+  "expected": {
+    "source_slots": 230,
+    "plaintext_positions": 115,
+    "earlier_observed_substitutions": 1,
+    "additional_observed_substitutions": 1,
+    "total_observed_substitutions": 2,
+    "source_mask_fills": 0,
+    "surviving_squares": 2,
+    "one_additional_substitution_numeric_rivals": [
+      "303",
+      "313",
+      "373",
+      "383"
+    ]
+  },
+  "case": "cases/military/p230_A.md",
+  "displayed_field": "303",
+  "limits": [
+    "The original source has G at index 86 and GG at plaintext 7. This is a historically supported coordinate correction, not a visual retranscription or a new numeral assignment.",
+    "Other three-digit unit labels have the same one-coordinate cost. The external order of battle, not cipher cost alone, supports 303.",
+    "The original two conditional square possibilities and every other source coordinate remain unchanged.",
+    "The previous seven substitutions in part 3 and one HAUPT repair in part 4 remain independently priced; including the new field repair gives nine observed substitutions across both surviving parts."
+  ]
+}

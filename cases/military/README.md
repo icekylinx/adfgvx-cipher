@@ -186,7 +186,7 @@ Read the appeal against internment beside the later internment traffic and the r
 | [p179 B](armistice_and_leave_orders.md) | PARTIAL | Citadel resistance to cease; surrender terms to be set there |
 | [p179 C](armistice_and_leave_orders.md) | READING | Mackensen and 11th Army request the local armistice conditions |
 | [p179 D1](armistice_and_leave_orders.md) | PARTIAL | Home transport difficulties postpone Landsturm discharge; raw year 1560U61 retained |
-| [p179 D2](armistice_and_leave_orders.md) | PARTIAL | Urgent home leave suspended until further notice |
+| [p179 D2](armistice_and_leave_orders.md) | CONDITIONAL | Urgent home leave suspended until further notice |
 | [p180 A3](p180_A.md) | PARTIAL | Enemy follows withdrawal near Giurgiu; Braila and Focsani evacuated |
 | [p180 B2](nov11_romanian_mobilization_report.md#p180-b2) | CONDITIONAL | Romanian mobilization and a crossing report |
 | [p180 D1](nov11_romanian_ultimatum_report.md#p180-d1) | CONDITIONAL | Evening report on an unanswered Romanian evacuation ultimatum |
@@ -208,9 +208,9 @@ Read the appeal against internment beside the later internment traffic and the r
 | [p186 C1](home_departures_baltic_transport.md#p186-c1) | PARTIAL | Baltic transport uncertainty and Graf Goltz preparations |
 | [p188 A](armistice_provisions_requests.md) | CONDITIONAL | Conditional armistice-conditions request to OHL |
 | [p188 B2](armistice_provisions_requests.md) | READING | Urgent provisions need and five-day limit |
-| [p188 C1](armistice_provisions_requests.md) | PARTIAL | Provision trains with flour and oats to Szolnok |
+| [p188 C1](armistice_provisions_requests.md) | CONDITIONAL | Provision trains with flour and oats to Szolnok |
 | [p189 D](../context/benzol_pump_query.md#p189-d) | CONDITIONAL | Benzol-pump inquiry and request for a prompt answer |
-| [p189 E](../context/transport.md#independent-transport-context) | PARTIAL | Pump, cars and trailers |
+| [p189 E](../context/transport.md#two-vehicles-and-two-trailers--p189-e) | CONDITIONAL | Pump, cars and trailers |
 | [p191 A1](p191_A.md) | PARTIAL | Boots requested for Oderberg |
 | [p191 A2](p191_A.md) | CONDITIONAL | Heavy clothing on call; wire/radio reply requested |
 | [p193 E](../context/transport.md#independent-transport-context) | PARTIAL | Sprung cart for attachment; a car |
@@ -265,7 +265,7 @@ Read the appeal against internment beside the later internment traffic and the r
 | [p219 C](p219_kiev_unrest.md#p219-c) | CONDITIONAL | Kiev unrest between the Hetman government and an unresolved party; soldiers council neutrality |
 | [p219 D1](nov25_provisions_and_evening_report.md#p219-d1) | READING | First part: reduced provisioning strength and no further provisions |
 | [p220 A2](nov25_provisions_and_evening_report.md#p220-a2) | READING | Second part: stop further provisions and notify Dresden |
-| [p220 B](nov25_provisions_and_evening_report.md#p220-b) | READING | Separate evening report with unresolved unit and place labels |
+| [p220 B](nov25_provisions_and_evening_report.md#p220-b) | CONDITIONAL | Separate evening report with unresolved unit and place labels |
 | [p220 C1](mackensen_armistice_appeal.md#p220-c1-berthelots-notification) | READING | Berthelot notification of Foch's armistice position |
 | [p220 C2](mackensen_armistice_appeal.md#p220-c2-southeastern-front-and-pending-decision) | READING | Southeastern front disarmament and internment demand |
 | [p220 C3](mackensen_armistice_appeal.md#p220-c3-limited-acknowledgment-and-conditional-proposal) | READING | Limited acknowledgment pending OHL's decision |

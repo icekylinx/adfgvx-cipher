@@ -57,7 +57,7 @@ This range contains 111 sources, including 2 OPEN. [Reading states](../../../doc
 | [p179 B](../../military/armistice_and_leave_orders.md) | PARTIAL | Citadel resistance to cease; surrender terms to be set there |
 | [p179 C](../../military/armistice_and_leave_orders.md) | READING | Mackensen and 11th Army request the local armistice conditions |
 | [p179 D1](../../military/armistice_and_leave_orders.md) | PARTIAL | Home transport difficulties postpone Landsturm discharge; raw year 1560U61 retained |
-| [p179 D2](../../military/armistice_and_leave_orders.md) | PARTIAL | Urgent home leave suspended until further notice |
+| [p179 D2](../../military/armistice_and_leave_orders.md) | CONDITIONAL | Urgent home leave suspended until further notice |
 
 ## p180
 
@@ -142,7 +142,7 @@ This range contains 111 sources, including 2 OPEN. [Reading states](../../../doc
 |---|---|---|
 | [p188 A](../../military/armistice_provisions_requests.md) | CONDITIONAL | Conditional armistice-conditions request to OHL |
 | [p188 B2](../../military/armistice_provisions_requests.md) | READING | Urgent provisions need and five-day limit |
-| [p188 C1](../../military/armistice_provisions_requests.md) | PARTIAL | Provision trains with flour and oats to Szolnok |
+| [p188 C1](../../military/armistice_provisions_requests.md) | CONDITIONAL | Provision trains with flour and oats to Szolnok |
 
 ## p189
 
@@ -152,7 +152,7 @@ This range contains 111 sources, including 2 OPEN. [Reading states](../../../doc
 | [p189 B](../../radio/return_time_and_vehicle_attempt.md#p189-b) | READING | A message about attempting to obtain a vehicle |
 | [p189 C](../../context/p189_C.md) | PARTIAL | Instruction to use the December key; IRRTUM |
 | [p189 D](../../context/benzol_pump_query.md#p189-d) | CONDITIONAL | Benzol-pump inquiry and request for a prompt answer |
-| [p189 E](../../context/transport.md#independent-transport-context) | PARTIAL | Pump, cars and trailers |
+| [p189 E](../../context/transport.md#two-vehicles-and-two-trailers--p189-e) | CONDITIONAL | Pump, cars and trailers |
 
 ## p190
 
@@ -175,7 +175,7 @@ This range contains 111 sources, including 2 OPEN. [Reading states](../../../doc
 
 | Source | State | Subject |
 |---|---|---|
-| [p192 A](../../radio/warsaw_service_messages.md) | PARTIAL | Request to Kretzschmar in Bucharest about conditions, prospects and commercial interests |
+| [p192 A](../../radio/warsaw_service_messages.md) | CONDITIONAL | Request to Kretzschmar in Bucharest about conditions, prospects and commercial interests |
 | [p192 B](../../radio/warsaw_service_messages.md) | CONDITIONAL | LP forwarding important messages for home offices and OHL in both directions |
 | [p192 part 2](../../caucasus/tiflis_appointment.md) | READING | Appointment of a Polish representative for the Caucasus |
 | [p192 part 3](../../caucasus/tiflis_appointment.md) | CONDITIONAL | Appointment instructions sent through a courier; conditional TYDELSKI identification |
@@ -219,7 +219,7 @@ This range contains 111 sources, including 2 OPEN. [Reading states](../../../doc
 | Source | State | Subject |
 |---|---|---|
 | [p197 A1](../../radio/nov15_radio_personnel_and_key_notice.md#p197-a1) | CONDITIONAL | Warsaw radio-personnel order under a missing-group model |
-| [p197 A2](../../radio/nov15_radio_personnel_and_key_notice.md#p197-a2) | PARTIAL | Warsaw radio personnel: native continuation naming Posen |
+| [p197 A2](../../radio/nov15_radio_personnel_and_key_notice.md#p197-a2) | CONDITIONAL | Warsaw radio personnel: native continuation naming Posen |
 | [p197 B](../../radio/nov15_radio_personnel_and_key_notice.md#p197-b) | READING | A second physical witness of the December-key and IRRTUM notice |
 | [p197 C](../../context/transport_197_198.md) | CONDITIONAL | Transport of radio equipment to Darmstadt |
 | [p197 D](../../context/transport_197_198.md) | PARTIAL | Lorry, trailer and petrol-pump instruction |

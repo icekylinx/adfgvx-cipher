@@ -26,8 +26,8 @@ Lasry and colleagues already describe the p199 supply message in
 within a Code* (author PDF p. 25, printed p. 24). The work added here for p199
 is the exact source edition, the full set of frame alternatives and
 coordinate-level repair certificates. Its body identification is credited
-to that prior publication. Their approximate ten-ton paraphrase does not
-settle the literal `1?0` field under the conservative partial key used here.
+to that prior publication. Their approximate ten-ton paraphrase differs from
+the `120`-ton field obtained below under the conditional shared digit reading.
 
 ## The three-part supply message, p199 A
 
@@ -39,6 +39,15 @@ The common source header reads `XYZ v LP (06.01 p.m., November 15th)`,
 correspondence, not a retransmission of the previously published text.
 
 ### A1: incoming steamers and a garbled cargo description
+
+**Readable German — existing source frame and word repairs, with conditional VG=2:**
+
+> An Feigenhaus sechshundertachtzehn. Herkules meldet zwoelften November, dass Nikolajew mehrere Dampfer LEBER Kakaopulver aus OPERETTE, zirka 120 Tonnen, eingelaufen.
+
+The [shared award-class interpretation](../../experiments/nov13_joint_completion/README.md#the-award-class)
+assigns **VG=2**, completing the quantity `1?0` as **120** and fixing
+**146/146** labels in this edition. The quantity's pair is formed by observed
+source coordinates **52 and 235**; no new repair is required.
 
 The source advertises `RICHI-292`, but prints **293 valid coordinates**.
 Its tenth group is the six-letter `XAXADV`. Removing its final `V`, source
@@ -71,16 +80,18 @@ ANFEIGENHAUSSECHSHUNDERTACHTZEHNXHERKULESMELDETZWOELFTENNOVEMBERDASSNIKOLAJEWMEH
 
 </details>
 
-`LEBER` remains unexplained, and `OPERETTE` is retained without claiming its
-referent. The amount remains the literal `1?0`; the middle symbol is at the
-unfilled `VG` cell. Neither a cargo quantity nor a numerical label is supplied
-from expectation.
+`LEBER` remains unexplained, and `OPERETTE` remains an unidentified code word.
+The displayed baseline streams retain `1?0`; the readable text above applies
+the shared conditional digit assignment.
 
 The deletion is not called globally unique. When names, the `LEBER` segment
 and the quantity are masked, deleting source index 50, 51 or 52 gives the same
 minimum of three ordinary-word coordinate changes. Only index 50 lies inside
 the visibly six-letter source group. The certificate retains all three
 broader models, including the alternatives' changed code-name/quantity text.
+With VG=2, the source-50 and source-51 exclusions both yield `120`; the
+source-52 exclusion still gives `1G0`. The new digit does not establish a
+unique source geometry.
 
 ### A2: goods remain aboard under military guard
 
@@ -240,16 +251,22 @@ The message supplies the position to present to Turkey: the shipowner will
 not sell the steamer unless the purchase price is paid in cash in Germany
 before ownership transfers. The source omits letters in `KNN`, `GEMCHT` and
 `TUEKEI`; those strings are not silently length-corrected in the candidate.
-The footer's four unresolved symbols use cells `VG`, `VG`, `GD`, `AD`, so
-the first two share a value. Their values remain unassigned.
+The footer's four baseline unknowns use cells `VG`, `VG`, `GD`, `AD`.
+The shared conditional VG=2 reading gives **`S22??0`**, taking this edition
+from **176 to 178/180** fixed labels. The two remaining cells are unassigned;
+the two earlier erasure fills and the source's omitted letters are unchanged.
 
 ## Exact scope and reproducibility
 
 The five records have 1,596 printed slots, 1,591 valid coordinates and 798
 modeled plaintext positions. The declared source models fix 785 positions
-before repairs. Conservative candidates fix 792, with the remaining quantity
-and reference symbols unresolved. Fixed counts include received garbles;
-they are not a claim that every fixed letter is linguistically correct.
+before repairs. Conservative candidates fix 792; the shared conditional
+VG=2 reading adds **three** labels, reaching **795/798**. Fixed counts include
+received garbles and therefore do not mean that every word is restored.
+
+The [shared-traffic certificate](../../experiments/nov13_joint_completion/traffic_certificates.json)
+checks these three digits against the original coordinates and retains all
+three equally priced A1 exclusion models.
 
 The [verifier](../../experiments/black_sea_shipping/verify.py) recomputes every
 plaintext domain and source mapping, the broad and source-local deletion

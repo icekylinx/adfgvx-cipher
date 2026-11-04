@@ -117,7 +117,7 @@ This range contains 64 sources, including 0 OPEN. [Reading states](../../../docs
 
 | Source | State | Subject |
 |---|---|---|
-| [p89 A2](../../supplementary/p89_A2.md) | PARTIAL | Shipping and railway routing to Nikolayev |
+| [p89 A2](../../supplementary/p89_A2.md) | CONDITIONAL | Shipping and railway routing to Nikolayev |
 | [p89 A3](../../military/black_sea_evacuation_routes.md#p89-a3) | CONDITIONAL | Braila traffic, whole trains and a conditional guard-battalion destination |
 | [p89 A4](../../military/black_sea_evacuation_routes.md#p89-a4) | READING | Civilian destination Berlin and advance notice for onward movement |
 

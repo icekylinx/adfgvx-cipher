@@ -1,0 +1,44 @@
+{
+  "schema": "adfgvx-nov13-quantity-compatibility-inputs-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "experiments/nov13_joint_completion/inputs.json": "2738680ee022529e19e8868df319b04bde55faf3c2267c52e6e04e56a580b646",
+    "experiments/boots_request/inputs.json": "007660cf3a6a8799376a35970b27d19a58abf56fa5fbf8f197253ae968407620",
+    "experiments/boots_request/certificate.json": "d3d0a372c986cb567b9f8830675753043d2477fe93d56e67ece2c59ab713c569",
+    "experiments/tiflis_appointment/certificates.json": "08c8cfece0c835a3e0858b51876cf1c20bc3571e9d37a711ab54709c5315a1db",
+    "experiments/late_november_joint_completion/verify.py": "7a56f75689f4cc174c3d371b6a5e3c44520087aba34a3e599cd6c0c70a707cc1",
+    "experiments/boots_request/sources/childs_p191_A.png": "4cf435d74dcc10fcb1c83a371a96d2abe07f8f4fd80ab7b004ffd4575fa3ff6d"
+  },
+  "record": "p191_A1",
+  "quantity_span": [
+    69,
+    73
+  ],
+  "Q_position": 71,
+  "Q_source_indices": [
+    102,
+    21
+  ],
+  "additional_layer": {
+    "pair": "FX",
+    "symbol": "Y",
+    "evidence": "experiments/tiflis_appointment/certificates.json"
+  },
+  "optional_numeric_repair": {
+    "source_index": 102,
+    "from": "X",
+    "to": "D",
+    "value": "0"
+  },
+  "case": "cases/military/p191_A.md",
+  "limits": [
+    "XX=Q makes the unaltered p191 quantity field nonnumeric; this is an adverse consequence, not a recovered count.",
+    "The optional repair assumes both the Q address identification and independent FX=Y historical-name interpretation, plus a decimal quantity.",
+    "One observed source coordinate changes; the remaining thousands digit is not selected.",
+    "The new completion count is not added to recovered-character totals."
+  ]
+}

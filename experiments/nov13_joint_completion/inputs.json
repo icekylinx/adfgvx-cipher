@@ -1,0 +1,234 @@
+{
+  "schema": "adfgvx-nov13-joint-completion-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "experiments/armistice_provisions_requests/certificates.json": "312746ef34a9ed827f3a8b1a83f21680a2220c8e1290bd3b5d96ea61587abf42",
+    "experiments/armistice_provisions_requests/inputs.json": "73f62372e13c964f705487601f7923c50cb77ee5212a6b70017f0a05ca2d1399",
+    "experiments/late_november_joint_completion/verify.py": "7a56f75689f4cc174c3d371b6a5e3c44520087aba34a3e599cd6c0c70a707cc1",
+    "experiments/military_intendant_remit/certificates.json": "c2095a01f77d2b0c4cb2f21128c23c107c946d49ec480e8655f265e564509aa4",
+    "experiments/military_intendant_remit/inputs.json": "328ddab22d0a9cf7aa268fb9ea4702ff1186792337c48f59b5c2b25e5b84276a",
+    "experiments/nov13_congratulation_conditional_frame/certificates.json": "89c08d8db2b2dfa818e03cd2e1d4b9b0be5f629dbf0d02036f2bfa6f2849b87f",
+    "experiments/nov13_congratulation_conditional_frame/inputs.json": "77e8a3bb35b985befe285c817cc06c9e00548071544b5db2646c742b815b7ae3",
+    "experiments/nov15_radio_personnel_and_key_notice/certificates.json": "6b5d95b132513746d6a912a003893ae63d935d3ffd25a2095200e510a916f61c",
+    "experiments/nov15_radio_personnel_and_key_notice/inputs.json": "1b0ec8acd4dbeee3b1c9c3684bb373a206c0d9f32995178c6401f6d2bed2b576",
+    "experiments/november_armistice_orders/certificates.json": "eaeafc3e8b19fe32d6206ec766427dd31e3299645654be1f045a089c06627671",
+    "experiments/november_armistice_orders/inputs.json": "0e083803df4e6e5f790625538c47fe889a377cd1c4deb0df680a685a574ab9bc",
+    "experiments/oberost_troop_movement_obliterations/certificates.json": "d84f7df59455cffeece860fdee30ab5788398eabeb4c85e505935a126ad89fa2",
+    "experiments/oberost_troop_movement_obliterations/inputs.json": "7537417c9756dc100e5a9411e72ef334e6a0c08118f93be0974bd14330b9f7e6"
+  },
+  "headquarters_square": "H??BMUF15PX0DJLR????S6VONKZ?AWITEGCQ",
+  "joint_square": "H??BMUF15PX0DJLR????S6VONKZ2AWITEGCQ",
+  "headquarters_donor": {
+    "id": "p202_B3",
+    "certificate": "experiments/military_intendant_remit/certificates.json",
+    "assumption": "The GR H ?U destination of the Generalintendant of the field army is the GRHQU headquarters named with the same office in p202 B3."
+  },
+  "award_class_symbols": "12",
+  "historical_source": {
+    "title": "Die Presse: Ostmaerkische Tageszeitung; Anzeiger fuer Stadt und Land",
+    "place": "Thorn",
+    "issue": 184,
+    "year_volume": 32,
+    "date": "1914-08-08",
+    "printed_page": 1,
+    "article": "Erneuerung des eisernen Kreuzes",
+    "document_reprinted": "Royal renewal decree, Berlin, 5 August 1914; explicitly attributed by the newspaper to the Reichsanzeiger.",
+    "url": "https://kpbc.umk.pl/Content/168740/KM_01427_1914_184.pdf",
+    "pdf_sha256": "f16620f4b09567959ad7859674e71d720298af7d0c3d38a4d689528f94f8e0e3",
+    "pdf_bytes": 22708099,
+    "claim": "Clause 1 specifies two classes and a Grand Cross; clauses 2 and 3 distinguish first and second class.",
+    "boundary": "Establishes the class system, not the identity of the award or recipient in p193 F.",
+    "crops": [
+      {
+        "path": "sources/die_presse_1914_title.png",
+        "pdf_page_1based": 1,
+        "clip_pdf_points": [
+          58,
+          39,
+          902,
+          292
+        ],
+        "scale": 1,
+        "width": 844,
+        "height": 253,
+        "sha256": "90a1775013c568e290fcb663011a1a31cdc84f6753ffb4e35af82b1e012805ab",
+        "pixel_sha256": "061c94cb1719564042dceee287ad648454d0fa74a4072f2e43e58cf291b22d5e"
+      },
+      {
+        "path": "sources/die_presse_1914_decree.png",
+        "pdf_page_1based": 1,
+        "clip_pdf_points": [
+          272,
+          790,
+          488,
+          1285
+        ],
+        "scale": 2,
+        "width": 432,
+        "height": 990,
+        "sha256": "7a0f0835518f81211f6a0f5e17487f5e86038b3a6519a3234a47e021fa830749",
+        "pixel_sha256": "5ea3b85046ffa6bb18cb79523f3dd001d3b8d707386f9ffe00a7069b2b2feb7d"
+      },
+      {
+        "path": "sources/die_presse_1914_classes.png",
+        "pdf_page_1based": 1,
+        "clip_pdf_points": [
+          483,
+          379,
+          695,
+          667
+        ],
+        "scale": 2,
+        "width": 424,
+        "height": 576,
+        "sha256": "7b77c5cb58e4989ab0c94b0d6e695aa077d237fd8132e97211bea4fa818c0fdb",
+        "pixel_sha256": "0a54217198aeeb7ac31be3d8115c709119b2cef711913ad7a83a00d617d32f3e"
+      }
+    ]
+  },
+  "records": [
+    {
+      "id": "p193_F",
+      "inputs": "experiments/nov13_congratulation_conditional_frame/inputs.json",
+      "certificate": "experiments/nov13_congratulation_conditional_frame/certificates.json",
+      "literal_field": "literal_source",
+      "edition_field": "readable_candidate",
+      "mapping_field": "conditional_model_to_source",
+      "new_fixed_positions": 1,
+      "expected_interpretation": "JTNXKRXEK2XVERLIEHENXGLUECKWUNSCHXSXR",
+      "observed_substitutions": 1,
+      "source_mask_fills": 0
+    },
+    {
+      "id": "p188_C1",
+      "inputs": "experiments/armistice_provisions_requests/inputs.json",
+      "certificate": "experiments/armistice_provisions_requests/certificates.json",
+      "literal_field": "source_literal",
+      "edition_field": "edition",
+      "mapping_field": "frame_to_source_indices",
+      "new_fixed_positions": 2,
+      "expected_interpretation": "GENERALINTENDANTFELDHEERESXGRXHXQUXXBITTEALLE2TAGEVVZUGMIT??0000VOLLENPORTIONENEINSCHLXMEHLXRESTHAFERXNACHSZOLNOKANDERTHEISSXABSENDENX",
+      "observed_substitutions": 4,
+      "source_mask_fills": 0
+    },
+    {
+      "id": "p179_D2",
+      "inputs": "experiments/november_armistice_orders/inputs.json",
+      "certificate": "experiments/november_armistice_orders/certificates.json",
+      "literal_field": "source_literal",
+      "edition_field": "edition",
+      "mapping_field": "frame_to_source_indices",
+      "new_fixed_positions": 1,
+      "expected_interpretation": "DRINGENDEHEIMATSURLAUBEHABENBISAUFWEITERESGAENZLICHZUUNTERBLEIBENXCHEFDESGENSTABESNRXRM1A11?2?GEHOPEZ??0?X",
+      "observed_substitutions": 0,
+      "source_mask_fills": 0
+    },
+    {
+      "id": "p197_A2",
+      "inputs": "experiments/nov15_radio_personnel_and_key_notice/inputs.json",
+      "certificate": "experiments/nov15_radio_personnel_and_key_notice/certificates.json",
+      "literal_field": "literal_source",
+      "edition_field": "readable_candidate",
+      "mapping_field": "model_to_source_indices",
+      "new_fixed_positions": 1,
+      "expected_interpretation": "XFESTUNGSFUNKAXPOSENXINMARSCHZUSETZENXXINACHXFUNKLEITUNGHEIMATXNRX2??6?5",
+      "observed_substitutions": 0,
+      "source_mask_fills": 0
+    },
+    {
+      "id": "p186_B1",
+      "inputs": "experiments/oberost_troop_movement_obliterations/inputs.json",
+      "certificate": "experiments/oberost_troop_movement_obliterations/certificates.json",
+      "literal_field": "literal_source",
+      "edition_field": "readable_candidate",
+      "mapping_field": "model_to_source_indices",
+      "new_fixed_positions": 1,
+      "expected_interpretation": "GENXGOUVXWARSCHAUXZ0FORTX2MX1AXNRR6?1X15XGENXVX10X11XISTANOBOSTGEDRAHTETXXESWIRDVORGESCHLAGENXTRUPPENVERSCHIEBUNGENINNERHALBDESOBEROSTGEBIETSVORZUNEHMENXX",
+      "observed_substitutions": 1,
+      "source_mask_fills": 2
+    }
+  ],
+  "readable_quotes": [
+    {
+      "record": "p193_F",
+      "case": "cases/people/nov13_conditional_congratulation.md",
+      "german": "JTN. KR. EK2 verliehen. Glueckwunsch. S. R."
+    },
+    {
+      "record": "p188_C1",
+      "case": "cases/military/armistice_provisions_requests.md",
+      "german": "Generalintendant Feldheeres. Gr. H. Qu. Bitte alle 2 Tage VV Zug mit ??0000 vollen Portionen einschl. Mehl, Rest Hafer, nach Szolnok an der Theiss absenden."
+    }
+  ],
+  "case_fields": [
+    {
+      "record": "p197_A2",
+      "case": "cases/radio/nov15_radio_personnel_and_key_notice.md",
+      "field": "2??6?5",
+      "start": 66,
+      "end": 72,
+      "text": "`2??6?5`"
+    },
+    {
+      "record": "p186_B1",
+      "case": "cases/military/oberost_troop_movement_obliterations.md",
+      "field": "2MX1AXNRR6?1",
+      "start": 25,
+      "end": 37,
+      "text": "`2MX1AXNRR6?1`"
+    },
+    {
+      "record": "p179_D2",
+      "case": "cases/military/armistice_and_leave_orders.md",
+      "field": "RM1A11?2?",
+      "start": 85,
+      "end": 94,
+      "text": "`RM1A11?2?`"
+    }
+  ],
+  "limits": [
+    "XX=Q depends on identifying the p188 headquarters abbreviation; the p202 office address supports the abbreviation, not identity of the entire telegram.",
+    "VG=2 depends on reading EK plus a single digit as an Iron Cross class, retaining the numerical value DD=1, and the existing p193 conditional frame. The native p186 date-shaped 10X11 supports DD=1 only under the stated calendar-date interpretation; a published digit label is not independent proof of its historical numerical value. The 1914 decree does not identify this particular award or its recipient.",
+    "All four p193 endpoint exclusions remain available. Completing the class does not choose the original source geometry.",
+    "The p188 portion quantity remains incomplete. The propagated p186 label 2M remains opaque and is not counted as a recovered ordinary word.",
+    "The published square, original source files, earlier repairs and historical TYDELSKI/FX=Y layer remain unchanged."
+  ],
+  "numeral_one_context": {
+    "record": "p186_B1",
+    "published_pair": "DD",
+    "published_label": "1",
+    "conditional_numeric_value": 1,
+    "native_context": "GENXVX10X11XISTANOBOSTGEDRAHTET",
+    "plaintext_start_0based": 47,
+    "literal_date": "10X11",
+    "native_source_pairs_0based": [
+      [
+        150,
+        24
+      ],
+      [
+        63,
+        208
+      ],
+      [
+        83,
+        266
+      ],
+      [
+        170,
+        122
+      ],
+      [
+        305,
+        6
+      ]
+    ],
+    "assumption": "Within the existing p186 B1 conditional obliteration frame, read the native 10X11 field after GENXVX as a day/month date. Its repeated DD/DD month then has numerical value 11. The date interpretation remains contextual.",
+    "scope": "All ten date-field coordinates are originally observed and unchanged. This supports retaining the numerical value DD=1 independently of the p193 award interpretation; the published label alone does not establish a historical numeral.",
+    "without_assumption": "If the numerical value of DD is not retained, different square cells alone do not rule out a historical first-class award at VG."
+  }
+}

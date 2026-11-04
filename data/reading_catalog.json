@@ -263,14 +263,16 @@
       "printed_page": 89,
       "source_section": "A2",
       "subject": "Shipping and railway routing to Nikolayev",
-      "status": "Earlier reading; one source glyph uncertain",
-      "credit": "Ayush Agarwal; review by D. Bourdeau (2026)",
+      "status": "142/145 native positions; conditional 145/145 at zero observed substitutions and three source-mask fills; all 216 compatible completions retained",
+      "credit": "Earlier body: Ayush Agarwal; review: D. Bourdeau; source and conditional completion: icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/supplementary/p89_A2.md",
       "source_reviewed": true,
       "evidence": [
-        "data/supplementary_readings.json"
+        "data/supplementary_readings.json",
+        "experiments/p89_ship_clause_completion/inputs.json",
+        "experiments/p89_ship_clause_completion/certificates.json"
       ],
-      "state": "PARTIAL"
+      "state": "CONDITIONAL"
     },
     {
       "id": "p96_B",
@@ -1137,14 +1139,16 @@
       "printed_page": 189,
       "source_section": "E",
       "subject": "Pump, cars and trailers",
-      "status": "Direct partial reading; counts unresolved",
+      "status": "44/47 native positions; conditional 47/47 under shared VG=2 and one invalid-coordinate fill for ANHAENGER; zero observed substitutions",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
-      "path": "cases/context/transport.md#independent-transport-context",
+      "path": "cases/context/transport.md#two-vehicles-and-two-trailers--p189-e",
       "source_reviewed": true,
       "evidence": [
-        "data/certificates/p185_D_transport.json"
+        "data/certificates/p185_D_transport.json",
+        "experiments/nov13_joint_completion/transport_inputs.json",
+        "experiments/nov13_joint_completion/transport_certificate.json"
       ],
-      "state": "PARTIAL"
+      "state": "CONDITIONAL"
     },
     {
       "id": "p193_E",
@@ -2336,14 +2340,16 @@
       "printed_page": 230,
       "source_section": "A4",
       "subject": "Forces near Kronstadt and Fogaras; OKM headquarters moves",
-      "status": "115/115 conditional positions; 7th Bavarian cavalry brigade supported by the 1923 order of battle; native 3L3 division field retained",
+      "status": "115/115 conditional positions; 7th Bavarian cavalry brigade supported by the 1923 order of battle; native 3L3 division field retained; separate 303rd Division identification costs one additional observed substitution (two total); all four equal-cost numeric fields retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/military/p230_A.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/operational_recovery/inputs.json",
         "experiments/operational_recovery/certificates.json",
-        "experiments/late_november_calendar_and_units/certificates.json"
+        "experiments/late_november_calendar_and_units/certificates.json",
+        "experiments/late_november_calendar_and_units/division_inputs.json",
+        "experiments/late_november_calendar_and_units/division_certificate.json"
       ],
       "state": "CONDITIONAL"
     },
@@ -2563,15 +2569,17 @@
       "printed_page": 192,
       "source_section": "A",
       "subject": "Request to Kretzschmar in Bucharest about conditions, prospects and commercial interests",
-      "status": "171/175 raw positions; one overstrike fill; three reference cells unresolved",
+      "status": "171/175 raw positions; one overstrike fill; three reference cells unresolved; shared XX=Q / VG=2 interpretation 173/175 fixed positions, no additional source edits",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/radio/warsaw_service_messages.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/warsaw_service_messages/inputs.json",
-        "experiments/warsaw_service_messages/certificates.json"
+        "experiments/warsaw_service_messages/certificates.json",
+        "experiments/nov13_joint_completion/traffic_inputs.json",
+        "experiments/nov13_joint_completion/traffic_certificates.json"
       ],
-      "state": "PARTIAL"
+      "state": "CONDITIONAL"
     },
     {
       "id": "p192_B",
@@ -2579,13 +2587,15 @@
       "printed_page": 192,
       "source_section": "B",
       "subject": "LP forwarding important messages for home offices and OHL in both directions",
-      "status": "267/268 source geometry; two tied single-coordinate gap fits; no valid coordinate changed",
+      "status": "267/268 source geometry; two tied single-coordinate gap fits; no valid coordinate changed; shared XX=Q / VG=2 interpretation 133/134 fixed positions, no additional source edits",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/radio/warsaw_service_messages.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/warsaw_service_messages/inputs.json",
-        "experiments/warsaw_service_messages/certificates.json"
+        "experiments/warsaw_service_messages/certificates.json",
+        "experiments/nov13_joint_completion/traffic_inputs.json",
+        "experiments/nov13_joint_completion/traffic_certificates.json"
       ],
       "state": "CONDITIONAL"
     },
@@ -2707,13 +2717,15 @@
       "printed_page": 199,
       "source_section": "Unlettered 1 TL, following A)",
       "subject": "Forwarding a Polish appointment telegram through von Kress to Waclaw v. Ostrowski in Tiflis",
-      "status": "131-position source preamble; uniquely placed floating group; two reference cells unresolved; cross-page association explicit",
+      "status": "131-position source preamble; uniquely placed floating group; two reference cells unresolved; cross-page association explicit; shared XX=Q / VG=2 interpretation 130/131 fixed positions, no additional source edits",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/caucasus/tiflis_appointment.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/tiflis_appointment/inputs.json",
-        "experiments/tiflis_appointment/certificates.json"
+        "experiments/tiflis_appointment/certificates.json",
+        "experiments/nov13_joint_completion/traffic_inputs.json",
+        "experiments/nov13_joint_completion/traffic_certificates.json"
       ],
       "state": "CONDITIONAL"
     },
@@ -2723,13 +2735,15 @@
       "printed_page": 199,
       "source_section": "A1",
       "subject": "Feigenhaus 618: Herkules report of incoming steamers and a garbled cocoa cargo description",
-      "status": "Prior body identification; one surplus coordinate in a six-coordinate group; three broad tied fits retained; 145/146 raw",
+      "status": "Prior body identification; one surplus coordinate in a six-coordinate group; three broad tied fits retained; 145/146 raw; shared XX=Q / VG=2 interpretation 146/146 fixed positions, no additional source edits",
       "credit": "Lasry, Niebel, Kopal and Wacker (2016); source audit by icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/naval/black_sea_shipping.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/black_sea_shipping/inputs.json",
-        "experiments/black_sea_shipping/certificates.json"
+        "experiments/black_sea_shipping/certificates.json",
+        "experiments/nov13_joint_completion/traffic_inputs.json",
+        "experiments/nov13_joint_completion/traffic_certificates.json"
       ],
       "state": "CONDITIONAL"
     },
@@ -2787,15 +2801,17 @@
       "printed_page": 200,
       "source_section": "B2",
       "subject": "Ship sale conditional on cash payment in Germany before ownership transfer",
-      "status": "174/180 raw; two source-erasure fills; four reference symbols unresolved",
+      "status": "174/180 raw; two source-erasure fills; four reference symbols unresolved; shared XX=Q / VG=2 interpretation 178/180 fixed positions, no additional source edits",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/naval/black_sea_shipping.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/black_sea_shipping/inputs.json",
-        "experiments/black_sea_shipping/certificates.json"
+        "experiments/black_sea_shipping/certificates.json",
+        "experiments/nov13_joint_completion/traffic_inputs.json",
+        "experiments/nov13_joint_completion/traffic_certificates.json"
       ],
-      "state": "PARTIAL"
+      "state": "CONDITIONAL"
     },
     {
       "id": "p200_A",
@@ -3018,7 +3034,9 @@
       "evidence": [
         "experiments/boots_request/inputs.json",
         "experiments/boots_request/geometry_certificate.json",
-        "experiments/boots_request/certificate.json"
+        "experiments/boots_request/certificate.json",
+        "experiments/nov13_joint_completion/compatibility_inputs.json",
+        "experiments/nov13_joint_completion/compatibility_certificate.json"
       ],
       "state": "PARTIAL"
     },
@@ -3225,16 +3243,18 @@
       "printed_page": 224,
       "source_section": "C1",
       "subject": "Staff officer raw STRZEMIECZNQ transferred from acting corps chief-of-staff duties",
-      "status": "130/130 raw labels; three ordinary-word coordinate repairs; rank, surname and formation labels retained",
+      "status": "130/130 raw labels; three ordinary-word coordinate repairs; rank, surname and formation labels retained; conditional shared AD=Y gives STRZEMIECZNY, supported by a 1913 printed surname witness; individual identity remains unestablished",
       "credit": "icekylinx and GPT-6 Astra Pro (2026), source audit of earlier unreviewed repository OCR candidates; published key credited separately",
       "path": "cases/people/breslau_staff_transfer.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/breslau_staff_transfer/inputs.json",
         "experiments/breslau_staff_transfer/certificates.json",
-        "experiments/breslau_staff_transfer/historical_context.json"
+        "experiments/breslau_staff_transfer/historical_context.json",
+        "experiments/nov25_treaty_digits/names_inputs.json",
+        "experiments/nov25_treaty_digits/names_certificate.json"
       ],
-      "state": "READING"
+      "state": "CONDITIONAL"
     },
     {
       "id": "p224_C2",
@@ -4954,7 +4974,7 @@
       "printed_page": 179,
       "source_section": "A",
       "subject": "Equipment transfer east of the Rhine while maintaining radio operation",
-      "status": "Printed cancellation excludes five observed coordinates from 271 to 266; seven additional substitutions ; 130/133 fixed labels",
+      "status": "Printed cancellation excludes five observed coordinates from 271 to 266; seven additional substitutions; 130/133 fixed labels",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period keys and earlier unreviewed B/C/D2 body candidates distinguished",
       "path": "cases/radio/right_rhine_equipment.md",
       "source_reviewed": true,
@@ -4970,7 +4990,7 @@
       "printed_page": 179,
       "source_section": "B",
       "subject": "Citadel resistance to cease; surrender terms to be set there",
-      "status": "Exact 158-coordinate source; one word substitution ; 76/79 labels and unresolved reference retained",
+      "status": "Exact 158-coordinate source; one word substitution; 76/79 labels and unresolved reference retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period keys and earlier unreviewed B/C/D2 body candidates distinguished",
       "path": "cases/military/armistice_and_leave_orders.md",
       "source_reviewed": true,
@@ -4986,7 +5006,7 @@
       "printed_page": 179,
       "source_section": "C",
       "subject": "Mackensen and 11th Army request the local armistice conditions",
-      "status": "Exact 232-coordinate source; three coordinate substitutions repair two words ; 116/116 labels",
+      "status": "Exact 232-coordinate source; three coordinate substitutions repair two words; 116/116 labels",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period keys and earlier unreviewed B/C/D2 body candidates distinguished",
       "path": "cases/military/armistice_and_leave_orders.md",
       "source_reviewed": true,
@@ -5002,7 +5022,7 @@
       "printed_page": 179,
       "source_section": "D1",
       "subject": "Home transport difficulties postpone Landsturm discharge; raw year 1560U61 retained",
-      "status": "Exact 190-coordinate source; zero source repairs ; 91/95 labels; November 12/Nov13-15b mismatch retained",
+      "status": "Exact 190-coordinate source; zero source repairs; 91/95 labels; November 12/Nov13-15b mismatch retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period keys and earlier unreviewed B/C/D2 body candidates distinguished",
       "path": "cases/military/armistice_and_leave_orders.md",
       "source_reviewed": true,
@@ -5018,15 +5038,17 @@
       "printed_page": 179,
       "source_section": "D2",
       "subject": "Urgent home leave suspended until further notice",
-      "status": "Exact 212-coordinate source; zero source repairs ; 100/106 labels; reference cells unresolved",
+      "status": "Exact 212-coordinate source; zero source repairs; 100/106 labels; reference cells unresolved; shared XX=Q / VG=2 interpretation 101/106 fixed positions, no additional source edits",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period keys and earlier unreviewed B/C/D2 body candidates distinguished",
       "path": "cases/military/armistice_and_leave_orders.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/november_armistice_orders/inputs.json",
-        "experiments/november_armistice_orders/certificates.json"
+        "experiments/november_armistice_orders/certificates.json",
+        "experiments/nov13_joint_completion/inputs.json",
+        "experiments/nov13_joint_completion/certificates.json"
       ],
-      "state": "PARTIAL"
+      "state": "CONDITIONAL"
     },
     {
       "id": "p128_A1",
@@ -5450,7 +5472,7 @@
       "printed_page": 161,
       "source_section": "C1",
       "subject": "Siegfried posting cancellation, first part",
-      "status": "99/102 fixed positions; 4 observed-coordinate substitutions and 4 fills; native source frame retained; shared-reference XA=5/VF=6 layer fixes 101/102 positions without additional source changes",
+      "status": "99/102 fixed positions; 4 observed-coordinate substitutions and 4 fills; native source frame retained; shared-reference XA=5/VF=6 layer fixes 101/102 positions without additional source changes; optional shared-reference and numeric-date interpretation completes 102/102 labels; date 2.11 adds one printed-dash fill, for 4 observed substitutions and 5 fills total; alternative reference 46510 retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published keys credited to Lasry et al.; earlier machine and source-family readings retained",
       "path": "cases/people/military_mission_recalls.md",
       "source_reviewed": true,
@@ -5871,15 +5893,17 @@
       "printed_page": 188,
       "source_section": "C1",
       "subject": "Provision trains with flour and oats to Szolnok",
-      "status": "Native268 coordinates;130/134 raw and edited;4 observed substitutions,0 fills; interval,quantity and headquarters field unresolved",
+      "status": "Native 268 coordinates; 130/134 raw and edited; 4 observed substitutions, 0 fills; interval, quantity and headquarters field unresolved; shared XX=Q / VG=2 interpretation 132/134 fixed positions, no additional source edits",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published partial key credited to Lasry et al.; preexisting unreviewed machine body candidates retained",
       "path": "cases/military/armistice_provisions_requests.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/armistice_provisions_requests/inputs.json",
-        "experiments/armistice_provisions_requests/certificates.json"
+        "experiments/armistice_provisions_requests/certificates.json",
+        "experiments/nov13_joint_completion/inputs.json",
+        "experiments/nov13_joint_completion/certificates.json"
       ],
-      "state": "PARTIAL"
+      "state": "CONDITIONAL"
     },
     {
       "id": "p209_A1",
@@ -7183,15 +7207,17 @@
       "printed_page": 160,
       "source_section": "B2",
       "subject": "Radio apparatus sale and estimated value",
-      "status": "39/42 fixed raw positions; 0 observed substitutions, 1 printed-mask fill; native frame",
+      "status": "39/42 fixed raw positions; 0 observed substitutions, 1 printed-mask fill; native frame; conditional shared-reference XA=5 gives 111?05, adding 1 native-pair label for 41/42; source 83 B remains masked with domain 3458PV; opposite assignment 111?06 retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026 source edition); published period-key authors and earlier OCR candidate readings credited separately",
       "path": "cases/radio/radio_equipment_sale_prices.md#p160-b2",
       "source_reviewed": true,
       "evidence": [
         "experiments/nov8_radio_keys_and_reports/inputs.json",
-        "experiments/nov8_radio_keys_and_reports/certificates.json"
+        "experiments/nov8_radio_keys_and_reports/certificates.json",
+        "experiments/nov7_9_joint_digits/inputs.json",
+        "experiments/nov7_9_joint_digits/certificates.json"
       ],
-      "state": "PARTIAL"
+      "state": "CONDITIONAL"
     },
     {
       "id": "p160_C1",
@@ -8559,13 +8585,15 @@
       "printed_page": 186,
       "source_section": "B1",
       "subject": "Ober Ost troop-movement proposal, conditional obliteration exclusion",
-      "status": "Conditional 308-slot frame: exclude ten modeled masks in two obliterated group columns; one observed substitution and two source-mask fills; literal reference retained",
+      "status": "Conditional 308-slot frame: exclude ten modeled masks in two obliterated group columns; one observed substitution and two source-mask fills; literal reference retained; shared XX=Q / VG=2 interpretation 153/154 fixed positions, no additional source edits",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key; earlier unreviewed candidates retained",
       "path": "cases/military/oberost_troop_movement_obliterations.md#p186-b1",
       "source_reviewed": true,
       "evidence": [
         "experiments/oberost_troop_movement_obliterations/inputs.json",
-        "experiments/oberost_troop_movement_obliterations/certificates.json"
+        "experiments/oberost_troop_movement_obliterations/certificates.json",
+        "experiments/nov13_joint_completion/inputs.json",
+        "experiments/nov13_joint_completion/certificates.json"
       ],
       "state": "CONDITIONAL"
     },
@@ -9085,15 +9113,17 @@
       "printed_page": 220,
       "source_section": "B",
       "subject": "Separate evening report with unresolved unit and place labels",
-      "status": "Native 220-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; literal fields retained",
+      "status": "Native 220-slot frame; 1 observed-coordinate substitution and 0 source-mask fills; literal fields retained; conditional shared AD=Y gives NAGYMAGOCS, attested in the 1912 county gazette; no additional source change",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained",
       "path": "cases/military/nov25_provisions_and_evening_report.md#p220-b",
       "source_reviewed": true,
       "evidence": [
         "experiments/nov25_provisions_and_evening_report/inputs.json",
-        "experiments/nov25_provisions_and_evening_report/certificates.json"
+        "experiments/nov25_provisions_and_evening_report/certificates.json",
+        "experiments/nov25_treaty_digits/names_inputs.json",
+        "experiments/nov25_treaty_digits/names_certificate.json"
       ],
-      "state": "READING"
+      "state": "CONDITIONAL"
     },
     {
       "id": "p227_D",
@@ -9641,13 +9671,15 @@
       "printed_page": 193,
       "source_section": "F",
       "subject": "Congratulation core under explicit one-coordinate exclusion; endpoints remain conditional",
-      "status": "75 observed slots; conditional 74-coordinate model, 1 terminal X exclusion + 1 substitution; 36/37 labels fixed; endpoint alternatives retained",
+      "status": "75 observed slots; conditional 74-coordinate model, 1 terminal X exclusion + 1 substitution; 36/37 labels fixed; endpoint alternatives retained; shared XX=Q / VG=2 interpretation 37/37 fixed positions, no additional source edits",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); unchanged published partial Nov13-15b key; prior OCR and discovery retained",
       "path": "cases/people/nov13_conditional_congratulation.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/nov13_congratulation_conditional_frame/inputs.json",
-        "experiments/nov13_congratulation_conditional_frame/certificates.json"
+        "experiments/nov13_congratulation_conditional_frame/certificates.json",
+        "experiments/nov13_joint_completion/inputs.json",
+        "experiments/nov13_joint_completion/certificates.json"
       ],
       "state": "CONDITIONAL"
     },
@@ -9834,15 +9866,17 @@
       "printed_page": 197,
       "source_section": "A2",
       "subject": "Warsaw radio personnel: native continuation naming Posen",
-      "status": "Native 144-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained",
+      "status": "Native 144-slot frame; 0 observed-coordinate substitutions and 0 source-mask fills; literal fields retained; shared XX=Q / VG=2 interpretation 69/72 fixed positions, no additional source edits",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained",
       "path": "cases/radio/nov15_radio_personnel_and_key_notice.md#p197-a2",
       "source_reviewed": true,
       "evidence": [
         "experiments/nov15_radio_personnel_and_key_notice/inputs.json",
-        "experiments/nov15_radio_personnel_and_key_notice/certificates.json"
+        "experiments/nov15_radio_personnel_and_key_notice/certificates.json",
+        "experiments/nov13_joint_completion/inputs.json",
+        "experiments/nov13_joint_completion/certificates.json"
       ],
-      "state": "PARTIAL"
+      "state": "CONDITIONAL"
     },
     {
       "id": "p197_B",
@@ -10106,7 +10140,7 @@
       "printed_page": 159,
       "source_section": "A",
       "subject": "Arad provisions and strength report: conditional partial recovery",
-      "status": "Reviewed source: earlier primary raw 124/136; independent p168 copy supplies eleven coordinates for 135/136; source-only family has eight minimum maps with one completed stream; footer 5/6 retained",
+      "status": "Reviewed source: earlier primary raw 124/136; independent p168 copy supplies eleven coordinates for 135/136; source-only family has eight minimum maps with one completed stream; footer 5/6 retained; conditional shared-reference digit adds 1 fixed label, giving 136/136; opposite assignment and source alternatives retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key; earlier OCR retained",
       "path": "cases/military/arad_provisions_partial.md",
       "source_reviewed": true,
@@ -10114,7 +10148,9 @@
         "experiments/arad_provisions_partial/inputs.json",
         "experiments/arad_provisions_partial/certificates.json",
         "experiments/danube_arad_witnesses/inputs.json",
-        "experiments/danube_arad_witnesses/certificates.json"
+        "experiments/danube_arad_witnesses/certificates.json",
+        "experiments/nov7_9_joint_digits/inputs.json",
+        "experiments/nov7_9_joint_digits/certificates.json"
       ],
       "state": "CONDITIONAL"
     },
@@ -10319,13 +10355,15 @@
       "printed_page": 59,
       "source_section": "A1",
       "subject": "Poti horse transport: conditional first-part reading",
-      "status": "Conditional225-to220 frame; all21 minimum five-exclusion maps;103/110 raw-fixed and105/110 after five substitutions/two fills; names and opening unresolved",
+      "status": "Conditional 225-to-220 frame; all 21 original minimum maps retained; 103/110 raw-fixed, 105/110 earlier and 108/110 after three repeated-field transfers, at five observed substitutions and six mask fills; two opening positions unresolved and all four equal-copy name variants retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); unchanged published Sep19–21 key; earlier source edition retained",
       "path": "cases/caucasus/poti_first_part_conditional.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/poti_first_part_conditional/inputs.json",
-        "experiments/poti_first_part_conditional/certificates.json"
+        "experiments/poti_first_part_conditional/certificates.json",
+        "experiments/p59_repeated_vessel_labels/inputs.json",
+        "experiments/p59_repeated_vessel_labels/certificates.json"
       ],
       "state": "CONDITIONAL"
     },
@@ -10447,13 +10485,15 @@
       "printed_page": 168,
       "source_section": "E",
       "subject": "Arad provisions copy: native 80000 MANN and source-linked restoration of eleven p159 coordinates",
-      "status": "Printed 271 / conditional 272 frame; raw 132/136; three original-source-supported coordinates give 135/136; edited layer 4 observed substitutions; literal strength 80000 and shared 5/6 footer retained",
+      "status": "Printed 271 / conditional 272 frame; raw 132/136; three original-source-supported coordinates give 135/136; edited layer 4 observed substitutions; literal strength 80000 and shared 5/6 footer retained; conditional shared-reference digit adds 1 fixed label, giving 136/136; opposite assignment and source alternatives retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); earlier p159 source edition and published key credited",
       "path": "cases/military/danube_arad_witnesses.md#p168-e",
       "source_reviewed": true,
       "evidence": [
         "experiments/danube_arad_witnesses/inputs.json",
-        "experiments/danube_arad_witnesses/certificates.json"
+        "experiments/danube_arad_witnesses/certificates.json",
+        "experiments/nov7_9_joint_digits/inputs.json",
+        "experiments/nov7_9_joint_digits/certificates.json"
       ],
       "state": "CONDITIONAL"
     },
@@ -10543,15 +10583,17 @@
       "printed_page": 167,
       "source_section": "C1",
       "subject": "Mission address and Nachrichtenchef routing/signature field",
-      "status": "Native 132-slot first part; raw 61/66; partial word proposal 63/66 with six observed substitutions and two source-mask fills; MILB/0RM/RELA retained; three linked unknown positions",
+      "status": "Native 132-slot first part; raw 61/66; partial word proposal 63/66 with six observed substitutions and two source-mask fills; MILB/0RM/RELA retained; three linked unknown positions; conditional shared-reference digits add 3 fixed labels, giving 66/66; opposite assignment and source alternatives retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR credited",
       "path": "cases/radio/p167_mission_address.md#p167-c1",
       "source_reviewed": true,
       "evidence": [
         "experiments/p167_mission_address/inputs.json",
-        "experiments/p167_mission_address/certificates.json"
+        "experiments/p167_mission_address/certificates.json",
+        "experiments/nov7_9_joint_digits/inputs.json",
+        "experiments/nov7_9_joint_digits/certificates.json"
       ],
-      "state": "PARTIAL"
+      "state": "CONDITIONAL"
     },
     {
       "id": "p198_A",
@@ -10591,14 +10633,16 @@
       "printed_page": 219,
       "source_section": "C",
       "subject": "Kiev unrest between the Hetman government and an unresolved party; soldiers council neutrality",
-      "status": "Conditional 294-slot frame; shared VD=J reduces optional PETLJURA to 2 observed substitutions and 18 inserted fills; four tied source maps retained",
+      "status": "Conditional 294-slot frame: BEVORSTEHEND adds two existing-gap fills at zero new observed substitutions; shared J/Y reduces PETLJURA + MARKOWSKY costs; continuous body: 2 substitutions/20 added-slot fills, optional three-name layer: 3 substitutions and 22 fills; two tied source origins retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published key and earlier OCR credited",
       "path": "cases/military/p219_kiev_unrest.md#p219-c",
       "source_reviewed": true,
       "evidence": [
         "experiments/p219_kiev_unrest/inputs.json",
         "experiments/p219_kiev_unrest/certificates.json",
-        "experiments/nov25_treaty_digits/kiev_certificate.json"
+        "experiments/nov25_treaty_digits/kiev_certificate.json",
+        "experiments/nov25_treaty_digits/kiev_completion_inputs.json",
+        "experiments/nov25_treaty_digits/kiev_completion_certificate.json"
       ],
       "state": "CONDITIONAL"
     },
@@ -10658,13 +10702,15 @@
       "printed_page": 167,
       "source_section": "D",
       "subject": "Captain and replacement-detachment dispatch fragment",
-      "status": "Source-retaining 190-slot model; 89/95 fixed labels; optional ZIMMERMANN supported by p121 adds 10 interpreted name positions and 4 observed substitutions; full title and destination unresolved",
+      "status": "Source-retaining 190-slot model; 89/95 fixed labels; optional ZIMMERMANN supported by p121 adds 10 interpreted name positions and 4 observed substitutions; full title and destination unresolved; conditional shared-reference digits add 3 fixed labels, giving 92/95; opposite assignment and source alternatives retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR credited",
       "path": "cases/people/p167_captain_dispatch_fragment.md#conditional-name-proposal",
       "source_reviewed": true,
       "evidence": [
         "experiments/p167_captain_dispatch_fragment/inputs.json",
-        "experiments/p167_captain_dispatch_fragment/certificates.json"
+        "experiments/p167_captain_dispatch_fragment/certificates.json",
+        "experiments/nov7_9_joint_digits/inputs.json",
+        "experiments/nov7_9_joint_digits/certificates.json"
       ],
       "state": "CONDITIONAL"
     },

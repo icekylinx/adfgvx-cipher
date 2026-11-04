@@ -33,8 +33,9 @@ The Aegean volume's 2000 edition date is supported by Lasry's bibliography; the 
 
 ## Historical and technical context
 
-These sources support specific interpretations or delimit a search. They do not
-replace a missing ciphertext witness or assign an unknown key cell.
+These sources support specific interpretations or delimit a search. Any
+resulting key-cell assignment remains conditional on the stated identification;
+the source editions separately account for the received ciphertext.
 
 | Source | Use and limit |
 |---|---|
@@ -47,6 +48,9 @@ replace a missing ciphertext witness or assign an unknown key cell.
 | [Lloyd’s Register of Shipping, 1919–20, Volume II—Steamers](https://archive.org/details/HECROS1920ST/page/n1294/mode/1up) | The Sueh entry and its explicit supplement cross-reference identify Corcovado under a French flag and French Government ownership in the inspected register copy. This supplies later context, without dating the transfer or establishing completion or currency of the intercepted ten-million proposal. [Page locators and review](../data/reviews/lloyds_corcovado_context.json). |
 | [Béla Barkóczy-Klopsch, Mackensen's army in Hungary, 1923](https://real-eod.mtak.hu/8911/1/MTA_AKisAkademiaKonyvtara_043.pdf) | The formation list and transport chronology support conditional late-November numeral assignments. [Inspected pages and cipher consequences](../experiments/late_november_calendar_and_units/README.md). |
 | [Der Gebirgsbote, no. 129, 13 November 1918](https://bibliotekacyfrowa.pl/Content/60534/PDF/directory.pdf) | A decree dated 11 November places the VI Army Corps deputy general command in Breslau. [Masthead, decree and personnel-message comparison](../experiments/nov25_treaty_digits/README.md#a-separate-breslau-unit-interpretation). |
+| [Die Presse, Thorn, no. 184, 8 August 1914](https://kpbc.umk.pl/Content/168740/KM_01427_1914_184.pdf) | The royal decree of 5 August specifies two Iron Cross classes and a Grand Cross. It supports the class-domain constraint for p193's conditional EK2 reading, without identifying the award or its recipient. [Inspected decree and cipher argument](../experiments/nov13_joint_completion/README.md#the-award-class). |
+| [Schlesische Zeitung, no. 337, morning edition, 17 May 1913](https://bibliotekacyfrowa.pl/Content/139045/GSL_P_31292_IV_1913_26511_337.pdf) | The printed surname Strzemieczny supports one name-field interpretation. The 1913 captain is not identified with the major mentioned in the 1918 telegram. [Original name image and shared-cell audit](../experiments/nov25_treaty_digits/README.md). |
+| [Csongrád vármegye Hivatalos Lapja, no. 59, 21 December 1912](https://epa.hu/05200/05279/00539/pdf/EPA05279_csongradvarmegye_hivatalos_lapja_1912_059.pdf) | Printed municipal budget entries attest Nagymágocs, supporting a second independent spelling with the same conditional Y cell. They do not attest the military movements reported in 1918. [Source images and exact comparison](../experiments/nov25_treaty_digits/README.md). |
 | [Engel, Holtz and Materna, Berlin workers' and soldiers' council documents, document 96](https://doi.org/10.1515/9783050068831.400) | The published archival transcription gives a counterpart to the p226–227 letter, its dispatch date and signatures. [Textual variants and exact surname-repair costs](../experiments/mackensen_archival_comparison/README.md). |
 
 Exact page/image locators, inspected scopes and limitations are retained in

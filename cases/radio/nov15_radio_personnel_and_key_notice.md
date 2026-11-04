@@ -139,6 +139,11 @@ partial square, and different cells must remain distinct. This coupled
 uncertainty is retained in the certificate; no historical reference number
 is assigned.
 
+Under the separate [p193 award-class interpretation](../../experiments/nov13_joint_completion/README.md),
+the first reference digit becomes **2**, giving `2??6?5` and **69/72**
+fixed positions. The repeated middle cell and the fifth label remain
+unresolved; no coordinate change is needed.
+
 ## p197 B
 
 <details>

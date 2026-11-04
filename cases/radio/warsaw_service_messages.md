@@ -55,8 +55,10 @@ The message asks Oberleutnant Kretzschmar, attached to the OKM economic staff,
 department 1, in Bucharest for news about the situation and prospects, and
 decisions affecting the sender's interests. The literal forms `OBLT0`,
 `LAGEN`, and `DEUTKAUF5` are not normalized inside the ciphertext model.
-The three reference symbols after `NRX` occupy cells `VG`, `AF`, `AF`;
-only their repeated-cell equality is established.
+The three reference symbols after `NRX` occupy cells `VG`, `AF`, `AF`.
+The [shared conditional VG=2 reading](../../experiments/nov13_joint_completion/README.md#the-award-class)
+gives **`2??`**, with the two unknowns still equal. This adds one label to the
+existing edition, reaching **173/175**, without another source edit.
 
 ## p192 B: LP relays traffic in both directions
 
@@ -101,8 +103,10 @@ two zero-substitution fits to that ordinary-word stencil: source gaps **109**
 and **110**. Both insert `F` next to the same observed `F`, producing the same
 repaired ciphertext. The alternative unfilled gap moves the single erased
 plaintext letter from `DIENSTSTE?LEN` to `SOWI?`; both complete to the same
-candidate. No other source coordinate is altered. The two unknown reference
-symbols are at cells `GD` and `VG`; neither is assigned a digit here.
+candidate. No other source coordinate is altered. The two baseline unknown
+reference symbols are at cells `GD` and `VG`. Applying the shared conditional
+VG=2 assignment gives **`?521115`**, taking this edition to **133/134** fixed
+labels; GD remains unknown. Both gap alternatives are retained.
 
 ## p194 C: which march route will Army Group Kiev choose?
 
@@ -193,6 +197,8 @@ p192 B gap minima. Its optional PDF check verifies source-crop pixels.
 The four records contain 1,081 literal slots, of which 1,079 are valid
 coordinates. After the one declared insertion, their models have 541 plaintext
 positions, 532 fixed before repair and 535 in the conservative candidates.
-These counts distinguish unknown positions from known but linguistically
-garbled letters. The reading does not resolve the unknown reference digits,
-relabel the published `0` or `5`, or reconcile inconsistent dates.
+The shared VG=2 interpretation adds **two** reference digits, reaching
+**537/541**, as checked in the
+[shared-traffic certificate](../../experiments/nov13_joint_completion/traffic_certificates.json).
+The remaining reference symbols, the published `0` and `5`, and the
+inconsistent source dates are retained.

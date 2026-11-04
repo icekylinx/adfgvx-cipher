@@ -113,11 +113,30 @@ ABENDMELDUNG13XJJ22ALPEXKX16X1ZUIGEXESHABENMITANFAENGENERREICHT1J0IDXTISHAFOELDV
 
 **Meaning:** The recoverable clause in this separate evening report states that leading elements had reached the following listed entries. The unit, time-like and place labels are preserved literally; this edition does not identify the units or normalize the garbled place spellings.
 
+### A shared letter identifies Nagymágocs
+
+The later [shared `AD=Y` interpretation](../../experiments/nov25_treaty_digits/README.md#the-shared-y-in-strzemieczny-and-nagymagocs)
+turns `NAGQMAGOCS` into **`NAGYMAGOCS`**. At plaintext position 90,
+the pair comes from the originally observed **A at source 74 and D at
+source 180**. This is the same cell that completes Strzemieczny's surname
+in p224 C1; neither name requires an added source-coordinate repair.
+
+The place spelling is independently printed in *Csongrád vármegye
+Hivatalos Lapja*, **21 December 1912**, no. 59, p349, items 86–89, in
+the municipality's proposed 1913 budgets.
+[National-library scan](https://epa.hu/05200/05279/00539/pdf/EPA05279_csongradvarmegye_hivatalos_lapja_1912_059.pdf)
+· [Masthead](../../experiments/nov25_treaty_digits/sources/csongrad_1912_title.png)
+· [Nagymágocs entries](../../experiments/nov25_treaty_digits/sources/nagymagocs_1912.png).
+The newly identified place is one location that leading elements
+reportedly reached; the adjacent unit labels and `TISHAFOELDVAR` remain unresolved.
+The gazette supplies a geographical spelling, not a separate account
+of the reported military movement.
+
 **Editorial limits.**
 
 - All 220 observed coordinates remain in their native order. The sole primary word proposal HABE7 → HABEN is priced as an observed-coordinate change, not as a free reading of a numeral.
 - 13, JJ22ALPE, K, 16, 1ZUIGE, 1J0ID, TISHAFOELDVAR, PRD, NAGQMAGOCS81J8 and KONDOROS keep their exact labels. Word spacing in the opening is editorial and does not establish its syntax or reference values.
-- No unit number or geographical correction is supplied. In particular, TISHAFOELDVAR and NAGQMAGOCS are not silently respelled from familiar place names.
+- The original edition supplies no unit number or geographical correction. Its TISHAFOELDVAR and NAGQMAGOCS remain in the exact label stream; the separate shared-Y interpretation above identifies only the latter place.
 - The HATTE MR heading contains a 4-like glyph rendered as [4-like] in the metadata. This is a header transcription qualification and does not add a source-ciphertext erasure or a decoded position.
 - B has its own source label and reception time. It is not counted as a third part of the two-part provisioning message above.
 
