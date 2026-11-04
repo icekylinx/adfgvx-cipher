@@ -9,7 +9,7 @@ Read the [complete source edition](../../cases/pages/186.md#edition-cases-milita
 ## Exact scope
 
 | Quantity | Count |
-|---|---:|
+| --- | ---: |
 | Physical source records | 2 |
 | Printed source slots | 424 |
 | Unambiguous printed coordinates | 423 |

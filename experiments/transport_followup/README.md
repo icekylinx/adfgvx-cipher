@@ -6,7 +6,7 @@ The cipher key is the previously published **Nov13–15b** key; its historical a
 Two pairs of printed messages support useful new contextual readings. **They do not solve the separate p198 section D / `CHI-170` target.**
 
 | Pair | Most likely subject | Evidence status |
-|---|---|---|
+| --- | --- | --- |
 | p197 C / p198 B | Two `US` apparatuses to Darmstadt; station to remain ready; signed Seifert | Source-supported composite, with an unresolved designation and time/date; one letter needs an erasure fill and an additional known-coordinate change across the witnesses |
 | p197 D / p198 E | A lorry is coming; load a trailer; prepare a petrol pump | Clear shared body after a literal duplicate-group repair and a conditional dash relocation; three letter positions need additional editorial emendation |
 
@@ -28,7 +28,7 @@ STATIONBLEIBTBIS16X0???BETRBEREITXSEIFERT
 ### What the source preserves
 
 | Source | Printed label | Slots | Valid coordinates | Other slots |
-|---|---:|---:|---:|---|
+| --- | ---: | ---: | ---: | --- |
 | p197 C | `RIZI-190` | 185 | 178 | Six dashes and one literal `C` |
 | p198 B | `RIZI-190` | 190 | 190 | None |
 
@@ -92,7 +92,7 @@ The preferred body has **70 specified characters out of 71**: **66 complete obse
 Each altered valid coordinate is counted separately in its own witness. Unknown-slot fills, deleting the five-coordinate duplicate, and the stated dash/length geometry changes are tracked separately.
 
 | Pair | Attainable minimum known-coordinate cost | Minimum cost with the preferred specified letters | Preferred specified-letter cost by witness |
-|---|---:|---:|---|
+| --- | ---: | ---: | --- |
 | p197 C / p198 B | 18 | 19 | 6 in C and 11 in B, plus 2 at unresolved positions |
 | p197 D / p198 E | 8 | 13 | 8 in D and 5 in E |
 

@@ -4,7 +4,7 @@
 
 Document 96 in Gerhard Engel, Bärbel Holtz and Ingo Materna, eds.,
 *Groß-Berliner Arbeiter- und Soldatenräte in der Revolution 1918/19*
-(Akademie Verlag, 1993), pp. 461–462, preserves a typescript carbon copy
+(Akademie Verlag, 1993), pp461–462, preserves a typescript carbon copy
 of the letter transmitted in Childs's p226 C / p227 A. Its address,
 internment argument, reassurance and closing council match the four-part
 radio message. The edition gives a **28 November** dateline and records
@@ -21,7 +21,7 @@ and `MNELLER→MUELLER` repairs. Each costs one observed coordinate in the
 ciphertext carries only the surname.
 
 | Passage | Childs decryption / earlier edition | Archival counterpart |
-|---|---|---|
+| --- | --- | --- |
 | First part's damaged noun | `SMUTIONEN`, 9 positions; earlier publication `SITUATIONEN`, 11 | `Faktoren`, 8 letters |
 | Armistice term | Edited `WAFFENSTILLSTANDES` | `Waffenstillstandsvertrages` |
 | Closing hope | Edited `EUCH ALLERECHTBALD` | The copy omits the extra *recht* |

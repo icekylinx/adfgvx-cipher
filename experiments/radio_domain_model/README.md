@@ -51,7 +51,7 @@ Every received coordinate is preserved, and unfilled square cells remain a
 permutation of the unused symbols. Correct characters are out of 85.
 
 | Held-out source | Book objective | Radio mixture |
-|---|---:|---:|
+| --- | ---: | ---: |
 | p92 A: courier | 81 | 81 |
 | p84 A: oil inquiry | 82 | 79 |
 | p190 D: relay request | 84 | 84 |
@@ -64,7 +64,7 @@ The sums are 495/510 and 494/510. This small fixed sample does not establish
 an improvement. Several wrong strings score above their true texts, especially
 in references and names. The book model's courier candidate changes the
 number and the surname; the mixture likewise retains a wrong surname and
-prefers letter-like reference fields. Even an unchanged-source roundtrip
+prefers letter-like reference fields. Even an unchanged-source round-trip
 cannot authenticate those choices.
 
 [loss_controls.json](loss_controls.json) contains every truth, selected result
@@ -99,7 +99,7 @@ are not normalized probability distributions over 36 separate symbols.
 Wildcard marginalization counts the numeric class once, not ten times.
 
 | Additional held-out family | Folded book | Folded radio mixture |
-|---|---:|---:|
+| --- | ---: | ---: |
 | Kiel radio control | 85 / 85 | 85 / 85 |
 | LP forwarding | 85 / 85 | 85 / 85 |
 | Budapest telephone | 82 / 85 | 83 / 85 |
@@ -127,7 +127,7 @@ The cells below show **literal agreement / agreement after folding all digits
 to one class**, each out of 85:
 
 | Authored control | Book | Radio mixture | Folded book | Folded radio |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | Train, dates and departure times | 71 / 83 | 71 / 81 | 70 / 85 | 70 / 85 |
 | Marineamt, ship and payment | 80 / 85 | 78 / 82 | 80 / 85 | 78 / 83 |
 | Radio wavelength and listening times | 75 / 81 | 75 / 80 | 74 / 80 | 77 / 81 |

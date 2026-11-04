@@ -1,8 +1,8 @@
-# Black Sea shipping and supply traffic, November 15, 1918
+# Black Sea shipping and supply traffic, 15 November 1918
 
 **ADFGVX Cipher — icekylinx and GPT-6 Astra Pro**
 
-This edition provides exact source readings for two separate multipart messages from Childs pp. 199–200:
+This edition provides exact source readings for two separate multipart messages from Childs pp199–200:
 a three-part report in the Feigenhaus/Herkules supply correspondence, and a
 two-part order concerning the sale of `CORCOWADO` to Turkey. The source's
 wording, frame defects and unknown references remain separate from readable
@@ -10,7 +10,7 @@ editorial candidates.
 
 **Prior body credit:** Lasry, Niebel, Kopal and Wacker already identified and
 discussed the p199 A supply-message body in their 2016 paper, §6.5, *A Code
-within a Code* (author PDF p. 25, printed p. 24; DOI
+within a Code* (author PDF page 25, printed p24; DOI
 [10.1080/01611194.2016.1169461](https://doi.org/10.1080/01611194.2016.1169461)).
 For those three records, the present contribution is the literal source
 edition, exact deletion/gap alternatives and repair certificates. It is not
@@ -19,7 +19,7 @@ ten tons; the conservative source model here retains `1?0` and does not
 import that quantity. Full publication metadata are in `inputs.json`.
 
 | Record | Printed slots | Valid coordinates | Declared frame | Fixed raw positions | Conservative candidate |
-|---|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: |
 | p199 A1 | 293 | 293 | 292 | 145 / 146 | 145 / 146 |
 | p199 A2 | 344 | 344 | 344 | 171 / 172 | 172 / 172 |
 | p199 A3 | 205 | 203 | 206 | 100 / 103 | 102 / 103 |
@@ -81,5 +81,5 @@ python experiments/black_sea_shipping/verify.py --verify --pdf /path/to/ADFGVX.p
 
 Verification independently recomputes the transposition indices, all plaintext
 domains, all geometry minima and every repaired ciphertext. Full plaintext
-reencryption is reported only for candidates without unresolved symbols.
+re-encryption is reported only for candidates without unresolved symbols.
 The PDF option also verifies the full source hash and every saved crop pixel.

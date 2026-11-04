@@ -11,8 +11,8 @@ The full raw and proposed readings are in
 [the case](../../cases/pages/177.md#edition-cases-naval-turkish-tonnage).
 
 The primary source is J. Rives Childs, *General Solution of the ADFGVX
-Cipher System*, printed p177, PDF p180. The page heading says November 11;
-the receipt header says November 12 at 2.55 a.m.; the origin line reads
+Cipher System*, printed p177, PDF page 180. The page heading says 11 November;
+the receipt header says 12 November at 2.55 a.m.; the origin line reads
 `1410 (11/11)`. All three are preserved. The published `Nov10-12` key is
 used without changing any cell.
 

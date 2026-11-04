@@ -1,4 +1,4 @@
-# November 7–8: embassy, legation and Etappe address parts
+# 7–8 November: embassy, legation and Etappe address parts
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
@@ -35,7 +35,7 @@ The PDF check pins the original scan hash and exactly reproduces RGB pixels
 for the two new crops and existing p162 witness crop. `inputs.json` contains
 the manual rows, headers, keys, variant and word proposals.
 `certificates.json` contains every raw position, repair, variant ledger,
-parallel support item and exact roundtrip. `prior_candidates.json` and
+parallel support item and exact round-trip. `prior_candidates.json` and
 `ocr_snapshot.json` preserve the earlier OCR and explicitly recomputed
 comparisons. `catalog_proposal.json` lists seven new physical records for
 integration. Published-key credit remains with Lasry, Niebel, Kopal and

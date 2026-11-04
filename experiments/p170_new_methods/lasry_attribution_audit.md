@@ -12,12 +12,12 @@ mapping are in `lasry_attribution_audit.json`.
 ## Current rows requiring clearer prior-body credit
 
 | Family | Paper locator | Current catalog rows | Required distinction |
-|---|---|---|---|
-| Feigenhaus / Herkules | §6.5, printed p24 / PDF p25 | `p120_B1`, `p123_A2`, `p123_A3`, `p122_D_suffix` | The paper already interprets the three-part body. Our assembly, exact repairs and identification of the p122 repeated suffix remain separate contributions. |
-| Munich routing / army cipher | §6.4, printed p23 / PDF p24 | `p168_C`, `p168_D`, `p159_B`, `p159_C` | Add the paper's prior body discussion. Preserve Childs's earlier order-11338 credit and our independent source parallels. |
-| Seifert repeated report | §6.4, printed p23 / PDF p24 | `p169_A` | The paper cites the clearer p168 A body, already credited there. State inherited prior-body credit alongside our p169 repeat audit. |
-| Warsaw inquiry relay | §6.4, printed p24 / PDF p25 | `p214_B` | The paper cites the p181 A body, already credited there. The later forwarding layer and footer remain our source contribution. |
-| Operette cargo | §6.5, printed p24 / PDF p25 | Incoming p199 A source package | Corpus agent is already adding the explicit prior-body credit. |
+| --- | --- | --- | --- |
+| Feigenhaus / Herkules | §6.5, printed p24 / PDF page 25 | `p120_B1`, `p123_A2`, `p123_A3`, `p122_D_suffix` | The paper already interprets the three-part body. Our assembly, exact repairs and identification of the p122 repeated suffix remain separate contributions. |
+| Munich routing / army cipher | §6.4, printed p23 / PDF page 24 | `p168_C`, `p168_D`, `p159_B`, `p159_C` | Add the paper's prior body discussion. Preserve Childs's earlier order-11338 credit and our independent source parallels. |
+| Seifert repeated report | §6.4, printed p23 / PDF page 24 | `p169_A` | The paper cites the clearer p168 A body, already credited there. State inherited prior-body credit alongside our p169 repeat audit. |
+| Warsaw inquiry relay | §6.4, printed p24 / PDF page 25 | `p214_B` | The paper cites the p181 A body, already credited there. The later forwarding layer and footer remain our source contribution. |
+| Operette cargo | §6.5, printed p24 / PDF page 25 | Incoming p199 A source package | Corpus agent is already adding the explicit prior-body credit. |
 
 The `p158` challenge's **composite-source identification** remains our
 contribution. Its component-body discussion should also cite the paper,
@@ -31,7 +31,7 @@ matching row in the audited snapshot; it does not mean the source has
 never been deciphered.
 
 | Paper section; printed page(s) | Childs source | Prior material | Current catalog outcome |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | §5.1; p11 | p70 A1–A2 | Header example only | Does not identify the Westernhagen body; no added body credit required. |
 | §5.3; pp12–13 | Unpaginated example | Constanza closure body | No verified page/catalog match; retain as an unmapped prior example. |
 | §5.4 / Table 2; pp13–15 | Period keys | Key recovery | Existing key provenance remains required for every use. |

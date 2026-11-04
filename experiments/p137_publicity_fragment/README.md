@@ -38,7 +38,7 @@ slots do not count as native ciphertext or printed damage. Every received valid
 symbol is retained at its original source index.
 
 | Proposed word | Plaintext positions, inclusive | Observed halves | Added fills | Wholly absent letters |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | `DER` | 13–15 | 2 | 4 | 1 |
 | `OEFFENTLICHKEIT` | 16–30 | 9 | 21 | 6 |
 | `BLEIBEN` | 45–51 | 4 | 10 | 3 |
@@ -66,7 +66,7 @@ not an exhaustive list of possible words. The local articles `DER`, `DEN` and
 change. The primary words are not claimed to be common to all possible readings.
 
 | Model length | Added leading unknown slots | Primary labels | Unassigned positions |
-|---|---:|---:|---:|
+| --- | ---: | ---: | ---: |
 | 254 | 180 | 25/127 | 102 |
 | 256 | 182 | 25/128 | 103 |
 | 258 | 184 | 25/129 | 104 |
@@ -127,7 +127,7 @@ and explicitly recorded representative square completions, filling unknown
 cells with sorted unused symbols. They do not enumerate all key completions.
 
 | Diagnostic family | Best full length | Best model score |
-|---|---:|---:|
+| --- | ---: | ---: |
 | `target` | 254 | -50.350566 |
 | `shuffled_source_0` | 138 | -57.356859 |
 | `shuffled_source_1` | 262 | -61.769746 |
@@ -171,7 +171,7 @@ The three printed dashes occupy zero-based source positions 25–27.
 ![Original p137 A6 interference fragment](sources/p137_a6.png)
 
 The embedded crop comes from J. Rives Childs, *General Solution of the ADFGVX
-Cipher System*, printed p137 / PDF p140: rectangle `[55, 430, 506, 478]` PDF
+Cipher System*, printed p137 / PDF page 140: rectangle `[55, 430, 506, 478]` PDF
 points, scale 4, 1804 × 192 RGB pixels. [Inputs](inputs.json) pin the hosted
 original PDF URL, full-file byte count and SHA-256, crop PNG hash and decoded
 RGB hash. Optional PDF verification checks the actual crop pixels against the

@@ -1,9 +1,9 @@
 # Late October radio service and Caucasus hide purchasing
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. This package makes a source
-edition of eight physical records on Childs printed pp. 74–76 / PDF pp. 77–79.
+edition of eight physical records on Childs printed pp74–76 / PDF pages 77–79.
 The date heading is 28 October 1918; several printed reception times are
-29 October. The unchanged published October 28–31 key is prior Lasry-team
+29 October. The unchanged published 28–31 October key is prior Lasry-team
 work and is copied with its provenance in `inputs.json`.
 
 The reader-facing cases are:
@@ -17,7 +17,7 @@ The reader-facing cases are:
 ## Scope and costs
 
 | Physical source record | Typed slots | Fixed raw / total plaintext positions | Observed-coordinate substitutions | Printed-dash fills |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | p74 A | 154 | 77 / 77 | 1 | 0 |
 | p74 B | 170 | 85 / 85 | 0 | 0 |
 | p74 C1 | 148 | 44 / 74 | 0 | 30 |

@@ -2,7 +2,7 @@
 
 Discovery and review: **icekylinx and GPT-6 Astra Pro**. Apache-2.0.
 
-The unchanged October 28–31 key and a source-directed 244-slot frame support
+The unchanged 28–31 October key and a source-directed 244-slot frame support
 **DEUTSCHE FELDPOST**. All five possible positions of a missing coordinate in
 `FDFG` are retained. Their common raw stream fixes 14/122 positions; the word
 layer fixes 28/122 with **zero observed substitutions, two printed-mask fills

@@ -15,7 +15,7 @@ The p212 header says `XYZ v LP (03.54 p.m., November 22nd); ----- 7 TLE`. Number
 Two additional frames are preserved outside the certificate's `records` list, in `contextual_unread_records`:
 
 | Source frame | Observed coordinates | Printed length / condition | Reading claim |
-|---|---:|---|---|
+| --- | ---: | --- | --- |
 | p212 A2 | 160 | Advertised 284 | None |
 | p212 A4 | 197 | “Missed start”; no readable total | None |
 
@@ -34,7 +34,7 @@ The received abbreviation `BEIMOSANOFFMILMISZ` is left unexpanded. `NIKOLA9EW` r
 ## Conservative later readings
 
 | Record | Ordinary-coordinate substitutions | Printed-glyph fills | Remaining uncertainty |
-|---|---:|---:|---|
+| --- | ---: | ---: | --- |
 | p212 A3, oil query | 5 | 0 | Reference label 2 unchanged; association with medical parts unasserted |
 | p212 A5, sick wagon and kitchen | 5 | 1 | Instruction label 2 unchanged |
 | p213 A6, forwarding and water points | 5 | 0 | `5T` bridge and erased position before DEPARTEMENT retained |

@@ -20,7 +20,7 @@ The original has **197 printed slots**, against advertised `RICHI-196`:
 187 observed coordinates, nine dashes and one invalid `O`-like glyph.
 A second inspection independently confirmed every glyph, the receipt time
 **03.49 p.m.**, the genuinely repeated `XGVXD` groups, and the two final As.
-The page heading is partly handwritten; its receipt header says November 11,
+The page heading is partly handwritten; its receipt header says 11 November,
 while the separate originating-time field is simply `22.20`.
 
 The conditional frame excludes one repeated five-group and one final A,
@@ -28,7 +28,7 @@ then inserts five missing coordinates. The complete search compares every
 insertion boundary in the retained 191-coordinate stream:
 
 | Check | Scope and result |
-|---|---|
+| --- | --- |
 | One-coordinate exclusion alone | All 197 exclusions; minimum 17 observed changes for the fixed candidate |
 | Duplicate group, final A and five losses | 2 × 2 × 192 = 768 source maps; minimum two observed changes |
 | All minimum maps | Eight: four identical-group/end-A origins, with each of two gap boundaries |

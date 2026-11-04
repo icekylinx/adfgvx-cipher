@@ -88,7 +88,7 @@ ALS3QIA2HHUB?TE?LUNG
 The following existing edited words are `ZUERFOLGEN`. Three levels are retained:
 
 | Layer | Proposed first 20 positions | Additional observed substitutions | Additional printed-mask fills |
-|---|---|---:|---:|
+| --- | --- | ---: | ---: |
 | Repeated word only | `ALS3QNACHHUTSTELLUNG` | 3 | 2 |
 | Also propose the separator | `ALS3XNACHHUTSTELLUNG` | 4 | 2 |
 | Further grammatical proposal | `AUS3XNACHHUTSTELLUNG` | 6 | 2 |
@@ -123,7 +123,7 @@ assignments of the partial square's two unknown cells. Masked coordinates have
 no mismatch cost.
 
 | Word position, zero-based | Part-13 original pair | Part-15 original pair | Labels at the joint minimum | Proposed label |
-|---:|---|---|---|---|
+| ---: | --- | --- | --- | --- |
 | 0 | `GG` | `XG` | `IN` | N |
 | 1 | `XD` | `?D` | `A` | A |
 | 2 | `GD` | `F?` | `2C` | C |

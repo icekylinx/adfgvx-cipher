@@ -9,7 +9,7 @@ The native **116-coordinate / 58-position** p164 D source partly reads as an ack
 The earlier p164 contextual output already contains all 58 raw labels. This package adds a separately readable partial source edition and exact word-repair account. It does not present the opaque references as recovered prose.
 
 | Layer | Fixed positions | Source changes |
-|---|---:|---|
+| --- | ---: | --- |
 | Native raw output | 58/58 | None |
 | Partial acknowledgement reading | 58/58 | Two substitutions; zero fills, additions, exclusions or reorderings |
 

@@ -14,7 +14,7 @@ See the [source and readable case](../../cases/pages/185.md#edition-cases-contex
 ## Coordinate account
 
 | Word or phrase | Observed substitutions | Printed-glyph fills | Missing-slot fills |
-|---|---:|---:|---:|
+| --- | ---: | ---: | ---: |
 | `LCST?UT?S → LASTAUTOS` | 2 | 1 | 0 |
 | `AB?A6SCHBE?EITSEIN → ABMARSCHBEREITSEIN` | 1 | 0 | 2 |
 
@@ -41,7 +41,7 @@ minimum of three observed substitutions. Gap55 remains the earlier
 representative; its lexical fit is not a unique reconstruction.
 
 The complete raw stream, exact edited stream, source maps, remaining domains,
-all gap costs and an injective reencryption witness are in
+all gap costs and an injective re-encryption witness are in
 [certificate.json](certificate.json). The original source and earlier
 heuristic rankings remain in the [transport certificate](../../data/certificates/p185_D_transport.json).
 

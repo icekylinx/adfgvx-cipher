@@ -1,4 +1,4 @@
-# November 1 Mackensen and Orient reports
+# 1 November Mackensen and Orient reports
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. This package edits eight
 physical source records on Childs pp100–102 with the published full `Nov1-3`
@@ -9,7 +9,7 @@ The existing p100 A challenge is a separate record and is unchanged.
 ## Completed source editions
 
 | Record | Source slots / valid coordinates | Working slots | Raw fixed / total | Edited fixed / total | Observed substitutions | Source-mask fills | Observed exclusions |
-|---|---:|---:|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | p100 D1 | 136 / 134 | 136 | 66 / 68 | 68 / 68 | 0 | 2 | 0 |
 | p101 A2 | 132 / 132 | 132 | 66 / 66 | 66 / 66 | 1 | 0 | 0 |
 | p101 B2 | 200 / 199 | 200 | 99 / 100 | 100 / 100 | 3 | 1 | 0 |
@@ -144,13 +144,13 @@ completed for this edition.
 
 The full source PDF SHA-256 is
 `157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06`.
-Printed pp100–102 correspond to PDF pp103–105. The source is J. Rives Childs,
+Printed pp100–102 correspond to PDF pages 103–105. The source is J. Rives Childs,
 *General Solution of the ADFGVX Cipher System*. The full key provenance is
 copied into [inputs.json](inputs.json) and retains the credit of **George
 Lasry, Ingo Niebel, Nils Kopal and Arno Wacker**.
 
 The source edition and arithmetic review are by **icekylinx and GPT-6 Astra
 Pro**. No first historical body-reading priority is claimed. The separate
-[p100 challenge](../../cases/pages/100.md#edition-cases-p100) keeps **Armin's March 1, 2017** credit.
+[p100 challenge](../../cases/pages/100.md#edition-cases-p100) keeps **Armin's 1 March 2017** credit.
 The [catalog proposal](catalog_proposal.json) adds only these eight physical
 records and changes no challenge status.

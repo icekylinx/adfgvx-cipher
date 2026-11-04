@@ -12,7 +12,7 @@ an observed half-coordinate; the proposal fills one printed mask and six
 lost-tail slots.
 
 | Original donor | Raw span, zero based | Original field | Proposed target start |
-|---|---:|---|---:|
+| --- | ---: | --- | ---: |
 | [p164 D](../../cases/pages/164.md#edition-cases-radio-p164-acknowledgment) | 41–50 | `XKXMXRMX1` | 91 |
 | [p105 C1](../../cases/pages/104.md#edition-cases-radio-nov2-telegram-acknowledgments) | 77–84 | `XRMX1XA` | 95 |
 
@@ -20,7 +20,7 @@ Both donor fields consist entirely of original observed pairs. Their common
 `XRMX1` permits the joined eleven-position proposal, which has fifteen
 observed target coordinates. This is a contextual reuse of a field format,
 not a repeated reception or a transfer of encrypted coordinates. The p105
-donor uses the same November 1–3 key as the target, including the literal `1`.
+donor uses the same 1–3 November key as the target, including the literal `1`.
 The p164 donor has a different period key; both completions of its unfilled
 5/6 cells reproduce the same original body and donor field.
 
@@ -36,7 +36,7 @@ preceding position 90 remains unknown; no `O` is supplied to turn `K M` into
 No historical number, abbreviation expansion or full signature is asserted.
 
 **Separate historical closing proposal.** The published reconstruction in
-[Lasry et al., Table 3, row 13, printed p20 / PDF p21](https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf#page=21)
+[Lasry et al., Table 3, row 13, printed p20 / PDF page 21](https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf#page=21)
 ends “(Signed) K.M. I A GR-OP”. This is an English reconstruction partly based
 on Childs, not an independent German coordinate witness. It supports testing
 `GR?XOPX` at positions 104–111 while leaving the intervening label unknown.

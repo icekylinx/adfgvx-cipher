@@ -6,7 +6,7 @@ This edition recovers the four source-defined parts of Childs p216 A. The origin
 
 The report says that a radio station was established close to Hermannstadt, with construction delayed by railway authorities. It describes unsuccessful or intermittent communication, unsuccessful attempts through Budapest, Vienna and Munich, and eventual reception through Breslau. It then asks for repetitions of missing messages, an assessment of the situation, and an interpretation of the armistice for OKM.
 
-Lasry and coauthors already discuss the loss of the Nikolajev relay and communication through Breslau in section 6.3 (author-PDF p21), citing p224 A for a later request for good radio operators. This edition does not claim discovery of that broad historical narrative. Its contribution is the exact four-part p216 source assembly, raw readings, source-coordinate repair costs, and uncertainty record.
+Lasry and coauthors already discuss the loss of the Nikolajev relay and communication through Breslau in section 6.3 (author-PDF page 21), citing p224 A for a later request for good radio operators. This edition does not claim discovery of that broad historical narrative. Its contribution is the exact four-part p216 source assembly, raw readings, source-coordinate repair costs, and uncertainty record.
 
 ## Part 1: construction near Hermannstadt
 
@@ -83,7 +83,7 @@ Here 199 slots are printed against the advertised 198, including `XXVGGD`. All *
 ## Totals and reproduction
 
 | Quantity | Four physical parts |
-|---|---:|
+| --- | ---: |
 | Printed source slots | 932 |
 | Valid printed coordinates | 931 |
 | Modeled coordinates | 930 |

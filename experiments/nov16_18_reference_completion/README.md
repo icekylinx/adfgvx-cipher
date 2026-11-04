@@ -1,4 +1,4 @@
-# Completing references across the November 16–18 traffic
+# Completing references across the 16–18 November traffic
 
 **Research and edition: icekylinx and GPT-6 Astra Pro.**
 
@@ -21,7 +21,7 @@ assignments, with repeated cells retaining the same value throughout all
 records.
 
 | Record | Earlier → conditional fixed positions | Additional reading |
-|---|---:|---|
+| --- | ---: | --- |
 | [p201 A1](../../cases/pages/201.md#edition-cases-finance-odessa-wagon-sale-p201-a1) | 124 → **125/127** | Consular reference **8?** |
 | [p202 B4](../../cases/pages/202.md#edition-cases-military-military-intendant-remit-b4-clothing-meat-sutlery-and-wartime-services) | 106 → **109/112** | `RM ? A 5?5? A 11 18` |
 | [p204 D](../../cases/pages/204.md#edition-cases-radio-nov16-18-command-inquiries-p204-d) | 39 → **40/42** | `VOM 15`, followed by the preserved separators |

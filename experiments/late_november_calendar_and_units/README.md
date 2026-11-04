@@ -53,7 +53,7 @@ The counts below compare the previous **FA=J interpretation** with the two
 new assignments. They count fixed labels within these conditional readings.
 
 | Record | Before → after | Newly determined fields |
-|---|---:|---|
+| --- | ---: | --- |
 | [p225 B2](../../cases/pages/225.md#edition-cases-military-regimental-journey-report-p225-b2) | 105 → **106/106** | Arrival during the night of **27** |
 | [p227 D](../../cases/pages/227.md#edition-cases-military-avoid-fighting-instruction-p227-d) | 135 → **136/136** | OHL reference **11367** |
 | [p229 A1](../../cases/pages/229.md#edition-cases-military-late-transport-dispatches-a-the-evening-report-and-halted-railway-transports) | 112 → **114/114** | **30/11** and **217** |

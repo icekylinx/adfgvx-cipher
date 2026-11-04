@@ -5,7 +5,7 @@
 Six source-checked parts form two readable messages: [a request for thirty million kroner](../../cases/pages/205.md#edition-cases-finance-p205-a), with an initial payment of five million, and [naval reporting instructions](../../cases/pages/205.md#edition-cases-naval-p205-b) after dissolution of the Seekriegsleitung. All **1,514 printed coordinates** are preserved in the analytical source layers. The unchanged published Nov16–18 partial square directly fixes **750 of 757 plaintext positions**. Four separate one-coordinate editorial changes produce the most likely readings; six remaining digit positions are not filled.
 
 | Message | Parts | Coordinate slots | Directly fixed plaintext | Editorial changes |
-|---|---:|---:|---:|---|
+| --- | ---: | ---: | ---: | --- |
 | p205 A | 4 | 972 | 481/486 | `Z2R → ZUR`, `ETAPPENVWRWALTUNG → ETAPPENVERWALTUNG`, `BERL2N → BERLIN`; one source coordinate each |
 | p205 B | 2 | 542 | 269/271 | The initial `?IND → SIND` requires one source-coordinate substitution; an unknown square-cell assignment cannot supply `S` |
 

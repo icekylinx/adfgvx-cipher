@@ -27,9 +27,9 @@ Every coordinate is observed in at least one source.
 The headings remain distinct:
 
 | Source | Received header | Additional source information |
-|---|---|---|
-| p172 D2 | `LP v NKJ`, 6.06 p.m., November 11 | `VON UKS LP 2127 (9/11) 2 TLE`; second part, `RICHI-204` |
-| p175 B2 | `LP v NKJ`, 6.02 p.m., November 10 | Second part, `RICHI-204`; the corresponding first part is not printed here |
+| --- | --- | --- |
+| p172 D2 | `LP v NKJ`, 6.06 p.m., 11 November | `VON UKS LP 2127 (9/11) 2 TLE`; second part, `RICHI-204` |
+| p175 B2 | `LP v NKJ`, 6.02 p.m., 10 November | Second part, `RICHI-204`; the corresponding first part is not printed here |
 
 The immediate radio hop is NKJ to LP in both headers. Neither the different
 receipt dates nor the distinction between an originating station and a
@@ -70,7 +70,7 @@ substitutions, and use the other source only to fill the two previously
 unfilled printed dashes:
 
 | New fill | Other-source observation | Newly fixed plaintext label |
-|---|---|---|
+| --- | --- | --- |
 | p175 source index 154: `- → F` | p172 source index 154 is `F` | Position 3: `? → 1`, giving `VOM18` |
 | p175 source index 203: `- → G` | p172 source index 203 is `G` | Position 98: `? → 9`, giving `89240911?` |
 
@@ -120,7 +120,7 @@ The two exceptions are the proposed M at plaintext position 29 and L at
 position 89. These remain ordinary-word proposals:
 
 | Position | Native pair evidence | Proposed repair | Observed-coordinate cost across both copies |
-|---|---|---|---:|
+| --- | --- | --- | ---: |
 | 29 | p172 `AG → Y`; p175 `?G` | `AF → M` | 2, because both sources print `G` at source index 32 |
 | 89 | p175 `DG → G`; p172 `D?` | `DD → L` | 1, at p175 source index 38; p172 separately needs a mask fill |
 

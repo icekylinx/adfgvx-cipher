@@ -7,7 +7,7 @@ several transmissions or successive parts while preserving their separate
 identifiers. Readers reach the complete editions through two routes:
 
 | Route | Purpose |
-|---|---|
+| --- | --- |
 | [Printed pages](../cases/pages/README.md) | The home page offers eight ranges. Each opens a page-number table leading to the complete edition of a printed page. |
 | [Subject exploration](../topics/README.md) | Six guides contain 50 curated summaries, each linking its sources directly to the complete numbered pages. |
 
@@ -31,6 +31,30 @@ attribution and source comparisons stay with the text. The canonical archive,
 original case-path identifiers. Those identifiers support research dependencies;
 public source links use numbered pages and stable section anchors.
 
+## Editorial style
+
+| Element | Form |
+| --- | --- |
+| Printed page | `p153`; a range is `pp152–153`. |
+| Source section | `p153 A3`. Original challenge identifiers such as `p153a` remain unchanged. |
+| PDF pagination | `PDF page 155`, distinguished from the printed page. |
+| Date | `7 November 1918`; `7–8 November` for a continuous interval, `7 and 9 November` for separate dates. |
+| Time | The 24-hour form `15:00`; retain a source's literal time string in its transcription. |
+| Counts | `80,000 men`, with commas in explanatory prose and numerical report tables; exact decoded digits remain literal. |
+| Headings | Sentence case, with proper names and catalogue states such as `OPEN` preserved. |
+| Emphasis | Bold reading labels; italics for vessel names and publication titles; code formatting for exact decoded strings and machine identifiers. |
+| Navigation | **Page ranges**, **By subject**, **Historical research** and **Reading conventions** identify the same destinations throughout the reading guides. |
+
+Use an en dash for page, date and position ranges. Keep qualifiers beside
+the reading they govern. A translation, explanatory meaning and conditional
+interpretation retain distinct labels. Historical quotations, source titles,
+key identifiers and literal evidence preserve their recorded wording.
+
+The page renderer applies these typographical conventions to editorial prose
+after assembling the source sections. It preserves quoted text, code, link
+destinations and existing section anchors; the archived edition texts remain
+the inputs to the original research checks.
+
 ## Historical studies
 
 Organize a study around a historical question and the relationship between
@@ -48,7 +72,7 @@ parts of the archive without changing their catalogue identities.
 ## Catalogue states
 
 | State | Meaning |
-|---|---|
+| --- | --- |
 | **READING** | A documented substantive body reading is available. This label does not claim that every character, reference or historical identification is settled. |
 | **PARTIAL** | Readable portions are established, with unresolved spans or fields. |
 | **CONDITIONAL** | The principal proposed reading depends on a stated source frame, key interpretation or reconstruction assumption. It may also be incomplete. |
@@ -61,7 +85,7 @@ For physical-source identity, see the [source register](catalogue-source-identit
 ## Text and evidence
 
 | Label | What the reader is seeing |
-|---|---|
+| --- | --- |
 | **Readable German** | The reading with editorial spacing, case and punctuation. Its caption identifies an excerpt or conditional proposal when necessary. |
 | **Meaning** / **English meaning** | A translation or explanatory summary. Abbreviation expansions and historical interpretation belong here when they are not literally decoded. |
 | **Raw output** | The exact decoded labels under the stated key and frame, before the additional word repairs. A conditional frame remains identified locally. |
@@ -75,13 +99,13 @@ For physical-source identity, see the [source register](catalogue-source-identit
 Only show layers that add information. An unedited message needs one exact
 stream, not identical “raw” and “edited” copies. When a literal display is
 shortened, label it as an excerpt and link the complete source or certificate.
-A roundtrip checks compatibility with a key and source model; the source and
+A round-trip checks compatibility with a key and source model; the source and
 historical argument establish why that particular reconstruction is credible.
 
 ## Unresolved text and editorial marks
 
 | Mark | Interpretation |
-|---|---|
+| --- | --- |
 | `?` in decoded text | One unresolved plaintext position. In a coordinate model, it instead denotes one unknown coordinate slot. |
 | Printed dash or unusual glyph | A source observation, preserved in the literal transcript. Its treatment in the analysis is recorded separately. |
 | `[word]` | Editorial material; the local note says whether it is a proposed repair, expansion or normalization. |

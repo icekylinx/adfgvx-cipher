@@ -1,14 +1,14 @@
-# Warsaw and LP service messages, November 14–16, 1918
+# Warsaw and LP service messages, 14–16 November 1918
 
 **ADFGVX Cipher — icekylinx and GPT-6 Astra Pro**
 
-This source edition adds four physical ciphertext records from Childs pp. 192
+This source edition adds four physical ciphertext records from Childs pp192
 and 194. It retains the published `Nov13-15b` partial square without filling
 unknown cells or relabelling digits. The record on p192 B is missing one
 coordinate; its two exact, tied gap placements are both retained.
 
 | Record | Literal slots | Valid coordinates | Model length | Fixed raw letters | Subject |
-|---|---:|---:|---:|---:|---|
+| --- | ---: | ---: | ---: | ---: | --- |
 | p192 A | 350 | 349 | 350 | 171 / 175 | Request to Oberleutnant Kretzschmar in Bucharest |
 | p192 B | 267 | 267 | 268 | 131 / 134 | LP forwarding important traffic for home offices and OHL |
 | p194 C | 224 | 224 | 224 | 111 / 112 | Army Group Kiev's chosen march route |
@@ -42,19 +42,19 @@ reference/garble positions and the unusual original spellings and labels.
   containing an invalid `Y`. Filling it as `X` gives a complete 120-character
   reading without changing any valid coordinate. The plaintext itself spells
   `UNKONTOLLIERTE`, omitting the expected `R`, and uses `FRANZXXX`; both survive
-  unchanged in the exact reencryption.
+  unchanged in the exact re-encryption.
 
 ## Source and uncertainty
 
 `inputs.json` holds the literal rows, source headers, declared gap model,
 editorial candidates, PDF identity and crop coordinates. In the p192 A/B headers,
-the receipt/page date is November 14 while the originating date is `15/11`.
+the receipt/page date is 14 November while the originating date is `15/11`.
 The p192 B receipt time reads **06.56 p.m.** in the source. These are retained as
 printed, rather than reconciled by inference.
 
 `certificates.json` records every plaintext pair, its exact source indices and
 its domain under the published partial square. Every candidate includes its
-coordinate edits and a reversible ciphertext. Full plaintext reencryption is
+coordinate edits and a reversible ciphertext. Full plaintext re-encryption is
 claimed only where no `?` remains. The exhaustive 268-boundary p192 B screen
 uses a declared ordinary-word stencil, with unknown reference symbols masked.
 Its zero-change minimum is conditional on that stencil and one-coordinate-loss

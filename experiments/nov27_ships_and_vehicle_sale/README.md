@@ -1,4 +1,4 @@
-# November 27: Helsingfors shipping and a vehicle-sale instruction
+# 27 November: Helsingfors shipping and a vehicle-sale instruction
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
@@ -13,6 +13,7 @@ insertions, reorderings or key changes.
 
 
 **Reviewed source crops:** [p223_reviewed.png](sources/p223_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
+
 ## Source and frame distinctions
 
 - **p223 B:** its native 246-slot source reports preparations and ships secured for Helsingfors. Seven word repairs are explicit; the earlier 239-character OCR is retained separately.

@@ -16,7 +16,7 @@ its number and the message's reference fields remain unresolved.
 
 ## Source and counted edition
 
-The [whole section](sources/p202_B.png) is Childs printed p202, PDF p205.
+The [whole section](sources/p202_B.png) is Childs printed p202, PDF page 205.
 The source advertises four lengths: **228, 220, 210, 224**. Manual counting
 finds **223, 220, 210, 224** visible slots. Five received slots are masked:
 a printed `Q`, a printed `R`, a heavy overprint and two faded glyphs.

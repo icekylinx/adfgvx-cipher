@@ -9,13 +9,13 @@ The native **128-slot** source gives **61/64 fixed raw labels** under the unchan
 The primary place label remains **VARC8IORO?A**, with literal 8 and one source-mask uncertainty. The missing position has exactly six compatible values **{2,3,B,H,S,V}**; full re-encryption witnesses retain them all. The footer **A O0Q 17 ROED 1Q NR V054** is unchanged.
 
 | Edition | Observed substitutions | Printed-mask fills | Fixed positions |
-|---|---:|---:|---:|
+| --- | ---: | ---: | ---: |
 | Native raw | 0 | 0 | 61/64 |
 | Primary word proposal; opaque name | 7 | 2 | 63/64 |
 | Optional VARCSIOROVA | 9 | 3 | 64/64 |
 | Optional VERCSIOROVA | 11 | 3 | 64/64 |
 
-An independently inspected **1896 primary source** at the National Széchényi Library prints **VERCSIOROVA** on printed p159 / PDF p6. It supplies historical place vocabulary with the rare CS sequence. It does not attest VARCSIOROVA's A vowel or the telegram's proposed negative report. The optional spelling layers therefore retain their complete additional prices. A separate Romanian National History Museum postcard record, inventory 385510, uses Verciorova and dates the object to 1901–1915.
+An independently inspected **1896 primary source** at the National Széchényi Library prints **VERCSIOROVA** on printed p159 / PDF page 6. It supplies historical place vocabulary with the rare CS sequence. It does not attest VARCSIOROVA's A vowel or the telegram's proposed negative report. The optional spelling layers therefore retain their complete additional prices. A separate Romanian National History Museum postcard record, inventory 385510, uses Verciorova and dates the object to 1901–1915.
 
 All editions retain native source order, length, period key and square. There is no block move, inserted coordinate, dropped source glyph or free numeric relabelling.
 

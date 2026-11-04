@@ -88,7 +88,7 @@ python experiments/radio_contacts_and_keys/verify.py --verify \
 
 PDF SHA-256:
 `157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06`.
-Printed pp100, 137, 142 and 150 are PDF pp103, 140, 145 and 153. Each image
+Printed pp100, 137, 142 and 150 are PDF page 103, 140, 145 and 153. Each image
 has both a PNG-file hash and a raw-pixel hash. Full PDF pixel regeneration
 passed. Running without `--verify` regenerates the certificate from the
 frozen input.
@@ -98,7 +98,7 @@ frozen input.
 J. Rives Childs's collected intercepts are the primary source. The published
 keys are prior work by **George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker**,
 [DOI 10.1080/01611194.2016.1169461](https://doi.org/10.1080/01611194.2016.1169461),
-also given in George Lasry's 2017-02-24 key comment. Full provenance is kept
+also given in George Lasry's 24 February 2017 key comment. Full provenance is kept
 with each key. The separate p100 challenge remains credited to **Armin,
 2017 comment 13**; no challenge body is duplicated as a new source recovery.
 

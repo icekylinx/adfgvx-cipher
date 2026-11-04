@@ -12,7 +12,7 @@ damage model.
 ## Sources and scope
 
 | Source | Literal source slots | Source condition | Evidence |
-|---|---:|---|---|
+| --- | ---: | --- | --- |
 | p159 A | 271 | `RICHI-272`; includes the four-character group `GDDA` and final `FV` | [Fresh primary-page image](sources/childs_p159_full.png) |
 | p162 C1 | 117 | Unknown RICHI length; printed `1 TL` and “missed first part of this message” | [Fresh section crop](sources/childs_p162_C.png) |
 | p163 unlabelled | 121 | `J'md`; no surviving length or part label | [Existing withdrawal source crop](../withdrawal_recovery/sources/childs_p163_A15_A16.png) and [unchanged upstream input](../withdrawal_recovery/inputs.json) |
@@ -43,7 +43,7 @@ a change before fractionation pairing is not equated with a change in the
 received transposition stream.
 
 | Campaign | Frozen scope | Parameter evaluations | Retained candidates |
-|---|---|---:|---:|
+| --- | --- | ---: | ---: |
 | p159 A: published keys | 25 keys × four single-coordinate models | 95,150 | 500 |
 | p162 C1: published keys | 25 keys × four single-coordinate models | 41,250 | 500 |
 | p163 fragment: published keys | 25 keys × four single-coordinate models | 42,650 | 500 |

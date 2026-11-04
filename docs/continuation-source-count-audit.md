@@ -70,7 +70,7 @@ Seven native records have odd lengths. Pairing each individual message gives
 coordinates from different messages cannot be paired together. The initial
 14-package checkpoint already had six such orphans despite its even
 4,816-slot aggregate; adding p159 A supplies 135 complete pairs and one
-further orphan. The five native pp. 152–153 records add 389 complete pairs
+further orphan. The five native pp152–153 records add 389 complete pairs
 and no orphan. An orphan placeholder in a diagnostic output is
 not an additional complete plaintext position. Every declared analysis
 frame in this checkpoint is even.
@@ -107,7 +107,7 @@ The p159 A extension was independently checked by direct enumeration of all
 173,580 canonical frames before its primary ledger was admitted. Its 64
 source maps and 12 complete witnesses remain alternatives within one record.
 
-The pp. 152–153 extension was checked from all five native input rows,
+The pp152–153 extension was checked from all five native input rows,
 their identity source maps and every substitution/fill event. It adds
 778 source slots, 384 raw fixed positions, 388 candidate fixed positions,
 14 observed substitutions and four source-mask fills, with no frame
@@ -122,4 +122,4 @@ readability, historical numeral assignments, header ambiguities, unique
 historical wording and the choice of a historical error mechanism retain
 the separate limits of each source edition. The
 [live readable mappings](../data/reviews/live_readable_mappings.json)
-checks the corresponding current quotations independently of these totals.
+check the corresponding current quotations independently of these totals.

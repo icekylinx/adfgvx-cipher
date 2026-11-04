@@ -19,7 +19,7 @@ catalogue identity. Seven [OPEN sources](../topics/open.md) remain available as 
 research filter. There is no intermediate standalone case-view layer.
 
 | Reading resource | Contents |
-|---|---|
+| --- | --- |
 | [Printed-page index](../cases/pages/README.md) | Page ranges, page-number tables and complete editions. |
 | [Subject exploration](../topics/README.md) | Six guides with source summaries and direct links to numbered pages. |
 | [Historical studies](historical-studies/README.md) | Arguments connecting withdrawal, shipping, finance, radio authority and departure. |
@@ -31,7 +31,7 @@ research filter. There is no intermediate standalone case-view layer.
 ## Canonical data and research files
 
 | Location | Role |
-|---|---|
+| --- | --- |
 | [data/source_editions.json](../data/source_editions.json) | Archive of 307 complete edition texts, their hashes and original path aliases. Original case paths are internal identifiers. |
 | [data/reading_catalog.json](../data/reading_catalog.json) | Physical source identifiers, reading states, attribution and edition associations. |
 | [data/topic_exploration.json](../data/topic_exploration.json) | Curated topic sections, summaries and catalogue `source_ids`. |
@@ -70,7 +70,9 @@ python -m adfgvx.page_editions --check
 ```
 
 The page generator carries the complete source text into the numbered
-editions. Navigation checks cover source links and retained section anchors.
+editions. Shared editorial typography is applied by `adfgvx/editorial_style.py`
+without changing archived quotations or research fixtures. Navigation checks
+cover source links and retained section anchors.
 
 ## Replay the research checks
 

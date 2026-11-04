@@ -47,4 +47,4 @@ python experiments/namur_order_witnesses/verify.py --verify --pdf /path/to/adfgv
 
 The optional PDF check regenerates both crops and compares dimensions,
 channels and pixels. Default verification is standard-library-only using
-the existing independent column/domain/reencryption helpers.
+the existing independent column/domain/re-encryption helpers.

@@ -38,7 +38,7 @@ and closing fields remain unresolved.
 
 Each proposed word has a unique zero-substitution placement in the fixed
 frame. The [approval certificate](approval_extension.json) retains the
-complete repair ledgers, full roundtrip witnesses and bounded comparisons
+complete repair ledgers, full round-trip witnesses and bounded comparisons
 against fourteen specified word alternatives. This comparison tests those
 words and this geometry, rather than all possible German texts.
 

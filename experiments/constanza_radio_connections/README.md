@@ -19,7 +19,7 @@ Part 2 provides a visible correction witness. In p80 B2, a supralinear **F** sit
 All indices are zero-based. The five ordinary-word candidate substitutions are:
 
 | Record | Source index | Source → candidate | Result | Evidence |
-|---|---:|:---:|---|---|
+| --- | ---: | :---: | --- | --- |
 | p80 B1 | 94 | X → D | NAPH → NACH | Unchanged p82 A1 source |
 | p80 B2 | 55 | G → F | FR9MD → FREMD | Supralinear F and typed p82 A2 |
 | p80 B2 | 142 | G → X | PACH → NACH | Ordinary-word candidate; both copies have PACH |

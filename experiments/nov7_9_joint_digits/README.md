@@ -97,7 +97,7 @@ The later audit adds **eight original-pair labels in five physical sources**.
 The ordinary-word and source-geometry prices stay in their original packages.
 
 | Source | Before → conditional | Additional source work | Original source pairs, zero-based |
-|---|---:|---|---|
+| --- | ---: | --- | --- |
 | p155 D | 157 → **158/158** | None; earlier 3 substitutions and 5 masks remain | XA 294/56 |
 | p169 B | 108 → **112/112** | None; original source needs no repair | XA 15/184; VF 21/190, 223/111, 66/134 |
 | p158 E1 | 117 → **118/118** | None; earlier 5 substitutions and one source-linked added A remain | VF 32/209 |

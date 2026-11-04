@@ -2,9 +2,9 @@
 
 Source edition and verification by **icekylinx and GPT-6 Astra Pro**.
 
-Childs p124 A1/A2/A3, PDF p127, have consecutive source labels and native
+Childs p124 A1/A2/A3, PDF page 127, have consecutive source labels and native
 lengths **352 / 266 / 48**. Their message line is `1715 (4/11) 3 TLE`;
-the receiving header is November 5 at 7.17 p.m. All three parts use the
+the receiving header is 5 November at 7.17 p.m. All three parts use the
 unchanged published **Nov4–6** key. The separate damaged p124 B is excluded.
 
 The [reading case](../../cases/pages/124.md#edition-cases-military-hungarian-armistice-instructions)

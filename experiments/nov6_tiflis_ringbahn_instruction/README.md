@@ -28,6 +28,7 @@ of unique historical wording or a first decipherment.
 
 
 **Reviewed source crops:** [p146_C_reviewed.png](sources/p146_C_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
+
 ## Reproduce
 
 ```sh

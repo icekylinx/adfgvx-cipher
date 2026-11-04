@@ -9,7 +9,7 @@ The new inference assigns coordinate pair **DD**, published baseline label `4`, 
 ## Two source bodies support the same cell
 
 | Source | Retained field | Optional place spelling | Y position and original coordinate indices |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | p217 A3, operational report | `POEST4EN` | `POESTYEN` | plaintext 57 ← source 139, 222: observed DD |
 | p215 B2, inherited 13-mask-fill word layer | `NAG4BANHEG4ES` | `NAGYBANHEGYES` | plaintext 105 ← 268, 23; plaintext 112 ← 187, 296: observed DD |
 
@@ -36,7 +36,7 @@ ABSXMI?I?XNA?M?LD?XSYNXSY?XN?R?DAKER?SC?XBRINGTENT?N?EFLHTTEZWO?IVI?IONENX?EUSRE
 The newly assigned Y positions are the two observed DD cells in the opening `S4N`/`S4?` fields. `SYN` is retained as an unidentified field, without claiming a call sign or a corrected opening. The closing pairs are FD,FA,XD,AV, with all eight underlying source coordinates observed.
 
 | Assumptions | Remaining values for a,b in `a1b6` | Ordered distinct closing fields | All-numerical subset |
-|---|---|---:|---:|
+| --- | --- | ---: | ---: |
 | Earlier numeral layer | `0345789JQY` |90|42|
 | Numerals + inherited GD=J | `0345789QY` |72|42|
 | Numerals + new DD=Y | `0345789JQ` |72|42|

@@ -1,4 +1,6 @@
-# Source-checked operational dispatches on pp. 180, 217 and 230
+# Source-checked operational dispatches on pp180, 217 and 230
+
+<a id="source-checked-operational-dispatches-on-pp-180-217-and-230"></a>
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. The transposition and square
 snapshots are the published Lasry-team period keys, credited in
@@ -15,7 +17,7 @@ That count includes numerical labels and visibly erroneous letters, so it is
 not a count of correctly recovered German characters.
 
 | Record | Source slots | Raw fixed / positions | Proposed coordinate substitutions | Dash fills |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | p180 A, part 3 | 156 | 77 / 78 | 9 | 1 |
 | p217 A, part 1 | 228 | 114 / 114 | 0 | 0 |
 | p217 A, part 2 | 240 | 120 / 120 | 0 | 0 |
@@ -102,7 +104,7 @@ example, is not assumed to be a true digit 7 merely because its cell has
 not yet been identified.
 
 | Period | Baseline labels treated as unresolved | Optional assignments |
-|---|---|---|
+| --- | --- | --- |
 | Nov 22–24 | `0123456789JQY` | `Y→1`, `J→2`, `2→6` |
 | Nov 28–Dec 1 | `0123456789JQXY` | Historical layer: `X→1`, `J→2`, `8→6`, `4→8`, `5→9`, `2→3` |
 | Nov 28–Dec 1 | Same | Additional separator convention: `Y→X` |
@@ -117,7 +119,7 @@ baseline `J` as 1 would violate the bijection and is not allowed.
 
 The historical source is the contemporary telegram by Franchet d'Esperey,
 19 November 1918, 22:40, reporting formations as of 11 November: document
-39, printed p. 79 (PDF p. 153), in *Documents diplomatiques français sur
+39, printed p79 (PDF page 153), in *Documents diplomatiques français sur
 l'histoire du Bassin des Carpates, 1918–1932*, volume I, edited by Magda
 Ádám, Akadémiai Kiadó, Budapest, 1993. The book reproduces the telegram with
 archive reference AG. 4N 58, c/63, d/10. Its provenance and PDF hash are

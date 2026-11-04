@@ -54,7 +54,7 @@ candidate retains the last 24 positions exactly, including literal `X`,
 signature is supplied.
 
 | Added span | Plaintext positions | New fixed positions | Additional observed substitutions | Additional mask fills |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | `KLAUSENBURG` only | 29–39 | 9 | 0 | 12 |
 | Left `X` only | 28 | 1 | 0 | 1 |
 | Right `X` only | 40 | 1 | 0 | 2 |
@@ -77,7 +77,7 @@ Assuming only that the eleven letters repeat, a letter must belong to the
 intersection of the two native domains.
 
 | Word position | First native pair | Second native pair | Shared letters under the partial square | Proposed letter |
-|---:|---|---|---|---|
+| ---: | --- | --- | --- | --- |
 | 0 | `D?` | `??` | `FIKNOS` | K |
 | 1 | `GA` | `G?` | **L** | L |
 | 2 | `?D` | `AD` | **A** | A |

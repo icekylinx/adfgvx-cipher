@@ -1,4 +1,4 @@
-# November 7: Danube crossings and short message reports
+# 7 November: Danube crossings and short message reports
 
 Source-reviewed native-frame edition by **icekylinx and GPT-6 Astra Pro**.
 
@@ -8,6 +8,7 @@ recount the original challenge bodies `p153a`/`p153b` elsewhere on page 153.
 
 
 **Reviewed source crops:** [p152_reviewed.png](sources/p152_reviewed.png) · [p153_reviewed.png](sources/p153_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
+
 ## Result
 
 The five bodies contain **778 native source slots**, of which **773 are
@@ -24,7 +25,7 @@ Belgrad, a morning report of no special events, receipt of a message, a
 prescribed line and headquarters field, and Danube crossing traffic.
 Literal `219`, `21B`, `SEMUM`, `NOORDL`, `EINSA11205BM4`, `1189`, `35`, and
 internal `9.11`/`10.11` labels remain in the earlier word layer. The page-153 reception headers retain
-November 7 and the visible marked `ZÖN` spelling. No missing multipart
+7 November and the visible marked `ZÖN` spelling. No missing multipart
 context, exact reference/time parsing, unit identity or modern place-name
 is supplied by that layer.
 
@@ -63,7 +64,7 @@ headings and openings remain separate, and `SEMUM` is unchanged.
 - `ocr_snapshot.json` and `prior_candidates.json`: frozen prior OCR and
   recomputed unchanged-key diagnostics, separate from the reviewed edition.
 - `certificates.json`: all source/model mappings, repair ledgers, position
-  domains, exact roundtrip witnesses and aggregate counts.
+  domains, exact round-trip witnesses and aggregate counts.
 - `verify.py`: portable regeneration and comparison, including live case
   source/header/display checks and optional exact PDF-pixel verification.
 - `catalog_proposal.json`: five entries for root integration; no global

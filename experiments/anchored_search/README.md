@@ -11,15 +11,15 @@ not a claim that it was the historical key.
 **Only 2 of 70 planned historical cases completed. Neither produced an
 accepted plaintext.** The historical run was interrupted to investigate the
 independent page 153 discovery. The two completed cases are page 73 with the
-October 28–31 square at widths 16 and 17. No result is implied for the other
+28–31 October square at widths 16 and 17. No result is implied for the other
 68 cases.
 
 ## Frozen inputs and controls
 
 `data/cases.json` freezes the exact source-analysis ciphertext layer, partial
 squares and evaluation-only control truth. The 70 historical cases are pages
-73 and 170, five attested squares (October 28–31, November 1–3, 4–6, 7–9 and
-10–12), and widths 16 through 22. The input lengths are 178 and 106 coordinates;
+73 and 170, five attested squares (28–31 October and 1–3, 4–6, 7–9 and
+10–12 November), and widths 16 through 22. The input lengths are 178 and 106 coordinates;
 page 73 has two declared erasures. No coordinate is deleted or rewritten.
 An erasure occupies one slot; it does not represent an unknown-length gap.
 

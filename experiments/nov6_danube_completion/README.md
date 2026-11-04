@@ -5,7 +5,7 @@ published Nov4–6 key. They fill **three remaining plaintext positions** and
 correct one additional letter, with no change to either source frame.
 
 | Source | Previous proposal | Completed proposal | Additional source operations |
-|---|---:|---:|---|
+| --- | ---: | ---: | --- |
 | [p143 A](../../cases/pages/143.md#edition-cases-military-nov6-evening-danube-report-completed-reading) | 93/94 positions in the geographical proposal | 94/94 | One dash filled: source 33 → G, giving O in the address OKM. |
 | [p144 C1](../../cases/pages/144.md#edition-cases-military-nov6-horse-loading-reconnaissance-completed-reading) | 69/71 positions | 71/71 | Source 10 → F and 11 → A fill two dashes; source 104 V → A changes I to L in KLADOVO. |
 

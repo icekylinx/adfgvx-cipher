@@ -19,7 +19,7 @@ For the literature leads already retained here, the concrete catalogue
 queries are therefore **`RZ*11061`** and **`RZ*11064`**. These are search
 instructions derived from the official guide, not newly verified item
 identities. The individual titles, date ranges and relevant telegram pages
-still need direct inspection. In particular, a citation to an October 26
+still need direct inspection. In particular, a citation to an 26 October
 reply does not establish its German wording, 09:11 timestamp, encrypted length
 or identity with p73.
 

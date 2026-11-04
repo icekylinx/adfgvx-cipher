@@ -51,7 +51,7 @@ python experiments/radio_telegram_priority/verify.py --verify \
 
 PDF SHA-256:
 `157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06`.
-Printed p128 is PDF p131. `inputs.json` pins both PNG-file hashes and raw-pixel
+Printed p128 is PDF page 131. `inputs.json` pins both PNG-file hashes and raw-pixel
 hashes; the latter are checked against the PDF renderer. Default verification
 and full PDF regeneration both passed.
 

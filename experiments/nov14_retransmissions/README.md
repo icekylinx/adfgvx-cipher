@@ -1,10 +1,10 @@
-# November 14 traffic under two different keys
+# 14 November traffic under two different keys
 
 **Source edition, alignment and verification: icekylinx and GPT-6 Astra Pro.**
 
 Seven physical intercepts preserve three message families. The p190 B/E
 backup-station request has the same 88-position wording under the distinct
-November 13–15a and November 13–15b keys. The p190 A / p194 B pilot-arrival
+13 November–15a and 13 November–15b keys. The p190 A / p194 B pilot-arrival
 notices describe the same apparent event but use different wording. Their
 four-position `FR?E` name fields support a conditional equality between two
 unknown square cells; they do not determine a unique surname or digit.
@@ -20,7 +20,7 @@ See the [readable case](../../cases/pages/190.md#edition-cases-radio-nov14-radio
 ## Exact scope
 
 | Record | Published key | Printed slots | Fixed raw positions | Editorial coordinate changes / fills |
-|---|---|---:|---:|---:|
+| --- | --- | ---: | ---: | ---: |
 | p190 A | Nov13–15b | 236 | 117/118 | 3 / 0 |
 | p190 B | Nov13–15b | 176 | 82/88 | 5 / 5 |
 | p190 E | Nov13–15a | 176 | 82/88 | 1 / 6 |
@@ -65,8 +65,8 @@ Nov13–15b and cell `DG` under Nov13–15a. Assuming the same correctly copied
 name reduces their common domain to **234789QY**. Restricting the name to
 letters still leaves **Q or Y**. The plausible spelling `FRYE` is recorded as
 a proposal, with no independent identification and no key assignment.
-All eight common-domain choices reencrypt exactly under their corresponding
-conditional cell fills, so reencryption cannot choose between them.
+All eight common-domain choices re-encrypt exactly under their corresponding
+conditional cell fills, so re-encryption cannot choose between them.
 
 ## Reproduction
 

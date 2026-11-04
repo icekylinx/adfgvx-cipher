@@ -9,7 +9,7 @@ Read the [complete source edition](../../cases/pages/155.md#edition-cases-milita
 ## Exact scope
 
 | Quantity | Count |
-|---|---:|
+| --- | ---: |
 | Physical source records | 2 |
 | Printed source slots | 540 |
 | Modeled plaintext positions | 270 |

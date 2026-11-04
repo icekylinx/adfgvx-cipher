@@ -9,7 +9,7 @@ Read the [complete source edition](../../cases/pages/122.md#edition-cases-people
 ## Exact scope
 
 | Quantity | Count |
-|---|---:|
+| --- | ---: |
 | Physical source records | 2 |
 | Printed source slots | 412 |
 | Modeled plaintext positions | 206 |

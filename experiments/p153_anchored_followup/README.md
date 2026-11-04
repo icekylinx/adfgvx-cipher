@@ -17,8 +17,8 @@ for calibration but never language-model training. Its fresh key, source and
 post-fit evaluation are retained.
 
 The recovered cells are a reuse hypothesis, not a historical constraint on
-these other messages. Page 73 has a November 8 reception header and an October
-26 origin/heading context; neither establishes shared keys. The model replaces
+these other messages. Page 73 has an 8 November reception header and a 26 October
+origin/heading context; neither establishes shared keys. The model replaces
 a half-erased digraph by a whole-cell wildcard and therefore omits the surviving
 coordinate from its objective. Any accepted reading would require exact
 coordinate-domain verification. No historical reading reached that stage.

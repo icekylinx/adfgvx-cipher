@@ -2,12 +2,12 @@
 
 ## Reading routes and complete editions
 
-The public edition has two routes. The home page's eight page ranges lead
-to page-number tables and then to the complete editions at
-`cases/pages/NNN.md`. Six [subject guides](topics/README.md) offer 50 curated summaries whose
-source links open those same numbered pages directly. Historical studies
-connect the sources through research questions, chronology and external
-evidence.
+The public edition offers two reading routes. The home page's eight page ranges
+lead to page-number tables and then to the complete editions at
+`cases/pages/NNN.md`. Six [subject guides](topics/README.md) offer 50 curated
+summaries whose source links open those same numbered pages directly.
+Historical studies connect the sources through research questions, chronology
+and external evidence.
 
 Each of the 175 page editions preserves its German readings, English
 interpretations, source explanations and cipher evidence. Long machine
@@ -56,7 +56,7 @@ operations separately, with an explicit indexing convention. Retain
 alternative source glyphs and optimal alignments. An improved presentation
 must preserve the evidence and certificates supporting the existing claims.
 
-Name the original decipherer, source and date for earlier work. Credit our
+Identify the original decipherer, source and date for earlier work. Credit our
 research and editorial contributions as **icekylinx and GPT-6 Astra Pro**.
 Preserve historical publication titles and external authorship as published.
 Credit a reproduced result as reproduction or review.
@@ -98,6 +98,9 @@ around a concrete question and cite the full numbered source editions.
 Distinguish event, origin and reception dates where they affect the sequence.
 Explain the particular corroboration supplied by a diary, register, map or
 other contemporary document. Keep necessary qualifications beside the claim
-and use concise academic prose. Follow the
-[reading conventions](docs/reading-conventions.md) when presenting quotations
-or reconstructed passages.
+and use concise academic prose. Follow the [reading conventions](docs/reading-conventions.md)
+when presenting quotations
+or reconstructed passages. In editorial prose, use page references such as
+`p153`, `pp152–153` and `p153 A3`, dates such as `4 November 1918`,
+sentence-case headings and en dashes for numerical ranges. Preserve literal
+quotations, source labels, code and stable identifiers.

@@ -1,4 +1,4 @@
-# Short arrival, departure and car enquiries on November 12
+# Short arrival, departure and car enquiries on 12 November
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 

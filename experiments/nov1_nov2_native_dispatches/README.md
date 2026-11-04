@@ -1,4 +1,4 @@
-# Nov1 nov2 native dispatches
+# Native dispatches of 1–2 November
 
 4 newly reviewed physical records, 730 native source slots and 365 plaintext positions. 365 positions are fixed in raw output; the proposals use 3 observed-coordinate substitutions and 0 source-mask fills. No coordinate is inserted or deleted and no published key is changed.
 

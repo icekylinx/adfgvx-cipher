@@ -30,7 +30,7 @@ unit's raw `24` is not historically numbered.
 ## Exact scope
 
 | Part | Source slots | Raw fixed labels | Edition fixed labels | Substitutions | Fills |
-|---|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: |
 | p229 A1 | 228 | 114 / 114 | 114 / 114 | 1 | 0 |
 | p229 A2 | 192 | 95 / 96 | 96 / 96 | 1 | 1 |
 | p229 A3 | 176 | 88 / 88 | 88 / 88 | 2 | 0 |
@@ -59,7 +59,7 @@ python experiments/late_transport_dispatches/verify.py --verify
 ```
 
 Default verification uses the Python standard library and existing independent
-column/domain/reencryption helpers. It checks source-image and prior-candidate
+column/domain/re-encryption helpers. It checks source-image and prior-candidate
 hashes, exact received lengths, unchanged keys, every protected field and
 coordinate edit, and complete global round-trip witnesses. Witnesses are
 marked nonhistorical consistency examples.

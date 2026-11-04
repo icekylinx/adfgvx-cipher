@@ -5,14 +5,14 @@ Prepared by **icekylinx and GPT-6 Astra Pro**. Published **Nov19–21** key and 
 This package adds two physical source records, both with native, even-length frames:
 
 | Record | Source coordinates | Raw labels | Substitutions | Source fills/length changes |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | p211 A2, upper | 176 | 88/88 | 0 | 0 |
 | p211 B, upper | 68 | 34/34 | 3 | 0 |
 | **Total** | **244** | **122/122** | **3** | **0** |
 
 A2 is explicitly printed as the second part with **“1st TL missing.”** The earlier OCR screen already recovered its entire body. Its first word is ODERBERG and the surviving clause promises no difficulties, followed by an acknowledgment request and the literal `OHLXRMJAJJ9JJOPXGEH` closing. The missing first part is not supplied by inference.
 
-There is a useful but unproved relationship to p209 A1, whose final text is `AUFSTRECKETESCHEN`: the two fragments form a coherent route-name continuation and have complementary part numbers. The p209 message field is `22.35 (19/11)` with reception November 19; p211 has `2317 (11/20)`, reception November 21 and no recorded callsigns. These differences remain explicit. No same-telegram identity, joined full message or operative permission is certified.
+There is a useful but unproved relationship to p209 A1, whose final text is `AUFSTRECKETESCHEN`: the two fragments form a coherent route-name continuation and have complementary part numbers. The p209 message field is `22.35 (19/11)` with reception 19 November; p211 has `2317 (11/20)`, reception 21 November and no recorded callsigns. These differences remain explicit. No same-telegram identity, joined full message or operative permission is certified.
 
 Upper B reads `WIELAGEDORTXWIRVERHALTANDERTRUPPAN`. Three observed-coordinate substitutions give the proposal `WIELAGEDORTXWIEVERHALTENDERTRUPPEN`. No printed character is removed to improve the sentence. The separate lower B key-schedule message on p211 is already cataloged and is not duplicated here.
 

@@ -19,7 +19,7 @@ are preserved separately because a page may contain independent copies or
 companions as well as self matches.
 
 | Completed comparison | Result |
-|---|---:|
+| --- | ---: |
 | Eligible reference–target pairs | 89,044 |
 | Pairs with at least one exact anchor | 222 |
 | Exact anchor-position matches | 26,923 |
@@ -41,7 +41,7 @@ review. The two p79 OCR fragments belong to one physical second part, so
 the number of retrieval pairs is not the number of new records.
 
 | Literal reference → OCR lead | Manually reviewed outcome |
-|---|---|
+| --- | --- |
 | p125 A4 → p137 block 5 | [p137 B4](../../cases/pages/137.md#edition-cases-military-armistice-clause-witnesses) independently supplies one previously masked coordinate. |
 | p126 B → p137 block 6 | [p137 C](../../cases/pages/137.md#edition-cases-military-armistice-clause-witnesses) repeats both earlier corrupt words; their repairs remain editorial. |
 | p171 B1/B2 → p166 blocks 4/5 | [Newspaper dispatch copies](../../cases/pages/166.md#edition-cases-radio-newspaper-dispatch-witnesses) preserve complementary evidence and three still unwitnessed editorial letters. |

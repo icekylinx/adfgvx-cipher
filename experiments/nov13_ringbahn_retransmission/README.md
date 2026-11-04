@@ -2,7 +2,7 @@
 
 **Source recovery and edition: icekylinx and GPT-6 Astra Pro.**
 
-The printed November 13 reception repeats the November 6 key instruction
+The printed 13 November reception repeats the 6 November key instruction
 already received on p145 and p211. The matching `2230 (6/11)` header,
 `RICHI-214` length and long exact coordinate runs identify the source family.
 This edition restores the truncated reception through an explicit
@@ -16,7 +16,7 @@ copy-origin map and retains its disagreements.
 ## Reconstruction
 
 | Evidence layer | Exact account |
-|---|---|
+| --- | --- |
 | Printed source | 140 slots: 139 observed coordinates and one dash |
 | Conditional frame | 214 slots; excludes two duplicated five-groups and adds 5 prefix, 5 interior and 74 tail slots |
 | Unfilled primary reading | 33/107 fixed labels; all 84 missing coordinates unassigned |

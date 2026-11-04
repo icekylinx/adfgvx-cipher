@@ -1,6 +1,6 @@
 # Conditional direct-current-machine fragment on p71 A2
 
-This package preserves an 85-coordinate interrupted source and tests two conditional 47-position lexical prefixes under the unchanged October 4–6 key. Both preserve every observed coordinate. There is no fully fixed native plaintext position; the remaining 49 positions are unread.
+This package preserves an 85-coordinate interrupted source and tests two conditional 47-position lexical prefixes under the unchanged 4–6 October key. Both preserve every observed coordinate. There is no fully fixed native plaintext position; the remaining 49 positions are unread.
 
 The first-part equipment context prompted the compound `GLEICHSTROMMASCHINEN`. It is a lexical condition, not a ciphertext donor. Both `ZU SCHALTEN` and `ZU ERHALTEN` remain zero-substitution alternatives.
 

@@ -101,7 +101,7 @@ use the same complete received pair, `AD`, where the earlier partial square
 has no assigned value. Reading it as **Y** gives two meaningful names:
 
 | Record and position | Original source pair | Published labels | Conditional reading |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | p224 C1, 90 | 86 A + 210 D | `STRZEMIECZNQ` | **STRZEMIECZNY** |
 | p220 B, 90 | 74 A + 180 D | `NAGQMAGOCS` | **NAGYMAGOCS** |
 
@@ -192,7 +192,7 @@ one identical completed ciphertext. The printed alternative and the
 duplicate's source origin remain separate questions.
 
 | Current conditional scope | Observed changes | Total inserted-slot fills | Fixed positions |
-|---|---:|---:|---:|
+| --- | ---: | ---: | ---: |
 | Complete clause, raw names | 0 | 19 | 137/147 |
 | Clause and `MARKOWSKY` | 0 | 21 | 139/147 |
 | Clause and `PETLJURA` | 2 | 20 | 138/147 |

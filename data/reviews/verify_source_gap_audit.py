@@ -15,6 +15,7 @@ sys.path.insert(0, str(ROOT))
 from adfgvx.source_evidence import verify_source_evidence
 from adfgvx.catalog import load_catalog
 from adfgvx.source_editions import page_target
+from adfgvx.editorial_style import markdown as style_markdown
 
 TARGETS = set('p70_B1 p71_A2 p84_C p127_B2 p137_A6 p137_B p145_A '
               'p152_A2 p154_A2 p163_A16 p164_D p167_C1 p167_D p176_A6 '
@@ -105,7 +106,7 @@ def report(data, editions):
         edition = editions.get(r['id'])
         link = ('[' + edition['state'] + '](../' + page_target(edition['path']) + ')'
                 if edition else 'No accepted edition')
-        lines.append('| ' + ' | '.join(map(str, [r['id'], r['source_slots'],
+        lines.append('| ' + ' | '.join(map(str, [edition['label'] if edition else r['id'], r['source_slots'],
                      r['valid_source_coordinates'], len(r['masked_or_invalid_source_slots']),
                      r['advertised_length'] if r['advertised_length'] is not None else 'Not printed', link])) + ' |')
     lines += ['', 'The 21 literal transcriptions contain **3,451 source slots: 3,232 valid '
@@ -131,7 +132,7 @@ def report(data, editions):
               'Add `--pdf /path/to/childs.pdf` to authenticate the original PDF and '
               'compare all 21 recorded crop pixel digests. Without that argument, the '
               'verifier explicitly reports that original-PDF pixels were not checked.', '']
-    return '\n'.join(lines)
+    return style_markdown('\n'.join(lines))
 
 
 def main():

@@ -83,7 +83,7 @@ and exactly **six** optimal paths. All use a local **1 + 3 + 1** loss
 pattern. Their missing positions in the complete 222-coordinate frame are:
 
 | First missing coordinate | Middle missing run | Last missing coordinate |
-|---:|---|---:|
+| ---: | --- | ---: |
 | 95 | 98–100 | 102 |
 | 95 | 98–100 | 103 |
 | 95 | 98–100 | 104 |
@@ -109,7 +109,7 @@ loss process or prove that no other plaintext would also be plausible.
 For the representative one-block placement at 95:
 
 | Item | Value |
-|---|---:|
+| --- | ---: |
 | Physical records | 1 |
 | Printed source slots | 217 |
 | Observed valid coordinates | 213 |
@@ -151,7 +151,7 @@ the evaluation retains every zero-conflict alignment with the known
 truth rather than counting only the originally selected loss position.
 
 | Objective: controls whose first-ranked layout is truth-compatible | Book | Radio/book |
-|---|---:|---:|
+| --- | ---: | ---: |
 | Predeclared adjusted marginal objective | 12 / 12 | 12 / 12 |
 | Unadjusted marginal diagnostic | 11 / 12 | 9 / 12 |
 | Completely known-window mean diagnostic | 10 / 12 | 9 / 12 |

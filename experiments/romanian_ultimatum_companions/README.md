@@ -13,7 +13,7 @@ The complete source-defined sequence is preserved without treating
 every surviving part as readable:
 
 | Source part | Status | Included in the new readable-record total? |
-|---|---|---|
+| --- | --- | --- |
 | p175 C1 | Native 212-slot frame; readable candidate | Yes |
 | p175 C2 | Native 208-slot frame; two occurrences of one unknown time digit | Yes |
 | p175 C3 | 217 literal slots against advertised 222; loss location unknown | No |
@@ -32,12 +32,12 @@ or provide the unknown content of C3 and A6.
 [inputs.json](inputs.json) preserves every literal row, including the
 unread parts, the original PDF identity, and seven crops with their PDF
 page numbers, rectangles and hashes. Printed pp175–176 correspond to
-PDF pp178–179. The published **Nov10–12** square and ranks are unchanged.
+PDF pages 178–179. The published **Nov10–12** square and ranks are unchanged.
 Each printed dash occupies one source coordinate; no gap, deletion or
 reordering is added to the three readable parts.
 
 | Part | Printed slots | Valid coordinates | Plaintext positions | Raw fixed | Candidate fixed | Known substitutions | Printed-dash fills |
-|---|---:|---:|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | p175 C1 | 212 | 209 | 106 | 103 | 106 | 2 | 3 |
 | p175 C2 | 208 | 208 | 104 | 102 | 102 | 1 | 0 |
 | p176 A5 | 168 | 163 | 84 | 79 | 83 | 3 | 4 |
@@ -52,7 +52,7 @@ and a low edit count do not prove that it is the only possible original.
 All indices below are zero-based:
 
 | Part | Observed-coordinate substitutions | Printed-dash fills |
-|---|---|---|
+| --- | --- | --- |
 | p175 C1 | 136 A→D; 191 V→X | 137→F; 138→D; 139→A |
 | p175 C2 | 1 X→A | None |
 | p176 A5 | 58 G→F; 108 X→D; 120 A→D | 51→F; 52→G; 53→D; 54→A |

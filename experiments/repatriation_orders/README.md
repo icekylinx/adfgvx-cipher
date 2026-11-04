@@ -7,7 +7,7 @@ This package supplies seven manually source-reviewed records under the unchanged
 ## Completed work
 
 | Scope | Completed result |
-|---|---:|
+| --- | ---: |
 | Physical source records | 7 |
 | Printed source slots, including dashes and the final extra X | 1,589 |
 | Observed ADFGVX coordinates | 1,572 |

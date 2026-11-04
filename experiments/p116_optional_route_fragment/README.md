@@ -126,7 +126,7 @@ the existing source image and all primary case display hashes. The
 [verifier](verify.py) recomputes both frame readings, every fill, all 37
 half-pair constraints, all 36 unresolved domains and the 503 placement costs.
 It also checks that the original case headings and every fenced and quoted
-display remain unchanged. Its arbitrary complete roundtrip witnesses are
+display remain unchanged. Its arbitrary complete round-trip witnesses are
 mathematical validation examples, not historical plaintext.
 
 ```sh

@@ -22,7 +22,7 @@ Each image is a direct crop of that scan; its PDF page, rectangle, render
 scale and SHA-256 are recorded in `inputs.json`.
 
 | Record | Printed / PDF page | Source slots | Declared part / length | Source image |
-|---|---|---:|---|---|
+| --- | --- | ---: | --- | --- |
 | p153 E1 | 153 / 156 | 259 | First of two / 268 | [D and E](sources/p153_DE.png) |
 | p162 A1 | 162 / 165 | 264 | First of two / 268 | [A](sources/p162_A.png) |
 | p151 D2 | 151 / 154 | 136 | Second / 136 | [D](sources/p151_D.png) |
@@ -91,7 +91,7 @@ coordinates. It does not delete or reorder received slots. A printed erasure
 costs no substitution, and its proposed value is listed separately.
 
 | Witness | Missing slots inserted | Known coordinates changed | All minimum alignments |
-|---|---:|---:|---:|
+| --- | ---: | ---: | ---: |
 | p153 E1 | 9 | 6 | 32 |
 | p162 A1 | 4 | 8 | 2 |
 
@@ -123,7 +123,7 @@ all **259** and **264** deletion positions; it does not assume that the extra
 coordinate lies in the conspicuous group.
 
 | Witness | Received slots deleted | Missing slots inserted | Minimum substitutions | All minimum alignments |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | p153 E1 | 1 | 10 | 4 | 192 |
 | p162 A1 | 1 | 5 | 6 | 14 |
 
@@ -163,7 +163,7 @@ the association remains an interpretation. The second part stands on its own.
 
 ## Linked historical consequence: conditionally GRUKONACH602
 
-The separate [November 9 operational-report edition](../../cases/pages/166.md#edition-cases-military-nov9-operational-reports-historical-identification-most-likely-the-6th-reserve-division)
+The separate [9 November operational-report edition](../../cases/pages/166.md#edition-cases-military-nov9-operational-reports-historical-identification-most-likely-the-6th-reserve-division)
 records a historical identification of its reserve division as the **6th
 Reserve Division**. Its primary support is General Franchet d'Esperey's
 telegram 5.956/3 of 19 November, describing the forces on 11 November,

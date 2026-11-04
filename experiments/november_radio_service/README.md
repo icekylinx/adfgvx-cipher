@@ -70,7 +70,7 @@ The geometry audit preserves **311 completed source candidates**: all 156
 single interim insertions and 155 single interim removals in the manually
 transcribed p132 B. It also prices the retrospective 77-character template
 at every one of the 155 removal positions. The minimum is three substitutions
-at positions 54-57; these four equal-V positions produce identical shortened
+at positions 54–57; these four equal-V positions produce identical shortened
 streams and the same full transmitted witness. This conditional minimum is
 not an independent crib or proof of a unique historical mechanism.
 

@@ -24,7 +24,7 @@ fixed plaintext span or a unique identification of the officer.
 
 ## Contemporary evidence
 
-The *Deutscher Reichsanzeiger*, 21 April 1913, no. 94, p. 4, records a Major
+The *Deutscher Reichsanzeiger*, 21 April 1913, no. 94, p4, records a Major
 Rohdewald moving from the Great General Staff's railway department to a
 battalion command in Infantry Regiment 159. The
 [Mannheim University Library transcription](https://digi.bib.uni-mannheim.de/reichsanzeiger/ocr/film/tesseract-4.0.0-20181201/126-9532/0243.hocr)

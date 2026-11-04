@@ -43,7 +43,7 @@ comparable.
 The best completions disagree at two plaintext positions:
 
 | Zero-based plaintext position | Source-supported domain | General four-gram | Military four-gram | Military 30/70 mixture |
-|---:|---|---|---|---|
+| ---: | --- | --- | --- | --- |
 | 25 | `2 7 N Q X Z` | `N` | `2` | `2` |
 | 63 | All 36 letters and digits | `L` | `L` | `D` |
 

@@ -7,7 +7,7 @@ The [source edition](../../cases/pages/155.md#edition-cases-radio-nov7-eighth-pa
 ## Exact primary scope
 
 | Quantity | Count |
-|---|---:|
+| --- | ---: |
 | Physical records | 2 |
 | Printed source slots | 323 |
 | Modeled coordinates | 322 |

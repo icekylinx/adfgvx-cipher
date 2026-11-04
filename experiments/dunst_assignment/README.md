@@ -2,7 +2,7 @@
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. The
 [reader case](../../cases/pages/095.md#edition-cases-people-dunst-assignment) presents two numbered
-parts on Childs printed p. 95 / PDF p. 98, headed 1 November 1918. Their shared
+parts on Childs printed p95 / PDF page 98, headed 1 November 1918. Their shared
 header reads `OSM v LP (5.22 p.m., November 1st)`,
 `SSD GRHQU (1/11)0400 2 TEILE`.
 
@@ -12,7 +12,7 @@ reference `92527` are literal labels under the unchanged published November
 1–3 key. They are not inferred from a biography or reassigned square digits.
 
 | Record | Literal displayed slots | Valid coordinate letters | Working slots | Fixed raw / total positions | Observed substitutions |
-|---|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: |
 | p95 A1 | 283 | 282 | 282 | 141 / 141 | 3 |
 | p95 A2 | 464 | 464 | 464 | 232 / 232 | 1 |
 | **Total** | **747** | **746** | **746** | **373 / 373** | **4** |

@@ -28,7 +28,7 @@ French contemporary source itself queries the 89th Division: the Nov28
 ## Results outside the reports used to propose the maps
 
 | Record | Baseline field | Conditional interpretation | Additional source decisions here |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Challenge p215 | Closing `3Y52` | `?1?6` under Nov22 `Y→1`, `J→2`, `2→6` | None; Norbert's two inserted groups remain unknown |
 | p214 B | `AOKYY` | `AOK11` under the same Nov22 map | None; the rest of the closing reference stays damaged |
 | p227 B | `XXYARMEE` | `11XARMEE` under Nov28's numeric map plus the separator convention | None for the number; the earlier one-coordinate `UNTERSTELLTE` repair is separately retained |

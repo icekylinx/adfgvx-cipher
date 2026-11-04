@@ -59,7 +59,7 @@ substitutions and the two inserted values yield **717 fixed positions**.
 The only remaining unknowns are two reference digits.
 
 | Part | Received coordinates | Used frame | Proposed known-coordinate substitutions | Proposed insertions | Raw fixed / plaintext positions |
-|---|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: |
 | 1 | 238 | 238 | 1 | 0 | 119 / 119 |
 | 2 | 309 | 310 | 3 | 1 | 154 / 155 |
 | 3 | 279 | 280 | 3 | 1 | 137 / 140 |
@@ -100,7 +100,7 @@ coordinate repairs to already known letter cells.
 ## Source layout and dates
 
 The source is J. Rives Childs, *General Solution of the ADFGVX Cipher
-System*, printed p178 / PDF p181, in the
+System*, printed p178 / PDF page 181, in the
 [public scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
 The full page and five enlarged record crops are stored in `sources/`.
 

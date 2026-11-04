@@ -1,4 +1,4 @@
-# Oct31 armistice and followup
+# 31 October: armistice and follow-up traffic
 
 2 newly reviewed physical records, 246 native source slots and 123 plaintext positions. 123 positions are fixed in raw output; the proposals use 1 observed-coordinate substitutions and 0 source-mask fills. No coordinate is inserted or deleted and no published key is changed.
 

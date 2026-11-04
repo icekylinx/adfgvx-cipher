@@ -3,7 +3,7 @@
 [Reviewed source crops](reviewed-crops.md) · [Evidence verification](../docs/source-evidence-modes.md)
 
 | Source | Use |
-|---|---|
+| --- | --- |
 | [Childs full scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view), located through [Richard Bean's catalogue](https://richardbean.id.au/misc/kryptos/aegean-park-press.html) | Original intercepts and historical key tables. For the intercept log and key appendix, printed page *p* is PDF page *p + 3*. |
 | [Lasry–Schmeh challenge](https://scienceblogs.de/klausis-krypto-kolumne/unsolved-adfxvx-messages-from-world-war-i/) | The 22 target records. |
 | [2017 discussion](https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1) | Original public readings, key recovery, and corrections; individual comments are cited per message. |
@@ -18,8 +18,7 @@ The included excerpts preserve original intercept pages and the contemporary mat
 
 ## p152 terminology
 
-`STRUSEN` is a genuine silk-trade term, not an error requiring normalization. [Guérin-Mèneville's 1853 report in the Polytechnisches Journal](https://dingler.bbaw.de/articles/ar128114.html), volume 128, p. 451, identifies it with the outer cocoon layer. This independently supports the commodity context of the raw decipherment.
-
+`STRUSEN` is an attested silk-trade term. [Guérin-Mèneville's 1853 report in the Polytechnisches Journal](https://dingler.bbaw.de/articles/ar128114.html), volume 128, p451, identifies it with the outer cocoon layer. This independently supports the commodity context of the raw decipherment.
 
 ## Bibliographic distinctions
 
@@ -29,7 +28,7 @@ The Aegean volume's 2000 edition date is supported by Lasry's bibliography; the 
 
 ## Header direction
 
-`X v Y` means **radio recipient X, radio sender Y**. The explicit routes and adjacent headers on [printed p. 9 of the 1935 report](excerpts/nsa_header_convention_p9.png) establish the convention: `NKJ v LP` accompanies a message from LP through NKJ, and `OSM v COS` accompanies a message from COS to OSM. Thus `CM v CZ` is CZ to CM; `-- v CM` has an unknown recipient and a known sender CM. A relay call sign need not identify the ultimate author or addressee.
+`X v Y` means **radio recipient X, radio sender Y**. The explicit routes and adjacent headers on [printed p9 of the 1935 report](excerpts/nsa_header_convention_p9.png) establish the convention: `NKJ v LP` accompanies a message from LP through NKJ, and `OSM v COS` accompanies a message from COS to OSM. Thus `CM v CZ` is CZ to CM; `-- v CM` has an unknown recipient and a known sender CM. A relay call sign need not identify the ultimate author or addressee.
 
 ## Historical and technical context
 
@@ -38,9 +37,9 @@ resulting key-cell assignment remains conditional on the stated identification;
 the source editions separately account for the received ciphertext.
 
 | Source | Use and limit |
-|---|---|
+| --- | --- |
 | [Paquet, Groener and Hopman records, edited by Winfried Baumgart in 1971](https://digitale-sammlungen.de/en/details/bsb00042051) | Contemporary shipping and Crimea command context for p155 and the conditional p215 Kosch reading. Diary/document text is distinguished from the modern editor's notes. |
-| [Telefunken-Zeitung, 1919, no. 15](https://www.radiomuseum.org/forumdata/users/5100/TZ_3Jg_Nr15_1v1_v10.pdf) | The manufacturer's contemporary terminology supports the undamped-wave radio-apparatus interpretation of `US GERAETE` in the p197/p198 equipment traffic. No particular model is established. |
+| [Telefunken-Zeitung, 1919, no. 15](https://www.radiomuseum.org/forumdata/users/5100/TZ_3Jg_Nr15_1v1_v10.pdf) | The manufacturer's contemporary terminology supports the undamped-wave radio-apparatus interpretation of `US GERAETE` in the equipment traffic on p197 and p198. No particular model is established. |
 | [Australian War Memorial, Allied-fleet memorandum of 24 November 1918](https://transcribe.awm.gov.au/transcription/item/rcdig0000179-4) | Independent Black Sea departure-order context for p217. It does not verify p215's reported troops or explain its nationalities. |
 | [Kress, *Meine Mission im Kaukasus*, 2001 edition](https://de.scribd.com/document/46043064/General-Der-Artillerie-a-D-Friedrich-Freiherr-Kress-von-Kressenstein-MEINE-MISSION-IM-KAUKASUS) | A retrospective memoir accompanying a 1943 covering letter. The bounded late-period inspection finds no matching p73 radiogram; an apparent calendar-date match belongs to the editor's 1917 discussion. |
 | [Lepsius, *Deutschland und Armenien 1914–1918*, 1919](https://www.gutenberg.org/files/58144/58144-h/58144-h.htm) | Documents 439–444 were checked. Document 442 is Kress's outgoing 30 October report, not the sought incoming p73 message. |
@@ -54,10 +53,10 @@ the source editions separately account for the received ciphertext.
 | [Lloyd's Register of Shipping, Steamers, 1917–18](https://archive.org/details/HECROS1918ST) | The Peter Benoit row and three distinct Björn entries support proposed spellings in the Reval notice. Neither the vessel nor the voyage is uniquely identified. [Entry images and repair costs](../experiments/reval_ship_name_comparison/README.md). |
 | [Hamburger Fremdenblatt, no. 359 B, 28 December 1915](https://pdf.sub.uni-hamburg.de/kitodo/PPN1699277745_19151228AB.pdf) | A contemporary shipping notice attests Babylon. It supplies a spelling witness for the separately priced Reval proposal, without establishing the 1918 voyage. [Notice image and comparison](../experiments/reval_ship_name_comparison/README.md). |
 | [Baumgart, *Das Kaspi-Unternehmen*, first part, p103, note 285](https://openscience.ub.uni-mainz.de/server/api/core/bitstreams/19e5318f-7b9b-4ab1-ba90-5be25c049b40/content) | A published Hopman diary quotation names General Command 52 in September shipping decisions. It gives context for the unresolved Poti command field; the four compatible numbers remain. [Bounded comparison](../experiments/p59_repeated_vessel_labels/README.md#related-command-number-context). |
-| [Engel, Holtz and Materna, Berlin workers' and soldiers' council documents, document 96](https://doi.org/10.1515/9783050068831.400) | The published archival transcription gives a counterpart to the p226–227 letter, its dispatch date and signatures. [Textual variants and exact surname-repair costs](../experiments/mackensen_archival_comparison/README.md). |
+| [Engel, Holtz and Materna, Berlin workers' and soldiers' council documents, document 96](https://doi.org/10.1515/9783050068831.400) | The published archival transcription gives a counterpart to the letter on pp226–227, its dispatch date and signatures. [Textual variants and exact surname-repair costs](../experiments/mackensen_archival_comparison/README.md). |
 
 Exact page/image locators, inspected scopes and limitations are retained in
-[the registry](registry.json) and the linked case and review records. The
+[the registry](registry.json) and the linked edition and review records. The
 [two held-out books](../experiments/open_targets/heldout_sources.json) used for
 statistical calibration have separate source and byte-hash provenance; their
 prose is not treated as a source for any historical telegram's wording.

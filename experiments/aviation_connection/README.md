@@ -60,7 +60,7 @@ aliases, not two independently recovered messages.
 The two changes to received coordinates are:
 
 | Received coordinate position, one-based | Observed | Proposed | Plaintext consequence |
-|---:|---|---|---|
+| ---: | --- | --- | --- |
 | 25 | `X` | `V` | `UEMOEGLICH` becomes `UNMOEGLICH` |
 | 223 | `A` | `X` | `FLUGZEUGIN` becomes `FLUGZEUGEN` |
 
@@ -80,7 +80,7 @@ editorial reconstruction, not observed source glyphs.
 ## Source and remaining limits
 
 J. Rives Childs, *General Solution of the ADFGVX Cipher System*, printed
-p187 / PDF p190, in the
+p187 / PDF page 190, in the
 [public scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
 The enlarged crop in `sources/childs_p187_D.png` includes the complete
 record and header. The header reads `D) NKJ v LP (03.04 a.m., November

@@ -18,7 +18,7 @@ notice with no source repair.
 ## Complete prices
 
 | Record | Literal source slots | Working coordinates | Raw fixed labels | Edition fixed labels | Known substitutions | Observed coordinates excluded |
-|---|---:|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | p179 A | 271 | 266 | 128 / 133 | 130 / 133 | 7 | 5, at printed cancellation |
 | p179 B | 158 | 158 | 76 / 79 | 76 / 79 | 1 | 0 |
 | p179 C | 232 | 232 | 116 / 116 | 116 / 116 | 3 | 0 |
@@ -34,7 +34,7 @@ substitutions.
 
 The source label `U.S.` is left unexpanded, with no American-origin
 inference. D1 retains the raw year form `1560U61`. D is explicitly headed
-November 12 but reads with the published key named Nov13–15b; both are
+12 November but reads with the published key named Nov13–15b; both are
 retained without a conjectural chronology. C retains `BEDING` as an
 abbreviation, and B's citadel is not assigned a city absent from its body.
 
@@ -49,7 +49,7 @@ python experiments/november_armistice_orders/verify.py --verify
 python experiments/november_armistice_orders/verify.py --verify --pdf /path/to/adfgvx-childs.pdf
 ```
 
-Default verification uses the existing independent column/domain/reencryption
+Default verification uses the existing independent column/domain/re-encryption
 helpers. The optional PDF check independently regenerates all five delivered
 source crops and compares their dimensions, channels and pixels. Witness
 completions prove arithmetic compatibility, not original numerical values.

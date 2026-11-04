@@ -48,7 +48,7 @@ For the historical reading, see [the p109 case](../../cases/pages/109.md#edition
 ## The source model
 
 The input is the independently reviewed B transcription and the
-`norbert18` variant of D, both under the recorded November 1–3 key.
+`norbert18` variant of D, both under the recorded 1–3 November key.
 The D input explicitly includes Norbert's published structural repair:
 its original 258-coordinate transcript becomes a 248-coordinate witness.
 The new algorithm does not silently replace that earlier hypothesis.
@@ -121,7 +121,7 @@ witness B reads the coordinate pattern `V?`, allowing `E` among its
 literal possibilities while excluding `A`. `SAVA` and `SAVE` have the
 same equal-weight total cost, but allocate the discrepancies differently
 between the two witnesses. The Austrian State Archives catalogue uses
-the spelling **Save** in its entry for an October 26, 1918 crossing order,
+the spelling **Save** in its entry for a 26 October 1918 crossing order,
 record `AT-OeStA/KA NL B/522.4.10`.
 [Catalogue record](https://www.archivinformationssystem.at/detail.aspx?ID=7182872).
 The document image was not inspected; this is nomenclature and context,

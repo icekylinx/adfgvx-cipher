@@ -18,7 +18,7 @@ The source therefore does not determine a unique complete sentence.
 
 All positions below are zero-based. The source has **186 literal slots**,
 comprising 145 observed coordinates and 41 printed masks, for 93 plaintext
-positions. The published October 4–6 square and 22-column rank are unchanged.
+positions. The published 4–6 October square and 22-column rank are unchanged.
 
 **Raw output — 56/93 positions fixed by the literal source:**
 

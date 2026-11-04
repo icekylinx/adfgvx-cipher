@@ -5,7 +5,7 @@
 The two target fragments are in Appendix B, printed page 153 of the Aegean Park
 Press volume *General Solution of the ADFGVX Cipher System*. The inspected
 [public scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view)
-records `FKR v CGH`, 11.55 p.m., November 8, 1918, transmission 2250, parts 5 and 6,
+records `FKR v CGH`, 11.55 p.m., 8 November 1918, transmission 2250, parts 5 and 6,
 with declared coordinate counts 132 and 108. The parent source audit supplies
 the detailed edition/date distinctions and the source image. This suite
 uses the source-audited transcription and never changes an observed coordinate.
@@ -28,8 +28,8 @@ LFK?G?
 ```
 
 The legacy duplicated `X` is not a valid known-cell constraint. Unknown digits
-and letters remain unknown. The CHI key is attested for a November 13 message;
-its use as an anchor for November 8 is an explicit reuse hypothesis. The
+and letters remain unknown. The CHI key is attested for a 13 November message;
+its use as an anchor for 8 November is an explicit reuse hypothesis. The
 [NSA historical report](https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_268/41784789082381.pdf)
 describes Western CHI daily keys, so reuse must not be silently assumed.
 

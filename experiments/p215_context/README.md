@@ -46,7 +46,7 @@ belong to the two hypothesized missing groups. The opening 33 characters and
 the final four-character reference are not repaired by this proposal.
 
 | Proposed span | Plaintext positions, zero-based | Known-coordinate changes | Erased-coordinate fills |
-|---|---:|---:|---:|
+| --- | ---: | ---: | ---: |
 | `KERTSCH` | 33–39 | 0 | 2 |
 | `ENTENTEFLOTTE` | 47–59 | 2 | 2 |
 | `ZWODIVISIONEN` | 60–72 | 0 | 3 |
@@ -68,7 +68,7 @@ required; indices refer to the unaugmented printed transcript unless stated
 otherwise.
 
 | Plaintext position | Required interpretation | Coordinate operation |
-|---:|---|---|
+| ---: | --- | --- |
 | 116 | `1` → `P` | Original coordinate 22: `X` → `V`; the other half stays `X` |
 | 118 | Unknown → separator `X` | Original coordinate 193: `D` → `X`, plus `A` in augmented gap position 34 |
 | 119 | Unknown → `K` | Fill augmented gap position 221 with `F`; original coordinate 51 remains `X` |
@@ -139,7 +139,7 @@ python experiments/p215_context/retrieve_context.py
 
 The coordinate audit independently rebuilds the column geometry from the
 [existing p215 certificate](../../data/certificates/p215.json). It verifies
-conditional costs and reencryption witnesses, not the historical truth of a
+conditional costs and re-encryption witnesses, not the historical truth of a
 reading. The retired retrieval evaluated 165,216 bounded models with 24 fixed
 historical keys and supplied no accepted retransmission or expanded opening.
 Its historical negative result does not exclude missing documents, different

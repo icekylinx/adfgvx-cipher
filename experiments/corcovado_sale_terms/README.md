@@ -2,16 +2,16 @@
 
 ADFGVX Cipher — **icekylinx and GPT-6 Astra Pro**.
 
-Six independently transcribed source records recover the November 9 sale
-terms for Corcovado and a November 10 report that the vessel already had a
-Turkish crew. They complement the November 15 order in
+Six independently transcribed source records recover the 9 November sale
+terms for Corcovado and a 10 November report that the vessel already had a
+Turkish crew. They complement the 15 November order in
 [`black_sea_shipping`](../black_sea_shipping/README.md). These are distinct
 messages, not duplicate plaintexts.
 
 The full reading, interpretation, residual uncertainty and attribution are
 in [the case](../../cases/pages/165.md#edition-cases-naval-corcovado-sale-terms). The source is
 J. Rives Childs, *General Solution of the ADFGVX Cipher System*, printed
-pp. 165 and 173 (PDF pp. 168 and 176). All six cropped images are retained
+pp165 and 173 (PDF page 168 and 176). All six cropped images are retained
 under `sources/`; their coordinates and hashes are in `inputs.json`.
 
 ## Source and repair scope
@@ -61,7 +61,7 @@ The published partial squares and the earlier complete-square hypotheses
 are retained unchanged. In particular, these conditional assignments
 conflict with the earlier completed hypotheses `VF=5`, `XA=6` and `XX=9`.
 All source-compatible digit alternatives are explicitly enumerated; exact
-reencryption alone cannot choose a numerical label.
+re-encryption alone cannot choose a numerical label.
 
 The earlier [military-context layer](../p170_continuation/military_context.json)
 already supports `VF=6`, `XA=5` through identification of the 6th Reserve
@@ -87,7 +87,7 @@ shipping package. Source files and hashes for the bounded check are
 listed in `inputs.json`.
 
 The directly decrypted price is `10XMILL`; currency is unstated. The
-November 10 report is not proof of the ship's ultimate disposition. The
+10 November report is not proof of the ship's ultimate disposition. The
 source spelling `CORCOVAUO` in p165 is retained in the raw text; its
 same-length `CORCOVADO` repair is independently supported by the complete
 observed spelling in p173, conditional on the same-vessel association.

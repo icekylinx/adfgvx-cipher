@@ -27,6 +27,7 @@ inside or at the edges of the visibly short XFVV group.
 
 
 **Reviewed source crops:** [p124_B_reviewed.png](sources/p124_B_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
+
 ## Reproduce
 
 ```sh

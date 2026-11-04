@@ -106,7 +106,7 @@ coordinates contradicting the frozen ordinary-word mask; erased source
 slots do not incur a mismatch cost.
 
 | Source-order model | Ordinary-word coordinate disagreements |
-|---|---:|
+| --- | ---: |
 | Untouched printed order | 19 |
 | Group 12 moved before group 8 | **0** |
 
@@ -136,7 +136,7 @@ does not establish a general decipherment success rate.
 ## Accounting and reproduction
 
 | Measure | Part 1 | Part 2 | Total |
-|---|---:|---:|---:|
+| --- | ---: | ---: | ---: |
 | Source coordinate slots | 214 | 186 | 400 |
 | Printed erased slots | 1 | 12 | 13 |
 | Untouched raw fixed positions | 102/107 | 76/93 | 178/200 |

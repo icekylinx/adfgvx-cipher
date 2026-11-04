@@ -1,4 +1,4 @@
-# November 22: reverse key use and an Aufbau date correction
+# 22 November: reverse key use and an Aufbau date correction
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
@@ -20,6 +20,7 @@ dates. Its printed November 22d receipt corrects the OCR's November 23d.
 
 
 **Reviewed source crops:** [p214_reviewed.png](sources/p214_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
+
 ## Files and checks
 
 - `inputs.json`: native source transcriptions, header distinctions, source image identity, unchanged key, readings and priced proposal.

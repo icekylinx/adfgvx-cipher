@@ -1,4 +1,4 @@
-# September 19: pigeons and Army Group East command arrangements
+# 19 September: pigeons and Army Group East command arrangements
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
@@ -12,6 +12,7 @@ The p56 A pigeon-transfer syntax and its opaque fields remain literal. Section B
 
 
 **Reviewed source crops:** [p56_reviewed.png](sources/p56_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
+
 ## Reproduce
 
 ```sh

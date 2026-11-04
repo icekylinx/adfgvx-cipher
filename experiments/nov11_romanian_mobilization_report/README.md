@@ -1,4 +1,4 @@
-# November 11: Romanian mobilization and a crossing report
+# 11 November: Romanian mobilization and a crossing report
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 

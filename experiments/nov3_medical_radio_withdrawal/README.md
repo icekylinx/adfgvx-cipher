@@ -1,4 +1,4 @@
-# November 3 medical, radio and withdrawal source editions
+# 3 November medical, radio and withdrawal source editions
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
@@ -11,7 +11,7 @@ from the source 117-slot p117 C4 record. No source positions or key cells are
 silently changed.
 
 | Source | Literal slots | Analysis-frame slots | Raw fixed | Edited fixed | Substitutions | Mask fills | Observed exclusions |
-|---|---:|---:|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | p117 A | 320 | 320 | 157 | 160 | 1 | 3 | 0 |
 | p117 B | 256 | 256 | 128 | 128 | 1 | 0 | 0 |
 | p117 C3 | 160 | 160 | 80 | 80 | 0 | 0 | 0 |
@@ -44,7 +44,7 @@ frame or error mechanism.
 
 All digit/reference labels, the shortened NACHRCEF, the odd VIERTEN11 field
 and missing earlier parts remain visible. The medical query's receipt line
-says November 5 while its page and origin point to November 3; this does not
+says 5 November while its page and origin point to 3 November; this does not
 extend the published key label. The existing Nov1–3 key retains its prior
 Lasry/Niebel/Kopal/Wacker credit. Earlier OCR candidates are frozen in
 [prior_candidates.json](prior_candidates.json); no first-decipherment claim

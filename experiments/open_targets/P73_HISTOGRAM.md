@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro (2026)**
 
-The published **Nov7–9** square is a poor empirical match for p73 under the tested ordinary-German prose assumptions. This is a way to prioritize research without relying on a transposition optimizer. It **does not exclude the key**, identify a replacement, prove the October 26 origin date, or recover plaintext.
+The published **Nov7–9** square is a poor empirical match for p73 under the tested ordinary-German prose assumptions. This is a way to prioritize research without relying on a transposition optimizer. It **does not exclude the key**, identify a replacement, prove the 26 October origin date, or recover plaintext.
 
 ![p73 coordinate counts compared with two held-out reference means](p73_coordinate_profile.svg)
 
@@ -11,7 +11,7 @@ The published **Nov7–9** square is a poor empirical match for p73 under the te
 A columnar transposition changes positions but preserves the total number of each coordinate. The source-audited counts are:
 
 | Source | A | D | F | G | V | X | Unknown slots |
-|---|---:|---:|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | p73 | 16 | 57 | 26 | 28 | 15 | 34 | 2 |
 | p155 A1, readable historical control | 21 | 33 | 10 | 38 | 28 | 39 | 1 |
 
@@ -53,7 +53,7 @@ The square's only unknown symbols are digits **5 and 6**. Both assignments are e
 For p73, even the most favorable completion lies beyond every reference block under both digit assignments:
 
 | Reference book | Convention | p73 reference blocks | Blocks at least as distant as p73 | Fraction at least as distant as readable p155 A1 |
-|---|---|---:|---:|---:|
+| --- | --- | ---: | ---: | ---: |
 | Lettow-Vorbeck | Joined letters/digits | 6,826 | 0 | 16.50% of 7,147 blocks |
 | Lettow-Vorbeck | Sentence `X` | 7,003 | 0 | 7.02% of 7,332 blocks |
 | Flex | Joined letters/digits | 1,348 | 0 | 7.72% of 1,412 blocks |
@@ -69,7 +69,7 @@ Putting `X` between **every word** makes the known p155 A1 body more distant tha
 
 ## Consequence for further work
 
-The diagnostic supports lowering the priority of **Nov7–9 square reuse** for p73 under ordinary German prose assumptions. The unresolved October 26 heading and origin marker still deserve separate archival investigation. Atypical names, extensive digits or code groups, another language, or different source damage remain possible. Reception on November 8 alone does not establish the enciphering key's date.
+The diagnostic supports lowering the priority of **Nov7–9 square reuse** for p73 under ordinary German prose assumptions. The unresolved 26 October heading and origin marker still deserve separate archival investigation. Atypical names, extensive digits or code groups, another language, or different source damage remain possible. Reception on 8 November alone does not establish the enciphering key's date.
 
 ## Reproduce
 

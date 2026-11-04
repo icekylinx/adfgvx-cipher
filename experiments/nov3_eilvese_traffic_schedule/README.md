@@ -30,6 +30,7 @@ historical deletion, and the scan marks no cancellation.
 
 
 **Reviewed source crops:** [p113_D1_reviewed.png](sources/p113_D1_reviewed.png) · [p113_D1_repetition_detail.png](sources/p113_D1_repetition_detail.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
+
 ## Reproduce
 
 ```sh

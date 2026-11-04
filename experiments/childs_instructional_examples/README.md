@@ -2,13 +2,13 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-The twelve numbered exercises I–XII at printed pp 19–22 contain **2,058 printed ciphertext coordinates and 1,029 plaintext labels**. Each is fully decoded by the existing complete 17-column `Worked-example-VIKINGSCROWNHOTEL` key. These examples extend coverage of the technical paper and are counted separately from the 679 historical ciphertext bodies in Appendix B.
+The twelve numbered exercises I–XII at printed pp19–22 contain **2,058 printed ciphertext coordinates and 1,029 plaintext labels**. Each is fully decoded by the existing complete 17-column `Worked-example-VIKINGSCROWNHOTEL` key. These examples extend coverage of the technical paper and are counted separately from the 679 historical ciphertext bodies in Appendix B.
 
 The primary edition makes **no source substitutions, fills, insertions, deletions or key changes**. Every plaintext label is tied to its two source coordinates, and each complete raw stream encrypts back to the exact printed transcription. The spelling `LAYLIGHT`, the label `I000`, and the incomplete endings of I and VIII are retained.
 
 ## Source and reproducibility
 
-[Original Childs scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view), printed pp 11–12 for the instructional key and pp 19–22 for the exercises. Page-specific render rectangles, dimensions and RGB hashes are in `inputs.json`; no new scan images are distributed in this package. The default check verifies the text and arithmetic. Passing the original PDF additionally authenticates its complete file hash and the actual rendered source pixels.
+[Original Childs scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view), printed pp11–12 for the instructional key and pp19–22 for the exercises. Page-specific render rectangles, dimensions and RGB hashes are in `inputs.json`; no new scan images are distributed in this package. The default check verifies the text and arithmetic. Passing the original PDF additionally authenticates its complete file hash and the actual rendered source pixels.
 
 ```sh
 python experiments/childs_instructional_examples/verify.py --verify
@@ -176,7 +176,7 @@ The unedited label is I000, beginning with letter I. Changing it to 1000 require
 Two proposals are priced separately and do not replace the source edition:
 
 | Exercise | Primary label | Proposed label | Observed-coordinate cost |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | V | LAYLIGHT | DAYLIGHT |1 substitution: source index 23, A → X |
 | XII | I000 |1000 |2 substitutions: source 31 A → G and 176 D → F |
 
@@ -184,7 +184,7 @@ The certificate retains the complete proposed streams, their exact source change
 
 ## Credit and limits
 
-Original exercises and instructional key: J. Rives Childs, printed pp 11–12 and 19–22. Independent transcription, source mapping and reproducible edition: icekylinx and GPT-6 Astra Pro.
+Original exercises and instructional key: J. Rives Childs, printed pp11–12 and 19–22. Independent transcription, source mapping and reproducible edition: icekylinx and GPT-6 Astra Pro.
 
 - These are 12 numbered instructional examples, not twelve 1918 radio intercepts. They do not change the 679-body Appendix B denominator.
 - All 1029 plaintext labels are fixed under the explicitly supplied complete instructional key; this is not a newly recovered historical key or a universal first-decipherment claim.

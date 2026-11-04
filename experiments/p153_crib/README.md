@@ -67,4 +67,4 @@ control. All three controls pass. The historical output, control inputs and
 verification record are included; CPU timing is incidental and not compared
 when reproducing the output.
 
-Implementation and review: **icekylinx and GPT-6 Astra Pro**, November 2, 2026.
+Implementation and review: **icekylinx and GPT-6 Astra Pro**, 2 November 2026.

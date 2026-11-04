@@ -7,7 +7,7 @@ Primary-source checks supporting the readable case edition. Historical period ke
 ## Findings
 
 | Record | Checked result | Scope |
-|---|---|---|
+| --- | --- | --- |
 | [p109 B transcription](p109_B_review.json) | Independent visual transcription agrees with the first review: 248 slots, 242 valid coordinates, six erased positions. | Supports the separately certified p109 B/D source relationship. No source glyph was changed to improve the German. |
 | [p132 attribution](attribution_followup.json) | Norbert explicitly proposed **GEBET VORHER** on 12 March 2017, comment 40. | The wording is prior art. The present work contributes review, clear presentation and the complete coordinate audit. |
 | [p77 B contextual reading](source_context.json) | All 350 received coordinates yield 175 letters and re-encrypt exactly. The message directly contains **ERHAELT RUFNAMEN NATHAN OTTO KARL**. | Independent evidence for the call-sign instruction formula used in the p146 interpretation; it concerns Konia, not Kerch. |

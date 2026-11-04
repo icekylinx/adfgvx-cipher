@@ -27,7 +27,7 @@ python experiments/newspaper_dispatch/verify.py --verify
 python experiments/newspaper_dispatch/verify.py --verify --pdf /path/to/adfgvx-childs.pdf
 ```
 
-Default verification uses the existing independent column/domain/reencryption
+Default verification uses the existing independent column/domain/re-encryption
 helpers and checks source hashes, all prices and unchanged key fields. The
 optional PDF check regenerates and compares source-crop pixels using PyMuPDF.
 Arbitrary global witness completions are not proposed original readings.

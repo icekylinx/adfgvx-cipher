@@ -39,6 +39,14 @@ views with `python -m adfgvx.catalog`, `python -m adfgvx.navigation` and
 Run `python -m adfgvx.source_editions --check` to verify archive integrity.
 Do not edit generated page files as an alternative to their canonical source.
 
+Use `p153`, `pp152–153` and `p153 A3` in editorial prose; retain original
+challenge IDs such as `p153a`. Use day–month–year dates, sentence-case headings
+and en dashes for ranges. The full style table is in
+[reading conventions](docs/reading-conventions.md#editorial-style).
+Shared display formatting belongs in `adfgvx/editorial_style.py`, after page
+assembly. Preserve source quotations, code, literals, URLs and legacy anchors;
+do not rewrite the archived texts merely to change their typography.
+
 ## Research verification
 
 Some frozen research checks still read original case paths. Run

@@ -29,7 +29,7 @@ word in the report.
 ## Exact cost
 
 | Field | Received | Proposal |
-|---|---|---|
+| --- | --- | --- |
 | Plaintext positions 83–89 | `VIERSWT` | `VIERSET` |
 | Plaintext position 88 | W | E |
 | Pair from original source positions 126, 170 | `VD` | `VX` |

@@ -143,7 +143,7 @@ checks that every heading, fenced display and quoted display of the
 existing primary case remains unchanged.
 
 The source is J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
-[printed p63, PDF p66](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
+[printed p63, PDF page 66](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
 The unchanged period key retains the existing attribution to J. Rives
 Childs, George Lasry, and **George Lasry, Ingo Niebel, Nils Kopal and Arno
 Wacker**, [2016, DOI 10.1080/01611194.2016.1169461](https://doi.org/10.1080/01611194.2016.1169461).

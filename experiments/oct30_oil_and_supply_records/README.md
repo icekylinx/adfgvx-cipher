@@ -1,4 +1,4 @@
-# October 30 oil and supply records
+# 30 October oil and supply records
 
 Two new physical records, p83 A and p85 A1: 540 native slots and 270 plaintext positions, all 270 directly fixed under the declared source readings. No observed coordinate, key or frame is changed.
 

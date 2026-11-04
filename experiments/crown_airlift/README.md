@@ -28,7 +28,7 @@ remaining question marks are retained.
 ## Exact scope and ambiguity
 
 | Quantity | Count |
-|---|---:|
+| --- | ---: |
 | Physical cipher records | 3 |
 | Printed source slots | 371 |
 | Valid printed ADFGVX coordinates | 370 |

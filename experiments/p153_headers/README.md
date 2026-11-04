@@ -22,7 +22,7 @@ are the analyst's `(chh)` initials. The remaining near-matches were checked
 against the original images.
 
 | Printed page | OCR lead or review | Finding from the original image |
-|---:|---|---|
+| ---: | --- | --- |
 | 56, 122, 163, 225 | `CEH`, `CUH`, `COH`, `C7H` | Artifacts in the spaced `RICHI` report title. |
 | 152 | Immediate preceding page | UKS/ZON and NKJ/LP traffic; no CGH/FKR continuation identified. |
 | 153 | `FKR`, `CGH`, `2250` | Confirms the known parts 5 and 6, dated 8 November 1918. |

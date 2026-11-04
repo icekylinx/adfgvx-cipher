@@ -5,7 +5,7 @@
 The [certificate](../../data/certificates/editorial_readings.json) records readable proposals separately from the retained earlier decipherments. Every additional coordinate change is mapped through the earlier repair and the transposition.
 
 | Case | Reading under review | Changes relative to the earlier reconstructed text |
-|---|---|---|
+| --- | --- | --- |
 | [p109](../../cases/pages/109.md#edition-cases-p109) | Sava crossing; another enemy division observed toward Belgrade | 22 plaintext positions, 23 coordinates; supported by a separately reviewed near-parallel |
 | [p132](../../cases/pages/132.md#edition-cases-p132) | `FUER`, `FUENFTER`, `GEBET VORHER` | Three plaintext positions, three coordinates; `VORHER` was already proposed by Norbert in comment 40, 12 March 2017 |
 | [p146](../../cases/pages/146.md#edition-cases-p146) | `ERHAELT AB 12.11 RUFNAMEN` | Four plaintext positions, four coordinates, all inside the earlier reconstructed blocks |

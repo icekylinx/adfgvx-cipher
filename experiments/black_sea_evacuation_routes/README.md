@@ -110,7 +110,7 @@ pixel for pixel. No external language model or temporary cache is required.
 [catalog proposal](catalog_proposal.json) and the
 [readable case](../../cases/pages/088.md#edition-cases-military-black-sea-evacuation-routes) retain the
 complete evidence. The first and fifth bodies already had readable repository
-candidates; p89 A2 retains **Ayush Agarwal's 2026-10-28** body credit and the
+candidates; p89 A2 retains **Ayush Agarwal's 28 October 2026** body credit and the
 earlier conservative review. The prior OCR for A3 omitted the declared loss.
 Bounded searches of the paper, thesis and cached comments do not establish
 historical priority, and no first-solution claim is made.

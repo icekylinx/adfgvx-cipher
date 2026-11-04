@@ -9,13 +9,13 @@ Choose a subject for short summaries and direct links to the complete page editi
 ## Subjects
 
 | Subject | Material | Historical study |
-|---|---|---|
-| [Caucasus administration and procurement](caucasus.md) | Read the October staffing, supply and purchasing exchanges with Tiflis, followed by the Polish representative appointment and later armistice instructions. | [Black Sea shipping and disposal](../docs/historical-studies/black-sea-network.md) |
-| [Ships, cargo and naval orders](naval.md) | Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and naval orders are collected here. | [Black Sea shipping and disposal](../docs/historical-studies/black-sea-network.md) |
-| [Armies, withdrawal and supplies](military.md) | Follow unit movements, evacuation, disarmament, internment, position reporting and army supply requests. | [Withdrawal, transit and internment](../docs/historical-studies/an-army-trying-to-get-home.md) |
-| [Radio service, keys and message routing](radio.md) | Station control, call signs, key schedules, retransmissions, couriers and routing instructions are grouped for reading. | [Radio authority and personnel](../docs/historical-studies/voices-on-the-wireless.md) |
-| [Money, banking and purchases](finance.md) | Follow requests for funds, currency exchange and purchasing decisions. Individual editions keep raw amount labels and proposed numerical interpretations separate. | [Cash, procurement and liquidation](../docs/historical-studies/what-retreat-cost.md) |
-| [People, appointments and civilian affairs](people.md) | Appointments, staff transfers, travel permissions, personnel inquiries and civilian affairs are collected here. | [Radio authority and personnel](../docs/historical-studies/voices-on-the-wireless.md) |
+| --- | --- | --- |
+| [Caucasus administration and procurement](caucasus.md) | Mission staffing, diplomatic representation, procurement and evacuation. | [Black Sea shipping and disposal](../docs/historical-studies/black-sea-network.md) |
+| [Ships, cargo and naval orders](naval.md) | Vessels, cargo, sailing instructions, sale terms and naval orders. | [Black Sea shipping and disposal](../docs/historical-studies/black-sea-network.md) |
+| [Armies, withdrawal and supplies](military.md) | Operational reports, withdrawal, provisioning, disarmament and internment. | [Withdrawal, transit and internment](../docs/historical-studies/an-army-trying-to-get-home.md) |
+| [Radio service, keys and message routing](radio.md) | Station control, call signs, key schedules, retransmissions and couriers. | [Radio authority and personnel](../docs/historical-studies/voices-on-the-wireless.md) |
+| [Money, banking and purchases](finance.md) | Purchases, pay, remittances, banknotes, exchange and asset disposal. | [Cash, procurement and liquidation](../docs/historical-studies/what-retreat-cost.md) |
+| [People, appointments and civilian affairs](people.md) | Appointments, leave, discharge, civilian departure and personal inquiries. | [Radio authority and personnel](../docs/historical-studies/voices-on-the-wireless.md) |
 
 [Seven unresolved sources](open.md) remain available with their source texts.
 
@@ -25,7 +25,7 @@ Choose a subject for short summaries and direct links to the complete page editi
 <summary>The 22 Lasry–Schmeh challenge sources</summary>
 
 | Source | State | Subject |
-|---|---|---|
+| --- | --- | --- |
 | [p73](../cases/pages/073.md#source-p73) | OPEN | Message routed to General von Kress |
 | [p100](../cases/pages/100.md#source-p100) | READING | Enemy divisions approaching Belgrade |
 | [p105](../cases/pages/105.md#source-p105) | READING | Naval telegram acknowledgments |

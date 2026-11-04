@@ -32,7 +32,7 @@ the phrase's letters in first-occurrence order, appending unused letters
 alphabetically, and inserting the digits `1…9,0` after `A…J` reproduces it
 exactly. The earlier text introduces a set of messages submitted for study;
 this worked construction is not evidence that every intercepted wartime key
-used that procedure. [Childs collection, printed pp. 6, 11–12](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
+used that procedure. [Childs collection, printed pp6, 11–12](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
 
 The reported p217 square similarly matches `TRUPPENVERSCHIEBUNG` with
 `0…9` after `A…J`. Its recorded full square is used only as a construction
@@ -54,7 +54,7 @@ in the preamble and key schedules. Its description does not establish the
 above keyword constructions as the general generator of either traffic
 system. Its discussions of dummy letters in other systems cannot be
 transferred to p153's ADFGVX footer without separate evidence.
-[German Military Ciphers from February to November 1918, printed pp. 13–16](https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_268/41784789082381.pdf).
+[German Military Ciphers from February to November 1918, printed pp13–16](https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_268/41784789082381.pdf).
 
 These are bounded source findings. They do not prove that the original
 German key-generation instructions never existed, that all keys were

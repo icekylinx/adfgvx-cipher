@@ -1,4 +1,4 @@
-# November 15: Warsaw radio personnel and a repeated key notice
+# 15 November: Warsaw radio personnel and a repeated key notice
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
@@ -14,6 +14,7 @@ reorderings and no published-key changes.
 
 
 **Reviewed source crops:** [p197_reviewed.png](sources/p197_reviewed.png) · [p189_reviewed.png](sources/p189_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
+
 ## The personnel order
 
 p197 A1 has 193 source slots against its advertised 198. A single five-slot

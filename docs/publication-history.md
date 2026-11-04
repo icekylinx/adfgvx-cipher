@@ -6,7 +6,7 @@ Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
 The 27 locally completed commits after `ffc0c91e75b80e628524d665af9507f123fd664c`
 were published through the connected GitHub interface. The branch update
-completed at **2026-11-02 23:27:19 UTC** (3 November, 07:27:19 in Singapore).
+completed at **2 November 2026, 23:27:19 UTC** (3 November 2026, 07:27:19 in Singapore).
 The public head was
 [`c4c2562f41dd4624f7202962db68ef9e746f50f2`](https://github.com/icekylinx/adfgvx-cipher/commit/c4c2562f41dd4624f7202962db68ef9e746f50f2).
 
@@ -36,7 +36,7 @@ Subsequent editions continue from that public head. The live
 [historical studies](historical-studies/README.md) present the recovered
 content. Source certificates and earlier contributions remain with each case.
 
-The 4 November editorial revision consolidated each physical source into one
+The 4 November 2026 editorial revision consolidated each physical source into one
 catalogue record and included all seven OPEN bodies. Superseded publication
 inventories and presentation snapshots were removed from the working tree;
 their dated content remains in the Git history. Current checks follow the

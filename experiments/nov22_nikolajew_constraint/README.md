@@ -33,7 +33,7 @@ The ciphertext proves the pair GD. The language assumption supplies J. These are
 All indices are zero-based. The table lists every fully observed baseline 9 in the declared 21-record reviewed scope, not just the favorable words.
 
 | Physical record | Plaintext index | Original source indices | Raw field | Consequence of GD=J |
-|---|---:|---|---|---|
+| --- | ---: | --- | --- | --- |
 | p212 A1 | 110 | 87, 177 | NIKOLA9EW | NIKOLAJEW, conditional shared spelling |
 | p213 A6 | 69 | 149, 252 | NIKOLA9EW | NIKOLAJEW, conditional shared spelling |
 | p213 A7 | 82 | 94, 119 | NIKOLA9EW | NIKOLAJEW, conditional shared spelling |
@@ -57,7 +57,7 @@ Changing source 26 F to G would change FD to GD and allow that spelling at the c
 All unproved baseline labels `0123456789JQY` are first cleared. A new interpretation is one injective partial square, with one global pool of unused symbols. Domains at separate plaintext positions cannot be selected independently with repetition.
 
 | Layer | Assumptions | Remaining unassigned symbols |
-|---|---|---|
+| --- | --- | --- |
 | Lexical J alone | raw 9→J | `0123456789QY` |
 | Earlier numerical layer | raw Y→1, raw J→2, raw 2→6 | `0345789JQY` |
 | Explicit conjunction | Earlier numerical layer plus raw 9→J | `0345789QY` |

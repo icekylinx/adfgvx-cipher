@@ -1,4 +1,4 @@
-# November 6 evening and embassy records
+# 6 November evening and embassy records
 
 Three new native records, p143 A and p147 B1/D1: 448 slots / 224 plaintext positions, 213 fixed raw and 218 after seven coordinate substitutions and five source-mask fills. The six remaining unknown positions are all retained in the primary p143 reading. No frame or key change.
 

@@ -16,7 +16,7 @@ The three short copies each contain exactly 180 observed coordinates.
 They differ only at source indices **29, 55 and 162**:
 
 | Source index | p102 A | p103 D | p106 B | Readable common candidate |
-|---:|---|---|---|---|
+| ---: | --- | --- | --- | --- |
 | 29 | G | X | G | X |
 | 55 | G | D | D | D |
 | 162 | F | G | F | F |

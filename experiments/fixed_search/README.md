@@ -8,7 +8,7 @@ The later source-based p152 and p189 findings are separate from these searches.
 ## What was searched
 
 | Branch | Exact configured cases | Objective and scope |
-|---|---:|---|
+| --- | ---: | --- |
 | Fixed transposition | 144 | Eight separate targets and one p153 joint target, each under 16 recorded rank families; unknown bijective square; general German quadgrams. |
 | Dictionary permutations | 1,352 | Deduplicated p73/p170 rank candidates selected independently of a square, then fitted with an unknown bijective square and military German quadgrams over the complete observed coordinate domains. |
 | p198 group-gap refinement | 136 | Four rank families × 34 positions for one missing five-coordinate group; unknown bijective square; 30% four-gram and 70% six-gram composite score. There are 102 warm starts and 34 cold starts. |

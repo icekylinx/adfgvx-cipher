@@ -1,7 +1,7 @@
-# November 1 contact times, service mail and the Sava evening report
+# 1 November contact times, service mail and the Sava evening report
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. This source edition covers
-five physical records on Childs printed p99 (PDF p102). The published
+five physical records on Childs printed p99 (PDF page 102). The published
 `Nov1-3` key is unchanged. Two reader pages separate the
 [radio and mail messages](../../cases/pages/099.md#edition-cases-radio-nov1-contact-and-mail)
 from the [Sava-crossing report](../../cases/pages/099.md#edition-cases-military-sava-crossing-evening-report).
@@ -9,7 +9,7 @@ from the [Sava-crossing report](../../cases/pages/099.md#edition-cases-military-
 ## Accepted scope
 
 | Record | Literal slots / valid coordinates | Working slots | Fixed raw / total labels | Fixed edited / total labels | Observed substitutions | Source-mask fills | Missing-coordinate fills |
-|---|---:|---:|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | p99 A | 133 / 109 | 134, conditional | 43 / 67 | 67 / 67 | 0 | 24 | 1 |
 | p99 B1 | 172 / 172 | 172 | 86 / 86 | 86 / 86 | 0 | 0 | 0 |
 | p99 C1 | 136 / 122 | 136 | 54 / 68 | 68 / 68 | 3 | 14 | 0 |
@@ -109,7 +109,7 @@ a blind recovery or exclude other loss/repair mechanisms.
 - B1 and the existing p100 challenge share `UKS v ZON` and `2016 (1)`.
   Their headers differ as `3 TLE` versus `2 TLE`. The p100 header crop is
   included as a limited association witness. No p100 record is duplicated,
-  and its earlier body remains credited to **Armin, March 1, 2017**.
+  and its earlier body remains credited to **Armin, 1 March 2017**.
 
 ## Verification
 

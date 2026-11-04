@@ -2,9 +2,9 @@
 
 Source edition and verification by **icekylinx and GPT-6 Astra Pro**.
 
-Childs p77 A, PDF p80, has exactly **314 source slots**, as printed in
+Childs p77 A, PDF page 80, has exactly **314 source slots**, as printed in
 `RICHI-314`: **313 unambiguous coordinates and one damaged glyph**. The
-October 29 header and message time are retained. The unchanged published
+29 October header and message time are retained. The unchanged published
 **Oct28–31** key gives **156/157 raw fixed positions**. Two local coordinate
 substitutions repair `ZUER` to `FUER` and `ERBITT4N` to `ERBITTEN`, while
 one damaged-glyph fill supplies the separator between Z and ROT. The

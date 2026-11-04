@@ -1,4 +1,4 @@
-# November 4: repetition, communications and a money acknowledgment
+# 4 November: repetition, communications and a money acknowledgment
 
 Source edition and verification by **icekylinx and GPT-6 Astra Pro**.
 

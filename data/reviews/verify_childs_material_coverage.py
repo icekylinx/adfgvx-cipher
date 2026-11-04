@@ -22,6 +22,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 from adfgvx.catalog import load_catalog, physical_source_accounting, evidence_record_id
 from adfgvx.source_editions import page_target
+from adfgvx.editorial_style import markdown as style_markdown
 
 DEFAULT = ROOT / 'data/reviews/childs_material_census_20261103.json'
 REPORT = ROOT / 'docs/whole-material-coverage.md'
@@ -508,6 +509,8 @@ def build(manifest, pdf=None):
 
 def render(report, manifest):
     now = report['current']
+    catalogue = load_catalog()
+    labels = {row['id']: row['label'] for group in ('challenge', 'other') for row in catalogue[group]}
     lines = ['# Whole-material source coverage', '',
              f"[Catalogue](../{page_target('cases/README.md')}) · [Source identity](catalogue-source-identity.md) · [Reading conventions](reading-conventions.md)", '',
              'Prepared by **icekylinx and GPT-6 Astra Pro**.', '',
@@ -525,15 +528,15 @@ def render(report, manifest):
         if r['catalogue_state'] != 'OPEN':
             continue
         slots = r['native_source_slots_if_known']
-        lines.append(f"| [{r['catalogue_id']}](../{page_target(r['case_path'])}) | {slots if slots is not None else 'Not quantified here'} | {r['current_catalogue_status']} |")
-    lines += ['', 'The four newly catalogued OPEN cases preserve 595 native slots: 535 observed coordinates and 60 printed erasures. Their [source-only package](../experiments/open_source_records/README.md) verifies the literal rows and original-PDF crops. It introduces no key, completed loss frame, plaintext or decipherment count.', '',
+        lines.append(f"| [{labels[r['catalogue_id']]}](../{page_target(r['case_path'])}) | {slots if slots is not None else 'Not quantified here'} | {r['current_catalogue_status']} |")
+    lines += ['', 'The four newly catalogued OPEN sources preserve 595 native slots: 535 observed coordinates and 60 printed erasures. Their [source-only package](../experiments/open_source_records/README.md) verifies the literal rows and original-PDF crops. It introduces no key, completed loss frame, plaintext or decipherment count.', '',
               '## Quantitative evidence coverage', '',
               f"The structured adapters independently recompute primary source/model accounting for **{now['independently_quantified_primary_records']} of the 679 bodies**. The other **{now['unquantified_primary_records']} remain unquantified by these adapters**, including OPEN sources and unsupported legacy certificate formats. This is evidence-tool coverage, not the number of unread messages.", '',
               '| Verified primary frame class | Physical bodies | Native slots | Model positions | Fixed raw labels, unobserved coordinates unassigned | Extra fixed labels from supplied unobserved coordinates |',
               '|---|---:|---:|---:|---:|---:|']
     for kind, name in [('native_order_and_length', 'Native order and length'), ('modified_frame', 'Modified frame; stated assumptions apply')]:
         t = report['quantified_subset_totals'][kind]
-        lines.append(f"| {name} | {t['physical_sources']} | {t['native_source_slots']} | {t['model_positions']} | {t['fixed_raw_labels_with_all_unobserved_coordinates_unassigned']} | {t['additional_fixed_labels_from_supplied_unobserved_coordinates']} |")
+        lines.append(f"| {name} | {t['physical_sources']:,} | {t['native_source_slots']:,} | {t['model_positions']:,} | {t['fixed_raw_labels_with_all_unobserved_coordinates_unassigned']:,} | {t['additional_fixed_labels_from_supplied_unobserved_coordinates']:,} |")
     lines += ['', '**These position totals cover only the quantified subset.** A fully fixed stream can retain garbles or uninterpreted numbers. The checker separates native slots, model additions/exclusions, coordinates supplied by another witness and ordinary-word repairs. Optional readings and alternative frames are never added as extra physical sources.', '',
               'The JSON output identifies the canonical source, state, evidence path and exact count contract for each body. It gives explicit reasons where a primary record cannot yet be quantified. Restricted evidence aliases resolve older package identifiers without creating catalogue rows.', '',
               '## Other material in the volume', '',
@@ -552,7 +555,7 @@ def render(report, manifest):
               'python data/reviews/verify_childs_material_coverage.py --write-report', '```', '',
               '`--verify` recomputes the structured contracts without writing. `--write-report` refreshes this page. The optional PDF check authenticates the original file and page count; the boundary inspection remains a recorded manual review.', '',
               'Source: J. Rives Childs, *General Solution of the ADFGVX Cipher System*, [scanned volume](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). The [machine-readable census](../data/reviews/childs_material_census_20261103.json) records page-level review bases, exceptions and the historical baseline; the live JSON output records current file digests.', '']
-    return '\n'.join(lines)
+    return style_markdown('\n'.join(lines))
 
 
 def main():

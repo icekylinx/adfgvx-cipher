@@ -21,7 +21,7 @@ Two complete native sources independently preserve the pair `FA` where their
 phrases require `JEDE` or `JEDER`:
 
 | Record | Native phrase | Plaintext position | Original source positions | Pair |
-|---|---|---:|---|---|
+| --- | --- | ---: | --- | --- |
 | p225 B2 | `1EDE UNTERSTUETZUNG GEFUNDEN` | 67 | 194, 48 | `FA` |
 | p227 D | `IST 1EDER KAMPF ZT VERMEIDEN` | 31 | 3, 105 | `FA` |
 
@@ -35,7 +35,7 @@ read J. Keeping their original coordinates instead reduces their combined
 word-repair cost from **six to two substitutions**:
 
 | Record | Baseline-key word repairs | Shared-J word repairs |
-|---|---:|---:|
+| --- | ---: | ---: |
 | p225 B2 | 2 (`1EDE → JEDE`) | 0 |
 | p227 D | 4 (`1EDER → JEDER`, `ZT → ZU`) | 2 (`ZT → ZU`) |
 

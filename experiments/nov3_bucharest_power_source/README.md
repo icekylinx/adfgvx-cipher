@@ -1,4 +1,4 @@
-# Nov3 bucharest power source
+# Bucharest power source, 3 November
 
 2 newly reviewed physical records, 390 native source slots and 195 plaintext positions. 195 positions are fixed in raw output; the proposals use 4 observed-coordinate substitutions and 0 source-mask fills. No coordinate is inserted or deleted and no published key is changed.
 

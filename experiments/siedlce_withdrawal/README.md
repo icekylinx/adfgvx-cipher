@@ -17,7 +17,7 @@ priority claim.
 ## Literal reading and proposed edition
 
 The [source crop](sources/childs_p200_A.png) is Childs, printed p200 /
-PDF p203, record A. Its header is
+PDF page 203, record A. Its header is
 `WAU v LP (08.05 p.m., November 15th); 16.44 (15/11); RICHI-330`.
 The page heading gives 15 November 1918. There are 66 five-coordinate
 groups, including the printed `FFDF-` group: 329 visible coordinates and
@@ -52,7 +52,7 @@ forename is supplied.
 ## Exact repair cost
 
 | Raw span | Proposed span | Known-coordinate substitutions | Erasure fills |
-|---|---|---:|---:|
+| --- | --- | ---: | ---: |
 | `G0UVERNEMENT` | `GOUVERNEMENT` | 1 | 0 |
 | `THORJ` | `THORN` | 2 | 0 |
 | `BWTL` | `BATL` | 1 | 0 |
@@ -76,7 +76,7 @@ level, without changing the published digit assignment.
 All 165 proposed characters use known cells of the unchanged partial
 square and re-encrypt exactly to the recorded edited ciphertext. This
 proves the repair cost and consistency under the fixed key. The repairs
-remain an editorial proposal; the roundtrip does not prove that the
+remain an editorial proposal; the round-trip does not prove that the
 historical wording was unique.
 
 ## Independent contemporary identity witness

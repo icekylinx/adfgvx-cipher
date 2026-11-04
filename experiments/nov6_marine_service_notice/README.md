@@ -1,4 +1,4 @@
-# November 6 notice: Osmanie unavailable
+# 6 November notice: Osmanie unavailable
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 

@@ -21,7 +21,7 @@ are independent of Childs's intercept collection and the modern cipher edition.
 ![Two headquarters on map no. 9](sources/tsamo274_headquarters.png)
 
 | Visible map observation | Supported comparison | Limit |
-|---|---|---|
+| --- | --- | --- |
 | Lower blue `O.K. Scholtz.` headquarters symbol at the printed Calimanesti label | The proposed Calimanesti destination in p163 A17 has an independent contemporary map witness | The symbol has no individual date; the exact 13 November move date and the rest of the order are not proved by this map |
 | Upper blue `O.K. Mackensen.` headquarters symbol at `NAGYSZEBEN (HERMANNSTADT)` | A separate headquarters location during the later withdrawal interval | This is Mackensen's symbol, not proof of Scholtz's arrival in Hermannstadt. It does not establish or correct the earlier order's planned move of O.K.M. to Sinaia |
 

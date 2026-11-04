@@ -11,7 +11,7 @@ Prepared by **icekylinx and GPT-6 Astra Pro**. The positive source editions
 recovered alongside this work are in the
 [October Caucasus package](../october_caucasus/README.md) and the
 [October staffing package](../october_staffing/README.md), with further
-[source records from pp. 62–65](../october_requests/README.md). Those editions use an
+[source records from pp62–65](../october_requests/README.md). Those editions use an
 earlier published key and retain the earlier Childs, Lasry, and
 Lasry–Niebel–Kopal–Wacker credits. These method experiments do not establish a
 new connection between their key and p73.
@@ -19,8 +19,8 @@ new connection between their key and p73.
 ## Inputs and completed work
 
 The historical target is the unchanged **178-slot p73 source frame**, with
-**176 received coordinates and two erasures**. The header's October 26 /
-November 8 conflict remains unresolved. [inputs.json](inputs.json) snapshots the
+**176 received coordinates and two erasures**. The header's 26 October /
+8 November conflict remains unresolved. [inputs.json](inputs.json) snapshots the
 target and 25 catalogued rank orders. This catalogue includes historical,
 recovered and illustrative entries; it is not 25 independently dated historical
 period keys. Complementing every rank, `r -> width+1-r`, supplies the reversed
@@ -65,7 +65,7 @@ unpublished cells free and must not be called a completely frozen square.
 
 Six fresh controls use the correct frozen square, a random hidden rank order,
 two adjacent erased source coordinates, and 89-character excerpts from the new
-p70 source editions. They are synthetic reencryption controls, not historical
+p70 source editions. They are synthetic re-encryption controls, not historical
 attributions of those texts to the test keys.
 
 | Square | Width 16 | Width 24 |
@@ -243,9 +243,9 @@ optional deterministic replay repeats the full C++ offset search. The shuffled
 sample is finite and frequency-preserving only; it is not a significance test
 or an exclusion of other keys, corpora, layouts or cipher conventions.
 
-## 5. Profile pairing and new arbitrary ranks: 3 November followup
+## 5. Profile pairing and new arbitrary ranks: 3 November follow-up
 
-The [compact followup](followup_20261103/README.md) adds 1,232 source
+The [compact follow-up](followup_20261103/README.md) adds 1,232 source
 segmentations, 57 private-square/pair-order fits, and 94,795 exact donor
 comparison optima. Four related hidden-key controls admit complete global
 square witnesses with zero changes to all 176 observed coordinates, while
@@ -254,7 +254,7 @@ the literal square estimates still confuse letters. No p73 reading is accepted.
 Its standard-library verifier checks the source/control witnesses and 41
 donor leaders; optional replay checks the complete donor screen. The stochastic
 search used a different, unbundled scratch model whose build provenance was
-not retained. The followup states that reproduction limit explicitly.
+not retained. The follow-up states that reproduction limit explicitly.
 
 ## Reproduce and verify
 

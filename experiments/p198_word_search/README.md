@@ -71,7 +71,7 @@ Their full seed states and reconstructed seed texts are preserved. Other
 controls begin blindly.
 
 | Control family | Square information | Budget per run | Correct characters |
-|---|---|---:|---|
+| --- | --- | ---: | --- |
 | Old diagnostic at weight 1.5, two keys | Full true square supplied; old quad optimum as seed | 300s | 85, 83 |
 | Four new bodies at weight 1.5 | Full true square supplied | 600s | 81, 85, 85, 85 |
 | Same old diagnostic at weight 2 | Same full squares and seed origins | 300s | 85, 84 |
@@ -88,7 +88,7 @@ and one as **search failed to reach the better truth**.
 The published-anchor numerical control is especially clear: its 82/85 result
 recovers the wording while changing company 3 to 2, day 17 to 18 and time 0800 to 0300.
 Those changes are globally consistent with a different square completion and
-score better under the model. A successful source roundtrip therefore cannot
+score better under the model. A successful source round-trip therefore cannot
 identify those numbers. The fully hidden-square failure recovers only 11/85
 characters despite a superior true score; it demonstrates search incompleteness
 in that harder regime.

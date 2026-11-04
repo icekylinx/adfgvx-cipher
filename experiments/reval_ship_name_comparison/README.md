@@ -11,10 +11,10 @@ The source has 208 coordinates throughout; no new mask is filled.
 ## Primary spelling witnesses
 
 | Proposed spelling | Primary source | Exact locator |
-|---|---|---|
+| --- | --- | --- |
 | **Peter Benoit** | *Lloyd's Register of Shipping, Steamers, 1917–18* | [PES–PET, P471](https://archive.org/details/HECROS1918ST/page/n798/mode/1up) · [entry crop](sources/peter_benoit_lloyds_1917_18.png) |
 | **Björn** → cipher **BJOERN** | Same register | [BJE–BLA, B733–735](https://archive.org/details/HECROS1918ST/page/n136/mode/1up) · [three entries](sources/bjorn_lloyds_1917_18.png) |
-| **Babylon** | *Hamburger Fremdenblatt*, no. 359 B, evening edition, 28 December 1915 | Printed p3, PDF p9, “Schiffs-Unfälle” · [issue](https://pdf.sub.uni-hamburg.de/kitodo/PPN1699277745_19151228AB.pdf) · [notice crop](sources/babylon_19151228_p9.png) |
+| **Babylon** | *Hamburger Fremdenblatt*, no. 359 B, evening edition, 28 December 1915 | Printed p3, PDF page 9, “Schiffs-Unfälle” · [issue](https://pdf.sub.uni-hamburg.de/kitodo/PPN1699277745_19151228AB.pdf) · [notice crop](sources/babylon_19151228_p9.png) |
 
 The register's visible year is **1917–18**, although its archive identifier
 uses 1918. It lists three distinct Björn entries. The first records capture
@@ -30,7 +30,7 @@ All indices are zero-based. The inherited word edition costs three observed
 substitutions and one invalid-glyph fill.
 
 | Field under the prior J/Y layer | Proposed field | Additional observed substitutions |
-|---|---|---|
+| --- | --- | --- |
 | `PETERXBENVIT` | `PETERXBENOIT` | Source **72 V→X**, **90 V→F** |
 | `BJVERN` | `BJOERN` | Source **64 V→F**, **150 V→X** |
 | `BACYLON` | `BABYLON` | Source **36 F→G**, **83 D→F** |

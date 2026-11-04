@@ -9,7 +9,7 @@ This is a grammatical proposal with a small, explicit coordinate cost;
 `K.M.` remains an unidentified abbreviation.
 
 | Plaintext index | Existing evidence | Proposed letter | Additional source operation |
-|---:|---|---|---|
+| ---: | --- | --- | --- |
 | 72 | `GD` gives X | D, encoded `GG` | source 136: D → G |
 | 73 | `F?` gives domain `1EKLOS` | E, encoded `FA` | source 185: invalid U → A |
 
@@ -35,7 +35,7 @@ complete first-part strings is re-enciphered exactly. Relative to the
 existing word repair:
 
 | Additional observed substitutions | Number of candidates | Additional invalid-glyph fills |
-|---:|---:|---:|
+| ---: | ---: | ---: |
 | 0 | 6 | 1 |
 | 1 | 60 | 1 |
 | 2 | 150 | 1 |

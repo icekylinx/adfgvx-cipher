@@ -80,7 +80,7 @@ flowchart TD
     H["Prior publications and historical records"] --> G
 ```
 
-The [message catalog](../data/messages.json) keeps the literal source, earlier
+The [message catalogue](../data/messages.json) keeps the literal source, earlier
 online transcriptions and conservative analysis layers separate. Certificates
 record which original coordinate supplies each plaintext position and which
 coordinates were inserted, deleted, filled or changed. A source index and an

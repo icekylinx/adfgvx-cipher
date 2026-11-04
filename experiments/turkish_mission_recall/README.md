@@ -23,7 +23,7 @@ A1 and merged A3 with A4. Correcting those source readings and following
 the printed boundaries yields **645 fixed plaintext labels**.
 
 | Part | Plaintext positions | Observed-coordinate substitutions | Erasure fills |
-|---|---:|---:|---:|
+| --- | ---: | ---: | ---: |
 | p130 A1 | 197 | 0 | 0 |
 | p130 A2 | 165 | 2 | 0 |
 | p131 A3 | 198 | 0 | 0 |

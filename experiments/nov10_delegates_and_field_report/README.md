@@ -17,13 +17,13 @@ and the [Danube field report](../../cases/pages/176.md#edition-cases-military-no
 ## Source and arithmetic
 
 The source is J. Rives Childs, *General Solution of the ADFGVX Cipher
-System*, printed pp175–176, PDF pp178–179. The complete PDF identity,
+System*, printed pp175–176, PDF pages 178–179. The complete PDF identity,
 literal rows, source headers, crop rectangles and image hashes are in
 [inputs.json](inputs.json). All four literal streams have the length
 advertised by their own part headers.
 
 | Part | Source coordinates | Plaintext positions | Raw fixed labels | Candidate fixed labels | Observed-coordinate substitutions |
-|---|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: |
 | p175 A1 | 192 | 96 | 96 | 96 | 4 |
 | p175 A2 | 104 | 52 | 51 | 51 | 1 |
 | p176 B2 | 252 | 126 | 125 | 126 | 1 |
@@ -47,7 +47,7 @@ source or source-deletion hypothesis in the edition.
 Indices are zero-based in each native literal ciphertext.
 
 | Part | Observed-coordinate changes | Plaintext effect |
-|---|---|---|
+| --- | --- | --- |
 | p175 A1 | 14 V→F; 69 V→F; 121 D→G; 145 X→V | `MANNITAED1→MANNSTAEDT`, `NAMUT→NAMUR`, `ODET→ODER` |
 | p175 A2 | 70 D→F | `NACWM→NACHM` |
 | p176 B2 | 108 F→G | `ENGLAEN?ERN→ENGLAENDERN` |
@@ -78,7 +78,7 @@ One full-square witness for each digit is frozen in the certificate.
 These completions demonstrate compatibility; none is asserted to be
 the historical square.
 
-Lasry et al., §6.4, author PDF p24, discuss this p175 A message together
+Lasry et al., §6.4, author PDF page 24, discuss this p175 A message together
 with p172 C and give a Berlin arrival time of 15:00. This source edition
 does not import that narrative time into the distinct literal `?X03`
 field or silently reinterpret onward travel as arrival. It also does

@@ -13,7 +13,7 @@ This is a conditional reconstruction with explicit lost-row and word-completion 
 ## Exact bounds
 
 | Quantity | Primary conditional model |
-|---|---:|
+| --- | ---: |
 | Physical source records | 1 |
 | Printed source slots | 242 |
 | Advertised / modeled coordinates | 282 |

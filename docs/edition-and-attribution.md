@@ -11,7 +11,7 @@ This is the **first documented p153 key and reconstruction identified in the rev
 Our source research also identifies repeated receptions, restores printed groups omitted from transcriptions and reconnects multipart messages. The most consequential comparisons are:
 
 | Source recovery | Result |
-|---|---|
+| --- | --- |
 | [Arad provisions](../cases/pages/164.md#edition-cases-military-danube-arad-witnesses) | Eleven missing coordinates restored and the strength figure **80000** established from observed pairs. |
 | [Small-banknote instruction](../cases/pages/195.md#edition-cases-finance-crown-banknote-completion) | Nineteen absent tail coordinates supplied by a complete reception; the gap located and one earlier conjecture corrected. |
 | [Caucasus silk resale](../cases/pages/144.md#edition-cases-finance-nov6-silk-resale-continuation) | Direct pair support across receptions for all **135 positions** of the continuation. |

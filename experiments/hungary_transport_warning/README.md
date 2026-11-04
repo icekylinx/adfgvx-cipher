@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher — icekylinx and GPT-6 Astra Pro**
 
-This edition covers six physical parts on Childs printed p184 (PDF p187): B1–B3 and C1–C3. Two three-part transmissions warn the Mackensen command's mineral-oil department against letting transports from Romania enter Hungary. The source says they would be completely lost there. That is the message's warning, not an independently established outcome.
+This edition covers six physical parts on Childs printed p184 (PDF page 187): B1–B3 and C1–C3. Two three-part transmissions warn the Mackensen command's mineral-oil department against letting transports from Romania enter Hungary. The source says they would be completely lost there. That is the message's warning, not an independently established outcome.
 
 The useful restoration is **B2's missing five-coordinate group `DXDVA`**. The source advertises 192 coordinates but prints 187. An alignment containing 92 directly readable positions from the uncorrected C2 body singles out gap 35, before the eighth printed group, among all 188 possible placements of one contiguous five-coordinate gap. It restores five plaintext letters with **zero changes to observed B2 coordinates**. The uniqueness claim is conditional on this explicit gap model and alignment.
 
@@ -23,7 +23,7 @@ B3 and C3 have exactly the same coordinate pairs for all 54 C3 plaintext positio
 All indices are zero-based. Five coordinates are absent before source index 35. The screen constructs its masked plaintext **from C2's uncorrected raw text**, using these correspondence ranges:
 
 | B2 start | C2 start | Matching positions |
-|---:|---:|---:|
+| ---: | ---: | ---: |
 | 0 | 0 | 5 |
 | 6 | 6 | 39 |
 | 45 | 46 | 35 |
@@ -33,7 +33,7 @@ All indices are zero-based. Five coordinates are absent before source index 35. 
 B2 positions 5, 80, 90 and 95 are excluded. All 188 gap scores are frozen. Gap 35 alone needs zero observed-coordinate substitutions; gaps 34, 36 and 37 each need one. The five missing stencil coordinates are all determined by the mask and equal `DXDVA`.
 
 | Restored B2 plaintext position | Character | Uncorrected C2 witness position |
-|---:|:---:|---:|
+| ---: | :---: | ---: |
 | 8 | T | 8 |
 | 18 | A | 18 |
 | 28 | H | 28 |

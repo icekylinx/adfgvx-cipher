@@ -2,7 +2,7 @@
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
-Childs printed p175 B, PDF p178, preserves a **second part** concerning
+Childs printed p175 B, PDF page 178, preserves a **second part** concerning
 marks paid through the end of October and arrival notices for cheques.
 The signature-like ending reads `HAUPTWECHSELAMT` in the edited candidate.
 No first part is identified or supplied. Read the
@@ -25,7 +25,7 @@ unreadable; its retained outputs are frozen in
 [prior_candidates.json](prior_candidates.json).
 
 | Quantity | Value |
-|---|---:|
+| --- | ---: |
 | Physical records | 1 |
 | Printed source slots | 204 |
 | Observed valid coordinates | 194 |
@@ -53,7 +53,7 @@ governing verb or transaction amount is reconstructed.
 Four plaintext positions remain unknown:
 
 | Plaintext position | Pair | Source coordinates | Domain | Role in the literal candidate |
-|---:|---|---|---|---|
+| ---: | --- | --- | --- | --- |
 | 3 | `?G` | 154, 40 | `1GIKNY` | `VOM?8` |
 | 62 | `VF` | 6, 108 | `56` | `AM?` |
 | 98 | `?F` | 203, 101 | `5679JMZ` | `89240?11?` |

@@ -9,7 +9,7 @@ Read the [complete source edition](../../cases/pages/202.md#edition-cases-radio-
 ## Exact scope
 
 | Quantity | Count |
-|---|---:|
+| --- | ---: |
 | Physical source records | 7 |
 | Printed source slots | 1070 |
 | Modeled plaintext positions | 535 |

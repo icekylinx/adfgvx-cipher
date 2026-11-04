@@ -13,7 +13,7 @@ python experiments/p212_medical_fragment/verify.py --verify
 python experiments/p212_medical_fragment/verify.py --verify --pdf /path/to/childs.pdf
 ```
 
-Default verification uses only the standard library and independently reconstructs the source mapping, all 151 domains, the 83 fills, unchanged-source reencryption witnesses and the control fixtures. The optional PDF check uses PyMuPDF/Pillow and reproduces the already archived source crop. No new image is added. Retrieval scores and finite shuffle results are frozen diagnostics; default verification does not replay their external language model or full scan.
+Default verification uses only the standard library and independently reconstructs the source mapping, all 151 domains, the 83 fills, unchanged-source re-encryption witnesses and the control fixtures. The optional PDF check uses PyMuPDF/Pillow and reproduces the already archived source crop. No new image is added. Retrieval scores and finite shuffle results are frozen diagnostics; default verification does not replay their external language model or full scan.
 
 Historical key credit: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Source review, new coordinate-pattern retrieval, lexical stencils and exact certificates: icekylinx and GPT-6 Astra Pro. Earlier source editions remain unchanged and retain their credits.
 

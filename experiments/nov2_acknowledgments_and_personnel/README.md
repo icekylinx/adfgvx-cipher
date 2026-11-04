@@ -1,4 +1,4 @@
-# November 2 acknowledgment copies and personnel orders
+# 2 November acknowledgment copies and personnel orders
 
 Source edition and verification by **icekylinx and GPT-6 Astra Pro**.
 

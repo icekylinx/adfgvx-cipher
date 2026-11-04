@@ -37,7 +37,7 @@ The verifier evaluates all 202 possible positions for one inserted coordinate ag
 The five observed-coordinate substitutions are source indices 139 A→D, 140 A→F, 142 V→D, 143 D→X, and 194 V→F. They repair `NICHT`, `GESTARTET`, `BESONDERER` and `BEWACHUNG`. The printed dash at source 141 is filled V for `UMGEHEND`; the missing coordinate is also filled V. Part 2's final printed dash remains unresolved.
 
 | Quantity | Two physical parts |
-|---|---:|
+| --- | ---: |
 | Printed source slots | 391 |
 | Valid printed ADFGVX coordinates | 389 |
 | Modeled coordinates | 392 |

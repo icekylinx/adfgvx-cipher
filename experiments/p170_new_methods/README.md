@@ -41,7 +41,7 @@ Additional-period and instructional squares are comparison anchors, not
 evidence that their historical dates apply to p170.
 
 | Square anchor | Widths in the 54-job campaign |
-|---|---|
+| --- | --- |
 | Sep19–21; Oct4–6 | 21, 22, 23 |
 | Nov13–15a; Nov19–21; Aug8–9 | 19, 20, 21 |
 | Nov13–15b; Nov28–Dec1; CHI-Nov13; Jul18 | 15, 16, 17 |
@@ -59,7 +59,7 @@ random column orders. All six received 1,000 restarts of 100,000 loop slots.
 The planted plaintexts and ranks were evaluation-only.
 
 | Control | Width | Initially correct characters | Stronger selected repeat |
-|---|---:|---:|---:|
+| --- | ---: | ---: | ---: |
 | Sep19–21, prose | 18 | 53/53, exact ranks | — |
 | Oct4–6, prose | 22 | 53/53, exact ranks | — |
 | Nov19–21, numeric text | 17 | 53/53, exact ranks | — |
@@ -98,7 +98,7 @@ the optimizer. This isolates the rank-search/model interaction from square
 completion, and is easier than historical jobs with partial square anchors.
 
 | Held-out family | Width | Book: correct characters | Radio mixture: correct characters |
-|---|---:|---:|---:|
+| --- | ---: | ---: | ---: |
 | p92 A, Dutch courier | 16 | 53/53 | 53/53 |
 | p84 A, oil inquiry | 16 | 1/53 | 53/53 |
 | p190 D, relay request | 19 | 1/53 | 53/53 |
@@ -133,7 +133,7 @@ All **28 jobs** completed at 1,000 restarts × 100,000 slots. The
 [complete results](radio_historical_results.json) contain:
 
 | Recorded quantity | Count |
-|---|---:|
+| --- | ---: |
 | Completed restarts | 28,000 |
 | Annealing loop slots | 2,800,000,000 |
 | Annealing fitness calls | 2,693,773,478 |
@@ -148,7 +148,7 @@ acceptance decisions. A small matched run produced byte-identical improving
 checkpoint output with the original engine. Counts represent evaluations,
 including repeated states; they are not an exhaustive key-space measure.
 
-The highest-scoring returned text is still incoherent. A roundtrip validates
+The highest-scoring returned text is still incoherent. A round-trip validates
 the arithmetic of a returned square and rank order; it does not identify the
 original message. The verifier also records how many plaintext positions are
 fixed by the original partial square at each returned rank order, separating
@@ -181,7 +181,7 @@ ranking selects all three true frames; radio ranking selects two. In the
 failed radio supply control, truth is third:
 
 | Candidate | Fixed characters | Radio score |
-|---|---:|---:|
+| --- | ---: | ---: |
 | True supply-control frame | 53/53 | −4.306179214 |
 | Incorrect leader | 48/53 | −4.162675924 |
 
@@ -198,7 +198,7 @@ No group-move candidate is accepted. The exhaustive statement applies only
 to this finite move set and the fixed recorded keys, not to arbitrary source
 damage, column orders or new square completions.
 
-The [column-family followup](followup/README.md) tests known source-derived
+The [column-family follow-up](followup/README.md) tests known source-derived
 donor bodies while allowing arbitrary column order and missing outer columns.
 Its coupled-domain branch preserves partial donors' original half-coordinates.
 Exact and damaged source controls pass; no p170 donor match is found within

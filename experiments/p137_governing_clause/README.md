@@ -27,7 +27,7 @@ completes the optional part-5 reading at **126/126 positions**:
 The two additional fills preserve the observed half of each pair:
 
 | Plaintext position | Observed pair | Missing model coordinate | Fill |
-|---:|---|---:|---|
+| ---: | --- | ---: | --- |
 | 75, after `WIRTSCHAFTS` | `F?` | 246 | `D`, giving `FD=X` |
 | 125, after `WERDEN` | `?D` | 222 | `F`, giving `FD=X` |
 
@@ -90,7 +90,7 @@ Counts use the established F transcription at source 68. Fixed positions
 include raw garbles wherever a layer has not repaired them.
 
 | Layer | Fixed positions | Observed substitutions | Printed-mask fills | Missing-coordinate fills |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | Raw conditional frame | 85/126 | 0 | 0 | 0 |
 | Original four-span edition | 106/126 | 0 | 3 | 18 |
 | Original edition plus `AB6X` | 108/126 | 0 | 3 | 20 |
@@ -101,7 +101,7 @@ include raw garbles wherever a layer has not repaired them.
 The four new observed substitutions are:
 
 | Source index | Change | Plaintext index and effect |
-|---:|---|---|
+| ---: | --- | --- |
 | 5 | V → F | 46: R → E in `BEWEGUNGEN` |
 | 137 | X → V | 26: N → I in `VORBEGINN` |
 | 139 | X → V | 43: S → B in `BEWEGUNGEN` |
@@ -124,7 +124,7 @@ At the ten-position noun slot, six explicit candidates have these exact
 observed-coordinate prices under the same frame:
 
 | Candidate | Observed substitutions |
-|---|---:|
+| --- | ---: |
 | `BEWEGUNGEN` | 3 |
 | `STOERUNGEN` | 4 |
 | `VORGAENGEN` | 5 |
@@ -154,6 +154,6 @@ observed half-coordinate. This strengthens an existing physical body's
 conditional reading; it adds no body or key to the catalogue.
 
 **Sources and credit:** J. Rives Childs, *General Solution of the ADFGVX Cipher
-System*, printed p137 / PDF p140, and the published Nov4–6 key credited to
+System*, printed p137 / PDF page 140, and the published Nov4–6 key credited to
 George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker. Earlier source and
 staff-vocabulary work retain their linked attribution.

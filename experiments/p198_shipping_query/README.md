@@ -9,7 +9,7 @@ Poti at the end of September. Names `??PASIA`/`IBALIA`, quantity `11??0K`
 and the received `TRANSPOR` spelling remain visible.
 
 | Measure | Count |
-|---|---:|
+| --- | ---: |
 | Native printed slots | 247 |
 | Observed ADFGVX coordinates | 237 |
 | Invalid letters and dashes | 10 |

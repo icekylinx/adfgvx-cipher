@@ -17,7 +17,7 @@ Part 2 has one printed C at source index 181. Filling it as G gives `FOLGT`. Thr
 Part 3 has three printed dashes at indices 137–139. Filling only index 137 as F, and changing observed index 159 F to X, yields `KRIEGSDEP`. The other two erasures remain unresolved in the closing reference. The received `ROHAVAL` is not expanded as a code word.
 
 | Record | Source slots | Fixed raw positions | Fixed candidate positions | Observed substitutions | Printed-glyph fills |
-|---|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: |
 | p213 A1 | 200 | 100 | 100 | 0 | 0 |
 | p213 A2 | 208 | 103 | 104 | 3 | 1 |
 | p213 A3 | 162 | 78 | 79 | 1 | 1 |

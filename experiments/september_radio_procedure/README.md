@@ -65,7 +65,7 @@ coordinate fills. All repeated numerical fields remain literal.
 
 The unchanged `Sep19-21` key is prior published work by **George Lasry, Ingo
 Niebel, Nils Kopal and Arno Wacker**, [DOI 10.1080/01611194.2016.1169461](https://doi.org/10.1080/01611194.2016.1169461),
-also reproduced in George Lasry's [2017-02-24 comment 4](https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1).
+also reproduced in George Lasry's [24 February 2017 comment 4](https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1).
 Childs's collected intercepts are the primary source. Earlier unreviewed
 OCR-derived candidate strings existed; this edition claims source checking,
 frame recovery, readable presentation and exact repair accounting. It makes

@@ -24,7 +24,7 @@ not inserted into the encoded stream.
 
 The separate p59 B inquiry reads completely in its native frame. **AKONACH70**,
 **PHQ** and **95267** remain literal. Its source gives a receiving time of
-01.57 p.m. on September 21 and a `1030 (21.9)` field.
+01.57 p.m. on 21 September and a `1030 (21.9)` field.
 
 The p58 A material is preserved as **uncounted context**: two `AAA` stubs,
 advertised lengths 196 and 212, and a third cleartext stub advertised as 182.

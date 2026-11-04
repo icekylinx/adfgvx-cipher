@@ -3,7 +3,7 @@
 [ADFGVX Cipher](../README.md) · [Browse by subject](../topics/README.md) · [Methods guide](../docs/methods.md) · [Experiments](../experiments/README.md)
 
 | File or directory | Content |
-|---|---|
+| --- | --- |
 | [messages.json](messages.json) | The 22 challenge entries, original and legacy transcriptions, conservative analysis layers, and header conventions |
 | [reading_catalog.json](reading_catalog.json) | Canonical identities, reading states and stable evidence identifiers for all 679 physical ciphertexts |
 | [source_editions.json](source_editions.json) | Complete source texts, integrity digests and former identifiers; the basis of the full page editions |
@@ -15,7 +15,7 @@
 | [certificates/](certificates/) | Coordinate maps, explicit edits, source relationships, and plaintext constraints |
 | [reviews/](reviews/) | Focused source, attribution, historical, and reproducibility audits |
 
-Question marks retain unresolved source evidence or square cells. They are never silently filled by a language-model best fit. Full numbered page editions present readable editorial text; these records preserve the exact evidence behind it.
+Question marks preserve unresolved source evidence or square cells. They are never silently filled by a language-model best fit. The numbered page editions present readable editorial text; these records preserve the exact evidence behind it.
 
 Research and editorial attribution: **icekylinx and GPT-6 Astra Pro**. Earlier readings retain their individually recorded authors and dates.
 
@@ -26,11 +26,13 @@ Additional source editions live with their verifiers in
 [p170_continuation](../experiments/p170_continuation/README.md),
 [courier_recovery](../experiments/courier_recovery/README.md) and
 [open_targets_continuation](../experiments/open_targets_continuation/README.md).
-The reading catalogue links each individual source record to its case and
-the exact evidence files, including repeated transmissions and multipart messages.
+The reading catalogue links each physical source record to its complete
+edition and the exact evidence files, including repeated transmissions and
+multipart messages.
 
-After adding a reviewed case to the reading catalogue, run
-`python3 -m adfgvx.catalog` to regenerate direct page links and the source indexes. The `--check` option
-checks their agreement, unique identifiers and evidence links without editing.
+After adding a reviewed source to the reading catalogue, run
+`python3 -m adfgvx.catalog` to regenerate direct page links and the source
+indexes. The `--check` option checks their agreement, unique identifiers and
+evidence links without editing files.
 Uninspected OCR candidates belong in the research inputs, not in the reviewed
 reading table.

@@ -1,4 +1,4 @@
-# Headquarters and award-class readings in the November 13–15 key
+# Headquarters and award-class readings in the 13–15 November key
 
 **Research and edition: icekylinx and GPT-6 Astra Pro.**
 
@@ -38,7 +38,7 @@ conditional obliteration frame, all ten coordinates of `10X11` are
 originally observed and unchanged:
 
 | Plaintext index, zero-based | Published label | Native pair | Original source indices, zero-based |
-|---:|---|---|---|
+| ---: | --- | --- | --- |
 | 47 | 1 | DD | 150, 24 |
 | 48 | 0 | DX | 63, 208 |
 | 49 | X | DV | 83, 266 |
@@ -82,7 +82,7 @@ JTNXKRXEK2XVERLIEHENXGLUECKWUNSCHXSXR
 ## Shared consequences
 
 | Record | Before → after | Consequence |
-|---|---:|---|
+| --- | ---: | --- |
 | [p193 F](../../cases/pages/193.md#edition-cases-people-nov13-conditional-congratulation) | 36 → **37/37** | **EK2 verliehen**, under the stated award interpretation |
 | [p188 C1](../../cases/pages/188.md#edition-cases-military-armistice-provisions-requests-c1-flour-and-oats-to-szolnok) | 130 → **132/134** | **GR H QU**; **alle 2 Tage** |
 | [p179 D2](../../cases/pages/179.md#edition-cases-military-armistice-and-leave-orders-d-discharge-delayed-and-urgent-home-leave-suspended) | 100 → **101/106** | Reference **RM1A11?2?** |
@@ -129,7 +129,7 @@ award-class interpretation and the conditional numerical value DD=1
 explained above; they supply no independent evidence for those assumptions.
 
 | Record | Before → after | Conditional field |
-|---|---:|---|
+| --- | ---: | --- |
 | [p199 A1](../../cases/pages/199.md#edition-cases-naval-black-sea-shipping-a1-incoming-steamers-and-a-garbled-cargo-description) | 145 → **146/146** | Cargo **120 tonnes** |
 | [p200 B2](../../cases/pages/199.md#edition-cases-naval-black-sea-shipping-b2-payment-in-germany-before-ownership-transfer) | 176 → **178/180** | Closing reference **S22??0** |
 | [p199 B1](../../cases/pages/192.md#edition-cases-caucasus-tiflis-appointment-part-1-on-p199-the-recipient-and-a-floating-group) | 129 → **130/131** | Tiflis reference **21?** |

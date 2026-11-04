@@ -30,7 +30,7 @@ All numeral and `J/Q/Y` occurrences are inventoried: 27 in the raw texts,
 `MOEGLICHK9IT` remain visible. No amount is normalized by plausibility.
 
 The two parts of A are explicitly numbered in one message. B has a
-separate header: receipt November 27, origin November 25. It is not assumed
+separate header: receipt 27 November, origin 25 November. It is not assumed
 to answer A merely because both concern crown liquidity. The dates are
 preserved, and partial remittance is not described as completed payment.
 

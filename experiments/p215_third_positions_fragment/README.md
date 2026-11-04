@@ -18,7 +18,7 @@ they are not counts of authenticated historical letters.
 
 The existing global J/Y assumptions from `p215_hungarian_y` give Gyula and
 Kisjenoe without additional coordinate changes. The complete partial square,
-eight-symbol injective remainder, and a full-square roundtrip witness are
+eight-symbol injective remainder, and a full-square round-trip witness are
 included. The baseline key register is unchanged; arbitrary witness values are
 not historical fills.
 

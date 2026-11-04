@@ -2,12 +2,12 @@
 
 [ADFGVX Cipher](../../README.md) · [Chronology](chronology.md) · [Ciphertext pages](../../cases/pages/README.md) · [Sources](../../sources/README.md)
 
-The intercepted messages record German forces leaving territories in which it could no longer assume control of transport, money or communications. Orders for withdrawal coexist with purchasing instructions, demands for pay, ship-sale negotiations and enquiries about people still on the road. Reading these records together makes it possible to follow decisions across successive transmissions and to distinguish an announced arrangement from its execution.
+The intercepted messages record German forces leaving territories in which they could no longer assume control of transport, money or communications. Orders for withdrawal coexist with purchasing instructions, demands for pay, ship-sale negotiations and enquiries about people still on the road. Reading these records together makes it possible to follow decisions across successive transmissions and to distinguish an announced arrangement from its execution.
 
 ## Research by subject
 
 | Subject | Historical investigation | Principal evidence |
-|---|---|---|
+| --- | --- | --- |
 | **[Withdrawal, transit and internment](an-army-trying-to-get-home.md)** | How the armistice timetable, railway capacity and territorial authorities shaped the movement of troops. | Arad provisions; Hungarian transit negotiations; the Poestyen report; Mackensen's appeal and the Berlin council letter. |
 | **[Black Sea shipping and disposal](black-sea-network.md)** | How supply routes became evacuation routes, and how instructions about ships changed as access and ownership were negotiated. | The complete five-part routing order and its amendment; *Asgard* and Hopman's diary; *Corcovado*'s terms, crew and later registry. |
 | **[Cash, procurement and liquidation](what-retreat-cost.md)** | How withdrawal combined limits on purchasing with demands for usable cash, small banknotes, remittance and asset sales. | ZITAG instructions; crown-airlift requests; banknote and local-payment correspondence; silk, wagons and lei. |
@@ -18,7 +18,7 @@ The [evidence chronology](chronology.md) brings these subjects into one dated se
 
 ## Relations established across messages
 
-A message number can join two instructions more securely than their position in the intercept book. The [shipping study](black-sea-network.md) follows the reference from the five-part **FR52751** order into its later amendment, **FR52787**. This establishes a revision of *Siegfried*'s destination while leaving the anomalous header times visible.
+A message number can join two instructions more securely than their position in the intercept book. The [shipping study](black-sea-network.md) follows the reference from the five-part **FR 52751** order into its later amendment, **FR 52787**. This establishes a revision of Siegfried's destination while leaving the anomalous header times visible.
 
 A second reception can change the historical scale of a report. In the [Arad correspondence](../../cases/pages/168.md#source-p168-e), it supplies the missing coordinates behind **80,000 men and 30,000 animals**. The [withdrawal study](an-army-trying-to-get-home.md) places that stated strength beside the announced allocation of trains and the armistice transit provisions.
 
@@ -29,7 +29,7 @@ A completed instruction can also clarify the kind of problem being addressed. Th
 The [175 printed-page editions](../../cases/pages/README.md) contain the complete cipher readings, translations, source comparisons and reconstruction accounts. The following indexes classify the individual messages; a study may draw on several classifications.
 
 | Source index | Material |
-|---|---|
+| --- | --- |
 | [Armies and supplies](../../topics/military.md) | Operational reports, transit, provisioning, medical formations and internment. |
 | [Ships and cargo](../../topics/naval.md) | Sailing instructions, loading, sale terms and naval orders. |
 | [Money and purchases](../../topics/finance.md) | Pay, procurement, remittances, banknotes, exchange and liquidation. |

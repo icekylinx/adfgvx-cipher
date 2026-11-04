@@ -3,13 +3,13 @@
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
 This package supplies three physical source records from Childs printed
-p64, PDF p67, using the unchanged published **Oct4–6** key. A's two parts
+p64, PDF page 67, using the unchanged published **Oct4–6** key. A's two parts
 ask for oil-related information and contain the names **BENEDIKT**,
 **NOBEL**, and **HAGELIN**. B is a separate report about the Damascus
 radio station and a smaller transmitter at Aleppo.
 
 **The two-part oil body was already published by Lasry, Niebel, Kopal
-and Wacker in 2016, §6.6 and Table 5, author PDF pp25–26.** Their body
+and Wacker in 2016, §6.6 and Table 5, author PDF pages 25–26.** Their body
 and historical discussion receive explicit prior credit. All three
 parts also appeared in earlier unreviewed repository screening. This
 edition contributes exact source transcription, coordinate repair
@@ -21,7 +21,7 @@ the [radio report](../../cases/pages/064.md#edition-cases-radio-damascus-aleppo-
 ## Native frames and source annotations
 
 | Record | Source slots | Valid coordinates | Raw fixed / positions | Edited fixed / positions | Observed substitutions | Printed-dash fills |
-|---|---:|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | p64 A1 | 346 | 345 | 172 / 173 | 173 / 173 | 4 | 1 |
 | p64 A2 | 354 | 354 | 177 / 177 | 177 / 177 | 5 | 0 |
 | p64 B | 176 | 175 | 87 / 88 | 87 / 88 | 1 | 0 |
@@ -59,7 +59,7 @@ are also evaluated as masks, without a length change.
 All indices are zero-based in the original native source frame.
 
 | Part | Observed-coordinate substitutions | Printed-dash fills |
-|---|---|---|
+| --- | --- | --- |
 | A1 | 3 D→V; 42 A→F; 123 F→D; 251 G→F | 0→V |
 | A2 | 19 D→X; 90 X→A; 91 X→F; 105 D→F; 272 X→D | None |
 | B | 28 G→X | None |

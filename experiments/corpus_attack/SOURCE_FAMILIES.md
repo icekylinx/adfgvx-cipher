@@ -88,7 +88,7 @@ DERSELBEISTUEM1XERSBKTLEISENBAHNREGM1SZUUEBERWEISENAKOFOLGTXAUFALLERHOECHSTENBEF
 The three proposed readings are explicit, source-costed emendations:
 
 | Plaintext index | Literal in both witnesses | Likely reading | Reason |
-|---:|---|---|---|
+| ---: | --- | --- | --- |
 |11|`UEM`|`DEM`|The dative article in “ist dem … zu überweisen”.|
 |20|`ERSBKTL`|`ERSBATL`|The military abbreviation “Ers. Batl.”.|
 |36|`REGM1S`|`REGMTS`|The abbreviated genitive “Eisenbahn-Regmts.”.|
@@ -165,7 +165,7 @@ neither the project cipher implementation nor the certificate builder. It
 does not claim to automate the visual reading of the source images.
 
 | Artifact | Purpose |
-|---|---|
+| --- | --- |
 |[source_pairs.json](source_pairs.json)|Exact source groups, headers, image crop coordinates and explicit uncertain glyphs.|
 |[source_pair_results.json](source_pair_results.json)|Raw plaintext, OCR/source differences, source maps, every correction and every letter's support.|
 |[key_snapshot.json](key_snapshot.json)|Fixed complete Nov4–6 square/ranks with external key attribution.|

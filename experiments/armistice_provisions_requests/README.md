@@ -7,7 +7,7 @@ The complete readable edition is [armistice_provisions_requests.md](../../cases/
 ## Scope and price
 
 | Record | Analysis-frame slots | Raw fixed → edited fixed | Observed substitutions | Mask fills | Geometry |
-|---|---:|---:|---:|---:|---|
+| --- | ---: | ---: | ---: | ---: | --- |
 | p188 A | 224 of 225 visible slots | 104/112 → 112/112 | 14 | 7 | Conditional exclusion of one extra K/X-like visible mark, costing 0–1 known-coordinate deletion |
 | p188 B2 | 176 | 84/88 → 88/88 | 10 | 0 | Native; “jammed to end” note remains |
 | p188 C1 | 268 | 130/134 → 130/134 | 4 | 0 | Native; literal E at source140 remains masked |

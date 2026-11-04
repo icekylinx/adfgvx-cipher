@@ -1,4 +1,4 @@
-# November 6 Ringbahn-key source witnesses
+# 6 November Ringbahn-key source witnesses
 
 Source edition and verification by **icekylinx and GPT-6 Astra Pro**.
 

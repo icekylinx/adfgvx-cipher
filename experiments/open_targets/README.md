@@ -4,7 +4,7 @@
 
 This package continues the investigation of **p73, p170, and p198 section D**. It contributes transposition-independent constraints for p73 and p170, calibrated new search coverage, explicit failed controls, and reproducible source-preserving candidates. **None of these three target bodies is deciphered by this package.** A language model's highest-scoring string is not presented as their most likely plaintext.
 
-The source investigation also found useful near-parallel traffic on pp. 197–198. Those results have their own [transport follow-up](../transport_followup/README.md) and [certificate](../../data/certificates/p197_p198_transport.json). The readable neighboring sections B and E do not solve the target section D.
+The source investigation also found useful near-parallel traffic on pp197–198. Those results have their own [transport follow-up](../transport_followup/README.md) and [certificate](../../data/certificates/p197_p198_transport.json). The readable neighboring sections B and E do not solve the target section D.
 
 ## Results that change the next research step
 
@@ -53,7 +53,7 @@ Held-out rescoring adds another warning: the wrong Nov13b joint-quad optimum out
 Counts below describe distinct computational units. A configured annealing proposal slot is not a distinct key; an exact parameter enumeration may contain equivalent transformations; a geometry class can contain many column orders. Their totals should not be added together as a count of decipherments or unique keys.
 
 | Branch | Historical scope | Completed work | Frozen result |
-|---|---|---:|---|
+| --- | --- | ---: | --- |
 | Anchored squares, arbitrary column order | p73 and p170; five squares, widths 16–22 | 70 cases; 7,000,000,000 configured proposal slots | [anchored snapshot](anchored_snapshot.json) |
 | One unknown five-coordinate gap, arbitrary order | p198 D; six squares, widths 14–22 | 54 pilot cases plus 9 stronger CHI13 repeats; 1,170,000,000 configured slots | [gap results](gap_results.json) |
 | Five separately located losses | p198 D; 24 fixed published rank orders, anchored square completion | 24 cases; 120,000,000 configured slots | [sparse results](sparse_results.json) |
@@ -79,7 +79,7 @@ The matching implementation was independently checked against all **46,080** wid
 The new controls use a freshly written 85-character German radio-style body that was absent from model training. Their evaluation-only plaintext and true key never enter the search process. The shorter/longer controls use the same body truncated or extended, so these are related mechanism checks rather than an independent estimate of recovery probability.
 
 | Experiment | Control outcome | What it establishes |
-|---|---|---|
+| --- | --- | --- |
 | Contiguous unknown gap, widths 16/19/20 | Exact ranks and all 80 singleton letters correct in each; truth is in every erased-position domain | The implementation can recover these three planted geometries; the width-20 gap has a genuine source-equivalent alias |
 | Literal-group transfer, widths 16/19/20 | Exact ranks and complete 85/85 plaintext in all three | The concrete-group search passes these positive controls |
 | Separate row/column relabeling | p73-shaped 87/87, p170-shaped 53/53, p198-shaped 80/80 singleton letters; exact transformations | The convention enumeration handles all three tested shapes; p198 gap positions 70/71/72 are source-equivalent |
@@ -109,7 +109,7 @@ It **does not** rerun the searches, certify their C execution histories, rebuild
 The model specification and source hashes live in [joint_search/models/provenance.json](../joint_search/models/provenance.json). No challenge plaintext or these new controls enter training. The three binaries used here have the following SHA-256 identities:
 
 | Binary | SHA-256 |
-|---|---|
+| --- | --- |
 | `german_military36_quad.bin` | `fc450633e557d477d009fd9f682a0d6c96629d48a532c1dd2fbc42af0c73b46d` |
 | `german_military37_quad_marginal.bin` | `2ccbde739f8b5b50ef81970c1c0bb7d1fd40a3a5a6b9914156bd947a90fcef8e` |
 | `german_military36_sixgram.bin` | `79e1474e78afa0d208ffe4306b31ed3531786c2fc6a0c7efb4d2f3a7fd5e4b5a` |

@@ -13,7 +13,7 @@ There are **two printed-dash fills and one disputed-glyph fill**, with **zero
 observed-coordinate substitutions, insertions, deletions or key changes**.
 
 | Plaintext index | Raw pair | Domain | Proposed label | Source index | Proposed coordinate |
-|---:|---|---|---|---:|---|
+| ---: | --- | --- | --- | ---: | --- |
 | 78 | `G?` | `58BDNW` | W | 176 | F |
 | 85 | `?D` | `248CIM` | C | 70 | D |
 | 88 | `?V` | `3BFKQS` | F | 177 | A |

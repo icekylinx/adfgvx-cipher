@@ -37,6 +37,7 @@ jobs:
           python -m adfgvx.source_editions --check
           python -m adfgvx.page_editions --check
           python -m unittest discover -s tests -p test_source_editions.py
+          python -m unittest discover -s tests -p test_editorial_style.py
           python -m unittest discover -s tests -p test_page_editions.py
           python -m unittest discover -s tests -p test_source_gap_evidence.py
           python data/reviews/check_reading_presentation.py

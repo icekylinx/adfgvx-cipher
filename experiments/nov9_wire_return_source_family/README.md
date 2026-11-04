@@ -1,4 +1,4 @@
-# November 9 wire-return source family
+# 9 November wire-return source family
 
 **Source restoration and verification: icekylinx and GPT-6 Astra Pro.**
 

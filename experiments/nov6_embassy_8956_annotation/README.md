@@ -1,4 +1,4 @@
-# Nov6 embassy 8956 annotation
+# Embassy reference 8956: annotation of 6 November
 
 1 newly reviewed physical records, 130 native source slots and 65 plaintext positions. 65 positions are fixed in raw output; the proposals use 5 observed-coordinate substitutions and 0 source-mask fills. No coordinate is inserted or deleted and no published key is changed.
 

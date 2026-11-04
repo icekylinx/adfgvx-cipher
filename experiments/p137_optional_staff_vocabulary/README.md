@@ -115,7 +115,7 @@ there is no transfer of dates, orders or whole plaintext between records.
 [Inputs](inputs.json) bind the existing p137 record, source image, unchanged
 key and the two independent witnesses. [The certificate](certificates.json)
 replays both F/V alternatives, all 38 allocations, the exact incremental
-cost, and every still-open label. Its arbitrary complete roundtrip witness
+cost, and every still-open label. Its arbitrary complete round-trip witness
 is explicitly mathematical and is not accepted as historical plaintext.
 The verifier also preserves the existing case's headings and every fenced
 and quoted display byte.

@@ -43,7 +43,7 @@ The certificate supplies both full square witnesses and re-encrypts all three ed
 
 C2 reads `TIRASPOLERHIELTMXGXFEUERANDERGRENZEXAKONACH17ROEM4` after one dash fill at source 36. The literal ending `AKONACH17ROEM4` is not expanded into a new unit or reference. The cleartext footer `NKJ UM` is outside the ciphertext. The preceding C1 has 117 observed coordinates and remains unread; the source's “missed first part” note does not authorize reconstructing it from this short clause.
 
-D1 reads `DEUTSCHEBOTSCHAFTKONSTANTINOPELXUNTERSCHRIFTSTUMMX` after three C masks at source 22/37/79 are filled G. The unusual cleartext origin field **1330 (8/13)** remains literal. It is marked part 1 of two, and no second part is supplied here. The receipt header says November 10 while the body is read under the unchanged Nov7–9 period key. No additional personal identification or telegram linkage is inferred from STUMM.
+D1 reads `DEUTSCHEBOTSCHAFTKONSTANTINOPELXUNTERSCHRIFTSTUMMX` after three C masks at source 22/37/79 are filled G. The unusual cleartext origin field **1330 (8/13)** remains literal. It is marked part 1 of two, and no second part is supplied here. The receipt header says 10 November while the body is read under the unchanged Nov7–9 period key. No additional personal identification or telegram linkage is inferred from STUMM.
 
 ## Reproduction
 

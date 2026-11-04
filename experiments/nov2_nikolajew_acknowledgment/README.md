@@ -21,6 +21,7 @@ The primary totals preserve the unchanged published key and native source frame.
 
 
 **Reviewed source crops:** [p105_reviewed.png](sources/p105_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
+
 ## Reproduce
 
 ```sh

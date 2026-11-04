@@ -5,7 +5,7 @@ recovered for the two previously unresolved CHI fragments on printed page 153.**
 The result leaves numeral identities, the trailing text, three erased letters,
 and two printed-coordinate anomalies unresolved. It is not a complete solution.
 
-The source heading dates these fragments to **November 8, 1918**, with `FKR v
+The source heading dates these fragments to **8 November 1918**, with `FKR v
 CGH`, 11.55 p.m. and transmission 2250. The printed labels are `5 TL` and
 `6 TL`, so this is multipart traffic with at least six parts; the header does
 not give an explicit total. The surviving fragments are parts 5 and 6, with
@@ -142,7 +142,7 @@ ADFGVX Cipher System*, printed page 153. The parent repository includes the
 source crop, edition notes and independent source audit.
 
 Norbert explicitly suggested attacking the `VFVAX` and `AXVAA` CHI fragments
-jointly and separately on September 17, 2017, in
+jointly and separately on 17 September 2017, in
 [comment 56](https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1#comment-918886).
 That suggestion supplied neither a key nor a plaintext. The present work
 credits it rather than claiming the joint-analysis idea as new.

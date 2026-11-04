@@ -64,7 +64,7 @@ python experiments/inventory_and_medical_return/verify.py --verify \
 
 PDF SHA-256:
 `157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06`.
-Printed pp86/104 are PDF pp89/107. The five images have frozen page
+Printed pp86/104 are PDF page 89/107. The five images have frozen page
 rectangles, scales, PNG hashes and raw-pixel hashes. Full PDF regeneration
 passed. `inputs.json` holds the original transcription and separate
 proposals; running without `--verify` regenerates `certificates.json`.

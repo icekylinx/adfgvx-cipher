@@ -13,7 +13,7 @@ hoof nails, screw nails and the closing Traindepot Breslau. Numerical labels
 and the closing identifier remain uninterpreted.
 
 | Mask destination | Raw fixed | Proposed word fixed | Observed substitutions | Printed-mask fills | Added-slot fills |
-|---:|---:|---:|---:|---:|---:|
+| ---: | ---: | ---: | ---: | ---: | ---: |
 | 270, primary whole-group discovery | 176/196 | 192/196 | 6 | 14 | 2 |
 | 268, blind language-score leader | 176/196 | 193/196 | 4 | 15 | 2 |
 | 266, fewest changes for the proposed words | 176/196 | 194/196 | 3 | 16 | 2 |

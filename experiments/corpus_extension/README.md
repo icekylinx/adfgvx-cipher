@@ -21,7 +21,7 @@ The prior `SITUATIONEN` reconstruction in the letter has eleven characters, whil
 ## Files and verification
 
 | File | Purpose |
-|---|---|
+| --- | --- |
 | [inputs.json](inputs.json) | Literal rows, headers, source locators and hashes, unchanged key snapshots, local models and readable candidates |
 | [certificates.json](certificates.json) | Every raw domain and source coordinate, edit lists, repeated-copy alignment and all 30 local part-3 layouts |
 | [verify.py](verify.py) | Independent column-offset inverse, checked against the separate project functions, plus exact proposal verification |

@@ -23,7 +23,7 @@ is dropped or reused. The movement is conditional; the manuscript does
 not mark it as a cancellation or correction.
 
 | Primary layer | Fixed positions | Additional operations after the frame |
-|---|---:|---|
+| --- | ---: | --- |
 | Raw | 64/69 | None |
 | Edited | 68/69 | Three observed substitutions, two printed-mask fills, two inserted-slot fills |
 
@@ -84,7 +84,7 @@ reproduction uses the frozen local inputs and does not open those paths.
 
 ## Original-source pixels
 
-The source is [Childs's PDF, printed p137 / PDF p140](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
+The source is [Childs's PDF, printed p137 / PDF page 140](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
 `source_audit.json` preserves every reviewed glyph. `inputs.json` records
 the original PDF size/SHA-256 and exact crop rectangle, page, `Matrix(4,4)`
 recipe, dimensions and RGB digest. The newly made crop remains a local

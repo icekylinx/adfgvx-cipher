@@ -1,6 +1,6 @@
-# p73: profile pairing and new-rank followup
+# p73: profile pairing and new-rank follow-up
 
-**p73 remains unread.** This compact followup preserves a new source-preserving
+**p73 remains unread.** This compact follow-up preserves a new source-preserving
 method, its useful synthetic controls, and its bounded negative application.
 It proposes no historical plaintext, key, date correction or catalogue change.
 
@@ -11,7 +11,7 @@ existing credits.
 ## Method and completed scope
 
 The unchanged p73 frame has **178 slots: 176 observed coordinates and two
-printed erasures at source indices 1 and 2**. Both October 26 and November 8
+printed erasures at source indices 1 and 2**. Both 26 October and 8 November
 date layers remain as printed. No source position is inserted or excluded.
 
 For each even width, enumerate every assignment of long/short transmitted
@@ -96,7 +96,7 @@ and included pairing engine; its byte comparison records the reference C++
 run and can be sensitive to library-dependent ordering of equal-score ties.
 
 **The complete stochastic search is not self-contained or claimed replayable
-from this followup.** Its unbundled scratch 37-symbol model hashes to
+from this follow-up.** Its unbundled scratch 37-symbol model hashes to
 `c7a114f115c707d665ce9884a9ed9814437e59d98b4ab0c0fe646bebfd95ad7d`;
 the build provenance was not retained here. It is **different from** the
 parent package's older `17688f91…` model. Substituting that older artifact

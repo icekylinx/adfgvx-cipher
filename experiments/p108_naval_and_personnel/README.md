@@ -2,7 +2,7 @@
 
 Source edition and verification by **icekylinx and GPT-6 Astra Pro**.
 
-This package preserves three physical records on Childs p108, PDF p111,
+This package preserves three physical records on Childs p108, PDF page 111,
 under the unchanged published **Nov1–3** key. A is a separate naval inquiry;
 B1/B2 form a source-labeled two-part personnel message. They are not joined
 merely because they appear on the same page.
@@ -40,7 +40,7 @@ after A produce two of those same complete ciphertexts when their missing
 coordinates are filled to recover C in CHEF or I in MILITAERDIENST.
 
 | Missing-slot position in the short group | Observed substitutions under the stated prefix | Missing fills | Reference ending |
-|---|---:|---:|---|
+| --- | ---: | ---: | --- |
 | `?DAGD` | 0 | 1 | `2BO522X` |
 | `D?AGD` | 0 | 0 | `2BO52?X` |
 | `DA?GD` | 0 | 1 | `2BO520X` |

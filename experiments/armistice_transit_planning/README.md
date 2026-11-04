@@ -1,8 +1,10 @@
-# Armistice transit and withdrawal planning, pp125-126
+# Armistice transit and withdrawal planning, pp125–126
+
+<a id="armistice-transit-and-withdrawal-planning-pp125-126"></a>
 
 Source edition and verification: **icekylinx and GPT-6 Astra Pro**.
 
-This package edits a six-part report dated November 4, received November 5,
+This package edits a six-part report dated 4 November, received 5 November,
 about reported armistice transit conditions and plans for the 11th Army.
 It also preserves a separate adjacent receipt note. The
 [reader edition](../../cases/pages/125.md#edition-cases-military-armistice-transit-planning) explains
@@ -62,7 +64,7 @@ python experiments/armistice_transit_planning/verify.py --verify --pdf /path/to/
 
 PDF SHA-256:
 `157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06`.
-Printed pp125-126 are PDF pp128-129. Image-file and uncompressed-pixel hashes
+Printed pp125–126 are PDF pages 128–129. Image-file and uncompressed-pixel hashes
 are in `inputs.json`. Both ordinary verification and the full PDF render
 check passed when this package was prepared.
 

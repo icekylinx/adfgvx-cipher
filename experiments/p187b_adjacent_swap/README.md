@@ -25,7 +25,7 @@ positions **129–130 when counted from one** (indices **128–129 from zero**).
 ![Printed p187 A2: the complete second part, with VDFAD in the bottom row](../../sources/excerpts/childs_p187_A2_swap.png)
 
 | Plaintext position, zero-based | Raw pair and letter | Pair and letter after the swap | Received pair indices, zero-based |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | 27 | `AG` → `T` | `DG` → `C` | 128, 65 |
 | 35 | `DG` → `C` | `AG` → `T` | 129, 66 |
 
@@ -60,7 +60,7 @@ fixed-key scope, not a claim that no other historical explanation is possible.
 
 It also checks the source-to-plaintext maps, unchanged coordinates, equal
 histograms, unresolved-position set and exact re-encryption of both layers.
-A complete square is constructed solely for the mechanical roundtrip;
+A complete square is constructed solely for the mechanical round-trip;
 its arbitrary labels are never accepted as historical values. Since the two
 affected cells are already attested, every injective completion leaves this
 repair unchanged.
@@ -71,7 +71,7 @@ python3 experiments/p187b_adjacent_swap/audit.py --verify
 
 The complete evidence is in [result.json](result.json). An
 [independent review](../../data/reviews/p187b_adjacent_swap_independent.json)
-uses separate column-offset arithmetic, a roundtrip through numeric square
+uses separate column-offset arithmetic, a round-trip through numeric square
 cells and direct inspection of the source crop and earlier comments. The
 source transcript and published key remain in their original conservative
 layers.

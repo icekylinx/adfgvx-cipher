@@ -1,4 +1,4 @@
-# November 3 radio, morning and pioneer reports
+# 3 November radio, morning and pioneer reports
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
@@ -9,7 +9,7 @@ after ten observed-coordinate substitutions and two source-mask fills.
 There are no inserted, deleted or reordered source coordinates.
 
 | Source | Native slots | Raw fixed | Edited fixed | Substitutions | Mask fills |
-|---|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: |
 | p110 A2 | 280 | 140 | 140 | 2 | 0 |
 | p110 B | 150 | 73 | 75 | 0 | 2 |
 | p110 C | 398 | 199 | 199 | 8 | 0 |

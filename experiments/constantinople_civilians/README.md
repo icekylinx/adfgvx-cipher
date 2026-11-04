@@ -12,9 +12,9 @@ that the departure occurred.
 
 The [case](../../cases/pages/221.md#edition-cases-people-constantinople-civilians) gives all four
 raw and proposed readings. The source is J. Rives Childs, *General Solution
-of the ADFGVX Cipher System*, printed p221 B, PDF p224. The page heading
-says November 25, 1918; the origin line is `1300 (25/11)`, and receipt is
-November 26 at 06.14 a.m. The four literal crops, source rows and headers
+of the ADFGVX Cipher System*, printed p221 B, PDF page 224. The page heading
+says 25 November 1918; the origin line is `1300 (25/11)`, and receipt is
+26 November at 06.14 a.m. The four literal crops, source rows and headers
 are preserved in `inputs.json` and `sources/`.
 
 | Record | Printed slots | Valid coordinates | Modeled length | Raw fixed | Candidate fixed | Valid-coordinate changes | Source-erasure fills | Added-coordinate fills |
@@ -64,10 +64,10 @@ group evidence, and no unique original loss position is claimed.
 ## Independent historical corroboration
 
 `historical_context.json` cites two contemporary diplomatic texts in the
-official U.S. *Foreign Relations* source edition. Lansing's November 15,
-1918 note to the Swiss minister states that the German radio appeals
+official U.S. *Foreign Relations* source edition. Lansing's 15 November 1918
+note to the Swiss minister states that the German radio appeals
 will be sent to the associated governments and the Supreme War Council.
-His November 16 telegram to House reproduces Solf's request that German
+His 16 November telegram to House reproduces Solf's request that German
 civilians be permitted to remain in Turkey and forwards it for that
 council. These sources were found after the source readings and geometry
 analysis; they corroborate the subject and routing, not the headcount,
@@ -93,7 +93,7 @@ python experiments/constantinople_civilians/verify.py --verify --pdf /path/to/ch
 
 The verifier independently reconstructs the transposition and domains,
 checks all three exhaustive frame screens, retains every declared tied
-view, verifies all coordinate repairs by exact reencryption, and confirms
+view, verifies all coordinate repairs by exact re-encryption, and confirms
 that the quantity was masked during geometry selection. The PDF option
 checks the full primary scan hash and every crop pixel. Numerical
 relabelling is deliberately outside this source edition.

@@ -17,12 +17,12 @@ The first place is `GROSSW0RDEIN` under the published labels, or
 V spelling remains unchanged. All indices are zero based.
 
 The original source visibly prints G, so the change is a word repair.
-The *Bácskaer Volkszeitung*, no. 31, 3 August 1913, PDF p2, independently
+The *Bácskaer Volkszeitung*, no. 31, 3 August 1913, PDF page 2, independently
 prints **Großwardein**. The issue's scanned title says **IX Jahrgang**;
 this differs from the online catalogue's year-volume label.
 
 | Layer | Observed substitutions | Printed-mask fills | Fixed positions |
-|---|---:|---:|---:|
+| --- | ---: | ---: | ---: |
 | Earlier word edition, published labels | 1 | 3 | 92/93 |
 | With Grosswardein repair, published labels | 2 | 3 | 92/93 |
 | With the earlier calendar fill and shared square | 2 | 4 | 91/93 common to both branches |
@@ -41,7 +41,7 @@ The [earlier shared-Y result](../p215_hungarian_y/README.md) already gives
 published interpretation; this package does not count it as a new recovery.
 
 The *Hamburgischer Correspondent* of **22 November 1918**, morning issue,
-Zweites Blatt p2 (PDF p7), carries a Budapest dispatch dated 21 November
+Zweites Blatt p2 (PDF page 7), carries a Budapest dispatch dated 21 November
 and attributed to the *Pester Lloyd*. The report names Poestyen in a dispute
 over Czech occupation. Its account of neighboring communities under Czech
 control provides a contemporary comparison for the telegram's transit

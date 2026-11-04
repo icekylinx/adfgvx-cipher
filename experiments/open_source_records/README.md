@@ -7,7 +7,7 @@ previously lacked canonical case pages. All four remain **OPEN**. It contains
 no accepted key, plaintext, completed transposition frame or repaired source.
 
 | Canonical source | Received slots | Observed coordinates | Printed erasures | Advertised length |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | [p70 B1](../../cases/pages/070.md#edition-cases-open-p70-b1) | 206 | 199 | 7 | 206 |
 | [p127 B2](../../cases/pages/127.md#edition-cases-open-p127-b2) | 152 | 104 | 48 | 152 |
 | [p145 A](../../cases/pages/145.md#edition-cases-open-p145-a) | 192 | 187 | 5 | Not printed |

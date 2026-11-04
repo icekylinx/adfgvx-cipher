@@ -43,7 +43,7 @@ An observed n-gram receives `count / total`; an unseen n-gram receives `0.01 / t
 Values are **wrong-candidate score minus planted score**. Positive values favor the wrong candidate. They are score differences, not probabilities or likelihood ratios for independent messages.
 
 | Model | Wrong candidate | Quad difference | Six difference | 30/70 mixed difference |
-|---|---|---:|---:|---:|
+| --- | --- | ---: | ---: | ---: |
 | Original ten-book model | CHI13 | +0.063606 | −0.222219 | −0.136471 |
 | Original ten-book model | Nov13b | +0.116412 | +0.107354 | +0.110072 |
 | Held-out Lettow-Vorbeck, 5:3:1 | CHI13 | −0.000782 | −0.331378 | −0.232200 |

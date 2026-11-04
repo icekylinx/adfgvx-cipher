@@ -23,7 +23,7 @@ order, and all loss locations and fills remain available.
 The resulting exact nondominated count pairs are:
 
 | Digit positions | Q or Y positions | Other 24 letters |
-|---:|---:|---:|
+| ---: | ---: | ---: |
 | 4 | 6 | 75 |
 | 5 | 5 | 75 |
 | 6 | 4 | 75 |
@@ -68,7 +68,7 @@ proposals, and cannot be combined into a single historical key.
 ## Propagation beyond the favorable name occurrences
 
 The report inventories **29 physical source records in 51 declared source or
-editorial variants**. It includes the three Tiflis parts, all seven November 14
+editorial variants**. It includes the three Tiflis parts, all seven 14 November
 records, all four Warsaw/LP service records and their candidate variants, p185 C/D, all ten retained p189 alignments, six transport-context
 records, four additional transport records and their repair aliases, the
 previously read p187 C inquiry, and both p187 D gap aliases before and after

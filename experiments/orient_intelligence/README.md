@@ -31,7 +31,7 @@ imminent landing attempts in full, without correction.
 ## Complete edition
 
 | Part | Printed slots | Raw fixed positions | Observed substitutions | Printed-erasure fills |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | p92 B1 | 328 | 164/164 | 3 | 0 |
 | p93 A2 | 252 | 126/126 | 0 | 0 |
 | p93 A3 | 394 | 197/197 | 0 | 0 |

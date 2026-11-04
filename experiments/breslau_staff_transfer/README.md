@@ -34,8 +34,8 @@ ordinary-word garbles `0ER` and `GESCHAEFT9`, not new key assignments.
 
 The already located [Breslau context](../boots_request/breslau_context/source.json)
 contains a visually checked decree of the VI Army Corps deputy general
-command dated July 6, 1917, printed in *Waldenburger Wochenblatt*, no. 165,
-**July 18, 1917**. Its unit-location association may support interpreting
+command dated 6 July 1917, printed in *Waldenburger Wochenblatt*, no. 165,
+**18 July 1917**. Its unit-location association may support interpreting
 raw `7` as `6` if the same institutional recipient is assumed. The decree
 is sixteen months earlier, and the p224 abbreviation omits `stellvertretend`;
 neither continuity nor the officer's identity follows automatically.
@@ -53,8 +53,8 @@ individual identification, surname image, or key assignment.
 ## Source and credit
 
 The source is J. Rives Childs, *General Solution of the ADFGVX Cipher
-System*, printed p224, PDF p227. It gives receipt as November 28 at
-00.13 a.m., with `2230` as an undated origin time, below a November 26
+System*, printed p224, PDF page 227. It gives receipt as 28 November at
+00.13 a.m., with `2230` as an undated origin time, below a 26 November
 subheading. All are preserved. The cleartext fragment beginning
 `VON LP AN CO` after C2 is outside its 298 coordinates and is not counted
 as another ciphertext.

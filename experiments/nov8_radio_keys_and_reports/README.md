@@ -1,9 +1,9 @@
-# November 8 radio-key instructions, apparatus prices and reports
+# 8 November radio-key instructions, apparatus prices and reports
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. The published Nov7–9 key
 and earlier OCR candidate work retain their existing credits.
 
-Seven physical source parts on Childs pp.160–161 (PDF pp.163–164) are
+Seven physical source parts on Childs pp160–161 (PDF pages 163–164) are
 transcribed from the page images. The unchanged 34-cell period square
 is used throughout. This is a source edition and constraint audit;
 these seven physical parts are not presented as seven first decipherments.
@@ -11,7 +11,7 @@ these seven physical parts are not presented as seven first decipherments.
 ## Source and cost accounting
 
 | Source part | Source slots / valid | Model slots | Fixed raw → edited | Observed substitutions | Printed-mask fills | Observed exclusions |
-|---|---:|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | p160_A2 | 240 / 239 | 238 | 117 → 118 | 4 | 1 | 2 |
 | p160_B1 | 282 / 282 | 282 | 140 → 140 | 1 | 0 | 0 |
 | p160_B2 | 84 / 82 | 84 | 39 → 40 | 0 | 1 | 0 |

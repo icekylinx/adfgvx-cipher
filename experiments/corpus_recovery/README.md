@@ -12,7 +12,7 @@ visible and are not silently treated as corrected historical text.
 ## Readable messages
 
 | Message | Source result | Readable edition |
-|---|---|---|
+| --- | --- | --- |
 | p84 A/B | 223/223 fixed; no coordinate edits or fills | [Oil release and Black Sea shipping safety](../../cases/pages/084.md#edition-cases-naval-p84-ab) |
 | p92 A | 214/214 fixed; one explicit substitution gives a clean body | [Dutch courier Vreede: onward passage to Constantinople](../../cases/pages/092.md#edition-cases-people-p92-a) |
 | p210 A1–A2 | 208/208 fixed; four substitutions for body words and sender | [Helsinki and return transport for the Ostsee Division](../../cases/pages/210.md#edition-cases-naval-p210-a) |
@@ -56,7 +56,7 @@ message adds the first name Kurt and fuller address details. Their postal
 fields must nevertheless remain separate:
 
 | Source | Printed-key result | Observed digraphs |
-|---|---|---|
+| --- | --- | --- |
 | p203 C, positions 92–94 | `???` | `VA VA VV` under Nov16–18 |
 | p210 C, positions 84–86 | `227` | `DG DG DA` under Nov19–21 |
 

@@ -26,8 +26,8 @@ alter that earlier source package.
 
 The original 105-slot raw reading, its unpaired coordinate, and both complete
 52-character proposals remain in `certificates.json`. The source's advertised
-105 length is not silently replaced by 104. Its page heading says November 6,
-while its reception line says 00.15 November 5; both dates remain literal.
+105 length is not silently replaced by 104. Its page heading says 6 November,
+while its reception line says 00.15 5 November; both dates remain literal.
 
 The preferred variant excludes final received `X` at zero-based index 104.
 The alternative excludes preceding `F` at index 103. Both require received
@@ -136,7 +136,7 @@ PDF SHA-256:
 `157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06`.
 The full p138 page, p138 B detail and p132 B detail have fixed PDF rectangles,
 scales, PNG hashes and raw-pixel hashes. The source verifier and full PDF
-regeneration passed. Printed pp132/138 are PDF pp135/141.
+regeneration passed. Printed pp132/138 are PDF page 135/141.
 
 ## Prior work and limits
 

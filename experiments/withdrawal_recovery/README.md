@@ -2,9 +2,9 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-Seven visually checked source records on Childs's printed pp. 163–164 preserve
+Seven visually checked source records on Childs's printed pp163–164 preserve
 1,581 coordinate slots. Six records can be read in explicit even-length frames;
-their published November 7–9 key fixes 608 of 730 raw positions. The seventh is
+their published 7–9 November key fixes 608 of 730 raw positions. The seventh is
 an unnumbered, jammed, 121-coordinate fragment and receives no complete-message
 decryption.
 
@@ -17,7 +17,7 @@ its proposed repairs. It does not solve the open p170 A challenge.
 ## Source and reconstruction
 
 | Record | Raw fixed positions | Known-coordinate substitutions | Erasure fills | Principal result |
-|---|---:|---:|---:|---|
+| --- | ---: | ---: | ---: | --- |
 | p163 A13 | 126/134 | 10 | 6 | Crajova and Bukarest to remain strongly occupied; opening unresolved; received 268 differs from header 278 |
 | p163 A14 | 121/122 | 5 | 1 | Final evacuation in one move; the garrison clause continues into part 15 |
 | p163 A15 | 36/117 | 2 | 63 | Explicitly conditional 91-position prefix joins the garrison to Generalkommando {5/6}3 and Scholtz; final 26 positions uncompleted |
@@ -44,7 +44,7 @@ assumption must not be hidden by a fluent reconstructed ending.
 
 The already published historical layer in
 [`military_context.json`](../p170_continuation/military_context.json) assigns
-`VF=6`, `XA=5` under the November 7–9 square. This package propagates that same
+`VF=6`, `XA=5` under the 7–9 November square. This package propagates that same
 assumption; `data/keys.json` is unchanged.
 
 - Part15's unchanged `VF` cell gives corps 63.

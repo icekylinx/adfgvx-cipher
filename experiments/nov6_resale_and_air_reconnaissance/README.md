@@ -1,4 +1,4 @@
-# November 6 resale and aerial reconnaissance
+# 6 November resale and aerial reconnaissance
 
 Two newly source-reviewed physical records: p144 A2 and C1. Their 412 native source slots yield 206 plaintext positions: 196 raw fixed positions, 204 after the separately priced six coordinate substitutions and eight source-mask fills. Two positions remain unresolved. No frame change is used.
 

@@ -1,4 +1,4 @@
-# November 24: report sent by teleprinter via Budapest
+# 24 November: report sent by teleprinter via Budapest
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
@@ -17,7 +17,7 @@ fields remain literal: `OLFENINIUS`, `ARADJZ`, `EY`, `AOKYY`.
 
 ## Source and attribution
 
-Childs, *General Solution of the ADFGVX Cipher System*, printed p217 / PDF p220,
+Childs, *General Solution of the ADFGVX Cipher System*, printed p217 / PDF page 220,
 section B, under `24th NOVEMBER, 1918.` The header is `UKS v ZON`, received
 at `07.15 p.m., November 24th`, followed by `(missed beginning) 2 TLE`.
 B1 is labeled `RICHI-204`; B2 is `RICHI-176`.

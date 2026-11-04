@@ -24,12 +24,12 @@ assignment; no unknown key cell is assigned independently by position.
 ## Frozen scope
 
 | Donors | Square hypotheses | Widths | Error budget | Projects |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | 291 complete source-derived strings | 11 | 12–24 | 0, then 1, then 2 observed substitutions | 41,613 per budget |
 | 105 native partial source-domain families | 11 | 12–24 | 0, with the 90/106 support threshold | 15,015 |
 
 The square hypotheses are nine complete recorded period squares and both
-consistent global 5/6 assignments of the November 7–9 square. Complete donor
+consistent global 5/6 assignments of the 7–9 November square. Complete donor
 strings include raw and explicitly edited source layers; they are not all
 independently authenticated historical wording. A hit would require source
 review before acceptance. The partial branch omits partial source squares,
@@ -66,7 +66,7 @@ support threshold, search engines and controls are unchanged.
 Full replay of the refreshed pools gives:
 
 | Branch | Projects | Histogram passes | DFS nodes | Hits |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | Complete, budget 0 | 41,613 | 13,572 | 47,446 | 0 |
 | Complete, budget 1 | 41,613 | 14,911 | 369,694 | 0 |
 | Complete, budget 2 | 41,613 | 16,224 | 753,976 | 0 |

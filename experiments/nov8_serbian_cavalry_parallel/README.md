@@ -1,4 +1,4 @@
-# November 8: a separate Serbian-cavalry report witness
+# 8 November: a separate Serbian-cavalry report witness
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 

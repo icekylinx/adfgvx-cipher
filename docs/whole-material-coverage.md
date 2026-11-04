@@ -11,7 +11,7 @@ Prepared by **icekylinx and GPT-6 Astra Pro**.
 A separately printed part or received copy is one physical body. Surviving damaged fragments count; advertised but absent parts do not. The two literal `AAA` items at p58 A1/A2 remain separately registered ambiguous stubs outside this body count.
 
 | Current navigation state | Sources |
-|---|---:|
+| --- | ---: |
 | READING | 336 |
 | PARTIAL | 148 |
 | CONDITIONAL | 188 |
@@ -24,25 +24,25 @@ Catalogue metadata records source review for **679 bodies**. The boundary census
 ## OPEN sources
 
 | Source | Received source slots | Current question |
-|---|---:|---|
-| [p70_B1](../cases/pages/070.md#edition-cases-open-p70-b1) | 206 | OPEN; 206 received slots, 199 observed coordinates and 7 printed erasures; interruption boundaries retained |
+| --- | ---: | --- |
+| [p70 B1](../cases/pages/070.md#edition-cases-open-p70-b1) | 206 | OPEN; 206 received slots, 199 observed coordinates and 7 printed erasures; interruption boundaries retained |
 | [p73](../cases/pages/073.md#edition-cases-p73) | 178 | Open |
-| [p127_B2](../cases/pages/127.md#edition-cases-open-p127-b2) | 152 | OPEN; 152 received slots, 104 observed coordinates and 48 printed erasures; both printed dates retained |
-| [p145_A](../cases/pages/145.md#edition-cases-open-p145-a) | 192 | OPEN; 192 received slots, 187 observed coordinates and 5 printed erasures; transmitted length unknown |
+| [p127 B2](../cases/pages/127.md#edition-cases-open-p127-b2) | 152 | OPEN; 152 received slots, 104 observed coordinates and 48 printed erasures; both printed dates retained |
+| [p145 A](../cases/pages/145.md#edition-cases-open-p145-a) | 192 | OPEN; 192 received slots, 187 observed coordinates and 5 printed erasures; transmitted length unknown |
 | [p170](../cases/pages/170.md#edition-cases-p170) | 106 | Open; exact complete-body coordinate bounds under two adjacent squares |
-| [p194_D1](../cases/pages/194.md#edition-cases-open-p194-d1) | 45 | OPEN; 45 observed coordinates against advertised 214; no accepted plaintext or loss frame |
+| [p194 D1](../cases/pages/194.md#edition-cases-open-p194-d1) | 45 | OPEN; 45 observed coordinates against advertised 214; no accepted plaintext or loss frame |
 | [p198](../cases/pages/198.md#edition-cases-p198) | 165 | Open |
 
-The four newly catalogued OPEN cases preserve 595 native slots: 535 observed coordinates and 60 printed erasures. Their [source-only package](../experiments/open_source_records/README.md) verifies the literal rows and original-PDF crops. It introduces no key, completed loss frame, plaintext or decipherment count.
+The four newly catalogued OPEN sources preserve 595 native slots: 535 observed coordinates and 60 printed erasures. Their [source-only package](../experiments/open_source_records/README.md) verifies the literal rows and original-PDF crops. It introduces no key, completed loss frame, plaintext or decipherment count.
 
 ## Quantitative evidence coverage
 
 The structured adapters independently recompute primary source/model accounting for **559 of the 679 bodies**. The other **120 remain unquantified by these adapters**, including OPEN sources and unsupported legacy certificate formats. This is evidence-tool coverage, not the number of unread messages.
 
 | Verified primary frame class | Physical bodies | Native slots | Model positions | Fixed raw labels, unobserved coordinates unassigned | Extra fixed labels from supplied unobserved coordinates |
-|---|---:|---:|---:|---:|---:|
-| Native order and length | 471 | 100274 | 50137 | 48885 | 0 |
-| Modified frame; stated assumptions apply | 88 | 18603 | 10028 | 8204 | 1 |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Native order and length | 471 | 100,274 | 50,137 | 48,885 | 0 |
+| Modified frame; stated assumptions apply | 88 | 18,603 | 10,028 | 8,204 | 1 |
 
 **These position totals cover only the quantified subset.** A fully fixed stream can retain garbles or uninterpreted numbers. The checker separates native slots, model additions/exclusions, coordinates supplied by another witness and ordinary-word repairs. Optional readings and alternative frames are never added as extra physical sources.
 
@@ -51,7 +51,7 @@ The JSON output identifies the canonical source, state, evidence path and exact 
 ## Other material in the volume
 
 | Material | Printed pages | Separate accounting |
-|---|---|---|
+| --- | --- | --- |
 | Childs technical explanation | 1–22 | Reused cipher figures and a numeric teaching example are not additional intercepted messages. |
 | Teaching cryptograms I–XII | 19–22 | Twelve instructional items under the published VIKINGSCROWNHOTEL example key, outside the log denominator. |
 | Konheim Appendix A | 23–54 | Theory and numerical 5×5 examples, including repeated or excerpted ciphertext figures. |

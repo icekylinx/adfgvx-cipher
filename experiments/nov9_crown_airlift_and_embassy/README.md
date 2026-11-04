@@ -1,4 +1,4 @@
-# November 9: a crown airlift request and an urgent embassy address
+# 9 November: a crown airlift request and an urgent embassy address
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 

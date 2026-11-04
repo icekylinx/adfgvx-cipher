@@ -2,9 +2,9 @@
 
 Source edition and verification by **icekylinx and GPT-6 Astra Pro**.
 
-The two source-labeled parts on Childs p78, PDF p81, have native lengths
+The two source-labeled parts on Childs p78, PDF page 81, have native lengths
 **240** and **170**. The message is dated `29/10 0940`; the receiving
-header is October 31. Both parts decode directly under the unchanged
+header is 31 October. Both parts decode directly under the unchanged
 published **Oct28–31** key. No coordinate substitution, fill, insertion,
 deletion, length repair or key change is needed.
 

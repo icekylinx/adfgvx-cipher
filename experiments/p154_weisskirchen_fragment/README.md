@@ -43,7 +43,7 @@ Requires NumPy and the external quad26 file pinned by the existing p212 recipe.
 The replay rebuilds the coordinate 49 probability model and checks:
 
 | Scope | Model descriptions | Result |
-|---|---:|---|
+| --- | ---: | --- |
 | One surplus glyph within VDFDVD; one 45-slot loss | 708 | source 28 exclusion and 45-slot prefix rank first |
 | Prefix only; even total 118–300; six possible exclusions | 552 | all six 162-slot models outrank every other length |
 | Prefix plus another loss interval, 45 unknowns total | 32,568 | score improves 1.86; no further word edition adopted |
@@ -55,7 +55,7 @@ to maximize the expanded family.
 
 Three fresh source-shaped controls give planted-frame ranks 5, 1, 1. The first
 control's leader shifts the missing block by one position and has one wrong
-fixed letter; the other two recover the correct fixed text. All roundtrip
+fixed letter; the other two recover the correct fixed text. All round-trip
 and source-accounting checks pass, but the search does not guarantee unique
 loss locations.
 

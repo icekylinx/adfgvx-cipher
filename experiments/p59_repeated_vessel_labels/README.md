@@ -13,7 +13,7 @@ It leaves the conflicting observed vowels and the raw separator-like `4`
 unchanged.
 
 | Field starts | Raw copies in all 21 frames | Exact minimum equal-copy strings | Additional substitutions if full equality is enforced |
-|---|---|---|---:|
+| --- | --- | --- | ---: |
 | 32, 38; five labels each | `VUR?A`, `VA?NA` | `VARNA`, `VURNA` | 1 |
 | 69, 76; six labels each | `BURDAL`, `BYRDA?` | `BURDAL`, `BYRDAL` | 1 |
 

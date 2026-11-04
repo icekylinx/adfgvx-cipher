@@ -1,4 +1,4 @@
-# November 3 evening-report copies and November 4 radio notices
+# 3 November evening-report copies and 4 November radio notices
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
@@ -11,7 +11,7 @@ fills** and **11 values filled into twelve unprinted-coordinate slots**.
 Five plaintext positions remain unresolved. No published key is changed.
 
 | Physical record | Literal slots | Analysis slots | Raw fixed | Edited fixed | Observed substitutions | Source fills | Unprinted fills |
-|---|---:|---:|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | p111 A1 | 202 | 202 | 86 | 101 | 1 | 15 | 0 |
 | p112 A1 | 202 | 202 | 99 | 101 | 1 | 2 | 0 |
 | p112 A2 | 218 | 218 | 89 | 107 | 6 | 18 | 0 |

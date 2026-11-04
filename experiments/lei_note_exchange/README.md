@@ -16,7 +16,7 @@ coordinates**. One missing coordinate in A1 gives the advertised total
 of **1,000**, or **500 plaintext positions**. The selected raw models fix
 494 positions; ordinary-word candidates fix 500 using 21 observed-coordinate
 substitutions, five printed-erasure fills and one missing-coordinate fill.
-All candidates reencrypt exactly under the unchanged published key.
+All candidates re-encrypt exactly under the unchanged published key.
 
 A1's `DDXF` group is short. A complete 342-boundary search uniquely selects
 gap 176 under the declared ordinary-word stencil, with 14 observed-symbol
@@ -25,8 +25,8 @@ less favorable raw readings. Neighboring `VFAXX` and `VFFXF` are complete
 five-letter groups. A3's `AFXGV` is also five letters; no deletion is needed.
 
 The received `HEERESAZG` abbreviation and apparent `VORGENOMME` omission
-remain explicit. The source heading is November 27, the receipt header
-November 28 at 02.27 a.m., and the origin field `1.30 (11/27)`; none is
+remain explicit. The source heading is 27 November, the receipt header
+28 November at 02.27 a.m., and the origin field `1.30 (11/27)`; none is
 silently reconciled.
 
 ## Intact fields for later interpretation

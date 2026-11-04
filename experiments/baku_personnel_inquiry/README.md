@@ -19,6 +19,7 @@ inferred from the inquiry.
 
 
 **Reviewed source crops:** [p185_B_reviewed.png](sources/p185_B_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
+
 ## Why two reference patterns remain
 
 Both duplicate-block locations and every remaining one-coordinate

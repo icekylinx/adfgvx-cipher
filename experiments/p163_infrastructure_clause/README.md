@@ -49,7 +49,7 @@ proposed positions are wholly unobserved: **92 S, 102 N, 112 E, 122 N,
 132 O, 142 N**. Their letters are supplied by the proposal.
 
 | Proposed span | Positions, inclusive | Observed halves retained | Added-coordinate fills | Wholly unobserved positions |
-|---|---:|---:|---:|---|
+| --- | ---: | ---: | ---: | --- |
 | `WEGEN` | 84–88 | 5 | 5 | — |
 | `ZERSTOERUNG` | 89–99 | 10 | 12 | 92 |
 | `VON` | 100–102 | 2 | 4 | 102 |
@@ -75,7 +75,7 @@ coordinate owners. The extra position 142 in the longer model uses model
 coordinates 14 and 157, both wholly absent from the received source.
 
 | Model | Clause | Proposed positions | Observed halves | Added-coordinate fills |
-|---|---|---:|---:|---:|
+| --- | --- | ---: | ---: | ---: |
 | 286 coordinates | `WEGEN…TELEPHONLEITUNGEN` | 59 | 53 | 65 |
 | 284 coordinates | `WEGEN…TELEPHONLEITUNGX` | 58 | 53 | 63 |
 
@@ -123,7 +123,7 @@ point 7, is not supplied.
 Four component-word witnesses are rebuilt from other native source records:
 
 | Record | Native word or word segment | Scope |
-|---|---|---|
+| --- | --- | --- |
 | p206 A1 | `ZERSTOERUNG` inside `ZERSTOERUNGEN` | Vocabulary only; no common order number is inferred. |
 | p137 B4 | `EISENBAHNEN` | A word in a separate dispatch. |
 | p140 B | `STRASSEN` inside `STRASSENBAUSONDERKOMMANDO` | A word segment in a separate dispatch. |

@@ -2,8 +2,8 @@
 
 Source edition and verification by **icekylinx and GPT-6 Astra Pro**.
 
-Childs p88 A1/A2, PDF p91, preserve one two-part message under the unchanged
-published **Nov1–3** key. Its receipt is dated November 2; its message line
+Childs p88 A1/A2, PDF page 91, preserve one two-part message under the unchanged
+published **Nov1–3** key. Its receipt is dated 2 November; its message line
 is `1330 (1.11)`. The native lengths are 172 and 134 coordinates. The
 adjacent **RIZI-204** message B is separate and is not included.
 

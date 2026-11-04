@@ -1,4 +1,4 @@
-# November 12: additional arrival and return enquiry witnesses
+# 12 November: additional arrival and return enquiry witnesses
 
 Research and source edition: **icekylinx and GPT-6 Astra Pro**.
 

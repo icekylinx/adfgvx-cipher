@@ -15,6 +15,6 @@ python experiments/oberost_troop_movement_obliterations/verify.py --verify
 python experiments/oberost_troop_movement_obliterations/verify.py --verify --pdf /path/to/adfgvx-childs.pdf
 ```
 
-Ordinary verification uses the standard library and repository helpers; the optional PDF check uses PyMuPDF and Pillow. Source hashes, source/model maps, all controls, individual coordinate changes, coupled unknowns and the nonhistorical roundtrip witness are replayed.
+Ordinary verification uses the standard library and repository helpers; the optional PDF check uses PyMuPDF and Pillow. Source hashes, source/model maps, all controls, individual coordinate changes, coupled unknowns and the nonhistorical round-trip witness are replayed.
 
 Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.

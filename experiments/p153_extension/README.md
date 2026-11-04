@@ -56,7 +56,7 @@ identical digits. The distinct cells for alpha, gamma and delta cannot also be
 `1`. The recovered square alone does not establish these semantic assumptions.
 
 | Additional assumptions | Possible day values | Date/serial assignments |
-|---|---|---:|
+| --- | --- | ---: |
 | Decimal fields only; leading zero in serial allowed | 2–9 | 448 |
 | Referenced order is dated in 1918 no later than reception on 8 November; leading zero allowed | 2–8 | 392 |
 | Decimal fields; serial has no leading zero | 2–9 | 392 |

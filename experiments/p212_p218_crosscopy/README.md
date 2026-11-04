@@ -17,7 +17,7 @@ We do not infer that the p212 block was historically transmitted three days earl
 All indices are zero-based.
 
 | Source index | p212 A2 | p218 A2 | Effect in the aligned 284-coordinate frame |
-|---:|:---:|:---:|---|
+| ---: | :---: | :---: | --- |
 | 46 | F | G | p212 supplies E in `DEN`; p218 has P in `DPN` |
 | 67 | A | Printed dash | p212 supplies the missing coordinate for K in `BERUECKSICHTIGUNG` |
 | 103 | G | X | p212 has 7 in `ALLIIERTE7`; p218 supplies N |
@@ -36,7 +36,7 @@ p212 advertises 284 coordinates but prints only 160. Comparing all **161 possibl
 The certificate gives all 284 coordinate origins. Relative to the newly edited p212 fragment, the final candidate has **one observed-coordinate substitution and 124 missing-coordinate fills**. Of those fills, **123 exactly match p218's literal tail**; the remaining one is the separately priced `INNEREN` correction. The pure-copy layer uses all 124 literal witness values unchanged.
 
 | Plaintext-position contribution | Count |
-|---|---:|
+| --- | ---: |
 | Both coordinates observed in p212 | 30 |
 | One coordinate from p212, one from p218 | 100 |
 | Both coordinates borrowed from p218 | 12 |

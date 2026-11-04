@@ -17,7 +17,7 @@ No source coordinates are deleted or rearranged.
 ## Source and evidence files
 
 | File | What it preserves |
-|---|---|
+| --- | --- |
 | [inputs.json](inputs.json) | Literal rows, unchanged key, source headers, crop geometry, raw/candidate texts, prior attribution and model assumptions |
 | [certificates.json](certificates.json) | Every plaintext position and source pair, exact edits, numerical/rare-letter inventory, all contiguous-gap costs and retained two-group minima |
 | [two_group_costs.tsv](two_group_costs.tsv) | All 24,976 ordered two-five-coordinate-gap comparisons against the full and masked retrospective templates |

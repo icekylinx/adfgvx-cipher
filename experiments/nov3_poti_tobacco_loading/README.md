@@ -11,6 +11,7 @@ closing occurrence of that exact abbreviation.
 
 
 **Reviewed source crops:** [p113_reviewed.png](sources/p113_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
+
 ## Reproduce
 
 ```sh

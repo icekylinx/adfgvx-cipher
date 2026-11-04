@@ -7,14 +7,14 @@
 Choose a range for its page-and-subject table. Each page opens a complete source edition.
 
 | Printed pages | Sources |
-|---|---:|
-| [pp. 56–74](050-074/README.md) | 47 |
-| [pp. 75–99](075-099/README.md) | 64 |
-| [pp. 100–124](100-124/README.md) | 94 |
-| [pp. 125–149](125-149/README.md) | 80 |
-| [pp. 150–174](150-174/README.md) | 133 |
-| [pp. 175–199](175-199/README.md) | 111 |
-| [pp. 200–224](200-224/README.md) | 121 |
-| [pp. 225–230](225-249/README.md) | 29 |
+| --- | ---: |
+| [pp56–74](050-074/README.md) | 47 |
+| [pp75–99](075-099/README.md) | 64 |
+| [pp100–124](100-124/README.md) | 94 |
+| [pp125–149](125-149/README.md) | 80 |
+| [pp150–174](150-174/README.md) | 133 |
+| [pp175–199](175-199/README.md) | 111 |
+| [pp200–224](200-224/README.md) | 121 |
+| [pp225–230](225-249/README.md) | 29 |
 
 [Reading conventions](../../docs/reading-conventions.md) · [Source identity](../../docs/catalogue-source-identity.md)

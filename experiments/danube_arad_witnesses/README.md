@@ -11,7 +11,7 @@ The newly reviewed **p168 E Arad copy** supplies all **11 original coordinates**
 A separate **p164 C1 glyph correction** restores raw UEBER and provides independently observed support for the p153 Danube report. The p153 witness supplies two p164 mask values in return.
 
 | Source edition | Printed / model slots | Fixed raw / linked / word-layer positions | Observed substitutions in the word layer | Fills |
-|---|---:|---:|---:|---|
+| --- | ---: | ---: | ---: | --- |
 | p164 C1 | 248 / 248 | 119 / 121 / 122 of 124 | 4 | 3 printed masks, including 2 parallel-passage-supported values |
 | p168 E | 271 / 272 | 132 / 135 / 135 of 136 | 4 | 2 printed masks and 1 added coordinate, all supplied by p159 observations |
 

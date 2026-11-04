@@ -11,7 +11,7 @@ source-image evidence and returns an explicit report of the checks it actually
 performed. It reads evidence only and does not create, download, or upload files.
 
 | Crop storage | Without the original PDF | With the original PDF |
-|---|---|---|
+| --- | --- | --- |
 | `embedded_png` (default) | Requires the local PNG, its exact file SHA-256, dimensions, and decoded RGB SHA-256. Its derivation from the PDF remains unchecked. | Performs the local checks, verifies the PDF byte count and SHA-256, then requires the rendered crop to match the RGB digest and the local PNG pixels. |
 | `external_pdf_reference` | Retains a source-page/crop reference and expected digests. It opens no PNG and verifies no source pixels. | Requires the original PDF byte count and SHA-256, renders the declared crop, and verifies its dimensions and RGB digest. No PNG is required or opened. |
 
@@ -27,7 +27,7 @@ The source mapping requires `pdf_bytes` and `pdf_sha256` (aliases: `bytes` and
 also requires `path` and a PNG file digest.
 
 | Field | Accepted names |
-|---|---|
+| --- | --- |
 | Rectangle in PDF points | `crop_pdf_points`, `clip_points`, `crop_rectangle_pdf_points`, `clip_pdf_points` |
 | Scale | `render_scale`, `scale` |
 | PNG file SHA-256 | `sha256`, `png_sha256` |

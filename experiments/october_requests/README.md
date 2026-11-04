@@ -1,7 +1,7 @@
 # October routing, weather and personnel requests
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. This package preserves four
-additional records from Childs pp. 62, 63 and 65 under the previously published
+additional records from Childs pp62, 63 and 65 under the previously published
 **Oct4–6 key**. Earlier key credit remains with **J. Rives Childs, George Lasry,
 and Lasry–Niebel–Kopal–Wacker**. The [case note](../../cases/pages/062.md#edition-cases-caucasus-october-requests)
 gives the readings and their source limits.

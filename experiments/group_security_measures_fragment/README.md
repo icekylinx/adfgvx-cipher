@@ -21,6 +21,7 @@ The counts use the primary edition and unchanged key. Optional lexical proposals
 
 
 **Reviewed source crops:** [p184_reviewed.png](sources/p184_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
+
 ## Reproduce
 
 ```sh

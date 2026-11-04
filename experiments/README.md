@@ -15,10 +15,10 @@ the same traffic. It can supply an observed coordinate where a single-copy
 language guess would remain conjectural.
 
 | Reconstruction | Evidence package |
-|---|---|
+| --- | --- |
 | Arad provisions: eleven lost coordinates and the received 80,000 figure | [Two-way source maps and one completed stream](danube_arad_witnesses/README.md) |
 | A 135-position silk-resale continuation | [Two receptions and their separate damage](nov6_resale_and_air_reconnaissance/README.md) |
-| November 14 radio traffic with an 85-coordinate missing prefix | [Retransmission comparison](nov14_retransmissions/README.md) |
+| 14 November radio traffic with an 85-coordinate missing prefix | [Retransmission comparison](nov14_retransmissions/README.md) |
 | Crown-airlift request completed by the later banknote copy | [Cross-copy source reconciliation](retrieved_copy_editions/README.md) |
 | Munich routing and independent support for GEN KDO | [Near-complete native reception](p168_munich_routing_witness/README.md) |
 | Romanian ultimatum report | [Source reconstruction](nov11_romanian_ultimatum_report/README.md) and [independent implementation](nov11_romanian_ultimatum_report/independent.py) |
@@ -28,9 +28,9 @@ language guess would remain conjectural.
 | The repeated Siegfried cancellation reference | [Thirty-four shared 5/6 positions across twenty parts and a completed date](nov7_9_joint_digits/README.md) |
 | Trucks ready to depart, p185 D | [Restored vehicle noun and readiness clause](p185_readiness_completion/README.md) |
 | Grosswardein, Vierset-Barse and Rohdewald | [Repeated-place repair](late_place_comparison/README.md), [prewar place attestation](p183_vierset_place/README.md), [military surname](p132_rohdewald_name/README.md) |
-| November 10–12 references | [Staged shared numerical interpretation](nov10_joint_completion/README.md) |
-| November 13–15 headquarters, award class and transport | [Shared reading](nov13_joint_completion/README.md); [sixteen native-pair labels across twelve sources](nov13_joint_completion/coverage.md) |
-| November 16–18 dates and references | [Fourteen further numerals, a repeated reference prefix and the Odessa courier footer](nov16_18_reference_completion/README.md) |
+| 10–12 November references | [Staged shared numerical interpretation](nov10_joint_completion/README.md) |
+| 13–15 November headquarters, award class and transport | [Shared reading](nov13_joint_completion/README.md); [sixteen native-pair labels across twelve sources](nov13_joint_completion/coverage.md) |
+| 16–18 November dates and references | [Fourteen further numerals, a repeated reference prefix and the Odessa courier footer](nov16_18_reference_completion/README.md) |
 | Asgard's return to Poti | [A complete two-part reading with both tied source accounts](p155_shipping_completion/README.md) |
 | Article XII, Breslau's VI Corps, name spellings and the Kiev report | [Shared square constraints and reduced source repairs](nov25_treaty_digits/README.md) |
 | p89 ship-return clause | [Three mask fills, native word witnesses and every compatible completion](p89_ship_clause_completion/README.md) |
@@ -65,7 +65,7 @@ context, not missing ciphertext coordinates.
 ## p153 recovery and exact constraints
 
 | Question | Result and reproducible method |
-|---|---|
+| --- | --- |
 | How was the key found? | [Recovery record](p153_recovery/README.md) and [joint square/rank search](joint_search/README.md). |
 | Is the sixty-letter crib consistent with other widths? | [Even widths](p153_even_widths/README.md) and [odd widths](p153_odd_widths/README.md): only width 18 fits among widths 14–26, across 3,492,604 length-class layouts. |
 | How many width-18 partial keys fit? | [Independent C and Python enumeration](p153_crib/README.md): two equivalent representations under the declared crib. |
@@ -75,7 +75,7 @@ context, not missing ciphertext coordinates.
 ## Exact optimization of damaged texts
 
 | Method | What it establishes |
-|---|---|
+| --- | --- |
 | [Multi-witness dynamic programming](parallel_decoder/README.md) | Exact ranking of all `2^42` minimum-cost p109 readings under the chosen language objective. |
 | [p176a source-retention bound](p176a_source_retention_bound/README.md) | The earlier fixed proposal costs at least 68 substitutions with all slots retained, or 13 after excluding its last printed mask. |
 | [Joint five-loss decoder](p198_joint_exact/README.md) | 8,670,506,592,384 loss-position/fill witnesses per fixed complete key. p198 D remains OPEN. |
@@ -94,7 +94,7 @@ The [seven OPEN pages](../topics/open.md) give the literal inputs and
 current questions. The maintained search families include:
 
 | Approach | Record |
-|---|---|
+| --- | --- |
 | Coordinate contacts and coincidence, with the same maximization applied to shuffled controls | [All-seven source diagnosis](open_target_contact_diagnosis/README.md) |
 | Unknown-square and transposition search | [Joint engine](joint_search/README.md), [anchored search](anchored_search/README.md), [source-error consistency search](substitution_crib_csp/README.md) |
 | Partial-key and truncation hypotheses | [p73](p73_new_methods/README.md), [p170](p170_new_methods/README.md), [p170 frame scope](known_key/P170_TRUNCATION_NOTE.md) |

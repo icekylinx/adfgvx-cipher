@@ -37,7 +37,7 @@ change to the published key or a guessed completion of missing source.
 ## Exact edition costs
 
 | Part | Printed slots | Raw fixed positions | Candidate positions | Observed substitutions | Printed-erasure fills |
-|---|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: |
 | p129 B1 | 398 | 197/199 | 199 | 5 | 2 |
 | p133 A2 | 452 | 225/226 | 226 | 4 | 1 |
 | p133 A3 | 486 | 243/243 | 243 | 0 | 0 |

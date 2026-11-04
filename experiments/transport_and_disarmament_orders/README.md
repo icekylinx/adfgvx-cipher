@@ -7,7 +7,7 @@ Five physical records are supplied: A1, B1/B2 and C1/C2. A1 is only the first pa
 ## Accounting
 
 | Record | Source slots | Raw fixed → edited fixed | Observed substitutions | Dash fills |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | p209 A1 | 224 | 104/112 → 112/112 | 0 | 8 |
 | p209 B1 | 310 | 155/155 → 155/155 | 4 | 0 |
 | p209 B2 | 230 | 115/115 → 115/115 | 3 | 0 |

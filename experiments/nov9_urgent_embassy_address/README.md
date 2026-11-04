@@ -2,7 +2,7 @@
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
-The [source edition](../../cases/pages/161.md#edition-cases-people-constantinople-urgent-address-p161-b1) preserves a short native 98-coordinate record from J. Rives Childs, *General Solution of the ADFGVX Cipher System*, printed p161 (PDF p164). Its unchanged Nov7–9 partial key yields **49 / 49 fixed raw plaintext positions**, with **zero historical coordinate substitutions, source fills, insertions or exclusions**:
+The [source edition](../../cases/pages/161.md#edition-cases-people-constantinople-urgent-address-p161-b1) preserves a short native 98-coordinate record from J. Rives Childs, *General Solution of the ADFGVX Cipher System*, printed p161 (PDF page 164). Its unchanged Nov7–9 partial key yields **49 / 49 fixed raw plaintext positions**, with **zero historical coordinate substitutions, source fills, insertions or exclusions**:
 
 ```text
 DEUTSCHEBOTSCHAFTCONSTANTINOPELDRINGENDXGEZXSTUMM

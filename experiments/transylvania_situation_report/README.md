@@ -9,7 +9,7 @@ The first source page itself says that parts 2–6 are missing. That statement i
 ## Source association and conflicting headings
 
 | Physical source | Surviving parts | Page heading | Receipt line | Origin/message fields |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | p128 B | 1 | 5 November | 7.25 p.m., 5 November | `1840 8 TLE` |
 | p129 A | 7–8 | 5 November, continued | 7.01 p.m., 5 November | `1840 8 TLE` |
 | p137 A | 4–6 | **6 November** | **08.14, 5 November**, no a.m./p.m. qualifier | `18.40 8 TLE VON UKS 18.40` |
@@ -129,7 +129,7 @@ The only nonself result is three overlapping windows, a twelve-coordinate stretc
 ## Accounting, prior work and reproduction
 
 | Quantity | Five cataloged physical sources |
-|---|---:|
+| --- | ---: |
 | Printed source slots | 1,057 |
 | Valid printed coordinates | 1,049 |
 | Modeled coordinates | 1,100 |

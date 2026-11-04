@@ -15,7 +15,7 @@ The intercepted messages preserved in J. Rives Childs's collection provide the p
 The chronology distinguishes events described, header origin dates and interceptions. All telegram dates are in 1918; “origin” follows the clear header.
 
 | Source and event | Date within the message | Header origin | Recorded interception | Evidence and comparison |
-|---|---|---|---|---|
+| --- | --- | --- | --- | --- |
 | [p85 A1: Sevastopol provisions](../../cases/pages/085.md#source-p85-a1) | Dispatch **27 October** | **30 October** | **1 November**, 04:20 | Surviving first part of two |
 | [pp88–90: five-part evacuation order](../../cases/pages/090.md#source-p90-a5) | Closing reference **FR 52751, 31.10** | **1 November** | **1 November** | Its reference is explicitly amended in p98 |
 | [p98: changed disembarkation](../../cases/pages/098.md#source-p98-a1) | Amends **FR 52751**; closes **FR 52787** | **1 November** | A: **1 November**; repeated continuation B: **2 November** | Two receptions preserve the continuation |
@@ -33,7 +33,7 @@ The five-part order's printed receipt time, 13:18, precedes its 14:00 origin tim
 The clearest quantitative evidence is [p85 A1](../../cases/pages/085.md#source-p85-a1), reporting that Sevastopol's supply office sent provisions to the Caucasus delegation on 27 October:
 
 | Commodity | Quantity reported dispatched |
-|---|---:|
+| --- | ---: |
 | Sugar | 16,400 kg |
 | Hard feed | 16,300 kg |
 | Potatoes | 24,200 kg |

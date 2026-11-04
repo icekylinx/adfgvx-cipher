@@ -1,4 +1,4 @@
-# Troop crossing in boats: a fragmentary November 6 report
+# Troop crossing in boats: a fragmentary 6 November report
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
@@ -21,6 +21,7 @@ The primary totals preserve the unchanged published key and native source frame.
 
 
 **Reviewed source crops:** [p144_reviewed.png](sources/p144_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
+
 ## Reproduce
 
 ```sh

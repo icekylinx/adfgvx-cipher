@@ -38,7 +38,7 @@ reference fields remain unread.
 ## Independent native witnesses
 
 | Source | Key | Directly observed span | Role |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | [p66 B](../october_staffing/sources/childs_p66_B.png) | Oct4–6 | `BESATZUNGSHEER` | Independent vocabulary |
 | [p115 A8](../mackensen_withdrawal_report/sources/p115.png) | Nov1–3 | `BESATZUNGSHEER` | Independent vocabulary |
 | [p153 A3](../nov7_danube_and_message_reports/sources/p153_reviewed.png) | Nov7–9 | `QX9X11XTEMESVARX` | Date/place parallel |
@@ -98,7 +98,7 @@ The core check uses standard-library Python. Search replay additionally
 uses NumPy; optional original-PDF pixel reproduction uses PyMuPDF.
 [Inputs](inputs.json), [coordinate certificates](certificates.json),
 [frozen donor manifest](donor_manifest.json) and [search controls](search_report.json)
-retain the full evidence. Residual roundtrip fills are arithmetic witnesses.
+retain the full evidence. Residual round-trip fills are arithmetic witnesses.
 
 **Earlier credit:** J. Rives Childs supplies the historical source; George
 Lasry and colleagues supply the period keys. Norbert's 2017 comments 42

@@ -16,7 +16,7 @@ Foreign Ministry's telegram to **Waclaw v. Ostrowski**. Its floating `FGFFF`
 group has a unique third-group placement under an ordinary-word stencil that
 masks all relevant names and reference symbols. This source supplies the
 recipient independently of the historical study. The cross-page association
-retains the conflicting November 14/15 headings explicitly.
+retains the conflicting headings of 14 and 15 November explicitly.
 
 See the [readable case](../../cases/pages/192.md#edition-cases-caucasus-tiflis-appointment),
 [literal inputs](inputs.json), and [exact certificate](certificates.json).
@@ -24,7 +24,7 @@ See the [readable case](../../cases/pages/192.md#edition-cases-caucasus-tiflis-a
 ## Separate evidence layers
 
 | Layer | Evidence and result |
-|---|---|
+| --- | --- |
 | Source frame | Part 2 has 230/230 coordinates. Part 3 has 227 valid coordinates against RICHI-232. |
 | Preamble layout | All 262 p199 letters are present. Moving the five observed floating letters to the third-group position gives the unique minimum among 258 placements, with two ordinary-word coordinate changes. Names and the reference are masked. |
 | Missing-group geometry | All 228 boundaries are tested for one five-coordinate gap. Excluding all eight courier-name letters and all seven signature letters, gap 150 is the unique minimum with one observed-coordinate change. |
@@ -45,7 +45,7 @@ exact country-name spelling is kept separately from its interpretation.
 
 ## Consequences kept visible
 
-Direct FX=Y affects two complete pairs in this package and the November 14
+Direct FX=Y affects two complete pairs in this package and the 14 November
 source edition: p192 part 3 position 61 and p190 A position 37. The latter's
 name becomes `FRYE`. Transferring Y to Nov13–15a DG additionally requires the
 same-correctly-copied-name assumption for the p190 A / p194 B pilot notices.
@@ -70,5 +70,5 @@ The standard verification uses only Python's standard library. Optional PDF
 checks use PyMuPDF and Pillow to verify document hashes and byte counts,
 rerender every saved crop for pixel equality, and check the short historical
 name quotation against the research PDF. Every source map, repair operation,
-gap-search minimum, conditional reencryption and local key-layer effect is
+gap-search minimum, conditional re-encryption and local key-layer effect is
 independently recomputed.

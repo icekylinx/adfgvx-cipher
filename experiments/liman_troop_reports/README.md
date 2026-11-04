@@ -24,7 +24,7 @@ This does not assign the remaining rare-letter or numerical labels, or
 complete a globally bijective replacement square.
 
 The page heading says **26 November 1918**, and the origin line says
-`0900 (26/11)`. The parenthetical reception line says **December 18**.
+`0900 (26/11)`. The parenthetical reception line says **18 December**.
 These literal dates are preserved without choosing an explanation.
 
 ## Files and reproduction

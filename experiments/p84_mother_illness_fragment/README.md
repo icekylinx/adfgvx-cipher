@@ -6,7 +6,7 @@ This package extends the separately preserved
 [case](../../cases/pages/084.md#edition-cases-radio-p84-mother-illness-extension) keeps the equally
 compatible `MITTELSCHWERKRANKBITTEKOMMX` counterexample.
 
-The unchanged October 28–31 key fixes 14/122 raw positions. The two word
+The unchanged 28–31 October key fixes 14/122 raw positions. The two word
 fragments together propose 52/122. All five prior short-group frames remain
 priced: frames 77–79 require no observed substitution, and frames 78–79 tie
 at five printed-mask fills plus 42 added-slot fills. The representative is

@@ -1,4 +1,4 @@
-# November 30: aviation march destinations
+# 30 November: aviation march destinations
 
 Research and source edition: **icekylinx and GPT-6 Astra Pro**.
 

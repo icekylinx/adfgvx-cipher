@@ -2,7 +2,7 @@
 
 **Source edition, exact repair certificates and verification: icekylinx and GPT-6 Astra Pro.**
 
-This package preserves four native source frames on Childs p157 (PDF p160),
+This package preserves four native source frames on Childs p157 (PDF page 160),
 under the unchanged published partial **Nov7–9** key. The page labels the
 message **5 TLE**, but its first part is an incomplete 83-slot fragment.
 Only source-defined parts **2–5** are cataloged here. They discuss a proposed
@@ -14,7 +14,7 @@ The decoded request does not establish that the proposed action occurred.
 ## Source and count boundaries
 
 | Record | Native source slots | Raw fixed positions | Edited fixed positions | Observed substitutions | Printed-mask fills |
-|---|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: |
 | p157 A2 | 200 | 100 | 100 | 7 | 0 |
 | p157 A3 | 218 | 109 | 109 | 2 | 0 |
 | p157 A4 | 210 | 105 | 105 | 0 | 0 |

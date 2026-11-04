@@ -4,7 +4,7 @@ Prepared by **icekylinx and GPT-6 Astra Pro**. Read the
 [full source edition](../../cases/pages/113.md#edition-cases-military-mackensen-withdrawal-report).
 
 This package audits twelve surviving physical parts of the thirteen-part
-November 3 report. Childs and Lasry et al. retain the historical decipherment
+3 November report. Childs and Lasry et al. retain the historical decipherment
 and prior-body credits. The separately received p113 B9 joins the gap marked
 on p115 and in the published Table 3; its 108 labels need no source edits.
 Part 2 remains absent. Part 13 remains raw-only:38 of 111 fixed labels and no

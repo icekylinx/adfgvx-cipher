@@ -46,7 +46,7 @@ Columnar transposition preserves these one-coordinate counts. They describe
 the received material, before any modeled addition:
 
 | Source | A | D | F | G | V | X | Unknown slots | Native slots |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | p73 | 16 | 57 | 26 | 28 | 15 | 34 | 2 | 178 |
 | p170 | 27 | 7 | 8 | 29 | 22 | 13 | 0 | 106 |
 | p198 | 18 | 18 | 35 | 24 | 35 | 35 | 0 | 165 |
@@ -72,7 +72,7 @@ unknown coordinates in a 170-slot frame. The original has 165 coordinates and
 prints `CHI-170`; neither contiguity nor the missing location is established.
 
 | Open body | Highest-scoring rank/model label | Complete received pairs | Excess coincidence | Shuffled maxima at least as large |
-|---|---|---:|---:|---:|
+| --- | --- | ---: | ---: | ---: |
 | p73 | `Nov13-15b` | 87 | 0.008738 | 22/128 |
 | p170 | `Nov10-12` | 53 | 0.009088 | 73/128 |
 | p198 | `Nov1-3, gap 0` | 80 | 0.011580 | 38/128 |
@@ -92,7 +92,7 @@ The nearby source-reviewed controls use their original ciphertexts and literal
 frames. Their known keys are used only to evaluate the ranking:
 
 | Native body | Previously established rank vector | Rank within the 25-vector comparison | Shuffled maxima at least as large |
-|---|---|---:|---:|
+| --- | --- | ---: | ---: |
 | p127_B1 | `Nov4-6` | 1/25 | 0/128 |
 | p145_B1 | `Nov4-6` | 1/25 | 0/128 |
 | p145_B3 | `Nov4-6` | 1/25 | 2/128 |
@@ -132,8 +132,8 @@ exact table counts and rational statistic with the vectorized implementation.
 ## Source geometry and the next useful questions
 
 | Target | Source qualification and consequence |
-|---|---|
-| p73 | October 26 page/origin markers conflict with the November 8 reception. The literal 178-slot comparison supplies no rank identification. The separate [square-count diagnostic](../open_targets/P73_HISTOGRAM.md) and [primary-source review](../p73_primary_followup/README.md) remain relevant; neither selects a date or key. |
+| --- | --- |
+| p73 | 26 October page/origin markers conflict with the 8 November reception. The literal 178-slot comparison supplies no rank identification. The separate [square-count diagnostic](../open_targets/P73_HISTOGRAM.md) and [primary-source review](../p73_primary_followup/README.md) remain relevant; neither selects a date or key. |
 | p170 A | All 106 received symbols are clear, but 106 is handwritten beside RICHI. A complete 106-slot message is only one hypothesis. Source-supported length or an overlapping reception remains more useful than the largest literal-frame score. |
 | p198 D | The 165/170 shortfall is real. This comparison covers a single consecutive five-loss model; arbitrary scattered losses, another length, different ranks and other damage remain open. The [exact loss/count constraints](../p198_letter_bounds/README.md) retain their own broader and narrower boundaries. |
 | p70 B1 | The source labels 206 slots and records jamming before the body and after its first 30 slots. Its top October-vector score is weak under matched controls. Additional reception evidence or a better supported corruption model is needed. |

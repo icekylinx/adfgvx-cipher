@@ -16,7 +16,7 @@ The source positions and earlier repairs are independently recomputed in the
 [certificate](certificates.json).
 
 | Record | Plaintext index | Source-coordinate indices | Original word | Word under `VD→J` | Earlier source-edition decision |
-|---|---:|---|---|---|---|
+| --- | ---: | --- | --- | --- | --- |
 | p218 A1 | 1 | 60, 159 | `G9NERAL` | `GJNERAL` | `GENERAL`: one coordinate, `VD→FD` |
 | p219 B | 123 | 349, 26 | `MOEGLICHK9IT` | `MOEGLICHKJIT` | `MOEGLICHKEIT`: one coordinate, `VD→FD` |
 | p220 C4 | 59 | 142, 100 | `WNTERNI9RUNG` | `WNTERNIJRUNG` | `INTERNIERUNG`: this `9→E` repair costs one coordinate, `VD→FD`; the initial `W→I` is separately priced in its source edition |

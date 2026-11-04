@@ -7,13 +7,13 @@ The transport messages of 13–15 November 1918 describe withdrawal as a success
 Several texts carry the name Seifert and recur on the CM/CZ radio link. Their relationship is supported most firmly where the ciphertexts preserve parallel versions of the same message. Elsewhere, a shared name, vocabulary or station pair connects the correspondence without establishing one convoy or a complete personal itinerary. In the headers, `CM v CZ` means CZ transmitting to CM; a radio sender can relay another person's message. The editions preserve both header dates and the times written separately beneath them.
 
 | Source and recorded date | Kind of message | Evidence for the withdrawal sequence |
-|---|---|---|
+| --- | --- | --- |
 | [p185 D](../../cases/pages/185.md#source-p185-d), 13 November | Movement instruction, partly reconstructed | Trucks, movement “tomorrow” via `DHFN`, and readiness to depart. |
 | [p193 C](../../cases/pages/193.md#source-p193-c), 14 November | Postponement and reassurance | Departure delayed; `DHFN` is to remain operationally ready. |
-| [p194 A](../../cases/pages/194.md#source-p194-a) / [p196 B](../../cases/pages/196.md#source-p196-b), dated 14/15 November | Parallel versions of an arranged departure | Friday, vehicles to be held ready, Hanau as the march destination. |
+| [p194 A](../../cases/pages/194.md#source-p194-a) / [p196 B](../../cases/pages/196.md#source-p196-b), dated 14 and 15 November | Parallel versions of an arranged departure | Friday, vehicles to be held ready, Hanau as the march destination. |
 | [p193 E](../../cases/pages/193.md#source-p193-e), 14 November; [p189 E](../../cases/pages/189.md#source-p189-e), 15 November | Local vehicle and equipment reports | A sprung cart, vehicles and trailers, and a sheet-metal lifting pump. |
 | [p197 D](../../cases/pages/197.md#source-p197-d) / [p198 E](../../cases/pages/198.md#source-p198-e), 15 November | Parallel loading instructions | A lorry is coming; load the best trailer and hold a petrol pump ready. |
-| [p197 C](../../cases/pages/197.md#source-p197-c) / [p198 B](../../cases/pages/198.md#source-p198-b), 15 November | Parallel equipment and station instructions | Load two `US` apparatuses for Darmstadt; keep the station ready until the specified, partly unread date/time. |
+| [p197 C](../../cases/pages/197.md#source-p197-c) / [p198 B](../../cases/pages/198.md#source-p198-b), 15 November | Parallel equipment and station instructions | Load two `US` apparatuses for Darmstadt; keep the station ready until the specified, partly unread date and time. |
 | [p197 E](../../cases/pages/197.md#source-p197-e) / [p198 C](../../cases/pages/198.md#source-p198-c), 15 November | Reported departure and intended stay | The truck has left; the sender will remain with an unread number of men until Sunday. |
 
 ## Preparing to leave, then waiting

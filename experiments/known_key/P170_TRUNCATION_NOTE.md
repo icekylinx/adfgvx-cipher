@@ -2,7 +2,7 @@
 
 **Result: no newly accepted plaintext. A truncation explanation remains possible.** This experiment tests a specific interpretation of the source, rather than treating the handwritten count as a proved transmitted length.
 
-Childs' printed p. 170, section A, has the header `--- v --- (11.24 p.m., November 9th)` and typed `RICHI` followed by handwritten `106`. The received text contains exactly 106 valid ADFGVX coordinates. Neither a typed transmitted length nor a part number survives. [The source scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) therefore permits, but does not establish, the hypothesis that 106 counts an intercepted fragment of a longer message.
+Childs' printed p170, section A, has the header `--- v --- (11.24 p.m., November 9th)` and typed `RICHI` followed by handwritten `106`. The received text contains exactly 106 valid ADFGVX coordinates. Neither a typed transmitted length nor a part number survives. [The source scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) therefore permits, but does not establish, the hypothesis that 106 counts an intercepted fragment of a longer message.
 
 ## Exact search scope
 
@@ -12,7 +12,7 @@ There are 248 candidate complete lengths. For lengths `106 + 2k`, there are `2k 
 
 A marginal language score ranks the observed coordinate patterns while summing over missing coordinates. Each key retains four top-100 pools: all placements, received prefixes, received suffixes, and candidates with at least 12 fixed plaintext letters including a fixed run of at least five. The last pool helps expose candidates that contain more than scattered single-coordinate information. It does not define a statistical confidence set.
 
-For the calendar-consistent November 7–9 key, the strongest candidate in that last pool uses complete length 128 and offset 10. It fixes 40 of 64 plaintext characters, with a longest fixed run of five:
+For the calendar-consistent 7–9 November key, the strongest candidate in that last pool uses complete length 128 and offset 10. It fixes 40 of 64 plaintext characters, with a longest fixed run of five:
 
 ```text
 ?1?8IXK???IY?NH24???4P?NI?I???PJ?PHKER??YP?V4SMU??WO?DKUEB??NY?4
@@ -22,10 +22,10 @@ This is a stored search candidate, not a proposed reading. It provides no persua
 
 ## Synthetic controls and a concrete limitation
 
-Two control fragments were made by encrypting portions of the previously verified p171 body with the November 7–9 key and retaining exactly 106 contiguous ciphertext coordinates. They were searched with the same geometry bounds and scoring function.
+Two control fragments were made by encrypting portions of the previously verified p171 body with the 7–9 November key and retaining exactly 106 contiguous ciphertext coordinates. They were searched with the same geometry bounds and scoring function.
 
 | Control | True full length | True offset | Fixed letters at the true geometry | Rank in unrestricted pool |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | Short middle fragment | 128 | 10 | 42 of 64 | 1 |
 | Long suffix fragment | 300 | 194 | 0 of 150 | 2 |
 

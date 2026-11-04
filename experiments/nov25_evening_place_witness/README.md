@@ -3,8 +3,8 @@
 **ADFGVX Cipher — icekylinx and GPT-6 Astra Pro.** Published period keys
 retain the Lasry–Niebel–Kopal–Wacker attribution.
 
-The November 25 evening report on p220 B has `TISHAFOELDVAR` in a list
-of places reached by leading elements. The separate November 30 report
+The 25 November evening report on p220 B has `TISHAFOELDVAR` in a list
+of places reached by leading elements. The separate 30 November report
 on p229 A1 directly reads **`TISZAFOELDVAR`**, with all thirteen letters
 supplied by **26 untouched original coordinates**. This provides a native
 witness for a place spelling that otherwise would be an editorial guess
@@ -13,12 +13,12 @@ from geography.
 Applying that spelling to p220 B costs **one observed-coordinate substitution**.
 Its H at plaintext position 72 is `AA`, from original
 source positions **6 and 150**. Change source **6 A→D** and preserve
-source 150 A: the pair becomes `DA`, giving Z under the November 25–28 key.
+source 150 A: the pair becomes `DA`, giving Z under the 25–28 November key.
 The image clearly prints A. This is a proposed repair to the received
 ciphertext, not a changed visual transcription.
 
 | Source | Native place and range | Key | Treatment of the place |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | p220 B | `TISHAFOELDVAR`, [69,82) | Nov25–28 | One observed A→D substitution |
 | p229 A1 | `TISZAFOELDVAR`, [41,54) | Nov28–Dec1 | No repair, fill or change of frame |
 
@@ -40,10 +40,10 @@ is inferred from these place spellings.
 
 > Es haben mit Anfaengen erreicht: 21?ID, Tiszafoeldvar. PRD, Nagymagocs. ?21?, Kondoros.
 
-The November 30 donor reports an advance to Tiszaföldvár. It is a separate
+The 30 November donor reports an advance to Tiszaföldvár. It is a separate
 report, under a different key and on another date, rather than a duplicate
 reception of p220 B. Its native place spelling supports the earlier repair;
-it does not independently prove the November 25 movement or its unit.
+it does not independently prove the 25 November movement or its unit.
 
 The existing `HABE7→HABEN` repair at source 157 remains separately priced.
 Together, the recipient edition uses **two observed substitutions**, zero
@@ -84,9 +84,9 @@ unique historical plaintext among arbitrary alternative words or models.
 
 Both source packages and their original editions are retained:
 
-- [November 25 source and edition](../nov25_provisions_and_evening_report/README.md)
+- [25 November source and edition](../nov25_provisions_and_evening_report/README.md)
   · [p220 image](../nov25_provisions_and_evening_report/sources/p220_reviewed.png).
-- [November 30 source and edition](../late_transport_dispatches/README.md)
+- [30 November source and edition](../late_transport_dispatches/README.md)
   · [p229 image](../late_transport_dispatches/sources/p229_A.png).
 
 The [inputs](inputs.json) pin the earlier inputs, verifiers and certificates.

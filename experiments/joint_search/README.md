@@ -10,7 +10,7 @@ records the shared 18-column transposition, conservative 19-letter square,
 remaining numeral ambiguity, and two explicit printed-coordinate anomalies.
 It does not claim a complete solution or a complete historical square.
 The received lengths are 132 and 108 coordinates, with 15 erased coordinates in
-the second part. Source audit dates the intercept to November 8, 1918. A shared
+the second part. Source audit dates the intercept to 8 November 1918. A shared
 key between the two parts is an attack hypothesis.
 
 The code uses C11 with GCC/Clang builtins, plus Python 3.10+. GCC or Clang and `make` build the
@@ -110,7 +110,7 @@ python3 tools/refine_candidate.py --case p153 --candidates work/all18_pairings.j
 ```
 
 Control keys and plaintexts in `cases/cases.json` are used only after fitting
-for evaluation and reencryption. A high-scoring historical string is never
+for evaluation and re-encryption. A high-scoring historical string is never
 promoted to a decryption certificate by this helper.
 The separate segmentation-ranking diagnostic receives the control's true
 length-class masks solely to report their ranks. Those masks do not affect
@@ -136,8 +136,8 @@ Binary model readers assume a little-endian host with 32-bit IEEE floats.
 Model paths in standard-input headers must not contain whitespace.
 
 The CHI anchor example is in `cases/p153_anchored_k16.in`. Its 22 fixed cells
-come from the independently audited November 13 CHI solution. **Reuse on
-November 8 is only a secondary hypothesis**; this anchored search is not a
+come from the independently audited 13 November CHI solution. **Reuse on
+8 November is only a secondary hypothesis**; this anchored search is not a
 source-established constraint on the target.
 
 ```sh
@@ -160,7 +160,7 @@ incumbent can alter subsequent stochastic trajectories, so the corrected
 engines are not claimed to reproduce every older best-score line byte for
 byte. `repro/restore_archived_engines.patch` restores the four archived source
 snapshots inside a separate copy; all four restored source hashes were checked.
-The supplied reencryption certificates can be verified independently of any
+The supplied re-encryption certificates can be verified independently of any
 optimizer replay.
 The later `joint_rectangle_warm` experiment uses a separate corrected engine;
 its source hash is recorded with its calibration results. It does not overwrite
@@ -177,7 +177,7 @@ The original control reencrypts all 225 received coordinates with an equivalent
 globally transposed square. The fresh wildcard-stage control fails one
 surviving coordinate even though all 105 fully observed letters are correct;
 that failure remains in `results/control_certificates.json`. Exact-domain
-refinements are separate records: both now reencrypt all 225 observed coordinates
+refinements are separate records: both now re-encrypt all 225 observed coordinates
 correctly. Their keys and plaintexts were used only for this final evaluation.
 Unobserved square cells and erased ciphertext coordinates remain undetermined.
 The exact-refinement wrapper now chooses the highest objective among all ten
@@ -217,7 +217,7 @@ candidate is selected by objective without consulting control truth.
 
 At width 14, the control segmentations rank 4 and 1 among all 210,210 choices,
 with every true unordered pair recovered in both. The bounded top-ten language
-fits recover both controls and reencrypt all 225 observed coordinates. The
+fits recover both controls and re-encrypt all 225 observed coordinates. The
 successful candidates also have the highest objective in their respective
 shortlists. These tests reuse the same two calibration texts with new withheld
 keys; they are not an unbiased sample of historical radiograms.

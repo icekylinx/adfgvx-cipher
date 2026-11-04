@@ -2,11 +2,11 @@
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. The
 [reader case](../../cases/pages/097.md#edition-cases-radio-hungary-connection-and-supplies) presents
-three separately headed records on Childs printed p. 97 / PDF p. 100,
+three separately headed records on Childs printed p97 / PDF page 100,
 1 November 1918.
 
 | Record | Native source slots | Fixed raw / total plaintext positions | Observed-coordinate substitutions | Source fills or geometry changes |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | p97 A | 196 | 98 / 98 | 0 | 0 |
 | p97 B | 246 | 123 / 123 | 0 | 0 |
 | p97 C | 196 | 98 / 98 | 6 | 0 |
@@ -15,7 +15,7 @@ three separately headed records on Childs printed p. 97 / PDF p. 100,
 A requests immediate repetition of a telegram, preserving its unexplained
 code and reference fields. B reports that communication through Hungary is
 disrupted and telegrams will go by wireless until further notice. Both read
-under the unchanged published November 1–3 key with no repair. The reference
+under the unchanged published 1–3 November key with no repair. The reference
 to `CHI` in A's body does not replace the source's `RICHI-196` marker.
 
 C mentions tubes and oil in a numbered reply. Its proposed word correction

@@ -52,7 +52,7 @@ or establish that this evacuation order was carried out.
 All indices are **zero-based**. These are the only new assignments:
 
 | Plaintext index | Label | Observed pair | Compatible labels before this extension |
-|---:|:---:|:---:|---|
+| ---: | :---: | :---: | --- |
 | 129 | L | `A?` | `9FILOU` |
 | 133 | I | `A?` | `9FILOU` |
 | 134 | E | `V?` | `EHJKMP` |
@@ -69,7 +69,7 @@ conditional layer, including proposed letters, separators and numerical
 labels.
 
 | Layer | Fixed positions | Observed substitutions | Printed-mask fills | Lost-coordinate fills |
-|---|---:|---:|---:|---:|
+| --- | ---: | ---: | ---: | ---: |
 | Raw source-declared frame | 81/179 | 0 | 0 | 0 |
 | Earlier prefix | 151/179 | 1 | 1 | 69 |
 | Guard designation and Berlin | 166/179 | 1 | 1 | 85 |
@@ -93,7 +93,7 @@ ZWEITENSNACHXBRAILAXGEHTNICHTSXDORTHINUNTERWEGSBEFINDLICHEDAMPFERABDREHENXXDRITT
 ### Three positions remain unresolved
 
 | Plaintext index | Pair | Compatible labels | Frame coordinates |
-|---:|:---:|---|---|
+| ---: | :---: | --- | --- |
 | 131 | `??` | All 36 letters and digits in the key | 257, 201 |
 | 169 | `??` | All 36 letters and digits in the key | 261, 205 |
 | 172 | `X?` | `1346AY` | 75, 281 |

@@ -7,7 +7,7 @@ those positions; four fixed characters are explicitly corrected in the edition,
 and two coordinate erasures are filled. Thus **626 proposed plaintext
 positions are directly supported without a correction or fill**.
 
-The principal new reading is the two-part personnel order on printed pp. 66–67:
+The principal new reading is the two-part personnel order on printed pp66–67:
 Graf von Seyboltstorff is to move from command of the 4th Bavarian Chevaulegers
 to command of the 4th Bavarian Cavalry Brigade; Oberstlt. Karl von Grundherr,
 marked `ROEM1`, has already been ordered as the replacement. Both unit numerals
