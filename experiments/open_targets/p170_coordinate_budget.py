@@ -116,6 +116,70 @@ def operational_reference(record_id, key, path, source, frame, body, coefficient
     }
 
 
+def necessary_not_sufficient_example(keys, target):
+    """A real numerical telegram window can pass D alone without matching p170."""
+    path = ROOT / "experiments/nov4_repetition_and_connections/inputs.json"
+    data = read_json(path)
+    record = next(r for r in data["records"] if r["id"] == "p121_A1")
+    source = "".join("".join(record["source_rows"]).split())
+    native_key = keys["Nov4-6"]
+    assert data["key"]["square"] == native_key["square"]
+    assert data["key"]["column_rank_order"] == native_key["column_rank_order"]
+    assert len(source) == record["source_slots"] == 236
+    assert set(source) <= set(COORDINATES)
+    raw = decrypt(source, native_key["column_rank_order"], native_key["square"])
+    assert raw == record["expected_raw"]
+    window = raw[:LENGTH]
+    assert len(window) == LENGTH and "?" not in window
+    key = keys["Nov10-12"]
+    costs = character_costs(key["square"])
+    ordinary = sum(costs.get(ch, 0) for ch in window if ch.isalpha())
+    assert ordinary == BUDGET
+    missing = sorted(set(ALPHABET) - set(key["square"]))
+    target_counts = Counter(target)
+    trace = []
+    fd_digits = set()
+    for fill in itertools.permutations(missing):
+        it = iter(fill)
+        square = "".join(next(it) if c == "?" else c for c in key["square"])
+        pairs = dict(zip(square, itertools.product(COORDINATES, repeat=2)))
+        independent = Counter(c for ch in window for c in pairs[ch])
+        wire = encrypt(window, key["column_rank_order"], square)
+        assert Counter(wire) == independent and len(wire) == len(target)
+        # Equal-length strings need at least half their histogram L1 distance
+        # in substitutions, independently of every coordinate permutation.
+        difference = sum(abs(independent[c] - target_counts[c]) for c in COORDINATES)
+        assert difference % 2 == 0
+        trace.append([square, independent["D"], difference // 2,
+                      [independent[c] for c in COORDINATES]])
+        if independent["D"] == BUDGET:
+            fd_digits.add(square[2 * 6 + 1])
+    distribution = Counter(row[1] for row in trace)
+    assert len(trace) == 120 and distribution == {7: 72, 8: 24, 10: 24}
+    assert fd_digits == set("679")
+    assert min(row[2] for row in trace) == 18
+    return {
+        "source_record": record["id"],
+        "source_inputs": str(path.relative_to(ROOT)),
+        "native_key_id": native_key["id"],
+        "literal_source_sha256": digest(source),
+        "native_raw_plaintext_sha256": digest(raw),
+        "native_source_substitutions_or_fills": 0,
+        "window_start": 0, "window_length": LENGTH,
+        "unrestored_raw_window": window,
+        "digits_in_window": sum(ch.isdigit() for ch in window),
+        "comparison_square_id": key["id"],
+        "ordinary_letter_D_cost": ordinary,
+        "digit_completions_checked": len(trace),
+        "full_D_count_distribution": {str(n): count for n, count in sorted(distribution.items())},
+        "FD_digits_meeting_seven_Ds": "".join(sorted(fd_digits)),
+        "completions_matching_all_six_p170_coordinate_counts": sum(row[2] == 0 for row in trace),
+        "minimum_full_histogram_substitution_lower_bound": min(row[2] for row in trace),
+        "control_trace_sha256": digest(json.dumps(trace, separators=(",", ":"))),
+        "interpretation": "A selected actual telegram window with dates and reference digits illustrates that the D budget is necessary, not sufficient. The source was encrypted under Nov4–6; its hypothetical Nov10–12 encodings are not a p170 reading. Even the best complete-square choice differs from p170's full six-coordinate histogram by at least 18 substitutions. This selected example is not a probability estimate.",
+    }
+
+
 def core_record():
     messages = read_json(ROOT / "data/messages.json")["messages"]
     target = next(m for m in messages if m["id"] == "p170")
@@ -187,6 +251,7 @@ def core_record():
                 p179["source_literal"], p179["analysis_frame"], p179["raw"]["plaintext"],
                 rows[1]["ordinary_letter_D_coefficients"]),
         ],
+        "necessary_not_sufficient_example": necessary_not_sufficient_example(keys, literal),
         "heldout_sources": references,
         "reference_method": "All 53-character sliding windows, stride one, separately within each pinned book and each plain or sentence_x normalization from p73_histogram.py. Only known ordinary-letter D costs are counted. No windows cross books; overlapping or differently normalized windows are not independent evidence.",
         "interpretation": "A necessary check for proposed readings and a reason to lower the priority of a complete ordinary-German body under these two squares. No key is excluded; no truncation, plaintext or digit assignment is established. Another square, truncation, unusual vocabulary, extensive numerals, code traffic or another language remains possible. Book comparisons are descriptive, not p-values.",
@@ -242,7 +307,7 @@ def main():
         if not args.cache:
             expected.pop("reference_results")
         assert result == expected, "Recorded result differs from independent replay"
-    print("p170 source, square coefficients, all 122 digit completions, and operational references: verified.")
+    print("p170 source, square coefficients, all 122 digit completions, operational references, and D-budget counterexample: verified.")
     print("Held-out book windows: " + ("recomputed and verified." if args.cache and not args.output
           else "recomputed." if args.cache else "not rerun; add --cache to reproduce them."))
 

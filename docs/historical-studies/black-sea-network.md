@@ -67,6 +67,20 @@ The sale proposal is attentive to a world in which ownership may offer little se
 
 These are not merely commercial footnotes to troop movement. They show the attempt to preserve value and allocate risk as German control receded. The texts record proposals, reports and instructions; they do not by themselves establish a completed sale. The exact price is secure, but adding “marks,” “crowns” or another currency would change the document.
 
+The ship's later status can be followed in the **1919–20 edition of Lloyd's
+Register of Shipping, Volume II—Steamers, with supplements**. Its
+[main entry 27246](https://archive.org/details/HECROS1920ST/page/n1016/mode/1up)
+lists *Sueh*, formerly *Corcovado*, under a Turkish flag, and carries a
+correction referring to supplementary entry 34203. That
+[supplementary entry](https://archive.org/details/HECROS1920ST/page/n1294/mode/1up)
+restores the name *Corcovado* and records **French Government** ownership
+and a **French** flag. The explicit cross-reference identifies the same
+ship in both entries. This contemporary register supplies a later recorded
+status; the exact transfer date and whether the intercepted ten-million
+proposal was completed remain unestablished. Our
+[source review](../../data/reviews/lloyds_corcovado_context.json) records the
+inspected title page, entries and their limits.
+
 ## Why the guard at Tiflis was a different question
 
 By 25 November, the Foreign Office was explaining to General von Kress why a German guard could still be in Tiflis. The [three-part p218 A message](../../cases/caucasus/p218_A.md) paraphrases the armistice's treatment of territory formerly belonging to Russia and adds:

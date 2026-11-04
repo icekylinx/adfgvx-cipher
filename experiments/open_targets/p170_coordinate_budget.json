@@ -125,6 +125,31 @@
       "unresolved_character_policy": "Zero contribution; no editorial restoration."
     }
   ],
+  "necessary_not_sufficient_example": {
+    "source_record": "p121_A1",
+    "source_inputs": "experiments/nov4_repetition_and_connections/inputs.json",
+    "native_key_id": "Nov4-6",
+    "literal_source_sha256": "814f20b101af61c70b648fae13743dd52c47eaeefc36a5007955d186632b76f6",
+    "native_raw_plaintext_sha256": "70cf45b78613e05ed4e32581cde46ac14fc06098f11aa2e223ce8d5f58709e42",
+    "native_source_substitutions_or_fills": 0,
+    "window_start": 0,
+    "window_length": 53,
+    "unrestored_raw_window": "ZUXTELEGEAMMXVOMX30X10XNRX8538X18XZXAX1XKXCXHATTEXUMU",
+    "digits_in_window": 11,
+    "comparison_square_id": "Nov10-12",
+    "ordinary_letter_D_cost": 7,
+    "digit_completions_checked": 120,
+    "full_D_count_distribution": {
+      "7": 72,
+      "8": 24,
+      "10": 24
+    },
+    "FD_digits_meeting_seven_Ds": "679",
+    "completions_matching_all_six_p170_coordinate_counts": 0,
+    "minimum_full_histogram_substitution_lower_bound": 18,
+    "control_trace_sha256": "ee8de477fe3e5ab3870c27a15b2654e0109663e635a3bf7ae2e381af0dcc1321",
+    "interpretation": "A selected actual telegram window with dates and reference digits illustrates that the D budget is necessary, not sufficient. The source was encrypted under Nov4\u20136; its hypothetical Nov10\u201312 encodings are not a p170 reading. Even the best complete-square choice differs from p170's full six-coordinate histogram by at least 18 substitutions. This selected example is not a probability estimate."
+  },
   "heldout_sources": [
     {
       "id": 71877,

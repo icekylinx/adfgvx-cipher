@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "status": "primary_source_visually_inspected",
+  "checked_utc": "2026-11-04",
+  "research_credit": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "repository_scan_files_added": false,
+  "source": {
+    "title": "Lloyd’s Register of Shipping, 1919–20, Volume II—Steamers, with supplements",
+    "catalogue_title": "Lloyd’s Register of Shipping 1920 Steamers",
+    "internet_archive_identifier": "HECROS1920ST",
+    "metadata_url": "https://archive.org/metadata/HECROS1920ST",
+    "digitization_credit": "Lloyd's Register Foundation, Heritage & Education Centre",
+    "metadata_license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "metadata_snapshot": {
+      "filename": "HECROS1920ST_meta.json",
+      "sha256": "5760c418ef9cf2bdf0de99498e8e68e1897904bd9ee48f466d183e3d1902dc5e",
+      "bytes": 8173
+    }
+  },
+  "review": {
+    "method": "OCR located the entries; title page, main entry, supplementary entry, and row crops were then visually inspected. The main entry explicitly points to the same supplementary entry.",
+    "cross_reference_verified": true,
+    "exact_supplement_publication_date_established": false,
+    "independent_visual_review": "The title page, main entry and supplementary entry were independently visually checked; the names, flags, owner field and explicit cross-reference agree."
+  },
+  "pages": [
+    {
+      "leaf": 10,
+      "printed_locator": "Title page",
+      "stable_page_url": "https://archive.org/details/HECROS1920ST/page/n10/mode/1up",
+      "image_source_url": "https://ia600800.us.archive.org/BookReader/BookReaderImages.php?zip=%2F34%2Fitems%2FHECROS1920ST%2FROS1920STcompressed_jp2.zip&file=ROS1920STcompressed_jp2%2FROS1920STcompressed_0010.jp2&id=HECROS1920ST&scale=2&rotate=0",
+      "image": {
+        "filename": "lloyds_1920_leaf10.jpg",
+        "sha256": "579a79b9f64392892539ff282e16f3055bf4a208df5e51234a61bad341b8ce5f",
+        "bytes": 193349
+      },
+      "visually_observed": {
+        "period_start": "1919-07-01",
+        "period_end": "1920-06-30",
+        "volume": "II—Steamers",
+        "imprint_year": 1919
+      }
+    },
+    {
+      "leaf": 1016,
+      "printed_locator": "SUD–SUI, entry 27246",
+      "stable_page_url": "https://archive.org/details/HECROS1920ST/page/n1016/mode/1up",
+      "image_source_url": "https://ia600800.us.archive.org/BookReader/BookReaderImages.php?zip=%2F34%2Fitems%2FHECROS1920ST%2FROS1920STcompressed_jp2.zip&file=ROS1920STcompressed_jp2%2FROS1920STcompressed_1016.jp2&id=HECROS1920ST&scale=2&rotate=0",
+      "image": {
+        "filename": "lloyds_1920_leaf1016.jpg",
+        "sha256": "a75b8026d4e90d688fcec8fb57f78949652a47d4a66d05cc95fd292f98322ab2",
+        "bytes": 410075
+      },
+      "visually_observed": {
+        "name": "Sueh",
+        "former_name": "Corcovado",
+        "flag": "Turkish",
+        "owner_field": "blank",
+        "correction_new_name": "Corcovado",
+        "correction_target_entry": 34203,
+        "correction_target_section": "Supplement"
+      },
+      "review_crop": {
+        "filename": "lloyds_1920_leaf1016_row.png",
+        "sha256": "2adabaf808299c49ff925e37929032db0138d487822eac07506a549b5625c836",
+        "bytes": 179551,
+        "operation": "Rectangular crop only; no resampling or text alteration; retained in research scratch, not repository."
+      }
+    },
+    {
+      "leaf": 1294,
+      "printed_locator": "Supplementary page D, entry 34203",
+      "stable_page_url": "https://archive.org/details/HECROS1920ST/page/n1294/mode/1up",
+      "image_source_url": "https://ia600800.us.archive.org/BookReader/BookReaderImages.php?zip=%2F34%2Fitems%2FHECROS1920ST%2FROS1920STcompressed_jp2.zip&file=ROS1920STcompressed_jp2%2FROS1920STcompressed_1294.jp2&id=HECROS1920ST&scale=2&rotate=0",
+      "image": {
+        "filename": "lloyds_1920_leaf1294.jpg",
+        "sha256": "96578c783db7b0ffd5a330f0434472e6daa4859140063e4f96194f1214b71212",
+        "bytes": 372066
+      },
+      "visually_observed": {
+        "name": "Corcovado",
+        "former_names_in_printed_order": [
+          "Sueh",
+          "Corcovado"
+        ],
+        "owner": "French Government",
+        "flag": "French",
+        "gross_tonnage": 8099,
+        "construction_year_as_printed": 1907,
+        "builder": "Frd. Krupp Akt. Ges.",
+        "construction_place": "Kiel"
+      },
+      "review_crop": {
+        "filename": "lloyds_1920_leaf1294_row.png",
+        "sha256": "af594ed04a9eb6e6f0e132ec88882541651e7e1e3cc810a9dc7267d3420ffd73",
+        "bytes": 104410,
+        "operation": "Rectangular crop only; no resampling or text alteration; retained in research scratch, not repository."
+      }
+    }
+  ],
+  "supported_conclusion": "The inspected 1919–20 register copy records Sueh under a Turkish flag, corrects its name to Corcovado, and refers to supplementary entry 34203, which lists French Government ownership and a French flag.",
+  "limits": [
+    "This records what the contemporary register and its correction state; it is not a national registration certificate or a prize-court judgment.",
+    "The title period and catalogue year do not establish the exact date of transfer, correction, or supplementary publication.",
+    "The evidence does not establish the amount paid or completion of the intercepted ten-million proposal, whose currency is unstated.",
+    "The main COR section also includes different ships named Corcovado; the Sueh cross-reference, construction and tonnage identify the intended vessel."
+  ],
+  "archival_followup": {
+    "status": "exact_case_locator_verified; underlying_case_documents_not_inspected",
+    "source_type": "Official modern archival finding aid, not the prize judgment itself",
+    "repository": "Archives nationales (France), Pierrefitte-sur-Seine",
+    "title": "Archives du Conseil des prises (1854–1965), répertoire numérique détaillé du versement 20060046",
+    "finding_aid_id": "FRAN_IR_023544",
+    "finding_aid_url": "https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_023544",
+    "pdf_url": "https://www.siv.archives-nationales.culture.gouv.fr/siv/rechercheconsultation/consultation/ir/pdfIR.action?irId=FRAN_IR_023544",
+    "xml_url": "https://www.siv.archives-nationales.culture.gouv.fr/siv/rechercheconsultation/consultation/ir/exportXML.action?irId=FRAN_IR_023544",
+    "case_record_url": "https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_023544/d_1_2_14_10",
+    "pdf_snapshot": {
+      "filename": "fran_ir_023544.pdf",
+      "sha256": "5f0bba06f23cf18e8b6619a80f2af6d76885f052f944df6f86cf8e56a08fadb3",
+      "bytes": 245438
+    },
+    "xml_snapshot": {
+      "filename": "fran_ir_023544.xml",
+      "sha256": "95dd7c2ba7f1e63bb9ae194673a0a9a77ff0302acb0826bc8236c01e7800aa24",
+      "bytes": 343066
+    },
+    "locator": {
+      "cote": "20060046/15",
+      "cote_evidence": "Printed/PDF page 33 heads the group Dossiers n° 201–225 with cote 20060046/15. The XML parent of case 210 has the same cote.",
+      "case_number": 210,
+      "entry_printed_and_pdf_page": 34,
+      "xml_component_id": "d_1_2_14_10",
+      "catalogue_name": "Souhl - ex Corcovado",
+      "catalogue_vessel_type": "vapeur",
+      "catalogue_nationality": "turque",
+      "associated_date_as_printed": "31/01/1919",
+      "associated_date_xml_normal": "1919-01-31/1919-01-31",
+      "date_label": null,
+      "date_caution": "The case entry prints an unlabelled date and the XML supplies a generic unitdate, unlike neighbouring entries explicitly labelled as capture or seizure dates. Do not identify it as a judgment, confiscation, sale, transfer, or capture date without the underlying document."
+    },
+    "review": {
+      "method": "Downloaded the public PDF and XML; parsed the exact case and its parent; visually inspected PDF pages 33 and 34.",
+      "underlying_case_documents_inspected": false,
+      "judgment_date_established": false,
+      "independent_visual_review": "A second visual review checked PDF pages33 and34, including the cote20060046/15, dossier210, the ship name and the unlabelled date."
+    },
+    "scope": "A precise route to the original case documents. It adds no judgment text, reasoning, transaction amount, or proof of completion of the ten-million proposal, whose currency is unstated."
+  }
+}
