@@ -1,0 +1,901 @@
+{
+  "schema": "adfgvx-nov25-evening-place-witness-certificate-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "input_sha256": "59552b4ccd69befc6fca8dc0ba3c8a269bf1608492775063fa3f0653818b9cb2",
+  "indexing": "Zero-based positions; ranges end-exclusive.",
+  "summary": {
+    "physical_sources_reused": 3,
+    "recipient_observed_coordinates": 220,
+    "donor_place_observed_coordinates": 26,
+    "donor_place_repairs": 0,
+    "new_recipient_substitutions": 1,
+    "total_recipient_substitutions": 2,
+    "source_mask_fills": 0,
+    "source_geometry_changes": 0,
+    "recipient_partial_fixed_positions_before": 103,
+    "recipient_partial_fixed_positions_after": 103,
+    "provisioning_army_positions_interpreted": 2,
+    "provisioning_context_new_substitutions": 0,
+    "provisioning_context_retained_substitutions": 3,
+    "all_word_starts_checked": 98,
+    "minimum_cost": 1,
+    "minimum_word_starts": [
+      69
+    ]
+  },
+  "records": {
+    "recipient": {
+      "id": "p220_B",
+      "key": {
+        "id": "Nov25-28",
+        "coordinate_order": "ADFGVX",
+        "column_rank_order": [
+          21,
+          9,
+          6,
+          14,
+          10,
+          20,
+          1,
+          16,
+          18,
+          7,
+          15,
+          4,
+          11,
+          22,
+          5,
+          17,
+          23,
+          2,
+          12,
+          8,
+          19,
+          3,
+          13
+        ],
+        "column_count": 23,
+        "square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+        "square_rows": [
+          "HQ05DK",
+          "ZAOYM6",
+          "BEIWTJ",
+          "7PSCFL",
+          "V94132",
+          "NGURX8"
+        ],
+        "known_cell_count": 36,
+        "missing_plaintext_symbols": "",
+        "provenance": [
+          {
+            "type": "published_solver_key",
+            "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+            "comment": 4,
+            "author": "George Lasry",
+            "date": "2017-02-24"
+          },
+          {
+            "type": "author_uploaded_research_paper",
+            "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+            "authors": [
+              "George Lasry",
+              "Ingo Niebel",
+              "Nils Kopal",
+              "Arno Wacker"
+            ],
+            "doi": "10.1080/01611194.2016.1169461",
+            "table": 2,
+            "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+            "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+          }
+        ],
+        "notes": [],
+        "baseline_square": "HQ05DKZAOYM6BEIWTJ7PSCFLV94132NGURX8",
+        "baseline_differences": [],
+        "category": "published_period_or_CHI_key"
+      },
+      "native_ciphertext": "XVVFDGADGFVGFDAFXXXAFDFGXADXVVVFAVVXXGGXDDFXFAFFGAVXDFGXAVFXDDFDAFDFGFFDAVAVDVVXDFVXDXFVXDGFGVDVFXVAXGDVVFXXFVFFADXXDFVXVDVDAVXFAFFXDADXXDXVGVXFAFGADAAXGXXDAGDADDXAXDAFADGGGXDXFXVVDADXVGVGFGFDDDXDDGFDDFDVGFDFFXGADXAXFGDX",
+      "prior_edition_ciphertext": "XVVFDGADGFVGFDAFXXXAFDFGXADXVVVFAVVXXGGXDDFXFAFFGAVXDFGXAVFXDDFDAFDFGFFDAVAVDVVXDFVXDXFVXDGFGVDVFXVAXGDVVFXXFVFFADXXDFVXVDVDAVXFAFFXDADXXDXVGVXFAFGADAAXGXXDAXDADDXAXDAFADGGGXDXFXVVDADXVGVGFGFDDDXDDGFDDFDVGFDFFXGADXAXFGDX",
+      "native_plaintext": "ABENDMELDUNG13XJJ22ALPEXKX16X1ZUIGEXESHABE7MITANFAENGENERREICHT1J0IDXTISHAFOELDVARXPRDXNAGQMAGOCS81J8XKONDOROS",
+      "place_range": [
+        69,
+        82
+      ],
+      "place_positions": [
+        {
+          "plaintext_index": 69,
+          "pair": "FV",
+          "source_indices": [
+            198,
+            82
+          ],
+          "cell": 16,
+          "value": "T"
+        },
+        {
+          "plaintext_index": 70,
+          "pair": "FF",
+          "source_indices": [
+            53,
+            130
+          ],
+          "cell": 14,
+          "value": "I"
+        },
+        {
+          "plaintext_index": 71,
+          "pair": "GF",
+          "source_indices": [
+            92,
+            188
+          ],
+          "cell": 20,
+          "value": "S"
+        },
+        {
+          "plaintext_index": 72,
+          "pair": "AA",
+          "source_indices": [
+            6,
+            150
+          ],
+          "cell": 0,
+          "value": "H"
+        },
+        {
+          "plaintext_index": 73,
+          "pair": "DD",
+          "source_indices": [
+            169,
+            63
+          ],
+          "cell": 7,
+          "value": "A"
+        },
+        {
+          "plaintext_index": 74,
+          "pair": "GV",
+          "source_indices": [
+            140,
+            34
+          ],
+          "cell": 22,
+          "value": "F"
+        },
+        {
+          "plaintext_index": 75,
+          "pair": "DF",
+          "source_indices": [
+            102,
+            208
+          ],
+          "cell": 8,
+          "value": "O"
+        },
+        {
+          "plaintext_index": 76,
+          "pair": "FD",
+          "source_indices": [
+            44,
+            160
+          ],
+          "cell": 13,
+          "value": "E"
+        },
+        {
+          "plaintext_index": 77,
+          "pair": "GX",
+          "source_indices": [
+            217,
+            16
+          ],
+          "cell": 23,
+          "value": "L"
+        },
+        {
+          "plaintext_index": 78,
+          "pair": "AV",
+          "source_indices": [
+            112,
+            73
+          ],
+          "cell": 4,
+          "value": "D"
+        },
+        {
+          "plaintext_index": 79,
+          "pair": "VA",
+          "source_indices": [
+            179,
+            25
+          ],
+          "cell": 24,
+          "value": "V"
+        },
+        {
+          "plaintext_index": 80,
+          "pair": "DD",
+          "source_indices": [
+            121,
+            199
+          ],
+          "cell": 7,
+          "value": "A"
+        },
+        {
+          "plaintext_index": 81,
+          "pair": "XG",
+          "source_indices": [
+            83,
+            54
+          ],
+          "cell": 33,
+          "value": "R"
+        }
+      ]
+    },
+    "donor": {
+      "id": "p229_A1",
+      "key": {
+        "id": "Nov28-Dec1",
+        "square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+        "column_rank_order": [
+          9,
+          3,
+          14,
+          10,
+          2,
+          8,
+          15,
+          4,
+          16,
+          11,
+          5,
+          13,
+          6,
+          12,
+          1,
+          7
+        ]
+      },
+      "native_ciphertext": "GAAGFDFXXXVVGVVAAFDFFVFFFAAVDFXFDVAVFFFXXAFGVXVDVVFGGFDFAXAAXAVVVVFVVFFVGVFXDVXVAVGFVGXXFVDDDAVVGVFAXXVVVFADGDXXDVFGFVXVDGVVGAVGAGXXGFGGXVDAVFXFXDFGXDDFDFXXGAAFXAVDGFGFXGAFFXFGDFAAGAVDFXAGAFGGAAFVDFVAFGAXVXGVFAXFFVFAAGFVVFGFFAAF",
+      "prior_edition_ciphertext": "GAAGFDFXXXVVGVVAAFDFFVFFFAAVDFXFDVAVFFFXXAFGVXVDVVFGGFDFAXAAXAVVVVFVVFFVGVFXDVXVAVGFVGXXFVDDDAVVGVFAXXVVVFADGDXXDVFGFVXVDGVVGAVGAGXXGFGGXVDAVFXFXDFGXDDFDFXXGAAFVAVDGFGFXGAFFXFGDFAAGAVDFXAGAFGGAAFVDFVAFGAXVXGVFAXFFVFAAGFVVFGFFAAF",
+      "native_plaintext": "ABENDMELDGYVY26YXXYY8YRYDYISTM3TANFANGBISTISZAFOELDVARAUFGERUECKTYUNTERBRINGUNGSRAUMDERJX5YUYJX0YIYDYUNVERAENDERTY",
+      "place_range": [
+        41,
+        54
+      ],
+      "place_positions": [
+        {
+          "plaintext_index": 41,
+          "pair": "GF",
+          "source_indices": [
+            190,
+            133
+          ],
+          "cell": 20,
+          "value": "T"
+        },
+        {
+          "plaintext_index": 42,
+          "pair": "FV",
+          "source_indices": [
+            19,
+            104
+          ],
+          "cell": 16,
+          "value": "I"
+        },
+        {
+          "plaintext_index": 43,
+          "pair": "XV",
+          "source_indices": [
+            205,
+            48
+          ],
+          "cell": 34,
+          "value": "S"
+        },
+        {
+          "plaintext_index": 44,
+          "pair": "VX",
+          "source_indices": [
+            219,
+            148
+          ],
+          "cell": 29,
+          "value": "Z"
+        },
+        {
+          "plaintext_index": 45,
+          "pair": "VD",
+          "source_indices": [
+            62,
+            176
+          ],
+          "cell": 25,
+          "value": "A"
+        },
+        {
+          "plaintext_index": 46,
+          "pair": "DV",
+          "source_indices": [
+            76,
+            162
+          ],
+          "cell": 10,
+          "value": "F"
+        },
+        {
+          "plaintext_index": 47,
+          "pair": "DD",
+          "source_indices": [
+            5,
+            90
+          ],
+          "cell": 7,
+          "value": "O"
+        },
+        {
+          "plaintext_index": 48,
+          "pair": "VA",
+          "source_indices": [
+            119,
+            34
+          ],
+          "cell": 24,
+          "value": "E"
+        },
+        {
+          "plaintext_index": 49,
+          "pair": "GG",
+          "source_indices": [
+            191,
+            134
+          ],
+          "cell": 21,
+          "value": "L"
+        },
+        {
+          "plaintext_index": 50,
+          "pair": "FF",
+          "source_indices": [
+            20,
+            105
+          ],
+          "cell": 14,
+          "value": "D"
+        },
+        {
+          "plaintext_index": 51,
+          "pair": "GV",
+          "source_indices": [
+            206,
+            49
+          ],
+          "cell": 22,
+          "value": "V"
+        },
+        {
+          "plaintext_index": 52,
+          "pair": "VD",
+          "source_indices": [
+            220,
+            149
+          ],
+          "cell": 25,
+          "value": "A"
+        },
+        {
+          "plaintext_index": 53,
+          "pair": "VF",
+          "source_indices": [
+            63,
+            177
+          ],
+          "cell": 26,
+          "value": "R"
+        }
+      ]
+    }
+  },
+  "all_word_start_prices": [
+    {
+      "plaintext_start": 0,
+      "observed_substitutions": 20
+    },
+    {
+      "plaintext_start": 1,
+      "observed_substitutions": 23
+    },
+    {
+      "plaintext_start": 2,
+      "observed_substitutions": 20
+    },
+    {
+      "plaintext_start": 3,
+      "observed_substitutions": 23
+    },
+    {
+      "plaintext_start": 4,
+      "observed_substitutions": 23
+    },
+    {
+      "plaintext_start": 5,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 6,
+      "observed_substitutions": 25
+    },
+    {
+      "plaintext_start": 7,
+      "observed_substitutions": 21
+    },
+    {
+      "plaintext_start": 8,
+      "observed_substitutions": 18
+    },
+    {
+      "plaintext_start": 9,
+      "observed_substitutions": 23
+    },
+    {
+      "plaintext_start": 10,
+      "observed_substitutions": 24
+    },
+    {
+      "plaintext_start": 11,
+      "observed_substitutions": 24
+    },
+    {
+      "plaintext_start": 12,
+      "observed_substitutions": 23
+    },
+    {
+      "plaintext_start": 13,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 14,
+      "observed_substitutions": 21
+    },
+    {
+      "plaintext_start": 15,
+      "observed_substitutions": 18
+    },
+    {
+      "plaintext_start": 16,
+      "observed_substitutions": 18
+    },
+    {
+      "plaintext_start": 17,
+      "observed_substitutions": 24
+    },
+    {
+      "plaintext_start": 18,
+      "observed_substitutions": 23
+    },
+    {
+      "plaintext_start": 19,
+      "observed_substitutions": 20
+    },
+    {
+      "plaintext_start": 20,
+      "observed_substitutions": 24
+    },
+    {
+      "plaintext_start": 21,
+      "observed_substitutions": 23
+    },
+    {
+      "plaintext_start": 22,
+      "observed_substitutions": 24
+    },
+    {
+      "plaintext_start": 23,
+      "observed_substitutions": 21
+    },
+    {
+      "plaintext_start": 24,
+      "observed_substitutions": 24
+    },
+    {
+      "plaintext_start": 25,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 26,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 27,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 28,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 29,
+      "observed_substitutions": 20
+    },
+    {
+      "plaintext_start": 30,
+      "observed_substitutions": 20
+    },
+    {
+      "plaintext_start": 31,
+      "observed_substitutions": 23
+    },
+    {
+      "plaintext_start": 32,
+      "observed_substitutions": 20
+    },
+    {
+      "plaintext_start": 33,
+      "observed_substitutions": 23
+    },
+    {
+      "plaintext_start": 34,
+      "observed_substitutions": 21
+    },
+    {
+      "plaintext_start": 35,
+      "observed_substitutions": 16
+    },
+    {
+      "plaintext_start": 36,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 37,
+      "observed_substitutions": 20
+    },
+    {
+      "plaintext_start": 38,
+      "observed_substitutions": 21
+    },
+    {
+      "plaintext_start": 39,
+      "observed_substitutions": 19
+    },
+    {
+      "plaintext_start": 40,
+      "observed_substitutions": 18
+    },
+    {
+      "plaintext_start": 41,
+      "observed_substitutions": 23
+    },
+    {
+      "plaintext_start": 42,
+      "observed_substitutions": 20
+    },
+    {
+      "plaintext_start": 43,
+      "observed_substitutions": 17
+    },
+    {
+      "plaintext_start": 44,
+      "observed_substitutions": 19
+    },
+    {
+      "plaintext_start": 45,
+      "observed_substitutions": 19
+    },
+    {
+      "plaintext_start": 46,
+      "observed_substitutions": 21
+    },
+    {
+      "plaintext_start": 47,
+      "observed_substitutions": 25
+    },
+    {
+      "plaintext_start": 48,
+      "observed_substitutions": 20
+    },
+    {
+      "plaintext_start": 49,
+      "observed_substitutions": 24
+    },
+    {
+      "plaintext_start": 50,
+      "observed_substitutions": 25
+    },
+    {
+      "plaintext_start": 51,
+      "observed_substitutions": 20
+    },
+    {
+      "plaintext_start": 52,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 53,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 54,
+      "observed_substitutions": 24
+    },
+    {
+      "plaintext_start": 55,
+      "observed_substitutions": 23
+    },
+    {
+      "plaintext_start": 56,
+      "observed_substitutions": 23
+    },
+    {
+      "plaintext_start": 57,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 58,
+      "observed_substitutions": 19
+    },
+    {
+      "plaintext_start": 59,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 60,
+      "observed_substitutions": 24
+    },
+    {
+      "plaintext_start": 61,
+      "observed_substitutions": 25
+    },
+    {
+      "plaintext_start": 62,
+      "observed_substitutions": 19
+    },
+    {
+      "plaintext_start": 63,
+      "observed_substitutions": 20
+    },
+    {
+      "plaintext_start": 64,
+      "observed_substitutions": 20
+    },
+    {
+      "plaintext_start": 65,
+      "observed_substitutions": 21
+    },
+    {
+      "plaintext_start": 66,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 67,
+      "observed_substitutions": 24
+    },
+    {
+      "plaintext_start": 68,
+      "observed_substitutions": 23
+    },
+    {
+      "plaintext_start": 69,
+      "observed_substitutions": 1
+    },
+    {
+      "plaintext_start": 70,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 71,
+      "observed_substitutions": 25
+    },
+    {
+      "plaintext_start": 72,
+      "observed_substitutions": 19
+    },
+    {
+      "plaintext_start": 73,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 74,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 75,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 76,
+      "observed_substitutions": 19
+    },
+    {
+      "plaintext_start": 77,
+      "observed_substitutions": 19
+    },
+    {
+      "plaintext_start": 78,
+      "observed_substitutions": 23
+    },
+    {
+      "plaintext_start": 79,
+      "observed_substitutions": 24
+    },
+    {
+      "plaintext_start": 80,
+      "observed_substitutions": 24
+    },
+    {
+      "plaintext_start": 81,
+      "observed_substitutions": 19
+    },
+    {
+      "plaintext_start": 82,
+      "observed_substitutions": 21
+    },
+    {
+      "plaintext_start": 83,
+      "observed_substitutions": 23
+    },
+    {
+      "plaintext_start": 84,
+      "observed_substitutions": 23
+    },
+    {
+      "plaintext_start": 85,
+      "observed_substitutions": 20
+    },
+    {
+      "plaintext_start": 86,
+      "observed_substitutions": 20
+    },
+    {
+      "plaintext_start": 87,
+      "observed_substitutions": 24
+    },
+    {
+      "plaintext_start": 88,
+      "observed_substitutions": 18
+    },
+    {
+      "plaintext_start": 89,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 90,
+      "observed_substitutions": 23
+    },
+    {
+      "plaintext_start": 91,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 92,
+      "observed_substitutions": 20
+    },
+    {
+      "plaintext_start": 93,
+      "observed_substitutions": 23
+    },
+    {
+      "plaintext_start": 94,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 95,
+      "observed_substitutions": 22
+    },
+    {
+      "plaintext_start": 96,
+      "observed_substitutions": 23
+    },
+    {
+      "plaintext_start": 97,
+      "observed_substitutions": 23
+    }
+  ],
+  "new_source_change": {
+    "source_index": 6,
+    "from": "A",
+    "to": "D"
+  },
+  "prior_source_changes": [
+    {
+      "source_index": 157,
+      "from": "G",
+      "to": "X"
+    }
+  ],
+  "total_recipient_source_changes": [
+    {
+      "source_index": 6,
+      "from": "A",
+      "to": "D"
+    },
+    {
+      "source_index": 157,
+      "from": "G",
+      "to": "X"
+    }
+  ],
+  "recipient_edition_ciphertext": "XVVFDGDDGFVGFDAFXXXAFDFGXADXVVVFAVVXXGGXDDFXFAFFGAVXDFGXAVFXDDFDAFDFGFFDAVAVDVVXDFVXDXFVXDGFGVDVFXVAXGDVVFXXFVFFADXXDFVXVDVDAVXFAFFXDADXXDXVGVXFAFGADAAXGXXDAXDADDXAXDAFADGGGXDXFXVVDADXVGVGFGFDDDXDDGFDDFDVGFDFFXGADXAXFGDX",
+  "recipient_baseline_edition": "ABENDMELDUNG13XJJ22ALPEXKX16X1ZUIGEXESHABENMITANFAENGENERREICHT1J0IDXTISZAFOELDVARXPRDXNAGQMAGOCS81J8XKONDOROS",
+  "conditional_partial_square": "HY??DKZAO?M?BEIWT16PSCFLVJ?2??NGURX?",
+  "recipient_conditional_edition": "ABENDMELDUNG2?X11??ALPEXKX2?X2ZUIGEXESHABENMITANFAENGENERREICHT21?IDXTISZAFOELDVARXPRDXNAGYMAGOCS?21?XKONDOROS",
+  "verified_recipient_display": {
+    "range": [
+      36,
+      110
+    ],
+    "german": "Es haben mit Anfaengen erreicht: 21?ID, Tiszafoeldvar. PRD, Nagymagocs. ?21?, Kondoros."
+  },
+  "provisioning_context": {
+    "id": "p219_D1",
+    "range": [
+      43,
+      45
+    ],
+    "baseline_labels": "JJ",
+    "conditional_labels": "11",
+    "pairs": [
+      {
+        "plaintext_index": 43,
+        "pair": "FX",
+        "source_indices": [
+          10,
+          83
+        ]
+      },
+      {
+        "plaintext_index": 44,
+        "pair": "FX",
+        "source_indices": [
+          53,
+          133
+        ]
+      }
+    ],
+    "unchanged_observed_substitutions": 3,
+    "german": "Infolge verringerter Verpflegungsstaerke fuer 11. Armee keine Verpflegung mehr erforderlich.",
+    "native_ciphertext": "DDFXFVXDVFFAXDGXVXAFXDFFXXXFVGXDFAAXAGDXGXGXFDGDFVGFFFDGGFXDFDXAGGDGGDDFAFDXFFDXXAGXFDXFGDVFDFAXVXGGGAXVXVADDFXDFDGGAXDXFXVGGXDFXGXDFXVVGVFXAVGDFFGDDDAFDXAFDXDFVGGXAF",
+    "native_plaintext": "INFOLGEVERRINGERTERXVERPFLEGUNGSSTAERKEFUERJJXARMEEKEINEVERPFLEGNNGFEHRERFOGDERLICH",
+    "conditional_edition": "INFOLGEVERRINGERTERXVERPFLEGUNGSSTAERKEFUER11XARMEEKEINEVERPFLEGUNGMEHRERFORDERLICH"
+  },
+  "full_roundtrip_witnesses": {
+    "recipient_native": {
+      "square": "HY03DKZAO4M5BEIWT16PSCFLVJ7289NGURXQ",
+      "ciphertext": "XVVFDGADGFVGFDAFXXXAFDFGXADXVVVFAVVXXGGXDDFXFAFFGAVXDFGXAVFXDDFDAFDFGFFDAVAVDVVXDFVXDXFVXDGFGVDVFXVAXGDVVFXXFVFFADXXDFVXVDVDAVXFAFFXDADXXDXVGVXFAFGADAAXGXXDAGDADDXAXDAFADGGGXDXFXVVDADXVGVGFGFDDDXDDGFDDFDVGFDFFXGADXAXFGDX",
+      "plaintext": "ABENDMELDUNG28X1199ALPEXKX25X2ZUIGEXESHABE6MITANFAENGENERREICHT210IDXTISHAFOELDVARXPRDXNAGYMAGOCSQ21QXKONDOROS",
+      "is_proposed_original_plaintext": false
+    },
+    "recipient_edition": {
+      "square": "HY03DKZAO4M5BEIWT16PSCFLVJ7289NGURXQ",
+      "ciphertext": "XVVFDGDDGFVGFDAFXXXAFDFGXADXVVVFAVVXXGGXDDFXFAFFGAVXDFGXAVFXDDFDAFDFGFFDAVAVDVVXDFVXDXFVXDGFGVDVFXVAXGDVVFXXFVFFADXXDFVXVDVDAVXFAFFXDADXXDXVGVXFAFGADAAXGXXDAXDADDXAXDAFADGGGXDXFXVVDADXVGVGFGFDDDXDDGFDDFDVGFDFFXGADXAXFGDX",
+      "plaintext": "ABENDMELDUNG28X1199ALPEXKX25X2ZUIGEXESHABENMITANFAENGENERREICHT210IDXTISZAFOELDVARXPRDXNAGYMAGOCSQ21QXKONDOROS",
+      "is_proposed_original_plaintext": false
+    },
+    "donor_native": {
+      "square": "782GPY5OQHF91UDNI364TLVXEAR0JZBKMCSW",
+      "ciphertext": "GAAGFDFXXXVVGVVAAFDFFVFFFAAVDFXFDVAVFFFXXAFGVXVDVVFGGFDFAXAAXAVVVVFVVFFVGVFXDVXVAVGFVGXXFVDDDAVVGVFAXXVVVFADGDXXDVFGFVXVDGVVGAVGAGXXGFGGXVDAVFXFXDFGXDDFDFXXGAAFXAVDGFGFXGAFFXFGDFAAGAVDFXAGAFGGAAFVDFVAFGAXVXGVFAXFFVFAAGFVVFGFFAAF",
+      "plaintext": "ABENDMELDGYVY26YXXYY8YRYDYISTM3TANFANGBISTISZAFOELDVARAUFGERUECKTYUNTERBRINGUNGSRAUMDERJX5YUYJX0YIYDYUNVERAENDERTY",
+      "is_proposed_original_plaintext": false
+    },
+    "provisioning_context_edition": {
+      "square": "HY03DKZAO4M5BEIWT16PSCFLVJ7289NGURXQ",
+      "ciphertext": "DDFXFVXDVFFAXDGXVXAFXDFFXXXFVGXDFFAXAGDXGXGXFDGDFVGFFFDDGFXDFDXAGGDGGDDFAFDXFFDXXAGXFDXFGDVFDFAXVXGGGAXVXVADDFXDFDGGAXDXFXVGGXDFXGXDFXVVGVFXAVGDFFGDDDAFDXAFDXGFVGGXAF",
+      "plaintext": "INFOLGEVERRINGERTERXVERPFLEGUNGSSTAERKEFUER11XARMEEKEINEVERPFLEGUNGMEHRERFORDERLICH",
+      "is_proposed_original_plaintext": false
+    }
+  },
+  "limits": [
+    "The donor is a separate November 30 report under a different key, not a duplicate reception of the November 25 telegram. It witnesses the place spelling, not the earlier unit number or reported movement.",
+    "The recipient source visibly has A at index 6. The A-to-D change is an editorial repair, not a corrected visual transcription. The raw H remains in the earlier edition.",
+    "The thirteen-letter donor place is entirely native: 26 original observations, no mask fill, coordinate substitution or geometrical change in this span. Its unrelated earlier MIT word repair is not used as evidence.",
+    "All 98 recipient word-start positions are costed under the fixed native 220-coordinate frame. Position 69 is the unique one-substitution minimum for this stated place spelling; this bounded comparison does not prove unique historical wording.",
+    "The existing HABEN repair is retained separately, giving two total recipient substitutions and no fills. No numeral assignment, unit identity, date, insertion, deletion or reordering is introduced.",
+    "The shared Y and numeral hypotheses retain their existing evidence and uncertainty. The native donor spelling supports H-to-Z independently of those hypotheses. Recipient fixed-position counts do not rise: this is a corroborated place repair, not a source-erasure fill.",
+    "The related p219 D1 army field is a further consequence of the existing FX=1 interpretation, not a new number assignment. Its three earlier ordinary-word substitutions remain unchanged and separate from the two repairs in p220 B."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "adfgvx-p214-quote-boundary-inputs-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "experiments/open_targets_continuation/inputs.json": "3e725d540949ed1b654d15d5e9282e49acf6ba2029443fbead7e606ffed9a1d8",
+    "experiments/open_targets_continuation/certificates.json": "c1aad20e833840b5a134223bed09fa7fbee33f1efbbaab2cae0e06517bc11b6c",
+    "experiments/late_november_joint_completion/verify.py": "7a56f75689f4cc174c3d371b6a5e3c44520087aba34a3e599cd6c0c70a707cc1",
+    "experiments/open_targets_continuation/sources/childs_p214_selected.png": "300322a067f747d38abd19f6e4857707f3edefca2c208a7ddac186f83f6143b4"
+  },
+  "record": "p214_B",
+  "source_index": 3,
+  "plaintext_index": 37,
+  "coordinate": "A",
+  "symbol": "X",
+  "assumption": "The erased position between the introduction and the already identified quotation is a second separator.",
+  "case": "cases/military/mackensen_warsaw.md",
+  "quote_span": [
+    0,
+    130
+  ],
+  "german": "An OKM. Hier einging folgender Funkspruch: Erbitten umgehend Nachricht, ob Geruecht vom Anmarsch Mackensens auf Warschau wahr. Soldatenrat Warschau.",
+  "limits": [
+    "This is an editorial separator fill, not a uniquely forced source reading.",
+    "The unchanged domain1GJKWX also permits five nonseparator labels; none is suppressed in the source certificate.",
+    "The quoted body already has independent p181 support; its prior3 substitutions and3fills are retained.",
+    "The closing reference erasure is not filled, and no key assignment is added."
+  ]
+}

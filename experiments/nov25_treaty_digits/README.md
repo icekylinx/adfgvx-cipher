@@ -139,6 +139,15 @@ geometry; the [certificate](names_certificate.json) records every
 occurrence, earlier source cost and re-encryption witness. The original
 three extension certificates remain unchanged.
 
+The later [evening-report follow-up](../nov25_evening_place_witness/README.md)
+uses the untouched `TISZAFOELDVAR` spelling in p229 A1 to support
+`TISHAFOELDVAR→TISZAFOELDVAR` in p220 B at one additional coordinate
+substitution. Together with Nagymagocs and native Kondoros, this makes
+the place list readable while retaining its incomplete unit labels.
+The same follow-up checks p219 D1's two original `FX` pairs: the existing
+`FX=1` assignment reads its provisioning recipient as **11th Army**,
+with no new source repair or numeral hypothesis.
+
 ## The Kiev report outside the original snapshot
 
 The separately reviewed [p219 C report](../../cases/military/p219_kiev_unrest.md)

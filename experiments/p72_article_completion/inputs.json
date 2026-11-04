@@ -1,0 +1,73 @@
+{
+  "schema": "adfgvx-p72-article-completion-input-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "indexing": "All source and plaintext indices are zero-based.",
+  "case": "cases/caucasus/october_caucasus.md",
+  "case_section": "Conditional article before K.M.",
+  "baseline": {
+    "inputs": "experiments/october_caucasus/inputs.json",
+    "inputs_sha256": "8f2f9217f1ebdcd72b07733110c7784ecb316d2203c022fca4f972a89fe3cd7c",
+    "certificate": "experiments/october_caucasus/certificates.json",
+    "certificate_sha256": "f8976e1203f9e5d26e5a96ad971d1fba6c00f7cd91437333bf2be94b41cefc06",
+    "record_id": "p72_A1",
+    "model_id": "printed_strikeout"
+  },
+  "source": {
+    "title": "J. Rives Childs, General Solution of the ADFGVX Cipher System, collected intercepts",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "pdf_bytes": 156848258
+  },
+  "source_images": [
+    {
+      "path": "../october_caucasus/sources/childs_p72_A.png",
+      "printed_page": 72,
+      "pdf_page_1based": 75,
+      "crop_pdf_points": [
+        92,
+        144,
+        540,
+        518
+      ],
+      "render_scale": 2,
+      "sha256": "49f3553fd1e557dc843d7c3ecf2ee2a5235d191b078c860e3bf71b29cb20f8ce",
+      "width": 896,
+      "height": 748,
+      "channels": 3,
+      "rgb_sha256": "7442baa8be93a279d27f9335e08a7e6f22099702792d512bae190ef6416dee11"
+    }
+  ],
+  "expected_raw": "ZUTELX30X9XNATEKSNRX8557X1XVERSTAER1UNGDERDELEGXVONOXHXLXOHNEBETEILIGUNGX?SKXMXANGEORDNET",
+  "earlier_template": "ZUTELX30X9XNATEKSNRX8557X1XVERSTAERKUNGDERDELEGXVONOXHXLXOHNEBETEILIGUNGX?SKXMXANGEORDNET",
+  "conditional_template": "ZUTELX30X9XNATEKSNRX8557X1XVERSTAERKUNGDERDELEGXVONOXHXLXOHNEBETEILIGUNGDESKXMXANGEORDNET",
+  "readable_german": "Zu Tel. 30.9. NATEKS Nr. 8557. 1. Verstaerkung der Deleg. von O.H.L. ohne Beteiligung [des] K.M. angeordnet.",
+  "assignments": [
+    {
+      "plaintext_index": 72,
+      "previous": "X",
+      "proposed": "D",
+      "source_index": 136,
+      "source_from": "D",
+      "source_to": "G",
+      "kind": "observed_coordinate_substitution"
+    },
+    {
+      "plaintext_index": 73,
+      "previous": "?",
+      "proposed": "E",
+      "source_index": 185,
+      "source_from": "U",
+      "source_to": "A",
+      "kind": "invalid_glyph_fill"
+    }
+  ],
+  "limits": [
+    "The source has 203 literal slots. The original printed 25-coordinate strikeout is retained, leaving the same 178-slot frame and unchanged Oct4–6 key.",
+    "The source glyphs at indices 136 and 185 remain D and invalid U. This is a separately priced language-based proposal, not a source transcription correction.",
+    "The ordinary article DES explains the sequence OHNE BETEILIGUNG DES K.M. without adding or deleting a plaintext position. K.M. remains literal and no institutional identification is supplied.",
+    "All 216 combinations of the first label and the six allowed second-label values are retained with exact costs. Sixty alternatives share the proposed one-additional-substitution cost; grammar selects DES conditionally, not cryptographic uniqueness.",
+    "The native fixed count under the printed-strikeout frame remains 88/89. The earlier word repair costs one observed substitution; the full conditional layer costs two observed substitutions and one invalid-glyph fill.",
+    "All dates, NATEKS, reference 8557 and the source frame are retained. No new physical record is added."
+  ],
+  "credit": "Childs source and published Oct4–6 key; the existing October Caucasus source edition and its attribution are preserved. Conditional grammatical completion and exact coordinate pricing: icekylinx and GPT-6 Astra Pro. No first historical decipherment claim."
+}

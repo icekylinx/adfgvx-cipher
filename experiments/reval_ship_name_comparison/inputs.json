@@ -1,0 +1,197 @@
+{
+  "schema": "adfgvx-reval-ship-name-comparison-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "experiments/reval_steamer_notice/inputs.json": "333f93305384c7727e40b39884c85999fcb1ebf475db81fe9b4f1c00b65d6c0a",
+    "experiments/reval_steamer_notice/certificates.json": "3d7bb05c197e724dae3573b1c8906aa161f760a42f1df98ff696b579a4a73583",
+    "experiments/p215_hungarian_y/inputs.json": "800c2a79e3467931e3ecf5af9c1c396ef871c8a18336861b9fb4a5b1b824bf6e",
+    "experiments/p215_hungarian_y/certificates.json": "472992de86c9b8fb2fa7a44a82b342adf1a525dbbe5638aa2b18616dd4007f5c",
+    "experiments/late_november_joint_completion/verify.py": "7a56f75689f4cc174c3d371b6a5e3c44520087aba34a3e599cd6c0c70a707cc1"
+  },
+  "record": "p213_A2",
+  "shared_layer": "prior_numeric_plus_J_and_Y",
+  "proposals": [
+    {
+      "baseline": "PETERXBENVIT",
+      "shared": "PETERXBENVIT",
+      "proposed": "PETERXBENOIT",
+      "start": 62,
+      "source_candidate": "PETER BENOIT",
+      "additional_changes": [
+        {
+          "source_index": 72,
+          "from": "V",
+          "to": "X"
+        },
+        {
+          "source_index": 90,
+          "from": "V",
+          "to": "F"
+        }
+      ]
+    },
+    {
+      "baseline": "B9VERN",
+      "shared": "BJVERN",
+      "proposed": "BJOERN",
+      "start": 87,
+      "source_candidate": "BJÖRN",
+      "additional_changes": [
+        {
+          "source_index": 64,
+          "from": "V",
+          "to": "F"
+        },
+        {
+          "source_index": 150,
+          "from": "V",
+          "to": "X"
+        }
+      ]
+    },
+    {
+      "baseline": "BAC4LON",
+      "shared": "BACYLON",
+      "proposed": "BABYLON",
+      "start": 96,
+      "source_candidate": "BABYLON",
+      "additional_changes": [
+        {
+          "source_index": 36,
+          "from": "F",
+          "to": "G"
+        },
+        {
+          "source_index": 83,
+          "from": "D",
+          "to": "F"
+        }
+      ]
+    }
+  ],
+  "case": "cases/naval/reval_steamer_notice.md",
+  "german": "Weitere Tonnage folgt baldigst. Ferner Rohstofftransport abging heute Peter Benoit. Folgt morgen Bjoern und Babylon.",
+  "expected": "WEITERETONNAGEFOLGTBALDIGSTFERNERROHSTOFFTRANSPORTABGINGHEUTEXPETERXBENOITXFOLGTMORGENXBJOERNUNDBABYLONX",
+  "historical_sources": [
+    {
+      "candidate": "PETER BENOIT",
+      "source_type": "contemporary_shipping_register",
+      "title": "Lloyd’s Register of Shipping, Steamers, 1917–18",
+      "archive_item": "HECROS1918ST",
+      "catalogue_year": "1918",
+      "visible_page_heading_year": "1917–18",
+      "archive_scan_index_zero_based": 798,
+      "scan_page_one_based": 799,
+      "printed_locator": "PES–PET, P entry 471",
+      "landing_url": "https://archive.org/details/HECROS1918ST/page/n798/mode/1up",
+      "image_url": "https://ia903206.us.archive.org/BookReader/BookReaderImages.php?zip=/28/items/HECROS1918ST/ROS1918STcompressed_jp2.zip&file=ROS1918STcompressed_jp2/ROS1918STcompressed_0798.jp2&id=HECROS1918ST&scale=1&rotate=0",
+      "source_image": {
+        "sha256": "bed5ee31c9fffddadc297fbf300000df0d676b099bc08a92b8467fbae71fad8c",
+        "width": 2702,
+        "height": 3366,
+        "rgb_sha256": "3e50287d5f5392af9a2ed9e4b8cfbd7110d655b4a4683ad67a45592e34f67bf9",
+        "filename": "lr1918_n798.jpg"
+      },
+      "crop": {
+        "sha256": "d6bb1086a07a4efa54bfde138621f35ba56ce79f3d6683914948f350e19d1fd7",
+        "width": 2625,
+        "height": 180,
+        "rgb_sha256": "2c1335c9fd86485090c20358060e1fdf5e33404996fd1b015f7f6058155bb3f2",
+        "crop_rectangle_pixels": [
+          15,
+          1265,
+          2640,
+          1445
+        ],
+        "path": "sources/peter_benoit_lloyds_1917_18.png"
+      },
+      "claim": "The register prints Peter Benoit, built 1902 at Hoboken; registered at Antwerp under Belgian flag; owner F. Alexander; 1359 gross register tons. This establishes a contemporary vessel-name spelling, not the November 1918 Reval voyage.",
+      "visual_inspection": "Full page and named row inspected against downloaded original scan image."
+    },
+    {
+      "candidate": "BJÖRN",
+      "source_type": "contemporary_shipping_register",
+      "title": "Lloyd’s Register of Shipping, Steamers, 1917–18",
+      "archive_item": "HECROS1918ST",
+      "catalogue_year": "1918",
+      "visible_page_heading_year": "1917–18",
+      "archive_scan_index_zero_based": 136,
+      "scan_page_one_based": 137,
+      "printed_locator": "BJE–BLA, B entries 733–735",
+      "landing_url": "https://archive.org/details/HECROS1918ST/page/n136/mode/1up",
+      "image_url": "https://ia903206.us.archive.org/BookReader/BookReaderImages.php?zip=/28/items/HECROS1918ST/ROS1918STcompressed_jp2.zip&file=ROS1918STcompressed_jp2/ROS1918STcompressed_0136.jp2&id=HECROS1918ST&scale=1&rotate=0",
+      "source_image": {
+        "sha256": "a52ede379508e18ae818cf4cae308ed08b6c6595c43529cc0aa8f555414db6cf",
+        "width": 2758,
+        "height": 3348,
+        "rgb_sha256": "8ca7ff608c73d22335496fab533cb20fb16d8f8af1182627654928b93dc1f5ca",
+        "filename": "lr1918_n136.jpg"
+      },
+      "crop": {
+        "sha256": "64c66a4dd74dbc7788b94a0b6e1611265153e3bec3f3098a103ee8bf975c09b0",
+        "width": 2620,
+        "height": 365,
+        "rgb_sha256": "5e86305b69d04e1d457ce111363aa8bb811222c2b75ad84e554264d6ac89afd7",
+        "crop_rectangle_pixels": [
+          80,
+          960,
+          2700,
+          1325
+        ],
+        "path": "sources/bjorn_lloyds_1917_18.png"
+      },
+      "claim": "The register prints Björn in entry 733 and says Captured and taken to Cuxhaven. Entries 734 and 735 repeat the same name for different vessels. This supports BJOERN as a contemporary ship-name spelling; no particular Björn is identified as the Reval vessel.",
+      "visual_inspection": "Full page and named row inspected against downloaded original scan image."
+    },
+    {
+      "candidate": "BABYLON",
+      "source_type": "contemporary_newspaper",
+      "title": "Hamburger Fremdenblatt",
+      "date": "1915-12-28",
+      "edition": "Abend-Ausgabe",
+      "issue": "359 B",
+      "volume": 87,
+      "pdf_page_one_based": 9,
+      "printed_page": "3",
+      "printed_locator": "Schiffs-Unfälle; Babylon D.; Stockholm, 25. Dezbr.",
+      "url": "https://pdf.sub.uni-hamburg.de/kitodo/PPN1699277745_19151228AB.pdf",
+      "source_pdf": {
+        "sha256": "34c81f5be39f3b884bdec6242f66c1368035dc96ba4ebfbc22b45fdd88aeda69",
+        "bytes": 41354898,
+        "filename": "hamburg_19151228ab.pdf"
+      },
+      "crop": {
+        "sha256": "bec43d1712bc4fb35171d8042f933c3da2fa2fe631887774e36e84efefd99201",
+        "width": 844,
+        "height": 316,
+        "rgb_sha256": "3cca0406e3c855652accbaf72ad4c62225ee28eb38b03c6eb0b59fa1bf30e182",
+        "pdf_page_index_zero_based": 8,
+        "crop_rectangle_pdf_points": [
+          717,
+          646,
+          928,
+          725
+        ],
+        "render_matrix": [
+          4,
+          4
+        ],
+        "path": "sources/babylon_19151228_p9.png"
+      },
+      "claim": "A Stockholm report states that the steamer Babylon was seized in connection with a salvage-remuneration claim for 75,000 crowns. It establishes a wartime steamer-name spelling, not a November 1918 Reval voyage or a unique vessel identity.",
+      "visual_inspection": "Notice and page heading both visually inspected. The heading reads Nr. 359 B, Seite 3, Dienstag 28. Dezember 1915, Abend-Ausgabe."
+    }
+  ],
+  "limits": [
+    "The primary sources attest vessel-name spellings; none supplies the same November1918 transport movement.",
+    "The register lists three vessels named Björn; no unique vessel identity or capacity is assigned.",
+    "Each name is a two-observed-coordinate emendation under the existing J/Y hypotheses, not a source-mask fill.",
+    "The three name proposals can be assessed separately; the combined readable display accepts all three.",
+    "No new key assignment is made and no previously unknown position is counted as recovered.",
+    "The notice is directed to Reval; its departure wording does not name the port of departure."
+  ]
+}

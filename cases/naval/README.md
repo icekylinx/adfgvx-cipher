@@ -69,7 +69,7 @@ Ship-sale terms reveal who could authorize a sale, how payment was to work and w
 | [p210 A1](p210_A.md) | READING | Helsinki: confirm return transport for the Ostsee Division |
 | [p210 A2](p210_A.md) | READING | Ships may be sent; identify a suitable embarkation port |
 | [p213 A1](reval_steamer_notice.md#p213-a1) | READING | Two steamers expected at Reval; raw quantity unresolved |
-| [p213 A2](reval_steamer_notice.md#p213-a2) | READING | Further tonnage and raw-material transport; vessel-like fields retained |
+| [p213 A2](reval_steamer_notice.md#p213-a2) | CONDITIONAL | Further tonnage and raw-material transport; conditional vessel-name readings |
 | [p213 A3](reval_steamer_notice.md#p213-a3) | PARTIAL | Assurance of support and Kriegsdepartement closing |
 | [p218 B2](urgent_shipping_space.md#p218-b2) | READING | Urgent shipping space for personnel and horses |
 | [p218 B3](urgent_shipping_space.md#p218-b3) | PARTIAL | Probable reliance on sea transport; literal command references |

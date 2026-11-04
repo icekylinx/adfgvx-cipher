@@ -6,6 +6,15 @@ A conditional second-part reading concerns preparations to transport the Alpenko
 
 Source: Childs, printed pp.160–161 (PDF pp.163–164). [Source images and inputs](../../experiments/nov8_radio_keys_and_reports/inputs.json), [certificates](../../experiments/nov8_radio_keys_and_reports/certificates.json), [method and limitations](../../experiments/nov8_radio_keys_and_reports/README.md). All indices below are zero-based.
 
+## Conditional shared digits
+
+**Readable German — conditional shared digits, with the existing source edition retained:**
+
+> Alpenkorps wird Ujverbasz zum Abtransport bereitgestellt. 219 217 und 6 R D setzen 9.11. Marsch in Linie Nagybeskerek, Wergcheez fort.
+
+The [shared-reference assignment](../../experiments/nov7_9_joint_digits/README.md) supplies **VF=6**, completing **119/119** labels in the selected word edition. The four observed substitutions, one printed-mask fill and two observed exclusions remain unchanged. The opposite assignment gives 5; both UJVERBASZ/UZVERBASZ frames and the separately priced WERSCHETZ proposal remain available.
+
+
 ## p160 A2
 
 Header: `A) UKS v ZON (11.44 p.m., November 8th); 1915 (8/11) 2 TLE; 2 TL; RICHI-238`.

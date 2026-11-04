@@ -68,7 +68,7 @@ This range contains 133 sources, including 1 OPEN. [Reading states](../../../doc
 | [p155 B](../../people/schorlemer_demobilization_inquiry.md#p155-b) | READING | Von Schorlemer cannot currently be released from the administrative staff |
 | [p155 C1](../../radio/nov7_eighth_part_repetition.md#p155-c1) | CONDITIONAL | Cannot decipher eighth part addressed to Sektion Politik Berlin |
 | [p155 C2](../../radio/nov7_eighth_part_repetition.md#p155-c2) | CONDITIONAL | Request checking and retransmission of the eighth part |
-| [p155 D](../../military/nov7_derailment_and_trains.md#p155-d) | PARTIAL | Morning report: derailed freight train and both tracks blocked |
+| [p155 D](../../military/nov7_derailment_and_trains.md#p155-d) | CONDITIONAL | Morning report: derailed freight train and both tracks blocked |
 
 ## p156
 
@@ -214,7 +214,7 @@ This range contains 133 sources, including 1 OPEN. [Reading states](../../../doc
 | Source | State | Subject |
 |---|---|---|
 | [p169 A](../../radio/seifert.md) | CONDITIONAL | Repeated station-control report |
-| [p169 B](../../military/nov7_derailment_and_trains.md#p169-b) | PARTIAL | Forward station and construction trains to Group Winterfeld |
+| [p169 B](../../military/nov7_derailment_and_trains.md#p169-b) | CONDITIONAL | Forward station and construction trains to Group Winterfeld |
 
 ## p170
 

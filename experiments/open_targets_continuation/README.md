@@ -86,3 +86,19 @@ repair certificates, conditional inference and readable editions—is by
 claim. An exact inverse or re-encryption establishes arithmetic consistency
 relative to the stated transcription and key; it cannot by itself prove that
 the historical copy or inferred date was correct.
+
+## Optional completion of the p214 quotation boundary
+
+The current [Warsaw case](../../cases/military/mackensen_warsaw.md) presents
+the complete forwarding introduction and quoted request. One additional
+source-mask fill, source **3** `–→A`, reads the erased position after
+`FUNKSPRUCHX` as a second separator. This is an editorial punctuation choice
+within the retained domain `1GJKWX`; no source word or valid coordinate is
+changed. The p214 edition reaches **145/146** positions, with **three
+observed substitutions and four fills** in total. Its footer erasure remains.
+
+```sh
+python experiments/open_targets_continuation/verify_p214_completion.py --verify
+```
+
+[Boundary inputs](p214_completion_inputs.json) · [Live quotation and coordinate certificate](p214_completion_certificate.json).

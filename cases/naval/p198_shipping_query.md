@@ -8,6 +8,17 @@ the irregular transmission on printed p198. The 244-slot model fixes
 **111/122 raw positions**; five observed-coordinate substitutions and seven
 fills give **118/122**.
 
+## Conditional shared digits
+
+**Readable German — conditional shared digits, with the existing source edition retained:**
+
+> Drahtet Kaufpreis, Schiffsfracht, Transporversicherung fuer Ende Sept. mit Dampfer ??PASIA und IBALIA Poti gelieferte 116?0K Pud Weizen.
+
+The [shared-reference assignment](../../experiments/nov7_9_joint_digits/README.md) gives **116?0K** from the unchanged VF pair at original source 109/158, raising this edition from **118 to 119/122** fixed labels. The opposite assignment gives 115?0K. All four minimum source maps and both C/G glyph alternatives retain this consequence; no ship name, full quantity or unit value is selected.
+
+In the primary frame, the original 12 jointly attainable quantity strings reduce to **six** under the selected square, with **216** complete arithmetic witnesses rather than 432 across both squares. These are compatibility alternatives, not historical quantities. The two unresolved ship-name positions and one quantity mask remain.
+
+
 ## p198 A
 
 **Readable German — conditional word edition; received spelling, names and quantity retained:**

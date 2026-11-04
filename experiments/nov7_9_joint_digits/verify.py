@@ -150,6 +150,144 @@ def retained_variants(data, key, square, rival):
     return out
 
 
+def extended_variants(data, key, square, rival):
+    """Keep the new military and shipping consequences in every retained frame."""
+    for path, digest in data['extended_variant_sources'].items():
+        assert hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == digest, path
+    specs = {r['id']: r for r in data['records']}
+    literals = {rid: source(specs[rid]) for rid in ('p158_E1', 'p160_A2', 'p198_A')}
+    expected = {'p158_E1': [85], 'p160_A2': [64], 'p198_A': [106]}
+    views = []
+
+    def check(rid, name, cipher, mapping, literal, frame):
+        old, ps = decode(cipher, key['column_rank_order'], key['square'], mapping)
+        selected, _ = decode(cipher, key['column_rank_order'], square, mapping)
+        opposite, _ = decode(cipher, key['column_rank_order'], rival, mapping)
+        changed = [i for i, (a, b) in enumerate(zip(old, selected)) if a != b]
+        assert changed == expected[rid]
+        gains = []
+        for p in changed:
+            pos = ps[p]
+            assert pos['pair'] == 'VF' and pos['domain'] == '56'
+            assert all(i is not None and literal[i] == c
+                       for i, c in zip(pos['source_indices'], pos['pair']))
+            gains.append({**pos, 'selected': selected[p], 'alternative': opposite[p],
+                          'both_original_coordinates_observed': True})
+        changes, fills, added = [], [], []
+        for m, i in enumerate(mapping):
+            if i is None:
+                if cipher[m] in CO:
+                    added.append({'model_index': m, 'to': cipher[m]})
+            elif literal[i] in CO and literal[i] != cipher[m]:
+                changes.append({'source_index': i, 'from': literal[i], 'to': cipher[m]})
+            elif literal[i] not in CO and cipher[m] in CO:
+                fills.append({'source_index': i, 'literal': literal[i], 'to': cipher[m]})
+        excluded = sorted(set(range(len(literal))) - set(mapping))
+        roundtrip(cipher, key['column_rank_order'], square)
+        roundtrip(cipher, key['column_rank_order'], rival)
+        views.append({'record': rid, 'layer': name, 'frame': frame,
+                      'baseline_plaintext': old, 'selected_plaintext': selected,
+                      'alternative_plaintext': opposite, 'gained_positions': gains,
+                      'existing_observed_substitutions': changes,
+                      'existing_mask_fills': fills, 'existing_added_slot_fills': added,
+                      'existing_source_exclusions': excluded,
+                      'counted_as_additional_physical_record': False})
+
+    # Four minimum one-loss maps, plus the two already retained near-minima.
+    p158 = read(specs['p158_E1']['certificate'])
+    literal = literals['p158_E1']
+    for frame in p158['source_alignment']['all_frames_within_one_disagreement_of_minimum']:
+        mapping = frame['model_to_source_indices']
+        cipher = ''.join('?' if i is None else literal[i] for i in mapping)
+        label = {'source_boundary': frame['source_boundary'],
+                 'observed_disagreements': frame['observed_coordinate_disagreements']}
+        check('p158_E1', 'raw_unfilled_gap', cipher, mapping, literal, label)
+        model = mapping.index(None)
+        filled = cipher[:model] + frame['parallel_coordinate_supplied'] + cipher[model + 1:]
+        check('p158_E1', 'raw_parallel_A_or_near_minimum_coordinate', filled, mapping, literal, label)
+        if frame['source_boundary'] in p158['source_alignment']['minimizing_boundaries']:
+            for layer in ('readable_candidate', 'optional_prior_headline_candidate'):
+                check('p158_E1', layer, p158['record'][layer]['ciphertext'], mapping, literal, label)
+
+    # Both source-only minima retain UJVERBASZ/UZVERBASZ. Apply only the
+    # earlier priced source events to each map; no location is selected here.
+    p160 = record(specs['p160_A2']['certificate'], 'p160_A2')
+    relation = read('experiments/nov8_radio_keys_and_reports/parallel_witnesses.json')['p160_A2_p170_B2']
+    primary_map = p160['model_to_source_indices']
+    literal = literals['p160_A2']
+    main = transpose(p160['edited_reading']['interim'], key['column_rank_order'])
+    optional = relation['optional_copy_supported_interpretation']['ciphertext']
+    for frame in relation['source_only_exclusion_alignment']['all_minimum_maps']:
+        excluded = frame['excluded_source_indices_0based']
+        mapping = [i for i in range(len(literal)) if i not in excluded]
+        raw = ''.join(literal[i] if literal[i] in CO else '?' for i in mapping)
+        assert raw == frame['frame']
+        label = {'excluded_source_indices': excluded}
+        check('p160_A2', 'raw_source_only_minimum', raw, mapping, literal, label)
+        for name, cipher in [('word_edition', main), ('optional_WERSCHETZ', optional)]:
+            edited = list(raw)
+            for m, i in enumerate(primary_map):
+                original = literal[i] if literal[i] in CO else '?'
+                if cipher[m] != original:
+                    assert i in mapping
+                    edited[mapping.index(i)] = cipher[m]
+            check('p160_A2', name, ''.join(edited), mapping, literal, label)
+
+    # Four minimum p198 maps and all four source C/G interpretations.
+    # The unchanged pair is outside both doubtful glyphs and every exclusion.
+    p198 = read(specs['p198_A']['certificate'])
+    literal = literals['p198_A']
+    template = p198['records'][0]['readable_candidate']['template']
+
+    def p198_words(raw):
+        _, ps = decode(raw, key['column_rank_order'], key['square'])
+        edited = list(raw)
+        for c, pos in zip(template, ps):
+            if c == '?':
+                continue
+            cell = key['square'].index(c)
+            for m, value in zip(pos['source_indices'], (CO[cell // 6], CO[cell % 6])):
+                edited[m] = value
+        return ''.join(edited)
+
+    for frame in p198['geometry_enumeration']['all_minimum_maps']:
+        excluded = frame['excluded_source_indices']
+        mapping = []
+        for i in range(len(literal)):
+            if i == frame['insert_before_original_source']:
+                mapping.append(None)
+            if i not in excluded:
+                mapping.append(i)
+        assert len(mapping) == 244
+        initial = ''.join(literal[i] if i is not None and literal[i] in CO else '?' for i in mapping)
+        assert hashlib.sha256(p198_words(initial).encode()).hexdigest() == frame['edited_ciphertext_sha256']
+        for first in ('C', 'G'):
+            for second in ('C', 'G'):
+                local = literal[:49] + first + literal[50:192] + second + literal[193:]
+                raw = ''.join(local[i] if i is not None and local[i] in CO else '?' for i in mapping)
+                edited = p198_words(raw)
+                label = {'excluded_source_indices': excluded,
+                         'source_49_interpretation': first, 'source_192_interpretation': second}
+                check('p198_A', 'raw', raw, mapping, local, label)
+                check('p198_A', 'word_edition', edited, mapping, local, label)
+
+    frontier = p198['global_completion_frontier']['witnesses']
+    selected = [w for w in frontier if w['square'] == square]
+    opposite = [w for w in frontier if w['square'] == rival]
+    assert len(frontier) == 432 and len(selected) == len(opposite) == 216
+    for w in frontier:
+        roundtrip(w['ciphertext'], key['column_rank_order'], w['square'])
+    quantities = sorted({w['quantity'] for w in selected})
+    assert len(quantities) == 6
+    return {'views': views, 'no_additional_source_edits': True,
+            'p198_quantity_frontier': {'all_prior_witnesses': len(frontier),
+                'selected_square_witnesses': len(selected),
+                'opposite_square_witnesses': len(opposite),
+                'selected_quantity_strings': quantities,
+                'opposite_quantity_strings': sorted({w['quantity'] for w in opposite}),
+                'historical_quantity_selected': False}}
+
+
 def complete_date(data, key, square, rival):
     """Keep the source-mask date choice separate from the shared key assignment."""
     spec = data['local_date_completion']
@@ -296,6 +434,7 @@ def build():
             "assignment": data["assignment"], "selected_square": square,
             "alternative_square": rival, "records": results,
             "retained_variants": retained_variants(data, key, square, rival),
+            "extended_source_variants": extended_variants(data, key, square, rival),
             "local_date_completion": complete_date(data, key, square, rival),
             "new_conditional_digit_positions": sum(len(r["gained_positions"]) for r in results),
             "additional_coordinate_changes": 0, "shared_digit_layer_source_mask_fills": 0,

@@ -12,9 +12,9 @@ A separately printed part or received copy is one physical body. Surviving damag
 
 | Current navigation state | Sources |
 |---|---:|
-| READING | 338 |
-| PARTIAL | 150 |
-| CONDITIONAL | 184 |
+| READING | 336 |
+| PARTIAL | 148 |
+| CONDITIONAL | 188 |
 | OPEN | 7 |
 
 These states describe the kind of current edition, not a completion percentage. READING does not mean that every character or historical identification is settled; CONDITIONAL may include a partial proposal. OPEN sources have no accepted body reading. Their headers and source transcriptions are still useful evidence.

@@ -1,0 +1,192 @@
+{
+  "schema": "adfgvx-reval-ship-name-comparison-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "input_sha256": "0726fd6821ab65bd3ade6e39317dbe9461718de81a2eac6aa549bf637d17a903",
+  "indexing": "Zero-based plaintext and source positions.",
+  "id": "p213_A2",
+  "literal_source": "FXVVFVAXAAVXVFAXVXDXFAVGFAAFDAFADVFGFDAVFVDFXAVXGFAGFGGDVXVFAFXXVAFGGXVFVFVAGFXAFXFDFAFFDVVFGVGDDVXFVFAXAGFDXFADDVVFGFXVFGDFGVXFFVFXVFDDFDDFDXFGDXDVAGVGAGDDXVXDGDFAAFGVAFDAXFFDVGAXFCFGXADGADDFFGVDVGVVXFVVGDVF",
+  "earlier_word_ciphertext": "FXVVFVAXAAVXVFAXVXDXFAVGFAAFDAFADVFGFDAVFVDFXAVXGFAGFGGDVXVFAFXXVAFGGXVFVFVAGFXAFXFDFAFFDVVFGVGDDXVFVFAXAGFDXFADDVVFGFXVFGDFGVXFFVFXVFDDFDDFDXFGDXDVAGVGFGDDXVXDGDFAAFGVAFDAXFFDVGAXFGFGXADGADDFFGVDVGVVXFVVGDVF",
+  "baseline_word_edition": "WEITERETONNAGEFOLGTBALDIGSTFERNERROHSTOFFTRANSPORTABGINGHEUTEXPETERXBENVITXFOLGTMORGENXB9VERNUNDBAC4LONX",
+  "shared_word_edition": "WEITERETONNAGEFOLGTBALDIGSTFERNERROHSTOFFTRANSPORTABGINGHEUTEXPETERXBENVITXFOLGTMORGENXBJVERNUNDBACYLONX",
+  "conditional_square": "?NZ?6XSYC?I21?RBEKLJFD?GMTHUVWA?O?P?",
+  "name_proposals": [
+    {
+      "baseline_field": "PETERXBENVIT",
+      "shared_field": "PETERXBENVIT",
+      "proposed_field": "PETERXBENOIT",
+      "source_witness": "PETER BENOIT",
+      "additional_observed_substitutions": [
+        {
+          "source_index": 72,
+          "from": "V",
+          "to": "X"
+        },
+        {
+          "source_index": 90,
+          "from": "V",
+          "to": "F"
+        }
+      ],
+      "changed_plaintext_positions": [
+        {
+          "plaintext_index": 71,
+          "before": "V",
+          "after": "O",
+          "old_pair": "VV",
+          "new_pair": "XF",
+          "source_indices": [
+            72,
+            90
+          ]
+        }
+      ],
+      "individual_candidate_ciphertext": "FXVVFVAXAAVXVFAXVXDXFAVGFAAFDAFADVFGFDAVFVDFXAVXGFAGFGGDVXVFAFXXVAFGGXVFXFVAGFXAFXFDFAFFDVFFGVGDDXVFVFAXAGFDXFADDVVFGFXVFGDFGVXFFVFXVFDDFDDFDXFGDXDVAGVGFGDDXVXDGDFAAFGVAFDAXFFDVGAXFGFGXADGADDFFGVDVGVVXFVVGDVF",
+      "individual_candidate_plaintext": "WEITERETONNAGEFOLGTBALDIGSTFERNERROHSTOFFTRANSPORTABGINGHEUTEXPETERXBENOITXFOLGTMORGENXBJVERNUNDBACYLONX"
+    },
+    {
+      "baseline_field": "B9VERN",
+      "shared_field": "BJVERN",
+      "proposed_field": "BJOERN",
+      "source_witness": "BJÖRN",
+      "additional_observed_substitutions": [
+        {
+          "source_index": 64,
+          "from": "V",
+          "to": "F"
+        },
+        {
+          "source_index": 150,
+          "from": "V",
+          "to": "X"
+        }
+      ],
+      "changed_plaintext_positions": [
+        {
+          "plaintext_index": 89,
+          "before": "V",
+          "after": "O",
+          "old_pair": "VV",
+          "new_pair": "XF",
+          "source_indices": [
+            150,
+            64
+          ]
+        }
+      ],
+      "individual_candidate_ciphertext": "FXVVFVAXAAVXVFAXVXDXFAVGFAAFDAFADVFGFDAVFVDFXAVXGFAGFGGDVXVFAFXXFAFGGXVFVFVAGFXAFXFDFAFFDVVFGVGDDXVFVFAXAGFDXFADDVVFGFXVFGDFGVXFFVFXVFDDFDDFDXFGDXDVAGXGFGDDXVXDGDFAAFGVAFDAXFFDVGAXFGFGXADGADDFFGVDVGVVXFVVGDVF",
+      "individual_candidate_plaintext": "WEITERETONNAGEFOLGTBALDIGSTFERNERROHSTOFFTRANSPORTABGINGHEUTEXPETERXBENVITXFOLGTMORGENXBJOERNUNDBACYLONX"
+    },
+    {
+      "baseline_field": "BAC4LON",
+      "shared_field": "BACYLON",
+      "proposed_field": "BABYLON",
+      "source_witness": "BABYLON",
+      "additional_observed_substitutions": [
+        {
+          "source_index": 36,
+          "from": "F",
+          "to": "G"
+        },
+        {
+          "source_index": 83,
+          "from": "D",
+          "to": "F"
+        }
+      ],
+      "changed_plaintext_positions": [
+        {
+          "plaintext_index": 98,
+          "before": "C",
+          "after": "B",
+          "old_pair": "DF",
+          "new_pair": "FG",
+          "source_indices": [
+            83,
+            36
+          ]
+        }
+      ],
+      "individual_candidate_ciphertext": "FXVVFVAXAAVXVFAXVXDXFAVGFAAFDAFADVFGGDAVFVDFXAVXGFAGFGGDVXVFAFXXVAFGGXVFVFVAGFXAFXFFFAFFDVVFGVGDDXVFVFAXAGFDXFADDVVFGFXVFGDFGVXFFVFXVFDDFDDFDXFGDXDVAGVGFGDDXVXDGDFAAFGVAFDAXFFDVGAXFGFGXADGADDFFGVDVGVVXFVVGDVF",
+      "individual_candidate_plaintext": "WEITERETONNAGEFOLGTBALDIGSTFERNERROHSTOFFTRANSPORTABGINGHEUTEXPETERXBENVITXFOLGTMORGENXBJVERNUNDBABYLONX"
+    }
+  ],
+  "combined_ciphertext": "FXVVFVAXAAVXVFAXVXDXFAVGFAAFDAFADVFGGDAVFVDFXAVXGFAGFGGDVXVFAFXXFAFGGXVFXFVAGFXAFXFFFAFFDVFFGVGDDXVFVFAXAGFDXFADDVVFGFXVFGDFGVXFFVFXVFDDFDDFDXFGDXDVAGXGFGDDXVXDGDFAAFGVAFDAXFFDVGAXFGFGXADGADDFFGVDVGVVXFVVGDVF",
+  "combined_plaintext": "WEITERETONNAGEFOLGTBALDIGSTFERNERROHSTOFFTRANSPORTABGINGHEUTEXPETERXBENOITXFOLGTMORGENXBJOERNUNDBABYLONX",
+  "positions": 104,
+  "observed_substitutions": [
+    {
+      "source_index": 36,
+      "from": "F",
+      "to": "G"
+    },
+    {
+      "source_index": 64,
+      "from": "V",
+      "to": "F"
+    },
+    {
+      "source_index": 72,
+      "from": "V",
+      "to": "X"
+    },
+    {
+      "source_index": 83,
+      "from": "D",
+      "to": "F"
+    },
+    {
+      "source_index": 90,
+      "from": "V",
+      "to": "F"
+    },
+    {
+      "source_index": 97,
+      "from": "V",
+      "to": "X"
+    },
+    {
+      "source_index": 98,
+      "from": "X",
+      "to": "V"
+    },
+    {
+      "source_index": 150,
+      "from": "V",
+      "to": "X"
+    },
+    {
+      "source_index": 152,
+      "from": "A",
+      "to": "F"
+    }
+  ],
+  "source_mask_fills": [
+    {
+      "source_index": 181,
+      "literal": "C",
+      "to": "G"
+    }
+  ],
+  "additional_observed_substitutions": 6,
+  "additional_source_mask_fills": 0,
+  "same_wording_under_published_square_observed_cost": 13,
+  "same_wording_under_shared_square_observed_cost": 9,
+  "new_unknown_positions_resolved": 0,
+  "german": "Weitere Tonnage folgt baldigst. Ferner Rohstofftransport abging heute Peter Benoit. Folgt morgen Bjoern und Babylon.",
+  "historical_source_spellings": [
+    "PETER BENOIT",
+    "BJÖRN",
+    "BABYLON"
+  ],
+  "limits": [
+    "The primary sources attest vessel-name spellings; none supplies the same November1918 transport movement.",
+    "The register lists three vessels named Björn; no unique vessel identity or capacity is assigned.",
+    "Each name is a two-observed-coordinate emendation under the existing J/Y hypotheses, not a source-mask fill.",
+    "The three name proposals can be assessed separately; the combined readable display accepts all three.",
+    "No new key assignment is made and no previously unknown position is counted as recovered.",
+    "The notice is directed to Reval; its departure wording does not name the port of departure."
+  ]
+}

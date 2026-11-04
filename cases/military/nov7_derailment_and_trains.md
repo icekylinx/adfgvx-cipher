@@ -6,6 +6,27 @@
 
 Two source editions concern railway operations: a freight-train derailment blocking both tracks on the proposed Gomel–Bachmatsch route, and a message about forwarding a station train and construction train to Group Winterfeld. The wagon count, train labels, abbreviations and office references remain literal.
 
+## Conditional shared digits
+
+The [Siegfried reference comparison](../../experiments/nov7_9_joint_digits/README.md) supplies one shared conditional assignment, XA=5 and VF=6, to both railway records.
+
+### p155 D
+
+**Readable German — conditional shared digits, with the existing source edition retained:**
+
+> OK Mackensen. Morgenmeldung vom 7.11.18: Auf Strecke Gomel, Bachmatsch entgleiste ein Gueterzug. 25 Wagen zertruemmert. Beide Gleise sind gesperrt. Hrgr. Kiew. RM 1 A 7097 18.
+
+Under the shared-reference assignment XA=5, the original pair at source 294/56 gives **25 wagons**, completing **158/158** labels. The opposite assignment gives 26. The earlier three observed substitutions and five mask fills are unchanged.
+
+### p169 B
+
+**Readable German — conditional shared digits, with the existing source edition retained:**
+
+> NACHRUEBGEL. FECH wird beschleunigt Stationszug S1152 und Bauzug 1924 der Gruppe Winterfeld zufuehren. Nachchef 1B16616.
+
+The same assignment gives **S1152** and **1B16616**, completing **112/112** labels from 108/112, with no source edit. The opposite assignment gives S1162 and 1B15515. NACHRUEBGEL and FECH remain unexpanded.
+
+
 ## Source and scope
 
 [Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed page excerpt](../../experiments/nov7_derailment_and_trains/sources/p155_reviewed.png) · [Second source excerpt](../../experiments/nov7_derailment_and_trains/sources/p169_reviewed.png) · [Exact inputs](../../experiments/nov7_derailment_and_trains/inputs.json) · [Position-by-position certificates](../../experiments/nov7_derailment_and_trains/certificates.json)

@@ -9,6 +9,15 @@ body decipherment or universal priority.
 
 
 **Reviewed source crops:** [p158_E_reviewed.png](../../experiments/nov8_serbian_cavalry_parallel/sources/p158_E_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
+## Conditional shared digits
+
+**Readable German — conditional shared digits, with the existing source edition retained:**
+
+> ANENMELDUNG. Serb. Kavallerie Peterwadein und Fehertemplom eingerueckt. Abmarsch 217 I D und 6 R D nach Norden ohne Feinberuehrung.
+
+The [shared-reference assignment](../../experiments/nov7_9_joint_digits/README.md) supplies **VF=6** to the unchanged division pair, completing **118/118** labels in the selected word edition. The five observed substitutions and one source-linked added A are unchanged; the opposite square retains 5. This propagates a separately justified digit to this physical witness and does not count the earlier p170 unit identification again.
+
+
 ## What the additional source establishes
 
 Printed p158 E1 has **235 coordinates against an advertised 236**. Its

@@ -1,0 +1,54 @@
+{
+  "schema": "adfgvx-bounded-historical-lead-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "target": "p59_A3",
+  "scope": "One bounded primary-source follow-up on the possible command number in the September 21/22 Poti horse-shipment inquiry; no new cipher search.",
+  "native_field": "GENKDOX?2",
+  "plaintext_index": 104,
+  "native_pair": "A?",
+  "native_domain": "1356DQ",
+  "conditional_decimal_values": [
+    "12",
+    "32",
+    "52",
+    "62"
+  ],
+  "queries": [
+    "Generalkommando 52 Poti",
+    "Generalkommando 52 Kaukasus",
+    "7. Kavallerie-Brigade 1918 Poti",
+    "Generalkommando 52 1918 September",
+    "Generalkommando 52 Braila 1918",
+    "Kavallerie-Brigade Poti 21. September 1918",
+    "Hopman 21. September 1918",
+    "Hopman Varna 1918",
+    "Von Brest-Litovsk zur deutschen Novemberrevolution pdf"
+  ],
+  "sources": [
+    {
+      "title": "Winfried Baumgart, Das Kaspi-Unternehmen, first part and printed documents",
+      "url": "https://openscience.ub.uni-mainz.de/server/api/core/bitstreams/19e5318f-7b9b-4ab1-ba90-5be25c049b40/content",
+      "printed_page": 103,
+      "pdf_page_1based": 57,
+      "evidence_kind": "Published quotation from Admiral Hopman diary, 16 September 1918, footnote285; page visually inspected",
+      "narrow_excerpt": "fest mit Zustimmung G[eneral-]K[ommando]52",
+      "supports": "General Command 52 participated in stopping a Corcovado troop transport during the same September shipping episode.",
+      "does_not_support": [
+        "The authorship or command numeral of the p59 telegram",
+        "The identity of either repeated vessel label in p59_A1",
+        "The 52-horse shipment or its handover",
+        "The damaged telegram-reference and TB P?47? fields"
+      ]
+    },
+    {
+      "title": "Von Brest-Litovsk zur deutschen Novemberrevolution, 1971",
+      "url": "https://digitale-sammlungen.de/en/details/bsb00042051",
+      "evidence_kind": "Institutional catalogue metadata only; no book pages inspected",
+      "supports": "Bibliographic location of the edited Hopman diary; no additional plaintext evidence."
+    }
+  ],
+  "decision": "Contextual support for 52 only. Retain every cipher-compatible numerical candidate and all original literal domains; do not change the p59 reading or transfer a digit from the November 16–18 family.",
+  "remaining_evidence_needed": "A matching order, transport manifest, original diary entry or independently decoded parallel linking the September 21 request, its horses, vessels or reference to one specific command.",
+  "stop_reason": "The bounded search found no same-message or same-institution identification specific enough to justify a new fill.",
+  "review": "The printed diary quotation and its page locator were independently checked during this source review."
+}

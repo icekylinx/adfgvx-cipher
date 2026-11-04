@@ -15,7 +15,7 @@ assignment gives 46510. All ten coordinates of each reference are observed.
 The earlier reference precedes both permitted surplus-coordinate exclusions,
 so its digits are unchanged by either source frame or the word repairs.
 
-This comparison supports **26 conditional digit positions in fifteen source
+This comparison supports **34 conditional digit positions in twenty source
 parts**, with **no additional observed-coordinate substitution or mask
 fill in the shared-digit layer**. A separate local date completion adds one
 printed-mask fill and completes the Siegfried first part. The published
@@ -38,15 +38,20 @@ partial square and the existing source editions remain intact.
 | [p167 D](../../cases/people/p167_captain_dispatch_fragment.md) | positions 41/49/91: 6/5/6 | 5/6/5 | 3 |
 | [p168 E](../../cases/military/danube_arad_witnesses.md#p168-e) | footer RM 1C 186 GEH | RM 1C 185 GEH | 1 |
 | [p159 A](../../cases/military/arad_provisions_partial.md) | footer RM 1C 186 GEH | RM 1C 185 GEH | 1 |
+| [p155 D](../../cases/military/nov7_derailment_and_trains.md) | 25 wagons | 26 wagons | 1 |
+| [p169 B](../../cases/military/nov7_derailment_and_trains.md) | S1152; 1B16616 | S1162; 1B15515 | 4 |
+| [p158 E1](../../cases/military/nov8_serbian_cavalry_parallel.md) | 6 R D | 5 R D | 1 |
+| [p160 A2](../../cases/military/nov8_alpenkorps_report.md) | 6 R D | 5 R D | 1 |
+| [p198 A](../../cases/naval/p198_shipping_query.md) | 116?0K | 115?0K | 1 |
 
-The extension to p167 and the two Arad copies adds eight positions to the
-earlier seventeen-position set. The second apparatus-sale part adds one
-further native XA pair, giving twenty-six gained pairs, all originally
-observed. In the selected edited layers, p167 C1 reaches **66/66**, p167 D
-**92/95**, and each Arad copy **136/136** fixed labels. Eleven of the fifteen
-selected layers are label-complete under the shared assignment alone; p160
-B2, p155 C1, p161 C1 and p167 D then retain one, one, one and three
-source-mask positions respectively. The separate date completion below resolves the p161 mask.
+Every newly assigned pair is directly observed in its own source. Fifteen
+of the twenty selected layers become label-complete under the shared
+assignment alone. The remaining source-mask positions are p160 B2 (one),
+p155 C1 (one), p161 C1 (one), p167 D (three) and p198 A (three). The
+separate date completion below resolves the p161 mask. The p158 and p160
+formation readings retain their existing source repairs, gap choices and
+UJ/UZ variants; the p198 quantity keeps its four minimum maps and C/G
+source alternatives.
 Opaque fixed fields are not thereby interpreted.
 
 The p167 D source has a fourth affected position, 77, where raw VF now reads
@@ -80,11 +85,76 @@ Together with its unchanged 77-label second part, the Siegfried order has
 **179/179 conditional fixed labels** and a complete readable German display
 in [the case](../../cases/people/military_mission_recalls.md#conditional-complete-siegfried-order).
 
-The final package therefore records **26 shared-key numeral gains plus one
-local mask completion: 27 added fixed positions**. Twelve of its fifteen
+The final package therefore records **34 shared-key numeral gains plus one
+local mask completion: 35 added fixed positions**. Sixteen of its twenty
 selected edited layers become label-complete when both stated assumptions
 are used. The raw domain and the opposite 46510 reference remain explicit;
 the date completion by itself chooses no 5/6 assignment.
+
+## Railway, military and shipping follow-up
+
+The later audit adds **eight original-pair labels in five physical sources**.
+The ordinary-word and source-geometry prices stay in their original packages.
+
+| Source | Before → conditional | Additional source work | Original source pairs, zero-based |
+|---|---:|---|---|
+| p155 D | 157 → **158/158** | None; earlier 3 substitutions and 5 masks remain | XA 294/56 |
+| p169 B | 108 → **112/112** | None; original source needs no repair | XA 15/184; VF 21/190, 223/111, 66/134 |
+| p158 E1 | 117 → **118/118** | None; earlier 5 substitutions and one source-linked added A remain | VF 32/209 |
+| p160 A2 | 118 → **119/119** | None; earlier 4 substitutions, 1 mask fill and 2 observed exclusions remain | VF 91/163 |
+| p198 A | 118 → **119/122** | None; earlier 5 substitutions, 6 printed fills, 1 added fill and the source exclusions remain | VF 109/158 |
+
+The two military copies inherit the same division numeral as their already
+interpreted p170 parallels. The new count is for those two newly propagated
+physical occurrences; the earlier unit identification is credited, not
+counted again. The p160 UJVERBASZ/UZVERBASZ distinction and the separately
+priced WERSCHETZ proposal remain available. All four p158 minimum insertion
+sites and the two previously retained near-minima are replayed as well.
+
+The p198 reception is dated **15 November**, while its deciphering key is
+**Nov7–9**. Its three surviving masks still cover two vessel-name positions
+and one quantity position. Under the selected square its primary source
+frame retains **six quantity strings and 216 complete compatibility
+witnesses**; the opposite square has another six and 216. All four minimum
+source maps and all four combinations of the two C/G glyph readings remain
+separate. No vessel identity or historical quantity is selected.
+
+## Bounded source inventory
+
+A separate replay covers **101 already source-reviewed Nov7–9 records and
+282 existing native or editorial views**, including the source-audited prior
+p171 reading. The inventory uses the recorded period key and source models;
+it does not run a new unknown-key attack or create new framing proposals.
+Its scope is frozen at the second-batch catalogue checkpoint.
+
+The inventory retains both assignments for every XA/VF occurrence. Existing
+courier, military, withdrawal, Marineamt and postal conditional layers are
+identified and excluded from the new-gain count. In particular:
+
+- The short, unextended p166 A3 diagnostic acquires numbers in garbled text;
+  that does not make it a new recovered message. Its source-linked 204-slot
+  edition retains the earlier military layer.
+- Raw p167 A3 date position 39 becomes 6, while the existing shared edition
+  separately adopts the observed 9 from p166.
+- Raw p163 A17 position 17 becomes 6 before an existing separator repair;
+  raw p167 D position 77 becomes 6 before an existing T repair.
+- The p163 A18 corps cell is created by a separately priced source repair,
+  and p166 B2's priority digit includes a coordinate supplied from p171.
+  Neither is a newly complete original-source pair.
+
+The existing p168 D image was read independently for the inventory. Its 243
+coordinates exactly match p159 C, including the six-letter VVFAGV group.
+The older 242-coordinate model excludes the same source-148 A and contains
+no XA/VF occurrence. The two receptions remain separate physical sources;
+this equality adds no new numeral or repaired word.
+
+```sh
+python experiments/nov7_9_joint_digits/verify_scan.py --verify
+```
+
+[Bounded scan inputs](source_scan_inputs.json) · [Replayed effects and limits](source_scan_certificate.json).
+The scan contributes **zero** to the recovery totals above; it checks that
+old effects and unfavorable raw consequences have not been silently omitted.
 
 ## Verify
 
@@ -94,7 +164,7 @@ python experiments/nov7_9_joint_digits/verify.py --verify
 
 The standard-library verifier independently reconstructs the columns,
 decodes both reference fields, tests both complete square assignments,
-checks the fifteen retained source streams and identifies every newly fixed
+checks the twenty retained source streams and identifies every newly fixed
 position. It records whether each pair is fully observed in its own
 original source, verifies the public conditional notes, and re-encrypts
 complete witnesses for both assignments.

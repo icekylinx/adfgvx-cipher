@@ -370,6 +370,131 @@
       "new_digit_positions": 1,
       "case_path": "cases/military/arad_provisions_partial.md",
       "conditional_note": "The [shared Nov7–9 reference interpretation](../../experiments/nov7_9_joint_digits/README.md) supplies **6** in the footer, giving **RM 1C 186 GEH** and **136/136 conditional edited labels**. The opposite assignment gives 185 GEH. This adds no coordinate change or fill to the current seven-substitution collation. The pair is originally observed in all eight retained source maps; raw p159 still ends 186 GLH before the separately priced GEH repair."
+    },
+    {
+      "id": "p155_D",
+      "inputs": "experiments/nov7_derailment_and_trains/inputs.json",
+      "record_id": "p155_D",
+      "input_root": [],
+      "rows_field": "source_rows",
+      "source_sha256": "f899e03ffb9d42c035dabe7fcb8572847bf7bef049a0278eaa00e3fed9407db5",
+      "certificate": "experiments/nov7_derailment_and_trains/certificates.json",
+      "certificate_record_id": "p155_D",
+      "certificate_root": [],
+      "cipher_path": [
+        "readable_candidate",
+        "ciphertext"
+      ],
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "case_path": "cases/military/nov7_derailment_and_trains.md",
+      "conditional_note": "Under the shared-reference assignment XA=5, the original pair at source 294/56 gives **25 wagons**, completing **158/158** labels. The opposite assignment gives 26. The earlier three observed substitutions and five mask fills are unchanged.",
+      "readable_german": "OK Mackensen. Morgenmeldung vom 7.11.18: Auf Strecke Gomel, Bachmatsch entgleiste ein Gueterzug. 25 Wagen zertruemmert. Beide Gleise sind gesperrt. Hrgr. Kiew. RM 1 A 7097 18.",
+      "previous_plaintext": "OKXMACKENSENXXMORGENMELDUNGVOM7X11X18AUFSTRECKEXGOMELXBACHMATSCHXENTGLEISTEEINGUETERZUGX2?WAGENZERTRUEMMERTXBEIDEGLEISESINDGESPERRTXXHRGRXKIEWXRMX1XAX7097X18X",
+      "selected_plaintext": "OKXMACKENSENXXMORGENMELDUNGVOM7X11X18AUFSTRECKEXGOMELXBACHMATSCHXENTGLEISTEEINGUETERZUGX25WAGENZERTRUEMMERTXBEIDEGLEISESINDGESPERRTXXHRGRXKIEWXRMX1XAX7097X18X",
+      "new_digit_positions": 1
+    },
+    {
+      "id": "p169_B",
+      "inputs": "experiments/nov7_derailment_and_trains/inputs.json",
+      "record_id": "p169_B",
+      "input_root": [],
+      "rows_field": "source_rows",
+      "source_sha256": "5f8b2abdae19b0a621700ccf06c8a30f853ad94174c523afd84039a8d01946ab",
+      "certificate": "experiments/nov7_derailment_and_trains/certificates.json",
+      "certificate_record_id": "p169_B",
+      "certificate_root": [],
+      "cipher_path": [
+        "readable_candidate",
+        "ciphertext"
+      ],
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "case_path": "cases/military/nov7_derailment_and_trains.md",
+      "conditional_note": "The same assignment gives **S1152** and **1B16616**, completing **112/112** labels from 108/112, with no source edit. The opposite assignment gives S1162 and 1B15515. NACHRUEBGEL and FECH remain unexpanded.",
+      "readable_german": "NACHRUEBGEL. FECH wird beschleunigt Stationszug S1152 und Bauzug 1924 der Gruppe Winterfeld zufuehren. Nachchef 1B16616.",
+      "previous_plaintext": "NACHRUEBGELXFECHWIRDBESCHLEUNIGTSTATIONSZUGXS11?2XUNDBAUZUGX1924XDERGRUPPEXWINTERFELDZUFUEHRENXNACHCHEFX1B1??1?X",
+      "selected_plaintext": "NACHRUEBGELXFECHWIRDBESCHLEUNIGTSTATIONSZUGXS1152XUNDBAUZUGX1924XDERGRUPPEXWINTERFELDZUFUEHRENXNACHCHEFX1B16616X",
+      "new_digit_positions": 4
+    },
+    {
+      "id": "p158_E1",
+      "inputs": "experiments/nov8_serbian_cavalry_parallel/inputs.json",
+      "record_id": null,
+      "input_root": [
+        "record"
+      ],
+      "rows_field": "source_rows",
+      "source_sha256": "411b79dd540cb3d111f7d873c33cd0294aa023ae55cf2fe8ee87546ae4d57def",
+      "certificate": "experiments/nov8_serbian_cavalry_parallel/certificates.json",
+      "certificate_record_id": null,
+      "certificate_root": [
+        "record"
+      ],
+      "cipher_path": [
+        "readable_candidate",
+        "ciphertext"
+      ],
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "case_path": "cases/military/nov8_serbian_cavalry_parallel.md",
+      "conditional_note": "The [shared-reference assignment](../../experiments/nov7_9_joint_digits/README.md) supplies **VF=6** to the unchanged division pair, completing **118/118** labels in the selected word edition. The five observed substitutions and one source-linked added A are unchanged; the opposite square retains 5. This propagates a separately justified digit to this physical witness and does not count the earlier p170 unit identification again.",
+      "readable_german": "ANENMELDUNG. Serb. Kavallerie Peterwadein und Fehertemplom eingerueckt. Abmarsch 217 I D und 6 R D nach Norden ohne Feinberuehrung.",
+      "previous_plaintext": "ANENMELDUNGXSERBXKAVALLERIEPETERWADEINUNDFEHERTEMPLOMEINGERUECKTXXABMARSCH217XIXDXUND?XRXDNACHNORDENOHNEFEINBERUEHRUNG",
+      "selected_plaintext": "ANENMELDUNGXSERBXKAVALLERIEPETERWADEINUNDFEHERTEMPLOMEINGERUECKTXXABMARSCH217XIXDXUND6XRXDNACHNORDENOHNEFEINBERUEHRUNG",
+      "new_digit_positions": 1
+    },
+    {
+      "id": "p160_A2",
+      "inputs": "experiments/nov8_radio_keys_and_reports/inputs.json",
+      "record_id": "p160_A2",
+      "input_root": [],
+      "rows_field": "rows",
+      "source_sha256": "37435b609978961c1bce7903b8e0b62b9683dc94a29f4a1128e8410570354fb7",
+      "certificate": "experiments/nov8_radio_keys_and_reports/certificates.json",
+      "certificate_record_id": "p160_A2",
+      "certificate_root": [],
+      "cipher_path": [
+        "edited_reading",
+        "interim"
+      ],
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "case_path": "cases/military/nov8_alpenkorps_report.md",
+      "conditional_note": "The [shared-reference assignment](../../experiments/nov7_9_joint_digits/README.md) supplies **VF=6**, completing **119/119** labels in the selected word edition. The four observed substitutions, one printed-mask fill and two observed exclusions remain unchanged. The opposite assignment gives 5; both UJVERBASZ/UZVERBASZ frames and the separately priced WERSCHETZ proposal remain available.",
+      "readable_german": "Alpenkorps wird Ujverbasz zum Abtransport bereitgestellt. 219 217 und 6 R D setzen 9.11. Marsch in Linie Nagybeskerek, Wergcheez fort.",
+      "cipher_is_interim": true,
+      "previous_plaintext": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND?XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+      "selected_plaintext": "ALPENKORPSWIRDUJVERBASZZUMABTRANSPORTBEREITGESTELLTXX219X217XUND6XRDXSETZEN9X11XMARSCHINLINIENAGYBESKEREKXWERGCHEEZFORT",
+      "new_digit_positions": 1
+    },
+    {
+      "id": "p198_A",
+      "inputs": "experiments/p198_shipping_query/inputs.json",
+      "record_id": "p198_A",
+      "input_root": [],
+      "rows_field": "source_rows",
+      "source_sha256": "44ca54d01f8a51d677e09fd6f230e7f1c056617577d9d20294ec9c5030048557",
+      "certificate": "experiments/p198_shipping_query/certificates.json",
+      "certificate_record_id": "p198_A",
+      "certificate_root": [],
+      "cipher_path": [
+        "readable_candidate",
+        "ciphertext"
+      ],
+      "mapping_path": [
+        "model_to_source_indices"
+      ],
+      "case_path": "cases/naval/p198_shipping_query.md",
+      "conditional_note": "The [shared-reference assignment](../../experiments/nov7_9_joint_digits/README.md) gives **116?0K** from the unchanged VF pair at original source 109/158, raising this edition from **118 to 119/122** fixed labels. The opposite assignment gives 115?0K. All four minimum source maps and both C/G glyph alternatives retain this consequence; no ship name, full quantity or unit value is selected.",
+      "readable_german": "Drahtet Kaufpreis, Schiffsfracht, Transporversicherung fuer Ende Sept. mit Dampfer ??PASIA und IBALIA Poti gelieferte 116?0K Pud Weizen.",
+      "previous_plaintext": "DRAHTETKAUFPREISSCHIFFSFRACHTTRANSPORVERSICHERUNGFUERENDESEPTXMITDAMPFER??PASIAUNDIBALIAPOTIXGELIEFERTEX11??0KXPUDWEIZENXX",
+      "selected_plaintext": "DRAHTETKAUFPREISSCHIFFSFRACHTTRANSPORVERSICHERUNGFUERENDESEPTXMITDAMPFER??PASIAUNDIBALIAPOTIXGELIEFERTEX116?0KXPUDWEIZENXX",
+      "new_digit_positions": 1
     }
   ],
   "retained_variant_checks": [
@@ -579,5 +704,10 @@
       "The separate Osthoff recall provides an observed date-format and same-month example, not a duplicate of the Siegfried order."
     ],
     "limit": "The raw domain 1GIKNY remains unchanged. Numeral 1 is selected contextually; nonnumeric alternatives require rejecting the date reading."
+  },
+  "extended_variant_sources": {
+    "experiments/nov8_serbian_cavalry_parallel/certificates.json": "558aa46eb07b85d22ce15531d027c901bbb82acbef73399a765ef48b16af9663",
+    "experiments/nov8_radio_keys_and_reports/parallel_witnesses.json": "87f29456d80afac389b08dc9da2bccbfb87e544a11a5d069b3e729172cf73d91",
+    "experiments/p198_shipping_query/certificates.json": "448293d94e14a15b436c7747741b7e402ee9d1e11d11e00b9fcd1abc7b94ffef"
   }
 }

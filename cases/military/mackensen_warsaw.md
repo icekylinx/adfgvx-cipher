@@ -20,16 +20,22 @@ solution to an open challenge.
 whether the rumor of Mackensen's advance on Warsaw is true. The query does
 not itself establish that such an advance occurred.
 
-The later message begins:
+The later message includes the query in its forwarding body:
 
-**Readable German — abbreviated display; the English bracket points to the query quoted above:**
+**Readable German — earlier cross-key repairs, with one additional separator fill:**
 
-> An OKM. Hier einging folgender Funkspruch: [the above query].
+> An OKM. Hier einging folgender Funkspruch: Erbitten umgehend Nachricht, ob Geruecht vom Anmarsch Mackensens auf Warschau wahr. Soldatenrat Warschau.
 
-The address and quotation-introducing sentence are directly decoded.
-The raw separator immediately before the quote and the damaged closing
-reference remain unresolved. No sender identity or final serial number is
-supplied from context.
+The address and introductory sentence are directly decoded. The display
+treats the erased character after `FUNKSPRUCHX` as a second separator,
+filling source **3** with **A** to make **AX=X**. This adds one mask fill
+to the earlier cross-key edition and completes the 130-position introduction
+and quotation. The whole source now has **145/146** fixed labels, at **three
+observed substitutions and four mask fills**. The remaining erasure is in
+the closing reference.
+
+The boundary fill is editorial: the source permits `1GJKWX`, so X is not
+cipher-forced. [Exact fill, quotation mapping and retained footer domain](../../experiments/open_targets_continuation/p214_completion_certificate.json).
 
 ## Prior publication and date discrepancy
 
@@ -103,9 +109,10 @@ supports three changes to fixed p214 characters and three erasure fills:
 
 The p214 substitutions are source indices **242: F→V**, **208: X→D** and
 **170: X→V**. The fills are **4: –→G**, **56: –→G** and **165: S→V**.
-The quote reconstruction changes no other source slot. The two remaining
-erasures outside the quotation, and the questionable fixed letters in the
-ending `XAOKYYXRMYAQY?5X`, are not repaired.
+The earlier quote reconstruction changes no other source slot. Of its two
+remaining erasures, the optional boundary completion above fills source 3;
+source 78 in the ending `XAOKYYXRMYAQY?5X` remains unknown. The questionable
+fixed closing labels are retained.
 
 ## Verification
 

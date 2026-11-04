@@ -138,7 +138,7 @@ This range contains 121 sources, including 0 OPEN. [Reading states](../../../doc
 | Source | State | Subject |
 |---|---|---|
 | [p213 A1](../../naval/reval_steamer_notice.md#p213-a1) | READING | Two steamers expected at Reval; raw quantity unresolved |
-| [p213 A2](../../naval/reval_steamer_notice.md#p213-a2) | READING | Further tonnage and raw-material transport; vessel-like fields retained |
+| [p213 A2](../../naval/reval_steamer_notice.md#p213-a2) | CONDITIONAL | Further tonnage and raw-material transport; conditional vessel-name readings |
 | [p213 A3](../../naval/reval_steamer_notice.md#p213-a3) | PARTIAL | Assurance of support and Kriegsdepartement closing |
 | [p213 A6](../../military/medical_return_transports.md#p213-a6) | PARTIAL | Water points, forwarding and medical-department request |
 | [p213 A7](../../military/medical_return_transports.md#p213-a7) | READING | Arrange transport care from Constantinople; raw reference retained |
@@ -203,14 +203,14 @@ This range contains 121 sources, including 0 OPEN. [Reading states](../../../doc
 | [p219 A2](../../finance/crown_cash_requests.md) | READING | Inquiry whether an advance can be drawn from the field war cash office |
 | [p219 B](../../finance/crown_cash_requests.md) | READING | Crown remittances partly sent; severe banknote shortage reported |
 | [p219 C](../../military/p219_kiev_unrest.md#p219-c) | CONDITIONAL | Kiev unrest between the Hetman government and an unresolved party; soldiers council neutrality |
-| [p219 D1](../../military/nov25_provisions_and_evening_report.md#p219-d1) | READING | First part: reduced provisioning strength and no further provisions |
+| [p219 D1](../../military/nov25_provisions_and_evening_report.md#p219-d1) | CONDITIONAL | First part: reduced provisioning strength and no further provisions |
 
 ## p220
 
 | Source | State | Subject |
 |---|---|---|
 | [p220 A2](../../military/nov25_provisions_and_evening_report.md#p220-a2) | READING | Second part: stop further provisions and notify Dresden |
-| [p220 B](../../military/nov25_provisions_and_evening_report.md#p220-b) | CONDITIONAL | Separate evening report with unresolved unit and place labels |
+| [p220 B](../../military/nov25_provisions_and_evening_report.md#p220-b) | CONDITIONAL | Evening report: Tiszafoeldvar, Nagymagocs and Kondoros; unit fields unresolved |
 | [p220 C1](../../military/mackensen_armistice_appeal.md#p220-c1-berthelots-notification) | READING | Berthelot notification of Foch's armistice position |
 | [p220 C2](../../military/mackensen_armistice_appeal.md#p220-c2-southeastern-front-and-pending-decision) | READING | Southeastern front disarmament and internment demand |
 | [p220 C3](../../military/mackensen_armistice_appeal.md#p220-c3-limited-acknowledgment-and-conditional-proposal) | READING | Limited acknowledgment pending OHL's decision |

@@ -205,6 +205,7 @@ def build(pdf=None):
                                   'price_table_sha256': vscope['all_prices_sha256']})
     text = (ROOT / data['case']).read_text()
     assert text.count(expected_legend(ROOT / data['case'])) == 1
+    text = text.split('\n## p198 A\n', 1)[1]
     fences, quotes = displays(text)
     assert [r['role_from_caption'] for r in fences] == ['raw_output', 'edited_output', 'source_transcription']
     assert [r['role_from_caption'] for r in quotes] == ['readable_german']

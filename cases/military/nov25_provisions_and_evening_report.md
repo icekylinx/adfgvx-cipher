@@ -4,13 +4,22 @@
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
-Two physically numbered parts request a complete stop to provisions after a reduction in the strength being provisioned. Their association is explicit across the p219/p220 page break. A separate evening report on p220 preserves its unresolved unit and place labels. All three use their complete native printed frames and the unchanged Nov25–28 key.
+Two physically numbered parts request a complete stop to provisions after
+a reduction in the strength being provisioned. The existing shared-square
+interpretation identifies their army field as **11th Army**. Their association
+is explicit across the p219/p220 page break. A separate evening report on
+p220 now supports **Tiszafoeldvar, Nagymagocs and Kondoros** as places reached,
+while its unit labels remain incomplete. All three retain their complete
+native printed frames.
 
 ## Source and scope
 
 [Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p219 excerpt](../../experiments/nov25_provisions_and_evening_report/sources/p219_reviewed.png) · [Reviewed p220 excerpt](../../experiments/nov25_provisions_and_evening_report/sources/p220_reviewed.png) · [Inputs](../../experiments/nov25_provisions_and_evening_report/inputs.json) · [Position and change certificates](../../experiments/nov25_provisions_and_evening_report/certificates.json)
 
-The published `Nov25-28` key is unchanged. [Original OCR records](../../experiments/nov25_provisions_and_evening_report/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/nov25_provisions_and_evening_report/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
+The original editions use the published `Nov25-28` key. The later shared-square interpretation and witnessed place repair are separately priced below. [Original OCR records](../../experiments/nov25_provisions_and_evening_report/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/nov25_provisions_and_evening_report/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
+
+The earlier published-label editions have the following source accounts.
+The later Tiszafoeldvar proposal adds one substitution to p220 B only.
 
 | Record | Source slots | Fixed raw positions | Observed substitutions | Source-mask fills |
 | --- | ---: | ---: | ---: | ---: |
@@ -37,19 +46,33 @@ INFOLGEVERRINGERTERXVERPFLEGUNGSSTAERKEFUERJJXARMEEKEINEVERPFLEGNNGFEHRERFOGDERL
 INFOLGEVERRINGERTERXVERPFLEGUNGSSTAERKEFUERJJXARMEEKEINEVERPFLEGUNGMEHRERFORDERLICH
 ```
 
-</details>
-
 **Readable German — exact nonseparator labels of the edited output:**
 
 > Infolge verringerter Verpflegungsstaerke fuer JJ. Armee keine Verpflegung mehr erforderlich.
 
-**Meaning:** The message states that reduced provisioning strength makes further provisions unnecessary for the army designated by the literal JJ label. It does not identify that army by converting J to a decimal digit.
+</details>
+
+**Conditional interpretation — existing shared FX=1 interpretation and the same three word repairs:**
+
+> Infolge verringerter Verpflegungsstaerke fuer 11. Armee keine Verpflegung mehr erforderlich.
+
+**Meaning:** Under the existing shared-square interpretation, the message
+states that the 11th Army's reduced provisioning strength makes further
+provisions unnecessary. The next part requests an immediate, complete
+halt to further supplies.
+
+The two original `FX` pairs at plaintext positions 43–44 come from
+source **10 F + 83 X** and **53 F + 133 X**. Neither was touched by the
+three word repairs. Their `11` reading follows the already supported
+`FX=1` assignment; this passage introduces no new numeral choice or
+source change. The [separate follow-up certificate](../../experiments/nov25_evening_place_witness/certificate.json)
+checks both pairs and the complete current quotation.
 
 **Editorial limits.**
 
 - All 166 observed coordinates are present, including the final printed VGGXA F omitted by the earlier 160-coordinate OCR block. Restoring those visible coordinates is a transcription correction, not a hypothetical lost-prefix or missing-slot fill.
 - The word proposals VERPFLEGNNG → VERPFLEGUNG, FEHR → MEHR and ERFOGDERLICH → ERFORDERLICH have explicit observed-coordinate costs. All raw garbles remain displayed.
-- JJ is retained literally. The edition supplies no army identity, headcount, or numerical key reassignment.
+- JJ remains literal in both earlier label streams above. The separately certified shared-square interpretation supplies 11 in the current reading; no headcount or additional key assignment is inferred.
 - The printed continued marker, identical UKS/ZÖN routing, 10.11 p.m. interception, 1849 internal reference and 2 TLE count associate this first part with p220 A2. The source changes its section label from D to A across the page break.
 
 ## p220 A2
@@ -111,7 +134,10 @@ ABENDMELDUNG13XJJ22ALPEXKX16X1ZUIGEXESHABENMITANFAENGENERREICHT1J0IDXTISHAFOELDV
 
 > Abendmeldung 13. JJ22 ALPE. K. 16. 1 ZUIGE. Es haben mit Anfaengen erreicht: 1J0ID, TISHAFOELDVAR. PRD, NAGQMAGOCS81J8. KONDOROS.
 
-**Meaning:** The recoverable clause in this separate evening report states that leading elements had reached the following listed entries. The unit, time-like and place labels are preserved literally; this edition does not identify the units or normalize the garbled place spellings.
+**Meaning:** The recoverable clause in this separate evening report states
+that leading elements had reached the following listed entries. This earlier
+label-based display preserves its unit, time-like and garbled place labels;
+the two separate place readings below have additional evidence.
 
 ### A shared letter identifies Nagymágocs
 
@@ -128,15 +154,45 @@ the municipality's proposed 1913 budgets.
 · [Masthead](../../experiments/nov25_treaty_digits/sources/csongrad_1912_title.png)
 · [Nagymágocs entries](../../experiments/nov25_treaty_digits/sources/nagymagocs_1912.png).
 The newly identified place is one location that leading elements
-reportedly reached; the adjacent unit labels and `TISHAFOELDVAR` remain unresolved.
+reportedly reached; the adjacent unit labels remain unresolved. The other
+damaged place has the separate native witness described next.
 The gazette supplies a geographical spelling, not a separate account
 of the reported military movement.
 
+### A native place witness under a different key
+
+The November 30 evening report [p229 A1](late_transport_dispatches.md)
+directly reads **`TISZAFOELDVAR`** at positions 41–53, using 26 untouched
+observed coordinates under its different Nov28–Dec1 key. Its Z is `VX`,
+from source 219 V and 148 X. That native spelling supports the earlier
+`TISHAFOELDVAR` place repair.
+
+In p220 B, H at position 72 comes from `AA`, source 6 and 150. The
+proposed change **6 A→D**, retaining source 150 A, gives `DA=Z`.
+The original image visibly has A; this is an observed-coordinate repair,
+not a corrected transcription. The older `HABE7→HABEN` repair at source
+157 remains separate, for **two total observed substitutions**, no fills
+and the unchanged 220-coordinate frame.
+
+**Conditional interpretation — shared Y and the witnessed place spelling, with unit labels retained:**
+
+> Es haben mit Anfaengen erreicht: 21?ID, Tiszafoeldvar. PRD, Nagymagocs. ?21?, Kondoros.
+
+This makes the place list readable as Tiszafoeldvar, Nagymagocs and
+Kondoros while preserving its incomplete unit labels. The donor is a
+separate later report, not a duplicate reception; it supports the
+spelling without establishing this report's unit identities or movements.
+The [cross-key place check](../../experiments/nov25_evening_place_witness/README.md)
+prices all 98 possible starts of that spelling in the native recipient
+frame. Position 69 is the only one-substitution minimum for this fixed
+word and frame. The conditional fixed-position count stays **103/110**:
+H was already observed, so this repair does not recover an erased position.
+
 **Editorial limits.**
 
-- All 220 observed coordinates remain in their native order. The sole primary word proposal HABE7 → HABEN is priced as an observed-coordinate change, not as a free reading of a numeral.
+- All 220 observed coordinates remain in their native order. The earlier primary word proposal HABE7 → HABEN is priced as an observed-coordinate change, not as a free reading of a numeral; the new place repair adds one separately recorded change.
 - 13, JJ22ALPE, K, 16, 1ZUIGE, 1J0ID, TISHAFOELDVAR, PRD, NAGQMAGOCS81J8 and KONDOROS keep their exact labels. Word spacing in the opening is editorial and does not establish its syntax or reference values.
-- The original edition supplies no unit number or geographical correction. Its TISHAFOELDVAR and NAGQMAGOCS remain in the exact label stream; the separate shared-Y interpretation above identifies only the latter place.
+- The original edition supplies no unit number or geographical correction. Its TISHAFOELDVAR and NAGQMAGOCS remain in the exact label stream. The separate shared-Y interpretation and one-coordinate witnessed repair identify those two places in the current reading.
 - The HATTE MR heading contains a 4-like glyph rendered as [4-like] in the metadata. This is a header transcription qualification and does not add a source-ciphertext erasure or a decoded position.
 - B has its own source label and reception time. It is not counted as a third part of the two-part provisioning message above.
 

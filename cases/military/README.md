@@ -148,7 +148,7 @@ Read the appeal against internment beside the later internment traffic and the r
 | [p153 B1](nov7_danube_and_message_reports.md#p153-b1) | CONDITIONAL | Danube crossing completed and busy crossing traffic |
 | [p154 A2](p154_weisskirchen_fragment.md) | CONDITIONAL | Weisskirchen halt and security fragment |
 | [p154 B3](airfield_german_troop_fragment.md#p154-b3) | READING | Third-part airfield and German troop report |
-| [p155 D](nov7_derailment_and_trains.md#p155-d) | PARTIAL | Morning report: derailed freight train and both tracks blocked |
+| [p155 D](nov7_derailment_and_trains.md#p155-d) | CONDITIONAL | Morning report: derailed freight train and both tracks blocked |
 | [p157 A1](armistice_departure_copy.md#p157-a1) | CONDITIONAL | Copy-conditioned armistice-departure report fragment |
 | [p157 A2](romanian_pacification_consultation.md#p157-a2) | READING | Romanian government considering a military pacification action |
 | [p157 A3](romanian_pacification_consultation.md#p157-a3) | READING | Request for plenipotentiary general to discuss the matter at BUKARST |
@@ -171,7 +171,7 @@ Read the appeal against internment beside the later internment traffic and the r
 | [p166 A3](nov9_operational_reports.md) | CONDITIONAL | March toward Nagybeskerek and Werschetz; order footer |
 | [p167 A3](nov9_operational_reports.md) | PARTIAL | Complete-frame repeat of the operational-report ending |
 | [p168 E](danube_arad_witnesses.md#p168-e) | CONDITIONAL | Arad provisions copy: native 80000 MANN and source-linked restoration of eleven p159 coordinates |
-| [p169 B](nov7_derailment_and_trains.md#p169-b) | PARTIAL | Forward station and construction trains to Group Winterfeld |
+| [p169 B](nov7_derailment_and_trains.md#p169-b) | CONDITIONAL | Forward station and construction trains to Group Winterfeld |
 | [p170 B1](nov9_operational_reports.md) | READING | Parallel cavalry and northward-march report |
 | [p170 B2](nov9_operational_reports.md) | PARTIAL | Alpenkorps at Ujverbasz and the 9 November march |
 | [p172 C1](namur_cassel_armistice_requests.md#p172-c1) | READING | Namur arrival report naming Major Kroeger, first part |
@@ -263,9 +263,9 @@ Read the appeal against internment beside the later internment traffic and the r
 | [p217 B1](nov24_train_report.md#p217-b1) | CONDITIONAL | Additional train departures and divisional positions in a conditional evening report |
 | [p217 B2](nov24_budapest_report.md#p217-b2) | READING | Additional report transmission by teleprinter via Budapest |
 | [p219 C](p219_kiev_unrest.md#p219-c) | CONDITIONAL | Kiev unrest between the Hetman government and an unresolved party; soldiers council neutrality |
-| [p219 D1](nov25_provisions_and_evening_report.md#p219-d1) | READING | First part: reduced provisioning strength and no further provisions |
+| [p219 D1](nov25_provisions_and_evening_report.md#p219-d1) | CONDITIONAL | First part: reduced provisioning strength and no further provisions |
 | [p220 A2](nov25_provisions_and_evening_report.md#p220-a2) | READING | Second part: stop further provisions and notify Dresden |
-| [p220 B](nov25_provisions_and_evening_report.md#p220-b) | CONDITIONAL | Separate evening report with unresolved unit and place labels |
+| [p220 B](nov25_provisions_and_evening_report.md#p220-b) | CONDITIONAL | Evening report: Tiszafoeldvar, Nagymagocs and Kondoros; unit fields unresolved |
 | [p220 C1](mackensen_armistice_appeal.md#p220-c1-berthelots-notification) | READING | Berthelot notification of Foch's armistice position |
 | [p220 C2](mackensen_armistice_appeal.md#p220-c2-southeastern-front-and-pending-decision) | READING | Southeastern front disarmament and internment demand |
 | [p220 C3](mackensen_armistice_appeal.md#p220-c3-limited-acknowledgment-and-conditional-proposal) | READING | Limited acknowledgment pending OHL's decision |

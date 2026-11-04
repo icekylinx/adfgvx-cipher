@@ -1,0 +1,136 @@
+{
+  "schema": "adfgvx-nov25-evening-place-witness-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": {
+    "experiments/nov25_provisions_and_evening_report/inputs.json": "75e81aa68766efd08f5a5eff96a9f8d9b3a2c9fb3598db474bb066380ba13232",
+    "experiments/nov25_provisions_and_evening_report/verify.py": "35d813e4c5e6b9e3482e9b50bf5be69884af2d8bbc24598462954879e30dec97",
+    "experiments/nov25_provisions_and_evening_report/certificates.json": "c3161fbb398ce0c64031dd5a33b43e0bee32fc9da30a664bb2a976afd66ca0de",
+    "experiments/late_transport_dispatches/inputs.json": "762575b9433be908837188f95e43853ed00c57020f6ffe2ffc6e063904d4cbc2",
+    "experiments/late_transport_dispatches/verify.py": "13be9c0293d9f454ba1516d1e4a9fb1d77cb6f6b41991a044c89eb85915c3d33",
+    "experiments/late_transport_dispatches/certificates.json": "48807b89a416b853efb04ffde9610bf590b833bb09477cb9133073808106ff98",
+    "experiments/nov25_treaty_digits/names_inputs.json": "d675f7990fd479d4f005dc91c54be4fb4f9b3b6b61aa077fe25a525dc50661c3",
+    "experiments/nov25_treaty_digits/verify_names.py": "897134e5d127a27bda53613f5bf275cebea46771bd78c2266e59d150022c359f",
+    "experiments/nov25_treaty_digits/names_certificate.json": "28e3011e0fb61191ad0b7c777947dc1d31326cd670ededd4e4ebf1ce3e44cd50",
+    "experiments/nov25_letter_constraint/verify.py": "9c2b41706ed8bcb123a530f894ecce5e9d7b6457ea6f6876d3d24e2ca5a71d86"
+  },
+  "recipient": {
+    "package": "experiments/nov25_provisions_and_evening_report",
+    "id": "p220_B",
+    "range": [
+      69,
+      82
+    ],
+    "native_place": "TISHAFOELDVAR",
+    "proposed_place": "TISZAFOELDVAR",
+    "source_length": 220,
+    "plaintext_length": 110,
+    "mismatch": {
+      "plaintext_index": 72,
+      "pair": "AA",
+      "source_indices": [
+        6,
+        150
+      ],
+      "target_pair": "DA",
+      "source_change": {
+        "source_index": 6,
+        "from": "A",
+        "to": "D"
+      }
+    },
+    "display_range": [
+      36,
+      110
+    ],
+    "german": "Es haben mit Anfaengen erreicht: 21?ID, Tiszafoeldvar. PRD, Nagymagocs. ?21?, Kondoros."
+  },
+  "donor": {
+    "package": "experiments/late_transport_dispatches",
+    "id": "p229_A1",
+    "range": [
+      41,
+      54
+    ],
+    "native_place": "TISZAFOELDVAR",
+    "source_length": 228,
+    "plaintext_length": 114,
+    "supporting_Z": {
+      "plaintext_index": 44,
+      "pair": "VX",
+      "source_indices": [
+        219,
+        148
+      ]
+    }
+  },
+  "shared_square_certificate": "experiments/nov25_treaty_digits/names_certificate.json",
+  "prior_recipient_changes": [
+    {
+      "source_index": 157,
+      "from": "G",
+      "to": "X"
+    }
+  ],
+  "expected_conditional_plaintext": "ABENDMELDUNG2?X11??ALPEXKX2?X2ZUIGEXESHABENMITANFAENGENERREICHT21?IDXTISZAFOELDVARXPRDXNAGYMAGOCS?21?XKONDOROS",
+  "displays": [
+    {
+      "path": "cases/military/nov25_provisions_and_evening_report.md",
+      "required": [
+        "`TISHAFOELDVAR`",
+        "`TISZAFOELDVAR`",
+        "**6 A→D**",
+        "Infolge verringerter Verpflegungsstaerke fuer 11. Armee keine Verpflegung mehr erforderlich.",
+        "Es haben mit Anfaengen erreicht: 21?ID, Tiszafoeldvar. PRD, Nagymagocs. ?21?, Kondoros."
+      ]
+    },
+    {
+      "path": "experiments/nov25_evening_place_witness/README.md",
+      "required": [
+        "TISHAFOELDVAR",
+        "TISZAFOELDVAR",
+        "**one observed-coordinate substitution**"
+      ]
+    }
+  ],
+  "limits": [
+    "The donor is a separate November 30 report under a different key, not a duplicate reception of the November 25 telegram. It witnesses the place spelling, not the earlier unit number or reported movement.",
+    "The recipient source visibly has A at index 6. The A-to-D change is an editorial repair, not a corrected visual transcription. The raw H remains in the earlier edition.",
+    "The thirteen-letter donor place is entirely native: 26 original observations, no mask fill, coordinate substitution or geometrical change in this span. Its unrelated earlier MIT word repair is not used as evidence.",
+    "All 98 recipient word-start positions are costed under the fixed native 220-coordinate frame. Position 69 is the unique one-substitution minimum for this stated place spelling; this bounded comparison does not prove unique historical wording.",
+    "The existing HABEN repair is retained separately, giving two total recipient substitutions and no fills. No numeral assignment, unit identity, date, insertion, deletion or reordering is introduced.",
+    "The shared Y and numeral hypotheses retain their existing evidence and uncertainty. The native donor spelling supports H-to-Z independently of those hypotheses. Recipient fixed-position counts do not rise: this is a corroborated place repair, not a source-erasure fill.",
+    "The related p219 D1 army field is a further consequence of the existing FX=1 interpretation, not a new number assignment. Its three earlier ordinary-word substitutions remain unchanged and separate from the two repairs in p220 B."
+  ],
+  "provisioning_context": {
+    "id": "p219_D1",
+    "range": [
+      43,
+      45
+    ],
+    "baseline_labels": "JJ",
+    "conditional_labels": "11",
+    "pairs": [
+      {
+        "plaintext_index": 43,
+        "pair": "FX",
+        "source_indices": [
+          10,
+          83
+        ]
+      },
+      {
+        "plaintext_index": 44,
+        "pair": "FX",
+        "source_indices": [
+          53,
+          133
+        ]
+      }
+    ],
+    "unchanged_observed_substitutions": 3,
+    "german": "Infolge verringerter Verpflegungsstaerke fuer 11. Armee keine Verpflegung mehr erforderlich."
+  }
+}

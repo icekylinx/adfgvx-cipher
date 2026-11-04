@@ -16,23 +16,63 @@ Twelve source records cover seven exchanges about the Caucasus: personnel and mo
 
 **Readable German:**
 
-> Zu Tel. 30.9. `NATEKS` Nr. 8557. 1. Verstärkung der Deleg. von O.H.L. ohne Beteiligung [… K.M.] angeordnet. 2. Mit Bericht vom 8.[?], `4A` Nr. 553 angeford. Verw.-Pers. wird mit Ausnahme der Garnison-Verw.-Beamten — vergl. Tel. 26.[?], [unresolved reference] — zur Verfügung gestellt werden. 3. Notwendiges Geld ist sichergestellt.
+> Zu Tel. 30.9. `NATEKS` Nr. 8557. 1. Verstärkung der Deleg. von O.H.L. ohne Beteiligung [des] K.M. angeordnet. 2. Mit Bericht vom 8.[?], `4A` Nr. 553 angeford. Verw.-Pers. wird mit Ausnahme der Garnison-Verw.-Beamten — vergl. Tel. 26.[?], [unresolved reference] — zur Verfügung gestellt werden. 3. Notwendiges Geld ist sichergestellt.
 
-**Meaning:** Reinforcement of the delegation has been ordered by Supreme Army Command, without the participation of an office whose abbreviation is damaged. Requested administrative personnel will be made available, except for garrison-administration officials. Necessary money has been secured.
+**Meaning:** Reinforcement of the delegation has been ordered by Supreme Army Command, without the participation of the office denoted literally by `K.M.`, under the separately priced article completion below. Requested administrative personnel will be made available, except for garrison-administration officials. Necessary money has been secured.
 
-`Deleg.`, `O.H.L.`, `Verw.-Pers.` and `Garnison-Verw.-Beamten` are expanded only in the explanation. The reference text `NATEKS`, the raw `?SKXM` office abbreviation, and several dates and numbers remain unresolved. The edition does not identify a particular ministry or assign the damaged reference digits.
+`Deleg.`, `O.H.L.`, `Verw.-Pers.` and `Garnison-Verw.-Beamten` are expanded only in the explanation. The reference text `NATEKS` and several dates and numbers remain unresolved. The article completion below reads raw `X?S` as `DES` before literal `K.M.`; it does not identify a particular ministry or assign the damaged reference digits.
 
 ### What the three source parts preserve
 
 | Part | Literal / interpreted coordinates | Fixed raw positions | Source issue | Additional editorial cost |
 |---|---:|---:|---|---:|
-| A1 | 203 / 178 | 88/89 | The second copy of an identical 25-coordinate run is visibly struck out. | 1 known-coordinate substitution; no asserted fill |
+| A1 | 203 / 178 | 88/89 | The second copy of an identical 25-coordinate run is visibly struck out. | Earlier: 1 substitution, no fill; with conditional article: 2 substitutions, 1 fill |
 | A2 | 251 / 226 | 108/113 common to both models; 109/113 in one model | An unmarked 25-slot near-repeat; two deletion alternatives remain. | 6 substitutions; 1 or 2 asserted fills |
 | A3 | 124 / 124 | 60/62 | Two invalid/missing source coordinates; unchanged geometry | 4 substitutions; 2 fills |
 
 The A1 strikeout is a source instruction. The A2 deletion is a reconstruction hypothesis: its adjacent copies differ only by a printed `X` versus a non-coordinate `S`. Removing either copy gives the same raw text except for `GARNISON` versus `G?RNISON`. Both are kept; the latter does not become an independently witnessed `A`.
 
 The raw core is already recognizable as `VERSTAER1UNGDERDELEGXVONOXHXLXOHNEBETEILIGUNG...ANGEORDNET`, and A3 directly contains `ZURVERFUEGUN...GESTELLT...` and most of `NOTWENDIGESGELDISTSICHERGESTELLT`. The stated costs account for making those words readable; the uncorrected strings remain in the certificate.
+
+### Conditional article before K.M.
+
+The unchanged inverse ends `OHNEBETEILIGUNGX?SKXMXANGEORDNET`.
+A grammatical proposal reads `X?S` as **DES**: “ohne Beteiligung des K.M.
+angeordnet”. It adds no plaintext position and changes no source frame.
+The source still has D at coordinate 136 and the invalid printed U at 185;
+neither glyph is silently retranscribed.
+
+| Plaintext index | Raw pair / label | Proposed label | Additional source operation |
+|---:|---|---|---|
+| 72 | `GD` / X | D (`GG`) | source 136 D → G; one observed substitution |
+| 73 | `F?` / domain `1EKLOS` | E (`FA`) | source 185 U → A; one invalid-glyph fill |
+
+The 88/89 raw count is unchanged. Including the existing `VERSTAERKUNG`
+repair, the conditional first-part layer has **89/89 positions**, at
+**two observed-coordinate substitutions and one mask fill**. The printed
+25-coordinate strikeout and published key remain exactly as before.
+
+**Readable German — conditional article bracketed, abbreviations retained:**
+
+> Zu Tel. 30.9. NATEKS Nr. 8557. 1. Verstaerkung der Deleg. von O.H.L. ohne Beteiligung [des] K.M. angeordnet.
+
+<details>
+<summary>Complete conditional first-part machine string</summary>
+
+**Edited output — the existing word repair plus one observed substitution and one invalid-glyph fill for DES:**
+
+```text
+ZUTELX30X9XNATEKSNRX8557X1XVERSTAERKUNGDERDELEGXVONOXHXLXOHNEBETEILIGUNGDESKXMXANGEORDNET
+```
+
+</details>
+
+The [extension certificate](../../experiments/p72_article_completion/README.md)
+prices all 216 combinations of the first label and the six source-compatible
+second labels. **Sixty** have the same one-additional-substitution cost as
+`DE`. The grammar motivates this proposal; the cipher does not make it
+unique. `K.M.`, `NATEKS`, `8557` and the reference date remain literal, and
+no institution or separate received copy is asserted.
 
 ## p70 A — Westernhagen, price limits and an urgent return
 

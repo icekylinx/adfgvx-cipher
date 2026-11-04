@@ -62,6 +62,18 @@ verified evidence of the September voyage. `VURNA` remains tied under the
 exact coordinate-cost model. The second label has not been identified, and
 is not normalized to *Burgas*.
 
+## Related command-number context
+
+The later part of the Poti exchange retains `GENKDOX?2`, with decimal
+candidates 12, 32, 52 and 62. Baumgart's published quotation of Hopman's
+16 September 1918 diary names General Command 52 in the decision to hold
+the *Corcovado* transport: [*Das Kaspi-Unternehmen*, first part, p103,
+note 285](https://openscience.ub.uni-mainz.de/server/api/core/bitstreams/19e5318f-7b9b-4ab1-ba90-5be25c049b40/content).
+This establishes relevant shipping context, but does not identify the
+command in the p59 request. All four candidates remain; no coordinate is
+filled. The [bounded source check](command_context.json) records the
+inspected scope and the evidence still needed to connect the messages.
+
 ## Reproduce
 
 ```sh
