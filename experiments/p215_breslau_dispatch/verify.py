@@ -31,7 +31,7 @@ def sha(path):
 
 def source_map(source, frame, mask_start=None):
     boundaries = frame['insert_unknown_before_source_indices']
-    assert boundaries == [157, 185]
+    assert len(boundaries) == 2 and 155 <= boundaries[0] <= 159 and 184 <= boundaries[1] <= 188
     start = frame['move_printed_mask_source_start'] if mask_start is None else mask_start
     assert source[start:start + 5] == '-----'
     origins = []
@@ -110,7 +110,9 @@ def edited_layer(template, cipher, source, origins, key):
         (substitutions if a in C else inserted if origin is None else printed).append(change)
     analyzed = analyze(result, key, origins)
     assert analyzed['raw'] == template
-    return dict(ciphertext=result, **analyzed,
+    # Raw domains already carry the unchanged coordinate-origin map. The edited
+    # ciphertext and explicit change ledger suffice to recompute every new domain.
+    return dict(ciphertext=result, raw=analyzed['raw'], fixed_positions=analyzed['fixed_positions'],
                 observed_coordinate_substitutions=substitutions,
                 printed_mask_fills=printed, inserted_slot_fills=inserted,
                 full_roundtrip_witness=witness(result, key))
@@ -147,6 +149,37 @@ def build(pdf=None):
                    full_roundtrip_witness=witness(cipher, key))
         if model.get('word_proposal'):
             row['readable_candidate'] = edited_layer(model['word_proposal'], cipher, source, origins, key)
+            layer = row['readable_candidate']
+            expected_counts = model['expected_word_prices']
+            actual_counts = dict(fixed_positions=layer['fixed_positions'],
+                                 observed_substitutions=len(layer['observed_coordinate_substitutions']),
+                                 printed_mask_fills=len(layer['printed_mask_fills']),
+                                 inserted_slot_fills=len(layer['inserted_slot_fills']))
+            assert actual_counts == expected_counts
+            gained = [i for i, (a, b) in enumerate(zip(raw['raw'], layer['raw'])) if a == '?' and b != '?']
+            assert all(sum(c in C for c in raw['positions'][i]['pair']) == 1 for i in gained)
+            row['new_word_positions_with_one_observed_half'] = gained
+            # Filled AFFFA and VVDGA have repeated-letter insertion aliases.
+            # These identities do not multiply the text or establish unique gaps.
+            alias_hashes = []
+            for a in [156, 157, 158]:
+                for b in [184, 185]:
+                    for start in range(195, 204):
+                        alternative = dict(model['frame'], insert_unknown_before_source_indices=[a, b])
+                        mp = source_map(source, alternative, start)
+                        wire = ''.join(source[i] if i is not None and source[i] in C else '?' for i in mp)
+                        candidate = edited_layer(model['word_proposal'], wire, source, mp, key)
+                        assert candidate['ciphertext'] == layer['ciphertext']
+                        assert len(candidate['observed_coordinate_substitutions']) == actual_counts['observed_substitutions']
+                        assert len(candidate['printed_mask_fills']) == actual_counts['printed_mask_fills']
+                        assert len(candidate['inserted_slot_fills']) == actual_counts['inserted_slot_fills']
+                        alias_hashes.append(hashlib.sha256(json.dumps(mp, separators=(',', ':')).encode()).hexdigest())
+            assert len(set(alias_hashes)) == 54
+            row['word_layer_ownership_aliases'] = dict(
+                count=54, first_insert_boundaries=[156, 157, 158], second_insert_boundaries=[184, 185],
+                moved_mask_source_starts=list(range(195, 204)), mapping_sha256s=alias_hashes,
+                completed_ciphertext_sha256=hashlib.sha256(layer['ciphertext'].encode()).hexdigest(),
+                limit='Conditional on this word proposal; one corrected ciphertext, not54 independent readings.')
         editions.append(row)
     primary = next(r for r in editions if r['id'] == record['primary_model_id'])
     # The primary raw stream, not a language-filled witness, is the census contract.
@@ -164,6 +197,13 @@ def build(pdf=None):
                        primary_edited_observed_substitutions=len(candidate['observed_coordinate_substitutions']),
                        primary_printed_mask_fills=len(candidate['printed_mask_fills']),
                        primary_inserted_slot_fills=len(candidate['inserted_slot_fills']))
+    common = None
+    if all('readable_candidate' in row for row in editions):
+        texts = [row['readable_candidate']['raw'] for row in editions]
+        common = ''.join(chars[0] if len(set(chars)) == 1 else '?' for chars in zip(*texts))
+        assert common == data['common_word_reading']
+        assert len(common) - common.count('?') == 192
+        summary.update(common_word_fixed_positions=192, common_unknown_positions=[44, 45, 66, 67])
     case = ROOT / data['case']
     text = case.read_text()
     assert text.count(expected_legend(case)) == 1
@@ -174,10 +214,15 @@ def build(pdf=None):
     assert '\n'.join(record['source_rows']) in bodies
     if 'readable_candidate' in primary:
         assert primary['readable_candidate']['raw'] in bodies
+        assert data['primary_readable_german'] in text
+        visible = re.sub('[^A-Z0-9?]', '', data['primary_readable_german'].upper())
+        assert visible == primary['readable_candidate']['raw'].replace('X', '')
     return dict(schema='adfgvx-p215-breslau-dispatch-certificate-v1',
                 authors=data['authors'], input_sha256=sha(HERE / 'inputs.json'),
                 indexing='All indices are zero based; ranges are half open.',
-                summary=summary, records=[primary_record], model_variants=editions), evidence
+                summary=summary, records=[primary_record],
+                alternative_models=[row for row in editions if row['id'] != primary['id']],
+                common_word_reading=common), evidence
 
 
 def main():

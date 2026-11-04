@@ -1,0 +1,263 @@
+{
+  "schema": "adfgvx-p215-discovery-search-provenance-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "model_provenance": "../p212_medical_fragment/search_provenance.json",
+  "model_recipe": "Rebuild the pinned 50:50 book/radio36 tensor using the p212 replay; preserve its log10 float32 quantization, renormalize, sum compatible plaintext cells for each49-pattern tuple, take natural logarithms, then float32. No likelihood-ratio subtraction or singleton term.",
+  "joint49_sha256": "a1e1269f9eb6fbbbb3d7d5dbcd0fd14b6c216b9fe568346c4af87e6420dfbd90",
+  "pinned_repository_files": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "data/reviews/source_gap_audit_20261103.json": "a2e244c956d9ca39083c39072d67bbb65785abdd67066ccdc08a2eae417da3f2",
+    "experiments/p212_medical_fragment/replay_search.py": "e0248077835c477048a5c36100f8214a3406f1aba57afd6c4e35ebdb51ae9c7a",
+    "experiments/p212_medical_fragment/search_provenance.json": "6b0489c8ae30982e1a2af40255885fabf591c506dac0538f275f6f12af62e8ad",
+    "experiments/p215_breslau_dispatch/order_scan.c": "6ab142853b3877f6d7afd53c184f351676393f8f1fc60aabc1ecb0d45a4d59ee"
+  },
+  "source_analysis_sha256": "2761d244685c499dc2d992ff0e869491f5f5d5c7481ad1f71a8c83565fa4cc50",
+  "whole_scope": {
+    "short_gap_boundaries": [
+      [
+        155,
+        159
+      ],
+      [
+        184,
+        188
+      ]
+    ],
+    "frames": 25,
+    "group_lengths": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      2
+    ],
+    "operations_per_frame": {
+      "identity": 1,
+      "swap_two_of_first78_groups": 3003,
+      "remove_reinsert_one_of_first78_groups": 6006
+    },
+    "evaluations": 225250,
+    "note": "Operation descriptions include aliases. The final two-slot group is not moved. This grouping applies after the two missing-coordinate insertions."
+  },
+  "coordinate_scope": {
+    "frames": 25,
+    "canonical_removed_source_mask_indices": [
+      195,
+      196,
+      197,
+      198,
+      199
+    ],
+    "equivalent_mask_run_ownership_starts": [
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203
+    ],
+    "destinations_in387slot_remainder": [
+      0,
+      387
+    ],
+    "models": 9700,
+    "note": "One canonical five-mask owner choice is scanned; the nine choices within the13-mask run are value-equivalent but preserve different original source ownership."
+  },
+  "whole_controls": [
+    {
+      "name": "whole_control0",
+      "expected_raw": "DIEPATROUILLEHATAMWEST?ICHEN?ALDR?N?EIN?NVER?ASSENENWAG?NENTDECKTX?UFDEMANGRE?ZENDENFELD?EGLIEGENME?REREBESC?A?DI?TEKISTE?XDERINHALT?IRDGEPRUEF?UNDDURCHEI?EKL?INEWACHEBISZURAB?OLUNGGESICHERTXWEITE",
+      "score": -1870.5835371017456,
+      "plaintext": "DIEPATROUILLEHATAMWESTLICHENWALDRANDEINENVERLASSENENWAGENENTDECKTXAUFDEMANGRENZENDENFELDWEGLIEGENMEHREREBESCHAEDIGTEKISTENXDERINHALTWIRDGEPRUEFTUNDDURCHEINEKLEINEWACHEBISZURABHOLUNGGESICHERTXWEITE",
+      "source_fault": [
+        1,
+        8,
+        44
+      ],
+      "source_masked": "XVFDFVFGDFVFGGFDGVFAXVVVADXVXDVFDGVVVFGVGFDDVDDXVVVXDFADFFXXVGVAVDFVFFFVAGVADFAAFDAVVAGFGGGXGFXAVVFAVVAVXFVVVDADGFVFGXVGVVAFVXAAAGVFFFFDFVDAGFGVFFGAFGFXFVGDDVDADDDGAVVGVVVGVFXVXXVFDAGAGFFGGGDAAGA?????????????FFVXVXAADAVFGFAFDFFDVFVD?DFGFGFDGFAFFVVADVVVDVGVVDFXG?AXXDFDAXAVAFFGADVFFGFGVAVXXXVDFAAGFXAVVVAFVADGDAFXVGGAVDXDDGFXVFGV?VGFFXFDFV??FFXAGFFAXFAVFDFXADDFDFVAVFFFVFADVFFGAVFVXVVGFDXGGD"
+    },
+    {
+      "name": "whole_control1",
+      "expected_raw": "WEGENST?RKEN?INDES?STDIELEIT?NGZUMNACH??RABSCHNITTSEITMITTERNACHTGESTOERTXDER?TOERUNGSTR?P?RUECKTUE?ERDIEALT?B?UECKEVORUN?NIMMTERSAT?GERAETMITX?EDERPOSTEN?EOBACHTETD?ES?RASSEUN?GIBTNEUEBE?UNDEUNVE",
+      "score": -1839.9090209007263,
+      "plaintext": "WEGENSTARKENWINDESISTDIELEITUNGZUMNACHBARABSCHNITTSEITMITTERNACHTGESTOERTXDERSTOERUNGSTRUPPRUECKTUEBERDIEALTEBRUECKEVORUNDNIMMTERSATZGERAETMITXJEDERPOSTENBEOBACHTETDIESTRASSEUNDGIBTNEUEBEFUNDEUNVE",
+      "source_fault": [
+        2,
+        4,
+        59
+      ],
+      "source_masked": "AGDVVFFFVDFVXFXFVFDADFAVVDFFAVDFDGXDVGDVVFDDVFFFFVGGAAXFFVGDDXDGDVXDFGDDVDGVGADVDGGVADVDDFDVFFGADFDGGVXVDFDADVVGDXVVVXGDFVFVAFVFFFVFXDXAVFGVDVGFFFFAVAAGAFAVDDDFGVVVDVVFADGFAFDDFXFFGDVFFFFGXDVAFVV?????????????AFFDAGFGXFVDVDVVGDGXAVVX?FFDFGXDDADGVFDFVFGVXAAFAFDVF?FAVVDVXFVAGFFFGVFAXAVFGADDFAVDVGAAADVVVVDVFVVFVFGFAFVGDGGFVAFVVFVV?VXVFVVFVD??DXVADXVFVXVDFAAVDFVFXXXAFFAADAGVXVAADDDFVFVVVGFAVD"
+    }
+  ],
+  "coordinate_controls": [
+    {
+      "name": "coordinate_control0",
+      "source_sha256": "06e197b63142caf97ca3c94235a0c701ec0e7faf10bf45dfae59b9de48a2318c",
+      "parameters": [
+        157,
+        186,
+        266
+      ],
+      "expected_raw": "D?EPATROUILL?HATAMWEST??CHEN?ALDR??DEIN?NVER?ASSENENWAG?NENTDECKTX?UFDEMANGRE?ZENDENFELD?EGLIEGENME?RER?BESC?AEDI?TEKISTENXDERINHALTWIRDGEPRUEFTUNDDURCHEINEKLEINEWACHEBISZURAB?OLUNGGE?ICHERTX?EITE",
+      "truth_score": -1867.897850036621,
+      "plaintext": "DIEPATROUILLEHATAMWESTLICHENWALDRANDEINENVERLASSENENWAGENENTDECKTXAUFDEMANGRENZENDENFELDWEGLIEGENMEHREREBESCHAEDIGTEKISTENXDERINHALTWIRDGEPRUEFTUNDDURCHEINEKLEINEWACHEBISZURABHOLUNGGESICHERTXWEITE"
+    },
+    {
+      "name": "coordinate_control1",
+      "source_sha256": "20d73113c356333c9e97a230ec5937a1d87cc623244d465adb65157c6d48fa43",
+      "parameters": [
+        157,
+        186,
+        275
+      ],
+      "expected_raw": "WEGENSTARKENWINDESISTD?ELEIT?NGZU?NACHB?RABS?HNITTSEITM?TTERNACHTG?STOERTXDER?TOERUNGSTR??PRUECKTUE??RD?EALT?BR?E?KEVORUND?IMMTERSATZ?ERAETMITXJEDERPOSTENBEOBACHTETDIESTRASSEU?DGIBTNE?EBEFUNDEUNVE",
+      "truth_score": -1867.2519445419312,
+      "plaintext": "WEGENSTARKENWINDESISTDIELEITUNGZUMNACHBARABSCHNITTSEITMITTERNACHTGESTOERTXDERSTOERUNGSTRUPPRUECKTUEBERDIEALTEBRUECKEVORUNDNIMMTERSATZGERAETMITXJEDERPOSTENBEOBACHTETDIESTRASSEUNDGIBTNEUEBEFUNDEUNVE"
+    }
+  ],
+  "limits": [
+    "The proper joint four-gram sum is an overlapping composite language score, not an exact sequence probability or historical authentication.",
+    "These search controls test source-layout retrieval under the supplied correct complete Nov22-24 key; they do not validate arbitrary missing-length, unknown-key or word-repair recovery.",
+    "Initial whole-group selection at destination270, later coordinate-score maximum268, and later word-repair minimum266 have different selection rules. The primary edition preserves initial270. No language optimum proves the source geometry.",
+    "The266 word-repair preference uses a later lexical hypothesis, not blind language scoring; this replay reports its raw score and rank but does not relabel it as the discovery winner.",
+    "All source coordinates are retained; moving printed masks and adding two unknown short-group slots are explicit conditional layout hypotheses.",
+    "The control texts were constructed for this search; no claim is made that two examples establish universal solver reliability."
+  ],
+  "whole_historical": {
+    "evaluations": 225250,
+    "best_score": -2236.8059825897217,
+    "tie_descriptions": 2,
+    "ops": [
+      [
+        11,
+        2,
+        40,
+        54
+      ],
+      [
+        11,
+        2,
+        41,
+        54
+      ]
+    ]
+  },
+  "coordinate_historical": {
+    "models": 9700,
+    "reported_models": [
+      {
+        "parameters": [
+          157,
+          185,
+          270
+        ],
+        "score": -2236.8059825897217,
+        "raw": "D6EABSENDUNGRUERXYYXAR?PEDRI?GXBE??ETIG?ENXJ??11XPAARHU??ISENUND9K??11111XHUF??EGELUNDSC?RAUBNAEGEL?ST??UTEX?BBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNER6OLGTXN?AINDEPO?XBRESLAT5J85",
+        "rank": 23,
+        "selection": "Initial whole-group discovery; primary edition"
+      },
+      {
+        "parameters": [
+          157,
+          185,
+          268
+        ],
+        "score": -2221.7436389923096,
+        "raw": "D6EABSENDUNG?UERXYYXAR??EDRI?GXBE??ETIG?ENXJ??11XPAARHU??ISENUND9K?Y11111XHUF?AEGELUNDSC?RAUBNAEGEL?ST??UTEX?BBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNER6OLGTXN?AINDEPO?XBRESLAT5J85",
+        "rank": 1,
+        "selection": "Later highest coordinate-retrieval score"
+      },
+      {
+        "parameters": [
+          157,
+          185,
+          266
+        ],
+        "score": -2239.710594177246,
+        "raw": "D?EABSENDUNG?UERXYYXAR??EDRI?GXBE??ETIG?ENXJ?J11XPAARHU?6ISENUND9K?Y11111XHUF?AEGELUNDSC?RAUBNAEGEL?ST??UTEX?BBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNER6OLGTXN?AINDEPO?XBRESLA?5J85",
+        "rank": 34,
+        "selection": "Later lexical repair minimum; not score winner"
+      }
+    ]
+  }
+}

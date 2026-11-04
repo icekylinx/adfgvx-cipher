@@ -131,7 +131,64 @@
             "operation_order": "Insert the two unknowns, remove the five existing printed masks, then insert that block at boundary270 of the shortened387-slot stream.",
             "interpretation": "Conditional relocation of one printed all-dash group; no claim that the printed page places it here."
           },
-          "expected_raw": "D6EABSENDUNGRUERXYYXAR?PEDRI?GXBE??ETIG?ENXJ??11XPAARHU??ISENUND9K??11111XHUF??EGELUNDSC?RAUBNAEGEL?ST??UTEX?BBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNER6OLGTXN?AINDEPO?XBRESLAT5J85"
+          "expected_raw": "D6EABSENDUNGRUERXYYXAR?PEDRI?GXBE??ETIG?ENXJ??11XPAARHU??ISENUND9K??11111XHUF??EGELUNDSC?RAUBNAEGEL?ST??UTEX?BBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNER6OLGTXN?AINDEPO?XBRESLAT5J85",
+          "word_proposal": "DIEABSENDUNGFUERXYYXARMEEDRINGXBENOETIGTENXJ??11XPAARHUFEISENUND9K??11111XHUFNAEGELUNDSCHRAUBNAEGELISTHEUTEXABBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNERFOLGTXTRAINDEPOTXBRESLAU5J85",
+          "expected_word_prices": {
+            "fixed_positions": 192,
+            "observed_substitutions": 6,
+            "printed_mask_fills": 14,
+            "inserted_slot_fills": 2
+          },
+          "blind_joint_rank_in_9700": 23,
+          "blind_joint_score": -2236.8059825897217
+        },
+        {
+          "id": "joint_score_268",
+          "frame": {
+            "insert_unknown_before_source_indices": [
+              157,
+              185
+            ],
+            "move_printed_mask_source_start": 198,
+            "move_printed_mask_count": 5,
+            "insert_mask_block_at_shortened_frame_boundary": 268,
+            "operation_order": "Insert the two unknowns, remove the five existing printed masks, then insert that block at boundary270 of the shortened387-slot stream.",
+            "interpretation": "Conditional coordinate-level relocation inside the printed VDGFX group; no new source reading."
+          },
+          "expected_raw": "D6EABSENDUNG?UERXYYXAR??EDRI?GXBE??ETIG?ENXJ??11XPAARHU??ISENUND9K?Y11111XHUF?AEGELUNDSC?RAUBNAEGEL?ST??UTEX?BBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNER6OLGTXN?AINDEPO?XBRESLAT5J85",
+          "word_proposal": "DIEABSENDUNGFUERXYYXARMEEDRINGXBENOETIGTENXJ??11XPAARHUFEISENUND9K?Y11111XHUFNAEGELUNDSCHRAUBNAEGELISTHEUTEXABBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNERFOLGTXTRAINDEPOTXBRESLAU5J85",
+          "expected_word_prices": {
+            "fixed_positions": 193,
+            "observed_substitutions": 4,
+            "printed_mask_fills": 15,
+            "inserted_slot_fills": 2
+          },
+          "blind_joint_rank_in_9700": 1,
+          "blind_joint_score": -2221.7436389923096
+        },
+        {
+          "id": "word_minimum_266",
+          "frame": {
+            "insert_unknown_before_source_indices": [
+              157,
+              185
+            ],
+            "move_printed_mask_source_start": 198,
+            "move_printed_mask_count": 5,
+            "insert_mask_block_at_shortened_frame_boundary": 266,
+            "operation_order": "Insert the two unknowns, remove the five existing printed masks, then insert that block at boundary270 of the shortened387-slot stream.",
+            "interpretation": "Conditional coordinate-level relocation inside the printed VDGFX group; no new source reading."
+          },
+          "expected_raw": "D?EABSENDUNG?UERXYYXAR??EDRI?GXBE??ETIG?ENXJ?J11XPAARHU?6ISENUND9K?Y11111XHUF?AEGELUNDSC?RAUBNAEGEL?ST??UTEX?BBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNER6OLGTXN?AINDEPO?XBRESLA?5J85",
+          "word_proposal": "DIEABSENDUNGFUERXYYXARMEEDRINGXBENOETIGTENXJ?J11XPAARHUFEISENUND9K?Y11111XHUFNAEGELUNDSCHRAUBNAEGELISTHEUTEXABBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNERFOLGTXTRAINDEPOTXBRESLAU5J85",
+          "expected_word_prices": {
+            "fixed_positions": 194,
+            "observed_substitutions": 3,
+            "printed_mask_fills": 16,
+            "inserted_slot_fills": 2
+          },
+          "blind_joint_rank_in_9700": 34,
+          "blind_joint_score": -2239.710594177246
         }
       ]
     }
@@ -140,7 +197,9 @@
     "The native source has390 slots; header392 alone does not locate the two missing coordinates.",
     "All372 observed coordinates and their relative order survive unchanged. The18 printed masks retain their identities, but five are moved.",
     "The frame is supported by long coherent raw passages, not proved historically unique.",
-    "Fixed positions include literal numeral labels and garbles. No mask value, numeral or footer identification is supplied by the initial raw edition."
+    "The word proposals have separately priced observed substitutions and half-coordinate fills. Their shared192-position reading does not combine the differing numerical evidence of the three frames; numeral values and closing identifier remain unassigned."
   ],
-  "prior_credit": "Historical ciphertext: J.Rives Childs. Published Nov22-24 square and ranks: George Lasry and colleagues; their existing register credit is unchanged. Source-frame discovery and edition: icekylinx and GPT-6 Astra Pro."
+  "prior_credit": "Historical ciphertext: J.Rives Childs. Published Nov22-24 square and ranks: George Lasry and colleagues; their existing register credit is unchanged. Source-frame discovery and edition: icekylinx and GPT-6 Astra Pro.",
+  "common_word_reading": "DIEABSENDUNGFUERXYYXARMEEDRINGXBENOETIGTENXJ??11XPAARHUFEISENUND9K??11111XHUFNAEGELUNDSCHRAUBNAEGELISTHEUTEXABBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNERFOLGTXTRAINDEPOTXBRESLAU5J85",
+  "primary_readable_german": "Die Absendung fuer YY Armee dring. benoetigten J??11 Paar Hufeisen und 9K??11111 Hufnaegel und Schraubnaegel ist heute ab Breslau ueber Oderberg in J Waggonladungen und J Begleitern erfolgt. Traindepot Breslau 5J85."
 }

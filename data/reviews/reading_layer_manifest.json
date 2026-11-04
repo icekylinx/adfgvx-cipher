@@ -16612,8 +16612,8 @@
     {
       "path": "cases/military/p215_breslau_dispatch.md",
       "review_status": "reviewed",
-      "file_sha256_at_review": "914e13ae6436b6f36e74a0b2e746964e4e012f92cc907a05e46921ca4ea3f30f",
-      "review_basis": "Source-preserving conditional mask relocation independently checked, including PDF pixels, complete observed-coordinate order, domains and full cipher roundtrip; raw numerical labels retained.",
+      "file_sha256_at_review": "cdd71c35283ec217bca10c98e14f90bec6047d53fe3ad2fdc41d35ee9306525e",
+      "review_basis": "Independently audited three complete source models, raw domains, per-coordinate word prices, half-coordinate gains,54 identity aliases, common reading and full roundtrips. Readable text preserves baseline numeral labels and conditional source repairs.",
       "fences": [
         {
           "index": 0,
@@ -16621,7 +16621,7 @@
           "role": "source_transcription",
           "caption_required": true,
           "caption": "**Source transcription — untouched body:**",
-          "review_note": "Conditional raw frame and unchanged labels explicitly identified; no source observation filled or replaced."
+          "review_note": "Source,raw,edited and readable layers explicitly priced; no pooling of differing quantity evidence."
         },
         {
           "index": 1,
@@ -16629,15 +16629,23 @@
           "role": "raw_output",
           "caption_required": true,
           "caption": "**Raw output — conditional 392-slot frame, unchanged published key, 176/196 fixed positions, no coordinate substitutions or fills:**",
-          "review_note": "Conditional raw frame and unchanged labels explicitly identified; no source observation filled or replaced."
+          "review_note": "Source,raw,edited and readable layers explicitly priced; no pooling of differing quantity evidence."
         },
         {
           "index": 2,
+          "sha256": "6311dd0f2d1de1220c3bcc956eb3891335c5a2619482df61f5b609b5802e8f6e",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — primary whole-group frame; 6 observed-coordinate substitutions, 14 printed-mask fills and 2 inserted-slot fills; 192/196 fixed positions:**",
+          "review_note": "Source,raw,edited and readable layers explicitly priced; no pooling of differing quantity evidence."
+        },
+        {
+          "index": 3,
           "sha256": "81cc500a132b2ca239fdc1bb750e28b1c36d168eee94efea33eafc32c4a49633",
           "role": "reproduction_command",
           "caption_required": true,
           "caption": "Childs supplied the historical source; George Lasry and colleagues supplied the\npublished period key. This source-frame discovery and edition are by\n**icekylinx and GPT-6 Astra Pro**. Earlier sources and key credits remain in the\n[registered key](../../data/keys.json) and the [recovery package](../../experiments/p215_breslau_dispatch/README.md).",
-          "review_note": "Conditional raw frame and unchanged labels explicitly identified; no source observation filled or replaced."
+          "review_note": "Source,raw,edited and readable layers explicitly priced; no pooling of differing quantity evidence."
         }
       ],
       "quotes": [
@@ -16647,7 +16655,15 @@
           "role": "readable_german",
           "caption_required": true,
           "caption": "**Readable German — excerpt from the conditional raw frame; omitted passages remain outside this quotation and J stays a literal square label:**",
-          "review_note": "Conditional raw frame and unchanged labels explicitly identified; no source observation filled or replaced."
+          "review_note": "Source,raw,edited and readable layers explicitly priced; no pooling of differing quantity evidence."
+        },
+        {
+          "index": 1,
+          "sha256": "121d2442072a9b078fb939aa27c30971a65940b054e32badf14ce25754b97298",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — the same primary edited stream with spacing and separator punctuation; numerical labels and unresolved quantity positions remain literal:**",
+          "review_note": "Source,raw,edited and readable layers explicitly priced; no pooling of differing quantity evidence."
         }
       ]
     }

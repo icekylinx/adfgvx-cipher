@@ -4,7 +4,7 @@
     "icekylinx",
     "GPT-6 Astra Pro"
   ],
-  "input_sha256": "1b6e641143f9accfe710d89bfcd6d4353fcc8a5de73a3fccf42993465e8a0dc3",
+  "input_sha256": "272ae97270a7e28a87165f5cd435ffdb7c11a94e88f2d61c381df03499302c4d",
   "indexing": "All indices are zero based; ranges are half open.",
   "summary": {
     "physical_sources": 1,
@@ -20,7 +20,18 @@
     "raw_source_substitutions": 0,
     "observed_coordinate_order_preserved": true,
     "primary_fixed_raw_positions": 176,
-    "primary_model_id": "whole_group_270"
+    "primary_model_id": "whole_group_270",
+    "primary_edited_fixed_positions": 192,
+    "primary_edited_observed_substitutions": 6,
+    "primary_printed_mask_fills": 14,
+    "primary_inserted_slot_fills": 2,
+    "common_word_fixed_positions": 192,
+    "common_unknown_positions": [
+      44,
+      45,
+      66,
+      67
+    ]
   },
   "records": [
     {
@@ -3250,13 +3261,283 @@
         "unknown_coordinate_choice": "A solely for a complete roundtrip witness",
         "historical_fill_claim": false
       },
+      "readable_candidate": {
+        "ciphertext": "FFFDAFXFFFGFVGGXFVVADDAGXGADGGXDVXFXGAAAFGVGGAVFXAVAAXDFVXGXFFAGGVAXFFFGAGXFDGAVAVXDGVDGGGVAXGAAVDFFAXDAXFVFVFXVAAFAFFXGXVVADADGXAXGAVXFXFGGXXAFFDVFGDGFFDGAFFFAXVXVDXADGAFAVAAVDXFGVXDXGVVDGAAFGGXGXAD?F?DFVGVDAXDAVAFGFXAAAFFAFGVDVVXFVFFXDXFXVFXDVFFAGGFFVXVXVGVAVXXXFVGDGFX?F?XFDFFAGAFDDGXXDFGFGXXGFFDDXXDAVGDXAXXGFAGXDVFGAVXFAVGVDFXFGAGFVFFFAVXVXVXVVFGAFGXDDAXVADXDVVXVXGVDDGVGVVXVXVADVFXGGFDA",
+        "raw": "DIEABSENDUNGFUERXYYXARMEEDRINGXBENOETIGTENXJ??11XPAARHUFEISENUND9K??11111XHUFNAEGELUNDSCHRAUBNAEGELISTHEUTEXABBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNERFOLGTXTRAINDEPOTXBRESLAU5J85",
+        "fixed_positions": 192,
+        "observed_coordinate_substitutions": [
+          {
+            "model_index": 266,
+            "source_index": 269,
+            "before": "D",
+            "after": "G",
+            "literal_source_glyph": "D"
+          },
+          {
+            "model_index": 267,
+            "source_index": 270,
+            "before": "G",
+            "after": "D",
+            "literal_source_glyph": "G"
+          },
+          {
+            "model_index": 268,
+            "source_index": 271,
+            "before": "F",
+            "after": "G",
+            "literal_source_glyph": "F"
+          },
+          {
+            "model_index": 269,
+            "source_index": 272,
+            "before": "X",
+            "after": "F",
+            "literal_source_glyph": "X"
+          },
+          {
+            "model_index": 318,
+            "source_index": 316,
+            "before": "V",
+            "after": "F",
+            "literal_source_glyph": "V"
+          },
+          {
+            "model_index": 336,
+            "source_index": 334,
+            "before": "A",
+            "after": "V",
+            "literal_source_glyph": "A"
+          }
+        ],
+        "printed_mask_fills": [
+          {
+            "model_index": 197,
+            "source_index": 195,
+            "before": "?",
+            "after": "A",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 198,
+            "source_index": 196,
+            "before": "?",
+            "after": "D",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 200,
+            "source_index": 203,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 202,
+            "source_index": 205,
+            "before": "?",
+            "after": "D",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 203,
+            "source_index": 206,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 204,
+            "source_index": 207,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 229,
+            "source_index": 232,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 258,
+            "source_index": 261,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 270,
+            "source_index": 198,
+            "before": "?",
+            "after": "X",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 272,
+            "source_index": 200,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 274,
+            "source_index": 202,
+            "before": "?",
+            "after": "X",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 330,
+            "source_index": 328,
+            "before": "?",
+            "after": "X",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 340,
+            "source_index": 338,
+            "before": "?",
+            "after": "A",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 341,
+            "source_index": 339,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          }
+        ],
+        "inserted_slot_fills": [
+          {
+            "model_index": 157,
+            "source_index": null,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": null
+          },
+          {
+            "model_index": 186,
+            "source_index": null,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": null
+          }
+        ],
+        "full_roundtrip_witness": {
+          "ciphertext": "FFFDAFXFFFGFVGGXFVVADDAGXGADGGXDVXFXGAAAFGVGGAVFXAVAAXDFVXGXFFAGGVAXFFFGAGXFDGAVAVXDGVDGGGVAXGAAVDFFAXDAXFVFVFXVAAFAFFXGXVVADADGXAXGAVXFXFGGXXAFFDVFGDGFFDGAFFFAXVXVDXADGAFAVAAVDXFGVXDXGVVDGAAFGGXGXADAFADFVGVDAXDAVAFGFXAAAFFAFGVDVVXFVFFXDXFXVFXDVFFAGGFFVXVXVGVAVXXXFVGDGFXAFAXFDFFAGAFDDGXXDFGFGXXGFFDDXXDAVGDXAXXGFAGXDVFGAVXFAVGVDFXFGAGFVFFFAVXVXVXVVFGAFGXDDAXVADXDVVXVXGVDDGVGVVXVXVADVFXGGFDA",
+          "plaintext": "DIEABSENDUNGFUERXYYXARMEEDRINGXBENOETIGTENXJAX11XPAARHUFEISENUND9KQQ11111XHUFNAEGELUNDSCHRAUBNAEGELISTHEUTEXABBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNERFOLGTXTRAINDEPOTXBRESLAU5J85",
+          "unknown_coordinate_choice": "A solely for a complete roundtrip witness",
+          "historical_fill_claim": false
+        }
+      },
+      "new_word_positions_with_one_observed_half": [
+        22,
+        28,
+        33,
+        34,
+        39,
+        55,
+        56,
+        77,
+        78,
+        88,
+        99,
+        102,
+        103,
+        108,
+        175,
+        183
+      ],
+      "word_layer_ownership_aliases": {
+        "count": 54,
+        "first_insert_boundaries": [
+          156,
+          157,
+          158
+        ],
+        "second_insert_boundaries": [
+          184,
+          185
+        ],
+        "moved_mask_source_starts": [
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203
+        ],
+        "mapping_sha256s": [
+          "94fb223312ef8787d350f76eba6852397d7336b820cb96b749f653a1dd05c2ce",
+          "7f27a75925f627b8613a957b90fb7ec8a94d65a96e25c45caef842247bcc880e",
+          "c50e3165598e5765c79eb5fd49da2b7fafba4d2ebd1963936cb0a308f0fe5e45",
+          "932f90c9a5a30cfee785660cf0f64ec8158d7133a93732923b9770ae9f3a6902",
+          "11af964731eda2e535ebb43601bd29b9cb67f99e48d59cae565b4b5c5173fb51",
+          "ef5f56b84d971ac95e4875e88dbf3c1ab97d92f661152b1a41cc62c0fa97a916",
+          "365977a0af5db8061c127f6f34bc1bc809c32ec32f151d4c563157c0eb45e74e",
+          "2e016b07e9797111d68ba3cba71ede9fc330d03264df8eb38b6b529bb70e58d4",
+          "749225d72f2b61a8151abbcf5231d1903586186f6bb5e5e5900811123e68bc10",
+          "370594b96838c4cca5a6ca05569af628732b9d1b05b5060af04b9c9321f93abc",
+          "bc34e60d820b46ddddc9d4685fc1ffb353693f8b6109d4a081116c2d5662daf8",
+          "543350cbb1c0996dff7a50aca3244b02cb25794d6c3da25a259ad043384863b1",
+          "38dc70c71507efb9dbbda76afd6d71acfb0e0bcf37aedec3dc5d9bca04ecc572",
+          "2188b54e2ed2cb0c035011b49998f4d4e45369be99e60a7d4720ccb987964105",
+          "22d0b59605782105fa00dc54f066ee402e625b861ca8cdf3001873c80e55bf62",
+          "5848bd019afcba6efaff393bb4a86748f616d43e96d098b445071062ce826ee6",
+          "894262cdf62375d8049b5418b2f7500694a44030bb6fec05adede40cccf6f94b",
+          "ca28559d83b1284a1ac37e24b028f52d8e8541c4b1bea401ad9ba8776923df5a",
+          "87b0a815f7aedc82ceeba2b2a5c6449ac2fd0e08493352fe31dc23d7c9ac004e",
+          "0bbf8f0b492382d05f6d7fe2ca1ee3f7e9f057e8d2c271671e84471abb303c89",
+          "37cbcac321220e9c7d04fa51bdee1114bb16ae21f4c9d051840c95e14aee7d37",
+          "8a7e2d864c676cefb2951e31c87d8920ba1675632836bba78781ed98962a2f7f",
+          "60f64e79dfa611e947b0017ee21174eae810fdd2784ad6cea23b07cf45784545",
+          "e9db969b29d96cc7b3377dad51432873e0993b503eea5162d0049b88fb239db3",
+          "381b2ab08ea293285af081db637fde13986a20fd96200a53f8da72b73fcbe33e",
+          "2e9da00569c9e4b08ae5db6dd3d616abe43021a35e1f75d6856d8c1fbe93d6b1",
+          "adc10f8640139c25cc122e97ca8ab585d8c5f01e1146c0d14be7dd06f428de57",
+          "0eb1cc440cfd40eb3b92dde3c657ea2b77b97d1edb14ff92f45c9306b47a2157",
+          "71baedc325fbb8c54ccef1db7f399cb0ae7260d2aeb8dbae87e697a2cb649ad2",
+          "142ee23ece9245cb455d70a0dfe1e9bc40ce0f55a8a36b64fba111c130d1b693",
+          "ba1bce07ef016c38e6ce2e3320fd8aac630b18d3f04238ead6ed2c5dc2bd53e1",
+          "eb629ad938f6e5ea7644c73c87b795067bf86cb26a5cd1a6b662d9a60791ea48",
+          "f4e9e3dd100ed5ab42f3f876be581046393323b9666b89a00e6d7f0d05fa127e",
+          "9141955a18490b4706cfc07ad521212a5632fd9183e263ac6dbf15052fe013f1",
+          "57bfe5ef121b4f29ea3a2445fa1732bc212c7282c5ed0824fc2e6b2ba7323243",
+          "dd135dc90e0d1a8df653c12a29474aa2cc42caa6c62ffa42b77f3bc0ee43e23e",
+          "40194cfcf9285911ae68d3a830f5102e126a9e2fb4fb590cf3ac214cae63d4e0",
+          "be34c9dcf38a05793434b6975649a9b4793669209133c94ae776f86284b70454",
+          "6073d5a691c1f1b192f6edc8f9ba6ee30fddff8187facfbf742df04e858176da",
+          "6d1c2d2ef74598e57c8cf44ee4aa8db7ef3e96bb68ef9097d5a08f799f8b4d33",
+          "6ccf362ee77f0db5bd4b9ff4251614307f91f43e3ed477f418f814032f734cc2",
+          "914c3c943b7bffd41c8b1ab17a4a2299b441efce5445c5f4d4deba756221d8ca",
+          "d15831229df4873ae0fac1cf6b445775dd637cddde81d891fbeb17d6490ba04c",
+          "99dcc1e5b38a0895bf1a93a015c790bb0e96d7bedf32c284d8727da78713738e",
+          "7a803b05111ef99058e70b48699e9ec6593f42f0abdc2c013357182bc31f88d0",
+          "3973932230c1156406fc5f9ff247706417525915e21bc0834685e42c4783aca4",
+          "9d09ca146f103471831e6421b867f192ac988390b0ecf88ebdac962d129a63b4",
+          "730bd92c90d29a7d2499aad1cd09d885676d885d78fcd744d90c60a443f4e735",
+          "ad1bfcde765b8c8034864af63638eab4bc3bf0071a7ad0a8f23296d7fe1358d8",
+          "d3590cc0545cbd76cecc519d2d43f417d224ef95476f7c2107ee868b608d8091",
+          "18a74d746fd64b874eb9aa6c489f327921e662f078e9319c807521664daa9da7",
+          "f852297bd3a1ba7ae1ab69e30331e1b1992bc30e7b6a36a975cb112037a58e5a",
+          "b8c152208863510740abe8fe69209040445eb965cc778373bbb10a74cb8e701d",
+          "1d6957133e5c2d70fa272498168d50cf0e1b5a9fdb050829a256cdc725bc33dc"
+        ],
+        "completed_ciphertext_sha256": "3aef60c5486264e115e93962e0be1b480e387c21325367708e51c31f2cbec1e9",
+        "limit": "Conditional on this word proposal; one corrected ciphertext, not54 independent readings."
+      },
       "model_id": "whole_group_270",
       "literal_source": "FFFDAFXFFFGFVGGXFVVADDAGXGADGGXDVXFXGAAAFGVGGAVFXAVAAXDFVXGXFFAGGVAXFFFGAGXFDGAVAVXDGVDGGGVAXGAAVDFFAXDAXFVFVFXVAAFAFFXGXVVADADGXAXGAVXFXFGGXXAFFDVFGDGFFDGAFFAXVXVDXADGAFAVAAVDXFGVXDXGVDGAAFGGXGX-------------GVDAXDAVAFGFXAAAFFAFGVDV-XFVFFXDXFXVFXDVFFAGGFFVXVXVG-AVXXXFVDGFXFDFFAGAFDDGXXDFGFGXXGFFDDXXDAVGDXAXXGFAGXDVVGAVXFAVGVDF-FGAGFAFFF--XVXVXVVFGAFGXDDAXVADXDVVXVXGVDDGVGVVXVXVADVFXGGFDA"
     }
   ],
-  "model_variants": [
+  "alternative_models": [
     {
-      "id": "whole_group_270",
+      "id": "joint_score_268",
       "frame": {
         "insert_unknown_before_source_indices": [
           157,
@@ -3264,11 +3545,11 @@
         ],
         "move_printed_mask_source_start": 198,
         "move_printed_mask_count": 5,
-        "insert_mask_block_at_shortened_frame_boundary": 270,
+        "insert_mask_block_at_shortened_frame_boundary": 268,
         "operation_order": "Insert the two unknowns, remove the five existing printed masks, then insert that block at boundary270 of the shortened387-slot stream.",
-        "interpretation": "Conditional relocation of one printed all-dash group; no claim that the printed page places it here."
+        "interpretation": "Conditional coordinate-level relocation inside the printed VDGFX group; no new source reading."
       },
-      "ciphertext": "FFFDAFXFFFGFVGGXFVVADDAGXGADGGXDVXFXGAAAFGVGGAVFXAVAAXDFVXGXFFAGGVAXFFFGAGXFDGAVAVXDGVDGGGVAXGAAVDFFAXDAXFVFVFXVAAFAFFXGXVVADADGXAXGAVXFXFGGXXAFFDVFGDGFFDGAF?FAXVXVDXADGAFAVAAVDXFGVXDXGV?DGAAFGGXGX????????GVDAXDAVAFGFXAAAFFAFGVDV?XFVFFXDXFXVFXDVFFAGGFFVXVXVG?AVXXXFVDGFX?????FDFFAGAFDDGXXDFGFGXXGFFDDXXDAVGDXAXXGFAGXDVVGAVXFAVGVDF?FGAGFAFFF??XVXVXVVFGAFGXDDAXVADXDVVXVXGVDDGVGVVXVXVADVFXGGFDA",
+      "ciphertext": "FFFDAFXFFFGFVGGXFVVADDAGXGADGGXDVXFXGAAAFGVGGAVFXAVAAXDFVXGXFFAGGVAXFFFGAGXFDGAVAVXDGVDGGGVAXGAAVDFFAXDAXFVFVFXVAAFAFFXGXVVADADGXAXGAVXFXFGGXXAFFDVFGDGFFDGAF?FAXVXVDXADGAFAVAAVDXFGVXDXGV?DGAAFGGXGX????????GVDAXDAVAFGFXAAAFFAFGVDV?XFVFFXDXFXVFXDVFFAGGFFVXVXVG?AVXXXFVDG?????FXFDFFAGAFDDGXXDFGFGXXGFFDDXXDAVGDXAXXGFAGXDVVGAVXFAVGVDF?FGAGFAFFF??XVXVXVVFGAFGXDDAXVADXDVVXVXGVDDGVGVVXVXVADVFXGGFDA",
       "model_to_source_indices": [
         0,
         1,
@@ -3538,13 +3819,13 @@
         268,
         269,
         270,
-        271,
-        272,
         198,
         199,
         200,
         201,
         202,
+        271,
+        272,
         273,
         274,
         275,
@@ -3663,7 +3944,7 @@
         388,
         389
       ],
-      "raw": "D6EABSENDUNGRUERXYYXAR?PEDRI?GXBE??ETIG?ENXJ??11XPAARHU??ISENUND9K??11111XHUF??EGELUNDSC?RAUBNAEGEL?ST??UTEX?BBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNER6OLGTXN?AINDEPO?XBRESLAT5J85",
+      "raw": "D6EABSENDUNG?UERXYYXAR??EDRI?GXBE??ETIG?ENXJ??11XPAARHU??ISENUND9K?Y11111XHUF?AEGELUNDSC?RAUBNAEGEL?ST??UTEX?BBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNER6OLGTXN?AINDEPO?XBRESLAT5J85",
       "fixed_positions": 176,
       "positions": [
         {
@@ -3841,12 +4122,12 @@
             107
           ],
           "source_indices": [
-            271,
+            198,
             107
           ],
-          "pair": "FF",
-          "domain": "R",
-          "raw": "R"
+          "pair": "?F",
+          "domain": "CFHORZ",
+          "raw": "?"
         },
         {
           "plaintext_index": 13,
@@ -3995,12 +4276,12 @@
             108
           ],
           "source_indices": [
-            272,
+            199,
             108
           ],
-          "pair": "XV",
-          "domain": "P",
-          "raw": "P"
+          "pair": "?V",
+          "domain": "26EIPV",
+          "raw": "?"
         },
         {
           "plaintext_index": 24,
@@ -4149,7 +4430,7 @@
             109
           ],
           "source_indices": [
-            198,
+            200,
             109
           ],
           "pair": "?F",
@@ -4303,7 +4584,7 @@
             110
           ],
           "source_indices": [
-            199,
+            201,
             110
           ],
           "pair": "?X",
@@ -4457,7 +4738,7 @@
             111
           ],
           "source_indices": [
-            200,
+            202,
             111
           ],
           "pair": "?V",
@@ -4611,12 +4892,12 @@
             112
           ],
           "source_indices": [
-            201,
+            271,
             112
           ],
-          "pair": "?A",
-          "domain": "ALMQSY",
-          "raw": "?"
+          "pair": "FA",
+          "domain": "Y",
+          "raw": "Y"
         },
         {
           "plaintext_index": 68,
@@ -4765,12 +5046,12 @@
             113
           ],
           "source_indices": [
-            202,
+            272,
             113
           ],
-          "pair": "?A",
-          "domain": "ALMQSY",
-          "raw": "?"
+          "pair": "XA",
+          "domain": "A",
+          "raw": "A"
         },
         {
           "plaintext_index": 79,
@@ -6417,71 +6698,3829 @@
             195,
             200
           ],
-          "mapping_sha256": "0eb1cc440cfd40eb3b92dde3c657ea2b77b97d1edb14ff92f45c9306b47a2157"
+          "mapping_sha256": "3dc00ce1062d2784a976ad691418555ec487de20777acdc0d6cc6558c4aec7de"
         },
         {
           "moved_printed_mask_source_range": [
             196,
             201
           ],
-          "mapping_sha256": "71baedc325fbb8c54ccef1db7f399cb0ae7260d2aeb8dbae87e697a2cb649ad2"
+          "mapping_sha256": "420eb5c61eb11e5758830eb47fb7b284fab3fef9fbe3bd3b711e8f2d26932262"
         },
         {
           "moved_printed_mask_source_range": [
             197,
             202
           ],
-          "mapping_sha256": "142ee23ece9245cb455d70a0dfe1e9bc40ce0f55a8a36b64fba111c130d1b693"
+          "mapping_sha256": "6fe45348143df42efd4b7a8af4014980fd1809b12b4ad7a1d5b82504fd08d0c2"
         },
         {
           "moved_printed_mask_source_range": [
             198,
             203
           ],
-          "mapping_sha256": "ba1bce07ef016c38e6ce2e3320fd8aac630b18d3f04238ead6ed2c5dc2bd53e1"
+          "mapping_sha256": "07fd800fc60b20f18e3a519b401f310ab3ed434d26bea50743dee8ad3be5ffa4"
         },
         {
           "moved_printed_mask_source_range": [
             199,
             204
           ],
-          "mapping_sha256": "eb629ad938f6e5ea7644c73c87b795067bf86cb26a5cd1a6b662d9a60791ea48"
+          "mapping_sha256": "1e6ba1b233610d5142c0a64752bca57527603e543408737f36664deafaca8162"
         },
         {
           "moved_printed_mask_source_range": [
             200,
             205
           ],
-          "mapping_sha256": "f4e9e3dd100ed5ab42f3f876be581046393323b9666b89a00e6d7f0d05fa127e"
+          "mapping_sha256": "1a6e79810a7fc6b51aadabaca8b49d932ac91995a94f4e1d0cf13fac8b347c58"
         },
         {
           "moved_printed_mask_source_range": [
             201,
             206
           ],
-          "mapping_sha256": "9141955a18490b4706cfc07ad521212a5632fd9183e263ac6dbf15052fe013f1"
+          "mapping_sha256": "c7d3e9fe24bbd78c16c3e790e04084f597a1f4da827bd471e223623a95c2a85b"
         },
         {
           "moved_printed_mask_source_range": [
             202,
             207
           ],
-          "mapping_sha256": "57bfe5ef121b4f29ea3a2445fa1732bc212c7282c5ed0824fc2e6b2ba7323243"
+          "mapping_sha256": "17b83d20a88ad617dd45b8d319bdfacb6a693b473c1ce599d783ed2254cdc069"
         },
         {
           "moved_printed_mask_source_range": [
             203,
             208
           ],
-          "mapping_sha256": "dd135dc90e0d1a8df653c12a29474aa2cc42caa6c62ffa42b77f3bc0ee43e23e"
+          "mapping_sha256": "6e8cc77ae7db6e3a1068ea49dd357a415d0d36b58103feadb0b33189e43c009a"
         }
       ],
       "full_roundtrip_witness": {
-        "ciphertext": "FFFDAFXFFFGFVGGXFVVADDAGXGADGGXDVXFXGAAAFGVGGAVFXAVAAXDFVXGXFFAGGVAXFFFGAGXFDGAVAVXDGVDGGGVAXGAAVDFFAXDAXFVFVFXVAAFAFFXGXVVADADGXAXGAVXFXFGGXXAFFDVFGDGFFDGAFAFAXVXVDXADGAFAVAAVDXFGVXDXGVADGAAFGGXGXAAAAAAAAGVDAXDAVAFGFXAAAFFAFGVDVAXFVFFXDXFXVFXDVFFAGGFFVXVXVGAAVXXXFVDGFXAAAAAFDFFAGAFDDGXXDFGFGXXGFFDDXXDAVGDXAXXGFAGXDVVGAVXFAVGVDFAFGAGFAFFFAAXVXVXVVFGAFGXDDAXVADXDVVXVXGVDDGVGVVXVXVADVFXGGFDA",
-        "plaintext": "D6EABSENDUNGRUERXYYXARMPEDRINGXBEQZETIGNENXJAX11XPAARHUL2ISENUND9KQQ11111XHUFQQEGELUNDSCMRAUBNAEGELSSTZYUTEXQBBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNER6OLGTXNZAINDEPONXBRESLAT5J85",
+        "ciphertext": "FFFDAFXFFFGFVGGXFVVADDAGXGADGGXDVXFXGAAAFGVGGAVFXAVAAXDFVXGXFFAGGVAXFFFGAGXFDGAVAVXDGVDGGGVAXGAAVDFFAXDAXFVFVFXVAAFAFFXGXVVADADGXAXGAVXFXFGGXXAFFDVFGDGFFDGAFAFAXVXVDXADGAFAVAAVDXFGVXDXGVADGAAFGGXGXAAAAAAAAGVDAXDAVAFGFXAAAFFAFGVDVAXFVFFXDXFXVFXDVFFAGGFFVXVXVGAAVXXXFVDGAAAAAFXFDFFAGAFDDGXXDFGFGXXGFFDDXXDAVGDXAXXGFAGXDVVGAVXFAVGVDFAFGAGFAFFFAAXVXVXVVFGAFGXDDAXVADXDVVXVXGVDDGVGVVXVXVADVFXGGFDA",
+        "plaintext": "D6EABSENDUNGZUERXYYXARM2EDRINGXBEQZETIGNENXJAX11XPAARHUL2ISENUND9KQY11111XHUFQAEGELUNDSCMRAUBNAEGELSSTZYUTEXQBBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNER6OLGTXNZAINDEPONXBRESLAT5J85",
         "unknown_coordinate_choice": "A solely for a complete roundtrip witness",
         "historical_fill_claim": false
+      },
+      "readable_candidate": {
+        "ciphertext": "FFFDAFXFFFGFVGGXFVVADDAGXGADGGXDVXFXGAAAFGVGGAVFXAVAAXDFVXGXFFAGGVAXFFFGAGXFDGAVAVXDGVDGGGVAXGAAVDFFAXDAXFVFVFXVAAFAFFXGXVVADADGXAXGAVXFXFGGXXAFFDVFGDGFFDGAFFFAXVXVDXADGAFAVAAVDXFGVXDXGVVDGAAFGGXGXAD?F?DFVGVDAXDAVAFGFXAAAFFAFGVDVVXFVFFXDXFXVFXDVFFAGGFFVXVXVGVAVXXXFVGDGFX?FFXFDFFAGAFDDGXXDFGFGXXGFFDDXXDAVGDXAXXGFAGXDVFGAVXFAVGVDFXFGAGFVFFFAVXVXVXVVFGAFGXDDAXVADXDVVXVXGVDDGVGVVXVXVADVFXGGFDA",
+        "raw": "DIEABSENDUNGFUERXYYXARMEEDRINGXBENOETIGTENXJ??11XPAARHUFEISENUND9K?Y11111XHUFNAEGELUNDSCHRAUBNAEGELISTHEUTEXABBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNERFOLGTXTRAINDEPOTXBRESLAU5J85",
+        "fixed_positions": 193,
+        "observed_coordinate_substitutions": [
+          {
+            "model_index": 266,
+            "source_index": 269,
+            "before": "D",
+            "after": "G",
+            "literal_source_glyph": "D"
+          },
+          {
+            "model_index": 267,
+            "source_index": 270,
+            "before": "G",
+            "after": "D",
+            "literal_source_glyph": "G"
+          },
+          {
+            "model_index": 318,
+            "source_index": 316,
+            "before": "V",
+            "after": "F",
+            "literal_source_glyph": "V"
+          },
+          {
+            "model_index": 336,
+            "source_index": 334,
+            "before": "A",
+            "after": "V",
+            "literal_source_glyph": "A"
+          }
+        ],
+        "printed_mask_fills": [
+          {
+            "model_index": 197,
+            "source_index": 195,
+            "before": "?",
+            "after": "A",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 198,
+            "source_index": 196,
+            "before": "?",
+            "after": "D",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 200,
+            "source_index": 203,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 202,
+            "source_index": 205,
+            "before": "?",
+            "after": "D",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 203,
+            "source_index": 206,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 204,
+            "source_index": 207,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 229,
+            "source_index": 232,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 258,
+            "source_index": 261,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 268,
+            "source_index": 198,
+            "before": "?",
+            "after": "G",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 269,
+            "source_index": 199,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 270,
+            "source_index": 200,
+            "before": "?",
+            "after": "X",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 272,
+            "source_index": 202,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 330,
+            "source_index": 328,
+            "before": "?",
+            "after": "X",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 340,
+            "source_index": 338,
+            "before": "?",
+            "after": "A",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 341,
+            "source_index": 339,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          }
+        ],
+        "inserted_slot_fills": [
+          {
+            "model_index": 157,
+            "source_index": null,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": null
+          },
+          {
+            "model_index": 186,
+            "source_index": null,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": null
+          }
+        ],
+        "full_roundtrip_witness": {
+          "ciphertext": "FFFDAFXFFFGFVGGXFVVADDAGXGADGGXDVXFXGAAAFGVGGAVFXAVAAXDFVXGXFFAGGVAXFFFGAGXFDGAVAVXDGVDGGGVAXGAAVDFFAXDAXFVFVFXVAAFAFFXGXVVADADGXAXGAVXFXFGGXXAFFDVFGDGFFDGAFFFAXVXVDXADGAFAVAAVDXFGVXDXGVVDGAAFGGXGXADAFADFVGVDAXDAVAFGFXAAAFFAFGVDVVXFVFFXDXFXVFXDVFFAGGFFVXVXVGVAVXXXFVGDGFXAFFXFDFFAGAFDDGXXDFGFGXXGFFDDXXDAVGDXAXXGFAGXDVFGAVXFAVGVDFXFGAGFVFFFAVXVXVXVVFGAFGXDDAXVADXDVVXVXGVDDGVGVVXVXVADVFXGGFDA",
+          "plaintext": "DIEABSENDUNGFUERXYYXARMEEDRINGXBENOETIGTENXJAX11XPAARHUFEISENUND9KQY11111XHUFNAEGELUNDSCHRAUBNAEGELISTHEUTEXABBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNERFOLGTXTRAINDEPOTXBRESLAU5J85",
+          "unknown_coordinate_choice": "A solely for a complete roundtrip witness",
+          "historical_fill_claim": false
+        }
+      },
+      "new_word_positions_with_one_observed_half": [
+        12,
+        22,
+        23,
+        28,
+        33,
+        34,
+        39,
+        55,
+        56,
+        77,
+        88,
+        99,
+        102,
+        103,
+        108,
+        175,
+        183
+      ],
+      "word_layer_ownership_aliases": {
+        "count": 54,
+        "first_insert_boundaries": [
+          156,
+          157,
+          158
+        ],
+        "second_insert_boundaries": [
+          184,
+          185
+        ],
+        "moved_mask_source_starts": [
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203
+        ],
+        "mapping_sha256s": [
+          "ceaabc43e5aaf1101024807c4689b575e6726bde890ee9d501f00f0c0c0b1190",
+          "68652b412eda1c1a168f29fcfed08e840e9a7c4738edcf752e472373509c488d",
+          "55dec48f9efea5a3e40dfaafb8636d5e86db112c21740e6e4232f9d94346673f",
+          "ffc70e5cf9a437176be30d5a4640011479c93fa7402ab9cbe72ae11dccdb8f9d",
+          "5b6eb0c57c4dd571da0eb4235b5117ea8908034a3391146fc1fda6cc692a3544",
+          "4386e55730ce0276b70f248fd2e2d9b7f37b243b690c74bfc95ecd34db4f47ad",
+          "9734791614a1aaab352cd4efc3cf60fc7f4c93738c33939baa1920f35fbe260a",
+          "ed4a98ee81618579400f211885b88ecb78c6518cbbfbafc828c78f11458b5dae",
+          "db6b9f0eb2b025ddf60ce0e4d4a00ac7eef1ada3830c96181179a20e6638b40f",
+          "1497239d679219d5ba34250163a0d7e99e85d58200ff5d9d8973234f1c401311",
+          "619cde811fd7ce263262865648ca390434c8285fa9b9bd260de91dd392642a14",
+          "b2900722388fd079bb7c28f48f33303810d0ce0ecb0eaace4e9472700183dadb",
+          "1b3a7cc86730e1b187bda5c2c68cb656dcad505b34f205229d8060011fd29cf7",
+          "3f5a6db4c566ab575b97fcf221d237460b7bfea5bfc5dd2b4d39b6bcc58ae0b7",
+          "4ce4f71fd4888f24205490f06e7ed90ad212e32ff5a0d4105988dbb7e8e21a94",
+          "c9a398216a4a3a069e316054c6634c83d70fe8686cebd48131775fe718eac043",
+          "e3a7d5c8bb15d6b53ca97cb22ed62dbd0fd0d773deae3166612a8cf1dc41f455",
+          "40a0503954b06c1ed63d9b4dbe178a07cdf865999bfa6f37a6bc6e3257a9e037",
+          "ce6148cba17a8aa142735b9ed0ea5f935f74aa34184cf5747280db21769cdff6",
+          "c9cf393924f8ea49343b729aec53438b77f1730fb33041be6fd2747546f9d846",
+          "b6581632f817e786c2ca2c21b74bfd02d9db928f55d5544dce6260941c3953f2",
+          "4fee3a362743e6affa39a01f3992badf1928a4c503b4bc0a3f1b129da4a02587",
+          "5e89df5a4796e38ccad307bd6cbe99609c5e5a554c2c21af0fd988686412af9d",
+          "fe2d0a4d7fe4d7cbcae3e3031d54c99fcb301eaba3ecc62b4461358850f25e4a",
+          "4fae9ade487fbd6ce09b189bbfe0afb44a20e0540ca76171de05080a2af48ef2",
+          "740330a124a0562b513a75a3461ce4be3c4a2fc92a664860f80b0880ac8e740e",
+          "45ba53d6049c6b6996ad0bdb692b577dc5df565779942410c405cd8e7cc8daa3",
+          "3dc00ce1062d2784a976ad691418555ec487de20777acdc0d6cc6558c4aec7de",
+          "420eb5c61eb11e5758830eb47fb7b284fab3fef9fbe3bd3b711e8f2d26932262",
+          "6fe45348143df42efd4b7a8af4014980fd1809b12b4ad7a1d5b82504fd08d0c2",
+          "07fd800fc60b20f18e3a519b401f310ab3ed434d26bea50743dee8ad3be5ffa4",
+          "1e6ba1b233610d5142c0a64752bca57527603e543408737f36664deafaca8162",
+          "1a6e79810a7fc6b51aadabaca8b49d932ac91995a94f4e1d0cf13fac8b347c58",
+          "c7d3e9fe24bbd78c16c3e790e04084f597a1f4da827bd471e223623a95c2a85b",
+          "17b83d20a88ad617dd45b8d319bdfacb6a693b473c1ce599d783ed2254cdc069",
+          "6e8cc77ae7db6e3a1068ea49dd357a415d0d36b58103feadb0b33189e43c009a",
+          "030ea9efbdbecffbebe6f4a6249216a4a848645020668c267a56508499d991b8",
+          "60aff4e160aa27e229bfeeb28e3788efd4c092b84fe9d84dc9c1cf13ade3b5e9",
+          "1ee9ac4af59fbddb9876bb648c8d41d99ef5e1f63891106be692c986080c4621",
+          "f6d397714406298ce9d114871a63020c2bd33a848392d842f7c3229242aafa73",
+          "913b42b7812f3493d131d5cf4c03fd2a8ed5b0849ea06e5192afa098bc7e44c5",
+          "fada06d44b5d57c41c66adf0a3563ee2b2984fd83bf8a2b7b04b4ad76f427add",
+          "8d8dbdd57b8a1f6c57e6e6a7e6b6751556d503da1083f31f97c4d57e9547ba27",
+          "b55ef4865d110e855ee61f99cfcf972887ed7c95bfba4859b23353d68e7143b3",
+          "384ad144f2e515a57db3c0afa2cc5bbfb339bcca7926f5b39c4294423ff59555",
+          "71aea4cda4ef2202a96c4b24391c488e224d802707b8a5690be02a858757b3d5",
+          "f1eddabbfe11a9d1d4d4f4f635dd035053534b76c056b4ac2546ebf0ad415b86",
+          "b100715f6b444a5af36de3e05c27b49006aa541627e81142bff597c54bb0e1b5",
+          "3972d07240d6ec8ebbbb95fc5598854231aa69fe467087ea716fd9a5403b5e44",
+          "cb52506a8be9c023740d59096b13d88fdfc8b877fdefc383ca02934130707de9",
+          "86313f00b1f0867604f5d0e9f5fdff3d9b2a1a329be7701259d313777844fafb",
+          "be97a85b9cc25c135bea3b42e088092936974ab367a86a847c208e85e7a9f2c6",
+          "62281eac8b8d52541ad111072c81f79bc46ca310b5616b1fed0fb5e52ba7065d",
+          "5d6007e2d262e56c7380136323933e49ef8101d15e5eb8e2a53406ce4e9ab158"
+        ],
+        "completed_ciphertext_sha256": "2e274d85c5ca417bd283f6b6f944b363403d31e643a113b0238b60587b021366",
+        "limit": "Conditional on this word proposal; one corrected ciphertext, not54 independent readings."
+      }
+    },
+    {
+      "id": "word_minimum_266",
+      "frame": {
+        "insert_unknown_before_source_indices": [
+          157,
+          185
+        ],
+        "move_printed_mask_source_start": 198,
+        "move_printed_mask_count": 5,
+        "insert_mask_block_at_shortened_frame_boundary": 266,
+        "operation_order": "Insert the two unknowns, remove the five existing printed masks, then insert that block at boundary270 of the shortened387-slot stream.",
+        "interpretation": "Conditional coordinate-level relocation inside the printed VDGFX group; no new source reading."
+      },
+      "ciphertext": "FFFDAFXFFFGFVGGXFVVADDAGXGADGGXDVXFXGAAAFGVGGAVFXAVAAXDFVXGXFFAGGVAXFFFGAGXFDGAVAVXDGVDGGGVAXGAAVDFFAXDAXFVFVFXVAAFAFFXGXVVADADGXAXGAVXFXFGGXXAFFDVFGDGFFDGAF?FAXVXVDXADGAFAVAAVDXFGVXDXGV?DGAAFGGXGX????????GVDAXDAVAFGFXAAAFFAFGVDV?XFVFFXDXFXVFXDVFFAGGFFVXVXVG?AVXXXFV?????DGFXFDFFAGAFDDGXXDFGFGXXGFFDDXXDAVGDXAXXGFAGXDVVGAVXFAVGVDF?FGAGFAFFF??XVXVXVVFGAFGXDDAXVADXDVVXVXGVDDGVGVVXVXVADVFXGGFDA",
+      "model_to_source_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        null,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        null,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        198,
+        199,
+        200,
+        201,
+        202,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382,
+        383,
+        384,
+        385,
+        386,
+        387,
+        388,
+        389
+      ],
+      "raw": "D?EABSENDUNG?UERXYYXAR??EDRI?GXBE??ETIG?ENXJ?J11XPAARHU?6ISENUND9K?Y11111XHUF?AEGELUNDSC?RAUBNAEGEL?ST??UTEX?BBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNER6OLGTXN?AINDEPO?XBRESLA?5J85",
+      "fixed_positions": 176,
+      "positions": [
+        {
+          "plaintext_index": 0,
+          "model_indices": [
+            88,
+            195
+          ],
+          "source_indices": [
+            88,
+            193
+          ],
+          "pair": "GG",
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 1,
+          "model_indices": [
+            267,
+            106
+          ],
+          "source_indices": [
+            199,
+            106
+          ],
+          "pair": "?V",
+          "domain": "26EIPV",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 2,
+          "model_indices": [
+            231,
+            374
+          ],
+          "source_indices": [
+            234,
+            372
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 3,
+          "model_indices": [
+            177,
+            303
+          ],
+          "source_indices": [
+            176,
+            301
+          ],
+          "pair": "XA",
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 4,
+          "model_indices": [
+            0,
+            249
+          ],
+          "source_indices": [
+            0,
+            252
+          ],
+          "pair": "FG",
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 5,
+          "model_indices": [
+            124,
+            159
+          ],
+          "source_indices": [
+            124,
+            158
+          ],
+          "pair": "DA",
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 6,
+          "model_indices": [
+            338,
+            18
+          ],
+          "source_indices": [
+            336,
+            18
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 7,
+          "model_indices": [
+            213,
+            356
+          ],
+          "source_indices": [
+            216,
+            354
+          ],
+          "pair": "AD",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 8,
+          "model_indices": [
+            36,
+            285
+          ],
+          "source_indices": [
+            36,
+            283
+          ],
+          "pair": "GG",
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 9,
+          "model_indices": [
+            321,
+            71
+          ],
+          "source_indices": [
+            319,
+            71
+          ],
+          "pair": "VG",
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 10,
+          "model_indices": [
+            142,
+            54
+          ],
+          "source_indices": [
+            142,
+            54
+          ],
+          "pair": "AD",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 11,
+          "model_indices": [
+            89,
+            196
+          ],
+          "source_indices": [
+            89,
+            194
+          ],
+          "pair": "GX",
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 12,
+          "model_indices": [
+            268,
+            107
+          ],
+          "source_indices": [
+            200,
+            107
+          ],
+          "pair": "?F",
+          "domain": "CFHORZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 13,
+          "model_indices": [
+            232,
+            375
+          ],
+          "source_indices": [
+            235,
+            373
+          ],
+          "pair": "VG",
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 14,
+          "model_indices": [
+            178,
+            304
+          ],
+          "source_indices": [
+            177,
+            302
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 15,
+          "model_indices": [
+            1,
+            250
+          ],
+          "source_indices": [
+            1,
+            253
+          ],
+          "pair": "FF",
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 16,
+          "model_indices": [
+            125,
+            160
+          ],
+          "source_indices": [
+            125,
+            159
+          ],
+          "pair": "AX",
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 17,
+          "model_indices": [
+            339,
+            19
+          ],
+          "source_indices": [
+            337,
+            19
+          ],
+          "pair": "FA",
+          "domain": "Y",
+          "raw": "Y"
+        },
+        {
+          "plaintext_index": 18,
+          "model_indices": [
+            214,
+            357
+          ],
+          "source_indices": [
+            217,
+            355
+          ],
+          "pair": "FA",
+          "domain": "Y",
+          "raw": "Y"
+        },
+        {
+          "plaintext_index": 19,
+          "model_indices": [
+            37,
+            286
+          ],
+          "source_indices": [
+            37,
+            284
+          ],
+          "pair": "AX",
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 20,
+          "model_indices": [
+            322,
+            72
+          ],
+          "source_indices": [
+            320,
+            72
+          ],
+          "pair": "XA",
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 21,
+          "model_indices": [
+            143,
+            55
+          ],
+          "source_indices": [
+            143,
+            55
+          ],
+          "pair": "FF",
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 22,
+          "model_indices": [
+            90,
+            197
+          ],
+          "source_indices": [
+            90,
+            195
+          ],
+          "pair": "V?",
+          "domain": "HMTUVW",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 23,
+          "model_indices": [
+            269,
+            108
+          ],
+          "source_indices": [
+            201,
+            108
+          ],
+          "pair": "?V",
+          "domain": "26EIPV",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 24,
+          "model_indices": [
+            233,
+            376
+          ],
+          "source_indices": [
+            236,
+            374
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 25,
+          "model_indices": [
+            179,
+            305
+          ],
+          "source_indices": [
+            178,
+            303
+          ],
+          "pair": "GG",
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 26,
+          "model_indices": [
+            2,
+            251
+          ],
+          "source_indices": [
+            2,
+            254
+          ],
+          "pair": "FF",
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 27,
+          "model_indices": [
+            126,
+            161
+          ],
+          "source_indices": [
+            126,
+            160
+          ],
+          "pair": "DV",
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 28,
+          "model_indices": [
+            340,
+            20
+          ],
+          "source_indices": [
+            338,
+            20
+          ],
+          "pair": "?D",
+          "domain": "3459NT",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 29,
+          "model_indices": [
+            215,
+            358
+          ],
+          "source_indices": [
+            218,
+            356
+          ],
+          "pair": "GX",
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 30,
+          "model_indices": [
+            38,
+            287
+          ],
+          "source_indices": [
+            38,
+            285
+          ],
+          "pair": "AX",
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 31,
+          "model_indices": [
+            323,
+            73
+          ],
+          "source_indices": [
+            321,
+            73
+          ],
+          "pair": "FG",
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 32,
+          "model_indices": [
+            144,
+            56
+          ],
+          "source_indices": [
+            144,
+            56
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 33,
+          "model_indices": [
+            91,
+            198
+          ],
+          "source_indices": [
+            91,
+            196
+          ],
+          "pair": "A?",
+          "domain": "27NQXZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 34,
+          "model_indices": [
+            270,
+            109
+          ],
+          "source_indices": [
+            202,
+            109
+          ],
+          "pair": "?F",
+          "domain": "CFHORZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 35,
+          "model_indices": [
+            234,
+            377
+          ],
+          "source_indices": [
+            237,
+            375
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 36,
+          "model_indices": [
+            180,
+            306
+          ],
+          "source_indices": [
+            179,
+            304
+          ],
+          "pair": "VD",
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 37,
+          "model_indices": [
+            3,
+            252
+          ],
+          "source_indices": [
+            3,
+            255
+          ],
+          "pair": "DV",
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 38,
+          "model_indices": [
+            127,
+            162
+          ],
+          "source_indices": [
+            127,
+            161
+          ],
+          "pair": "GX",
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 39,
+          "model_indices": [
+            341,
+            21
+          ],
+          "source_indices": [
+            339,
+            21
+          ],
+          "pair": "?D",
+          "domain": "3459NT",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 40,
+          "model_indices": [
+            216,
+            359
+          ],
+          "source_indices": [
+            219,
+            357
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 41,
+          "model_indices": [
+            39,
+            288
+          ],
+          "source_indices": [
+            39,
+            286
+          ],
+          "pair": "AD",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 42,
+          "model_indices": [
+            324,
+            74
+          ],
+          "source_indices": [
+            322,
+            74
+          ],
+          "pair": "AX",
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 43,
+          "model_indices": [
+            145,
+            57
+          ],
+          "source_indices": [
+            145,
+            57
+          ],
+          "pair": "DX",
+          "domain": "J",
+          "raw": "J"
+        },
+        {
+          "plaintext_index": 44,
+          "model_indices": [
+            92,
+            199
+          ],
+          "source_indices": [
+            92,
+            197
+          ],
+          "pair": "X?",
+          "domain": "158AOP",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 45,
+          "model_indices": [
+            271,
+            110
+          ],
+          "source_indices": [
+            269,
+            110
+          ],
+          "pair": "DX",
+          "domain": "J",
+          "raw": "J"
+        },
+        {
+          "plaintext_index": 46,
+          "model_indices": [
+            235,
+            378
+          ],
+          "source_indices": [
+            238,
+            376
+          ],
+          "pair": "XX",
+          "domain": "1",
+          "raw": "1"
+        },
+        {
+          "plaintext_index": 47,
+          "model_indices": [
+            181,
+            307
+          ],
+          "source_indices": [
+            180,
+            305
+          ],
+          "pair": "XX",
+          "domain": "1",
+          "raw": "1"
+        },
+        {
+          "plaintext_index": 48,
+          "model_indices": [
+            4,
+            253
+          ],
+          "source_indices": [
+            4,
+            256
+          ],
+          "pair": "AX",
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 49,
+          "model_indices": [
+            128,
+            163
+          ],
+          "source_indices": [
+            128,
+            162
+          ],
+          "pair": "XV",
+          "domain": "P",
+          "raw": "P"
+        },
+        {
+          "plaintext_index": 50,
+          "model_indices": [
+            342,
+            22
+          ],
+          "source_indices": [
+            340,
+            22
+          ],
+          "pair": "XA",
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 51,
+          "model_indices": [
+            217,
+            360
+          ],
+          "source_indices": [
+            220,
+            358
+          ],
+          "pair": "XA",
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 52,
+          "model_indices": [
+            40,
+            289
+          ],
+          "source_indices": [
+            40,
+            287
+          ],
+          "pair": "FF",
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 53,
+          "model_indices": [
+            325,
+            75
+          ],
+          "source_indices": [
+            323,
+            75
+          ],
+          "pair": "VF",
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 54,
+          "model_indices": [
+            146,
+            58
+          ],
+          "source_indices": [
+            146,
+            58
+          ],
+          "pair": "VG",
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 55,
+          "model_indices": [
+            93,
+            200
+          ],
+          "source_indices": [
+            93,
+            203
+          ],
+          "pair": "G?",
+          "domain": "69DFGL",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 56,
+          "model_indices": [
+            272,
+            111
+          ],
+          "source_indices": [
+            270,
+            111
+          ],
+          "pair": "GV",
+          "domain": "6",
+          "raw": "6"
+        },
+        {
+          "plaintext_index": 57,
+          "model_indices": [
+            236,
+            379
+          ],
+          "source_indices": [
+            239,
+            377
+          ],
+          "pair": "DV",
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 58,
+          "model_indices": [
+            182,
+            308
+          ],
+          "source_indices": [
+            181,
+            306
+          ],
+          "pair": "DA",
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 59,
+          "model_indices": [
+            5,
+            254
+          ],
+          "source_indices": [
+            5,
+            257
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 60,
+          "model_indices": [
+            129,
+            164
+          ],
+          "source_indices": [
+            129,
+            163
+          ],
+          "pair": "AD",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 61,
+          "model_indices": [
+            343,
+            23
+          ],
+          "source_indices": [
+            341,
+            23
+          ],
+          "pair": "VG",
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 62,
+          "model_indices": [
+            218,
+            361
+          ],
+          "source_indices": [
+            221,
+            359
+          ],
+          "pair": "AD",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 63,
+          "model_indices": [
+            41,
+            290
+          ],
+          "source_indices": [
+            41,
+            288
+          ],
+          "pair": "GG",
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 64,
+          "model_indices": [
+            326,
+            76
+          ],
+          "source_indices": [
+            324,
+            76
+          ],
+          "pair": "GD",
+          "domain": "9",
+          "raw": "9"
+        },
+        {
+          "plaintext_index": 65,
+          "model_indices": [
+            147,
+            59
+          ],
+          "source_indices": [
+            147,
+            59
+          ],
+          "pair": "FX",
+          "domain": "K",
+          "raw": "K"
+        },
+        {
+          "plaintext_index": 66,
+          "model_indices": [
+            94,
+            201
+          ],
+          "source_indices": [
+            94,
+            204
+          ],
+          "pair": "A?",
+          "domain": "27NQXZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 67,
+          "model_indices": [
+            273,
+            112
+          ],
+          "source_indices": [
+            271,
+            112
+          ],
+          "pair": "FA",
+          "domain": "Y",
+          "raw": "Y"
+        },
+        {
+          "plaintext_index": 68,
+          "model_indices": [
+            237,
+            380
+          ],
+          "source_indices": [
+            240,
+            378
+          ],
+          "pair": "XX",
+          "domain": "1",
+          "raw": "1"
+        },
+        {
+          "plaintext_index": 69,
+          "model_indices": [
+            183,
+            309
+          ],
+          "source_indices": [
+            182,
+            307
+          ],
+          "pair": "XX",
+          "domain": "1",
+          "raw": "1"
+        },
+        {
+          "plaintext_index": 70,
+          "model_indices": [
+            6,
+            255
+          ],
+          "source_indices": [
+            6,
+            258
+          ],
+          "pair": "XX",
+          "domain": "1",
+          "raw": "1"
+        },
+        {
+          "plaintext_index": 71,
+          "model_indices": [
+            130,
+            165
+          ],
+          "source_indices": [
+            130,
+            164
+          ],
+          "pair": "XX",
+          "domain": "1",
+          "raw": "1"
+        },
+        {
+          "plaintext_index": 72,
+          "model_indices": [
+            344,
+            24
+          ],
+          "source_indices": [
+            342,
+            24
+          ],
+          "pair": "XX",
+          "domain": "1",
+          "raw": "1"
+        },
+        {
+          "plaintext_index": 73,
+          "model_indices": [
+            219,
+            362
+          ],
+          "source_indices": [
+            222,
+            360
+          ],
+          "pair": "AX",
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 74,
+          "model_indices": [
+            42,
+            291
+          ],
+          "source_indices": [
+            42,
+            289
+          ],
+          "pair": "VF",
+          "domain": "H",
+          "raw": "H"
+        },
+        {
+          "plaintext_index": 75,
+          "model_indices": [
+            327,
+            77
+          ],
+          "source_indices": [
+            325,
+            77
+          ],
+          "pair": "VG",
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 76,
+          "model_indices": [
+            148,
+            60
+          ],
+          "source_indices": [
+            148,
+            60
+          ],
+          "pair": "GF",
+          "domain": "F",
+          "raw": "F"
+        },
+        {
+          "plaintext_index": 77,
+          "model_indices": [
+            95,
+            202
+          ],
+          "source_indices": [
+            95,
+            205
+          ],
+          "pair": "A?",
+          "domain": "27NQXZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 78,
+          "model_indices": [
+            274,
+            113
+          ],
+          "source_indices": [
+            272,
+            113
+          ],
+          "pair": "XA",
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 79,
+          "model_indices": [
+            238,
+            381
+          ],
+          "source_indices": [
+            241,
+            379
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 80,
+          "model_indices": [
+            184,
+            310
+          ],
+          "source_indices": [
+            183,
+            308
+          ],
+          "pair": "GX",
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 81,
+          "model_indices": [
+            7,
+            256
+          ],
+          "source_indices": [
+            7,
+            259
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 82,
+          "model_indices": [
+            131,
+            166
+          ],
+          "source_indices": [
+            131,
+            165
+          ],
+          "pair": "GA",
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 83,
+          "model_indices": [
+            345,
+            25
+          ],
+          "source_indices": [
+            343,
+            25
+          ],
+          "pair": "VG",
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 84,
+          "model_indices": [
+            220,
+            363
+          ],
+          "source_indices": [
+            223,
+            361
+          ],
+          "pair": "AD",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 85,
+          "model_indices": [
+            43,
+            292
+          ],
+          "source_indices": [
+            43,
+            290
+          ],
+          "pair": "GG",
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 86,
+          "model_indices": [
+            328,
+            78
+          ],
+          "source_indices": [
+            326,
+            78
+          ],
+          "pair": "DA",
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 87,
+          "model_indices": [
+            149,
+            61
+          ],
+          "source_indices": [
+            149,
+            61
+          ],
+          "pair": "DF",
+          "domain": "C",
+          "raw": "C"
+        },
+        {
+          "plaintext_index": 88,
+          "model_indices": [
+            96,
+            203
+          ],
+          "source_indices": [
+            96,
+            206
+          ],
+          "pair": "V?",
+          "domain": "HMTUVW",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 89,
+          "model_indices": [
+            275,
+            114
+          ],
+          "source_indices": [
+            273,
+            114
+          ],
+          "pair": "FF",
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 90,
+          "model_indices": [
+            239,
+            382
+          ],
+          "source_indices": [
+            242,
+            380
+          ],
+          "pair": "XA",
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 91,
+          "model_indices": [
+            185,
+            311
+          ],
+          "source_indices": [
+            184,
+            309
+          ],
+          "pair": "VG",
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 92,
+          "model_indices": [
+            8,
+            257
+          ],
+          "source_indices": [
+            8,
+            260
+          ],
+          "pair": "FG",
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 93,
+          "model_indices": [
+            132,
+            167
+          ],
+          "source_indices": [
+            132,
+            166
+          ],
+          "pair": "AD",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 94,
+          "model_indices": [
+            346,
+            26
+          ],
+          "source_indices": [
+            344,
+            26
+          ],
+          "pair": "XA",
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 95,
+          "model_indices": [
+            221,
+            364
+          ],
+          "source_indices": [
+            224,
+            362
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 96,
+          "model_indices": [
+            44,
+            293
+          ],
+          "source_indices": [
+            44,
+            291
+          ],
+          "pair": "GX",
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 97,
+          "model_indices": [
+            329,
+            79
+          ],
+          "source_indices": [
+            327,
+            79
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 98,
+          "model_indices": [
+            150,
+            62
+          ],
+          "source_indices": [
+            150,
+            62
+          ],
+          "pair": "GA",
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 99,
+          "model_indices": [
+            97,
+            204
+          ],
+          "source_indices": [
+            97,
+            207
+          ],
+          "pair": "D?",
+          "domain": "04CIJS",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 100,
+          "model_indices": [
+            276,
+            115
+          ],
+          "source_indices": [
+            274,
+            115
+          ],
+          "pair": "DA",
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 101,
+          "model_indices": [
+            240,
+            383
+          ],
+          "source_indices": [
+            243,
+            381
+          ],
+          "pair": "VD",
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 102,
+          "model_indices": [
+            186,
+            312
+          ],
+          "source_indices": [
+            null,
+            310
+          ],
+          "pair": "?F",
+          "domain": "CFHORZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 103,
+          "model_indices": [
+            9,
+            258
+          ],
+          "source_indices": [
+            9,
+            261
+          ],
+          "pair": "F?",
+          "domain": "3BEKRY",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 104,
+          "model_indices": [
+            133,
+            168
+          ],
+          "source_indices": [
+            133,
+            167
+          ],
+          "pair": "VG",
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 105,
+          "model_indices": [
+            347,
+            27
+          ],
+          "source_indices": [
+            345,
+            27
+          ],
+          "pair": "VD",
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 106,
+          "model_indices": [
+            222,
+            365
+          ],
+          "source_indices": [
+            225,
+            363
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 107,
+          "model_indices": [
+            45,
+            294
+          ],
+          "source_indices": [
+            45,
+            292
+          ],
+          "pair": "AX",
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 108,
+          "model_indices": [
+            330,
+            80
+          ],
+          "source_indices": [
+            328,
+            80
+          ],
+          "pair": "?A",
+          "domain": "ALMQSY",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 109,
+          "model_indices": [
+            151,
+            63
+          ],
+          "source_indices": [
+            151,
+            63
+          ],
+          "pair": "FG",
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 110,
+          "model_indices": [
+            98,
+            205
+          ],
+          "source_indices": [
+            98,
+            208
+          ],
+          "pair": "FG",
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 111,
+          "model_indices": [
+            277,
+            116
+          ],
+          "source_indices": [
+            275,
+            116
+          ],
+          "pair": "FF",
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 112,
+          "model_indices": [
+            241,
+            384
+          ],
+          "source_indices": [
+            244,
+            382
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 113,
+          "model_indices": [
+            187,
+            313
+          ],
+          "source_indices": [
+            185,
+            311
+          ],
+          "pair": "DA",
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 114,
+          "model_indices": [
+            10,
+            259
+          ],
+          "source_indices": [
+            10,
+            262
+          ],
+          "pair": "GA",
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 115,
+          "model_indices": [
+            134,
+            169
+          ],
+          "source_indices": [
+            134,
+            168
+          ],
+          "pair": "XA",
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 116,
+          "model_indices": [
+            348,
+            28
+          ],
+          "source_indices": [
+            346,
+            28
+          ],
+          "pair": "VG",
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 117,
+          "model_indices": [
+            223,
+            366
+          ],
+          "source_indices": [
+            226,
+            364
+          ],
+          "pair": "AX",
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 118,
+          "model_indices": [
+            46,
+            295
+          ],
+          "source_indices": [
+            46,
+            293
+          ],
+          "pair": "VG",
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 119,
+          "model_indices": [
+            331,
+            81
+          ],
+          "source_indices": [
+            329,
+            81
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 120,
+          "model_indices": [
+            152,
+            64
+          ],
+          "source_indices": [
+            152,
+            64
+          ],
+          "pair": "FG",
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 121,
+          "model_indices": [
+            99,
+            206
+          ],
+          "source_indices": [
+            99,
+            209
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 122,
+          "model_indices": [
+            278,
+            117
+          ],
+          "source_indices": [
+            276,
+            117
+          ],
+          "pair": "FF",
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 123,
+          "model_indices": [
+            242,
+            385
+          ],
+          "source_indices": [
+            245,
+            383
+          ],
+          "pair": "XF",
+          "domain": "O",
+          "raw": "O"
+        },
+        {
+          "plaintext_index": 124,
+          "model_indices": [
+            188,
+            314
+          ],
+          "source_indices": [
+            186,
+            312
+          ],
+          "pair": "GG",
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 125,
+          "model_indices": [
+            11,
+            260
+          ],
+          "source_indices": [
+            11,
+            263
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 126,
+          "model_indices": [
+            135,
+            170
+          ],
+          "source_indices": [
+            135,
+            169
+          ],
+          "pair": "FF",
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 127,
+          "model_indices": [
+            349,
+            29
+          ],
+          "source_indices": [
+            347,
+            29
+          ],
+          "pair": "FG",
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 128,
+          "model_indices": [
+            224,
+            367
+          ],
+          "source_indices": [
+            227,
+            365
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 129,
+          "model_indices": [
+            47,
+            296
+          ],
+          "source_indices": [
+            47,
+            294
+          ],
+          "pair": "FF",
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 130,
+          "model_indices": [
+            332,
+            82
+          ],
+          "source_indices": [
+            330,
+            82
+          ],
+          "pair": "GX",
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 131,
+          "model_indices": [
+            153,
+            65
+          ],
+          "source_indices": [
+            153,
+            65
+          ],
+          "pair": "DV",
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 132,
+          "model_indices": [
+            100,
+            207
+          ],
+          "source_indices": [
+            100,
+            210
+          ],
+          "pair": "AD",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 133,
+          "model_indices": [
+            279,
+            118
+          ],
+          "source_indices": [
+            277,
+            118
+          ],
+          "pair": "AX",
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 134,
+          "model_indices": [
+            243,
+            386
+          ],
+          "source_indices": [
+            246,
+            384
+          ],
+          "pair": "DX",
+          "domain": "J",
+          "raw": "J"
+        },
+        {
+          "plaintext_index": 135,
+          "model_indices": [
+            189,
+            315
+          ],
+          "source_indices": [
+            187,
+            313
+          ],
+          "pair": "AX",
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 136,
+          "model_indices": [
+            12,
+            261
+          ],
+          "source_indices": [
+            12,
+            264
+          ],
+          "pair": "VX",
+          "domain": "W",
+          "raw": "W"
+        },
+        {
+          "plaintext_index": 137,
+          "model_indices": [
+            136,
+            171
+          ],
+          "source_indices": [
+            136,
+            170
+          ],
+          "pair": "XA",
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 138,
+          "model_indices": [
+            350,
+            30
+          ],
+          "source_indices": [
+            348,
+            30
+          ],
+          "pair": "GX",
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 139,
+          "model_indices": [
+            225,
+            368
+          ],
+          "source_indices": [
+            228,
+            366
+          ],
+          "pair": "GX",
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 140,
+          "model_indices": [
+            48,
+            297
+          ],
+          "source_indices": [
+            48,
+            295
+          ],
+          "pair": "XF",
+          "domain": "O",
+          "raw": "O"
+        },
+        {
+          "plaintext_index": 141,
+          "model_indices": [
+            333,
+            83
+          ],
+          "source_indices": [
+            331,
+            83
+          ],
+          "pair": "AD",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 142,
+          "model_indices": [
+            154,
+            66
+          ],
+          "source_indices": [
+            154,
+            66
+          ],
+          "pair": "GA",
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 143,
+          "model_indices": [
+            101,
+            208
+          ],
+          "source_indices": [
+            101,
+            211
+          ],
+          "pair": "XA",
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 144,
+          "model_indices": [
+            280,
+            119
+          ],
+          "source_indices": [
+            278,
+            119
+          ],
+          "pair": "GG",
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 145,
+          "model_indices": [
+            244,
+            387
+          ],
+          "source_indices": [
+            247,
+            385
+          ],
+          "pair": "VG",
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 146,
+          "model_indices": [
+            190,
+            316
+          ],
+          "source_indices": [
+            188,
+            314
+          ],
+          "pair": "AD",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 147,
+          "model_indices": [
+            13,
+            262
+          ],
+          "source_indices": [
+            13,
+            265
+          ],
+          "pair": "GX",
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 148,
+          "model_indices": [
+            137,
+            172
+          ],
+          "source_indices": [
+            137,
+            171
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 149,
+          "model_indices": [
+            351,
+            31
+          ],
+          "source_indices": [
+            349,
+            31
+          ],
+          "pair": "AD",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 150,
+          "model_indices": [
+            226,
+            369
+          ],
+          "source_indices": [
+            229,
+            367
+          ],
+          "pair": "VG",
+          "domain": "U",
+          "raw": "U"
+        },
+        {
+          "plaintext_index": 151,
+          "model_indices": [
+            49,
+            298
+          ],
+          "source_indices": [
+            49,
+            296
+          ],
+          "pair": "AD",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 152,
+          "model_indices": [
+            334,
+            84
+          ],
+          "source_indices": [
+            332,
+            84
+          ],
+          "pair": "GG",
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 153,
+          "model_indices": [
+            155,
+            67
+          ],
+          "source_indices": [
+            155,
+            67
+          ],
+          "pair": "AX",
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 154,
+          "model_indices": [
+            102,
+            209
+          ],
+          "source_indices": [
+            102,
+            212
+          ],
+          "pair": "DX",
+          "domain": "J",
+          "raw": "J"
+        },
+        {
+          "plaintext_index": 155,
+          "model_indices": [
+            281,
+            120
+          ],
+          "source_indices": [
+            279,
+            120
+          ],
+          "pair": "AX",
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 156,
+          "model_indices": [
+            245,
+            388
+          ],
+          "source_indices": [
+            248,
+            386
+          ],
+          "pair": "FG",
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 157,
+          "model_indices": [
+            191,
+            317
+          ],
+          "source_indices": [
+            189,
+            315
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 158,
+          "model_indices": [
+            14,
+            263
+          ],
+          "source_indices": [
+            14,
+            266
+          ],
+          "pair": "GX",
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 159,
+          "model_indices": [
+            138,
+            173
+          ],
+          "source_indices": [
+            138,
+            172
+          ],
+          "pair": "GA",
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 160,
+          "model_indices": [
+            352,
+            32
+          ],
+          "source_indices": [
+            350,
+            32
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 161,
+          "model_indices": [
+            227,
+            370
+          ],
+          "source_indices": [
+            230,
+            368
+          ],
+          "pair": "DV",
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 162,
+          "model_indices": [
+            50,
+            299
+          ],
+          "source_indices": [
+            50,
+            297
+          ],
+          "pair": "VD",
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 163,
+          "model_indices": [
+            335,
+            85
+          ],
+          "source_indices": [
+            333,
+            85
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 164,
+          "model_indices": [
+            156,
+            68
+          ],
+          "source_indices": [
+            156,
+            68
+          ],
+          "pair": "FF",
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 165,
+          "model_indices": [
+            103,
+            210
+          ],
+          "source_indices": [
+            103,
+            213
+          ],
+          "pair": "AD",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 166,
+          "model_indices": [
+            282,
+            121
+          ],
+          "source_indices": [
+            280,
+            121
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 167,
+          "model_indices": [
+            246,
+            389
+          ],
+          "source_indices": [
+            249,
+            387
+          ],
+          "pair": "FF",
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 168,
+          "model_indices": [
+            192,
+            318
+          ],
+          "source_indices": [
+            190,
+            316
+          ],
+          "pair": "GV",
+          "domain": "6",
+          "raw": "6"
+        },
+        {
+          "plaintext_index": 169,
+          "model_indices": [
+            15,
+            264
+          ],
+          "source_indices": [
+            15,
+            267
+          ],
+          "pair": "XF",
+          "domain": "O",
+          "raw": "O"
+        },
+        {
+          "plaintext_index": 170,
+          "model_indices": [
+            139,
+            174
+          ],
+          "source_indices": [
+            139,
+            173
+          ],
+          "pair": "GA",
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 171,
+          "model_indices": [
+            353,
+            33
+          ],
+          "source_indices": [
+            351,
+            33
+          ],
+          "pair": "GX",
+          "domain": "G",
+          "raw": "G"
+        },
+        {
+          "plaintext_index": 172,
+          "model_indices": [
+            228,
+            371
+          ],
+          "source_indices": [
+            231,
+            369
+          ],
+          "pair": "VD",
+          "domain": "T",
+          "raw": "T"
+        },
+        {
+          "plaintext_index": 173,
+          "model_indices": [
+            51,
+            300
+          ],
+          "source_indices": [
+            51,
+            298
+          ],
+          "pair": "AX",
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 174,
+          "model_indices": [
+            336,
+            86
+          ],
+          "source_indices": [
+            334,
+            86
+          ],
+          "pair": "AD",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 175,
+          "model_indices": [
+            157,
+            69
+          ],
+          "source_indices": [
+            null,
+            69
+          ],
+          "pair": "?F",
+          "domain": "CFHORZ",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 176,
+          "model_indices": [
+            104,
+            211
+          ],
+          "source_indices": [
+            104,
+            214
+          ],
+          "pair": "XA",
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 177,
+          "model_indices": [
+            283,
+            122
+          ],
+          "source_indices": [
+            281,
+            122
+          ],
+          "pair": "DV",
+          "domain": "I",
+          "raw": "I"
+        },
+        {
+          "plaintext_index": 178,
+          "model_indices": [
+            247,
+            390
+          ],
+          "source_indices": [
+            250,
+            388
+          ],
+          "pair": "AD",
+          "domain": "N",
+          "raw": "N"
+        },
+        {
+          "plaintext_index": 179,
+          "model_indices": [
+            193,
+            319
+          ],
+          "source_indices": [
+            191,
+            317
+          ],
+          "pair": "GG",
+          "domain": "D",
+          "raw": "D"
+        },
+        {
+          "plaintext_index": 180,
+          "model_indices": [
+            16,
+            265
+          ],
+          "source_indices": [
+            16,
+            268
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 181,
+          "model_indices": [
+            140,
+            175
+          ],
+          "source_indices": [
+            140,
+            174
+          ],
+          "pair": "XV",
+          "domain": "P",
+          "raw": "P"
+        },
+        {
+          "plaintext_index": 182,
+          "model_indices": [
+            354,
+            34
+          ],
+          "source_indices": [
+            352,
+            34
+          ],
+          "pair": "XF",
+          "domain": "O",
+          "raw": "O"
+        },
+        {
+          "plaintext_index": 183,
+          "model_indices": [
+            229,
+            372
+          ],
+          "source_indices": [
+            232,
+            370
+          ],
+          "pair": "?D",
+          "domain": "3459NT",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 184,
+          "model_indices": [
+            52,
+            301
+          ],
+          "source_indices": [
+            52,
+            299
+          ],
+          "pair": "AX",
+          "domain": "X",
+          "raw": "X"
+        },
+        {
+          "plaintext_index": 185,
+          "model_indices": [
+            337,
+            87
+          ],
+          "source_indices": [
+            335,
+            87
+          ],
+          "pair": "FG",
+          "domain": "B",
+          "raw": "B"
+        },
+        {
+          "plaintext_index": 186,
+          "model_indices": [
+            158,
+            70
+          ],
+          "source_indices": [
+            157,
+            70
+          ],
+          "pair": "FF",
+          "domain": "R",
+          "raw": "R"
+        },
+        {
+          "plaintext_index": 187,
+          "model_indices": [
+            105,
+            212
+          ],
+          "source_indices": [
+            105,
+            215
+          ],
+          "pair": "FV",
+          "domain": "E",
+          "raw": "E"
+        },
+        {
+          "plaintext_index": 188,
+          "model_indices": [
+            284,
+            123
+          ],
+          "source_indices": [
+            282,
+            123
+          ],
+          "pair": "DA",
+          "domain": "S",
+          "raw": "S"
+        },
+        {
+          "plaintext_index": 189,
+          "model_indices": [
+            248,
+            391
+          ],
+          "source_indices": [
+            251,
+            389
+          ],
+          "pair": "GA",
+          "domain": "L",
+          "raw": "L"
+        },
+        {
+          "plaintext_index": 190,
+          "model_indices": [
+            194,
+            320
+          ],
+          "source_indices": [
+            192,
+            318
+          ],
+          "pair": "XA",
+          "domain": "A",
+          "raw": "A"
+        },
+        {
+          "plaintext_index": 191,
+          "model_indices": [
+            17,
+            266
+          ],
+          "source_indices": [
+            17,
+            198
+          ],
+          "pair": "V?",
+          "domain": "HMTUVW",
+          "raw": "?"
+        },
+        {
+          "plaintext_index": 192,
+          "model_indices": [
+            141,
+            176
+          ],
+          "source_indices": [
+            141,
+            175
+          ],
+          "pair": "XD",
+          "domain": "5",
+          "raw": "5"
+        },
+        {
+          "plaintext_index": 193,
+          "model_indices": [
+            355,
+            35
+          ],
+          "source_indices": [
+            353,
+            35
+          ],
+          "pair": "DX",
+          "domain": "J",
+          "raw": "J"
+        },
+        {
+          "plaintext_index": 194,
+          "model_indices": [
+            230,
+            373
+          ],
+          "source_indices": [
+            233,
+            371
+          ],
+          "pair": "XG",
+          "domain": "8",
+          "raw": "8"
+        },
+        {
+          "plaintext_index": 195,
+          "model_indices": [
+            53,
+            302
+          ],
+          "source_indices": [
+            53,
+            300
+          ],
+          "pair": "XD",
+          "domain": "5",
+          "raw": "5"
+        }
+      ],
+      "observationally_equivalent_mask_ownerships": [
+        {
+          "moved_printed_mask_source_range": [
+            195,
+            200
+          ],
+          "mapping_sha256": "7728103452003a988c7ce0f8bc64a935009e1611f3237e70a57823d0129ed5f1"
+        },
+        {
+          "moved_printed_mask_source_range": [
+            196,
+            201
+          ],
+          "mapping_sha256": "e197cae1b38a970acc54e6ec94439120a1d57fa83c3e482741ed4cb6d5fb2bc5"
+        },
+        {
+          "moved_printed_mask_source_range": [
+            197,
+            202
+          ],
+          "mapping_sha256": "d91d7c013f2759e84e127dde4f8833da3ba50e261c3247aec8446137cea7e5c3"
+        },
+        {
+          "moved_printed_mask_source_range": [
+            198,
+            203
+          ],
+          "mapping_sha256": "60ef6ca76876e221c159547521113484cfad520a7b8b4efad5654c0f1b56465f"
+        },
+        {
+          "moved_printed_mask_source_range": [
+            199,
+            204
+          ],
+          "mapping_sha256": "800f33e13ca54e38e0b8d7ea1e477e4143d5233b8a746581654d4495ccc8c537"
+        },
+        {
+          "moved_printed_mask_source_range": [
+            200,
+            205
+          ],
+          "mapping_sha256": "3747ba142082ed6895eb17eee9162702d5656d11657421dfb94f4521950e29da"
+        },
+        {
+          "moved_printed_mask_source_range": [
+            201,
+            206
+          ],
+          "mapping_sha256": "dcb87c24a3c0ff7a4d27b1c923d35da437d0ee9984139bc6cdf7ecafb7c92c27"
+        },
+        {
+          "moved_printed_mask_source_range": [
+            202,
+            207
+          ],
+          "mapping_sha256": "5f23ed35d6aa318e001cc0bcadf09ffaee42134925d9118c5cc5b039790d2c9f"
+        },
+        {
+          "moved_printed_mask_source_range": [
+            203,
+            208
+          ],
+          "mapping_sha256": "560580674d0290ad076a2b938963cb872246569af251adca3dda5868a18d5d9f"
+        }
+      ],
+      "full_roundtrip_witness": {
+        "ciphertext": "FFFDAFXFFFGFVGGXFVVADDAGXGADGGXDVXFXGAAAFGVGGAVFXAVAAXDFVXGXFFAGGVAXFFFGAGXFDGAVAVXDGVDGGGVAXGAAVDFFAXDAXFVFVFXVAAFAFFXGXVVADADGXAXGAVXFXFGGXXAFFDVFGDGFFDGAFAFAXVXVDXADGAFAVAAVDXFGVXDXGVADGAAFGGXGXAAAAAAAAGVDAXDAVAFGFXAAAFFAFGVDVAXFVFFXDXFXVFXDVFFAGGFFVXVXVGAAVXXXFVAAAAADGFXFDFFAGAFDDGXXDFGFGXXGFFDDXXDAVGDXAXXGFAGXDVVGAVXFAVGVDFAFGAGFAFFFAAXVXVXVVFGAFGXDDAXVADXDVVXVXGVDDGVGVVXVXVADVFXGGFDA",
+        "plaintext": "D2EABSENDUNGZUERXYYXARM2EDRINGXBEQZETIGNENXJAJ11XPAARHUL6ISENUND9KQY11111XHUFQAEGELUNDSCMRAUBNAEGELSSTZYUTEXQBBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNER6OLGTXNZAINDEPONXBRESLAM5J85",
+        "unknown_coordinate_choice": "A solely for a complete roundtrip witness",
+        "historical_fill_claim": false
+      },
+      "readable_candidate": {
+        "ciphertext": "FFFDAFXFFFGFVGGXFVVADDAGXGADGGXDVXFXGAAAFGVGGAVFXAVAAXDFVXGXFFAGGVAXFFFGAGXFDGAVAVXDGVDGGGVAXGAAVDFFAXDAXFVFVFXVAAFAFFXGXVVADADGXAXGAVXFXFGGXXAFFDVFGDGFFDGAFFFAXVXVDXADGAFAVAAVDXFGVXDXGVVDGAAFGGXGXAD?F?DFVGVDAXDAVAFGFXAAAFFAFGVDVVXFVFFXDXFXVFXDVFFAGGFFVXVXVGVAVXXXFVGDGFXDFFXFDFFAGAFDDGXXDFGFGXXGFFDDXXDAVGDXAXXGFAGXDVFGAVXFAVGVDFXFGAGFVFFFAVXVXVXVVFGAFGXDDAXVADXDVVXVXGVDDGVGVVXVXVADVFXGGFDA",
+        "raw": "DIEABSENDUNGFUERXYYXARMEEDRINGXBENOETIGTENXJ?J11XPAARHUFEISENUND9K?Y11111XHUFNAEGELUNDSCHRAUBNAEGELISTHEUTEXABBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNERFOLGTXTRAINDEPOTXBRESLAU5J85",
+        "fixed_positions": 194,
+        "observed_coordinate_substitutions": [
+          {
+            "model_index": 272,
+            "source_index": 270,
+            "before": "G",
+            "after": "F",
+            "literal_source_glyph": "G"
+          },
+          {
+            "model_index": 318,
+            "source_index": 316,
+            "before": "V",
+            "after": "F",
+            "literal_source_glyph": "V"
+          },
+          {
+            "model_index": 336,
+            "source_index": 334,
+            "before": "A",
+            "after": "V",
+            "literal_source_glyph": "A"
+          }
+        ],
+        "printed_mask_fills": [
+          {
+            "model_index": 197,
+            "source_index": 195,
+            "before": "?",
+            "after": "A",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 198,
+            "source_index": 196,
+            "before": "?",
+            "after": "D",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 200,
+            "source_index": 203,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 202,
+            "source_index": 205,
+            "before": "?",
+            "after": "D",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 203,
+            "source_index": 206,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 204,
+            "source_index": 207,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 229,
+            "source_index": 232,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 258,
+            "source_index": 261,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 266,
+            "source_index": 198,
+            "before": "?",
+            "after": "G",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 267,
+            "source_index": 199,
+            "before": "?",
+            "after": "D",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 268,
+            "source_index": 200,
+            "before": "?",
+            "after": "G",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 269,
+            "source_index": 201,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 270,
+            "source_index": 202,
+            "before": "?",
+            "after": "X",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 330,
+            "source_index": 328,
+            "before": "?",
+            "after": "X",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 340,
+            "source_index": 338,
+            "before": "?",
+            "after": "A",
+            "literal_source_glyph": "-"
+          },
+          {
+            "model_index": 341,
+            "source_index": 339,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": "-"
+          }
+        ],
+        "inserted_slot_fills": [
+          {
+            "model_index": 157,
+            "source_index": null,
+            "before": "?",
+            "after": "F",
+            "literal_source_glyph": null
+          },
+          {
+            "model_index": 186,
+            "source_index": null,
+            "before": "?",
+            "after": "V",
+            "literal_source_glyph": null
+          }
+        ],
+        "full_roundtrip_witness": {
+          "ciphertext": "FFFDAFXFFFGFVGGXFVVADDAGXGADGGXDVXFXGAAAFGVGGAVFXAVAAXDFVXGXFFAGGVAXFFFGAGXFDGAVAVXDGVDGGGVAXGAAVDFFAXDAXFVFVFXVAAFAFFXGXVVADADGXAXGAVXFXFGGXXAFFDVFGDGFFDGAFFFAXVXVDXADGAFAVAAVDXFGVXDXGVVDGAAFGGXGXADAFADFVGVDAXDAVAFGFXAAAFFAFGVDVVXFVFFXDXFXVFXDVFFAGGFFVXVXVGVAVXXXFVGDGFXDFFXFDFFAGAFDDGXXDFGFGXXGFFDDXXDAVGDXAXXGFAGXDVFGAVXFAVGVDFXFGAGFVFFFAVXVXVXVVFGAFGXDDAXVADXDVVXVXGVDDGVGVVXVXVADVFXGGFDA",
+          "plaintext": "DIEABSENDUNGFUERXYYXARMEEDRINGXBENOETIGTENXJAJ11XPAARHUFEISENUND9KQY11111XHUFNAEGELUNDSCHRAUBNAEGELISTHEUTEXABBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNERFOLGTXTRAINDEPOTXBRESLAU5J85",
+          "unknown_coordinate_choice": "A solely for a complete roundtrip witness",
+          "historical_fill_claim": false
+        }
+      },
+      "new_word_positions_with_one_observed_half": [
+        1,
+        12,
+        22,
+        23,
+        28,
+        33,
+        34,
+        39,
+        55,
+        77,
+        88,
+        99,
+        102,
+        103,
+        108,
+        175,
+        183,
+        191
+      ],
+      "word_layer_ownership_aliases": {
+        "count": 54,
+        "first_insert_boundaries": [
+          156,
+          157,
+          158
+        ],
+        "second_insert_boundaries": [
+          184,
+          185
+        ],
+        "moved_mask_source_starts": [
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203
+        ],
+        "mapping_sha256s": [
+          "a789aa27196626a4ca2c2745f2f33692d965cb6041d0f205f6a99ce6c60ab8d0",
+          "777d1ca5a8324b133b41227e76078886ac5c19726ab49531f8db525c523c7808",
+          "bfeba547714f64fcd765d457d0b1a9f0cc3e83f70b001b5a33a679a9e3af0189",
+          "fdc30ed01871dc6ed40a04831898088bfcfe2db4aeed268723dc91d8235f53d9",
+          "cc4004306493521b292d63013e31686a6632d971b0922bdc3b7107760da03d0b",
+          "c95587249032e49bfaa7a94c4b7fcf357093b7131e86412d54499d844a5a7448",
+          "158c170121cbce9cae93804acbb8bac55327997220f8620fbe31ca26e67bdcad",
+          "db103bc59d2f6d71e95c71616ce75f7f066451617d14079b1af583d2967a9ec4",
+          "a2b2d9de7cbf7b39a2c676cf70c4515b4b3edd3fcacb8ffc0b353bdc3f1610b6",
+          "286d71565bc10e63cf6bedf1a12c030ff85f4b6f30a6a01c843c2119c1cf35c7",
+          "1d6fa92f4d3acbf0871c1ed0e54ab9282d55b0344762098dad4e9e37fa17c62e",
+          "5cb3564353d1dd73a870c9816483de0f2c4fdbcb2cfe9be098bb0e8e983f4882",
+          "b6407aee1b574a6cf73d8c12da683754471505329b2d7a718663128db74feea7",
+          "be2e5b8499f38be32239c3f199c9d98bcd20492777a1296561327144cfbdc306",
+          "c4fa664a9f740c8f01534a5899fc1382c033a87f61b444a200428f9643bcea70",
+          "2d0dbed147b099890d34976fb8e46f24ffc033802029c216d3778a4224c0b677",
+          "7ed3c7498fb696adb1268473d48ee87dd7136fee561e773a3e4303d8297a2b65",
+          "3a39c0f96a9b1ad5e136bc69abf81cf37514ff9c56bc5b519be657483637788f",
+          "1d4edcc1d427a3e737efa1610b71744b4834ed5af09ab07600f96e0b36ee3f2a",
+          "4b429b10f0892f8d5cd95602318f51fb3e7889702d06d503df67828bba0c3a1b",
+          "3db4213c0dd2bfff3fa489e5809b844b9ed33f724c3c9ab3f35cc0bf729c8100",
+          "c49d49d5a0a2939ecf2656d56a626447ee9d24835405ad3695b32f438bc5b967",
+          "1fb23b018761d8d77a51b80dcdf80a0c1bc3f5fe20fbed604a66c9aa81d59031",
+          "911f1fb29d716f754be6867dd54d2296047e6f8804a97525157a2df5fe599154",
+          "03f0370960a82f2473769a7fb10e5d6220e94356ac253c19a0870b06b77ebadd",
+          "2cfde6156b2157c8c80845598d6a99a971607d0b13e56c8fc795d930a7da5625",
+          "8d833f18b81bcee2b3c847b421a9f06b8357220fbf34dd70ad8fd1c9a982930c",
+          "7728103452003a988c7ce0f8bc64a935009e1611f3237e70a57823d0129ed5f1",
+          "e197cae1b38a970acc54e6ec94439120a1d57fa83c3e482741ed4cb6d5fb2bc5",
+          "d91d7c013f2759e84e127dde4f8833da3ba50e261c3247aec8446137cea7e5c3",
+          "60ef6ca76876e221c159547521113484cfad520a7b8b4efad5654c0f1b56465f",
+          "800f33e13ca54e38e0b8d7ea1e477e4143d5233b8a746581654d4495ccc8c537",
+          "3747ba142082ed6895eb17eee9162702d5656d11657421dfb94f4521950e29da",
+          "dcb87c24a3c0ff7a4d27b1c923d35da437d0ee9984139bc6cdf7ecafb7c92c27",
+          "5f23ed35d6aa318e001cc0bcadf09ffaee42134925d9118c5cc5b039790d2c9f",
+          "560580674d0290ad076a2b938963cb872246569af251adca3dda5868a18d5d9f",
+          "499a009fb2764082014aaa3672f0e8974904ad6c95faba6fac37315e0d4ff8fd",
+          "5efefe46c93ac0d0831acd31127ee24ec735655d0976441d1abfa7f4e7e2c326",
+          "765e7fcd145f25184f9c73ea1c053c08b8f46bd49a162ee8b26c8641b4bd1d20",
+          "6bbf2d2f1cd54a58052e835add0873b8810d3479803717b0595604ea16bdeedf",
+          "87f0a3a85b55cdb581ea71ba28265640ff38dd509f22b5dff21c21549001204f",
+          "480680356b597996843b649071c438840048b2791fed6e882d317dea98f79cdb",
+          "259409bacb923936d2bca703a9c25bb02def4d2343db3b6fb6cd5e3d42456160",
+          "17021c8efe3872f9bc756003da91a64410919503263cd64877bd1b341c17784f",
+          "b5f93ff765f0fcfd36007c246f68bc4de13151fe689d46bfa524efd951b1379d",
+          "6dde207655bd1f0e74a5803acfa4cefb812e34eb5be0daa5d5b4dce45cbda820",
+          "e68a6f6cc6a6169f08a940d8c931fca84ef9bc90192c1e14e060a2eda3b5d729",
+          "7a4927445575fe375aa3ddf6a71a762b06f0c371ad0ddd0c0aaa786cd9cb42a8",
+          "30890a1c645d8a8e29be643468d433fe318386657a5c454c5386f0270b33fcac",
+          "2f16771c6ff84b3caf99a9bd523bdaef87a3b42cc7ffe9176fea228d06bc11d7",
+          "eac4860c5c40e5e47da859cdf220bd4912042848311283aced21b661814e48bc",
+          "6130d8d84ed7b5e591f120a4d7dbf8d21e390e35f3b8dea1fdb05a2910cabfb9",
+          "75c642b2c3477d5f03f081fb0895a85536569cb6cdf70cede9edd7a33ae4befc",
+          "29c8fe74be5a0a276a812b80afe33000c3fc3abe050293f69603e06215dcca02"
+        ],
+        "completed_ciphertext_sha256": "eedf04086558d97a335563984548214aacfd647ef9b4bcdbf0db27a7826b5715",
+        "limit": "Conditional on this word proposal; one corrected ciphertext, not54 independent readings."
       }
     }
-  ]
+  ],
+  "common_word_reading": "DIEABSENDUNGFUERXYYXARMEEDRINGXBENOETIGTENXJ??11XPAARHUFEISENUND9K??11111XHUFNAEGELUNDSCHRAUBNAEGELISTHEUTEXABBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNERFOLGTXTRAINDEPOTXBRESLAU5J85"
 }
