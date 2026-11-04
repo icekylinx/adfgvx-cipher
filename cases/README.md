@@ -37,7 +37,7 @@ These topic guides cover every other reviewed catalogue entry. Additional physic
 <!-- READING-CATALOG:START -->
 ## Browse by source page
 
-[Open the complete page index](pages/README.md) or choose a range below. Each printed page has a short table of readings, status and credit.
+Page numbers refer to the printed Childs volume. Choose a range below or [open the complete page index](pages/README.md).
 
 ### The 22 challenge entries
 
@@ -45,29 +45,29 @@ Original challenge identifiers are retained; p198 denotes section D.
 
 | Printed source pages | Entries | Challenge identifiers |
 |---|---:|---|
-| [pp. 50–74](pages/050-074/README.md) | 1 | [p73](p73.md) |
-| [pp. 100–124](pages/100-124/README.md) | 3 | [p100](p100.md), [p105](p105.md), [p109](p109.md) |
-| [pp. 125–149](pages/125-149/README.md) | 2 | [p132](p132.md), [p146](p146.md) |
-| [pp. 150–174](pages/150-174/README.md) | 8 | [p152](p152.md), [p153a](p153a.md), [p153b](p153b.md), [p158](p158.md), [p164a](p164a.md), [p164b](p164b.md), [p170](p170.md), [p171](p171.md) |
-| [pp. 175–199](pages/175-199/README.md) | 6 | [p176a](p176a.md), [p176b](p176b.md), [p187](p187.md), [p187b](p187b.md), [p189](p189.md), [p198](p198.md) |
-| [pp. 200–224](pages/200-224/README.md) | 2 | [p215](p215.md), [p217](p217.md) |
+| [p. 73](pages/050-074/README.md) | 1 | [p73](p73.md) |
+| [pp. 100–109](pages/100-124/README.md) | 3 | [p100](p100.md), [p105](p105.md), [p109](p109.md) |
+| [pp. 132–146](pages/125-149/README.md) | 2 | [p132](p132.md), [p146](p146.md) |
+| [pp. 152–171](pages/150-174/README.md) | 8 | [p152](p152.md), [p153a](p153a.md), [p153b](p153b.md), [p158](p158.md), [p164a](p164a.md), [p164b](p164b.md), [p170](p170.md), [p171](p171.md) |
+| [pp. 176–198](pages/175-199/README.md) | 6 | [p176a](p176a.md), [p176b](p176b.md), [p187](p187.md), [p187b](p187b.md), [p189](p189.md), [p198](p198.md) |
+| [pp. 215–217](pages/200-224/README.md) | 2 | [p215](p215.md), [p217](p217.md) |
 
 ### Other ciphertexts — 650 reviewed entries
 
-Numbered parts and received copies are listed individually, with their reviewed reading status.
+Numbered parts and separately received copies have their own entries.
 
-**672 catalogue entries · 671 physical sources · 649 beyond the challenges.** The [source register](../docs/catalogue-source-overlaps.md) accounts for 1 later-edition entry sharing an existing source.
+**672 catalogue entries from 671 source bodies.** The [source register](../docs/catalogue-source-overlaps.md) identifies 1 additional edition of an already listed source.
 
-| Printed source pages | Reviewed entries | Pages represented |
-|---|---:|---:|
-| [pp. 50–74](pages/050-074/README.md) | 45 | 18 |
-| [pp. 75–99](pages/075-099/README.md) | 63 | 25 |
-| [pp. 100–124](pages/100-124/README.md) | 91 | 25 |
-| [pp. 125–149](pages/125-149/README.md) | 76 | 25 |
-| [pp. 150–174](pages/150-174/README.md) | 123 | 25 |
-| [pp. 175–199](pages/175-199/README.md) | 104 | 25 |
-| [pp. 200–224](pages/200-224/README.md) | 119 | 25 |
-| [pp. 225–249](pages/225-249/README.md) | 29 | 6 |
+| Printed source pages | Reviewed entries |
+|---|---:|
+| [pp. 56–74](pages/050-074/README.md) | 45 |
+| [pp. 75–99](pages/075-099/README.md) | 63 |
+| [pp. 100–124](pages/100-124/README.md) | 91 |
+| [pp. 125–149](pages/125-149/README.md) | 76 |
+| [pp. 150–174](pages/150-174/README.md) | 123 |
+| [pp. 175–199](pages/175-199/README.md) | 104 |
+| [pp. 200–224](pages/200-224/README.md) | 119 |
+| [pp. 225–230](pages/225-249/README.md) | 29 |
 
 Source review and current research: **icekylinx and GPT-6 Astra Pro**. Each detailed entry credits its earlier readings and keys.
 <!-- READING-CATALOG:END -->

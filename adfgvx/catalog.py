@@ -241,8 +241,13 @@ def band_start(page):
     return page // PAGE_BAND_SIZE * PAGE_BAND_SIZE
 
 
-def band_label(start):
-    return f"pp. {start}–{start + PAGE_BAND_SIZE - 1}"
+def band_label(pages, start, group=None):
+    """Label the pages actually listed; directory bands remain stable."""
+    members = [page for page in band_pages(pages, start)
+               if group is None or pages[page][group]]
+    assert members, (start, group)
+    first, last = min(members), max(members)
+    return f"p. {first}" if first == last else f"pp. {first}–{last}"
 
 
 def band_path(start):
@@ -265,17 +270,18 @@ def compact_table(pages, destination, group):
     if group == "challenge":
         lines = ["| Printed source pages | Entries | Challenge identifiers |", "|---|---:|---|"]
     else:
-        lines = ["| Printed source pages | Reviewed entries | Pages represented |", "|---|---:|---:|"]
+        lines = ["| Printed source pages | Reviewed entries |", "|---|---:|"]
     for start in bands(pages):
         rows = band_rows(pages, start, group)
         if not rows:
             continue
         link = relative_link(band_path(start), destination)
+        label = band_label(pages, start, group)
         if group == "challenge":
             detail = ", ".join(f"[{row['label']}]({relative_link(row['path'], destination)})" for row in rows)
+            lines.append(f"| [{label}]({link}) | {len(rows)} | {detail} |")
         else:
-            detail = str(sum(bool(pages[page][group]) for page in band_pages(pages, start)))
-        lines.append(f"| [{band_label(start)}]({link}) | {len(rows)} | {detail} |")
+            lines.append(f"| [{label}]({link}) | {len(rows)} |")
     return "\n".join(lines)
 
 
@@ -287,13 +293,13 @@ def render(data, destination, pages=None):
     lines = [
         START,
         "## Browse by source page", "",
-        f"[Open the complete page index]({index}) or choose a range below. Each printed page has a short table of readings, status and credit.", "",
+        f"Page numbers refer to the printed Childs volume. Choose a range below or [open the complete page index]({index}).", "",
         "### The 22 challenge entries", "",
         "Original challenge identifiers are retained; p198 denotes section D.", "",
         compact_table(pages, destination, "challenge"), "",
         f"### Other ciphertexts — {len(data['other'])} reviewed entries", "",
-        "Numbered parts and received copies are listed individually, with their reviewed reading status.", "",
-        f"**{counts['reviewed_entries']} catalogue entries · {counts['unique_physical_sources']} physical sources · {counts['additional_physical_sources']} beyond the challenges.** The [source register]({overlap_note}) accounts for {counts['later_edition_entries']} later-edition entry sharing an existing source.", "",
+        "Numbered parts and separately received copies have their own entries.", "",
+        f"**{counts['reviewed_entries']} catalogue entries from {counts['unique_physical_sources']} source bodies.** The [source register]({overlap_note}) identifies {counts['later_edition_entries']} additional edition of an already listed source.", "",
         compact_table(pages, destination, "other"), "",
         "Source review and current research: **icekylinx and GPT-6 Astra Pro**. Each detailed entry credits its earlier readings and keys.",
         END,
@@ -307,15 +313,15 @@ def render_page_index(data, pages):
     lines = [
         "# Readings by source page", "", GENERATED, "",
         "[ADFGVX Cipher](../../README.md) · [Browse by topic](../README.md#browse-by-topic) · [Reading conventions](../../docs/reading-conventions.md)", "",
-        f"**22 challenge entries and {len(data['other'])} other reviewed entries; {counts['unique_physical_sources']} unique physical sources, including {counts['additional_physical_sources']} beyond the challenge set.** Choose a printed page range, then an individual page. Every entry retains its original identifier, reading status, source credit and link to the complete edition.", "",
-        "Use the printed Childs page number and section/part label. Each entry appears once; registered editions sharing a physical source are counted through the source register.", "",
+        f"**22 challenge entries and {len(data['other'])} other reviewed entries from {counts['unique_physical_sources']} source bodies.** Choose a range or jump directly to a page.", "",
+        "Page numbers refer to the printed Childs volume. Each page lists the messages, reading status, credits and links to the complete editions.", "",
         "| Printed source pages | Challenge entries | Other reviewed entries | Jump to an individual page |",
         "|---|---:|---:|---|",
     ]
     for start in bands(pages):
         link = relative_link(band_path(start), destination)
         page_links = " · ".join(f"[p{page}]({link}#p{page})" for page in band_pages(pages, start))
-        lines.append(f"| [{band_label(start)}]({link}) | {len(band_rows(pages, start, 'challenge'))} | {len(band_rows(pages, start, 'other'))} | {page_links} |")
+        lines.append(f"| [{band_label(pages, start)}]({link}) | {len(band_rows(pages, start, 'challenge'))} | {len(band_rows(pages, start, 'other'))} | {page_links} |")
     lines.extend([
         "", "## Reading status and credit", "",
         "Challenge and other reviewed records have separate tables under each printed page. Each case supplies readable text, raw and edited outputs, source evidence and credits.", "",
@@ -334,21 +340,21 @@ def render_band(data, pages, start):
            "[Reading conventions](../../../docs/reading-conventions.md)"]
     if at:
         previous = starts[at - 1]
-        nav.append(f"[← {band_label(previous)}]({relative_link(band_path(previous), destination)})")
+        nav.append(f"[← {band_label(pages, previous)}]({relative_link(band_path(previous), destination)})")
     if at + 1 < len(starts):
         following = starts[at + 1]
-        nav.append(f"[{band_label(following)} →]({relative_link(band_path(following), destination)})")
+        nav.append(f"[{band_label(pages, following)} →]({relative_link(band_path(following), destination)})")
     n_challenge = len(band_rows(pages, start, "challenge"))
     n_other = len(band_rows(pages, start, "other"))
     locations = source_locations(data)
     band_entries = [r for group in ("challenge", "other") for r in band_rows(pages, start, group)]
     n_sources = len({locations[r["id"]] for r in band_entries})
     lines = [
-        f"# Readings from {band_label(start)}", "", GENERATED, "",
+        f"# Readings from {band_label(pages, start)}", "", GENERATED, "",
         " · ".join(nav), "",
         f"**{n_challenge} challenge {'entry' if n_challenge == 1 else 'entries'} · {n_other} other reviewed entries · {len(members)} printed pages · {n_sources} physical sources.**", "",
         "Jump to page: " + " · ".join(f"[p{page}](#p{page})" for page in members) + ".", "",
-        "Each row gives the reviewed reading status, credit and complete case. Page numbers are those printed in the Childs collection.", "",
+        "Page numbers refer to the printed Childs volume. Each row links to the complete reading and its evidence.", "",
     ]
     for page in members:
         lines.extend([f"## p{page}", ""])

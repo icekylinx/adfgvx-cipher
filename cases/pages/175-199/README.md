@@ -8,7 +8,7 @@
 
 Jump to page: [p175](#p175) · [p176](#p176) · [p177](#p177) · [p178](#p178) · [p179](#p179) · [p180](#p180) · [p181](#p181) · [p182](#p182) · [p183](#p183) · [p184](#p184) · [p185](#p185) · [p186](#p186) · [p187](#p187) · [p188](#p188) · [p189](#p189) · [p190](#p190) · [p191](#p191) · [p192](#p192) · [p193](#p193) · [p194](#p194) · [p195](#p195) · [p196](#p196) · [p197](#p197) · [p198](#p198) · [p199](#p199).
 
-Each row gives the reviewed reading status, credit and complete case. Page numbers are those printed in the Childs collection.
+Page numbers refer to the printed Childs volume. Each row links to the complete reading and its evidence.
 
 ## p175
 

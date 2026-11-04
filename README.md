@@ -4,7 +4,7 @@
 
 [![Research checks](https://github.com/icekylinx/adfgvx-cipher/actions/workflows/verify.yml/badge.svg)](https://github.com/icekylinx/adfgvx-cipher/actions/workflows/verify.yml) [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 
-**icekylinx and GPT-6 Astra Pro** · [Read the messages](cases/README.md) · [Research status](docs/research-status.md) · [Source images](sources/reviewed-crops.md) · [Methods](docs/methods.md) · [Repository map](docs/repository-map.md)
+[Read the messages](cases/README.md) · [Research status](docs/research-status.md) · [Source images](sources/reviewed-crops.md) · [Methods](docs/methods.md) · [Repository map](docs/repository-map.md)
 
 This project brings the **22 Lasry–Schmeh challenge entries and the wider collection into one source-reviewed edition**: readable German, English meaning, original ciphertext, exact reconstruction evidence and credited earlier work. The [whole-material census](docs/whole-material-coverage.md) identifies **679 ciphertext bodies across 175 log pages**.
 
@@ -20,7 +20,7 @@ This project brings the **22 Lasry–Schmeh challenge entries and the wider coll
 <!-- READING-CATALOG:START -->
 ## Browse by source page
 
-[Open the complete page index](cases/pages/README.md) or choose a range below. Each printed page has a short table of readings, status and credit.
+Page numbers refer to the printed Childs volume. Choose a range below or [open the complete page index](cases/pages/README.md).
 
 ### The 22 challenge entries
 
@@ -28,29 +28,29 @@ Original challenge identifiers are retained; p198 denotes section D.
 
 | Printed source pages | Entries | Challenge identifiers |
 |---|---:|---|
-| [pp. 50–74](cases/pages/050-074/README.md) | 1 | [p73](cases/p73.md) |
-| [pp. 100–124](cases/pages/100-124/README.md) | 3 | [p100](cases/p100.md), [p105](cases/p105.md), [p109](cases/p109.md) |
-| [pp. 125–149](cases/pages/125-149/README.md) | 2 | [p132](cases/p132.md), [p146](cases/p146.md) |
-| [pp. 150–174](cases/pages/150-174/README.md) | 8 | [p152](cases/p152.md), [p153a](cases/p153a.md), [p153b](cases/p153b.md), [p158](cases/p158.md), [p164a](cases/p164a.md), [p164b](cases/p164b.md), [p170](cases/p170.md), [p171](cases/p171.md) |
-| [pp. 175–199](cases/pages/175-199/README.md) | 6 | [p176a](cases/p176a.md), [p176b](cases/p176b.md), [p187](cases/p187.md), [p187b](cases/p187b.md), [p189](cases/p189.md), [p198](cases/p198.md) |
-| [pp. 200–224](cases/pages/200-224/README.md) | 2 | [p215](cases/p215.md), [p217](cases/p217.md) |
+| [p. 73](cases/pages/050-074/README.md) | 1 | [p73](cases/p73.md) |
+| [pp. 100–109](cases/pages/100-124/README.md) | 3 | [p100](cases/p100.md), [p105](cases/p105.md), [p109](cases/p109.md) |
+| [pp. 132–146](cases/pages/125-149/README.md) | 2 | [p132](cases/p132.md), [p146](cases/p146.md) |
+| [pp. 152–171](cases/pages/150-174/README.md) | 8 | [p152](cases/p152.md), [p153a](cases/p153a.md), [p153b](cases/p153b.md), [p158](cases/p158.md), [p164a](cases/p164a.md), [p164b](cases/p164b.md), [p170](cases/p170.md), [p171](cases/p171.md) |
+| [pp. 176–198](cases/pages/175-199/README.md) | 6 | [p176a](cases/p176a.md), [p176b](cases/p176b.md), [p187](cases/p187.md), [p187b](cases/p187b.md), [p189](cases/p189.md), [p198](cases/p198.md) |
+| [pp. 215–217](cases/pages/200-224/README.md) | 2 | [p215](cases/p215.md), [p217](cases/p217.md) |
 
 ### Other ciphertexts — 650 reviewed entries
 
-Numbered parts and received copies are listed individually, with their reviewed reading status.
+Numbered parts and separately received copies have their own entries.
 
-**672 catalogue entries · 671 physical sources · 649 beyond the challenges.** The [source register](docs/catalogue-source-overlaps.md) accounts for 1 later-edition entry sharing an existing source.
+**672 catalogue entries from 671 source bodies.** The [source register](docs/catalogue-source-overlaps.md) identifies 1 additional edition of an already listed source.
 
-| Printed source pages | Reviewed entries | Pages represented |
-|---|---:|---:|
-| [pp. 50–74](cases/pages/050-074/README.md) | 45 | 18 |
-| [pp. 75–99](cases/pages/075-099/README.md) | 63 | 25 |
-| [pp. 100–124](cases/pages/100-124/README.md) | 91 | 25 |
-| [pp. 125–149](cases/pages/125-149/README.md) | 76 | 25 |
-| [pp. 150–174](cases/pages/150-174/README.md) | 123 | 25 |
-| [pp. 175–199](cases/pages/175-199/README.md) | 104 | 25 |
-| [pp. 200–224](cases/pages/200-224/README.md) | 119 | 25 |
-| [pp. 225–249](cases/pages/225-249/README.md) | 29 | 6 |
+| Printed source pages | Reviewed entries |
+|---|---:|
+| [pp. 56–74](cases/pages/050-074/README.md) | 45 |
+| [pp. 75–99](cases/pages/075-099/README.md) | 63 |
+| [pp. 100–124](cases/pages/100-124/README.md) | 91 |
+| [pp. 125–149](cases/pages/125-149/README.md) | 76 |
+| [pp. 150–174](cases/pages/150-174/README.md) | 123 |
+| [pp. 175–199](cases/pages/175-199/README.md) | 104 |
+| [pp. 200–224](cases/pages/200-224/README.md) | 119 |
+| [pp. 225–230](cases/pages/225-249/README.md) | 29 |
 
 Source review and current research: **icekylinx and GPT-6 Astra Pro**. Each detailed entry credits its earlier readings and keys.
 <!-- READING-CATALOG:END -->

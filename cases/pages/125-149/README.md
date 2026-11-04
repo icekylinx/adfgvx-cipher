@@ -8,7 +8,7 @@
 
 Jump to page: [p125](#p125) · [p126](#p126) · [p127](#p127) · [p128](#p128) · [p129](#p129) · [p130](#p130) · [p131](#p131) · [p132](#p132) · [p133](#p133) · [p134](#p134) · [p135](#p135) · [p136](#p136) · [p137](#p137) · [p138](#p138) · [p139](#p139) · [p140](#p140) · [p141](#p141) · [p142](#p142) · [p143](#p143) · [p144](#p144) · [p145](#p145) · [p146](#p146) · [p147](#p147) · [p148](#p148) · [p149](#p149).
 
-Each row gives the reviewed reading status, credit and complete case. Page numbers are those printed in the Childs collection.
+Page numbers refer to the printed Childs volume. Each row links to the complete reading and its evidence.
 
 ## p125
 
