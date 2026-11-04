@@ -31,7 +31,9 @@ patterns recur:
 
 - **Native word witnesses:** [p164 occupation-army wording](p164_occupation_fragment/README.md)
   and the [p89 guard-battalion continuation](p89_guard_battalion_extension/README.md)
-  compare damaged spans with words actually observed under other keys.
+  compare damaged spans with words actually observed under other keys. The
+  [p89 destination extension](p89_destination_continuation/README.md) adds a
+  separately tested shortened-spelling hypothesis and a 1918 directory comparison.
 - **Coupled passages:** the [p163 rearguard extension](p163_rearguard_continuation/README.md)
   tests one shared word across two received parts, preserving every equal-cost
   alternative and the unresolved numeral relation.

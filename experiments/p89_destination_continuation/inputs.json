@@ -1,0 +1,322 @@
+{
+  "schema": "adfgvx-p89-destination-continuation-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "case_path": "cases/military/black_sea_evacuation_routes.md",
+  "indexing": "All indices are zero-based.",
+  "key": {
+    "id": "Nov1-3",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      3,
+      16,
+      4,
+      15,
+      7,
+      12,
+      18,
+      6,
+      17,
+      8,
+      19,
+      1,
+      13,
+      10,
+      2,
+      14,
+      11,
+      9,
+      5
+    ],
+    "column_count": 19,
+    "square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+    "square_rows": [
+      "UILOF9",
+      "RCZVSX",
+      "02G7QT",
+      "D8WNB5",
+      "JMHEKP",
+      "Y41A36"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "historical_book_scan",
+        "title": "General Solution of the ADFGVX Cipher System",
+        "author": "J. Rives Childs",
+        "printed_page": 239,
+        "pdf_page_1based": 242,
+        "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "UILOF9RCZVSX02G7QTD8WNB5JMHEKPY41A36",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "dependencies": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "experiments/black_sea_evacuation_routes/inputs.json": "5513f86e09fb9a03d7444a4a5fca21f346646affbc08137e2ee5f50f180edf3e",
+    "experiments/black_sea_evacuation_routes/certificates.json": "c7f33ddbac91c5a616b5bc8be5bcca494eb6617b14adf2a348f8f4b07fdf3635",
+    "experiments/p89_guard_battalion_extension/inputs.json": "a3954e18996be9d39cf8ef561d67ddd40b10510894c58cae48e212878f0d35c2",
+    "experiments/p89_guard_battalion_extension/certificates.json": "0e63d1d8ca0693b53484eeb4b58056fa4313a4c13937587c33a1d525381c385d",
+    "experiments/p89_guard_battalion_extension/verify.py": "6c48cc8e69949174a6dec40a53bcc6b05239552c843a74cfe2d7ef3ac037570e",
+    "experiments/p89_guard_battalion_extension/replay_search.py": "cb6a4bbf1ca658db909c9e64c0d4685fb9a9c2bbd00f396c5c371d7f77f102da",
+    "experiments/p164_occupation_fragment/donor_manifest.json": "82130b99097610d5eb600fc8c4a9b3178bc26e68755f7c6f030fdb4734461df9",
+    "experiments/dunst_assignment/inputs.json": "a901b26ba402288bda472d70ba588baf7d0e1e4acbd42f4b2accf7c46c0455e8",
+    "experiments/premium_payment_stop/inputs.json": "a6a351cd96799d626a118170ceca6ba6b473a24ab73813d5b35c8a3bb560eabe",
+    "experiments/p89_destination_continuation/search_report.json": "3bb00d9bd60b91d3d5921ed08f796899d6d4fdd7af04687c514c6038e6b2821f",
+    "experiments/p89_destination_continuation/replay_search.py": "f201094c7bbc3122dfe008c6fe5572a47fb57bf6bba32b583f7bf6e7c01fbd44",
+    "experiments/p89_destination_continuation/historical_context.json": "c5607a3489f0611e38de9663f54cb173bb1f39f07fcbfed68e51ae325483dc71",
+    "experiments/p89_destination_continuation/HISTORY.md": "9876527e681a4db031eff54b57c666ba0e9306a720b5a7d84744c427025bd539"
+  },
+  "records": [
+    {
+      "id": "p89_A3",
+      "printed_page": 89,
+      "source_section": "A3",
+      "source_rows": [
+        "GXGFF AVGGV GVFAG GADFD DDFFD DXDDD GVDAG VVGDG",
+        "DXAVV VDGGF VVAGD GDGDF VGGGA ADFGF AVXFF XXGFG",
+        "GFGAV AAAAA GFVVD GFAGG DVXDG VGVVD FDGVF VXFVX",
+        "AFXAV VGGGD XGXDX DAGXV GAFGX AXDGD AGXFG VVGGF",
+        "AFAFG GAADG ADVGA GDVAV GDAFX AADGF VDDDX XGXVF",
+        "FFVFG DGVFV AFGDD FVXXD AXVAV",
+        "DVGFG GVGAD AFVVV AG-AA AGGFV GDDVX DFA"
+      ],
+      "source_slots": 258,
+      "advertised_length": 358,
+      "expected_raw": "???ITE??NA???BR?I?A???HTN??HT???O??H?N???ERL??SB???ND?I?H???MPF??AB???HE?X?D???TEN??WE???RL?I?U???NGE??HL???EN?N?U???NXZ???F???MI?I?D???STE???N???SX?A?L???GAR???E???XZ?F?SZ??ERL??",
+      "model": {
+        "source_loss_boundary": 200,
+        "added_unknown_coordinates": 100,
+        "model_slots": 358,
+        "printed_annotation": "(missed 20 groups)",
+        "plaintext_positions": 179
+      },
+      "readable_candidate": "ZWEITENSNACHXBRAILAXGEHTNICHTSXDORTHINUNTERWEGSBEFINDLICHEDAMPFERABDREHENXXDRITTENSXWEITERLEITUNGINGESCHLOSSENENZUEGENXZIELFUERMILI?DIENSTELLENXERSXBATLX2XGARDEREGTSXZXF?SZ?BERLIN"
+    }
+  ],
+  "baseline": {
+    "input_path": "experiments/p89_guard_battalion_extension/inputs.json",
+    "certificate_path": "experiments/p89_guard_battalion_extension/certificates.json",
+    "certificate_layer": "guard_and_berlin_with_prior",
+    "plaintext": "ZWEITENSNACHXBRAILAXGEHTNICHTSXDORTHINUNTERWEGSBEFINDLICHEDAMPFERABDREHENXXDRITTENSXWEITERLEITUNGINGESCHLOSSENENZUEGENXZIELFUERMI?I?D???STE???N?ERSXBATLX2XGARDEREGT?XZ?F?SZ?BERLIN",
+    "fixed_positions": 166,
+    "observed_substitutions": 1,
+    "printed_mask_fills": 1,
+    "lost_coordinate_fills": 85
+  },
+  "primary_assignments": [
+    {
+      "plaintext_index": 129,
+      "label": "L"
+    },
+    {
+      "plaintext_index": 133,
+      "label": "I"
+    },
+    {
+      "plaintext_index": 134,
+      "label": "E"
+    },
+    {
+      "plaintext_index": 135,
+      "label": "N"
+    },
+    {
+      "plaintext_index": 139,
+      "label": "L"
+    },
+    {
+      "plaintext_index": 140,
+      "label": "L"
+    },
+    {
+      "plaintext_index": 141,
+      "label": "E"
+    },
+    {
+      "plaintext_index": 143,
+      "label": "X"
+    },
+    {
+      "plaintext_index": 164,
+      "label": "S"
+    },
+    {
+      "plaintext_index": 167,
+      "label": "X"
+    }
+  ],
+  "proposed_spans": [
+    {
+      "start": 127,
+      "text": "MILI"
+    },
+    {
+      "start": 132,
+      "text": "DIENSTELLENX"
+    },
+    {
+      "start": 164,
+      "text": "S"
+    },
+    {
+      "start": 167,
+      "text": "X"
+    }
+  ],
+  "spelling_hypothesis": {
+    "target_start": 132,
+    "target_literal": "DIENSTELLEN",
+    "standard_word": "DIENSTSTELLEN",
+    "repeated_digraph": "ST",
+    "standard_digraph_start": 4,
+    "operation": "Collapse one adjacent STST repetition to ST in the proposed plaintext spelling.",
+    "changes_to_source_geometry": 0,
+    "normalization_in_primary": false
+  },
+  "optional_fully_absent": {
+    "positions": [
+      131,
+      169
+    ],
+    "first_position_labels": [
+      "T",
+      "X",
+      "Z"
+    ],
+    "second_position_label": "U",
+    "included_in_primary": false
+  },
+  "separately_priced_rejected_extensions": [
+    {
+      "start": 167,
+      "text": "U",
+      "meaning": "Full ZU instead of literal Z X.",
+      "included_in_primary": false
+    },
+    {
+      "start": 172,
+      "text": "X",
+      "meaning": "Separator before BERLIN.",
+      "included_in_primary": false
+    },
+    {
+      "start": 127,
+      "text": "MILITAERPERSONENX",
+      "meaning": "Alternative military-persons wording suggested by the next part.",
+      "included_in_primary": false
+    }
+  ],
+  "native_word_witnesses": [
+    {
+      "input_path": "experiments/dunst_assignment/inputs.json",
+      "record_id": "p95_A1",
+      "start": 9,
+      "text": "MILIT",
+      "observed_halves": 10,
+      "role": "Native abbreviation witness; does not decide wholly absent target position 131."
+    },
+    {
+      "input_path": "experiments/premium_payment_stop/inputs.json",
+      "record_id": "p78_A2",
+      "start": 21,
+      "text": "DIENSTSTELLEN",
+      "observed_halves": 26,
+      "role": "Native standard word; the target DIENSTELLEN requires the separately declared STST-to-ST spelling hypothesis."
+    }
+  ],
+  "following_part": {
+    "input_path": "experiments/black_sea_evacuation_routes/inputs.json",
+    "record_id": "p89_A4",
+    "native_prefix": "XIVILPERSONENBERLIN",
+    "edited_prefix": "ZIVILPERSONENBERLIN",
+    "native_clause": "ZIELFUERGESCHLOSSENETRUPPENTEILE",
+    "purpose": "Source-numbered next part supplies evacuation-category context, not missing target letters."
+  },
+  "source_images": [
+    {
+      "input_path": "experiments/black_sea_evacuation_routes/inputs.json",
+      "path": "sources/p89_A3.png"
+    },
+    {
+      "input_path": "experiments/black_sea_evacuation_routes/inputs.json",
+      "path": "sources/p89_A4.png"
+    },
+    {
+      "input_path": "experiments/black_sea_evacuation_routes/inputs.json",
+      "path": "sources/p89_A_header.png"
+    },
+    {
+      "input_path": "experiments/dunst_assignment/inputs.json",
+      "path": "sources/p95_A1.png"
+    },
+    {
+      "input_path": "experiments/premium_payment_stop/inputs.json",
+      "path": "sources/p78_A2.png"
+    }
+  ],
+  "retrieval": {
+    "manifest": "experiments/p164_occupation_fragment/donor_manifest.json",
+    "excluded_same_message_input": "experiments/black_sea_evacuation_routes/inputs.json",
+    "target_plaintext_interval": [
+      127,
+      144
+    ],
+    "minimum_length": 10,
+    "repeated_block_length": 2,
+    "require_hit_to_cross_collapse": true,
+    "shuffle_samples": 128,
+    "shuffle_seed": 20261104060289,
+    "planted_seed": 20261104060290,
+    "planted_variant_indices": [
+      65,
+      87,
+      101
+    ],
+    "planted_target_start": 128,
+    "retrospective": true
+  },
+  "limits": [
+    "The source-declared 100-coordinate loss stays at boundary 200; no cipher coordinate is inserted to normalize the proposed word.",
+    "All ten new primary assignments retain one observed coordinate half, but remain conditional lexical proposals.",
+    "DIENSTELLEN is the literal eleven-letter proposal. Standard DIENSTSTELLEN has thirteen letters; STST-to-ST collapse is a hypothesized plaintext spelling error, not an observed historical event.",
+    "The native p78 word, the retrospective corpus retrieval and the contemporary directory are distinct types of support. None supplies a second received copy of this destination sentence.",
+    "The primary leaves wholly absent positions 131 and 169, and half-supported position 172, unresolved. The optional MILIT, MILI-X and MILIZ readings share their primary letters but do not exhaust all cryptographic completions.",
+    "The proposed S after GARDEREGT and X after Z have one observed half each; the exact expansion and punctuation remain editorial.",
+    "The existing numeral 2, BATL T and BERLIN wording remain the previously priced conditional guard-battalion layer; the directory does not make them native plaintext.",
+    "The following-part initial Z requires its inherited one-coordinate X-to-Z repair. The longer troop-category clause is native and fully observed.",
+    "The retrospective shuffle and planted controls test this narrow retrieval operation, not a probability of historical correctness or full-message recovery.",
+    "No new physical source record, period key or date assignment is introduced."
+  ],
+  "historical_context": {
+    "path": "historical_context.json",
+    "purpose": "Independent contemporary unit-name and city context; no added plaintext labels."
+  }
+}

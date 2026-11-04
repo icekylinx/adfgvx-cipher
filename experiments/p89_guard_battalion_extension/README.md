@@ -85,8 +85,10 @@ does not optimize or move that gap. The key remains the published Nov1–3
 square and 19-column rank.
 
 The frozen retrieval searches the previously unread tail, positions
-127–178, against **485 distinct raw streams / 51,526 characters**, with
-all inputs from the same evacuation-message edition excluded. At a minimum
+127–178, against **484 distinct raw streams / 51,327 characters**, with
+all entries from the same evacuation-message edition excluded, including
+the p90 A5 entry also referenced through a later snapshot. An alias cannot
+retain a sibling message part. At a minimum
 length of twelve, its highest-supported zero-substitution hit is precisely
 the twenty-character phrase at position 144. The donor manifest is reused
 by reference and every raw-text digest is checked.

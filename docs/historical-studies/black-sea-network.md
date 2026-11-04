@@ -30,6 +30,21 @@ An instruction originating on 1 November changes where the text's “Siegfried t
 
 The second copy does more than repeat a destination. It shows the maintenance of an instruction across a communications chain: a changed route had to survive transcription and retransmission before it could affect movement. The two versions retain different spellings of the second port. Keeping that small difference visible prevents a modern place-name correction from masquerading as evidence for a single perfect original.
 
+The [earlier five-part routing order](../../cases/military/black_sea_evacuation_routes.md)
+also looks beyond disembarkation. It forbids further traffic to Braila,
+requires onward movement in whole trains, names Berlin for civilians,
+and asks the receiving stations for early and accurate notice so that
+accommodation and onward transport can be arranged. Our new p89 A3
+continuation supplies a conditional military-office destination followed
+by an Ersatzbataillon and 2nd Guards Regiment designation. The
+[1918 Berlin directory](../../experiments/p89_destination_continuation/HISTORY.md)
+independently lists the 2. Garderegiment zu Fuß in the city. The damaged
+military clause retains three unknown characters and its proposed shortened
+spelling; the following civilian and advance-notice clauses are much more
+fully preserved. Together the parts show a movement planned through ports,
+railways and reception offices, with different instructions for troops and
+civilians.
+
 The armistice of Mudros, signed on 30 October, provides a larger setting for these movements. It opened the Straits and Black Sea access to the Allies, gave them use of ports and control over wireless and cable stations, and required the evacuation of Germans and Austrians from Ottoman territory. The shipping messages should be read against those changing conditions, while their particular routing decisions remain the evidence of the telegrams themselves. [Mudros, clauses I, VIII, XII and XIX](https://germanhistorydocs.org/en/weimar-germany-1918-1933/ghdi%3Adocument-4012).
 
 ## Asgard comes back for the troops

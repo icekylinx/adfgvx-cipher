@@ -30,9 +30,12 @@ EXCLUDED = 'experiments/black_sea_evacuation_routes/inputs.json'
 def donors():
     cache = {}; texts = []
     for entry in load(ROOT/MANIFEST)['streams']:
-        refs = [r for r in entry['sources'] if r['path'] != EXCLUDED]
-        if not refs:
+        # Exclude the physical same-message entry, including aliases such as
+        # p90 A5's snapshot in p132_optional_address. A path-only filter would
+        # retain that sibling part through its second provenance reference.
+        if any(r['path'] == EXCLUDED for r in entry['sources']):
             continue
+        refs = entry['sources']
         matches = []
         for ref in refs:
             path = ref['path']
@@ -45,8 +48,8 @@ def donors():
             matches.append(value)
         assert len(set(matches)) == 1
         texts.append(matches[0])
-    assert len(texts) == len(set(texts)) == 485
-    assert sum(map(len, texts)) == 51526
+    assert len(texts) == len(set(texts)) == 484
+    assert sum(map(len, texts)) == 51327
     return texts
 
 
@@ -120,6 +123,7 @@ def compute():
                 target_plaintext_interval=[127, 179], minimum_length=12, seed=seed,
                 historical=historical, null_summary=null_summary, planted=controls,
                 limits=['The twenty-character phrase is the frozen zero-substitution retrieval result.',
+                        'An entire donor entry is excluded when any provenance reference belongs to the same message; aliases cannot retain a sibling part.',
                         'The shorter BERLIN proposal is subsequent contextual work, outside this twelve-character retrieval threshold.',
                         'Coordinate shuffles calibrate this declared retrieval only; they do not prove unique wording or a null probability.'])
 

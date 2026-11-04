@@ -1,0 +1,165 @@
+{
+  "schema": "adfgvx-primary-historical-context-v1",
+  "id": "p89_1918_berlin_guard_regiment",
+  "role": "Independent contemporary corroboration of a candidate unit name and city; not a plaintext donor or a source-coordinate repair.",
+  "review_date": "2026-11-04",
+  "review_credit": "icekylinx and GPT-6 Astra Pro",
+  "source": {
+    "institution": "Zentral- und Landesbibliothek Berlin",
+    "title": "Berliner Adreßbuch 1918",
+    "publication_year": 1918,
+    "volume_id": "34115495_1918",
+    "part": "II",
+    "printed_page": "95",
+    "scan_order": 3421,
+    "page_heading": "Militär",
+    "section": "Truppen / Infanterie",
+    "viewer_url": "https://digital.zlb.de/viewer/image/34115495_1918/3421/",
+    "canvas_url": "https://digital.zlb.de/viewer/api/v1/records/34115495_1918/pages/3421/canvas/",
+    "ocr_url": "https://digital.zlb.de/viewer/api/v1/records/34115495_1918/pages/3421/text/",
+    "year_metadata": {
+      "endpoint": "https://digital.zlb.de/viewer/api/v1/index/query/",
+      "method": "POST",
+      "request": {
+        "query": "PI:34115495_1918",
+        "resultFields": [
+          "PI",
+          "LABEL",
+          "MD_TITLE",
+          "MD_YEARPUBLISH",
+          "MD_PLACEPUBLISH",
+          "MD_PUBLISHER",
+          "YEAR",
+          "YEARMONTH",
+          "DOCTYPE",
+          "DOCSTRCT",
+          "MD_LANGUAGE"
+        ]
+      },
+      "response": {
+        "docs": [
+          {
+            "DOCSTRCT": "volume",
+            "YEAR": [
+              1918
+            ],
+            "MD_YEARPUBLISH": [
+              "1918"
+            ],
+            "PI": "34115495_1918",
+            "MD_LANGUAGE": [
+              "ger"
+            ],
+            "DOCTYPE": "DOCSTRCT"
+          }
+        ],
+        "numFound": 1
+      }
+    },
+    "full_image": {
+      "file": "sources/zlb1918_II95.png",
+      "url": "https://digital.zlb.de/viewer/api/v1/records/34115495_1918/files/images/00003421.png/full/full/0/default.png",
+      "width": 2811,
+      "height": 3876,
+      "sha256": "f7fb0987c3d906a3dd6d4c1216980d62e4455ead9ff354c29ad32bca2be5a649"
+    },
+    "region_image": {
+      "file": "sources/zlb1918_II95_guard_infantry.png",
+      "url": "https://digital.zlb.de/viewer/api/v1/records/34115495_1918/files/images/00003421.png/1060,330,510,850/full/0/default.png",
+      "region_xywh": [
+        1060,
+        330,
+        510,
+        850
+      ],
+      "width": 510,
+      "height": 850,
+      "sha256": "f7925e4849427d556cafcef8ccd971084a2df44764db15cd6cf89b99cd561031",
+      "recipe": "Official IIIF Image API region request at native resolution, rotation 0; no subsequent image modification.",
+      "pixel_relation": "RGB pixels equal the full image rectangle [1060:1570,330:1180]."
+    },
+    "title_metadata": {
+      "endpoint": "https://digital.zlb.de/viewer/api/v1/index/query/",
+      "method": "POST",
+      "request": {
+        "query": "PI:34115495",
+        "resultFields": [
+          "PI",
+          "MD_TITLE",
+          "MD_TITLELABEL",
+          "MD_TITLE_ORIGINAL",
+          "LABEL",
+          "MD_PUBLISHER",
+          "MD_PLACEPUBLISH",
+          "TITLE"
+        ]
+      },
+      "response": {
+        "docs": [
+          {
+            "MD_TITLE": [
+              "Berliner Adreßbuch"
+            ],
+            "MD_PLACEPUBLISH": [
+              "Berlin"
+            ],
+            "MD_PUBLISHER": [
+              "Scherl"
+            ],
+            "PI": "34115495",
+            "LABEL": "Berliner Adreßbuch"
+          }
+        ],
+        "numFound": 1
+      },
+      "scope": "Parent bibliographic record confirms the series title; the separate volume metadata supplies 1918."
+    }
+  },
+  "visually_checked_readings": [
+    {
+      "location": "region, unit heading",
+      "text": "2. Garderegiment zu Fuß."
+    },
+    {
+      "location": "region, first barracks entry",
+      "text": "1. u 2. Bat. Kaserne N. 24. Friedrichstraße 107.",
+      "transcription_note": "Line-end word division removed."
+    },
+    {
+      "location": "region, second barracks entry",
+      "text": "Füs. Bat., Kaserne NW 6. Karlstraße Nr. 34. 35."
+    },
+    {
+      "location": "region, third barracks entry",
+      "text": "Maschinengewehr-Komp., NW. 6, Hannoverische Str. 27–30.",
+      "transcription_note": "Hyphen/dash typography regularized; line break removed."
+    },
+    {
+      "location": "region, wartime notice above Infanterie",
+      "text": "Infolge des Feldzuges sind die Regimenter nur mit Angabe der Kommandeure aufgeführt.",
+      "transcription_note": "Line-end word division removed."
+    },
+    {
+      "location": "region, commander field",
+      "text": "Kommandeur. (fehlt z. Z.)"
+    },
+    {
+      "location": "full page, same infantry column below Kaiser Alexander entry",
+      "text": "Kaiser Franz Garde-Gren.Rgt. Nr. 2.",
+      "transcription_note": "Line break removed."
+    }
+  ],
+  "supported_claims": [
+    "A Berlin directory published in 1918 lists a unit named 2. Garderegiment zu Fuß.",
+    "The listed unit has Berlin barracks, including Friedrichstraße 107 for the first and second battalions.",
+    "The period title and city are consistent with the candidate 2 GARDEREGT and BERLIN fragments of p89 A3.",
+    "The page treats Kaiser Franz Garde-Gren.Rgt. Nr. 2 as a separate unit."
+  ],
+  "scope_limits": [
+    "The entry does not separately identify the Ersatzbataillon of the 2. Garderegiment zu Fuß.",
+    "An annual directory listing does not establish this depot’s location or orders on the exact November transmission date.",
+    "The entry prints the full unit title; it does not independently attest the proposed genitive abbreviation GARDEREGTS or the cipher spelling Z FUSZ.",
+    "No wholly absent letter, numeral, separator, street address, or received-coordinate repair is inferred from the directory.",
+    "The directory is contextual corroboration, not an additional native cryptanalytic witness."
+  ]
+}

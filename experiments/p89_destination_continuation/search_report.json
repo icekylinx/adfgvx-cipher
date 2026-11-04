@@ -1,0 +1,153 @@
+{
+  "schema": "adfgvx-p89-repeated-digraph-collapse-search-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "scope": {
+    "manifest": "experiments/p164_occupation_fragment/donor_manifest.json",
+    "excluded_same_message_input": "experiments/black_sea_evacuation_routes/inputs.json",
+    "target_plaintext_interval": [
+      127,
+      144
+    ],
+    "minimum_length": 10,
+    "repeated_block_length": 2,
+    "require_hit_to_cross_collapse": true,
+    "shuffle_samples": 128,
+    "shuffle_seed": 20261104060289,
+    "planted_seed": 20261104060290,
+    "planted_variant_indices": [
+      65,
+      87,
+      101
+    ],
+    "planted_target_start": 128,
+    "retrospective": true
+  },
+  "donor_streams": 484,
+  "donor_characters": 51327,
+  "excluded_same_message_text_hashes": [
+    "861b16c37de344116108a4b33c54929b1c54d2316ff44f0bfdd6c48d2423d2a9",
+    "265a6f193f26b05aaeac077624949174afacd17d7d00db8ac221f10575bdfe96",
+    "923f825c30265943fbf65e07f83578ce5534a752a32fc7dffd01fab78f34dcc4",
+    "664fe88636afc729d2c2778435dba3b35b6c4d88f825893066cf0499e988795d"
+  ],
+  "collapsed_variants": 110,
+  "collapsed_corpus_characters": 14379,
+  "variant_manifest_sha256": "75c0ec9b292b4a40a5d36e0ab02b62224d7599a26010c8ad425f21d38851c9a3",
+  "historical": {
+    "observed_support": 16,
+    "length": 12,
+    "hits": [
+      {
+        "target_start": 131,
+        "text": "NDIENSTELLEN",
+        "variant": 81,
+        "donor_start": 20,
+        "collapsed_block": "ST",
+        "collapse_start": 25
+      }
+    ]
+  },
+  "historical_donor": {
+    "stream_id": 403,
+    "source_sha256": "0369e088ea4f9d9ad99a08c4644e6d8aea7b4552819bb16ed14c81a7bdbb1d04",
+    "source_refs": [
+      {
+        "path": "experiments/premium_payment_stop/inputs.json",
+        "json_path": [
+          "records",
+          1,
+          "expected_raw"
+        ]
+      }
+    ],
+    "start": 25,
+    "block": "ST",
+    "join": 27
+  },
+  "null_summary": {
+    "count": 128,
+    "matched_at_minimum_length": 0,
+    "at_or_above_target": 0,
+    "maximum_rank": [
+      0,
+      0
+    ],
+    "results_sha256": "7b78c12fb8e494615d9ba490ca4a230d1ea19590d94619982f22c1a323ebd283"
+  },
+  "planted": [
+    {
+      "variant": 65,
+      "fragment": "EBERGABEDINGUNGE",
+      "target_start": 128,
+      "plaintext": "GX4WJ0GSURR729WT5A51QL7MRMIEKCC1S18QYUXU54XLOOR57BO41LFAKB8I7YQ1VLATE2V9F8BWNMWOH3QK69TQOCO39IJ1LI2CRFNNCGRQDTBSMK1LA6VQF74QJVM0EBERGABEDINGUNGED32KRH3IHOIFUIPMRHXUOPQ0X6PLP0WT7VJ",
+      "source": "AFAGFAVAVXAGVGGDDFGDXAVAVDDVXGVFGAFVXVFAXVDXGGGXXDXVXFVFADAFDAGGXVXAFAAGGAXVDXVAGVXFAADVFFFDVXFAGDDXGDGDDGXFAFVVFXGADGVAGGVAAXGVAAAFAGDXXXAAFADFGVDVAFXAGGAAVFGXVGVDFGAAVFGDFGAFGVAVDVVFVXDGAGVADGAVXDGD????????????????????????????????????????????????????????????????????????????????????????????????????FVXVVDDXGVDDADAADAXFGDFFXGFDAGFVXDGVAGGFFD?AFFXXGDXFGGVAVF",
+      "result": {
+        "observed_support": 22,
+        "length": 16,
+        "hits": [
+          {
+            "target_start": 128,
+            "text": "EBERGABEDINGUNGE",
+            "variant": 65,
+            "donor_start": 29,
+            "collapsed_block": "BE",
+            "collapse_start": 35
+          }
+        ]
+      }
+    },
+    {
+      "variant": 87,
+      "fragment": "EPFLOGENVEREINBA",
+      "target_start": 128,
+      "plaintext": "DJVRZGPPSG6WMPJDST93KHIY95USDZUHUCUGKL9X1UISUH1D313Y8IR2EU23E3Y94LB9HGFVPOX2XLKA11357M183BDOTTV7M5S02671W90HJU0DC91G1CQ1KECSSFVKEPFLOGENVEREINBA9G37SJBNDG7HQ7A6X79OV2DKYO0TWIK07ZG",
+      "source": "FGXAVAAVFADFFVADGVGVVAFVAXGGXFAVVAAXAFGFXAAAAVDDFFXVFVGGFVXVFDVFXAFVXFVVGFXGFXGFGGGDVGGXDGGGFAAVDAAXGAGGVVDVGXFFVDFVAXFXFVDGAXVGXFGAFVADDGVDFGAAVVGFVGAVAVAFVFFGDFADAGGXFXDXFADXAVFXGVAGVGXFDXDVXDAXFXXD????????????????????????????????????????????????????????????????????????????????????????????????????XDXXAAAXVXVFAFVVVFDFDDAFAVVFXVDFDGDFVGVFAA?DDXGXAFAXGDGFAF",
+      "result": {
+        "observed_support": 22,
+        "length": 16,
+        "hits": [
+          {
+            "target_start": 128,
+            "text": "EPFLOGENVEREINBA",
+            "variant": 87,
+            "donor_start": 69,
+            "collapsed_block": "EN",
+            "collapse_start": 75
+          }
+        ]
+      }
+    },
+    {
+      "variant": 101,
+      "fragment": "PFLICHTENMITGLIE",
+      "target_start": 128,
+      "plaintext": "5HNCC1IQPWJ6TYA98BV80VY8ZS23TTMWWQ0ZUEY8SEZAIPUO3G9WWOMA5MUCW5TWYD994LWCVUWNASRO6VXWLUK5CRCTFNWPCDU2ABJ09GR0F2P1ZPVYPEDE28ZB5WBRPFLICHTENMITGLIESO37S7950SO8QXALG4EP7R8LCOR6MU6L11R",
+      "source": "FAFFGAXDGFGVGADDXAFFDFFVDXAGVVFGFFGADDGFGXXGVXXAVXDVVDFDXVAFXGVAXDVDFXXFGDGVGGFGAXAGAFAXGDAXXADXAGGGFGGDAAGDGXDDXGXDDDFDDDXGAVFVVAXADXDFFGXDXDDFAVDFVGFXDVVAGAGFGAVFDFGFDDGVDDVFAXAVXDAXFGDFVVXAAGGFAGFF????????????????????????????????????????????????????????????????????????????????????????????????????XDAGFDFGFXAFVGAVVFAADXXFVXGFADAAVVGGGGXXGD?XFFDDDXDVXAGDDX",
+      "result": {
+        "observed_support": 24,
+        "length": 17,
+        "hits": [
+          {
+            "target_start": 127,
+            "text": "RPFLICHTENMITGLIE",
+            "variant": 101,
+            "donor_start": 101,
+            "collapsed_block": "TE",
+            "collapse_start": 108
+          }
+        ]
+      }
+    }
+  ],
+  "limits": [
+    "This is a retrospective test of one proposed spelling operation, not an unconditioned decipherment search.",
+    "The wholly absent initial N of the longest donor match is not accepted. The proposed word is DIENSTELLEN at positions 132\u2013142.",
+    "Every same-message manifest entry is excluded even when another path aliases that entry. The existing part 2 is absent from this frozen native-stream manifest.",
+    "The shuffle controls preserve all mask positions and the observed-coordinate histogram, and repeat this entire bounded retrieval.",
+    "Planted fragments test recovery in the same geometry. They are constructed controls, not additional historical witnesses.",
+    "No control frequency is interpreted as a probability that the proposed historical spelling is correct."
+  ]
+}

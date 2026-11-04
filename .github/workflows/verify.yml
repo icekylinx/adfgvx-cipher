@@ -47,6 +47,9 @@ jobs:
           python experiments/p137_governing_clause/verify.py --verify
           python experiments/p164_occupation_fragment/verify.py --verify
           python experiments/p89_guard_battalion_extension/verify.py --verify
+          python experiments/p89_guard_battalion_extension/replay_search.py
+          python experiments/p89_destination_continuation/verify.py --verify
+          python experiments/p89_destination_continuation/replay_search.py
           python experiments/p68_procurement_continuation/verify.py --verify
           python experiments/p84_mother_illness_fragment/verify.py --verify
           python experiments/p163_headquarters_map_context/verify.py --verify

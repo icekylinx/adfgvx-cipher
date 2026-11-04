@@ -82,7 +82,7 @@ bodies, and they are not advertised as complete solutions.
 | [p164a](../cases/p164a.md) | **BESATZUNGSHEER** matches all 18 received halves at zero substitutions; the combined conditional layer reaches 104/121 positions. |
 | [p163, parts 13 and 15](../cases/military/p163_A.md) | Repeated **NACHHUTSTELLUNG** supports a 116/117-position part-15 proposal; the corps digit remains coupled and unresolved. |
 | [p163 jammed continuation](../cases/military/p163_infrastructure_clause.md) | A 59-position infrastructure clause fits all 121 received coordinates; the inferred frame and six wholly absent letters remain conditional. |
-| [p89 destination](../experiments/p89_guard_battalion_extension/README.md) | An independent guard-battalion word witness and separate Berlin proposal extend the reading to 166/179 positions. |
+| [p89 destination](../experiments/p89_destination_continuation/README.md) | Native word witnesses extend the conditional proposal to 176/179 positions, with ten new half-supported letters or separators and no new observed substitution. The shortened spelling DIENSTELLEN and three remaining unknowns stay explicit. |
 | [p68 procurement](../experiments/p68_procurement_continuation/README.md) | The common proposal reaches 76/93 positions; competing internal verb letters remain unresolved. |
 | [p137 personnel order](../experiments/p137_governing_clause/README.md) | An optional governing clause reaches 124/126 positions, with all seven observed substitutions explicit. |
 | [p137 publicity fragment](../cases/military/p137_publicity_fragment.md) | **DER OEFFENTLICHKEIT … BLEIBEN** is a narrow 25-letter proposal; the intervening meaning and complete frame are unestablished. |

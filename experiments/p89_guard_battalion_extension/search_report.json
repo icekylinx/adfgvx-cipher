@@ -2,8 +2,8 @@
   "schema": "adfgvx-p89-guard-battalion-search-v1",
   "manifest": "experiments/p164_occupation_fragment/donor_manifest.json",
   "excluded_same_message_inputs": "experiments/black_sea_evacuation_routes/inputs.json",
-  "donor_streams": 485,
-  "donor_characters": 51526,
+  "donor_streams": 484,
+  "donor_characters": 51327,
   "target_plaintext_interval": [
     127,
     179
@@ -96,6 +96,7 @@
   ],
   "limits": [
     "The twenty-character phrase is the frozen zero-substitution retrieval result.",
+    "An entire donor entry is excluded when any provenance reference belongs to the same message; aliases cannot retain a sibling part.",
     "The shorter BERLIN proposal is subsequent contextual work, outside this twelve-character retrieval threshold.",
     "Coordinate shuffles calibrate this declared retrieval only; they do not prove unique wording or a null probability."
   ]

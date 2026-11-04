@@ -74,16 +74,48 @@ in the earlier edition; the assembly does not silently fill them.
 
 ## p89 A3
 
+**Readable German — current conditional proposal; each ? is one unresolved position:**
+
+> Zweitens. Nach Braila geht nichts. Dorthin unterwegs befindliche
+> Dampfer abdrehen. Drittens. Weiterleitung in geschlossenen Zügen.
+> Ziel für MILI? DIENSTELLEN: Ers. Batl. 2 Garderegts. z. F?sz? Berlin.
+
+**English meaning:** Nothing is to go to Braila, and steamers already on
+that route are to turn back. Onward transport is to use whole trains.
+The conditional continuation names a destination for apparently military
+offices, followed by a replacement-battalion designation and Berlin.
+The last clause still has three unresolved labels.
+
+The new reading supplies ten positions beyond the
+[guard-battalion extension](../../experiments/p89_guard_battalion_extension/README.md),
+reaching **176/179 fixed positions under the conditional model**. All ten
+new assignments have one observed coordinate half and require only the
+missing half to be filled. Their complete cost and independent witnesses
+are in the [destination continuation](../../experiments/p89_destination_continuation/README.md).
+
+The proposed spelling `DIENSTELLEN` is deliberately retained. The normal
+word `DIENSTSTELLEN` is thirteen characters long, while this target span
+has eleven. The hypothesis is an omitted `ST` within `STST`. A separate
+raw message, **p78 A2**, supplies `DIENSTSTELLEN` with all 26 coordinate
+halves observed; the target spelling agrees with its own **16 observed
+halves**. This is a constrained textual proposal, not the recovery of the
+two additional letters or a change to the source frame.
+
+A contemporary [1918 Berlin directory](../../experiments/p89_destination_continuation/HISTORY.md)
+lists **2. Garderegiment zu Fuß** in Berlin. It supports the proposed unit
+name and city, but does not determine the replacement battalion's November
+location or any missing cipher labels. The T in `BATL` remains wholly
+absent, and the numeral 2 is supported by one observed half.
+
 The [third-part crop](../../experiments/black_sea_evacuation_routes/sources/p89_A3.png)
 prints `3 TL RICHI-358` and **`(missed 20 groups)`** after five
 40-coordinate rows. There are **258 visible slots**, including one
 printed dash. Inserting **100 unknown coordinate slots at source
-boundary200** produces the source-declared 358-coordinate frame.
-The gap's size and placement are supplied by the page, not selected by
-optimizing the language.
+boundary 200** gives the source-declared 358-coordinate frame. The page
+supplies the gap's size and placement.
 
 <details>
-<summary>Source and cipher evidence</summary>
+<summary>Source, exact candidate and cumulative repair account</summary>
 
 **Raw output — source-declared frame with 100 missing coordinates:**
 
@@ -91,47 +123,36 @@ optimizing the language.
 ???ITE??NA???BR?I?A???HTN??HT???O??H?N???ERL??SB???ND?I?H???MPF??AB???HE?X?D???TEN??WE???RL?I?U???NGE??HL???EN?N?U???NXZ???F???MI?I?D???STE???N???SX?A?L???GAR???E???XZ?F?SZ??ERL??
 ```
 
-**Edited output — conditional text restoration in that same frame: one observed substitution, one printed-dash fill and 69 missing-coordinate fills:**
+**Edited output — current conditional proposal in that same frame:**
 
 ```text
-ZWEITENSNACHXBRAILAXGEHTNICHTSXDORTHINUNTERWEGSBEFINDLICHEDAMPFERABDREHENXXDRITTENSXWEITERLEITUNGINGESCHLOSSENENZUEGENXZIELFUERMI?I?D???STE???N???SX?A?L???GAR???E???XZ?F?SZ??ERL??
+ZWEITENSNACHXBRAILAXGEHTNICHTSXDORTHINUNTERWEGSBEFINDLICHEDAMPFERABDREHENXXDRITTENSXWEITERLEITUNGINGESCHLOSSENENZUEGENXZIELFUERMILI?DIENSTELLENXERSXBATLX2XGARDEREGTSXZXF?SZ?BERLIN
 ```
+
+All prices are cumulative. A fixed position can be an editorially supplied
+letter, separator or numeral under the indicated layer.
+
+| Layer | Fixed positions | Observed substitutions | Printed-dash fills | Lost-coordinate fills |
+|---|---:|---:|---:|---:|
+| Raw source-declared frame | 81/179 | 0 | 0 | 0 |
+| Original prefix | 151/179 | 1 | 1 | 69 |
+| Guard designation and Berlin | 166/179 | 1 | 1 | 85 |
+| Current destination proposal | **176/179** | **1** | **1** | **95** |
+
+The inherited observed substitution is **source 243 A→G**, giving the W
+in `UNTERWEGS`. The printed dash at **source 242** is filled with A.
+The subsequent layers add no observed substitutions or printed-mask fills.
+All machine indices are zero-based.
 
 </details>
 
-**Readable German — the restored prefix; the bracketed note marks the unresolved continuation:**
-
-> Zweitens. Nach Braila geht nichts. Dorthin unterwegs befindliche
-> Dampfer abdrehen. Drittens. Weiterleitung in geschlossenen Zügen.
-> Ziel für [Fortsetzung nicht gesichert].
-
-The first **127 plaintext positions** are the editorial restoration.
-Every supplied letter fits its raw missing-coordinate domain except
-the L→W repair in `UNTERWEGS`. The exact observed operation is
-**source 243 A→G**; the actual printed dash at **source 242** is filled
-with A. Another **69 fills** apply only to the source-declared missing
-100 coordinates. This distinction is retained throughout the certificate.
-
-The source frame fixes **81 / 179 positions** before editing; the
-candidate fixes **151 / 179**. Its remaining **28 unknown positions**
-are retained together with the surviving letters of the tail. The apparent
-military, garrison and `BERL??` fragments are not filled from the next
-part's clearer wording. The candidate is a constrained editorial reading,
-not an independently witnessed complete plaintext.
-
-A [later guard-battalion extension](../../experiments/p89_guard_battalion_extension/README.md)
-proposes `ERSXBATLX2XGARDEREGT`, supported by an independently observed word
-span in p104 D. It matches all **27 observed recipient halves**, adds twelve
-positions at thirteen lost-coordinate fills, and changes no observation.
-A separately scoped `BERLIN` completion adds three more half-supported
-positions. The combined conditional layer reaches **166/179**, with the same
-one observed substitution and one printed-dash fill as above, plus **85**
-conditional lost-coordinate fills in total. Thirteen plaintext positions and
-fifteen coordinate masks remain unresolved. The T in `BATL` is wholly absent;
-the numeral 2 is half-supported. The preceding word boundary and the other
-unclear tail fields remain open. The exact new layer, all five donor frames,
-source checks and retrieval controls are retained in that extension; the
-original prefix edition and its prices below remain a separate baseline.
+The remaining plaintext positions are **131**, **169** and **172**. The
+first two have both coordinates missing. Position 172, immediately before
+`BERLIN`, has the pair `X?` and admits only **1, 3, 4, 6, A or Y** under
+the published key. Reading it as a separator X would require another
+observed-coordinate substitution. The five remaining coordinate masks
+permit exactly **6^5 = 7,776** complete strings under this candidate model;
+this count does not select the historical wording.
 
 ## p89 A4
 
@@ -214,32 +235,28 @@ SENDEN SIE DIESE VON 1830 BIS 20,25 H v OSM v LP UM
 
 ## Conditional interpretation and unresolved space
 
-The four new editions comprise **1,314 visible source slots**, **1,313
-valid observed coordinates** and **707 modeled plaintext positions**.
-The original baseline candidates use **eight observed substitutions**, **one
-printed-dash fill** and **69 fills of explicitly lost coordinates**.
-The existing Ayush part2 remains outside those totals.
+The four newly edited records comprise **1,314 visible source slots**,
+**1,313 valid observed coordinates** and **707 modeled plaintext positions**.
+Including the current A3 continuation, their proposed readings use **eight
+observed substitutions**, **one printed-dash fill** and **95 fills of
+explicitly lost coordinates**. The earlier Ayush part 2 remains outside
+these totals. A3 is the only part of this new group with a source-declared
+large loss; three of its plaintext positions remain unresolved in the
+current conditional reading.
 
-In the original A3 baseline, **31 missing coordinates** remain unfilled. They occupy 25
-plaintext positions with one erased coordinate and three positions with
-two. The complete square and transposition therefore permit exactly
-**6^31 = 1,326,443,518,324,400,147,398,656** different complete plaintexts
-under the stated candidate constraints. This is a mathematical count,
-not a full enumeration or a selection of historical digits. The verifier
-retains one arbitrary baseline and 155 single-coordinate alternatives,
-all with exact full round trips.
+The complete order distinguishes the route of evacuation, onward movement
+by whole trains, and destinations for different groups. Its next part
+specifies Berlin for civilians and requires an enquiry about destinations
+for formed troop units. Those source-numbered adjacent clauses give the
+A3 continuation a useful context without supplying its missing characters.
+The order records intended movements; it does not establish that the
+steamers turned back or that the personnel reached the stated destinations.
 
-A bounded literal-copy query against all 788 corpus blocks finds only
-the two OCR pieces of A3 itself. It does not independently supply the
-missing text and does not exclude a re-encrypted or OCR-obscured copy.
-The source-declared frame is firm; the lost-coordinate values remain an
-explicit editorial layer.
-
-The published key, earlier repository candidates, and Ayush Agarwal's
-part2 credit remain separate from this source edition. No historical
-first-solution claim is made. The
-[inputs](../../experiments/black_sea_evacuation_routes/inputs.json),
-[certificates](../../experiments/black_sea_evacuation_routes/certificates.json),
-[unchanged part2 snapshot](../../experiments/black_sea_evacuation_routes/existing_part2.json)
+The [original source inputs](../../experiments/black_sea_evacuation_routes/inputs.json),
+[baseline certificates](../../experiments/black_sea_evacuation_routes/certificates.json),
+[credited part 2 snapshot](../../experiments/black_sea_evacuation_routes/existing_part2.json)
 and [reproduction instructions](../../experiments/black_sea_evacuation_routes/README.md)
-retain the exact source, loss placement and every editorial operation.
+retain the source, loss placement and earlier editorial operations.
+The [current A3 package](../../experiments/p89_destination_continuation/README.md)
+adds the exact continuation, independent word witnesses, historical source
+and bounded retrieval checks.
