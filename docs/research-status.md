@@ -67,6 +67,8 @@ controls and exact algorithms. The current edition removes duplicated
 machine displays and obsolete layout snapshots; it keeps the evidence needed
 to reproduce these claims and the earlier contributions on which they rest.
 
+<a id="open-work"></a>
+
 ## Unresolved sources
 
 **Seven sources have no accepted body reading.** They are visible in the
