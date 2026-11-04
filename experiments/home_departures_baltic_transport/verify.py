@@ -71,7 +71,41 @@ def build(pdf=None):
             assert encrypt(text,key['column_rank_order'],key['square'])==s
             variants.append({'name':v['name'],'literal_source':s,'plaintext':text,'source_differences':[{'source_index':i,'first_printed':a,'second_printed':b}for i,(a,b)in enumerate(zip(literal,s))if a!=b], 'plaintext_differences':[{'plaintext_index':i,'first_printed_variant':a,'second_printed_variant':b}for i,(a,b)in enumerate(zip(raw['raw'],text))if a!=b],'roundtrip_verified':True,'source_correction_claim':False})
         out.append({'id':r['id'],'literal_source':literal,'source_slots':len(literal),'valid_source_coordinates':sum(c in C for c in literal),'model_to_source_indices':mapping,**raw,'readable_candidate':candidate,'readable_german':r['readable_german'],'readable_nonseparator_label_mapping_verified':True,'source_variants':variants})
-    summary={'physical_records':len(out),'printed_source_slots':sum(r['source_slots']for r in out),'valid_source_coordinates':sum(r['valid_source_coordinates']for r in out),'modeled_coordinates':sum(r['source_slots']for r in out),'plaintext_positions':sum(len(r['raw'])for r in out),'baseline_fixed_positions':sum(r['fixed_positions']for r in out),'candidate_fixed_positions':sum(r['readable_candidate']['fixed_positions']for r in out),'known_coordinate_substitutions':sum(len(r['readable_candidate']['known_coordinate_substitutions'])for r in out),'source_or_model_erasure_fills':sum(len(r['readable_candidate']['erased_coordinate_fills'])for r in out),'source_deletions':0,'inserted_slots':0,'source_reorderings':0,'published_key_changed':False}
+        if r['id']=='p186_C1':
+            assert literal[110:115]=='?FAFF' and literal.count('?')==1
+            glyph=r['damaged_glyph']
+            assert glyph['source_index']==110 and glyph['literal_placeholder']=='?'
+            assert glyph['conditional_coordinate_interpretation']=='F'
+            assert glyph['independent_coordinate_witness_established'] is False
+            point=raw['positions'][61]
+            assert point['source_indices']==[64,110] and point['pair']=='X?'
+            assert point['domain']=='234789CEGIQTY' and point['raw']=='?'
+            assert raw['fixed_positions']==88 and candidate['fixed_positions']==89
+            assert candidate['erased_coordinate_fills']==[{
+                'model_index':110,'source_index':110,'printed':'?','from':'?','to':'F'}]
+            # The former F interpretation remains a sensitivity assumption,
+            # not an observed coordinate or an additional physical record.
+            assumed_literal=literal[:110]+'F'+literal[111:]
+            assumed_raw=inspect(assumed_literal,key,mapping)
+            assumed_candidate=repair(r['edited_output'],assumed_literal,key,mapping,assumed_literal)
+            assert assumed_raw['raw']==raw['raw'][:61]+'E'+raw['raw'][62:]
+            assert assumed_raw['fixed_positions']==89
+            assert not assumed_candidate['known_coordinate_substitutions']
+            assert not assumed_candidate['erased_coordinate_fills']
+            assert assumed_candidate['ciphertext']==candidate['ciphertext']
+            assert assumed_candidate['raw']==candidate['raw']==r['edited_output']
+            out[-1]['damaged_glyph']=glyph
+            out[-1]['conditional_F_sensitivity']={
+                'status':'Assumption only; excluded from observed-source and repair totals.',
+                'source_index':110,'assumed_coordinate':'F','plaintext_index':61,
+                'source_indices':[64,110],'raw_pair':'XF','raw_symbol':'E',
+                'raw':assumed_raw['raw'],'fixed_raw_positions':assumed_raw['fixed_positions'],
+                'valid_source_coordinates':len(assumed_literal),
+                'known_coordinate_substitutions':0,'source_mask_fills':0,
+                'edited_ciphertext_unchanged':True,'independent_coordinate_witness':False}
+    assert [r['fixed_positions'] for r in out]==[120,88]
+    assert [r['readable_candidate']['fixed_positions'] for r in out]==[120,89]
+    summary={'physical_records':len(out),'printed_source_slots':sum(r['source_slots']for r in out),'valid_source_coordinates':sum(r['valid_source_coordinates']for r in out),'modeled_coordinates':sum(r['source_slots']for r in out),'plaintext_positions':sum(len(r['raw'])for r in out),'baseline_fixed_positions':sum(r['fixed_positions']for r in out),'candidate_fixed_positions':sum(r['readable_candidate']['fixed_positions']for r in out),'known_coordinate_substitutions':sum(len(r['readable_candidate']['known_coordinate_substitutions'])for r in out),'source_or_model_erasure_fills':sum(len(r['readable_candidate']['erased_coordinate_fills'])for r in out),'damaged_glyph_source_masks':sum(r['literal_source'].count('?')for r in out),'source_deletions':0,'inserted_slots':0,'source_reorderings':0,'published_key_changed':False}
     return {'schema':'adfgvx-native-source-edition-certificate-v1','project':data['project'],'authors':data['authors'],'input_sha256':sha(HERE/'inputs.json'),'indexing':'All machine indices are zero-based.','summary':summary,'records':out,'prior_credit':data['prior_credit'],'limits':data['limits']}
 
 def main():

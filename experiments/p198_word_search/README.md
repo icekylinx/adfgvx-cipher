@@ -179,8 +179,12 @@ every physical donor column exactly once in any order, with exactly five
 transmitted-coordinate losses and at most two separately priced observed
 coordinate substitutions. No published rank order is supplied to the matcher.
 
-The frozen reviewed-edition donor snapshot contains 293 distinct strings and 8,678
-unique windows. Eleven complete catalogue squares and the partial Nov13b
+The frozen reviewed-edition donor snapshot contains 291 distinct fully specified
+strings and 8,515 unique windows. Bodies with unresolved labels are excluded in
+their entirety. Source review introduced one unknown label into each of the
+former p107 C and p77 A raw donors; those two entries are excluded, with their
+origins and reasons retained in the manifest. All remaining donor IDs are
+unchanged. Eleven complete catalogue squares and the partial Nov13b
 anchors are comparisons; their inclusion does not establish historical key
 applicability. Every assignment of a used missing label is globally injective.
 Assignments of labels absent from the donor cannot affect its ciphertext and

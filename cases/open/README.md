@@ -16,4 +16,4 @@ Seven physical sources without an accepted body reading. Each case preserves the
 | [p194 D1](p194_D1.md) | OPEN | Short first-part fragment from WAU |
 | [p198](../p198.md) | OPEN | CHI intercept with a five-coordinate shortfall |
 
-[Current research](../../docs/research-status.md#open-work) · [Source inventory](../../docs/whole-material-coverage.md)
+[Current research](../../docs/research-status.md#unresolved-sources) · [Source inventory](../../docs/whole-material-coverage.md)

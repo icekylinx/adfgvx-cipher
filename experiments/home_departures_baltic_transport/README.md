@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-Two native source bodies need no coordinate repairs: one describes soldiers wishing to travel home without authorization; the other links transport difficulty to uncertainty in the Baltic Sea and begins an incomplete statement about Graf Goltz. The shared unknown GA cell remains globally coupled across their separate references. Missing context and abbreviated source spellings stay explicit.
+Two native source bodies describe soldiers wishing to travel home without authorization and transport difficulty linked to uncertainty in the Baltic Sea. The second begins an incomplete statement about Graf Goltz. One damaged source glyph in that body is retained as unknown; its unchanged edited reading requires one explicit source-mask fill. The shared unknown GA cell remains globally coupled across their separate references. Missing context and abbreviated source spellings stay explicit.
 
 Read the [complete source edition](../../cases/military/home_departures_baltic_transport.md).
 
@@ -12,14 +12,17 @@ Read the [complete source edition](../../cases/military/home_departures_baltic_t
 |---|---:|
 | Physical source records | 2 |
 | Printed source slots | 424 |
+| Unambiguous printed coordinates | 423 |
 | Modeled plaintext positions | 212 |
-| Fixed raw labels | 209 |
+| Fixed raw labels | 208 |
 | Fixed edited labels | 209 |
 | Observed-coordinate substitutions | 0 |
-| Source-mask fills | 0 |
+| Source-mask fills | 1 |
 | Insertions, deletions or reordering | 0 |
 
 These counts describe the exact stated key and native frame; they do not count historical numeral identifications. Printed source variants are alternatives within one physical record, not extra records. The complete source text, masks, row boundaries, headers and unchanged keys are in [inputs.json](inputs.json); every coordinate and plaintext position is replayed in [certificates.json](certificates.json).
+
+The [damaged glyph at p186 C1 source index 110](sources/p186_C1_damaged_glyph.png) has an attached lower-right diagonal and cannot safely be transcribed as an observed F. The main source uses `?FAFF`, yielding 88 fixed raw positions out of 91. Filling that slot with F supplies the E in `GEN` at plaintext index 61 and retains the previous edited reading. An explicit F sensitivity branch reproduces the former 89-position, zero-fill result as an assumption excluded from observed-source totals. This correction records uncertainty; it is not a repair-cost reduction or a new plaintext recovery.
 
 ## Reproduce
 

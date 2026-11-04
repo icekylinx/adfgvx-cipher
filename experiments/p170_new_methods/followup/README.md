@@ -25,8 +25,8 @@ assignment; no unknown key cell is assigned independently by position.
 
 | Donors | Square hypotheses | Widths | Error budget | Projects |
 |---|---:|---:|---:|---:|
-| 293 complete source-derived strings | 11 | 12–24 | 0, then 1, then 2 observed substitutions | 41,899 per budget |
-| 104 native partial source-domain families | 11 | 12–24 | 0, with the 90/106 support threshold | 14,872 |
+| 291 complete source-derived strings | 11 | 12–24 | 0, then 1, then 2 observed substitutions | 41,613 per budget |
+| 106 native partial source-domain families | 11 | 12–24 | 0, with the 90/106 support threshold | 15,158 |
 
 The square hypotheses are nine complete recorded period squares and both
 consistent global 5/6 assignments of the November 7–9 square. Complete donor
@@ -35,6 +35,35 @@ independently authenticated historical wording. A hit would require source
 review before acceptance. The partial branch omits partial source squares,
 modified frames, insufficient native fixed positions and unsupported source
 tokenizations. Its original half-coordinate evidence is retained exactly.
+
+### Damaged-glyph dependency refresh
+
+The p107 C source 45 and p77 A source 67 reviews changed one previously
+definite coordinate in each donor to `?`. Their raw plaintexts therefore
+cease to be complete: p107 C has 173/174 fixed labels, and p77 A has
+156/157. The former complete-donor IDs **146** and **284** are removed
+from that pool and represented as native partial-domain IDs **104** and
+**105**, respectively. The ambiguous labels remain coupled to their
+observed coordinate halves; neither old label is silently restored.
+
+All other complete donors keep their original IDs, text and source origins,
+and the earlier 104 partial families are unchanged. The original extraction
+snapshot is adjusted only for these two newly partial records. Target
+observations, square hypotheses, width bounds, error budgets, the 90/106
+support threshold, search engines and controls are unchanged. The previous
+scope and statistics are retained in `source_glyph_refresh` as history.
+
+Full replay of the refreshed pools gives:
+
+| Branch | Projects | Histogram passes | DFS nodes | Hits |
+|---|---:|---:|---:|---:|
+| Complete, budget 0 | 41,613 | 13,572 | 47,373 | 0 |
+| Complete, budget 1 | 41,613 | 14,911 | 369,625 | 0 |
+| Complete, budget 2 | 41,613 | 16,224 | 753,929 | 0 |
+| Partial, support at least 90/106 | 15,158 | 7,124 | 30,748 | 0 |
+
+The changed counts follow from moving two raw records between donor
+families. They do not add observed evidence or produce a p170 reading.
 
 These are finite donor-family checks, not an exclusion of other plaintexts,
 keys, widths, damage or missing-length models. The original 106 count is

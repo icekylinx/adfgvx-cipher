@@ -30,7 +30,7 @@ The [five-part routing order on pp88–89](../../cases/military/black_sea_evacua
 
 These instructions distinguish between troops and civilians and coordinate several successive stages of travel. Port selection alone was insufficient: the receiving stations also needed numbers and notice, while inland offices had to arrange accommodation and onward movement.
 
-The armistice of Mudros, signed on 30 October, changed the conditions under which this system operated. It opened the Straits and Black Sea access to the Allies, granted access to ports and control over wireless and cable stations, and required Germans and Austrians to leave Ottoman territory. [Mudros, clauses I, VIII, XII and XIX](https://germanhistorydocs.org/en/weimar-germany-1918-1933/ghdi%3Adocument-4012).
+The armistice of Mudros was signed on 30 October; clause XXV set the cessation of hostilities for noon local time on 31 October. It provided for opening the Straits and access to the Black Sea, and for Allied ships to use ports and anchorages under Turkish occupation. Clause XII placed wireless telegraphy and cable stations under Allied control, while excepting Turkish Government messages. Clause XIX required Germans and Austrians, including civilians, to leave Ottoman territory within one month, with those in remote districts to follow as soon afterward as possible. These provisions frame the shipping messages; the particular routing decisions remain the evidence of the telegrams themselves. [Contemporary diplomatic transmission of Mudros, clauses I, VIII, XII, XIX and XXV](https://history.state.gov/historicaldocuments/frus1918Supp01v01/d368).
 
 ## Asgard comes back for the troops
 

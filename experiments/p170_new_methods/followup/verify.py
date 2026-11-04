@@ -107,7 +107,9 @@ def build(pdf=None, replay=False):
             assert key['registered_key_id'] == 'Nov7-9'
             assert set(differences) == {'26', '30'} and set(differences.values()) == set('56')
     full, partial = data['complete_donors'], data['partial_donors']
-    assert len(full) == 293 and len(partial) == 104
+    assert len(full) == 291 and len(partial) == 106
+    assert {d['id'] for d in full} == set(range(293)) - {146, 284}
+    assert [d['id'] for d in partial] == list(range(106))
     assert len({r['text'] for r in full}) == len(full)
     for donor in full:
         text = donor['text']
@@ -139,16 +141,41 @@ def build(pdf=None, replay=False):
             assert counts['fixed_raw_labels_with_all_unobserved_coordinates_unassigned'] == donor['raw_fixed_positions']
             assert counts['excluded_source_slots'] == counts['added_model_slots'] == 0
         partial_domains.append(domains)
+    refresh = data['source_glyph_refresh']
+    assert refresh['previous_complete_donor_count'] == 293
+    assert refresh['previous_partial_donor_count'] == 104
+    expected_migrations = [(146, 104, 'p107_C', 45, 85, '9'),
+                           (284, 105, 'p77_A', 67, 147, 'X')]
+    assert len(refresh['migrations']) == len(expected_migrations)
+    for change, expected in zip(refresh['migrations'], expected_migrations):
+        old_id, new_id, rid, source_index, plaintext_index, old_label = expected
+        assert (change['former_complete_donor_id'], change['new_partial_donor_id'],
+                change['record_id'], change['source_index'], change['plaintext_index'],
+                change['previous_raw_label']) == expected
+        assert change['current_raw_label'] == '?'
+        donor = partial[new_id]
+        assert len(donor['origins']) == 1 and donor['origins'][0]['record_id'] == rid
+        source_record = record(read(donor['origins'][0]['inputs']), rid)
+        previous = source_record['ambiguous_glyph']['previous_definite_raw']
+        current = source_record['expected_raw']
+        assert hashlib.sha256(previous.encode()).hexdigest() == change['previous_complete_text_sha256']
+        assert [(i, a, b) for i, (a, b) in enumerate(zip(previous, current)) if a != b] == [
+            (plaintext_index, old_label, '?')]
+        assert donor['source_literal'][source_index] == '?'
+        assert ''.join(d if len(d) == 1 else '?' for d in partial_domains[new_id]) == current
+    extraction = data['partial_extraction_scope']
+    assert extraction['partial_donor_domain_families'] == len(partial)
+    assert extraction['source_origins'] == sum(len(d['origins']) for d in partial)
     bounds = data['bounds']
     assert bounds == {'minimum_width': 12, 'maximum_width': 24,
                       'complete_donor_observed_error_budgets': [0, 1, 2],
                       'partial_donor_minimum_direct_coordinate_support': 90,
                       'partial_donor_error_budget': 0}
     for budget, result in data['search_summaries']['complete_donors'].items():
-        assert result['projects'] == 293 * 11 * 13 == 41899
+        assert result['projects'] == 291 * 11 * 13 == 41613
         assert result['hits'] == 0 and 0 <= result['histogram_pass'] <= result['projects']
     result = data['search_summaries']['partial_donors']
-    assert result['projects'] == 104 * 11 * 13 == 14872 and result['hits'] == 0
+    assert result['projects'] == 106 * 11 * 13 == 15158 and result['hits'] == 0
     text = controls['synthetic_full_plaintext']
     observed = controls['synthetic_target_observations']
     square = controls['synthetic_target_square']
@@ -221,10 +248,10 @@ def build(pdf=None, replay=False):
                    'controls_sha256': sha(HERE / 'controls.json'),
                    'code_sha256': {p: sha(HERE / p) for p in
                                    ['column_donor_match.cpp', 'column_domain_match.cpp', 'extract.py', 'verify.py']},
-                   'summary': {'p170_observed_coordinates': 106, 'complete_donor_strings': 293,
-                               'partial_source_domain_families': 104, 'target_square_hypotheses': 11,
-                               'widths_per_donor_square': 13, 'complete_projects_per_budget': 41899,
-                               'complete_error_budgets': [0, 1, 2], 'partial_projects': 14872,
+                   'summary': {'p170_observed_coordinates': 106, 'complete_donor_strings': 291,
+                               'partial_source_domain_families': 106, 'target_square_hypotheses': 11,
+                               'widths_per_donor_square': 13, 'complete_projects_per_budget': 41613,
+                               'complete_error_budgets': [0, 1, 2], 'partial_projects': 15158,
                                'partial_minimum_direct_support': 90, 'historical_matches': 0,
                                'complete_tiny_bruteforce_comparisons': 36,
                                'partial_tiny_bruteforce_cases': 8,
@@ -232,6 +259,7 @@ def build(pdf=None, replay=False):
                                'false_independent_half_combination_rejected': True,
                                'accepted_p170_plaintexts': 0},
                    'search_summaries': data['search_summaries'],
+                   'source_glyph_refresh': refresh,
                    'limits': data['scope_limits']}
     return certificate, evidence, replay_report
 

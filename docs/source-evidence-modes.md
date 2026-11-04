@@ -4,6 +4,8 @@ Prepared by **icekylinx and GPT-6 Astra Pro**.
 
 The [40 published source crops](../sources/reviewed-crops.md) now accompany the earlier PDF-reference editions. Run `python data/reviews/verify_source_image_publication.py` to check every delivered file and RGB digest, or add `--pdf` to compare the original scan. The publication manifest binds these assets to the existing edition references.
 
+On 4 November 2026, a targeted source-image review checked 107 positions in 53 bodies, selected from 256 input records with both earlier OCR and `source_rows`. Three previously definite coordinates were masked as `?`; 104 retained their existing treatment, including one documented masked sensitivity branch. The [compact review](../data/reviews/source_glyph_review_20261104.json) records the baseline commit, source indices, labels, outcomes, image hashes, and reviewer provenance. OCR served only to locate candidates. This was not a blind audit of all 679 bodies, and every image derives from the same physical witness.
+
 `adfgvx.source_evidence.verify_source_evidence(pdf, source, crops, base)` checks
 source-image evidence and returns an explicit report of the checks it actually
 performed. It reads evidence only and does not create, download, or upload files.

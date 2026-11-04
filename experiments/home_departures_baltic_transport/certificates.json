@@ -2,18 +2,19 @@
   "schema": "adfgvx-native-source-edition-certificate-v1",
   "project": "ADFGVX Cipher",
   "authors": "icekylinx and GPT-6 Astra Pro",
-  "input_sha256": "5293f3972107f2d6a6b9ce3fe2d94e7058a0a0860c294d89b08b79171b3e32e3",
+  "input_sha256": "bb057496f8f2218498d4f92d759b32dc15c800e8f012a626b021ee3bcebd0c8f",
   "indexing": "All machine indices are zero-based.",
   "summary": {
     "physical_records": 2,
     "printed_source_slots": 424,
-    "valid_source_coordinates": 424,
+    "valid_source_coordinates": 423,
     "modeled_coordinates": 424,
     "plaintext_positions": 212,
-    "baseline_fixed_positions": 209,
+    "baseline_fixed_positions": 208,
     "candidate_fixed_positions": 209,
     "known_coordinate_substitutions": 0,
-    "source_or_model_erasure_fills": 0,
+    "source_or_model_erasure_fills": 1,
+    "damaged_glyph_source_masks": 1,
     "source_deletions": 0,
     "inserted_slots": 0,
     "source_reorderings": 0,
@@ -3686,9 +3687,9 @@
     },
     {
       "id": "p186_C1",
-      "literal_source": "GFGFVAXVGDGDDVXFDGGFVFAAVVFGGVXGFVVFVVVGFFAAXAGGXVXXXVVGXFVDXXGAXFFXAFGXFFFAADXGDXDAFXXXVXXFDDVFXXADXGXGVVFFXVFFAFFVGFAVFFGAAAXDXXFVVXGXAVGFAGFXADXGXAFDDGFVVVVDDVDGGAAGXFGFAFXVXADXFF",
+      "literal_source": "GFGFVAXVGDGDDVXFDGGFVFAAVVFGGVXGFVVFVVVGFFAAXAGGXVXXXVVGXFVDXXGAXFFXAFGXFFFAADXGDXDAFXXXVXXFDDVFXXADXGXGVVFFXV?FAFFVGFAVFFGAAAXDXXFVVXGXAVGFAGFXADXGXAFDDGFVVVVDDVDGGAAGXFGFAFXVXADXFF",
       "source_slots": 182,
-      "valid_source_coordinates": 182,
+      "valid_source_coordinates": 181,
       "model_to_source_indices": [
         0,
         1,
@@ -3873,8 +3874,8 @@
         180,
         181
       ],
-      "raw": "ZUDRTRM1A?5?XABTRSPRTXZXZTWEGENUNKLARERLAGEINOSTSEEUNMOGLCHXGENGRAFGOLTZHATJEDOCHVORBEREITG",
-      "fixed_positions": 89,
+      "raw": "ZUDRTRM1A?5?XABTRSPRTXZXZTWEGENUNKLARERLAGEINOSTSEEUNMOGLCHXG?NGRAFGOLTZHATJEDOCHVORBEREITG",
+      "fixed_positions": 88,
       "positions": [
         {
           "plaintext_index": 0,
@@ -4732,7 +4733,7 @@
         },
         {
           "plaintext_index": 61,
-          "pair": "XF",
+          "pair": "X?",
           "model_indices": [
             64,
             110
@@ -4741,8 +4742,8 @@
             64,
             110
           ],
-          "domain": "E",
-          "raw": "E"
+          "domain": "234789CEGIQTY",
+          "raw": "?"
         },
         {
           "plaintext_index": 62,
@@ -5155,7 +5156,15 @@
         "template": "ZUDRTRM1A?5?XABTRSPRTXZXZTWEGENUNKLARERLAGEINOSTSEEUNMOGLCHXGENGRAFGOLTZHATJEDOCHVORBEREITG",
         "ciphertext": "GFGFVAXVGDGDDVXFDGGFVFAAVVFGGVXGFVVFVVVGFFAAXAGGXVXXXVVGXFVDXXGAXFFXAFGXFFFAADXGDXDAFXXXVXXFDDVFXXADXGXGVVFFXVFFAFFVGFAVFFGAAAXDXXFVVXGXAVGFAGFXADXGXAFDDGFVVVVDDVDGGAAGXFGFAFXVXADXFF",
         "known_coordinate_substitutions": [],
-        "erased_coordinate_fills": [],
+        "erased_coordinate_fills": [
+          {
+            "model_index": 110,
+            "source_index": 110,
+            "printed": "?",
+            "from": "?",
+            "to": "F"
+          }
+        ],
         "full_plaintext_reencryption_verified": false,
         "published_key_changed": false,
         "raw": "ZUDRTRM1A?5?XABTRSPRTXZXZTWEGENUNKLARERLAGEINOSTSEEUNMOGLCHXGENGRAFGOLTZHATJEDOCHVORBEREITG",
@@ -6446,13 +6455,45 @@
       },
       "readable_german": "Zu DRTRM1A?5?. ABTRSPRT z. Zt. wegen unklarer Lage in Ostsee UNMOGLCH. Gen. Graf Goltz hat jedoch VORBEREITG",
       "readable_nonseparator_label_mapping_verified": true,
-      "source_variants": []
+      "source_variants": [],
+      "damaged_glyph": {
+        "source_index": 110,
+        "literal_placeholder": "?",
+        "source_group": "?FAFF",
+        "source_row_1based": 3,
+        "source_group_1based": 7,
+        "observed_shape": "F-like top and middle bars with an attached lower-right diagonal; F/R-like, not safely a single observed F.",
+        "conditional_coordinate_interpretation": "F",
+        "independent_coordinate_witness_established": false,
+        "review_basis": "Original embedded JPEG, PDF crop and independent visual reviews; current transcription label was visible.",
+        "source_image": "sources/p186_C1_damaged_glyph.png"
+      },
+      "conditional_F_sensitivity": {
+        "status": "Assumption only; excluded from observed-source and repair totals.",
+        "source_index": 110,
+        "assumed_coordinate": "F",
+        "plaintext_index": 61,
+        "source_indices": [
+          64,
+          110
+        ],
+        "raw_pair": "XF",
+        "raw_symbol": "E",
+        "raw": "ZUDRTRM1A?5?XABTRSPRTXZXZTWEGENUNKLARERLAGEINOSTSEEUNMOGLCHXGENGRAFGOLTZHATJEDOCHVORBEREITG",
+        "fixed_raw_positions": 89,
+        "valid_source_coordinates": 182,
+        "known_coordinate_substitutions": 0,
+        "source_mask_fills": 0,
+        "edited_ciphertext_unchanged": true,
+        "independent_coordinate_witness": false
+      }
     }
   ],
   "prior_credit": "Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier unreviewed repository candidates are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro. No universal first-decipherment priority is asserted.",
   "limits": [
     "All source slots are preserved in their native order; no insertion, deletion or reordering.",
     "Unknown square cells remain globally coupled and injective. Witness completions are explicitly nonhistorical.",
-    "Source-mask fills and observed-coordinate substitutions are recorded separately; a source-compatible word proposal is not proof of unique historical wording."
+    "Source-mask fills and observed-coordinate substitutions are recorded separately; a source-compatible word proposal is not proof of unique historical wording.",
+    "The damaged source glyph at p186 C1 index 110 is unknown in the main source edition. Its F sensitivity branch is an assumption excluded from observed-source totals; the unchanged readable wording depends on that one fill."
   ]
 }

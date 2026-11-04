@@ -120,6 +120,22 @@
       ],
       "render_scale": 12,
       "sha256": "c4161ab2053421436d64a6ef0f39580aa4eb530c41aba8cc970e9bffa7b927ca"
+    },
+    {
+      "path": "sources/p107_C_source45.png",
+      "printed_page": 107,
+      "pdf_page_1based": 110,
+      "crop_pdf_points": [
+        188,
+        551,
+        227,
+        568
+      ],
+      "render_scale": 16,
+      "width": 624,
+      "height": 272,
+      "rgb_sha256": "124ec63763a522d7f6069ed6b1070f60720756724d1e3f130a30b613fd0dd95c",
+      "sha256": "9114bc6f9b05439c0a0154a79d5b705643c1398e685c6b4add2bd9c4c9b08222"
     }
   ],
   "records": [
@@ -159,7 +175,7 @@
       "source_section": "C",
       "source_rows": [
         "DVFDF XVXVG AVGGD AFXXD DVVGG FDGAG DGGDV DFGGD",
-        "VGDAG XXGFF VGDXX VGGVD VDFAG AFVXX FDDDV GAGGG",
+        "VGDAG ?XGFF VGDXX VGGVD VDFAG AFVXX FDDDV GAGGG",
         "DGAFV FVVXX FXGDG AADGG GAXXF GVVAD VADXG XGGXA",
         "VADAV XXFGD VDVGV VGAVG DADVD VDXVX VGVAX GVADD",
         "VAFAD AAGVG VGAXV VVGVF DGFFA DVXVA AAAAX DDDFD",
@@ -170,8 +186,31 @@
       ],
       "source_slots": 348,
       "advertised_length": 348,
-      "expected_raw": "GEHEIMRATENDERHEIDENBRAILAXXISTRUECKKEHRDRAGOMANSXSCHAEFERXDESSENURLAUBBALDABLAEUFTSO9ERNUEBERHAUPTAUSFUEHRBARJETZTERWUENSCHTUNDZWECKMAESSIGDRAHTBERIC1TXXAUSWAERTCGESXA2TX1XB",
-      "readable_candidate": "GEHEIMRATENDERHEIDENBRAILAXXISTRUECKKEHRDRAGOMANSXSCHAEFERXDESSENURLAUBBALDABLAEUFTSOFERNUEBERHAUPTAUSFUEHRBARJETZTERWUENSCHTUNDZWECKMAESSIGDRAHTBERICHTXXAUSWAERTIGESXAMTX1XB"
+      "expected_raw": "GEHEIMRATENDERHEIDENBRAILAXXISTRUECKKEHRDRAGOMANSXSCHAEFERXDESSENURLAUBBALDABLAEUFTSO?ERNUEBERHAUPTAUSFUEHRBARJETZTERWUENSCHTUNDZWECKMAESSIGDRAHTBERIC1TXXAUSWAERTCGESXA2TX1XB",
+      "readable_candidate": "GEHEIMRATENDERHEIDENBRAILAXXISTRUECKKEHRDRAGOMANSXSCHAEFERXDESSENURLAUBBALDABLAEUFTSOFERNUEBERHAUPTAUSFUEHRBARJETZTERWUENSCHTUNDZWECKMAESSIGDRAHTBERICHTXXAUSWAERTIGESXAMTX1XB",
+      "ambiguous_glyph": {
+        "source_index": 45,
+        "printed_row_1based": 2,
+        "group_in_row_1based": 2,
+        "character_in_group_1based": 1,
+        "literal_marker": "?",
+        "appearance": "Damaged or overstruck V/X-like glyph: V-like upper strokes and lower feet unlike a clean neighboring V or X. Neither X nor V is established as an unconditional source observation.",
+        "detail_crop": "sources/p107_C_source45.png",
+        "previous_definite_coordinate": "X",
+        "previous_definite_raw": "GEHEIMRATENDERHEIDENBRAILAXXISTRUECKKEHRDRAGOMANSXSCHAEFERXDESSENURLAUBBALDABLAEUFTSO9ERNUEBERHAUPTAUSFUEHRBARJETZTERWUENSCHTUNDZWECKMAESSIGDRAHTBERIC1TXXAUSWAERTCGESXA2TX1XB",
+        "explicit_hypothesis_coordinates": [
+          "X",
+          "V"
+        ],
+        "hypothesis_limit": "The X and V branches are assumptions about this same glyph, not independent observations or parallel copies. The primary source uses an unrestricted coordinate erasure.",
+        "earlier_OCR_reference": {
+          "path": "prior_candidates.json",
+          "block": "p107_ocr_block4",
+          "key": "Nov1-3",
+          "source_coordinate": "?",
+          "limit": "Earlier OCR already masked this slot. It is an earlier transcription of the same source, not independent corroboration."
+        }
+      }
     }
   ],
   "headers": {
@@ -199,6 +238,12 @@
       "source_index": 39,
       "transcription": "-",
       "explanation": "A printed dash occupies the fifth slot of DGFG-. It remains masked, with no fill."
+    },
+    {
+      "record": "p107_C",
+      "source_index": 45,
+      "transcription": "?",
+      "explanation": "The new high-scale source crop does not support the former unconditional X. Preserve a damaged/overstruck V/X-like glyph as one erasure; the unchanged main candidate supplies V. This reclassifies one of the former four substitutions as a fill, without reducing the four coordinate operations required by the main candidate."
     }
   ],
   "ocr_snapshot": {
@@ -213,7 +258,8 @@
   "limits": [
     "Only B1/B2 are joined by the explicit two-part header. C is a separate inquiry about a dragoman whose leave is ending.",
     "The native 164, 110, 348 source lengths all match. Restoring B1 final FDGD corrects the earlier OCR, not the historical source.",
-    "All 12 proposed known-coordinate substitutions are local. No erasure fill, source insertion/deletion or global key/numeral assignment is used.",
+    "The main readings use 11 observed-coordinate substitutions and one damaged-glyph fill. C source 45 is conservatively masked; its former X-to-V substitution becomes a V fill. The main candidate still requires four coordinate operations. No source insertion/deletion, rank change or global key/numeral reassignment is used.",
+    "The explicit C source 45 X and V branches are same-source glyph assumptions. Their fully assigned raw streams are not additional physical records or observations. Earlier OCR uncertainty at this slot is not a parallel witness.",
     "PFESS, G H1 Q, VERBETZ and the ?BA AEK11 closing are retained; no place, office or opaque reference is forced into a familiar spelling.",
     "C retains the exact address sequence GEHEIMRATENDERHEIDENBRAILA and the spelling SCHAEFER. No independent personal identity or surname normalization is claimed.",
     "The conditional wording SOFERN UEBERHAUPT AUSFUEHRBAR and the question about whether return is desired are retained. No completed return or train movement is asserted.",

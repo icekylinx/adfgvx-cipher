@@ -167,7 +167,7 @@ def render_topic(group, rows, catalogue):
         lines.extend([
             '## Seven open sources', '',
             table(all_open, destination), '',
-            '[Current research](../../docs/research-status.md#open-work) · '
+            '[Current research](../../docs/research-status.md#unresolved-sources) · '
             '[Source inventory](../../docs/whole-material-coverage.md)', '',
         ])
     else:

@@ -2,18 +2,18 @@
   "schema": "adfgvx-tiflis-repetition-request-certificate-v1",
   "project": "ADFGVX Cipher",
   "authors": "icekylinx and GPT-6 Astra Pro",
-  "input_sha256": "a0646b241b45e83fe635bd36155a2841d59cabb11d59ff55eb7493105d335c14",
+  "input_sha256": "71758fae4e63a4b67314751fbcaaaea687095215028b35fd69504fffe70fdc32",
   "indexing": "All indices are zero-based.",
   "summary": {
     "physical_records": 1,
     "printed_source_slots": 314,
-    "valid_source_coordinates": 314,
+    "valid_source_coordinates": 313,
     "modeled_coordinates": 314,
     "plaintext_positions": 157,
-    "baseline_fixed_positions": 157,
+    "baseline_fixed_positions": 156,
     "candidate_fixed_positions": 157,
     "known_coordinate_substitutions": 2,
-    "source_or_model_erasure_fills": 0,
+    "source_or_model_erasure_fills": 1,
     "unfilled_printed_erasure_coordinates": 0,
     "source_deletions": 0,
     "published_key_changed": false
@@ -21,10 +21,10 @@
   "records": [
     {
       "id": "p77_A",
-      "literal_source": "FVDFADAAGXAXXAAAGXDGDVXADGFXXXAXAAVDFAADAAXVXDFAXDXAXXAFDAAXXVADDDXXXFXAAAXVXADXXVADVVAVVAAVAAXXAVFAFGDAGAGVXXFGAVDDXXXAAXXXDAADXDFVVAAFXGVAXVDAAAAVAXXAXVXDVVFXXFGXDAGAGADAAAGGAGFXFFFVFXAXXXFDADAXFVAXXAAAAAFAAAFXDAXAXXVXFVXVADDAAFDDDFAXAXVDAAAAXDVVAADXGDXADXDXAADXDXXGGXGXDAXGAFXFADVAVADXXDXAFFADXAGAXDAFGFXVAAAFGF",
+      "literal_source": "FVDFADAAGXAXXAAAGXDGDVXADGFXXXAXAAVDFAADAAXVXDFAXDXAXXAFDAAXXVADDDX?XFXAAAXVXADXXVADVVAVVAAVAAXXAVFAFGDAGAGVXXFGAVDDXXXAAXXXDAADXDFVVAAFXGVAXVDAAAAVAXXAXVXDVVFXXFGXDAGAGADAAAGGAGFXFFFVFXAXXXFDADAXFVAXXAAAAAFAAAFXDAXAXXVXFVXVADDAAFDDDFAXAXVDAAAAXDVVAADXGDXADXDXAADXDXXGGXGXDAXGAFXFADVAVADXXDXAFFADXAGAXDAFGFXVAAAFGF",
       "literal_printed_rows": [
         "FVDFA DAAGX AXXAA AGXDG DVXAD GFXXX AXAAV DFAAD",
-        "AAXVX DFAXD XAXXA FDAAX XVADD DXXXF XAAAX VXADX",
+        "AAXVX DFAXD XAXXA FDAAX XVADD DX?XF XAAAX VXADX",
         "XVADV VAVVA AVAAX XAVFA FGDAG AGVXX FGAVD DXXXA",
         "AXXXD AADXD FVVAA FXGVA XVDAA AAVAX XAXVX DVVFX",
         "XFGXD AGAGA DAAAG GAGFX FFFVF XAXXX FDADA XFVAX",
@@ -32,9 +32,9 @@
         "AAAAX DVVAA DXGDX ADXDX AADXD XXGGX GXDAX GAFXF",
         "ADVAV ADXXD XAFFA DXAGA XDAFG FXVAA AFGF"
       ],
-      "ciphertext": "FVDFADAAGXAXXAAAGXDGDVXADGFXXXAXAAVDFAADAAXVXDFAXDXAXXAFDAAXXVADDDXXXFXAAAXVXADXXVADVVAVVAAVAAXXAVFAFGDAGAGVXXFGAVDDXXXAAXXXDAADXDFVVAAFXGVAXVDAAAAVAXXAXVXDVVFXXFGXDAGAGADAAAGGAGFXFFFVFXAXXXFDADAXFVAXXAAAAAFAAAFXDAXAXXVXFVXVADDAAFDDDFAXAXVDAAAAXDVVAADXGDXADXDXAADXDXXGGXGXDAXGAFXFADVAVADXXDXAFFADXAGAXDAFGFXVAAAFGF",
+      "ciphertext": "FVDFADAAGXAXXAAAGXDGDVXADGFXXXAXAAVDFAADAAXVXDFAXDXAXXAFDAAXXVADDDX?XFXAAAXVXADXXVADVVAVVAAVAAXXAVFAFGDAGAGVXXFGAVDDXXXAAXXXDAADXDFVVAAFXGVAXVDAAAAVAXXAXVXDVVFXXFGXDAGAGADAAAGGAGFXFFFVFXAXXXFDADAXFVAXXAAAAAFAAAFXDAXAXXVXFVXVADDAAFDDDFAXAXVDAAAAXDVVAADXGDXADXDXAADXDXXGGXGXDAXGAFXFADVAVADXXDXAFFADXAGAXDAFGFXVAAAFGF",
       "source_slots": 314,
-      "valid_coordinates": 314,
+      "valid_coordinates": 313,
       "model_to_source_indices": [
         0,
         1,
@@ -351,8 +351,8 @@
         312,
         313
       ],
-      "raw": "ZUERXBXDX5XMXKAUKASUSXTIFLISXXERBITT4NXWIEDERHOLUNGXCHIFFRIERTENXTELEGRAMMSXVOMXEINUNDZWANZIGSTENXZEHNTENXCHIXZ53X12X10XUNTERSCHRIFTXX1874XSTRICHXZXROTX692XX",
-      "fixed_positions": 157,
+      "raw": "ZUERXBXDX5XMXKAUKASUSXTIFLISXXERBITT4NXWIEDERHOLUNGXCHIFFRIERTENXTELEGRAMMSXVOMXEINUNDZWANZIGSTENXZEHNTENXCHIXZ53X12X10XUNTERSCHRIFTXX1874XSTRICHXZ?ROTX692XX",
+      "fixed_positions": 156,
       "positions": [
         {
           "plaintext_index": 0,
@@ -2414,7 +2414,7 @@
         },
         {
           "plaintext_index": 147,
-          "pair": "AX",
+          "pair": "A?",
           "model_indices": [
             242,
             67
@@ -2423,8 +2423,8 @@
             242,
             67
           ],
-          "domain": "X",
-          "raw": "X"
+          "domain": "02HISX",
+          "raw": "?"
         },
         {
           "plaintext_index": 148,
@@ -2572,7 +2572,15 @@
             "to": "G"
           }
         ],
-        "erased_coordinate_fills": [],
+        "erased_coordinate_fills": [
+          {
+            "model_index": 67,
+            "source_index": 67,
+            "printed": "?",
+            "from": "?",
+            "to": "X"
+          }
+        ],
         "full_plaintext_reencryption_verified": true,
         "published_key_changed": false,
         "raw": "FUERXBXDX5XMXKAUKASUSXTIFLISXXERBITTENXWIEDERHOLUNGXCHIFFRIERTENXTELEGRAMMSXVOMXEINUNDZWANZIGSTENXZEHNTENXCHIXZ53X12X10XUNTERSCHRIFTXX1874XSTRICHXZXROTX692XX",
@@ -4838,6 +4846,36 @@
             "domain": "E",
             "raw": "E"
           }
+        },
+        {
+          "before": {
+            "plaintext_index": 147,
+            "pair": "A?",
+            "model_indices": [
+              242,
+              67
+            ],
+            "source_indices": [
+              242,
+              67
+            ],
+            "domain": "02HISX",
+            "raw": "?"
+          },
+          "after": {
+            "plaintext_index": 147,
+            "pair": "AX",
+            "model_indices": [
+              242,
+              67
+            ],
+            "source_indices": [
+              242,
+              67
+            ],
+            "domain": "X",
+            "raw": "X"
+          }
         }
       ]
     }
@@ -4852,16 +4890,122 @@
       "source_index": 267,
       "transcription": "G",
       "explanation": "The third glyph in XXGGX was initially questioned as C at page scale. The detail crop shows the same inner stroke as the adjacent G, so both are transcribed G before publication. No invalid coordinate is inserted or filled."
+    },
+    {
+      "source_index": 67,
+      "transcription": "?",
+      "explanation": "The third glyph of the second row's sixth group is damaged or overstruck. Preserve DX?XF. The main candidate fills this existing slot with X, supplying the separator at plaintext index 147. The former definite X had not been edited, so this adds one fill to the two observed substitutions; it does not reclassify or reduce either substitution."
     }
   ],
+  "p77_A_damaged_glyph_review": {
+    "source_index": 67,
+    "literal_marker": "?",
+    "source_position": {
+      "row_1based": 2,
+      "group_in_row_1based": 6,
+      "character_in_group_1based": 3
+    },
+    "detail_crop": "sources/p77_A_source67.png",
+    "appearance": "Overstruck or damaged X/D-like glyph: recognizable crossing strokes plus an additional near-vertical or curved stroke on the right. The shape differs from the clear X glyphs on either side. Neither the original layer nor an unconditional X is established by the image.",
+    "conservative_plaintext_position": {
+      "plaintext_index": 147,
+      "pair": "A?",
+      "model_indices": [
+        242,
+        67
+      ],
+      "source_indices": [
+        242,
+        67
+      ],
+      "domain": "02HISX",
+      "raw": "?"
+    },
+    "primary_candidate_coordinate_operations": 3,
+    "primary_observed_substitutions": 2,
+    "primary_damaged_glyph_fills": 1,
+    "previous_definite_X_account_coordinate_operations": 2,
+    "additional_fill_not_reclassification": true,
+    "explicit_assumption_branch": {
+      "assumed_coordinate": "X",
+      "source_index": 67,
+      "source_observation_claim": false,
+      "independent_copy_claim": false,
+      "assumed_ciphertext_sha256": "8ecaf2c5ebc2ca1f3318fb3b6c2d2a466c2e3386aac7e94c36447c825419868f",
+      "raw_reading": {
+        "raw": "ZUERXBXDX5XMXKAUKASUSXTIFLISXXERBITT4NXWIEDERHOLUNGXCHIFFRIERTENXTELEGRAMMSXVOMXEINUNDZWANZIGSTENXZEHNTENXCHIXZ53X12X10XUNTERSCHRIFTXX1874XSTRICHXZXROTX692XX",
+        "fixed_positions": 157,
+        "position_147": {
+          "plaintext_index": 147,
+          "pair": "AX",
+          "model_indices": [
+            242,
+            67
+          ],
+          "source_indices": [
+            242,
+            67
+          ],
+          "domain": "X",
+          "raw": "X"
+        },
+        "all_other_raw_positions_match_conservative_primary": true
+      },
+      "raw_reencryption_verified": true,
+      "main_candidate_from_this_assumption": {
+        "plaintext_equals_primary_candidate": true,
+        "ciphertext_equals_primary_candidate": true,
+        "plaintext_sha256": "4226d3610aee86298f48d72a61c81f5dab13e4175b58e3de07252cc9bfd8477b",
+        "ciphertext_sha256": "daf6436ae83528aaace4bcdd79ce33e71ac8f6ee149e8cc9ba03fcc45c9d0115",
+        "observed_coordinate_substitutions": [
+          {
+            "model_index": 91,
+            "source_index": 91,
+            "printed": "V",
+            "from": "V",
+            "to": "F"
+          },
+          {
+            "model_index": 244,
+            "source_index": 244,
+            "printed": "X",
+            "from": "X",
+            "to": "G"
+          }
+        ],
+        "damaged_glyph_replacements_after_assumption": [],
+        "unassigned_glyph_fills_after_assumption": [],
+        "total_coordinate_changes_from_assumed_stream": 2,
+        "roundtrip_verified": true
+      },
+      "limit": "The earlier X was retained unchanged by the old candidate. Assuming it again restores the former two-substitution account only conditionally; the conservative primary account additionally requires the X fill."
+    },
+    "earlier_OCR": {
+      "path": "prior_candidates.json",
+      "block": "p77_ocr_block1",
+      "same_conservative_ciphertext_verified": true,
+      "same_raw_output_verified": true,
+      "independent_source_claim": false
+    },
+    "readable_mapping": {
+      "case": "cases/radio/tiflis_repetition_request.md",
+      "quote": "Für B. D. 5. M. Kaukasus, Tiflis. Erbitten Wiederholung chiffrierten Telegramms vom einundzwanzigsten Zehnten. CHI. Z53. 12. 10. Unterschrift: 1874 Strich Z. Rot. 692.",
+      "normalized_display": "FUERBD5MKAUKASUSTIFLISERBITTENWIEDERHOLUNGCHIFFRIERTENTELEGRAMMSVOMEINUNDZWANZIGSTENZEHNTENCHIZ531210UNTERSCHRIFT1874STRICHZROT692",
+      "complete_nonseparator_mapping_verified": true,
+      "separator_at_plaintext_147_is_conditional_fill": true
+    },
+    "limit": "The X branch preserves the previous transcription as an explicit same-source glyph assumption, not an independent observation or parallel copy. D describes the visual shape only and is not adopted as a coordinate reading. The primary source uses an unrestricted coordinate erasure."
+  },
   "prior_attribution_check": {
     "path": "prior_candidates.json",
     "sha256": "72e930ea843525dc64805111865d4227487566756330c160428779994ec2b2a3",
     "key_credit": "Unchanged published Oct28–31 key with original provenance."
   },
   "limits": [
-    "The native 314-coordinate frame matches all visible source slots. No insertion, deletion, erasure fill or key change is used.",
+    "The native 314-slot frame matches all visible source slots: 313 unambiguous coordinates and one damaged glyph. The unchanged main candidate uses two observed-coordinate substitutions and one damaged-glyph fill, with no source insertion/deletion, frame change or key change.",
     "The two local source substitutions repair ZUER and ERBITT4N only. They do not establish a global numeric-label assignment.",
+    "The source 67 fill supplies the X separator at plaintext index 147. Its conservative A? pair permits 02HISX. The main cost rises from two coordinate operations to three; the separator is a conditional fill, not a newly observed label.",
+    "The explicit source 67 X branch retains the former fully assigned stream only as a glyph assumption. Its two-substitution branch cost does not replace the primary two-substitution, one-fill account. Earlier OCR uncertainty is from the same source, not a parallel witness.",
     "The address B D 5 M and references CHI Z53 12 10 / 1874 STRICH Z ROT 692 remain literal; no organization, signature or numeric interpretation is forced.",
     "The body asks for a repeated encrypted telegram. The earlier telegram and its contents are not independently identified here.",
     "The neighboring p77 B has already been source-reviewed elsewhere and is not proposed or counted again.",

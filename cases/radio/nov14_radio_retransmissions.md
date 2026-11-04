@@ -203,6 +203,22 @@ been found. The certificate checks all eight common symbols: each one
 reencrypts the edited templates exactly under the corresponding conditional
 cell assignments. Accordingly neither published square is filled.
 
+<details>
+<summary>An archival lead for the unresolved pilot name</summary>
+
+The council's own *Mitteilungsblatt des Deutschen Soldatenrates Warschau*
+is a concrete source to inspect. The [official ZDB record](https://zdb-katalog.de/title.xhtml?idn=989924653)
+catalogues issues 1–5, dated 12–17 November 1918, with an explicit uncertainty
+marker. It locates holdings at the Bayerische Staatsbibliothek in Munich
+(**Rar. 1323**) and the Wuerttembergische Landesbibliothek in Stuttgart
+(**ZCa 82170**). The latter records issues 1, 2, 4 and 5. The
+[catalogue review](../../data/reviews/warsaw_pilot_bulletin_lead.json)
+preserves the exact date strings and identifiers. No bulletin text or page
+image has been inspected, so this locator supplies no evidence identifying
+`FR?E` and does not settle either unknown square cell.
+
+</details>
+
 ## Evidence and exact reproduction
 
 - [Source inputs, headers and published keys](../../experiments/nov14_retransmissions/inputs.json)

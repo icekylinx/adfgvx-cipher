@@ -4,18 +4,18 @@
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
-Two native source bodies need no coordinate repairs: one describes soldiers wishing to travel home without authorization; the other links transport difficulty to uncertainty in the Baltic Sea and begins an incomplete statement about Graf Goltz. The shared unknown GA cell remains globally coupled across their separate references. Missing context and abbreviated source spellings stay explicit.
+Two native source bodies describe soldiers wishing to travel home without authorization and transport difficulty linked to uncertainty in the Baltic Sea. The second begins an incomplete statement about Graf Goltz. One damaged source glyph in that body is retained as unknown; its unchanged edited reading requires one explicit source-mask fill. The shared unknown GA cell remains globally coupled across their separate references. Missing context and abbreviated source spellings stay explicit.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p186 excerpt](../../experiments/home_departures_baltic_transport/sources/p186_reviewed.png) · [Exact inputs](../../experiments/home_departures_baltic_transport/inputs.json) · [Position-by-position certificates](../../experiments/home_departures_baltic_transport/certificates.json)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p186 excerpt](../../experiments/home_departures_baltic_transport/sources/p186_reviewed.png) · [Damaged C1 glyph](../../experiments/home_departures_baltic_transport/sources/p186_C1_damaged_glyph.png) · [Exact inputs](../../experiments/home_departures_baltic_transport/inputs.json) · [Position-by-position certificates](../../experiments/home_departures_baltic_transport/certificates.json)
 
 The unchanged published keys are `Nov13-15b`. The [earlier unreviewed candidates](../../experiments/home_departures_baltic_transport/prior_candidates.json) and [original OCR records](../../experiments/home_departures_baltic_transport/ocr_snapshot.json) are preserved. The present work supplies an image-reviewed source edition and a reproducible repair account; it does not claim that every body is a first public decipherment.
 
 | Record | Source slots | Fixed raw positions | Coordinate substitutions | Source-mask fills |
 |---|---:|---:|---:|---:|
 | [p186 B2](#p186-b2) | 242 | 120 / 121 | 0 | 0 |
-| [p186 C1](#p186-c1) | 182 | 89 / 91 | 0 | 0 |
+| [p186 C1](#p186-c1) | 182 | 88 / 91 | 0 | 1 |
 
 ## p186 B2
 
@@ -49,16 +49,22 @@ DIESCHWIERIGKEITENXDASSMANNSCHAFTENEIGENMAECHTIGNACHHAUSEFAHRENWOLLENXSINDUEBERA
 
 **Source transcription — header:** `C) KOW v LP (06.26 a.m., November 13th); 17.40 (13/11) 2 TLE; 1 TL RICHI-182; (Continued)`
 
-**Readable German** — based on the unchanged raw output.
+**Readable German** — based on the edited output with one disclosed source-mask fill.
 
 > Zu DRTRM1A?5?. ABTRSPRT z. Zt. wegen unklarer Lage in Ostsee UNMOGLCH. Gen. Graf Goltz hat jedoch VORBEREITG
 
 **Meaning:** This first part concerns transport that is currently described as impossible because the situation in the Baltic Sea is unclear. It then begins a statement about preparations associated with the literal name and title GEN GRAF GOLTZ. The statement is incomplete in this source body, so no completed plan or action is supplied.
 
 <details>
-<summary>Raw decoded text</summary>
+<summary>Raw and edited decoded text</summary>
 
 **Raw output** — every native source slot in printed order, under the stated published key.
+
+```text
+ZUDRTRM1A?5?XABTRSPRTXZXZTWEGENUNKLARERLAGEINOSTSEEUNMOGLCHXG?NGRAFGOLTZHATJEDOCHVORBEREITG
+```
+
+**Edited output** — the E in `GEN` depends on the disclosed F interpretation of the damaged source glyph.
 
 ```text
 ZUDRTRM1A?5?XABTRSPRTXZXZTWEGENUNKLARERLAGEINOSTSEEUNMOGLCHXGENGRAFGOLTZHATJEDOCHVORBEREITG
@@ -68,7 +74,9 @@ ZUDRTRM1A?5?XABTRSPRTXZXZTWEGENUNKLARERLAGEINOSTSEEUNMOGLCHXGENGRAFGOLTZHATJEDOC
 
 **Unresolved details and editorial limits.**
 
-- All 182 coordinates are preserved; no source substitution or mask fill is needed. The scan labels two parts and prints “Continued,” but only this first body is included here. No missing continuation is reconstructed from context.
+- All 182 source slots are preserved. In the third cipher row, the first glyph of the seventh group has an F/R-like outline with an attached lower-right diagonal. The [original-PDF crop](../../experiments/home_departures_baltic_transport/sources/p186_C1_damaged_glyph.png) supports masking it as `?FAFF`, without assigning the competing literal letter R. At zero-based source index 110 it combines with source index 64 to give pair `X?` and plaintext position 61, whose domain is `234789CEGIQTY`.
+- The edited E in `GEN` fills source index 110 with F. The main reading therefore has 88 fixed raw positions and 89 fixed edited positions out of 91, with no observed-coordinate substitutions and one source-mask fill. The certificate retains the former F interpretation as an explicit sensitivity assumption: 89 raw positions and no fill. It is excluded from observed-source totals; the change records uncertainty, not a repair-cost reduction or a new recovery.
+- The scan labels two parts and prints “Continued,” but only this first body is included here. No missing continuation is reconstructed from context.
 - DRTRM1A?5?, ABTRSPRT, UNMOGLCH and VORBEREITG are retained literally. The English meaning interprets the abbreviated transport statement; no missing I, vowel or grammatical ending is added to the decoded stream.
 - The two question marks in the opening reference come from different unresolved square cells; their labels remain globally injective rather than being independently guessed.
 - The literal name GRAF GOLTZ is not used to add a first name or identify a historical biography.

@@ -18,11 +18,58 @@
   "coordinate_deletions": 5,
   "maximum_observed_substitutions": 2,
   "fixed_plaintext_window_length": 85,
-  "source_donor_bodies": 293,
+  "source_donor_bodies": 291,
   "donor_snapshot": {
     "path": "column_reuse_donors.json",
-    "sha256": "875e3310e042b2d305f130de09532718a76e4f48a044c81a3e55cef0038eef02",
-    "origin_note": "Curated reviewed-edition input bodies, including separately conditional editorial fields; origins are recorded per body. No diagnostic/control plaintext is added to this snapshot."
+    "sha256": "1f0fe5632e814fd8f936e8ac213f97ef8920dcc3d9f1f8e75128ce8d070abdac",
+    "origin_note": "Curated reviewed-edition input bodies, including separately conditional editorial fields; origins are recorded per body. No diagnostic/control plaintext is added to this snapshot.",
+    "eligibility": "Whole donor strings must contain only A-Z and 0-9. A body with any unresolved label is excluded; remaining donor IDs are preserved.",
+    "source_review_exclusions": [
+      {
+        "former_donor_id": 146,
+        "origins": [
+          [
+            "experiments/p107_railway_and_dragoman/inputs.json",
+            [
+              "records",
+              2,
+              "expected_raw"
+            ]
+          ]
+        ],
+        "reason": "Source review introduces an unresolved raw label; the whole body is ineligible for this fully specified donor-string snapshot.",
+        "changed_labels": [
+          {
+            "plaintext_index": 85,
+            "old_label": "9",
+            "current_label": "?"
+          }
+        ],
+        "current_raw_sha256": "efb5abe82d08bdc54f72be5be59793c357ecf35463660345161ddc58c28ad9d3"
+      },
+      {
+        "former_donor_id": 284,
+        "origins": [
+          [
+            "experiments/tiflis_repetition_request/inputs.json",
+            [
+              "records",
+              0,
+              "expected_raw"
+            ]
+          ]
+        ],
+        "reason": "Source review introduces an unresolved raw label; the whole body is ineligible for this fully specified donor-string snapshot.",
+        "changed_labels": [
+          {
+            "plaintext_index": 147,
+            "old_label": "X",
+            "current_label": "?"
+          }
+        ],
+        "current_raw_sha256": "6ffda1079bb005ab6adfae0b3111219a8202b5af47356f9f07f1e2751d44324c"
+      }
+    ]
   },
   "key_families": [
     {
@@ -236,7 +283,7 @@
     "Donor raw/template fields are retrieval candidates with their existing editorial qualifications. No target reading is accepted."
   ],
   "source_donor_result": {
-    "unique_source_donor_windows": 8678,
+    "unique_source_donor_windows": 8515,
     "histogram_candidates_by_minimum_coordinate_deficit": {
       "0": 0,
       "1": 11,

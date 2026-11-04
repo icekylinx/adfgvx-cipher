@@ -106,6 +106,24 @@
       ],
       "render_scale": 12,
       "sha256": "8d45820c55bb753ac6fc8c7e9c809b1081184790ada7e09bdff29a11f07bb3e1"
+    },
+    {
+      "path": "sources/p77_A_source67.png",
+      "printed_page": 77,
+      "pdf_page_1based": 80,
+      "pdf_page_rotation_degrees": 180,
+      "crop_coordinate_space": "rotated_display_points",
+      "crop_pdf_points": [
+        370,
+        331,
+        412,
+        349
+      ],
+      "render_scale": 16,
+      "width": 672,
+      "height": 288,
+      "rgb_sha256": "b452732fdc08f402033f81a268a7570ca8c369e49cca28f7ad0f84d3daeda2d6",
+      "sha256": "2f0f82229693c2389d38d785b61d5222aa5d1152a619571539ced55ff40a7eb2"
     }
   ],
   "records": [
@@ -115,7 +133,7 @@
       "source_section": "A",
       "source_rows": [
         "FVDFA DAAGX AXXAA AGXDG DVXAD GFXXX AXAAV DFAAD",
-        "AAXVX DFAXD XAXXA FDAAX XVADD DXXXF XAAAX VXADX",
+        "AAXVX DFAXD XAXXA FDAAX XVADD DX?XF XAAAX VXADX",
         "XVADV VAVVA AVAAX XAVFA FGDAG AGVXX FGAVD DXXXA",
         "AXXXD AADXD FVVAA FXGVA XVDAA AAVAX XAXVX DVVFX",
         "XFGXD AGAGA DAAAG GAGFX FFFVF XAXXX FDADA XFVAX",
@@ -125,8 +143,30 @@
       ],
       "source_slots": 314,
       "advertised_length": 314,
-      "expected_raw": "ZUERXBXDX5XMXKAUKASUSXTIFLISXXERBITT4NXWIEDERHOLUNGXCHIFFRIERTENXTELEGRAMMSXVOMXEINUNDZWANZIGSTENXZEHNTENXCHIXZ53X12X10XUNTERSCHRIFTXX1874XSTRICHXZXROTX692XX",
-      "readable_candidate": "FUERXBXDX5XMXKAUKASUSXTIFLISXXERBITTENXWIEDERHOLUNGXCHIFFRIERTENXTELEGRAMMSXVOMXEINUNDZWANZIGSTENXZEHNTENXCHIXZ53X12X10XUNTERSCHRIFTXX1874XSTRICHXZXROTX692XX"
+      "expected_raw": "ZUERXBXDX5XMXKAUKASUSXTIFLISXXERBITT4NXWIEDERHOLUNGXCHIFFRIERTENXTELEGRAMMSXVOMXEINUNDZWANZIGSTENXZEHNTENXCHIXZ53X12X10XUNTERSCHRIFTXX1874XSTRICHXZ?ROTX692XX",
+      "readable_candidate": "FUERXBXDX5XMXKAUKASUSXTIFLISXXERBITTENXWIEDERHOLUNGXCHIFFRIERTENXTELEGRAMMSXVOMXEINUNDZWANZIGSTENXZEHNTENXCHIXZ53X12X10XUNTERSCHRIFTXX1874XSTRICHXZXROTX692XX",
+      "ambiguous_glyph": {
+        "source_index": 67,
+        "printed_row_1based": 2,
+        "group_in_row_1based": 6,
+        "character_in_group_1based": 3,
+        "literal_marker": "?",
+        "appearance": "Overstruck or damaged X/D-like glyph: recognizable crossing strokes plus an additional near-vertical or curved stroke on the right. The shape differs from the clear X glyphs on either side. Neither the original layer nor an unconditional X is established by the image.",
+        "detail_crop": "sources/p77_A_source67.png",
+        "previous_definite_coordinate": "X",
+        "previous_definite_raw": "ZUERXBXDX5XMXKAUKASUSXTIFLISXXERBITT4NXWIEDERHOLUNGXCHIFFRIERTENXTELEGRAMMSXVOMXEINUNDZWANZIGSTENXZEHNTENXCHIXZ53X12X10XUNTERSCHRIFTXX1874XSTRICHXZXROTX692XX",
+        "explicit_hypothesis_coordinates": [
+          "X"
+        ],
+        "hypothesis_limit": "The X branch preserves the previous transcription as an explicit same-source glyph assumption, not an independent observation or parallel copy. D describes the visual shape only and is not adopted as a coordinate reading. The primary source uses an unrestricted coordinate erasure.",
+        "earlier_OCR_reference": {
+          "path": "prior_candidates.json",
+          "block": "p77_ocr_block1",
+          "key": "Oct28-31",
+          "source_coordinate": "?",
+          "limit": "Earlier OCR already masked this slot. It is an earlier transcription of the same source, not independent corroboration."
+        }
+      }
     }
   ],
   "headers": [
@@ -139,6 +179,11 @@
       "source_index": 267,
       "transcription": "G",
       "explanation": "The third glyph in XXGGX was initially questioned as C at page scale. The detail crop shows the same inner stroke as the adjacent G, so both are transcribed G before publication. No invalid coordinate is inserted or filled."
+    },
+    {
+      "source_index": 67,
+      "transcription": "?",
+      "explanation": "The third glyph of the second row's sixth group is damaged or overstruck. Preserve DX?XF. The main candidate fills this existing slot with X, supplying the separator at plaintext index 147. The former definite X had not been edited, so this adds one fill to the two observed substitutions; it does not reclassify or reduce either substitution."
     }
   ],
   "prior_attribution_check": {
@@ -147,8 +192,10 @@
     "key_credit": "Unchanged published Oct28–31 key with original provenance."
   },
   "limits": [
-    "The native 314-coordinate frame matches all visible source slots. No insertion, deletion, erasure fill or key change is used.",
+    "The native 314-slot frame matches all visible source slots: 313 unambiguous coordinates and one damaged glyph. The unchanged main candidate uses two observed-coordinate substitutions and one damaged-glyph fill, with no source insertion/deletion, frame change or key change.",
     "The two local source substitutions repair ZUER and ERBITT4N only. They do not establish a global numeric-label assignment.",
+    "The source 67 fill supplies the X separator at plaintext index 147. Its conservative A? pair permits 02HISX. The main cost rises from two coordinate operations to three; the separator is a conditional fill, not a newly observed label.",
+    "The explicit source 67 X branch retains the former fully assigned stream only as a glyph assumption. Its two-substitution branch cost does not replace the primary two-substitution, one-fill account. Earlier OCR uncertainty is from the same source, not a parallel witness.",
     "The address B D 5 M and references CHI Z53 12 10 / 1874 STRICH Z ROT 692 remain literal; no organization, signature or numeric interpretation is forced.",
     "The body asks for a repeated encrypted telegram. The earlier telegram and its contents are not independently identified here.",
     "The neighboring p77 B has already been source-reviewed elsewhere and is not proposed or counted again.",

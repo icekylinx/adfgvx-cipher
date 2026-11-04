@@ -27,6 +27,22 @@
       "height": 1050,
       "channels": 3,
       "rgb_sha256": "18743dea1fba318584bdc62cea1500add5a3372d588f92e013a2f11c7c150211"
+    },
+    {
+      "path": "sources/p186_C1_damaged_glyph.png",
+      "pdf_page_1based": 189,
+      "crop_pdf_points": [
+        416,
+        667,
+        460,
+        682
+      ],
+      "render_scale": 16,
+      "sha256": "ad5c53abc4d5e857448ad93baa17aa69a115be7aee0cecea89506d3530e32857",
+      "width": 704,
+      "height": 240,
+      "channels": 3,
+      "rgb_sha256": "b278ef365fa613f0962bd62fc51653725c7eb2c62e9bc1d4437851774a1c08af"
     }
   ],
   "keys": {
@@ -242,10 +258,11 @@
       "readable_german": "Zu DRTRM1A?5?. ABTRSPRT z. Zt. wegen unklarer Lage in Ostsee UNMOGLCH. Gen. Graf Goltz hat jedoch VORBEREITG",
       "meaning": "This first part concerns transport that is currently described as impossible because the situation in the Baltic Sea is unclear. It then begins a statement about preparations associated with the literal name and title GEN GRAF GOLTZ. The statement is incomplete in this source body, so no completed plan or action is supplied.",
       "notes": [
-        "All 182 coordinates are preserved; no source substitution or mask fill is needed. The scan labels two parts and prints “Continued,” but only this first body is included here. No missing continuation is reconstructed from context.",
+        "All 182 source slots are preserved. Source index 110 has an F/R-like shape with an attached lower-right diagonal and is masked as ?; the unchanged edited reading supplies F there, producing the E in GEN at plaintext index 61. This is one source-mask fill, not an observed coordinate or a repair-cost reduction. The scan labels two parts and prints “Continued,” but only this first body is included here.",
         "DRTRM1A?5?, ABTRSPRT, UNMOGLCH and VORBEREITG are retained literally. The English meaning interprets the abbreviated transport statement; no missing I, vowel or grammatical ending is added to the decoded stream.",
         "The two question marks in the opening reference come from different unresolved square cells; their labels remain globally injective rather than being independently guessed.",
-        "The literal name GRAF GOLTZ is not used to add a first name or identify a historical biography."
+        "The literal name GRAF GOLTZ is not used to add a first name or identify a historical biography.",
+        "The former F interpretation is retained as an explicit sensitivity assumption: it gives 89 fixed raw positions and no coordinate changes. The conservative source edition has 88 fixed raw positions and one fill; no new key assignment or independent coordinate witness is claimed."
       ],
       "protected_fields": [
         "DRTRM1A?5?"
@@ -255,19 +272,31 @@
       "source_rows": [
         "GFGFV AXVGD GDDVX FDGGF VFAAV VFGGV XGFVV FVVVG",
         "FFAAX AGGXV XXXVV GXFVD XXGAX FFXAF GXFFF AADXG",
-        "DXDAF XXXVX XFDDV FXXAD XGXGV VFFXV FFAFF VGFAV",
+        "DXDAF XXXVX XFDDV FXXAD XGXGV VFFXV ?FAFF VGFAV",
         "FFGAA AXDXX FVVXG XAVGF AGFXA DXGXA FDDGF VVVVD",
         "DVDGG AAGXF GFAFX VXADX FF"
       ],
       "source_slots": 182,
       "advertised_length": 182,
-      "expected_raw": "ZUDRTRM1A?5?XABTRSPRTXZXZTWEGENUNKLARERLAGEINOSTSEEUNMOGLCHXGENGRAFGOLTZHATJEDOCHVORBEREITG",
+      "expected_raw": "ZUDRTRM1A?5?XABTRSPRTXZXZTWEGENUNKLARERLAGEINOSTSEEUNMOGLCHXG?NGRAFGOLTZHATJEDOCHVORBEREITG",
       "edited_output": "ZUDRTRM1A?5?XABTRSPRTXZXZTWEGENUNKLARERLAGEINOSTSEEUNMOGLCHXGENGRAFGOLTZHATJEDOCHVORBEREITG",
       "source_variants": [],
       "separator_label": "X",
       "question_mark_punctuation_at_end": false,
       "expected_substitutions": 0,
-      "expected_source_mask_fills": 0
+      "expected_source_mask_fills": 1,
+      "damaged_glyph": {
+        "source_index": 110,
+        "literal_placeholder": "?",
+        "source_group": "?FAFF",
+        "source_row_1based": 3,
+        "source_group_1based": 7,
+        "observed_shape": "F-like top and middle bars with an attached lower-right diagonal; F/R-like, not safely a single observed F.",
+        "conditional_coordinate_interpretation": "F",
+        "independent_coordinate_witness_established": false,
+        "review_basis": "Original embedded JPEG, PDF crop and independent visual reviews; current transcription label was visible.",
+        "source_image": "sources/p186_C1_damaged_glyph.png"
+      }
     }
   ],
   "prior_artifacts": {
@@ -278,6 +307,7 @@
   "limits": [
     "All source slots are preserved in their native order; no insertion, deletion or reordering.",
     "Unknown square cells remain globally coupled and injective. Witness completions are explicitly nonhistorical.",
-    "Source-mask fills and observed-coordinate substitutions are recorded separately; a source-compatible word proposal is not proof of unique historical wording."
+    "Source-mask fills and observed-coordinate substitutions are recorded separately; a source-compatible word proposal is not proof of unique historical wording.",
+    "The damaged source glyph at p186 C1 index 110 is unknown in the main source edition. Its F sensitivity branch is an assumption excluded from observed-source totals; the unchanged readable wording depends on that one fill."
   ]
 }

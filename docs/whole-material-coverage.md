@@ -13,8 +13,8 @@ A separately printed part or received copy is one physical body. Surviving damag
 | Current navigation state | Sources |
 |---|---:|
 | READING | 345 |
-| PARTIAL | 186 |
-| CONDITIONAL | 141 |
+| PARTIAL | 184 |
+| CONDITIONAL | 143 |
 | OPEN | 7 |
 
 These states describe the kind of current edition, not a completion percentage. READING does not mean that every character or historical identification is settled; CONDITIONAL may include a partial proposal. OPEN sources have no accepted body reading. Their headers and source transcriptions are still useful evidence.
@@ -41,7 +41,7 @@ The structured adapters independently recompute primary source/model accounting 
 
 | Verified primary frame class | Physical bodies | Native slots | Model positions | Fixed raw labels, unobserved coordinates unassigned | Extra fixed labels from supplied unobserved coordinates |
 |---|---:|---:|---:|---:|---:|
-| Native order and length | 471 | 100274 | 50137 | 48886 | 0 |
+| Native order and length | 471 | 100274 | 50137 | 48883 | 0 |
 | Modified frame; stated assumptions apply | 88 | 18603 | 10028 | 8204 | 1 |
 
 **These position totals cover only the quantified subset.** A fully fixed stream can retain garbles or uninterpreted numbers. The checker separates native slots, model additions/exclusions, coordinates supplied by another witness and ordinary-word repairs. Optional readings and alternative frames are never added as extra physical sources.
