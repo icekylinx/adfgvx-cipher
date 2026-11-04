@@ -188,6 +188,15 @@ V at 68 and N at 87 are wholly missing and supplied by the word proposal.
 Position 80 stays unresolved. An optional additional S gives 91/111 for one
 more lost-tail fill; the army label and footer remain open.
 
+**Optional footer fields.** The [joined field proposal](../../experiments/p116_optional_route_fragment/FOOTER.md)
+adds `XKXMXRMX1XA` from overlapping original fields in p164 D and p105 C1,
+reaching **97/111 positions** with 12 printed-mask fills and 49 lost-tail fills.
+A separate closing proposal, guided by the historical signature, adds
+`GR?XOPX` and reaches **101/111**, with 12 printed-mask fills and 53 lost-tail
+fills. All eleven new labels have an observed half-coordinate; no observation
+changes. The preceding position, intervening labels and army designation remain
+unfilled. These are contextual proposals, not repeated-message identifications.
+
 ## The two short frames require different qualifications
 
 Part 11 actually prints 219 slots, although its header says 220. An independent

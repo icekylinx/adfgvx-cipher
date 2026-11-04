@@ -113,6 +113,12 @@ authenticate missing letters, original spelling or the historical event.
 conditional letters to this route layer, reaching 90/111 positions with no
 observed-coordinate changes; two of those letters are wholly missing.
 
+**Optional footer fields.** The [footer extension](FOOTER.md) adds seven
+half-supported labels through overlapping original fields, reaching 97/111.
+A separate historical-closing proposal reaches 101/111; all eleven new
+labels retain an observed half and change no observation. Exact prices and
+the unfilled intervening fields remain in its [certificate](footer_extension.json).
+
 ## Reproduce and preserve the primary edition
 
 [Inputs](inputs.json) pin the original record, the unchanged published key,

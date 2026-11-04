@@ -26,6 +26,12 @@ now has a **90/111-position conditional route-and-approval reading**. The
 additional `EINVERSTAENDNIS?ERBETEN` proposal changes no observed coordinate;
 13 of its 15 new letters retain an observed half-pair, while two are wholly
 missing. The intervening unknown, army label and closing fields remain open.
+The [optional footer extension](../experiments/p116_optional_route_fragment/FOOTER.md)
+uses observed fields in two other messages to reach **97/111 positions**.
+A separate proposal guided by the historical closing reaches **101/111**.
+All eleven newly supplied footer and closing letters retain an observed half;
+the final layer uses 12 printed-mask and 53 lost-tail fills, with zero observed
+substitutions. The remaining ten positions stay explicit.
 
 Two independent source comparisons strengthen existing readings. A
 [59-letter withdrawal parallel](../experiments/hungarian_armistice_instructions/withdrawal_parallel.json)

@@ -51,6 +51,7 @@ jobs:
           python experiments/p137_optional_staff_vocabulary/verify.py --verify
           python experiments/p116_optional_route_fragment/verify.py --verify
           python experiments/p116_optional_route_fragment/verify_approval.py --verify
+          python experiments/p116_optional_route_fragment/verify_footer.py --verify
           python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/live_readable_mappings_20261103_continuation.json
           python data/reviews/verify_live_readable_mappings.py --manifest data/reviews/complete_displays_readable_mappings_20261103.json
           python data/reviews/verify_semantic_readings.py --snapshot data/reviews/reading_conventions_complete_displays_before.json --audit data/reviews/reading_conventions_complete_displays_audit.json

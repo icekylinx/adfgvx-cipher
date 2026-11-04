@@ -4499,8 +4499,8 @@
       "label": "p116 A13",
       "printed_page": 116,
       "source_section": "A13",
-      "subject": "Jammed withdrawal ending: route and approval request",
-      "status": "Raw 38/111 under the 222-slot tail-loss frame; conditional route and approval layer 90/111 with zero observed substitutions, 11 printed-mask and 43 lost-tail fills; two newly proposed letters wholly missing; optional extra S gives 91/111",
+      "subject": "Jammed withdrawal ending: route, approval and signature fragments",
+      "status": "Raw 38/111 under the 222-slot tail-loss frame; conditional route/approval 90/111; optional shared footer 97/111 and historical closing 101/111 with zero observed substitutions, 12 printed-mask and 53 lost-tail fills; ten positions remain unknown",
       "credit": "Childs; Lasry et al. (2016); source edition and assembly: icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/military/mackensen_withdrawal_report.md#p116-a13",
       "source_reviewed": true,
@@ -4508,7 +4508,8 @@
         "experiments/mackensen_withdrawal_report/inputs.json",
         "experiments/mackensen_withdrawal_report/certificates.json",
         "experiments/p116_optional_route_fragment/inputs.json",
-        "experiments/p116_optional_route_fragment/approval_extension.json"
+        "experiments/p116_optional_route_fragment/approval_extension.json",
+        "experiments/p116_optional_route_fragment/footer_extension.json"
       ]
     },
     {
