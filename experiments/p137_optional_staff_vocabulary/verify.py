@@ -189,6 +189,13 @@ def rebuild(inp, pdf=None):
     fences, quotes = displays(text)
     assert [line for line in text.splitlines() if re.match(r"^#{1,6} ", line)] == case["headings"]
     assert [x["sha256"] for x in fences] == case["fence_sha256"]
+    # The later full-part quotation has its own coordinate verifier. Keep the
+    # original display snapshot exact while accounting for that added layer.
+    completion_caption = "**Readable German — conditional complete part-5 proposal:**"
+    later = [x for x in quotes if x["caption"] == completion_caption]
+    assert len(later) == 1
+    assert later[0]["sha256"] == "9353511f9012e3673af64a6c9c4c4e7742907cfbd933757c2f416e5a1e954030"
+    quotes = [x for x in quotes if x["caption"] != completion_caption]
     assert [x["sha256"] for x in quotes] == case["quote_sha256"]
     page = HERE / "README.md"
     text = page.read_text()
