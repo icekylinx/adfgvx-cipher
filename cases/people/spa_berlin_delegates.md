@@ -19,6 +19,26 @@ toward Berlin on the following date-like field. Its time remains
 partly unknown. The two parts have native lengths **192** and **104**
 coordinates and use the unchanged published **Nov10–12** key.
 
+## Conditional shared digits
+
+The Berlin journey continuation gains **5.03 p.m.** and reaches **52/52 labels**, retaining its earlier one-coordinate word repair. The [joint reconstruction](../../experiments/nov10_joint_completion/README.md) combines the earlier Marineamt and formation interpretations with the army-number constraint and the mobilization decree; the reversed 7/9 assignment is retained there.
+
+**Conditional interpretation — readable German under the joint square:**
+
+> … dass Weiterfahrt nach Berlin am 11.11., 5.03 nachm. OHL RM4B.
+
+<details>
+<summary>Exact conditional labels</summary>
+
+**Edited output — p175_A2, conditional shared square; 52/52 fixed positions:**
+
+```text
+DASSWEITERFAHRTNACHBERLINAM11X11X5X03XNACHMXOHLRM4BX
+```
+
+</details>
+
+
 ## p175 A1
 
 The [source crop](../../experiments/nov10_delegates_and_field_report/sources/p175_A1.png)

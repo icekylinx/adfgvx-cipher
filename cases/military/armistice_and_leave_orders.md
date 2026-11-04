@@ -15,6 +15,26 @@ The source is Childs, *General Solution of the ADFGVX Cipher System*,
 The adjacent A record is a separate
 [radio-equipment transfer order](../radio/right_rhine_equipment.md).
 
+## Conditional shared digits
+
+The citadel instruction gains **KM 2583 18G ANCH**, fixing **79/79 labels** after the earlier single word repair. The suffix remains a literal administrative reference. The [joint reconstruction](../../experiments/nov10_joint_completion/README.md) combines the earlier Marineamt and formation interpretations with the army-number constraint and the mobilization decree; the reversed 7/9 assignment is retained there.
+
+**Conditional interpretation — readable German under the joint square:**
+
+> Zitadelle: Widerstand aufgeben, Uebergabebedingungen dort festsetzen. K M 2583 18G ANCH.
+
+<details>
+<summary>Exact conditional labels</summary>
+
+**Edited output — p179_B, conditional shared square; 79/79 fixed positions:**
+
+```text
+ZITADELLEXWIDERSTANDAUFGEBENUEBERGABEBEDINGUNGENDORTFESTSETZENXKMX2583X18GXANCH
+```
+
+</details>
+
+
 ## B: abandon resistance and determine surrender terms
 
 The [158-coordinate telegram](../../experiments/november_armistice_orders/sources/p179_B.png)

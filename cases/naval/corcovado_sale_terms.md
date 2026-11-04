@@ -30,6 +30,26 @@ check does not establish universal historical priority. Lasry, Niebel,
 Kopal and Wacker's prior identification of the separate p199 cargo
 message is credited in its own edition.
 
+## Conditional shared digits
+
+The sale correspondence now carries the conditional reference **A6S824**. This supplies its last unknown position; the six previously priced word repairs remain part of the edition. The [joint reconstruction](../../experiments/nov10_joint_completion/README.md) combines the earlier Marineamt and formation interpretations with the army-number constraint and the mobilization decree; the reversed 7/9 assignment is retained there.
+
+**Conditional interpretation — readable German under the joint square:**
+
+> Zu dort A6S824 G. G. Mittelmeerdivision oder Vertreter nicht mehr in Nikolajew. Corcovado faehrt bereits mit tuerkischer Besatzung unter …
+
+<details>
+<summary>Exact conditional labels</summary>
+
+**Edited output — p173_A1, conditional shared square; 121/121 fixed positions:**
+
+```text
+ZUDORTXA6S824GXGXXMITTELMEERDIVISIONODERVERTRETERNICHTMEHRINNIKOLAJEWXXCORCOVADOFAEHRTBEREITSMITTUERKISCHERBESATZUNGUNTER
+```
+
+</details>
+
+
 ## November 9: proposed sale conditions, p165 A
 
 The source header reads `NKJ v LP (04.00 p.m., November 9th)`,

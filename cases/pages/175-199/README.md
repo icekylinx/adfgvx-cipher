@@ -93,7 +93,7 @@ This range contains 111 sources, including 2 OPEN. [Reading states](../../../doc
 | [p183 C](../../radio/nov12_arrival_departure_and_car.md#p183-c) | READING | A report that Seifert has departed |
 | [p183 D](../../radio/car_query_parallel_frame.md) | CONDITIONAL | Parallel car enquiry with a priced extra-coordinate hypothesis |
 | [p183 E](../../radio/nov12_arrival_departure_and_car.md#p183-e) | READING | An enquiry about the car |
-| [p183 F](../../military/jaeger_accommodation_area.md#p183-f) | PARTIAL | An accommodation-area report for a German Jaeger division |
+| [p183 F](../../military/jaeger_accommodation_area.md#p183-f) | PARTIAL | An accommodation-area report around Vierset-Barse and Soheit |
 
 ## p184
 
@@ -114,7 +114,7 @@ This range contains 111 sources, including 2 OPEN. [Reading states](../../../doc
 | [p185 A2](../../finance/brasso_money_alternative_route.md#p185-a2) | PARTIAL | Requested money to be sent to BRASSO by another means |
 | [p185 B](../../caucasus/baku_personnel_inquiry.md#p185-b) | CONDITIONAL | Inquiry about the fate of army personnel in Baku |
 | [p185 C](../../p189.md) | READING | Vehicle provision impossible; await orders |
-| [p185 D](../../context/transport.md#p185-d-source-and-gap-model) | CONDITIONAL | Movement via DHFN and readiness instruction |
+| [p185 D](../../context/transport.md#truck-movement-and-readiness) | CONDITIONAL | Truck movement and readiness to depart via DHFN |
 
 ## p186
 

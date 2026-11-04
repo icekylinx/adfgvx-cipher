@@ -25,6 +25,26 @@ RICHI-266
 
 </details>
 
+## Conditional shared digits
+
+The equipment order gains the complete reference **4B49936**, fixing **133/133 labels**. Its existing five-coordinate printed cancellation and seven word substitutions retain their separate costs. The [joint reconstruction](../../experiments/nov10_joint_completion/README.md) combines the earlier Marineamt and formation interpretations with the army-number constraint and the mobilization decree; the reversed 7/9 assignment is retained there.
+
+**Conditional interpretation — readable German under the joint square:**
+
+> Dort befind. U S Geraete zur naechsten rechtsrhein. Ers. Abtlg. schaffen. Funkstellenbetrieb muss aufrechterhalten bleiben. Nachrichtenchef 4B49936.
+
+<details>
+<summary>Exact conditional labels</summary>
+
+**Edited output — p179_A, conditional shared square; 133/133 fixed positions:**
+
+```text
+DORTBEFINDXUXSXGERAETEZURNAECHSTENRECHTSRHEINXERSXABTLGXSCHAFFENXFUNKSTELLENBETRIEBMUSSAUFRECHTERHALTENBLEIBENXNACHRICHTENCHEF4B49936
+```
+
+</details>
+
+
 ## A cancelled duplicate restores the printed frame length
 
 The literal transcription contains **271 coordinates**. Source group 17,

@@ -234,7 +234,7 @@ A delayed departure, a supper query and the Seifert correspondence preserve the 
 | [p224 A2](nov27_receiving_instructions.md#p224-a2) | READING | Only secure link home and preferred reception wavelength |
 | [p224 B](nov27_receiving_instructions.md#p224-b) | READING | Brief report of no special events |
 | [p225 A](late_november_cipher_instructions.md) | READING | November key material retained because December tables are absent |
-| [p226 A2](radio_traffic_transfer_fragment.md#p226-a2) | CONDITIONAL | Second-part report of a radio-traffic transfer |
+| [p226 A2](radio_traffic_transfer_fragment.md#p226-a2) | CONDITIONAL | Radio-traffic transfer at Grosswardein |
 | [p226 B2](late_november_cipher_instructions.md) | READING | Numerical sequences read backward; missing first part |
 | [p227 B](late_november_cipher_instructions.md) | READING | Send telegrams for the army and subordinate formations directly |
 | [p228 C1](late_november_cipher_instructions.md) | READING | December key agreement involving UKS, ZOEN and BSL |

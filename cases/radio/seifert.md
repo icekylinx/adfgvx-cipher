@@ -6,6 +6,32 @@
 
 Source transcription, cipher checks and editorial work: **icekylinx and GPT-6 Astra Pro**. The station-control interpretations of p168 A and B were already published by **George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker**; their author manuscript discusses both on printed p. 23 / PDF p. 24. The keys retain their recorded historical and modern provenance. This page provides a source-level edition, without claiming a first historical decipherment.
 
+## Conditional shared digits
+
+The paired monitoring orders each gain their hundreds digit: **500**. Both physical receptions have the same complete ciphertext; repetition preserves the value once the shared square is interpreted. No source coordinate is changed. The [joint reconstruction](../../experiments/nov10_joint_completion/README.md) combines the earlier Marineamt and formation interpretations with the army-number constraint and the mobilization decree; the reversed 7/9 assignment is retained there.
+
+**Conditional interpretation — readable German under the joint square:**
+
+> Sofort US 500 hoeren.
+
+<details>
+<summary>Exact conditional labels</summary>
+
+**Edited output — p172_B, conditional shared square; 20/20 fixed positions:**
+
+```text
+SOFORTXUSX500XHOEREN
+```
+
+**Edited output — p174_D, conditional shared square; 20/20 fixed positions:**
+
+```text
+SOFORTXUSX500XHOEREN
+```
+
+</details>
+
+
 ## Read the messages
 
 The prior body credit for p168 A also applies to its repeated content at

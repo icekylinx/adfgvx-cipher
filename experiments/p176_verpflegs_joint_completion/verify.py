@@ -31,6 +31,24 @@ def literal(r):
     return ''.join(''.join(r['source_rows']).split())
 
 
+def without_later_conditional_digits(text):
+    """Validate the later C2 edition before comparing the frozen A5 displays."""
+    certificate = ROOT / 'experiments/nov10_joint_completion/certificates.json'
+    assert sha(certificate) == '8aabd2291564ec7edff555b30230e704a083edc3da4deaae8174faff16a457af'
+    joint = load(certificate)
+    c2 = next(r for r in joint['records'] if r['id'] == 'p175_C2')
+    assert c2['fixed_after'] == c2['positions'] == 104
+    assert c2['additional_observed_substitutions'] == c2['additional_source_fills'] == 0
+    sections = list(re.finditer(r'^## Conditional shared digits\n.*?(?=^## |\Z)', text, re.M | re.S))
+    assert len(sections) == 1
+    section = sections[0]
+    # Bind the complete new interpretation, caveats, quotation and evidence
+    # drawer; arbitrary displays cannot be hidden under this later heading.
+    assert hashlib.sha256(section.group().encode()).hexdigest() == '4edba39a7cc94f48b9b3b2ed6fe064e68b9429dab2feeb3c491f2959c8ce7930'
+    assert re.findall(r'```text\n(.*?)\n```', section.group(), re.S) == [c2['selected_plaintext']]
+    return text[:section.start()] + text[section.end():]
+
+
 def build(pdf=None):
     d = load(HERE / 'inputs.json')
     k = d['key']
@@ -88,9 +106,10 @@ def build(pdf=None):
     assert [f['role_from_caption'] for f in fences] == ['edited_output'] and not quotes
     assert re.findall(r'```text\n(.*?)\n```', section, re.S) == [candidate['raw']]
     new_display = re.findall(r'```[^\n]*\n.*?\n```', section, re.S)
-    all_displays = re.findall(r'```[^\n]*\n.*?\n```', text, re.S)
+    prior_text = without_later_conditional_digits(text)
+    all_displays = re.findall(r'```[^\n]*\n.*?\n```', prior_text, re.S)
     assert [f for f in all_displays if f not in new_display] == old_displays['fenced_displays']
-    assert re.findall(r'^> .*$', text, re.M) == old_displays['quoted_lines']
+    assert re.findall(r'^> .*$', prior_text, re.M) == old_displays['quoted_lines']
     assert raw['raw'] in text and prior['raw'] in text
     return {'schema': 'adfgvx-p176-verpflegs-joint-certificate-v1', 'authors': d['authors'],
             'input_sha256': sha(HERE / 'inputs.json'), 'indexing': d['indexing'],

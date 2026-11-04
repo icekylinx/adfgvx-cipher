@@ -193,7 +193,7 @@ Read the appeal against internment beside the later internment traffic and the r
 | [p180 E](namur_cassel_armistice_requests.md#p180-e) | PARTIAL | Bauman readiness and Cassel transport |
 | [p181 A](mackensen_warsaw.md) | READING | Warsaw Soldiers Council asks about Mackensens advance |
 | [p181 B](namur_cassel_armistice_requests.md#p181-b) | READING | Repeated request for local armistice conditions |
-| [p183 F](jaeger_accommodation_area.md#p183-f) | PARTIAL | An accommodation-area report for a German Jaeger division |
+| [p183 F](jaeger_accommodation_area.md#p183-f) | PARTIAL | An accommodation-area report around Vierset-Barse and Soheit |
 | [p184 A2](group_security_measures_fragment.md#p184-a2) | PARTIAL | Second-part instruction on measures for the security of a group |
 | [p184 B1](hungary_transport_warning.md#p184-b1) | READING | Mineral-oil department address |
 | [p184 B2](hungary_transport_warning.md#p184-b2) | CONDITIONAL | Transports from Romania must not enter Hungary |
@@ -202,7 +202,7 @@ Read the appeal against internment beside the later internment traffic and the r
 | [p184 C2](hungary_transport_warning.md#p184-c2) | PARTIAL | Relayed warning of transport loss in Hungary |
 | [p184 C3](hungary_transport_warning.md#p184-c3) | PARTIAL | Repeated Kriegsamt reference footer |
 | [p185 C](../p189.md) | READING | Vehicle provision impossible; await orders |
-| [p185 D](../context/transport.md#p185-d-source-and-gap-model) | CONDITIONAL | Movement via DHFN and readiness instruction |
+| [p185 D](../context/transport.md#truck-movement-and-readiness) | CONDITIONAL | Truck movement and readiness to depart via DHFN |
 | [p186 B1](oberost_troop_movement_obliterations.md#p186-b1) | CONDITIONAL | Ober Ost troop-movement proposal, conditional obliteration exclusion |
 | [p186 B2](home_departures_baltic_transport.md#p186-b2) | PARTIAL | Soldiers wishing to travel home without authorization |
 | [p186 C1](home_departures_baltic_transport.md#p186-c1) | PARTIAL | Baltic transport uncertainty and Graf Goltz preparations |
@@ -257,7 +257,7 @@ Read the appeal against internment beside the later internment traffic and the r
 | [p215 B3](p215_third_positions_fragment.md) | CONDITIONAL | Gyula–Sikló–Kisjenő positions and the Ruttka–Teschen departure fragment |
 | [p217 A1](p217_A.md) | READING | Scholtz divisions march into the assembly area |
 | [p217 A2](p217_A.md) | READING | Coal shortages stop transport; troop locations near Oroshaza |
-| [p217 A3](p217_A.md) | PARTIAL | Army headquarters at Szolnok; battalions apparently misdirected |
+| [p217 A3](p217_A.md) | PARTIAL | Headquarters at Szolnok; a battalion at Poestyen |
 | [p217 A4](p217_A.md) | READING | Czechs demand disarmament before troop transit |
 | [p217 A5](p217_A.md) | PARTIAL | Massow in Budapest asked to clarify transit and disarmament |
 | [p217 B1](nov24_train_report.md#p217-b1) | CONDITIONAL | Additional train departures and divisional positions in a conditional evening report |

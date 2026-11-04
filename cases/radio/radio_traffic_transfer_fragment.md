@@ -4,13 +4,16 @@
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
-A surviving second part reports that DNZW takes over radio traffic and gives further call-name and place-like fields. The source expressly marks the first part missing. One coordinate correction and three printed-dash fills give a readable proposal, while the leading character and exact identity of several labels remain unresolved.
+A surviving second part reports that DNZW takes over radio traffic and gives further call-name and place-like fields. The source expressly marks the first part missing. The repeated location identifies Grosswardein. One additional coordinate correction completes its opening spelling; the second occurrence keeps GROSSVARDEIN. The date and SCHWERE field retain two coupled readings.
 
 ## Source and scope
 
 [Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p226 excerpt](../../experiments/radio_traffic_transfer_fragment/sources/p226_reviewed.png) · [Inputs](../../experiments/radio_traffic_transfer_fragment/inputs.json) · [Position and change certificates](../../experiments/radio_traffic_transfer_fragment/certificates.json)
 
 The published `Nov28-Dec1` key is unchanged. [Original OCR records](../../experiments/radio_traffic_transfer_fragment/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/radio_traffic_transfer_fragment/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
+
+The earlier word edition has the following account; the place completion is
+priced separately below.
 
 | Record | Source slots | Fixed raw positions | Observed substitutions | Source-mask fills |
 | --- | ---: | ---: | ---: | ---: |
@@ -72,6 +75,39 @@ dates do not choose between them. The first place field becomes
 - GROSSW0RDEIN keeps the numeral 0 and W in the first place-like field; GROSSVARDEIN keeps V in the second. Neither field is silently normalized to a modern or historical place name.
 - Without the calendar interpretation, the opening shared-square domain is `{4, 5, D, I, J, N, U}`.
 - Y is the separator label. X and 9 inside SCHWEREX9 remain literal; DNZW and RUFZ are not expanded in the exact readable quotation.
+
+## The repeated place: Grosswardein
+
+The opening `GROSSW0RDEIN` and closing `GROSSVARDEIN` identify the same
+place with different V/W spellings. The second field's A is an unchanged
+`VD` pair at source positions **57 and 149**. Applying that letter to the
+opening field changes source **81 G→D**, turning its `VG` into `VD` and
+giving **GROSSWARDEIN**. The original G is clearly printed: this is an
+editorial repair, with no additional fill or key assignment.
+
+The [3 August 1913 *Bácskaer Volkszeitung*, PDF p2](https://epa.oszk.hu/05600/05686/00377/pdf/EPA05686_bacskaer_volkszeitung_1913_031.pdf#page=2)
+independently prints **Großwardein**. Its spelling supports the location;
+the second cipher occurrence remains **Grossvardein** in the quotation.
+
+**Conditional interpretation — readable German; the two calendar branches are paired in order:**
+
+> {4/5}. Dez., Grosswardein. DNZW uebernimmt Verkehr fuer OKM, schwere {15/14}. Rufz.: Natan Adolf Ursula in Grossvardein.
+
+The notice announces a transfer of radio traffic to DNZW at Grosswardein
+and gives the spoken call-name sequence Natan Adolf Ursula. Reading the
+opening as **4 December** gives **SCHWERE 15**; **5 December** gives
+**SCHWERE 14**. Neither the place comparison nor the calendar selects
+between them. The missing first part is still absent.
+
+The complete proposal costs **two observed substitutions and four mask fills**:
+VERKAHR→VERKEHR, the new place-letter repair, the three earlier word fills
+and the earlier calendar fill. Both complete square branches re-encrypt
+exactly; **91/93 positions** agree between them. Without the calendar
+assumption, the place repair costs two substitutions and three fills in total,
+with **92/93 baseline labels** fixed. This recovers a readable place word;
+it does not increase the fixed-label count.
+
+[Exact source comparison, retained branches and historical provenance](../../experiments/late_place_comparison/README.md).
 
 ## Evidence, credit and reproduction
 

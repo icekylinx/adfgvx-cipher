@@ -73,6 +73,11 @@ jobs:
         run: python experiments/substitution_crib_csp/verify.py --verify
       - name: Verify newly restored source families
         run: |
+          python experiments/p185_readiness_completion/verify.py --verify
+          python experiments/p183_vierset_place/verify.py --verify
+          python experiments/late_place_comparison/verify.py --verify
+          python experiments/p132_rohdewald_name/verify.py --verify
+          python experiments/nov10_joint_completion/verify.py --verify
           python experiments/nov25_evening_place_witness/verify.py --verify
           python experiments/p72_article_completion/verify.py --verify
           python experiments/reval_ship_name_comparison/verify.py --verify

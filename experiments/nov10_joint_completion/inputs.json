@@ -1,0 +1,159 @@
+{
+  "schema": "nov10-joint-context-inputs-v1",
+  "credit": "icekylinx and GPT-6 Astra Pro",
+  "historical_conditions": {
+    "first_mobilisation_gregorian_day": "1918-11-10",
+    "decree_old_style_day": "1918-10-27",
+    "decree_reference": "3179",
+    "unit_set": [
+      217,
+      219
+    ],
+    "army_numbers": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      17,
+      18,
+      19
+    ]
+  },
+  "dependencies": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "data/prior_readings.json": "40ea793ede1feb74a273b33e15eec2aa2fd301f9a7b633fe596253bf9e5e7624",
+    "data/reviews/p176b_unit_context.json": "541ef18968f59c3d619ced1a02f60da763651ec5ef96c93831c8122608eac4ac",
+    "experiments/corcovado_sale_terms/certificates.json": "24c8644ccd2754d77d015ea796e6ba87938fd6e6c6eaca06706ab42db8d15b66",
+    "experiments/corcovado_sale_terms/inputs.json": "5256e0e1bfbf30be96bbe346f7d7ad2774c04b008ef9755ffd4f8e15fd611028",
+    "experiments/jaeger_accommodation_area/certificates.json": "7afb7b41e99c809cdc6a074e251c6ca38eb1458ef4408831bc20fed4971d43aa",
+    "experiments/jaeger_accommodation_area/inputs.json": "cbf21e5ba190317ba529d24bc51191466ba2ffa3a994d4e61df537601b7e454b",
+    "experiments/naval_armistice_order/certificates.json": "447e6ce2120bb7928a6e4a79deaa06bed11a9bac9a2c4d1f6e905e3d840a8e8d",
+    "experiments/naval_armistice_order/inputs.json": "c9e6b9bf2b2eaeccdf4d2efa7fc12c9f235a763f7320b394bea4c6af8042125a",
+    "experiments/nov10_delegates_and_field_report/certificates.json": "132076490b17800206b85cab44c25db5962c036dae8ea580de849ad6674cdb67",
+    "experiments/nov10_delegates_and_field_report/inputs.json": "515e91551aaf4d9927b4955a6228a29fe1c9184bd1c1788206d608f08788e98a",
+    "experiments/nov10_joint_completion/sources/romanian_mobilisation_1263.jpg": "60241b97b5bfa810faba113f65edc26cc86e6656fc2040ed25763a8b67425cd1",
+    "experiments/nov11_romanian_mobilization_report/certificates.json": "6c7607661d3411596f16b417c53ebce9feef99f21f1591bafefed435192436f1",
+    "experiments/nov11_romanian_mobilization_report/inputs.json": "9dc1afbf1b9e3a527a010278f34f91545ef085ba2844aadf1d6e0950e16b7100",
+    "experiments/november_armistice_orders/certificates.json": "eaeafc3e8b19fe32d6206ec766427dd31e3299645654be1f045a089c06627671",
+    "experiments/november_armistice_orders/inputs.json": "0e083803df4e6e5f790625538c47fe889a377cd1c4deb0df680a685a574ab9bc",
+    "experiments/p170_continuation/seifert_records.json": "a4cd467275782bd7c8cc79f228ff5ec184ca4400a8a34d653907aa912161f859",
+    "experiments/romanian_ultimatum_companions/certificates.json": "e13c7e0495d9e992b2391935b809e9d5a24e6301c412823b057b137b14831810",
+    "experiments/romanian_ultimatum_companions/inputs.json": "c3e55a15bd2ecf988289e5bf17658e6d473f6d40cd15381a40fe434170d6c6e6",
+    "experiments/turkish_tonnage/certificates.json": "fd6d10d075bc55db037bfcd1147541021a10c12e64571893b1c6ad5be2fa9e2b",
+    "experiments/turkish_tonnage/inputs.json": "22482a4b1e8b7c82291ec031c03c2134add8368ada9ef58c6839deeceed117c3"
+  },
+  "case_displays": [
+    {
+      "path": "cases/radio/seifert.md",
+      "anchor": "## Conditional shared digits",
+      "required_literals": [
+        "SOFORTXUSX500XHOEREN",
+        "SOFORTXUSX500XHOEREN"
+      ]
+    },
+    {
+      "path": "cases/naval/corcovado_sale_terms.md",
+      "anchor": "## Conditional shared digits",
+      "required_literals": [
+        "ZUDORTXA6S824GXGXXMITTELMEERDIVISIONODERVERTRETERNICHTMEHRINNIKOLAJEWXXCORCOVADOFAEHRTBEREITSMITTUERKISCHERBESATZUNGUNTER"
+      ]
+    },
+    {
+      "path": "cases/people/spa_berlin_delegates.md",
+      "anchor": "## Conditional shared digits",
+      "required_literals": [
+        "DASSWEITERFAHRTNACHBERLINAM11X11X5X03XNACHMXOHLRM4BX"
+      ]
+    },
+    {
+      "path": "cases/military/romanian_ultimatum_companions.md",
+      "anchor": "## Conditional shared digits",
+      "required_literals": [
+        "ODERWAFFENNIEDERZULEGENXFRANZOSENHABENHEUTE7X7XVORMXMITDONAUUEBERGANGBEIXRUSTSCHUKBEGONNENXKAMPFIMGANGEX"
+      ]
+    },
+    {
+      "path": "cases/naval/turkish_tonnage.md",
+      "anchor": "## Conditional shared digits",
+      "required_literals": [
+        "FALLSDORTVERKAUFFUERUNAUFSCHIEBBARANGESEHENWIRDXISTDRAHTLICHZUBERICHTENXVERKAUFTNICHTOHNEGENEHMIGUNGXFORDERUNGGENERAL1200MARKKERKYRATAUSENDMARKFUERBRUTTOREGISTERTONNEXXMARINEAMTXXA6S22647"
+      ]
+    },
+    {
+      "path": "cases/naval/naval_armistice_order.md",
+      "anchor": "## Conditional shared digits",
+      "required_literals": [
+        "XGENEHMIGUNGZUMBEFAHRENNEUTRALERHOHEITSGEWAESSERUEBERWASZERISTBEINEUTRALENREGIERUNGENERBETENXX3XXEMPFANGSBESTAETIGUNGENXADMIRALXGGXXOP1A944XXADMIRALSTAB18340ZWEI"
+      ]
+    },
+    {
+      "path": "cases/radio/right_rhine_equipment.md",
+      "anchor": "## Conditional shared digits",
+      "required_literals": [
+        "DORTBEFINDXUXSXGERAETEZURNAECHSTENRECHTSRHEINXERSXABTLGXSCHAFFENXFUNKSTELLENBETRIEBMUSSAUFRECHTERHALTENBLEIBENXNACHRICHTENCHEF4B49936"
+      ]
+    },
+    {
+      "path": "cases/military/armistice_and_leave_orders.md",
+      "anchor": "## Conditional shared digits",
+      "required_literals": [
+        "ZITADELLEXWIDERSTANDAUFGEBENUEBERGABEBEDINGUNGENDORTFESTSETZENXKMX2583X18GXANCH"
+      ]
+    },
+    {
+      "path": "cases/military/nov11_romanian_mobilization_report.md",
+      "anchor": "## Conditional shared digits",
+      "required_literals": [
+        "RUMAENXMOBILMACHUNG9X11XANGEORDNETXX1XTAG10X?1LXKRIEGSZUSAND10X1TX9UHRABENDSXFEIND1?X11XTURNUMAGURELEZIMNICAUEBERGESETZT"
+      ]
+    },
+    {
+      "path": "cases/military/jaeger_accommodation_area.md",
+      "anchor": "## Conditional shared digits",
+      "required_literals": [
+        "ANXAOKX17XZUXDORTX11140XOPXUNTERBRINGUNGSRAUMXDTXJAEGERXDIVX13711XMARCHEXSUEDLXHUYXVIERSWTXBARSEXSOHEITXAOKX18X1XAM"
+      ]
+    }
+  ],
+  "historical_sources": [
+    {
+      "id": "romanian_decree_3179",
+      "title": "Trecerea României pe picior de război",
+      "institution": "Muzeul Vasile Pârvan, Bârlad; catalogue by Muzeul Național de Istorie a României",
+      "inventory": "1263",
+      "cataloguer": "Fornea Valentina",
+      "url": "https://mvu.ro/product/afisul-prezinta-decretul-3179-din-27-octombrie-emis-de-regele-ferdinand-prin-care-a-proclamat-mobilizarea-generala-a-armatei-romane/",
+      "image": "experiments/nov10_joint_completion/sources/romanian_mobilisation_1263.jpg",
+      "visually_checked": "Printed decree3179; signature Iași27 October1918; first mobilisation day28 October1918 (10 November).",
+      "cipher_inference": "If p180 B2 names this decree, XA=9; the hour9 is consequent, not independently dated by the poster."
+    },
+    {
+      "id": "army_number_inventory",
+      "institution": "Bundesarchiv",
+      "author": "Frank Anton",
+      "title": "Armeen, Armeekorps und Divisionen der Preußischen Armee im Ersten Weltkrieg",
+      "revision": "February2026",
+      "url": "https://www.bundesarchiv.de/im-archiv-recherchieren/archivgut-recherchieren/nach-themen/armeen-armeekorps-und-divisionen-der-preussischen-armee-im-ersten-weltkrieg/",
+      "locator": "Einführende Informationen, army-HQ enumeration",
+      "observation": "First World War army headquarters1–19, except13,15,16, plus named headquarters.",
+      "cipher_inference": "After XX6 and unordered217/219, the native p183 final AOK1? has5/8 remaining; if it names an accurate numbered army HQ, choose18."
+    },
+    {
+      "id": "formation_set",
+      "dependency": "data/reviews/p176b_unit_context.json",
+      "primary_document": "Franchet d’Esperey, telegram5956/3,19 November1918, describing11 November situation; printed pp79–80 in Documents diplomatiques français sur l’histoire du bassin des Carpates, vol.I (1993).",
+      "url": "https://real-eod.mtak.hu/19844/13/documents.pdf",
+      "visually_checked": "The retrieved page79 names217,219,6 reserve under the German11th Army.",
+      "cipher_inference": "Supports the earlier contextual unit set; does not select its order in p176b."
+    }
+  ]
+}

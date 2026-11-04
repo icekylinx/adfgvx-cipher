@@ -1,0 +1,250 @@
+{
+  "schema": "adfgvx-late-place-comparison-certificate-v1",
+  "authors": "icekylinx and GPT-6 Astra Pro",
+  "input_sha256": "51e7b760415dd6e7401578daa6c4fa46025e43782c162de6e6810783b3a3ec60",
+  "indexing": "Zero-based plaintext and source positions.",
+  "grosswardein": {
+    "id": "p226_A2",
+    "native_plaintext": "?DEZGROSSW0RDEINYYDNZWUEBERNIMMTVERKAHRFUEROKMSCHWEREX9RUFZYNATANADOLFUR?UL?YINGRO?SVARDEINYY",
+    "prior_edition": "?DEZGROSSW0RDEINYYDNZWUEBERNIMMTVERKEHRFUEROKMSCHWEREX9RUFZYNATANADOLFURSULAYINGROSSVARDEINYY",
+    "proposed_baseline": "?DEZGROSSWARDEINYYDNZWUEBERNIMMTVERKEHRFUEROKMSCHWEREX9RUFZYNATANADOLFURSULAYINGROSSVARDEINYY",
+    "edited_ciphertext": "XFVGDXVVVAFVVFVVVVVFGXF?VXAVDGDGVFAXFGGDDFXDDVXVVXXDXGVDFVDFFXVXDGFFVVGAFVGFDFGFADFFFFAXFGVGFXAXGFDFFXVVFXXAAAXVDDDVGFXVADAGGXVXDVDFFVXFDGFFAXFGFXDVVDFXAVVVXDVFDFVVFFXDVADVXAAFVFVXVFGAGA",
+    "new_change": {
+      "source_index": 81,
+      "from": "G",
+      "to": "D"
+    },
+    "native_A_support": {
+      "plaintext_index": 85,
+      "pair": "VD",
+      "source_indices": [
+        57,
+        149
+      ]
+    },
+    "native_W": {
+      "plaintext_index": 9,
+      "source_indices": [
+        151,
+        105
+      ],
+      "pair": "XX",
+      "domain": "W"
+    },
+    "retained_V": {
+      "plaintext_index": 84,
+      "source_indices": [
+        184,
+        126
+      ],
+      "pair": "GV",
+      "domain": "V"
+    },
+    "fixed_baseline_before": 92,
+    "fixed_baseline_after": 92,
+    "positions": 93,
+    "baseline_cost": {
+      "observed_substitutions": [
+        {
+          "source_index": 81,
+          "from": "G",
+          "to": "D"
+        },
+        {
+          "source_index": 120,
+          "from": "D",
+          "to": "A"
+        }
+      ],
+      "source_mask_fills": [
+        {
+          "source_index": 21,
+          "literal": "-",
+          "to": "X"
+        },
+        {
+          "source_index": 32,
+          "literal": "-",
+          "to": "V"
+        },
+        {
+          "source_index": 171,
+          "literal": "-",
+          "to": "V"
+        }
+      ]
+    },
+    "remaining_mask_witnesses": [
+      {
+        "source23": "A",
+        "first_label": "1"
+      },
+      {
+        "source23": "D",
+        "first_label": "U"
+      },
+      {
+        "source23": "F",
+        "first_label": "D"
+      },
+      {
+        "source23": "G",
+        "first_label": "N"
+      },
+      {
+        "source23": "V",
+        "first_label": "I"
+      },
+      {
+        "source23": "X",
+        "first_label": "3"
+      }
+    ],
+    "dated_ciphertext": "XFVGDXVVVAFVVFVVVVVFGXFXVXAVDGDGVFAXFGGDDFXDDVXVVXXDXGVDFVDFFXVXDGFFVVGAFVGFDFGFADFFFFAXFGVGFXAXGFDFFXVVFXXAAAXVDDDVGFXVADAGGXVXDVDFFVXFDGFFAXFGFXDVVDFXAVVVXDVFDFVVFFXDVADVXAAFVFVXVFGAGA",
+    "conditional_common": "?DEZGROSSWARDEINXXDNZWUEBERNIMMTVERKEHRFUEROKMSCHWERE1?RUFZXNATANADOLFURSULAXINGROSSVARDEINXX",
+    "conditional_fixed": 91,
+    "date_branches": [
+      {
+        "square": "Y63GPX9OQHF4JUDNI508TLV1EAR72ZBKMCSW",
+        "plaintext": "5DEZGROSSWARDEINXXDNZWUEBERNIMMTVERKEHRFUEROKMSCHWERE14RUFZXNATANADOLFURSULAXINGROSSVARDEINXX",
+        "date": "5",
+        "schwere": "14"
+      },
+      {
+        "square": "Y63GPX9OQHF5JUDNI408TLV1EAR72ZBKMCSW",
+        "plaintext": "4DEZGROSSWARDEINXXDNZWUEBERNIMMTVERKEHRFUEROKMSCHWERE15RUFZXNATANADOLFURSULAXINGROSSVARDEINXX",
+        "date": "4",
+        "schwere": "15"
+      }
+    ],
+    "dated_cost": {
+      "observed_substitutions": [
+        {
+          "source_index": 81,
+          "from": "G",
+          "to": "D"
+        },
+        {
+          "source_index": 120,
+          "from": "D",
+          "to": "A"
+        }
+      ],
+      "source_mask_fills": [
+        {
+          "source_index": 21,
+          "literal": "-",
+          "to": "X"
+        },
+        {
+          "source_index": 23,
+          "literal": "-",
+          "to": "X"
+        },
+        {
+          "source_index": 32,
+          "literal": "-",
+          "to": "V"
+        },
+        {
+          "source_index": 171,
+          "literal": "-",
+          "to": "V"
+        }
+      ]
+    }
+  },
+  "poestyen": {
+    "id": "p217_A3",
+    "native_plaintext": "INGESTRIGEMRAUMVERBLIEBENXAOKXSZOLNOKXYXBATLXRIRJYIMPOEST4ENEINGETROFFENXVERBLEIBDERBE6DEDENANDERENBTLNEUNBEKANNTX",
+    "baseline_word": "POEST4EN",
+    "interpreted_word": "POESTYEN",
+    "native_Y_pair": {
+      "plaintext_index": 57,
+      "source_indices": [
+        139,
+        222
+      ],
+      "pair": "DD",
+      "domain": "4"
+    },
+    "new_coordinate_changes": 0,
+    "new_key_assignments": 0,
+    "new_fixed_positions": 0,
+    "assignment_dependency": "experiments/p215_hungarian_y/inputs.json"
+  },
+  "historical_sources": {
+    "grosswardein": {
+      "title": "Bácskaer Volkszeitung, no. 31, Palanka, 3 August 1913; scan title: IX Jahrgang",
+      "url": "https://epa.oszk.hu/05600/05686/00377/pdf/EPA05686_bacskaer_volkszeitung_1913_031.pdf",
+      "pdf_bytes": 4373448,
+      "pdf_sha256": "266a1cc4d733495638f326bae625fa729b4be3c7db79337cfc2714483cda926e",
+      "regions": [
+        {
+          "pdf_page_1based": 1,
+          "crop_pdf_points": [
+            75,
+            125,
+            708,
+            305
+          ],
+          "render_scale": 2,
+          "width": 1266,
+          "height": 360,
+          "rgb_sha256": "437e4452509887eaf8f2e06518baa48ac5d0649f11bde6157a6a803c0c7a737b",
+          "note": "Title, date and issue."
+        },
+        {
+          "pdf_page_1based": 2,
+          "crop_pdf_points": [
+            305,
+            275,
+            512,
+            330
+          ],
+          "render_scale": 3,
+          "width": 621,
+          "height": 165,
+          "rgb_sha256": "db01a3afff388e3114f420f07fec21f12e10033386015cd1a3cee41d6dfc0970",
+          "note": "Grosswardein spelling in the continuation of Die Baronesse als Kellnerin."
+        }
+      ]
+    },
+    "poestyen": {
+      "title": "Hamburgischer Correspondent, 22 November 1918, morning issue; Zweites Blatt, Seite 2 (PDF page 7)",
+      "url": "https://img.sub.uni-hamburg.de/kitodo/PPN689065248_19181122/PDF/PPN689065248_19181122.pdf",
+      "pdf_bytes": 22391008,
+      "pdf_sha256": "c107903cb3097727144586daa2064d4c6e5e15750f8f7e18801dd23d52c80d40",
+      "regions": [
+        {
+          "pdf_page_1based": 7,
+          "crop_pdf_points": [
+            10,
+            10,
+            1190,
+            110
+          ],
+          "render_scale": 2,
+          "width": 2360,
+          "height": 200,
+          "rgb_sha256": "aba48dcf4ea32a8cc4dfc577d9bc0266a7db20c5c1fc9d95b88b63862eaef7bd",
+          "note": "Page header and date."
+        },
+        {
+          "pdf_page_1based": 7,
+          "crop_pdf_points": [
+            14,
+            490,
+            400,
+            605
+          ],
+          "render_scale": 3,
+          "width": 1158,
+          "height": 345,
+          "rgb_sha256": "3cac72a2f28e1026fd11d2375ddc92bdc233d80552f195c72bb2a477bb6577bd",
+          "note": "Wie die Tschechen hausen, Budapest 21 November; reports a Pester Lloyd account naming Poestyen."
+        }
+      ]
+    }
+  }
+}

@@ -13,6 +13,26 @@ complete German reconstruction, two explicit short-group insertions,
 fourteen known-coordinate repairs, and re-encryption certificates. It
 does not claim a new body discovery.
 
+## Conditional shared digits
+
+The final part gains **OP1A944** and **Admiralstab 18340**, fixing **161/161 labels** with its two existing coordinate repairs. The literal spelling WASZER is retained. The [joint reconstruction](../../experiments/nov10_joint_completion/README.md) combines the earlier Marineamt and formation interpretations with the army-number constraint and the mobilization decree; the reversed 7/9 assignment is retained there.
+
+**Conditional interpretation — readable German under the joint square:**
+
+> Genehmigung zum Befahren neutraler Hoheitsgewaesser ueber Waszer ist bei neutralen Regierungen erbeten. 3. Empfangsbestaetigungen. Admiral G G. OP1A944. Admiralstab 18340 zwei.
+
+<details>
+<summary>Exact conditional labels</summary>
+
+**Edited output — p178_A5, conditional shared square; 161/161 fixed positions:**
+
+```text
+XGENEHMIGUNGZUMBEFAHRENNEUTRALERHOHEITSGEWAESSERUEBERWASZERISTBEINEUTRALENREGIERUNGENERBETENXX3XXEMPFANGSBESTAETIGUNGENXADMIRALXGGXXOP1A944XXADMIRALSTAB18340ZWEI
+```
+
+</details>
+
+
 ## Most likely reading
 
 **Readable German — under the stated per-part reconstruction:**

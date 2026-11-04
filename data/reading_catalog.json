@@ -44,7 +44,7 @@
       "id": "p132",
       "label": "p132",
       "subject": "Repeat-transmission instructions for Eilvese",
-      "status": "75/77 fixed labels under a conditional extra-interim-V model; four equivalent positions; 3 substitutions and 2 source-erasure fills",
+      "status": "75/77 fixed labels under a conditional extra-interim-V model; four equivalent positions; 3 substitutions and 2 source-erasure fills; optional Rohdewald spelling adds four observed substitutions, retaining KOSJOII and the footer",
       "credit": "Thomas (fragment), Norbert (body and VORHER alternative), and Max Baertl (editorial proposal), 2017; source and arithmetic review by icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/p132.md",
       "prior_reading_credit": "Thomas (fragment) and Norbert (body), 2017",
@@ -54,7 +54,9 @@
         "experiments/november_radio_service/geometry_audit.json",
         "data/messages.json",
         "data/prior_readings.json",
-        "data/certificates/editorial_readings.json"
+        "data/certificates/editorial_readings.json",
+        "experiments/p132_rohdewald_name/inputs.json",
+        "experiments/p132_rohdewald_name/certificate.json"
       ],
       "evidence_record_ids": {
         "experiments/november_radio_service/inputs.json": "p132_B",
@@ -164,7 +166,11 @@
       "status": "Prior contextual reading; constraint audit",
       "credit": "Prinz and GPT-6 Astra (2026)",
       "path": "cases/p176b.md",
-      "state": "PARTIAL"
+      "state": "PARTIAL",
+      "evidence": [
+        "experiments/nov10_joint_completion/inputs.json",
+        "experiments/nov10_joint_completion/certificates.json"
+      ]
     },
     {
       "id": "p187",
@@ -956,12 +962,14 @@
       "printed_page": 172,
       "source_section": "B",
       "subject": "Immediate radio-listening instruction",
-      "status": "Identical to p174 D; hundreds digit remains 5-9",
+      "status": "Identical to p174 D; hundreds digit remains 5-9; conditional shared digits: 20/20 labels; earlier source repairs retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/radio/seifert.md",
       "source_reviewed": true,
       "evidence": [
-        "experiments/p170_continuation/seifert_records.json"
+        "experiments/p170_continuation/seifert_records.json",
+        "experiments/nov10_joint_completion/inputs.json",
+        "experiments/nov10_joint_completion/certificates.json"
       ],
       "state": "PARTIAL"
     },
@@ -1001,12 +1009,14 @@
       "printed_page": 174,
       "source_section": "D",
       "subject": "Repeated immediate listening instruction",
-      "status": "Identical to p172 B; no digit inferred from repetition",
+      "status": "Identical to p172 B; no digit inferred from repetition; conditional shared digits: 20/20 labels; earlier source repairs retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/radio/seifert.md",
       "source_reviewed": true,
       "evidence": [
-        "experiments/p170_continuation/seifert_records.json"
+        "experiments/p170_continuation/seifert_records.json",
+        "experiments/nov10_joint_completion/inputs.json",
+        "experiments/nov10_joint_completion/certificates.json"
       ],
       "state": "PARTIAL"
     },
@@ -1061,13 +1071,15 @@
       "label": "p185 D",
       "printed_page": 185,
       "source_section": "D",
-      "subject": "Movement via DHFN and readiness instruction",
-      "status": "91/99 positions under an unproved five-loss geometry",
+      "subject": "Truck movement and readiness to depart via DHFN",
+      "status": "95/99 conditional word edition; truck and readiness clause restored at three observed substitutions, one printed-glyph fill and two missing-slot fills; five-slot gap and closing command unresolved",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
-      "path": "cases/context/transport.md#p185-d-source-and-gap-model",
+      "path": "cases/context/transport.md#truck-movement-and-readiness",
       "source_reviewed": true,
       "evidence": [
-        "data/certificates/p185_D_transport.json"
+        "data/certificates/p185_D_transport.json",
+        "experiments/p185_readiness_completion/inputs.json",
+        "experiments/p185_readiness_completion/certificate.json"
       ],
       "state": "CONDITIONAL"
     },
@@ -2281,14 +2293,18 @@
       "label": "p217 A3",
       "printed_page": 217,
       "source_section": "A3",
-      "subject": "Army headquarters at Szolnok; battalions apparently misdirected",
-      "status": "114/114 baseline positions; place and numerical fields unresolved",
+      "subject": "Headquarters at Szolnok; a battalion at Poestyen",
+      "status": "114/114 baseline labels; Poestyen under the earlier shared Y interpretation, with contemporary occupation-context witness; other fields remain damaged",
       "credit": "icekylinx and GPT-6 Astra Pro (2026)",
       "path": "cases/military/p217_A.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/operational_recovery/inputs.json",
-        "experiments/operational_recovery/certificates.json"
+        "experiments/operational_recovery/certificates.json",
+        "experiments/late_place_comparison/inputs.json",
+        "experiments/late_place_comparison/certificate.json",
+        "experiments/p215_hungarian_y/inputs.json",
+        "experiments/p215_hungarian_y/certificates.json"
       ],
       "state": "PARTIAL"
     },
@@ -2707,13 +2723,15 @@
       "printed_page": 178,
       "source_section": "Five-part naval order, 5 TL",
       "subject": "Requested passage through neutral waters and receipt acknowledgments",
-      "status": "Prior body; 158/161 raw; two distinct unresolved reference digits",
+      "status": "Prior body; 158/161 raw; two distinct unresolved reference digits; conditional shared digits: 161/161 labels; earlier source repairs retained",
       "credit": "Lasry, Niebel, Kopal and Wacker (2016/2017); source edition: icekylinx and GPT-6 Astra Pro",
       "path": "cases/naval/naval_armistice_order.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/naval_armistice_order/inputs.json",
-        "experiments/naval_armistice_order/certificates.json"
+        "experiments/naval_armistice_order/certificates.json",
+        "experiments/nov10_joint_completion/inputs.json",
+        "experiments/nov10_joint_completion/certificates.json"
       ],
       "state": "PARTIAL"
     },
@@ -3001,13 +3019,15 @@
       "printed_page": 173,
       "source_section": "A1",
       "subject": "Corcovado already has a Turkish crew; Mediterranean Division no longer in Nikolaev",
-      "status": "119/121 raw; six ordinary-word coordinate changes; office digit separately conditional; reference tail unresolved",
+      "status": "119/121 raw; six ordinary-word coordinate changes; office digit separately conditional; reference tail unresolved; conditional shared digits: 121/121 labels; earlier source repairs retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published period keys credited separately",
       "path": "cases/naval/corcovado_sale_terms.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/corcovado_sale_terms/inputs.json",
-        "experiments/corcovado_sale_terms/certificates.json"
+        "experiments/corcovado_sale_terms/certificates.json",
+        "experiments/nov10_joint_completion/inputs.json",
+        "experiments/nov10_joint_completion/certificates.json"
       ],
       "state": "CONDITIONAL"
     },
@@ -3101,13 +3121,15 @@
       "printed_page": 177,
       "source_section": "B3",
       "subject": "Authorization required before sale; GENERAL 1200 marks and proposed KERKYRA 1000 marks per gross register ton",
-      "status": "183/187 raw; four coordinate repairs; office/reference digits separately conditional",
+      "status": "183/187 raw; four coordinate repairs; office/reference digits separately conditional; conditional shared digits: 187/187 labels; earlier source repairs retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key credited separately",
       "path": "cases/naval/turkish_tonnage.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/turkish_tonnage/inputs.json",
-        "experiments/turkish_tonnage/certificates.json"
+        "experiments/turkish_tonnage/certificates.json",
+        "experiments/nov10_joint_completion/inputs.json",
+        "experiments/nov10_joint_completion/certificates.json"
       ],
       "state": "CONDITIONAL"
     },
@@ -4982,13 +5004,15 @@
       "printed_page": 179,
       "source_section": "A",
       "subject": "Equipment transfer east of the Rhine while maintaining radio operation",
-      "status": "Printed cancellation excludes five observed coordinates from 271 to 266; seven additional substitutions; 130/133 fixed labels",
+      "status": "Printed cancellation excludes five observed coordinates from 271 to 266; seven additional substitutions; 130/133 fixed labels; conditional shared digits: 133/133 labels; earlier source repairs retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period keys and earlier unreviewed B/C/D2 body candidates distinguished",
       "path": "cases/radio/right_rhine_equipment.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/november_armistice_orders/inputs.json",
-        "experiments/november_armistice_orders/certificates.json"
+        "experiments/november_armistice_orders/certificates.json",
+        "experiments/nov10_joint_completion/inputs.json",
+        "experiments/nov10_joint_completion/certificates.json"
       ],
       "state": "CONDITIONAL"
     },
@@ -4998,13 +5022,15 @@
       "printed_page": 179,
       "source_section": "B",
       "subject": "Citadel resistance to cease; surrender terms to be set there",
-      "status": "Exact 158-coordinate source; one word substitution; 76/79 labels and unresolved reference retained",
+      "status": "Exact 158-coordinate source; one word substitution; 76/79 labels and unresolved reference retained; conditional shared digits: 79/79 labels; earlier source repairs retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); prior Lasry et al. period keys and earlier unreviewed B/C/D2 body candidates distinguished",
       "path": "cases/military/armistice_and_leave_orders.md",
       "source_reviewed": true,
       "evidence": [
         "experiments/november_armistice_orders/inputs.json",
-        "experiments/november_armistice_orders/certificates.json"
+        "experiments/november_armistice_orders/certificates.json",
+        "experiments/nov10_joint_completion/inputs.json",
+        "experiments/nov10_joint_completion/certificates.json"
       ],
       "state": "PARTIAL"
     },
@@ -6133,13 +6159,15 @@
       "printed_page": 175,
       "source_section": "A2",
       "subject": "Berlin onward journey and an unresolved departure-time digit",
-      "status": "Prior Lasry body; one coordinate repair; time domain 56789 retained",
+      "status": "Prior Lasry body; one coordinate repair; time domain 56789 retained; conditional shared digits: 52/52 labels; earlier source repairs retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; Lasry et al. 2016 §6.4 prior body and interpretation",
       "path": "cases/people/spa_berlin_delegates.md#p175-a2",
       "source_reviewed": true,
       "evidence": [
         "experiments/nov10_delegates_and_field_report/inputs.json",
-        "experiments/nov10_delegates_and_field_report/certificates.json"
+        "experiments/nov10_delegates_and_field_report/certificates.json",
+        "experiments/nov10_joint_completion/inputs.json",
+        "experiments/nov10_joint_completion/certificates.json"
       ],
       "state": "PARTIAL"
     },
@@ -6229,13 +6257,15 @@
       "printed_page": 175,
       "source_section": "C2",
       "subject": "Lay down arms or evacuate; reported Danube crossing near Rustschuk",
-      "status": "One coordinate substitution; repeated unknown time cell retained",
+      "status": "One coordinate substitution; repeated unknown time cell retained; conditional shared digits: 104/104 labels; earlier source repairs retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published Nov10–12 key; earlier unreviewed candidate distinguished; existing p176a Norbert/Max credit retained",
       "path": "cases/military/romanian_ultimatum_companions.md#p175-c2",
       "source_reviewed": true,
       "evidence": [
         "experiments/romanian_ultimatum_companions/inputs.json",
-        "experiments/romanian_ultimatum_companions/certificates.json"
+        "experiments/romanian_ultimatum_companions/certificates.json",
+        "experiments/nov10_joint_completion/inputs.json",
+        "experiments/nov10_joint_completion/certificates.json"
       ],
       "state": "PARTIAL"
     },
@@ -9170,8 +9200,8 @@
       "label": "p226 A2",
       "printed_page": 226,
       "source_section": "A2",
-      "subject": "Second-part report of a radio-traffic transfer",
-      "status": "Native 186-slot frame; optional December-day interpretation costs one substitution and four source-mask fills; coupled 4/5 date, station and hour branches both retained",
+      "subject": "Radio-traffic transfer at Grosswardein",
+      "status": "Grosswardein word repair; two observed substitutions and four fills with the existing calendar interpretation; 4 December/SCHWERE15 or 5 December/SCHWERE14 retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained",
       "path": "cases/radio/radio_traffic_transfer_fragment.md#p226-a2",
       "source_reviewed": true,
@@ -9179,7 +9209,9 @@
         "experiments/radio_traffic_transfer_fragment/inputs.json",
         "experiments/radio_traffic_transfer_fragment/certificates.json",
         "experiments/late_november_calendar_and_units/additional_traffic.json",
-        "experiments/late_november_calendar_and_units/traffic_certificate.json"
+        "experiments/late_november_calendar_and_units/traffic_certificate.json",
+        "experiments/late_place_comparison/inputs.json",
+        "experiments/late_place_comparison/certificate.json"
       ],
       "state": "CONDITIONAL"
     },
@@ -9316,14 +9348,18 @@
       "label": "p183 F",
       "printed_page": 183,
       "source_section": "F",
-      "subject": "An accommodation-area report for a German Jaeger division",
-      "status": "Native 230-slot frame; 1 observed-coordinate substitution and 2 source-mask fills; literal fields retained",
+      "subject": "An accommodation-area report around Vierset-Barse and Soheit",
+      "status": "Native 230-slot frame; 1 observed-coordinate substitution and 2 source-mask fills; literal fields retained; conditional shared digits: 115/115 labels; earlier source repairs retained; Vierset-Barse word correction adds one observed substitution, independently of the numerals",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key; earlier repository evidence retained",
       "path": "cases/military/jaeger_accommodation_area.md#p183-f",
       "source_reviewed": true,
       "evidence": [
         "experiments/jaeger_accommodation_area/inputs.json",
-        "experiments/jaeger_accommodation_area/certificates.json"
+        "experiments/jaeger_accommodation_area/certificates.json",
+        "experiments/nov10_joint_completion/inputs.json",
+        "experiments/nov10_joint_completion/certificates.json",
+        "experiments/p183_vierset_place/inputs.json",
+        "experiments/p183_vierset_place/certificate.json"
       ],
       "state": "PARTIAL"
     },
@@ -10311,13 +10347,15 @@
       "printed_page": 180,
       "source_section": "B2",
       "subject": "Romanian mobilization and a crossing report",
-      "status": "235 native slots; source-located conditional five-slot tail; 4 observed substitutions, 1 source-mask fill and 4 tail fills; four plaintext positions remain unresolved",
+      "status": "235 native slots; source-located conditional five-slot tail; 4 observed substitutions, 1 source-mask fill and 4 tail fills; four plaintext positions remain unresolved; conditional shared digits: 118/120 labels; earlier source repairs retained",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published period key and prior native/tail trials retained",
       "path": "cases/military/nov11_romanian_mobilization_report.md#p180-b2",
       "source_reviewed": true,
       "evidence": [
         "experiments/nov11_romanian_mobilization_report/inputs.json",
-        "experiments/nov11_romanian_mobilization_report/certificates.json"
+        "experiments/nov11_romanian_mobilization_report/certificates.json",
+        "experiments/nov10_joint_completion/inputs.json",
+        "experiments/nov10_joint_completion/certificates.json"
       ],
       "state": "CONDITIONAL"
     },

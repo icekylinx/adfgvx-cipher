@@ -20,6 +20,26 @@ in progress. A later part discusses sending messages and material first
 to Hermannstadt. These are statements in the intercepted report, not
 independent confirmation of the events or their timing.
 
+## Conditional shared digits
+
+The two unknown positions in the crossing report use the same cell and both become **7**, taking the edited part to **104/104 labels**. The literal sequence remains **7 X 7 X VORM**; its exact time notation is unresolved. The earlier one-coordinate word repair is retained. The [joint reconstruction](../../experiments/nov10_joint_completion/README.md) combines the earlier Marineamt and formation interpretations with the army-number constraint and the mobilization decree; the reversed 7/9 assignment is retained there.
+
+**Conditional interpretation — readable German under the joint square:**
+
+> … oder Waffen niederzulegen. Franzosen haben heute 7 7 vorm. mit Donauuebergang bei Rustschuk begonnen. Kampf im Gange.
+
+<details>
+<summary>Exact conditional labels</summary>
+
+**Edited output — p175_C2, conditional shared square; 104/104 fixed positions:**
+
+```text
+ODERWAFFENNIEDERZULEGENXFRANZOSENHABENHEUTE7X7XVORMXMITDONAUUEBERGANGBEIXRUSTSCHUKBEGONNENXKAMPFIMGANGEX
+```
+
+</details>
+
+
 ## p175 C1
 
 The [first-part source](../../experiments/romanian_ultimatum_companions/sources/p175_C1.png)

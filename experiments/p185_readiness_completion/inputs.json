@@ -1,0 +1,89 @@
+{
+  "schema": "adfgvx-p185-readiness-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "record": "p185_D",
+  "source_certificate": "data/certificates/p185_D_transport.json",
+  "key_id": "Nov13-15b",
+  "retained_gap": 55,
+  "expected_raw": "STATMETXMARSCHIERTLCST?UT?SMORGEN1500UEBERDHFNXAB?A6SCHBE?EITSEIN?VS6GROV?AN?IERE?XBITTEF6EXSEIFERT",
+  "expected_edition": "STATMETXMARSCHIERTLASTAUTOSMORGEN1500UEBERDHFNXABMARSCHBEREITSEIN?VS6GROV?AN?IERE?XBITTEF6EXSEIFERT",
+  "phrases": [
+    {
+      "start": 18,
+      "before": "LCST?UT?S",
+      "after": "LASTAUTOS"
+    },
+    {
+      "start": 47,
+      "before": "AB?A6SCHBE?EITSEIN",
+      "after": "ABMARSCHBEREITSEIN"
+    }
+  ],
+  "body_stencil": "????????MARSCHIERTLASTAUTOSMORGEN????UEBERDHFNXABMARSCHBEREITSEIN??????????????????????????????????",
+  "expected_body_minimum": 3,
+  "expected_tied_gaps": [
+    52,
+    53,
+    54,
+    55
+  ],
+  "source_substitutions": [
+    {
+      "source_index": 146,
+      "before": "G",
+      "after": "V"
+    },
+    {
+      "source_index": 183,
+      "before": "X",
+      "after": "V"
+    },
+    {
+      "source_index": 187,
+      "before": "G",
+      "after": "F"
+    }
+  ],
+  "printed_glyph_fills": [
+    {
+      "source_index": 159,
+      "literal": "Y",
+      "after": "X"
+    }
+  ],
+  "inserted_slot_fills": [
+    {
+      "model_index": 55,
+      "after": "A"
+    },
+    {
+      "model_index": 56,
+      "after": "F"
+    }
+  ],
+  "source_visual_review": {
+    "image": "sources/excerpts/childs_p185_D.png",
+    "original_pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+    "pdf_page_1based": 188,
+    "description": "The original full page and enlarged D block retain G at146 (AGGFV), Y at159 (ADVDY), X at183 (FXGXA) and G at187 (DAGXG). The three substitutions and Y fill are editorial, not retranscriptions."
+  },
+  "readable_excerpt": "[\u2026] marschiert Lastautos morgen 1500 ueber DHFN. Abmarschbereit sein. [\u2026] Seifert.",
+  "case": "cases/context/transport.md",
+  "dependencies": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "data/certificates/p185_D_transport.json": "4d2ec54fa8a8fa1d7b2a902519e05ee94d4894ef4cc9a44510acfbc11aabc926",
+    "experiments/nov14_15_departure_and_supper/inputs.json": "f93a121d79da510a7c7a173c67f7a3ebc1b0dea1922d1b0271cb2e28ac5881ca",
+    "experiments/nov14_15_departure_and_supper/certificates.json": "f80bdf140e9bb3b9568f46fa8284f4ea7d166d72c9b4192d9eebbb1225197894",
+    "sources/excerpts/childs_p185_D.png": "e7f75dfe3a48e3eefc8aa939a1449c73e38dee5ef8a34a16e40634ae1c642e82"
+  },
+  "limits": [
+    "The text is an ordinary-word reconstruction under the existing five-coordinate-loss model.",
+    "The lexical stencil retains four equally priced gap positions; it does not establish a unique historical geometry.",
+    "The source labels1500, STATMET, DHFN and the damaged closing instruction remain literal.",
+    "The source witnesses establish vocabulary, not identity of the messages or execution of the movement.",
+    "The published square is unchanged; no numerical or unknown-cell assignment is needed."
+  ]
+}

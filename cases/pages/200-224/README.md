@@ -178,7 +178,7 @@ This range contains 121 sources, including 0 OPEN. [Reading states](../../../doc
 |---|---|---|
 | [p217 A1](../../military/p217_A.md) | READING | Scholtz divisions march into the assembly area |
 | [p217 A2](../../military/p217_A.md) | READING | Coal shortages stop transport; troop locations near Oroshaza |
-| [p217 A3](../../military/p217_A.md) | PARTIAL | Army headquarters at Szolnok; battalions apparently misdirected |
+| [p217 A3](../../military/p217_A.md) | PARTIAL | Headquarters at Szolnok; a battalion at Poestyen |
 | [p217 A4](../../military/p217_A.md) | READING | Czechs demand disarmament before troop transit |
 | [p217 A5](../../military/p217_A.md) | PARTIAL | Massow in Budapest asked to clarify transit and disarmament |
 | [p217 B1](../../military/nov24_train_report.md#p217-b1) | CONDITIONAL | Additional train departures and divisional positions in a conditional evening report |

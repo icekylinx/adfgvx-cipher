@@ -20,7 +20,7 @@ This range contains 29 sources, including 0 OPEN. [Reading states](../../../docs
 
 | Source | State | Subject |
 |---|---|---|
-| [p226 A2](../../radio/radio_traffic_transfer_fragment.md#p226-a2) | CONDITIONAL | Second-part report of a radio-traffic transfer |
+| [p226 A2](../../radio/radio_traffic_transfer_fragment.md#p226-a2) | CONDITIONAL | Radio-traffic transfer at Grosswardein |
 | [p226 B2](../../radio/late_november_cipher_instructions.md) | READING | Numerical sequences read backward; missing first part |
 | [p226 C1](../../military/mackensen_internment.md) | READING | Mackensen internment: Entente demands and withdrawal assurances |
 | [p226 C2](../../military/mackensen_internment.md) | READING | Internment explained as a response to continued marching orders |

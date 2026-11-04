@@ -1,0 +1,1143 @@
+{
+  "schema": "nov10-joint-context-v1",
+  "selected_assignment": {
+    "FD": "5",
+    "GF": "7",
+    "XA": "9",
+    "XG": "8",
+    "XX": "6"
+  },
+  "selected_square": "4ARUT1OIFSKN35BZPVLD7JMXCWHQ2E9G08Y6",
+  "prior_unit_order_assignment": {
+    "FD": "5",
+    "GF": "9",
+    "XA": "7",
+    "XG": "8",
+    "XX": "6"
+  },
+  "prior_unit_order_square": "4ARUT1OIFSKN35BZPVLD9JMXCWHQ2E7G08Y6",
+  "completion_counts": {
+    "all": 120,
+    "office_XX6": 24,
+    "unordered_unit_set": 4,
+    "army_number": 2,
+    "mobilisation_date": 1
+  },
+  "p176b_prior_layer": {
+    "previous_fixed": 117,
+    "positions": 120,
+    "retained_added_fills": 20,
+    "new_source_edits": 0,
+    "native_anchors": [
+      {
+        "position": 55,
+        "pair": "XA",
+        "source_indices": [
+          6,
+          51
+        ],
+        "domain": "56789"
+      },
+      {
+        "position": 59,
+        "pair": "GF",
+        "source_indices": [
+          212,
+          82
+        ],
+        "domain": "56789"
+      },
+      {
+        "position": 61,
+        "pair": "XX",
+        "source_indices": [
+          142,
+          197
+        ],
+        "domain": "56789"
+      }
+    ],
+    "selected": "ANXOXHXLXX11XARMEEXALPENKORPSRAUMXPETERREVEXVERBASZXX219X217X6XRDDXLINIEXNAGYBESSKEREKXVERSECZXVERSECZXVONSERBENBESETZTX",
+    "prior_order": "ANXOXHXLXX11XARMEEXALPENKORPSRAUMXPETERREVEXVERBASZXX217X219X6XRDDXLINIEXNAGYBESSKEREKXVERSECZXVERSECZXVONSERBENBESETZTX",
+    "new_positions_counted": 0,
+    "credit": "Prinz and GPT-6 Astra, 2026-09-19; historical unit set remains attributed."
+  },
+  "records": [
+    {
+      "id": "p172_B",
+      "inputs": "experiments/p170_continuation/seifert_records.json",
+      "certificate": "experiments/p170_continuation/seifert_records.json",
+      "previous_assignment": {},
+      "previous_plaintext": "SOFORTXUSX?00XHOEREN",
+      "selected_plaintext": "SOFORTXUSX500XHOEREN",
+      "prior_order_plaintext": "SOFORTXUSX500XHOEREN",
+      "positions": 20,
+      "fixed_before": 19,
+      "fixed_after": 20,
+      "gains": [
+        {
+          "position": 10,
+          "pair": "FD",
+          "source_indices": [
+            5,
+            18
+          ],
+          "domain": "56789",
+          "selected": "5",
+          "prior_order": "5",
+          "tier": "unit_set_and_army_number",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "old_observed_substitutions": [],
+      "old_printed_mask_fills": [],
+      "old_added_coordinate_fills": [],
+      "old_source_exclusions": [],
+      "raw_effects_including_adverse": [
+        {
+          "position": 10,
+          "pair": "FD",
+          "source_indices": [
+            5,
+            18
+          ],
+          "domain": "56789",
+          "selected": "5",
+          "before_context": "SOFORTXUSX?00XHOEREN",
+          "after_context": "SOFORTXUSX500XHOEREN"
+        }
+      ],
+      "source_sha256": "74d8a5f4b4a2f37eb761432944ee8abcb83f8b390da65c8a29ecd2c58da9f411",
+      "additional_observed_substitutions": 0,
+      "additional_source_fills": 0
+    },
+    {
+      "id": "p174_D",
+      "inputs": "experiments/p170_continuation/seifert_records.json",
+      "certificate": "experiments/p170_continuation/seifert_records.json",
+      "previous_assignment": {},
+      "previous_plaintext": "SOFORTXUSX?00XHOEREN",
+      "selected_plaintext": "SOFORTXUSX500XHOEREN",
+      "prior_order_plaintext": "SOFORTXUSX500XHOEREN",
+      "positions": 20,
+      "fixed_before": 19,
+      "fixed_after": 20,
+      "gains": [
+        {
+          "position": 10,
+          "pair": "FD",
+          "source_indices": [
+            5,
+            18
+          ],
+          "domain": "56789",
+          "selected": "5",
+          "prior_order": "5",
+          "tier": "unit_set_and_army_number",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "old_observed_substitutions": [],
+      "old_printed_mask_fills": [],
+      "old_added_coordinate_fills": [],
+      "old_source_exclusions": [],
+      "raw_effects_including_adverse": [
+        {
+          "position": 10,
+          "pair": "FD",
+          "source_indices": [
+            5,
+            18
+          ],
+          "domain": "56789",
+          "selected": "5",
+          "before_context": "SOFORTXUSX?00XHOEREN",
+          "after_context": "SOFORTXUSX500XHOEREN"
+        }
+      ],
+      "source_sha256": "74d8a5f4b4a2f37eb761432944ee8abcb83f8b390da65c8a29ecd2c58da9f411",
+      "additional_observed_substitutions": 0,
+      "additional_source_fills": 0
+    },
+    {
+      "id": "p173_A1",
+      "inputs": "experiments/corcovado_sale_terms/inputs.json",
+      "certificate": "experiments/corcovado_sale_terms/certificates.json",
+      "previous_assignment": {
+        "XX": "6"
+      },
+      "previous_plaintext": "ZUDORTXA6S?24GXGXXMITTELMEERDIVISIONODERVERTRETERNICHTMEHRINNIKOLAJEWXXCORCOVADOFAEHRTBEREITSMITTUERKISCHERBESATZUNGUNTER",
+      "selected_plaintext": "ZUDORTXA6S824GXGXXMITTELMEERDIVISIONODERVERTRETERNICHTMEHRINNIKOLAJEWXXCORCOVADOFAEHRTBEREITSMITTUERKISCHERBESATZUNGUNTER",
+      "prior_order_plaintext": "ZUDORTXA6S824GXGXXMITTELMEERDIVISIONODERVERTRETERNICHTMEHRINNIKOLAJEWXXCORCOVADOFAEHRTBEREITSMITTUERKISCHERBESATZUNGUNTER",
+      "positions": 121,
+      "fixed_before": 120,
+      "fixed_after": 121,
+      "gains": [
+        {
+          "position": 10,
+          "pair": "XG",
+          "source_indices": [
+            31,
+            106
+          ],
+          "domain": "5789",
+          "selected": "8",
+          "prior_order": "8",
+          "tier": "unit_set_and_army_number",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "old_observed_substitutions": [
+        {
+          "source_index": 11,
+          "from": "V",
+          "to": "A"
+        },
+        {
+          "source_index": 12,
+          "from": "D",
+          "to": "V"
+        },
+        {
+          "source_index": 32,
+          "from": "V",
+          "to": "G"
+        },
+        {
+          "source_index": 33,
+          "from": "G",
+          "to": "V"
+        },
+        {
+          "source_index": 136,
+          "from": "G",
+          "to": "A"
+        },
+        {
+          "source_index": 212,
+          "from": "D",
+          "to": "V"
+        }
+      ],
+      "old_printed_mask_fills": [],
+      "old_added_coordinate_fills": [],
+      "old_source_exclusions": [],
+      "raw_effects_including_adverse": [
+        {
+          "position": 8,
+          "pair": "XX",
+          "source_indices": [
+            121,
+            167
+          ],
+          "domain": "56789",
+          "selected": "6",
+          "before_context": "ZUDORDXA?S?24GXGXX2",
+          "after_context": "ZUDORDXA6S824GXGXX2"
+        },
+        {
+          "position": 10,
+          "pair": "XG",
+          "source_indices": [
+            31,
+            106
+          ],
+          "domain": "56789",
+          "selected": "8",
+          "before_context": "ZUDORDXA?S?24GXGXX2IT",
+          "after_context": "ZUDORDXA6S824GXGXX2IT"
+        }
+      ],
+      "source_sha256": "aea21f553486077d86bb14f9689245791395c44a1a3bdae79dc023d777802a19",
+      "additional_observed_substitutions": 0,
+      "additional_source_fills": 0
+    },
+    {
+      "id": "p175_A2",
+      "inputs": "experiments/nov10_delegates_and_field_report/inputs.json",
+      "certificate": "experiments/nov10_delegates_and_field_report/certificates.json",
+      "previous_assignment": {},
+      "previous_plaintext": "DASSWEITERFAHRTNACHBERLINAM11X11X?X03XNACHMXOHLRM4BX",
+      "selected_plaintext": "DASSWEITERFAHRTNACHBERLINAM11X11X5X03XNACHMXOHLRM4BX",
+      "prior_order_plaintext": "DASSWEITERFAHRTNACHBERLINAM11X11X5X03XNACHMXOHLRM4BX",
+      "positions": 52,
+      "fixed_before": 51,
+      "fixed_after": 52,
+      "gains": [
+        {
+          "position": 33,
+          "pair": "FD",
+          "source_indices": [
+            42,
+            69
+          ],
+          "domain": "56789",
+          "selected": "5",
+          "prior_order": "5",
+          "tier": "unit_set_and_army_number",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "old_observed_substitutions": [
+        {
+          "source_index": 70,
+          "from": "D",
+          "to": "F"
+        }
+      ],
+      "old_printed_mask_fills": [],
+      "old_added_coordinate_fills": [],
+      "old_source_exclusions": [],
+      "raw_effects_including_adverse": [
+        {
+          "position": 33,
+          "pair": "FD",
+          "source_indices": [
+            42,
+            69
+          ],
+          "domain": "56789",
+          "selected": "5",
+          "before_context": "INAM11X11X?X03XNACWMX",
+          "after_context": "INAM11X11X5X03XNACWMX"
+        }
+      ],
+      "source_sha256": "ed7bb2db72154ca823b688f4f4d4592a8c1237a35e774f60a1c16ccd1686d131",
+      "additional_observed_substitutions": 0,
+      "additional_source_fills": 0
+    },
+    {
+      "id": "p175_C2",
+      "inputs": "experiments/romanian_ultimatum_companions/inputs.json",
+      "certificate": "experiments/romanian_ultimatum_companions/certificates.json",
+      "previous_assignment": {},
+      "previous_plaintext": "ODERWAFFENNIEDERZULEGENXFRANZOSENHABENHEUTE?X?XVORMXMITDONAUUEBERGANGBEIXRUSTSCHUKBEGONNENXKAMPFIMGANGEX",
+      "selected_plaintext": "ODERWAFFENNIEDERZULEGENXFRANZOSENHABENHEUTE7X7XVORMXMITDONAUUEBERGANGBEIXRUSTSCHUKBEGONNENXKAMPFIMGANGEX",
+      "prior_order_plaintext": "ODERWAFFENNIEDERZULEGENXFRANZOSENHABENHEUTE9X9XVORMXMITDONAUUEBERGANGBEIXRUSTSCHUKBEGONNENXKAMPFIMGANGEX",
+      "positions": 104,
+      "fixed_before": 102,
+      "fixed_after": 104,
+      "gains": [
+        {
+          "position": 43,
+          "pair": "GF",
+          "source_indices": [
+            200,
+            70
+          ],
+          "domain": "56789",
+          "selected": "7",
+          "prior_order": "9",
+          "tier": "mobilisation_date",
+          "both_original_coordinates_observed": true
+        },
+        {
+          "position": 45,
+          "pair": "GF",
+          "source_indices": [
+            122,
+            187
+          ],
+          "domain": "56789",
+          "selected": "7",
+          "prior_order": "9",
+          "tier": "mobilisation_date",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "old_observed_substitutions": [
+        {
+          "source_index": 1,
+          "from": "X",
+          "to": "A"
+        }
+      ],
+      "old_printed_mask_fills": [],
+      "old_added_coordinate_fills": [],
+      "old_source_exclusions": [],
+      "raw_effects_including_adverse": [
+        {
+          "position": 43,
+          "pair": "GF",
+          "source_indices": [
+            200,
+            70
+          ],
+          "domain": "56789",
+          "selected": "7",
+          "before_context": "HABENHEUTE?X?XVORMXMI",
+          "after_context": "HABENHEUTE7X7XVORMXMI"
+        },
+        {
+          "position": 45,
+          "pair": "GF",
+          "source_indices": [
+            122,
+            187
+          ],
+          "domain": "56789",
+          "selected": "7",
+          "before_context": "BENHEUTE?X?XVORMXMITD",
+          "after_context": "BENHEUTE7X7XVORMXMITD"
+        }
+      ],
+      "source_sha256": "1c2af74eaf5200b7a7d0883d96e0dd08054a3a7b0765f7b8bd526c4306936986",
+      "additional_observed_substitutions": 0,
+      "additional_source_fills": 0
+    },
+    {
+      "id": "p177_B3",
+      "inputs": "experiments/turkish_tonnage/inputs.json",
+      "certificate": "experiments/turkish_tonnage/certificates.json",
+      "previous_assignment": {
+        "XX": "6"
+      },
+      "previous_plaintext": "FALLSDORTVERKAUFFUERUNAUFSCHIEBBARANGESEHENWIRDXISTDRAHTLICHZUBERICHTENXVERKAUFTNICHTOHNEGENEHMIGUNGXFORDERUNGGENERAL1200MARKKERKYRATAUSENDMARKFUERBRUTTOREGISTERTONNEXXMARINEAMTXXA6S2264?",
+      "selected_plaintext": "FALLSDORTVERKAUFFUERUNAUFSCHIEBBARANGESEHENWIRDXISTDRAHTLICHZUBERICHTENXVERKAUFTNICHTOHNEGENEHMIGUNGXFORDERUNGGENERAL1200MARKKERKYRATAUSENDMARKFUERBRUTTOREGISTERTONNEXXMARINEAMTXXA6S22647",
+      "prior_order_plaintext": "FALLSDORTVERKAUFFUERUNAUFSCHIEBBARANGESEHENWIRDXISTDRAHTLICHZUBERICHTENXVERKAUFTNICHTOHNEGENEHMIGUNGXFORDERUNGGENERAL1200MARKKERKYRATAUSENDMARKFUERBRUTTOREGISTERTONNEXXMARINEAMTXXA6S22649",
+      "positions": 187,
+      "fixed_before": 186,
+      "fixed_after": 187,
+      "gains": [
+        {
+          "position": 186,
+          "pair": "GF",
+          "source_indices": [
+            69,
+            186
+          ],
+          "domain": "5789",
+          "selected": "7",
+          "prior_order": "9",
+          "tier": "mobilisation_date",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "old_observed_substitutions": [
+        {
+          "source_index": 15,
+          "from": "V",
+          "to": "A"
+        },
+        {
+          "source_index": 57,
+          "from": "F",
+          "to": "V"
+        },
+        {
+          "source_index": 134,
+          "from": "G",
+          "to": "F"
+        },
+        {
+          "source_index": 180,
+          "from": "F",
+          "to": "D"
+        }
+      ],
+      "old_printed_mask_fills": [],
+      "old_added_coordinate_fills": [],
+      "old_source_exclusions": [],
+      "raw_effects_including_adverse": [
+        {
+          "position": 138,
+          "pair": "GF",
+          "source_indices": [
+            63,
+            180
+          ],
+          "domain": "56789",
+          "selected": "7",
+          "before_context": "KYRATAUSEN?MARKFUERZR",
+          "after_context": "KYRATAUSEN7MARKFUERZR"
+        },
+        {
+          "position": 180,
+          "pair": "XX",
+          "source_indices": [
+            327,
+            45
+          ],
+          "domain": "56789",
+          "selected": "6",
+          "before_context": "RINEAMTXXA?S22?4?",
+          "after_context": "RINEAMTXXA6S22647"
+        },
+        {
+          "position": 184,
+          "pair": "XX",
+          "source_indices": [
+            210,
+            281
+          ],
+          "domain": "56789",
+          "selected": "6",
+          "before_context": "AMTXXA?S22?4?",
+          "after_context": "AMTXXA6S22647"
+        },
+        {
+          "position": 186,
+          "pair": "GF",
+          "source_indices": [
+            69,
+            186
+          ],
+          "domain": "56789",
+          "selected": "7",
+          "before_context": "TXXA?S22?4?",
+          "after_context": "TXXA6S22647"
+        }
+      ],
+      "source_sha256": "67d76d76e1d89b42b07a8fe39cecdd8c519e469fb428f15730e74aaf3ee3aac9",
+      "additional_observed_substitutions": 0,
+      "additional_source_fills": 0
+    },
+    {
+      "id": "p178_A5",
+      "inputs": "experiments/naval_armistice_order/inputs.json",
+      "certificate": "experiments/naval_armistice_order/certificates.json",
+      "previous_assignment": {},
+      "previous_plaintext": "XGENEHMIGUNGZUMBEFAHRENNEUTRALERHOHEITSGEWAESSERUEBERWASZERISTBEINEUTRALENREGIERUNGENERBETENXX3XXEMPFANGSBESTAETIGUNGENXADMIRALXGGXXOP1A?44XXADMIRALSTAB1?340ZWEI",
+      "selected_plaintext": "XGENEHMIGUNGZUMBEFAHRENNEUTRALERHOHEITSGEWAESSERUEBERWASZERISTBEINEUTRALENREGIERUNGENERBETENXX3XXEMPFANGSBESTAETIGUNGENXADMIRALXGGXXOP1A944XXADMIRALSTAB18340ZWEI",
+      "prior_order_plaintext": "XGENEHMIGUNGZUMBEFAHRENNEUTRALERHOHEITSGEWAESSERUEBERWASZERISTBEINEUTRALENREGIERUNGENERBETENXX3XXEMPFANGSBESTAETIGUNGENXADMIRALXGGXXOP1A744XXADMIRALSTAB18340ZWEI",
+      "positions": 161,
+      "fixed_before": 159,
+      "fixed_after": 161,
+      "gains": [
+        {
+          "position": 136,
+          "pair": "XA",
+          "source_indices": [
+            177,
+            238
+          ],
+          "domain": "56789",
+          "selected": "9",
+          "prior_order": "7",
+          "tier": "mobilisation_date",
+          "both_original_coordinates_observed": true
+        },
+        {
+          "position": 153,
+          "pair": "XG",
+          "source_indices": [
+            139,
+            220
+          ],
+          "domain": "56789",
+          "selected": "8",
+          "prior_order": "8",
+          "tier": "unit_set_and_army_number",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "old_observed_substitutions": [
+        {
+          "source_index": 103,
+          "from": "X",
+          "to": "F"
+        },
+        {
+          "source_index": 152,
+          "from": "F",
+          "to": "V"
+        }
+      ],
+      "old_printed_mask_fills": [],
+      "old_added_coordinate_fills": [],
+      "old_source_exclusions": [],
+      "raw_effects_including_adverse": [
+        {
+          "position": 98,
+          "pair": "GF",
+          "source_indices": [
+            52,
+            152
+          ],
+          "domain": "56789",
+          "selected": "7",
+          "before_context": "ETENXX3XXE?PFANGSBEST",
+          "after_context": "ETENXX3XXE7PFANGSBEST"
+        },
+        {
+          "position": 136,
+          "pair": "XA",
+          "source_indices": [
+            177,
+            238
+          ],
+          "domain": "56789",
+          "selected": "9",
+          "before_context": "LXGGXXOP1A?44XXADMIRA",
+          "after_context": "LXGGXXOP1A944XXADMIRA"
+        },
+        {
+          "position": 153,
+          "pair": "XG",
+          "source_indices": [
+            139,
+            220
+          ],
+          "domain": "56789",
+          "selected": "8",
+          "before_context": "MIRALSTAB1?340ZWEI",
+          "after_context": "MIRALSTAB18340ZWEI"
+        }
+      ],
+      "source_sha256": "bd6dc73886244509db57e3e2bfd18853c44fde50112c2bc3058f4a9e85a78daa",
+      "additional_observed_substitutions": 0,
+      "additional_source_fills": 0
+    },
+    {
+      "id": "p179_A",
+      "inputs": "experiments/november_armistice_orders/inputs.json",
+      "certificate": "experiments/november_armistice_orders/certificates.json",
+      "previous_assignment": {},
+      "previous_plaintext": "DORTBEFINDXUXSXGERAETEZURNAECHSTENRECHTSRHEINXERSXABTLGXSCHAFFENXFUNKSTELLENBETRIEBMUSSAUFRECHTERHALTENBLEIBENXNACHRICHTENCHEF4B4??3?",
+      "selected_plaintext": "DORTBEFINDXUXSXGERAETEZURNAECHSTENRECHTSRHEINXERSXABTLGXSCHAFFENXFUNKSTELLENBETRIEBMUSSAUFRECHTERHALTENBLEIBENXNACHRICHTENCHEF4B49936",
+      "prior_order_plaintext": "DORTBEFINDXUXSXGERAETEZURNAECHSTENRECHTSRHEINXERSXABTLGXSCHAFFENXFUNKSTELLENBETRIEBMUSSAUFRECHTERHALTENBLEIBENXNACHRICHTENCHEF4B47736",
+      "positions": 133,
+      "fixed_before": 130,
+      "fixed_after": 133,
+      "gains": [
+        {
+          "position": 129,
+          "pair": "XA",
+          "source_indices": [
+            120,
+            187
+          ],
+          "domain": "56789",
+          "selected": "9",
+          "prior_order": "7",
+          "tier": "mobilisation_date",
+          "both_original_coordinates_observed": true
+        },
+        {
+          "position": 130,
+          "pair": "XA",
+          "source_indices": [
+            49,
+            137
+          ],
+          "domain": "56789",
+          "selected": "9",
+          "prior_order": "7",
+          "tier": "mobilisation_date",
+          "both_original_coordinates_observed": true
+        },
+        {
+          "position": 132,
+          "pair": "XX",
+          "source_indices": [
+            237,
+            32
+          ],
+          "domain": "56789",
+          "selected": "6",
+          "prior_order": "6",
+          "tier": "existing_XX6_new_propagation",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "old_observed_substitutions": [
+        {
+          "source_index": 24,
+          "from": "A",
+          "to": "V"
+        },
+        {
+          "source_index": 195,
+          "from": "A",
+          "to": "G"
+        },
+        {
+          "source_index": 245,
+          "from": "V",
+          "to": "F"
+        },
+        {
+          "source_index": 247,
+          "from": "V",
+          "to": "X"
+        },
+        {
+          "source_index": 262,
+          "from": "X",
+          "to": "D"
+        },
+        {
+          "source_index": 266,
+          "from": "X",
+          "to": "G"
+        },
+        {
+          "source_index": 269,
+          "from": "X",
+          "to": "V"
+        }
+      ],
+      "old_printed_mask_fills": [],
+      "old_added_coordinate_fills": [],
+      "old_source_exclusions": [
+        80,
+        81,
+        82,
+        83,
+        84
+      ],
+      "raw_effects_including_adverse": [
+        {
+          "position": 67,
+          "pair": "XX",
+          "source_indices": [
+            262,
+            95
+          ],
+          "domain": "56789",
+          "selected": "6",
+          "before_context": "CHAFKENXFU?OSTELLENB2",
+          "after_context": "CHAFKENXFU6OSTELLENB2"
+        },
+        {
+          "position": 99,
+          "pair": "XA",
+          "source_indices": [
+            266,
+            99
+          ],
+          "domain": "56789",
+          "selected": "9",
+          "before_context": "FRECHTERHA?TENBLEIBEN",
+          "after_context": "FRECHTERHA9TENBLEIBEN"
+        },
+        {
+          "position": 129,
+          "pair": "XA",
+          "source_indices": [
+            120,
+            187
+          ],
+          "domain": "56789",
+          "selected": "9",
+          "before_context": "TENC0EF4B4??3?",
+          "after_context": "TENC0EF4B49936"
+        },
+        {
+          "position": 130,
+          "pair": "XA",
+          "source_indices": [
+            49,
+            137
+          ],
+          "domain": "56789",
+          "selected": "9",
+          "before_context": "ENC0EF4B4??3?",
+          "after_context": "ENC0EF4B49936"
+        },
+        {
+          "position": 132,
+          "pair": "XX",
+          "source_indices": [
+            237,
+            32
+          ],
+          "domain": "56789",
+          "selected": "6",
+          "before_context": "C0EF4B4??3?",
+          "after_context": "C0EF4B49936"
+        }
+      ],
+      "source_sha256": "7647ec449c661efb178f15217747f8dea177e0d0dae1b6e308438ca025c89b14",
+      "additional_observed_substitutions": 0,
+      "additional_source_fills": 0
+    },
+    {
+      "id": "p179_B",
+      "inputs": "experiments/november_armistice_orders/inputs.json",
+      "certificate": "experiments/november_armistice_orders/certificates.json",
+      "previous_assignment": {},
+      "previous_plaintext": "ZITADELLEXWIDERSTANDAUFGEBENUEBERGABEBEDINGUNGENDORTFESTSETZENXKMX2??3X1?GXANCH",
+      "selected_plaintext": "ZITADELLEXWIDERSTANDAUFGEBENUEBERGABEBEDINGUNGENDORTFESTSETZENXKMX2583X18GXANCH",
+      "prior_order_plaintext": "ZITADELLEXWIDERSTANDAUFGEBENUEBERGABEBEDINGUNGENDORTFESTSETZENXKMX2583X18GXANCH",
+      "positions": 79,
+      "fixed_before": 76,
+      "fixed_after": 79,
+      "gains": [
+        {
+          "position": 67,
+          "pair": "FD",
+          "source_indices": [
+            156,
+            56
+          ],
+          "domain": "56789",
+          "selected": "5",
+          "prior_order": "5",
+          "tier": "unit_set_and_army_number",
+          "both_original_coordinates_observed": true
+        },
+        {
+          "position": 68,
+          "pair": "XG",
+          "source_indices": [
+            136,
+            17
+          ],
+          "domain": "56789",
+          "selected": "8",
+          "prior_order": "8",
+          "tier": "unit_set_and_army_number",
+          "both_original_coordinates_observed": true
+        },
+        {
+          "position": 72,
+          "pair": "XG",
+          "source_indices": [
+            87,
+            117
+          ],
+          "domain": "56789",
+          "selected": "8",
+          "prior_order": "8",
+          "tier": "unit_set_and_army_number",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "old_observed_substitutions": [
+        {
+          "source_index": 84,
+          "from": "X",
+          "to": "G"
+        }
+      ],
+      "old_printed_mask_fills": [],
+      "old_added_coordinate_fills": [],
+      "old_source_exclusions": [],
+      "raw_effects_including_adverse": [
+        {
+          "position": 67,
+          "pair": "FD",
+          "source_indices": [
+            156,
+            56
+          ],
+          "domain": "56789",
+          "selected": "5",
+          "before_context": "ETZENXKMX2??3X1?GXANC",
+          "after_context": "ETZENXKMX2583X18GXANC"
+        },
+        {
+          "position": 68,
+          "pair": "XG",
+          "source_indices": [
+            136,
+            17
+          ],
+          "domain": "56789",
+          "selected": "8",
+          "before_context": "TZENXKMX2??3X1?GXANCH",
+          "after_context": "TZENXKMX2583X18GXANCH"
+        },
+        {
+          "position": 72,
+          "pair": "XG",
+          "source_indices": [
+            87,
+            117
+          ],
+          "domain": "56789",
+          "selected": "8",
+          "before_context": "XKMX2??3X1?GXANCH",
+          "after_context": "XKMX2583X18GXANCH"
+        }
+      ],
+      "source_sha256": "0e73af6c6670ebcab0064c09c5413494fd16a011b5fed04c0bb728c1c1e17827",
+      "additional_observed_substitutions": 0,
+      "additional_source_fills": 0
+    },
+    {
+      "id": "p180_B2",
+      "inputs": "experiments/nov11_romanian_mobilization_report/inputs.json",
+      "certificate": "experiments/nov11_romanian_mobilization_report/certificates.json",
+      "previous_assignment": {},
+      "previous_plaintext": "RUMAENXMOBILMACHUNG?X11XANGEORDNETXX1XTAG10X?1LXKRIEGSZUSAND10X1TX?UHRABENDSXFEIND1?X11XTURNUMAGURELEZIMNICAUEBERGESETZT",
+      "selected_plaintext": "RUMAENXMOBILMACHUNG9X11XANGEORDNETXX1XTAG10X?1LXKRIEGSZUSAND10X1TX9UHRABENDSXFEIND1?X11XTURNUMAGURELEZIMNICAUEBERGESETZT",
+      "prior_order_plaintext": "RUMAENXMOBILMACHUNG7X11XANGEORDNETXX1XTAG10X?1LXKRIEGSZUSAND10X1TX7UHRABENDSXFEIND1?X11XTURNUMAGURELEZIMNICAUEBERGESETZT",
+      "positions": 120,
+      "fixed_before": 116,
+      "fixed_after": 118,
+      "gains": [
+        {
+          "position": 19,
+          "pair": "XA",
+          "source_indices": [
+            227,
+            77
+          ],
+          "domain": "56789",
+          "selected": "9",
+          "prior_order": "7",
+          "tier": "mobilisation_date",
+          "both_original_coordinates_observed": true
+        },
+        {
+          "position": 66,
+          "pair": "XA",
+          "source_indices": [
+            38,
+            113
+          ],
+          "domain": "56789",
+          "selected": "9",
+          "prior_order": "7",
+          "tier": "mobilisation_date",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "old_observed_substitutions": [
+        {
+          "source_index": 93,
+          "from": "A",
+          "to": "D"
+        },
+        {
+          "source_index": 117,
+          "from": "V",
+          "to": "X"
+        },
+        {
+          "source_index": 195,
+          "from": "X",
+          "to": "V"
+        },
+        {
+          "source_index": 216,
+          "from": "F",
+          "to": "G"
+        }
+      ],
+      "old_printed_mask_fills": [
+        {
+          "source_index": 201,
+          "literal": "-",
+          "to": "X"
+        }
+      ],
+      "old_added_coordinate_fills": [
+        {
+          "model_index": 236,
+          "to": "D"
+        },
+        {
+          "model_index": 237,
+          "to": "G"
+        },
+        {
+          "model_index": 238,
+          "to": "A"
+        },
+        {
+          "model_index": 239,
+          "to": "D"
+        }
+      ],
+      "old_source_exclusions": [],
+      "raw_effects_including_adverse": [
+        {
+          "position": 4,
+          "pair": "XX",
+          "source_indices": [
+            195,
+            15
+          ],
+          "domain": "56789",
+          "selected": "6",
+          "before_context": "RUMA?NXMOBILMAC",
+          "after_context": "RUMA6NXMOBILMAC"
+        },
+        {
+          "position": 19,
+          "pair": "XA",
+          "source_indices": [
+            227,
+            77
+          ],
+          "domain": "56789",
+          "selected": "9",
+          "before_context": "BILMACHUNG?X11XA1GEOR",
+          "after_context": "BILMACHUNG9X11XA1GEOR"
+        },
+        {
+          "position": 66,
+          "pair": "XA",
+          "source_indices": [
+            38,
+            113
+          ],
+          "domain": "56789",
+          "selected": "9",
+          "before_context": "SAND10X1TX?UHRABENDSX",
+          "after_context": "SAND10X1TX9UHRABENDSX"
+        }
+      ],
+      "source_sha256": "11f9c0b46e1f01146b75a636aa55fcbe2cad0ab3cdc028e550598b720260abc0",
+      "additional_observed_substitutions": 0,
+      "additional_source_fills": 0
+    },
+    {
+      "id": "p183_F",
+      "inputs": "experiments/jaeger_accommodation_area/inputs.json",
+      "certificate": "experiments/jaeger_accommodation_area/certificates.json",
+      "previous_assignment": {},
+      "previous_plaintext": "ANXAOKX1?XZUXDORTX11140XOPXUNTERBRINGUNGSRAUMXDTXJAEGERXDIVX13?11XMARCHEXSUEDLXHUYXVIERSWTXBARSEXSOHEITXAOKX1?X1XAM",
+      "selected_plaintext": "ANXAOKX17XZUXDORTX11140XOPXUNTERBRINGUNGSRAUMXDTXJAEGERXDIVX13711XMARCHEXSUEDLXHUYXVIERSWTXBARSEXSOHEITXAOKX18X1XAM",
+      "prior_order_plaintext": "ANXAOKX19XZUXDORTX11140XOPXUNTERBRINGUNGSRAUMXDTXJAEGERXDIVX13911XMARCHEXSUEDLXHUYXVIERSWTXBARSEXSOHEITXAOKX18X1XAM",
+      "positions": 115,
+      "fixed_before": 112,
+      "fixed_after": 115,
+      "gains": [
+        {
+          "position": 8,
+          "pair": "GF",
+          "source_indices": [
+            116,
+            160
+          ],
+          "domain": "56789",
+          "selected": "7",
+          "prior_order": "9",
+          "tier": "mobilisation_date",
+          "both_original_coordinates_observed": true
+        },
+        {
+          "position": 62,
+          "pair": "GF",
+          "source_indices": [
+            64,
+            181
+          ],
+          "domain": "56789",
+          "selected": "7",
+          "prior_order": "9",
+          "tier": "mobilisation_date",
+          "both_original_coordinates_observed": true
+        },
+        {
+          "position": 109,
+          "pair": "XG",
+          "source_indices": [
+            143,
+            215
+          ],
+          "domain": "56789",
+          "selected": "8",
+          "prior_order": "8",
+          "tier": "unit_set_and_army_number",
+          "both_original_coordinates_observed": true
+        }
+      ],
+      "old_observed_substitutions": [
+        {
+          "source_index": 180,
+          "from": "X",
+          "to": "F"
+        }
+      ],
+      "old_printed_mask_fills": [
+        {
+          "source_index": 182,
+          "literal": "-",
+          "to": "F"
+        },
+        {
+          "source_index": 183,
+          "literal": "-",
+          "to": "X"
+        }
+      ],
+      "old_added_coordinate_fills": [],
+      "old_source_exclusions": [],
+      "raw_effects_including_adverse": [
+        {
+          "position": 8,
+          "pair": "GF",
+          "source_indices": [
+            116,
+            160
+          ],
+          "domain": "56789",
+          "selected": "7",
+          "before_context": "ANXAOKX1?XZUXDORTX1",
+          "after_context": "ANXAOKX17XZUXDORTX1"
+        },
+        {
+          "position": 62,
+          "pair": "GF",
+          "source_indices": [
+            64,
+            181
+          ],
+          "domain": "56789",
+          "selected": "7",
+          "before_context": "GE1XDIVX13?11XMARC?EX",
+          "after_context": "GE1XDIVX13711XMARC?EX"
+        },
+        {
+          "position": 109,
+          "pair": "XG",
+          "source_indices": [
+            143,
+            215
+          ],
+          "domain": "56789",
+          "selected": "8",
+          "before_context": "HEITXAOKX1?X1XAM",
+          "after_context": "HEITXAOKX18X1XAM"
+        }
+      ],
+      "source_sha256": "5d818ce63dab92461db163eca65508c4c6ce30fa114101f9ebd49be3e6e70b81",
+      "additional_observed_substitutions": 0,
+      "additional_source_fills": 0
+    }
+  ],
+  "new_fixed_positions": 20,
+  "new_physical_records": 11,
+  "additional_source_changes": 0,
+  "additional_source_fills": 0,
+  "conditions": [
+    "Retain the previous Marineamt XX=6 office-prefix interpretation.",
+    "The two p176b formation fields refer to 217 and 219, in an initially unspecified order, under the earlier 20-coordinate reconstruction.",
+    "The final native AOK1? in p183 F is an accurately received two-digit German army number, keeping the leading 1 numerical.",
+    "The p180 B2 mobilisation-order date refers accurately to decree 3179, signed one day before the first mobilisation day printed as 28 October / 10 November."
+  ],
+  "limits": [
+    "The layers do not prove the plaintext historically correct, nor erase old source repairs.",
+    "The former 217/219 order remains as a complete alternative when the mobilisation-date association is dropped.",
+    "Raw numeric letters inside damaged ordinary words remain visible; their existing source repairs are separately priced.",
+    "The p183 field 13711 remains literal; no separator or calendar date is substituted."
+  ],
+  "complete_square_roundtrips": 1320,
+  "remaining_branches_before_date": [
+    {
+      "assignment": {
+        "FD": "5",
+        "GF": "7",
+        "XA": "9",
+        "XG": "8",
+        "XX": "6"
+      },
+      "square": "4ARUT1OIFSKN35BZPVLD7JMXCWHQ2E9G08Y6"
+    },
+    {
+      "assignment": {
+        "FD": "5",
+        "GF": "9",
+        "XA": "7",
+        "XG": "8",
+        "XX": "6"
+      },
+      "square": "4ARUT1OIFSKN35BZPVLD9JMXCWHQ2E7G08Y6"
+    }
+  ]
+}

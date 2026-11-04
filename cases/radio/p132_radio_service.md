@@ -76,6 +76,14 @@ unresolved.** Neither is expanded into an identified person or place. The
 raw `MISZION` spelling and `PAFR53540` footer also remain literal. This is a
 partial source edition, not a securely identified personnel record.
 
+A [separate surname proposal](../../experiments/p132_rohdewald_name/README.md)
+reads `GENERALMAJ ROHDEWALD` at four additional observed-coordinate
+substitutions, for ten substitutions and one dash fill in total. A 1913
+*Deutscher Reichsanzeiger* personnel notice attests the surname Rohdewald
+in a railway-general-staff context. This supports the proposed spelling;
+it does not establish the officer's identity. The primary displays above
+and the separate address proposal remain unchanged.
+
 ## B: repeat the fourth-period telegram in the fifth
 
 The complete source/model edition is consolidated in [canonical challenge

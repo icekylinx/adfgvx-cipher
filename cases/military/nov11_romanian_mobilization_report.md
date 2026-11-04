@@ -10,6 +10,26 @@ Research and editorial work: **icekylinx and GPT-6 Astra Pro**. The period key i
 
 
 **Reviewed source crops:** [p180_B2_reviewed.png](../../experiments/nov11_romanian_mobilization_report/sources/p180_B2_reviewed.png) · [p180_D1_header_comparison.png](../../experiments/nov11_romanian_mobilization_report/sources/p180_D1_header_comparison.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
+## Conditional shared digits
+
+The mobilization report gains the order date **9 November** and the linked **9 Uhr abends**, taking the existing edited layer from **116/120 to 118/120**. Decree 3179 is dated 27 October, one day before the poster’s first mobilization day of 28 October / 10 November. Identifying the report’s order with this decree selects the 9 branch. The two remaining masks and all prior source repairs remain explicit. The [joint reconstruction](../../experiments/nov10_joint_completion/README.md) combines the earlier Marineamt and formation interpretations with the army-number constraint and the mobilization decree; the reversed 7/9 assignment is retained there.
+
+**Conditional interpretation — readable German under the joint square:**
+
+> Rumaen. Mobilmachung 9.11. angeordnet. 1. Tag 10 ?1L. Kriegszusand 10 1T, 9 Uhr abends. Feind 1? 11 Turnumagurele Zimnica uebergesetzt.
+
+<details>
+<summary>Exact conditional labels</summary>
+
+**Edited output — p180_B2, conditional shared square; 118/120 fixed positions:**
+
+```text
+RUMAENXMOBILMACHUNG9X11XANGEORDNETXX1XTAG10X?1LXKRIEGSZUSAND10X1TX9UHRABENDSXFEIND1?X11XTURNUMAGURELEZIMNICAUEBERGESETZT
+```
+
+</details>
+
+
 ## p180 B2
 
 Literal header: `B) LP v ZON (0[1/4].02 p.m. November 11th); -----; 2 TL RICHI-240`.

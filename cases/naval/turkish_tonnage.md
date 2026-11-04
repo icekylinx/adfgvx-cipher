@@ -28,6 +28,26 @@ of this ship-sale instruction in the checked Lasry and colleagues paper,
 its corresponding dissertation chapter or the cached 55 comments on the
 2017 ScienceBlogs post. No universal historical-priority claim is made.
 
+## Conditional shared digits
+
+The third part gains the final reference digit, **A6S22647**, reaching **187/187 labels** with its four earlier word repairs. The price proposals and their attribution remain as recorded below. The [joint reconstruction](../../experiments/nov10_joint_completion/README.md) combines the earlier Marineamt and formation interpretations with the army-number constraint and the mobilization decree; the reversed 7/9 assignment is retained there.
+
+**Conditional interpretation — readable German under the joint square:**
+
+> Falls dort Verkauf fuer unaufschiebbar angesehen wird, ist drahtlich zu berichten. Verkauft nicht ohne Genehmigung. Forderung General 1200 Mark, Kerkyra tausend Mark fuer Bruttoregistertonne. Marineamt A6S22647.
+
+<details>
+<summary>Exact conditional labels</summary>
+
+**Edited output — p177_B3, conditional shared square; 187/187 fixed positions:**
+
+```text
+FALLSDORTVERKAUFFUERUNAUFSCHIEBBARANGESEHENWIRDXISTDRAHTLICHZUBERICHTENXVERKAUFTNICHTOHNEGENEHMIGUNGXFORDERUNGGENERAL1200MARKKERKYRATAUSENDMARKFUERBRUTTOREGISTERTONNEXXMARINEAMTXXA6S22647
+```
+
+</details>
+
+
 ## B1: sale only in an extreme emergency
 
 The first part contains all 330 advertised slots. The first 40 coordinates,

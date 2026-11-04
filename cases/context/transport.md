@@ -10,7 +10,7 @@
 
 | Record | Readable German text | Meaning and uncertainty |
 |---|---|---|
-| p185 D, conditional gap | […] marschiert […] morgen 1500 ueber DHFN. [Abmarschbereit sein]. […] Seifert. | Movement tomorrow at 15:00 via `DHFN`, with an apparent instruction to be ready. The opening and vehicle/formation wording are damaged; the gap position is unproved. |
+| p185 D, conditional word completion | […] marschiert Lastautos morgen 1500 ueber DHFN. Abmarschbereit sein. […] Seifert. | The reconstructed clause concerns trucks moving tomorrow via `DHFN` and orders readiness to depart. Three coordinate substitutions and three fills complete the words; the opening and closing instruction remain damaged. |
 | p193 E | Kleiner Federwagen zu[m] Anhaengen hier. Kommt Auto. | A small sprung cart for attachment is available; the message mentions a car. Punctuation and the `M` are editorial. |
 | p194 A / p196 B composite | Abtransport in verabredeter Weise Freitag DHFN 1?00. Wagen bereithalten. Marschziel Hanau. Seifert. | Departure as arranged on Friday; keep vehicles ready; Hanau is the destination. Every selected coordinate is attested in one of the two witnesses, but one time digit remains unknown. |
 | p197 E / p198 C | Lastauto 1?00 abgefahren. Ich bleibe mit ? Mann bis Sonntag. Alles Gute, auf Wiedersehen. [Seifert]. Gruss Bocho. | The truck has departed; the sender remains with an unknown number of men until Sunday. The signature is normalized editorially; neither witness spells it exactly this way. |
@@ -65,6 +65,50 @@ This is a conditional result. The strongest composite language score selects pos
 | 57 | 22.641029 | -5.987314 |
 
 These are heuristic scores, not confidence probabilities. All 194 positions are arithmetically compatible with the received symbols. Positions 159 and 160 produce the same masked ciphertext because the inserted gap can exchange places with the existing unknown `Y` slot. There are 193 distinct masked ciphertexts. No plaintext character is fixed across all 194 geometries. The three leading composite-score candidates share 89 fixed characters, but that selected subset is not a confidence set.
+
+### Truck movement and readiness
+
+The [word-completion certificate](../../experiments/p185_readiness_completion/README.md)
+restores the vehicle noun and readiness instruction within the existing gap-55
+frame:
+
+**Readable German — conditional excerpt; the ellipses omit the damaged opening and closing instruction:**
+
+> […] marschiert Lastautos morgen 1500 ueber DHFN. Abmarschbereit sein. […] Seifert.
+
+The wording concerns trucks moving the following day via `DHFN` and instructs
+the recipient to be ready to depart. `STATMET`, the transmitted `1500` and the
+closing command remain unexpanded in the exact text. The unusual word order
+is preserved.
+
+`LCST?UT?S → LASTAUTOS` costs two observed-coordinate substitutions and a fill
+of the printed `Y`. `AB?A6SCHBE?EITSEIN → ABMARSCHBEREITSEIN` costs one
+substitution and two fills inside the five-coordinate gap. The edition fixes
+**95/99 positions**, up from 91; three inserted coordinates remain unknown.
+The same conversation has native `LASTAUTO` in p198 C, `ABMARSCH` in p193 C
+and `BEREIT` in p196 B. These support the vocabulary without establishing an
+identical sentence in another reception.
+
+<details>
+<summary>Exact conditional word completion</summary>
+
+**Edited output — gap 55, three observed-coordinate substitutions, one printed-glyph fill and two missing-slot fills:**
+
+```text
+STATMETXMARSCHIERTLASTAUTOSMORGEN1500UEBERDHFNXABMARSCHBEREITSEIN?VS6GROV?AN?IERE?XBITTEF6EXSEIFERT
+```
+
+</details>
+
+A separate lexical check masks the numerical field, opening designation and
+closing instruction. Among all 194 gap positions, **52–55** tie at the minimum
+of three observed substitutions. The readable clause therefore remains
+conditional on the retained gap-55 frame; the word repairs do not prove its
+geometry.
+
+```sh
+python experiments/p185_readiness_completion/verify.py --verify
+```
 
 ## Independent transport context
 
