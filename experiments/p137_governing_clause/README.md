@@ -16,6 +16,39 @@ missing-coordinate fills and leaves the observed numerical label `6`
 untouched. The governing clause requires the four observed substitutions;
 it is a contextual editorial proposal, with its exact price below.
 
+### Completing the two separators
+
+Reading the staff-compound junction and the sentence ending as `X`
+completes the optional part-5 reading at **126/126 positions**:
+
+> Anschliessend muessen vor Beginn militaerischer Bewegungen Personal der
+> Wirtschafts- und Verwaltungsstaebe ab 6. November abgeschoben werden.
+
+The two additional fills preserve the observed half of each pair:
+
+| Plaintext position | Observed pair | Missing model coordinate | Fill |
+|---:|---|---:|---|
+| 75, after `WIRTSCHAFTS` | `F?` | 246 | `D`, giving `FD=X` |
+| 125, after `WERDEN` | `?D` | 222 | `F`, giving `FD=X` |
+
+This punctuation interpretation adds **two missing-coordinate fills and no
+observed substitution**. The complete proposed part costs **seven observed
+substitutions, four printed-mask fills and 37 missing-coordinate fills**;
+the retained source-68 V alternative costs six substitutions. The grammar,
+literal `6` and conditional 0/37 interference frame are unchanged.
+
+The cipher permits all **36** combinations of the two residual labels;
+the separator choice is an editorial completion. It completes this part,
+not the absent parts 2/3 or the unread part-6 continuation. The earlier
+124-position layer below remains separately reproducible.
+
+[Completion inputs](completion_inputs.json) ·
+[Coordinate account and all 36 alternatives](completion_certificate.json).
+
+```sh
+python experiments/p137_governing_clause/verify_completion.py --verify
+```
+
 ## Source frame and reading
 
 The [original p137 A5 image](../transylvania_situation_report/sources/p137_A5.png)

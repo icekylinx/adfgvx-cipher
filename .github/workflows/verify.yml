@@ -45,6 +45,7 @@ jobs:
           python experiments/p63_optional_technical_reading/verify.py --verify
           python experiments/p137_optional_staff_vocabulary/verify.py --verify
           python experiments/p137_governing_clause/verify.py --verify
+          python experiments/p137_governing_clause/verify_completion.py --verify
           python experiments/p164_occupation_fragment/verify.py --verify
           python experiments/p89_guard_battalion_extension/verify.py --verify
           python experiments/p89_guard_battalion_extension/replay_search.py
@@ -91,10 +92,12 @@ jobs:
           python experiments/nov7_9_joint_digits/verify.py --verify
           python experiments/nov7_9_joint_digits/verify_scan.py --verify
           python experiments/nov16_18_reference_completion/verify.py --verify
+          python experiments/nov16_18_reference_completion/verify_courier.py --verify
           python experiments/nov13_joint_completion/verify.py --verify
           python experiments/nov13_joint_completion/verify_traffic.py --verify
           python experiments/nov13_joint_completion/verify_transport.py --verify
           python experiments/nov13_joint_completion/verify_compatibility.py --verify
+          python experiments/nov13_joint_completion/verify_coverage.py --verify
           python experiments/p89_ship_clause_completion/verify.py --verify
           python experiments/p59_repeated_vessel_labels/verify.py --verify
           python experiments/danube_arad_witnesses/verify.py --verify

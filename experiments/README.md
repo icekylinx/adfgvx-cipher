@@ -26,8 +26,8 @@ language guess would remain conjectural.
 | Missing December tables and a shared J in two late messages | [Six word fills and a shared-square interpretation that removes four source changes](late_november_joint_completion/README.md) |
 | Late-November dates and formations | [Thirteen numeral positions and a separately priced 303rd Division identification](late_november_calendar_and_units/README.md) |
 | The repeated Siegfried cancellation reference | [Thirty-four shared 5/6 positions across twenty parts and a completed date](nov7_9_joint_digits/README.md) |
-| November 13–15 headquarters, award class and transport | [Fourteen unchanged-pair gains, one word fill and compatibility checks](nov13_joint_completion/README.md) |
-| November 16–18 dates and references | [Thirteen further numerals and a repeated reference prefix](nov16_18_reference_completion/README.md) |
+| November 13–15 headquarters, award class and transport | [Shared reading](nov13_joint_completion/README.md); [sixteen native-pair labels across twelve sources](nov13_joint_completion/coverage.md) |
+| November 16–18 dates and references | [Fourteen further numerals, a repeated reference prefix and the Odessa courier footer](nov16_18_reference_completion/README.md) |
 | Asgard's return to Poti | [A complete two-part reading with both tied source accounts](p155_shipping_completion/README.md) |
 | Article XII, Breslau's VI Corps, name spellings and the Kiev report | [Shared square constraints and reduced source repairs](nov25_treaty_digits/README.md) |
 | p89 ship-return clause | [Three mask fills, native word witnesses and every compatible completion](p89_ship_clause_completion/README.md) |

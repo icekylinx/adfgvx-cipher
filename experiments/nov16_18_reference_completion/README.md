@@ -52,10 +52,17 @@ The combined result adds fourteen fixed positions: thirteen numerals and
 one separator. These are additions to the seven-record snapshot here;
 the earlier p204, p205, p206 A and p203 C consequences are not counted again.
 
+## Odessa courier footer
+
+The same assignments add one further native position in [p201 C](../../cases/radio/odessa_courier_pretransposition.md): **ZT? Nr. 1?1118**, taking the existing word edition from **160 to 161/163** fixed positions. The final **8** uses the observed **FD** pair at received positions **187** and **289**. Both retained fractionation-loss maps and the conservative overstrike branch preserve it; the latter advances from **158 to 159/163**.
+
+The four earlier observed substitutions and two fractionation fills remain the full repair cost. The [courier certificate](courier_certificate.json) checks both forward models under all **720** surviving squares, retains all **30** ordered alternatives for the two remaining reference cells, and checks all **36** fillings of the two source-glyph masks in each geometry.
+
 ## Reproduce
 
 ```sh
 python experiments/nov16_18_reference_completion/verify.py --verify
+python experiments/nov16_18_reference_completion/verify_courier.py --verify
 ```
 
 The verifier reads the previous source editions, checks every affected

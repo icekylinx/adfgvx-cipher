@@ -1,0 +1,30 @@
+{
+  "schema": "adfgvx-nov16-18-courier-propagation-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "experiments/open_targets_continuation/inputs.json": "3e725d540949ed1b654d15d5e9282e49acf6ba2029443fbead7e606ffed9a1d8",
+    "experiments/open_targets_continuation/certificates.json": "c1aad20e833840b5a134223bed09fa7fbee33f1efbbaab2cae0e06517bc11b6c",
+    "experiments/odessa_courier_pretransposition/inputs.json": "dca7fc2ef4968ed2a79ae657cafb20aa50fcacf89c6b3b091af0a1a42309805c",
+    "experiments/odessa_courier_pretransposition/certificates.json": "b814e73c6b9f8b9a4dce93bf25bde085203d58698ba5cb703f9e4d2da869203a",
+    "experiments/odessa_courier_pretransposition/verify.py": "e805a47ff9bf02541fe10cdb1693155e06c8d4cafe70e2cefb59f2aaf270470e"
+  },
+  "record": "p201_C",
+  "source_inputs": "experiments/odessa_courier_pretransposition/inputs.json",
+  "source_certificate": "experiments/odessa_courier_pretransposition/certificates.json",
+  "conditional_layer_certificate": "experiments/open_targets_continuation/certificates.json",
+  "case": "cases/radio/odessa_courier_pretransposition.md",
+  "german": "Deutschen Bevollmaechtigten Odessa. Kurier Elsner heute ueber Wilna hier eingetroffen. Sollen Kuriere nach dort noch abfahren. Verbind. Offz. O Roem 2 der O. H. L. Berlin. ZT? Nr. 1?1118.",
+  "expected": "DEUTSCHENBEVOLLMAECHTIGTENXODESSAXKURIERELSNERHEUTEUEBERWILNAHIEREINGETROFFENSOLLENKURIERENACHDORTNOCHABFAHRENXVERBINDXOFFZXOXROEMX2XDERXOXHXLXBERLINXZT?NRX1?1118X",
+  "limits": [
+    "FD=8 retains the existing November-Monday calendar assumption; VA=5 retains the existing p201/p206 shared-order and date assumption. Neither assignment is new.",
+    "Both previously retained loss descriptions [36,74] and [37,74] remain; no historical loss mechanism is established.",
+    "The original 324-coordinate transposition is retained after removing the two proposed missing fractionation coordinates; a 326-coordinate transposition is never used.",
+    "The four prior observed substitutions and two fractionation fills remain unchanged. No new source or fractionation mask is filled.",
+    "The two overstruck received coordinates 51/52 remain optional masks. All 36 coordinate combinations retain the native footer 8; their witness values are not adopted readings.",
+    "The residual AF and GG values are distinct members of 034679. All 30 reference tuples and 720 complete squares are retained; no complete historical serial is selected."
+  ]
+}

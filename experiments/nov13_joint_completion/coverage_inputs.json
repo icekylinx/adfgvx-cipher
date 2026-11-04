@@ -1,0 +1,193 @@
+{
+  "schema": "adfgvx-nov13-complete-coverage-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "scope": "Every source-reviewed catalogue physical source whose existing audited record uses Nov13-15b; prior source frames and editorial layers remain conditional where originally conditional. Already enumerated retained views are checked without selecting any new geometry.",
+  "key_id": "Nov13-15b",
+  "conditional_assignments": {
+    "XX": "Q",
+    "VG": "2"
+  },
+  "dependencies": {
+    "data/certificates/p185_D_transport.json": "4d2ec54fa8a8fa1d7b2a902519e05ee94d4894ef4cc9a44510acfbc11aabc926",
+    "data/certificates/p189.json": "b229d2620f7497a7ededccfde7432c987df244fad23e79f044880cf6feb4b3d3",
+    "data/certificates/p197_p198_transport.json": "9cb285bfa1e0e2dafc6c9841f55447e910e4063103b071925d636b0286053950",
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "data/reviews/p186_chi_parallel.json": "2913820f86a431539ca8d0f5f1ed88b70a215e248ce85cee2399e88c04676d97",
+    "experiments/armistice_provisions_requests/certificates.json": "312746ef34a9ed827f3a8b1a83f21680a2220c8e1290bd3b5d96ea61587abf42",
+    "experiments/armistice_provisions_requests/inputs.json": "73f62372e13c964f705487601f7923c50cb77ee5212a6b70017f0a05ca2d1399",
+    "experiments/benzol_pump_query/certificates.json": "fecb54e3ef19e6d910bcfa5e81c331734ff2b7f78493301f546fb78e0bcbcbd5",
+    "experiments/benzol_pump_query/inputs.json": "c7d107a84d3a32571cce616c8bd7325098314c88aa41ba122a74e95589ba213d",
+    "experiments/black_sea_shipping/certificates.json": "83f28b05d666033aaf07d13c7530ce9ee5ac94b114c64cb961921b05c588df8e",
+    "experiments/black_sea_shipping/inputs.json": "6d9f14e8d21652c2de9ae582bcdc0a8b3d8cb6632390227d1517e469631d3a1b",
+    "experiments/boots_request/certificate.json": "d3d0a372c986cb567b9f8830675753043d2477fe93d56e67ece2c59ab713c569",
+    "experiments/boots_request/inputs.json": "007660cf3a6a8799376a35970b27d19a58abf56fa5fbf8f197253ae968407620",
+    "experiments/group_security_measures_fragment/certificates.json": "475b33bc8077896eb63414daff4bfb22de752f6d8a59e81541343dc32d7d0958",
+    "experiments/group_security_measures_fragment/inputs.json": "d03c80251d4f10f7929dd8877c3dd62fb3e51f1ee27b32f3c727dd82b96b3004",
+    "experiments/home_departures_baltic_transport/certificates.json": "7b266ed2a634a9d9902e430d3dac80675d3e8e96b3d851241efefbec4bf9fa55",
+    "experiments/home_departures_baltic_transport/inputs.json": "bb057496f8f2218498d4f92d759b32dc15c800e8f012a626b021ee3bcebd0c8f",
+    "experiments/mmd_command_whereabouts/certificates.json": "b28b9cb02ece2b9481a6375cf496c0f44102cd868830080510c3a546694030cd",
+    "experiments/mmd_command_whereabouts/inputs.json": "1749ebb9dacc6cdb852fd65b8948d2a105623bcc09984cde3cd46de9637eb7c1",
+    "experiments/namur_cassel_armistice_requests/certificates.json": "4de7d9207cfb300963bd2da29b5c903a3f91526de4900357d270a1de07bd1a9d",
+    "experiments/namur_cassel_armistice_requests/inputs.json": "4ee9661207a4b90c19cded85d758b1a49740b95b8e69d51fa43f3bc1985c7a8e",
+    "experiments/nov13_congratulation_conditional_frame/certificates.json": "89c08d8db2b2dfa818e03cd2e1d4b9b0be5f629dbf0d02036f2bfa6f2849b87f",
+    "experiments/nov13_congratulation_conditional_frame/inputs.json": "77e8a3bb35b985befe285c817cc06c9e00548071544b5db2646c742b815b7ae3",
+    "experiments/nov13_joint_completion/inputs.json": "2738680ee022529e19e8868df319b04bde55faf3c2267c52e6e04e56a580b646",
+    "experiments/nov13_joint_completion/traffic_inputs.json": "94b6957d72f646fd86c99910ac6d4c7bd51b7e29dec71fbd1c1c934d11c0ccb7",
+    "experiments/nov13_joint_completion/transport_certificate.json": "dc9eca54ddef57251aae3ab4723920dbd54b7a39da6dddcf26f329e27c12f531",
+    "experiments/nov14_15_departure_and_supper/certificates.json": "f80bdf140e9bb3b9568f46fa8284f4ea7d166d72c9b4192d9eebbb1225197894",
+    "experiments/nov14_15_departure_and_supper/inputs.json": "f93a121d79da510a7c7a173c67f7a3ebc1b0dea1922d1b0271cb2e28ac5881ca",
+    "experiments/nov14_retransmissions/certificates.json": "b0244573eede741fbe6f0cbfc14d926a9c79508fd70b360d6e539cfad08adb4d",
+    "experiments/nov14_retransmissions/inputs.json": "a536949e1b62819e294407f6fd29115e5c1bd3278ec3cb7c9fa83d19ab8ef2ea",
+    "experiments/nov15_radio_personnel_and_key_notice/certificates.json": "6b5d95b132513746d6a912a003893ae63d935d3ffd25a2095200e510a916f61c",
+    "experiments/nov15_radio_personnel_and_key_notice/inputs.json": "1b0ec8acd4dbeee3b1c9c3684bb373a206c0d9f32995178c6401f6d2bed2b576",
+    "experiments/nov16_18_command_inquiries/certificates.json": "95ba2ac30ddcd6ff4c3101037719475b7753d11ad8a899f425a42ea6637e765f",
+    "experiments/nov16_18_command_inquiries/inputs.json": "46104d9f20b1b6d5d3975326a156e39c9729d5bde2d53f2a3953669183fb33c8",
+    "experiments/november_armistice_orders/certificates.json": "eaeafc3e8b19fe32d6206ec766427dd31e3299645654be1f045a089c06627671",
+    "experiments/november_armistice_orders/inputs.json": "0e083803df4e6e5f790625538c47fe889a377cd1c4deb0df680a685a574ab9bc",
+    "experiments/oberost_troop_movement_obliterations/certificates.json": "d84f7df59455cffeece860fdee30ab5788398eabeb4c85e505935a126ad89fa2",
+    "experiments/oberost_troop_movement_obliterations/inputs.json": "7537417c9756dc100e5a9411e72ef334e6a0c08118f93be0974bd14330b9f7e6",
+    "experiments/return_time_and_vehicle_attempt/certificates.json": "be143a7aa0d42580c48c7cdbc0879bea51211b897a1768c36bed3b65735f74e9",
+    "experiments/return_time_and_vehicle_attempt/inputs.json": "71a70f4d469fe4d0fdc5c8ddd0327b812620b18b438c2899861cd41244e5b1d1",
+    "experiments/siedlce_withdrawal/certificate.json": "0f0dd3991fd8754545bd6d2a697010cc280ced1b732122ae99305998e3cefa83",
+    "experiments/siedlce_withdrawal/inputs.json": "e59e92695f91d020d902686c0e761c934d97f46f43655b30eb936226c40cfde8",
+    "experiments/source_followup/p186_source_and_suffix_delta.json": "b91543ba84280007f2fe7713a5298a22a7121c2bb1a68bf74196b89811005179",
+    "experiments/source_similarity_extension/source_inspection.json": "c3e171d86ced77955e00ac08b0b8e04ddb5cc40e14dbb6d4e360f3555d56ca79",
+    "experiments/tiflis_appointment/certificates.json": "08c8cfece0c835a3e0858b51876cf1c20bc3571e9d37a711ab54709c5315a1db",
+    "experiments/tiflis_appointment/inputs.json": "8c6798e8501287d17b4da19412d311ebb9c877db10286f45fb40e4d3b8ca140a",
+    "experiments/warsaw_service_messages/certificates.json": "26fb0512fe2171f1c3b2916ee079523feffa91684750131ccfcaac88226c3840",
+    "experiments/warsaw_service_messages/inputs.json": "8b1a448c40914e035a2d49ac3f302b9e8342dfbcd984c62132396e0d72f19da7",
+    "sources/excerpts/childs_p186_A.png": "df0cfd18c6a505ead22351db5b47c543729c879df18579ea2d73595d30f3bf19"
+  },
+  "source_ids": [
+    "p179_D1",
+    "p179_D2",
+    "p180_E",
+    "p184_A2",
+    "p185_C",
+    "p185_D",
+    "p186_A1",
+    "p186_A2",
+    "p186_B1",
+    "p186_B2",
+    "p186_C1",
+    "p188_A",
+    "p188_B2",
+    "p188_C1",
+    "p189_B",
+    "p189_C",
+    "p189_D",
+    "p189_E",
+    "p190_A",
+    "p190_B",
+    "p190_C",
+    "p191_A1",
+    "p191_A2",
+    "p192_2",
+    "p192_3",
+    "p192_A",
+    "p192_B",
+    "p193_A",
+    "p193_C",
+    "p193_D",
+    "p193_E",
+    "p193_F",
+    "p194_A",
+    "p194_C",
+    "p194_E",
+    "p196_A",
+    "p196_B",
+    "p197_A1",
+    "p197_A2",
+    "p197_B",
+    "p197_C",
+    "p197_D",
+    "p197_E",
+    "p198_B",
+    "p198_C",
+    "p198_E",
+    "p199_A1",
+    "p199_A2",
+    "p199_A3",
+    "p199_B1",
+    "p200_A",
+    "p200_B1",
+    "p200_B2",
+    "p203_A2"
+  ],
+  "expected_primary_occurrence_categories": {
+    "already_in_conditional_gain_layer": {
+      "sources": 11,
+      "pairs": 14
+    },
+    "previously_recorded_quantity_conflict": {
+      "sources": 1,
+      "pairs": 1
+    },
+    "new_unedited_reference_labels": {
+      "sources": 1,
+      "pairs": 2
+    },
+    "other_native_corruption_or_earlier_editorial_repair": {
+      "sources": 12,
+      "pairs": 13
+    }
+  },
+  "p186_A2": {
+    "record": "data/reviews/p186_chi_parallel.json",
+    "source_layer": "conservative_ciphertext",
+    "source_slots": 174,
+    "positions": 87,
+    "fixed_before": 80,
+    "fixed_after": 82,
+    "gains": [
+      {
+        "plaintext_index": 83,
+        "pair": "VG",
+        "source_indices": [
+          173,
+          10
+        ],
+        "symbol": "2"
+      },
+      {
+        "plaintext_index": 85,
+        "pair": "VG",
+        "source_indices": [
+          64,
+          107
+        ],
+        "symbol": "2"
+      }
+    ],
+    "expected_interpretation": "VERZIFFERTFUNKENSOWEITFERNSCHREIBERVERBDGNICHTARBEITETXRESTSCHRIFTLICH?ACHCHEF??1??212X",
+    "preserved_conservative_source_masks": [
+      20,
+      29
+    ],
+    "visual_review": {
+      "image": "sources/excerpts/childs_p186_A.png",
+      "printed_page": 186,
+      "pdf_page_1based": 189,
+      "original_pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06",
+      "description": "The four native coordinates were checked in the already reviewed source excerpt: source 10 is the initial G of first-row GFAFA; source 64 is the final V of second-row XAADV; source 107 is the third glyph G of third-row AAGVG; source 173 is the final V of last-row GXAV. The two ambiguous source glyphs 20 and 29 remain masked."
+    },
+    "case": "cases/context/p186.md",
+    "case_fields": [
+      "82 of 87 positions",
+      "CHEF??1??212X",
+      "XX=Q",
+      "VG=2"
+    ]
+  },
+  "limits": [
+    "Coverage counts are not additional readable recoveries. The only new accepted proposal in this extension is the two p186 A2 reference labels.",
+    "No original source, inherited source-frame choice, published key, or existing repair cost is changed.",
+    "Only pre-existing conditional XX=Q and VG=2 are propagated; remaining square cells stay unknown.",
+    "The p186 A2 suffix has no established date, serial identity, or exact p187b equivalent.",
+    "The p191 A1 quantity conflict and all thirteen other adverse primary occurrences remain visible.",
+    "The earlier p189 E invalid-glyph ANHAENGER fill is separate from the fourteen earlier native-pair gains."
+  ]
+}

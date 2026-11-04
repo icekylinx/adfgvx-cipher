@@ -1092,12 +1092,14 @@
       "printed_page": 186,
       "source_section": "A2",
       "subject": "Encrypted reporting and teleprinter failure",
-      "status": "80/87 conservative raw positions; ending unresolved",
+      "status": "80/87 conservative raw positions; shared-key interpretation adds two intact VG digits for 82/87; source masks retained",
       "credit": "Lasry team and Norbert (2017); review: icekylinx and GPT-6 Astra Pro",
       "path": "cases/context/p186.md#part-2--richi-174",
       "source_reviewed": true,
       "evidence": [
-        "data/reviews/p186_chi_parallel.json"
+        "data/reviews/p186_chi_parallel.json",
+        "experiments/nov13_joint_completion/coverage_inputs.json",
+        "experiments/nov13_joint_completion/coverage_certificate.json"
       ],
       "state": "PARTIAL"
     },
@@ -5833,7 +5835,7 @@
       "printed_page": 137,
       "source_section": "A5",
       "subject": "Personnel-removal passage; optional military-movement clause",
-      "status": "Conditional primary 106/126 positions; optional governing clause 124/126 with seven observed substitutions",
+      "status": "Conditional primary106/126; optional complete126/126 personnel-removal reading, seven observed substitutions, four printed-mask fills and37 missing-coordinate fills",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published Nov4–6 key; earlier unreviewed readings and Lasry et al. different report distinguished",
       "path": "cases/military/transylvania_situation_report.md#p137-a5",
       "source_reviewed": true,
@@ -5841,7 +5843,9 @@
         "experiments/transylvania_situation_report/inputs.json",
         "experiments/transylvania_situation_report/certificates.json",
         "experiments/p137_governing_clause/inputs.json",
-        "experiments/p137_governing_clause/certificates.json"
+        "experiments/p137_governing_clause/certificates.json",
+        "experiments/p137_governing_clause/completion_inputs.json",
+        "experiments/p137_governing_clause/completion_certificate.json"
       ],
       "state": "CONDITIONAL"
     },
@@ -10391,13 +10395,15 @@
       "printed_page": 201,
       "source_section": "C",
       "subject": "Courier Elsner, arrival via Wilna and an enquiry about further couriers",
-      "status": "Native324 received slots; conditional326-coordinate fractionation under fixed324-slot transposition; two pretransposition fills and four observed substitutions; three coupled reference labels remain unresolved; overstrike sensitivity retained",
+      "status": "Native324 slots; conditional326-coordinate fractionation under fixed324-slot transposition; 161/163 labels with existing shared FD=8, four observed substitutions and two fractionation fills; conservative glyph branch159/163; two reference labels unresolved",
       "credit": "icekylinx and GPT-6 Astra Pro (2026); published key and earlier native address witness credited",
       "path": "cases/radio/odessa_courier_pretransposition.md#p201-c",
       "source_reviewed": true,
       "evidence": [
         "experiments/odessa_courier_pretransposition/inputs.json",
-        "experiments/odessa_courier_pretransposition/certificates.json"
+        "experiments/odessa_courier_pretransposition/certificates.json",
+        "experiments/nov16_18_reference_completion/courier_inputs.json",
+        "experiments/nov16_18_reference_completion/courier_certificate.json"
       ],
       "state": "CONDITIONAL"
     },

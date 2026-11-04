@@ -2,11 +2,21 @@
 
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
-Printed p201 C has **324 received coordinates**, exactly its advertised count. Much of the direct reading concerns Elsner, Wilna, arriving here and further couriers, but a run in its opening is garbled. A bounded alternative inserts two missing coordinates **before transposition**: undo the **324-coordinate transposition**, restore two fractionation positions, and read **163 labels** from 326 coordinates. The opening becomes an address to the German representative in Odessa, followed by **KURIER ELSNER**.
+The conditional reconstruction of p201 C reports courier Elsner’s arrival via Wilna and asks whether further couriers should leave for Odessa. The clear header dates the Berlin telegram to **15 November 1918**. The recovered body now fixes **161/163 positions**; two reference labels remain unresolved.
 
-This is a conditional error model, not a change to the source transcription. Every one of the 324 printed slots remains accounted for. Two added fractionation fills recover the opening without changing an observed coordinate there; **four later observed-coordinate substitutions** support the remaining word proposals. The primary edition fixes **160/163 positions** and preserves three coupled unknown reference labels.
+Research and edition: **icekylinx and GPT-6 Astra Pro**. The published Nov16–18 key retains the credit of George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker; the [same-page address witness](../finance/odessa_wagon_sale.md#p201-a1) retains its earlier body credit.
 
-Research and editorial work: **icekylinx and GPT-6 Astra Pro**. The published Nov16–18 key retains the credit of George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker. The [same-page native address witness](../finance/odessa_wagon_sale.md#p201-a1) retains its earlier body credit. No first historical decipherment or unique original wording is claimed.
+## Current conditional reading
+
+**Readable German — both retained loss models, the existing word repairs and shared FD=8 / VA=5 conditions:**
+
+> Deutschen Bevollmaechtigten Odessa. Kurier Elsner heute ueber Wilna hier eingetroffen. Sollen Kuriere nach dort noch abfahren. Verbind. Offz. O Roem 2 der O. H. L. Berlin. ZT? Nr. 1?1118.
+
+**Meaning:** Elsner has arrived via Wilna. The sender asks whether further couriers are still to depart for Odessa. The liaison-officer closing and Berlin remain literal; the report does not establish Elsner’s full identity.
+
+The reading uses the existing two-coordinate loss model before transposition, two added fractionation fills and four observed-coordinate word repairs. The **324 received coordinates** remain in their printed order. The existing [FD=8 / VA=5 interpretation](../../experiments/nov16_18_reference_completion/README.md) supplies the final **8** without another source edit: the pair is **FD**, at received positions **187** and **289**. It survives both loss descriptions, **[36, 74]** and **[37, 74]**, and the conservative **G??DV** branch, which fixes **159/163 positions**.
+
+The remaining reference cells **AF** and **GG** take distinct values from **034679**. The [propagation certificate](../../experiments/nov16_18_reference_completion/courier_certificate.json) retains all **30** reference tuples and **720** complete square assignments, with the original **324-coordinate transposition** and **326-coordinate fractionation**.
 
 ## p201 C
 
@@ -128,21 +138,17 @@ The unknown character in ABFAHR?N comes from an unassigned square cell in the un
 DEUTSCHENBEVOLLMAECHTIGTENXODESSAXKURIERELSNERHEUTEUEBERWILNAHIEREINGETROFFENSOLLENKURIERENACHDORTNOCHABFAHRENXVERBINDXOFFZXOXROEMX2XDERXOXHXLXBERLINXZT?NRX1?111?X
 ```
 
-</details>
-
-**Readable German — the complete primary edited stream, with spacing and punctuation only:**
+**Readable German — earlier word edition under the published partial square:**
 
 > Deutschen Bevollmaechtigten Odessa. Kurier Elsner heute ueber Wilna hier eingetroffen. Sollen Kuriere nach dort noch abfahren. Verbind. Offz. O Roem 2 der O. H. L. Berlin. ZT? Nr. 1?111?.
 
-**Conditional interpretation — report and enquiry:**
+VERBIND, OFFZ, O, ROEM 2 and the final ZT? NR field remain as decoded.
 
-The proposed body addresses the German representative in Odessa, reports that courier Elsner has arrived here via Wilna, and asks whether further couriers will still leave for the destination. The closing gives the literal liaison-officer wording and Berlin. “Here” is not expanded into an independently established location, Elsner is not assigned a full identity, and no arrival time is reconstructed. The question is punctuated with a period in the exact quotation so that ? remains reserved for unknown labels.
-
-VERBIND, OFFZ, O, ROEM 2 and the final ZT? NR field remain as decoded; abbreviations and numbers are not silently expanded.
+</details>
 
 ## Conservative overstrike sensitivity
 
-Keeping source 51 and 52 masked, applying the same two fractionation fills and only the same four observed substitutions gives the following **158/163-position** edition. It does not add source-glyph fills.
+Under the earlier baseline square, keeping source 51 and 52 masked and applying the same two fractionation fills and four observed substitutions gives the following **158/163-position** edition. It does not add source-glyph fills.
 
 <details>
 <summary>Proposed text and exact labels</summary>
@@ -159,11 +165,11 @@ Completing those two masks as X reproduces the primary visible-X reading, but it
 
 ## Reference labels and exact reproduction
 
-The three remaining primary unknowns occur at plaintext positions **152, 157 and 161**, from the distinct square cells **AF, GG and FD**. Each has the individual domain **0,3,4,5,6,7,8,9**. Because the square is one-to-one, their three labels must be distinct. The literal known 1s and ROEM 2 do not select the missing labels.
+Under the earlier baseline square, the three remaining primary unknowns occur at plaintext positions **152, 157 and 161**, from the distinct square cells **AF, GG and FD**. Each has the individual domain **0,3,4,5,6,7,8,9**. Because the square is one-to-one, their three labels must be distinct. The literal known 1s and ROEM 2 do not select the missing labels.
 
-All **40,320** assignments to the eight unknown square cells are checked with the forward loss-before-transposition process. They yield **336 distinct ordered reference triples**. One full-square witness for every triple is retained. These are proofs of alternatives, not historical choices of a date, serial or telegram number.
+The earlier baseline check retains all **40,320** assignments to the eight unknown square cells with the forward loss-before-transposition process. They yield **336 distinct ordered reference triples**. One full-square witness for every triple is retained. These are proofs of alternatives, not historical choices of a date, serial or telegram number.
 
-| Quantity | Primary edition |
+| Quantity | Earlier baseline edition |
 | --- | ---: |
 | Native received slots / advertised slots | 324 / 324 |
 | Received transposition length | 324 |
@@ -181,6 +187,7 @@ All **40,320** assignments to the eight unknown square cells are checked with th
 ```sh
 python experiments/odessa_courier_pretransposition/verify.py --verify
 python experiments/odessa_courier_pretransposition/verify.py --verify --pdf /path/to/childs.pdf
+python experiments/nov16_18_reference_completion/verify_courier.py --verify
 ```
 
 The exact forward reproduction establishes the arithmetic of the proposed model. It does not authenticate a historical omission mechanism, replace the native reading, or prove global optimality over other keys and error models.

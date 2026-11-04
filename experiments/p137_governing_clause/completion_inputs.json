@@ -1,0 +1,27 @@
+{
+  "schema": "adfgvx-p137-a5-boundary-completion-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "dependencies": {
+    "experiments/p137_governing_clause/inputs.json": "2983e898d20a4e8825e664ebe85b1252dc39e65fa39214dd92cd0c88a41338c6",
+    "experiments/p137_governing_clause/certificates.json": "60dbd912ca0b538efb6ff6110c551c4fad5fb626ff7c281d200a71fbb6f2a06b",
+    "experiments/p137_governing_clause/verify.py": "ccb73d17e9bdf441422cf4ed92e227be95144a775af8a5138c8cf11865343a58",
+    "experiments/transylvania_situation_report/inputs.json": "acea90d19f08c19d5e2eb093bbb33ea85502f585ccd3ce62e5c27e83fe53dcda"
+  },
+  "source_input": "experiments/transylvania_situation_report/inputs.json",
+  "prior_certificate": "experiments/p137_governing_clause/certificates.json",
+  "prior_layer": "governing_clause",
+  "proposed_separators": [
+    75,
+    125
+  ],
+  "expected_complete_text": "ANSCHLIESSENDMUESSENVORBEGINNMILITAERISCHERBEWEGUNGENPERSONALDERWIRTSCHAFTSXUNDVERWALTUNGSSTAEBEAB6XNOVEMBERABGESCHOBENWERDENX",
+  "interpretation": "Treat the staff-compound junction and the sentence ending as X separators in the existing optional governing-clause reading.",
+  "limits": [
+    "This completes the optional reading of part5 only; parts2/3 and most of part6 remain absent or unread.",
+    "The two X labels are punctuation proposals, each preserving one observed half-coordinate; the cipher alone allows36 completions.",
+    "The existing conditional0/37 interference allocation, seven observed substitutions and four printed-mask fills are inherited unchanged."
+  ]
+}

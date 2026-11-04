@@ -58,7 +58,26 @@ Printed 258 / advertised 264: a one-coordinate gap in AAAV plus a five-coordinat
 
 ## p137 A5
 
-Interference-damaged personnel removal passage; four partial word completions.
+The conditional complete reading orders the removal of economic and
+administrative staffs before military movements begin:
+
+**Readable German — conditional complete part-5 proposal:**
+
+> Anschliessend muessen vor Beginn militaerischer Bewegungen Personal der
+> Wirtschafts- und Verwaltungsstaebe ab 6. November abgeschoben werden.
+
+The proposal reaches **126/126 positions**, including two separately priced
+`X` separators after `WIRTSCHAFTS` and `WERDEN`. Each separator supplies one
+missing coordinate while retaining its observed half. The full part costs
+**seven observed substitutions, four printed-mask fills and 37 missing-coordinate
+fills** under the earlier conditional 0/37 interference frame. The source-68
+V alternative lowers the substitution total to six. The literal `MUESSEN`
+and date label `6` are retained.
+
+The [completion account](../../experiments/p137_governing_clause/README.md#completing-the-two-separators)
+shows all 36 possible residual label pairs before the punctuation choice.
+This completes the proposed reading of part 5; the missing parts and the
+separate part-6 fragment remain as described above.
 
 <details>
 <summary>Source and cipher evidence</summary>
@@ -88,13 +107,14 @@ separately. Ten plaintext positions remain unresolved, including the literal
 price remain unchanged. Independent witnesses attest the two staff compounds,
 not this complete clause or its historical execution.
 
-The [new governing-clause supplement](../../experiments/p137_governing_clause/README.md)
-extends the optional reading to **124/126 positions**: `VORBEGINN
+The [governing-clause supplement](../../experiments/p137_governing_clause/README.md)
+first extends the optional reading to **124/126 positions**: `VORBEGINN
 MILITAERISCHER BEWEGUNGEN` and `AB6XNOVEMBER`. Relative to the staff layer,
 it adds four observed substitutions, one printed-mask fill and seven
 missing-coordinate fills. The separate `AB6X` proposal needs only two fills
-and preserves the observed 6. The staff separator and final position remain
-unread; the governing clause is a priced contextual reconstruction.
+and preserves the observed 6. The two final separator fills give the complete
+optional reading displayed above; the governing clause remains a contextual
+reconstruction.
 
 ## p129 A7
 
