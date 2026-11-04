@@ -4,7 +4,7 @@
 
 Follow unit movements, evacuation, disarmament, internment, position reporting and army supply requests.
 
-**249 reviewed entries across 98 case pages, representing 249 physical sources; 249 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**250 reviewed entries across 99 case pages, representing 250 physical sources; 250 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -92,6 +92,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [Oderberg transport fragment and a troop-situation query](prague_route_and_situation.md) | p211 A2, p211 B upper |
 | [Heated sick wagons, cooking equipment and hot tea](medical_return_transports.md) | p212 A1, p212 A5, p213 A6, p213 A7 |
 | [p212 A4: hospitals, patients and transport](p212_medical_fragment.md) | p212 A4 |
+| [p215 A — Breslau–Oderberg dispatch fragment](p215_breslau_dispatch.md) | p215 A |
 | [p215 B1 — Train-departure fragment of an evening report](p215_train_departure_fragment.md) | p215 B1 |
 | [Divisional areas and staff locations: second part with explicit geographical alternatives](nov22_divisional_positions_part2.md) | p215 B2 |
 | [p217 A — Coal shortages, disarmament and transport through Czechoslovakia](p217_A.md) | p217 A1, p217 A2, p217 A3, p217 A4, p217 A5 |
@@ -322,6 +323,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p213 A6](medical_return_transports.md#p213-a6) | Water points, forwarding and medical-department request | Five word repairs; 5T bridge and position before DEPARTEMENT unresolved | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
 | [p213 A7](medical_return_transports.md#p213-a7) | Arrange transport care from Constantinople; raw reference retained | One printed-glyph fill; raw NIKOLA9EW and footer untouched | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key; earlier unreviewed candidates distinguished |
 | [p214 B](mackensen_warsaw.md) | Forwarded quotation of the Warsaw query | 85/92 direct quote positions match p181 under a different key | Prior body: Lasry, Niebel, Kopal and Wacker (2016); source edition: icekylinx and GPT-6 Astra Pro |
+| [p215 A](p215_breslau_dispatch.md) | Dispatch from Breslau via Oderberg: wagonloads and accompanying personnel | Conditional 392-slot frame:176/196 raw positions; zero observed-coordinate changes or fills; five printed-mask slots relocated and two unknown slots inserted | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key and Childs source credited |
 | [p215 B1](p215_train_departure_fragment.md#p215-b1) | Evening-report fragment: further trains departing and proposed Szeged fields | Native 145-slot fragment; conditional 220 frame after 75 missing slots; raw 37/110, partial lexical 77/110; zero observed substitutions, 3 printed-mask + 39 added-slot fills; 33 unknowns and both X/A glyph layers retained | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR credited |
 | [p215 B2](nov22_divisional_positions_part2.md#p215-b2) | Divisional areas and staff locations: second part with explicit geographical alternatives | 129/150 native raw positions; 0 coordinate substitutions + 13 source-mask fills; optional geography: 18 substitutions + 14 fills under baseline, or 8 + 14 under shared DD=Y | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov22-24 key; prior OCR and body attribution retained |
 | [p217 A1](p217_A.md) | Scholtz divisions march into the assembly area | 114/114 baseline positions; unit-number interpretation separate | icekylinx and GPT-6 Astra Pro (2026) |

@@ -23,7 +23,7 @@ This audit covers the 21 physical bodies outside the readable catalogue at `f3ba
 | p194_D1 | 45 | 45 | 0 | 214 | No accepted edition |
 | p198_A | 247 | 237 | 10 | 244 | [Partial/conditional edition](../cases/naval/p198_shipping_query.md#p198-a) |
 | p212_A4 | 197 | 197 | 0 | Not printed | [Partial/conditional edition](../cases/military/p212_medical_fragment.md#p212-a4) |
-| p215_A | 390 | 372 | 18 | 392 | No accepted edition |
+| p215_A | 390 | 372 | 18 | 392 | [Partial/conditional edition](../cases/military/p215_breslau_dispatch.md) |
 | p215_B1 | 145 | 140 | 5 | 220 | [Partial/conditional edition](../cases/military/p215_train_departure_fragment.md#p215-b1) |
 | p215_B3 | 219 | 200 | 19 | 234 | No accepted edition |
 | p219_C | 284 | 284 | 0 | 294 | [Partial/conditional edition](../cases/military/p219_kiev_unrest.md#p219-c) |

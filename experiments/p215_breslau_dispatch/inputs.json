@@ -1,0 +1,146 @@
+{
+  "schema": "adfgvx-p215-breslau-dispatch-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "case": "cases/military/p215_breslau_dispatch.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "id": "p215_A",
+      "storage": "external_pdf_reference",
+      "pdf_page_1based": 218,
+      "crop_pdf_points": [
+        72,
+        172,
+        550,
+        330
+      ],
+      "render_scale": 4,
+      "width": 1912,
+      "height": 632,
+      "rgb_sha256": "cf97932cfe72c13010622c8463ba861e46844fc7e401063d61545d0008a338c0",
+      "fresh_render_cache": true
+    }
+  ],
+  "key": {
+    "id": "Nov22-24",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      16,
+      7,
+      14,
+      22,
+      11,
+      18,
+      1,
+      15,
+      8,
+      10,
+      20,
+      2,
+      13,
+      21,
+      3,
+      17,
+      19,
+      5,
+      9,
+      4
+    ],
+    "column_count": 22,
+    "square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+    "square_rows": [
+      "QNZ72X",
+      "S4C0IJ",
+      "Y3RBEK",
+      "L9FD6G",
+      "MTHUVW",
+      "A5O8P1"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "records": [
+    {
+      "id": "p215_A",
+      "printed_page": 215,
+      "source_section": "A",
+      "advertised_length": 392,
+      "header_transcription": "A) ZON v BSL (04.50 a.m., November 23rd); WORGAG DORT NR C4A6688;1500(11/22);RICHI-392",
+      "source_rows": [
+        "FFFDA FXFFF GFVGG XFVVA DDAGX GADGG XDVXF XGAAA",
+        "FGVGG AVFXA VAAXD FVXGX FFAGG VAXFF FGAGX FDGAV",
+        "AVXDG VDGGG VAXGA AVDFF AXDAX FVFVF XVAAF AFFXG",
+        "XVVAD ADGXA XGAVX FXFGG XXAFF DVFGD GFFDG AFFA",
+        "XVXVD XADGA FAVAA VDXFG VXDXG VDGA AFGGX GX---",
+        "----- ----- GVDAX DAVAF GFXAA AFFAF GVDV- XFVFF",
+        "XDXFX VFXDV FFAGG FFVXV XVG-A VXXXF VDGFX FDFFA",
+        "GAFDD GXXDF GFGXX GFFDD XXDAV GDXAX XGFAG XDVVG",
+        "AVXFA VGVDF -FGAG FAFFF --XVX VXVVF GAFGX DDAXV",
+        "ADXDV VXVXG VDDGV GVVXV XVADV FXGGF DA"
+      ],
+      "primary_model_id": "whole_group_270",
+      "models": [
+        {
+          "id": "whole_group_270",
+          "frame": {
+            "insert_unknown_before_source_indices": [
+              157,
+              185
+            ],
+            "move_printed_mask_source_start": 198,
+            "move_printed_mask_count": 5,
+            "insert_mask_block_at_shortened_frame_boundary": 270,
+            "operation_order": "Insert the two unknowns, remove the five existing printed masks, then insert that block at boundary270 of the shortened387-slot stream.",
+            "interpretation": "Conditional relocation of one printed all-dash group; no claim that the printed page places it here."
+          },
+          "expected_raw": "D6EABSENDUNGRUERXYYXAR?PEDRI?GXBE??ETIG?ENXJ??11XPAARHU??ISENUND9K??11111XHUF??EGELUNDSC?RAUBNAEGEL?ST??UTEX?BBRESLAUXUEBERODERBERGINXJXWAGGONLADUNGENUNDXJXBEGLEITERNER6OLGTXN?AINDEPO?XBRESLAT5J85"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "The native source has390 slots; header392 alone does not locate the two missing coordinates.",
+    "All372 observed coordinates and their relative order survive unchanged. The18 printed masks retain their identities, but five are moved.",
+    "The frame is supported by long coherent raw passages, not proved historically unique.",
+    "Fixed positions include literal numeral labels and garbles. No mask value, numeral or footer identification is supplied by the initial raw edition."
+  ],
+  "prior_credit": "Historical ciphertext: J.Rives Childs. Published Nov22-24 square and ranks: George Lasry and colleagues; their existing register credit is unchanged. Source-frame discovery and edition: icekylinx and GPT-6 Astra Pro."
+}
