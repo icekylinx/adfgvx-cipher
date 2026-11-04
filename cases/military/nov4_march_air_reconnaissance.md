@@ -1,5 +1,14 @@
 # March and aerial reconnaissance report
 
+The report places the unresolved unit `211?IVD` in the area of `TITELC` by `9 / 11`. An `A. H. Q?` field gives `5 / 11` and the conditionally completed `NAGQBECSEREK`. The final clause reports no substantial aerial-reconnaissance findings.
+
+**Complete edition by printed page:** [p. 127](../pages/127.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p127 A3
@@ -67,3 +76,6 @@ The earlier 96-position proposal filled six of the ten leading dashes. The prese
 The [input and place-comparison record](../../experiments/early_radio_and_leave_records/inputs.json) preserves both proposals and binds the independent p120 C source. The [certificate](../../experiments/early_radio_and_leave_records/certificates.json) traces each shared donor letter to two observed coordinates and records the target's half-coordinate domains. The [verifier](../../experiments/early_radio_and_leave_records/verify.py) recomputes the readings, exact costs and displayed German.
 
 Source edition and place comparison: **icekylinx and GPT-6 Astra Pro (2026)**. Childs supplies the historical collection. The unchanged published key is credited to Lasry, Niebel, Kopal and Wacker, with Lasry's published period-key list. Earlier repository OCR remains in the [attribution record](../../experiments/early_radio_and_leave_records/prior_candidates.json).
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Radio instructions: p77 B and p134 B
 
+The signals chief reports that the radio detachment at Konia receives the call sign spelled Nathan–Otto–Karl. The recipient is to determine the wavelengths.
+
+**Complete edition by printed page:** [p. 77](../pages/077.md) · [p. 134](../pages/134.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Two source-checked contextual records, outside the 22-target challenge. The established period keys are credited to the earlier corpus researchers. Source transcription, comparison, and verification: **icekylinx and GPT-6 Astra Pro**. No first decipherment priority is claimed for these wider-corpus messages.
@@ -49,3 +58,6 @@ The [source records](../../experiments/source_followup/source_context.json) pres
 python3 experiments/source_followup/verify_context.py --verify
 python3 -m adfgvx.verify
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

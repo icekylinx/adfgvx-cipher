@@ -1,5 +1,14 @@
 # November 4: repeated-part request and communications inquiry
 
+The sender reminds the addressee that a repeat of the first part had been requested; parts 2 and 3 have already been handled as the next part explains.
+
+**Complete edition by printed page:** [p. 121](../pages/121.md) · [p. 122](../pages/122.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -137,3 +146,6 @@ The first message asks for the **first part** again; it does not identify that m
 Earlier unreviewed repository candidates already identified these bodies. This edition corrects OCR against the scan, preserves the actual printed glyphs and prices every proposed coordinate change; it makes no first-decipherment claim. The published key keeps its original provenance.
 
 [Inputs and source metadata](../../experiments/nov4_repetition_and_connections/inputs.json), [full certificates](../../experiments/nov4_repetition_and_connections/certificates.json), [earlier candidates](../../experiments/nov4_repetition_and_connections/prior_candidates.json), and [reproduction](../../experiments/nov4_repetition_and_connections/README.md) are preserved.
+
+</details>
+<!-- CASE-EDITION:END -->

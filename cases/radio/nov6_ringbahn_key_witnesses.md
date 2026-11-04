@@ -1,5 +1,14 @@
 # November 6 Ringbahn-key instruction: a second three-part witness
 
+The schedule itself is the already established instruction to reuse November key dates for the beginning of December. These p145 witnesses provide independent character-level support for the text, recover a short source group, and expose the differing date and reference layers.
+
+**Complete edition by printed page:** [p. 145](../pages/145.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Third reception restored.** The [p187 B1 fragment](nov13_ringbahn_retransmission.md) adds a separately received witness with an exact origin map for every restored coordinate.
@@ -179,3 +188,6 @@ priority is claimed.
 and [reproduction instructions](../../experiments/nov6_ringbahn_key_witnesses/README.md)
 preserve exact source and frame indices, every raw domain, all five local
 alignments and full re-encryptions.
+
+</details>
+<!-- CASE-EDITION:END -->

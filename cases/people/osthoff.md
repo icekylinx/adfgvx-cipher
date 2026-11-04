@@ -1,5 +1,14 @@
 # Osthoff's posting to Turkey is cancelled
 
+To the Military Mission in Constantinople. Captain of the Reserve Osthoff's posting to Turkey and assignment to the Military Mission have been cancelled.
+
+**Complete edition by printed page:** [p. 138](../pages/138.md) · [p. 148](../pages/148.md) · [p. 149](../pages/149.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source audit](../../experiments/corpus_attack/SOURCE_FAMILIES.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Four receptions, p138 A1–A2 and p148 C1 / p149 A2, reconstruct the cancellation of Osthoff's posting to Turkey. Under the published **Nov4–6** key, they jointly support all **121 positions** of the first part and **115 of 118** in the second; three word repairs complete the proposed reading.
@@ -52,3 +61,6 @@ python3 experiments/corpus_attack/verify_source_pairs.py
 ```
 
 The second implementation independently reconstructs the columns, checks all 238 missing-group positions and re-encrypts the candidate readings. The [full source audit](../../experiments/corpus_attack/SOURCE_FAMILIES.md) retains the exact raw texts and unresolved source disagreements.
+
+</details>
+<!-- CASE-EDITION:END -->

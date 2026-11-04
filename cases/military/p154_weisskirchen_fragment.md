@@ -1,5 +1,14 @@
 # p154 A2 — Weisskirchen halt and security fragment
 
+The surviving phrases mention a halt involving Weisskirchen and security arrangements at locations whose description is incomplete. They do not identify who was halted or establish the missing geographical endpoints.
+
+**Complete edition by printed page:** [p. 154](../pages/154.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Recovery and review: icekylinx and GPT-6 Astra Pro, 4 November 2026.**
@@ -116,3 +125,6 @@ witnesses; arbitrary residual witness fills are not historical text.
 Historical source: J. Rives Childs. Published November 4–6 key: George Lasry,
 Ingo Niebel, Nils Kopal and Arno Wacker (2016), and Lasry's 2017 key list.
 Source-frame discovery, word review and edition: **icekylinx and GPT-6 Astra Pro**.
+
+</details>
+<!-- CASE-EDITION:END -->

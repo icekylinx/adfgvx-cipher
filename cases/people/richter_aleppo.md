@@ -1,5 +1,14 @@
 # p203 C / p210 C — inquiries about Richter in Aleppo
 
+The War Ministry's communications-equipment section asks for news of the whereabouts of an NCO named Richter at the radio park in Aleppo. Its field-post number remains unresolved.
+
+**Complete edition by printed page:** [p. 203](../pages/203.md) · [p. 210](../pages/210.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source certificate](../../experiments/corpus_recovery/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Records:** two related personnel inquiries, on 18 and 20 November 1918,
@@ -164,3 +173,6 @@ is claimed.
 ```sh
 python3 experiments/corpus_recovery/verify.py --verify
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

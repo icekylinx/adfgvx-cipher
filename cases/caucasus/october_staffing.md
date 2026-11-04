@@ -1,5 +1,14 @@
 # October staffing, manganese purchases and service traffic
 
+A Bavarian personnel order sends a colonel to the 4th Cavalry Brigade and requests his departure date; the following part names the lieutenant colonel already ordered there as his replacement. Companion messages concern Tiflis personnel, medical retransmission, manganese purchases and receipt of a telegram.
+
+**Complete edition by printed page:** [p. 66](../pages/066.md) · [p. 67](../pages/067.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Six source-reviewed records under the previously published
@@ -179,3 +188,6 @@ coordinate origins.
 
 The literal source is unchanged in every record. The proposed texts and their
 re-encrypted witnesses are separate certificate fields.
+
+</details>
+<!-- CASE-EDITION:END -->

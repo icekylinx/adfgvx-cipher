@@ -1,5 +1,14 @@
 # Postponed departure, a supper query and a farewell
 
+The message reports that departure has been postponed, says there is no cause for alarm, and states that departure will occur later as agreed. The closing readiness phrase is retained as DHFN bleibt BETR bereit; the edition does not identify DHFN as a particular place or silently expand BETR.
+
+**Complete edition by printed page:** [p. 193](../pages/193.md) · [p. 196](../pages/196.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
@@ -122,3 +131,6 @@ Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (20
 The certificates independently reconstruct column positions and domains, compare them with the cipher implementation, replay every priced change, and check all readable nonseparator labels. Partial readings have one consistent injective square/source-mask completion witness that re-encrypts exactly; those witness choices are not historical identifications. Source images are bound to the original PDF by page, rectangle, scale, file digest and pixel digest.
 
 Reproduce with `python experiments/nov14_15_departure_and_supper/verify.py --verify`. Add `--pdf /path/to/adfgvx-childs.pdf` to check the original PDF and exact source-crop pixels.
+
+</details>
+<!-- CASE-EDITION:END -->

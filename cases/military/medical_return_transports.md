@@ -1,5 +1,14 @@
 # Heated sick wagons, cooking equipment and hot tea
 
+The medical instructions concern return transports from Turkey. They recommend a sick wagon fitted with stoves and cooking equipment, with hot tea continuously available.
+
+**Complete edition by printed page:** [p. 212](../pages/212.md) · [p. 213](../pages/213.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs pp212–213, 22 November 1918; published `Nov22-24` key, unchanged. [Inputs](../../experiments/medical_return_transports/inputs.json), [exact certificates](../../experiments/medical_return_transports/certificates.json), [method and limits](../../experiments/medical_return_transports/README.md).
@@ -135,3 +144,6 @@ Reading: meet the preceding recommendations as far as possible from Constantinop
 ## Attribution and retained gaps
 
 The sick-wagon and final medical passages already had recognizable unreviewed repository candidates. This edition records the exact source and all local repairs; it makes no first historical decipherment claim. The two initially unassigned frames and all four tied first-part geometries remain preserved in this package's frozen evidence; the later part-2 identification has its own certificate and counting scope. No baseline square or later-period relabeling is applied to the medical readings.
+
+</details>
+<!-- CASE-EDITION:END -->

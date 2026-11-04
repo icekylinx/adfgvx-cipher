@@ -1,5 +1,14 @@
 # November 7: Danube crossings and short message reports
 
+The report states that the division has completed its Danube crossing and describes busy crossing traffic at `BELGRAD` and `SEMUM`. The latter place label retains its source spelling.
+
+**Complete edition by printed page:** [p. 152](../pages/152.md) · [p. 153](../pages/153.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Five telegrams on Childs pp. 152–153 report a Serbian attack near Belgrad,
@@ -354,3 +363,6 @@ The verifier checks the literal source rows, coordinate costs, quoted readings, 
 [Certificate](../../experiments/nov7_danube_and_message_reports/certificates.json) · [Experiment notes](../../experiments/nov7_danube_and_message_reports/README.md) · [Verifier](../../experiments/nov7_danube_and_message_reports/verify.py)
 
 Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro.
+
+</details>
+<!-- CASE-EDITION:END -->

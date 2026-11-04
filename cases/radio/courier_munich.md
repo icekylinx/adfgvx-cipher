@@ -1,5 +1,14 @@
 # Munich couriers carrying radio operating documents
 
+The proposed first part tells the Engineer Inspectorate in Munich that the two named men left at 7 p.m. as couriers carrying radio operating documents for `GRUKONACH?02`. The continuation instructs the recipient to notify that unit and telegraph the arrival back to the sender.
+
+**Complete edition by printed page:** [p. 151](../pages/151.md) · [p. 153](../pages/153.md) · [p. 158](../pages/158.md) · [p. 162](../pages/162.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source and certificate](../../experiments/courier_recovery/README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Five records intercepted on 9 November concern couriers carrying radio operating documents to Munich: first parts p153 E1 / p162 A1 and continuations p151 D2 / p153 D2 / p158 C2. The best continuation fixes **67 of 68 positions** under the published Nov7–9 key; the damaged first part has a conditional 134-position reconstruction. The unit numeral remains **{5,6}** in the key, with a historical argument for **6** below.
@@ -106,3 +115,6 @@ Source inspection, repeated-copy recovery, reconstruction and edition: **icekyli
 python3 experiments/courier_recovery/build.py --verify
 python3 experiments/courier_recovery/verify.py
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Armistice transit and withdrawal planning
 
+A report cites Hungarian newspaper accounts allowing German troops only fifteen days to pass through the country. It discusses keeping the 11th Army on the Danube while the occupation army withdraws from Wallachia, and urgently requests the actual agreement.
+
+**Complete edition by printed page:** [p. 125](../pages/125.md) · [p. 126](../pages/126.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -321,3 +330,6 @@ copies of p125 A4 and p126 B. B4 independently witnesses the previously
 masked coordinate in `BEFOERDERUNG`; C reproduces the two corrupt words
 in the receipt, so their existing repairs remain editorial. Neither copy
 changes the conditional geometry or uncertainty of p126 A5.
+
+</details>
+<!-- CASE-EDITION:END -->

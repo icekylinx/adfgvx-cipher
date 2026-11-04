@@ -1,5 +1,14 @@
 # Batum: Lieutenant Meier ordered to Berlin
 
+The conditional reading orders Lieutenant Meier at Batum to leave immediately for Berlin and report to the replacement battalion designated 2. Garderegt. It does not prove that the journey occurred or establish a biographical identity.
+
+**Complete edition by printed page:** [p. 104](../pages/104.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -64,3 +73,6 @@ The unit number 2 remains the published-square label, and `ERS`, `BATL`, `GARDER
 Earlier unreviewed repository candidates already identified these bodies. This edition reviews the source images, retains their literal observations and publishes the exact repair or frame account; it makes no first-decipherment claim. The key keeps its earlier published provenance.
 
 [Inputs](../../experiments/nov2_acknowledgments_and_personnel/inputs.json), [full certificates](../../experiments/nov2_acknowledgments_and_personnel/certificates.json), [earlier candidates](../../experiments/nov2_acknowledgments_and_personnel/prior_candidates.json), and [reproduction instructions](../../experiments/nov2_acknowledgments_and_personnel/README.md) preserve the evidence.
+
+</details>
+<!-- CASE-EDITION:END -->

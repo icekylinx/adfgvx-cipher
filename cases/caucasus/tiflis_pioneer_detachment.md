@@ -1,5 +1,14 @@
 # A pioneer detachment may remain in Tiflis
 
+General von Kress is informed that the pioneer detachment may remain in Tiflis. The message carries Groener's name and replies to an earlier numbered request.
+
+**Complete edition by printed page:** [p. 81](../pages/081.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs p81 B (PDF p84), 30 October 1918; published `Oct28-31` key, unchanged. [Source crop](../../experiments/deutzitag_dispatch_inquiries/sources/p81_B.png), [inputs](../../experiments/deutzitag_dispatch_inquiries/inputs.json), [exact certificate](../../experiments/deutzitag_dispatch_inquiries/certificates.json).
@@ -26,3 +35,6 @@ Reading: “Zu Nr. 4452: Pion.-Abt. kann in Tiflis belassen werden. Groener. B. 
 The received `BELASZEN`, `4452`, `BX103830XO9` and the final `O9` remain unchanged. The last field is not silently expanded to `OP`. The text permits the detachment to remain; it does not independently show what the unit subsequently did.
 
 An earlier unreviewed repository candidate already contained this body. The present edition adds visual source checking, all coordinate and plaintext indices, re-encryption and an unchanged-reference inventory. It does not claim first historical decipherment.
+
+</details>
+<!-- CASE-EDITION:END -->

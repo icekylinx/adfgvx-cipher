@@ -1,5 +1,14 @@
 # An award notification and a congratulation
 
+A short message announces the award of the Iron Cross and offers congratulations. The award's class is conditionally read as second class through comparison with the period's other messages.
+
+**Complete edition by printed page:** [p. 193](../pages/193.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 
@@ -143,3 +152,6 @@ The verifier preserves all paired coordinates, including the unresolved VG pair,
 The [input](../../experiments/nov13_congratulation_conditional_frame/inputs.json) binds literal rows and date layers to exact source crops. The [certificate](../../experiments/nov13_congratulation_conditional_frame/certificates.json) retains the native odd frame, conditional models, full coordinate ledgers, all 150 exclusion prices and forward checks. The [verifier](../../experiments/nov13_congratulation_conditional_frame/verify.py) checks these values, the live German quotation and the unchanged published partial key.
 
 Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Historical source: J. Rives Childs. Published partial-key credit remains with Lasry, Niebel, Kopal and Wacker. The [attribution record](../../experiments/nov13_congratulation_conditional_frame/prior_candidates.json) preserves earlier OCR and the bounded discovery diagnostic. Search scores are not used as historical evidence.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Warsaw station report: a conditional missing-row continuation
 
+The preceding part ends with equipment; this continuation says it has not arrived from home. Under the stated lost-row hypothesis, the facilities designated FESTFERN and FESTFUNK A hand operation to the Poles on Monday evening, and S. R. WAU transfers personnel to the abbreviated Bezkdos.
+
+**Complete edition by printed page:** [p. 204](../pages/204.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and conditional reconstruction: icekylinx and GPT-6 Astra Pro.**
@@ -82,3 +91,6 @@ Published Nov16–18 key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker 
 The certificates preserve all source rows, map every conditional frame position to its original source index or an explicitly inserted slot, and list every proposed fill. Separate injective global square completions and residual-coordinate fillings produce full re-encryption witnesses for all three branches. Those witnesses demonstrate consistency, not historical completeness. The readable passage maps exactly to every nonseparator label in the primary edited output, including all four question marks.
 
 Reproduce with `python experiments/warsaw_station_missing_row/verify.py --verify`. Optional `--pdf /path/to/adfgvx-childs.pdf` regenerates the crop and checks every RGB pixel against the pinned original PDF.
+
+</details>
+<!-- CASE-EDITION:END -->

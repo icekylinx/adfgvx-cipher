@@ -1,5 +1,14 @@
 # An airfield and German troops: the surviving third part on p154
 
+This surviving third part says there apparently is an airfield at the previously mentioned place. Its next item says that only German troops still provide security along the line designated MIROC and the proposed BRZAPALANKA label.
+
+**Complete edition by printed page:** [p. 154](../pages/154.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
@@ -58,3 +67,6 @@ Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (20
 The certificates independently reconstruct column positions and domains, compare them with the cipher implementation, replay every priced change, and check all readable nonseparator labels. Partial readings have one consistent injective square/source-mask completion witness that re-encrypts exactly; those witness choices are not historical identifications. Source images are bound to the original PDF by page, rectangle, scale, file digest and pixel digest.
 
 Reproduce with `python experiments/airfield_german_troop_fragment/verify.py --verify`. Add `--pdf /path/to/adfgvx-childs.pdf` to check the original PDF and exact source-crop pixels.
+
+</details>
+<!-- CASE-EDITION:END -->

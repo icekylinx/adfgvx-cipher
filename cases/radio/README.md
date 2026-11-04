@@ -4,30 +4,32 @@
 
 Station control, call signs, key schedules, retransmissions, couriers and routing instructions are grouped for reading.
 
-**Historical study:** [Voices on the wireless](../../docs/historical-studies/voices-on-the-wireless.md).
+**Historical study:** [Radio authority and personnel](../../docs/historical-studies/voices-on-the-wireless.md).
 
-## Keeping a shrinking network connected
+## Schedules, retransmission and wire connections
 
-Schedules, broken links and relay instructions show the communications system under strain. A request to repeat a message is also evidence of what its first reception failed to preserve.
+Eilvese listening periods, repeated telegrams and the Odessa wire-connection report document the operation of the communications network. Parallel receptions preserve wording lost or damaged in individual copies.
 
-- [The Eilvese listening schedule](nov3_eilvese_traffic_schedule.md)
+- [Eilvese listening and transmission periods](nov3_eilvese_traffic_schedule.md)
 - [November 14 retransmissions](nov14_radio_retransmissions.md)
 - [The Odessa wire-connection report](nov9_wire_return_source_family.md)
 
-## Keys, procedure and changing authority
+## Cipher instructions and service procedure
 
-Read key-reuse instructions beside command traffic: the network had to remain intelligible while its political and military surroundings changed.
+The Tiflis instruction and Ringbahn key-reuse messages concern continued communication under specified cipher arrangements. September procedure messages provide an earlier record of radio-service practice.
 
 - [The Tiflis Ringbahn instruction](nov6_tiflis_ringbahn_instruction.md)
-- [Reusing the Ringbahn keys](ringbahn_key_reuse.md)
-- [Radio procedure before the armistice](september_radio_procedure.md)
+- [Instructions to reuse Ringbahn keys](ringbahn_key_reuse.md)
+- [September radio-service procedure](september_radio_procedure.md)
 
-## People behind the call signs
+## Vehicles, equipment and departures
 
-A delayed departure, a supper query and the Seifert correspondence preserve the human scale of the wireless service.
+Vehicle and trailer requests, readiness orders and a reported truck departure accompany the Seifert station and personnel traffic. Postponements, arrival enquiries and meal preparations document distinct stages of departure. The [transport and demobilisation study](../../docs/historical-studies/transport-and-demobilisation.md) compares these records and their unresolved places and timings.
 
-- [Seifert’s delayed departure](seifert.md)
-- [Departure and warm supper](nov14_15_departure_and_supper.md)
+- [Trucks, trailers, readiness and the Hanau destination](../context/transport.md)
+- [Station control and Seifert’s arrival and departure messages](seifert.md)
+- [November 12 arrival, departure and car enquiries](nov12_arrival_departure_and_car.md)
+- [Postponed departure, supper enquiry and farewell](nov14_15_departure_and_supper.md)
 
 ## Complete source index
 

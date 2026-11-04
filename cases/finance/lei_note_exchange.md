@@ -1,5 +1,14 @@
 # Redemption of stamped and unstamped lei notes
 
+A three-part telegram requests information needed to redeem stamped lei notes, proposes arrangements with Austrian and Hungarian banks, and reports that negotiations over redemption are still in progress.
+
+**Complete edition by printed page:** [p. 223](../pages/223.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
@@ -265,3 +274,6 @@ every raw domain and repair, exhausts all one-loss boundaries, retains
 all local alternative maps, verifies every untouched monetary/reference
 pair and audits the complete raw-label inventory. The PDF option also
 checks the full source hash and every retained crop pixel.
+
+</details>
+<!-- CASE-EDITION:END -->

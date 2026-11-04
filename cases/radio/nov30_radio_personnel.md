@@ -1,5 +1,14 @@
 # Radio notices, Tiflis personnel and internment on p230
 
+The inspection and the War Ministry have been notified; a reply is still outstanding. Signed Papp.
+
+**Complete edition by printed page:** [p. 230](../pages/230.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
@@ -152,3 +161,6 @@ The certificates replay every coordinate alteration, compare the independent col
 Reproduce with `python experiments/nov30_radio_personnel/verify.py --verify`. Add `--pdf /path/to/adfgvx-childs.pdf` to regenerate and compare the delivered source pixels.
 
 A roundtrip proves compatibility with a stated reading. Editorial spelling repairs remain proposals, and literal number labels are not automatically historical dates, quantities or reference numbers.
+
+</details>
+<!-- CASE-EDITION:END -->

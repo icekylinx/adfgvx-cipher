@@ -1,5 +1,14 @@
 # Reval: expected steamers and further transport capacity
 
+The message reports arrangements for steamers to carry troops and provisions at Reval by the end of November, with further tonnage and raw-material transport to follow. Contemporary shipping records support separately priced readings of the vessel names Peter Benoit, Björn and Babylon.
+
+**Complete edition by printed page:** [p. 213](../pages/213.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs p213 A1–A3 (PDF p216), **23 November 1918**; published `Nov22-24` key, unchanged. [Inputs](../../experiments/reval_steamer_notice/inputs.json), [exact certificates](../../experiments/reval_steamer_notice/certificates.json), [method](../../experiments/reval_steamer_notice/README.md).
@@ -119,3 +128,6 @@ Reading: “Für euch wird mit allen Kräften gesorgt.” The received `ROHAVAL`
 ## Attribution
 
 Earlier unreviewed repository screens already recognized the first two bodies. The present edition adds the source audit, exact repair costs, the separately retained glyph alternative and the closing source frame. It makes no first historical decipherment claim and changes no baseline key.
+
+</details>
+<!-- CASE-EDITION:END -->

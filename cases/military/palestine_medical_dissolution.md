@@ -1,5 +1,14 @@
 # p79 — medical formations lost in Palestine and their dissolution
 
+The telegram reports the loss of field hospitals and medical companies in Palestine, apart from some of their personnel. It requests formal dissolution of the formations and directs the remaining personnel to replacement units at home.
+
+**Complete edition by printed page:** [p. 79](../pages/079.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** A complete two-part source edition. The second part is identical in all 336 observed coordinates to the previously reviewed p83 B. Its immediately preceding first part supplies the medical-formation antecedent that was missing from the p83-only edition.
@@ -80,3 +89,6 @@ The two new physical records contain **598 native coordinate slots and 299 plain
 The total includes the repeated second part; it is not299 entirely new message characters. The new contextual result is the explicit link from p83's dissolution instruction to the named medical formations in the contiguous p79 first part.
 
 [Inputs](../../experiments/palestine_medical_dissolution/inputs.json) preserve both manual transcriptions, header information and exact crop provenance. [The certificate](../../experiments/palestine_medical_dissolution/certificates.json) verifies all repairs, source positions, round trips and the complete duplicate. [The README](../../experiments/palestine_medical_dissolution/README.md) gives reproduction commands and attribution limits.
+
+</details>
+<!-- CASE-EDITION:END -->

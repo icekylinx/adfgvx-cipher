@@ -1,5 +1,14 @@
 # Existing personnel and agreed radio transmissions
 
+The sender says the previous personnel are still present and transmissions continue as agreed. The final sentence contains the literal defect NICT and an unresolved OS? label.
+
+**Complete edition by printed page:** [p. 127](../pages/127.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p127 B1
@@ -87,3 +96,6 @@ or clock reconciliation is asserted. The second announced part remains unread.
 The [input](../../experiments/early_radio_and_leave_records/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/early_radio_and_leave_records/certificates.json) records each raw paired-coordinate domain and every proposed source change. The [verifier](../../experiments/early_radio_and_leave_records/verify.py) checks the live German quotation against the same candidate labels, preserving every digit and unknown position.
 
 This source edition is by icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection. The published reconstruction and unchanged key provenance credit Lasry, Niebel, Kopal and Wacker, with Lasry's published period-key list. Earlier repository OCR input is frozen in the [attribution record](../../experiments/early_radio_and_leave_records/prior_candidates.json).
+
+</details>
+<!-- CASE-EDITION:END -->

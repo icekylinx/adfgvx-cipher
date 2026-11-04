@@ -1,5 +1,14 @@
 # November 12: additional arrival and return enquiry witnesses
 
+The message asks to be notified when Seifert has arrived.
+
+**Complete edition by printed page:** [p. 182](../pages/182.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Printed p182 A and C are additional physical witnesses to two service enquiries already read on p174. They join the reviewed p183 arrival-enquiry copy. Direct comparison of their printed coordinates supplies a bounded recovery without selecting a German language score. The earlier body readings and the previously established p174/p183 complementary evidence retain their credit; these are **two newly reviewed source records, not two newly discovered message contents**.
@@ -189,3 +198,6 @@ python experiments/nov12_seifert_additional_witnesses/verify.py --verify --pdf /
 ```
 
 The alignment minima are conditional on the specified operation classes. They do not establish a unique historical channel error, authorize removal of source glyphs from the diplomatic transcription, or identify a person beyond the observed surname. Previously catalogued p174 and p183 records are not counted again.
+
+</details>
+<!-- CASE-EDITION:END -->

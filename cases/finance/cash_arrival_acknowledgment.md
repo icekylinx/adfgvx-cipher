@@ -1,5 +1,14 @@
 # Money-transport arrival acknowledgment
 
+A message to O.K.M. Wistab acknowledges the arrival of a money transport. It gives no recoverable amount or route.
+
+**Complete edition by printed page:** [p. 122](../pages/122.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -32,3 +41,6 @@ The edited stream is identical to the raw stream and re-encrypts to every source
 The header reads `NKJ v LP (08.42 p.m., November 4th)` and `FUER UKS 1405 (4).`; the ciphertext label is `RICHI-114`. The 114 source coordinates give **57/57 fixed positions**, with no repair, fill or change of key. The address and signature abbreviations are not expanded into an asserted historical identity. This acknowledgment is not used to decide the route or amount of any other money message.
 
 An earlier unreviewed repository OCR candidate already supplies the body. This is the source-audited edition, with original key credit preserved and no first-solution assertion. [Inputs](../../experiments/nov4_repetition_and_connections/inputs.json), [certificates](../../experiments/nov4_repetition_and_connections/certificates.json), [earlier candidate](../../experiments/nov4_repetition_and_connections/prior_candidates.json), and [reproduction](../../experiments/nov4_repetition_and_connections/README.md) give the complete evidence.
+
+</details>
+<!-- CASE-EDITION:END -->

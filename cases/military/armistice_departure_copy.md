@@ -1,5 +1,14 @@
 # Armistice-departure report: the p151/p157 copy relation
 
+The shared fragment concerns news of the departure of a German armistice commission and an apparent effect. Its closing remains opaque in the primary reading.
+
+**Complete edition by printed page:** [p. 157](../pages/157.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source comparison and edition: icekylinx and GPT-6 Astra Pro.**
@@ -209,3 +218,6 @@ preserve the exact evidence and counts.
 python experiments/armistice_departure_copy/verify.py --verify
 python experiments/armistice_departure_copy/verify.py --verify --pdf /path/to/adfgvx-childs.pdf
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

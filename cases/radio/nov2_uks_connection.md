@@ -1,5 +1,14 @@
 # UKS connection and an unnecessary relay
 
+The link to 5UKS is reported good and mediation through NSM unnecessary. The 5, 6 and NSM remain literal output labels; they are not replaced by presumed spaces or OSM.
+
+**Complete edition by printed page:** [p. 104](../pages/104.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -55,3 +64,6 @@ The damaged source slot belongs to the adjective `NOETIG`; the local fill does n
 Earlier unreviewed repository candidates already identified these bodies. This edition reviews the source images, retains their literal observations and publishes the exact repair or frame account; it makes no first-decipherment claim. The key keeps its earlier published provenance.
 
 [Inputs](../../experiments/nov2_acknowledgments_and_personnel/inputs.json), [full certificates](../../experiments/nov2_acknowledgments_and_personnel/certificates.json), [earlier candidates](../../experiments/nov2_acknowledgments_and_personnel/prior_candidates.json), and [reproduction instructions](../../experiments/nov2_acknowledgments_and_personnel/README.md) preserve the evidence.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Urgent embassy address: Constantinopel, signed Stumm
 
+This urgent first part addresses the German Embassy in Constantinople and carries a Stumm signature. Its announced second part is not present in this edition.
+
+**Complete edition by printed page:** [p. 161](../pages/161.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Source edition and verification: **icekylinx and GPT-6 Astra Pro**. The unchanged published Nov7–9 partial key retains its Lasry / Niebel / Kopal / Wacker attribution. No first historical decipherment priority is claimed.
@@ -62,3 +71,6 @@ The edited output is identical to the raw output. None of its coordinate pairs u
 The [p162 D1 address/signature fragment](constantinople_embassy_signature.md#p162-d1) provides related wording, but it has different source headers and the spelling `KONSTANTINOPEL`. Similarity does not establish that the two fragments belong to one telegram, and their missing parts are not joined.
 
 The [inputs](../../experiments/nov9_urgent_embassy_address/inputs.json), [certificate](../../experiments/nov9_urgent_embassy_address/certificates.json) and [prior evidence](../../experiments/nov9_urgent_embassy_address/prior_evidence.json) preserve every source row, the partial key's earlier provenance, the old disordered page OCR and the draft corrections. The [standalone verifier](../../experiments/nov9_urgent_embassy_address/verify.py) independently checks all 49 positions, exact re-encryption, the readable display and both possible global key completions. Optional PDF verification reproduces every bound source image.
+
+</details>
+<!-- CASE-EDITION:END -->

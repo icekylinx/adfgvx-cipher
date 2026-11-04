@@ -1,5 +1,14 @@
 # Eilvese/OUI: transmission arrangements and provisional traffic times
 
+The telegram sets out sending and receiving arrangements for Eilvese/OUI and provisional transmitting windows. It uses the technical terms *ungedaempft* and *toenend*. The stated numerical fields and windows are reported as transmitted labels; the edition does not independently authenticate their numerical assignments, add a wavelength unit or a time zone, or establish that the schedule was implemented.
+
+**Complete edition by printed page:** [p. 113](../pages/113.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -187,3 +196,6 @@ priced word repairs. It asserts **no first-decipherment priority**.
 and [reproduction instructions](../../experiments/nov3_eilvese_traffic_schedule/README.md)
 preserve the native reading, exact crops, every retained and excluded source
 position, all minimum-frame aliases and full candidate re-encryption.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Operations-map sheets for the Gleiwitz garrison
 
+The sender requests operations-map sheets covering Salzburg, Vienna, Lemberg and Breslau, with a smaller quantity for Warsaw, to be sent to the garrison command at Gleiwitz.
+
+**Complete edition by printed page:** [p. 151](../pages/151.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source restoration and edition: icekylinx and GPT-6 Astra Pro.**
@@ -130,3 +139,6 @@ and George Lasry's 2017 key disclosure, as recorded in the unchanged key
 metadata. This edition is a source restoration and explicit editorial
 review by **icekylinx and GPT-6 Astra Pro**, with earlier repository OCR
 preserved and no claim to universal first-decipherment priority.
+
+</details>
+<!-- CASE-EDITION:END -->

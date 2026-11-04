@@ -1,5 +1,14 @@
 # Prague transport fragment, Ukrainian provisions priority and disarmament orders
 
+Three telegrams concern a Prague transport fragment, priority for Ukrainian provisions, and disarmament instructions. Complete numbered parts survive for the latter two messages, while only the Prague message's opening is present.
+
+**Complete edition by printed page:** [p. 209](../pages/209.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and exact repair accounting: icekylinx and GPT-6 Astra Pro (2026).** Published Nov19–21 key: Lasry, Niebel, Kopal and Wacker. Earlier unreviewed machine candidates for p209 are preserved and credited; this is not a universal first-decipherment claim.
@@ -151,3 +160,6 @@ DASSESEHRLOSISTXWENNGESCHLOSSENEVERBAENDESICHOHNEKAMPFENTWAFFNENLASSENXXOHLXRMJA
 The [inputs](../../experiments/transport_and_disarmament_orders/inputs.json) preserve all literal source rows, headers, published key values and crop-rendering metadata. The [certificates](../../experiments/transport_and_disarmament_orders/certificates.json) enumerate all fifteen substitutions, eight fills and every plaintext pair's original source coordinates. The [prior candidate snapshot](../../experiments/transport_and_disarmament_orders/prior_candidates.json) retains the old OCR candidates, including readable B2/C bodies and frozen retrieval entries; the bounded publication check is not a universal priority claim.
 
 The package [README](../../experiments/transport_and_disarmament_orders/README.md) gives reproduction commands. Its verifier compares an independent physical-column inverse with the project decoder, checks every repair against the literal source and confirms exact re-encryption under the unchanged square. Optional PDF verification authenticates the pinned full scan and all crop pixels. A source-compatible proposal does not prove unique historical wording, and the raw label inventory remains available for later independently supported interpretation.
+
+</details>
+<!-- CASE-EDITION:END -->

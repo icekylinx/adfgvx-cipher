@@ -1,5 +1,14 @@
 # Cash transport to Hermannstadt
 
+If the aircraft at Döberitz has not departed, money is to be sent promptly under special guard by train through Szolnok and Arad to Hermannstadt. The continuation requests arrival notices.
+
+**Complete edition by printed page:** [p. 216](../pages/216.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
@@ -53,3 +62,6 @@ The unreviewed corpus screen already recognized this second part. The present co
 ## Evidence
 
 [Source transcripts and attribution](../../experiments/hermannstadt_cash_transport/inputs.json), [coordinate and geometry certificates](../../experiments/hermannstadt_cash_transport/certificates.json), and [method and reproduction instructions](../../experiments/hermannstadt_cash_transport/README.md).
+
+</details>
+<!-- CASE-EDITION:END -->

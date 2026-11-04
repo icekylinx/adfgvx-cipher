@@ -1,5 +1,14 @@
 # p166 — a second witness of the newspaper-dispatch request
 
+The message tells the Oberpostdirektion Breslau that Berlin newspaper sacks have arrived via Orsova and requests immediate dispatch along the same route, with priority references left as raw `7?3` and `308`.
+
+**Complete edition by printed page:** [p. 166](../pages/166.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Two newly source-reviewed physical parts, compared with the already published p171 B1/B2 edition. The first part is fully supported by observed coordinate pairs across the copies. In the second, three letter choices remain editorial and one numeral cell remains unassigned.
@@ -101,3 +110,6 @@ The two new p166 records total **386 source slots /193 plaintext positions**:143
 The existing p171 costs are unchanged. Combining both old and new witnesses gives 14 substitutions for the selected common stream, compared with the coordinate-only minimum 10. There are no added or deleted coordinates, reordered blocks, key changes or new numerical assignments.
 
 The earlier p171 edition selected the comparison target, so this is **not a blind prediction test**. [The certificate](../../experiments/newspaper_dispatch_witnesses/certificates.json) records every candidate pair, both raw pairs, all source indices, each fill's source support and the conditional minimum. [Inputs](../../experiments/newspaper_dispatch_witnesses/inputs.json) retain the literal glyphs and source images; [the README](../../experiments/newspaper_dispatch_witnesses/README.md) provides reproduction commands.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Transports from Romania: warning against entry into Hungary
 
+Two receptions warn Mackensen's mineral-oil department not to admit transports from Romania into Hungary because they would be lost there. Comparison of the copies restores the warning's missing group.
+
+**Complete edition by printed page:** [p. 184](../pages/184.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs printed p184 (PDF p187), 13 November 1918; published `Nov13-15a` key, unchanged. [Inputs](../../experiments/hungary_transport_warning/inputs.json), [exact certificates](../../experiments/hungary_transport_warning/certificates.json), [method and limits](../../experiments/hungary_transport_warning/README.md).
@@ -139,3 +148,6 @@ Every one of these 54 positions has the same coordinate pair as the correspondin
 ## Attribution and scope
 
 Earlier unreviewed repository candidates already recognized much of the address, warning and footer. This edition adds source-checked coordinates and boundaries, an exact missing-group reconstruction, and explicit costed ordinary-word corrections. No claim of first historical decipherment is made. All fixed letters remain labels under the published key, and all unknown domains are available in the certificate.
+
+</details>
+<!-- CASE-EDITION:END -->

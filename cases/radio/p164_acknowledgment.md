@@ -1,5 +1,14 @@
 # p164 D — Partial receipt acknowledgement
 
+A short message to Supreme Army Command acknowledges receipt and closes with O.K.M. Its reference fields remain opaque.
+
+**Complete edition by printed page:** [p. 164](../pages/164.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and review: icekylinx and GPT-6 Astra Pro.** The 116 native coordinates fix all 58 raw output positions. The readable portion addresses O.H.L., acknowledges receipt and ends with O.K.M.; its reference fields remain opaque.
@@ -55,3 +64,6 @@ python experiments/p164_acknowledgment/verify.py --verify --pdf /path/to/childs.
 ```
 
 The verifier checks source length, unchanged key, both re-encryptions, exact word-repair indices and the actual displayed source, raw output, edited output and readable quotation. The optional PDF check verifies the original crop pixels.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # p215 A — Breslau–Oderberg dispatch fragment
 
+A dispatch of urgently needed horseshoes, hoof nails and screw nails has left Breslau via Oderberg, with wagonloads and accompanying personnel. The closing is read as Traindepot Breslau.
+
+**Complete edition by printed page:** [p. 215](../pages/215.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Recovery and review: icekylinx and GPT-6 Astra Pro, 4 November 2026.**
@@ -186,3 +195,6 @@ published period key. This source-frame discovery and edition are by
 python experiments/p215_breslau_dispatch/verify.py --verify
 python experiments/p215_breslau_dispatch/verify.py --verify --pdf /path/to/childs.pdf
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # November 11: Romanian mobilization and a crossing report
 
+The partial report concerns Romanian mobilization, a state of war and an enemy crossing at Turnumagurele and Zimnica. A comparison with decree 3179 supports the conditional order date of 9 November; two fields remain masked.
+
+**Complete edition by printed page:** [p. 180](../pages/180.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 The surviving second part on printed page 180 reports mobilization and a crossing. Its last line is followed by **“(jammed to end)”**. The source contains **235 printed slots**, including two dashes, under a **RICHI-240** header. Keeping every printed slot and appending five unknown coordinates produces a conditional 240-coordinate frame with **110 of 120 plaintext positions fixed** under the unchanged published Nov10–12 key.
@@ -173,3 +182,6 @@ The [portable verifier](../../experiments/nov11_romanian_mobilization_report/ver
 python experiments/nov11_romanian_mobilization_report/verify.py --verify
 python experiments/nov11_romanian_mobilization_report/verify.py --verify --pdf /path/to/childs.pdf
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

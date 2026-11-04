@@ -1,5 +1,14 @@
 # Payments through October and cheque acknowledgements
 
+The fragment concerns marks paid through the end of October and asks for notice of the arrival of cheques. It retains the Hauptwechselamt designation; the preceding part and payment amount remain incomplete.
+
+**Complete edition by printed page:** [p. 175](../pages/175.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition: icekylinx and GPT-6 Astra Pro.**
@@ -101,3 +110,6 @@ field after AM. A separate common-copy ending X costs one additional
 observed change. The [complete reconciliation](../../experiments/accounting_copy_reconciliation/README.md)
 preserves both original editions, all five source disagreements, the two
 unsupported ordinary-word repairs, and both global square completions.
+
+</details>
+<!-- CASE-EDITION:END -->

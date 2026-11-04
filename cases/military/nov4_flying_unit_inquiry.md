@@ -1,5 +1,14 @@
 # Flying units: should they depart or remain?
 
+The proposed body says that a communication is not understood and asks whether flying units should depart by air or remain here. It does not identify the units or establish that either action occurred.
+
+**Complete edition by printed page:** [p. 124](../pages/124.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -151,3 +160,6 @@ No first-decipherment priority is claimed.
 and [reproduction instructions](../../experiments/nov4_flying_unit_inquiry/README.md)
 include every raw domain, both minimal source mappings, all repair events,
 the unresolved prefix and source-image pixel verification.
+
+</details>
+<!-- CASE-EDITION:END -->

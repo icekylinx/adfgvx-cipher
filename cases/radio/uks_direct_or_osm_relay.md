@@ -1,5 +1,14 @@
 # Expected heavier traffic: direct UKS connection or OSM relay
 
+Heavier traffic is expected. The sender asks whether a reliable direct connection to UKS exists or whether OSM must relay it.
+
+**Complete edition by printed page:** [p. 88](../pages/088.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p88 B
@@ -38,3 +47,6 @@ No source-coordinate substitution or source-mask fill is used.
 The [input](../../experiments/radio_relay_and_march_notice/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/radio_relay_and_march_notice/certificates.json) contains the raw paired-coordinate domains, each source change and the forward checks. The [verifier](../../experiments/radio_relay_and_march_notice/verify.py) checks the unchanged published keys and the live German quotations, retaining all numerical and letter labels.
 
 Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/radio_relay_and_march_notice/prior_candidates.json).
+
+</details>
+<!-- CASE-EDITION:END -->

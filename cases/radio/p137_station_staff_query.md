@@ -1,5 +1,14 @@
 # p137 B — Query about the station's former staff
 
+The conditional reading asks whether the station still has its former personnel and requests a reply. The closing names Eilvese.
+
+**Complete edition by printed page:** [p. 137](../pages/137.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Recovery and source review: icekylinx and GPT-6 Astra Pro.** A conditional
@@ -110,3 +119,6 @@ Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and Lasry's 2017 key
 list. The earlier unreviewed `p137_ocr_block4` is preserved separately. This
 source review, new query reading, frame reconstruction and independent
 verification are by **icekylinx and GPT-6 Astra Pro**.
+
+</details>
+<!-- CASE-EDITION:END -->

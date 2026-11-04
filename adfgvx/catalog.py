@@ -202,6 +202,17 @@ def table(rows, destination):
     return "\n".join(lines)
 
 
+def page_table(rows, destination, page):
+    """Give the full page edition and the concise case equal, explicit routes."""
+    lines = ["| Source | State | Subject | Case |", "|---|---|---|---|"]
+    for row in rows:
+        anchor = 'source-' + re.sub(r'[^a-z0-9]+', '-', row['id'].lower()).strip('-')
+        edition = relative_link(f"cases/pages/{page:03d}.md#{anchor}", destination)
+        case = relative_link(row['path'].split('#', 1)[0], destination)
+        lines.append(f"| [{row['label']}]({edition}) | {row['state']} | {row['subject']} | [Meaning]({case}) |")
+    return "\n".join(lines)
+
+
 def natural_key(value):
     return tuple((1, int(part)) if part.isdigit() else (0, part.lower())
                  for part in re.split(r"(\d+)", value))
@@ -260,12 +271,17 @@ def bands(pages):
 
 
 def compact_table(pages, destination):
-    lines = ["| Printed source pages | Sources | OPEN |", "|---|---:|---:|"]
+    """Every page number opens its dedicated source edition in one click."""
+    lines = ["| Printed pages | Open a page edition |", "|---|---|"]
     for start in bands(pages):
-        rows = [row for group in ("challenge", "other") for row in band_rows(pages, start, group)]
-        link = relative_link(band_path(start), destination)
         label = band_label(pages, start)
-        lines.append(f"| [{label}]({link}) | {len(rows)} | {sum(row['state'] == 'OPEN' for row in rows)} |")
+        numbers = [
+            f"[{page}]({relative_link(f'cases/pages/{page:03d}.md', destination)})"
+            for page in band_pages(pages, start)]
+        width = (len(numbers) + 1) // 2 if len(numbers) > 13 else len(numbers)
+        links = "<br>".join(" · ".join(numbers[i:i + width])
+                           for i in range(0, len(numbers), width))
+        lines.append(f"| {label} | {links} |")
     return "\n".join(lines)
 
 
@@ -275,14 +291,15 @@ def render(data, destination, pages=None):
     if destination == ROOT / "cases/README.md":
         return "\n".join([
             START, "## Find a source by page", "",
-            f"The [complete page index]({index}) follows the printed Childs volume, "
-            "from page 56 to page 230. Each entry links to the reading, source image "
-            "and evidence for that physical message.", "", END,
+            f"The [175 full page editions]({index}) follow the printed Childs volume, "
+            "from page 56 to page 230, with German readings, English meanings, "
+            "source explanations and evidence.", "", END,
         ])
     lines = [
         START,
-        "## Browse by source page", "",
-        f"Pages follow the printed Childs volume; the [complete index]({index}) lists each message.", "",
+        "## Read the ciphertexts by page", "",
+        "Each number opens a dedicated edition of that printed Childs page: "
+        "ciphertexts, German readings, English interpretations and source explanations.", "",
         compact_table(pages, destination), "",
         END,
     ]
@@ -293,10 +310,10 @@ def render_page_index(data, pages):
     destination = PAGE_ROOT / "README.md"
     counts = physical_source_accounting(data)
     lines = [
-        "# Sources by printed page", "", GENERATED, "",
+        "# Complete editions by printed page", "", GENERATED, "",
         "[ADFGVX Cipher](../../README.md) · [Browse by topic](../README.md#browse-by-topic) · [Reading conventions](../../docs/reading-conventions.md)", "",
-        f"Browse {counts['catalogue_entries']} sources by their printed page in Childs’s volume. "
-        "Each entry leads to the current reading and evidence; "
+        f"Read all {counts['catalogue_entries']} sources in {len(pages)} complete page editions. "
+        "Each page includes German readings, English meanings, explanations and evidence; "
         f"{counts['state_counts']['OPEN']} sources remain OPEN. "
         "The original challenge identifiers are retained, with p198 denoting section D.", "",
         "| Printed source pages | Sources | OPEN | Jump to an individual page |",
@@ -304,7 +321,7 @@ def render_page_index(data, pages):
     ]
     for start in bands(pages):
         link = relative_link(band_path(start), destination)
-        page_links = " · ".join(f"[p{page}]({link}#p{page})" for page in band_pages(pages, start))
+        page_links = " · ".join(f"[p{page}]({page:03d}.md)" for page in band_pages(pages, start))
         rows = [row for group in ("challenge", "other") for row in band_rows(pages, start, group)]
         lines.append(f"| [{band_label(pages, start)}]({link}) | {len(rows)} | {sum(row['state'] == 'OPEN' for row in rows)} | {page_links} |")
     lines.extend([
@@ -338,10 +355,11 @@ def render_band(data, pages, start):
         "[Reading states](../../../docs/reading-conventions.md#catalogue-states).", "",
     ]
     for page in members:
-        lines.extend([f"## p{page}", ""])
+        edition = relative_link(f"cases/pages/{page:03d}.md", destination)
+        lines.extend([f"## [p{page}]({edition})", ""])
         rows = sorted(pages[page]["challenge"] + pages[page]["other"],
                       key=lambda row: natural_key(locations[row["id"]][1]))
-        lines.extend([table(rows, destination), ""])
+        lines.extend([page_table(rows, destination, page), ""])
     lines.extend(["[Return to all source pages](../README.md).", ""])
     return "\n".join(lines)
 

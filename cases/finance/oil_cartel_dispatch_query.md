@@ -1,5 +1,14 @@
 # Oil cartel at Tiflis: details of shipments from Poti
 
+This query asks the oil cartel at Tiflis to report when, where, to which address and by which ship their consignments were loaded from Poti.
+
+**Complete edition by printed page:** [p. 212](../pages/212.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs p212, 22 November 1918; published `Nov22-24` key, unchanged. [Source crop](../../experiments/medical_return_transports/sources/p212_A3.png), [inputs](../../experiments/medical_return_transports/inputs.json), [exact certificate](../../experiments/medical_return_transports/certificates.json).
@@ -39,3 +48,6 @@ OELKARTELLTIFLISXNUMMER2XDRAHTETWANNWOHINWELCHEADRESSEMITWELCHEMSCHIFFUNSEREPART
 The candidate repairs `VIFLIS`, `NUMM3R`, `WOLCHE` and `SCHCFF`. The reference label `2`, `POTI` and `DEUTKAUF` remain unchanged. The raw 3 in the damaged word is retained in the certificate; no digit is globally relabeled.
 
 An earlier unreviewed repository candidate already recognized the body. This edition adds literal source checking, all coordinate indices, full re-encryption and the explicit separation from the neighboring medical report. It does not claim first historical decipherment.
+
+</details>
+<!-- CASE-EDITION:END -->

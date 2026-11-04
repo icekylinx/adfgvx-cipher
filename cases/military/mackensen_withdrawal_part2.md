@@ -1,5 +1,14 @@
 # Mackensen's withdrawal report: the separately received second part
 
+For the period beginning 1/11/18, the report assesses that the Serbian armies with 3 French divisions are advancing toward Belgrade and the literal place label SHMENDRIA; the attack planned near the literal labels VID8N and OO2PALANKA appears to have been abandoned. This is the report's assessment, not independent evidence of the actual movements.
+
+**Complete edition by printed page:** [p. 118](../pages/118.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -126,3 +135,6 @@ priority is claimed.
 [prior candidate](../../experiments/mackensen_withdrawal_part2/prior_candidates.json)
 and [reproduction](../../experiments/mackensen_withdrawal_part2/README.md)
 provide the complete evidence.
+
+</details>
+<!-- CASE-EDITION:END -->

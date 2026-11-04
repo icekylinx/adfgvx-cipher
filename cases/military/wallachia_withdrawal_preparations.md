@@ -1,5 +1,14 @@
 # Wallachia withdrawal preparations: p150 B1–B5
 
+The message reports to OHL that OKM has prepared to depart on the raw date `12.11` if ordered.
+
+**Complete edition by printed page:** [p. 150](../pages/150.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Five readable parts in their unchanged native source frames. The edition resolves ordinary text while leaving one wholly erased date symbol open.
@@ -139,3 +148,6 @@ There are **zero added or deleted coordinates, block reorders, baseline key chan
 The [input record](../../experiments/wallachia_withdrawal_preparations/inputs.json) contains the literal manual rows, original headers and full crop-rendering provenance. The [experiment README](../../experiments/wallachia_withdrawal_preparations/README.md) gives the default verification and optional exact PDF-pixel comparison commands.
 
 A bounded check of the author paper and the cached complete2017 discussion found no explicit prior body identification for these particular records. Earlier machine-derived body leads remain credited, and this check is not a universal priority search.
+
+</details>
+<!-- CASE-EDITION:END -->

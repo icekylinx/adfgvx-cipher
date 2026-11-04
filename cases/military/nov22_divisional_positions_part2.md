@@ -1,5 +1,14 @@
 # Divisional areas and staff locations: second part with explicit geographical alternatives
 
+The stream reports a reached area and then lists areas and divisional staff locations. The proposed fills make SZENTES, HODMEZOE, ERREICHT, RAUM and MEZOEKOVACSHAZA legible.
+
+**Complete edition by printed page:** [p. 215](../pages/215.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p215 B2
@@ -115,3 +124,6 @@ The [input](../../experiments/southern_hungary_positions_part2/inputs.json) bind
 Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/southern_hungary_positions_part2/prior_candidates.json).
 
 The [first-part train-departure fragment](p215_train_departure_fragment.md) now has a separate conditional partial word edition. Its missing groups, both source-glyph alternatives and unresolved fields remain explicit; this second part supplies context rather than a matching plaintext copy.
+
+</details>
+<!-- CASE-EDITION:END -->

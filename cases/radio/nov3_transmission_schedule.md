@@ -1,5 +1,14 @@
 # November 3 radio transmission schedule: surviving second part
 
+The fragment lists transmission intervals, then says that the Ringbahn traffic does not change.
+
+**Complete edition by printed page:** [p. 110](../pages/110.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
@@ -54,3 +63,6 @@ mask fill is separate from a change to an observed ADFGVX coordinate.
 [Source rows and image metadata](../../experiments/nov3_radio_and_pioneer/inputs.json),
 [coordinate and domain certificate](../../experiments/nov3_radio_and_pioneer/certificates.json),
 and [method, prior credit and reproduction](../../experiments/nov3_radio_and_pioneer/README.md).
+
+</details>
+<!-- CASE-EDITION:END -->

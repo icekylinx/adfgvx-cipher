@@ -1,5 +1,14 @@
 # Armistice acknowledgments, personnel and Warsaw radio inquiries
 
+Immediate confirmation is requested that a telegram on armistice conditions has arrived. The reference and date labels remain unresolved; the sentence continues in A2.
+
+**Complete edition by printed page:** [p. 202](../pages/202.md) · [p. 203](../pages/203.md) · [p. 204](../pages/204.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
@@ -242,3 +251,6 @@ The certificates replay every coordinate alteration, compare the independent col
 Reproduce with `python experiments/nov16_18_command_inquiries/verify.py --verify`. Add `--pdf /path/to/adfgvx-childs.pdf` to regenerate and compare the delivered source pixels.
 
 A roundtrip proves compatibility with a stated reading. Editorial spelling repairs remain proposals, and literal number labels are not automatically historical dates, quantities or reference numbers.
+
+</details>
+<!-- CASE-EDITION:END -->

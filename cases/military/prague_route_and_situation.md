@@ -1,5 +1,14 @@
 # Oderberg transport fragment and a troop-situation query
 
+The surviving transport clause names Oderberg and says that no difficulties will be placed in the way, followed by a request to acknowledge receipt. The damaged beginning leaves its full scope uncertain.
+
+**Complete edition by printed page:** [p. 211](../pages/211.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Two additional physical records from the upper part of Childs p211 have source-reviewed readings.** The 176-coordinate second part is readable without repairs. A separate 68-coordinate query asks about the situation and the troops' behavior, with three word repairs. The lower three-part key-schedule message on the same page is [already cataloged separately](../radio/p211_key_schedule.md).
@@ -101,3 +110,6 @@ python experiments/prague_route_and_situation/verify.py --verify --pdf /path/to/
 ```
 
 The default verifier uses only the Python standard library. Optional PyMuPDF verification checks the exact source PDF hash and crop pixels. The [experiment README](../../experiments/prague_route_and_situation/README.md) states the finite scope and the unresolved relationship between the two transport fragments.
+
+</details>
+<!-- CASE-EDITION:END -->

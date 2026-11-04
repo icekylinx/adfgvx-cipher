@@ -1,5 +1,14 @@
 # Two-part march notice and officer dispatch: a priced editorial reading
 
+The linguistic proposal says that traffic on all routes in southern Hungary is interrupted and that the army begins a foot march toward the northeast on the date label 4/11. The opening I P M ZU1163EPB41N remains opaque. This is an edited reading of the printed garbles, not a new independent witness to the intended words.
+
+**Complete edition by printed page:** [p. 109](../pages/109.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p109 C1
@@ -105,3 +114,6 @@ All indices are zero-based.
 The [input](../../experiments/radio_relay_and_march_notice/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/radio_relay_and_march_notice/certificates.json) contains the raw paired-coordinate domains, each source change and the forward checks. The [verifier](../../experiments/radio_relay_and_march_notice/verify.py) checks the unchanged published keys and the live German quotations, retaining all numerical and letter labels.
 
 Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/radio_relay_and_march_notice/prior_candidates.json).
+
+</details>
+<!-- CASE-EDITION:END -->

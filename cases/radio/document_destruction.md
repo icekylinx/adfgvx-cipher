@@ -1,5 +1,14 @@
 # Destroy written material and report by telephone
 
+Childs p177 A orders destruction of written material, while retaining the necessary cipher-key material, and asks for a telephone report of completion.
+
+**Complete edition by printed page:** [p. 177](../pages/177.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -115,3 +124,6 @@ first-decipherment priority.
 ```sh
 python experiments/november_radio_service/verify.py --verify
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

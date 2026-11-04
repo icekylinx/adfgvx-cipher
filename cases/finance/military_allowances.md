@@ -1,5 +1,14 @@
 # Meal allowances, communal provisioning and a refused supplement
 
+The message disputes high cash meal allowances, requires rates to be reduced, promotes communal purchasing and provision of food in kind, and refuses an application for a cost-of-living supplement.
+
+**Complete edition by printed page:** [p. 129](../pages/129.md) · [p. 133](../pages/133.md) · [p. 134](../pages/134.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source:** J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
@@ -179,3 +188,6 @@ the edition's coverage, not the number of newly solved key symbols.
 python experiments/military_allowances/verify.py --verify
 python experiments/military_allowances/verify.py --verify --pdf /path/to/childs.pdf
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

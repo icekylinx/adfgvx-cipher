@@ -1,5 +1,14 @@
 # Telefunken inquiry about returning personnel
 
+Telefunken at Constantinople asks what has happened to its personnel, whether their return can be expected, and when. The message carries Bredow's name.
+
+**Complete edition by printed page:** [p. 112](../pages/112.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** a complete unchanged-source reading of p112 B. The source has
@@ -44,3 +53,6 @@ OCR candidates are archived separately; no first historical decipherment is clai
 ```sh
 python experiments/nov3_evening_and_nov4_radio/verify.py --verify
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

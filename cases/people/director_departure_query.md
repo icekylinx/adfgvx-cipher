@@ -1,5 +1,14 @@
 # A director-departure inquiry with an unresolved reference
 
+The message follows up an earlier telegram and asks whether the director should travel under current conditions, requesting a wired reply. The baseline surname-like token and date field remain literal; the closing reference has two unresolved positions.
+
+**Complete edition by printed page:** [p. 123](../pages/123.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -60,3 +69,6 @@ The two printed five-dash groups remain visible in the source transcription. Eig
 Earlier unreviewed repository candidates already suggested these bodies. This edition checks the primary images, preserves conflicting source labels and publishes every frame operation, coordinate substitution and fill. Prior published key recovery keeps its original credit; no first-solution priority is claimed.
 
 [Inputs](../../experiments/nov4_radio_and_departure_queries/inputs.json), [certificates](../../experiments/nov4_radio_and_departure_queries/certificates.json), [earlier candidates](../../experiments/nov4_radio_and_departure_queries/prior_candidates.json) and [reproduction](../../experiments/nov4_radio_and_departure_queries/README.md) provide complete source and positional evidence.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # p132 A and C — An officer-register request and a garbled-message repeat
 
+Separate service messages request an officer-register extract and repetition of garbled traffic. The Eilvese repeat instruction has its own linked case; the remaining messages retain their opaque references.
+
+**Complete edition by printed page:** [p. 132](../pages/132.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -154,3 +163,6 @@ python experiments/november_radio_service/geometry_audit.py --verify
 ```
 
 A [separate address-spelling supplement](../../experiments/p132_optional_address/README.md) prices `KOSJOII` → `KOSPOLI` at two additional observed-coordinate substitutions and binds independent raw occurrences in p90, p98 and p148. This optional proposal leaves the primary streams and unresolved name above unchanged.
+
+</details>
+<!-- CASE-EDITION:END -->

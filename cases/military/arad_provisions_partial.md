@@ -2,6 +2,15 @@
 
 # Arad provisions and reported strength: the restored copies
 
+The report requests provisions and trains for Arad for 80,000 men and 30,000 animals, with action through the Hungarian government. A second reception directly supports the strength figures and restores eleven missing coordinates in the damaged copy.
+
+**Complete edition by printed page:** [p. 159](../pages/159.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **The second reception turns an uncertain strength field into an observed
@@ -223,3 +232,6 @@ and p168 crop are bound to the authenticated Childs PDF.
 python experiments/danube_arad_witnesses/verify.py --verify
 python experiments/danube_arad_witnesses/verify.py --verify --pdf /path/to/childs.pdf
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Request to repeat an unreadable eighth part
 
+The eighth part of a message identified by the literal token AL?CHIS and the date-like field 2?X10 cannot be deciphered. The routing names Sektion Politik Berlin.
+
+**Complete edition by printed page:** [p. 155](../pages/155.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and conditional edition: icekylinx and GPT-6 Astra Pro.**
@@ -100,3 +109,6 @@ The verifiers independently reconstruct the transposition, check all marginal do
 python experiments/nov7_eighth_part_repetition/verify.py --verify
 python experiments/nov7_eighth_part_repetition/verify.py --verify --pdf /path/to/adfgvx-childs.pdf
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

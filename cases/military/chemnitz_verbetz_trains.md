@@ -1,5 +1,14 @@
 # Railway message: Laz. Zug 42 from Chemnitz and Zug 34 to VERBETZ
 
+A railway message concerns hospital train 42 from Chemnitz and instructs that hospital train 34 be sent onward to the place written VERBETZ. Several routing and closing fields remain damaged.
+
+**Complete edition by printed page:** [p. 107](../pages/107.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -103,3 +112,6 @@ along with the published key's provenance. It makes no historical
 first-solution claim. See [inputs](../../experiments/p107_railway_and_dragoman/inputs.json),
 [certificates](../../experiments/p107_railway_and_dragoman/certificates.json)
 and [reproduction instructions](../../experiments/p107_railway_and_dragoman/README.md).
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Parallel Orient reports on South-Slav units
 
+Childs pp101–102 preserve closely related reports on South-Slav units near Montenegro.
+
+**Complete edition by printed page:** [p. 101](../pages/101.md) · [p. 102](../pages/102.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
@@ -230,3 +239,6 @@ body credit; its status is unchanged.
 and [verification commands](../../experiments/nov1_mackensen_and_orient_reports/README.md)
 make the stated frames and repairs reproducible. The verifier also checks
 that each readable passage preserves every non-`X` label in its cited stream.
+
+</details>
+<!-- CASE-EDITION:END -->

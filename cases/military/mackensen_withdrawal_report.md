@@ -1,5 +1,14 @@
 # Mackensen's November 3 withdrawal report and its separately received ninth part
 
+This thirteen-part report assesses threats to the occupation army's rear communications and proposes immediate withdrawal from Romania if a general armistice is not expected soon.
+
+**Complete edition by printed page:** [p. 113](../pages/113.md) · [p. 114](../pages/114.md) · [p. 115](../pages/115.md) · [p. 116](../pages/116.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and assembly audit: icekylinx and GPT-6 Astra Pro.**
@@ -283,3 +292,6 @@ python experiments/mackensen_withdrawal_report/verify.py --verify --pdf /path/to
 
 The default verifier uses the standard library. The optional PDF check
 regenerates all six delivered source images and compares their pixels.
+
+</details>
+<!-- CASE-EDITION:END -->

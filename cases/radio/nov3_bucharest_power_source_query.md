@@ -1,5 +1,14 @@
 # Bucharest dispatch enquiry and power-source specifications
 
+The fragment reports readiness for dispatch without a power source and says that the office represented by NACHRCEF was asked whether the item should be sent to Bucharest. It does not confirm that dispatch took place.
+
+**Complete edition by printed page:** [p. 109](../pages/109.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 
@@ -84,3 +93,6 @@ No source-coordinate substitution or source-mask fill is used.
 The [input](../../experiments/nov3_bucharest_power_source/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/nov3_bucharest_power_source/certificates.json) contains the raw paired-coordinate domains, each source change and the forward checks. The [verifier](../../experiments/nov3_bucharest_power_source/verify.py) checks the unchanged published keys and the live German quotations, retaining all numerical and letter labels.
 
 Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/nov3_bucharest_power_source/prior_candidates.json).
+
+</details>
+<!-- CASE-EDITION:END -->

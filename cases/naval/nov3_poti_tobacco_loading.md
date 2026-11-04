@@ -1,5 +1,14 @@
 # Tobacco ready for loading at Poti: a November 3 inquiry
 
+A report that tobacco is ready to load at Poti is followed by an inquiry about when loading will be possible. The message reports readiness and asks a question; it does not establish that a shipment left, identify a vessel, or authenticate the quantity independently of the cipher's numerical labels.
+
+**Complete edition by printed page:** [p. 113](../pages/113.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -95,3 +104,6 @@ explicitly priced word repair; no first-decipherment priority is asserted.
 and [reproduction instructions](../../experiments/nov3_poti_tobacco_loading/README.md)
 preserve the key, all source and plaintext positions, the one changed
 coordinate, the internal word witness and a complete re-encryption.
+
+</details>
+<!-- CASE-EDITION:END -->

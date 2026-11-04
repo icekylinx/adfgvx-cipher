@@ -1,5 +1,14 @@
 # November 2: acknowledgment instructions and a conflicting copy
 
+The first instruction addresses AOK Mackensen and cites a wire and a radio telegram. The request continues in the next printed part; no words are silently supplied to improve its telegraphic syntax.
+
+**Complete edition by printed page:** [p. 104](../pages/104.md) · [p. 105](../pages/105.md) · [p. 106](../pages/106.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -133,3 +142,6 @@ ZUKUNFTEMPFANGALLERTELEGRAMMEDURCHXFXTXBESTAETIGENXXOXHXLXRMX1XAX104359XOP
 Earlier unreviewed repository candidates already identified these bodies. This edition reviews the source images, retains their literal observations and publishes the exact repair or frame account; it makes no first-decipherment claim. The key keeps its earlier published provenance.
 
 [Inputs](../../experiments/nov2_acknowledgments_and_personnel/inputs.json), [full certificates](../../experiments/nov2_acknowledgments_and_personnel/certificates.json), [earlier candidates](../../experiments/nov2_acknowledgments_and_personnel/prior_candidates.json), and [reproduction instructions](../../experiments/nov2_acknowledgments_and_personnel/README.md) preserve the evidence.
+
+</details>
+<!-- CASE-EDITION:END -->

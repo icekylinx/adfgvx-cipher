@@ -1,5 +1,14 @@
 # Return to a replacement unit on medical grounds
 
+The two p104 C parts report being sent to a replacement unit for specialist medical treatment and recovery.
+
+**Complete edition by printed page:** [p. 104](../pages/104.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -172,3 +181,6 @@ also reproduced in Lasry's 2017 key comment. Earlier unreviewed OCR candidates
 existed. No universal first-decipherment claim is made from the bounded
 author-paper review. The conditional reconstruction certifies its arithmetic
 and repair cost, while the source gap and unresolved words remain explicit.
+
+</details>
+<!-- CASE-EDITION:END -->

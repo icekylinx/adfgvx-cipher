@@ -1,5 +1,14 @@
 # A Polish representative in Tiflis — p199 preamble and p192 parts 2 and 3
 
+The Polish Foreign Ministry appoints Waclaw von Ostrowski its representative for Georgia, Armenia and Azerbaijan, with his seat in Tiflis. A recovered forwarding preamble asks General von Kress to pass on the appointment; the courier surname Tydelski remains a conditional historical identification.
+
+**Complete edition by printed page:** [p. 192](../pages/192.md) · [p. 199](../pages/199.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [November 14 retransmissions](../radio/nov14_radio_retransmissions.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition, missing-group recovery and historical comparison: icekylinx and GPT-6 Astra Pro.**
@@ -246,3 +255,6 @@ VG=2 interpretation leaves one unresolved reference symbol in the p199
 preamble and is compatible with the separate historical-name layer.
 Raw fixed positions include source garbles; these counts describe the
 mathematical consequences of each explicitly stated layer.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Steiling asks for additional leave pending a decision
 
+An urgent application concerning the brother identified as Oberjaeger Steiling is on its way. Hptm Steiling of the military clothing office requests additional leave by telegram until a decision is made.
+
+**Complete edition by printed page:** [p. 119](../pages/119.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p119 A
@@ -38,3 +47,6 @@ No observed-coordinate substitution or source-mask fill is used.
 The [input](../../experiments/early_radio_and_leave_records/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/early_radio_and_leave_records/certificates.json) records each raw paired-coordinate domain and every proposed source change. The [verifier](../../experiments/early_radio_and_leave_records/verify.py) checks the live German quotation against the same candidate labels, preserving every digit and unknown position.
 
 This source edition is by icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection. The published reconstruction and unchanged key provenance credit Lasry, Niebel, Kopal and Wacker, with Lasry's published period-key list. Earlier repository OCR input is frozen in the [attribution record](../../experiments/early_radio_and_leave_records/prior_candidates.json).
+
+</details>
+<!-- CASE-EDITION:END -->

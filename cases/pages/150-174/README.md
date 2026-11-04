@@ -8,262 +8,262 @@ Jump to page: [p150](#p150) · [p151](#p151) · [p152](#p152) · [p153](#p153) �
 
 This range contains 133 sources, including 1 OPEN. [Reading states](../../../docs/reading-conventions.md#catalogue-states).
 
-## p150
+## [p150](../150.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p150 A2](../../radio/radio_contacts_and_keys.md#p150-a2-receiving-station-in-the-embassy) | PARTIAL | Embassy receiving station listens; encipher addresses and call every period; second part only |
-| [p150 B1](../../military/wallachia_withdrawal_preparations.md) | READING | Opening to OHL: departure preparations and cited instruction |
-| [p150 B2](../../military/wallachia_withdrawal_preparations.md) | READING | Further delay and the Danube/Rustschuk threat |
-| [p150 B3](../../military/wallachia_withdrawal_preparations.md) | PARTIAL | Earlier enemy crossing, Wallachian plain and advance parties |
-| [p150 B4](../../military/wallachia_withdrawal_preparations.md) | READING | Advance parties, railway operation and Constanta |
-| [p150 B5](../../military/wallachia_withdrawal_preparations.md) | READING | Medgidia and the Dobrudscha administration |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p150 A2](../150.md#source-p150-a2) | PARTIAL | Embassy receiving station listens; encipher addresses and call every period; second part only | [Meaning](../../radio/radio_contacts_and_keys.md) |
+| [p150 B1](../150.md#source-p150-b1) | READING | Opening to OHL: departure preparations and cited instruction | [Meaning](../../military/wallachia_withdrawal_preparations.md) |
+| [p150 B2](../150.md#source-p150-b2) | READING | Further delay and the Danube/Rustschuk threat | [Meaning](../../military/wallachia_withdrawal_preparations.md) |
+| [p150 B3](../150.md#source-p150-b3) | PARTIAL | Earlier enemy crossing, Wallachian plain and advance parties | [Meaning](../../military/wallachia_withdrawal_preparations.md) |
+| [p150 B4](../150.md#source-p150-b4) | READING | Advance parties, railway operation and Constanta | [Meaning](../../military/wallachia_withdrawal_preparations.md) |
+| [p150 B5](../150.md#source-p150-b5) | READING | Medgidia and the Dobrudscha administration | [Meaning](../../military/wallachia_withdrawal_preparations.md) |
 
-## p151
+## [p151](../151.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p151 A1](../../military/nov7_fragment_and_acknowledgment.md#p151-a1) | CONDITIONAL | Armistice-commission departure news; unresolved STUR3FSS ending |
-| [p151 A2](../../military/nov7_fragment_and_acknowledgment.md#p151-a2) | READING | Enemy movement toward FEHERTEMPLOM; unfinished army-march fragment |
-| [p151 B](../../military/nov7_fragment_and_acknowledgment.md#p151-b) | CONDITIONAL | Acknowledgment of telegram 11212; separate handwritten duplicate layer |
-| [p151 C](../../military/soldiers_council_surrender.md#p151-c) | READING | Gouvernement and nearby barracks reported surrendered to Soldiers Council |
-| [p151 D2](../../radio/courier_munich.md) | READING | Notify the courier destination and report arrival |
-| [p151 E2](../../radio/nov9_operations_map_sheets.md) | CONDITIONAL | Operations-map sheets for the Gleiwitz garrison |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p151 A1](../151.md#source-p151-a1) | CONDITIONAL | Armistice-commission departure news; unresolved STUR3FSS ending | [Meaning](../../military/nov7_fragment_and_acknowledgment.md) |
+| [p151 A2](../151.md#source-p151-a2) | READING | Enemy movement toward FEHERTEMPLOM; unfinished army-march fragment | [Meaning](../../military/nov7_fragment_and_acknowledgment.md) |
+| [p151 B](../151.md#source-p151-b) | CONDITIONAL | Acknowledgment of telegram 11212; separate handwritten duplicate layer | [Meaning](../../military/nov7_fragment_and_acknowledgment.md) |
+| [p151 C](../151.md#source-p151-c) | READING | Gouvernement and nearby barracks reported surrendered to Soldiers Council | [Meaning](../../military/soldiers_council_surrender.md) |
+| [p151 D2](../151.md#source-p151-d2) | READING | Notify the courier destination and report arrival | [Meaning](../../radio/courier_munich.md) |
+| [p151 E2](../151.md#source-p151-e2) | CONDITIONAL | Operations-map sheets for the Gleiwitz garrison | [Meaning](../../radio/nov9_operations_map_sheets.md) |
 
-## p152
+## [p152](../152.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p152 A2](../../military/p152_crossing_fragment.md#p152-a2) | PARTIAL | Conditional report on crossing attempts; place VARC8IORO?A and footer retained |
-| [p152 B2](../../military/nov7_danube_and_message_reports.md#p152-b2) | PARTIAL | Security force near Belgrad attacked after a crossing |
-| [p152 C](../../military/nov7_danube_and_message_reports.md#p152-c) | READING | Morning report: no special events |
-| [p152 D](../../military/nov7_danube_and_message_reports.md#p152-d) | READING | Receipt of a FunkSpruch with literal numerical fields |
-| [p152](../../p152.md) | READING | Silk purchases and transport from the Caucasus |
-| [p152 E2](../../p152.md#raw-continuation-witnesses) | PARTIAL | Parallel continuation of the silk instruction |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p152 A2](../152.md#source-p152-a2) | PARTIAL | Conditional report on crossing attempts; place VARC8IORO?A and footer retained | [Meaning](../../military/p152_crossing_fragment.md) |
+| [p152 B2](../152.md#source-p152-b2) | PARTIAL | Security force near Belgrad attacked after a crossing | [Meaning](../../military/nov7_danube_and_message_reports.md) |
+| [p152 C](../152.md#source-p152-c) | READING | Morning report: no special events | [Meaning](../../military/nov7_danube_and_message_reports.md) |
+| [p152 D](../152.md#source-p152-d) | READING | Receipt of a FunkSpruch with literal numerical fields | [Meaning](../../military/nov7_danube_and_message_reports.md) |
+| [p152](../152.md#source-p152) | READING | Silk purchases and transport from the Caucasus | [Meaning](../../p152.md) |
+| [p152 E2](../152.md#source-p152-e2) | PARTIAL | Parallel continuation of the silk instruction | [Meaning](../../p152.md) |
 
-## p153
+## [p153](../153.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p153 A3](../../military/nov7_danube_and_message_reports.md#p153-a3) | READING | A prescribed line and a Temesvar headquarters field |
-| [p153 B1](../../military/nov7_danube_and_message_reports.md#p153-b1) | CONDITIONAL | Danube crossing completed and busy crossing traffic |
-| [p153a](../../p153a.md) | PARTIAL | Earlier orders; action still to be completed |
-| [p153b](../../p153b.md) | CONDITIONAL | Rearguard artillery ammunition report |
-| [p153 D2](../../radio/courier_munich.md) | READING | Notify the courier destination and report arrival |
-| [p153 E1](../../radio/courier_munich.md) | CONDITIONAL | Munich couriers carrying radio operating documents |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p153 A3](../153.md#source-p153-a3) | READING | A prescribed line and a Temesvar headquarters field | [Meaning](../../military/nov7_danube_and_message_reports.md) |
+| [p153 B1](../153.md#source-p153-b1) | CONDITIONAL | Danube crossing completed and busy crossing traffic | [Meaning](../../military/nov7_danube_and_message_reports.md) |
+| [p153a](../153.md#source-p153a) | PARTIAL | Earlier orders; action still to be completed | [Meaning](../../p153a.md) |
+| [p153b](../153.md#source-p153b) | CONDITIONAL | Rearguard artillery ammunition report | [Meaning](../../p153b.md) |
+| [p153 D2](../153.md#source-p153-d2) | READING | Notify the courier destination and report arrival | [Meaning](../../radio/courier_munich.md) |
+| [p153 E1](../153.md#source-p153-e1) | CONDITIONAL | Munich couriers carrying radio operating documents | [Meaning](../../radio/courier_munich.md) |
 
-## p154
+## [p154](../154.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p154 A2](../../military/p154_weisskirchen_fragment.md) | CONDITIONAL | Weisskirchen halt and security fragment |
-| [p154 B3](../../military/airfield_german_troop_fragment.md#p154-b3) | READING | Third-part airfield and German troop report |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p154 A2](../154.md#source-p154-a2) | CONDITIONAL | Weisskirchen halt and security fragment | [Meaning](../../military/p154_weisskirchen_fragment.md) |
+| [p154 B3](../154.md#source-p154-b3) | READING | Third-part airfield and German troop report | [Meaning](../../military/airfield_german_troop_fragment.md) |
 
-## p155
+## [p155](../155.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p155 A1](../../context/p155.md#completed-reading) | CONDITIONAL | Asgard arrival at Poti and troop pickup |
-| [p155 A2](../../context/p155.md#completed-reading) | CONDITIONAL | Asgard/Tresivolus shipping continuation |
-| [p155 B](../../people/schorlemer_demobilization_inquiry.md#p155-b) | READING | Von Schorlemer cannot currently be released from the administrative staff |
-| [p155 C1](../../radio/nov7_eighth_part_repetition.md#p155-c1) | CONDITIONAL | Cannot decipher eighth part addressed to Sektion Politik Berlin |
-| [p155 C2](../../radio/nov7_eighth_part_repetition.md#p155-c2) | CONDITIONAL | Request checking and retransmission of the eighth part |
-| [p155 D](../../military/nov7_derailment_and_trains.md#p155-d) | CONDITIONAL | Morning report: derailed freight train and both tracks blocked |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p155 A1](../155.md#source-p155-a1) | CONDITIONAL | Asgard arrival at Poti and troop pickup | [Meaning](../../context/p155.md) |
+| [p155 A2](../155.md#source-p155-a2) | CONDITIONAL | Asgard/Tresivolus shipping continuation | [Meaning](../../context/p155.md) |
+| [p155 B](../155.md#source-p155-b) | READING | Von Schorlemer cannot currently be released from the administrative staff | [Meaning](../../people/schorlemer_demobilization_inquiry.md) |
+| [p155 C1](../155.md#source-p155-c1) | CONDITIONAL | Cannot decipher eighth part addressed to Sektion Politik Berlin | [Meaning](../../radio/nov7_eighth_part_repetition.md) |
+| [p155 C2](../155.md#source-p155-c2) | CONDITIONAL | Request checking and retransmission of the eighth part | [Meaning](../../radio/nov7_eighth_part_repetition.md) |
+| [p155 D](../155.md#source-p155-d) | CONDITIONAL | Morning report: derailed freight train and both tracks blocked | [Meaning](../../military/nov7_derailment_and_trains.md) |
 
-## p156
+## [p156](../156.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p156 A1](../../radio/nov7_8_embassy_address_parts.md#p156-a1) | READING | German embassy address with Bussche signature |
-| [p156 B1](../../radio/nov7_8_embassy_address_parts.md#p156-b1) | READING | German embassy at Constantinople and Stumm signature |
-| [p156 C1](../../radio/constantinople_address_parts.md) | READING | German charge d’affaires at Constantinople and raw BUSSCHS signature |
-| [p156 D1](../../radio/nov7_8_embassy_address_parts.md#p156-d1) | READING | Etappe address at Constantinople |
-| [p156 E1](../../radio/nov7_8_embassy_address_parts.md#p156-e1) | READING | French-language German legation address at Constantinople |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p156 A1](../156.md#source-p156-a1) | READING | German embassy address with Bussche signature | [Meaning](../../radio/nov7_8_embassy_address_parts.md) |
+| [p156 B1](../156.md#source-p156-b1) | READING | German embassy at Constantinople and Stumm signature | [Meaning](../../radio/nov7_8_embassy_address_parts.md) |
+| [p156 C1](../156.md#source-p156-c1) | READING | German charge d’affaires at Constantinople and raw BUSSCHS signature | [Meaning](../../radio/constantinople_address_parts.md) |
+| [p156 D1](../156.md#source-p156-d1) | READING | Etappe address at Constantinople | [Meaning](../../radio/nov7_8_embassy_address_parts.md) |
+| [p156 E1](../156.md#source-p156-e1) | READING | French-language German legation address at Constantinople | [Meaning](../../radio/nov7_8_embassy_address_parts.md) |
 
-## p157
+## [p157](../157.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p157 A1](../../military/armistice_departure_copy.md#p157-a1) | CONDITIONAL | Copy-conditioned armistice-departure report fragment |
-| [p157 A2](../../military/romanian_pacification_consultation.md#p157-a2) | READING | Romanian government considering a military pacification action |
-| [p157 A3](../../military/romanian_pacification_consultation.md#p157-a3) | READING | Request for plenipotentiary general to discuss the matter at BUKARST |
-| [p157 A4](../../military/romanian_pacification_consultation.md#p157-a4) | READING | Armistice agreements determine O.K.M. position |
-| [p157 A5](../../military/romanian_pacification_consultation.md#p157-a5) | READING | Request for early orientation; CHEF11291GEH footer |
-| [p157 B1](../../radio/apparatus_sale_request.md) | READING | Apparatus sale recommended because of transport difficulties |
-| [p157 B2](../../radio/apparatus_sale_request.md) | PARTIAL | Romanian purchase request and request for permission and price |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p157 A1](../157.md#source-p157-a1) | CONDITIONAL | Copy-conditioned armistice-departure report fragment | [Meaning](../../military/armistice_departure_copy.md) |
+| [p157 A2](../157.md#source-p157-a2) | READING | Romanian government considering a military pacification action | [Meaning](../../military/romanian_pacification_consultation.md) |
+| [p157 A3](../157.md#source-p157-a3) | READING | Request for plenipotentiary general to discuss the matter at BUKARST | [Meaning](../../military/romanian_pacification_consultation.md) |
+| [p157 A4](../157.md#source-p157-a4) | READING | Armistice agreements determine O.K.M. position | [Meaning](../../military/romanian_pacification_consultation.md) |
+| [p157 A5](../157.md#source-p157-a5) | READING | Request for early orientation; CHEF11291GEH footer | [Meaning](../../military/romanian_pacification_consultation.md) |
+| [p157 B1](../157.md#source-p157-b1) | READING | Apparatus sale recommended because of transport difficulties | [Meaning](../../radio/apparatus_sale_request.md) |
+| [p157 B2](../157.md#source-p157-b2) | PARTIAL | Romanian purchase request and request for permission and price | [Meaning](../../radio/apparatus_sale_request.md) |
 
-## p158
+## [p158](../158.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p158 A1](../../radio/nov7_8_embassy_address_parts.md#p158-a1) | READING | German embassy address and Stumm signature, first printed part |
-| [p158 A2](../../radio/nov7_8_embassy_address_parts.md#p158-a2) | READING | Repeated embassy address with literal UPK3 prefix |
-| [p158 B1](../../radio/nov7_8_embassy_address_parts.md#p158-b1) | READING | German embassy address with an explicit Stumm signature |
-| [p158 C2](../../radio/courier_munich.md) | PARTIAL | Notify GRUKONACH and telegraph the couriers arrival |
-| [p158](../../p158.md) | CONDITIONAL | Routing and army-key instructions |
-| [p158 E1](../../military/nov8_serbian_cavalry_parallel.md) | CONDITIONAL | Serbian cavalry and northward departure: another source witness |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p158 A1](../158.md#source-p158-a1) | READING | German embassy address and Stumm signature, first printed part | [Meaning](../../radio/nov7_8_embassy_address_parts.md) |
+| [p158 A2](../158.md#source-p158-a2) | READING | Repeated embassy address with literal UPK3 prefix | [Meaning](../../radio/nov7_8_embassy_address_parts.md) |
+| [p158 B1](../158.md#source-p158-b1) | READING | German embassy address with an explicit Stumm signature | [Meaning](../../radio/nov7_8_embassy_address_parts.md) |
+| [p158 C2](../158.md#source-p158-c2) | PARTIAL | Notify GRUKONACH and telegraph the couriers arrival | [Meaning](../../radio/courier_munich.md) |
+| [p158](../158.md#source-p158) | CONDITIONAL | Routing and army-key instructions | [Meaning](../../p158.md) |
+| [p158 E1](../158.md#source-p158-e1) | CONDITIONAL | Serbian cavalry and northward departure: another source witness | [Meaning](../../military/nov8_serbian_cavalry_parallel.md) |
 
-## p159
+## [p159](../159.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p159 A](../../military/arad_provisions_partial.md) | CONDITIONAL | Arad provisions and strength report: conditional partial recovery |
-| [p159 B](../../p158.md#component-readings) | CONDITIONAL | Munich routing and army-key instruction |
-| [p159 C](../../p158.md#component-readings) | CONDITIONAL | Munich–Innsbruck routing and army-key instruction |
-| [p159 D](../../people/kremp.md) | READING | Kremp recovered and requests a departure date |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p159 A](../159.md#source-p159-a) | CONDITIONAL | Arad provisions and strength report: conditional partial recovery | [Meaning](../../military/arad_provisions_partial.md) |
+| [p159 B](../159.md#source-p159-b) | CONDITIONAL | Munich routing and army-key instruction | [Meaning](../../p158.md) |
+| [p159 C](../159.md#source-p159-c) | CONDITIONAL | Munich–Innsbruck routing and army-key instruction | [Meaning](../../p158.md) |
+| [p159 D](../159.md#source-p159-d) | READING | Kremp recovered and requests a departure date | [Meaning](../../people/kremp.md) |
 
-## p160
+## [p160](../160.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p160 A2](../../military/nov8_alpenkorps_report.md#p160-a2) | CONDITIONAL | Alpenkorps departure and march report |
-| [p160 B1](../../radio/radio_equipment_sale_prices.md#p160-b1) | CONDITIONAL | Radio apparatus sale and estimated value |
-| [p160 B2](../../radio/radio_equipment_sale_prices.md#p160-b2) | CONDITIONAL | Radio apparatus sale and estimated value |
-| [p160 C1](../../radio/ringbahn_key_reuse.md#p160-c1) | CONDITIONAL | November Ringbahn keys and postponed December change |
-| [p160 C2](../../radio/ringbahn_key_reuse.md#p160-c2) | CONDITIONAL | November Ringbahn keys and postponed December change |
-| [p160 D1](../../people/awaloff_return_request.md#p160-d1) | CONDITIONAL | Request for Awaloff to come to Berlin |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p160 A2](../160.md#source-p160-a2) | CONDITIONAL | Alpenkorps departure and march report | [Meaning](../../military/nov8_alpenkorps_report.md) |
+| [p160 B1](../160.md#source-p160-b1) | CONDITIONAL | Radio apparatus sale and estimated value | [Meaning](../../radio/radio_equipment_sale_prices.md) |
+| [p160 B2](../160.md#source-p160-b2) | CONDITIONAL | Radio apparatus sale and estimated value | [Meaning](../../radio/radio_equipment_sale_prices.md) |
+| [p160 C1](../160.md#source-p160-c1) | CONDITIONAL | November Ringbahn keys and postponed December change | [Meaning](../../radio/ringbahn_key_reuse.md) |
+| [p160 C2](../160.md#source-p160-c2) | CONDITIONAL | November Ringbahn keys and postponed December change | [Meaning](../../radio/ringbahn_key_reuse.md) |
+| [p160 D1](../160.md#source-p160-d1) | CONDITIONAL | Request for Awaloff to come to Berlin | [Meaning](../../people/awaloff_return_request.md) |
 
-## p161
+## [p161](../161.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p161 A2](../../people/awaloff_return_request.md#p161-a2) | PARTIAL | Request for Awaloff to come to Berlin |
-| [p161 B1](../../people/constantinople_urgent_address.md#p161-b1) | READING | Urgent Constantinople embassy address; Gez. Stumm, part1 only |
-| [p161 C1](../../people/military_mission_recalls.md) | CONDITIONAL | Siegfried posting cancellation, first part |
-| [p161 C2](../../people/military_mission_recalls.md) | READING | Siegfried mission assignment cancelled and cabinet-order closing |
-| [p161 D1](../../people/military_mission_recalls.md) | READING | Osthoff posting and mission assignment cancelled |
-| [p161 D2](../../people/military_mission_recalls.md) | READING | Osthoff railway battalion reassignment and cabinet-order closing |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p161 A2](../161.md#source-p161-a2) | PARTIAL | Request for Awaloff to come to Berlin | [Meaning](../../people/awaloff_return_request.md) |
+| [p161 B1](../161.md#source-p161-b1) | READING | Urgent Constantinople embassy address; Gez. Stumm, part1 only | [Meaning](../../people/constantinople_urgent_address.md) |
+| [p161 C1](../161.md#source-p161-c1) | CONDITIONAL | Siegfried posting cancellation, first part | [Meaning](../../people/military_mission_recalls.md) |
+| [p161 C2](../161.md#source-p161-c2) | READING | Siegfried mission assignment cancelled and cabinet-order closing | [Meaning](../../people/military_mission_recalls.md) |
+| [p161 D1](../161.md#source-p161-d1) | READING | Osthoff posting and mission assignment cancelled | [Meaning](../../people/military_mission_recalls.md) |
+| [p161 D2](../161.md#source-p161-d2) | READING | Osthoff railway battalion reassignment and cabinet-order closing | [Meaning](../../people/military_mission_recalls.md) |
 
-## p162
+## [p162](../162.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p162 A1](../../radio/courier_munich.md) | PARTIAL | Repeated Munich courier departure notice |
-| [p162 B1](../../radio/map_sheet_request.md#p162-b1) | CONDITIONAL | General Staff Berlin map-sheet request; coupled quantity and map-scale digits unresolved |
-| [p162 C1](../../radio/nov9_wire_return_source_family.md#p162-c1) | CONDITIONAL | Wire communications and return instructions |
-| [p162 C2](../../military/tiraspol_border_report.md#p162-c2) | PARTIAL | Tiraspol reports machine-gun fire at the border; first part unavailable |
-| [p162 D1](../../people/constantinople_embassy_signature.md#p162-d1) | READING | German embassy Constantinople; signature Stumm, part1 only |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p162 A1](../162.md#source-p162-a1) | PARTIAL | Repeated Munich courier departure notice | [Meaning](../../radio/courier_munich.md) |
+| [p162 B1](../162.md#source-p162-b1) | CONDITIONAL | General Staff Berlin map-sheet request; coupled quantity and map-scale digits unresolved | [Meaning](../../radio/map_sheet_request.md) |
+| [p162 C1](../162.md#source-p162-c1) | CONDITIONAL | Wire communications and return instructions | [Meaning](../../radio/nov9_wire_return_source_family.md) |
+| [p162 C2](../162.md#source-p162-c2) | PARTIAL | Tiraspol reports machine-gun fire at the border; first part unavailable | [Meaning](../../military/tiraspol_border_report.md) |
+| [p162 D1](../162.md#source-p162-d1) | READING | German embassy Constantinople; signature Stumm, part1 only | [Meaning](../../people/constantinople_embassy_signature.md) |
 
-## p163
+## [p163](../163.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p163 A13](../../military/p163_A.md) | READING | Evacuation instructions and a repeated rearguard-position word |
-| [p163 A14](../../military/p163_A.md) | PARTIAL | Final evacuation in one move; retain the Bucharest garrison |
-| [p163 A15](../../military/p163_A.md) | CONDITIONAL | Bucharest garrison transfer and third rearguard-position continuation |
-| [p163 A16 (local label)](../../military/p163_infrastructure_clause.md#p163-a16) | CONDITIONAL | Conditional infrastructure clause in an unnumbered jammed continuation |
-| [p163 A17](../../military/p163_A.md) | PARTIAL | Danube vessels and Scholtz headquarters movement to Calimanesti |
-| [p163 A18](../../military/p163_A.md) | PARTIAL | Headquarters moves to Hermannstadt, Kronstadt and Sinaia |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p163 A13](../163.md#source-p163-a13) | READING | Evacuation instructions and a repeated rearguard-position word | [Meaning](../../military/p163_A.md) |
+| [p163 A14](../163.md#source-p163-a14) | PARTIAL | Final evacuation in one move; retain the Bucharest garrison | [Meaning](../../military/p163_A.md) |
+| [p163 A15](../163.md#source-p163-a15) | CONDITIONAL | Bucharest garrison transfer and third rearguard-position continuation | [Meaning](../../military/p163_A.md) |
+| [p163 A16 (local label)](../163.md#source-p163-a16) | CONDITIONAL | Conditional infrastructure clause in an unnumbered jammed continuation | [Meaning](../../military/p163_infrastructure_clause.md) |
+| [p163 A17](../163.md#source-p163-a17) | PARTIAL | Danube vessels and Scholtz headquarters movement to Calimanesti | [Meaning](../../military/p163_A.md) |
+| [p163 A18](../163.md#source-p163-a18) | PARTIAL | Headquarters moves to Hermannstadt, Kronstadt and Sinaia | [Meaning](../../military/p163_A.md) |
 
-## p164
+## [p164](../164.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p164a](../../p164a.md) | CONDITIONAL | Occupation army, Temesvar and MIRCO fragments |
-| [p164 A4](../../context/p164_A4.md) | PARTIAL | Dismounted cavalry west of an unidentified MIRCO |
-| [p164b](../../p164b.md) | PARTIAL | Height 828 and an uneventful situation report |
-| [p164 B](../../radio/p164_B.md) | PARTIAL | Dismantle the station and resume calls after reaching Temesvar |
-| [p164 C1](../../military/danube_arad_witnesses.md#p164-c1) | CONDITIONAL | AOK11 evening report: Danube crossing and Belgrade–SEMUM traffic |
-| [p164 D](../../radio/p164_acknowledgment.md#p164-d) | PARTIAL | Partial receipt acknowledgement to O.H.L., with O.K.M. closing and opaque references |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p164a](../164.md#source-p164a) | CONDITIONAL | Occupation army, Temesvar and MIRCO fragments | [Meaning](../../p164a.md) |
+| [p164 A4](../164.md#source-p164-a4) | PARTIAL | Dismounted cavalry west of an unidentified MIRCO | [Meaning](../../context/p164_A4.md) |
+| [p164b](../164.md#source-p164b) | PARTIAL | Height 828 and an uneventful situation report | [Meaning](../../p164b.md) |
+| [p164 B](../164.md#source-p164-b) | PARTIAL | Dismantle the station and resume calls after reaching Temesvar | [Meaning](../../radio/p164_B.md) |
+| [p164 C1](../164.md#source-p164-c1) | CONDITIONAL | AOK11 evening report: Danube crossing and Belgrade–SEMUM traffic | [Meaning](../../military/danube_arad_witnesses.md) |
+| [p164 D](../164.md#source-p164-d) | PARTIAL | Partial receipt acknowledgement to O.H.L., with O.K.M. closing and opaque references | [Meaning](../../radio/p164_acknowledgment.md) |
 
-## p165
+## [p165](../165.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p165 A1](../../naval/corcovado_sale_terms.md) | READING | Proposed Corcovado sale for Hamburg-Amerika Line; directly observed 10 million hull price |
-| [p165 A2](../../naval/corcovado_sale_terms.md) | READING | Corcovado inventory valuation, as-is condition, exclusions and seizure risk |
-| [p165 A3](../../naval/corcovado_sale_terms.md) | READING | Seizure risk, seven-month interest deadline and right of recovery for nonpayment |
-| [p165 A5](../../naval/corcovado_sale_terms.md) | CONDITIONAL | Corcovado resale restrictions, transport of Germans and encrypted forwarding |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p165 A1](../165.md#source-p165-a1) | READING | Proposed Corcovado sale for Hamburg-Amerika Line; directly observed 10 million hull price | [Meaning](../../naval/corcovado_sale_terms.md) |
+| [p165 A2](../165.md#source-p165-a2) | READING | Corcovado inventory valuation, as-is condition, exclusions and seizure risk | [Meaning](../../naval/corcovado_sale_terms.md) |
+| [p165 A3](../165.md#source-p165-a3) | READING | Seizure risk, seven-month interest deadline and right of recovery for nonpayment | [Meaning](../../naval/corcovado_sale_terms.md) |
+| [p165 A5](../165.md#source-p165-a5) | CONDITIONAL | Corcovado resale restrictions, transport of Germans and encrypted forwarding | [Meaning](../../naval/corcovado_sale_terms.md) |
 
-## p166
+## [p166](../166.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p166 A1](../../military/nov9_operational_reports.md) | READING | Serbian cavalry in Peterwardein and Fehertemplom |
-| [p166 A2](../../military/nov9_operational_reports.md) | PARTIAL | Northward movement and Alpenkorps transport preparations |
-| [p166 A3](../../military/nov9_operational_reports.md) | CONDITIONAL | March toward Nagybeskerek and Werschetz; order footer |
-| [p166 B1](../../radio/newspaper_dispatch_witnesses.md) | READING | Berlin newspaper sacks received via Orsova; first-part common body fully source-pair supported |
-| [p166 B2](../../radio/newspaper_dispatch_witnesses.md) | PARTIAL | Damaged dispatch-order witness; two old letter proposals gain mixed-coordinate support |
-| [p166 C1](../../radio/nov9_wire_return_source_family.md#p166-c1) | CONDITIONAL | Wire communications and return instructions |
-| [p166 C2](../../radio/nov9_wire_return_source_family.md#p166-c2) | READING | Tiraspol border-fire continuation |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p166 A1](../166.md#source-p166-a1) | READING | Serbian cavalry in Peterwardein and Fehertemplom | [Meaning](../../military/nov9_operational_reports.md) |
+| [p166 A2](../166.md#source-p166-a2) | PARTIAL | Northward movement and Alpenkorps transport preparations | [Meaning](../../military/nov9_operational_reports.md) |
+| [p166 A3](../166.md#source-p166-a3) | CONDITIONAL | March toward Nagybeskerek and Werschetz; order footer | [Meaning](../../military/nov9_operational_reports.md) |
+| [p166 B1](../166.md#source-p166-b1) | READING | Berlin newspaper sacks received via Orsova; first-part common body fully source-pair supported | [Meaning](../../radio/newspaper_dispatch_witnesses.md) |
+| [p166 B2](../166.md#source-p166-b2) | PARTIAL | Damaged dispatch-order witness; two old letter proposals gain mixed-coordinate support | [Meaning](../../radio/newspaper_dispatch_witnesses.md) |
+| [p166 C1](../166.md#source-p166-c1) | CONDITIONAL | Wire communications and return instructions | [Meaning](../../radio/nov9_wire_return_source_family.md) |
+| [p166 C2](../166.md#source-p166-c2) | READING | Tiraspol border-fire continuation | [Meaning](../../radio/nov9_wire_return_source_family.md) |
 
-## p167
+## [p167](../167.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p167 A3](../../military/nov9_operational_reports.md) | PARTIAL | Complete-frame repeat of the operational-report ending |
-| [p167 B1](../../finance/nov9_crown_airlift_and_embassy.md#p167-b1) | READING | Thirty million crowns requested for pay and purchases in Hungary |
-| [p167 B2](../../finance/nov9_crown_airlift_and_embassy.md#p167-b2) | READING | A giant aircraft to Brasso and a mix of banknote denominations |
-| [p167 B3](../../finance/nov9_crown_airlift_and_embassy.md#p167-b3) | READING | A limited crown supply and a high exchange rate |
-| [p167 C1](../../radio/p167_mission_address.md#p167-c1) | CONDITIONAL | Mission address and Nachrichtenchef routing/signature field |
-| [p167 D](../../people/p167_captain_dispatch_fragment.md#conditional-name-proposal) | CONDITIONAL | Captain and replacement-detachment dispatch fragment |
-| [p167 E1](../../finance/nov9_crown_airlift_and_embassy.md#p167-e1) | READING | Urgent Constantinople embassy address signed Stumm |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p167 A3](../167.md#source-p167-a3) | PARTIAL | Complete-frame repeat of the operational-report ending | [Meaning](../../military/nov9_operational_reports.md) |
+| [p167 B1](../167.md#source-p167-b1) | READING | Thirty million crowns requested for pay and purchases in Hungary | [Meaning](../../finance/nov9_crown_airlift_and_embassy.md) |
+| [p167 B2](../167.md#source-p167-b2) | READING | A giant aircraft to Brasso and a mix of banknote denominations | [Meaning](../../finance/nov9_crown_airlift_and_embassy.md) |
+| [p167 B3](../167.md#source-p167-b3) | READING | A limited crown supply and a high exchange rate | [Meaning](../../finance/nov9_crown_airlift_and_embassy.md) |
+| [p167 C1](../167.md#source-p167-c1) | CONDITIONAL | Mission address and Nachrichtenchef routing/signature field | [Meaning](../../radio/p167_mission_address.md) |
+| [p167 D](../167.md#source-p167-d) | CONDITIONAL | Captain and replacement-detachment dispatch fragment | [Meaning](../../people/p167_captain_dispatch_fragment.md) |
+| [p167 E1](../167.md#source-p167-e1) | READING | Urgent Constantinople embassy address signed Stumm | [Meaning](../../finance/nov9_crown_airlift_and_embassy.md) |
 
-## p168
+## [p168](../168.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p168 A](../../radio/seifert.md) | READING | Station under a soldiers' council; operation unchanged |
-| [p168 B](../../radio/seifert.md) | READING | Cologne soldiers' council plans to occupy a radio station |
-| [p168 C](../../radio/p168_munich_routing_witness.md) | CONDITIONAL | Munich routing order 11338: full retransmission and KDO support |
-| [p168 D](../../p158.md#component-readings) | PARTIAL | Repeated Munich–Innsbruck routing instruction |
-| [p168 E](../../military/danube_arad_witnesses.md#p168-e) | CONDITIONAL | Arad provisions copy: native 80000 MANN and source-linked restoration of eleven p159 coordinates |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p168 A](../168.md#source-p168-a) | READING | Station under a soldiers' council; operation unchanged | [Meaning](../../radio/seifert.md) |
+| [p168 B](../168.md#source-p168-b) | READING | Cologne soldiers' council plans to occupy a radio station | [Meaning](../../radio/seifert.md) |
+| [p168 C](../168.md#source-p168-c) | CONDITIONAL | Munich routing order 11338: full retransmission and KDO support | [Meaning](../../radio/p168_munich_routing_witness.md) |
+| [p168 D](../168.md#source-p168-d) | PARTIAL | Repeated Munich–Innsbruck routing instruction | [Meaning](../../p158.md) |
+| [p168 E](../168.md#source-p168-e) | CONDITIONAL | Arad provisions copy: native 80000 MANN and source-linked restoration of eleven p159 coordinates | [Meaning](../../military/danube_arad_witnesses.md) |
 
-## p169
+## [p169](../169.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p169 A](../../radio/seifert.md) | CONDITIONAL | Repeated station-control report |
-| [p169 B](../../military/nov7_derailment_and_trains.md#p169-b) | CONDITIONAL | Forward station and construction trains to Group Winterfeld |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p169 A](../169.md#source-p169-a) | CONDITIONAL | Repeated station-control report | [Meaning](../../radio/seifert.md) |
+| [p169 B](../169.md#source-p169-b) | CONDITIONAL | Forward station and construction trains to Group Winterfeld | [Meaning](../../military/nov7_derailment_and_trains.md) |
 
-## p170
+## [p170](../170.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p170](../../p170.md) | OPEN | Short intercept; original length uncertain |
-| [p170 B1](../../military/nov9_operational_reports.md) | READING | Parallel cavalry and northward-march report |
-| [p170 B2](../../military/nov9_operational_reports.md) | PARTIAL | Alpenkorps at Ujverbasz and the 9 November march |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p170](../170.md#source-p170) | OPEN | Short intercept; original length uncertain | [Meaning](../../p170.md) |
+| [p170 B1](../170.md#source-p170-b1) | READING | Parallel cavalry and northward-march report | [Meaning](../../military/nov9_operational_reports.md) |
+| [p170 B2](../170.md#source-p170-b2) | PARTIAL | Alpenkorps at Ujverbasz and the 9 November march | [Meaning](../../military/nov9_operational_reports.md) |
 
-## p171
+## [p171](../171.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p171](../../p171.md) | READING | Ruble rates and expectations about Russia |
-| [p171 A2](../../finance/ruble_rate_companions.md) | CONDITIONAL | Reported ruble prices in Kiev and Warsaw; companion to Norbert's A1 |
-| [p171 A3](../../finance/ruble_rate_companions.md) | READING | Waller recommends paying above par for Bons if necessary |
-| [p171 B1](../../radio/newspaper_dispatch.md) | READING | Berlin newspaper sacks received via Orsova; request to Breslau postal directorate |
-| [p171 B2](../../radio/newspaper_dispatch.md) | PARTIAL | Immediate dispatch by the same route; priority references remain 7?3 and 308 |
-| [p171 C](../../people/namur_order_witnesses.md) | READING | Namur order for Staedt to contact HPT V. Weiher; complementary source witness |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p171](../171.md#source-p171) | READING | Ruble rates and expectations about Russia | [Meaning](../../p171.md) |
+| [p171 A2](../171.md#source-p171-a2) | CONDITIONAL | Reported ruble prices in Kiev and Warsaw; companion to Norbert's A1 | [Meaning](../../finance/ruble_rate_companions.md) |
+| [p171 A3](../171.md#source-p171-a3) | READING | Waller recommends paying above par for Bons if necessary | [Meaning](../../finance/ruble_rate_companions.md) |
+| [p171 B1](../171.md#source-p171-b1) | READING | Berlin newspaper sacks received via Orsova; request to Breslau postal directorate | [Meaning](../../radio/newspaper_dispatch.md) |
+| [p171 B2](../171.md#source-p171-b2) | PARTIAL | Immediate dispatch by the same route; priority references remain 7?3 and 308 | [Meaning](../../radio/newspaper_dispatch.md) |
+| [p171 C](../171.md#source-p171-c) | READING | Namur order for Staedt to contact HPT V. Weiher; complementary source witness | [Meaning](../../people/namur_order_witnesses.md) |
 
-## p172
+## [p172](../172.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p172 A](../../radio/seifert.md) | READING | Records destroyed; cipher keys still in personal custody |
-| [p172 B](../../radio/seifert.md) | PARTIAL | Immediate radio-listening instruction |
-| [p172 C1](../../military/namur_cassel_armistice_requests.md#p172-c1) | READING | Namur arrival report naming Major Kroeger, first part |
-| [p172 C3](../../military/namur_cassel_armistice_requests.md#p172-c3) | READING | Mannstaedt requests a reply, third part |
-| [p172 D1](../../finance/staatsbank_accounting_cheques.md#p172-d1) | CONDITIONAL | State-bank accounting inquiry, first part with one missing coordinate |
-| [p172 D2](../../finance/staatsbank_accounting_cheques.md#p172-d2) | CONDITIONAL | Treasury payment period and arrival of dispatched cheques |
-| [p172 E](../../people/namur_order_witnesses.md) | CONDITIONAL | Namur order for Staedt to contact HPT V. Weiher; complementary source witness |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p172 A](../172.md#source-p172-a) | READING | Records destroyed; cipher keys still in personal custody | [Meaning](../../radio/seifert.md) |
+| [p172 B](../172.md#source-p172-b) | PARTIAL | Immediate radio-listening instruction | [Meaning](../../radio/seifert.md) |
+| [p172 C1](../172.md#source-p172-c1) | READING | Namur arrival report naming Major Kroeger, first part | [Meaning](../../military/namur_cassel_armistice_requests.md) |
+| [p172 C3](../172.md#source-p172-c3) | READING | Mannstaedt requests a reply, third part | [Meaning](../../military/namur_cassel_armistice_requests.md) |
+| [p172 D1](../172.md#source-p172-d1) | CONDITIONAL | State-bank accounting inquiry, first part with one missing coordinate | [Meaning](../../finance/staatsbank_accounting_cheques.md) |
+| [p172 D2](../172.md#source-p172-d2) | CONDITIONAL | Treasury payment period and arrival of dispatched cheques | [Meaning](../../finance/staatsbank_accounting_cheques.md) |
+| [p172 E](../172.md#source-p172-e) | CONDITIONAL | Namur order for Staedt to contact HPT V. Weiher; complementary source witness | [Meaning](../../people/namur_order_witnesses.md) |
 
-## p173
+## [p173](../173.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p173 A1](../../naval/corcovado_sale_terms.md) | CONDITIONAL | Corcovado already has a Turkish crew; Mediterranean Division no longer in Nikolaev |
-| [p173 A2](../../naval/corcovado_sale_terms.md) | READING | Turkish captain; no radio communication with Constantinople |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p173 A1](../173.md#source-p173-a1) | CONDITIONAL | Corcovado already has a Turkish crew; Mediterranean Division no longer in Nikolaev | [Meaning](../../naval/corcovado_sale_terms.md) |
+| [p173 A2](../173.md#source-p173-a2) | READING | Turkish captain; no radio communication with Constantinople | [Meaning](../../naval/corcovado_sale_terms.md) |
 
-## p174
+## [p174](../174.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p174 A1](../../finance/crown_airlift.md#p174-a1) | READING | Urgent daily crown airlift request |
-| [p174 A2](../../finance/crown_airlift.md#p174-a2) | READING | One million crowns alternately to Kronstadt and Hermannstadt |
-| [p174 A3](../../finance/crown_airlift.md#p174-a3) | CONDITIONAL | Small-denomination banknotes in an interrupted airlift request |
-| [p174 B](../../radio/seifert.md) | PARTIAL | Request notification when Seifert arrives |
-| [p174 C](../../radio/seifert.md) | READING | Query about Seifert's return |
-| [p174 D](../../radio/seifert.md) | PARTIAL | Repeated immediate listening instruction |
-| [p174 E](../../radio/seifert.md) | READING | Seifert has departed |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p174 A1](../174.md#source-p174-a1) | READING | Urgent daily crown airlift request | [Meaning](../../finance/crown_airlift.md) |
+| [p174 A2](../174.md#source-p174-a2) | READING | One million crowns alternately to Kronstadt and Hermannstadt | [Meaning](../../finance/crown_airlift.md) |
+| [p174 A3](../174.md#source-p174-a3) | CONDITIONAL | Small-denomination banknotes in an interrupted airlift request | [Meaning](../../finance/crown_airlift.md) |
+| [p174 B](../174.md#source-p174-b) | PARTIAL | Request notification when Seifert arrives | [Meaning](../../radio/seifert.md) |
+| [p174 C](../174.md#source-p174-c) | READING | Query about Seifert's return | [Meaning](../../radio/seifert.md) |
+| [p174 D](../174.md#source-p174-d) | PARTIAL | Repeated immediate listening instruction | [Meaning](../../radio/seifert.md) |
+| [p174 E](../174.md#source-p174-e) | READING | Seifert has departed | [Meaning](../../radio/seifert.md) |
 
 [Return to all source pages](../README.md).

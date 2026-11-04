@@ -1,5 +1,14 @@
 # Oil stocks and production: the Nobel and Hagelin message
 
+The Nobel oil inquiry requests stock and production figures for the different grades of naphtha at the firm and other companies, quantities already delivered, and corresponding information for Novorossisk. The message bears the name Hagelin; the body and its interpretation were published by Lasry and collaborators.
+
+**Complete edition by printed page:** [p. 64](../pages/064.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 **Prior body and interpretation:** George Lasry, Ingo Niebel, Nils Kopal
 and Arno Wacker, *Deciphering ADFGVX messages from the Eastern Front of
 World War I* (2016), **§6.6 and Table 5**, author PDF pp25–26,
@@ -128,3 +137,6 @@ qualification variants are not additional physical records.
 and [verification instructions](../../experiments/p64_oil_and_radio/README.md)
 preserve every printed row, coordinate price, alternative domain and
 prior attribution.
+
+</details>
+<!-- CASE-EDITION:END -->

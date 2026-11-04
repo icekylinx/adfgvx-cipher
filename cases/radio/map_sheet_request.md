@@ -1,5 +1,14 @@
 # Berlin General Staff map-sheet request
 
+The sender requests copies of the listed map sheets. The shared numeral interpretation gives fifty copies of each at a scale of 1:75,000; the competing numerical assignment is retained in the full edition.
+
+**Complete edition by printed page:** [p. 162](../pages/162.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Source edition and verification: **icekylinx and GPT-6 Astra Pro**.
@@ -102,3 +111,6 @@ and [certificates](../../experiments/nov8_map_and_boundary/certificates.json).
 The [reproduction guide](../../experiments/nov8_map_and_boundary/README.md)
 also records prior OCR and key credit. The bounded comparison prices a
 supplied template; it is not a claim of blind or historical uniqueness.
+
+</details>
+<!-- CASE-EDITION:END -->

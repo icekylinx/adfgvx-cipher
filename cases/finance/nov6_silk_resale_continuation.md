@@ -2,6 +2,15 @@
 
 # Silk bought in the Caucasus: resell when transport is uncertain
 
+Silk and related material bought in the Caucasus should be resold locally where removal cannot be guaranteed. Comparison of independent receptions restores the full continuation of this order to dispose of goods whose transport has become uncertain.
+
+**Complete edition by printed page:** [p. 144](../pages/144.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Buying the material did not ensure that it could be brought away. This
@@ -85,3 +94,6 @@ published reconstruction and key credit. Earlier repository OCR and the
 p136/p152 continuation analysis remain in the [attribution record](../../experiments/nov6_resale_and_air_reconnaissance/prior_candidates.json).
 The present contribution is this independently inspected third witness and
 its exact relation to the preceding source editions.
+
+</details>
+<!-- CASE-EDITION:END -->

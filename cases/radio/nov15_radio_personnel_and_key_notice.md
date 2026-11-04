@@ -1,5 +1,14 @@
 # November 15: Warsaw radio personnel and a repeated key notice
 
+A two-part order concerns radio personnel in Warsaw and their onward movement to Posen. A separate reception repeats the instruction to decipher unreadable traffic with the December key.
+
+**Complete edition by printed page:** [p. 197](../pages/197.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -224,3 +233,6 @@ comparison, the complete readable-label mappings, and re-encryption using
 one consistent global completion of the partial square. Those completion
 witnesses are explicitly nonhistorical. Earlier repository and published-key
 credits remain separate from the present source review.
+
+</details>
+<!-- CASE-EDITION:END -->

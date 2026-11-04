@@ -8,146 +8,146 @@ Jump to page: [p56](#p56) · [p57](#p57) · [p58](#p58) · [p59](#p59) · [p60](
 
 This range contains 47 sources, including 2 OPEN. [Reading states](../../../docs/reading-conventions.md#catalogue-states).
 
-## p56
+## [p56](../056.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p56 A](../../radio/september19_pigeons_and_command.md#p56-a) | READING | Pigeon-transfer instructions with literal destination and reference fields |
-| [p56 B1](../../radio/september19_pigeons_and_command.md#p56-b1) | READING | Army Group East to receive its own German AKONACH |
-| [p56 B2](../../radio/september19_pigeons_and_command.md#p56-b2) | READING | Reorganization of the subordination relationship of Funk A151 |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p56 A](../056.md#source-p56-a) | READING | Pigeon-transfer instructions with literal destination and reference fields | [Meaning](../../radio/september19_pigeons_and_command.md) |
+| [p56 B1](../056.md#source-p56-b1) | READING | Army Group East to receive its own German AKONACH | [Meaning](../../radio/september19_pigeons_and_command.md) |
+| [p56 B2](../056.md#source-p56-b2) | READING | Reorganization of the subordination relationship of Funk A151 | [Meaning](../../radio/september19_pigeons_and_command.md) |
 
-## p57
+## [p57](../057.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p57 A1](../../radio/september_tiflis_radio_routing.md#p57-a1) | READING | Direct blind-transmission instruction for messages to Tiflis |
-| [p57 A2](../../radio/september_tiflis_radio_routing.md#p57-a2) | READING | NKJ/ASO signal strengths and importance of rapid forwarding |
-| [p57 A3](../../radio/september_tiflis_radio_routing.md#p57-a3) | READING | Announce COS traffic in advance; source annotation supports ANKUENDIGEN |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p57 A1](../057.md#source-p57-a1) | READING | Direct blind-transmission instruction for messages to Tiflis | [Meaning](../../radio/september_tiflis_radio_routing.md) |
+| [p57 A2](../057.md#source-p57-a2) | READING | NKJ/ASO signal strengths and importance of rapid forwarding | [Meaning](../../radio/september_tiflis_radio_routing.md) |
+| [p57 A3](../057.md#source-p57-a3) | READING | Announce COS traffic in advance; source annotation supports ANKUENDIGEN | [Meaning](../../radio/september_tiflis_radio_routing.md) |
 
-## p58
+## [p58](../058.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p58 B](../../finance/kress_money_receipt.md#p58-b) | READING | Receipt addressed to General von Kress, Tiflis |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p58 B](../058.md#source-p58-b) | READING | Receipt addressed to General von Kress, Tiflis | [Meaning](../../finance/kress_money_receipt.md) |
 
-## p59
+## [p59](../059.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p59 A1](../../caucasus/poti_first_part_conditional.md) | CONDITIONAL | Poti horse transport: conditional first-part reading |
-| [p59 A2](../../caucasus/poti_horse_delivery.md#p59-a2) | PARTIAL | Poti shipment for cavalry brigade and request for instructions |
-| [p59 A3](../../caucasus/poti_horse_delivery.md#p59-a3) | PARTIAL | Poti horse handover and urgent reply to an earlier radio message |
-| [p59 B](../../radio/nazareth_front_inquiry.md#p59-b) | READING | Nazareth evaluation office asked for news from the fighting front |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p59 A1](../059.md#source-p59-a1) | CONDITIONAL | Poti horse transport: conditional first-part reading | [Meaning](../../caucasus/poti_first_part_conditional.md) |
+| [p59 A2](../059.md#source-p59-a2) | PARTIAL | Poti shipment for cavalry brigade and request for instructions | [Meaning](../../caucasus/poti_horse_delivery.md) |
+| [p59 A3](../059.md#source-p59-a3) | PARTIAL | Poti horse handover and urgent reply to an earlier radio message | [Meaning](../../caucasus/poti_horse_delivery.md) |
+| [p59 B](../059.md#source-p59-b) | READING | Nazareth evaluation office asked for news from the fighting front | [Meaning](../../radio/nazareth_front_inquiry.md) |
 
-## p60
+## [p60](../060.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p60 A1](../../radio/september_radio_procedure.md) | PARTIAL | Daily listening times referenced by repeated numerical fields |
-| [p60 A2](../../radio/september_radio_procedure.md) | READING | Calls at the beginning of every listening period, even without traffic |
-| [p60 B](../../radio/september_radio_procedure.md) | PARTIAL | Continuous radiograms during reception of the Nauen press; acknowledgment afterward |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p60 A1](../060.md#source-p60-a1) | PARTIAL | Daily listening times referenced by repeated numerical fields | [Meaning](../../radio/september_radio_procedure.md) |
+| [p60 A2](../060.md#source-p60-a2) | READING | Calls at the beginning of every listening period, even without traffic | [Meaning](../../radio/september_radio_procedure.md) |
+| [p60 B](../060.md#source-p60-b) | PARTIAL | Continuous radiograms during reception of the Nauen press; acknowledgment afterward | [Meaning](../../radio/september_radio_procedure.md) |
 
-## p61
+## [p61](../061.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p61 A](../../radio/september_key_destruction_order.md#p61-a) | PARTIAL | Key-destruction instruction; first 77?77 label remains unresolved |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p61 A](../061.md#source-p61-a) | PARTIAL | Key-destruction instruction; first 77?77 label remains unresolved | [Meaning](../../radio/september_key_destruction_order.md) |
 
-## p62
+## [p62](../062.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p62 A](../../caucasus/october_requests.md#p62-a--sofia-leaves-the-ringbahnverkehr) | READING | Sofia leaves the Ringbahnverkehr; clear acknowledgment annotations retained |
-| [p62 B](../../caucasus/october_requests.md#p62-b--date-groups-before-weather-observation-telegrams) | CONDITIONAL | Date groups requested before weather-observation telegrams |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p62 A](../062.md#source-p62-a) | READING | Sofia leaves the Ringbahnverkehr; clear acknowledgment annotations retained | [Meaning](../../caucasus/october_requests.md) |
+| [p62 B](../062.md#source-p62-b) | CONDITIONAL | Date groups requested before weather-observation telegrams | [Meaning](../../caucasus/october_requests.md) |
 
-## p63
+## [p63](../063.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p63 A](../../caucasus/october_requests.md#p63-a--a-partially-readable-inspector-request) | PARTIAL | Partial inspector request with Kress agreement and Gemoll signature |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p63 A](../063.md#source-p63-a) | PARTIAL | Partial inspector request with Kress agreement and Gemoll signature | [Meaning](../../caucasus/october_requests.md) |
 
-## p64
+## [p64](../064.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p64 A1](../../caucasus/nobel_oil_inquiry.md#p64-a1) | READING | Oil-information relay to Benedikt and Nobel |
-| [p64 A2](../../caucasus/nobel_oil_inquiry.md#p64-a2) | READING | Naphtha production, delivery and Novorossisk inquiry naming Hagelin |
-| [p64 B](../../radio/damascus_aleppo_report.md#p64-b) | PARTIAL | Reported Damascus radio destruction and Aleppo transmitter |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p64 A1](../064.md#source-p64-a1) | READING | Oil-information relay to Benedikt and Nobel | [Meaning](../../caucasus/nobel_oil_inquiry.md) |
+| [p64 A2](../064.md#source-p64-a2) | READING | Naphtha production, delivery and Novorossisk inquiry naming Hagelin | [Meaning](../../caucasus/nobel_oil_inquiry.md) |
+| [p64 B](../064.md#source-p64-b) | PARTIAL | Reported Damascus radio destruction and Aleppo transmitter | [Meaning](../../radio/damascus_aleppo_report.md) |
 
-## p65
+## [p65](../065.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p65 A](../../caucasus/october_requests.md#p65-a--accelerate-westernhagens-return) | READING | Westernhagen urged to return with a market report before purchases begin |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p65 A](../065.md#source-p65-a) | READING | Westernhagen urged to return with a market report before purchases begin | [Meaning](../../caucasus/october_requests.md) |
 
-## p66
+## [p66](../066.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p66 A](../../caucasus/october_staffing.md#p66-a--an-abbreviated-tiflis-unit-response) | READING | Abbreviated Tiflis mounted-unit and location response |
-| [p66 B](../../caucasus/october_staffing.md#p66-b--repeat-the-garbled-medical-telegram) | READING | Leading medical officer asked to repeat a garbled telegram |
-| [p66 C1](../../caucasus/october_staffing.md#p66-c1-and-p67-a2--bavarian-command-appointments) | READING | Graf von Seyboltstorff ordered to the 4th Bavarian Cavalry Brigade |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p66 A](../066.md#source-p66-a) | READING | Abbreviated Tiflis mounted-unit and location response | [Meaning](../../caucasus/october_staffing.md) |
+| [p66 B](../066.md#source-p66-b) | READING | Leading medical officer asked to repeat a garbled telegram | [Meaning](../../caucasus/october_staffing.md) |
+| [p66 C1](../066.md#source-p66-c1) | READING | Graf von Seyboltstorff ordered to the 4th Bavarian Cavalry Brigade | [Meaning](../../caucasus/october_staffing.md) |
 
-## p67
+## [p67](../067.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p67 A2](../../caucasus/october_staffing.md#p66-c1-and-p67-a2--bavarian-command-appointments) | READING | Karl von Grundherr designated as replacement in the Caucasus delegation order |
-| [p67 B](../../caucasus/october_staffing.md#p67-b--suspend-further-manganese-ore-purchases) | CONDITIONAL | Further manganese-ore purchases suspended |
-| [p67 C](../../caucasus/october_staffing.md#p67-c--telegram-acknowledgment-and-a-separate-clear-instruction) | READING | Travel-telegram acknowledgment and separate clear service instruction |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p67 A2](../067.md#source-p67-a2) | READING | Karl von Grundherr designated as replacement in the Caucasus delegation order | [Meaning](../../caucasus/october_staffing.md) |
+| [p67 B](../067.md#source-p67-b) | CONDITIONAL | Further manganese-ore purchases suspended | [Meaning](../../caucasus/october_staffing.md) |
+| [p67 C](../067.md#source-p67-c) | READING | Travel-telegram acknowledgment and separate clear service instruction | [Meaning](../../caucasus/october_staffing.md) |
 
-## p68
+## [p68](../068.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p68 A1](../../caucasus/october_caucasus.md#p68-a--provisional-procurement-text-carrying-chi-labels) | PARTIAL | Kress procurement message; proposed dispatch of two officers |
-| [p68 A2](../../caucasus/october_caucasus.md#p68-a--provisional-procurement-text-carrying-chi-labels) | CONDITIONAL | Procurement continuation: Donregierung, Kiev and Rostow |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p68 A1](../068.md#source-p68-a1) | PARTIAL | Kress procurement message; proposed dispatch of two officers | [Meaning](../../caucasus/october_caucasus.md) |
+| [p68 A2](../068.md#source-p68-a2) | CONDITIONAL | Procurement continuation: Donregierung, Kiev and Rostow | [Meaning](../../caucasus/october_caucasus.md) |
 
-## p69
+## [p69](../069.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p69 A](../../caucasus/october_caucasus.md#p69-a--a-liaison-officer-from-army-group-kiev) | PARTIAL | Liaison officer dispatched from Army Group Kiev to Tiflis |
-| [p69 B1](../../caucasus/october_caucasus.md#p69-b--violettas-cargo-from-braila-to-poti) | CONDITIONAL | Violetta cargo from Braila for Poti |
-| [p69 B2](../../caucasus/october_caucasus.md#p69-b--violettas-cargo-from-braila-to-poti) | CONDITIONAL | Additional wagons for the troops at Poti |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p69 A](../069.md#source-p69-a) | PARTIAL | Liaison officer dispatched from Army Group Kiev to Tiflis | [Meaning](../../caucasus/october_caucasus.md) |
+| [p69 B1](../069.md#source-p69-b1) | CONDITIONAL | Violetta cargo from Braila for Poti | [Meaning](../../caucasus/october_caucasus.md) |
+| [p69 B2](../069.md#source-p69-b2) | CONDITIONAL | Additional wagons for the troops at Poti | [Meaning](../../caucasus/october_caucasus.md) |
 
-## p70
+## [p70](../070.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p70 A1](../../caucasus/october_caucasus.md#p70-a--westernhagen-price-limits-and-an-urgent-return) | CONDITIONAL | Westernhagen asked for the market report and price context |
-| [p70 A2](../../caucasus/october_caucasus.md#p70-a--westernhagen-price-limits-and-an-urgent-return) | PARTIAL | Urgent personal discussion and accelerated return |
-| [p70 B1](../../open/p70_B1.md) | OPEN | Jammed first part routed through NKJ |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p70 A1](../070.md#source-p70-a1) | CONDITIONAL | Westernhagen asked for the market report and price context | [Meaning](../../caucasus/october_caucasus.md) |
+| [p70 A2](../070.md#source-p70-a2) | PARTIAL | Urgent personal discussion and accelerated return | [Meaning](../../caucasus/october_caucasus.md) |
+| [p70 B1](../070.md#source-p70-b1) | OPEN | Jammed first part routed through NKJ | [Meaning](../../open/p70_B1.md) |
 
-## p71
+## [p71](../071.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p71 A1](../../caucasus/october_caucasus.md#p71-a1--electrical-equipment-sent-to-tiflis) | CONDITIONAL | Machine sets and converter dispatched to Tiflis |
-| [p71 A2](../../radio/p71_dc_machines_fragment.md#p71-a2) | CONDITIONAL | Direct-current machines: conditional series-connection fragment |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p71 A1](../071.md#source-p71-a1) | CONDITIONAL | Machine sets and converter dispatched to Tiflis | [Meaning](../../caucasus/october_caucasus.md) |
+| [p71 A2](../071.md#source-p71-a2) | CONDITIONAL | Direct-current machines: conditional series-connection fragment | [Meaning](../../radio/p71_dc_machines_fragment.md) |
 
-## p72
+## [p72](../072.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p72 A1](../../caucasus/october_caucasus.md#p72-a--reinforcements-administrative-personnel-and-money-for-kress) | CONDITIONAL | OHL reinforcement order for the delegation to Kress |
-| [p72 A2](../../caucasus/october_caucasus.md#p72-a--reinforcements-administrative-personnel-and-money-for-kress) | CONDITIONAL | Administrative personnel except garrison officials |
-| [p72 A3](../../caucasus/october_caucasus.md#p72-a--reinforcements-administrative-personnel-and-money-for-kress) | PARTIAL | Personnel will be supplied; necessary funds secured |
-| [p72 B](../../caucasus/october_caucasus.md#p72-b--radio-timings-and-reception) | PARTIAL | Radio timings and reception at Poti |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p72 A1](../072.md#source-p72-a1) | CONDITIONAL | OHL reinforcement order for the delegation to Kress | [Meaning](../../caucasus/october_caucasus.md) |
+| [p72 A2](../072.md#source-p72-a2) | CONDITIONAL | Administrative personnel except garrison officials | [Meaning](../../caucasus/october_caucasus.md) |
+| [p72 A3](../072.md#source-p72-a3) | PARTIAL | Personnel will be supplied; necessary funds secured | [Meaning](../../caucasus/october_caucasus.md) |
+| [p72 B](../072.md#source-p72-b) | PARTIAL | Radio timings and reception at Poti | [Meaning](../../caucasus/october_caucasus.md) |
 
-## p73
+## [p73](../073.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p73](../../p73.md) | OPEN | Message routed to General von Kress |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p73](../073.md#source-p73) | OPEN | Message routed to General von Kress | [Meaning](../../p73.md) |
 
-## p74
+## [p74](../074.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p74 A](../../radio/late_october_radio_service.md#p74-a) | READING | Daily calls from Deutsch-Altenburg, time 1120 and wave 5200 |
-| [p74 B](../../radio/late_october_radio_service.md#p74-b) | READING | Repeat parts two and three of a garbled CHI telegram |
-| [p74 C1](../../radio/late_october_radio_service.md#p74-c1) | CONDITIONAL | Merchant-ship and wire-network routing question; 30 printed erasures |
-| [p74 C2](../../radio/late_october_radio_service.md#p74-c2) | READING | Lines used to exchange telegrams with foreign stations |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p74 A](../074.md#source-p74-a) | READING | Daily calls from Deutsch-Altenburg, time 1120 and wave 5200 | [Meaning](../../radio/late_october_radio_service.md) |
+| [p74 B](../074.md#source-p74-b) | READING | Repeat parts two and three of a garbled CHI telegram | [Meaning](../../radio/late_october_radio_service.md) |
+| [p74 C1](../074.md#source-p74-c1) | CONDITIONAL | Merchant-ship and wire-network routing question; 30 printed erasures | [Meaning](../../radio/late_october_radio_service.md) |
+| [p74 C2](../074.md#source-p74-c2) | READING | Lines used to exchange telegrams with foreign stations | [Meaning](../../radio/late_october_radio_service.md) |
 
 [Return to all source pages](../README.md).

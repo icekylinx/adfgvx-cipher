@@ -1,5 +1,14 @@
 # p201 B / p206 A — reporting orders linked by a shared reference
 
+Report reached positions regularly, and say where and when the first units are expected to reach the German border, whether by rail or on foot, and which units they are. Acknowledge receipt.
+
+**Complete edition by printed page:** [p. 201](../pages/201.md) · [p. 206](../pages/206.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case guide](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Two complete multipart messages are assembled from the source:
@@ -185,3 +194,6 @@ python3 experiments/open_targets_continuation/verify.py --verify
 This is an edition and a qualified key inference by **icekylinx and GPT-6 Astra Pro**,
 using the published period key. No first-decipherment priority is claimed for
 these supplementary messages.
+
+</details>
+<!-- CASE-EDITION:END -->

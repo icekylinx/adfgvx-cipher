@@ -1,5 +1,14 @@
 # Inventory query for German MG08 machine guns
 
+The recipient is asked how many German MG08 machine guns with tripod mounts are available in the area and what caliber they have.
+
+**Complete edition by printed page:** [p. 86](../pages/086.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -107,3 +116,6 @@ also reproduced in Lasry's 2017 key comment. Earlier unreviewed OCR candidates
 existed. The bounded author-paper review does not establish universal
 first-decipherment priority; this source edition does not supply an answer
 to the inventory question it recovers.
+
+</details>
+<!-- CASE-EDITION:END -->

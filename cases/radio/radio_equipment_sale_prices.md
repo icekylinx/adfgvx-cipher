@@ -1,5 +1,14 @@
 # Radio apparatus sale and estimated value
 
+The two source parts concern permission to sell apparatus and an estimated value of 80 to 90 percent.
+
+**Complete edition by printed page:** [p. 160](../pages/160.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 The two source parts concern permission to sell apparatus and an estimated value of 80 to 90 percent. The conditional reading below supplies the first part’s 21600 field; the abbreviations, 380L and 170M remain literal.
@@ -79,3 +88,6 @@ VERMUTLICH80BIS90PROZENTXNACHCHEF3C111?0?X
 The two missing square cells `VF` and `XA` jointly contain `5` and `6`. Both complete assignments are retained as compatibility witnesses; every occurrence of a cell shares the same digit. The displayed `?` positions therefore must not be treated as independent digit choices. In p160 B2 one additional source coordinate remains unfilled; its domain can include letters as well as digits.
 
 The published Nov7–9 period key and earlier OCR candidates are credited in the inputs. This edition adds source inspection, separate repair costs and exact readable-text mappings. It does not claim new recovery of the period key.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Radio reception instructions and a brief no-events report
 
+Staff the station with especially good listeners; transmit at a moderate speed with clear signs and spaces between groups. The sentence continues in part 2.
+
+**Complete edition by printed page:** [p. 224](../pages/224.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
@@ -123,3 +132,6 @@ The certificates replay every coordinate alteration, compare the independent col
 Reproduce with `python experiments/nov27_receiving_instructions/verify.py --verify`. Add `--pdf /path/to/adfgvx-childs.pdf` to regenerate and compare the delivered source pixels.
 
 A roundtrip proves compatibility with a stated reading. Editorial spelling repairs remain proposals, and literal number labels are not automatically historical dates, quantities or reference numbers.
+
+</details>
+<!-- CASE-EDITION:END -->

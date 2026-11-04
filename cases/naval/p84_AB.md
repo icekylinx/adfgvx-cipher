@@ -1,5 +1,14 @@
 # p84 A/B — Release of oil and Black Sea shipping safety
 
+Telegraph whether Izzet Pasha's renewed order to release the oil has been successful. The signature names the War Office's raw-materials department.
+
+**Complete edition by printed page:** [p. 84](../pages/084.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Coordinate certificate](../../experiments/corpus_recovery/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Two complete, unchanged-source readings.** The published October 28–31 key
@@ -95,3 +104,6 @@ The published period key keeps the historical and modern researchers'
 attribution in [the key register](../../data/keys.json). Source inspection,
 exact verification and this edition: **icekylinx and GPT-6 Astra Pro**.
 No first historical decipherment priority is claimed.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Medical-company report and a request for clarification
 
+The sender asks urgently about a medical company mentioned in a report, because only a field hospital is known to be there. The unit and reference labels are retained as transmitted.
+
+**Complete edition by printed page:** [p. 117](../pages/117.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
@@ -52,3 +61,6 @@ analyses, without a first historical decipherment claim.
 [Literal rows and source images](../../experiments/nov3_medical_radio_withdrawal/inputs.json),
 [domains, origins and exact repair certificate](../../experiments/nov3_medical_radio_withdrawal/certificates.json),
 and [full method and verification commands](../../experiments/nov3_medical_radio_withdrawal/README.md).
+
+</details>
+<!-- CASE-EDITION:END -->

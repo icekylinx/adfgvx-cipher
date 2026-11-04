@@ -1,5 +1,14 @@
 # Communication through Hungary — wireless routing, repetition and supplies
 
+The messages ask for repetition of a telegram and explain that disruption of communications through Hungary requires radio transmission for the time being. A separate supply-related message retains its own heading and wording.
+
+**Complete edition by printed page:** [p. 97](../pages/097.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and review: icekylinx and GPT-6 Astra Pro.** Three separate
@@ -144,3 +153,6 @@ decipherment priority is claimed.
 python3 experiments/hungary_connection_and_supplies/verify.py --verify
 python3 experiments/hungary_connection_and_supplies/verify.py --verify --pdf /path/to/childs.pdf
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

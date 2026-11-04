@@ -1,5 +1,14 @@
 # German tonnage and proposed ship sales to Turkey
 
+A Marineamt instruction advises selling German ships to Turkey only in the most extreme emergency. It warns that the Turkish interest appears to be acquiring tonnage rather than transporting Germans, requires payment and authorization, and gives terms for General and the vessel conditionally read as Kerkyra.
+
+**Complete edition by printed page:** [p. 177](../pages/177.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
@@ -239,3 +248,6 @@ python experiments/turkish_tonnage/verify.py --verify --pdf /path/to/childs.pdf
 The PDF option verifies the complete primary source hash and rerenders all
 three crops pixel-for-pixel. The conditional dependency is bound by its
 certificate hash, with the baseline square left unchanged.
+
+</details>
+<!-- CASE-EDITION:END -->

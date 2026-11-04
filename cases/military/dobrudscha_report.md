@@ -1,5 +1,14 @@
 # Request for a position on a Dobrudscha report
 
+An inquiry addressed to the Mackensen organization asks for a response to an Entente report that Romania has reoccupied the Dobrudscha. The message seeks confirmation rather than supplying it.
+
+**Complete edition by printed page:** [p. 142](../pages/142.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -94,3 +103,6 @@ with provenance in the [inputs](../../experiments/radio_contacts_and_keys/inputs
 Earlier unreviewed OCR-derived candidates existed. The bounded paper review
 does not establish universal first-decipherment priority; exact arithmetic
 does not prove unique historical wording or independent truth of the report.
+
+</details>
+<!-- CASE-EDITION:END -->

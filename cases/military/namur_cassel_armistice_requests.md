@@ -1,5 +1,14 @@
 # Namur arrival, Cassel transport and armistice-information requests
 
+The messages concern contact with Major Kroeger at Namur and requests for the armistice conditions. The person whose arrival is reported in the opening remains uncertain.
+
+**Complete edition by printed page:** [p. 172](../pages/172.md) · [p. 180](../pages/180.md) · [p. 181](../pages/181.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
@@ -155,3 +164,6 @@ The certificates replay every coordinate alteration, compare the independent col
 Reproduce with `python experiments/namur_cassel_armistice_requests/verify.py --verify`. Add `--pdf /path/to/adfgvx-childs.pdf` to regenerate and compare the delivered source pixels.
 
 A roundtrip proves compatibility with a stated reading. Editorial spelling repairs remain proposals, and literal number labels are not automatically historical dates, quantities or reference numbers.
+
+</details>
+<!-- CASE-EDITION:END -->

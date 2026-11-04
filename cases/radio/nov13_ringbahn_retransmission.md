@@ -1,5 +1,14 @@
 # p187 B1 — A third reception of the Ringbahn-key instruction
 
+The instruction says to retain the November Ringbahn key and postpone introduction of the December key. Comparison with other receptions restores a heavily shortened first part; its reception note asks for clearer group spacing.
+
+**Complete edition by printed page:** [p. 187](../pages/187.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 **Source recovery and review: icekylinx and GPT-6 Astra Pro.** The November 13
 fragment repeats the November 6 instruction already received on
 [p145](nov6_ringbahn_key_witnesses.md) and · [Reading conventions](../../docs/reading-conventions.md)
@@ -96,3 +105,6 @@ The period key comes from George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker,
 and Lasry's published key list. The present contribution identifies and restores
 this separately received fragment, preserves its disagreements, and provides
 an exact provenance map for every copied or changed coordinate.
+
+</details>
+<!-- CASE-EDITION:END -->

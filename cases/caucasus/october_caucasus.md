@@ -1,5 +1,14 @@
 # October Caucasus traffic — Kress, Westernhagen and a shipment for Poti
 
+These messages concern staffing and supplies for the Caucasus delegation: administrative reinforcements, purchases and local prices, electrical equipment, arms and provisions shipped aboard Violetta, radio arrangements, and an army liaison officer for Tiflis. Damaged names and quantities remain qualified in the individual readings.
+
+**Complete edition by printed page:** [p. 68](../pages/068.md) · [p. 69](../pages/069.md) · [p. 70](../pages/070.md) · [p. 71](../pages/071.md) · [p. 72](../pages/072.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [All readings](../README.md) · [ADFGVX Cipher](../../README.md) · [Source and verification](../../experiments/october_caucasus/README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and repair analysis:** icekylinx and GPT-6 Astra Pro. **Earlier key:** the published October 4–6 square and 22-column transposition, credited to Childs and George Lasry / Lasry, Niebel, Kopal and Wacker in the [key catalogue](../../data/keys.json).
@@ -243,3 +252,6 @@ individual words; no complete independent copy of this clause is claimed.
 ## Relation to the open p73 challenge
 
 These messages add readable traffic from the Kress/Caucasus route, with explicit October origin and later interception dates. They supply neither p73's key nor a matching plaintext passage. **p73 remains open**; the source-level repairs here do not decide between its conflicting 26 October and 8 November date layers.
+
+</details>
+<!-- CASE-EDITION:END -->

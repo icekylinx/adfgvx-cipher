@@ -1,5 +1,14 @@
 # Ober Ost troop movements: a conditional reading across two obliterations
 
+The body addresses GEN GOUV WARSCHAU, says that the referenced item has been wired to OBOST, and proposes troop movements within the Ober Ost territory. Z0FORT and the opening reference remain opaque literal fields.
+
+**Complete edition by printed page:** [p. 186](../pages/186.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
@@ -110,3 +119,6 @@ python experiments/oberost_troop_movement_obliterations/verify.py --verify --pdf
 ```
 
 Verification checks every source/model index, the four control frames, all position domains, each proposed change, exact readable-label preservation, an injective global completion witness, unchanged key provenance and the optional original-PDF crop pixels. A successful roundtrip establishes compatibility with the declared exclusion model, not a unique historical reading or cancellation intent.
+
+</details>
+<!-- CASE-EDITION:END -->

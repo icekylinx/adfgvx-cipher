@@ -1,5 +1,14 @@
 # Ferries and horse loading at Kladovo
 
+The proposed reading reports aerial reconnaissance dated 5/11: ferries and loading of horses were observed near the unresolved place written KIAD?VO. The leading unresolved position and designation M5 remain literal; no definite modern place or unit is assigned.
+
+**Complete edition by printed page:** [p. 144](../pages/144.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## Completed reading
@@ -107,3 +116,6 @@ The [input](../../experiments/nov6_resale_and_air_reconnaissance/inputs.json) bi
 This edition is by icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical source; Lasry, Niebel, Kopal and Wacker supply the published reconstruction and key provenance. Earlier repository OCR and the p136/p152 continuation analysis are retained in the [attribution record](../../experiments/nov6_resale_and_air_reconnaissance/prior_candidates.json).
 
 </details>
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # p163 A16 — Conditional infrastructure clause in a jammed continuation
 
+The fragment lists facilities whose destruction is under consideration. Read with the following part, it indicates that further orders will follow, rather than reporting completed demolitions.
+
+**Complete edition by printed page:** [p. 163](../pages/163.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and conditional reconstruction: icekylinx and GPT-6 Astra Pro.**
@@ -153,3 +162,6 @@ The period key and earlier cryptanalytic work retain the credit to George Lasry,
 Ingo Niebel, Nils Kopal and Arno Wacker. The earlier source transcription is
 preserved exactly. The new conditional clause, independent audit and source
 review are by **icekylinx and GPT-6 Astra Pro**.
+
+</details>
+<!-- CASE-EDITION:END -->

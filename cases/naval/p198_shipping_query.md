@@ -1,5 +1,14 @@
 # p198 A — Prices and freight for wheat delivered to Poti
 
+The sender asks for the purchase price, freight charge and transport insurance for wheat delivered to Poti at the end of September. The vessel labels and quantity field remain incomplete.
+
+**Complete edition by printed page:** [p. 198](../pages/198.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Conditional recovery: icekylinx and GPT-6 Astra Pro.** Source-defined group
@@ -129,3 +138,6 @@ The key retains the published Lasry–Niebel–Kopal–Wacker work and Lasry's
 2017 list. The earlier repository OCR block remains preserved as provenance;
 the source transcription, conditional frame and readable recovery here are
 by **icekylinx and GPT-6 Astra Pro**.
+
+</details>
+<!-- CASE-EDITION:END -->

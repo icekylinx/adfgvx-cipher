@@ -1,5 +1,14 @@
 # Poti horse transport: a conditional first-part edition
 
+The conditional first part concerns horses carried aboard steamers toward Poti. Its vessel-like names and opening remain uncertain; the later parts provide the firmer context of a cavalry-brigade shipment and horse delivery.
+
+**Complete edition by printed page:** [p. 59](../pages/059.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
@@ -118,3 +127,6 @@ python experiments/poti_first_part_conditional/verify.py --verify --pdf /path/to
 ```
 
 Childs source p59 and the published Sep19–21 key; earlier source transcription and A2/A3 edition retained. Joint frame pricing, constrained partial edition and complete alternative accounting: icekylinx and GPT-6 Astra Pro. No first-decipherment claim.
+
+</details>
+<!-- CASE-EDITION:END -->

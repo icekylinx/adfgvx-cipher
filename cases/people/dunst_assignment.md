@@ -1,5 +1,14 @@
 # Major Dunst — cancellation of the Turkey and military-mission assignment
 
+The message identifies the officer's most recent attachment, cancels the Turkey assignment and allocation to the military mission, and requests that the mission be informed.
+
+**Complete edition by printed page:** [p. 95](../pages/095.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and review: icekylinx and GPT-6 Astra Pro.** This two-part
@@ -146,3 +155,6 @@ first-decipherment or independent identification of Dunst is claimed.
 python3 experiments/dunst_assignment/verify.py --verify
 python3 experiments/dunst_assignment/verify.py --verify --pdf /path/to/childs.pdf
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

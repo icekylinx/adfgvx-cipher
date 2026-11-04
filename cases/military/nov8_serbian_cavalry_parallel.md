@@ -1,5 +1,14 @@
 # November 8: a separate Serbian-cavalry report witness
 
+The report describes Serbian cavalry entering the places written PETERWADEIN and FEHERTEMPLOM, followed by a northward departure of the 217th Infantry Division and a reserve division.
+
+**Complete edition by printed page:** [p. 158](../pages/158.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 Source review and editorial work: **icekylinx and GPT-6 Astra Pro**. Published
 Nov7–9 key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker; unchanged
 here. The operational body and p170 word proposals were already edited in
@@ -222,3 +231,6 @@ exact RGB regeneration from the pinned Childs PDF. The
 portable verification commands. Earlier OCR, unchanged-key diagnostics,
 body readings and word proposals retain their distinct attribution; the
 p170 witness is not counted as another new physical record.
+
+</details>
+<!-- CASE-EDITION:END -->

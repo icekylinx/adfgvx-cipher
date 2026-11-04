@@ -1,5 +1,14 @@
 # November Ringbahn keys and postponed December change
 
+Retain the November Ringbahn key and postpone the December key. The continuation schedules the November 10 key for December 1, proceeding through the November 30 key for December 21.
+
+**Complete edition by printed page:** [p. 160](../pages/160.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 The edited first part says to retain the November Ringbahn key and postpone the December key. Its wording continues into the unedited second part: 1 December is to use the key as on the tenth of November, continuing through 21 December as on 30 November. These are literal instructions in the traffic; they do not independently recover the secret key material or verify that the instruction was followed.
@@ -87,3 +96,6 @@ claim to be the first identification of the key-use instruction.
 The two missing square cells `VF` and `XA` jointly contain `5` and `6`. Both complete assignments are retained as compatibility witnesses; every occurrence of a cell shares the same digit. The displayed `?` positions therefore must not be treated as independent digit choices. In p160 B2 one additional source coordinate remains unfilled; its domain can include letters as well as digits.
 
 The published Nov7–9 period key and earlier OCR candidates are credited in the inputs. This edition adds source inspection, separate repair costs and exact readable-text mappings. It does not claim new recovery of the period key.
+
+</details>
+<!-- CASE-EDITION:END -->

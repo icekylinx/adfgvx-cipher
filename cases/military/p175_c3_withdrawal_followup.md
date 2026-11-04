@@ -1,5 +1,14 @@
 # Withdrawal from the Danube and Sereth front: p175 C3
 
+The conditional third part reports withdrawal from the Danube and Sereth front toward the mountains, with a route through Kronstadt and Hermannstadt. Several equally compatible locations of the missing source block remain in the edition.
+
+**Complete edition by printed page:** [p. 175](../pages/175.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source analysis and edition: icekylinx and GPT-6 Astra Pro.**
@@ -124,3 +133,6 @@ and [certificate](../../experiments/p175_c3_gap_followup/certificates.json)
 preserve all layouts, controls, rankings, exact minima and source indices.
 No key cell is changed, no first historical decipherment claim is made,
 and no exact cross-copy was accepted from the bounded corpus search.
+
+</details>
+<!-- CASE-EDITION:END -->

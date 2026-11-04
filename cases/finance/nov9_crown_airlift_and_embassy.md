@@ -1,5 +1,14 @@
 # November 9: a crown airlift request and an urgent embassy address
 
+Three complete source parts on Childs p167 request **thirty million crowns** for pay and purchases in Hungary, sent by **giant aircraft to Brasso**, with an appropriate mix of large and small banknotes.
+
+**Complete edition by printed page:** [p. 167](../pages/167.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -191,3 +200,6 @@ complete readable-label mappings and exact re-encryption. The optional PDF
 check reproduces both crops and compares their RGB pixels. Earlier OCR and
 its unchanged-key comparisons remain separate from the source edition.
 No universal first-decipherment priority is asserted.
+
+</details>
+<!-- CASE-EDITION:END -->

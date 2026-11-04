@@ -1,5 +1,14 @@
 # p212 A4: hospitals, patients and transport
 
+The conditional fragments concern hospitals or institutions where sick people can remain, medical transports, personnel and allocation of medicines. Much of the connecting text is lost.
+
+**Complete edition by printed page:** [p. 212](../pages/212.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition: icekylinx and GPT-6 Astra Pro.** This conditional fragment concerns institutions where patients can remain, transport, personnel and medicines. It retains all **197 printed coordinates**, uses the unchanged published **Nov22–24** key, and assumes a **302-coordinate frame with 105 missing transmitted-prefix slots**. The source gives no total length.
@@ -132,3 +141,6 @@ python experiments/p212_medical_fragment/verify.py --verify --pdf /path/to/child
 The standard-library verifier checks the actual displays, all 151 domains, source mappings, 83 fills, 22 unresolved positions and forward witnesses. The PDF option authenticates the existing crop with PyMuPDF and Pillow. Search scores are frozen diagnostics; default verification does not replay the external language model.
 
 Historical key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and Lasry's 2017 key list. New source review, retrieval, conditional edition and exact accounting: icekylinx and GPT-6 Astra Pro. Earlier source editions retain their credits; no first historical decipherment claim is made.
+
+</details>
+<!-- CASE-EDITION:END -->

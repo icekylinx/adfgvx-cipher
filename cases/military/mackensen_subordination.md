@@ -1,5 +1,14 @@
 # Eleventh Army subordination to Mackensen
 
+A two-part telegram on Childs pp100–101 reports that the 11th Army and all its German elements have been placed under `O.K. MACKENSEN` and asks for orders.
+
+**Complete edition by printed page:** [p. 100](../pages/100.md) · [p. 101](../pages/101.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
@@ -178,3 +187,6 @@ body credit; its status is unchanged.
 and [verification commands](../../experiments/nov1_mackensen_and_orient_reports/README.md)
 make the stated frames and repairs reproducible. The verifier also checks
 that each readable passage preserves every non-`X` label in its cited stream.
+
+</details>
+<!-- CASE-EDITION:END -->

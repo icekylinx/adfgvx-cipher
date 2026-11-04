@@ -1,5 +1,14 @@
 # Odessa consular routing and a Magdeburg wagon-sale instruction
 
+The telegram routes a request through the German consulate and representative at Odessa, then calls for a wagon sale on the best possible terms. The wagon's identifying number is spelled out; a damaged adjacent expression remains unresolved.
+
+**Complete edition by printed page:** [p. 201](../pages/201.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
@@ -103,3 +112,6 @@ Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (20
 The certificates independently reconstruct column positions and domains, compare them with the cipher implementation, replay every priced change, and check all readable nonseparator labels. Partial readings have one consistent injective square/source-mask completion witness that re-encrypts exactly; those witness choices are not historical identifications. Source images are bound to the original PDF by page, rectangle, scale, file digest and pixel digest.
 
 Reproduce with `python experiments/odessa_wagon_sale/verify.py --verify`. Add `--pdf /path/to/adfgvx-childs.pdf` to check the original PDF and exact source-crop pixels.
+
+</details>
+<!-- CASE-EDITION:END -->

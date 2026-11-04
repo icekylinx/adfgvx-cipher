@@ -1,5 +1,14 @@
 # November 7–8: embassy, legation and Etappe address parts
 
+Seven physical first/address parts on printed pp156 and 158 contain embassy, legation or Etappe addresses and signatures.
+
+**Complete edition by printed page:** [p. 156](../pages/156.md) · [p. 158](../pages/158.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Source review and editorial work: **icekylinx and GPT-6 Astra Pro**. Published Nov7–9 key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker; unchanged here. The earlier repository OCR and explicitly recomputed unchanged-key outputs are retained.
@@ -375,3 +384,6 @@ pinned PDF. The [earlier address-part edition](constantinople_address_parts.md)
 and [p167 embassy address](../finance/nov9_crown_airlift_and_embassy.md#p167-e1)
 provide additional separately received address context; neither supplies
 missing substantive text for these records.
+
+</details>
+<!-- CASE-EDITION:END -->

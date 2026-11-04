@@ -1,5 +1,14 @@
 # Late October radio service — calls, garbled traffic and network routing
 
+The message refers to a three-part CHI telegram as garbled and requests repetition of its second and third parts. `OSKA` and the reference fields remain unexpanded.
+
+**Complete edition by printed page:** [p. 74](../pages/074.md) · [p. 75](../pages/075.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and review: icekylinx and GPT-6 Astra Pro.** Five physical
@@ -244,3 +253,6 @@ decipherment priority is claimed.
 python3 experiments/late_october_radio_and_materials/verify.py --verify
 python3 experiments/late_october_radio_and_materials/verify.py --verify --pdf /path/to/childs.pdf
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

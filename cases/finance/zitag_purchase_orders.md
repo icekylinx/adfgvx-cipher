@@ -1,5 +1,14 @@
 # ZITAG stop-orders and cancellation of procurement contracts
 
+Repeated stop-orders tell ZITAG to halt further purchases and loading. A separate two-part message permits loading consignments already paid for, orders other contracts cancelled, and asks for Westernhagen's prompt return.
+
+**Complete edition by printed page:** [p. 102](../pages/102.md) · [p. 103](../pages/103.md) · [p. 106](../pages/106.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source:** J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
@@ -226,3 +235,6 @@ that the requested action was carried out.
 python experiments/zitag_purchase_orders/verify.py --verify
 python experiments/zitag_purchase_orders/verify.py --verify --pdf /path/to/childs.pdf
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

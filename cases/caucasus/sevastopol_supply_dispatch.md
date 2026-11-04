@@ -1,5 +1,14 @@
 # Food dispatch from Sevastopol to the Caucasus delegation
 
+The supply office at Sevastopol reports sending the listed quantities to the Caucasus delegation on the date written 27/10/18. The surviving first part names sugar, hard feed, potatoes, millet and fresh vegetables. This is a dispatch report, not proof of arrival.
+
+**Complete edition by printed page:** [p. 85](../pages/085.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p85 A1
@@ -46,3 +55,6 @@ The [enlarged GDGAA group](../../experiments/oct30_oil_and_supply_records/source
 The [input](../../experiments/oct30_oil_and_supply_records/inputs.json) binds the complete literal rows to exact PDF crops. The [certificate](../../experiments/oct30_oil_and_supply_records/certificates.json) records every coordinate pair and the sensitivity branch. The [verifier](../../experiments/oct30_oil_and_supply_records/verify.py) checks the published Oct28–31 key, live German quotations, source-image hashes and optional PDF pixel regeneration.
 
 Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; the published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. The [attribution record](../../experiments/oct30_oil_and_supply_records/prior_candidates.json) retains earlier OCR and the already reviewed p84 source.
+
+</details>
+<!-- CASE-EDITION:END -->

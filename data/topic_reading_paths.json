@@ -4,53 +4,330 @@
   "topics": {
     "military": {
       "study": "an-army-trying-to-get-home.md",
-      "study_title": "An army trying to get home",
+      "study_title": "Withdrawal, transit and internment",
       "sections": [
-        {"title": "Withdrawal becomes a race against time", "text": "Read the operational sequence through the Romanian ultimatum, the Hungarian transit instructions and the struggle to provision the departing army.", "cases": [["cases/military/nov11_romanian_ultimatum_report.md", "The ultimatum reaches the evening report"], ["cases/military/hungarian_armistice_instructions.md", "Orders for movement through Hungary"], ["cases/military/danube_arad_witnesses.md", "Arad: provisions for 80,000 men and 30,000 animals"]]},
-        {"title": "What had to move with the troops", "text": "Railways, food, hospitals and animals give the withdrawal its material scale. These records turn an order to leave into a set of practical transport problems.", "cases": [["cases/military/armistice_transit_planning.md", "Planning the transit"], ["cases/military/medical_return_transports.md", "Hospital and medical transport"], ["cases/military/armistice_provisions_requests.md", "Provisions under armistice conditions"]]},
-        {"title": "The limits of military authority", "text": "Read the appeal against internment beside the later internment traffic and the reports of unrest. The case pages distinguish the orders, reports and outcomes each telegram actually records.", "cases": [["cases/military/mackensen_armistice_appeal.md", "Mackensen appeals to Berlin"], ["cases/military/mackensen_internment.md", "Internment correspondence"], ["cases/military/p219_kiev_unrest.md", "Kiev unrest and soldiers’ council neutrality"]]}
+        {
+          "title": "Ultimatum, transit and provisioning",
+          "text": "The Romanian ultimatum, Hungarian movement instructions and Arad provisioning request document the deadlines, permissions and supplies governing withdrawal. The Arad request specifies 80,000 men and 30,000 animals.",
+          "cases": [
+            [
+              "cases/military/nov11_romanian_ultimatum_report.md",
+              "The Romanian ultimatum in the evening report"
+            ],
+            [
+              "cases/military/hungarian_armistice_instructions.md",
+              "Instructions for movement through Hungary"
+            ],
+            [
+              "cases/military/danube_arad_witnesses.md",
+              "Arad provisions: 80,000 men and 30,000 animals"
+            ]
+          ]
+        },
+        {
+          "title": "Transport and medical provision",
+          "text": "Transit planning, provisions requests and recommendations for heated sick wagons record preparations for moving personnel. The medical instructions specify stoves, cooking equipment and hot tea for return transports from Turkey.",
+          "cases": [
+            [
+              "cases/military/armistice_transit_planning.md",
+              "Transit planning under armistice conditions"
+            ],
+            [
+              "cases/military/medical_return_transports.md",
+              "Heated sick wagons and medical return transport"
+            ],
+            [
+              "cases/military/armistice_provisions_requests.md",
+              "Requests for provisions during withdrawal"
+            ]
+          ]
+        },
+        {
+          "title": "Command, internment and unrest",
+          "text": "Mackensen’s appeal and the internment correspondence concern the conditions under which his forces could return. The separate Kiev reports describe unrest and the soldiers’ council’s stated neutrality.",
+          "cases": [
+            [
+              "cases/military/mackensen_armistice_appeal.md",
+              "Mackensen’s appeal against internment"
+            ],
+            [
+              "cases/military/mackensen_internment.md",
+              "Internment correspondence"
+            ],
+            [
+              "cases/military/p219_kiev_unrest.md",
+              "Kiev unrest and soldiers’ council neutrality"
+            ]
+          ]
+        }
       ]
     },
     "naval": {
       "study": "black-sea-network.md",
-      "study_title": "The Black Sea network runs in reverse",
+      "study_title": "Black Sea shipping and disposal",
       "sections": [
-        {"title": "Cargo and the changing purpose of ships", "text": "The same shipping network carries supplies, commercial cargo and people trying to leave. Begin with the Black Sea shipping messages and the Poti loading instruction.", "cases": [["cases/naval/black_sea_shipping.md", "Black Sea shipping and cargo"], ["cases/naval/nov3_poti_tobacco_loading.md", "Loading tobacco at Poti"], ["cases/naval/gerlach_oil_release_query.md", "A query about releasing oil"]]},
-        {"title": "Sale, seizure and control", "text": "Ship-sale terms reveal who could authorize a sale, how payment was to work and which rights the German side wanted to retain.", "cases": [["cases/naval/corcovado_sale_terms.md", "The Corcovado sale terms"], ["cases/naval/turkish_tonnage.md", "Proposed Turkish purchases"], ["cases/naval/naval_armistice_order.md", "The naval armistice order"]]}
+        {
+          "title": "Cargo, loading and release",
+          "text": "Reports from Nikolaev and Poti concern cargo on hand, loading opportunities and the release of supplies. Tobacco ready for loading and an inquiry about oil establish availability or a requested decision, without establishing that either consignment departed.",
+          "cases": [
+            [
+              "cases/naval/black_sea_shipping.md",
+              "Nikolaev supply cargo and shipping decisions"
+            ],
+            [
+              "cases/naval/nov3_poti_tobacco_loading.md",
+              "Tobacco awaiting loading at Poti"
+            ],
+            [
+              "cases/naval/gerlach_oil_release_query.md",
+              "An inquiry about releasing oil"
+            ]
+          ]
+        },
+        {
+          "title": "Ship sales, payment and authority",
+          "text": "The proposed Corcovado terms allocate seizure and nonpayment risks. Other Turkish purchase proposals require immediate payment and authorization; naval armistice instructions provide a separate record of command requirements.",
+          "cases": [
+            [
+              "cases/naval/corcovado_sale_terms.md",
+              "Proposed Corcovado sale terms"
+            ],
+            [
+              "cases/naval/turkish_tonnage.md",
+              "Turkish tonnage purchases and authorization"
+            ],
+            [
+              "cases/naval/naval_armistice_order.md",
+              "Naval armistice instructions"
+            ]
+          ]
+        }
       ]
     },
     "finance": {
       "study": "what-retreat-cost.md",
-      "study_title": "What retreat cost",
+      "study_title": "Cash, procurement and liquidation",
       "sections": [
-        {"title": "Cash that an army could use", "text": "A request for money becomes more revealing when it specifies the currency, the route and the denomination. Follow the crown shortage from the airlift request to the later complete banknote instruction.", "cases": [["cases/finance/crown_airlift.md", "A million crowns a day by aircraft"], ["cases/finance/crown_banknote_completion.md", "The restored small-banknote instruction"], ["cases/finance/hermannstadt_cash_transport.md", "Moving cash to Hermannstadt"]]},
-        {"title": "Contracts and assets at the end of occupation", "text": "Purchasing orders, resale permissions and abandoned transport connect military withdrawal with a commercial world that still expected accounts to be settled.", "cases": [["cases/finance/zitag_purchase_orders.md", "ZITAG purchasing instructions"], ["cases/finance/nov6_silk_resale_continuation.md", "Silk resale recovered from two receptions"], ["cases/finance/odessa_wagon_sale.md", "The Odessa wagon sale"]]},
-        {"title": "Pay, exchange and administration", "text": "Allowances and exchange rates show the continuing administrative demands behind the larger movements.", "cases": [["cases/finance/military_allowances.md", "Military allowances"], ["cases/finance/lei_note_exchange.md", "Exchanging lei notes"], ["cases/finance/ruble_rate_companions.md", "Companion ruble-rate messages"]]}
+        {
+          "title": "Cash supply and denominations",
+          "text": "The crown requests specify wages and purchases in Hungary, delivery by aircraft and a suitable supply of small notes. A complete parallel reception restores the ending of the daily airlift instruction.",
+          "cases": [
+            [
+              "cases/finance/nov9_crown_airlift_and_embassy.md",
+              "Thirty million crowns requested for wages and purchases"
+            ],
+            [
+              "cases/finance/crown_airlift.md",
+              "One million crowns daily by ordinary aircraft"
+            ],
+            [
+              "cases/finance/crown_banknote_completion.md",
+              "The complete small-banknote instruction"
+            ]
+          ]
+        },
+        {
+          "title": "Remittance, payout and guarded transport",
+          "text": "The Vienna–Kronstadt bank-transfer message asks whether local payment succeeded. Later correspondence concerns a guarded rail alternative, access to an advance at Arad and continuing banknote shortages.",
+          "cases": [
+            [
+              "cases/finance/p205_A.md",
+              "An initial five-million-crown transfer through Vienna"
+            ],
+            [
+              "cases/finance/hermannstadt_cash_transport.md",
+              "A guarded rail alternative for Hermannstadt cash"
+            ],
+            [
+              "cases/finance/crown_cash_requests.md",
+              "Arad advances and partial crown remittances"
+            ]
+          ]
+        },
+        {
+          "title": "Procurement cancellation and resale",
+          "text": "ZITAG orders distinguish further commitments from consignments already paid for. Silk purchases are to be resold where removal is uncertain; a separate Odessa instruction seeks a wagon sale on the best possible terms.",
+          "cases": [
+            [
+              "cases/finance/zitag_purchase_orders.md",
+              "Purchase stop-orders and the paid-consignment exception"
+            ],
+            [
+              "cases/finance/nov6_silk_resale_continuation.md",
+              "Local resale of silk when transport is uncertain"
+            ],
+            [
+              "cases/finance/odessa_wagon_sale.md",
+              "The Odessa wagon-sale request"
+            ]
+          ]
+        },
+        {
+          "title": "Allowances and currency redemption",
+          "text": "Allowance instructions and exchange correspondence concern the terms on which money could be paid or redeemed. The lei negotiations distinguish stamped from unstamped notes, while several numerical rate fields remain unresolved.",
+          "cases": [
+            [
+              "cases/finance/military_allowances.md",
+              "Military allowance instructions"
+            ],
+            [
+              "cases/finance/lei_note_exchange.md",
+              "Negotiations over stamped and unstamped lei notes"
+            ],
+            [
+              "cases/finance/ruble_rate_companions.md",
+              "Companion ruble-rate messages"
+            ]
+          ]
+        }
       ]
     },
     "radio": {
       "study": "voices-on-the-wireless.md",
-      "study_title": "Voices on the wireless",
+      "study_title": "Radio authority and personnel",
       "sections": [
-        {"title": "Keeping a shrinking network connected", "text": "Schedules, broken links and relay instructions show the communications system under strain. A request to repeat a message is also evidence of what its first reception failed to preserve.", "cases": [["cases/radio/nov3_eilvese_traffic_schedule.md", "The Eilvese listening schedule"], ["cases/radio/nov14_radio_retransmissions.md", "November 14 retransmissions"], ["cases/radio/nov9_wire_return_source_family.md", "The Odessa wire-connection report"]]},
-        {"title": "Keys, procedure and changing authority", "text": "Read key-reuse instructions beside command traffic: the network had to remain intelligible while its political and military surroundings changed.", "cases": [["cases/radio/nov6_tiflis_ringbahn_instruction.md", "The Tiflis Ringbahn instruction"], ["cases/radio/ringbahn_key_reuse.md", "Reusing the Ringbahn keys"], ["cases/radio/september_radio_procedure.md", "Radio procedure before the armistice"]]},
-        {"title": "People behind the call signs", "text": "A delayed departure, a supper query and the Seifert correspondence preserve the human scale of the wireless service.", "cases": [["cases/radio/seifert.md", "Seifert’s delayed departure"], ["cases/radio/nov14_15_departure_and_supper.md", "Departure and warm supper"]]}
+        {
+          "title": "Schedules, retransmission and wire connections",
+          "text": "Eilvese listening periods, repeated telegrams and the Odessa wire-connection report document the operation of the communications network. Parallel receptions preserve wording lost or damaged in individual copies.",
+          "cases": [
+            [
+              "cases/radio/nov3_eilvese_traffic_schedule.md",
+              "Eilvese listening and transmission periods"
+            ],
+            [
+              "cases/radio/nov14_radio_retransmissions.md",
+              "November 14 retransmissions"
+            ],
+            [
+              "cases/radio/nov9_wire_return_source_family.md",
+              "The Odessa wire-connection report"
+            ]
+          ]
+        },
+        {
+          "title": "Cipher instructions and service procedure",
+          "text": "The Tiflis instruction and Ringbahn key-reuse messages concern continued communication under specified cipher arrangements. September procedure messages provide an earlier record of radio-service practice.",
+          "cases": [
+            [
+              "cases/radio/nov6_tiflis_ringbahn_instruction.md",
+              "The Tiflis Ringbahn instruction"
+            ],
+            [
+              "cases/radio/ringbahn_key_reuse.md",
+              "Instructions to reuse Ringbahn keys"
+            ],
+            [
+              "cases/radio/september_radio_procedure.md",
+              "September radio-service procedure"
+            ]
+          ]
+        },
+        {
+          "title": "Vehicles, equipment and departures",
+          "text": "Vehicle and trailer requests, readiness orders and a reported truck departure accompany the Seifert station and personnel traffic. Postponements, arrival enquiries and meal preparations document distinct stages of departure. The [transport and demobilisation study](../../docs/historical-studies/transport-and-demobilisation.md) compares these records and their unresolved places and timings.",
+          "cases": [
+            [
+              "cases/context/transport.md",
+              "Trucks, trailers, readiness and the Hanau destination"
+            ],
+            [
+              "cases/radio/seifert.md",
+              "Station control and Seifert’s arrival and departure messages"
+            ],
+            [
+              "cases/radio/nov12_arrival_departure_and_car.md",
+              "November 12 arrival, departure and car enquiries"
+            ],
+            [
+              "cases/radio/nov14_15_departure_and_supper.md",
+              "Postponed departure, supper enquiry and farewell"
+            ]
+          ]
+        }
       ]
     },
     "people": {
       "study": "voices-on-the-wireless.md",
-      "study_title": "Voices on the wireless",
+      "study_title": "Radio authority and personnel",
       "sections": [
-        {"title": "Permission to leave, permission to stay", "text": "The end of the war appears here as a personal administrative problem: who may travel, who can be discharged and who may remain where they live.", "cases": [["cases/people/constantinople_civilians.md", "German civilians in Constantinople"], ["cases/people/kremp.md", "Kremp asks for a departure date"], ["cases/people/rudolf_discharge.md", "Rudolf’s discharge request"]]},
-        {"title": "An organization still moving its people", "text": "Appointments and transfers continue beside the withdrawal. Read them as evidence of the institutions and destinations named in the messages, without supplying identities the ciphertext cannot establish.", "cases": [["cases/people/breslau_staff_transfer.md", "A Breslau staff transfer"], ["cases/people/military_mission_recalls.md", "Recalling military-mission personnel"], ["cases/people/medical_return_to_unit.md", "A medical return to the unit"]]}
+        {
+          "title": "Civilian residence, travel and discharge",
+          "text": "The Constantinople civilian instructions, Kremp’s departure enquiry and Rudolf’s discharge request concern permission to remain, arrangements to travel and release from service. Each records a different administrative decision or request.",
+          "cases": [
+            [
+              "cases/people/constantinople_civilians.md",
+              "German civilians in Constantinople"
+            ],
+            [
+              "cases/people/kremp.md",
+              "Kremp’s request for a departure date"
+            ],
+            [
+              "cases/people/rudolf_discharge.md",
+              "Rudolf’s discharge request"
+            ]
+          ]
+        },
+        {
+          "title": "Transfers, recalls and return to units",
+          "text": "Staff transfers and military-mission recalls continued during withdrawal. These messages identify offices, destinations and service relationships; the medical return instruction concerns rejoining a unit.",
+          "cases": [
+            [
+              "cases/people/breslau_staff_transfer.md",
+              "The Breslau staff transfer"
+            ],
+            [
+              "cases/people/military_mission_recalls.md",
+              "Recalls of military-mission personnel"
+            ],
+            [
+              "cases/people/medical_return_to_unit.md",
+              "A medical return-to-unit instruction"
+            ]
+          ]
+        }
       ]
     },
     "caucasus": {
       "study": "black-sea-network.md",
-      "study_title": "The Black Sea network runs in reverse",
+      "study_title": "Black Sea shipping and disposal",
       "sections": [
-        {"title": "The mission before the withdrawal", "text": "October correspondence follows staffing, equipment and procurement around Tiflis. It provides the institutional background for the later evacuation traffic.", "cases": [["cases/caucasus/october_caucasus.md", "October correspondence with the Caucasus"], ["cases/caucasus/october_staffing.md", "Staffing the mission"], ["cases/caucasus/october_requests.md", "Routing, weather and supply requests"]]},
-        {"title": "Representation, cargo and departure", "text": "The Polish appointment, Poti traffic and later armistice material bring diplomatic representation and material withdrawal into the same regional frame.", "cases": [["cases/caucasus/tiflis_appointment.md", "Polish representation in Tiflis"], ["cases/caucasus/poti_first_part_conditional.md", "The damaged first part of the Poti message"], ["cases/caucasus/p212_p218_crosscopy.md", "An armistice notice across two receptions"]]}
+        {
+          "title": "Mission staffing, equipment and procurement",
+          "text": "October correspondence with the Caucasus concerns personnel, equipment, supplies and routing around Tiflis. These records describe the mission’s administrative work before the later withdrawal instructions.",
+          "cases": [
+            [
+              "cases/caucasus/october_caucasus.md",
+              "October correspondence with the Caucasus"
+            ],
+            [
+              "cases/caucasus/october_staffing.md",
+              "Mission staffing requests"
+            ],
+            [
+              "cases/caucasus/october_requests.md",
+              "Routing, weather and supply requests"
+            ]
+          ]
+        },
+        {
+          "title": "Representation, Poti traffic and withdrawal",
+          "text": "The Tiflis appointment concerns Polish representation. Separate Poti and armistice messages document transport-related communication and withdrawal instructions; their source editions retain damaged passages and differences between receptions.",
+          "cases": [
+            [
+              "cases/caucasus/tiflis_appointment.md",
+              "Polish representation in Tiflis"
+            ],
+            [
+              "cases/caucasus/poti_first_part_conditional.md",
+              "The damaged first part of the Poti message"
+            ],
+            [
+              "cases/caucasus/p212_p218_crosscopy.md",
+              "A withdrawal notice preserved in two receptions"
+            ]
+          ]
+        }
       ]
     }
   }

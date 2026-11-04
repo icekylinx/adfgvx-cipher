@@ -1,5 +1,14 @@
 # p215 B3 — Divisional positions and railway fragment
 
+The proposed clauses report reaching an area named by Gyula, Siklo and Kisjenoe, and departure along the Ruttka–Teschen railway section. The intervening divisional-staff field remains incomplete.
+
+**Complete edition by printed page:** [p. 215](../pages/215.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Recovery and review: icekylinx and GPT-6 Astra Pro, 4 November 2026.**
@@ -174,3 +183,6 @@ The recovery package preserves both frame models and complete global witnesses.
 ```sh
 python experiments/p215_third_positions_fragment/verify.py --verify
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

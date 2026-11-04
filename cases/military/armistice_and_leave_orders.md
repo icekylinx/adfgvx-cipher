@@ -1,5 +1,14 @@
 # Citadel surrender, local armistice terms and home leave
 
+The messages order the citadel to give up resistance, seek the armistice terms applying to Mackensen's front, and postpone discharge of Landsturm year groups because of transport difficulties. A further instruction concerns urgent home leave.
+
+**Complete edition by printed page:** [p. 179](../pages/179.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source editions: icekylinx and GPT-6 Astra Pro.**
@@ -211,3 +220,6 @@ python experiments/november_armistice_orders/verify.py --verify
 
 The optional `--pdf` check regenerates all source crops from the pinned scan
 and compares their pixels.
+
+</details>
+<!-- CASE-EDITION:END -->

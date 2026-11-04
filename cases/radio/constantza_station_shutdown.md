@@ -1,5 +1,14 @@
 # Conditional Constantza station-shutdown notice
 
+The message reports that the Constantza station has been taken out of operation. The transmitted shutdown time remains incomplete.
+
+**Complete edition by printed page:** [p. 112](../pages/112.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 **Status:** a readable conditional edition of p112 C. The enlarged
 [source](../../experiments/nov3_evening_and_nov4_radio/sources/p112_C_detail.png) · [Reading conventions](../../docs/reading-conventions.md)
 clearly advertises 122 coordinates but contains only 110. Its two short
@@ -66,3 +75,6 @@ OCR candidates are archived separately; no first historical decipherment is clai
 ```sh
 python experiments/nov3_evening_and_nov4_radio/verify.py --verify
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

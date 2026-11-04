@@ -1,5 +1,14 @@
 # Wire communications, return instructions and the Tiraspol continuation
 
+The message says the post written Ackermann should have been instructed to return from Braila, then refers to a Tiraspol post. Related receptions restore a large missing section while preserving their disagreements.
+
+**Complete edition by printed page:** [p. 162](../pages/162.md) · [p. 166](../pages/166.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source collation and edition: icekylinx and GPT-6 Astra Pro.**
@@ -258,3 +267,6 @@ and George Lasry's 2017 disclosure, as recorded in the unchanged key
 metadata. This is source restoration and explicit editorial collation by
 **icekylinx and GPT-6 Astra Pro**, with prior OCR and the earlier p162 C2
 edition preserved.
+
+</details>
+<!-- CASE-EDITION:END -->

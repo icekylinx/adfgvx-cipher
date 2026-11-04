@@ -1,5 +1,14 @@
 # Radio contact, operating times and an unavailable key
 
+Four separate service messages concern a broken wire connection, timed radio calls, embassy reception and the absence of an OSKACHI key. They show how operators arranged alternative routes and requested retransmission.
+
+**Complete edition by printed page:** [p. 100](../pages/100.md) · [p. 137](../pages/137.md) · [p. 142](../pages/142.md) · [p. 150](../pages/150.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -247,3 +256,6 @@ also published in George Lasry's [2017-02-24 comment 4](https://scienceblogs.de/
 Earlier unreviewed OCR-derived candidates existed. The bounded author-paper
 check found no explicit examples of these bodies; it does not establish
 universal first-decipherment priority.
+
+</details>
+<!-- CASE-EDITION:END -->

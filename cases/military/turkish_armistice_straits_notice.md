@@ -1,5 +1,14 @@
 # Turkish armistice and the Dardanelles–Bosporus notice
 
+The message reports that the Turkish armistice has opened the Dardanelles and Bosporus to the Entente. Its closing routing fields remain damaged.
+
+**Complete edition by printed page:** [p. 112](../pages/112.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** a native 230-slot source edition of p112 D, with six observed
@@ -52,3 +61,6 @@ OCR candidates are archived separately; no first historical decipherment is clai
 ```sh
 python experiments/nov3_evening_and_nov4_radio/verify.py --verify
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

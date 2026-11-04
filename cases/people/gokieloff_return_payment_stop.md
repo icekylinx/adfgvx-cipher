@@ -1,5 +1,14 @@
 # Gokieloff sent back to Georgia; instruction not to transmit money
 
+The proposed body says the person written Gokieloff was sent back to Georgia because of illness, with a transit permit from the military governor at the literal place CZENNTOCHAU. Both occurrences of the surname are already directly read. The corrected opening reads Zu dort PAT487 Leo; PAT487 remains an opaque reference, and the place spelling is not normalized or mapped to a modern location.
+
+**Complete edition by printed page:** [p. 136](../pages/136.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p136 A1
@@ -95,3 +104,6 @@ All indices are zero-based.
 The [input](../../experiments/gokieloff_return_payment_stop/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/gokieloff_return_payment_stop/certificates.json) contains the raw paired-coordinate domains, each source change and the forward checks. The [verifier](../../experiments/gokieloff_return_payment_stop/verify.py) checks the unchanged published keys and the live German quotations, retaining all numerical and letter labels.
 
 Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/gokieloff_return_payment_stop/prior_candidates.json).
+
+</details>
+<!-- CASE-EDITION:END -->

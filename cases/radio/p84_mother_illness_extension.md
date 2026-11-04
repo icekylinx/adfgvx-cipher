@@ -1,5 +1,14 @@
 # p84 C — Illness and a request to come
 
+A mother is seriously ill, and the recipient is asked to come. The field-post fragment supplies a plausible setting for a personal telegram.
+
+**Complete edition by printed page:** [p. 84](../pages/084.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Evidence and verifier](../../experiments/p84_mother_illness_fragment/README.md) · [Reading conventions](../../docs/reading-conventions.md)
 · [Earlier field-post fragment](p84_field_post_fragment.md)
 
@@ -141,3 +150,6 @@ declared crop pixels; no new image asset is required.
 Historical source: **J. Rives Childs**. Published key: **George Lasry, Ingo
 Niebel, Nils Kopal and Arno Wacker (2016)** and **Lasry's 2017 key list**.
 Earlier fragment and new lexical extension: **icekylinx and GPT-6 Astra Pro**.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # A parallel car enquiry with an explicit extra-coordinate model
 
+The conditional reading asks where the car is or why it has not arrived. KRAMM remains a literal closing label.
+
+**Complete edition by printed page:** [p. 183](../pages/183.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
@@ -104,3 +113,6 @@ The verifier independently reconstructs the native odd-length column map, checks
 python experiments/car_query_parallel_frame/verify.py --verify
 python experiments/car_query_parallel_frame/verify.py --verify --pdf /path/to/adfgvx-childs.pdf
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

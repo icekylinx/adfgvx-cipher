@@ -8,193 +8,193 @@ Jump to page: [p75](#p75) · [p76](#p76) · [p77](#p77) · [p78](#p78) · [p79](
 
 This range contains 64 sources, including 0 OPEN. [Reading states](../../../docs/reading-conventions.md#catalogue-states).
 
-## p75
+## [p75](../075.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p75 A3](../../radio/late_october_radio_service.md#p75-a3) | READING | Routing through the German station or separate lines |
-| [p75 B1](../../finance/caucasus_hide_purchasing.md#p75-b1) | READING | Meierkort hide-purchasing exclusivity and return of the signed contract |
-| [p75 B2](../../finance/caucasus_hide_purchasing.md#p75-b2) | READING | Expenses to be settled later; purchasing must not stop |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p75 A3](../075.md#source-p75-a3) | READING | Routing through the German station or separate lines | [Meaning](../../radio/late_october_radio_service.md) |
+| [p75 B1](../075.md#source-p75-b1) | READING | Meierkort hide-purchasing exclusivity and return of the signed contract | [Meaning](../../finance/caucasus_hide_purchasing.md) |
+| [p75 B2](../075.md#source-p75-b2) | READING | Expenses to be settled later; purchasing must not stop | [Meaning](../../finance/caucasus_hide_purchasing.md) |
 
-## p76
+## [p76](../076.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p76 A3](../../finance/caucasus_hide_purchasing.md#p76-a3) | CONDITIONAL | Departure for Kiew and report to Lederzentrale Magnus; separate handwritten layer |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p76 A3](../076.md#source-p76-a3) | CONDITIONAL | Departure for Kiew and report to Lederzentrale Magnus; separate handwritten layer | [Meaning](../../finance/caucasus_hide_purchasing.md) |
 
-## p77
+## [p77](../077.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p77 A](../../radio/tiflis_repetition_request.md#p77-a) | READING | Request to repeat an encrypted telegram to Tiflis |
-| [p77 B](../../context/radio_instructions.md#p77-b--call-sign-instruction-for-konia) | READING | Konia radio call sign and wavelengths |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p77 A](../077.md#source-p77-a) | READING | Request to repeat an encrypted telegram to Tiflis | [Meaning](../../radio/tiflis_repetition_request.md) |
+| [p77 B](../077.md#source-p77-b) | READING | Konia radio call sign and wavelengths | [Meaning](../../context/radio_instructions.md) |
 
-## p78
+## [p78](../078.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p78 A1](../../finance/premium_payment_stop.md#p78-a1) | READING | Stop premium payments from Landesmitteln at the end of October18 |
-| [p78 A2](../../finance/premium_payment_stop.md#p78-a2) | READING | Notify all subordinate offices of the payment stop |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p78 A1](../078.md#source-p78-a1) | READING | Stop premium payments from Landesmitteln at the end of October18 | [Meaning](../../finance/premium_payment_stop.md) |
+| [p78 A2](../078.md#source-p78-a2) | READING | Notify all subordinate offices of the payment stop | [Meaning](../../finance/premium_payment_stop.md) |
 
-## p79
+## [p79](../079.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p79 A1](../../military/palestine_medical_dissolution.md) | READING | Field hospitals and medical companies lost in Palestine except portions of personnel |
-| [p79 A2](../../military/palestine_medical_dissolution.md) | READING | Dissolution and return to replacement units; exact336-coordinate duplicate of p83 B |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p79 A1](../079.md#source-p79-a1) | READING | Field hospitals and medical companies lost in Palestine except portions of personnel | [Meaning](../../military/palestine_medical_dissolution.md) |
+| [p79 A2](../079.md#source-p79-a2) | READING | Dissolution and return to replacement units; exact336-coordinate duplicate of p83 B | [Meaning](../../military/palestine_medical_dissolution.md) |
 
-## p80
+## [p80](../080.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p80 A](../../finance/deutzitag_dispatch_inquiries.md#p80-a) | READING | DEUTZITAG asks about purchase dispatches and onward transport |
-| [p80 B1](../../radio/constanza_radio_connections.md#p80-b1) | READING | Constanza naval department reference and telegram-routing introduction |
-| [p80 B2](../../radio/constanza_radio_connections.md#p80-b2) | READING | German-line routing to Bucharest or Braila and naval-station connection |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p80 A](../080.md#source-p80-a) | READING | DEUTZITAG asks about purchase dispatches and onward transport | [Meaning](../../finance/deutzitag_dispatch_inquiries.md) |
+| [p80 B1](../080.md#source-p80-b1) | READING | Constanza naval department reference and telegram-routing introduction | [Meaning](../../radio/constanza_radio_connections.md) |
+| [p80 B2](../080.md#source-p80-b2) | READING | German-line routing to Bucharest or Braila and naval-station connection | [Meaning](../../radio/constanza_radio_connections.md) |
 
-## p81
+## [p81](../081.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p81 A](../../finance/deutzitag_dispatch_inquiries.md#p81-a) | READING | DEUTZITAG asks about purchase dispatches and onward transport |
-| [p81 B](../../caucasus/tiflis_pioneer_detachment.md#p81-b) | READING | Groener permits a pioneer detachment to remain in Tiflis |
-| [p81 C](../../finance/deutzitag_dispatch_inquiries.md#p81-c) | READING | DEUTZITAG asks about purchase dispatches and onward transport |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p81 A](../081.md#source-p81-a) | READING | DEUTZITAG asks about purchase dispatches and onward transport | [Meaning](../../finance/deutzitag_dispatch_inquiries.md) |
+| [p81 B](../081.md#source-p81-b) | READING | Groener permits a pioneer detachment to remain in Tiflis | [Meaning](../../caucasus/tiflis_pioneer_detachment.md) |
+| [p81 C](../081.md#source-p81-c) | READING | DEUTZITAG asks about purchase dispatches and onward transport | [Meaning](../../finance/deutzitag_dispatch_inquiries.md) |
 
-## p82
+## [p82](../082.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p82 A1](../../radio/constanza_radio_connections.md#p82-a1) | READING | Constanza naval department reference and telegram-routing introduction |
-| [p82 A2](../../radio/constanza_radio_connections.md#p82-a2) | READING | German-line routing to Bucharest or Braila and naval-station connection |
-| [p82 A3](../../radio/constanza_radio_connections.md#p82-a3) | READING | Main and naval-department telephone exchange connections |
-| [p82 A4](../../radio/constanza_radio_connections.md#p82-a4) | READING | Communication through the exchanges with all telephone points |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p82 A1](../082.md#source-p82-a1) | READING | Constanza naval department reference and telegram-routing introduction | [Meaning](../../radio/constanza_radio_connections.md) |
+| [p82 A2](../082.md#source-p82-a2) | READING | German-line routing to Bucharest or Braila and naval-station connection | [Meaning](../../radio/constanza_radio_connections.md) |
+| [p82 A3](../082.md#source-p82-a3) | READING | Main and naval-department telephone exchange connections | [Meaning](../../radio/constanza_radio_connections.md) |
+| [p82 A4](../082.md#source-p82-a4) | READING | Communication through the exchanges with all telephone points | [Meaning](../../radio/constanza_radio_connections.md) |
 
-## p83
+## [p83](../083.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p83 A](../../naval/gerlach_oil_release_query.md#p83-a) | READING | Gerlach oil-release inquiry: the overprinted parallel |
-| [p83 B](../../military/formation_dissolution.md) | READING | Dissolution of unnamed formations and return of remaining personnel to home replacement units |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p83 A](../083.md#source-p83-a) | READING | Gerlach oil-release inquiry: the overprinted parallel | [Meaning](../../naval/gerlach_oil_release_query.md) |
+| [p83 B](../083.md#source-p83-b) | READING | Dissolution of unnamed formations and return of remaining personnel to home replacement units | [Meaning](../../military/formation_dissolution.md) |
 
-## p84
+## [p84](../084.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p84 A](../../naval/p84_AB.md) | READING | Ask whether Izzet Pasha's order to release oil succeeded |
-| [p84 B](../../naval/p84_AB.md) | READING | Request daily Black Sea shipping-safety reports for the Caucasus command |
-| [p84 C](../../radio/p84_mother_illness_extension.md) | CONDITIONAL | Field post, illness and a conditional request to come |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p84 A](../084.md#source-p84-a) | READING | Ask whether Izzet Pasha's order to release oil succeeded | [Meaning](../../naval/p84_AB.md) |
+| [p84 B](../084.md#source-p84-b) | READING | Request daily Black Sea shipping-safety reports for the Caucasus command | [Meaning](../../naval/p84_AB.md) |
+| [p84 C](../084.md#source-p84-c) | CONDITIONAL | Field post, illness and a conditional request to come | [Meaning](../../radio/p84_mother_illness_extension.md) |
 
-## p85
+## [p85](../085.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p85 A1](../../caucasus/sevastopol_supply_dispatch.md#p85-a1) | READING | Food dispatch from Sevastopol to the Caucasus delegation |
-| [p85 B](../../radio/p85_B.md) | READING | Telephone censorship through Budapest |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p85 A1](../085.md#source-p85-a1) | READING | Food dispatch from Sevastopol to the Caucasus delegation | [Meaning](../../caucasus/sevastopol_supply_dispatch.md) |
+| [p85 B](../085.md#source-p85-b) | READING | Telephone censorship through Budapest | [Meaning](../../radio/p85_B.md) |
 
-## p86
+## [p86](../086.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p86 A](../../military/mg08_inventory.md) | READING | Inventory query for German MG08 with tripod mounts; asks quantity and caliber |
-| [p86 B2](../../caucasus/falkenhausen_followup_fragment.md#p86-b2) | READING | Falkenhausen followup: a surviving second-part ending |
-| [p86 C1](../../military/oct31_turkish_armistice_notice.md#p86-c1) | READING | A telegram reports the Turkish armistice, with terms still unknown |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p86 A](../086.md#source-p86-a) | READING | Inventory query for German MG08 with tripod mounts; asks quantity and caliber | [Meaning](../../military/mg08_inventory.md) |
+| [p86 B2](../086.md#source-p86-b2) | READING | Falkenhausen followup: a surviving second-part ending | [Meaning](../../caucasus/falkenhausen_followup_fragment.md) |
+| [p86 C1](../086.md#source-p86-c1) | READING | A telegram reports the Turkish armistice, with terms still unknown | [Meaning](../../military/oct31_turkish_armistice_notice.md) |
 
-## p87
+## [p87](../087.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p87 A1](../../radio/transmitter_dispatch_220_volts.md#p87-a1) | READING | Transmitter dispatch and a 220-volt converter motor |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p87 A1](../087.md#source-p87-a1) | READING | Transmitter dispatch and a 220-volt converter motor | [Meaning](../../radio/transmitter_dispatch_220_volts.md) |
 
-## p88
+## [p88](../088.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p88 A1](../../caucasus/caucasus_radio_transmitters.md#p88-a1) | PARTIAL | Caucasus delegation and 800-watt transmitter transport to Berlin |
-| [p88 A2](../../caucasus/caucasus_radio_transmitters.md#p88-a2) | READING | General von Kress and 1500-watt tube transmitter |
-| [p88 B](../../radio/uks_direct_or_osm_relay.md#p88-b) | READING | Expected heavier traffic: direct UKS connection or OSM relay |
-| [p88 C1](../../military/black_sea_evacuation_routes.md#p88-c1) | READING | Evacuation destinations: Siegfried to Konstanza and other traffic to Odessa |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p88 A1](../088.md#source-p88-a1) | PARTIAL | Caucasus delegation and 800-watt transmitter transport to Berlin | [Meaning](../../caucasus/caucasus_radio_transmitters.md) |
+| [p88 A2](../088.md#source-p88-a2) | READING | General von Kress and 1500-watt tube transmitter | [Meaning](../../caucasus/caucasus_radio_transmitters.md) |
+| [p88 B](../088.md#source-p88-b) | READING | Expected heavier traffic: direct UKS connection or OSM relay | [Meaning](../../radio/uks_direct_or_osm_relay.md) |
+| [p88 C1](../088.md#source-p88-c1) | READING | Evacuation destinations: Siegfried to Konstanza and other traffic to Odessa | [Meaning](../../military/black_sea_evacuation_routes.md) |
 
-## p89
+## [p89](../089.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p89 A2](../../supplementary/p89_A2.md) | CONDITIONAL | Shipping and railway routing to Nikolayev |
-| [p89 A3](../../military/black_sea_evacuation_routes.md#p89-a3) | CONDITIONAL | Braila traffic, whole trains and a conditional guard-battalion destination |
-| [p89 A4](../../military/black_sea_evacuation_routes.md#p89-a4) | READING | Civilian destination Berlin and advance notice for onward movement |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p89 A2](../089.md#source-p89-a2) | CONDITIONAL | Shipping and railway routing to Nikolayev | [Meaning](../../supplementary/p89_A2.md) |
+| [p89 A3](../089.md#source-p89-a3) | CONDITIONAL | Braila traffic, whole trains and a conditional guard-battalion destination | [Meaning](../../military/black_sea_evacuation_routes.md) |
+| [p89 A4](../089.md#source-p89-a4) | READING | Civilian destination Berlin and advance notice for onward movement | [Meaning](../../military/black_sea_evacuation_routes.md) |
 
-## p90
+## [p90](../090.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p90 A5](../../military/black_sea_evacuation_routes.md#p90-a5) | READING | Distribution list for the five-part evacuation routing order |
-| [p90 B1](../../military/turkish_armistice_shipping_order.md#p90-b1) | READING | Intercepted Turkish armistice report and free Straits passage |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p90 A5](../090.md#source-p90-a5) | READING | Distribution list for the five-part evacuation routing order | [Meaning](../../military/black_sea_evacuation_routes.md) |
+| [p90 B1](../090.md#source-p90-b1) | READING | Intercepted Turkish armistice report and free Straits passage | [Meaning](../../military/turkish_armistice_shipping_order.md) |
 
-## p91
+## [p91](../091.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p91 A2](../../military/turkish_armistice_shipping_order.md#p91-a2) | READING | Stop material shipments to Turkey and send empty ships for evacuation |
-| [p91 A3](../../military/turkish_armistice_shipping_order.md#p91-a3) | READING | Distribution and reference for the Turkish shipping order |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p91 A2](../091.md#source-p91-a2) | READING | Stop material shipments to Turkey and send empty ships for evacuation | [Meaning](../../military/turkish_armistice_shipping_order.md) |
+| [p91 A3](../091.md#source-p91-a3) | READING | Distribution and reference for the Turkish shipping order | [Meaning](../../military/turkish_armistice_shipping_order.md) |
 
-## p92
+## [p92](../092.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p92 A](../../people/p92_A.md) | READING | Dutch courier Vreede to travel via Braila to Constantinople |
-| [p92 B1](../../military/orient_intelligence.md#p92-b1) | READING | Correction to an earlier Orient intelligence note |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p92 A](../092.md#source-p92-a) | READING | Dutch courier Vreede to travel via Braila to Constantinople | [Meaning](../../people/p92_A.md) |
+| [p92 B1](../092.md#source-p92-b1) | READING | Correction to an earlier Orient intelligence note | [Meaning](../../military/orient_intelligence.md) |
 
-## p93
+## [p93](../093.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p93 A2](../../military/orient_intelligence.md#p93-a2) | READING | Presentation notes and expected landing at Alexandretta |
-| [p93 A3](../../military/orient_intelligence.md#p93-a3) | READING | Reported convoy and ship observations near Alexandretta |
-| [p93 A4](../../military/orient_intelligence.md#p93-a4) | READING | Assessment of possible imminent landing attempts |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p93 A2](../093.md#source-p93-a2) | READING | Presentation notes and expected landing at Alexandretta | [Meaning](../../military/orient_intelligence.md) |
+| [p93 A3](../093.md#source-p93-a3) | READING | Reported convoy and ship observations near Alexandretta | [Meaning](../../military/orient_intelligence.md) |
+| [p93 A4](../093.md#source-p93-a4) | READING | Assessment of possible imminent landing attempts | [Meaning](../../military/orient_intelligence.md) |
 
-## p94
+## [p94](../094.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p94 A5](../../military/orient_intelligence.md#p94-a5) | READING | Alexandretta assessment and English report from the Tigris |
-| [p94 A6](../../military/orient_intelligence.md#p94-a6) | READING | Reported fighting and alleged British cavalry action |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p94 A5](../094.md#source-p94-a5) | READING | Alexandretta assessment and English report from the Tigris | [Meaning](../../military/orient_intelligence.md) |
+| [p94 A6](../094.md#source-p94-a6) | READING | Reported fighting and alleged British cavalry action | [Meaning](../../military/orient_intelligence.md) |
 
-## p95
+## [p95](../095.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p95 A1](../../people/dunst_assignment.md#p95-a1) | CONDITIONAL | Major Dunst assignment cancellation: order and earlier posting date |
-| [p95 A2](../../people/dunst_assignment.md#p95-a2) | READING | Turkey and military-mission assignment cancelled; mission to be informed |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p95 A1](../095.md#source-p95-a1) | CONDITIONAL | Major Dunst assignment cancellation: order and earlier posting date | [Meaning](../../people/dunst_assignment.md) |
+| [p95 A2](../095.md#source-p95-a2) | READING | Turkey and military-mission assignment cancelled; mission to be informed | [Meaning](../../people/dunst_assignment.md) |
 
-## p96
+## [p96](../096.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p96 A](../../finance/zitag_full_stop_order.md#p96-a) | READING | A complete ZITAG stop order with reporting instruction and literal footer |
-| [p96 B](../../people/p96_B.md) | PARTIAL | Entry permission for Filittis and family |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p96 A](../096.md#source-p96-a) | READING | A complete ZITAG stop order with reporting instruction and literal footer | [Meaning](../../finance/zitag_full_stop_order.md) |
+| [p96 B](../096.md#source-p96-b) | PARTIAL | Entry permission for Filittis and family | [Meaning](../../people/p96_B.md) |
 
-## p97
+## [p97](../097.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p97 A](../../radio/hungary_connection_and_supplies.md#p97-a) | READING | Immediate repetition of the indicated CHI telegram and literal reference fields |
-| [p97 B](../../radio/hungary_connection_and_supplies.md#p97-b) | READING | Connection through Hungary disrupted; telegrams sent by wireless until further notice |
-| [p97 C](../../radio/hungary_connection_and_supplies.md#p97-c) | READING | Reference to tubes and oil, with further information on a second point |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p97 A](../097.md#source-p97-a) | READING | Immediate repetition of the indicated CHI telegram and literal reference fields | [Meaning](../../radio/hungary_connection_and_supplies.md) |
+| [p97 B](../097.md#source-p97-b) | READING | Connection through Hungary disrupted; telegrams sent by wireless until further notice | [Meaning](../../radio/hungary_connection_and_supplies.md) |
+| [p97 C](../097.md#source-p97-c) | READING | Reference to tubes and oil, with further information on a second point | [Meaning](../../radio/hungary_connection_and_supplies.md) |
 
-## p98
+## [p98](../098.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p98 A1](../../military/black_sea_disembarkation.md) | READING | Siegfried troops to disembark at Odessa instead of Constanza |
-| [p98 A2](../../military/black_sea_disembarkation.md) | READING | Shipping from KOSPOLI to Odessa or raw NIKILJEW |
-| [p98 B](../../military/black_sea_disembarkation.md) | READING | Repeated shipping instruction with raw NIKOLAJEW |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p98 A1](../098.md#source-p98-a1) | READING | Siegfried troops to disembark at Odessa instead of Constanza | [Meaning](../../military/black_sea_disembarkation.md) |
+| [p98 A2](../098.md#source-p98-a2) | READING | Shipping from KOSPOLI to Odessa or raw NIKILJEW | [Meaning](../../military/black_sea_disembarkation.md) |
+| [p98 B](../098.md#source-p98-b) | READING | Repeated shipping instruction with raw NIKOLAJEW | [Meaning](../../military/black_sea_disembarkation.md) |
 
-## p99
+## [p99](../099.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p99 A](../../radio/nov1_contact_and_mail.md#p99-a-requested-contact-times-and-a-damaged-ringbahn-phrase) | CONDITIONAL | Contact-time proposal between Ringbahn periods under explicit one-coordinate-loss geometry |
-| [p99 B1](../../military/sava_crossing_evening_report.md#p99-b1) | READING | Evening report: Sava crossed by 30 I.D. main elements and G.K. 39 |
-| [p99 C1](../../radio/nov1_contact_and_mail.md#p99-c1-service-mail-routed-through-gleiwitz) | READING | Service mail for A.O.K. Elf directed to the Gleiwitz garrison command |
-| [p99 C2](../../radio/nov1_contact_and_mail.md#p99-c2-collection-by-aircraft) | READING | Collection of service mail by aircraft; literal reference 7011 |
-| [p99 D](../../radio/nov1_contact_and_mail.md#p99-d-acknowledgment-of-an-ohl-message) | READING | Receipt acknowledgment to O.H.L.; literal reference 11127 and E.O.K. 11 |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p99 A](../099.md#source-p99-a) | CONDITIONAL | Contact-time proposal between Ringbahn periods under explicit one-coordinate-loss geometry | [Meaning](../../radio/nov1_contact_and_mail.md) |
+| [p99 B1](../099.md#source-p99-b1) | READING | Evening report: Sava crossed by 30 I.D. main elements and G.K. 39 | [Meaning](../../military/sava_crossing_evening_report.md) |
+| [p99 C1](../099.md#source-p99-c1) | READING | Service mail for A.O.K. Elf directed to the Gleiwitz garrison command | [Meaning](../../radio/nov1_contact_and_mail.md) |
+| [p99 C2](../099.md#source-p99-c2) | READING | Collection of service mail by aircraft; literal reference 7011 | [Meaning](../../radio/nov1_contact_and_mail.md) |
+| [p99 D](../099.md#source-p99-d) | READING | Receipt acknowledgment to O.H.L.; literal reference 11127 and E.O.K. 11 | [Meaning](../../radio/nov1_contact_and_mail.md) |
 
 [Return to all source pages](../README.md).

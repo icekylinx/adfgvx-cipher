@@ -1,5 +1,14 @@
 # September 19: pigeons and Army Group East command arrangements
 
+The record concerns a telegraphed dispatch destination and the transfer of pigeons. Its literal 150, ANI, ROEM3, 8S86 and final WIRD remain uninterpreted where the syntax or reference is uncertain; no omitted letter or historical number is silently supplied.
+
+**Complete edition by printed page:** [p. 56](../pages/056.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
@@ -152,3 +161,6 @@ python experiments/september19_pigeons_and_command/verify.py --verify --pdf /pat
 The verifier retains every native source slot, recomputes all coordinate pairs and repair costs, binds the complete readable displays, and checks re-encryption. The optional PDF check reproduces the exact crop pixels. The alternative G glyph is an evidence alternative, not another source record.
 
 Historical Sep19-21 key: Childs, printed p236; published key and cryptanalytic work: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Source transcription, edition and explicit repair accounting: icekylinx and GPT-6 Astra Pro. This source edition makes no universal first-decipherment claim.
+
+</details>
+<!-- CASE-EDITION:END -->

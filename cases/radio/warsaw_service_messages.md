@@ -1,5 +1,14 @@
 # Warsaw control markers and radio forwarding instructions
 
+The messages request commercial news from Bucharest, define LP forwarding duties, discuss Army Group Kiev’s march route, and distinguish the FRANZ and EMIL markers used for Warsaw traffic.
+
+**Complete edition by printed page:** [p. 192](../pages/192.md) · [p. 194](../pages/194.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **ADFGVX Cipher — icekylinx and GPT-6 Astra Pro**
@@ -202,3 +211,6 @@ The shared VG=2 interpretation adds **two** reference digits, reaching
 [shared-traffic certificate](../../experiments/nov13_joint_completion/traffic_certificates.json).
 The remaining reference symbols, the published `0` and `5`, and the
 inconsistent source dates are retained.
+
+</details>
+<!-- CASE-EDITION:END -->

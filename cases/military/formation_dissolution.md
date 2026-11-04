@@ -1,5 +1,14 @@
 # p83 B — dissolution of formations and return of personnel
 
+The telegram says a request has been made to declare the formations dissolved, and orders their remaining personnel to proceed to replacement units at home.
+
+**Complete edition by printed page:** [p. 83](../pages/083.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Complete direct source reading, with no coordinate repairs. This page prints the second part of a message. Subsequent review of an exact p79 second-part witness supplies its first-part context; see the linked source edition below.
@@ -38,3 +47,6 @@ The literal source, analysis frame and re-encrypted reading all have336 coordina
 [The certificate](../../experiments/formation_dissolution/certificates.json) records source-coordinate pairs, the complete digit/J/Q/Y inventory and a round trip. The verifier can regenerate the delivered source crop from the pinned full PDF. The bounded prior-publication check found no explicit discussion of this particular body in the author paper or cached complete2017 article comments; that check is not a universal priority search.
 
 Run instructions and source provenance are in [the experiment README](../../experiments/formation_dissolution/README.md).
+
+</details>
+<!-- CASE-EDITION:END -->

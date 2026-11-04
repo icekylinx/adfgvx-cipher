@@ -1,5 +1,14 @@
 # Turkish armistice report: stop supply shipments and send evacuation ships
 
+The message reports news from an intercepted radio transmission, then gives shipping instructions.
+
+**Complete edition by printed page:** [p. 90](../pages/090.md) · [p. 91](../pages/091.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -147,3 +156,6 @@ first-solution claim is made. The
 [certificates](../../experiments/turkish_armistice_shipping_order/certificates.json)
 and [reproduction instructions](../../experiments/turkish_armistice_shipping_order/README.md)
 preserve the complete source, edited coordinates and limits.
+
+</details>
+<!-- CASE-EDITION:END -->

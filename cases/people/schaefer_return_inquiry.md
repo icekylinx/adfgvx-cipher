@@ -1,5 +1,14 @@
 # Braila inquiry about dragoman Schaefer's return from leave
 
+The Foreign Office asks whether Dragoman Schaefer's return, as his leave nears its end, is feasible, desirable and expedient. A reply by telegram is requested.
+
+**Complete edition by printed page:** [p. 107](../pages/107.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -105,3 +114,6 @@ re-encryption, with published key credit retained. It makes no historical
 first-solution claim. See the [inputs](../../experiments/p107_railway_and_dragoman/inputs.json),
 [certificates](../../experiments/p107_railway_and_dragoman/certificates.json)
 and [reproduction instructions](../../experiments/p107_railway_and_dragoman/README.md).
+
+</details>
+<!-- CASE-EDITION:END -->

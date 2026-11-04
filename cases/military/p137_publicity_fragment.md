@@ -1,5 +1,14 @@
 # p137 A6 — Conditional publicity fragment in an interference-damaged report
 
+Only fragments about “the public” and something that is to “remain” can be proposed. The damaged clause does not establish whether information was to be withheld, disclosed or kept available.
+
+**Complete edition by printed page:** [p. 137](../pages/137.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and conditional reconstruction: icekylinx and GPT-6 Astra Pro.**
@@ -158,3 +167,6 @@ Cipher System*, printed p137 / PDF p140. The period key and prior cryptanalysis
 retain their attribution to George Lasry, Ingo Niebel, Nils Kopal and Arno
 Wacker. The new conditional fragment, counterexamples and source audit are
 by **icekylinx and GPT-6 Astra Pro**.
+
+</details>
+<!-- CASE-EDITION:END -->

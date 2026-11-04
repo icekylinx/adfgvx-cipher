@@ -1,5 +1,14 @@
 # Military-intendant addresses and responsibilities
 
+The message assigns the Generalintendant at `GRHQU` all supply matters insofar as they concern transport and delivery.
+
+**Complete edition by printed page:** [p. 202](../pages/202.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
@@ -240,3 +249,6 @@ and catalog check; this does not establish universal historical priority.
 ```sh
 python experiments/military_intendant_remit/verify.py --verify
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

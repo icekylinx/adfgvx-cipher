@@ -1,5 +1,14 @@
 # Order to stop premium payments and inform subordinate offices
 
+All premium payments from local funds are to stop at the end of October 1918. The continuation orders immediate notification of every subordinate office.
+
+**Complete edition by printed page:** [p. 78](../pages/078.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -76,3 +85,6 @@ key credit retained. It makes no historical first-solution claim. See
 [inputs](../../experiments/premium_payment_stop/inputs.json),
 [certificates](../../experiments/premium_payment_stop/certificates.json)
 and [reproduction instructions](../../experiments/premium_payment_stop/README.md).
+
+</details>
+<!-- CASE-EDITION:END -->

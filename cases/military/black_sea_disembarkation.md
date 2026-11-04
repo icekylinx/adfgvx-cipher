@@ -1,5 +1,14 @@
 # p98 — disembarkation at Odessa and a repeated shipping instruction
 
+The cited instruction is to be amended so that the Siegfried troops, too, are to disembark at Odessa instead of Constanza.
+
+**Complete edition by printed page:** [p. 98](../pages/098.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Three complete source transcriptions and readable editions. The two versions of part 2 retain their separate lengths and place spellings. No missing-coordinate model is imposed.
@@ -94,3 +103,6 @@ The certificate identifies all four A2/B cross-supported letters by plaintext in
 The published key and column ranks remain unchanged. There are **no fills, coordinate additions, deletions, reorders or new numeral assignments**. A2 and B retain their264/266-coordinate frames; no forced common message, restored extra `N`, or added letter in the shorter place spelling is claimed.
 
 Complete source rows, raw and edited round trips, repair ledgers and retained numerical labels are in [the certificate](../../experiments/black_sea_disembarkation/certificates.json). [The experiment README](../../experiments/black_sea_disembarkation/README.md) documents reproduction and PDF crop authentication.
+
+</details>
+<!-- CASE-EDITION:END -->

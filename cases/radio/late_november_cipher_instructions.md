@@ -1,5 +1,14 @@
 # Late-November cipher and routing instructions — p225–228
 
+UKS reports that December tables have not arrived and requests reciprocal use of the material labelled `NSL NOV` from 1 December.
+
+**Complete edition by printed page:** [p. 225](../pages/225.md) · [p. 226](../pages/226.md) · [p. 227](../pages/227.md) · [p. 228](../pages/228.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source reading and verification: icekylinx and GPT-6 Astra Pro. Published period keys: George Lasry and collaborators.**
@@ -138,3 +147,6 @@ p227 C, headed `BSL v UKS`, `2316 (11/28) K. M. BERLIN`, says that parts 3 and 4
 ```sh
 python experiments/corpus_extension/verify.py --verify
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

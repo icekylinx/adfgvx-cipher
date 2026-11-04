@@ -4,26 +4,41 @@
 
 Each source has one catalogue entry. A case may bring together several
 transmissions or successive parts of a message, but their source identifiers
-remain separate. The German reading is the centre of the page; the evidence
-explains how we obtained it.
+remain separate. The edition has two principal parts:
+
+| Part | Purpose |
+|---|---|
+| [Ciphertext pages](../cases/pages/README.md) | A dedicated Markdown edition for every printed page: its sources, German readings, English interpretations, explanations and evidence. Every page number in the home-page table opens that page directly. |
+| [Historical research](historical-studies/README.md) | Studies organized around historical questions, supported by the source editions, a dated chronology and comparisons with contemporary records. |
 
 ## Page format
 
-A case opens with its subject, source and present result. It then gives the
-readable German and an English translation or account of its meaning. A short
-historical discussion explains what the message contributes: a decision, a
-reported event, a material constraint or an individual experience.
+Each printed-page edition begins with its source table. **Reading** jumps to
+the detailed source section; **Case** opens the short account of the message.
+The complete page presents readable German, English interpretation,
+reconstruction arguments and source evidence. A shared edition names the
+companion receptions from other pages so that a cross-copy argument remains
+intelligible.
 
-Raw decoded streams, proposed exact strings and literal transcriptions sit in
-expandable evidence blocks. The local text states any assumption that changes
-the reading. Source links, the repair account, earlier attribution and a
-reproduction command follow. A short, complete telegram does not need four
-versions of the same text or four headings to explain it.
+Raw decoded streams and literal transcriptions are expandable within the
+full edition. The local passage states any assumption that affects its
+reading. Attribution and source comparisons stay with the text. Existing
+case files preserve the full source body and earlier section citations,
+with a short English account at the top.
 
-Multipart cases use one section per source part or coherent passage. Repeated
-receptions may share a reading, with their differences in a comparison table.
-Do not copy the same explanation into every part. Keep published anchors when
-moving a section so that earlier citations still work.
+## Historical studies
+
+Organize a study around a historical question and the relationship between
+its sources. Quote the relevant passage, explain what it contributes, and
+link the complete numbered page. Keep orders, requests, reported actions
+and externally documented events distinct. Give an event or origin date
+separately from a reception date when the distinction affects the sequence.
+
+Use references, repeated wording and multipart joins to establish connections
+between messages. Contemporary maps, diaries, registers and documents may
+corroborate a location, movement or textual variant; explain the specific
+relationship. Thematic classification may connect sources from different
+parts of the archive without changing their catalogue identities.
 
 ## Catalogue states
 
@@ -125,12 +140,21 @@ event. Those distinctions belong beside the affected passage, once.
 ## Verification
 
 The [current structure check](../data/reviews/check_reading_presentation.py)
-checks page titles, convention links, evidence labels and expandable blocks.
+checks case titles, convention links, evidence labels and expandable blocks.
+The page-edition check verifies coverage of every catalogue source, page
+assignment, section anchors, local links and evidence drawers. Concise case
+views preserve the complete source body when regenerated.
 Live readable mappings compare ordered German labels with decoded streams;
 source packages separately replay the cipher, repairs and image provenance.
-Old prose snapshots are not a publication requirement.
+
+After editing an edition or its English summary, follow the
+[regeneration sequence](repository-map.md#maintain-the-edition), then run:
 
 ```sh
+python -m adfgvx.case_views --check
+python -m adfgvx.catalog --check
+python -m adfgvx.navigation --check
+python -m adfgvx.page_editions --check
 python data/reviews/check_reading_presentation.py
 python data/reviews/verify_live_readable_mappings.py
 python -m adfgvx.verify

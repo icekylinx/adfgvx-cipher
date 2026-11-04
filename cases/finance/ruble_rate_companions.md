@@ -1,5 +1,14 @@
 # Ruble prices and payments above par: companions to p171 A1
 
+The report gives prices of 140 marks for 100 Tsar rubles in Kiev and up to 190 marks in Warsaw. Its continuation recommends allowing more than par for the instruments designated BONS if necessary.
+
+**Complete edition by printed page:** [p. 171](../pages/171.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Companion source editions: icekylinx and GPT-6 Astra Pro.**
@@ -178,3 +187,6 @@ python experiments/ruble_rate_companions/verify.py --verify
 
 With `--pdf`, the verifier additionally checks the pinned source PDF and
 regenerates all delivered crop pixels.
+
+</details>
+<!-- CASE-EDITION:END -->

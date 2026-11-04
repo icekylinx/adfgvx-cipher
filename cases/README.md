@@ -1,11 +1,8 @@
-# Read the messages
+# Ciphertext source index
 
-[ADFGVX Cipher](../README.md) · [Historical showcase](../docs/historical-showcase.md) · [Open problems](open/README.md) · [Sources](../sources/README.md)
+[ADFGVX Cipher](../README.md) · [Full page editions](pages/README.md) · [Historical research](../docs/historical-studies/README.md) · [Sources](../sources/README.md)
 
-Start with the original challenge cases below, follow a subject through the
-topic guides, or find a telegram in the [printed-page index](pages/README.md).
-The [historical studies](../docs/historical-studies/README.md) draw these
-individual records into accounts of withdrawal, shipping, finance and daily life.
+This index locates individual sources, original challenges and related receptions. For a complete printed page, open its numbered edition; for the historical arguments and dated sequences, use the research guide.
 
 <!-- TOPIC-NAVIGATION:START -->
 ## The original 22 challenges
@@ -56,15 +53,16 @@ The wider collection is organized into six subjects, each with selected readings
 <!-- READING-CATALOG:START -->
 ## Find a source by page
 
-The [complete page index](pages/README.md) follows the printed Childs volume, from page 56 to page 230. Each entry links to the reading, source image and evidence for that physical message.
+The [175 full page editions](pages/README.md) follow the printed Childs volume, from page 56 to page 230, with German readings, English meanings, source explanations and evidence.
 
 <!-- READING-CATALOG:END -->
 
-## How to read a case
+<a id="how-to-read-a-case"></a>
 
-Each case presents the German reading, its English meaning and the source
-evidence, with earlier decipherments credited beside our additions. Open the
-evidence panels for exact ciphertext, decoded labels and repairs. The
-[reading conventions](../docs/reading-conventions.md) explain the notation;
-the [catalogue data](../data/reading_catalog.json) records the source, state
-and attribution of every entry.
+## The individual source accounts
+
+Individual case files give a short English meaning and links to their printed
+pages. Their complete source accounts remain expandable, including older
+section links, exact readings and reconstruction evidence. The numbered page
+editions collect those accounts by physical source page. The
+[reading conventions](../docs/reading-conventions.md) explain the notation.

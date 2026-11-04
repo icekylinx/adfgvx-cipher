@@ -1,5 +1,14 @@
 # Evening report on crossing the Sava
 
+This is an evening report to `O.H.L.`. It says that `30 I.D.` has crossed the Sava with its main elements and that `G.K. 39` has crossed completely.
+
+**Complete edition by printed page:** [p. 99](../pages/099.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
@@ -67,3 +76,6 @@ Nils Kopal and Arno Wacker**. The source and arithmetic review is by
 **icekylinx and GPT-6 Astra Pro**. No first historical decipherment priority
 is claimed. The [other p99 messages](../radio/nov1_contact_and_mail.md)
 concern contact times, service mail and receipt acknowledgment.
+
+</details>
+<!-- CASE-EDITION:END -->

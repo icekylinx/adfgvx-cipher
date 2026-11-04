@@ -1,5 +1,14 @@
 # November 22: reverse key use and an Aufbau date correction
 
+One instruction says to retain the indicated keys and use them backwards for December. A separate message corrects a date-like label; the surviving text does not supply a complete reverse-key schedule.
+
+**Complete edition by printed page:** [p. 214](../pages/214.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -135,3 +144,6 @@ python experiments/nov22_reverse_keys_and_date_correction/verify.py --verify --p
 The optional PDF check compares the saved crop with the original source
 pixels. These source editions preserve earlier key and repository credits;
 no universal first-decipherment priority is asserted.
+
+</details>
+<!-- CASE-EDITION:END -->

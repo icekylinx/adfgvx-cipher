@@ -1,5 +1,14 @@
 # Horses for a cavalry brigade: Poti shipment and handover inquiry
 
+The surviving later parts concern a shipment at Poti for a cavalry brigade, an abteilung ordered elsewhere, and horses handed over at Poti. They ask for an urgent reply; damage leaves the precise preceding question about the handover uncertain.
+
+**Complete edition by printed page:** [p. 59](../pages/059.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -144,3 +153,6 @@ their credit. No historical first-solution claim is made. The
 [earlier candidates](../../experiments/poti_horse_delivery/prior_candidates.json)
 and [reproduction instructions](../../experiments/poti_horse_delivery/README.md)
 preserve the full source and the limits of this reading.
+
+</details>
+<!-- CASE-EDITION:END -->

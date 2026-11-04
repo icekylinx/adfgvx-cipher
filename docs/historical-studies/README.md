@@ -1,45 +1,50 @@
-# Historical studies
+# History in the intercepted traffic
 
-[ADFGVX Cipher](../../README.md) · [Selected discoveries](../historical-showcase.md) · [Reading catalogue](../../cases/README.md) · [Contributors](../../AUTHORS.md)
+[ADFGVX Cipher](../../README.md) · [Chronology](chronology.md) · [Ciphertext pages](../../cases/pages/README.md) · [Sources](../../sources/README.md)
 
-These studies examine the German radio traffic preserved in Childs's 1918 collection as a historical source. The recovered messages document provision and transport, payment, evacuation, changes of authority and the return of military and civilian personnel. Comparisons with contemporary treaties, maps, newspapers, diaries and diplomatic correspondence place individual readings in their administrative and political setting.
+The intercepted messages record German forces leaving territories in which it could no longer assume control of transport, money or communications. Orders for withdrawal coexist with purchasing instructions, demands for pay, ship-sale negotiations and enquiries about people still on the road. Reading these records together makes it possible to follow decisions across successive transmissions and to distinguish an announced arrangement from its execution.
 
-## Four studies
+## Research by subject
 
-| Study | Question and sources |
+| Subject | Historical investigation | Principal evidence |
+|---|---|---|
+| **[Withdrawal, transit and internment](an-army-trying-to-get-home.md)** | How the armistice timetable, railway capacity and territorial authorities shaped the movement of troops. | Arad provisions; Hungarian transit negotiations; the Poestyen report; Mackensen's appeal and the Berlin council letter. |
+| **[Black Sea shipping and disposal](black-sea-network.md)** | How supply routes became evacuation routes, and how instructions about ships changed as access and ownership were negotiated. | The complete five-part routing order and its amendment; *Asgard* and Hopman's diary; *Corcovado*'s terms, crew and later registry. |
+| **[Cash, procurement and liquidation](what-retreat-cost.md)** | How withdrawal combined limits on purchasing with demands for usable cash, small banknotes, remittance and asset sales. | ZITAG instructions; crown-airlift requests; banknote and local-payment correspondence; silk, wagons and lei. |
+| **[Radio authority and personnel](voices-on-the-wireless.md)** | How control of a station, responsibility for its personnel and the ability to carry traffic came apart during withdrawal. | Warsaw, Hermannstadt and Poestyen service traffic; the Grosswardein transfer; arrival and staff enquiries. |
+| **[Vehicles and the stages of departure](transport-and-demobilisation.md)** | What readiness orders, vehicle requests and later departure reports reveal about the practical work of leaving. | The newly completed truck/readiness clause; carts and trailers; Hanau instructions; Seifert's transport correspondence. |
+
+The [evidence chronology](chronology.md) brings these subjects into one dated sequence. It distinguishes the date of an order or reported event from the time at which a radio station transmitted or intercepted it.
+
+## Relations established across messages
+
+A message number can join two instructions more securely than their position in the intercept book. The [shipping study](black-sea-network.md) follows the reference from the five-part **FR52751** order into its later amendment, **FR52787**. This establishes a revision of *Siegfried*'s destination while leaving the anomalous header times visible.
+
+A second reception can change the historical scale of a report. In the [Arad correspondence](../../cases/pages/168.md#source-p168-e), it supplies the missing coordinates behind **80,000 men and 30,000 animals**. The [withdrawal study](an-army-trying-to-get-home.md) places that stated strength beside the announced allocation of trains and the armistice transit provisions.
+
+A completed instruction can also clarify the kind of problem being addressed. The [banknote witnesses](../../cases/finance/crown_banknote_completion.md) recover the request for small denominations; the [financial study](what-retreat-cost.md) connects it with the distinction between a remittance and the money available for local payment. The [vehicle study](transport-and-demobilisation.md) similarly separates an order to be ready from a later report that a truck had left.
+
+## The source collection
+
+The [175 printed-page editions](../../cases/pages/README.md) contain the complete cipher readings, translations, source comparisons and reconstruction accounts. The following indexes classify the individual messages; a study may draw on several classifications.
+
+| Source index | Material |
 |---|---|
-| **[An army trying to get home](an-army-trying-to-get-home.md)** | How did withdrawal become a problem of supply, transit permission and internment? Arad provisions, Hungarian negotiations, the Romanian ultimatum and Mackensen's later correspondence. |
-| **[The Black Sea network runs in reverse](black-sea-network.md)** | How was an overseas transport system redirected during withdrawal? Supply lists, changed ports, *Asgard*'s movements, the *Corcovado* sale proposal and the Tiflis guard. |
-| **[What retreat cost](what-retreat-cost.md)** | How did the withdrawing forces obtain cash and supplies? Crown airlift requests, the restored banknote instruction, payment through Vienna and railway and equipment reports. |
-| **[Voices on the wireless](voices-on-the-wireless.md)** | What do service messages add to the political record? Radio control, personnel enquiries, departures, medical formations and civilian return. |
+| [Armies and supplies](../../cases/military/README.md) | Operational reports, transit, provisioning, medical formations and internment. |
+| [Ships and cargo](../../cases/naval/README.md) | Sailing instructions, loading, sale terms and naval orders. |
+| [Money and purchases](../../cases/finance/README.md) | Pay, procurement, remittances, banknotes, exchange and liquidation. |
+| [Radio service](../../cases/radio/README.md) | Station authority, routing, repetition, keys and personnel movements. |
+| [Caucasus affairs](../../cases/caucasus/README.md) | Mission administration, representation, supplies and evacuation. |
+| [People and civilian affairs](../../cases/people/README.md) | Appointments, leave, discharge, civilian departure and personal enquiries. |
 
-## What this edition contributes
+## External comparisons
 
-Our principal new cryptanalytic result is the **shared eighteen-column key and partial square for the two p153 CHI fragments**, recovered on 2 November 2026. It fixes sixty of the first fragment's sixty-six positions without changing the source and supports the reconstructed instruction to report the rearguard artillery's ammunition stock in the second. The [recovery report](../../experiments/p153_recovery/README.md) presents the search and independent exact checks; the linked date, reference and closing fields remain partly unresolved.
+The studies compare telegrams with armistice texts, operational maps, contemporary newspapers, a naval officer's diary, shipping registers and council records. Each comparison addresses a specific question: a timetable, a location, a movement, an ownership entry or a parallel version of a letter. The [source register](../../sources/README.md#historical-and-technical-context) identifies the material and its inspected scope; exact images and page locators accompany the individual arguments.
 
-This is the **first documented p153 key and reconstruction identified in the reviewed public literature**. Our [prior-work audit](../../data/reviews/p153_source_review.json) covers the source material, earlier public discussion, solver pages and phrase searches. Norbert's 17 September 2017 comment proposed analysing the two fragments together. Daniel Bourdeau's [September 2026 survey, preserved in its 24 September version](https://ciphers.jic.io/en/adfgvx.html), still listed both fragments as open.
+<a id="what-this-edition-contributes"></a>
 
-Our source research also identifies repeated receptions, restores printed groups omitted from transcriptions and reconnects multipart messages. The most consequential comparisons are:
+<a id="earlier-research-and-sources"></a>
 
-| Source recovery | Result |
-|---|---|
-| [Arad provisions](../../cases/military/danube_arad_witnesses.md) | Eleven missing coordinates restored and the strength figure **80000** established from observed pairs. |
-| [Small-banknote instruction](../../cases/finance/crown_banknote_completion.md) | Nineteen absent tail coordinates supplied by a complete reception; the gap located and one earlier conjecture corrected. |
-| [Caucasus silk resale](../../cases/finance/nov6_silk_resale_continuation.md) | Direct pair support across receptions for all **135 positions** of the continuation. |
-| [Palestine medical formations](../../cases/military/palestine_medical_dissolution.md) | The missing medical antecedent restored to a dissolution order. |
-| [Seifert arrival enquiry](../../cases/radio/nov12_arrival_departure_and_car.md#p183-b) | Complete pair support from two complementary damaged receptions. |
-| [Mackensen's appeal](../../cases/military/mackensen_armistice_appeal.md) | A recovered part boundary clarifies the distinction between acknowledgment and acceptance of an Allied note. |
+## Research and attribution
 
-Research, source recovery and historical synthesis are by **icekylinx and GPT-6 Astra Pro**. The case editions separately credit earlier keys and readings, subsequent source restoration and historical interpretation.
-
-## Earlier research and sources
-
-**J. Rives Childs** preserved the intercepted traffic and analysed the cipher in his technical reports. The [1935 report in the NSA archive](https://www.nsa.gov/Portals/75/documents/news-features/declassified-documents/friedman-documents/publications/FOLDER_268/41784789082381.pdf) provides historical technical discussion; the [complete collection scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) supplies the ciphertexts edited here.
-
-**George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker** reported 618 deciphered cryptograms from the 668 studied in their [Cryptologia article](https://doi.org/10.1080/01611194.2016.1169461), published online in 2016 and in volume 41 in 2017. Their historical discussion includes the principal Mackensen withdrawal, appeal and internment messages and the Kiel and Seifert political traffic. [Author manuscript](https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf).
-
-**Klaus Schmeh's 2017 challenge publication** brought Lasry's unresolved material into public discussion. Armin, Norbert, Thomas, Max Baertl and Lasry contributed attacks, readings and corrections. The [attribution audit](../../data/reviews/attribution_review_2017.json) reviews 56 numbered comments and records the contributors' displayed names. [Original discussion](https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1).
-
-**Daniel Bourdeau's 2026 survey** consolidates earlier challenge results and reproduces repairs under known keys. Prinz with GPT-6 Astra published the [p217 body](../../cases/p217.md) on 17 September; Christian Horvat supplied the subsequent date correction. Further credits appear in [Contributors](../../AUTHORS.md). [Bourdeau's survey](https://dbourdeau.github.io/cyphersolver/adfgvx.html).
-
-The public-source review was updated on **4 November 2026**. Its dated audits retain the inspected versions and retrieval limits. German quotations follow the case editions; substantive reconstruction is identified beside the affected passage, with the complete technical evidence available through the source links. [Reading conventions](../reading-conventions.md).
+**icekylinx and GPT-6 Astra Pro** prepared these historical studies and the new source recoveries. The [edition and attribution account](../edition-and-attribution.md) distinguishes our p153 key discovery and cross-reception restorations from earlier decipherments and historical publications. [Cipher research](../research-status.md) records the exact cryptanalytic results; the source editions retain the contributors to each reading.

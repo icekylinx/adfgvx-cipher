@@ -1,5 +1,14 @@
 # Delegates directed through Spa toward Berlin
 
+The message directs delegates to travel by train or car to Spa and then continue toward Berlin. The shared numeral interpretation supplies a proposed onward departure time of 5.03 p.m. on 11 November.
+
+**Complete edition by printed page:** [p. 175](../pages/175.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition: icekylinx and GPT-6 Astra Pro.**
@@ -135,3 +144,6 @@ unknown; no increase in the fixed-label count is claimed for this pair.
 and the [reproduction instructions](../../experiments/nov10_delegates_and_field_report/README.md)
 retain every literal row, source position, plaintext domain and edit.
 Earlier unreviewed repository candidates are frozen separately.
+
+</details>
+<!-- CASE-EDITION:END -->

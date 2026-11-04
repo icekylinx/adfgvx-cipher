@@ -1,5 +1,14 @@
 # Romanian ultimatum and the crossing near Rustschuk
 
+The report says Romania has demanded evacuation of its territory or surrender of weapons. Its continuation reports French troops beginning a Danube crossing near Rustschuk and fighting in progress.
+
+**Complete edition by printed page:** [p. 175](../pages/175.md) · [p. 176](../pages/176.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition: icekylinx and GPT-6 Astra Pro.**
@@ -219,3 +228,6 @@ literal slots, the unlocated shortage is **five coordinates**. The former
 15-coordinate estimate is retained only as a transcription-error note,
 not as a source model or an alternative restored body. The three readable
 records and their repair counts are unchanged.
+
+</details>
+<!-- CASE-EDITION:END -->

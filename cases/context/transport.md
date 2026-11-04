@@ -1,5 +1,14 @@
 # Transport traffic — p185/p189 and parallel messages
 
+These transport messages concern trucks, a request for vehicles and trailers, readiness to depart, and orders to wait. Their partial readings keep the damaged destinations and equipment designations visible.
+
+**Complete edition by printed page:** [p. 185](../pages/185.md) · [p. 189](../pages/189.md) · [p. 193](../pages/193.md) · [p. 194](../pages/194.md) · [p. 196](../pages/196.md) · [p. 197](../pages/197.md) · [p. 198](../pages/198.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status: source-preserving partial reading under a plausible, unproved gap geometry.** This supplementary **p185 D** intercept is outside the 22-message challenge. Its header reads `CM v CZ (20.15 p.m., November 13th), 21.00, RIZI-198`, but the body contains 193 slots: 192 valid ADFGVX coordinates and one literal `Y`. The raw `Y` is retained in the source layer and treated as one unknown coordinate in analysis.
@@ -164,3 +173,6 @@ pump. Their duplicate-group and missing-coordinate hypotheses have separate
 source and arithmetic certificates.
 
 Source images: [p189](../../sources/excerpts/childs_p189_context.png), [p193](../../sources/excerpts/childs_p193_context.png), [p194](../../sources/excerpts/childs_p194_context.png), [p196](../../sources/excerpts/childs_p196_context.png), [p197](../../sources/excerpts/childs_p197_context.png), [p198](../../sources/excerpts/childs_p198_context.png). Header order is `recipient v sender`; see [source conventions](../../sources/README.md).
+
+</details>
+<!-- CASE-EDITION:END -->

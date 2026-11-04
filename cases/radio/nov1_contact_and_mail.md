@@ -1,5 +1,14 @@
 # November 1 contact times, service mail and receipt acknowledgment
 
+Four service records concern requests for contact, communication times between Ringbahn periods, and mail. The conditional time-request wording preserves its damaged spelling in the full edition.
+
+**Complete edition by printed page:** [p. 99](../pages/099.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. These four physical records
@@ -249,3 +258,6 @@ and the retained earlier `WIEDER` hypothesis. Every readable passage is checked
 character by character against all non-`X` labels in its cited stream.
 For A, the verifier removes only the explicitly declared bracketed `h`
 before that comparison and checks the literal seven-label `ZWISCEN` span.
+
+</details>
+<!-- CASE-EDITION:END -->

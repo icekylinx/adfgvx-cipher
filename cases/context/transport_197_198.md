@@ -1,5 +1,14 @@
 # Equipment and lorry orders — p197/p198 parallels
 
+Two pairs of receptions concern loading radio apparatus for Darmstadt, and a lorry carrying equipment including a benzol pump. Comparing the copies restores more of the instructions while retaining their unresolved tonnage and closing labels.
+
+**Complete edition by printed page:** [p. 197](../pages/197.md) · [p. 198](../pages/198.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [Earlier transport traffic](transport.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source linkage, reconstruction and review: icekylinx and GPT-6 Astra Pro.**
@@ -160,3 +169,6 @@ python3 experiments/transport_followup/analyze_linked_fields.py --verify
 The verifier independently reconstructs the transposition, checks every
 source map and possible-letter domain, repeats every alignment comparison,
 and verifies explicit ciphertexts attaining the stated edit totals.
+
+</details>
+<!-- CASE-EDITION:END -->

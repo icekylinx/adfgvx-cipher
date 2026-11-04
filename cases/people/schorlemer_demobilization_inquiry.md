@@ -1,5 +1,14 @@
 # Von Schorlemer: demobilization work inquiry and reply
 
+The Trade Minister asks for a radio reply on whether the addressee can be released for work in the ministry demobilization group. The clear header names First Lieutenant von Schorlemer at the Oberkommando M administrative staff.
+
+**Complete edition by printed page:** [p. 122](../pages/122.md) · [p. 155](../pages/155.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
@@ -92,3 +101,6 @@ The certificates replay every coordinate alteration, compare the independent col
 Reproduce with `python experiments/schorlemer_demobilization_inquiry/verify.py --verify`. Add `--pdf /path/to/adfgvx-childs.pdf` to regenerate and compare the delivered source pixels.
 
 A roundtrip proves compatibility with a stated reading. Editorial spelling repairs remain proposals, and literal number labels are not automatically historical dates, quantities or reference numbers.
+
+</details>
+<!-- CASE-EDITION:END -->

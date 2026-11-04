@@ -1,5 +1,14 @@
 # Internment letter to Mackensen's soldiers' council — p226 C / p227 A
 
+The Mackensen army's soldiers' council is told that the Entente insists on internment. Continuing the planned march would be regarded as a breach of the armistice and could give the Entente grounds to enter Germany.
+
+**Complete edition by printed page:** [p. 226](../pages/226.md) · [p. 227](../pages/227.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Prior reading: J. Rives Childs; George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker. Source edition and exact repair audit: icekylinx and GPT-6 Astra Pro.**
@@ -93,3 +102,6 @@ python experiments/mackensen_archival_comparison/verify.py --verify
 ```
 
 Raw `X`, `Y`, `J` and digits remain labels from the published square. Ordinary spelling proposals and source layout repairs do not change that square.
+
+</details>
+<!-- CASE-EDITION:END -->

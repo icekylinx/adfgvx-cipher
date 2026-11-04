@@ -1,5 +1,14 @@
 # A complete ZITAG stop order with reporting instruction and literal footer
 
+The message instructs ZITAG to stop further purchases and loading, secure everything as far as possible, and telegraph the action taken to K.M. Its longer closing includes the literal office-like field Q M ALLQ KR DEP and reference 2439 STRICH 18 G ANCH. Those fields are preserved without silently normalizing Q to K or ALLQ to ALLG.
+
+**Complete edition by printed page:** [p. 96](../pages/096.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p96 A
@@ -40,3 +49,6 @@ The [shorter ZITAG witnesses](../finance/zitag_purchase_orders.md) already suppl
 The [input](../../experiments/nov1_nov2_native_dispatches/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/nov1_nov2_native_dispatches/certificates.json) contains the raw paired-coordinate domains, each source change and the forward checks. The [verifier](../../experiments/nov1_nov2_native_dispatches/verify.py) checks the unchanged published keys and the live German quotations, retaining all numerical and letter labels.
 
 Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/nov1_nov2_native_dispatches/prior_candidates.json).
+
+</details>
+<!-- CASE-EDITION:END -->

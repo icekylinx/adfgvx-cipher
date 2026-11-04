@@ -1,5 +1,14 @@
 # Mackensen's appeal over disarmament and internment
 
+Berthelot communicates Foch’s refusal to apply the Western armistice terms to the German southeastern front and the demand that Mackensen’s army group disarm and be interned. Mackensen’s appeal asks that internment be forgone and explains the provisioning difficulties.
+
+**Complete edition by printed page:** [p. 220](../pages/220.md) · [p. 221](../pages/221.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Prior body identification:** Childs; summarized by George Lasry, Ingo
@@ -308,3 +317,6 @@ The [experiment and verifier](../../experiments/mackensen_armistice_appeal/READM
 preserve both source-page crops, every coordinate-to-plaintext map,
 all 24,976 two-group costs, raw numeral/rare-letter occurrences and every
 supplied coordinate.
+
+</details>
+<!-- CASE-EDITION:END -->

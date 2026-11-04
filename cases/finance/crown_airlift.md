@@ -1,5 +1,14 @@
 # Crown airlift to Kronstadt and Hermannstadt
 
+A request to Supreme Army Command asks for one million crowns a day, carried by ordinary aircraft alternately to Kronstadt and Hermannstadt. The interrupted final instruction asks for small-denomination notes; a complete second reception restores its missing ending.
+
+**Complete edition by printed page:** [p. 174](../pages/174.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **A daily million crowns, delivered by air.** This three-part message of
@@ -155,3 +164,6 @@ records the stronger current source relationship. Both can be reproduced.
 python experiments/crown_airlift/verify.py --verify
 python experiments/crown_airlift/verify.py --verify --pdf /path/to/childs.pdf
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

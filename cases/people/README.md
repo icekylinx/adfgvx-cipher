@@ -4,23 +4,23 @@
 
 Appointments, staff transfers, travel permissions, personnel inquiries and civilian affairs are collected here.
 
-**Historical study:** [Voices on the wireless](../../docs/historical-studies/voices-on-the-wireless.md).
+**Historical study:** [Radio authority and personnel](../../docs/historical-studies/voices-on-the-wireless.md).
 
-## Permission to leave, permission to stay
+## Civilian residence, travel and discharge
 
-The end of the war appears here as a personal administrative problem: who may travel, who can be discharged and who may remain where they live.
+The Constantinople civilian instructions, Kremp’s departure enquiry and Rudolf’s discharge request concern permission to remain, arrangements to travel and release from service. Each records a different administrative decision or request.
 
 - [German civilians in Constantinople](constantinople_civilians.md)
-- [Kremp asks for a departure date](kremp.md)
+- [Kremp’s request for a departure date](kremp.md)
 - [Rudolf’s discharge request](rudolf_discharge.md)
 
-## An organization still moving its people
+## Transfers, recalls and return to units
 
-Appointments and transfers continue beside the withdrawal. Read them as evidence of the institutions and destinations named in the messages, without supplying identities the ciphertext cannot establish.
+Staff transfers and military-mission recalls continued during withdrawal. These messages identify offices, destinations and service relationships; the medical return instruction concerns rejoining a unit.
 
-- [A Breslau staff transfer](breslau_staff_transfer.md)
-- [Recalling military-mission personnel](military_mission_recalls.md)
-- [A medical return to the unit](medical_return_to_unit.md)
+- [The Breslau staff transfer](breslau_staff_transfer.md)
+- [Recalls of military-mission personnel](military_mission_recalls.md)
+- [A medical return-to-unit instruction](medical_return_to_unit.md)
 
 ## Complete source index
 

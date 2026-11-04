@@ -1,5 +1,14 @@
 # Siegfried and Osthoff: later military-mission recall messages
 
+The orders cancel assignments to the military mission in Turkey and request the necessary notifications. Their shared reference supports a joint reading of the damaged numerical fields.
+
+**Complete edition by printed page:** [p. 161](../pages/161.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Four newly source-reviewed physical parts on Childs p161. The Osthoff body was already identified from p138/p148/p149; this edition adds a later differently keyed witness and directly supports three previously editorial letters.
@@ -143,3 +152,6 @@ The baseline C1 layer has four known-coordinate changes and four printed-erasure
 [The input record](../../experiments/military_mission_recalls/inputs.json) preserves all manual rows, literal irregular glyphs, source headers and crop-rendering metadata. [The certificate](../../experiments/military_mission_recalls/certificates.json) retains all coordinate changes, masks, symbol domains, digit/J/Q/Y labels and round trips. Global witnesses demonstrate consistency only; they do not recover a unique original.
 
 [The README](../../experiments/military_mission_recalls/README.md) provides portable verifier commands, including exact source-crop pixel regeneration from the pinned full scan. Prior candidates and specific earlier source editions are distinguished; the bounded literature check is not a universal priority claim.
+
+</details>
+<!-- CASE-EDITION:END -->

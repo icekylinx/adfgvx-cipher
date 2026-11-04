@@ -1,5 +1,14 @@
 # Constantinople embassy address and Stumm signature
 
+The surviving fragment contains an address to the German Embassy in Constantinople and a Stumm signature. The substantive continuation is absent.
+
+**Complete edition by printed page:** [p. 162](../pages/162.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Source edition and verification: **icekylinx and GPT-6 Astra Pro**.
@@ -58,3 +67,6 @@ key's attribution; it makes no first historical decipherment claim. The
 [certificates](../../experiments/nov8_map_and_boundary/certificates.json)
 and [reproduction guide](../../experiments/nov8_map_and_boundary/README.md)
 retain the raw glyphs, every source offset and complete re-encryption witnesses.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Troop crossing in boats: a fragmentary November 6 report
 
+The ordinary-word proposal describes troops crossing in boats and ends with nothing further of significance. The preceding 19-label field, the LUHLEGKU?G token and the place-like BRFIRBD9 remain uninterpreted; no particular river, town, formation or successful crossing is independently established.
+
+**Complete edition by printed page:** [p. 144](../pages/144.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
@@ -124,3 +133,6 @@ Run `python experiments/nov6_boat_crossing_fragment/verify.py --verify`. Add `--
 The verifier reconstructs source-coordinate pairs, checks raw domains, replays all priced changes, verifies the readable display without dropping unresolved labels, and checks a global completion witness where required. Such a completion is mechanical evidence, not a historical guess.
 
 Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro.
+
+</details>
+<!-- CASE-EDITION:END -->

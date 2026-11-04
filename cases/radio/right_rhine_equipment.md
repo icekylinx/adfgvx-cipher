@@ -1,5 +1,14 @@
 # Equipment transfer east of the Rhine, with radio service maintained
 
+Equipment identified as U.S. is to be moved to the nearest replacement unit east of the Rhine. Wireless-station operations must continue; the source does not identify the equipment as American.
+
+**Complete edition by printed page:** [p. 179](../pages/179.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source recovery and edition: icekylinx and GPT-6 Astra Pro.**
@@ -125,3 +134,6 @@ The other source records on this page are covered in the
 ```sh
 python experiments/november_armistice_orders/verify.py --verify
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

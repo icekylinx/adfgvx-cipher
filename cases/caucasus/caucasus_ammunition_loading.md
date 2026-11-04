@@ -1,5 +1,14 @@
 # Caucasus ammunition: a request for loading instructions
 
+The sender asks whether ammunition still held at the reporting location should be loaded for the destination. The quantity field is preserved as transmitted.
+
+**Complete edition by printed page:** [p. 102](../pages/102.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 The native p102 C frame asks whether ammunition still held at the reporting location should be loaded for the destination. The quantity is the literal **5280625** under the published Nov1–3 key. This source edition resolves three unknown labels in the earlier OCR reading; it uses no coordinate repair.
@@ -58,3 +67,6 @@ The earlier OCR had coordinate masks at source indices 3, 12 and 256. Native ins
 The [input transcription](../../experiments/nov1_ammunition_and_leave/inputs.json) preserves every source row, the published key and the exact readable display. The [certificate](../../experiments/nov1_ammunition_and_leave/certificates.json) maps each plaintext position to its two source coordinates, preserves all numeral labels, and checks every non-`X` label in the displayed German. The [standalone verifier](../../experiments/nov1_ammunition_and_leave/verify.py) re-encrypts the native plaintext to the full observed ciphertext. Its optional PDF mode also reproduces the source images exactly.
 
 No historical inference changes the source, key, numerals or personal-name spellings. Punctuation and abbreviation segmentation are editorial choices, so grammatical attachment and full abbreviations may remain uncertain even when all cipher labels are fixed.
+
+</details>
+<!-- CASE-EDITION:END -->

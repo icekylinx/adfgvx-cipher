@@ -1,5 +1,14 @@
 # Return Seeflugstation Ost personnel to the second detachment
 
+Childs p141 B, PDF p144, directs any personnel being returned from Seeflugstation Ost, formerly Sewastopol, to the second Seefliegerabteilung.
+
+**Complete edition by printed page:** [p. 141](../pages/141.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -63,3 +72,6 @@ source transcription and makes the editorial changes independently checkable.
 [certificates](../../experiments/mecklenburg_and_seaplane_personnel/certificates.json)
 and [reproduction instructions](../../experiments/mecklenburg_and_seaplane_personnel/README.md)
 retain the exact rows and complete position mapping.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Recall of contract-bound military-mission members from Turkey
 
+An imperial order concerns the recall of contract-bound members of the military mission at Constantinople, including those whose contracts had already been given notice. The continuation records notification of the relevant offices.
+
+**Complete edition by printed page:** [p. 130](../pages/130.md) · [p. 131](../pages/131.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source:** J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
@@ -177,3 +186,6 @@ the cited contract has been independently verified.
 python experiments/turkish_mission_recall/verify.py --verify
 python experiments/turkish_mission_recall/verify.py --verify --pdf /path/to/childs.pdf
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

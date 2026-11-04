@@ -1,5 +1,14 @@
 # Sevastopol routing amendment with twelve opaque code groups
 
+The readable opening and distribution concern a naval message routed through Sevastopol. Its middle contains CUJOMAREMO and twelve five-figure groups whose possible inner-code meaning remains unresolved.
+
+**Complete edition by printed page:** [p. 139](../pages/139.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -136,3 +145,6 @@ explicit, including the previously readable distribution. The edition
 makes no historical first-solution claim. See the
 [inputs](../../experiments/sevastopol_coded_routing/inputs.json) and
 [reproduction instructions](../../experiments/sevastopol_coded_routing/README.md).
+
+</details>
+<!-- CASE-EDITION:END -->

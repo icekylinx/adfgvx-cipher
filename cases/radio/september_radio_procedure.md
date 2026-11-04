@@ -1,5 +1,14 @@
 # September radio listening and acknowledgment procedure
 
+Three source records on Childs printed p60 give a readable two-part instruction to listen daily at previously stated times, followed by a separate request to send radiograms continuously during reception of the Nauen press and wait until afterward for acknowledgment.
+
+**Complete edition by printed page:** [p. 60](../pages/060.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -213,3 +222,6 @@ additional historical meaning.
 ```sh
 python experiments/september_radio_procedure/verify.py --verify
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

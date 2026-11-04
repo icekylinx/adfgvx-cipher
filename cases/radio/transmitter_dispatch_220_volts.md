@@ -1,5 +1,14 @@
 # Tube transmitter dispatched to TAFUNK
 
+A tube transmitter has been dispatched to TAFUNK. The continuation lists a 10 kW QOF transmitter and a converter motor for 220 volts; the technical designations remain as transmitted.
+
+**Complete edition by printed page:** [p. 87](../pages/087.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p87 A1
@@ -36,3 +45,6 @@ All indices are zero-based. The 31 October page and dispatch dates and the 2 Nov
 The [input and review record](../../experiments/early_radio_and_leave_records/inputs.json) binds the transcription to the original PDF crop and records the earlier `E` reading. The [certificate](../../experiments/early_radio_and_leave_records/certificates.json) gives the coordinate-to-plaintext mapping; the [verifier](../../experiments/early_radio_and_leave_records/verify.py) reproduces all 83 positions and the full re-encryption.
 
 Source edition and 4 November 2026 glyph review: **icekylinx and GPT-6 Astra Pro**. Childs supplies the historical collection. The unchanged published key is credited to Lasry, Niebel, Kopal and Wacker, with Lasry's published period-key list. Earlier exploratory OCR input remains in the [attribution record](../../experiments/early_radio_and_leave_records/prior_candidates.json).
+
+</details>
+<!-- CASE-EDITION:END -->

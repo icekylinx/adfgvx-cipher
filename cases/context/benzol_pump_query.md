@@ -1,5 +1,14 @@
 # Benzol-pump inquiry with an explicit missing-coordinate model
 
+The sender asks whether a benzol pump is available there and requests an expedited answer. The closing is the explicitly reconstructed surname Seifert, with no first name or biographical identification added.
+
+**Complete edition by printed page:** [p. 189](../pages/189.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
@@ -96,3 +105,6 @@ python experiments/benzol_pump_query/verify.py --verify --pdf /path/to/adfgvx-ch
 ```
 
 The optional PDF check verifies the original scan digest and exact crop pixels. Successful re-encryption proves compatibility with the stated source model and proposed wording; it does not establish a unique historical loss location.
+
+</details>
+<!-- CASE-EDITION:END -->

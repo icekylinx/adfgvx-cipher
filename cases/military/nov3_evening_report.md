@@ -1,5 +1,14 @@
 # November 3 evening report and its first-part copy
 
+An evening report says the Sava and Danube are quiet and places the Alpenkorps south of Ujvidek. Parallel first parts restore missing characters; the remaining formation and closing fields contain unrepaired garbles.
+
+**Complete edition by printed page:** [p. 111](../pages/111.md) · [p. 112](../pages/112.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** four physical records: the first-part witness on p111 and all
@@ -154,3 +163,6 @@ OCR candidates are archived separately; no first historical decipherment is clai
 ```sh
 python experiments/nov3_evening_and_nov4_radio/verify.py --verify
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

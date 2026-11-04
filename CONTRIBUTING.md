@@ -1,10 +1,24 @@
 # Contributing
 
-## Present a readable result
+## Source editions and historical research
 
-Begin a case with the best-supported German reading, a concise English meaning, and the unresolved words or numbers. Keep exact compact plaintext and ciphertext in expandable evidence blocks. Link the shared reading conventions instead of repeating the full legend. Use square brackets for editorial restoration and `?` for unresolved characters; explain case-specific notation.
+Every printed source page has its own complete Markdown edition at
+`cases/pages/NNN.md`. The home-page page numbers link there directly. Keep
+the German readings, English interpretations and source explanations complete;
+place long machine streams in expandable evidence blocks.
 
-Distinguish a source-fixed reading, a partial decipherment, a source-linked recovery, and an editorial hypothesis. Do not count a supplementary or contextual record as another challenge entry.
+Historical studies belong in `docs/historical-studies/`. Organize them around
+a historical question, connect the relevant sources, and cite the full page
+editions. Distinguish origin, event, transmission and reception dates, and
+separate an instruction from a report that it was carried out. Record the
+specific contribution of an external source rather than attaching general
+background references.
+
+The individual case files supply a concise English meaning and preserve the
+complete canonical source body. Edit that body inside its CASE-EDITION markers,
+and maintain the short account in `data/case_view_summaries.json`. Preserve
+literal unknowns, all reconstruction costs, competing readings and earlier
+attribution when reorganizing the presentation.
 
 ## Place a new case
 
@@ -14,9 +28,10 @@ pages retain their established locations. The [repository map](docs/repository-m
 describes the topic boundaries and the stable research-package locations.
 
 Add each physical source exactly once to `data/reading_catalog.json`, with its explicit READING, PARTIAL, CONDITIONAL or OPEN state. Improved editions update the same source entry. Then run
-`python -m adfgvx.catalog` and `python -m adfgvx.navigation`. These regenerate the
-page catalogue and topic guides from the live catalogue. Curated topic order and explanations live in `data/topic_reading_paths.json`.
-Check both with `--check`. Topic coverage, local links and retained section
+`python -m adfgvx.case_views --write`, `python -m adfgvx.catalog`,
+`python -m adfgvx.navigation` and `python -m adfgvx.page_editions`. These
+regenerate the case views, direct page links, subject guides and full editions. Curated topic order and explanations live in `data/topic_reading_paths.json`.
+Check the generated views with `--check`. Topic coverage, local links and retained section
 anchors are verified by the navigation check.
 
 `cases/other/` now preserves earlier URLs. Its short compatibility pages are

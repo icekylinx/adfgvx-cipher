@@ -1,5 +1,14 @@
 # Demobilization at Neuhof, south of Fulda
 
+The opening of this three-part telegram directs a Flak unit, whose number remains unresolved, toward demobilization at **Neuhof, south of Fulda**. The middle part now supports a conditional continuation naming the Hanau–Fulda line, enclosures 1 and 2, and formations undergoing demobilization within a deputy command's district.
+
+**Complete edition by printed page:** [p. 228](../pages/228.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
@@ -206,3 +215,6 @@ check; no universal first-decipherment claim is made.
 ```sh
 python experiments/neuhof_demobilization/verify.py --verify
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -8,250 +8,250 @@ Jump to page: [p200](#p200) · [p201](#p201) · [p202](#p202) · [p203](#p203) �
 
 This range contains 121 sources, including 0 OPEN. [Reading states](../../../docs/reading-conventions.md#catalogue-states).
 
-## p200
+## [p200](../200.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p200 A](../../military/p200_A.md) | READING | Siedlce and Minsk Maziowicki garrisons reach Thorn; Battalion Ostrowo whereabouts unknown |
-| [p200 B1](../../naval/black_sea_shipping.md) | PARTIAL | Order to halt CORCOWADO sale or ownership transfer to Turkey |
-| [p200 B2](../../naval/black_sea_shipping.md) | CONDITIONAL | Ship sale conditional on cash payment in Germany before ownership transfer |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p200 A](../200.md#source-p200-a) | READING | Siedlce and Minsk Maziowicki garrisons reach Thorn; Battalion Ostrowo whereabouts unknown | [Meaning](../../military/p200_A.md) |
+| [p200 B1](../200.md#source-p200-b1) | PARTIAL | Order to halt CORCOWADO sale or ownership transfer to Turkey | [Meaning](../../naval/black_sea_shipping.md) |
+| [p200 B2](../200.md#source-p200-b2) | CONDITIONAL | Ship sale conditional on cash payment in Germany before ownership transfer | [Meaning](../../naval/black_sea_shipping.md) |
 
-## p201
+## [p201](../201.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p201 A1](../../finance/odessa_wagon_sale.md#p201-a1) | CONDITIONAL | Consulate and export-company address for a wagon-sale instruction |
-| [p201 A2](../../finance/odessa_wagon_sale.md#p201-a2) | READING | Wagon Magdeburg sale request with opaque DAMM LADWIG phrase |
-| [p201 B1](../../military/p201_p206_orders.md) | READING | Report positions reached and expected border crossings |
-| [p201 B2](../../military/p201_p206_orders.md) | PARTIAL | Specify units and travel mode; acknowledge receipt |
-| [p201 C](../../radio/odessa_courier_pretransposition.md#p201-c) | CONDITIONAL | Courier Elsner, arrival via Wilna and an enquiry about further couriers |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p201 A1](../201.md#source-p201-a1) | CONDITIONAL | Consulate and export-company address for a wagon-sale instruction | [Meaning](../../finance/odessa_wagon_sale.md) |
+| [p201 A2](../201.md#source-p201-a2) | READING | Wagon Magdeburg sale request with opaque DAMM LADWIG phrase | [Meaning](../../finance/odessa_wagon_sale.md) |
+| [p201 B1](../201.md#source-p201-b1) | READING | Report positions reached and expected border crossings | [Meaning](../../military/p201_p206_orders.md) |
+| [p201 B2](../201.md#source-p201-b2) | PARTIAL | Specify units and travel mode; acknowledge receipt | [Meaning](../../military/p201_p206_orders.md) |
+| [p201 C](../201.md#source-p201-c) | CONDITIONAL | Courier Elsner, arrival via Wilna and an enquiry about further couriers | [Meaning](../../radio/odessa_courier_pretransposition.md) |
 
-## p202
+## [p202](../202.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p202 A1](../../radio/nov16_18_command_inquiries.md#p202-a1) | PARTIAL | Immediate receipt confirmation for armistice instructions |
-| [p202 A2](../../radio/nov16_18_command_inquiries.md#p202-a2) | PARTIAL | Confirm receipt of the order to continue withdrawal |
-| [p202 B1](../../military/military_intendant_remit.md) | CONDITIONAL | New Berlin Generalintendant address and responsibility for organization, personnel and administration |
-| [p202 B2](../../military/military_intendant_remit.md) | READING | Berlin office responsibilities for administrative supplies, cash, allowances and levies |
-| [p202 B3](../../military/military_intendant_remit.md) | READING | Generalintendant at GRHQU responsible for supply transport and delivery |
-| [p202 B4](../../military/military_intendant_remit.md) | CONDITIONAL | Clothing, equipment, meat provision, sutlery and wartime services |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p202 A1](../202.md#source-p202-a1) | PARTIAL | Immediate receipt confirmation for armistice instructions | [Meaning](../../radio/nov16_18_command_inquiries.md) |
+| [p202 A2](../202.md#source-p202-a2) | PARTIAL | Confirm receipt of the order to continue withdrawal | [Meaning](../../radio/nov16_18_command_inquiries.md) |
+| [p202 B1](../202.md#source-p202-b1) | CONDITIONAL | New Berlin Generalintendant address and responsibility for organization, personnel and administration | [Meaning](../../military/military_intendant_remit.md) |
+| [p202 B2](../202.md#source-p202-b2) | READING | Berlin office responsibilities for administrative supplies, cash, allowances and levies | [Meaning](../../military/military_intendant_remit.md) |
+| [p202 B3](../202.md#source-p202-b3) | READING | Generalintendant at GRHQU responsible for supply transport and delivery | [Meaning](../../military/military_intendant_remit.md) |
+| [p202 B4](../202.md#source-p202-b4) | CONDITIONAL | Clothing, equipment, meat provision, sutlery and wartime services | [Meaning](../../military/military_intendant_remit.md) |
 
-## p203
+## [p203](../203.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p203 A2](../../radio/nov16_18_command_inquiries.md#p203-a2) | PARTIAL | Maintain nightly radio reception for the link to Germany |
-| [p203 B](../../radio/nov16_18_command_inquiries.md#p203-b) | PARTIAL | Inquiry for Captain von Borries |
-| [p203 C](../../people/richter_aleppo.md) | PARTIAL | Inquiry about Richter at the Aleppo radio park |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p203 A2](../203.md#source-p203-a2) | PARTIAL | Maintain nightly radio reception for the link to Germany | [Meaning](../../radio/nov16_18_command_inquiries.md) |
+| [p203 B](../203.md#source-p203-b) | PARTIAL | Inquiry for Captain von Borries | [Meaning](../../radio/nov16_18_command_inquiries.md) |
+| [p203 C](../203.md#source-p203-c) | PARTIAL | Inquiry about Richter at the Aleppo radio park | [Meaning](../../people/richter_aleppo.md) |
 
-## p204
+## [p204](../204.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p204 A](../../radio/p204_A.md) | CONDITIONAL | Local radio station to be handed over to Poland |
-| [p204 B](../../radio/nov16_18_command_inquiries.md#p204-b) | PARTIAL | Where is the Warsaw general government now? |
-| [p204 C1](../../radio/nov16_18_command_inquiries.md#p204-c1) | PARTIAL | Lomza and Czenstochau radio equipment whereabouts |
-| [p204 C2](../../radio/warsaw_station_missing_row.md) | CONDITIONAL | Conditional lost-row reading: radio handover and WAU personnel transfer |
-| [p204 D](../../radio/nov16_18_command_inquiries.md#p204-d) | CONDITIONAL | Numbered reply with PSO BSL and WAU signature |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p204 A](../204.md#source-p204-a) | CONDITIONAL | Local radio station to be handed over to Poland | [Meaning](../../radio/p204_A.md) |
+| [p204 B](../204.md#source-p204-b) | PARTIAL | Where is the Warsaw general government now? | [Meaning](../../radio/nov16_18_command_inquiries.md) |
+| [p204 C1](../204.md#source-p204-c1) | PARTIAL | Lomza and Czenstochau radio equipment whereabouts | [Meaning](../../radio/nov16_18_command_inquiries.md) |
+| [p204 C2](../204.md#source-p204-c2) | CONDITIONAL | Conditional lost-row reading: radio handover and WAU personnel transfer | [Meaning](../../radio/warsaw_station_missing_row.md) |
+| [p204 D](../204.md#source-p204-d) | CONDITIONAL | Numbered reply with PSO BSL and WAU signature | [Meaning](../../radio/nov16_18_command_inquiries.md) |
 
-## p205
+## [p205](../205.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p205 A1](../../finance/p205_A.md) | READING | Thirty-million-kroner request; shortage of banknotes |
-| [p205 A2](../../finance/p205_A.md) | READING | Vienna bank transfer to Kronstadt for German administration |
-| [p205 A3](../../finance/p205_A.md) | READING | Initial five million in mixed denominations; confirm sufficiency |
-| [p205 A4](../../finance/p205_A.md) | PARTIAL | Further requests to the General War Treasury; reference digits |
-| [p205 B1](../../naval/p205_B.md) | READING | End submissions to the dissolved Naval Warfare Command |
-| [p205 B2](../../naval/p205_B.md) | PARTIAL | Continue keeping war diaries; naval reporting addressees |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p205 A1](../205.md#source-p205-a1) | READING | Thirty-million-kroner request; shortage of banknotes | [Meaning](../../finance/p205_A.md) |
+| [p205 A2](../205.md#source-p205-a2) | READING | Vienna bank transfer to Kronstadt for German administration | [Meaning](../../finance/p205_A.md) |
+| [p205 A3](../205.md#source-p205-a3) | READING | Initial five million in mixed denominations; confirm sufficiency | [Meaning](../../finance/p205_A.md) |
+| [p205 A4](../205.md#source-p205-a4) | PARTIAL | Further requests to the General War Treasury; reference digits | [Meaning](../../finance/p205_A.md) |
+| [p205 B1](../205.md#source-p205-b1) | READING | End submissions to the dissolved Naval Warfare Command | [Meaning](../../naval/p205_B.md) |
+| [p205 B2](../205.md#source-p205-b2) | PARTIAL | Continue keeping war diaries; naval reporting addressees | [Meaning](../../naval/p205_B.md) |
 
-## p206
+## [p206](../206.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p206 A1](../../military/p201_p206_orders.md) | PARTIAL | Confirm receipt of earlier departure and reporting orders |
-| [p206 A2](../../military/p201_p206_orders.md) | CONDITIONAL | References to disarmament, armistice and position-report orders |
-| [p206 A3](../../military/p201_p206_orders.md) | PARTIAL | Report division locations and acknowledge the present order |
-| [p206 B1](../../military/nov18_negotiation_repetition.md#p206-b1) | CONDITIONAL | Requested repetition of an assessment that negotiation participation is pointless |
-| [p206 B2](../../military/nov18_negotiation_repetition.md#p206-b2) | CONDITIONAL | Cited messages settled by the order to depart issued locally |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p206 A1](../206.md#source-p206-a1) | PARTIAL | Confirm receipt of earlier departure and reporting orders | [Meaning](../../military/p201_p206_orders.md) |
+| [p206 A2](../206.md#source-p206-a2) | CONDITIONAL | References to disarmament, armistice and position-report orders | [Meaning](../../military/p201_p206_orders.md) |
+| [p206 A3](../206.md#source-p206-a3) | PARTIAL | Report division locations and acknowledge the present order | [Meaning](../../military/p201_p206_orders.md) |
+| [p206 B1](../206.md#source-p206-b1) | CONDITIONAL | Requested repetition of an assessment that negotiation participation is pointless | [Meaning](../../military/nov18_negotiation_repetition.md) |
+| [p206 B2](../206.md#source-p206-b2) | CONDITIONAL | Cited messages settled by the order to depart issued locally | [Meaning](../../military/nov18_negotiation_repetition.md) |
 
-## p207
+## [p207](../207.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p207 A1](../../military/repatriation_orders.md) | PARTIAL | Equipment and horses unable to reach Germany: direct sale without stripping own troops |
-| [p207 A2](../../military/repatriation_orders.md) | CONDITIONAL | Conditional addressee/reference continuation; literal final extra X retained |
-| [p207 B](../../military/repatriation_orders.md) | PARTIAL | Incomplete printed copy of the Alpenkorps return order ending, supplied by p208 A2 |
-| [p207 C1](../../military/repatriation_orders.md) | CONDITIONAL | German general in Finland: cited reports assess situation differently |
-| [p207 C2](../../military/repatriation_orders.md) | PARTIAL | Early transport away considered necessary; literal doubled A and numerical reference retained |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p207 A1](../207.md#source-p207-a1) | PARTIAL | Equipment and horses unable to reach Germany: direct sale without stripping own troops | [Meaning](../../military/repatriation_orders.md) |
+| [p207 A2](../207.md#source-p207-a2) | CONDITIONAL | Conditional addressee/reference continuation; literal final extra X retained | [Meaning](../../military/repatriation_orders.md) |
+| [p207 B](../207.md#source-p207-b) | PARTIAL | Incomplete printed copy of the Alpenkorps return order ending, supplied by p208 A2 | [Meaning](../../military/repatriation_orders.md) |
+| [p207 C1](../207.md#source-p207-c1) | CONDITIONAL | German general in Finland: cited reports assess situation differently | [Meaning](../../military/repatriation_orders.md) |
+| [p207 C2](../207.md#source-p207-c2) | PARTIAL | Early transport away considered necessary; literal doubled A and numerical reference retained | [Meaning](../../military/repatriation_orders.md) |
 
-## p208
+## [p208](../208.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p208 A1](../../military/repatriation_orders.md) | READING | Alpenkorps: Prussian formations to Silesia, subject to conditions |
-| [p208 A2](../../military/repatriation_orders.md) | PARTIAL | Bavarian formations to Bavaria; acknowledge receipt; complete printed copy of p207 B |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p208 A1](../208.md#source-p208-a1) | READING | Alpenkorps: Prussian formations to Silesia, subject to conditions | [Meaning](../../military/repatriation_orders.md) |
+| [p208 A2](../208.md#source-p208-a2) | PARTIAL | Bavarian formations to Bavaria; acknowledge receipt; complete printed copy of p207 B | [Meaning](../../military/repatriation_orders.md) |
 
-## p209
+## [p209](../209.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p209 A1](../../military/transport_and_disarmament_orders.md) | READING | Incomplete Prague statement on Mackensen transport via Teschen |
-| [p209 B1](../../military/transport_and_disarmament_orders.md) | READING | Kiew Army Group: dispatch of Ukrainian provisions |
-| [p209 B2](../../military/transport_and_disarmament_orders.md) | READING | Provisions transport prioritized over raw materials |
-| [p209 C1](../../military/transport_and_disarmament_orders.md) | READING | Warsaw units handing weapons to the Poles |
-| [p209 C2](../../military/transport_and_disarmament_orders.md) | READING | OHL instruction against disarmament without fighting |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p209 A1](../209.md#source-p209-a1) | READING | Incomplete Prague statement on Mackensen transport via Teschen | [Meaning](../../military/transport_and_disarmament_orders.md) |
+| [p209 B1](../209.md#source-p209-b1) | READING | Kiew Army Group: dispatch of Ukrainian provisions | [Meaning](../../military/transport_and_disarmament_orders.md) |
+| [p209 B2](../209.md#source-p209-b2) | READING | Provisions transport prioritized over raw materials | [Meaning](../../military/transport_and_disarmament_orders.md) |
+| [p209 C1](../209.md#source-p209-c1) | READING | Warsaw units handing weapons to the Poles | [Meaning](../../military/transport_and_disarmament_orders.md) |
+| [p209 C2](../209.md#source-p209-c2) | READING | OHL instruction against disarmament without fighting | [Meaning](../../military/transport_and_disarmament_orders.md) |
 
-## p210
+## [p210](../210.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p210 A1](../../naval/p210_A.md) | READING | Helsinki: confirm return transport for the Ostsee Division |
-| [p210 A2](../../naval/p210_A.md) | READING | Ships may be sent; identify a suitable embarkation port |
-| [p210 B](../../people/p210_B.md) | READING | End of Consul Burkhardt's oil-company assignment |
-| [p210 C](../../people/richter_aleppo.md) | PARTIAL | Fuller inquiry about NCO Kurt Richter in Aleppo |
-| [p210 D](../../military/p210_D.md) | READING | Request for a report on the situation in Reval |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p210 A1](../210.md#source-p210-a1) | READING | Helsinki: confirm return transport for the Ostsee Division | [Meaning](../../naval/p210_A.md) |
+| [p210 A2](../210.md#source-p210-a2) | READING | Ships may be sent; identify a suitable embarkation port | [Meaning](../../naval/p210_A.md) |
+| [p210 B](../210.md#source-p210-b) | READING | End of Consul Burkhardt's oil-company assignment | [Meaning](../../people/p210_B.md) |
+| [p210 C](../210.md#source-p210-c) | PARTIAL | Fuller inquiry about NCO Kurt Richter in Aleppo | [Meaning](../../people/richter_aleppo.md) |
+| [p210 D](../210.md#source-p210-d) | READING | Request for a report on the situation in Reval | [Meaning](../../military/p210_D.md) |
 
-## p211
+## [p211](../211.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p211 A2](../../military/prague_route_and_situation.md) | READING | Oderberg transport-clause ending; first part explicitly missing; possible p209 companion unproved |
-| [p211 B upper](../../military/prague_route_and_situation.md) | READING | Short query about situation and conduct of troops |
-| [p211 B lower1](../../radio/p211_key_schedule.md) | READING | Retain the November Ringbahn key |
-| [p211 B lower2](../../radio/p211_key_schedule.md) | READING | Use November keys for December traffic |
-| [p211 B lower3](../../radio/p211_key_schedule.md) | PARTIAL | Schedule endpoint and receipt acknowledgment |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p211 A2](../211.md#source-p211-a2) | READING | Oderberg transport-clause ending; first part explicitly missing; possible p209 companion unproved | [Meaning](../../military/prague_route_and_situation.md) |
+| [p211 B upper](../211.md#source-p211-b-upper) | READING | Short query about situation and conduct of troops | [Meaning](../../military/prague_route_and_situation.md) |
+| [p211 B lower1](../211.md#source-p211-b-lower1) | READING | Retain the November Ringbahn key | [Meaning](../../radio/p211_key_schedule.md) |
+| [p211 B lower2](../211.md#source-p211-b-lower2) | READING | Use November keys for December traffic | [Meaning](../../radio/p211_key_schedule.md) |
+| [p211 B lower3](../211.md#source-p211-b-lower3) | PARTIAL | Schedule endpoint and receipt acknowledgment | [Meaning](../../radio/p211_key_schedule.md) |
 
-## p212
+## [p212](../212.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p212 A1](../../military/medical_return_transports.md#p212-a1) | CONDITIONAL | Conditional introduction to medical advice for transports from Turkey |
-| [p212 A2](../../caucasus/p212_p218_crosscopy.md#p212-a2) | CONDITIONAL | Truncated cross-copy of the Tiflis armistice-withdrawal notice |
-| [p212 A3](../../finance/oil_cartel_dispatch_query.md#p212-a3) | READING | Oil cartel query about consignments shipped from Poti |
-| [p212 A4](../../military/p212_medical_fragment.md#p212-a4) | CONDITIONAL | Hospitals, patients, transport, personnel and medicines |
-| [p212 A5](../../military/medical_return_transports.md#p212-a5) | READING | Heated sick wagon, cooking equipment and hot tea |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p212 A1](../212.md#source-p212-a1) | CONDITIONAL | Conditional introduction to medical advice for transports from Turkey | [Meaning](../../military/medical_return_transports.md) |
+| [p212 A2](../212.md#source-p212-a2) | CONDITIONAL | Truncated cross-copy of the Tiflis armistice-withdrawal notice | [Meaning](../../caucasus/p212_p218_crosscopy.md) |
+| [p212 A3](../212.md#source-p212-a3) | READING | Oil cartel query about consignments shipped from Poti | [Meaning](../../finance/oil_cartel_dispatch_query.md) |
+| [p212 A4](../212.md#source-p212-a4) | CONDITIONAL | Hospitals, patients, transport, personnel and medicines | [Meaning](../../military/p212_medical_fragment.md) |
+| [p212 A5](../212.md#source-p212-a5) | READING | Heated sick wagon, cooking equipment and hot tea | [Meaning](../../military/medical_return_transports.md) |
 
-## p213
+## [p213](../213.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p213 A1](../../naval/reval_steamer_notice.md#p213-a1) | READING | Two steamers expected at Reval; raw quantity unresolved |
-| [p213 A2](../../naval/reval_steamer_notice.md#p213-a2) | CONDITIONAL | Further tonnage and raw-material transport; conditional vessel-name readings |
-| [p213 A3](../../naval/reval_steamer_notice.md#p213-a3) | PARTIAL | Assurance of support and Kriegsdepartement closing |
-| [p213 A6](../../military/medical_return_transports.md#p213-a6) | PARTIAL | Water points, forwarding and medical-department request |
-| [p213 A7](../../military/medical_return_transports.md#p213-a7) | READING | Arrange transport care from Constantinople; raw reference retained |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p213 A1](../213.md#source-p213-a1) | READING | Two steamers expected at Reval; raw quantity unresolved | [Meaning](../../naval/reval_steamer_notice.md) |
+| [p213 A2](../213.md#source-p213-a2) | CONDITIONAL | Further tonnage and raw-material transport; conditional vessel-name readings | [Meaning](../../naval/reval_steamer_notice.md) |
+| [p213 A3](../213.md#source-p213-a3) | PARTIAL | Assurance of support and Kriegsdepartement closing | [Meaning](../../naval/reval_steamer_notice.md) |
+| [p213 A6](../213.md#source-p213-a6) | PARTIAL | Water points, forwarding and medical-department request | [Meaning](../../military/medical_return_transports.md) |
+| [p213 A7](../213.md#source-p213-a7) | READING | Arrange transport care from Constantinople; raw reference retained | [Meaning](../../military/medical_return_transports.md) |
 
-## p214
+## [p214](../214.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p214 A1](../../radio/nov22_reverse_keys_and_date_correction.md#p214-a1) | READING | Keep the keys and use them backwards in December |
-| [p214 B](../../military/mackensen_warsaw.md) | PARTIAL | Forwarded quotation of the Warsaw query |
-| [p214 C](../../radio/nov22_reverse_keys_and_date_correction.md#p214-c) | READING | A short Aufbau date correction with literal numerical labels |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p214 A1](../214.md#source-p214-a1) | READING | Keep the keys and use them backwards in December | [Meaning](../../radio/nov22_reverse_keys_and_date_correction.md) |
+| [p214 B](../214.md#source-p214-b) | PARTIAL | Forwarded quotation of the Warsaw query | [Meaning](../../military/mackensen_warsaw.md) |
+| [p214 C](../214.md#source-p214-c) | READING | A short Aufbau date correction with literal numerical labels | [Meaning](../../radio/nov22_reverse_keys_and_date_correction.md) |
 
-## p215
+## [p215](../215.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p215 A](../../military/p215_breslau_dispatch.md) | CONDITIONAL | Horseshoe and nail consignment from Breslau via Oderberg; Traindepot closing |
-| [p215 B1](../../military/p215_train_departure_fragment.md#p215-b1) | CONDITIONAL | Evening-report fragment: further trains departing and proposed Szeged fields |
-| [p215 B2](../../military/nov22_divisional_positions_part2.md#p215-b2) | PARTIAL | Divisional areas and staff locations: second part with explicit geographical alternatives |
-| [p215 B3](../../military/p215_third_positions_fragment.md) | CONDITIONAL | Gyula–Sikló–Kisjenő positions and the Ruttka–Teschen departure fragment |
-| [p215](../../p215.md) | CONDITIONAL | Apparent Entente troop-transport report |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p215 A](../215.md#source-p215-a) | CONDITIONAL | Horseshoe and nail consignment from Breslau via Oderberg; Traindepot closing | [Meaning](../../military/p215_breslau_dispatch.md) |
+| [p215 B1](../215.md#source-p215-b1) | CONDITIONAL | Evening-report fragment: further trains departing and proposed Szeged fields | [Meaning](../../military/p215_train_departure_fragment.md) |
+| [p215 B2](../215.md#source-p215-b2) | PARTIAL | Divisional areas and staff locations: second part with explicit geographical alternatives | [Meaning](../../military/nov22_divisional_positions_part2.md) |
+| [p215 B3](../215.md#source-p215-b3) | CONDITIONAL | Gyula–Sikló–Kisjenő positions and the Ruttka–Teschen departure fragment | [Meaning](../../military/p215_third_positions_fragment.md) |
+| [p215](../215.md#source-p215) | CONDITIONAL | Apparent Entente troop-transport report | [Meaning](../../p215.md) |
 
-## p216
+## [p216](../216.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p216 A1](../../radio/hermannstadt_radio_report.md#p216-a1) | READING | Radio station construction near Hermannstadt |
-| [p216 A2](../../radio/hermannstadt_radio_report.md#p216-a2) | READING | Reception difficulties and raw NIKOLA3EW |
-| [p216 A3](../../radio/hermannstadt_radio_report.md#p216-a3) | CONDITIONAL | Breslau reception and missing message references |
-| [p216 A4](../../radio/hermannstadt_radio_report.md#p216-a4) | CONDITIONAL | Request to repeat situation and armistice instructions |
-| [p216 B1](../../finance/hermannstadt_cash_transport.md#p216-b1) | CONDITIONAL | Conditional cash dispatch via Szolnok and Arad |
-| [p216 B2](../../finance/hermannstadt_cash_transport.md#p216-b2) | PARTIAL | Hermannstadt destination and arrival notifications |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p216 A1](../216.md#source-p216-a1) | READING | Radio station construction near Hermannstadt | [Meaning](../../radio/hermannstadt_radio_report.md) |
+| [p216 A2](../216.md#source-p216-a2) | READING | Reception difficulties and raw NIKOLA3EW | [Meaning](../../radio/hermannstadt_radio_report.md) |
+| [p216 A3](../216.md#source-p216-a3) | CONDITIONAL | Breslau reception and missing message references | [Meaning](../../radio/hermannstadt_radio_report.md) |
+| [p216 A4](../216.md#source-p216-a4) | CONDITIONAL | Request to repeat situation and armistice instructions | [Meaning](../../radio/hermannstadt_radio_report.md) |
+| [p216 B1](../216.md#source-p216-b1) | CONDITIONAL | Conditional cash dispatch via Szolnok and Arad | [Meaning](../../finance/hermannstadt_cash_transport.md) |
+| [p216 B2](../216.md#source-p216-b2) | PARTIAL | Hermannstadt destination and arrival notifications | [Meaning](../../finance/hermannstadt_cash_transport.md) |
 
-## p217
+## [p217](../217.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p217 A1](../../military/p217_A.md) | READING | Scholtz divisions march into the assembly area |
-| [p217 A2](../../military/p217_A.md) | READING | Coal shortages stop transport; troop locations near Oroshaza |
-| [p217 A3](../../military/p217_A.md) | PARTIAL | Headquarters at Szolnok; a battalion at Poestyen |
-| [p217 A4](../../military/p217_A.md) | READING | Czechs demand disarmament before troop transit |
-| [p217 A5](../../military/p217_A.md) | PARTIAL | Massow in Budapest asked to clarify transit and disarmament |
-| [p217 B1](../../military/nov24_train_report.md#p217-b1) | CONDITIONAL | Additional train departures and divisional positions in a conditional evening report |
-| [p217 B2](../../military/nov24_budapest_report.md#p217-b2) | READING | Additional report transmission by teleprinter via Budapest |
-| [p217](../../p217.md) | READING | British cruiser and Allied squadron at Sevastopol |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p217 A1](../217.md#source-p217-a1) | READING | Scholtz divisions march into the assembly area | [Meaning](../../military/p217_A.md) |
+| [p217 A2](../217.md#source-p217-a2) | READING | Coal shortages stop transport; troop locations near Oroshaza | [Meaning](../../military/p217_A.md) |
+| [p217 A3](../217.md#source-p217-a3) | PARTIAL | Headquarters at Szolnok; a battalion at Poestyen | [Meaning](../../military/p217_A.md) |
+| [p217 A4](../217.md#source-p217-a4) | READING | Czechs demand disarmament before troop transit | [Meaning](../../military/p217_A.md) |
+| [p217 A5](../217.md#source-p217-a5) | PARTIAL | Massow in Budapest asked to clarify transit and disarmament | [Meaning](../../military/p217_A.md) |
+| [p217 B1](../217.md#source-p217-b1) | CONDITIONAL | Additional train departures and divisional positions in a conditional evening report | [Meaning](../../military/nov24_train_report.md) |
+| [p217 B2](../217.md#source-p217-b2) | READING | Additional report transmission by teleprinter via Budapest | [Meaning](../../military/nov24_budapest_report.md) |
+| [p217](../217.md#source-p217) | READING | British cruiser and Allied squadron at Sevastopol | [Meaning](../../p217.md) |
 
-## p218
+## [p218](../218.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p218 A1](../../caucasus/p218_A.md) | CONDITIONAL | Kress/Tiflis notice: armistice Article XII |
-| [p218 A2](../../caucasus/p218_A.md) | PARTIAL | Allied judgment governs withdrawal from former Russian territory |
-| [p218 A3](../../caucasus/p218_A.md) | PARTIAL | No Allied demand yet to withdraw the Tiflis guard |
-| [p218 B2](../../naval/urgent_shipping_space.md#p218-b2) | READING | Urgent shipping space for personnel and horses |
-| [p218 B3](../../naval/urgent_shipping_space.md#p218-b3) | PARTIAL | Probable reliance on sea transport; literal command references |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p218 A1](../218.md#source-p218-a1) | CONDITIONAL | Kress/Tiflis notice: armistice Article XII | [Meaning](../../caucasus/p218_A.md) |
+| [p218 A2](../218.md#source-p218-a2) | PARTIAL | Allied judgment governs withdrawal from former Russian territory | [Meaning](../../caucasus/p218_A.md) |
+| [p218 A3](../218.md#source-p218-a3) | PARTIAL | No Allied demand yet to withdraw the Tiflis guard | [Meaning](../../caucasus/p218_A.md) |
+| [p218 B2](../218.md#source-p218-b2) | READING | Urgent shipping space for personnel and horses | [Meaning](../../naval/urgent_shipping_space.md) |
+| [p218 B3](../218.md#source-p218-b3) | PARTIAL | Probable reliance on sea transport; literal command references | [Meaning](../../naval/urgent_shipping_space.md) |
 
-## p219
+## [p219](../219.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p219 A1](../../finance/crown_cash_requests.md) | READING | Crown funds for Arad following agreement with the German military mission at Budapest |
-| [p219 A2](../../finance/crown_cash_requests.md) | READING | Inquiry whether an advance can be drawn from the field war cash office |
-| [p219 B](../../finance/crown_cash_requests.md) | READING | Crown remittances partly sent; severe banknote shortage reported |
-| [p219 C](../../military/p219_kiev_unrest.md#p219-c) | CONDITIONAL | Kiev unrest between the Hetman government and an unresolved party; soldiers council neutrality |
-| [p219 D1](../../military/nov25_provisions_and_evening_report.md#p219-d1) | CONDITIONAL | First part: reduced provisioning strength and no further provisions |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p219 A1](../219.md#source-p219-a1) | READING | Crown funds for Arad following agreement with the German military mission at Budapest | [Meaning](../../finance/crown_cash_requests.md) |
+| [p219 A2](../219.md#source-p219-a2) | READING | Inquiry whether an advance can be drawn from the field war cash office | [Meaning](../../finance/crown_cash_requests.md) |
+| [p219 B](../219.md#source-p219-b) | READING | Crown remittances partly sent; severe banknote shortage reported | [Meaning](../../finance/crown_cash_requests.md) |
+| [p219 C](../219.md#source-p219-c) | CONDITIONAL | Kiev unrest between the Hetman government and an unresolved party; soldiers council neutrality | [Meaning](../../military/p219_kiev_unrest.md) |
+| [p219 D1](../219.md#source-p219-d1) | CONDITIONAL | First part: reduced provisioning strength and no further provisions | [Meaning](../../military/nov25_provisions_and_evening_report.md) |
 
-## p220
+## [p220](../220.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p220 A2](../../military/nov25_provisions_and_evening_report.md#p220-a2) | READING | Second part: stop further provisions and notify Dresden |
-| [p220 B](../../military/nov25_provisions_and_evening_report.md#p220-b) | CONDITIONAL | Evening report: Tiszafoeldvar, Nagymagocs and Kondoros; unit fields unresolved |
-| [p220 C1](../../military/mackensen_armistice_appeal.md#p220-c1-berthelots-notification) | READING | Berthelot notification of Foch's armistice position |
-| [p220 C2](../../military/mackensen_armistice_appeal.md#p220-c2-southeastern-front-and-pending-decision) | READING | Southeastern front disarmament and internment demand |
-| [p220 C3](../../military/mackensen_armistice_appeal.md#p220-c3-limited-acknowledgment-and-conditional-proposal) | READING | Limited acknowledgment pending OHL's decision |
-| [p220 C4](../../military/mackensen_armistice_appeal.md#p220-c4-hungary-and-the-internment-clause) | READING | Conditional proposal for disarmament by Hungary |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p220 A2](../220.md#source-p220-a2) | READING | Second part: stop further provisions and notify Dresden | [Meaning](../../military/nov25_provisions_and_evening_report.md) |
+| [p220 B](../220.md#source-p220-b) | CONDITIONAL | Evening report: Tiszafoeldvar, Nagymagocs and Kondoros; unit fields unresolved | [Meaning](../../military/nov25_provisions_and_evening_report.md) |
+| [p220 C1](../220.md#source-p220-c1) | READING | Berthelot notification of Foch's armistice position | [Meaning](../../military/mackensen_armistice_appeal.md) |
+| [p220 C2](../220.md#source-p220-c2) | READING | Southeastern front disarmament and internment demand | [Meaning](../../military/mackensen_armistice_appeal.md) |
+| [p220 C3](../220.md#source-p220-c3) | READING | Limited acknowledgment pending OHL's decision | [Meaning](../../military/mackensen_armistice_appeal.md) |
+| [p220 C4](../220.md#source-p220-c4) | READING | Conditional proposal for disarmament by Hungary | [Meaning](../../military/mackensen_armistice_appeal.md) |
 
-## p221
+## [p221](../221.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p221 A5](../../military/mackensen_armistice_appeal.md#p221-a5-conditional-missing-prefix-reconstruction) | CONDITIONAL | Conditional request to forgo internment and Carpathian crossing |
-| [p221 A6](../../military/mackensen_armistice_appeal.md#p221-a6-the-warning-and-signature) | READING | Warning of mass flight, misery and open resistance |
-| [p221 B1](../../people/constantinople_civilians.md) | CONDITIONAL | Enquiry about German civilians, mainly women and children, reportedly leaving Constantinople; raw headcount 0YY |
-| [p221 B2](../../people/constantinople_civilians.md) | CONDITIONAL | Verify civilian departures and whereabouts through the Swedish legation |
-| [p221 B3](../../people/constantinople_civilians.md) | READING | Troop-transport enquiry and request to allow German civilians to remain in Turkey |
-| [p221 B4](../../people/constantinople_civilians.md) | CONDITIONAL | Appeal referred to Allies and Supreme War Council; civilian transit through Ukraine impossible |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p221 A5](../221.md#source-p221-a5) | CONDITIONAL | Conditional request to forgo internment and Carpathian crossing | [Meaning](../../military/mackensen_armistice_appeal.md) |
+| [p221 A6](../221.md#source-p221-a6) | READING | Warning of mass flight, misery and open resistance | [Meaning](../../military/mackensen_armistice_appeal.md) |
+| [p221 B1](../221.md#source-p221-b1) | CONDITIONAL | Enquiry about German civilians, mainly women and children, reportedly leaving Constantinople; raw headcount 0YY | [Meaning](../../people/constantinople_civilians.md) |
+| [p221 B2](../221.md#source-p221-b2) | CONDITIONAL | Verify civilian departures and whereabouts through the Swedish legation | [Meaning](../../people/constantinople_civilians.md) |
+| [p221 B3](../221.md#source-p221-b3) | READING | Troop-transport enquiry and request to allow German civilians to remain in Turkey | [Meaning](../../people/constantinople_civilians.md) |
+| [p221 B4](../221.md#source-p221-b4) | CONDITIONAL | Appeal referred to Allies and Supreme War Council; civilian transit through Ukraine impossible | [Meaning](../../people/constantinople_civilians.md) |
 
-## p222
+## [p222](../222.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p222 A1](../../military/liman_troop_reports.md) | READING | General von Liman asked for regular troop transport, strength and condition reports |
-| [p222 A2](../../military/liman_troop_reports.md) | READING | Special requirements and acknowledgment requested in the Liman troop report |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p222 A1](../222.md#source-p222-a1) | READING | General von Liman asked for regular troop transport, strength and condition reports | [Meaning](../../military/liman_troop_reports.md) |
+| [p222 A2](../222.md#source-p222-a2) | READING | Special requirements and acknowledgment requested in the Liman troop report | [Meaning](../../military/liman_troop_reports.md) |
 
-## p223
+## [p223](../223.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p223 A1](../../finance/lei_note_exchange.md) | CONDITIONAL | Information requested on stamped lei-note amounts, denominations and stamping procedure |
-| [p223 A2](../../finance/lei_note_exchange.md) | PARTIAL | Austro-Hungarian bank redemption proposal with raw J1Y/JYY exchange-rate labels |
-| [p223 A3](../../finance/lei_note_exchange.md) | PARTIAL | Stamped-note redemption and German-bank raw 70/38 rate labels; negotiations pending |
-| [p223 B](../../naval/nov27_ships_and_vehicle_sale.md#p223-b) | READING | Helsingfors reports preparations and secured ships |
-| [p223 C](../../naval/nov27_ships_and_vehicle_sale.md#p223-c) | CONDITIONAL | Sell trucks and surplus material: a surplus-group reconstruction |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p223 A1](../223.md#source-p223-a1) | CONDITIONAL | Information requested on stamped lei-note amounts, denominations and stamping procedure | [Meaning](../../finance/lei_note_exchange.md) |
+| [p223 A2](../223.md#source-p223-a2) | PARTIAL | Austro-Hungarian bank redemption proposal with raw J1Y/JYY exchange-rate labels | [Meaning](../../finance/lei_note_exchange.md) |
+| [p223 A3](../223.md#source-p223-a3) | PARTIAL | Stamped-note redemption and German-bank raw 70/38 rate labels; negotiations pending | [Meaning](../../finance/lei_note_exchange.md) |
+| [p223 B](../223.md#source-p223-b) | READING | Helsingfors reports preparations and secured ships | [Meaning](../../naval/nov27_ships_and_vehicle_sale.md) |
+| [p223 C](../223.md#source-p223-c) | CONDITIONAL | Sell trucks and surplus material: a surplus-group reconstruction | [Meaning](../../naval/nov27_ships_and_vehicle_sale.md) |
 
-## p224
+## [p224](../224.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p224 A1](../../radio/nov27_receiving_instructions.md#p224-a1) | READING | Use especially good radio listeners and send clearly |
-| [p224 A2](../../radio/nov27_receiving_instructions.md#p224-a2) | READING | Only secure link home and preferred reception wavelength |
-| [p224 B](../../radio/nov27_receiving_instructions.md#p224-b) | READING | Brief report of no special events |
-| [p224 C1](../../people/breslau_staff_transfer.md) | CONDITIONAL | Staff officer raw STRZEMIECZNQ transferred from acting corps chief-of-staff duties |
-| [p224 C2](../../people/breslau_staff_transfer.md) | CONDITIONAL | Special employment with Breslau command; separate historical VI Corps context |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p224 A1](../224.md#source-p224-a1) | READING | Use especially good radio listeners and send clearly | [Meaning](../../radio/nov27_receiving_instructions.md) |
+| [p224 A2](../224.md#source-p224-a2) | READING | Only secure link home and preferred reception wavelength | [Meaning](../../radio/nov27_receiving_instructions.md) |
+| [p224 B](../224.md#source-p224-b) | READING | Brief report of no special events | [Meaning](../../radio/nov27_receiving_instructions.md) |
+| [p224 C1](../224.md#source-p224-c1) | CONDITIONAL | Staff officer raw STRZEMIECZNQ transferred from acting corps chief-of-staff duties | [Meaning](../../people/breslau_staff_transfer.md) |
+| [p224 C2](../224.md#source-p224-c2) | CONDITIONAL | Special employment with Breslau command; separate historical VI Corps context | [Meaning](../../people/breslau_staff_transfer.md) |
 
 [Return to all source pages](../README.md).

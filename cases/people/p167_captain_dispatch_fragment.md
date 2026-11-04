@@ -1,5 +1,14 @@
 # p167 D — Captain and replacement-detachment dispatch fragment
 
+The conditional fragment concerns a captain being sent to a replacement detachment. The name, destination and connecting wording remain incomplete.
+
+**Complete edition by printed page:** [p. 167](../pages/167.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Partial word proposal and source review: icekylinx and GPT-6 Astra Pro.**
@@ -150,3 +159,6 @@ The period key retains Lasry, Niebel, Kopal and Wacker's credit, and Lasry's
 2017 key-list provenance. The earlier OCR is preserved separately. The
 source review and limited dispatch-word proposal are by
 **icekylinx and GPT-6 Astra Pro**.
+
+</details>
+<!-- CASE-EDITION:END -->

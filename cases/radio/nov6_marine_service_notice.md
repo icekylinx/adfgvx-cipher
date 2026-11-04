@@ -1,5 +1,14 @@
 # Osmanie unavailable: the November 6 marine-service notice
 
+The telegram reports **Osmanie unavailable** and asks that all stations be notified.
+
+**Complete edition by printed page:** [p. 138](../pages/138.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 The telegram reports **Osmanie unavailable** and asks that all stations be
@@ -205,3 +214,6 @@ provenance recorded in the inputs.
 and [reproduction instructions](../../experiments/nov6_marine_service_notice/README.md)
 preserve the native frame, source mapping, earlier word repairs, independent
 name witnesses and complete re-encryption of the conditional reading.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Two-part discharge instruction naming Rudolf twice
 
+The military mission is asked to release the man written Rudolf Rudolf, attached to the German Embassy, from military service. The two parts join across the phrase “aus Militärdienst.”.
+
+**Complete edition by printed page:** [p. 108](../pages/108.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -111,3 +120,6 @@ It makes no historical first-solution claim. See
 [inputs](../../experiments/p108_naval_and_personnel/inputs.json),
 [certificates](../../experiments/p108_naval_and_personnel/certificates.json)
 and [reproduction instructions](../../experiments/p108_naval_and_personnel/README.md).
+
+</details>
+<!-- CASE-EDITION:END -->

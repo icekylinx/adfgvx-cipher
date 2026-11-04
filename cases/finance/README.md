@@ -4,30 +4,38 @@
 
 Follow requests for funds, currency exchange and purchasing decisions. Individual editions keep raw amount labels and proposed numerical interpretations separate.
 
-**Historical study:** [What retreat cost](../../docs/historical-studies/what-retreat-cost.md).
+**Historical study:** [Cash, procurement and liquidation](../../docs/historical-studies/what-retreat-cost.md).
 
-## Cash that an army could use
+## Cash supply and denominations
 
-A request for money becomes more revealing when it specifies the currency, the route and the denomination. Follow the crown shortage from the airlift request to the later complete banknote instruction.
+The crown requests specify wages and purchases in Hungary, delivery by aircraft and a suitable supply of small notes. A complete parallel reception restores the ending of the daily airlift instruction.
 
-- [A million crowns a day by aircraft](crown_airlift.md)
-- [The restored small-banknote instruction](crown_banknote_completion.md)
-- [Moving cash to Hermannstadt](hermannstadt_cash_transport.md)
+- [Thirty million crowns requested for wages and purchases](nov9_crown_airlift_and_embassy.md)
+- [One million crowns daily by ordinary aircraft](crown_airlift.md)
+- [The complete small-banknote instruction](crown_banknote_completion.md)
 
-## Contracts and assets at the end of occupation
+## Remittance, payout and guarded transport
 
-Purchasing orders, resale permissions and abandoned transport connect military withdrawal with a commercial world that still expected accounts to be settled.
+The Vienna–Kronstadt bank-transfer message asks whether local payment succeeded. Later correspondence concerns a guarded rail alternative, access to an advance at Arad and continuing banknote shortages.
 
-- [ZITAG purchasing instructions](zitag_purchase_orders.md)
-- [Silk resale recovered from two receptions](nov6_silk_resale_continuation.md)
-- [The Odessa wagon sale](odessa_wagon_sale.md)
+- [An initial five-million-crown transfer through Vienna](p205_A.md)
+- [A guarded rail alternative for Hermannstadt cash](hermannstadt_cash_transport.md)
+- [Arad advances and partial crown remittances](crown_cash_requests.md)
 
-## Pay, exchange and administration
+## Procurement cancellation and resale
 
-Allowances and exchange rates show the continuing administrative demands behind the larger movements.
+ZITAG orders distinguish further commitments from consignments already paid for. Silk purchases are to be resold where removal is uncertain; a separate Odessa instruction seeks a wagon sale on the best possible terms.
 
-- [Military allowances](military_allowances.md)
-- [Exchanging lei notes](lei_note_exchange.md)
+- [Purchase stop-orders and the paid-consignment exception](zitag_purchase_orders.md)
+- [Local resale of silk when transport is uncertain](nov6_silk_resale_continuation.md)
+- [The Odessa wagon-sale request](odessa_wagon_sale.md)
+
+## Allowances and currency redemption
+
+Allowance instructions and exchange correspondence concern the terms on which money could be paid or redeemed. The lei negotiations distinguish stamped from unstamped notes, while several numerical rate fields remain unresolved.
+
+- [Military allowance instructions](military_allowances.md)
+- [Negotiations over stamped and unstamped lei notes](lei_note_exchange.md)
 - [Companion ruble-rate messages](ruble_rate_companions.md)
 
 ## Complete source index

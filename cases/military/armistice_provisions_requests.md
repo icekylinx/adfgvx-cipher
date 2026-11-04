@@ -1,5 +1,14 @@
 # Armistice conditions and urgent provisions requests on Childs p188
 
+One telegram asks Supreme Army Command for the armistice conditions applying to the local theatre. Another asks the Generalintendant for a provisions train to Szolnok on the Theiss.
+
+**Complete edition by printed page:** [p. 188](../pages/188.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and exact repair accounting: icekylinx and GPT-6 Astra Pro (2026).** Published Nov13–15b partial key: Lasry, Niebel, Kopal and Wacker. Earlier unreviewed machine readings are retained in the evidence package; no universal decipherment-priority claim is made.
@@ -134,3 +143,6 @@ GENERALINTENDANTFELDHEERESXGRXHX?UXXBITTEALLE?TAGEVVZUGMIT??0000VOLLENPORTIONENE
 The [inputs](../../experiments/armistice_provisions_requests/inputs.json) contain every literal source row, header, image rectangle/scale and excluded-slot interpretation. The [certificates](../../experiments/armistice_provisions_requests/certificates.json) identify every changed coordinate, every source-mask fill, every remaining domain and every plaintext pair's original source slots. The [earlier candidate snapshot](../../experiments/armistice_provisions_requests/prior_candidates.json) preserves the preexisting unreviewed readings and the bounded publication check. This is a source and repair edition, not a claim that these message bodies were first identified here.
 
 The package [README](../../experiments/armistice_provisions_requests/README.md) gives verification commands. The verifier checks the unchanged published partial square and ranks, compares an independent physical-column inverse with the project decoder, recomputes every cost, and supplies an injective completion/re-encryption witness. Such a witness is only a consistency example, not the original key or a uniquely authenticated message. Optional PDF verification checks both the full-source digest and all delivered crop pixels.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Odessa courier report: a conditional loss before transposition
 
+Elsner has arrived via Wilna. The sender asks whether further couriers are still to depart for Odessa.
+
+**Complete edition by printed page:** [p. 201](../pages/201.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 The conditional reconstruction of p201 C reports courier Elsner’s arrival via Wilna and asks whether further couriers should leave for Odessa. The clear header dates the Berlin telegram to **15 November 1918**. The recovered body now fixes **161/163 positions**; two reference labels remain unresolved.
@@ -191,3 +200,6 @@ python experiments/nov16_18_reference_completion/verify_courier.py --verify
 ```
 
 The exact forward reproduction establishes the arithmetic of the proposed model. It does not authenticate a historical omission mechanism, replace the native reading, or prove global optimality over other keys and error models.
+
+</details>
+<!-- CASE-EDITION:END -->

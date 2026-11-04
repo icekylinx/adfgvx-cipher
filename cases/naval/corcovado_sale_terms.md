@@ -1,5 +1,14 @@
 # Corcovado: sale terms, Turkish crew and a conditional office number
 
+The correspondence discusses Corcovado's proposed sale and its movement under a Turkish crew. Germany is to retain a right of first refusal on resale, and sale to a non-German shipping company is prohibited.
+
+**Complete edition by printed page:** [p. 165](../pages/165.md) · [p. 173](../pages/173.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
@@ -393,3 +402,6 @@ retrieved institutional catalogue from the underlying uninspected business
 plans. Identifying particular telegram fields with that office and assuming
 they were copied correctly remain conditional; no source certificate or
 published square is changed.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # p228 B2 — Demobilization district and formations
 
+The wording concerns formations undergoing demobilization within a deputy command's district and refers to two enclosures and an order.
+
+**Complete edition by printed page:** [p. 228](../pages/228.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [All cases](../README.md) · [The three-part Neuhof telegram](neuhof_demobilization.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Recovery and review: icekylinx and GPT-6 Astra Pro, 4 November 2026.**
@@ -179,3 +188,6 @@ Historical ciphertext: **J. Rives Childs**. Published period key:
 **George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker**. The earlier Neuhof
 source edition and its attribution are preserved. Mask-frame recovery,
 continuation and independent review: **icekylinx and GPT-6 Astra Pro**.
+
+</details>
+<!-- CASE-EDITION:END -->

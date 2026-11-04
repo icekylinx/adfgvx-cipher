@@ -1,5 +1,14 @@
 # Pera embassy address for Monsignore Dolci, reference 1882
 
+The surviving first part gives the German Embassy at Pera, reference 1882, for the person named Monsignore Dolci, with a Stumm signature field. Neither name is identified beyond the literal text.
+
+**Complete edition by printed page:** [p. 147](../pages/147.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p147 D1
@@ -51,3 +60,6 @@ All indices are zero-based.
 The [input](../../experiments/nov6_evening_and_embassy_records/inputs.json) binds literal source rows to exact PDF crops. The [certificate](../../experiments/nov6_evening_and_embassy_records/certificates.json) records raw paired-coordinate domains, all proposed changes and the separately priced optional reading. The [verifier](../../experiments/nov6_evening_and_embassy_records/verify.py) checks the unchanged Nov4–6 key and all live German quotations, including every unknown position and digit.
 
 Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR input is frozen in the [attribution record](../../experiments/nov6_evening_and_embassy_records/prior_candidates.json).
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Constanza naval radio: telegram routing and exchange connections
 
+A four-part report describes telegram routing and telephone connections at Constanza. Foreign-station telegrams travel by German lines to Bucharest or Braila, and the naval radio station connects with both the local main exchange and the naval department's exchange.
+
+**Complete edition by printed page:** [p. 80](../pages/080.md) · [p. 82](../pages/082.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs p80 B1/B2 and p82 A1–A4, 30 October 1918; published `Oct28-31` key, unchanged. [Source inputs](../../experiments/constanza_radio_connections/inputs.json), [exact certificates](../../experiments/constanza_radio_connections/certificates.json), [method and limits](../../experiments/constanza_radio_connections/README.md).
@@ -137,3 +146,6 @@ UNDDARUEBERHINAUSMITALLENSPRECHSTELLENINVERKEHRTRETENKANNXX
 The p82 source gives four explicitly numbered parts, and both page groups share origin `0730 (30) 4 TEILE`. p80 repeats the first two parts with one source-coordinate difference in each. The receipt times differ, `6.20 p.m.` on p80 and `6.10 p.m.` on p82; both are retained.
 
 The complete four-part message has 409 plaintext positions. The p80 copies add 245 physically repeated positions to the edition. Correcting the earlier OCR boundary errors makes the first two parts readable; parts 3/4 already had substantially readable unreviewed candidates. This source edition provides exact provenance, comparisons and repairs, and makes no first historical decipherment claim.
+
+</details>
+<!-- CASE-EDITION:END -->

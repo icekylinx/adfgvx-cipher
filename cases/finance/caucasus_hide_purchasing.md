@@ -1,5 +1,14 @@
 # Caucasus hide purchasing — Meierkort, the contract and the Kiew instruction
 
+Hide purchasing is assigned exclusively to Meierkort, which is asked to return the signed contract promptly. Purchases are to continue while expenses are settled later; Wolters is instructed to report in Kiev.
+
+**Complete edition by printed page:** [p. 75](../pages/075.md) · [p. 76](../pages/076.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and review: icekylinx and GPT-6 Astra Pro.** Three numbered
@@ -189,3 +198,6 @@ decipherment priority is claimed.
 python3 experiments/late_october_radio_and_materials/verify.py --verify
 python3 experiments/late_october_radio_and_materials/verify.py --verify --pdf /path/to/childs.pdf
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

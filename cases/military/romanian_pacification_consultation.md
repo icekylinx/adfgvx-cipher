@@ -1,5 +1,14 @@
 # Romanian pacification proposal and a request for consultation
 
+The readable portions concern a proposed pacification action, a request for a general to discuss it, and a request for early information.
+
+**Complete edition by printed page:** [p. 157](../pages/157.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -175,3 +184,6 @@ accounting. See [inputs](../../experiments/romanian_pacification_consultation/in
 [certificates](../../experiments/romanian_pacification_consultation/certificates.json),
 [prior candidates](../../experiments/romanian_pacification_consultation/prior_candidates.json)
 and [verification instructions](../../experiments/romanian_pacification_consultation/README.md).
+
+</details>
+<!-- CASE-EDITION:END -->

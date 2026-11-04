@@ -1,5 +1,14 @@
 # Kremp's request for a departure date — p131, p149 and p159
 
+Kremp reports that he has recovered and asks the transport section of the military mission in Constantinople to specify his departure date. The opening `COELN11XAB1XSX` is directly decoded; its administrative meaning remains unknown.
+
+**Complete edition by printed page:** [p. 131](../pages/131.md) · [p. 149](../pages/149.md) · [p. 159](../pages/159.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case guide](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Kremp reports his recovery and asks the military mission's transport section to set his departure date. The unlettered final message on p159 reads completely under the published **Nov7–9** key: **98 positions, with no source correction**. Its different-key reception also repairs the earlier p131 B / p149 B version.
@@ -88,3 +97,6 @@ python3 experiments/open_targets_continuation/verify.py --verify
 ```
 
 The source identification, comparison and edition are by **icekylinx and GPT-6 Astra Pro**. Period-key recovery retains [George Lasry's published attribution](../../data/keys.json).
+
+</details>
+<!-- CASE-EDITION:END -->

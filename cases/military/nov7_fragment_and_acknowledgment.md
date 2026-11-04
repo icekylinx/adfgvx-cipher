@@ -1,5 +1,14 @@
 # November 7 report fragments and a separate telegram acknowledgment
 
+The fragment concerns news of the German armistice commission's departure, but the effect described by the damaged sentence remains uncertain. A separate acknowledgment preserves its operational references.
+
+**Complete edition by printed page:** [p. 151](../pages/151.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -173,3 +182,6 @@ preserved; no historical first-solution claim is made. See the
 [inputs](../../experiments/nov7_fragments_and_council/inputs.json),
 [reproduction instructions](../../experiments/nov7_fragments_and_council/README.md)
 and the separate [Soldiers Council notice](soldiers_council_surrender.md).
+
+</details>
+<!-- CASE-EDITION:END -->

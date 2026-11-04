@@ -1,5 +1,14 @@
 # November 9 operational reports: Serbian cavalry and the retreat north
 
+An evening situation report describes Serbian cavalry entering Peterwardein and Fehertemplom. The 217th Infantry Division and a reserve division are marching north without enemy contact.
+
+**Complete edition by printed page:** [p. 166](../pages/166.md) · [p. 167](../pages/167.md) · [p. 170](../pages/170.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [ADFGVX Cipher](../../README.md) · [All cases](../README.md) · [Source certificate](../../experiments/p170_continuation/military_records.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 The three-part report on p166 and two-part report p170 B describe Serbian cavalry entering towns, German formations marching north and preparations to transport the Alpenkorps. Our comparison with the p167 reception restores the **twenty-coordinate prefix** missing from p166 part 3 and recovers its order footer. The readings use the published **Nov7–9** key.
@@ -224,3 +233,6 @@ The verifiers check **six records and 1,248 received source slots**, the copied 
 Source images: [p166 A](../../sources/excerpts/childs_p166_A_military.png), [p167 A](../../sources/excerpts/childs_p167_A_military.png), [p170 B](../../sources/excerpts/childs_p170_B_military.png). They come from printed pp. 166, 167 and 170 / PDF pp. 169, 170 and 173 of the [Childs scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). The published key's original sources remain in [keys.json](../../data/keys.json).
 
 Source recovery, transcription and edition: **icekylinx and GPT-6 Astra Pro**. Period-key recovery retains the [original credits](../../data/keys.json).
+
+</details>
+<!-- CASE-EDITION:END -->

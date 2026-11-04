@@ -1,5 +1,14 @@
 # Tiflis: request to repeat an encrypted telegram
 
+The addressee at Tiflis is asked to repeat an encrypted telegram of 21 October. The routing and closing references remain literal.
+
+**Complete edition by printed page:** [p. 77](../pages/077.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -104,3 +113,6 @@ again. Complete [inputs](../../experiments/tiflis_repetition_request/inputs.json
 [certificates](../../experiments/tiflis_repetition_request/certificates.json)
 and [reproduction instructions](../../experiments/tiflis_repetition_request/README.md)
 are available.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -4,29 +4,29 @@
 
 Follow unit movements, evacuation, disarmament, internment, position reporting and army supply requests.
 
-**Historical study:** [An army trying to get home](../../docs/historical-studies/an-army-trying-to-get-home.md).
+**Historical study:** [Withdrawal, transit and internment](../../docs/historical-studies/an-army-trying-to-get-home.md).
 
-## Withdrawal becomes a race against time
+## Ultimatum, transit and provisioning
 
-Read the operational sequence through the Romanian ultimatum, the Hungarian transit instructions and the struggle to provision the departing army.
+The Romanian ultimatum, Hungarian movement instructions and Arad provisioning request document the deadlines, permissions and supplies governing withdrawal. The Arad request specifies 80,000 men and 30,000 animals.
 
-- [The ultimatum reaches the evening report](nov11_romanian_ultimatum_report.md)
-- [Orders for movement through Hungary](hungarian_armistice_instructions.md)
-- [Arad: provisions for 80,000 men and 30,000 animals](danube_arad_witnesses.md)
+- [The Romanian ultimatum in the evening report](nov11_romanian_ultimatum_report.md)
+- [Instructions for movement through Hungary](hungarian_armistice_instructions.md)
+- [Arad provisions: 80,000 men and 30,000 animals](danube_arad_witnesses.md)
 
-## What had to move with the troops
+## Transport and medical provision
 
-Railways, food, hospitals and animals give the withdrawal its material scale. These records turn an order to leave into a set of practical transport problems.
+Transit planning, provisions requests and recommendations for heated sick wagons record preparations for moving personnel. The medical instructions specify stoves, cooking equipment and hot tea for return transports from Turkey.
 
-- [Planning the transit](armistice_transit_planning.md)
-- [Hospital and medical transport](medical_return_transports.md)
-- [Provisions under armistice conditions](armistice_provisions_requests.md)
+- [Transit planning under armistice conditions](armistice_transit_planning.md)
+- [Heated sick wagons and medical return transport](medical_return_transports.md)
+- [Requests for provisions during withdrawal](armistice_provisions_requests.md)
 
-## The limits of military authority
+## Command, internment and unrest
 
-Read the appeal against internment beside the later internment traffic and the reports of unrest. The case pages distinguish the orders, reports and outcomes each telegram actually records.
+Mackensen’s appeal and the internment correspondence concern the conditions under which his forces could return. The separate Kiev reports describe unrest and the soldiers’ council’s stated neutrality.
 
-- [Mackensen appeals to Berlin](mackensen_armistice_appeal.md)
+- [Mackensen’s appeal against internment](mackensen_armistice_appeal.md)
 - [Internment correspondence](mackensen_internment.md)
 - [Kiev unrest and soldiers’ council neutrality](p219_kiev_unrest.md)
 

@@ -1,5 +1,14 @@
 # Crown-cash requests for Arad and a report of banknote shortage
 
+One message requests an advance for Arad following arrangements with the German military mission in Budapest. Another reports that part of the requested crown funds has been remitted and that a severe shortage of banknotes delays the remainder.
+
+**Complete edition by printed page:** [p. 219](../pages/219.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
@@ -222,3 +231,6 @@ The verifier reconstructs the source mapping independently, checks every
 raw position and repair, confirms all unchanged fields and complementary
 within-message support, and inventories every numerical-looking label.
 The optional PDF check verifies the full source hash and every crop pixel.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # German civilians in Constantinople: an enquiry and a diplomatic appeal
 
+An inquiry asks whether German civilians, principally women and children, have left Constantinople, where they have gone and what is known of them. It seeks verification through the Swedish legation, discusses permission for civilians to remain in Turkey, and reports that transport through Ukraine is unavailable.
+
+**Complete edition by printed page:** [p. 221](../pages/221.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
@@ -272,3 +281,6 @@ raw domain and repair, reruns the exhaustive frame comparisons, and
 exactly reencrypts all full candidates. The PDF option checks the complete
 primary scan hash and every crop pixel. No substitution-square label is
 changed by this edition.
+
+</details>
+<!-- CASE-EDITION:END -->

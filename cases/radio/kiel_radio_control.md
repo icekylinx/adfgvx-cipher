@@ -1,5 +1,14 @@
 # Kiel radio-control order — p140 A and p146 A
 
+The four-part order instructs radio stations to come under an officer's immediate control, prevent the reception and distribution of messages from Kiel, and confiscate and destroy texts already received.
+
+**Complete edition by printed page:** [p. 140](../pages/140.md) · [p. 146](../pages/146.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Prior interpretation: J. Rives Childs; George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker. Source comparison and exact repair audit: icekylinx and GPT-6 Astra Pro.**
@@ -82,3 +91,6 @@ python experiments/corpus_extension/verify.py --verify
 ```
 
 A close alignment supports the declared extra-group model; it cannot establish how the historical copying error happened. The original sources remain intact.
+
+</details>
+<!-- CASE-EDITION:END -->

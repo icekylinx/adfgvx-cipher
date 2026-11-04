@@ -1,5 +1,14 @@
 # “First half from the front, second half from the back”
 
+The instruction says to decipher the first half from the front and the second half from the back. Two equally priced source variants preserve the same instruction and differ in the closing station label.
+
+**Complete edition by printed page:** [p. 138](../pages/138.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -248,3 +257,6 @@ also published in George Lasry's [2017-02-24 comment 4](https://scienceblogs.de/
 Earlier unreviewed OCR and insertion-only candidates existed. No explicit
 p138 B body example was found in the bounded author-paper review; no universal
 first-decipherment priority is claimed.
+
+</details>
+<!-- CASE-EDITION:END -->

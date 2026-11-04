@@ -1,5 +1,14 @@
 # Constantinople addresses, signatures and receipt instructions
 
+Three first parts preserve addresses to the embassy at Pera, the military mission at Constantinople and the German chargé d'affaires. One requests acknowledgment by an officer; the missing continuations are not supplied.
+
+**Complete edition by printed page:** [p. 147](../pages/147.md) · [p. 148](../pages/148.md) · [p. 156](../pages/156.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Three visible first parts, containing addresses, signatures and receipt instructions. Their headings announce two or three parts, but no missing continuation payload is claimed recovered here.
@@ -82,3 +91,6 @@ p147 C1 and p156 C1 need no source edits. None of these records has a coordinate
 [The input record](../../experiments/constantinople_address_parts/inputs.json) preserves all manual rows, literal irregular glyphs, source headers and crop-rendering metadata. [The certificate](../../experiments/constantinople_address_parts/certificates.json) retains all coordinate changes, masks, symbol domains, digit/J/Q/Y labels and round trips. Global witnesses demonstrate consistency only; they do not recover a unique original.
 
 [The README](../../experiments/constantinople_address_parts/README.md) provides portable verifier commands, including exact source-crop pixel regeneration from the pinned full scan. Prior candidates and specific earlier source editions are distinguished; the bounded literature check is not a universal priority claim.
+
+</details>
+<!-- CASE-EDITION:END -->

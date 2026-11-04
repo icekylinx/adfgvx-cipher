@@ -8,63 +8,63 @@ Jump to page: [p225](#p225) · [p226](#p226) · [p227](#p227) · [p228](#p228) �
 
 This range contains 29 sources, including 0 OPEN. [Reading states](../../../docs/reading-conventions.md#catalogue-states).
 
-## p225
+## [p225](../225.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p225 A](../../radio/late_november_cipher_instructions.md) | READING | November key material retained because December tables are absent |
-| [p225 B1](../../military/regimental_journey_report.md#p225-b1) | PARTIAL | Regimental transport fields and minor interruptions, first part |
-| [p225 B2](../../military/regimental_journey_report.md#p225-b2) | CONDITIONAL | Journey via literal route labels and arrival with assistance |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p225 A](../225.md#source-p225-a) | READING | November key material retained because December tables are absent | [Meaning](../../radio/late_november_cipher_instructions.md) |
+| [p225 B1](../225.md#source-p225-b1) | PARTIAL | Regimental transport fields and minor interruptions, first part | [Meaning](../../military/regimental_journey_report.md) |
+| [p225 B2](../225.md#source-p225-b2) | CONDITIONAL | Journey via literal route labels and arrival with assistance | [Meaning](../../military/regimental_journey_report.md) |
 
-## p226
+## [p226](../226.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p226 A2](../../radio/radio_traffic_transfer_fragment.md#p226-a2) | CONDITIONAL | Radio-traffic transfer at Grosswardein |
-| [p226 B2](../../radio/late_november_cipher_instructions.md) | READING | Numerical sequences read backward; missing first part |
-| [p226 C1](../../military/mackensen_internment.md) | READING | Mackensen internment: Entente demands and withdrawal assurances |
-| [p226 C2](../../military/mackensen_internment.md) | READING | Internment explained as a response to continued marching orders |
-| [p226 C3](../../military/mackensen_internment.md) | CONDITIONAL | Promise of decent internment conditions and eventual return |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p226 A2](../226.md#source-p226-a2) | CONDITIONAL | Radio-traffic transfer at Grosswardein | [Meaning](../../radio/radio_traffic_transfer_fragment.md) |
+| [p226 B2](../226.md#source-p226-b2) | READING | Numerical sequences read backward; missing first part | [Meaning](../../radio/late_november_cipher_instructions.md) |
+| [p226 C1](../226.md#source-p226-c1) | READING | Mackensen internment: Entente demands and withdrawal assurances | [Meaning](../../military/mackensen_internment.md) |
+| [p226 C2](../226.md#source-p226-c2) | READING | Internment explained as a response to continued marching orders | [Meaning](../../military/mackensen_internment.md) |
+| [p226 C3](../226.md#source-p226-c3) | CONDITIONAL | Promise of decent internment conditions and eventual return | [Meaning](../../military/mackensen_internment.md) |
 
-## p227
+## [p227](../227.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p227 A4](../../military/mackensen_internment.md) | READING | Preserve calm and order during Mackensen internment |
-| [p227 B](../../radio/late_november_cipher_instructions.md) | READING | Send telegrams for the army and subordinate formations directly |
-| [p227 D](../../military/avoid_fighting_instruction.md#p227-d) | CONDITIONAL | An order to avoid fighting, with further instructions to follow |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p227 A4](../227.md#source-p227-a4) | READING | Preserve calm and order during Mackensen internment | [Meaning](../../military/mackensen_internment.md) |
+| [p227 B](../227.md#source-p227-b) | READING | Send telegrams for the army and subordinate formations directly | [Meaning](../../radio/late_november_cipher_instructions.md) |
+| [p227 D](../227.md#source-p227-d) | CONDITIONAL | An order to avoid fighting, with further instructions to follow | [Meaning](../../military/avoid_fighting_instruction.md) |
 
-## p228
+## [p228](../228.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p228 A](../../military/nov30_aviation_march_destination.md#p228-a) | CONDITIONAL | Aviation staff and army aviation park march destinations |
-| [p228 B1](../../military/neuhof_demobilization.md) | CONDITIONAL | Flak unit directed to demobilization at Neuhof south of Fulda |
-| [p228 B2](../../military/p228_demobilization_fragment.md) | CONDITIONAL | Neuhof demobilization continuation: deputy-command district and formations |
-| [p228 B3](../../military/neuhof_demobilization.md) | READING | Field-army routing instruction directs the subject to Neuhof |
-| [p228 C1](../../radio/late_november_cipher_instructions.md) | READING | December key agreement involving UKS, ZOEN and BSL |
-| [p228 C2](../../radio/late_november_cipher_instructions.md) | READING | Use the same key in BSL–UKS traffic; UKS agrees |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p228 A](../228.md#source-p228-a) | CONDITIONAL | Aviation staff and army aviation park march destinations | [Meaning](../../military/nov30_aviation_march_destination.md) |
+| [p228 B1](../228.md#source-p228-b1) | CONDITIONAL | Flak unit directed to demobilization at Neuhof south of Fulda | [Meaning](../../military/neuhof_demobilization.md) |
+| [p228 B2](../228.md#source-p228-b2) | CONDITIONAL | Neuhof demobilization continuation: deputy-command district and formations | [Meaning](../../military/p228_demobilization_fragment.md) |
+| [p228 B3](../228.md#source-p228-b3) | READING | Field-army routing instruction directs the subject to Neuhof | [Meaning](../../military/neuhof_demobilization.md) |
+| [p228 C1](../228.md#source-p228-c1) | READING | December key agreement involving UKS, ZOEN and BSL | [Meaning](../../radio/late_november_cipher_instructions.md) |
+| [p228 C2](../228.md#source-p228-c2) | READING | Use the same key in BSL–UKS traffic; UKS agrees | [Meaning](../../radio/late_november_cipher_instructions.md) |
 
-## p229
+## [p229](../229.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p229 A1](../../military/late_transport_dispatches.md) | CONDITIONAL | Evening report on Tiszafoldvar advance and unchanged accommodation areas |
-| [p229 A2](../../military/late_transport_dispatches.md) | PARTIAL | Rail traffic on the proposed Arad-Szolnok line halted by Hungarian instruction |
-| [p229 A3](../../military/late_transport_dispatches.md) | READING | Planned loadings have not yet taken place after the transport halt |
-| [p229 B1](../../military/late_transport_dispatches.md) | CONDITIONAL | OHL requests direct inquiry to the army about releasing motor columns |
-| [p229 B2](../../military/late_transport_dispatches.md) | CONDITIONAL | Continuation asking how many further columns can be made available |
-| [p229 C](../../military/late_transport_dispatches.md) | CONDITIONAL | Aviation detachment query, proposed Craiova park and replenishment instruction |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p229 A1](../229.md#source-p229-a1) | CONDITIONAL | Evening report on Tiszafoldvar advance and unchanged accommodation areas | [Meaning](../../military/late_transport_dispatches.md) |
+| [p229 A2](../229.md#source-p229-a2) | PARTIAL | Rail traffic on the proposed Arad-Szolnok line halted by Hungarian instruction | [Meaning](../../military/late_transport_dispatches.md) |
+| [p229 A3](../229.md#source-p229-a3) | READING | Planned loadings have not yet taken place after the transport halt | [Meaning](../../military/late_transport_dispatches.md) |
+| [p229 B1](../229.md#source-p229-b1) | CONDITIONAL | OHL requests direct inquiry to the army about releasing motor columns | [Meaning](../../military/late_transport_dispatches.md) |
+| [p229 B2](../229.md#source-p229-b2) | CONDITIONAL | Continuation asking how many further columns can be made available | [Meaning](../../military/late_transport_dispatches.md) |
+| [p229 C](../229.md#source-p229-c) | CONDITIONAL | Aviation detachment query, proposed Craiova park and replenishment instruction | [Meaning](../../military/late_transport_dispatches.md) |
 
-## p230
+## [p230](../230.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p230 A3](../../military/p230_A.md) | CONDITIONAL | Division locations near Hermannstadt and Muehlbach |
-| [p230 A4](../../military/p230_A.md) | CONDITIONAL | Forces near Kronstadt and Fogaras; OKM headquarters moves |
-| [p230 B](../../radio/nov30_radio_personnel.md#p230-b) | READING | Inspection and War Ministry notified |
-| [p230 C](../../radio/nov30_radio_personnel.md#p230-c) | CONDITIONAL | Station dismantling notice with a printed variant |
-| [p230 D](../../radio/nov30_radio_personnel.md#p230-d) | CONDITIONAL | Tiflis radio and construction personnel inquiry |
-| [p230 E](../../radio/nov30_radio_personnel.md#p230-e) | READING | Request for timely internment notification |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p230 A3](../230.md#source-p230-a3) | CONDITIONAL | Division locations near Hermannstadt and Muehlbach | [Meaning](../../military/p230_A.md) |
+| [p230 A4](../230.md#source-p230-a4) | CONDITIONAL | Forces near Kronstadt and Fogaras; OKM headquarters moves | [Meaning](../../military/p230_A.md) |
+| [p230 B](../230.md#source-p230-b) | READING | Inspection and War Ministry notified | [Meaning](../../radio/nov30_radio_personnel.md) |
+| [p230 C](../230.md#source-p230-c) | CONDITIONAL | Station dismantling notice with a printed variant | [Meaning](../../radio/nov30_radio_personnel.md) |
+| [p230 D](../230.md#source-p230-d) | CONDITIONAL | Tiflis radio and construction personnel inquiry | [Meaning](../../radio/nov30_radio_personnel.md) |
+| [p230 E](../230.md#source-p230-e) | READING | Request for timely internment notification | [Meaning](../../radio/nov30_radio_personnel.md) |
 
 [Return to all source pages](../README.md).

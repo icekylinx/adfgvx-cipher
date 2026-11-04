@@ -1,5 +1,14 @@
 # p180 D1 — Evening report on the Romanian evacuation ultimatum
 
+An evening report to Supreme Army Command says a Romanian ultimatum demanding evacuation has not been answered. Its phrase “24 hours before the laying down of arms” remains literal; no exact calendar deadline is inferred.
+
+**Complete edition by printed page:** [p. 180](../pages/180.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Recovery and source review: icekylinx and GPT-6 Astra Pro.** Restoring a
@@ -100,3 +109,6 @@ Ingo Niebel, Nils Kopal and Arno Wacker, and Lasry's 2017 key list. The earlier
 unreviewed OCR fragment is preserved separately. This source transcription,
 frame restoration and evening-report reading are by
 **icekylinx and GPT-6 Astra Pro**.
+
+</details>
+<!-- CASE-EDITION:END -->

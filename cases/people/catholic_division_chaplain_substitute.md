@@ -1,5 +1,14 @@
 # No substitute for the Catholic divisional chaplain
 
+The proposed wording says that providing a substitute or cover for the Catholic divisional chaplain there is not possible. It retains the literal OKM and RM2C designation and reference 38029; it does not name a chaplain or explain the reason.
+
+**Complete edition by printed page:** [p. 103](../pages/103.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p103 A
@@ -49,3 +58,6 @@ All indices are zero-based.
 The [input](../../experiments/nov1_nov2_native_dispatches/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/nov1_nov2_native_dispatches/certificates.json) contains the raw paired-coordinate domains, each source change and the forward checks. The [verifier](../../experiments/nov1_nov2_native_dispatches/verify.py) checks the unchanged published keys and the live German quotations, retaining all numerical and letter labels.
 
 Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/nov1_nov2_native_dispatches/prior_candidates.json).
+
+</details>
+<!-- CASE-EDITION:END -->

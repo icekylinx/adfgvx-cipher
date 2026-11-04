@@ -1,5 +1,14 @@
 # Tiraspol fragment: fire at the border
 
+The surviving second part reports that Tiraspol received machine-gun fire at the border. Its opening continuation and closing command references are retained as transmitted.
+
+**Complete edition by printed page:** [p. 162](../pages/162.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Source edition and verification: **icekylinx and GPT-6 Astra Pro**.
@@ -58,3 +67,6 @@ and [reproduction guide](../../experiments/nov8_map_and_boundary/README.md).
 No first historical decipherment priority is claimed.
 
 A later [p162/p166 source-family collation](../radio/nov9_wire_return_source_family.md) conditionally restores the p162 C1 prefix from the independently observed p166 copy and supplies a received-coordinate witness for this C2 dash fill. The original raw, edited and readable displays above remain unchanged.
+
+</details>
+<!-- CASE-EDITION:END -->

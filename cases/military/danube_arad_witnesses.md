@@ -1,5 +1,14 @@
 # November 9: Danube report and Arad provisions
 
+Independent receptions restore two reports: the 219th Infantry Division's Danube crossing near Belgrade, and the Arad request for provisions and trains for 80,000 men and 30,000 animals. The copies provide direct support for missing characters and strengthen the formation and strength readings.
+
+**Complete edition by printed page:** [p. 164](../pages/164.md) · [p. 168](../pages/168.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 These reports received on 9 November concern a Danube crossing and provisions at Arad for **80,000 men and 30,000 animals**. Source comparison restores a misread Danube-report glyph and eleven coordinates missing from the earlier Arad copy. The readings use the published **Nov7–9** key.
@@ -201,3 +210,6 @@ python experiments/danube_arad_witnesses/verify.py --verify --pdf /path/to/child
 The verifier checks the exact displayed streams, coordinate origins, repair
 prices, both global footer assignments and re-encryption. The optional PDF
 check reproduces all reviewed source pixels.
+
+</details>
+<!-- CASE-EDITION:END -->

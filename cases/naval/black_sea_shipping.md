@@ -1,5 +1,14 @@
 # Supply cargo at Nikolaev and the sale of Corcovado
 
+Five source records recover two distinct messages intercepted on November 15, 1918. The first reports on steamers and goods at Nikolaev and asks what the recipient intends to do as circumstances change.
+
+**Complete edition by printed page:** [p. 199](../pages/199.md) · [p. 200](../pages/200.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
@@ -274,3 +283,6 @@ results, all five gap ties, and each exact repair. It checks the separate
 conditional `FX=Y` hypothesis against 21 variants, retaining all effects:
 there are no newly fixed raw letters, only listed domain reductions. No
 published key file is changed.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # p176 A6 — Conditional coal-train continuation via Klausenburg
 
+The partial continuation concerns coal trains via Klausenburg. A repeated place-name comparison extends the readable text, while the routing field and later tail remain incomplete.
+
+**Complete edition by printed page:** [p. 176](../pages/176.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Partial word proposal and source review: icekylinx and GPT-6 Astra Pro.**
@@ -144,3 +153,6 @@ Arno Wacker, and Lasry's 2017 key list. Norbert and Max Baertl retain their
 specific credit for the separate existing part-4 proposal. The earlier A5
 edition and source review, and this new A6 contextual partial proposal, are
 by **icekylinx and GPT-6 Astra Pro**.
+
+</details>
+<!-- CASE-EDITION:END -->

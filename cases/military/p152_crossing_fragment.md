@@ -1,5 +1,14 @@
 # p152 A2 — Proposed report on crossing attempts
 
+The proposed wording reports no crossing attempts as far as the damaged place name VARC8IORO?A. A historical spelling provides a comparison with Vercsiorova, without turning the unresolved label into an unqualified identification.
+
+**Complete edition by printed page:** [p. 152](../pages/152.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and partial word edition: icekylinx and GPT-6 Astra Pro.** The unchanged 128-slot frame gives 61/64 fixed native labels. Seven observed-coordinate substitutions and two printed-mask fills give a proposed 63/64-position reading about crossing attempts. The negative KEINE is part of that proposed repair, not a native source-fixed statement.
@@ -82,3 +91,6 @@ python experiments/p152_crossing_fragment/verify.py --verify
 python experiments/p152_crossing_fragment/verify.py --verify --pdf /path/to/childs.pdf
 python experiments/p152_crossing_fragment/verify.py --verify --attestation-pdf /path/to/EPA02181_Termeszettudomanyi_kozlony_1896_154-160.pdf
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Rail stoppage, motor columns and aviation replenishment
 
+These dispatches concern delayed train loadings and the movements of aviation units. An inquiry seeks the flight detachment's whereabouts, gives Craiova as its march destination, and requests completion of transferred units' prescribed strength.
+
+**Complete edition by printed page:** [p. 229](../pages/229.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
@@ -275,3 +284,6 @@ python experiments/late_transport_dispatches/verify.py --verify
 
 With the pinned source PDF, the optional `--pdf` argument also regenerates
 and compares the delivered crop pixels.
+
+</details>
+<!-- CASE-EDITION:END -->

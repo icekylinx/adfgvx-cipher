@@ -1,5 +1,14 @@
 # Naval inquiry: has the referenced SKL item arrived?
 
+The message asks whether the item identified by **SKL BNR GG 546 ROEM 3** has arrived.
+
+**Complete edition by printed page:** [p. 108](../pages/108.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -59,3 +68,6 @@ candidate. Bounded prior-publication checks do not establish historical
 priority, and no first-solution claim is made. See the
 [inputs](../../experiments/p108_naval_and_personnel/inputs.json) and
 [reproduction instructions](../../experiments/p108_naval_and_personnel/README.md).
+
+</details>
+<!-- CASE-EDITION:END -->

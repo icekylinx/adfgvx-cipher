@@ -1,5 +1,14 @@
 # Bridges and the wire connection through Budapest
 
+The report describes an interruption of the wire connection through Budapest. A separately received companion asks about direct communication while that link is unavailable.
+
+**Complete edition by printed page:** [p. 100](../pages/100.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -95,3 +104,6 @@ The key is credited to **George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker**
 with full prior-key provenance in the input record. Earlier unreviewed OCR
 candidates existed. No first-decipherment priority is claimed from the
 bounded absence of an explicit body example in the author-paper review.
+
+</details>
+<!-- CASE-EDITION:END -->

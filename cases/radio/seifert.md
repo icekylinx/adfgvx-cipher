@@ -1,5 +1,14 @@
 # Station control and the Seifert service exchange
 
+The service traffic reports on station control, personnel, arrivals and readiness, with repeated short monitoring instructions. The separate Seifert messages preserve the ordinary work of keeping radio links running during withdrawal.
+
+**Complete edition by printed page:** [p. 168](../pages/168.md) · [p. 169](../pages/169.md) · [p. 172](../pages/172.md) · [p. 174](../pages/174.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [ADFGVX Cipher](../../README.md) · [All cases](../README.md) · [Source certificate](../../experiments/p170_continuation/seifert_records.json) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Nine source records, seven message groups.** The November 7–9 and November 10–12 published keys recover a sequence of radio-station reports and short service messages. Two pairs are repeated transmissions. These records are outside the original 22-entry challenge; the open p170 challenge is section **A**, not any of these neighboring records.
@@ -231,3 +240,6 @@ The independent verifier checks **913 source slots**, every source-preserving fi
 - **J. Rives Childs collection:** printed pp. 168, 169, 172 and 174; PDF pp. 171, 172, 175 and 177 in the [public scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). The certificate retains its hash and the exact section headers.
 - **George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker:** *Deciphering ADFGVX messages from the Eastern Front of World War I*, [author manuscript](https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf), printed p. 23 / PDF p. 24. This earlier work explicitly identifies the p168 A/B station-control reports; it also credits Childs's wartime decipherment of the Cologne message. The present edition does not reassign that priority.
 - **Published keys:** [key catalog](../../data/keys.json), entries `Nov7-9` and `Nov10-12`, retaining original table and solver provenance.
+
+</details>
+<!-- CASE-EDITION:END -->

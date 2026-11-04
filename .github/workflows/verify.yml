@@ -32,6 +32,10 @@ jobs:
         run: |
           python -m adfgvx.catalog --check
           python -m adfgvx.navigation --check
+          python -m adfgvx.case_views --check
+          python -m adfgvx.page_editions --check
+          python -m unittest discover -s tests -p test_case_views.py
+          python -m unittest discover -s tests -p test_page_editions.py
           python -m unittest discover -s tests -p test_source_gap_evidence.py
           python data/reviews/check_reading_presentation.py
           python data/reviews/verify_live_readable_mappings.py

@@ -1,5 +1,14 @@
 # p217 B2 — Report sent by teleprinter via Budapest
 
+This situation report was also sent by teleprinter through Budapest. Its surviving passages concern the movements and transport of withdrawing troops.
+
+**Complete edition by printed page:** [p. 217](../pages/217.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review: icekylinx and GPT-6 Astra Pro.** The complete native stream
@@ -60,3 +69,6 @@ Published period key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker
 (2016), and George Lasry's 2017 key list. The earlier repository OCR candidate
 already recognized the teleprinter sentence. The present source review and
 complete exact edition are by **icekylinx and GPT-6 Astra Pro**.
+
+</details>
+<!-- CASE-EDITION:END -->

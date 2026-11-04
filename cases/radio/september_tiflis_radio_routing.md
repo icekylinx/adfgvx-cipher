@@ -1,5 +1,14 @@
 # September: direct radio routing to Tiflis
 
+Subject to Akonach approval, all messages for Tiflis are to be transmitted directly from there by blind transmission until further notice. The repeated TIFLIS is retained; this is an instruction, not evidence that the transmissions took place.
+
+**Complete edition by printed page:** [p. 57](../pages/057.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -142,3 +151,6 @@ establishing whether that practice was carried out.
 The unchanged published key retains its original recovery credit. Earlier unreviewed repository OCR screens split the p57 parts across the wrong boundaries and did not produce these readable texts; the relevant prior rows are retained. This comparison does not establish an external first-decipherment claim.
 
 [Inputs](../../experiments/september_radio_instructions/inputs.json), [positional certificates](../../experiments/september_radio_instructions/certificates.json), [earlier screens](../../experiments/september_radio_instructions/prior_candidates.json) and [reproduction](../../experiments/september_radio_instructions/README.md) preserve the complete evidence.
+
+</details>
+<!-- CASE-EDITION:END -->

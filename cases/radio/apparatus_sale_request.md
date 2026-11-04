@@ -1,5 +1,14 @@
 # Sale of communication apparatus: p157 B1–B2
 
+It says the Romanians want to buy Siemens teleprinters and telephone apparatus, and requests permission and a sale price by radio.
+
+**Complete edition by printed page:** [p. 157](../pages/157.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Two readable source parts, with one final source-erased symbol still unresolved.
@@ -77,3 +86,6 @@ There are **zero added or deleted coordinates, block reorders, baseline key chan
 The [input record](../../experiments/apparatus_sale_request/inputs.json) contains the literal manual rows, original headers and full crop-rendering provenance. The [experiment README](../../experiments/apparatus_sale_request/README.md) gives the default verification and optional exact PDF-pixel comparison commands.
 
 A bounded check of the author paper and the cached complete2017 discussion found no explicit prior body identification for these particular records. Earlier machine-derived body leads remain credited, and this check is not a universal priority search.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # A staff officer's assignment to Breslau
 
+The order concerns Major Strzemieczny's assignment to special employment with the VI Army Corps command at Breslau.
+
+**Complete edition by printed page:** [p. 224](../pages/224.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and recovery: icekylinx and GPT-6 Astra Pro.**
@@ -232,3 +241,6 @@ The verifier reconstructs the column mapping independently, checks every
 plaintext position and exact repair, audits the complete label inventory,
 and confirms that the three interpretation fields remain untouched.
 The PDF options verify both full source hashes and all retained crop pixels.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Siegfried's assignment to the Military Mission is cancelled
 
+Regarding 45610 and the posting of Oberleutnant Siegfried to Turkey, the message cancels his assignment to the Military Mission. AKO follows.
+
+**Complete edition by printed page:** [p. 135](../pages/135.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -154,3 +163,6 @@ makes no historical first-decipherment claim.
 [prior screens](../../experiments/siegfried_assignment_cancellation/prior_candidates.json)
 and [reproduction](../../experiments/siegfried_assignment_cancellation/README.md)
 provide the complete evidence.
+
+</details>
+<!-- CASE-EDITION:END -->

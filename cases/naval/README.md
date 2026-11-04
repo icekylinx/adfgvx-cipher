@@ -4,23 +4,23 @@
 
 Shipping safety, Black Sea cargo, ship-sale conditions, troop embarkation and naval orders are collected here.
 
-**Historical study:** [The Black Sea network runs in reverse](../../docs/historical-studies/black-sea-network.md).
+**Historical study:** [Black Sea shipping and disposal](../../docs/historical-studies/black-sea-network.md).
 
-## Cargo and the changing purpose of ships
+## Cargo, loading and release
 
-The same shipping network carries supplies, commercial cargo and people trying to leave. Begin with the Black Sea shipping messages and the Poti loading instruction.
+Reports from Nikolaev and Poti concern cargo on hand, loading opportunities and the release of supplies. Tobacco ready for loading and an inquiry about oil establish availability or a requested decision, without establishing that either consignment departed.
 
-- [Black Sea shipping and cargo](black_sea_shipping.md)
-- [Loading tobacco at Poti](nov3_poti_tobacco_loading.md)
-- [A query about releasing oil](gerlach_oil_release_query.md)
+- [Nikolaev supply cargo and shipping decisions](black_sea_shipping.md)
+- [Tobacco awaiting loading at Poti](nov3_poti_tobacco_loading.md)
+- [An inquiry about releasing oil](gerlach_oil_release_query.md)
 
-## Sale, seizure and control
+## Ship sales, payment and authority
 
-Ship-sale terms reveal who could authorize a sale, how payment was to work and which rights the German side wanted to retain.
+The proposed Corcovado terms allocate seizure and nonpayment risks. Other Turkish purchase proposals require immediate payment and authorization; naval armistice instructions provide a separate record of command requirements.
 
-- [The Corcovado sale terms](corcovado_sale_terms.md)
-- [Proposed Turkish purchases](turkish_tonnage.md)
-- [The naval armistice order](naval_armistice_order.md)
+- [Proposed Corcovado sale terms](corcovado_sale_terms.md)
+- [Turkish tonnage purchases and authorization](turkish_tonnage.md)
+- [Naval armistice instructions](naval_armistice_order.md)
 
 ## Complete source index
 

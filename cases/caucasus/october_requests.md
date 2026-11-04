@@ -1,5 +1,14 @@
 # October routing, weather and personnel requests
 
+The records ask Westernhagen to return for an urgent discussion of market conditions, transmit requests concerning weather and an inspector, and preserve an exact Sofia service message. The purchasing request stresses that reliable local information is needed before buying begins.
+
+**Complete edition by printed page:** [p. 62](../pages/062.md) · [p. 63](../pages/063.md) · [p. 65](../pages/065.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Four source-reviewed records under the previously published
@@ -226,3 +235,6 @@ printed interpretation of the four records above is not a first-decipherment
 claim. The differing headings, origin fields and reception dates remain
 separate source fields. None of these records establishes p73's date,
 plaintext or key.
+
+</details>
+<!-- CASE-EDITION:END -->

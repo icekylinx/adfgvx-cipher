@@ -8,209 +8,209 @@ Jump to page: [p125](#p125) · [p126](#p126) · [p127](#p127) · [p128](#p128) �
 
 This range contains 80 sources, including 2 OPEN. [Reading states](../../../docs/reading-conventions.md#catalogue-states).
 
-## p125
+## [p125](../125.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p125 A1](../../military/armistice_transit_planning.md) | READING | Armistice terms learned from Hungarian newspapers |
-| [p125 A2](../../military/armistice_transit_planning.md) | READING | Fifteen-day transit right and intended disposition of the 11th Army |
-| [p125 A3](../../military/armistice_transit_planning.md) | READING | Wallachia evacuation and right-flank withdrawal between Theiss and mountains |
-| [p125 A4](../../military/armistice_transit_planning.md) | PARTIAL | Reported Entente railway transport and strategic-point occupation rights |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p125 A1](../125.md#source-p125-a1) | READING | Armistice terms learned from Hungarian newspapers | [Meaning](../../military/armistice_transit_planning.md) |
+| [p125 A2](../125.md#source-p125-a2) | READING | Fifteen-day transit right and intended disposition of the 11th Army | [Meaning](../../military/armistice_transit_planning.md) |
+| [p125 A3](../125.md#source-p125-a3) | READING | Wallachia evacuation and right-flank withdrawal between Theiss and mountains | [Meaning](../../military/armistice_transit_planning.md) |
+| [p125 A4](../125.md#source-p125-a4) | PARTIAL | Reported Entente railway transport and strategic-point occupation rights | [Meaning](../../military/armistice_transit_planning.md) |
 
-## p126
+## [p126](../126.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p126 A5](../../military/armistice_transit_planning.md) | CONDITIONAL | Conditional pretransposition-loss reading of the armistice report and march decision |
-| [p126 A6](../../military/armistice_transit_planning.md) | PARTIAL | Urgent request for the actual armistice agreement |
-| [p126 B](../../military/armistice_transit_planning.md) | READING | Separate receipt notification retaining literal OHL/OKM reference labels |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p126 A5](../126.md#source-p126-a5) | CONDITIONAL | Conditional pretransposition-loss reading of the armistice report and march decision | [Meaning](../../military/armistice_transit_planning.md) |
+| [p126 A6](../126.md#source-p126-a6) | PARTIAL | Urgent request for the actual armistice agreement | [Meaning](../../military/armistice_transit_planning.md) |
+| [p126 B](../126.md#source-p126-b) | READING | Separate receipt notification retaining literal OHL/OKM reference labels | [Meaning](../../military/armistice_transit_planning.md) |
 
-## p127
+## [p127](../127.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p127 A3](../../military/nov4_march_air_reconnaissance.md#p127-a3) | CONDITIONAL | March and aerial reconnaissance report |
-| [p127 B1](../../radio/nov4_personnel_transmission_notice.md#p127-b1) | PARTIAL | Existing personnel and agreed radio transmissions |
-| [p127 B2](../../open/p127_B2.md) | OPEN | Heavily erased second part from NKJ |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p127 A3](../127.md#source-p127-a3) | CONDITIONAL | March and aerial reconnaissance report | [Meaning](../../military/nov4_march_air_reconnaissance.md) |
+| [p127 B1](../127.md#source-p127-b1) | PARTIAL | Existing personnel and agreed radio transmissions | [Meaning](../../radio/nov4_personnel_transmission_notice.md) |
+| [p127 B2](../127.md#source-p127-b2) | OPEN | Heavily erased second part from NKJ | [Meaning](../../open/p127_B2.md) |
 
-## p128
+## [p128](../128.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p128 A1](../../radio/telegram_priority.md) | READING | Missing replies to telegrams 569, 592, 598; requests brief plaintext instructions |
-| [p128 A2](../../radio/telegram_priority.md) | PARTIAL | Suggest explicit radio priority for these telegrams; literal Horstmann signature |
-| [p128 B1](../../military/transylvania_situation_report.md#p128-b1) | READING | Military situation after the collapse in Transylvania and Hungary’s armistice |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p128 A1](../128.md#source-p128-a1) | READING | Missing replies to telegrams 569, 592, 598; requests brief plaintext instructions | [Meaning](../../radio/telegram_priority.md) |
+| [p128 A2](../128.md#source-p128-a2) | PARTIAL | Suggest explicit radio priority for these telegrams; literal Horstmann signature | [Meaning](../../radio/telegram_priority.md) |
+| [p128 B1](../128.md#source-p128-b1) | READING | Military situation after the collapse in Transylvania and Hungary’s armistice | [Meaning](../../military/transylvania_situation_report.md) |
 
-## p129
+## [p129](../129.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p129 A7](../../military/transylvania_situation_report.md#p129-a7) | READING | Request concerning the unknown general political situation and a possible armistice |
-| [p129 A8](../../military/transylvania_situation_report.md#p129-a8) | READING | Request for acknowledgment; raw secret reference retained |
-| [p129 B1](../../finance/military_allowances.md#p129-b1) | READING | Meal allowances judged excessive and Swedish rates rejected as a standard |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p129 A7](../129.md#source-p129-a7) | READING | Request concerning the unknown general political situation and a possible armistice | [Meaning](../../military/transylvania_situation_report.md) |
+| [p129 A8](../129.md#source-p129-a8) | READING | Request for acknowledgment; raw secret reference retained | [Meaning](../../military/transylvania_situation_report.md) |
+| [p129 B1](../129.md#source-p129-b1) | READING | Meal allowances judged excessive and Swedish rates rejected as a standard | [Meaning](../../finance/military_allowances.md) |
 
-## p130
+## [p130](../130.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p130 A1](../../military/turkish_mission_recall.md#p130-a1) | READING | Contract-bound military-mission members included in recall |
-| [p130 A2](../../military/turkish_mission_recall.md#p130-a2) | READING | Recall under a cited Liman von Sanders contract article |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p130 A1](../130.md#source-p130-a1) | READING | Contract-bound military-mission members included in recall | [Meaning](../../military/turkish_mission_recall.md) |
+| [p130 A2](../130.md#source-p130-a2) | READING | Recall under a cited Liman von Sanders contract article | [Meaning](../../military/turkish_mission_recall.md) |
 
-## p131
+## [p131](../131.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p131 A3](../../military/turkish_mission_recall.md#p131-a3) | PARTIAL | Arrange return and report whereabouts after reaching Germany |
-| [p131 A4](../../military/turkish_mission_recall.md#p131-a4) | READING | Notification and Military Cabinet closing |
-| [p131 B](../../people/kremp.md) | PARTIAL | Kremp asks for his departure date |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p131 A3](../131.md#source-p131-a3) | PARTIAL | Arrange return and report whereabouts after reaching Germany | [Meaning](../../military/turkish_mission_recall.md) |
+| [p131 A4](../131.md#source-p131-a4) | READING | Notification and Military Cabinet closing | [Meaning](../../military/turkish_mission_recall.md) |
+| [p131 B](../131.md#source-p131-b) | PARTIAL | Kremp asks for his departure date | [Meaning](../../people/kremp.md) |
 
-## p132
+## [p132](../132.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p132 A](../../radio/p132_radio_service.md) | PARTIAL | Partial officer-register request; addressee and general-name fields remain unresolved |
-| [p132](../../p132.md) | CONDITIONAL | Repeat-transmission instructions for Eilvese |
-| [p132 C](../../radio/p132_radio_service.md) | READING | Request repetition of a garbled Caucasus message; raw OSKACHI reference retained |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p132 A](../132.md#source-p132-a) | PARTIAL | Partial officer-register request; addressee and general-name fields remain unresolved | [Meaning](../../radio/p132_radio_service.md) |
+| [p132](../132.md#source-p132) | CONDITIONAL | Repeat-transmission instructions for Eilvese | [Meaning](../../p132.md) |
+| [p132 C](../132.md#source-p132-c) | READING | Request repetition of a garbled Caucasus message; raw OSKACHI reference retained | [Meaning](../../radio/p132_radio_service.md) |
 
-## p133
+## [p133](../133.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p133 A2](../../finance/military_allowances.md#p133-a2) | READING | Reduce cash allowances and use field-ration costs |
-| [p133 A3](../../finance/military_allowances.md#p133-a3) | READING | Promote communal purchasing and German dining facilities |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p133 A2](../133.md#source-p133-a2) | READING | Reduce cash allowances and use field-ration costs | [Meaning](../../finance/military_allowances.md) |
+| [p133 A3](../133.md#source-p133-a3) | READING | Promote communal purchasing and German dining facilities | [Meaning](../../finance/military_allowances.md) |
 
-## p134
+## [p134](../134.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p134 A4](../../finance/military_allowances.md#p134-a4) | READING | Requested cost-of-living supplement refused |
-| [p134 B](../../context/radio_instructions.md#p134-b--repeat-a-fourth-period-telegram-in-the-fifth) | PARTIAL | Repeat a fourth-period telegram in the fifth |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p134 A4](../134.md#source-p134-a4) | READING | Requested cost-of-living supplement refused | [Meaning](../../finance/military_allowances.md) |
+| [p134 B](../134.md#source-p134-b) | PARTIAL | Repeat a fourth-period telegram in the fifth | [Meaning](../../context/radio_instructions.md) |
 
-## p135
+## [p135](../135.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p135 A](../../people/siegfried_assignment_cancellation.md#p135-a) | CONDITIONAL | Siegfried assignment cancelled; conditional surplus coordinate before transposition |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p135 A](../135.md#source-p135-a) | CONDITIONAL | Siegfried assignment cancelled; conditional surplus coordinate before transposition | [Meaning](../../people/siegfried_assignment_cancellation.md) |
 
-## p136
+## [p136](../136.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p136 A1](../../people/gokieloff_return_payment_stop.md#p136-a1) | READING | Gokieloff sent back to Georgia; instruction not to transmit money |
-| [p136 A2](../../people/gokieloff_return_payment_stop.md#p136-a2) | READING | Gokieloff sent back to Georgia; instruction not to transmit money |
-| [p136 B1](../../p152.md#raw-p136-b1-parallel-plaintext) | PARTIAL | Silk purchases in the Caucasus; first part |
-| [p136 B2](../../p152.md#raw-continuation-witnesses) | READING | Resell goods whose transport is not assured |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p136 A1](../136.md#source-p136-a1) | READING | Gokieloff sent back to Georgia; instruction not to transmit money | [Meaning](../../people/gokieloff_return_payment_stop.md) |
+| [p136 A2](../136.md#source-p136-a2) | READING | Gokieloff sent back to Georgia; instruction not to transmit money | [Meaning](../../people/gokieloff_return_payment_stop.md) |
+| [p136 B1](../136.md#source-p136-b1) | PARTIAL | Silk purchases in the Caucasus; first part | [Meaning](../../p152.md) |
+| [p136 B2](../136.md#source-p136-b2) | READING | Resell goods whose transport is not assured | [Meaning](../../p152.md) |
 
-## p137
+## [p137](../137.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p137 A4](../../military/transylvania_situation_report.md#p137-a4) | CONDITIONAL | Security measures at Kronstadt/Hermannstadt and intended material transport |
-| [p137 A5](../../military/transylvania_situation_report.md#p137-a5) | CONDITIONAL | Personnel-removal passage; optional military-movement clause |
-| [p137 A6](../../military/p137_publicity_fragment.md#p137-a6) | CONDITIONAL | Conditional publicity word fragments with unresolved polarity and verb |
-| [p137 B](../../radio/p137_station_staff_query.md#p137-b) | CONDITIONAL | Query whether the station is still staffed by its former personnel |
-| [p137 B4](../../military/armistice_clause_witnesses.md#p137-b4) | READING | Independent copy of Entente railway and occupation clause |
-| [p137 C](../../military/armistice_clause_witnesses.md#p137-c) | READING | Repeated receipt with two shared corrupt words |
-| [p137 D](../../radio/radio_contacts_and_keys.md#p137-d-the-oskachi-key-is-no-longer-here) | READING | Tell POT the OSKACHI key is no longer locally available |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p137 A4](../137.md#source-p137-a4) | CONDITIONAL | Security measures at Kronstadt/Hermannstadt and intended material transport | [Meaning](../../military/transylvania_situation_report.md) |
+| [p137 A5](../137.md#source-p137-a5) | CONDITIONAL | Personnel-removal passage; optional military-movement clause | [Meaning](../../military/transylvania_situation_report.md) |
+| [p137 A6](../137.md#source-p137-a6) | CONDITIONAL | Conditional publicity word fragments with unresolved polarity and verb | [Meaning](../../military/p137_publicity_fragment.md) |
+| [p137 B](../137.md#source-p137-b) | CONDITIONAL | Query whether the station is still staffed by its former personnel | [Meaning](../../radio/p137_station_staff_query.md) |
+| [p137 B4](../137.md#source-p137-b4) | READING | Independent copy of Entente railway and occupation clause | [Meaning](../../military/armistice_clause_witnesses.md) |
+| [p137 C](../137.md#source-p137-c) | READING | Repeated receipt with two shared corrupt words | [Meaning](../../military/armistice_clause_witnesses.md) |
+| [p137 D](../137.md#source-p137-d) | READING | Tell POT the OSKACHI key is no longer locally available | [Meaning](../../radio/radio_contacts_and_keys.md) |
 
-## p138
+## [p138](../138.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p138 A1](../../people/osthoff.md) | READING | Osthoff's Turkey posting cancelled, first witness |
-| [p138 A2](../../people/osthoff.md) | PARTIAL | Osthoff reassigned to a railway replacement battalion |
-| [p138 B](../../radio/opposite_end_deciphering.md) | CONDITIONAL | Instruction to decipher first half from front and second half from back; likely 1410(5) reference to p132 B |
-| [p138 C](../../radio/nov6_marine_service_notice.md#completed-reading) | CONDITIONAL | Marine-service notice: Heeresgruppe Kiew and Osmanie unavailable |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p138 A1](../138.md#source-p138-a1) | READING | Osthoff's Turkey posting cancelled, first witness | [Meaning](../../people/osthoff.md) |
+| [p138 A2](../138.md#source-p138-a2) | PARTIAL | Osthoff reassigned to a railway replacement battalion | [Meaning](../../people/osthoff.md) |
+| [p138 B](../138.md#source-p138-b) | CONDITIONAL | Instruction to decipher first half from front and second half from back; likely 1410(5) reference to p132 B | [Meaning](../../radio/opposite_end_deciphering.md) |
+| [p138 C](../138.md#source-p138-c) | CONDITIONAL | Marine-service notice: Heeresgruppe Kiew and Osmanie unavailable | [Meaning](../../radio/nov6_marine_service_notice.md) |
 
-## p139
+## [p139](../139.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p139 A1](../../military/sevastopol_coded_routing.md#p139-a1) | READING | Sevastopol routing amendment opening; SL4475 and FECH53083 references |
-| [p139 A2](../../military/sevastopol_coded_routing.md#p139-a2) | READING | Routing continuation with CUJOMAREMO and twelve opaque five-figure groups |
-| [p139 A3](../../military/sevastopol_coded_routing.md#p139-a3) | READING | Distribution and reference 53689 for the coded routing message |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p139 A1](../139.md#source-p139-a1) | READING | Sevastopol routing amendment opening; SL4475 and FECH53083 references | [Meaning](../../military/sevastopol_coded_routing.md) |
+| [p139 A2](../139.md#source-p139-a2) | READING | Routing continuation with CUJOMAREMO and twelve opaque five-figure groups | [Meaning](../../military/sevastopol_coded_routing.md) |
+| [p139 A3](../139.md#source-p139-a3) | READING | Distribution and reference 53689 for the coded routing message | [Meaning](../../military/sevastopol_coded_routing.md) |
 
-## p140
+## [p140](../140.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p140 A1](../../radio/kiel_radio_control.md) | READING | Take immediate officer control of all radio stations |
-| [p140 A2](../../radio/kiel_radio_control.md) | PARTIAL | Prevent reception and distribution of Kiel messages |
-| [p140 A3](../../radio/kiel_radio_control.md) | PARTIAL | Confiscate and destroy Kiel texts already received |
-| [p140 A4](../../radio/kiel_radio_control.md) | PARTIAL | Urgent handling of the Kiel radio-control order |
-| [p140 B](../../people/glatz.md) | PARTIAL | Enquiry about Glatz's whereabouts |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p140 A1](../140.md#source-p140-a1) | READING | Take immediate officer control of all radio stations | [Meaning](../../radio/kiel_radio_control.md) |
+| [p140 A2](../140.md#source-p140-a2) | PARTIAL | Prevent reception and distribution of Kiel messages | [Meaning](../../radio/kiel_radio_control.md) |
+| [p140 A3](../140.md#source-p140-a3) | PARTIAL | Confiscate and destroy Kiel texts already received | [Meaning](../../radio/kiel_radio_control.md) |
+| [p140 A4](../140.md#source-p140-a4) | PARTIAL | Urgent handling of the Kiel radio-control order | [Meaning](../../radio/kiel_radio_control.md) |
+| [p140 B](../140.md#source-p140-b) | PARTIAL | Enquiry about Glatz's whereabouts | [Meaning](../../people/glatz.md) |
 
-## p141
+## [p141](../141.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p141 A1](../../people/mecklenburg_inquiry.md#p141-a1) | PARTIAL | Mecklenburg legation asks Wagner and Tiflis consulate for answers |
-| [p141 A2](../../people/mecklenburg_inquiry.md#p141-a2) | READING | Questions about a July letter to Herzog Karl Michael and a possible response |
-| [p141 B](../../military/seaplane_personnel_return.md#p141-b) | READING | Return Seeflugstation Ost personnel to second rather than first seaplane detachment |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p141 A1](../141.md#source-p141-a1) | PARTIAL | Mecklenburg legation asks Wagner and Tiflis consulate for answers | [Meaning](../../people/mecklenburg_inquiry.md) |
+| [p141 A2](../141.md#source-p141-a2) | READING | Questions about a July letter to Herzog Karl Michael and a possible response | [Meaning](../../people/mecklenburg_inquiry.md) |
+| [p141 B](../141.md#source-p141-b) | READING | Return Seeflugstation Ost personnel to second rather than first seaplane detachment | [Meaning](../../military/seaplane_personnel_return.md) |
 
-## p142
+## [p142](../142.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p142 A](../../radio/radio_contacts_and_keys.md#p142-a-0430-calling-signal-then-listen-again-at-0645) | READING | Ten minutes of VVV at 0430, then radiograms; listen again at 0645 |
-| [p142 B](../../caucasus/representative_retention.md) | READING | Caucasus BEV K.M. representative at Tiflis is to remain; reference fields retained |
-| [p142 C](../../military/dobrudscha_report.md) | PARTIAL | Request position on Entente report of renewed Romanian occupation of Dobrudscha |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p142 A](../142.md#source-p142-a) | READING | Ten minutes of VVV at 0430, then radiograms; listen again at 0645 | [Meaning](../../radio/radio_contacts_and_keys.md) |
+| [p142 B](../142.md#source-p142-b) | READING | Caucasus BEV K.M. representative at Tiflis is to remain; reference fields retained | [Meaning](../../caucasus/representative_retention.md) |
+| [p142 C](../142.md#source-p142-c) | PARTIAL | Request position on Entente report of renewed Romanian occupation of Dobrudscha | [Meaning](../../military/dobrudscha_report.md) |
 
-## p143
+## [p143](../143.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p143 A](../../military/nov6_evening_danube_report.md#completed-reading) | CONDITIONAL | Evening Danube report: Alpenkorps near Ujvidek and the Slankamen crossing |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p143 A](../143.md#source-p143-a) | CONDITIONAL | Evening Danube report: Alpenkorps near Ujvidek and the Slankamen crossing | [Meaning](../../military/nov6_evening_danube_report.md) |
 
-## p144
+## [p144](../144.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p144 A2](../../finance/nov6_silk_resale_continuation.md#p144-a2) | READING | Local silk resale continuation corroborates the p136/p152 witnesses |
-| [p144 B](../../military/nov6_boat_crossing_fragment.md#p144-b) | PARTIAL | Troop crossing in boats and a no-further-events ending; opening and place unresolved |
-| [p144 C1](../../military/nov6_horse_loading_reconnaissance.md#completed-reading) | CONDITIONAL | Aerial reconnaissance: ferries and horse loading at Kladovo |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p144 A2](../144.md#source-p144-a2) | READING | Local silk resale continuation corroborates the p136/p152 witnesses | [Meaning](../../finance/nov6_silk_resale_continuation.md) |
+| [p144 B](../144.md#source-p144-b) | PARTIAL | Troop crossing in boats and a no-further-events ending; opening and place unresolved | [Meaning](../../military/nov6_boat_crossing_fragment.md) |
+| [p144 C1](../144.md#source-p144-c1) | CONDITIONAL | Aerial reconnaissance: ferries and horse loading at Kladovo | [Meaning](../../military/nov6_horse_loading_reconnaissance.md) |
 
-## p145
+## [p145](../145.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p145 A](../../open/p145_A.md) | OPEN | HVC fragment with its first part missing |
-| [p145 B1](../../radio/nov6_ringbahn_key_witnesses.md#p145-b1) | READING | Keep November Ringbahn keys; defer December keys |
-| [p145 B2](../../radio/nov6_ringbahn_key_witnesses.md#p145-b2) | CONDITIONAL | December 1–21 reuse schedule; missing coordinate supported by p211 copy |
-| [p145 B3](../../radio/nov6_ringbahn_key_witnesses.md#p145-b3) | READING | Schedule ending and acknowledgment request; supports the p211 word fill |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p145 A](../145.md#source-p145-a) | OPEN | HVC fragment with its first part missing | [Meaning](../../open/p145_A.md) |
+| [p145 B1](../145.md#source-p145-b1) | READING | Keep November Ringbahn keys; defer December keys | [Meaning](../../radio/nov6_ringbahn_key_witnesses.md) |
+| [p145 B2](../145.md#source-p145-b2) | CONDITIONAL | December 1–21 reuse schedule; missing coordinate supported by p211 copy | [Meaning](../../radio/nov6_ringbahn_key_witnesses.md) |
+| [p145 B3](../145.md#source-p145-b3) | READING | Schedule ending and acknowledgment request; supports the p211 word fill | [Meaning](../../radio/nov6_ringbahn_key_witnesses.md) |
 
-## p146
+## [p146](../146.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p146 A](../../radio/kiel_radio_control.md) | CONDITIONAL | Repeat order placing radio stations under officer control |
-| [p146](../../p146.md) | CONDITIONAL | Kerch radio call-sign instruction |
-| [p146 C1](../../radio/nov6_tiflis_ringbahn_instruction.md#p146-c1) | CONDITIONAL | Keep November Ringbahn keys and use the November 10 key for December 1. |
-| [p146 C2](../../radio/nov6_tiflis_ringbahn_instruction.md#p146-c2) | CONDITIONAL | Continue the schedule through December 21 using November 30, and request acknowledgment. |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p146 A](../146.md#source-p146-a) | CONDITIONAL | Repeat order placing radio stations under officer control | [Meaning](../../radio/kiel_radio_control.md) |
+| [p146](../146.md#source-p146) | CONDITIONAL | Kerch radio call-sign instruction | [Meaning](../../p146.md) |
+| [p146 C1](../146.md#source-p146-c1) | CONDITIONAL | Keep November Ringbahn keys and use the November 10 key for December 1. | [Meaning](../../radio/nov6_tiflis_ringbahn_instruction.md) |
+| [p146 C2](../146.md#source-p146-c2) | CONDITIONAL | Continue the schedule through December 21 using November 30, and request acknowledgment. | [Meaning](../../radio/nov6_tiflis_ringbahn_instruction.md) |
 
-## p147
+## [p147](../147.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p147 A](../../naval/motorboat_sale_attempt.md#p147-a) | READING | Try to sell the motorboat designated ROEM Q5 |
-| [p147 B1](../../radio/nov6_embassy_foreign_signature.md#p147-b1) | READING | German Embassy address and Auswaertig signature label |
-| [p147 C1](../../radio/constantinople_address_parts.md) | READING | German Embassy at Pera and Stumm signature |
-| [p147 D1](../../radio/nov6_embassy_dolci_address.md#p147-d1) | READING | Pera embassy address for Monsignore Dolci, reference 1882 |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p147 A](../147.md#source-p147-a) | READING | Try to sell the motorboat designated ROEM Q5 | [Meaning](../../naval/motorboat_sale_attempt.md) |
+| [p147 B1](../147.md#source-p147-b1) | READING | German Embassy address and Auswaertig signature label | [Meaning](../../radio/nov6_embassy_foreign_signature.md) |
+| [p147 C1](../147.md#source-p147-c1) | READING | German Embassy at Pera and Stumm signature | [Meaning](../../radio/constantinople_address_parts.md) |
+| [p147 D1](../147.md#source-p147-d1) | READING | Pera embassy address for Monsignore Dolci, reference 1882 | [Meaning](../../radio/nov6_embassy_dolci_address.md) |
 
-## p148
+## [p148](../148.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p148 A1](../../radio/nov6_embassy_reference_8956.md#p148-a1) | READING | German embassy address and abbreviated signature label, reference RM3D8956 |
-| [p148 B1](../../radio/constantinople_address_parts.md) | PARTIAL | Military Mission routing, Groener signature and officer receipt acknowledgement |
-| [p148 C1](../../people/osthoff.md) | READING | Osthoff's posting cancellation, clearer repeat |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p148 A1](../148.md#source-p148-a1) | READING | German embassy address and abbreviated signature label, reference RM3D8956 | [Meaning](../../radio/nov6_embassy_reference_8956.md) |
+| [p148 B1](../148.md#source-p148-b1) | PARTIAL | Military Mission routing, Groener signature and officer receipt acknowledgement | [Meaning](../../radio/constantinople_address_parts.md) |
+| [p148 C1](../148.md#source-p148-c1) | READING | Osthoff's posting cancellation, clearer repeat | [Meaning](../../people/osthoff.md) |
 
-## p149
+## [p149](../149.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p149 A2](../../people/osthoff.md) | PARTIAL | Repeated Osthoff reassignment and cabinet-order closing |
-| [p149 B](../../people/kremp.md) | PARTIAL | Kremp reports recovery and asks for departure instructions |
-| [p149 C](../../people/glatz.md) | READING | Enquiry about Glatz's whereabouts |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p149 A2](../149.md#source-p149-a2) | PARTIAL | Repeated Osthoff reassignment and cabinet-order closing | [Meaning](../../people/osthoff.md) |
+| [p149 B](../149.md#source-p149-b) | PARTIAL | Kremp reports recovery and asks for departure instructions | [Meaning](../../people/kremp.md) |
+| [p149 C](../149.md#source-p149-c) | READING | Enquiry about Glatz's whereabouts | [Meaning](../../people/glatz.md) |
 
 [Return to all source pages](../README.md).

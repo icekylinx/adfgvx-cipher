@@ -1,5 +1,14 @@
 # The Caucasus K.M. representative is to remain
 
+The representative designated BEV K.M. in the Caucasus is to remain at Tiflis. The reply closes with the War Office’s raw-materials department.
+
+**Complete edition by printed page:** [p. 142](../pages/142.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -106,3 +115,6 @@ Earlier unreviewed OCR-derived candidates existed. No universal first-reading
 priority is asserted. The exact repaired witness establishes its stated
 three-coordinate cost, not the identity of the representative or proof that
 the instruction was carried out.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Surviving Transylvania situation report
 
+The report describes withdrawal from Romania and the problems of moving German troops through Transylvania and Hungary. A restored governing clause strengthens the reading of the restriction on troops and supply formations entering Transylvania and the Banat.
+
+**Complete edition by printed page:** [p. 128](../pages/128.md) · [p. 129](../pages/129.md) · [p. 137](../pages/137.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
@@ -169,3 +178,6 @@ The five readable physical sources provide 550 modeled plaintext positions: 499 
 The earlier corpus screen already recognized parts 1/7/8. Lasry et al. describe a different thirteen-part report of 3 November in their Table 3; this edition makes no first historical decipherment claim. A complete 788-block exact-window search found only one short 12-coordinate incidental lead and no missing part 2/3.
 
 [Source transcripts and attribution](../../experiments/transylvania_situation_report/inputs.json), [full source/geometry/interference certificates](../../experiments/transylvania_situation_report/certificates.json), and [method, limits and reproduction](../../experiments/transylvania_situation_report/README.md).
+
+</details>
+<!-- CASE-EDITION:END -->

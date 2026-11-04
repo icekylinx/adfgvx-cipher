@@ -1,5 +1,14 @@
 # Additional listening times on the Ringbahn radio circuit
 
+The fragment concerns a Ringbahn service notice. A clear reception note says that only the first item was received, that the second could not be copied because the signs ran together, and asks for another transmission.
+
+**Complete edition by printed page:** [p. 117](../pages/117.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
@@ -51,3 +60,6 @@ analyses, without a first historical decipherment claim.
 [Literal rows and source images](../../experiments/nov3_medical_radio_withdrawal/inputs.json),
 [domains, origins and exact repair certificate](../../experiments/nov3_medical_radio_withdrawal/certificates.json),
 and [full method and verification commands](../../experiments/nov3_medical_radio_withdrawal/README.md).
+
+</details>
+<!-- CASE-EDITION:END -->

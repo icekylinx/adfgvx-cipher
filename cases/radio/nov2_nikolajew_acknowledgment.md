@@ -1,5 +1,14 @@
 # Receipt request through Nikolajew: the other p105 telegram
 
+The message requests radio confirmation through Nikolajew that Mackensen command received the two referenced communications. The raw reference strings A1118 and 111M7, and the final GEW designation, are preserved.
+
+**Complete edition by printed page:** [p. 105](../pages/105.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
@@ -81,3 +90,6 @@ Run `python experiments/nov2_nikolajew_acknowledgment/verify.py --verify`. Add `
 The verifier reconstructs source-coordinate pairs, checks raw domains, replays all priced changes, verifies the readable display without dropping unresolved labels, and checks a global completion witness where required. Such a completion is mechanical evidence, not a historical guess.
 
 Published period keys: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016), and George Lasry (2017 key list). Earlier repository OCR and unchanged-key outputs are retained separately. Source review and explicit editorial work: icekylinx and GPT-6 Astra Pro.
+
+</details>
+<!-- CASE-EDITION:END -->

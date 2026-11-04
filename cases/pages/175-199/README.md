@@ -8,240 +8,240 @@ Jump to page: [p175](#p175) · [p176](#p176) · [p177](#p177) · [p178](#p178) �
 
 This range contains 111 sources, including 2 OPEN. [Reading states](../../../docs/reading-conventions.md#catalogue-states).
 
-## p175
+## [p175](../175.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p175 A1](../../people/spa_berlin_delegates.md#p175-a1) | READING | Delegates directed through Spa: Namur and von Weiher address |
-| [p175 A2](../../people/spa_berlin_delegates.md#p175-a2) | PARTIAL | Berlin onward journey and an unresolved departure-time digit |
-| [p175 B2](../../finance/hauptwechselamt_accounting.md#p175-b2) | CONDITIONAL | Payments through October and cheque arrival acknowledgements |
-| [p175 C1](../../military/romanian_ultimatum_companions.md#p175-c1) | READING | Romanian-government ultimatum to evacuate territory |
-| [p175 C2](../../military/romanian_ultimatum_companions.md#p175-c2) | PARTIAL | Lay down arms or evacuate; reported Danube crossing near Rustschuk |
-| [p175 C3](../../military/p175_c3_withdrawal_followup.md) | CONDITIONAL | Conditional withdrawal report via Kronstadt and Hermannstadt |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p175 A1](../175.md#source-p175-a1) | READING | Delegates directed through Spa: Namur and von Weiher address | [Meaning](../../people/spa_berlin_delegates.md) |
+| [p175 A2](../175.md#source-p175-a2) | PARTIAL | Berlin onward journey and an unresolved departure-time digit | [Meaning](../../people/spa_berlin_delegates.md) |
+| [p175 B2](../175.md#source-p175-b2) | CONDITIONAL | Payments through October and cheque arrival acknowledgements | [Meaning](../../finance/hauptwechselamt_accounting.md) |
+| [p175 C1](../175.md#source-p175-c1) | READING | Romanian-government ultimatum to evacuate territory | [Meaning](../../military/romanian_ultimatum_companions.md) |
+| [p175 C2](../175.md#source-p175-c2) | PARTIAL | Lay down arms or evacuate; reported Danube crossing near Rustschuk | [Meaning](../../military/romanian_ultimatum_companions.md) |
+| [p175 C3](../175.md#source-p175-c3) | CONDITIONAL | Conditional withdrawal report via Kronstadt and Hermannstadt | [Meaning](../../military/p175_c3_withdrawal_followup.md) |
 
-## p176
+## [p176](../176.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p176a](../../p176a.md) | READING | Breakthrough toward the north or northeast |
-| [p176 A5](../../military/romanian_ultimatum_companions.md#p176-a5) | PARTIAL | Messages and material first to Hermannstadt; provisioning fragment |
-| [p176 A6](../../military/p176_coal_train_fragment.md#p176-a6) | PARTIAL | Conditional coal-train continuation via Klausenburg with a repeated-place hypothesis |
-| [p176b](../../p176b.md) | PARTIAL | Army positions near Peterreve and Versecz |
-| [p176 B2](../../military/nov10_danube_field_report.md#p176-b2) | READING | French forces near the Danube: source-labeled second report part |
-| [p176 B3](../../military/nov10_danube_field_report.md#p176-b3) | READING | Crossing near RUSTUK and reserves north of SLOBOZIE |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p176a](../176.md#source-p176a) | READING | Breakthrough toward the north or northeast | [Meaning](../../p176a.md) |
+| [p176 A5](../176.md#source-p176-a5) | PARTIAL | Messages and material first to Hermannstadt; provisioning fragment | [Meaning](../../military/romanian_ultimatum_companions.md) |
+| [p176 A6](../176.md#source-p176-a6) | PARTIAL | Conditional coal-train continuation via Klausenburg with a repeated-place hypothesis | [Meaning](../../military/p176_coal_train_fragment.md) |
+| [p176b](../176.md#source-p176b) | PARTIAL | Army positions near Peterreve and Versecz | [Meaning](../../p176b.md) |
+| [p176 B2](../176.md#source-p176-b2) | READING | French forces near the Danube: source-labeled second report part | [Meaning](../../military/nov10_danube_field_report.md) |
+| [p176 B3](../176.md#source-p176-b3) | READING | Crossing near RUSTUK and reserves north of SLOBOZIE | [Meaning](../../military/nov10_danube_field_report.md) |
 
-## p177
+## [p177](../177.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p177 A](../../radio/document_destruction.md) | PARTIAL | Destroy written material except necessary key material and report by telephone |
-| [p177 B1](../../naval/turkish_tonnage.md) | CONDITIONAL | Proposed sales of GENERAL and raw KERKIJRA only in an extreme emergency |
-| [p177 B2](../../naval/turkish_tonnage.md) | CONDITIONAL | Warning that Turkey seeks tonnage rather than transport; immediate cash payment required |
-| [p177 B3](../../naval/turkish_tonnage.md) | CONDITIONAL | Authorization required before sale; GENERAL 1200 marks and proposed KERKYRA 1000 marks per gross register ton |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p177 A](../177.md#source-p177-a) | PARTIAL | Destroy written material except necessary key material and report by telephone | [Meaning](../../radio/document_destruction.md) |
+| [p177 B1](../177.md#source-p177-b1) | CONDITIONAL | Proposed sales of GENERAL and raw KERKIJRA only in an extreme emergency | [Meaning](../../naval/turkish_tonnage.md) |
+| [p177 B2](../177.md#source-p177-b2) | CONDITIONAL | Warning that Turkey seeks tonnage rather than transport; immediate cash payment required | [Meaning](../../naval/turkish_tonnage.md) |
+| [p177 B3](../177.md#source-p177-b3) | CONDITIONAL | Authorization required before sale; GENERAL 1200 marks and proposed KERKYRA 1000 marks per gross register ton | [Meaning](../../naval/turkish_tonnage.md) |
 
-## p178
+## [p178](../178.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p178 part 1](../../naval/naval_armistice_order.md) | READING | Immediate forwarding to all naval forces |
-| [p178 part 2](../../naval/naval_armistice_order.md) | CONDITIONAL | Armistice at noon 11 November; cease all war actions |
-| [p178 part 3](../../naval/naval_armistice_order.md) | CONDITIONAL | Assemble at bases; send enciphered notice to U-boats |
-| [p178 part 4](../../naval/naval_armistice_order.md) | PARTIAL | Enemy attacks may continue; weapons only for self-defense |
-| [p178 part 5](../../naval/naval_armistice_order.md) | PARTIAL | Requested passage through neutral waters and receipt acknowledgments |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p178 part 1](../178.md#source-p178-a1) | READING | Immediate forwarding to all naval forces | [Meaning](../../naval/naval_armistice_order.md) |
+| [p178 part 2](../178.md#source-p178-a2) | CONDITIONAL | Armistice at noon 11 November; cease all war actions | [Meaning](../../naval/naval_armistice_order.md) |
+| [p178 part 3](../178.md#source-p178-a3) | CONDITIONAL | Assemble at bases; send enciphered notice to U-boats | [Meaning](../../naval/naval_armistice_order.md) |
+| [p178 part 4](../178.md#source-p178-a4) | PARTIAL | Enemy attacks may continue; weapons only for self-defense | [Meaning](../../naval/naval_armistice_order.md) |
+| [p178 part 5](../178.md#source-p178-a5) | PARTIAL | Requested passage through neutral waters and receipt acknowledgments | [Meaning](../../naval/naval_armistice_order.md) |
 
-## p179
+## [p179](../179.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p179 A](../../radio/right_rhine_equipment.md) | CONDITIONAL | Equipment transfer east of the Rhine while maintaining radio operation |
-| [p179 B](../../military/armistice_and_leave_orders.md) | PARTIAL | Citadel resistance to cease; surrender terms to be set there |
-| [p179 C](../../military/armistice_and_leave_orders.md) | READING | Mackensen and 11th Army request the local armistice conditions |
-| [p179 D1](../../military/armistice_and_leave_orders.md) | PARTIAL | Home transport difficulties postpone Landsturm discharge; raw year 1560U61 retained |
-| [p179 D2](../../military/armistice_and_leave_orders.md) | CONDITIONAL | Urgent home leave suspended until further notice |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p179 A](../179.md#source-p179-a) | CONDITIONAL | Equipment transfer east of the Rhine while maintaining radio operation | [Meaning](../../radio/right_rhine_equipment.md) |
+| [p179 B](../179.md#source-p179-b) | PARTIAL | Citadel resistance to cease; surrender terms to be set there | [Meaning](../../military/armistice_and_leave_orders.md) |
+| [p179 C](../179.md#source-p179-c) | READING | Mackensen and 11th Army request the local armistice conditions | [Meaning](../../military/armistice_and_leave_orders.md) |
+| [p179 D1](../179.md#source-p179-d1) | PARTIAL | Home transport difficulties postpone Landsturm discharge; raw year 1560U61 retained | [Meaning](../../military/armistice_and_leave_orders.md) |
+| [p179 D2](../179.md#source-p179-d2) | CONDITIONAL | Urgent home leave suspended until further notice | [Meaning](../../military/armistice_and_leave_orders.md) |
 
-## p180
+## [p180](../180.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p180 A3](../../military/p180_A.md) | PARTIAL | Enemy follows withdrawal near Giurgiu; Braila and Focsani evacuated |
-| [p180 B2](../../military/nov11_romanian_mobilization_report.md#p180-b2) | CONDITIONAL | Romanian mobilization and a crossing report |
-| [p180 C](../../radio/okm_radio_route.md#p180-c) | PARTIAL | OKM communication route through literal AOK1? and FXT |
-| [p180 D1](../../military/nov11_romanian_ultimatum_report.md#p180-d1) | CONDITIONAL | Evening report on an unanswered Romanian evacuation ultimatum |
-| [p180 E](../../military/namur_cassel_armistice_requests.md#p180-e) | PARTIAL | Bauman readiness and Cassel transport |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p180 A3](../180.md#source-p180-a3) | PARTIAL | Enemy follows withdrawal near Giurgiu; Braila and Focsani evacuated | [Meaning](../../military/p180_A.md) |
+| [p180 B2](../180.md#source-p180-b2) | CONDITIONAL | Romanian mobilization and a crossing report | [Meaning](../../military/nov11_romanian_mobilization_report.md) |
+| [p180 C](../180.md#source-p180-c) | PARTIAL | OKM communication route through literal AOK1? and FXT | [Meaning](../../radio/okm_radio_route.md) |
+| [p180 D1](../180.md#source-p180-d1) | CONDITIONAL | Evening report on an unanswered Romanian evacuation ultimatum | [Meaning](../../military/nov11_romanian_ultimatum_report.md) |
+| [p180 E](../180.md#source-p180-e) | PARTIAL | Bauman readiness and Cassel transport | [Meaning](../../military/namur_cassel_armistice_requests.md) |
 
-## p181
+## [p181](../181.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p181 A](../../military/mackensen_warsaw.md) | READING | Warsaw Soldiers Council asks about Mackensens advance |
-| [p181 B](../../military/namur_cassel_armistice_requests.md#p181-b) | READING | Repeated request for local armistice conditions |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p181 A](../181.md#source-p181-a) | READING | Warsaw Soldiers Council asks about Mackensens advance | [Meaning](../../military/mackensen_warsaw.md) |
+| [p181 B](../181.md#source-p181-b) | READING | Repeated request for local armistice conditions | [Meaning](../../military/namur_cassel_armistice_requests.md) |
 
-## p182
+## [p182](../182.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p182 A](../../radio/nov12_seifert_additional_witnesses.md#p182-a) | CONDITIONAL | Arrival notification enquiry; additional physical witness |
-| [p182 B](../../radio/return_time_and_vehicle_attempt.md#p182-b) | READING | Expected return with the literal time-like label 0100 |
-| [p182 C](../../radio/nov12_seifert_additional_witnesses.md#p182-c) | CONDITIONAL | Seifert return enquiry; additional physical witness |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p182 A](../182.md#source-p182-a) | CONDITIONAL | Arrival notification enquiry; additional physical witness | [Meaning](../../radio/nov12_seifert_additional_witnesses.md) |
+| [p182 B](../182.md#source-p182-b) | READING | Expected return with the literal time-like label 0100 | [Meaning](../../radio/return_time_and_vehicle_attempt.md) |
+| [p182 C](../182.md#source-p182-c) | CONDITIONAL | Seifert return enquiry; additional physical witness | [Meaning](../../radio/nov12_seifert_additional_witnesses.md) |
 
-## p183
+## [p183](../183.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p183 A](../../radio/nov12_arrival_departure_and_car.md#p183-a) | READING | Arrival and an enquiry about the situation |
-| [p183 B](../../radio/nov12_arrival_departure_and_car.md#p183-b) | READING | Request for notification when Seifert has arrived |
-| [p183 C](../../radio/nov12_arrival_departure_and_car.md#p183-c) | READING | A report that Seifert has departed |
-| [p183 D](../../radio/car_query_parallel_frame.md) | CONDITIONAL | Parallel car enquiry with a priced extra-coordinate hypothesis |
-| [p183 E](../../radio/nov12_arrival_departure_and_car.md#p183-e) | READING | An enquiry about the car |
-| [p183 F](../../military/jaeger_accommodation_area.md#p183-f) | PARTIAL | An accommodation-area report around Vierset-Barse and Soheit |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p183 A](../183.md#source-p183-a) | READING | Arrival and an enquiry about the situation | [Meaning](../../radio/nov12_arrival_departure_and_car.md) |
+| [p183 B](../183.md#source-p183-b) | READING | Request for notification when Seifert has arrived | [Meaning](../../radio/nov12_arrival_departure_and_car.md) |
+| [p183 C](../183.md#source-p183-c) | READING | A report that Seifert has departed | [Meaning](../../radio/nov12_arrival_departure_and_car.md) |
+| [p183 D](../183.md#source-p183-d) | CONDITIONAL | Parallel car enquiry with a priced extra-coordinate hypothesis | [Meaning](../../radio/car_query_parallel_frame.md) |
+| [p183 E](../183.md#source-p183-e) | READING | An enquiry about the car | [Meaning](../../radio/nov12_arrival_departure_and_car.md) |
+| [p183 F](../183.md#source-p183-f) | PARTIAL | An accommodation-area report around Vierset-Barse and Soheit | [Meaning](../../military/jaeger_accommodation_area.md) |
 
-## p184
+## [p184](../184.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p184 A2](../../military/group_security_measures_fragment.md#p184-a2) | PARTIAL | Second-part instruction on measures for the security of a group |
-| [p184 B1](../../military/hungary_transport_warning.md#p184-b1) | READING | Mineral-oil department address |
-| [p184 B2](../../military/hungary_transport_warning.md#p184-b2) | CONDITIONAL | Transports from Romania must not enter Hungary |
-| [p184 B3](../../military/hungary_transport_warning.md#p184-b3) | PARTIAL | Kriegsamt reference footer |
-| [p184 C1](../../military/hungary_transport_warning.md#p184-c1) | PARTIAL | Shorter relayed mineral-oil address |
-| [p184 C2](../../military/hungary_transport_warning.md#p184-c2) | PARTIAL | Relayed warning of transport loss in Hungary |
-| [p184 C3](../../military/hungary_transport_warning.md#p184-c3) | PARTIAL | Repeated Kriegsamt reference footer |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p184 A2](../184.md#source-p184-a2) | PARTIAL | Second-part instruction on measures for the security of a group | [Meaning](../../military/group_security_measures_fragment.md) |
+| [p184 B1](../184.md#source-p184-b1) | READING | Mineral-oil department address | [Meaning](../../military/hungary_transport_warning.md) |
+| [p184 B2](../184.md#source-p184-b2) | CONDITIONAL | Transports from Romania must not enter Hungary | [Meaning](../../military/hungary_transport_warning.md) |
+| [p184 B3](../184.md#source-p184-b3) | PARTIAL | Kriegsamt reference footer | [Meaning](../../military/hungary_transport_warning.md) |
+| [p184 C1](../184.md#source-p184-c1) | PARTIAL | Shorter relayed mineral-oil address | [Meaning](../../military/hungary_transport_warning.md) |
+| [p184 C2](../184.md#source-p184-c2) | PARTIAL | Relayed warning of transport loss in Hungary | [Meaning](../../military/hungary_transport_warning.md) |
+| [p184 C3](../184.md#source-p184-c3) | PARTIAL | Repeated Kriegsamt reference footer | [Meaning](../../military/hungary_transport_warning.md) |
 
-## p185
+## [p185](../185.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p185 A2](../../finance/brasso_money_alternative_route.md#p185-a2) | PARTIAL | Requested money to be sent to BRASSO by another means |
-| [p185 B](../../caucasus/baku_personnel_inquiry.md#p185-b) | CONDITIONAL | Inquiry about the fate of army personnel in Baku |
-| [p185 C](../../p189.md) | READING | Vehicle provision impossible; await orders |
-| [p185 D](../../context/transport.md#truck-movement-and-readiness) | CONDITIONAL | Truck movement and readiness to depart via DHFN |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p185 A2](../185.md#source-p185-a2) | PARTIAL | Requested money to be sent to BRASSO by another means | [Meaning](../../finance/brasso_money_alternative_route.md) |
+| [p185 B](../185.md#source-p185-b) | CONDITIONAL | Inquiry about the fate of army personnel in Baku | [Meaning](../../caucasus/baku_personnel_inquiry.md) |
+| [p185 C](../185.md#source-p185-c) | READING | Vehicle provision impossible; await orders | [Meaning](../../p189.md) |
+| [p185 D](../185.md#source-p185-d) | CONDITIONAL | Truck movement and readiness to depart via DHFN | [Meaning](../../context/transport.md) |
 
-## p186
+## [p186](../186.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p186 A1](../../context/p186.md#part-1--richi-170) | READING | Monitor Russian and Polish army traffic |
-| [p186 A2](../../context/p186.md#part-2--richi-174) | PARTIAL | Encrypted reporting and teleprinter failure |
-| [p186 B1](../../military/oberost_troop_movement_obliterations.md#p186-b1) | CONDITIONAL | Ober Ost troop-movement proposal, conditional obliteration exclusion |
-| [p186 B2](../../military/home_departures_baltic_transport.md#p186-b2) | PARTIAL | Soldiers wishing to travel home without authorization |
-| [p186 C1](../../military/home_departures_baltic_transport.md#p186-c1) | PARTIAL | Baltic transport uncertainty and Graf Goltz preparations |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p186 A1](../186.md#source-p186-a1) | READING | Monitor Russian and Polish army traffic | [Meaning](../../context/p186.md) |
+| [p186 A2](../186.md#source-p186-a2) | PARTIAL | Encrypted reporting and teleprinter failure | [Meaning](../../context/p186.md) |
+| [p186 B1](../186.md#source-p186-b1) | CONDITIONAL | Ober Ost troop-movement proposal, conditional obliteration exclusion | [Meaning](../../military/oberost_troop_movement_obliterations.md) |
+| [p186 B2](../186.md#source-p186-b2) | PARTIAL | Soldiers wishing to travel home without authorization | [Meaning](../../military/home_departures_baltic_transport.md) |
+| [p186 C1](../186.md#source-p186-c1) | PARTIAL | Baltic transport uncertainty and Graf Goltz preparations | [Meaning](../../military/home_departures_baltic_transport.md) |
 
-## p187
+## [p187](../187.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p187](../../p187.md) | READING | Monitoring Russian and Polish army traffic |
-| [p187b](../../p187b.md) | CONDITIONAL | Teleprinter failure and written reporting |
-| [p187 B1](../../radio/nov13_ringbahn_retransmission.md#p187-b1) | CONDITIONAL | Third reception of the November Ringbahn-key retention instruction |
-| [p187 C](../../supplementary/p187_C.md) | READING | Connection with Mackensen's army |
-| [p187 D1](../../radio/p187_D.md) | CONDITIONAL | Aircraft connection to Mackensen impossible for technical reasons |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p187](../187.md#source-p187) | READING | Monitoring Russian and Polish army traffic | [Meaning](../../p187.md) |
+| [p187b](../187.md#source-p187b) | CONDITIONAL | Teleprinter failure and written reporting | [Meaning](../../p187b.md) |
+| [p187 B1](../187.md#source-p187-b1) | CONDITIONAL | Third reception of the November Ringbahn-key retention instruction | [Meaning](../../radio/nov13_ringbahn_retransmission.md) |
+| [p187 C](../187.md#source-p187-c) | READING | Connection with Mackensen's army | [Meaning](../../supplementary/p187_C.md) |
+| [p187 D1](../187.md#source-p187-d1) | CONDITIONAL | Aircraft connection to Mackensen impossible for technical reasons | [Meaning](../../radio/p187_D.md) |
 
-## p188
+## [p188](../188.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p188 A](../../military/armistice_provisions_requests.md) | CONDITIONAL | Conditional armistice-conditions request to OHL |
-| [p188 B2](../../military/armistice_provisions_requests.md) | READING | Urgent provisions need and five-day limit |
-| [p188 C1](../../military/armistice_provisions_requests.md) | CONDITIONAL | Provision trains with flour and oats to Szolnok |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p188 A](../188.md#source-p188-a) | CONDITIONAL | Conditional armistice-conditions request to OHL | [Meaning](../../military/armistice_provisions_requests.md) |
+| [p188 B2](../188.md#source-p188-b2) | READING | Urgent provisions need and five-day limit | [Meaning](../../military/armistice_provisions_requests.md) |
+| [p188 C1](../188.md#source-p188-c1) | CONDITIONAL | Provision trains with flour and oats to Szolnok | [Meaning](../../military/armistice_provisions_requests.md) |
 
-## p189
+## [p189](../189.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p189](../../p189.md) | CONDITIONAL | Apparent vehicle request / await orders |
-| [p189 B](../../radio/return_time_and_vehicle_attempt.md#p189-b) | READING | A message about attempting to obtain a vehicle |
-| [p189 C](../../context/p189_C.md) | PARTIAL | Instruction to use the December key; IRRTUM |
-| [p189 D](../../context/benzol_pump_query.md#p189-d) | CONDITIONAL | Benzol-pump inquiry and request for a prompt answer |
-| [p189 E](../../context/transport.md#two-vehicles-and-two-trailers--p189-e) | CONDITIONAL | Pump, cars and trailers |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p189](../189.md#source-p189) | CONDITIONAL | Apparent vehicle request / await orders | [Meaning](../../p189.md) |
+| [p189 B](../189.md#source-p189-b) | READING | A message about attempting to obtain a vehicle | [Meaning](../../radio/return_time_and_vehicle_attempt.md) |
+| [p189 C](../189.md#source-p189-c) | PARTIAL | Instruction to use the December key; IRRTUM | [Meaning](../../context/p189_C.md) |
+| [p189 D](../189.md#source-p189-d) | CONDITIONAL | Benzol-pump inquiry and request for a prompt answer | [Meaning](../../context/benzol_pump_query.md) |
+| [p189 E](../189.md#source-p189-e) | CONDITIONAL | Pump, cars and trailers | [Meaning](../../context/transport.md) |
 
-## p190
+## [p190](../190.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p190 A](../../radio/nov14_radio_retransmissions.md) | PARTIAL | Pilot representative of the Warsaw soldiers’ council arrives in Berlin |
-| [p190 B](../../radio/nov14_radio_retransmissions.md) | PARTIAL | Request a backup station for NKJ; Sevastopol proposed |
-| [p190 C](../../naval/mmd_command_whereabouts.md#p190-c) | PARTIAL | Enquiry whether an MMD command or representative is present |
-| [p190 D](../../radio/nov14_radio_retransmissions.md) | PARTIAL | Ask whether NKJ relays Mackensen messages and how contact is maintained |
-| [p190 E](../../radio/nov14_radio_retransmissions.md) | PARTIAL | Request a backup station for NKJ; Sevastopol proposed |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p190 A](../190.md#source-p190-a) | PARTIAL | Pilot representative of the Warsaw soldiers’ council arrives in Berlin | [Meaning](../../radio/nov14_radio_retransmissions.md) |
+| [p190 B](../190.md#source-p190-b) | PARTIAL | Request a backup station for NKJ; Sevastopol proposed | [Meaning](../../radio/nov14_radio_retransmissions.md) |
+| [p190 C](../190.md#source-p190-c) | PARTIAL | Enquiry whether an MMD command or representative is present | [Meaning](../../naval/mmd_command_whereabouts.md) |
+| [p190 D](../190.md#source-p190-d) | PARTIAL | Ask whether NKJ relays Mackensen messages and how contact is maintained | [Meaning](../../radio/nov14_radio_retransmissions.md) |
+| [p190 E](../190.md#source-p190-e) | PARTIAL | Request a backup station for NKJ; Sevastopol proposed | [Meaning](../../radio/nov14_radio_retransmissions.md) |
 
-## p191
+## [p191](../191.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p191 A1](../../military/p191_A.md) | PARTIAL | Boots requested for Oderberg |
-| [p191 A2](../../military/p191_A.md) | CONDITIONAL | Heavy clothing on call; wire/radio reply requested |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p191 A1](../191.md#source-p191-a1) | PARTIAL | Boots requested for Oderberg | [Meaning](../../military/p191_A.md) |
+| [p191 A2](../191.md#source-p191-a2) | CONDITIONAL | Heavy clothing on call; wire/radio reply requested | [Meaning](../../military/p191_A.md) |
 
-## p192
+## [p192](../192.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p192 A](../../radio/warsaw_service_messages.md) | CONDITIONAL | Request to Kretzschmar in Bucharest about conditions, prospects and commercial interests |
-| [p192 B](../../radio/warsaw_service_messages.md) | CONDITIONAL | LP forwarding important messages for home offices and OHL in both directions |
-| [p192 part 2](../../caucasus/tiflis_appointment.md) | READING | Appointment of a Polish representative for the Caucasus |
-| [p192 part 3](../../caucasus/tiflis_appointment.md) | CONDITIONAL | Appointment instructions sent through a courier; conditional TYDELSKI identification |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p192 A](../192.md#source-p192-a) | CONDITIONAL | Request to Kretzschmar in Bucharest about conditions, prospects and commercial interests | [Meaning](../../radio/warsaw_service_messages.md) |
+| [p192 B](../192.md#source-p192-b) | CONDITIONAL | LP forwarding important messages for home offices and OHL in both directions | [Meaning](../../radio/warsaw_service_messages.md) |
+| [p192 part 2](../192.md#source-p192-2) | READING | Appointment of a Polish representative for the Caucasus | [Meaning](../../caucasus/tiflis_appointment.md) |
+| [p192 part 3](../192.md#source-p192-3) | CONDITIONAL | Appointment instructions sent through a courier; conditional TYDELSKI identification | [Meaning](../../caucasus/tiflis_appointment.md) |
 
-## p193
+## [p193](../193.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p193 A](../../radio/nov14_radio_retransmissions.md) | READING | Ask whether NKJ relays Mackensen messages and how contact is maintained |
-| [p193 B](../../radio/nov14_radio_retransmissions.md) | CONDITIONAL | Interrupted pilot-arrival notice; exact suffix of p194 B |
-| [p193 C](../../radio/nov14_15_departure_and_supper.md#p193-c) | READING | Departure postponed, with reassurance and readiness wording |
-| [p193 D](../../radio/nov14_15_departure_and_supper.md#p193-d) | READING | Proposed warm supper and a headcount enquiry |
-| [p193 E](../../context/transport.md#independent-transport-context) | PARTIAL | Sprung cart for attachment; a car |
-| [p193 F](../../people/nov13_conditional_congratulation.md) | CONDITIONAL | Congratulation core under explicit one-coordinate exclusion; endpoints remain conditional |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p193 A](../193.md#source-p193-a) | READING | Ask whether NKJ relays Mackensen messages and how contact is maintained | [Meaning](../../radio/nov14_radio_retransmissions.md) |
+| [p193 B](../193.md#source-p193-b) | CONDITIONAL | Interrupted pilot-arrival notice; exact suffix of p194 B | [Meaning](../../radio/nov14_radio_retransmissions.md) |
+| [p193 C](../193.md#source-p193-c) | READING | Departure postponed, with reassurance and readiness wording | [Meaning](../../radio/nov14_15_departure_and_supper.md) |
+| [p193 D](../193.md#source-p193-d) | READING | Proposed warm supper and a headcount enquiry | [Meaning](../../radio/nov14_15_departure_and_supper.md) |
+| [p193 E](../193.md#source-p193-e) | PARTIAL | Sprung cart for attachment; a car | [Meaning](../../context/transport.md) |
+| [p193 F](../193.md#source-p193-f) | CONDITIONAL | Congratulation core under explicit one-coordinate exclusion; endpoints remain conditional | [Meaning](../../people/nov13_conditional_congratulation.md) |
 
-## p194
+## [p194](../194.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p194 A](../../context/transport.md#independent-transport-context) | PARTIAL | Arranged departure to Hanau via DHFN |
-| [p194 B](../../radio/nov14_radio_retransmissions.md) | PARTIAL | Pilot representative of the Warsaw soldiers’ council arrives in Berlin |
-| [p194 C](../../radio/warsaw_service_messages.md) | PARTIAL | Urgent inquiry about Army Group Kiev’s chosen march route |
-| [p194 D1](../../open/p194_D1.md) | OPEN | Short first-part fragment from WAU |
-| [p194 E](../../radio/warsaw_service_messages.md) | PARTIAL | FRANZ and EMIL control markers for Warsaw soldiers’ council telegrams |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p194 A](../194.md#source-p194-a) | PARTIAL | Arranged departure to Hanau via DHFN | [Meaning](../../context/transport.md) |
+| [p194 B](../194.md#source-p194-b) | PARTIAL | Pilot representative of the Warsaw soldiers’ council arrives in Berlin | [Meaning](../../radio/nov14_radio_retransmissions.md) |
+| [p194 C](../194.md#source-p194-c) | PARTIAL | Urgent inquiry about Army Group Kiev’s chosen march route | [Meaning](../../radio/warsaw_service_messages.md) |
+| [p194 D1](../194.md#source-p194-d1) | OPEN | Short first-part fragment from WAU | [Meaning](../../open/p194_D1.md) |
+| [p194 E](../194.md#source-p194-e) | PARTIAL | FRANZ and EMIL control markers for Warsaw soldiers’ council telegrams | [Meaning](../../radio/warsaw_service_messages.md) |
 
-## p195
+## [p195](../195.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p195 A2](../../finance/crown_banknote_completion.md) | READING | Full witness to the interrupted small-banknote instruction |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p195 A2](../195.md#source-p195-a2) | READING | Full witness to the interrupted small-banknote instruction | [Meaning](../../finance/crown_banknote_completion.md) |
 
-## p196
+## [p196](../196.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p196 A](../../radio/nov14_15_departure_and_supper.md#p196-a) | READING | Short departure and farewell message with Kramm and Opitz labels |
-| [p196 B](../../context/transport.md#independent-transport-context) | PARTIAL | Repeated arranged departure to Hanau |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p196 A](../196.md#source-p196-a) | READING | Short departure and farewell message with Kramm and Opitz labels | [Meaning](../../radio/nov14_15_departure_and_supper.md) |
+| [p196 B](../196.md#source-p196-b) | PARTIAL | Repeated arranged departure to Hanau | [Meaning](../../context/transport.md) |
 
-## p197
+## [p197](../197.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p197 A1](../../radio/nov15_radio_personnel_and_key_notice.md#p197-a1) | CONDITIONAL | Warsaw radio-personnel order under a missing-group model |
-| [p197 A2](../../radio/nov15_radio_personnel_and_key_notice.md#p197-a2) | CONDITIONAL | Warsaw radio personnel: native continuation naming Posen |
-| [p197 B](../../radio/nov15_radio_personnel_and_key_notice.md#p197-b) | READING | A second physical witness of the December-key and IRRTUM notice |
-| [p197 C](../../context/transport_197_198.md) | CONDITIONAL | Transport of radio equipment to Darmstadt |
-| [p197 D](../../context/transport_197_198.md) | PARTIAL | Lorry, trailer and petrol-pump instruction |
-| [p197 E](../../context/transport.md#independent-transport-context) | PARTIAL | Lorry departure and men remaining until Sunday |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p197 A1](../197.md#source-p197-a1) | CONDITIONAL | Warsaw radio-personnel order under a missing-group model | [Meaning](../../radio/nov15_radio_personnel_and_key_notice.md) |
+| [p197 A2](../197.md#source-p197-a2) | CONDITIONAL | Warsaw radio personnel: native continuation naming Posen | [Meaning](../../radio/nov15_radio_personnel_and_key_notice.md) |
+| [p197 B](../197.md#source-p197-b) | READING | A second physical witness of the December-key and IRRTUM notice | [Meaning](../../radio/nov15_radio_personnel_and_key_notice.md) |
+| [p197 C](../197.md#source-p197-c) | CONDITIONAL | Transport of radio equipment to Darmstadt | [Meaning](../../context/transport_197_198.md) |
+| [p197 D](../197.md#source-p197-d) | PARTIAL | Lorry, trailer and petrol-pump instruction | [Meaning](../../context/transport_197_198.md) |
+| [p197 E](../197.md#source-p197-e) | PARTIAL | Lorry departure and men remaining until Sunday | [Meaning](../../context/transport.md) |
 
-## p198
+## [p198](../198.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p198 A](../../naval/p198_shipping_query.md#p198-a) | CONDITIONAL | Purchase price, freight and transport insurance for wheat delivered to Poti |
-| [p198 B](../../context/transport_197_198.md) | READING | Repeated equipment transport to Darmstadt |
-| [p198 C](../../context/transport.md#independent-transport-context) | PARTIAL | Repeated lorry departure and Sunday stay |
-| [p198](../../p198.md) | OPEN | CHI intercept with a five-coordinate shortfall |
-| [p198 E](../../context/transport_197_198.md) | CONDITIONAL | Repeated lorry, trailer and petrol-pump order |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p198 A](../198.md#source-p198-a) | CONDITIONAL | Purchase price, freight and transport insurance for wheat delivered to Poti | [Meaning](../../naval/p198_shipping_query.md) |
+| [p198 B](../198.md#source-p198-b) | READING | Repeated equipment transport to Darmstadt | [Meaning](../../context/transport_197_198.md) |
+| [p198 C](../198.md#source-p198-c) | PARTIAL | Repeated lorry departure and Sunday stay | [Meaning](../../context/transport.md) |
+| [p198](../198.md#source-p198) | OPEN | CHI intercept with a five-coordinate shortfall | [Meaning](../../p198.md) |
+| [p198 E](../198.md#source-p198-e) | CONDITIONAL | Repeated lorry, trailer and petrol-pump order | [Meaning](../../context/transport_197_198.md) |
 
-## p199
+## [p199](../199.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p199 A1](../../naval/black_sea_shipping.md) | CONDITIONAL | Feigenhaus 618: Herkules report of incoming steamers and a garbled cocoa cargo description |
-| [p199 A2](../../naval/black_sea_shipping.md) | PARTIAL | Goods remain aboard under military guard; coded supply terms retained |
-| [p199 A3](../../naval/black_sea_shipping.md) | CONDITIONAL | Concern over the recipient’s intentions; Reichsversorgung and Admiralstab ending |
-| [p199 unlettered part 1](../../caucasus/tiflis_appointment.md) | CONDITIONAL | Forwarding a Polish appointment telegram through von Kress to Waclaw v. Ostrowski in Tiflis |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p199 A1](../199.md#source-p199-a1) | CONDITIONAL | Feigenhaus 618: Herkules report of incoming steamers and a garbled cocoa cargo description | [Meaning](../../naval/black_sea_shipping.md) |
+| [p199 A2](../199.md#source-p199-a2) | PARTIAL | Goods remain aboard under military guard; coded supply terms retained | [Meaning](../../naval/black_sea_shipping.md) |
+| [p199 A3](../199.md#source-p199-a3) | CONDITIONAL | Concern over the recipient’s intentions; Reichsversorgung and Admiralstab ending | [Meaning](../../naval/black_sea_shipping.md) |
+| [p199 unlettered part 1](../199.md#source-p199-b1) | CONDITIONAL | Forwarding a Polish appointment telegram through von Kress to Waclaw v. Ostrowski in Tiflis | [Meaning](../../caucasus/tiflis_appointment.md) |
 
 [Return to all source pages](../README.md).

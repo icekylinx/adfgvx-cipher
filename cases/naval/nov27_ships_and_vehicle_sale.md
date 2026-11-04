@@ -1,5 +1,14 @@
 # November 27: Helsingfors shipping and a vehicle-sale instruction
 
+The naval message reports that preparations have been made and ships secured for transport. A separate order concerns disposal of vehicles when their transport cannot be arranged.
+
+**Complete edition by printed page:** [p. 223](../pages/223.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -177,3 +186,6 @@ re-encryption and the complete readable-label mappings. Earlier OCR,
 recomputed comparison outputs and published period-key credits remain
 separate from this source review. No universal first-decipherment priority
 is asserted.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Ringbahn call arrangement: 0345 after the other station's traffic
 
+The sender announces calls in each Ringbahn period, with the time label 0345 after the recipient's traffic and wavelength 1200. The single word proposal changes RIN7BAHN to RINGBAHN through a counted source-coordinate substitution. It leaves 0345 and 1200 unchanged.
+
+**Complete edition by printed page:** [p. 107](../pages/107.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p107 A
@@ -48,3 +57,6 @@ All indices are zero-based.
 The [input](../../experiments/nov1_nov2_native_dispatches/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/nov1_nov2_native_dispatches/certificates.json) contains the raw paired-coordinate domains, each source change and the forward checks. The [verifier](../../experiments/nov1_nov2_native_dispatches/verify.py) checks the unchanged published keys and the live German quotations, retaining all numerical and letter labels.
 
 Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/nov1_nov2_native_dispatches/prior_candidates.json).
+
+</details>
+<!-- CASE-EDITION:END -->

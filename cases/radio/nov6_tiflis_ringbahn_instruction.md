@@ -1,5 +1,14 @@
 # November 6 Ringbahn-key instruction to Tiflis
 
+Keep the November Ringbahn keys; use the November 10 key for December 1, and continue in the stated sequence.
+
+**Complete edition by printed page:** [p. 146](../pages/146.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -212,3 +221,6 @@ the physical source frames and makes the word repairs reviewable. It makes
 and [reproduction instructions](../../experiments/nov6_tiflis_ringbahn_instruction/README.md)
 provide every position domain, source/model map, exact re-encryption,
 independent supporting span and gap-search boundary.
+
+</details>
+<!-- CASE-EDITION:END -->

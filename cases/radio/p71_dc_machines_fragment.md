@@ -1,5 +1,14 @@
 # Direct-current machines: a conditional fragment on p71 A2
 
+Both direct-current machines are to be connected in series. The ellipsis omits the unread remainder; it does not complete it.
+
+**Complete edition by printed page:** [p. 71](../pages/071.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Evidence and verifier](../../experiments/p71_dc_machines_fragment/README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 A 47-position technical clause can be proposed for the interrupted second part on printed page 71 without changing an observed coordinate. It is a **conditional lexical reading**: all 43 surviving constraints in this span are half-pairs, four positions have no observed coordinate, and an equally compatible wording is retained below. The remaining 49 plaintext positions are unread.
@@ -87,3 +96,6 @@ The verifier reconstructs all domains, the 192-slot frame and the mapping of the
 Same-mask controls for the generic word and character models did not recover their complete known messages. The present fragment therefore rests on a stated technical lexical proposal with an exact coordinate account, rather than a language-model score. No exhaustive historical uniqueness claim or first-decipherment claim is made.
 
 Prepared by **icekylinx and GPT-6 Astra Pro**, preserving the earlier first-part edition and the separately credited published key work.
+
+</details>
+<!-- CASE-EDITION:END -->

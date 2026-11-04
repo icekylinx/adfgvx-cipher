@@ -2,6 +2,15 @@
 
 # The small-note instruction: the complete banknote witness
 
+The instruction asks for the money in the smallest possible banknotes. A complete later reception restores the ending of the daily crown-airlift request and corrects an earlier conjecture about the missing text.
+
+**Complete edition by printed page:** [p. 195](../pages/195.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Childs p195 A2 preserves the complete 98-coordinate reception of the instruction interrupted after 79 coordinates in p174 A3. The copy restores the ending of the [daily crown-airlift request](crown_airlift.md), fixes the gap's position and corrects one earlier conjecture. Both use the published **Nov10–12** key.
@@ -73,3 +82,6 @@ The second-copy identification, comparison and edition are by **icekylinx and GP
 python experiments/retrieved_copy_editions/verify.py --verify
 python experiments/retrieved_copy_editions/verify.py --verify --pdf /path/to/childs.pdf
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

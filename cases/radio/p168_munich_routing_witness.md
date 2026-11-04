@@ -1,5 +1,14 @@
 # p168 C — Full Munich routing witness for order 11338
 
+The associated order concerns routing through the Bavarian command at Munich, army-key treatment and acknowledgment.
+
+**Complete edition by printed page:** [p. 168](../pages/168.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [All cases](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source-frame recovery and review: icekylinx and GPT-6 Astra Pro, 4 November 2026.**
@@ -180,3 +189,6 @@ Order 11338 has a wartime reading by **J. Rives Childs**, published in 1935.
 the p168 C/D bodies. The p158 composite-source relationship, this full p168 C
 source-frame certificate and the coordinate support for KDO are reviewed by
 **icekylinx and GPT-6 Astra Pro**. Earlier wording and key credit remain intact.
+
+</details>
+<!-- CASE-EDITION:END -->

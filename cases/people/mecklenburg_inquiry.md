@@ -1,5 +1,14 @@
 # Mecklenburg inquiry about a letter to Herzog Karl Michael
 
+The Mecklenburg legation requests prompt answers through Kapitänleutnant Wagner and the Tiflis consulate. The two parts retain their separate addressees and reference fields.
+
+**Complete edition by printed page:** [p. 141](../pages/141.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -114,3 +123,6 @@ Their prior credit and the published key are retained. The
 [certificates](../../experiments/mecklenburg_and_seaplane_personnel/certificates.json)
 and [reproduction instructions](../../experiments/mecklenburg_and_seaplane_personnel/README.md)
 provide the complete source and editing ledger.
+
+</details>
+<!-- CASE-EDITION:END -->

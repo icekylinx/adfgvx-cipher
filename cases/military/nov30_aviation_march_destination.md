@@ -1,5 +1,14 @@
 # November 30: aviation march destinations
 
+The proposed aviation report gives Bucharest as the march destination of the staff marked KOFL MACK and Ploesti for a restricted army aviation park. The quantity and railway-reference labels remain qualified in the full reading.
+
+**Complete edition by printed page:** [p. 228](../pages/228.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Printed **p228 A** reports proposed march destinations for an aviation staff and a numerically limited army aviation park. Its native body has **384 occupied slots**, although the questioned advertised count is **RICHI-374?**. A conditional 374-coordinate frame yields a largely readable body. Seven observed-coordinate substitutions and four printed-mask fills support the proposed word reading.
@@ -148,3 +157,6 @@ The complete square is already published. Each fully specified candidate encrypt
 python experiments/nov30_aviation_march_destination/verify.py --verify
 python experiments/nov30_aviation_march_destination/verify.py --verify --pdf /path/to/childs.pdf
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

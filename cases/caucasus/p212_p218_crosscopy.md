@@ -1,5 +1,14 @@
 # A truncated copy of the Tiflis armistice notice
 
+This fragment belongs to the notice about German withdrawal from former Russian territory. Comparison with the fuller p218 reception restores part of the explanation that the Allies would assess local conditions before requiring withdrawal.
+
+**Complete edition by printed page:** [p. 212](../pages/212.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and cross-copy analysis: icekylinx and GPT-6 Astra Pro.** Newly edited record: Childs p212 A2. Earlier full witness: p218 A2, already in the [Tiflis armistice edition](p218_A.md). Published `Nov25-28` key, unchanged. [Inputs](../../experiments/p212_p218_crosscopy/inputs.json), [exact certificate](../../experiments/p212_p218_crosscopy/certificates.json), [method and limits](../../experiments/p212_p218_crosscopy/README.md).
@@ -72,3 +81,6 @@ The earlier copy search found no nonself exact ten-coordinate window among 788 f
 ## Attribution and scope
 
 The full p218 A2 body was already edited and catalogued; its earlier work is not recounted as a new message or a new physical record. The present contribution is recognition of the truncated p212 copy, a conditional tail restoration, and complementary source evidence for earlier repairs. Only p212 A2 is newly proposed for the catalog. No first historical decipherment or changed key/date is claimed.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # November 14 cross-key notices: an arriving pilot and a backup radio station
 
+Which station can replace NKJ during an interruption of service? Perhaps Sevastopol; send an urgent reply to LP. The full city spelling `SEWASTOPOL` is the candidate reading, and its S is an editorial repair. The source abbreviation `DRING` is retained in the exact template; the expanded word above is explanatory.
+
+**Complete edition by printed page:** [p. 190](../pages/190.md) · [p. 193](../pages/193.md) · [p. 194](../pages/194.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and cross-key comparison: icekylinx and GPT-6 Astra Pro.**
@@ -240,3 +249,6 @@ include literal garbles; they are not all claimed as correct historical
 letters. Published keys are credited in the input provenance. This edition
 provides source review and exact comparison, without a claim to first
 decipherment of every underlying text.
+
+</details>
+<!-- CASE-EDITION:END -->

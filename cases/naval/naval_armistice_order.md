@@ -1,5 +1,14 @@
 # p178 — The naval armistice order of 11 November
 
+Forward the armistice order immediately to all forces. War actions cease at noon on 11 November, and naval forces are to assemble at their bases.
+
+**Complete edition by printed page:** [p. 178](../pages/178.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source and certificate](../../experiments/naval_armistice_order/README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Prior reading and interpretation:** George Lasry, Ingo Niebel, Nils Kopal
@@ -151,3 +160,6 @@ position domains and individual repairs. The first four editions
 re-encrypt with the unchanged partial square. The fifth re-encrypts under
 each of the twenty distinct numeric-pair witnesses, which demonstrate
 consistency without supplying historical reference numbers.
+
+</details>
+<!-- CASE-EDITION:END -->

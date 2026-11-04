@@ -1,5 +1,14 @@
 # Request for replies and radio priority
 
+The Foreign Office is asked for answers to three earlier messages and for brief instructions in plaintext. The sender also asks that the radio station give these telegrams priority, since military messages appear to be sent first.
+
+**Complete edition by printed page:** [p. 128](../pages/128.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -173,3 +182,6 @@ Earlier unreviewed OCR-derived candidates existed. The bounded author-paper
 check found no explicit p128 A body example; that does not establish
 universal first-decipherment priority. Exact re-encryption certifies the
 stated arithmetic and repair prices, not unique historical wording.
+
+</details>
+<!-- CASE-EDITION:END -->

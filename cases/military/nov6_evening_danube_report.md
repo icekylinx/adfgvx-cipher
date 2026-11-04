@@ -1,5 +1,14 @@
 # Evening Danube report at Ujvidek and Slankamen
 
+The proposed ordinary-word reading is an evening report: the label ?LPENZOR?S is northwest of UJVID?K, and the literal unit-like field 217I is at a Danube crossing near the place sequence S?ANKAMEN / ?JVIDEK. These opaque labels and the six unknown positions remain visible. The punctuation is editorial and does not establish a particular route or exact formation.
+
+**Complete edition by printed page:** [p. 143](../pages/143.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## Completed reading
@@ -127,3 +136,6 @@ The [input](../../experiments/nov6_evening_and_embassy_records/inputs.json) bind
 Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR input is frozen in the [attribution record](../../experiments/nov6_evening_and_embassy_records/prior_candidates.json).
 
 </details>
+
+</details>
+<!-- CASE-EDITION:END -->

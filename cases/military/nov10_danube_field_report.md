@@ -1,5 +1,14 @@
 # The Danube field report: two companion parts, 10–11 November
 
+The later parts of the report describe French forces, a Danube crossing near the place written RUSTUK, and reserves north of SLOBOZIE. They continue the army-position message whose first part is the p176b challenge.
+
+**Complete edition by printed page:** [p. 176](../pages/176.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and exact repair audit: icekylinx and GPT-6 Astra Pro.**
@@ -125,3 +134,6 @@ also remains an independent conditional layer.
 and [verification instructions](../../experiments/nov10_delegates_and_field_report/README.md)
 provide the literal source rows, all edits, historical-credit checks,
 and the source-header crop.
+
+</details>
+<!-- CASE-EDITION:END -->

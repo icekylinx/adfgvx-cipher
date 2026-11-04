@@ -1,5 +1,14 @@
 # Equipment disposal, Alpenkorps return, and Finland evacuation orders
 
+If conditions permit, the Alpenkorps is to be directed so that Prussian formations are sent to Silesia for the Prussian `K.M.`, and Bavarian formations to Bavaria for the Bavarian `K.M.`. Receipt is to be acknowledged.
+
+**Complete edition by printed page:** [p. 207](../pages/207.md) · [p. 208](../pages/208.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Seven source-reviewed physical records on Childs pp207–208 are now readable.** The clearest gain is the complete two-part Alpenkorps order: its first part was missing an entire row in the earlier OCR extraction, while its second part supplies a printed witness for five erased coordinates and one differing coordinate on p207. Two neighboring messages concern equipment and horses that cannot reach Germany, and the German force in Finland.
@@ -147,3 +156,6 @@ python experiments/repatriation_orders/verify.py --verify --pdf /path/to/adfgvx-
 ```
 
 The default check needs only the Python standard library. The optional PDF check uses PyMuPDF to verify the exact scan hash and all nine saved source-image pixel hashes. The [experiment README](../../experiments/repatriation_orders/README.md) gives the finite scope and provenance. The seven earlier OCR candidates are retained in [prior evidence](../../experiments/repatriation_orders/prior_evidence.json), including their omitted rows, damaged group lengths and partial earlier readings. George Lasry's published key, Childs's source, and the research of Lasry, Niebel, Kopal and Wacker remain credited separately from this source-edition work.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # The Namur order: two witnesses for Staedt and Weiher
 
+Captain Annstaedt at Namur is asked to contact Captain von Weiher of the staging inspectorate, who is to receive a detailed order by eleven in the morning. The message bears Major Kroeger's name; comparison of receptions restores the instruction.
+
+**Complete edition by printed page:** [p. 171](../pages/171.md) · [p. 172](../pages/172.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source reconciliation and edition: icekylinx and GPT-6 Astra Pro.**
@@ -170,3 +179,6 @@ python experiments/namur_order_witnesses/verify.py --verify
 
 The optional `--pdf` argument verifies the pinned scan and independently
 regenerates both source-crop images for pixel comparison.
+
+</details>
+<!-- CASE-EDITION:END -->

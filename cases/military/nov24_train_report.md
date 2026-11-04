@@ -1,5 +1,14 @@
 # p217 B1 — Additional trains and divisional positions
 
+A conditional reconstruction recovers a report that further trains have departed and a position notice placing an RD leading element at Oroshaza. The formation labels remain partly damaged.
+
+**Complete edition by printed page:** [p. 217](../pages/217.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Conditional recovery: icekylinx and GPT-6 Astra Pro.** A repeated-group
@@ -115,3 +124,6 @@ and Arno Wacker (2016), and Lasry's 2017 key list. The earlier
 transcription and repeated group. The present contribution is the conditional
 B1 frame, lexical recovery and exact all-map repair account. B2 remains a
 separate physical record.
+
+</details>
+<!-- CASE-EDITION:END -->

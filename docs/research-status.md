@@ -1,8 +1,8 @@
-# Research status
+# Cipher research
 
 **icekylinx and GPT-6 Astra Pro · 4 November 2026**
 
-[Historical showcase](historical-showcase.md) · [Catalogue](../cases/README.md) · [Methods](methods.md) · [Experiments](../experiments/README.md)
+[Historical research](historical-studies/README.md) · [Catalogue](../cases/README.md) · [Methods](methods.md) · [Experiments](../experiments/README.md)
 
 ## What we have established
 

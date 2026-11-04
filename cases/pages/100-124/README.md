@@ -8,223 +8,223 @@ Jump to page: [p100](#p100) · [p101](#p101) · [p102](#p102) · [p103](#p103) �
 
 This range contains 94 sources, including 0 OPEN. [Reading states](../../../docs/reading-conventions.md#catalogue-states).
 
-## p100
+## [p100](../100.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p100](../../p100.md) | READING | Enemy divisions approaching Belgrade |
-| [p100 B](../../military/budapest_wire_break.md) | READING | Bridges and wire lines through Budapest; report attributes interruption to Hungarian National Council |
-| [p100 C](../../radio/radio_contacts_and_keys.md#p100-c-direct-contact-while-the-wire-is-broken) | READING | Ask when direct contact is possible; wire interrupted; raw BRSLAU/MEGLICH preserved |
-| [p100 D1](../../military/mackensen_subordination.md#p100-d1) | READING | Eleventh Army and German elements placed under Mackensen: first part |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p100](../100.md#source-p100) | READING | Enemy divisions approaching Belgrade | [Meaning](../../p100.md) |
+| [p100 B](../100.md#source-p100-b) | READING | Bridges and wire lines through Budapest; report attributes interruption to Hungarian National Council | [Meaning](../../military/budapest_wire_break.md) |
+| [p100 C](../100.md#source-p100-c) | READING | Ask when direct contact is possible; wire interrupted; raw BRSLAU/MEGLICH preserved | [Meaning](../../radio/radio_contacts_and_keys.md) |
+| [p100 D1](../100.md#source-p100-d1) | READING | Eleventh Army and German elements placed under Mackensen: first part | [Meaning](../../military/mackensen_subordination.md) |
 
-## p101
+## [p101](../101.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p101 A2](../../military/mackensen_subordination.md#p101-a2) | READING | Subordination and request for orders: native ending, reference 7011 |
-| [p101 B2](../../military/orient_south_slav_reports.md#p101-b2) | READING | South-Slav detachment: two infantry and two cavalry regiments with mountain artillery |
-| [p101 C1](../../military/orient_south_slav_reports.md#p101-c1) | PARTIAL | Parallel Orient report on South-Slav units from Montenegro; date partly unread |
-| [p101 D2](../../military/mackensen_subordination.md#p101-d2) | CONDITIONAL | Second ending copy with explicit five-coordinate exclusion and weak source slot |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p101 A2](../101.md#source-p101-a2) | READING | Subordination and request for orders: native ending, reference 7011 | [Meaning](../../military/mackensen_subordination.md) |
+| [p101 B2](../101.md#source-p101-b2) | READING | South-Slav detachment: two infantry and two cavalry regiments with mountain artillery | [Meaning](../../military/orient_south_slav_reports.md) |
+| [p101 C1](../101.md#source-p101-c1) | PARTIAL | Parallel Orient report on South-Slav units from Montenegro; date partly unread | [Meaning](../../military/orient_south_slav_reports.md) |
+| [p101 D2](../101.md#source-p101-d2) | CONDITIONAL | Second ending copy with explicit five-coordinate exclusion and weak source slot | [Meaning](../../military/mackensen_subordination.md) |
 
-## p102
+## [p102](../102.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p102 A](../../finance/zitag_purchase_orders.md#p102-a) | READING | ZITAG instruction to stop buying and loading |
-| [p102 B1](../../military/orient_south_slav_reports.md#p102-b1) | READING | Orient report dated 28.10: South-Slav units advancing in Montenegro |
-| [p102 B2](../../military/orient_south_slav_reports.md#p102-b2) | READING | Parallel detachment copy; observed conflicts and shared word repair retained |
-| [p102 B3](../../military/orient_south_slav_reports.md#p102-b3) | READING | Source of report: Serbian officer and literal regiment/reference labels |
-| [p102 C](../../caucasus/caucasus_ammunition_loading.md#p102-c) | READING | Caucasus delegation asked whether to load the remaining Russian ammunition |
-| [p102 D](../../people/roesler_leave_and_travel.md#p102-d) | READING | Leave and next-ship travel involving Roesler; Hoenigschmid signature |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p102 A](../102.md#source-p102-a) | READING | ZITAG instruction to stop buying and loading | [Meaning](../../finance/zitag_purchase_orders.md) |
+| [p102 B1](../102.md#source-p102-b1) | READING | Orient report dated 28.10: South-Slav units advancing in Montenegro | [Meaning](../../military/orient_south_slav_reports.md) |
+| [p102 B2](../102.md#source-p102-b2) | READING | Parallel detachment copy; observed conflicts and shared word repair retained | [Meaning](../../military/orient_south_slav_reports.md) |
+| [p102 B3](../102.md#source-p102-b3) | READING | Source of report: Serbian officer and literal regiment/reference labels | [Meaning](../../military/orient_south_slav_reports.md) |
+| [p102 C](../102.md#source-p102-c) | READING | Caucasus delegation asked whether to load the remaining Russian ammunition | [Meaning](../../caucasus/caucasus_ammunition_loading.md) |
+| [p102 D](../102.md#source-p102-d) | READING | Leave and next-ship travel involving Roesler; Hoenigschmid signature | [Meaning](../../people/roesler_leave_and_travel.md) |
 
-## p103
+## [p103](../103.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p103 A](../../people/catholic_division_chaplain_substitute.md#p103-a) | READING | No substitute for the Catholic divisional chaplain |
-| [p103 B1](../../finance/zitag_purchase_orders.md#p103-b1) | READING | Procurement request and already-paid consignments |
-| [p103 B2](../../finance/zitag_purchase_orders.md#p103-b2) | READING | Cancel other contracts and request Westernhagen return |
-| [p103 C](../../radio/bucharest_transmitter_consent.md#p103-c) | READING | Conditional consent to send a transmitter to Bucharest |
-| [p103 D](../../finance/zitag_purchase_orders.md#p103-d) | READING | ZITAG instruction to stop buying and loading |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p103 A](../103.md#source-p103-a) | READING | No substitute for the Catholic divisional chaplain | [Meaning](../../people/catholic_division_chaplain_substitute.md) |
+| [p103 B1](../103.md#source-p103-b1) | READING | Procurement request and already-paid consignments | [Meaning](../../finance/zitag_purchase_orders.md) |
+| [p103 B2](../103.md#source-p103-b2) | READING | Cancel other contracts and request Westernhagen return | [Meaning](../../finance/zitag_purchase_orders.md) |
+| [p103 C](../103.md#source-p103-c) | READING | Conditional consent to send a transmitter to Bucharest | [Meaning](../../radio/bucharest_transmitter_consent.md) |
+| [p103 D](../103.md#source-p103-d) | READING | ZITAG instruction to stop buying and loading | [Meaning](../../finance/zitag_purchase_orders.md) |
 
-## p104
+## [p104](../104.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p104 A3](../../radio/nov2_telegram_acknowledgments.md#p104-a3) | READING | Third-part radio acknowledgment instruction; near-copy reference 104359 preserved |
-| [p104 B](../../radio/nov2_uks_connection.md#p104-b) | READING | UKS connection good; relay via literal NSM unnecessary |
-| [p104 C1](../../people/medical_return_to_unit.md) | CONDITIONAL | Conditional medical-return report opening; visible short GAGA group and three equal-A positions |
-| [p104 C2](../../people/medical_return_to_unit.md) | READING | Return to replacement unit for recovery; literal RETTERL/KETTERL closing retained |
-| [p104 D](../../people/meier_berlin_order.md#p104-d) | CONDITIONAL | Batum lieutenant ordered to Berlin; one missing A restores the full order |
-| [p104 E3](../../people/sevastopol_transfer_consent.md#p104-e3) | PARTIAL | Reserve Jaeger battalion commander consents to transfer; unit field unknown |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p104 A3](../104.md#source-p104-a3) | READING | Third-part radio acknowledgment instruction; near-copy reference 104359 preserved | [Meaning](../../radio/nov2_telegram_acknowledgments.md) |
+| [p104 B](../104.md#source-p104-b) | READING | UKS connection good; relay via literal NSM unnecessary | [Meaning](../../radio/nov2_uks_connection.md) |
+| [p104 C1](../104.md#source-p104-c1) | CONDITIONAL | Conditional medical-return report opening; visible short GAGA group and three equal-A positions | [Meaning](../../people/medical_return_to_unit.md) |
+| [p104 C2](../104.md#source-p104-c2) | READING | Return to replacement unit for recovery; literal RETTERL/KETTERL closing retained | [Meaning](../../people/medical_return_to_unit.md) |
+| [p104 D](../104.md#source-p104-d) | CONDITIONAL | Batum lieutenant ordered to Berlin; one missing A restores the full order | [Meaning](../../people/meier_berlin_order.md) |
+| [p104 E3](../104.md#source-p104-e3) | PARTIAL | Reserve Jaeger battalion commander consents to transfer; unit field unknown | [Meaning](../../people/sevastopol_transfer_consent.md) |
 
-## p105
+## [p105](../105.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p105 A](../../radio/nov2_nikolajew_acknowledgment.md#p105-a) | READING | Mackensen receipt request through Nikolajew, with literal reference fields |
-| [p105](../../p105.md) | READING | Naval telegram acknowledgments |
-| [p105 C1](../../radio/nov2_telegram_acknowledgments.md#p105-c1) | READING | First of three acknowledgment instructions addressed to Mackensen |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p105 A](../105.md#source-p105-a) | READING | Mackensen receipt request through Nikolajew, with literal reference fields | [Meaning](../../radio/nov2_nikolajew_acknowledgment.md) |
+| [p105](../105.md#source-p105) | READING | Naval telegram acknowledgments | [Meaning](../../p105.md) |
+| [p105 C1](../105.md#source-p105-c1) | READING | First of three acknowledgment instructions addressed to Mackensen | [Meaning](../../radio/nov2_telegram_acknowledgments.md) |
 
-## p106
+## [p106](../106.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p106 A2](../../radio/nov2_telegram_acknowledgments.md#p106-a2) | READING | Radio acknowledgment and second instruction for AOK 11 |
-| [p106 A3](../../radio/nov2_telegram_acknowledgments.md#p106-a3) | READING | Third acknowledgment part; literal reference 104659 preserved |
-| [p106 B](../../finance/zitag_purchase_orders.md#p106-b) | READING | ZITAG instruction to stop buying and loading |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p106 A2](../106.md#source-p106-a2) | READING | Radio acknowledgment and second instruction for AOK 11 | [Meaning](../../radio/nov2_telegram_acknowledgments.md) |
+| [p106 A3](../106.md#source-p106-a3) | READING | Third acknowledgment part; literal reference 104659 preserved | [Meaning](../../radio/nov2_telegram_acknowledgments.md) |
+| [p106 B](../106.md#source-p106-b) | READING | ZITAG instruction to stop buying and loading | [Meaning](../../finance/zitag_purchase_orders.md) |
 
-## p107
+## [p107](../107.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p107 A](../../radio/ringbahn_0345_calls.md#p107-a) | READING | Ringbahn call arrangement: 0345 after the other station's traffic |
-| [p107 B1](../../military/chemnitz_verbetz_trains.md#p107-b1) | READING | Railway-transport instruction mentioning Laz Zug 42 from Chemnitz |
-| [p107 B2](../../military/chemnitz_verbetz_trains.md#p107-b2) | PARTIAL | Laz Zug 34 to literal VERBETZ; unresolved command reference |
-| [p107 C](../../people/schaefer_return_inquiry.md#p107-c) | READING | Question whether dragoman Schaefer should return as leave ends |
-| [p107 D](../../supplementary/p107_D.md) | READING | Acknowledgment of operational telegrams |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p107 A](../107.md#source-p107-a) | READING | Ringbahn call arrangement: 0345 after the other station's traffic | [Meaning](../../radio/ringbahn_0345_calls.md) |
+| [p107 B1](../107.md#source-p107-b1) | READING | Railway-transport instruction mentioning Laz Zug 42 from Chemnitz | [Meaning](../../military/chemnitz_verbetz_trains.md) |
+| [p107 B2](../107.md#source-p107-b2) | PARTIAL | Laz Zug 34 to literal VERBETZ; unresolved command reference | [Meaning](../../military/chemnitz_verbetz_trains.md) |
+| [p107 C](../107.md#source-p107-c) | READING | Question whether dragoman Schaefer should return as leave ends | [Meaning](../../people/schaefer_return_inquiry.md) |
+| [p107 D](../107.md#source-p107-d) | READING | Acknowledgment of operational telegrams | [Meaning](../../supplementary/p107_D.md) |
 
-## p108
+## [p108](../108.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p108 A](../../radio/naval_arrival_inquiry.md#p108-a) | READING | Naval inquiry whether referenced SKL communication has arrived |
-| [p108 B1](../../people/rudolf_discharge.md#p108-b1) | READING | Immediate discharge request for Gefr Rudolf Rudolf assigned to the embassy |
-| [p108 B2](../../people/rudolf_discharge.md#p108-b2) | CONDITIONAL | Discharge and embassy notification, with unresolved final reference label |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p108 A](../108.md#source-p108-a) | READING | Naval inquiry whether referenced SKL communication has arrived | [Meaning](../../radio/naval_arrival_inquiry.md) |
+| [p108 B1](../108.md#source-p108-b1) | READING | Immediate discharge request for Gefr Rudolf Rudolf assigned to the embassy | [Meaning](../../people/rudolf_discharge.md) |
+| [p108 B2](../108.md#source-p108-b2) | CONDITIONAL | Discharge and embassy notification, with unresolved final reference label | [Meaning](../../people/rudolf_discharge.md) |
 
-## p109
+## [p109](../109.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p109 A2](../../radio/nov3_bucharest_power_source_query.md#p109-a2) | READING | Bucharest dispatch enquiry and power-source specifications |
-| [p109 A3](../../radio/nov3_bucharest_power_source_query.md#p109-a3) | READING | Direct query for a motor about 50PS, 220V direct-current dynamo and 25kW rating |
-| [p109 B](../../p109.md) | PARTIAL | Evening enemy-division report toward Belgrade |
-| [p109 C1](../../military/nov3_northeast_foot_march.md#p109-c1) | READING | Two-part march notice and officer dispatch: a priced editorial reading |
-| [p109 C2](../../military/nov3_northeast_foot_march.md#p109-c2) | READING | General Staff officer to be dispatched by air; literal closing EINS4 and 7023 |
-| [p109](../../p109.md) | READING | Evening report; likely Sava crossing |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p109 A2](../109.md#source-p109-a2) | READING | Bucharest dispatch enquiry and power-source specifications | [Meaning](../../radio/nov3_bucharest_power_source_query.md) |
+| [p109 A3](../109.md#source-p109-a3) | READING | Direct query for a motor about 50PS, 220V direct-current dynamo and 25kW rating | [Meaning](../../radio/nov3_bucharest_power_source_query.md) |
+| [p109 B](../109.md#source-p109-b) | PARTIAL | Evening enemy-division report toward Belgrade | [Meaning](../../p109.md) |
+| [p109 C1](../109.md#source-p109-c1) | READING | Two-part march notice and officer dispatch: a priced editorial reading | [Meaning](../../military/nov3_northeast_foot_march.md) |
+| [p109 C2](../109.md#source-p109-c2) | READING | General Staff officer to be dispatched by air; literal closing EINS4 and 7023 | [Meaning](../../military/nov3_northeast_foot_march.md) |
+| [p109](../109.md#source-p109) | READING | Evening report; likely Sava crossing | [Meaning](../../p109.md) |
 
-## p110
+## [p110](../110.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p110 A2](../../radio/nov3_transmission_schedule.md#p110-a2) | READING | Surviving radio schedule and unchanged Ringbahn traffic |
-| [p110 B](../../military/kiew_morning_and_pioneer_reports.md#p110-b) | PARTIAL | Kiew morning report to Mackensen: nothing new; literal reference6915 |
-| [p110 C](../../military/kiew_morning_and_pioneer_reports.md#p110-c) | READING | Pioneer-park loading and wagon request; source-exact 398-coordinate frame |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p110 A2](../110.md#source-p110-a2) | READING | Surviving radio schedule and unchanged Ringbahn traffic | [Meaning](../../radio/nov3_transmission_schedule.md) |
+| [p110 B](../110.md#source-p110-b) | PARTIAL | Kiew morning report to Mackensen: nothing new; literal reference6915 | [Meaning](../../military/kiew_morning_and_pioneer_reports.md) |
+| [p110 C](../110.md#source-p110-c) | READING | Pioneer-park loading and wagon request; source-exact 398-coordinate frame | [Meaning](../../military/kiew_morning_and_pioneer_reports.md) |
 
-## p111
+## [p111](../111.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p111 A1](../../military/nov3_evening_report.md#p111-a1) | PARTIAL | Evening-report first-part witness |
-| [p111 B](../../radio/p111_B.md) | READING | Use radio for important messages |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p111 A1](../111.md#source-p111-a1) | PARTIAL | Evening-report first-part witness | [Meaning](../../military/nov3_evening_report.md) |
+| [p111 B](../111.md#source-p111-b) | READING | Use radio for important messages | [Meaning](../../radio/p111_B.md) |
 
-## p112
+## [p112](../112.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p112 A1](../../military/nov3_evening_report.md#p112-a1) | PARTIAL | Save–Danube and Alpenkorps evening report |
-| [p112 A2](../../military/nov3_evening_report.md#p112-a2) | PARTIAL | March and aerial-observation continuation |
-| [p112 A3](../../military/nov3_evening_report.md#p112-a3) | PARTIAL | Bucharest flight and date-field continuation |
-| [p112 B](../../radio/telefunken_staff_inquiry.md#p112-b) | READING | Telefunken inquiry about returning personnel |
-| [p112 C](../../radio/constantza_station_shutdown.md#p112-c) | CONDITIONAL | Conditional Constantza radio-station closure |
-| [p112 D](../../military/turkish_armistice_straits_notice.md#p112-d) | PARTIAL | Turkish armistice and opening of the straits |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p112 A1](../112.md#source-p112-a1) | PARTIAL | Save–Danube and Alpenkorps evening report | [Meaning](../../military/nov3_evening_report.md) |
+| [p112 A2](../112.md#source-p112-a2) | PARTIAL | March and aerial-observation continuation | [Meaning](../../military/nov3_evening_report.md) |
+| [p112 A3](../112.md#source-p112-a3) | PARTIAL | Bucharest flight and date-field continuation | [Meaning](../../military/nov3_evening_report.md) |
+| [p112 B](../112.md#source-p112-b) | READING | Telefunken inquiry about returning personnel | [Meaning](../../radio/telefunken_staff_inquiry.md) |
+| [p112 C](../112.md#source-p112-c) | CONDITIONAL | Conditional Constantza radio-station closure | [Meaning](../../radio/constantza_station_shutdown.md) |
+| [p112 D](../112.md#source-p112-d) | PARTIAL | Turkish armistice and opening of the straits | [Meaning](../../military/turkish_armistice_straits_notice.md) |
 
-## p113
+## [p113](../113.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p113 A3](../../military/mackensen_withdrawal_report.md#p113-a3) | READING | Forces south of the Danube |
-| [p113 B9](../../military/mackensen_withdrawal_report.md#p113-b9) | READING | The separately received ninth part |
-| [p113 C](../../naval/nov3_poti_tobacco_loading.md#p113-c) | READING | Poti tobacco loading inquiry, with literal quantity 2400 |
-| [p113 D1](../../radio/nov3_eilvese_traffic_schedule.md#p113-d1) | CONDITIONAL | Eilvese/OUI transmission modes and provisional traffic times, with literal labels |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p113 A3](../113.md#source-p113-a3) | READING | Forces south of the Danube | [Meaning](../../military/mackensen_withdrawal_report.md) |
+| [p113 B9](../113.md#source-p113-b9) | READING | The separately received ninth part | [Meaning](../../military/mackensen_withdrawal_report.md) |
+| [p113 C](../113.md#source-p113-c) | READING | Poti tobacco loading inquiry, with literal quantity 2400 | [Meaning](../../naval/nov3_poti_tobacco_loading.md) |
+| [p113 D1](../113.md#source-p113-d1) | CONDITIONAL | Eilvese/OUI transmission modes and provisional traffic times, with literal labels | [Meaning](../../radio/nov3_eilvese_traffic_schedule.md) |
 
-## p114
+## [p114](../114.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p114 A1](../../military/mackensen_withdrawal_report.md#p114-a1) | READING | Assessment of the situation |
-| [p114 A4](../../military/mackensen_withdrawal_report.md#p114-a4) | READING | Possible Serbian advance |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p114 A1](../114.md#source-p114-a1) | READING | Assessment of the situation | [Meaning](../../military/mackensen_withdrawal_report.md) |
+| [p114 A4](../114.md#source-p114-a4) | READING | Possible Serbian advance | [Meaning](../../military/mackensen_withdrawal_report.md) |
 
-## p115
+## [p115](../115.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p115 A5](../../military/mackensen_withdrawal_report.md#p115-a5) | READING | Crossing into southern Hungary |
-| [p115 A6](../../military/mackensen_withdrawal_report.md#p115-a6) | READING | French offensive toward Bucharest |
-| [p115 A7](../../military/mackensen_withdrawal_report.md#p115-a7) | READING | Romanian movement through the passes |
-| [p115 A8](../../military/mackensen_withdrawal_report.md#p115-a8) | READING | Threatened rear communications |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p115 A5](../115.md#source-p115-a5) | READING | Crossing into southern Hungary | [Meaning](../../military/mackensen_withdrawal_report.md) |
+| [p115 A6](../115.md#source-p115-a6) | READING | French offensive toward Bucharest | [Meaning](../../military/mackensen_withdrawal_report.md) |
+| [p115 A7](../115.md#source-p115-a7) | READING | Romanian movement through the passes | [Meaning](../../military/mackensen_withdrawal_report.md) |
+| [p115 A8](../115.md#source-p115-a8) | READING | Threatened rear communications | [Meaning](../../military/mackensen_withdrawal_report.md) |
 
-## p116
+## [p116](../116.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p116 A10](../../military/mackensen_withdrawal_report.md#p116-a10) | PARTIAL | Occupation and supply constraints |
-| [p116 A11](../../military/mackensen_withdrawal_report.md#p116-a11) | CONDITIONAL | Ammunition, food and coal |
-| [p116 A12](../../military/mackensen_withdrawal_report.md#p116-a12) | CONDITIONAL | Proposed immediate withdrawal |
-| [p116 A13](../../military/mackensen_withdrawal_report.md#p116-a13) | CONDITIONAL | Jammed withdrawal ending: route, approval and signature fragments |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p116 A10](../116.md#source-p116-a10) | PARTIAL | Occupation and supply constraints | [Meaning](../../military/mackensen_withdrawal_report.md) |
+| [p116 A11](../116.md#source-p116-a11) | CONDITIONAL | Ammunition, food and coal | [Meaning](../../military/mackensen_withdrawal_report.md) |
+| [p116 A12](../116.md#source-p116-a12) | CONDITIONAL | Proposed immediate withdrawal | [Meaning](../../military/mackensen_withdrawal_report.md) |
+| [p116 A13](../116.md#source-p116-a13) | CONDITIONAL | Jammed withdrawal ending: route, approval and signature fragments | [Meaning](../../military/mackensen_withdrawal_report.md) |
 
-## p117
+## [p117](../117.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p117 A](../../people/medical_company_inquiry.md#p117-a) | PARTIAL | Clarify a reported medical company versus a field hospital |
-| [p117 B](../../radio/nov3_ringbahn_notice.md#p117-b) | READING | Additional listening times and a reception-quality notice |
-| [p117 C3](../../military/nov3_withdrawal_and_night_report.md#p117-c3) | READING | German troops to leave Hungarian and South Slav territory |
-| [p117 C4](../../military/nov3_withdrawal_and_night_report.md#p117-c4) | CONDITIONAL | Conditional continuation: army march into Romania |
-| [p117 D](../../military/nov3_withdrawal_and_night_report.md#p117-d) | READING | Night report: quiet night, sender unknown |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p117 A](../117.md#source-p117-a) | PARTIAL | Clarify a reported medical company versus a field hospital | [Meaning](../../people/medical_company_inquiry.md) |
+| [p117 B](../117.md#source-p117-b) | READING | Additional listening times and a reception-quality notice | [Meaning](../../radio/nov3_ringbahn_notice.md) |
+| [p117 C3](../117.md#source-p117-c3) | READING | German troops to leave Hungarian and South Slav territory | [Meaning](../../military/nov3_withdrawal_and_night_report.md) |
+| [p117 C4](../117.md#source-p117-c4) | CONDITIONAL | Conditional continuation: army march into Romania | [Meaning](../../military/nov3_withdrawal_and_night_report.md) |
+| [p117 D](../117.md#source-p117-d) | READING | Night report: quiet night, sender unknown | [Meaning](../../military/nov3_withdrawal_and_night_report.md) |
 
-## p118
+## [p118](../118.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p118 A2](../../military/mackensen_withdrawal_part2.md#p118-a2) | CONDITIONAL | Separately received second part of Mackensen withdrawal report |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p118 A2](../118.md#source-p118-a2) | CONDITIONAL | Separately received second part of Mackensen withdrawal report | [Meaning](../../military/mackensen_withdrawal_part2.md) |
 
-## p119
+## [p119](../119.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p119 A](../../people/steiling_leave_request.md#p119-a) | READING | Steiling asks for additional leave pending a decision |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p119 A](../119.md#source-p119-a) | READING | Steiling asks for additional leave pending a decision | [Meaning](../../people/steiling_leave_request.md) |
 
-## p120
+## [p120](../120.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p120 A](../../radio/nov4_eilvese_and_setup.md#p120-a) | CONDITIONAL | Military-attache query about embassy reception of Eilvese |
-| [p120 B1](../../naval/p120_p123.md) | READING | Instruction to Feigenhaus; contact with Herkules |
-| [p120 C](../../radio/nov4_eilvese_and_setup.md#p120-c) | READING | Dismantling/setup notice; literal NAGQBESCEREK retained |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p120 A](../120.md#source-p120-a) | CONDITIONAL | Military-attache query about embassy reception of Eilvese | [Meaning](../../radio/nov4_eilvese_and_setup.md) |
+| [p120 B1](../120.md#source-p120-b1) | READING | Instruction to Feigenhaus; contact with Herkules | [Meaning](../../naval/p120_p123.md) |
+| [p120 C](../120.md#source-p120-c) | READING | Dismantling/setup notice; literal NAGQBESCEREK retained | [Meaning](../../radio/nov4_eilvese_and_setup.md) |
 
-## p121
+## [p121](../121.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p121 A1](../../radio/nov4_repetition_and_connections.md#p121-a1) | READING | Kress reminded that the first telegram part must be repeated |
-| [p121 A2](../../radio/nov4_repetition_and_connections.md#p121-a2) | READING | Parts 2 and 3 already deciphered; renewed request for part 1 |
-| [p121 B1](../../radio/nov4_repetition_and_connections.md#p121-b1) | READING | Inquiry whether the Bucharest–Constanza link still operates |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p121 A1](../121.md#source-p121-a1) | READING | Kress reminded that the first telegram part must be repeated | [Meaning](../../radio/nov4_repetition_and_connections.md) |
+| [p121 A2](../121.md#source-p121-a2) | READING | Parts 2 and 3 already deciphered; renewed request for part 1 | [Meaning](../../radio/nov4_repetition_and_connections.md) |
+| [p121 B1](../121.md#source-p121-b1) | READING | Inquiry whether the Bucharest–Constanza link still operates | [Meaning](../../radio/nov4_repetition_and_connections.md) |
 
-## p122
+## [p122](../122.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p122 A2](../../radio/nov4_repetition_and_connections.md#p122-a2) | READING | Continuation asking about Constanza cable and AOK 11 communications |
-| [p122 B](../../people/schorlemer_demobilization_inquiry.md#p122-b) | READING | Trade Minister asks whether von Schorlemer can join demobilization work |
-| [p122 C](../../finance/cash_arrival_acknowledgment.md#p122-c) | READING | Money transport reported to have arrived |
-| [p122 D suffix](../../naval/p120_p123.md) | PARTIAL | Repeat of the Feigenhaus instruction, part 1 |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p122 A2](../122.md#source-p122-a2) | READING | Continuation asking about Constanza cable and AOK 11 communications | [Meaning](../../radio/nov4_repetition_and_connections.md) |
+| [p122 B](../122.md#source-p122-b) | READING | Trade Minister asks whether von Schorlemer can join demobilization work | [Meaning](../../people/schorlemer_demobilization_inquiry.md) |
+| [p122 C](../122.md#source-p122-c) | READING | Money transport reported to have arrived | [Meaning](../../finance/cash_arrival_acknowledgment.md) |
+| [p122 D suffix](../122.md#source-p122-d-suffix) | PARTIAL | Repeat of the Feigenhaus instruction, part 1 | [Meaning](../../naval/p120_p123.md) |
 
-## p123
+## [p123](../123.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p123 A2](../../naval/p120_p123.md) | CONDITIONAL | Responsibility for further Notschreie declined |
-| [p123 A3](../../naval/p120_p123.md) | CONDITIONAL | Follow instructions; report plans after political change |
-| [p123 B](../../people/director_departure_query.md#p123-b) | PARTIAL | Question whether a director should depart; name/reference uncertainty retained |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p123 A2](../123.md#source-p123-a2) | CONDITIONAL | Responsibility for further Notschreie declined | [Meaning](../../naval/p120_p123.md) |
+| [p123 A3](../123.md#source-p123-a3) | CONDITIONAL | Follow instructions; report plans after political change | [Meaning](../../naval/p120_p123.md) |
+| [p123 B](../123.md#source-p123-b) | PARTIAL | Question whether a director should depart; name/reference uncertainty retained | [Meaning](../../people/director_departure_query.md) |
 
-## p124
+## [p124](../124.md)
 
-| Source | State | Subject |
-|---|---|---|
-| [p124 A1](../../military/hungarian_armistice_instructions.md#p124-a1) | READING | Reported Hungarian armistice negotiations and requested German departure |
-| [p124 A2](../../military/hungarian_armistice_instructions.md#p124-a2) | READING | Two staff officers for negotiations; instructions requested |
-| [p124 A3](../../military/hungarian_armistice_instructions.md#p124-a3) | READING | Command and reference 11222 for the three-part negotiation message |
-| [p124 B](../../military/nov4_flying_unit_inquiry.md#p124-b) | CONDITIONAL | Inquiry whether flying units should depart or remain; opening reference unresolved |
+| Source | State | Subject | Case |
+|---|---|---|---|
+| [p124 A1](../124.md#source-p124-a1) | READING | Reported Hungarian armistice negotiations and requested German departure | [Meaning](../../military/hungarian_armistice_instructions.md) |
+| [p124 A2](../124.md#source-p124-a2) | READING | Two staff officers for negotiations; instructions requested | [Meaning](../../military/hungarian_armistice_instructions.md) |
+| [p124 A3](../124.md#source-p124-a3) | READING | Command and reference 11222 for the three-part negotiation message | [Meaning](../../military/hungarian_armistice_instructions.md) |
+| [p124 B](../124.md#source-p124-b) | CONDITIONAL | Inquiry whether flying units should depart or remain; opening reference unresolved | [Meaning](../../military/nov4_flying_unit_inquiry.md) |
 
 [Return to all source pages](../README.md).

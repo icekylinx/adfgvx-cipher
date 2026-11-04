@@ -1,5 +1,14 @@
 # Hermannstadt radio station and armistice instructions
 
+It reports construction of a radio station near Hermannstadt, railway difficulties, unsuccessful or intermittent communications, and eventual reception through Breslau.
+
+**Complete edition by printed page:** [p. 216](../pages/216.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
@@ -105,3 +114,6 @@ The source prints 199 slots against 198 advertised. Deleting any one of three ad
 The edition contains 465 plaintext positions, 12 observed-coordinate substitutions, one printed-dash fill and two conditional source-coordinate deletions. The source-defined four-part assembly does not include the adjacent cash request. Fixed raw labels do not certify historical numbers or names.
 
 [Source inputs and attribution](../../experiments/hermannstadt_radio_report/inputs.json), [exact certificates](../../experiments/hermannstadt_radio_report/certificates.json), and [complete method and verification instructions](../../experiments/hermannstadt_radio_report/README.md).
+
+</details>
+<!-- CASE-EDITION:END -->

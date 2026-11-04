@@ -1,5 +1,14 @@
 # Black Sea evacuation routes, the Braila prohibition and onward rail movement
 
+Nothing is to go to Braila, and steamers already on that route are to turn back. Onward transport is to use whole trains.
+
+**Complete edition by printed page:** [p. 88](../pages/088.md) · [p. 89](../pages/089.md) · [p. 90](../pages/090.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **New source editions and verification: icekylinx and GPT-6 Astra Pro.**
@@ -260,3 +269,6 @@ retain the source, loss placement and earlier editorial operations.
 The [current A3 package](../../experiments/p89_destination_continuation/README.md)
 adds the exact continuation, independent word witnesses, historical source
 and bounded retrieval checks.
+
+</details>
+<!-- CASE-EDITION:END -->

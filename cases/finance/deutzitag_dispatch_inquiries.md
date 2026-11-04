@@ -1,5 +1,14 @@
 # DEUTZITAG: requesting details of purchase dispatches
 
+The Caucasus delegation's economic department is asked whether purchases have already been dispatched, when and where further consignments will leave, and how onward transport is to be arranged.
+
+**Complete edition by printed page:** [p. 80](../pages/080.md) · [p. 81](../pages/081.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs p80 A and p81 A/C, printed heading 30 October 1918, received 31 October. Published `Oct28-31` key, unchanged. [Inputs](../../experiments/deutzitag_dispatch_inquiries/inputs.json), [exact certificates](../../experiments/deutzitag_dispatch_inquiries/certificates.json), [method](../../experiments/deutzitag_dispatch_inquiries/README.md).
@@ -71,3 +80,6 @@ DRAHTETOBVONEURENKAEUFENBEREITSABTRANSPORTEERFOLGTSINDEVENTUELLWANNUNDWOHINSOLCH
 ## Attribution and scope
 
 Earlier unreviewed OCR-derived repository candidates already contained all three bodies. This edition adds source checking, independent physical witnesses, exact position comparisons and a costed repair. It makes no claim of first historical decipherment. The [adjacent pioneer-detachment order](../caucasus/tiflis_pioneer_detachment.md) is a separate military message.
+
+</details>
+<!-- CASE-EDITION:END -->

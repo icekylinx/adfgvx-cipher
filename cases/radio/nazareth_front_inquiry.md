@@ -1,5 +1,14 @@
 # Nazareth evaluation office: request for news from the front
 
+An urgent BLITZ inquiry to the evaluation office at Nazareth asks for news from the fighting front.
+
+**Complete edition by printed page:** [p. 59](../pages/059.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -51,3 +60,6 @@ are credited. No historical first-solution claim is made.
 [certificates](../../experiments/september_receipt_and_front_inquiry/certificates.json)
 and [reproduction instructions](../../experiments/september_receipt_and_front_inquiry/README.md)
 retain the literal rows, complete index mapping and exact round trip.
+
+</details>
+<!-- CASE-EDITION:END -->

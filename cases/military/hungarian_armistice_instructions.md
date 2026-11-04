@@ -1,5 +1,14 @@
 # Hungarian armistice negotiations: troop departure and instructions requested
 
+The message reports negotiations over the Hungarian armistice and instructs German troops to leave. The conditions and reference fields are preserved in the individual parts.
+
+**Complete edition by printed page:** [p. 124](../pages/124.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -141,3 +150,6 @@ the old A2/A3 OCR artifacts and published key credit are also preserved.
 This source edition makes no historical first-solution claim. See the
 [inputs](../../experiments/hungarian_armistice_instructions/inputs.json)
 and [reproduction instructions](../../experiments/hungarian_armistice_instructions/README.md).
+
+</details>
+<!-- CASE-EDITION:END -->

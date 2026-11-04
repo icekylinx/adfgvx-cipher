@@ -1,5 +1,14 @@
 # Baku personnel inquiry: a duplicated-block reconstruction
 
+A damaged telegram asks General von Kress in Tiflis for information about the fate of army personnel in Baku. The surviving text is an inquiry; the answer is absent.
+
+**Complete edition by printed page:** [p. 185](../pages/185.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -149,3 +158,6 @@ re-encryption with globally injective square-completion witnesses. Those
 completion witnesses are explicitly nonhistorical. Earlier OCR and its
 unchanged-key output remain separate from the present source reconstruction;
 no universal first-decipherment priority is asserted.
+
+</details>
+<!-- CASE-EDITION:END -->

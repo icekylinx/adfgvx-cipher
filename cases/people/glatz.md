@@ -1,5 +1,14 @@
 # An enquiry about Glatz's whereabouts
 
+To the Military Mission in Constantinople. A telegram is requested reporting the whereabouts of Government Master Builder Glatz of Road Construction Special Detachment 1. The closing contains routing and reference information, including transmission through the Admiral Staff and reference 95537.
+
+**Complete edition by printed page:** [p. 140](../pages/140.md) · [p. 149](../pages/149.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [ADFGVX Cipher](../../README.md) · [All readings](../README.md) · [Source audit](../../experiments/corpus_attack/SOURCE_FAMILIES.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Records:** p140 B and p149 C. **Result:** 167 of 168 proposed positions have complete coordinate-pair support in a printed witness under the published Nov4–6 key. One damaged glyph needs an explicit reading to complete `KONSTANTINOPEL`.
@@ -50,3 +59,6 @@ The unchanged **Nov4–6** period key retains the credit recorded in [data/keys.
 python3 experiments/corpus_attack/build_source_pairs.py --verify
 python3 experiments/corpus_attack/verify_source_pairs.py
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # State-bank accounting request and dispatched cheques
 
+An urgent radio inquiry to Staatsbank Berlin concerns sums paid for the general war treasury through the end of October. Its continuation asks for notice that previously dispatched cheques have arrived.
+
+**Complete edition by printed page:** [p. 172](../pages/172.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
@@ -135,3 +144,6 @@ masks. This supplies two previously unknown labels to the conservative
 p175 reading; the final X remains a separately priced change in that copy.
 Neither complete source pair supports the proposed M in MARK or L in
 HAUPTWECHSELAMT, and the unresolved AM label remains VF in `{5, 6}`.
+
+</details>
+<!-- CASE-EDITION:END -->

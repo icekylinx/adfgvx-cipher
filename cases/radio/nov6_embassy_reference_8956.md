@@ -1,5 +1,14 @@
 # German embassy address and abbreviated signature label, reference RM3D8956
 
+The first part addresses the German embassy in Constantinople and includes the abbreviated signature label UNTERSCHR followed by AUSWAERTIG. The closing retains RM, 3, D and 8956. This address and signature fragment does not establish the content of the second part, which is outside this edition.
+
+**Complete edition by printed page:** [p. 148](../pages/148.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case index](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 ## p148 A1
@@ -69,3 +78,6 @@ The complete reading above costs five substitutions in total: this annotated F�
 The [input](../../experiments/nov6_embassy_8956_annotation/inputs.json) binds each literal source to exact PDF crops. The [certificate](../../experiments/nov6_embassy_8956_annotation/certificates.json) contains the raw paired-coordinate domains, each source change and the forward checks. The [verifier](../../experiments/nov6_embassy_8956_annotation/verify.py) checks the unchanged published keys and the live German quotations, retaining all numerical and letter labels.
 
 Source edition and verification: icekylinx and GPT-6 Astra Pro (2026). Childs supplies the historical collection; published reconstruction and key provenance credit Lasry, Niebel, Kopal and Wacker. Earlier repository OCR and body readings are retained in the [attribution record](../../experiments/nov6_embassy_8956_annotation/prior_candidates.json).
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Request for Awaloff to come to Berlin
 
+The first part addresses a political department with Oberkdo Mackensen; the matching source header carries the second part onto p161. The continuation requests that Fürsten Awaloff come to Berlin as soon as possible.
+
+**Complete edition by printed page:** [p. 160](../pages/160.md) · [p. 161](../pages/161.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 The first part addresses a political department with Oberkdo Mackensen; the matching source header carries the second part onto p161. The continuation requests that Fürsten Awaloff come to Berlin as soon as possible. LI, TSCHENKE, AWALOFF and STUMM remain source labels without added biographical identification.
@@ -77,3 +86,6 @@ LIXBITTETFUERSTENXAWALOFFXBALDMOEGLICHSTNACHBERLINZUKOMMENXSTUMM
 The two missing square cells `VF` and `XA` jointly contain `5` and `6`. Both complete assignments are retained as compatibility witnesses; every occurrence of a cell shares the same digit. The displayed `?` positions therefore must not be treated as independent digit choices. In p160 B2 one additional source coordinate remains unfilled; its domain can include letters as well as digits.
 
 The published Nov7–9 period key and earlier OCR candidates are credited in the inputs. This edition adds source inspection, separate repair costs and exact readable-text mappings. It does not claim new recovery of the period key.
+
+</details>
+<!-- CASE-EDITION:END -->

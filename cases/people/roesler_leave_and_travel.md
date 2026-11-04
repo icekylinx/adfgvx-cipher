@@ -1,5 +1,14 @@
 # Roesler: leave and departure on the next ship
 
+Leave is granted after Rittmeister Roesler's arrival. The message also says he will leave for the destination on the next ship; the repeated surname and routing abbreviations remain as transmitted.
+
+**Complete edition by printed page:** [p. 102](../pages/102.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 The native p102 D frame concerns leave, the arrival of Rittm. Roesler, and departure on the next ship. It ends with **HOENIGSCHMID** and the abbreviation **S.M.St.Pers.** The complete body already appears in the earlier OCR screen; this edition adds source verification and a reproducible certificate without changing any coordinate.
@@ -58,3 +67,6 @@ The source header names `BARON FRANKENSTEIN` and `HPTM BENEDIKT`; they are clear
 The [input transcription](../../experiments/nov1_ammunition_and_leave/inputs.json) preserves every source row, the published key and the exact readable display. The [certificate](../../experiments/nov1_ammunition_and_leave/certificates.json) maps each plaintext position to its two source coordinates, preserves all numeral labels, and checks every non-`X` label in the displayed German. The [standalone verifier](../../experiments/nov1_ammunition_and_leave/verify.py) re-encrypts the native plaintext to the full observed ciphertext. Its optional PDF mode also reproduces the source images exactly.
 
 No historical inference changes the source, key, numerals or personal-name spellings. Punctuation and abbreviation segmentation are editorial choices, so grammatical attachment and full abbreviations may remain uncertain even when all cipher labels are fixed.
+
+</details>
+<!-- CASE-EDITION:END -->

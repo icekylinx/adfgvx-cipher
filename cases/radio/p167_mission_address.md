@@ -1,5 +1,14 @@
 # p167 C1 — Mission and Nachrichtenchef service address
 
+The surviving first part contains a mission address and a Nachrichtenchef routing or signature field. Damaged institutional labels prevent a more precise identification.
+
+**Complete edition by printed page:** [p. 167](../pages/167.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Partial recovery and source review: icekylinx and GPT-6 Astra Pro.**
@@ -94,3 +103,6 @@ The unchanged period key comes from George Lasry, Ingo Niebel, Nils Kopal and
 Arno Wacker, and Lasry's 2017 key list. The earlier unreviewed OCR block is
 preserved. The source transcription, word proposals and linked-field audit
 are by **icekylinx and GPT-6 Astra Pro**.
+
+</details>
+<!-- CASE-EDITION:END -->

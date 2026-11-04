@@ -1,5 +1,14 @@
 # November 4: Eilvese reception and a setup notice
 
+The proposed reading addresses the German military attache, refers to 8303.18 and asks whether the embassy can also receive undamped Eilvese transmissions. It does not establish the reception equipment or the outcome of that request.
+
+**Complete edition by printed page:** [p. 120](../pages/120.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -129,3 +138,6 @@ The source-visible second group on the last row is `VFVFX`; an early low-resolut
 Earlier unreviewed repository candidates already suggested these bodies. This edition checks the primary images, preserves conflicting source labels and publishes every frame operation, coordinate substitution and fill. Prior published key recovery keeps its original credit; no first-solution priority is claimed.
 
 [Inputs](../../experiments/nov4_radio_and_departure_queries/inputs.json), [certificates](../../experiments/nov4_radio_and_departure_queries/certificates.json), [earlier candidates](../../experiments/nov4_radio_and_departure_queries/prior_candidates.json) and [reproduction](../../experiments/nov4_radio_and_departure_queries/README.md) provide complete source and positional evidence.
+
+</details>
+<!-- CASE-EDITION:END -->

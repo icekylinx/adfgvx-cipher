@@ -1,5 +1,14 @@
 # Alpenkorps departure and march report
 
+The report concerns assembly and onward movement of the Alpenkorps during the retreat through Hungary. Related receptions supply a near-identical continuation and clarify the operational context.
+
+**Complete edition by printed page:** [p. 160](../pages/160.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 A conditional second-part reading concerns preparations to transport the Alpenkorps and the continuation of a march. The source is dated 8 November 1918; the receipt header is 11.44 p.m. on 8 November. The first part of this physical p160 transmission has not been identified. The place-like strings NAGYBESKEREK and WERGCHEEZ are left exactly as decoded.
@@ -99,3 +108,6 @@ in this source edition. No previously cataloged parallel is counted again.
 The two missing square cells `VF` and `XA` jointly contain `5` and `6`. Both complete assignments are retained as compatibility witnesses; every occurrence of a cell shares the same digit. The displayed `?` positions therefore must not be treated as independent digit choices. In p160 B2 one additional source coordinate remains unfilled; its domain can include letters as well as digits.
 
 The published Nov7–9 period key and earlier OCR candidates are credited in the inputs. This edition adds source inspection, separate repair costs and exact readable-text mappings. It does not claim new recovery of the period key.
+
+</details>
+<!-- CASE-EDITION:END -->

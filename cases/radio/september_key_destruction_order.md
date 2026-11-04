@@ -1,5 +1,14 @@
 # September: a key-destruction instruction with a masked label
 
+The proposed message addresses the radio stations at Poti and Tiflis and instructs immediate destruction of the key bearing the labels 77?77 and 77777 because it is known. The two number labels and closing OSMANIE remain literal.
+
+**Complete edition by printed page:** [p. 61](../pages/061.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -78,3 +87,6 @@ the ciphertext key or its labels.
 The unchanged published key retains its original recovery credit. The frozen earlier OCR rows belong to the companion p57 edition; no p61 candidate appeared in those selected caches. The present p61 reading is derived from its checked source image, without claiming that the absence of a cached row establishes historical decipherment priority. This comparison does not establish an external first-decipherment claim.
 
 [Inputs](../../experiments/september_radio_instructions/inputs.json), [positional certificates](../../experiments/september_radio_instructions/certificates.json), [earlier screens](../../experiments/september_radio_instructions/prior_candidates.json) and [reproduction](../../experiments/september_radio_instructions/README.md) preserve the complete evidence.
+
+</details>
+<!-- CASE-EDITION:END -->

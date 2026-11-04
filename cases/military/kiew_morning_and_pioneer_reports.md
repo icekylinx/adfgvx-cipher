@@ -1,5 +1,14 @@
 # Kiew morning report and pioneer-park loading request
 
+One morning report from Kiev says there is nothing new. A separate request seeks wagons for a pioneer-park company ready for loading, without which onward movement is impossible.
+
+**Complete edition by printed page:** [p. 110](../pages/110.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
@@ -94,3 +103,6 @@ mask fill is separate from a change to an observed ADFGVX coordinate.
 [Source rows and image metadata](../../experiments/nov3_radio_and_pioneer/inputs.json),
 [coordinate and domain certificate](../../experiments/nov3_radio_and_pioneer/certificates.json),
 and [method, prior credit and reproduction](../../experiments/nov3_radio_and_pioneer/README.md).
+
+</details>
+<!-- CASE-EDITION:END -->

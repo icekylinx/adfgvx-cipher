@@ -1,5 +1,14 @@
 # p211, lower B — an explicit November/December key schedule
 
+Do not destroy the November Ringbahn key. The December Ringbahn key will not yet take effect.
+
+**Complete edition by printed page:** [p. 211](../pages/211.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Case guide](../README.md) · [ADFGVX Cipher](../../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Status:** Three source-checked parts form a readable key-handling
@@ -152,3 +161,6 @@ python3 experiments/open_targets_continuation/verify.py --verify
 ```
 
 The source checks and readable edition are by **icekylinx and GPT-6 Astra Pro**.
+
+</details>
+<!-- CASE-EDITION:END -->

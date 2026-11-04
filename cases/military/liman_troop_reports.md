@@ -1,5 +1,14 @@
 # Reports requested from General von Liman
 
+General von Liman is asked for regular reports on troops near Constantinople and Haidarpascha: return transport, strength, condition and special requirements. Receipt is to be acknowledged.
+
+**Complete edition by printed page:** [p. 222](../pages/222.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -130,3 +139,6 @@ check. This source edition makes no universal first-decipherment claim.
 ```sh
 python experiments/liman_troop_reports/verify.py --verify
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

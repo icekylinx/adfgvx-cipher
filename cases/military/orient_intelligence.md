@@ -1,5 +1,14 @@
 # Orient intelligence: expected landings and fighting on the Tigris
 
+The report corrects an earlier Orient note, assesses shipping and expected landings around Alexandretta, and relays reports of an attack on Turkish positions near Kalat Shergat. Its observations and second-hand allegations remain distinguished in the edition.
+
+**Complete edition by printed page:** [p. 92](../pages/092.md) · [p. 93](../pages/093.md) · [p. 94](../pages/094.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source:** J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
@@ -224,3 +233,6 @@ labels are unchanged, while the separately repaired raw `7` in
 python experiments/orient_intelligence/verify.py --verify
 python experiments/orient_intelligence/verify.py --verify --pdf /path/to/childs.pdf
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

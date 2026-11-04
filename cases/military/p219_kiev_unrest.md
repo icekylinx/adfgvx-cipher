@@ -1,5 +1,14 @@
 # p219 C — Kiev unrest and the soldiers' council
 
+The report concerns unrest between the Hetman government and the unresolved name `PEDF9?RA`, and says that a soldiers' council resolved on neutrality.
+
+**Complete edition by printed page:** [p. 219](../pages/219.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Conditional recovery: icekylinx and GPT-6 Astra Pro.** The printed group
@@ -204,3 +213,6 @@ The key retains the Lasry–Niebel–Kopal–Wacker work and Lasry's 2017 list.
 The earlier unverified repository OCR block is preserved. The source-model
 recognition, conditional reading and exact repair account are by
 **icekylinx and GPT-6 Astra Pro**.
+
+</details>
+<!-- CASE-EDITION:END -->

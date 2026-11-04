@@ -1,5 +1,14 @@
 # Report of surrender to a Soldiers Council
 
+The message reports surrender of the Gouvernement and barracks around Radio to a Soldiers Council.
+
+**Complete edition by printed page:** [p. 151](../pages/151.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -49,3 +58,6 @@ reproduction with published key credit retained; it makes no historical
 first-solution claim. See [inputs](../../experiments/nov7_fragments_and_council/inputs.json),
 [certificates](../../experiments/nov7_fragments_and_council/certificates.json)
 and [verification instructions](../../experiments/nov7_fragments_and_council/README.md).
+
+</details>
+<!-- CASE-EDITION:END -->

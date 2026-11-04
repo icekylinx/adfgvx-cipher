@@ -4,23 +4,23 @@
 
 Read the October staffing, supply and purchasing exchanges with Tiflis, followed by the Polish representative appointment and later armistice instructions.
 
-**Historical study:** [The Black Sea network runs in reverse](../../docs/historical-studies/black-sea-network.md).
+**Historical study:** [Black Sea shipping and disposal](../../docs/historical-studies/black-sea-network.md).
 
-## The mission before the withdrawal
+## Mission staffing, equipment and procurement
 
-October correspondence follows staffing, equipment and procurement around Tiflis. It provides the institutional background for the later evacuation traffic.
+October correspondence with the Caucasus concerns personnel, equipment, supplies and routing around Tiflis. These records describe the mission’s administrative work before the later withdrawal instructions.
 
 - [October correspondence with the Caucasus](october_caucasus.md)
-- [Staffing the mission](october_staffing.md)
+- [Mission staffing requests](october_staffing.md)
 - [Routing, weather and supply requests](october_requests.md)
 
-## Representation, cargo and departure
+## Representation, Poti traffic and withdrawal
 
-The Polish appointment, Poti traffic and later armistice material bring diplomatic representation and material withdrawal into the same regional frame.
+The Tiflis appointment concerns Polish representation. Separate Poti and armistice messages document transport-related communication and withdrawal instructions; their source editions retain damaged passages and differences between receptions.
 
 - [Polish representation in Tiflis](tiflis_appointment.md)
 - [The damaged first part of the Poti message](poti_first_part_conditional.md)
-- [An armistice notice across two receptions](p212_p218_crosscopy.md)
+- [A withdrawal notice preserved in two receptions](p212_p218_crosscopy.md)
 
 ## Complete source index
 

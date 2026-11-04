@@ -1,5 +1,14 @@
 # Constantinople: instruction to attempt a motorboat sale
 
+The instruction asks the shipping representative in Constantinople to try to sell the boat designated by the literal ROEM Q5 under all circumstances. The Motorbootkorps reference is 6235. A sale is requested, not reported as completed.
+
+**Complete edition by printed page:** [p. 147](../pages/147.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -53,3 +62,6 @@ The native source has **254 valid coordinates**, matching `RICHI-254`. Two local
 Earlier unreviewed repository candidates already suggested these bodies. This edition checks the primary images, preserves conflicting source labels and publishes every frame operation, coordinate substitution and fill. Prior published key recovery keeps its original credit; no first-solution priority is claimed.
 
 [Inputs](../../experiments/nov4_radio_and_departure_queries/inputs.json), [certificates](../../experiments/nov4_radio_and_departure_queries/certificates.json), [earlier candidates](../../experiments/nov4_radio_and_departure_queries/prior_candidates.json) and [reproduction](../../experiments/nov4_radio_and_departure_queries/README.md) provide complete source and positional evidence.
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # Newspaper sacks arriving via Orsova
 
+This two-part telegram tells the **Oberpostdirektion in Breslau** that sacks of Berlin newspapers arrived yesterday and today via **Orsova**, and asks for immediate postal dispatch by the same route.
+
+**Complete edition by printed page:** [p. 171](../pages/171.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition: icekylinx and GPT-6 Astra Pro.**
@@ -125,3 +134,6 @@ python experiments/newspaper_dispatch/verify.py --verify
 The optional `--pdf` argument verifies the pinned source digest and compares
 the regenerated source-crop pixels. Re-encryption certifies consistency and
 cost, not uniquely original wording.
+
+</details>
+<!-- CASE-EDITION:END -->

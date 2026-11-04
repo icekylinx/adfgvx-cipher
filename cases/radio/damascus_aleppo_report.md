@@ -1,5 +1,14 @@
 # Damascus radio station and a smaller transmitter at Aleppo
 
+It says that the Damascus radio station was blown up and mentions a smaller transmitter at Aleppo.
+
+**Complete edition by printed page:** [p. 64](../pages/064.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -77,3 +86,6 @@ own explicit prior publication.
 [certificates](../../experiments/p64_oil_and_radio/certificates.json)
 and [reproduction instructions](../../experiments/p64_oil_and_radio/README.md)
 retain the source rows, exact inverse, domains and all six hour witnesses.
+
+</details>
+<!-- CASE-EDITION:END -->

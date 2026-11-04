@@ -1,5 +1,14 @@
 # Two additional witnesses to the armistice-planning traffic
 
+Parallel receptions preserve clauses of the armistice and their application to German forces in southeastern Europe. Their comparison supplies missing text while keeping the separate reception dates and source differences visible.
+
+**Complete edition by printed page:** [p. 137](../pages/137.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 **Source comparison and edition: icekylinx and GPT-6 Astra Pro.**
 
 Printed p137 preserves two fragments already represented in the
@@ -94,3 +103,6 @@ The page is from Childs,
 ```sh
 python experiments/retrieved_copy_editions/verify.py --verify
 ```
+
+</details>
+<!-- CASE-EDITION:END -->

@@ -1,5 +1,14 @@
 # p215 B1 — Train-departure fragment of an evening report
 
+The proposed clause concerns further trains departing. `ALPEN????` stays unfinished; the ending retains `DIV ST ?U`, without expanding its unresolved label into a preposition.
+
+**Complete edition by printed page:** [p. 215](../pages/215.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Partial recovery: icekylinx and GPT-6 Astra Pro.** The source's missing-groups
@@ -93,3 +102,6 @@ Published key: George Lasry, Ingo Niebel, Nils Kopal and Arno Wacker (2016),
 and Lasry's 2017 key list. Earlier repository OCR is preserved in the source
 package. Conditional frame, partial lexical recovery and exact coordinate
 accounting: **icekylinx and GPT-6 Astra Pro**.
+
+</details>
+<!-- CASE-EDITION:END -->

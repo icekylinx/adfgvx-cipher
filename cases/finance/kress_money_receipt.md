@@ -1,5 +1,14 @@
 # Receipt addressed to General von Kress in Tiflis
 
+A short receipt addressed to General von Kress in Tiflis acknowledges money and closes with the naval attaché at Sofia.
+
+**Complete edition by printed page:** [p. 58](../pages/058.md)
+
+<!-- CASE-EDITION:START -->
+<details>
+<summary>Full source edition and evidence</summary>
+
+
 [Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
 
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
@@ -68,3 +77,6 @@ uncounted context in the evidence package.
 [certificates](../../experiments/september_receipt_and_front_inquiry/certificates.json)
 and [reproduction instructions](../../experiments/september_receipt_and_front_inquiry/README.md)
 provide the exact source rows and position ledger.
+
+</details>
+<!-- CASE-EDITION:END -->
