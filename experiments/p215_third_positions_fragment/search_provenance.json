@@ -1,0 +1,406 @@
+{
+  "schema": "adfgvx-p215-b3-mask-discovery-provenance-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "pinned_repository_files": {
+    "data/keys.json": "8902ab53ea0005370f5578a36e74cb8ef04d667cf5f714f93acfa7cd535e0dc1",
+    "data/reviews/source_gap_audit_20261103.json": "a2e244c956d9ca39083c39072d67bbb65785abdd67066ccdc08a2eae417da3f2",
+    "experiments/p215_breslau_dispatch/replay_search.py": "3e80eb4c00b02accd547b7316a3da97ba4c9b0fdeab3c3ea85377e9a63b022ba",
+    "experiments/p212_medical_fragment/replay_search.py": "e0248077835c477048a5c36100f8214a3406f1aba57afd6c4e35ebdb51ae9c7a",
+    "experiments/p212_medical_fragment/search_provenance.json": "6b0489c8ae30982e1a2af40255885fabf591c506dac0538f275f6f12af62e8ad"
+  },
+  "source_id": "p215_B3",
+  "source_literal_sha256": "45daf2f488499471c4552ce5c64aac9148bdb7705fa50fa27c35e25c10f55158",
+  "source_analysis_sha256": "fe7f061645beb5fcee8b13d3331336d8e7038aa31759090224c3885ee0f76644",
+  "source_shape": {
+    "literal_slots": 219,
+    "observed_coordinates": 200,
+    "printed_mask_slots": 19,
+    "added_unknown_slots": 15,
+    "model_length": 234
+  },
+  "coordinate_order": "ADFGVX",
+  "key_id": "Nov22-24",
+  "joint49_sha256": "a1e1269f9eb6fbbbb3d7d5dbcd0fd14b6c216b9fe568346c4af87e6420dfbd90",
+  "score": "Sum114 overlapping four-pattern natural-log joint masses; float32 table and float64 accumulation. No likelihood-ratio subtraction. Fixed length117 only.",
+  "model_recipe_dependency": "experiments/p215_breslau_dispatch/replay_search.py:build_model, using its pinned p212 frozen 45-record hybrid probability recipe and external checksummed quad26 file. No target B3 is model training.",
+  "loss_frames": {
+    "runs": "All136 triples (a,b,15-a-b), a=0..15,b=0..15-a; insert a before original79,b before95,remainder before155.",
+    "contiguous": "All217 boundaries0..219 except79,95,155 with15 newunknowns inserted together; excluded three frames duplicate runs family."
+  },
+  "moves": [
+    {
+      "name": "run79_all8",
+      "start": 79,
+      "length": 8,
+      "mask_alias_starts": [
+        79
+      ]
+    },
+    {
+      "name": "run79_five",
+      "start": 80,
+      "length": 5,
+      "mask_alias_starts": [
+        79,
+        80,
+        81,
+        82
+      ]
+    },
+    {
+      "name": "run95_five",
+      "start": 95,
+      "length": 5,
+      "mask_alias_starts": [
+        95
+      ]
+    },
+    {
+      "name": "run155_five",
+      "start": 155,
+      "length": 5,
+      "mask_alias_starts": [
+        155
+      ]
+    },
+    {
+      "name": "run88_single",
+      "start": 88,
+      "length": 1,
+      "mask_alias_starts": [
+        88
+      ]
+    }
+  ],
+  "evaluations_per_frame": 1152,
+  "move_operation": "Extract only the listed original printed-mask owners (never newly inserted loss slots), then reinsert them as one ordered block at each boundary0..234-length of the shortened stream. Original200 observed coordinates retain their values and order; every219 source owner and15 distinct negative new owner appears once. Include unmodified frame once.",
+  "alias_qualification": "Moving5 of original8 contiguous masks has four equivalent owner starts79..82. Only canonical80 is scored to avoid duplicate wires. Whole8 destination85/86 are distinct owner maps with identical historical wire.",
+  "oracle": {
+    "independent_relocation_cases": 96,
+    "independent_relocation_maps": 1904,
+    "source_mask5_in_first_run_aliases": 4
+  },
+  "controls": [
+    {
+      "name": "control0",
+      "plaintext": "DIEABFAHRTDERLETZTENTRUPPENTRANSPORTEISTFUERMORGENVORGESEHENXALLEBAHNHOEFESINDUEBERDIEANORDNUNGZUVERSTAENDIGENXENDEDI",
+      "source": "FVADFAXFVFFADFDVAFGXGVFAAVFGDFVGGFVFVGDDVDDDAVXVVAVVGFVXVDXGXFAVFVFFVFGFAVGAVDA????????A?FAFFDA?????GXFFFGFVFAXGGVGFAAAGFFXVFXGXGFDADFGXVFVAFGVAGDDVVDFVGVV?????FFDDGFAAVGXVFGDAGVVDFGFDXVFXVFVVXGGGGDFVAFFAVVFVVAVDFFDVGDD",
+      "truth": {
+        "frame": {
+          "losses": [
+            4,
+            6,
+            5
+          ],
+          "insertions": [
+            [
+              79,
+              4
+            ],
+            [
+              95,
+              6
+            ],
+            [
+              155,
+              5
+            ]
+          ]
+        },
+        "move": {
+          "name": "run95_five",
+          "start": 95,
+          "length": 5,
+          "mask_alias_starts": [
+            95
+          ]
+        },
+        "destination": 180,
+        "raw": "D?E?BFAHRT?E?L?TZTENT?U?P?NTRANS?O?T?ISTFUE?M?RGE?VORG?S?HEN?ALLE?A?NHO?FESIND?EBE?DIEA?O?DNU?GZUVER?TAE?DI?ENXENDE?I",
+        "score": -1021.4106063842773
+      },
+      "best": {
+        "score": -1018.4640922546387,
+        "frame": {
+          "losses": [
+            4,
+            1,
+            10
+          ],
+          "insertions": [
+            [
+              79,
+              4
+            ],
+            [
+              95,
+              1
+            ],
+            [
+              155,
+              10
+            ]
+          ]
+        },
+        "move": {
+          "name": "run155_five",
+          "start": 155,
+          "length": 5,
+          "mask_alias_starts": [
+            155
+          ]
+        },
+        "destination": 181,
+        "raw": "D?E?BFAHRT?E?L?TZTENT?U?P?NTRANS?O?T?ISTFUE?M?R?E?VORG?S?HEN?ALLE?A?NHO?FESIND?EBE?DIEA?O?DNU?GZUVER?TAE?DIGENXENDE?I",
+        "fixed": 88
+      },
+      "best_fixed": 88,
+      "best_fixed_correct": 88,
+      "truth_fixed": 88,
+      "same_raw": false,
+      "truth_score_at_least_best": false
+    },
+    {
+      "name": "control1",
+      "plaintext": "DASPERSONALDERLAZARETTEWIRDHEUTEMITDERBAHNNACHHAUSEGESANDTXDIEVERWALTUNGHATDIEERFORDERLICHENWAGENUNDVERPFLEGUNGBEREIT",
+      "source": "FXGFVGAXVXFAAVAVVFGXADAFVAFFVFAGADAAAXVVGAGGGGFDDAXFDGGAVXDFGAVFVGFAVFDDGFXGDGV????????V?XVDDAA?????XAVGAFFGGVVFDAVFGXXFVVGVXFFFDFDGVVVFFFFVAGFGGDFXVVXFVVV?????VVDFDXVAFVAXGFDFFXVFADFGGVVDXFXFFVGGGVFFGFXVAVVVAFVGFDDFVVV",
+      "truth": {
+        "frame": {
+          "losses": [
+            0,
+            10,
+            5
+          ],
+          "insertions": [
+            [
+              79,
+              0
+            ],
+            [
+              95,
+              10
+            ],
+            [
+              155,
+              5
+            ]
+          ]
+        },
+        "move": {
+          "name": "run79_all8",
+          "start": 79,
+          "length": 8,
+          "mask_alias_starts": [
+            79
+          ]
+        },
+        "destination": 40,
+        "raw": "DAS?E?SO??LDER?A?AR??TEWI?D?EU??MITD?R?AH???CHHAU?EGE?AN?TXD?EVE?WA?TUN?HATDIE?RFO?DERLIC?ENW?GENU?D?ERP?LEGU?G?ERE?T",
+        "score": -1023.276599407196
+      },
+      "best": {
+        "score": -1023.276599407196,
+        "frame": {
+          "losses": [
+            0,
+            10,
+            5
+          ],
+          "insertions": [
+            [
+              79,
+              0
+            ],
+            [
+              95,
+              10
+            ],
+            [
+              155,
+              5
+            ]
+          ]
+        },
+        "move": {
+          "name": "run79_all8",
+          "start": 79,
+          "length": 8,
+          "mask_alias_starts": [
+            79
+          ]
+        },
+        "destination": 40,
+        "raw": "DAS?E?SO??LDER?A?AR??TEWI?D?EU??MITD?R?AH???CHHAU?EGE?AN?TXD?EVE?WA?TUN?HATDIE?RFO?DERLIC?ENW?GENU?D?ERP?LEGU?G?ERE?T",
+        "fixed": 83
+      },
+      "best_fixed": 83,
+      "best_fixed_correct": 83,
+      "truth_fixed": 83,
+      "same_raw": true,
+      "truth_score_at_least_best": true
+    }
+  ],
+  "historical": {
+    "runs": {
+      "frames": 136,
+      "evaluations": 156672,
+      "best_score": -1246.567946434021,
+      "best_candidates": [
+        {
+          "score": -1246.567946434021,
+          "frame": {
+            "losses": [
+              5,
+              0,
+              10
+            ],
+            "insertions": [
+              [
+                79,
+                5
+              ],
+              [
+                95,
+                0
+              ],
+              [
+                155,
+                10
+              ]
+            ]
+          },
+          "move": {
+            "name": "run79_all8",
+            "start": 79,
+            "length": 8,
+            "mask_alias_starts": [
+              79
+            ]
+          },
+          "destination": 85,
+          "raw": "J?QXIDXR?U?G?ULAXSI?L?X?IS9ENO?X?E?EICHTX?I?X?TABAYSOS?M?N9X?CENX?X?XYJ?NSTR?C?ERU?TKAX?E?CHE?XABG?F?HHE?XXAOJY?EINAA",
+          "fixed": 88
+        },
+        {
+          "score": -1246.567946434021,
+          "frame": {
+            "losses": [
+              5,
+              0,
+              10
+            ],
+            "insertions": [
+              [
+                79,
+                5
+              ],
+              [
+                95,
+                0
+              ],
+              [
+                155,
+                10
+              ]
+            ]
+          },
+          "move": {
+            "name": "run79_all8",
+            "start": 79,
+            "length": 8,
+            "mask_alias_starts": [
+              79
+            ]
+          },
+          "destination": 86,
+          "raw": "J?QXIDXR?U?G?ULAXSI?L?X?IS9ENO?X?E?EICHTX?I?X?TABAYSOS?M?N9X?CENX?X?XYJ?NSTR?C?ERU?TKAX?E?CHE?XABG?F?HHE?XXAOJY?EINAA",
+          "fixed": 88
+        }
+      ],
+      "baseline_best": {
+        "score": -1256.4596161842346,
+        "frame": {
+          "losses": [
+            5,
+            0,
+            10
+          ],
+          "insertions": [
+            [
+              79,
+              5
+            ],
+            [
+              95,
+              0
+            ],
+            [
+              155,
+              10
+            ]
+          ]
+        },
+        "move": null,
+        "destination": null,
+        "raw": "J?QXIDXR?U?G?ULAXSI?L?X?IS9ENO?X?E?EICHTX?I?X?TABAYSOS?M?N9X?CENX?X?XYJ?NSTR?C?ERU?TKAX5E?CHE?XABG?F?HHE?XXAOJY?EIN?A",
+        "fixed": 88
+      }
+    },
+    "contiguous": {
+      "frames": 217,
+      "evaluations": 249984,
+      "best_score": -1248.467188835144,
+      "best_candidates": [
+        {
+          "score": -1248.467188835144,
+          "frame": {
+            "insertions": [
+              [
+                161,
+                15
+              ]
+            ],
+            "losses": null
+          },
+          "move": {
+            "name": "run155_five",
+            "start": 155,
+            "length": 5,
+            "mask_alias_starts": [
+              155
+            ]
+          },
+          "destination": 90,
+          "raw": "JYQXIDXR?U?G?ULAXSI?L?X?IS9ENO?XPE?EICHTX?I?X?TABAYS?SIM?N9X?CENX?X?XYJ?NSTR?C?ERU?TKAX?E?CHE?XABG?F?HHE?XXAO?Y?EIN?A",
+          "fixed": 88
+        }
+      ],
+      "baseline_best": {
+        "score": -1439.0946564674377,
+        "frame": {
+          "insertions": [
+            [
+              133,
+              15
+            ]
+          ],
+          "losses": null
+        },
+        "move": null,
+        "destination": null,
+        "raw": "SQ?GI?XR?U?G4?Y5?SI?L?ZK?YF?NR?XPEF?VI?T1?I?ZA?MY?YQOSIMA?4Q?C?NX6ZF?AC?N?TRP4W?OT?T?AXTKM?OE?X?BGELS?HR?X?AOX3?2P2?A",
+        "fixed": 83
+      }
+    }
+  },
+  "limits": [
+    "The baseline already has most lexical traces; this is a newly audited partial edition, not a claim that every phrase first appeared in this search.",
+    "Fresh controls recovered every reported known letter (88/88,83/83), but control0 did not recover unique planted geometry/raw: another model scored higher with88 correct fixed letters.",
+    "Only these bounded 353 loss frames and5 declared mask runs were searched, totaling406656 historical models. No general multi-mask or arbitrary error search is claimed.",
+    "Source-preserving retrieval and linguistic repairs are separate. Search score does not establish historical layout; both boundary aliases remain possible.",
+    "No speculative digit/unit labels or unsupported words were adopted by this scan."
+  ]
+}

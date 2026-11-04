@@ -16666,6 +16666,80 @@
           "review_note": "Source,raw,edited and readable layers explicitly priced; no pooling of differing quantity evidence."
         }
       ]
+    },
+    {
+      "path": "cases/military/p215_third_positions_fragment.md",
+      "review_status": "reviewed",
+      "file_sha256_at_review": "4e47a31ad0b10eb8196d8dab2e84651af54961d71d91bea7214c700a32614fe4",
+      "review_basis": "Independent coordinate-origin, word-price and global J/Y witness review; source PDF pixels authenticated. Whole missing letters and numerical uncertainty remain explicit.",
+      "fences": [
+        {
+          "index": 0,
+          "sha256": "6d2be8277a84fbb91175829225a3d868b2c2b687add3734e35206d53b76464a2",
+          "role": "source_transcription",
+          "caption_required": true,
+          "caption": "**Source transcription — untouched body, including all 19 printed dashes:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        },
+        {
+          "index": 1,
+          "sha256": "6eee58b056fd803aec0ec7f72f253867ce601df7f7181e1fcee1071d4019d688",
+          "role": "raw_output",
+          "caption_required": true,
+          "caption": "**Raw output — primary mask-relocation frame, unchanged published key; 88/117 fixed positions, no coordinate substitutions or fills:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        },
+        {
+          "index": 2,
+          "sha256": "34c254209fc6e14795d529fcbd59309ebfe37a7a84bd6b48be3532d92e2d6ea7",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — primary frame; 2 observed-coordinate substitutions, 14 printed-mask fills and 10 inserted-slot fills; 109/117 fixed positions:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        },
+        {
+          "index": 3,
+          "sha256": "ac43e9d2c9eedb84a50962d748eb030354a515ea2af46aeb13bb604d62c4856e",
+          "role": "conditional_interpretation",
+          "caption_required": true,
+          "caption": "**Conditional interpretation — full primary word stream under that partial global square; new `?` positions also retain unassigned-cell uncertainty:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        },
+        {
+          "index": 4,
+          "sha256": "f1a38862efb70844136042eb5c1c1212c1274fd4bae7ee165868f2064b619486",
+          "role": "edited_output",
+          "caption_required": true,
+          "caption": "**Edited output — optional Alsosimand extension of the primary word layer; totals 4 observed substitutions, 15 printed-mask fills and 11 inserted-slot fills; 111/117 fixed positions:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        },
+        {
+          "index": 5,
+          "sha256": "ec063ba65f221246e5260cca00ee4ce676d4afaa301f0d4089e1661b5cb4f737",
+          "role": "reproduction_command",
+          "caption_required": true,
+          "caption": "**Reproduction command — verifies the source mapping, repair prices and witnesses:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        }
+      ],
+      "quotes": [
+        {
+          "index": 0,
+          "sha256": "cd5f9008269313717e8e4f40f5af6156eddf689ace28e078913fda0b1a9c24db",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — excerpts from the edited stream under the conditional J/Y interpretation; omitted passages remain outside these quotations:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        },
+        {
+          "index": 1,
+          "sha256": "5c18077ee4e8cbd4abe932799fc169d1546c17d4eeeba884fa21471ce670c8b9",
+          "role": "readable_german",
+          "caption_required": true,
+          "caption": "**Readable German — excerpt from that optional edited layer; surrounding fields are omitted:**",
+          "review_note": "Source/frame/repair qualification reviewed; literal display bytes and the complete local qualifier are protected."
+        }
+      ]
     }
   ]
 }

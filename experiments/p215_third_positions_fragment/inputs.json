@@ -1,0 +1,188 @@
+{
+  "schema": "adfgvx-p215-third-positions-input-v1",
+  "authors": [
+    "icekylinx",
+    "GPT-6 Astra Pro"
+  ],
+  "case": "cases/military/p215_third_positions_fragment.md",
+  "source": {
+    "title": "General Solution of the ADFGVX Cipher System",
+    "author": "J. Rives Childs",
+    "url": "https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view",
+    "pdf_bytes": 156848258,
+    "pdf_sha256": "157e41a12374c6c1f464f52f587fbf6be6e0e08706ac35f7f4b0d66dc798ad06"
+  },
+  "source_images": [
+    {
+      "id": "p215_B3",
+      "storage": "external_pdf_reference",
+      "pdf_page_1based": 218,
+      "crop_pdf_points": [
+        70,
+        480,
+        550,
+        610
+      ],
+      "render_scale": 4,
+      "width": 1920,
+      "height": 520,
+      "rgb_sha256": "d9bb9c3f508ce22c4ea7e63134e1d54680c0210fa239ac3209d51acc2258fd0f",
+      "fresh_render_cache": true
+    }
+  ],
+  "key": {
+    "id": "Nov22-24",
+    "coordinate_order": "ADFGVX",
+    "column_rank_order": [
+      6,
+      12,
+      16,
+      7,
+      14,
+      22,
+      11,
+      18,
+      1,
+      15,
+      8,
+      10,
+      20,
+      2,
+      13,
+      21,
+      3,
+      17,
+      19,
+      5,
+      9,
+      4
+    ],
+    "column_count": 22,
+    "square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+    "square_rows": [
+      "QNZ72X",
+      "S4C0IJ",
+      "Y3RBEK",
+      "L9FD6G",
+      "MTHUVW",
+      "A5O8P1"
+    ],
+    "known_cell_count": 36,
+    "missing_plaintext_symbols": "",
+    "provenance": [
+      {
+        "type": "published_solver_key",
+        "url": "https://scienceblogs.de/klausis-krypto-kolumne/2017/02/23/the-top-50-unsolved-encrypted-messages-46-unsolved-adfgvx-cryptograms-from-world-war-1/?all=1",
+        "comment": 4,
+        "author": "George Lasry",
+        "date": "2017-02-24"
+      },
+      {
+        "type": "author_uploaded_research_paper",
+        "title": "Deciphering ADFGVX messages from the Eastern Front of World War I",
+        "authors": [
+          "George Lasry",
+          "Ingo Niebel",
+          "Nils Kopal",
+          "Arno Wacker"
+        ],
+        "doi": "10.1080/01611194.2016.1169461",
+        "table": 2,
+        "url": "https://www.researchgate.net/publication/306265347_Deciphering_ADFGVX_messages_from_the_Eastern_Front_of_World_War_I",
+        "notes": "Table 2 agrees with the 2017 comment list. Section 5.4 explicitly distinguishes digit assignment from algorithmic key recovery."
+      }
+    ],
+    "notes": [],
+    "baseline_square": "QNZ72XS4C0IJY3RBEKL9FD6GMTHUVWA5O8P1",
+    "baseline_differences": [],
+    "category": "published_period_or_CHI_key"
+  },
+  "dependencies": {
+    "experiments/p215_breslau_dispatch/verify.py": "477236403fac1456db3b726b4fe3d13c0f3a33a690750139062ac6bb4be03989",
+    "experiments/p215_hungarian_y/inputs.json": "800c2a79e3467931e3ecf5af9c1c396ef871c8a18336861b9fb4a5b1b824bf6e"
+  },
+  "records": [
+    {
+      "id": "p215_B3",
+      "printed_page": 215,
+      "source_section": "B3",
+      "advertised_length": 234,
+      "header_transcription": "3TL RICHI-234(partofB,UKSvZON,November23reception)",
+      "source_rows": [
+        "DXGDF ADVFF AXADD AFDDX XAXFF GXAVX FXAFV VVVVD",
+        "VXGAX VAXFX XFDGA FAVAD FGFAD XFAAF XAAAG AFVX-",
+        "----- --X-D GXVFA ----- AAGDD XGFFV VDXXX VXAXF",
+        "VFAFD XADFD FXAAV DFVAA FDVFV ADFGX XGVVD -----",
+        "FDDAG AXAAV ADAFF FVVGA DDAFA GXADA VFDAV AAXFV",
+        "FXAVA XAXAG VVDDX VFFV"
+      ],
+      "primary_model_id": "printed8_relocation",
+      "models": [
+        {
+          "id": "printed8_relocation",
+          "frame": {
+            "insert_unknown_before_source_indices": {
+              "79": 5,
+              "155": 10
+            },
+            "move_printed_mask_source_range": [
+              79,
+              87
+            ],
+            "insert_mask_block_at_shortened_frame_boundary": 85
+          },
+          "expected_raw": "J?QXIDXR?U?G?ULAXSI?L?X?IS9ENO?X?E?EICHTX?I?X?TABAYSOS?M?N9X?CENX?X?XYJ?NSTR?C?ERU?TKAX?E?CHE?XABG?F?HHE?XXAOJY?EINAA",
+          "word_proposal": "J?QXIDXRAUMG4ULAXSIKLOXKIS9ENOEXERREICHTXDIVXSTABAYSOS?M?N9X?CENX?X?XYJ?NSTRECKERUTTKAXTESCHENXABGEFAHRENXXAOJY?EINAA",
+          "expected_word_prices": {
+            "fixed_positions": 109,
+            "observed_substitutions": 2,
+            "printed_mask_fills": 14,
+            "inserted_slot_fills": 10
+          },
+          "optional_place_proposal": "J?QXIDXRAUMG4ULAXSIKLOXKIS9ENOEXERREICHTXDIVXSTABALSOSIMANDX?CENX?X?XYJ?NSTRECKERUTTKAXTESCHENXABGEFAHRENXXAOJY?EINAA",
+          "expected_optional_prices": {
+            "fixed_positions": 111,
+            "observed_substitutions": 4,
+            "printed_mask_fills": 15,
+            "inserted_slot_fills": 11
+          }
+        },
+        {
+          "id": "source_directed_baseline",
+          "frame": {
+            "insert_unknown_before_source_indices": {
+              "79": 5,
+              "155": 10
+            },
+            "move_printed_mask_source_range": null,
+            "insert_mask_block_at_shortened_frame_boundary": null
+          },
+          "expected_raw": "J?QXIDXR?U?G?ULAXSI?L?X?IS9ENO?X?E?EICHTX?I?X?TABAYSOS?M?N9X?CENX?X?XYJ?NSTR?C?ERU?TKAX5E?CHE?XABG?F?HHE?XXAOJY?EIN?A",
+          "word_proposal": "J?QXIDXRAUMG4ULAXSIKLOXKIS9ENOEXERREICHTXDIVXSTABAYSOS?M?N9X?CENX?X?XYJ?NSTRECKERUTTKAXTESCHENXABGEFAHRENXXAOJY?EIN?A",
+          "expected_word_prices": {
+            "fixed_positions": 108,
+            "observed_substitutions": 3,
+            "printed_mask_fills": 13,
+            "inserted_slot_fills": 10
+          },
+          "optional_place_proposal": "J?QXIDXRAUMG4ULAXSIKLOXKIS9ENOEXERREICHTXDIVXSTABALSOSIMANDX?CENX?X?XYJ?NSTRECKERUTTKAXTESCHENXABGEFAHRENXXAOJY?EIN?A",
+          "expected_optional_prices": {
+            "fixed_positions": 110,
+            "observed_substitutions": 5,
+            "printed_mask_fills": 14,
+            "inserted_slot_fills": 11
+          }
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "The header does not locate the fifteen missing coordinates. All frames remain conditional.",
+    "The no-relocation baseline already contains much of the same language; the relocation is not credited with all recovered words.",
+    "Raw positions preserve all 200 observed coordinates and their order; word proposals and global J/Y interpretation are separate conditional layers.",
+    "Three gained word positions have neither coordinate observed: zero-based 82,93,104.",
+    "Numerical labels, unit identifiers, abbreviation and footer remain unresolved.",
+    "The optional Alsosimand extension costs two additional observed substitutions and two additional half-coordinate fills."
+  ],
+  "prior_credit": "Historical ciphertext: J. Rives Childs. Published Nov22–24 key: George Lasry and colleagues. Current source-frame review and edition: icekylinx and GPT-6 Astra Pro."
+}

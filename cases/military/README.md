@@ -4,7 +4,7 @@
 
 Follow unit movements, evacuation, disarmament, internment, position reporting and army supply requests.
 
-**250 reviewed entries across 99 case pages, representing 250 physical sources; 250 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
+**251 reviewed entries across 100 case pages, representing 251 physical sources; 251 are additional to the original challenge set.** Multipart segments and repeated transmissions retain their separate source identifiers.
 
 ## Case pages
 
@@ -95,6 +95,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p215 A — Breslau–Oderberg dispatch fragment](p215_breslau_dispatch.md) | p215 A |
 | [p215 B1 — Train-departure fragment of an evening report](p215_train_departure_fragment.md) | p215 B1 |
 | [Divisional areas and staff locations: second part with explicit geographical alternatives](nov22_divisional_positions_part2.md) | p215 B2 |
+| [p215 B3 — Divisional positions and railway fragment](p215_third_positions_fragment.md) | p215 B3 |
 | [p217 A — Coal shortages, disarmament and transport through Czechoslovakia](p217_A.md) | p217 A1, p217 A2, p217 A3, p217 A4, p217 A5 |
 | [p217 B1 — Additional trains and divisional positions](nov24_train_report.md) | p217 B1 |
 | [p217 B2 — Report sent by teleprinter via Budapest](nov24_budapest_report.md) | p217 B2 |
@@ -326,6 +327,7 @@ Follow unit movements, evacuation, disarmament, internment, position reporting a
 | [p215 A](p215_breslau_dispatch.md) | Horseshoe and nail consignment from Breslau via Oderberg; Traindepot closing | Conditional mask-relocation frame: raw 176/196; primary word proposal 192/196 (6 observed substitutions, 14 printed-mask and 2 inserted fills); alternatives 193/196 and 194/196 kept separate; quantities unresolved | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key and Childs source credited |
 | [p215 B1](p215_train_departure_fragment.md#p215-b1) | Evening-report fragment: further trains departing and proposed Szeged fields | Native 145-slot fragment; conditional 220 frame after 75 missing slots; raw 37/110, partial lexical 77/110; zero observed substitutions, 3 printed-mask + 39 added-slot fills; 33 unknowns and both X/A glyph layers retained | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR credited |
 | [p215 B2](nov22_divisional_positions_part2.md#p215-b2) | Divisional areas and staff locations: second part with explicit geographical alternatives | 129/150 native raw positions; 0 coordinate substitutions + 13 source-mask fills; optional geography: 18 substitutions + 14 fills under baseline, or 8 + 14 under shared DD=Y | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov22-24 key; prior OCR and body attribution retained |
+| [p215 B3](p215_third_positions_fragment.md) | Gyula–Sikló–Kisjenő positions and the Ruttka–Teschen departure fragment | Conditional 234-slot frame: raw 88/117; word proposal 109/117 (2 observed substitutions, 14 printed-mask and 10 inserted fills, including 3 wholly unobserved letters); optional shared J/Y and Alsosimand layers separate | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key and Childs source credited |
 | [p217 A1](p217_A.md) | Scholtz divisions march into the assembly area | 114/114 baseline positions; unit-number interpretation separate | icekylinx and GPT-6 Astra Pro (2026) |
 | [p217 A2](p217_A.md) | Coal shortages stop transport; troop locations near Oroshaza | 120/120 baseline positions; unit-number interpretation separate | icekylinx and GPT-6 Astra Pro (2026) |
 | [p217 A3](p217_A.md) | Army headquarters at Szolnok; battalions apparently misdirected | 114/114 baseline positions; place and numerical fields unresolved | icekylinx and GPT-6 Astra Pro (2026) |

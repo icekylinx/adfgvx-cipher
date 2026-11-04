@@ -4,7 +4,7 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 175–199](../175-199/README.md) · [pp. 225–249 →](../225-249/README.md)
 
-**2 challenge entries · 118 other reviewed entries · 25 printed pages · 120 physical sources.**
+**2 challenge entries · 119 other reviewed entries · 25 printed pages · 121 physical sources.**
 
 Jump to page: [p200](#p200) · [p201](#p201) · [p202](#p202) · [p203](#p203) · [p204](#p204) · [p205](#p205) · [p206](#p206) · [p207](#p207) · [p208](#p208) · [p209](#p209) · [p210](#p210) · [p211](#p211) · [p212](#p212) · [p213](#p213) · [p214](#p214) · [p215](#p215) · [p216](#p216) · [p217](#p217) · [p218](#p218) · [p219](#p219) · [p220](#p220) · [p221](#p221) · [p222](#p222) · [p223](#p223) · [p224](#p224).
 
@@ -198,6 +198,7 @@ Each row gives the reviewed reading status, credit and complete case. Page numbe
 | [p215 A](../../military/p215_breslau_dispatch.md) | Horseshoe and nail consignment from Breslau via Oderberg; Traindepot closing | Conditional mask-relocation frame: raw 176/196; primary word proposal 192/196 (6 observed substitutions, 14 printed-mask and 2 inserted fills); alternatives 193/196 and 194/196 kept separate; quantities unresolved | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key and Childs source credited |
 | [p215 B1](../../military/p215_train_departure_fragment.md#p215-b1) | Evening-report fragment: further trains departing and proposed Szeged fields | Native 145-slot fragment; conditional 220 frame after 75 missing slots; raw 37/110, partial lexical 77/110; zero observed substitutions, 3 printed-mask + 39 added-slot fills; 33 unknowns and both X/A glyph layers retained | icekylinx and GPT-6 Astra Pro (2026); published period key and earlier OCR credited |
 | [p215 B2](../../military/nov22_divisional_positions_part2.md#p215-b2) | Divisional areas and staff locations: second part with explicit geographical alternatives | 129/150 native raw positions; 0 coordinate substitutions + 13 source-mask fills; optional geography: 18 substitutions + 14 fills under baseline, or 8 + 14 under shared DD=Y | icekylinx and GPT-6 Astra Pro (2026); unchanged published Nov22-24 key; prior OCR and body attribution retained |
+| [p215 B3](../../military/p215_third_positions_fragment.md) | Gyula–Sikló–Kisjenő positions and the Ruttka–Teschen departure fragment | Conditional 234-slot frame: raw 88/117; word proposal 109/117 (2 observed substitutions, 14 printed-mask and 10 inserted fills, including 3 wholly unobserved letters); optional shared J/Y and Alsosimand layers separate | icekylinx and GPT-6 Astra Pro (2026); published Nov22–24 key and Childs source credited |
 
 ## p216
 

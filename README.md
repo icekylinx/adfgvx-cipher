@@ -35,11 +35,11 @@ Original challenge identifiers are retained; p198 denotes section D.
 | [pp. 175–199](cases/pages/175-199/README.md) | 6 | [p176a](cases/p176a.md), [p176b](cases/p176b.md), [p187](cases/p187.md), [p187b](cases/p187b.md), [p189](cases/p189.md), [p198](cases/p198.md) |
 | [pp. 200–224](cases/pages/200-224/README.md) | 2 | [p215](cases/p215.md), [p217](cases/p217.md) |
 
-### Other ciphertexts — 649 reviewed entries
+### Other ciphertexts — 650 reviewed entries
 
 Numbered parts and received copies are listed individually, with their reviewed reading status.
 
-**671 catalogue entries · 670 physical sources · 648 beyond the challenges.** The [source register](docs/catalogue-source-overlaps.md) accounts for 1 later-edition entry sharing an existing source.
+**672 catalogue entries · 671 physical sources · 649 beyond the challenges.** The [source register](docs/catalogue-source-overlaps.md) accounts for 1 later-edition entry sharing an existing source.
 
 | Printed source pages | Reviewed entries | Pages represented |
 |---|---:|---:|
@@ -49,7 +49,7 @@ Numbered parts and received copies are listed individually, with their reviewed 
 | [pp. 125–149](cases/pages/125-149/README.md) | 76 | 25 |
 | [pp. 150–174](cases/pages/150-174/README.md) | 123 | 25 |
 | [pp. 175–199](cases/pages/175-199/README.md) | 104 | 25 |
-| [pp. 200–224](cases/pages/200-224/README.md) | 118 | 25 |
+| [pp. 200–224](cases/pages/200-224/README.md) | 119 | 25 |
 | [pp. 225–249](cases/pages/225-249/README.md) | 29 | 6 |
 
 Source review and current research: **icekylinx and GPT-6 Astra Pro**. Each detailed entry credits its earlier readings and keys.
