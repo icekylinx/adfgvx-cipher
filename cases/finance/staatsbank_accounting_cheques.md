@@ -1,12 +1,14 @@
 # State-bank accounting request and dispatched cheques
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 The two-part message addresses Staatsbank Berlin, asks for an accounting amount connected to the Generalkriegskasse, and requests notice of arrival of dispatched cheques. It contains no recovered payment amount. The first part needs one explicitly modeled missing coordinate; the second part uses its complete native frame.
 
 ## Source and frame
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p172 excerpt](../../experiments/staatsbank_accounting_cheques/sources/p172_reviewed.png) · [Inputs](../../experiments/staatsbank_accounting_cheques/inputs.json) · [All coordinate and insertion certificates](../../experiments/staatsbank_accounting_cheques/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p172 excerpt](../../experiments/staatsbank_accounting_cheques/sources/p172_reviewed.png) · [Inputs](../../experiments/staatsbank_accounting_cheques/inputs.json) · [All coordinate and insertion certificates](../../experiments/staatsbank_accounting_cheques/certificates.json)
 
 The source page heading says November 10. Section D has an interception header dated November 11 and an originating line `VON UKS LP 2127 (9/11) 2 TLE`. The published Nov7–9 key is retained with its two unresolved square cells; none of these date layers is silently normalized.
 

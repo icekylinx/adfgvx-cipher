@@ -8,6 +8,7 @@
 |---|---|
 | [Historical showcase](historical-showcase.md) | A selection of recoveries with the greatest historical interest. |
 | [Four historical studies](historical-studies/README.md) | Connected accounts of withdrawal, Black Sea shipping, material costs and individual lives. |
+| [Original 22 challenges](../cases/README.md#the-original-22-challenges) | The individual cases, their present readings and earlier decipherers. |
 | [Topic guides](../cases/README.md#browse-by-topic) | An ordered reading path and complete index for each subject. |
 | [Printed-page catalogue](../cases/pages/README.md) | One entry for each of the 679 physical ciphertext bodies. |
 | [Seven OPEN sources](../cases/open/README.md) | The three original open challenges and four other unread bodies. |
@@ -39,6 +40,14 @@ aliases are distinct from catalogue entries: see the
 [source identity rule](catalogue-source-identity.md).
 
 ## Maintain the edition
+
+The core cipher and catalogue commands use Python 3.10 or later. Install the
+image and numerical tools from the single [REQUIREMENTS.txt](../REQUIREMENTS.txt)
+when running the wider research checks:
+
+```sh
+python -m pip install -r REQUIREMENTS.txt
+```
 
 Add a new physical source once to the catalogue. Revise its existing entry
 when a better reconstruction becomes available. Add a source page to its

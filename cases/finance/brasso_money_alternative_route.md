@@ -1,5 +1,7 @@
 # A request to send money to BRASSO by another means
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 This complete native second part records a request to send money to BRASSO by another means. Two printed non-coordinate slots supply explicit word proposals without changing any valid observed coordinate. The first part, institutional abbreviations, amount and seven coupled reference labels remain unsupplied or literal.
@@ -8,7 +10,7 @@ This complete native second part records a request to send money to BRASSO by an
 **Reviewed source crops:** [p185_reviewed.png](../../experiments/brasso_money_alternative_route/sources/p185_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p185 excerpt — source-PDF reference](../../experiments/brasso_money_alternative_route/inputs.json) · [Inputs](../../experiments/brasso_money_alternative_route/inputs.json) · [Position and change certificates](../../experiments/brasso_money_alternative_route/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p185 excerpt — source-PDF reference](../../experiments/brasso_money_alternative_route/inputs.json) · [Inputs](../../experiments/brasso_money_alternative_route/inputs.json) · [Position and change certificates](../../experiments/brasso_money_alternative_route/certificates.json)
 
 The published `Nov13-15a` key is unchanged. [Original OCR records](../../experiments/brasso_money_alternative_route/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/brasso_money_alternative_route/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 

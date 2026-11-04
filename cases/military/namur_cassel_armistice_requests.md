@@ -1,12 +1,14 @@
 # Namur arrival, Cassel transport and armistice-information requests
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 These four surviving source bodies report an arrival at Namur, direct prompt transport arrangements to Cassel, and request the local armistice conditions again. The Namur telegram explicitly lacks its second part; its first and third parts are presented without bridging that gap. Literal office labels, an opaque transport field and source-length spellings remain visible.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p172 excerpt](../../experiments/namur_cassel_armistice_requests/sources/p172_reviewed.png) · [Reviewed p180 excerpt](../../experiments/namur_cassel_armistice_requests/sources/p180_reviewed.png) · [Reviewed p181 excerpt](../../experiments/namur_cassel_armistice_requests/sources/p181_reviewed.png) · [Exact inputs](../../experiments/namur_cassel_armistice_requests/inputs.json) · [Position-by-position certificates](../../experiments/namur_cassel_armistice_requests/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p172 excerpt](../../experiments/namur_cassel_armistice_requests/sources/p172_reviewed.png) · [Reviewed p180 excerpt](../../experiments/namur_cassel_armistice_requests/sources/p180_reviewed.png) · [Reviewed p181 excerpt](../../experiments/namur_cassel_armistice_requests/sources/p181_reviewed.png) · [Exact inputs](../../experiments/namur_cassel_armistice_requests/inputs.json) · [Position-by-position certificates](../../experiments/namur_cassel_armistice_requests/certificates.json)
 
 The unchanged published keys are `Nov10-12`, `Nov13-15b`. The [earlier unreviewed candidates](../../experiments/namur_cassel_armistice_requests/prior_candidates.json) and [original OCR records](../../experiments/namur_cassel_armistice_requests/ocr_snapshot.json) are preserved. The present work supplies an image-reviewed source edition and a reproducible repair account; it does not claim that every body is a first public decipherment.
 

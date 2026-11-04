@@ -1,12 +1,14 @@
 # Ober Ost troop movements: a conditional reading across two obliterations
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 The first part of p186 B proposes troop movements within the Ober Ost territory. This reading depends on explicitly excluding two obliterated group-width regions. The surviving second part independently describes soldiers wanting to travel home without authorization; it is published in the [native companion edition](home_departures_baltic_transport.md#p186-b2).
 
 ## Source geometry and its limits
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p186 excerpt](../../experiments/oberost_troop_movement_obliterations/sources/p186_reviewed.png) · [Inputs](../../experiments/oberost_troop_movement_obliterations/inputs.json) · [Position certificates and controls](../../experiments/oberost_troop_movement_obliterations/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p186 excerpt](../../experiments/oberost_troop_movement_obliterations/sources/p186_reviewed.png) · [Inputs](../../experiments/oberost_troop_movement_obliterations/inputs.json) · [Position certificates and controls](../../experiments/oberost_troop_movement_obliterations/certificates.json)
 
 **Source transcription — header:** `B) NKJ v LP (06.23 a.m., November 13th); FUER WAU 07.00 2 TLE; 1 TL RICHI-308`
 

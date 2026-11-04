@@ -1,5 +1,7 @@
 # Reports requested from General von Liman
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
 This two-part telegram requests regular information about troops near
@@ -8,7 +10,7 @@ and special requirements. It also requests acknowledgment. Almost the whole
 ordinary-language body is readable directly from the received coordinates.
 
 The source is J. Rives Childs, *General Solution of the ADFGVX Cipher System*,
-[printed p222, PDF p225](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). · [Reading conventions](../../docs/reading-conventions.md)
+[printed p222, PDF p225](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
 The [preserved source image](../../experiments/liman_troop_reports/sources/childs_p222_A.png)
 shows the heading `26th NOVEMBER, 1918.`, followed by:
 

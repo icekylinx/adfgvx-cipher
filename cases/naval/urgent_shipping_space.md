@@ -1,12 +1,14 @@
 # Urgent shipping capacity and probable reliance on sea transport
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 The surviving second and third parts request urgent shipping capacity and say that all troops will probably need sea transport. The source explicitly marks the first part missing. Repeated capacity labels, differing command fields and the unresolved source-mask position remain literal.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p218 excerpt](../../experiments/urgent_shipping_space/sources/p218_reviewed.png) · [Inputs](../../experiments/urgent_shipping_space/inputs.json) · [Position and change certificates](../../experiments/urgent_shipping_space/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p218 excerpt](../../experiments/urgent_shipping_space/sources/p218_reviewed.png) · [Inputs](../../experiments/urgent_shipping_space/inputs.json) · [Position and change certificates](../../experiments/urgent_shipping_space/certificates.json)
 
 The published `Nov25-28` key is unchanged. [Original OCR records](../../experiments/urgent_shipping_space/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/urgent_shipping_space/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 

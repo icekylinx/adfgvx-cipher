@@ -1,8 +1,6 @@
 # Earlier case paths
 
-Complete source editions are organized in the [reading topics](../README.md#browse-by-topic). This directory keeps
-earlier URLs and their section anchors available for citations and
-preserved research records.
+The editions are now arranged by [topic](../README.md#browse-by-topic). Earlier paths continue to link to the same cases and sections.
 
 | Earlier URL | Current source edition |
 |---|---|
@@ -54,5 +52,3 @@ preserved research records.
 | [tiflis_appointment.md](tiflis_appointment.md) | [A Polish representative in Tiflis — p199 preamble and p192 parts 2 and 3](../caucasus/tiflis_appointment.md) |
 | [turkish_tonnage.md](turkish_tonnage.md) | [German tonnage and proposed ship sales to Turkey](../naval/turkish_tonnage.md) |
 | [warsaw_service_messages.md](warsaw_service_messages.md) | [Warsaw control markers and radio forwarding instructions](../radio/warsaw_service_messages.md) |
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

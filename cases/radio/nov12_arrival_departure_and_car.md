@@ -1,12 +1,14 @@
 # Short arrival, departure and car enquiries on November 12
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 Four short native records report arrival and departure, request an arrival notification, and enquire about a car. The arrival enquiry and departure text have earlier p174 parallels already published in this repository; the new witnesses add source support to those readings. In particular, the two complementary arrival-enquiry witnesses now supply every coordinate and every plaintext pair without changing an observed coordinate under the conservative glyph masks. The previously catalogued witnesses are not counted again.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p183 excerpt](../../experiments/nov12_arrival_departure_and_car/sources/p183_reviewed.png) · [Reviewed p174 excerpt](../../experiments/nov12_arrival_departure_and_car/sources/p174_parallel.png) · [Inputs](../../experiments/nov12_arrival_departure_and_car/inputs.json) · [Position and change certificates](../../experiments/nov12_arrival_departure_and_car/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p183 excerpt](../../experiments/nov12_arrival_departure_and_car/sources/p183_reviewed.png) · [Reviewed p174 excerpt](../../experiments/nov12_arrival_departure_and_car/sources/p174_parallel.png) · [Inputs](../../experiments/nov12_arrival_departure_and_car/inputs.json) · [Position and change certificates](../../experiments/nov12_arrival_departure_and_car/certificates.json)
 
 The published `Nov10-12` key is unchanged. [Original OCR records](../../experiments/nov12_arrival_departure_and_car/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/nov12_arrival_departure_and_car/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 

@@ -1,5 +1,7 @@
 # A truncated copy of the Tiflis armistice notice
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source edition and cross-copy analysis: icekylinx and GPT-6 Astra Pro.** Newly edited record: Childs p212 A2. Earlier full witness: p218 A2, already in the [Tiflis armistice edition](p218_A.md). Published `Nov25-28` key, unchanged. [Inputs](../../experiments/p212_p218_crosscopy/inputs.json), [exact certificate](../../experiments/p212_p218_crosscopy/certificates.json), [method and limits](../../experiments/p212_p218_crosscopy/README.md).
 
 The fragment is part of the previously known notice concerning withdrawal from territory that belonged to Russia before the war and the Allies' assessment of its internal situation. Its role is established by the close ciphertext correspondence with the complete p218 part, not by joining it to the medical passages printed around p212.
@@ -8,7 +10,7 @@ The fragment is part of the previously known notice concerning withdrawal from t
 
 ## p212 A2
 
-[Short-fragment source crop](../../experiments/p212_p218_crosscopy/sources/p212_A2.png); [full p218 A2 witness](../../experiments/p212_p218_crosscopy/sources/p218_A2.png). The p212 source advertises 284 coordinates but prints 160. Of those, 157 are identical to the corresponding p218 prefix. The differences are source indices 46 (`F/G`), 67 (`A/printed dash`) and 103 (`G/X`). · [Reading conventions](../../docs/reading-conventions.md)
+[Short-fragment source crop](../../experiments/p212_p218_crosscopy/sources/p212_A2.png); [full p218 A2 witness](../../experiments/p212_p218_crosscopy/sources/p218_A2.png). The p212 source advertises 284 coordinates but prints 160. Of those, 157 are identical to the corresponding p218 prefix. The differences are source indices 46 (`F/G`), 67 (`A/printed dash`) and 103 (`G/X`).
 
 In the 284-coordinate frame, with the absent tail left as 124 erasures, only 30 plaintext positions have both source coordinates visible:
 

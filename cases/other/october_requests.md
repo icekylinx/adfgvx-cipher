@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../caucasus/october_requests.md) · [Browse this topic](../caucasus/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="october-routing-weather-and-personnel-requests"></a>
 
@@ -33,5 +29,3 @@ maintained at the new location.
 <a id="attribution-and-limits"></a>
 
 [Attribution and limits](../caucasus/october_requests.md#attribution-and-limits)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

@@ -85,5 +85,3 @@ Ship-sale terms reveal who could authorize a sale, how payment was to work and w
 | [p105](../p105.md) | READING | Naval telegram acknowledgments |
 | [p215](../p215.md) | CONDITIONAL | Apparent Entente troop-transport report |
 | [p217](../p217.md) | READING | British cruiser and Allied squadron at Sevastopol |
-
-Research and editorial work: **icekylinx and GPT-6 Astra Pro**. Individual cases credit earlier readings and keys.

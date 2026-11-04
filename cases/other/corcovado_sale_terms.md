@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../naval/corcovado_sale_terms.md) · [Browse this topic](../naval/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="corcovado-sale-terms-turkish-crew-and-a-conditional-office-number"></a>
 
@@ -57,5 +53,3 @@ maintained at the new location.
 <a id="independent-office-context"></a>
 
 [Independent office context](../naval/corcovado_sale_terms.md#independent-office-context)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

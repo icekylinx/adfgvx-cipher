@@ -1,12 +1,14 @@
 # Reduced provisioning strength and a separate evening report
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 Two physically numbered parts request a complete stop to provisions after a reduction in the strength being provisioned. Their association is explicit across the p219/p220 page break. A separate evening report on p220 preserves its unresolved unit and place labels. All three use their complete native printed frames and the unchanged Nov25–28 key.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p219 excerpt](../../experiments/nov25_provisions_and_evening_report/sources/p219_reviewed.png) · [Reviewed p220 excerpt](../../experiments/nov25_provisions_and_evening_report/sources/p220_reviewed.png) · [Inputs](../../experiments/nov25_provisions_and_evening_report/inputs.json) · [Position and change certificates](../../experiments/nov25_provisions_and_evening_report/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p219 excerpt](../../experiments/nov25_provisions_and_evening_report/sources/p219_reviewed.png) · [Reviewed p220 excerpt](../../experiments/nov25_provisions_and_evening_report/sources/p220_reviewed.png) · [Inputs](../../experiments/nov25_provisions_and_evening_report/inputs.json) · [Position and change certificates](../../experiments/nov25_provisions_and_evening_report/certificates.json)
 
 The published `Nov25-28` key is unchanged. [Original OCR records](../../experiments/nov25_provisions_and_evening_report/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/nov25_provisions_and_evening_report/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 

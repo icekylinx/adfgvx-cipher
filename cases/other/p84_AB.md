@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../naval/p84_AB.md) · [Browse this topic](../naval/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="p84-ab--release-of-oil-and-black-sea-shipping-safety"></a>
 
@@ -25,5 +21,3 @@ maintained at the new location.
 <a id="source-verification-and-credit"></a>
 
 [Source, verification and credit](../naval/p84_AB.md#source-verification-and-credit)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

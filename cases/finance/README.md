@@ -97,5 +97,3 @@ Allowances and exchange rates show the continuing administrative demands behind 
 | Source | State | Subject |
 |---|---|---|
 | [p171](../p171.md) | READING | Ruble rates and expectations about Russia |
-
-Research and editorial work: **icekylinx and GPT-6 Astra Pro**. Individual cases credit earlier readings and keys.

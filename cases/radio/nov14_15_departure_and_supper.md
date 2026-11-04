@@ -1,12 +1,14 @@
 # Postponed departure, a supper query and a farewell
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 Three separate service messages retain their complete native source frames: a postponed departure with reassurance, a proposed warm supper and headcount enquiry, and a short farewell. Source-transcription corrections recover the positions omitted by earlier OCR; ordinary-word repairs, printed-dash fills and literal abbreviations remain explicit.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p193 excerpt](../../experiments/nov14_15_departure_and_supper/sources/p193_reviewed.png) · [Reviewed p196 excerpt](../../experiments/nov14_15_departure_and_supper/sources/p196_reviewed.png) · [Inputs](../../experiments/nov14_15_departure_and_supper/inputs.json) · [Position and change certificates](../../experiments/nov14_15_departure_and_supper/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p193 excerpt](../../experiments/nov14_15_departure_and_supper/sources/p193_reviewed.png) · [Reviewed p196 excerpt](../../experiments/nov14_15_departure_and_supper/sources/p196_reviewed.png) · [Inputs](../../experiments/nov14_15_departure_and_supper/inputs.json) · [Position and change certificates](../../experiments/nov14_15_departure_and_supper/certificates.json)
 
 The published `Nov13-15b` key is unchanged. [Original OCR records](../../experiments/nov14_15_departure_and_supper/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/nov14_15_departure_and_supper/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 

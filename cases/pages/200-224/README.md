@@ -4,11 +4,9 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 175–199](../175-199/README.md) · [pp. 225–230 →](../225-249/README.md)
 
-**121 sources · 25 printed pages · 0 OPEN.**
-
 Jump to page: [p200](#p200) · [p201](#p201) · [p202](#p202) · [p203](#p203) · [p204](#p204) · [p205](#p205) · [p206](#p206) · [p207](#p207) · [p208](#p208) · [p209](#p209) · [p210](#p210) · [p211](#p211) · [p212](#p212) · [p213](#p213) · [p214](#p214) · [p215](#p215) · [p216](#p216) · [p217](#p217) · [p218](#p218) · [p219](#p219) · [p220](#p220) · [p221](#p221) · [p222](#p222) · [p223](#p223) · [p224](#p224).
 
-Each row links to the current case and evidence. [State definitions](../../../docs/reading-conventions.md#catalogue-states).
+This range contains 121 sources, including 0 OPEN. [Reading states](../../../docs/reading-conventions.md#catalogue-states).
 
 ## p200
 
@@ -257,5 +255,3 @@ Each row links to the current case and evidence. [State definitions](../../../do
 | [p224 C2](../../people/breslau_staff_transfer.md) | READING | Special employment with Breslau command; separate historical VI Corps context |
 
 [Return to all source pages](../README.md).
-
-Research and editorial work: **icekylinx and GPT-6 Astra Pro**.

@@ -1,12 +1,14 @@
 # A regimental journey report with unresolved route and unit labels
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 This two-part native report describes a journey and assistance received after minor interruptions. The route, date-like and unit labels remain in their exact source form. The five printed dashes in part 1 are explicit source erasures: four are supplied by priced wording proposals and one remains unresolved. The Nov28–Dec1 square uses Y as the separator; X inside the displayed labels stays literal.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p225 excerpt](../../experiments/regimental_journey_report/sources/p225_reviewed.png) · [Inputs](../../experiments/regimental_journey_report/inputs.json) · [Position and change certificates](../../experiments/regimental_journey_report/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p225 excerpt](../../experiments/regimental_journey_report/sources/p225_reviewed.png) · [Inputs](../../experiments/regimental_journey_report/inputs.json) · [Position and change certificates](../../experiments/regimental_journey_report/certificates.json)
 
 The published `Nov28-Dec1` key is unchanged. [Original OCR records](../../experiments/regimental_journey_report/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/regimental_journey_report/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 

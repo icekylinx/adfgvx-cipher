@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../caucasus/october_staffing.md) · [Browse this topic](../caucasus/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="october-staffing-manganese-purchases-and-service-traffic"></a>
 
@@ -37,5 +33,3 @@ maintained at the new location.
 <a id="explicit-repair-ledger"></a>
 
 [Explicit repair ledger](../caucasus/october_staffing.md#explicit-repair-ledger)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

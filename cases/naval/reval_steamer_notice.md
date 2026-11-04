@@ -1,5 +1,7 @@
 # Reval: expected steamers and further transport capacity
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs p213 A1–A3 (PDF p216), **23 November 1918**; published `Nov22-24` key, unchanged. [Inputs](../../experiments/reval_steamer_notice/inputs.json), [exact certificates](../../experiments/reval_steamer_notice/certificates.json), [method](../../experiments/reval_steamer_notice/README.md).
 
 The header reads `KOW v LP (06.20 p.m., November 23rd); FUER RVA 20.00 (23/11) 3 TLE`. Its stated receipt precedes the origin time on the same printed date; the discrepancy is preserved. These parts belong to the lower, 23 November section, separately from the 22 November medical continuation above them.
@@ -8,7 +10,7 @@ The message reports arrangements for two steamers to serve troops and provisions
 
 ## p213 A1
 
-[Source crop](../../experiments/reval_steamer_notice/sources/p213_A1.png); [overprinted glyph enlargement](../../experiments/reval_steamer_notice/sources/p213_A1_g13.png). All 200 slots are retained. The primary source reading gives 100 fixed raw labels without repair: · [Reading conventions](../../docs/reading-conventions.md)
+[Source crop](../../experiments/reval_steamer_notice/sources/p213_A1.png); [overprinted glyph enlargement](../../experiments/reval_steamer_notice/sources/p213_A1_g13.png). All 200 slots are retained. The primary source reading gives 100 fixed raw labels without repair:
 
 <details>
 <summary>Raw decoded text</summary>

@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../military/nov9_operational_reports.md) · [Browse this topic](../military/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="november-9-operational-reports-serbian-cavalry-and-the-retreat-north"></a>
 
@@ -65,5 +61,3 @@ maintained at the new location.
 <a id="evidence-and-verification"></a>
 
 [Evidence and verification](../military/nov9_operational_reports.md#evidence-and-verification)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

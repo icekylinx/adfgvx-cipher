@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../naval/turkish_tonnage.md) · [Browse this topic](../naval/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="german-tonnage-and-proposed-ship-sales-to-turkey"></a>
 
@@ -33,5 +29,3 @@ maintained at the new location.
 <a id="scope-and-verification"></a>
 
 [Scope and verification](../naval/turkish_tonnage.md#scope-and-verification)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

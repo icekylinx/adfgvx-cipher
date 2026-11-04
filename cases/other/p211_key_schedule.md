@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../radio/p211_key_schedule.md) · [Browse this topic](../radio/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="p211-lower-b--an-explicit-novemberdecember-key-schedule"></a>
 
@@ -33,5 +29,3 @@ maintained at the new location.
 <a id="verify"></a>
 
 [Verify](../radio/p211_key_schedule.md#verify)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

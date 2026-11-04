@@ -1,12 +1,14 @@
 # Gomel route derailment and station-train forwarding
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 Two source editions concern railway operations: a freight-train derailment blocking both tracks on the proposed Gomel–Bachmatsch route, and a message about forwarding a station train and construction train to Group Winterfeld. The wagon count, train labels, abbreviations and office references remain literal.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed page excerpt](../../experiments/nov7_derailment_and_trains/sources/p155_reviewed.png) · [Second source excerpt](../../experiments/nov7_derailment_and_trains/sources/p169_reviewed.png) · [Exact inputs](../../experiments/nov7_derailment_and_trains/inputs.json) · [Position-by-position certificates](../../experiments/nov7_derailment_and_trains/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed page excerpt](../../experiments/nov7_derailment_and_trains/sources/p155_reviewed.png) · [Second source excerpt](../../experiments/nov7_derailment_and_trains/sources/p169_reviewed.png) · [Exact inputs](../../experiments/nov7_derailment_and_trains/inputs.json) · [Position-by-position certificates](../../experiments/nov7_derailment_and_trains/certificates.json)
 
 The unchanged published keys are `Nov7-9`. The [earlier unreviewed candidates](../../experiments/nov7_derailment_and_trains/prior_candidates.json) and [original OCR records](../../experiments/nov7_derailment_and_trains/ocr_snapshot.json) are preserved. The present work supplies an image-reviewed source edition and a reproducible repair account; it does not claim that every body is a first public decipherment.
 

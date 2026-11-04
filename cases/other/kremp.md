@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../people/kremp.md) · [Browse this topic](../people/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="kremps-request-for-a-departure-date--p131-p149-and-p159"></a>
 
@@ -29,5 +25,3 @@ maintained at the new location.
 <a id="verification-and-credit"></a>
 
 [Verification and credit](../people/kremp.md#verification-and-credit)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../radio/kiel_radio_control.md) · [Browse this topic](../radio/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="kiel-radio-control-order--p140-a-and-p146-a"></a>
 
@@ -29,5 +25,3 @@ maintained at the new location.
 <a id="evidence"></a>
 
 [Evidence](../radio/kiel_radio_control.md#evidence)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

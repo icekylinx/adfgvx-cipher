@@ -1,11 +1,13 @@
 # Delegates directed through Spa toward Berlin
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source edition: icekylinx and GPT-6 Astra Pro.**
 
 **Prior body and historical discussion:** George Lasry, Ingo Niebel,
 Nils Kopal and Arno Wacker, *Deciphering ADFGVX messages from the Eastern
 Front of World War I* (2016), §6.4, author PDF p24,
-[DOI](https://doi.org/10.1080/01611194.2016.1169461). That discussion · [Reading conventions](../../docs/reading-conventions.md)
+[DOI](https://doi.org/10.1080/01611194.2016.1169461). That discussion
 explicitly cites p175 A together with p172 C. This edition adds a
 source-exact transcript and quantified repairs; it does not claim the
 travel message as a new historical decipherment.

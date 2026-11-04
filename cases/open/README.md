@@ -6,8 +6,6 @@ Seven physical sources without an accepted body reading. Each case preserves the
 
 ## Seven open sources
 
-The original challenges p73, p170 A and p198 D appear here with the four other unread bodies. Every source has its own catalogue entry, literal transcription and research page.
-
 | Source | State | Subject |
 |---|---|---|
 | [p70 B1](p70_B1.md) | OPEN | Jammed first part routed through NKJ |
@@ -18,8 +16,4 @@ The original challenges p73, p170 A and p198 D appear here with the four other u
 | [p194 D1](p194_D1.md) | OPEN | Short first-part fragment from WAU |
 | [p198](../p198.md) | OPEN | CHI intercept with a five-coordinate shortfall |
 
-A source is OPEN when no body reading has been accepted. Partial and conditional editions elsewhere retain their own unresolved positions; they are not counted as complete decipherments.
-
 [Current research](../../docs/research-status.md#open-work) · [Source inventory](../../docs/whole-material-coverage.md)
-
-Research and editorial work: **icekylinx and GPT-6 Astra Pro**. Individual cases credit earlier readings and keys.

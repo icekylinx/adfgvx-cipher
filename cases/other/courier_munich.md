@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../radio/courier_munich.md) · [Browse this topic](../radio/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="munich-couriers-carrying-radio-operating-documents"></a>
 
@@ -33,5 +29,3 @@ maintained at the new location.
 <a id="association-source-and-credit"></a>
 
 [Association, source and credit](../radio/courier_munich.md#association-source-and-credit)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

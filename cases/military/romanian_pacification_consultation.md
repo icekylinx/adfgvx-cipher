@@ -1,10 +1,12 @@
 # Romanian pacification proposal and a request for consultation
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
 Childs p157 A, PDF p160, is headed `LP v NKJ (--- November 8th)` and
 `5 TLE`, beneath a page heading dated **7th NOVEMBER, 1918**. The
-[overview](../../experiments/romanian_pacification_consultation/sources/p157_overview.png) · [Reading conventions](../../docs/reading-conventions.md)
+[overview](../../experiments/romanian_pacification_consultation/sources/p157_overview.png)
 shows the surviving source divisions. Parts **2–5** are transcribed and
 decoded below using the unchanged partial **Nov7–9** key. The incomplete
 first part remains separate contextual evidence; the date difference is

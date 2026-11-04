@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../radio/late_november_cipher_instructions.md) · [Browse this topic](../radio/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="late-november-cipher-and-routing-instructions--p225228"></a>
 
@@ -37,5 +33,3 @@ maintained at the new location.
 <a id="evidence"></a>
 
 [Evidence](../radio/late_november_cipher_instructions.md#evidence)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

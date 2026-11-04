@@ -4,11 +4,9 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 150–174](../150-174/README.md) · [pp. 200–224 →](../200-224/README.md)
 
-**111 sources · 25 printed pages · 2 OPEN.**
-
 Jump to page: [p175](#p175) · [p176](#p176) · [p177](#p177) · [p178](#p178) · [p179](#p179) · [p180](#p180) · [p181](#p181) · [p182](#p182) · [p183](#p183) · [p184](#p184) · [p185](#p185) · [p186](#p186) · [p187](#p187) · [p188](#p188) · [p189](#p189) · [p190](#p190) · [p191](#p191) · [p192](#p192) · [p193](#p193) · [p194](#p194) · [p195](#p195) · [p196](#p196) · [p197](#p197) · [p198](#p198) · [p199](#p199).
 
-Each row links to the current case and evidence. [State definitions](../../../docs/reading-conventions.md#catalogue-states).
+This range contains 111 sources, including 2 OPEN. [Reading states](../../../docs/reading-conventions.md#catalogue-states).
 
 ## p175
 
@@ -247,5 +245,3 @@ Each row links to the current case and evidence. [State definitions](../../../do
 | [p199 unlettered part 1](../../caucasus/tiflis_appointment.md) | CONDITIONAL | Forwarding a Polish appointment telegram through von Kress to Waclaw v. Ostrowski in Tiflis |
 
 [Return to all source pages](../README.md).
-
-Research and editorial work: **icekylinx and GPT-6 Astra Pro**.

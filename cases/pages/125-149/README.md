@@ -4,11 +4,9 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 100–124](../100-124/README.md) · [pp. 150–174 →](../150-174/README.md)
 
-**80 sources · 25 printed pages · 2 OPEN.**
-
 Jump to page: [p125](#p125) · [p126](#p126) · [p127](#p127) · [p128](#p128) · [p129](#p129) · [p130](#p130) · [p131](#p131) · [p132](#p132) · [p133](#p133) · [p134](#p134) · [p135](#p135) · [p136](#p136) · [p137](#p137) · [p138](#p138) · [p139](#p139) · [p140](#p140) · [p141](#p141) · [p142](#p142) · [p143](#p143) · [p144](#p144) · [p145](#p145) · [p146](#p146) · [p147](#p147) · [p148](#p148) · [p149](#p149).
 
-Each row links to the current case and evidence. [State definitions](../../../docs/reading-conventions.md#catalogue-states).
+This range contains 80 sources, including 2 OPEN. [Reading states](../../../docs/reading-conventions.md#catalogue-states).
 
 ## p125
 
@@ -216,5 +214,3 @@ Each row links to the current case and evidence. [State definitions](../../../do
 | [p149 C](../../people/glatz.md) | READING | Enquiry about Glatz's whereabouts |
 
 [Return to all source pages](../README.md).
-
-Research and editorial work: **icekylinx and GPT-6 Astra Pro**.

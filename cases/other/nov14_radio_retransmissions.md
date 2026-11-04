@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../radio/nov14_radio_retransmissions.md) · [Browse this topic](../radio/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="november-14-cross-key-notices-an-arriving-pilot-and-a-backup-radio-station"></a>
 
@@ -37,5 +33,3 @@ maintained at the new location.
 <a id="evidence-and-exact-reproduction"></a>
 
 [Evidence and exact reproduction](../radio/nov14_radio_retransmissions.md#evidence-and-exact-reproduction)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

@@ -1,12 +1,14 @@
 # An instruction to avoid fighting, with further orders to follow
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 A fully preserved native ciphertext directs that fighting be avoided and states that further instructions will follow. Four coordinate substitutions supply two word proposals; every abbreviated authority, demand and closing reference label stays visible. The account distinguishes the order from evidence that it was carried out.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p227 excerpt](../../experiments/avoid_fighting_instruction/sources/p227_reviewed.png) · [Inputs](../../experiments/avoid_fighting_instruction/inputs.json) · [Position and change certificates](../../experiments/avoid_fighting_instruction/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p227 excerpt](../../experiments/avoid_fighting_instruction/sources/p227_reviewed.png) · [Inputs](../../experiments/avoid_fighting_instruction/inputs.json) · [Position and change certificates](../../experiments/avoid_fighting_instruction/certificates.json)
 
 The published `Nov28-Dec1` key is unchanged. [Original OCR records](../../experiments/avoid_fighting_instruction/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/avoid_fighting_instruction/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 

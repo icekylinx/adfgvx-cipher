@@ -4,11 +4,9 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 125–149](../125-149/README.md) · [pp. 175–199 →](../175-199/README.md)
 
-**133 sources · 25 printed pages · 1 OPEN.**
-
 Jump to page: [p150](#p150) · [p151](#p151) · [p152](#p152) · [p153](#p153) · [p154](#p154) · [p155](#p155) · [p156](#p156) · [p157](#p157) · [p158](#p158) · [p159](#p159) · [p160](#p160) · [p161](#p161) · [p162](#p162) · [p163](#p163) · [p164](#p164) · [p165](#p165) · [p166](#p166) · [p167](#p167) · [p168](#p168) · [p169](#p169) · [p170](#p170) · [p171](#p171) · [p172](#p172) · [p173](#p173) · [p174](#p174).
 
-Each row links to the current case and evidence. [State definitions](../../../docs/reading-conventions.md#catalogue-states).
+This range contains 133 sources, including 1 OPEN. [Reading states](../../../docs/reading-conventions.md#catalogue-states).
 
 ## p150
 
@@ -269,5 +267,3 @@ Each row links to the current case and evidence. [State definitions](../../../do
 | [p174 E](../../radio/seifert.md) | READING | Seifert has departed |
 
 [Return to all source pages](../README.md).
-
-Research and editorial work: **icekylinx and GPT-6 Astra Pro**.

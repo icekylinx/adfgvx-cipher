@@ -1,5 +1,7 @@
 # Equipment transfer east of the Rhine, with radio service maintained
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source recovery and edition: icekylinx and GPT-6 Astra Pro.**
 
 This order directs equipment identified by the unexpanded label **`U.S.`**
@@ -8,7 +10,7 @@ station operation to be maintained. `U.S.` is preserved as a source label;
 the text does not establish an American origin or a particular equipment type.
 
 The source is Childs, *General Solution of the ADFGVX Cipher System*,
-[printed p179 A, PDF p182](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view), · [Reading conventions](../../docs/reading-conventions.md)
+[printed p179 A, PDF p182](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view),
 with this [visible header and ciphertext](../../experiments/november_armistice_orders/sources/p179_A.png):
 
 <details>

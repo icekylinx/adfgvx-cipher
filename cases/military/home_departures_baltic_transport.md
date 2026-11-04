@@ -1,12 +1,14 @@
 # Wishing to travel home and uncertainty over Baltic transport
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 Two native source bodies need no coordinate repairs: one describes soldiers wishing to travel home without authorization; the other links transport difficulty to uncertainty in the Baltic Sea and begins an incomplete statement about Graf Goltz. The shared unknown GA cell remains globally coupled across their separate references. Missing context and abbreviated source spellings stay explicit.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p186 excerpt](../../experiments/home_departures_baltic_transport/sources/p186_reviewed.png) · [Exact inputs](../../experiments/home_departures_baltic_transport/inputs.json) · [Position-by-position certificates](../../experiments/home_departures_baltic_transport/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p186 excerpt](../../experiments/home_departures_baltic_transport/sources/p186_reviewed.png) · [Exact inputs](../../experiments/home_departures_baltic_transport/inputs.json) · [Position-by-position certificates](../../experiments/home_departures_baltic_transport/certificates.json)
 
 The unchanged published keys are `Nov13-15b`. The [earlier unreviewed candidates](../../experiments/home_departures_baltic_transport/prior_candidates.json) and [original OCR records](../../experiments/home_departures_baltic_transport/ocr_snapshot.json) are preserved. The present work supplies an image-reviewed source edition and a reproducible repair account; it does not claim that every body is a first public decipherment.
 

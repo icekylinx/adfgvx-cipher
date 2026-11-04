@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../military/p201_p206_orders.md) · [Browse this topic](../military/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="p201-b--p206-a--reporting-orders-linked-by-a-shared-reference"></a>
 
@@ -33,5 +29,3 @@ maintained at the new location.
 <a id="verify"></a>
 
 [Verify](../military/p201_p206_orders.md#verify)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

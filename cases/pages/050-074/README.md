@@ -4,11 +4,9 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [pp. 75–99 →](../075-099/README.md)
 
-**47 sources · 19 printed pages · 2 OPEN.**
-
 Jump to page: [p56](#p56) · [p57](#p57) · [p58](#p58) · [p59](#p59) · [p60](#p60) · [p61](#p61) · [p62](#p62) · [p63](#p63) · [p64](#p64) · [p65](#p65) · [p66](#p66) · [p67](#p67) · [p68](#p68) · [p69](#p69) · [p70](#p70) · [p71](#p71) · [p72](#p72) · [p73](#p73) · [p74](#p74).
 
-Each row links to the current case and evidence. [State definitions](../../../docs/reading-conventions.md#catalogue-states).
+This range contains 47 sources, including 2 OPEN. [Reading states](../../../docs/reading-conventions.md#catalogue-states).
 
 ## p56
 
@@ -153,5 +151,3 @@ Each row links to the current case and evidence. [State definitions](../../../do
 | [p74 C2](../../radio/late_october_radio_service.md#p74-c2) | READING | Lines used to exchange telegrams with foreign stations |
 
 [Return to all source pages](../README.md).
-
-Research and editorial work: **icekylinx and GPT-6 Astra Pro**.

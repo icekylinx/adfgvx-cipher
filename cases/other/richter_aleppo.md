@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../people/richter_aleppo.md) · [Browse this topic](../people/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="p203-c--p210-c--inquiries-about-richter-in-aleppo"></a>
 
@@ -29,5 +25,3 @@ maintained at the new location.
 <a id="source-reproduction-and-credit"></a>
 
 [Source, reproduction and credit](../people/richter_aleppo.md#source-reproduction-and-credit)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

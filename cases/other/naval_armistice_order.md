@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../naval/naval_armistice_order.md) · [Browse this topic](../naval/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="p178--the-naval-armistice-order-of-11-november"></a>
 
@@ -25,5 +21,3 @@ maintained at the new location.
 <a id="dates-layout-and-credit"></a>
 
 [Dates, layout and credit](../naval/naval_armistice_order.md#dates-layout-and-credit)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

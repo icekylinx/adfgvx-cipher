@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../radio/warsaw_service_messages.md) · [Browse this topic](../radio/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="warsaw-control-markers-and-radio-forwarding-instructions"></a>
 
@@ -33,5 +29,3 @@ maintained at the new location.
 <a id="reproducibility-and-limits"></a>
 
 [Reproducibility and limits](../radio/warsaw_service_messages.md#reproducibility-and-limits)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

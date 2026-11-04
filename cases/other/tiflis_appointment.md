@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../caucasus/tiflis_appointment.md) · [Browse this topic](../caucasus/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="a-polish-representative-in-tiflis--p199-preamble-and-p192-parts-2-and-3"></a>
 
@@ -41,5 +37,3 @@ maintained at the new location.
 <a id="evidence-and-reproduction"></a>
 
 [Evidence and reproduction](../caucasus/tiflis_appointment.md#evidence-and-reproduction)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

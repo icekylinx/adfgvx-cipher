@@ -126,14 +126,11 @@ def render_alias(alias):
     lines = [
         '# Reading location', '', f"**{alias['title']}**", '',
         f'[Open the complete source edition]({link}) · [Browse this topic]({topic})', '',
-        'This earlier URL remains available for published links and preserved',
-        'research records. The complete reading, source evidence and credits are',
-        'maintained at the new location.', '', '## Preserved section links', '',
+        '## Section links', '',
     ]
     for anchor in alias['anchors']:
         lines.extend([f'<a id="{html.escape(anchor["id"], quote=True)}"></a>', '',
                       f'[{anchor["label"]}]({link}#{anchor["id"]})', ''])
-    lines.extend(['Navigation maintained by **icekylinx and GPT-6 Astra Pro**.', ''])
     return '\n'.join(lines)
 
 
@@ -141,10 +138,8 @@ def render_alias_index(aliases):
     destination = ROOT / 'cases/other/README.md'
     lines = [
         '# Earlier case paths', '',
-        'Complete source editions are organized in the '
-        '[reading topics](../README.md#browse-by-topic). This directory keeps',
-        'earlier URLs and their section anchors available for citations and',
-        'preserved research records.', '',
+        'The editions are now arranged by [topic](../README.md#browse-by-topic). '
+        'Earlier paths continue to link to the same cases and sections.', '',
         '| Earlier URL | Current source edition |', '|---|---|',
     ]
     for alias in aliases:
@@ -152,7 +147,7 @@ def render_alias_index(aliases):
         new = relative_link(alias['canonical_path'], destination)
         title = alias['title'].replace('|', '\\|')
         lines.append(f'| [{Path(alias["old_path"]).name}]({old}) | [{title}]({new}) |')
-    lines.extend(['', 'Navigation maintained by **icekylinx and GPT-6 Astra Pro**.', ''])
+    lines.append('')
     return '\n'.join(lines)
 
 
@@ -171,13 +166,7 @@ def render_topic(group, rows, catalogue):
         assert len(all_open) == 7 and all(r['state'] == 'OPEN' for r in all_open)
         lines.extend([
             '## Seven open sources', '',
-            'The original challenges p73, p170 A and p198 D appear here with the four '
-            'other unread bodies. Every source has its own catalogue entry, '
-            'literal transcription and research page.', '',
             table(all_open, destination), '',
-            'A source is OPEN when no body reading has been accepted. Partial and '
-            'conditional editions elsewhere retain their own unresolved positions; '
-            'they are not counted as complete decipherments.', '',
             '[Current research](../../docs/research-status.md#open-work) · '
             '[Source inventory](../../docs/whole-material-coverage.md)', '',
         ])
@@ -198,24 +187,27 @@ def render_topic(group, rows, catalogue):
                       table(rows, destination), '', '</details>', ''])
         if related:
             lines.extend(['### Related original challenges', '', table(related, destination), ''])
-    lines.extend(['Research and editorial work: **icekylinx and GPT-6 Astra Pro**. '
-                  'Individual cases credit earlier readings and keys.', ''])
     return '\n'.join(lines)
 
 
 def render_overview(groups, rows, catalogue=None):
     catalogue = load_catalog() if catalogue is None else catalogue
-    lines = [START, '## Browse by topic', '',
-             'Each topic opens with a guided reading path, followed by its complete source index.', '',
+    destination = ROOT / 'cases/README.md'
+    lines = [START, '## The original 22 challenges', '',
+             'The Lasry–Schmeh challenges remain available as individual case studies. '
+             'Their editions bring together earlier decipherments, our reconstructions '
+             'and the supporting source material.', '',
+             table(catalogue['challenge'], destination), '',
+             '## Browse by topic', '',
+             'The wider collection is organized into six subjects, each with selected '
+             'readings and a complete source index.', '',
              '| Topic | Catalogue sources |', '|---|---:|']
     for group in groups:
         count = len(rows[group['id']])
         if group['id'] == 'open':
             count += len(group.get('related_challenge_ids', []))
         lines.append(f"| [{group['title']}]({group['id']}/README.md) | {count} |")
-    lines.extend(['', 'The open-source guide brings together all seven unread bodies, '
-                  'including the three original challenges. The page catalogue gives '
-                  'every physical source exactly one entry.', END])
+    lines.extend(['', END])
     return '\n'.join(lines)
 
 

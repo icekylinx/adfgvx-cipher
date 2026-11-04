@@ -1,12 +1,14 @@
 # A repeated negotiation assessment and a departure-order reference
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 The first two printed parts of a four-part heading repeat an assessment that participation in negotiations is pointless and state that earlier messages are dealt with by an order to depart. Both source bodies remain in their complete native frames. No missing later parts, numerical references or execution of the departure order are supplied from context.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p206 excerpt](../../experiments/nov18_negotiation_repetition/sources/p206_reviewed.png) · [Inputs](../../experiments/nov18_negotiation_repetition/inputs.json) · [Position and change certificates](../../experiments/nov18_negotiation_repetition/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p206 excerpt](../../experiments/nov18_negotiation_repetition/sources/p206_reviewed.png) · [Inputs](../../experiments/nov18_negotiation_repetition/inputs.json) · [Position and change certificates](../../experiments/nov18_negotiation_repetition/certificates.json)
 
 The published `Nov16-18` key is unchanged. [Original OCR records](../../experiments/nov18_negotiation_repetition/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/nov18_negotiation_repetition/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 

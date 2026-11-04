@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../finance/crown_cash_requests.md) · [Browse this topic](../finance/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="crown-cash-requests-for-arad-and-a-report-of-banknote-shortage"></a>
 
@@ -33,5 +29,3 @@ maintained at the new location.
 <a id="verification-and-attribution"></a>
 
 [Verification and attribution](../finance/crown_cash_requests.md#verification-and-attribution)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

@@ -1,5 +1,7 @@
 # Transports from Romania: warning against entry into Hungary
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs printed p184 (PDF p187), 13 November 1918; published `Nov13-15a` key, unchanged. [Inputs](../../experiments/hungary_transport_warning/inputs.json), [exact certificates](../../experiments/hungary_transport_warning/certificates.json), [method and limits](../../experiments/hungary_transport_warning/README.md).
 
 Two three-part transmissions address the Mackensen command's mineral-oil department and warn that transports from Romania should not be allowed into Hungary because they would be lost there. This is what the message says; the edition supplies no independent evidence that this outcome happened.
@@ -8,7 +10,7 @@ Both origin headers give LP for UKS, `13.40 (13/11)`, three parts. The different
 
 ## p184 B1
 
-[Source crop](../../experiments/hungary_transport_warning/sources/p184_B1.png). All 146 printed coordinates give 73 fixed positions without repair: · [Reading conventions](../../docs/reading-conventions.md)
+[Source crop](../../experiments/hungary_transport_warning/sources/p184_B1.png). All 146 printed coordinates give 73 fixed positions without repair:
 
 <details>
 <summary>Raw decoded text</summary>

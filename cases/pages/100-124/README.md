@@ -4,11 +4,9 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 75–99](../075-099/README.md) · [pp. 125–149 →](../125-149/README.md)
 
-**94 sources · 25 printed pages · 0 OPEN.**
-
 Jump to page: [p100](#p100) · [p101](#p101) · [p102](#p102) · [p103](#p103) · [p104](#p104) · [p105](#p105) · [p106](#p106) · [p107](#p107) · [p108](#p108) · [p109](#p109) · [p110](#p110) · [p111](#p111) · [p112](#p112) · [p113](#p113) · [p114](#p114) · [p115](#p115) · [p116](#p116) · [p117](#p117) · [p118](#p118) · [p119](#p119) · [p120](#p120) · [p121](#p121) · [p122](#p122) · [p123](#p123) · [p124](#p124).
 
-Each row links to the current case and evidence. [State definitions](../../../docs/reading-conventions.md#catalogue-states).
+This range contains 94 sources, including 0 OPEN. [Reading states](../../../docs/reading-conventions.md#catalogue-states).
 
 ## p100
 
@@ -230,5 +228,3 @@ Each row links to the current case and evidence. [State definitions](../../../do
 | [p124 B](../../military/nov4_flying_unit_inquiry.md#p124-b) | CONDITIONAL | Inquiry whether flying units should depart or remain; opening reference unresolved |
 
 [Return to all source pages](../README.md).
-
-Research and editorial work: **icekylinx and GPT-6 Astra Pro**.

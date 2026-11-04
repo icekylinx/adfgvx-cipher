@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../caucasus/october_caucasus.md) · [Browse this topic](../caucasus/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="october-caucasus-traffic--kress-westernhagen-and-a-shipment-for-poti"></a>
 
@@ -81,5 +77,3 @@ maintained at the new location.
 <a id="relation-to-the-open-p73-challenge"></a>
 
 [Relation to the open p73 challenge](../caucasus/october_caucasus.md#relation-to-the-open-p73-challenge)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

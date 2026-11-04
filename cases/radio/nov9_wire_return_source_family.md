@@ -1,12 +1,14 @@
 # Wire communications, return instructions and the Tiraspol continuation
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source collation and edition: icekylinx and GPT-6 Astra Pro.**
 
 The two surviving copies supply complementary evidence. The short first
 part on printed p162 overlaps the end of the longer first part on p166,
 and their second parts differ at only two source positions. This edition
 adds three physical records: **p162 C1, p166 C1 and p166 C2**. The earlier
-[p162 C2 edition](../military/tiraspol_border_report.md) remains a supporting · [Reading conventions](../../docs/reading-conventions.md)
+[p162 C2 edition](../military/tiraspol_border_report.md) remains a supporting
 witness, with its original displays unchanged.
 
 The primary unfilled frames fix **205 of 362 plaintext positions** across

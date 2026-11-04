@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../people/osthoff.md) · [Browse this topic](../people/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="osthoffs-posting-to-turkey-is-cancelled"></a>
 
@@ -29,5 +25,3 @@ maintained at the new location.
 <a id="reproduce"></a>
 
 [Reproduce](../people/osthoff.md#reproduce)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

@@ -1,5 +1,7 @@
 # Warsaw station report: a conditional missing-row continuation
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and conditional reconstruction: icekylinx and GPT-6 Astra Pro.**
 
 Childs p204 C2 prints **242 coordinate slots** but advertises **282**. Inserting a hypothetical row of eight five-coordinate groups before the terminal `GX` produces a coherent continuation of [part 1](nov16_18_command_inquiries.md#p204-c1): equipment has not arrived from home, operation is to pass to the Poles on Monday evening, and WAU is transferring personnel. The proposed words require **no change to any observed coordinate** and **36 fills in the 40 hypothesized missing slots**. Four plaintext positions remain unknown.
@@ -8,7 +10,7 @@ The longer frame and those 36 fills remain a **conditional reconstruction**. The
 
 ## p204 C2
 
-[Reviewed source excerpt](../../experiments/warsaw_station_missing_row/sources/p204_C.png) · [Exact inputs](../../experiments/warsaw_station_missing_row/inputs.json) · [All gap placements and global witnesses](../../experiments/warsaw_station_missing_row/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Reviewed source excerpt](../../experiments/warsaw_station_missing_row/sources/p204_C.png) · [Exact inputs](../../experiments/warsaw_station_missing_row/inputs.json) · [All gap placements and global witnesses](../../experiments/warsaw_station_missing_row/certificates.json)
 
 **Source transcription — header:** `C) KOW v WAU (1.50 a.m., November 18th); 0115 (17), 2 TLE; 2 TL RICHI-282`.
 

@@ -1,12 +1,14 @@
 # DEUTZITAG: requesting details of purchase dispatches
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs p80 A and p81 A/C, printed heading 30 October 1918, received 31 October. Published `Oct28-31` key, unchanged. [Inputs](../../experiments/deutzitag_dispatch_inquiries/inputs.json), [exact certificates](../../experiments/deutzitag_dispatch_inquiries/certificates.json), [method](../../experiments/deutzitag_dispatch_inquiries/README.md).
 
 The economic department of the Caucasus delegation is asked whether purchases have already been sent away, when and where further dispatches are expected, and how onward transport is intended. The request itself supplies no shipment answer.
 
 ## p80 A
 
-[Source crop](../../experiments/deutzitag_dispatch_inquiries/sources/p80_A.png). Receipt `COS v LP (6.36 a.m., October 31st)`; origin `SS BERLIN 30/10 ... 1900`; addressee `KAUKASUS DELEGATION WIRTSCHAFTSABTEILUNG`. All 274 printed coordinates give this unedited 137-character body: · [Reading conventions](../../docs/reading-conventions.md)
+[Source crop](../../experiments/deutzitag_dispatch_inquiries/sources/p80_A.png). Receipt `COS v LP (6.36 a.m., October 31st)`; origin `SS BERLIN 30/10 ... 1900`; addressee `KAUKASUS DELEGATION WIRTSCHAFTSABTEILUNG`. All 274 printed coordinates give this unedited 137-character body:
 
 <details>
 <summary>Raw decoded text</summary>

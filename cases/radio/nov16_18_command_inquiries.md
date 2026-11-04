@@ -1,12 +1,14 @@
 # Armistice acknowledgments, personnel and Warsaw radio inquiries
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 Seven native source records cover an armistice-receipt query, nightly radio listening, an inquiry for Captain von Borries, the location of the Warsaw general government, and radio equipment and personnel. Two previously OCR-damaged short messages become clear when their actually printed final groups are restored. All unresolved fields and missing-letter spellings remain explicit.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [p202 source](../../experiments/nov16_18_command_inquiries/sources/p202_reviewed.png) · [p203 source](../../experiments/nov16_18_command_inquiries/sources/p203_reviewed.png) · [p204 source](../../experiments/nov16_18_command_inquiries/sources/p204_reviewed.png) · [Exact inputs](../../experiments/nov16_18_command_inquiries/inputs.json) · [Position-by-position certificates](../../experiments/nov16_18_command_inquiries/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [p202 source](../../experiments/nov16_18_command_inquiries/sources/p202_reviewed.png) · [p203 source](../../experiments/nov16_18_command_inquiries/sources/p203_reviewed.png) · [p204 source](../../experiments/nov16_18_command_inquiries/sources/p204_reviewed.png) · [Exact inputs](../../experiments/nov16_18_command_inquiries/inputs.json) · [Position-by-position certificates](../../experiments/nov16_18_command_inquiries/certificates.json)
 
 The unchanged published keys are `Nov16-18`, `Nov13-15b`. The [earlier unreviewed candidates](../../experiments/nov16_18_command_inquiries/prior_candidates.json) and [original OCR records](../../experiments/nov16_18_command_inquiries/ocr_snapshot.json) are preserved. The present work supplies an image-reviewed source edition and a reproducible repair account; it does not claim that every body is a first public decipherment.
 

@@ -1,10 +1,12 @@
 # November 1 contact times, service mail and receipt acknowledgment
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 Prepared by **icekylinx and GPT-6 Astra Pro**. These four physical records
 appear on Childs printed p99, under the November 1 heading. They use the
 published `Nov1-3` square and column ranks. The accompanying
 [Sava-crossing report](../military/sava_crossing_evening_report.md) is a
-separate message on the same page. [Reading conventions](../../docs/reading-conventions.md).
+separate message on the same page.
 
 The [full page](../../experiments/nov1_contact_mail_and_sava/sources/p99_full.png),
 [literal source rows](../../experiments/nov1_contact_mail_and_sava/inputs.json)

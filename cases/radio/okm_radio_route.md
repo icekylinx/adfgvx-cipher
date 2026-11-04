@@ -1,12 +1,14 @@
 # OKM availability through an incompletely identified radio route
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 This short native body reports a communication route to OKM. Its readable wording is an explicitly priced proposal, while AOK1? and FXT remain literal. The unresolved address character is a source erasure with both numerical and alphabetic possibilities.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p180 excerpt](../../experiments/okm_radio_route/sources/p180_reviewed.png) · [Inputs](../../experiments/okm_radio_route/inputs.json) · [Position and change certificates](../../experiments/okm_radio_route/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p180 excerpt](../../experiments/okm_radio_route/sources/p180_reviewed.png) · [Inputs](../../experiments/okm_radio_route/inputs.json) · [Position and change certificates](../../experiments/okm_radio_route/certificates.json)
 
 The published `Nov10-12` key is unchanged. [Original OCR records](../../experiments/okm_radio_route/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/okm_radio_route/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 

@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../military/mackensen_warsaw.md) · [Browse this topic](../military/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="the-warsaw-query-and-its-later-quotation--p181-a--p214-b"></a>
 
@@ -33,5 +29,3 @@ maintained at the new location.
 <a id="later-conditional-reading-of-the-p214-closing-label"></a>
 
 [Later conditional reading of the p214 closing label](../military/mackensen_warsaw.md#later-conditional-reading-of-the-p214-closing-label)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

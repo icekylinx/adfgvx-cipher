@@ -1,5 +1,7 @@
 # Newspaper sacks arriving via Orsova
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source edition: icekylinx and GPT-6 Astra Pro.**
 
 This two-part telegram tells the **Oberpostdirektion in Breslau** that sacks
@@ -9,7 +11,7 @@ references, `7?3` and `308`, without spelling out their exact administrative
 meaning.
 
 The source is Childs, *General Solution of the ADFGVX Cipher System*,
-[printed p171 B, PDF p174](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). · [Reading conventions](../../docs/reading-conventions.md)
+[printed p171 B, PDF p174](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
 The [two parts](../../experiments/newspaper_dispatch/sources/p171_B.png)
 have this header:
 

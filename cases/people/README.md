@@ -88,5 +88,3 @@ Appointments and transfers continue beside the withdrawal. Read them as evidence
 | [p224 C2](breslau_staff_transfer.md) | READING | Special employment with Breslau command; separate historical VI Corps context |
 
 </details>
-
-Research and editorial work: **icekylinx and GPT-6 Astra Pro**. Individual cases credit earlier readings and keys.

@@ -84,5 +84,3 @@ The Polish appointment, Poti traffic and later armistice material bring diplomat
 | Source | State | Subject |
 |---|---|---|
 | [p152](../p152.md) | READING | Silk purchases and transport from the Caucasus |
-
-Research and editorial work: **icekylinx and GPT-6 Astra Pro**. Individual cases credit earlier readings and keys.

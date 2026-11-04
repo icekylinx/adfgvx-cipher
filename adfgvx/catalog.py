@@ -271,12 +271,18 @@ def compact_table(pages, destination):
 
 def render(data, destination, pages=None):
     pages = page_groups(data) if pages is None else pages
-    counts = physical_source_accounting(data)
     index = relative_link("cases/pages/README.md", destination)
+    if destination == ROOT / "cases/README.md":
+        return "\n".join([
+            START, "## Find a source by page", "",
+            f"The [complete page index]({index}) follows the printed Childs volume, "
+            "from page 56 to page 230. Each entry links to the reading, source image "
+            "and evidence for that physical message.", "", END,
+        ])
     lines = [
         START,
         "## Browse by source page", "",
-        f"**{counts['catalogue_entries']} physical sources, one entry each; {counts['state_counts']['OPEN']} OPEN.** Page numbers refer to the printed Childs volume. [Complete page index]({index}).", "",
+        f"Pages follow the printed Childs volume; the [complete index]({index}) lists each message.", "",
         compact_table(pages, destination), "",
         END,
     ]
@@ -289,8 +295,10 @@ def render_page_index(data, pages):
     lines = [
         "# Sources by printed page", "", GENERATED, "",
         "[ADFGVX Cipher](../../README.md) · [Browse by topic](../README.md#browse-by-topic) · [Reading conventions](../../docs/reading-conventions.md)", "",
-        f"**{counts['catalogue_entries']} physical sources, one canonical entry each; {counts['state_counts']['OPEN']} OPEN.** Choose a range or jump directly to a page.", "",
-        "Each row links to its source transcription, current reading or open problem, detailed qualifications, evidence and attribution. The 22 original challenge identifiers are retained; p198 denotes section D.", "",
+        f"Browse {counts['catalogue_entries']} sources by their printed page in Childs’s volume. "
+        "Each entry leads to the current reading and evidence; "
+        f"{counts['state_counts']['OPEN']} sources remain OPEN. "
+        "The original challenge identifiers are retained, with p198 denoting section D.", "",
         "| Printed source pages | Sources | OPEN | Jump to an individual page |",
         "|---|---:|---:|---|",
     ]
@@ -301,7 +309,6 @@ def render_page_index(data, pages):
         lines.append(f"| [{band_label(pages, start)}]({link}) | {len(rows)} | {sum(row['state'] == 'OPEN' for row in rows)} | {page_links} |")
     lines.extend([
         "", "[State definitions](../../docs/reading-conventions.md#catalogue-states) · [Canonical source identity](../../docs/catalogue-source-identity.md) · [Evidence coverage](../../docs/whole-material-coverage.md)", "",
-        "Research and editorial work: **icekylinx and GPT-6 Astra Pro**.", "",
     ])
     return "\n".join(lines)
 
@@ -325,17 +332,17 @@ def render_band(data, pages, start):
     lines = [
         f"# Sources from {band_label(pages, start)}", "", GENERATED, "",
         " · ".join(nav), "",
-        f"**{n_sources} sources · {len(members)} printed pages · {sum(row['state'] == 'OPEN' for row in band_entries)} OPEN.**", "",
         "Jump to page: " + " · ".join(f"[p{page}](#p{page})" for page in members) + ".", "",
-        "Each row links to the current case and evidence. [State definitions](../../../docs/reading-conventions.md#catalogue-states).", "",
+        f"This range contains {n_sources} sources, including "
+        f"{sum(row['state'] == 'OPEN' for row in band_entries)} OPEN. "
+        "[Reading states](../../../docs/reading-conventions.md#catalogue-states).", "",
     ]
     for page in members:
         lines.extend([f"## p{page}", ""])
         rows = sorted(pages[page]["challenge"] + pages[page]["other"],
                       key=lambda row: natural_key(locations[row["id"]][1]))
         lines.extend([table(rows, destination), ""])
-    lines.extend(["[Return to all source pages](../README.md).", "",
-                  "Research and editorial work: **icekylinx and GPT-6 Astra Pro**.", ""])
+    lines.extend(["[Return to all source pages](../README.md).", ""])
     return "\n".join(lines)
 
 

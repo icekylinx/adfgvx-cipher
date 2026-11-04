@@ -1,10 +1,12 @@
 # A parallel car enquiry with an explicit extra-coordinate model
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 The p183 D source is almost identical to the independently readable car enquiry in p183 E, but it has an extra observed coordinate and one other disagreement. This edition preserves D's native odd-length diagnostic and separately prices a parallel-copy proposal. The wording was already obtained directly from E; D adds another physical witness with explicit limitations.
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed D/E image](../../experiments/car_query_parallel_frame/sources/p183_D_E.png) · [Inputs](../../experiments/car_query_parallel_frame/inputs.json) · [All position and exclusion certificates](../../experiments/car_query_parallel_frame/certificates.json) · [Native E edition](nov12_arrival_departure_and_car.md#p183-e) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed D/E image](../../experiments/car_query_parallel_frame/sources/p183_D_E.png) · [Inputs](../../experiments/car_query_parallel_frame/inputs.json) · [All position and exclusion certificates](../../experiments/car_query_parallel_frame/certificates.json) · [Native E edition](nov12_arrival_departure_and_car.md#p183-e)
 
 ## The three lengths remain distinct
 

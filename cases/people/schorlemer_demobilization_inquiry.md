@@ -1,12 +1,14 @@
 # Von Schorlemer: demobilization work inquiry and reply
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 A clear-address request on p122 and an encrypted reply on p155 form a source-linked exchange about von Schorlemer's availability for demobilization work. The earlier request asks whether he can be released to the Trade Ministry; the later administrative-staff reply says he cannot currently be spared. Both native frames and every repair remain explicit. The later reply supports the name and topic; the 33 supplied mask values in the first request remain editorial proposals.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed page excerpt](../../experiments/schorlemer_demobilization_inquiry/sources/p122_reviewed.png) · [Second source excerpt](../../experiments/schorlemer_demobilization_inquiry/sources/p155_reviewed.png) · [Exact inputs](../../experiments/schorlemer_demobilization_inquiry/inputs.json) · [Position-by-position certificates](../../experiments/schorlemer_demobilization_inquiry/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed page excerpt](../../experiments/schorlemer_demobilization_inquiry/sources/p122_reviewed.png) · [Second source excerpt](../../experiments/schorlemer_demobilization_inquiry/sources/p155_reviewed.png) · [Exact inputs](../../experiments/schorlemer_demobilization_inquiry/inputs.json) · [Position-by-position certificates](../../experiments/schorlemer_demobilization_inquiry/certificates.json)
 
 The unchanged published keys are `Nov4-6`, `Nov7-9`. The [earlier unreviewed candidates](../../experiments/schorlemer_demobilization_inquiry/prior_candidates.json) and [original OCR records](../../experiments/schorlemer_demobilization_inquiry/ocr_snapshot.json) are preserved. The present work supplies an image-reviewed source edition and a reproducible repair account; it does not claim that every body is a first public decipherment.
 

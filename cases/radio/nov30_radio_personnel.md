@@ -1,12 +1,14 @@
 # Radio notices, Tiflis personnel and internment on p230
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 Four source-length telegrams on Childs p230 become complete literal readings under the published Nov28–Dec1 square. All 490 coordinates are preserved: no coordinate substitution, source-mask fill or frame change is needed. The source itself gives two first-group readings for C; both are retained.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed page excerpt](../../experiments/nov30_radio_personnel/sources/p230_reviewed.png) · [Exact inputs](../../experiments/nov30_radio_personnel/inputs.json) · [Position-by-position certificates](../../experiments/nov30_radio_personnel/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed page excerpt](../../experiments/nov30_radio_personnel/sources/p230_reviewed.png) · [Exact inputs](../../experiments/nov30_radio_personnel/inputs.json) · [Position-by-position certificates](../../experiments/nov30_radio_personnel/certificates.json)
 
 The unchanged published key is `Nov28-Dec1`. The [earlier unreviewed candidates](../../experiments/nov30_radio_personnel/prior_candidates.json) and [original OCR records](../../experiments/nov30_radio_personnel/ocr_snapshot.json) are preserved. The present work supplies an image-reviewed source edition and a reproducible repair account; it does not claim that every body is a first public decipherment.
 

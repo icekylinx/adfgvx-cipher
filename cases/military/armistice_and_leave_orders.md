@@ -1,5 +1,7 @@
 # Citadel surrender, local armistice terms and home leave
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source editions: icekylinx and GPT-6 Astra Pro.**
 
 Four physical parts on Childs p179 concern surrender terms, a request for
@@ -9,7 +11,7 @@ unresolved reference fields and unusual year form are preserved separately
 from the ordinary-word repairs.
 
 The source is Childs, *General Solution of the ADFGVX Cipher System*,
-[printed p179, PDF p182](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view). · [Reading conventions](../../docs/reading-conventions.md)
+[printed p179, PDF p182](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view).
 The adjacent A record is a separate
 [radio-equipment transfer order](../radio/right_rhine_equipment.md).
 

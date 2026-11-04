@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../radio/seifert.md) · [Browse this topic](../radio/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="station-control-and-the-seifert-service-exchange"></a>
 
@@ -61,5 +57,3 @@ maintained at the new location.
 <a id="sources-and-priority"></a>
 
 [Sources and priority](../radio/seifert.md#sources-and-priority)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

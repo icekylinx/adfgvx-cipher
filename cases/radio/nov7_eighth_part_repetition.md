@@ -1,10 +1,12 @@
 # Request to repeat an unreadable eighth part
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and conditional edition: icekylinx and GPT-6 Astra Pro.**
 
 Childs p155 C is a two-part request to check and repeat an earlier eighth part that could not be deciphered. The second part reads directly under the published Nov7–9 key. The first part prints a six-coordinate group where its advertised length requires five; its body is shown under explicitly priced one-coordinate exclusions. The original earlier eighth part is not supplied or solved by this request.
 
-[Reviewed source](../../experiments/nov7_eighth_part_repetition/sources/p155_C.png) · [Exact inputs](../../experiments/nov7_eighth_part_repetition/inputs.json) · [All alternatives and joint witnesses](../../experiments/nov7_eighth_part_repetition/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Reviewed source](../../experiments/nov7_eighth_part_repetition/sources/p155_C.png) · [Exact inputs](../../experiments/nov7_eighth_part_repetition/inputs.json) · [All alternatives and joint witnesses](../../experiments/nov7_eighth_part_repetition/certificates.json)
 
 **Source transcription — header:** `C) NKJ v LP (6.42 a.m., November 8th); FUER COS 2240 (7/11), 2 TLE; 1 TL RICHI-186; 2 TL RICHI-136`.
 

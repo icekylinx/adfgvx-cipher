@@ -309,5 +309,3 @@ Read the appeal against internment beside the later internment traffic and the r
 | [p176a](../p176a.md) | READING | Breakthrough toward the north or northeast |
 | [p176b](../p176b.md) | PARTIAL | Army positions near Peterreve and Versecz |
 | [p189](../p189.md) | CONDITIONAL | Apparent vehicle request / await orders |
-
-Research and editorial work: **icekylinx and GPT-6 Astra Pro**. Individual cases credit earlier readings and keys.

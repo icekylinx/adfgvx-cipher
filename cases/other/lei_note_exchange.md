@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../finance/lei_note_exchange.md) · [Browse this topic](../finance/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="redemption-of-stamped-and-unstamped-lei-notes"></a>
 
@@ -33,5 +29,3 @@ maintained at the new location.
 <a id="counts-credit-and-reproduction"></a>
 
 [Counts, credit and reproduction](../finance/lei_note_exchange.md#counts-credit-and-reproduction)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

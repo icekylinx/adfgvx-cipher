@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../people/breslau_staff_transfer.md) · [Browse this topic](../people/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="a-staff-officers-assignment-to-breslau"></a>
 
@@ -37,5 +33,3 @@ maintained at the new location.
 <a id="scope-credit-and-reproduction"></a>
 
 [Scope, credit and reproduction](../people/breslau_staff_transfer.md#scope-credit-and-reproduction)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

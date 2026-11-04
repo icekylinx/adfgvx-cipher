@@ -4,11 +4,9 @@
 
 [All source pages](../README.md) · [Browse by topic](../../README.md#browse-by-topic) · [Reading conventions](../../../docs/reading-conventions.md) · [← pp. 200–224](../200-224/README.md)
 
-**29 sources · 6 printed pages · 0 OPEN.**
-
 Jump to page: [p225](#p225) · [p226](#p226) · [p227](#p227) · [p228](#p228) · [p229](#p229) · [p230](#p230).
 
-Each row links to the current case and evidence. [State definitions](../../../docs/reading-conventions.md#catalogue-states).
+This range contains 29 sources, including 0 OPEN. [Reading states](../../../docs/reading-conventions.md#catalogue-states).
 
 ## p225
 
@@ -70,5 +68,3 @@ Each row links to the current case and evidence. [State definitions](../../../do
 | [p230 E](../../radio/nov30_radio_personnel.md#p230-e) | READING | Request for timely internment notification |
 
 [Return to all source pages](../README.md).
-
-Research and editorial work: **icekylinx and GPT-6 Astra Pro**.

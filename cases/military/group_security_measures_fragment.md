@@ -1,5 +1,7 @@
 # A second-part instruction on security measures at own discretion
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 A complete native second-part body directs security measures according to one’s own discretion. Its first part is not supplied. Six explicitly priced coordinate changes recover the ordinary-word clause while the opening label, two irregular spellings and three coupled reference positions remain literal or unresolved.
@@ -8,7 +10,7 @@ A complete native second-part body directs security measures according to one’
 **Reviewed source crops:** [p184_reviewed.png](../../experiments/group_security_measures_fragment/sources/p184_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p184 excerpt — source-PDF reference](../../experiments/group_security_measures_fragment/inputs.json) · [Inputs](../../experiments/group_security_measures_fragment/inputs.json) · [Position and change certificates](../../experiments/group_security_measures_fragment/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p184 excerpt — source-PDF reference](../../experiments/group_security_measures_fragment/inputs.json) · [Inputs](../../experiments/group_security_measures_fragment/inputs.json) · [Position and change certificates](../../experiments/group_security_measures_fragment/certificates.json)
 
 The published `Nov13-15b` key is unchanged. [Original OCR records](../../experiments/group_security_measures_fragment/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/group_security_measures_fragment/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 

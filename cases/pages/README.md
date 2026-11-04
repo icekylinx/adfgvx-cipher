@@ -4,9 +4,7 @@
 
 [ADFGVX Cipher](../../README.md) · [Browse by topic](../README.md#browse-by-topic) · [Reading conventions](../../docs/reading-conventions.md)
 
-**679 physical sources, one canonical entry each; 7 OPEN.** Choose a range or jump directly to a page.
-
-Each row links to its source transcription, current reading or open problem, detailed qualifications, evidence and attribution. The 22 original challenge identifiers are retained; p198 denotes section D.
+Browse 679 sources by their printed page in Childs’s volume. Each entry leads to the current reading and evidence; 7 sources remain OPEN. The original challenge identifiers are retained, with p198 denoting section D.
 
 | Printed source pages | Sources | OPEN | Jump to an individual page |
 |---|---:|---:|---|
@@ -20,5 +18,3 @@ Each row links to its source transcription, current reading or open problem, det
 | [pp. 225–230](225-249/README.md) | 29 | 0 | [p225](225-249/README.md#p225) · [p226](225-249/README.md#p226) · [p227](225-249/README.md#p227) · [p228](225-249/README.md#p228) · [p229](225-249/README.md#p229) · [p230](225-249/README.md#p230) |
 
 [State definitions](../../docs/reading-conventions.md#catalogue-states) · [Canonical source identity](../../docs/catalogue-source-identity.md) · [Evidence coverage](../../docs/whole-material-coverage.md)
-
-Research and editorial work: **icekylinx and GPT-6 Astra Pro**.

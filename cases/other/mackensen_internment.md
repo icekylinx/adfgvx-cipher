@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../military/mackensen_internment.md) · [Browse this topic](../military/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="internment-letter-to-mackensens-soldiers-council--p226-c--p227-a"></a>
 
@@ -29,5 +25,3 @@ maintained at the new location.
 <a id="literal-source-and-reproducibility"></a>
 
 [Literal source and reproducibility](../military/mackensen_internment.md#literal-source-and-reproducibility)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

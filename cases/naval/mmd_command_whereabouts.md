@@ -1,12 +1,14 @@
 # An enquiry about an MMD command or representative
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 A complete native short message asks whether a command or representative is present. MMD and the final reference remain literal. The proposed A in KOMMANDO costs an observed-coordinate change; the separate Y-like source glyph stays masked and unresolved.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p190 excerpt](../../experiments/mmd_command_whereabouts/sources/p190_reviewed.png) · [Inputs](../../experiments/mmd_command_whereabouts/inputs.json) · [Position and change certificates](../../experiments/mmd_command_whereabouts/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p190 excerpt](../../experiments/mmd_command_whereabouts/sources/p190_reviewed.png) · [Inputs](../../experiments/mmd_command_whereabouts/inputs.json) · [Position and change certificates](../../experiments/mmd_command_whereabouts/certificates.json)
 
 The published `Nov13-15b` key is unchanged. [Original OCR records](../../experiments/mmd_command_whereabouts/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/mmd_command_whereabouts/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 

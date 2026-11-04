@@ -255,5 +255,3 @@ A delayed departure, a supper query and the Seifert correspondence preserve the 
 | [p158](../p158.md) | CONDITIONAL | Routing and army-key instructions |
 | [p187](../p187.md) | READING | Monitoring Russian and Polish army traffic |
 | [p187b](../p187b.md) | CONDITIONAL | Teleprinter failure and written reporting |
-
-Research and editorial work: **icekylinx and GPT-6 Astra Pro**. Individual cases credit earlier readings and keys.

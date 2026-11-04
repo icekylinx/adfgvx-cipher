@@ -1,12 +1,14 @@
 # An accommodation-area report with unresolved army and place labels
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 This native message reports an accommodation area for a German Jaeger division. Its readable proposal repairs one word and fills two printed dashes; the route-like spellings and three globally coupled digit positions remain literal or unresolved. The complete source body matches its advertised 230 slots, with no change to its frame.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p183 excerpt](../../experiments/jaeger_accommodation_area/sources/p183_reviewed.png) · [Inputs](../../experiments/jaeger_accommodation_area/inputs.json) · [Position and change certificates](../../experiments/jaeger_accommodation_area/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p183 excerpt](../../experiments/jaeger_accommodation_area/sources/p183_reviewed.png) · [Inputs](../../experiments/jaeger_accommodation_area/inputs.json) · [Position and change certificates](../../experiments/jaeger_accommodation_area/certificates.json)
 
 The published `Nov10-12` key is unchanged. [Original OCR records](../../experiments/jaeger_accommodation_area/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/jaeger_accommodation_area/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 

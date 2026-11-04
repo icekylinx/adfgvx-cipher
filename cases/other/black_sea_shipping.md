@@ -4,11 +4,7 @@
 
 [Open the complete source edition](../naval/black_sea_shipping.md) · [Browse this topic](../naval/README.md)
 
-This earlier URL remains available for published links and preserved
-research records. The complete reading, source evidence and credits are
-maintained at the new location.
-
-## Preserved section links
+## Section links
 
 <a id="supply-cargo-at-nikolaev-and-the-sale-of-corcovado"></a>
 
@@ -45,5 +41,3 @@ maintained at the new location.
 <a id="exact-scope-and-reproducibility"></a>
 
 [Exact scope and reproducibility](../naval/black_sea_shipping.md#exact-scope-and-reproducibility)
-
-Navigation maintained by **icekylinx and GPT-6 Astra Pro**.

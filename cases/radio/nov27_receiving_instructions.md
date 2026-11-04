@@ -1,12 +1,14 @@
 # Radio reception instructions and a brief no-events report
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 The two-part p224 A telegram asks for experienced listeners, clear transmission and a suitable reception wavelength. The separate p224 B report states that nothing special has happened. This edition preserves the source-length spellings SICERES and MORENMELDUNG and the date-like field 17XJJ.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed page excerpt](../../experiments/nov27_receiving_instructions/sources/p224_reviewed.png) · [Exact inputs](../../experiments/nov27_receiving_instructions/inputs.json) · [Position-by-position certificates](../../experiments/nov27_receiving_instructions/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed page excerpt](../../experiments/nov27_receiving_instructions/sources/p224_reviewed.png) · [Exact inputs](../../experiments/nov27_receiving_instructions/inputs.json) · [Position-by-position certificates](../../experiments/nov27_receiving_instructions/certificates.json)
 
 The unchanged published key is `Nov25-28`. The [earlier unreviewed candidates](../../experiments/nov27_receiving_instructions/prior_candidates.json) and [original OCR records](../../experiments/nov27_receiving_instructions/ocr_snapshot.json) are preserved. The present work supplies an image-reviewed source edition and a reproducible repair account; it does not claim that every body is a first public decipherment.
 

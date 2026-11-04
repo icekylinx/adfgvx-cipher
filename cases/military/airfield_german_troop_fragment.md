@@ -1,12 +1,14 @@
 # An airfield and German troops: the surviving third part on p154
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 A native third-part fragment reports an apparent airfield and German troops providing security along a named line. The exact text, three occupied source masks and two proposed coordinate corrections are retained; preceding parts and the geographical referents are not supplied from context.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p154 excerpt](../../experiments/airfield_german_troop_fragment/sources/p154_reviewed.png) · [Inputs](../../experiments/airfield_german_troop_fragment/inputs.json) · [Position and change certificates](../../experiments/airfield_german_troop_fragment/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p154 excerpt](../../experiments/airfield_german_troop_fragment/sources/p154_reviewed.png) · [Inputs](../../experiments/airfield_german_troop_fragment/inputs.json) · [Position and change certificates](../../experiments/airfield_german_troop_fragment/certificates.json)
 
 The published `Nov4-6` key is unchanged. [Original OCR records](../../experiments/airfield_german_troop_fragment/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/airfield_german_troop_fragment/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 

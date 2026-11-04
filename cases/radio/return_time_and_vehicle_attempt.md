@@ -1,5 +1,7 @@
 # An expected return and an attempt to obtain a vehicle
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 Two complete short native bodies report an expected return and discuss obtaining a vehicle. The first is unchanged; the second has four explicitly priced coordinate substitutions. The incomplete spelling RUECKUNFT, the literal 0100 field and the elliptical sense of VERSUCHEN remain visible.
@@ -8,7 +10,7 @@ Two complete short native bodies report an expected return and discuss obtaining
 **Reviewed source crops:** [p182_reviewed.png](../../experiments/return_time_and_vehicle_attempt/sources/p182_reviewed.png) · [p189_reviewed.png](../../experiments/return_time_and_vehicle_attempt/sources/p189_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p182 excerpt — source-PDF reference](../../experiments/return_time_and_vehicle_attempt/inputs.json) · [Reviewed p189 excerpt — source-PDF reference](../../experiments/return_time_and_vehicle_attempt/inputs.json) · [Inputs](../../experiments/return_time_and_vehicle_attempt/inputs.json) · [Position and change certificates](../../experiments/return_time_and_vehicle_attempt/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p182 excerpt — source-PDF reference](../../experiments/return_time_and_vehicle_attempt/inputs.json) · [Reviewed p189 excerpt — source-PDF reference](../../experiments/return_time_and_vehicle_attempt/inputs.json) · [Inputs](../../experiments/return_time_and_vehicle_attempt/inputs.json) · [Position and change certificates](../../experiments/return_time_and_vehicle_attempt/certificates.json)
 
 The published `Nov10-12` and `Nov13-15b` keys are unchanged. [Original OCR records](../../experiments/return_time_and_vehicle_attempt/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/return_time_and_vehicle_attempt/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 

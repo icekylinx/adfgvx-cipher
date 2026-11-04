@@ -1,12 +1,14 @@
 # A radio-traffic transfer in a surviving second part
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source review and edition: icekylinx and GPT-6 Astra Pro.**
 
 A surviving second part reports that DNZW takes over radio traffic and gives further call-name and place-like fields. The source expressly marks the first part missing. One coordinate correction and three printed-dash fills give a readable proposal, while the leading character and exact identity of several labels remain unresolved.
 
 ## Source and scope
 
-[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p226 excerpt](../../experiments/radio_traffic_transfer_fragment/sources/p226_reviewed.png) · [Inputs](../../experiments/radio_traffic_transfer_fragment/inputs.json) · [Position and change certificates](../../experiments/radio_traffic_transfer_fragment/certificates.json) · [Reading conventions](../../docs/reading-conventions.md)
+[Childs source](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view) · [Reviewed p226 excerpt](../../experiments/radio_traffic_transfer_fragment/sources/p226_reviewed.png) · [Inputs](../../experiments/radio_traffic_transfer_fragment/inputs.json) · [Position and change certificates](../../experiments/radio_traffic_transfer_fragment/certificates.json)
 
 The published `Nov28-Dec1` key is unchanged. [Original OCR records](../../experiments/radio_traffic_transfer_fragment/ocr_snapshot.json) and [reproducible comparisons with that earlier evidence](../../experiments/radio_traffic_transfer_fragment/prior_candidates.json) are preserved separately. The present edition supplies checked source framing, exact costs and readable passages; it makes no first-public-decipherment claim.
 

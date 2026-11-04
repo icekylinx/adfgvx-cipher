@@ -1,11 +1,13 @@
 # November 6 Ringbahn-key instruction to Tiflis
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source edition and verification: icekylinx and GPT-6 Astra Pro.**
 
 The two-part **section C on Childs p146** tells the Caucasus delegation at
 Tiflis to retain November Ringbahn keys and use them for the beginning of
 December. Its schedule agrees with independently readable spans in the
-[p145 instruction](nov6_ringbahn_key_witnesses.md) and · [Reading conventions](../../docs/reading-conventions.md)
+[p145 instruction](nov6_ringbahn_key_witnesses.md) and
 [p211 lower-B instruction](p211_key_schedule.md), but this dispatch has its
 own wording, address and part boundaries. The original
 [p146 challenge](../p146.md) is section B; these are two different physical

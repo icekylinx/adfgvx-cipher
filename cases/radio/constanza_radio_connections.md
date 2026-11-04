@@ -1,5 +1,7 @@
 # Constanza naval radio: telegram routing and exchange connections
 
+[Catalogue](../README.md) · [Reading conventions](../../docs/reading-conventions.md)
+
 **Source edition: icekylinx and GPT-6 Astra Pro.** Childs p80 B1/B2 and p82 A1–A4, 30 October 1918; published `Oct28-31` key, unchanged. [Source inputs](../../experiments/constanza_radio_connections/inputs.json), [exact certificates](../../experiments/constanza_radio_connections/certificates.json), [method and limits](../../experiments/constanza_radio_connections/README.md).
 
 The four-part message quotes the naval department at Constanza on telegram routing and telephone-exchange connections. Telegrams for foreign stations are said to travel over German lines to Bucharest or Braila. The naval radio station is described as directly connected to the local main exchange and also to the naval department's exchange, allowing communication with the main exchange and other telephone points.
@@ -8,7 +10,7 @@ The source describes these arrangements. It does not independently demonstrate t
 
 ## p80 B1
 
-[Source crop](../../experiments/constanza_radio_connections/sources/p80_B1.png). The source advertises and prints 242 coordinates. Raw, 121 positions: · [Reading conventions](../../docs/reading-conventions.md)
+[Source crop](../../experiments/constanza_radio_connections/sources/p80_B1.png). The source advertises and prints 242 coordinates. Raw, 121 positions:
 
 <details>
 <summary>Raw decoded text</summary>

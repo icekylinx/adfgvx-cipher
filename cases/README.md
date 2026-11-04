@@ -2,15 +2,44 @@
 
 [ADFGVX Cipher](../README.md) · [Historical showcase](../docs/historical-showcase.md) · [Open problems](open/README.md) · [Sources](../sources/README.md)
 
-Choose a [historical study](../docs/historical-studies/README.md) for a connected
-account of the traffic, a topic below for a guided reading path, or a printed
-page for a particular source. The catalogue includes every body, including
-those for which no reading has been accepted.
+Start with the original challenge cases below, follow a subject through the
+topic guides, or find a telegram in the [printed-page index](pages/README.md).
+The [historical studies](../docs/historical-studies/README.md) draw these
+individual records into accounts of withdrawal, shipping, finance and daily life.
 
 <!-- TOPIC-NAVIGATION:START -->
+## The original 22 challenges
+
+The Lasry–Schmeh challenges remain available as individual case studies. Their editions bring together earlier decipherments, our reconstructions and the supporting source material.
+
+| Source | State | Subject |
+|---|---|---|
+| [p73](p73.md) | OPEN | Message routed to General von Kress |
+| [p100](p100.md) | READING | Enemy divisions approaching Belgrade |
+| [p105](p105.md) | READING | Naval telegram acknowledgments |
+| [p109](p109.md) | READING | Evening report; likely Sava crossing |
+| [p132](p132.md) | CONDITIONAL | Repeat-transmission instructions for Eilvese |
+| [p146](p146.md) | CONDITIONAL | Kerch radio call-sign instruction |
+| [p152](p152.md) | READING | Silk purchases and transport from the Caucasus |
+| [p153a](p153a.md) | PARTIAL | Earlier orders; action still to be completed |
+| [p153b](p153b.md) | CONDITIONAL | Rearguard artillery ammunition report |
+| [p158](p158.md) | CONDITIONAL | Routing and army-key instructions |
+| [p164a](p164a.md) | CONDITIONAL | Occupation army, Temesvar and MIRCO fragments |
+| [p164b](p164b.md) | PARTIAL | Height 828 and an uneventful situation report |
+| [p170](p170.md) | OPEN | Short intercept; original length uncertain |
+| [p171](p171.md) | READING | Ruble rates and expectations about Russia |
+| [p176a](p176a.md) | READING | Breakthrough toward the north or northeast |
+| [p176b](p176b.md) | PARTIAL | Army positions near Peterreve and Versecz |
+| [p187](p187.md) | READING | Monitoring Russian and Polish army traffic |
+| [p187b](p187b.md) | CONDITIONAL | Teleprinter failure and written reporting |
+| [p189](p189.md) | CONDITIONAL | Apparent vehicle request / await orders |
+| [p198](p198.md) | OPEN | CHI intercept with a five-coordinate shortfall |
+| [p215](p215.md) | CONDITIONAL | Apparent Entente troop-transport report |
+| [p217](p217.md) | READING | British cruiser and Allied squadron at Sevastopol |
+
 ## Browse by topic
 
-Each topic opens with a guided reading path, followed by its complete source index.
+The wider collection is organized into six subjects, each with selected readings and a complete source index.
 
 | Topic | Catalogue sources |
 |---|---:|
@@ -22,36 +51,20 @@ Each topic opens with a guided reading path, followed by its complete source ind
 | [People, appointments and civilian affairs](people/README.md) | 55 |
 | [OPEN sources](open/README.md) | 7 |
 
-The open-source guide brings together all seven unread bodies, including the three original challenges. The page catalogue gives every physical source exactly one entry.
 <!-- TOPIC-NAVIGATION:END -->
 
 <!-- READING-CATALOG:START -->
-## Browse by source page
+## Find a source by page
 
-**679 physical sources, one entry each; 7 OPEN.** Page numbers refer to the printed Childs volume. [Complete page index](pages/README.md).
-
-| Printed source pages | Sources | OPEN |
-|---|---:|---:|
-| [pp. 56–74](pages/050-074/README.md) | 47 | 2 |
-| [pp. 75–99](pages/075-099/README.md) | 64 | 0 |
-| [pp. 100–124](pages/100-124/README.md) | 94 | 0 |
-| [pp. 125–149](pages/125-149/README.md) | 80 | 2 |
-| [pp. 150–174](pages/150-174/README.md) | 133 | 1 |
-| [pp. 175–199](pages/175-199/README.md) | 111 | 2 |
-| [pp. 200–224](pages/200-224/README.md) | 121 | 0 |
-| [pp. 225–230](pages/225-249/README.md) | 29 | 0 |
+The [complete page index](pages/README.md) follows the printed Childs volume, from page 56 to page 230. Each entry links to the reading, source image and evidence for that physical message.
 
 <!-- READING-CATALOG:END -->
 
 ## How to read a case
 
-Read the German passage and English explanation first. Open the evidence
-blocks for the literal source, decoded labels and proposed repairs. A local
-note identifies conditional wording and unresolved numbers; the
-[reading conventions](../docs/reading-conventions.md) define the notation and
-catalogue states once for the whole edition.
-
-Each case credits earlier readings and keys alongside our own reconstruction
-and historical work. The [machine-readable catalogue](../data/reading_catalog.json)
-provides the full source, status and attribution records; its source identity
-rules are described in the [source register](../docs/catalogue-source-identity.md).
+Each case presents the German reading, its English meaning and the source
+evidence, with earlier decipherments credited beside our additions. Open the
+evidence panels for exact ciphertext, decoded labels and repairs. The
+[reading conventions](../docs/reading-conventions.md) explain the notation;
+the [catalogue data](../data/reading_catalog.json) records the source, state
+and attribution of every entry.
