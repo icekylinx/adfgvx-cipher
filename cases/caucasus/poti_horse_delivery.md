@@ -14,8 +14,10 @@ about the handover uncertain.
 
 The **Sep19–21** key is unchanged. This edition counts **two** physical
 records, with **225 plaintext positions**. The first part is preserved as
-uncounted context because its 225 visible source slots disagree with its
-printed length of 220. It is not silently forced into the continuation.
+context outside this package's two-record totals because its 225 visible
+source slots disagree with its printed length of 220. It now has a separate
+[conditional catalogue entry](poti_first_part_conditional.md), with its
+own declared frame model. It is not silently forced into the continuation.
 
 ## p59 A2
 
@@ -126,8 +128,10 @@ The [first-part crop](../../experiments/poti_horse_delivery/sources/p59_A1.png)
 shows **225 slots** under `RICHI-220`. All **221** possible consecutive
 five-slot deletions are retained as diagnostic frames. Two illustrative
 placements expose transport-related fragments, but neither establishes
-a complete clean reading or a unique historical geometry. A1 therefore
-remains outside the catalog and all counts in this edition.
+a complete clean reading or a unique historical geometry. A1 remains outside
+this package's A2/A3 totals. Its separate
+[conditional first-part edition](poti_first_part_conditional.md) is now
+included in the catalogue and preserves the unresolved frame alternatives.
 
 The counted two records use **450 source slots**, **412 valid source
 coordinates**, **20 observed-coordinate substitutions** and **26 dash

@@ -29,7 +29,7 @@ Catalogue metadata records source review for **679 bodies**. The boundary census
 | [p73](../cases/p73.md) | 178 | Open |
 | [p127_B2](../cases/open/p127_B2.md) | 152 | OPEN; 152 received slots, 104 observed coordinates and 48 printed erasures; both printed dates retained |
 | [p145_A](../cases/open/p145_A.md) | 192 | OPEN; 192 received slots, 187 observed coordinates and 5 printed erasures; transmitted length unknown |
-| [p170](../cases/p170.md) | 106 | Open |
+| [p170](../cases/p170.md) | 106 | Open; exact complete-body coordinate bounds under two adjacent squares |
 | [p194_D1](../cases/open/p194_D1.md) | 45 | OPEN; 45 observed coordinates against advertised 214; no accepted plaintext or loss frame |
 | [p198](../cases/p198.md) | 165 | Open |
 

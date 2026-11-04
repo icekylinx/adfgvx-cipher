@@ -137,8 +137,10 @@ MILITAERXMISSIONKONSTANTINOPELXDRAHTNACHRICHTUEBERVERBLEIBREGXBMSTRXGLATZVOMSTRA
 Both p140 B and p149 C have 336 printed slots. After correcting OCR against the
 images, p140 decrypts directly to this text except for **KONSTANT?NOPEL**.
 The last glyph in p140 group64 is damaged; it remains `?` in the literal
-transcription. Reading that slot as **G** supplies the **I**. All **335
-legible p140 coordinates** are unchanged.
+transcription. Supplying **X** gives pair **VX** = **I** at plaintext position
+24; the parallel's observed **G** gives **VG** = **B** instead. The normal
+place-name therefore remains an editorial choice. All **335 legible p140
+coordinates** are unchanged.
 
 The p149 witness instead reads `KONSTANTBNOPEL`, `STRKSSENBAU`, `ERBETETRN`
 and `4ILVERKEHR`. Four coordinate substitutions would give the candidate.

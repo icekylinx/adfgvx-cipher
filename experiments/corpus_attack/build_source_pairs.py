@@ -82,7 +82,7 @@ def build():
              hypothesis='DEM, ERSBATL and REGMTS are editorial emendations of the shared literal readings UEM, ERSBKTL and REGM1S. Three coordinate substitutions in each witness are explicitly charged; two are an adjacent VF/FV exchange. KABINETTS and HOECHSTEN use the clearer p149 witness.'),
         dict(id='glatz_enquiry', witness_ids=['p140_B','p149_C'],
              likely_plaintext='MILITAERXMISSIONKONSTANTINOPELXDRAHTNACHRICHTUEBERVERBLEIBREGXBMSTRXGLATZVOMSTRASSENBAUSONDERKOMMANDO1ERBETETENXMILVERKEHRXROEMX2XAX100166XKOXDURCHADMIRALSTABXKZX95537X',
-             hypothesis='Read the one damaged final glyph in p140 group64 as G, giving KONSTANTINOPEL. No legible p140 coordinate changes. Preserve the four contrary coordinates in the p149 raw witness.')
+             hypothesis='Fill the damaged p140 group64 final slot (source319) with X, giving VX=I in KONSTANTINOPEL. The parallel p149 G gives VG=B and does not independently support I. No legible p140 coordinate changes. Preserve the four contrary coordinates in the p149 raw witness.')
     ]
     families=[]
     for spec in specifications:
