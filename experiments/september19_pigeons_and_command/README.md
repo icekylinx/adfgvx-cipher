@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-Read the [complete source edition](../../cases/pages/056.md#edition-cases-radio-september19-pigeons-and-command).
+Read the [complete source edition](../../pages/056.md#edition-cases-radio-september19-pigeons-and-command).
 
 Three source bodies at printed p56/PDF59 were outside the frozen 788-block retrieval pool, which began at p57. The native 222/168/152-slot records preserve 542 source coordinates and 271 plaintext positions. Their primary raw streams fix 269 positions. The limited proposals require one observed-coordinate substitution and two separately priced fills of invalid printed glyphs. No source coordinates are inserted, removed or moved.
 

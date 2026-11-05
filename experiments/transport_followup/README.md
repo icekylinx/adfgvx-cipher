@@ -102,7 +102,7 @@ The certificate supplies every position's minimum-cost character domain, the pre
 
 ## Linked fields and terminology
 
-The [case page](../../cases/pages/197.md#edition-cases-context-transport-197-198) adds a primary-source
+The [case page](../../pages/197.md#edition-cases-context-transport-197-198) adds a primary-source
 terminology note for `US` apparatuses and explains the shared unresolved number
 fields. The lorry tonnage and planned departure hour use `FV`; the reported
 departure hour uses `AF`, so they cannot be silently given the same digit.

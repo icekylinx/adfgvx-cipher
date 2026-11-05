@@ -5,7 +5,7 @@
 This package collates three newly reviewed physical records, p162 C1,
 p166 C1 and p166 C2, with the already accepted p162 C2 witness. It uses
 the unchanged published Nov7–9 key. The companion
-[reading](../../cases/pages/162.md#edition-cases-radio-nov9-wire-return-source-family) presents
+[reading](../../pages/162.md#edition-cases-radio-nov9-wire-return-source-family) presents
 the full primary, source-linked and optionally edited streams.
 
 ## Reproduce

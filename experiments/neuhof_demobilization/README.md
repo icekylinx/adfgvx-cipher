@@ -40,7 +40,7 @@ Neither phrase receives an inserted `T` merely to regularize its spelling.
 - [Source, manual rows and proposed spans](inputs.json).
 - [Exact source/reading/repair certificates](certificates.json).
 - [Whole source section](sources/p228_B.png), with enlarged part images.
-- [Readable edition](../../cases/pages/228.md#edition-cases-military-neuhof-demobilization).
+- [Readable edition](../../pages/228.md#edition-cases-military-neuhof-demobilization).
 
 ```sh
 python experiments/neuhof_demobilization/verify.py --verify

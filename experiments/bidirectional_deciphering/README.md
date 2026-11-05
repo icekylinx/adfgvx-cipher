@@ -1,7 +1,7 @@
 # An instruction to decipher from opposite ends
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. The new
-[p138 B source edition](../../cases/pages/138.md#edition-cases-radio-opposite-end-deciphering)
+[p138 B source edition](../../pages/138.md#edition-cases-radio-opposite-end-deciphering)
 reads, conditionally: **“Erste Hälfte von vorne, zweite Hälfte von hinten
 lösen.”** Two equally priced variants share that instructional body and
 differ in the internal closing, `NKJ` or `NMJ`. The separate printed

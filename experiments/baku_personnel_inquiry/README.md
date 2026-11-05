@@ -2,7 +2,7 @@
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
-[Read the source edition](../../cases/pages/185.md#edition-cases-caucasus-baku-personnel-inquiry).
+[Read the source edition](../../pages/185.md#edition-cases-caucasus-baku-personnel-inquiry).
 
 The p185 B body contains **279 source slots**, including one invalid glyph,
 against the printed **268**. Its last row repeats `XFVVF DXXVG` exactly.

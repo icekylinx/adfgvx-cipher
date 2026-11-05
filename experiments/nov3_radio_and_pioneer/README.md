@@ -14,10 +14,10 @@ There are no inserted, deleted or reordered source coordinates.
 | p110 B | 150 | 73 | 75 | 0 | 2 |
 | p110 C | 398 | 199 | 199 | 8 | 0 |
 
-The [radio schedule](../../cases/pages/110.md#edition-cases-radio-nov3-transmission-schedule) is
+The [radio schedule](../../pages/110.md#edition-cases-radio-nov3-transmission-schedule) is
 explicitly a second part; no first part is identified. It retains all
 clock-like strings and the shortened received `VERKER` spelling.
-The [morning and pioneer messages](../../cases/pages/110.md#edition-cases-military-kiew-morning-and-pioneer-reports)
+The [morning and pioneer messages](../../pages/110.md#edition-cases-military-kiew-morning-and-pioneer-reports)
 are separate telegrams. Independent high-resolution review of source62
 confirms G and the literal reference6915 in the former. The latter regains a readable body from the actual398-coordinate
 source: the earlier OCR had a spurious399th coordinate. That correction is

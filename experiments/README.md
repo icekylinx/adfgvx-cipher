@@ -1,11 +1,11 @@
 # Evidence and research methods
 
-[Historical results](../docs/historical-showcase.md) · [Read the messages](../topics/README.md) · [Research status](../docs/research-status.md) · [Method guide](../docs/methods.md)
+[Selected research](../README.md#selected-discoveries-and-methods) · [Read the messages](../topics/README.md) · [Research status](../docs/research-status.md) · [Method guide](../docs/methods.md)
 
 Each accepted reading links a source-specific package: transcript, key or key
 hypothesis, exact coordinate map, repair account and verifier. This index
 selects the methods and source relationships that carry the current research.
-The [catalogue](../cases/pages/README.md) is the complete index of individual
+The [catalogue](../pages/README.md) is the complete index of individual
 bodies; this page does not duplicate all 679 entries.
 
 ## Readings, parallels and source review
@@ -79,7 +79,7 @@ context, not missing ciphertext coordinates.
 | [Multi-witness dynamic programming](parallel_decoder/README.md) | Exact ranking of all `2^42` minimum-cost p109 readings under the chosen language objective. |
 | [p176a source-retention bound](p176a_source_retention_bound/README.md) | The earlier fixed proposal costs at least 68 substitutions with all slots retained, or 13 after excluding its last printed mask. |
 | [Joint five-loss decoder](p198_joint_exact/README.md) | 8,670,506,592,384 loss-position/fill witnesses per fixed complete key. p198 D remains OPEN. |
-| [Category and digit bounds](p198_letter_bounds/CATEGORY_BOUNDS.md) | Exact restrictions over all 40,320 completions of the stated Nov13–15b square. |
+| [Category and digit bounds](p198_letter_bounds/category-bounds.md) | Exact restrictions over all 40,320 completions of the stated Nov13–15b square. |
 | [Category frontier](p198_category_frontier/README.md) | The trade-off between digit and Q/Y counts under that fixed-rank loss model. |
 | [Crib consistency with source substitutions](substitution_crib_csp/README.md) | Joint unknown-square/rank constraints checked against exhaustive small oracles and hidden-key controls. |
 | [Domain-constrained word search](p163_infrastructure_clause/domain_words_oracle.py) | An exact word/bigram recurrence checked on 660 exhaustive small cases. |
@@ -97,7 +97,7 @@ current questions. The maintained search families include:
 | --- | --- |
 | Coordinate contacts and coincidence, with the same maximization applied to shuffled controls | [All-seven source diagnosis](open_target_contact_diagnosis/README.md) |
 | Unknown-square and transposition search | [Joint engine](joint_search/README.md), [anchored search](anchored_search/README.md), [source-error consistency search](substitution_crib_csp/README.md) |
-| Partial-key and truncation hypotheses | [p73](p73_new_methods/README.md), [p170](p170_new_methods/README.md), [p170 frame scope](known_key/P170_TRUNCATION_NOTE.md) |
+| Partial-key and truncation hypotheses | [p73](p73_new_methods/README.md), [p170](p170_new_methods/README.md), [p170 frame scope](known_key/p170-truncation.md) |
 | Loss models and longer-context scoring | [p198 word/loss search](p198_word_search/README.md), [six-gram optimization](p198_joint_six/README.md), [loss before transposition](p198_pretransposition_loss/README.md) |
 | Independent-copy retrieval | [Source similarity](source_similarity/README.md), [source recovery](source_recovery/README.md), [follow-up](source_followup/README.md) |
 | Language-model calibration | [Radio-domain model and hidden-rank controls](radio_domain_model/README.md) |

@@ -4,7 +4,7 @@
 
 This source edition recovers the four-part communications explanation on Childs p82 A1–A4 and the independent p80 B1/B2 copies of its first two parts. The message reports how telegrams for foreign stations are routed over German lines to Bucharest or Braila, and how the naval radio station is connected to the main and naval-department telephone exchanges. It describes those arrangements; it is not an independent test of their operation.
 
-The [reading edition](../../cases/pages/080.md#edition-cases-radio-constanza-radio-connections) contains every raw and candidate string. [inputs.json](inputs.json), [certificates.json](certificates.json) and the [crops](sources/) retain all source coordinates, word repairs, source annotation and length discrepancy.
+The [reading edition](../../pages/080.md#edition-cases-radio-constanza-radio-connections) contains every raw and candidate string. [inputs.json](inputs.json), [certificates.json](certificates.json) and the [crops](sources) retain all source coordinates, word repairs, source annotation and length discrepancy.
 
 ## Source-positive gains
 

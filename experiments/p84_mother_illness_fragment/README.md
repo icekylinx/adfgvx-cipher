@@ -3,7 +3,7 @@
 This package extends the separately preserved
 [German field-post fragment](../p84_field_post_fragment/README.md) with
 `MUTTERSCHWERKRANKBITTEKOMMX` at plaintext positions 68–94. The
-[case](../../cases/pages/084.md#edition-cases-radio-p84-mother-illness-extension) keeps the equally
+[case](../../pages/084.md#edition-cases-radio-p84-mother-illness-extension) keeps the equally
 compatible `MITTELSCHWERKRANKBITTEKOMMX` counterexample.
 
 The unchanged 28–31 October key fixes 14/122 raw positions. The two word

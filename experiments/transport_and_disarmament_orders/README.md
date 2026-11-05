@@ -1,6 +1,6 @@
 # Native p209 transport and disarmament traffic
 
-Prepared by **icekylinx and GPT-6 Astra Pro**. Published Nov19–21 key: Lasry, Niebel, Kopal and Wacker. See the complete [source edition](../../cases/pages/209.md#edition-cases-military-transport-and-disarmament-orders).
+Prepared by **icekylinx and GPT-6 Astra Pro**. Published Nov19–21 key: Lasry, Niebel, Kopal and Wacker. See the complete [source edition](../../pages/209.md#edition-cases-military-transport-and-disarmament-orders).
 
 Five physical records are supplied: A1, B1/B2 and C1/C2. A1 is only the first part of a source-marked two-part message; its Prague/Mackensen/Teschen clause is incomplete. B concerns priority for Ukrainian provisions over raw materials. C reports arms handed to the Poles in Warsaw and instructs units against disarmament without fighting.
 

@@ -16,7 +16,7 @@ and its English interpretation alongside that evidence.
 
 | Research task | Resource |
 | --- | --- |
-| Interpretation | The **Readable German** text and English interpretation in its [page edition](../cases/pages/README.md). |
+| Interpretation | The **Readable German** text and English interpretation in its [page edition](../pages/README.md). |
 | Determined characters | The raw, unspaced text and character domains in the source's linked certificate. |
 | Reconstruction costs | The explicit insertion, deletion, erasure-fill and known-coordinate substitution counts. |
 | Attribution | The source edition's attribution and [prior-reading registry](../data/prior_readings.json). |
@@ -56,11 +56,11 @@ serial numbers and words across messages that share a key.
 
 | Layer | Evidentiary role | Example |
 | --- | --- | --- |
-| Source transcription | Literal observations in the inspected witness, including damaged or invalid glyphs. | [p198 D](../cases/pages/198.md#edition-cases-p198) has 165 valid coordinates although its header says `CHI-170`. |
-| Source-preserving calculation | Character domains under a declared key and structural repair, preserving every known coordinate retained by the hypothesis. | [p146](../cases/pages/146.md#edition-cases-p146) fixes 117/122 positions after the documented duplicate deletion and missing-group insertion. |
-| Explicit editorial repair | A proposed text after specified fills or substitutions. | [p153b](../cases/pages/153.md#edition-cases-p153b) has 33/54 raw positions; its 50/54 conditional template also needs the recorded repairs and separator interpretation. |
-| Parallel transmission | Independent observations supplied by another inspected witness. | [p152](../cases/pages/152.md#edition-cases-p152) is linked to the fuller p136 transmission; [p109](../cases/pages/109.md#edition-cases-p109) has a same-page near-parallel. |
-| Historical interpretation | Contextual support for a name, abbreviation or event. | [p215](../cases/pages/215.md#edition-cases-p215) costs `KORPSXKOSCH` explicitly and links contemporary command records. |
+| Source transcription | Literal observations in the inspected witness, including damaged or invalid glyphs. | [p198 D](../pages/198.md#edition-cases-p198) has 165 valid coordinates although its header says `CHI-170`. |
+| Source-preserving calculation | Character domains under a declared key and structural repair, preserving every known coordinate retained by the hypothesis. | [p146](../pages/146.md#edition-cases-p146) fixes 117/122 positions after the documented duplicate deletion and missing-group insertion. |
+| Explicit editorial repair | A proposed text after specified fills or substitutions. | [p153b](../pages/153.md#edition-cases-p153b) has 33/54 raw positions; its 50/54 conditional template also needs the recorded repairs and separator interpretation. |
+| Parallel transmission | Independent observations supplied by another inspected witness. | [p152](../pages/152.md#edition-cases-p152) is linked to the fuller p136 transmission; [p109](../pages/109.md#edition-cases-p109) has a same-page near-parallel. |
+| Historical interpretation | Contextual support for a name, abbreviation or event. | [p215](../pages/215.md#edition-cases-p215) costs `KORPSXKOSCH` explicitly and links contemporary command records. |
 | Language ranking | Candidate ranking under a specified statistical model. | The [p109 decoder](../experiments/parallel_decoder/README.md) ranks texts at exact source-edit budgets. |
 
 Historical identification can support a name without determining a damaged
@@ -145,7 +145,7 @@ alternatives remain in the readable edition.
 
 <a id="locate-scattered-missing-coordinates"></a>
 
-Under the hypothesis that [p198 D](../cases/pages/198.md#edition-cases-p198) lost exactly five symbols
+Under the hypothesis that [p198 D](../pages/198.md#edition-cases-p198) lost exactly five symbols
 from a 170-coordinate transmission, there are
 
 \[

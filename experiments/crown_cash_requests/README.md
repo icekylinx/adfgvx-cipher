@@ -5,7 +5,7 @@ ADFGVX Cipher — **icekylinx and GPT-6 Astra Pro**.
 A source edition of Childs p219 A1–A2 and B. A requests an advance for
 Arad after an arrangement with the German military mission at Budapest;
 B separately reports partial crown remittances and a severe banknote
-shortage. The full [case](../../cases/pages/219.md#edition-cases-finance-crown-cash-requests) keeps
+shortage. The full [case](../../pages/219.md#edition-cases-finance-crown-cash-requests) keeps
 every raw reading, exact candidate and interpretation limit.
 
 All **918 source coordinates** are valid and the advertised lengths

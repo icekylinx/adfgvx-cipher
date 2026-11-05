@@ -2,7 +2,7 @@
 
 [![Research checks](https://github.com/icekylinx/adfgvx-cipher/actions/workflows/verify.yml/badge.svg)](https://github.com/icekylinx/adfgvx-cipher/actions/workflows/verify.yml) [![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 
-[By page](#browse-by-printed-page) · [By subject](topics/README.md) · [Historical research](docs/historical-studies/README.md) · [Chronology](docs/historical-studies/chronology.md) · [Discoveries](docs/historical-showcase.md)
+[By page](#browse-by-printed-page) · [By subject](topics/README.md) · [Historical research](docs/historical-studies/README.md) · [Chronology](docs/historical-studies/chronology.md) · [Discoveries](README.md#selected-discoveries-and-methods)
 
 German military radio traffic from the closing months of 1918 records withdrawal, supply, finance and changing command authority. This edition brings together the ciphertexts preserved by J. Rives Childs and historical studies based on their recovered contents.
 
@@ -15,14 +15,14 @@ Choose a range to see its pages and message subjects. Each page opens its comple
 
 | Printed pages | Sources |
 | --- | ---: |
-| [pp56–74](cases/pages/050-074/README.md) | 47 |
-| [pp75–99](cases/pages/075-099/README.md) | 64 |
-| [pp100–124](cases/pages/100-124/README.md) | 94 |
-| [pp125–149](cases/pages/125-149/README.md) | 80 |
-| [pp150–174](cases/pages/150-174/README.md) | 133 |
-| [pp175–199](cases/pages/175-199/README.md) | 111 |
-| [pp200–224](cases/pages/200-224/README.md) | 121 |
-| [pp225–230](cases/pages/225-249/README.md) | 29 |
+| [pp56–74](pages/056-074/README.md) | 47 |
+| [pp75–99](pages/075-099/README.md) | 64 |
+| [pp100–124](pages/100-124/README.md) | 94 |
+| [pp125–149](pages/125-149/README.md) | 80 |
+| [pp150–174](pages/150-174/README.md) | 133 |
+| [pp175–199](pages/175-199/README.md) | 111 |
+| [pp200–224](pages/200-224/README.md) | 121 |
+| [pp225–230](pages/225-230/README.md) | 29 |
 
 <!-- READING-CATALOG:END -->
 
@@ -30,24 +30,27 @@ Choose a range to see its pages and message subjects. Each page opens its comple
 
 | Study | Historical findings |
 | --- | --- |
-| **[Withdrawal, transit and internment](docs/historical-studies/an-army-trying-to-get-home.md)** | Provisioning at Arad, the armistice transit clock and negotiations with territorial authorities connect the means of withdrawal with its changing political conditions. |
-| **[Black Sea shipping and disposal](docs/historical-studies/black-sea-network.md)** | A routing order and its numbered amendment trace a changed destination; diaries and registers place evacuation voyages and a proposed ship sale in a wider record. |
-| **[Cash, procurement and liquidation](docs/historical-studies/what-retreat-cost.md)** | Orders to stop buying coexist with demands for pay, small banknotes and local payout. Stranded goods become subjects of resale and redemption. |
-| **[Radio authority and personnel](docs/historical-studies/voices-on-the-wireless.md)** | Station handovers, interrupted links, disarmament conditions and traffic transfers show how communications service depended on control of people and equipment. |
-| **[Vehicles and the stages of departure](docs/historical-studies/transport-and-demobilisation.md)** | Readiness, waiting, equipment transfer and reported departure appear as separate stages; one truck can leave while personnel remain behind. |
+| **[Withdrawal, transit and internment](docs/historical-studies/withdrawal-transit-internment.md)** | Provisioning at Arad, the armistice transit clock and negotiations with territorial authorities connect the means of withdrawal with its changing political conditions. |
+| **[Black Sea shipping and disposal](docs/historical-studies/black-sea-shipping.md)** | A routing order and its numbered amendment trace a changed destination; diaries and registers place evacuation voyages and a proposed ship sale in a wider record. |
+| **[Cash, procurement and liquidation](docs/historical-studies/cash-procurement-liquidation.md)** | Orders to stop buying coexist with demands for pay, small banknotes and local payout. Stranded goods become subjects of resale and redemption. |
+| **[Radio authority and personnel](docs/historical-studies/radio-authority-personnel.md)** | Station handovers, interrupted links, disarmament conditions and traffic transfers show how communications service depended on control of people and equipment. |
+| **[Vehicles and the stages of departure](docs/historical-studies/transport-demobilisation.md)** | Readiness, waiting, equipment transfer and reported departure appear as separate stages; one truck can leave while personnel remain behind. |
 
 The [historical research guide](docs/historical-studies/README.md) classifies the sources and comparisons. The [chronology](docs/historical-studies/chronology.md) distinguishes dates of events, orders, transmission and interception.
 
-## Selected recoveries
+## Selected discoveries and methods
+
+<a id="selected-recoveries"></a>
 
 <a id="what-our-recoveries-add"></a>
 
-| Discovery | Result |
+| Discovery or method | Result |
 | --- | --- |
-| **[The p153 shared key](experiments/p153_recovery/README.md)** | A new eighteen-column key fixes **60 of 66 positions** in part 5 without changing the source and supports part 6's instruction to report the rearguard artillery's ammunition stock. |
-| **[The Arad strength report](cases/pages/168.md#source-p168-e)** | A second reception restores eleven absent coordinates and establishes **80,000 men and 30,000 animals** in the request for provisions and trains. |
-| **[The small-banknote instruction](cases/pages/195.md#edition-cases-finance-crown-banknote-completion)** | A complete reception supplies nineteen absent tail coordinates, locates the interruption and corrects an earlier conjecture. |
-| **[The Caucasus silk-resale order](cases/pages/144.md#edition-cases-finance-nov6-silk-resale-continuation)** | Independent receptions give all **135 positions** of the continuation direct support, restoring an instruction to resell goods whose transport could no longer be assured. |
+| **[The p153 shared key](pages/153.md#source-p153a)** | A new eighteen-column key fixes **60 of 66 positions** in part 5 without source changes and supports part 6's conditional rearguard-artillery ammunition instruction. |
+| **[The Arad provisioning report](pages/168.md#source-p168-e)** | A second reception supplies eleven missing coordinates and establishes **80,000 men and 30,000 animals** in the request for provisions and trains. |
+| **[The small-banknote instruction](pages/195.md#source-p195-a2)** | A complete reception locates the nineteen-coordinate interruption, corrects an earlier conjecture and restores the request for the smallest possible denominations. |
+| **[Exact comparison of p109 copies](experiments/parallel_decoder/README.md)** | An exact decoder finds the same **47-character passage** across 28 ranked leaders: 33 positions follow from minimum source cost and fourteen from language ranking. |
+| **[Exact loss-and-fill search](experiments/p198_joint_exact/README.md)** | Dynamic programming covers **8,670,506,592,384 joint witnesses per fixed key** in the 170-slot, 16-column, five-loss model. Known-text controls expose the scoring limitation; p198 remains OPEN. |
 
 The [research record](docs/research-status.md) gives the exact cryptanalytic results. The [edition and attribution account](docs/edition-and-attribution.md) identifies our contributions alongside earlier keys, decipherments and historical publications.
 

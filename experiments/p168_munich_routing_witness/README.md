@@ -41,10 +41,10 @@ ownership description, the observed donor V, the one-coordinate KDO change,
 two fresh same-shape controls and complete roundtrips for both global 5/6 orders.
 Source pixels are explicitly unchecked unless the original PDF is supplied.
 
-- [Source edition](../../cases/pages/168.md#edition-cases-radio-p168-munich-routing-witness)
+- [Source edition](../../pages/168.md#edition-cases-radio-p168-munich-routing-witness)
 - [Inputs and source-crop recipe](inputs.json)
 - [Recomputed certificate](certificates.json)
-- [Earlier p158 composite edition and historical credit](../../cases/pages/158.md#edition-cases-p158)
+- [Earlier p158 composite edition and historical credit](../../pages/158.md#edition-cases-p158)
 
 This is an improved certificate for an existing catalogue record. Childs's
 wartime reading and Lasry and colleagues’ 2016 discussion retain prior body

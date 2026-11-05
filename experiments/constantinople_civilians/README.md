@@ -10,7 +10,7 @@ remain in Turkey, and says that transport through Ukraine is currently
 impossible. It reports an unconfirmed departure; it is not itself proof
 that the departure occurred.
 
-The [case](../../cases/pages/221.md#edition-cases-people-constantinople-civilians) gives all four
+The [case](../../pages/221.md#edition-cases-people-constantinople-civilians) gives all four
 raw and proposed readings. The source is J. Rives Childs, *General Solution
 of the ADFGVX Cipher System*, printed p221 B, PDF page 224. The page heading
 says 25 November 1918; the origin line is `1300 (25/11)`, and receipt is

@@ -4,7 +4,7 @@
 
 The 192-slot section B on Childs p144 supports a short passage concerning troops crossing in boats and a routine no-further-events ending. Its opening, one intervening token and the location remain garbled. The edition retains those labels and gives a limited ordinary-word proposal with its exact source cost.
 
-Read the [complete source edition](../../cases/pages/144.md#edition-cases-military-nov6-boat-crossing-fragment).
+Read the [complete source edition](../../pages/144.md#edition-cases-military-nov6-boat-crossing-fragment).
 
 | Scope | Count |
 | --- | ---: |

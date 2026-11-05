@@ -6,7 +6,7 @@ A new 302-coordinate missing-prefix hypothesis yields connected wording about in
 
 The raw baseline fixes **46/151 positions** and leaves all 105 added coordinate slots unassigned. Five explicit lexical stencils fill **83 missing halves**, yielding **129/151 primary positions**. They change **zero observed coordinates**. The other 22 positions remain `?`; no complete historical message or unique completion is claimed.
 
-Read the [partial source edition](../../cases/pages/212.md#edition-cases-military-p212-medical-fragment). The [inputs](inputs.json) preserve the source, frame and compact retrieval/control evidence; the [certificate](certificates.json) maps every coordinate and fill.
+Read the [partial source edition](../../pages/212.md#edition-cases-military-p212-medical-fragment). The [inputs](inputs.json) preserve the source, frame and compact retrieval/control evidence; the [certificate](certificates.json) maps every coordinate and fill.
 
 ```sh
 python experiments/p212_medical_fragment/verify.py --verify

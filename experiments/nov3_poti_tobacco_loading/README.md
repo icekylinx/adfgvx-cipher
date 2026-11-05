@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-Read the [complete p113 C edition](../../cases/pages/113.md#edition-cases-naval-nov3-poti-tobacco-loading).
+Read the [complete p113 C edition](../../pages/113.md#edition-cases-naval-nov3-poti-tobacco-loading).
 The reviewed native source has **212 valid coordinates**, **106 fixed raw
 positions**, and a complete candidate requiring **one observed-coordinate
 substitution**. There are no coordinate fills or frame changes. The first

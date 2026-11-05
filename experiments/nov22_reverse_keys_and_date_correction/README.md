@@ -2,7 +2,7 @@
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
-[Read the source edition](../../cases/pages/214.md#edition-cases-radio-nov22-reverse-keys-and-date-correction).
+[Read the source edition](../../pages/214.md#edition-cases-radio-nov22-reverse-keys-and-date-correction).
 
 Two native source records on Childs p214 contain **268 printed slots**,
 **134 modeled plaintext positions** and **133 fixed raw labels** under the

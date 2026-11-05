@@ -4,7 +4,7 @@
 
 Seven native source records cover an armistice-receipt query, nightly radio listening, an inquiry for Captain von Borries, the location of the Warsaw general government, and radio equipment and personnel. Two previously OCR-damaged short messages become clear when their actually printed final groups are restored. All unresolved fields and missing-letter spellings remain explicit.
 
-Read the [complete source edition](../../cases/pages/202.md#edition-cases-radio-nov16-18-command-inquiries).
+Read the [complete source edition](../../pages/202.md#edition-cases-radio-nov16-18-command-inquiries).
 
 ## Exact scope
 

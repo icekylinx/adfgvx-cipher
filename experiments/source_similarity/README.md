@@ -46,10 +46,10 @@ and certificates.
 
 | Query | Expected source | Rank by local score | Local score | Longest exact run |
 | --- | --- | ---: | ---: | ---: |
-| [p152](../../cases/pages/152.md#edition-cases-p152) | p136 B, part 1 | 1 | 167 | 34 |
-| [p158](../../cases/pages/158.md#edition-cases-p158), augmented layer | p168 C; p159 B; p168 D; p159 C | 1, 2, 3, 4 | 213, 213, 184, 177 | 41, 37, 50, 46 |
+| [p152](../../pages/152.md#edition-cases-p152) | p136 B, part 1 | 1 | 167 | 34 |
+| [p158](../../pages/158.md#edition-cases-p158), augmented layer | p168 C; p159 B; p168 D; p159 C | 1, 2, 3, 4 | 213, 213, 184, 177 | 41, 37, 50, 46 |
 | p158, typed-only layer | The same four components | 1, 2, 3, 4 | 213, 213, 184, 180 | 41, 37, 50, 46 |
-| [p109](../../cases/pages/109.md#edition-cases-p109), raw D | p109 B | 1 | 303 | 23 |
+| [p109](../../pages/109.md#edition-cases-p109), raw D | p109 B | 1 | 303 | 23 |
 | p136 B1 with a five-coordinate deletion and four erasures | p136 B, part 1 | 1 | 601 | 100 |
 | A 106-coordinate p136 B1 excerpt, then a five-coordinate deletion and three erasures | p136 B, part 1 | 1 | 189 | 45 |
 | p109 B with a five-coordinate deletion and four additional erasures | p109 B | 1 | 455 | 66 |
@@ -67,9 +67,9 @@ forms of damage.
 
 | Target | Highest-scoring non-self OCR candidate | Local score | Query span used | Known matches / substitutions / gap slots | Maximum exact run anywhere in the corpus |
 | --- | --- | ---: | --- | --- | ---: |
-| [p73](../../cases/pages/073.md#edition-cases-p73) | p105 C, part 1 | 23 | `[50:83)` | 26 / 2 / 11 | 9 |
-| [p170](../../cases/pages/170.md#edition-cases-p170) | p110 C | 27 | `[35:55)` | 18 / 1 / 2 | 8 |
-| [p198](../../cases/pages/198.md#edition-cases-p198) | p154 A, part 2 | 21 | `[110:133)` | 20 / 2 / 5 | 9 |
+| [p73](../../pages/073.md#edition-cases-p73) | p105 C, part 1 | 23 | `[50:83)` | 26 / 2 / 11 | 9 |
+| [p170](../../pages/170.md#edition-cases-p170) | p110 C | 27 | `[35:55)` | 18 / 1 / 2 | 8 |
+| [p198](../../pages/198.md#edition-cases-p198) | p154 A, part 2 | 21 | `[110:133)` | 20 / 2 / 5 | 9 |
 
 Spans are zero-based, half-open coordinate offsets in the unchanged query. Gap
 slots are counted on either side of the local alignment, so a local span is not

@@ -9,7 +9,7 @@ source and body credits remain in the referenced repository records.
 
 Throughout, square anchors retain their recorded baseline symbol labels.
 The optional numeral and rare-letter interpretations in
-[late_key_interpretation](../late_key_interpretation/) are not imposed on any
+[late_key_interpretation](../late_key_interpretation) are not imposed on any
 search here. In particular, a complete recorded late-period square need not
 settle the original meanings of every numeral or rare symbol.
 
@@ -25,10 +25,10 @@ an explicit working model. They do not test source loss or truncation.
 
 The [prior runtime inventory](prior_scope_inventory.json) records 35 completed
 nearby-period jobs and 13 earlier CHI-Nov8 jobs, separately from this campaign.
-The shared [anchored-search report](../anchored_search/) freezes an earlier
+The shared [anchored-search report](../anchored_search) freezes an earlier
 2/70 snapshot; its planned-case count should not be mistaken for completed
 p170 work. The large fixed-key truncation scan has its own
-[report](../known_key/P170_TRUNCATION_NOTE.md). This branch adds 18 recorded
+[report](../known_key/p170-truncation.md). This branch adds 18 recorded
 square anchors that the nearby-period rank searches did not cover.
 Known square cells are fixed; only unassigned cells are permuted
 injectively, together with a freely searched column order. The optimizer
@@ -84,7 +84,7 @@ be described as distinct states or exact fitness-call totals.
 
 ## 2. Matched full-square controls for the frozen radio objective
 
-The [radio-domain model package](../radio_domain_model/) freezes 45 training
+The [radio-domain model package](../radio_domain_model) freezes 45 training
 strings and 4,634 usable quadgrams from source editions outside six held-out
 families. Digits collapse into one class in the radio component and are then
 expanded uniformly. The radio and independently built book probabilities
@@ -156,7 +156,7 @@ those positions from letters supplied by the searched completion.
 
 ## 4. Transfer the independently observed single-group displacement
 
-The [p191 boots-request edition](../boots_request/) identifies a displaced
+The [p191 boots-request edition](../boots_request) identifies a displaced
 five-coordinate printed group under a fixed published key. That positive
 source-layout result motivates this separate, bounded p170 screen. It does
 not imply that p170 has the same fault.
@@ -307,7 +307,7 @@ of distinct states. These limits remain explicit in every audit report.
 
 ## Attribution audit
 
-The separate [Lasry paper audit](lasry_attribution_audit.md) and its
+The separate [Lasry paper audit](lasry-attribution-audit.md) and its
 [machine-readable table](lasry_attribution_audit.json) identify earlier body
 readings, header examples and key-only references. They are a frozen snapshot
 made before the resulting catalog-credit corrections, not a report of the

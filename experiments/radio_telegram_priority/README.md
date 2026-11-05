@@ -1,7 +1,7 @@
 # Radio-telegram priority: p128 A1 and A2
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. This package independently
-verifies the [two-part p128 source edition](../../cases/pages/128.md#edition-cases-radio-telegram-priority):
+verifies the [two-part p128 source edition](../../pages/128.md#edition-cases-radio-telegram-priority):
 a request for replies and brief plaintext instructions, followed by a
 suggestion that the radio station give these telegrams precedence. The
 literal signature is `HORSTMANN`.

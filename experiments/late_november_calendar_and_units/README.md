@@ -54,13 +54,13 @@ new assignments. They count fixed labels within these conditional readings.
 
 | Record | Before → after | Newly determined fields |
 | --- | ---: | --- |
-| [p225 B2](../../cases/pages/225.md#edition-cases-military-regimental-journey-report-p225-b2) | 105 → **106/106** | Arrival during the night of **27** |
-| [p227 D](../../cases/pages/227.md#edition-cases-military-avoid-fighting-instruction-p227-d) | 135 → **136/136** | OHL reference **11367** |
-| [p229 A1](../../cases/pages/229.md#edition-cases-military-late-transport-dispatches-a-the-evening-report-and-halted-railway-transports) | 112 → **114/114** | **30/11** and **217** |
+| [p225 B2](../../pages/225.md#edition-cases-military-regimental-journey-report-p225-b2) | 105 → **106/106** | Arrival during the night of **27** |
+| [p227 D](../../pages/227.md#edition-cases-military-avoid-fighting-instruction-p227-d) | 135 → **136/136** | OHL reference **11367** |
+| [p229 A1](../../pages/229.md#edition-cases-military-late-transport-dispatches-a-the-evening-report-and-halted-railway-transports) | 112 → **114/114** | **30/11** and **217** |
 | p229 B1 | 130 → **132/134** | **7** motor columns; zero in `RM1?10?363` |
 | p229 B2 | 121 → **123/124** | Two sevens in the reference `7?87` |
-| [p230 A4](../../cases/pages/230.md#edition-cases-military-p230-a) | 113 → **115/115** | **7** Bavarian cavalry brigade; zero in `11U30` |
-| [p228 B1](../../cases/pages/228.md#edition-cases-military-neuhof-demobilization-b1-the-destination-instruction) | 117 → **120/123** | Order **P067**; unit remains **?7** |
+| [p230 A4](../../pages/230.md#edition-cases-military-p230-a) | 113 → **115/115** | **7** Bavarian cavalry brigade; zero in `11U30` |
+| [p228 B1](../../pages/228.md#edition-cases-military-neuhof-demobilization-b1-the-destination-instruction) | 117 → **120/123** | Order **P067**; unit remains **?7** |
 
 All thirteen positions retain both originally observed coordinates. The
 verifier preserves the earlier word-repair ledgers and separately shows
@@ -99,20 +99,20 @@ python experiments/late_november_calendar_and_units/verify_division.py --verify
 
 ## Additional aviation and radio traffic
 
-The same two squares extend to four further records. In [p229 C](../../cases/pages/229.md#edition-cases-military-late-transport-dispatches-c-an-aviation-unit-and-a-park-at-craiova),
+The same two squares extend to four further records. In [p229 C](../../pages/229.md#edition-cases-military-late-transport-dispatches-c-an-aviation-unit-and-a-park-at-craiova),
 one source-mask fill completes the separator in `WIRD?BITTE`. The interpreted
 body fixes **162/165** positions, including **Kofl 11** and **Fliegerabtl. 38**;
 `HK?` and the two closing reference positions remain unresolved. Its total
 cost is **3 observed substitutions and 32 mask fills**.
 
-In [p226 A2](../../cases/pages/226.md#edition-cases-radio-radio-traffic-transfer-fragment), reading the
+In [p226 A2](../../pages/226.md#edition-cases-radio-radio-traffic-transfer-fragment), reading the
 opening `?DEZ` as a day requires one further coordinate fill. It does not
 select the date: **4 December / SCHWERE 15** and **5 December / SCHWERE 14**
-are the two possible assignments. The same cell makes the [p230 C](../../cases/pages/230.md#edition-cases-radio-nov30-radio-personnel-p230-c)
+are the two possible assignments. The same cell makes the [p230 C](../../pages/230.md#edition-cases-radio-nov30-radio-personnel-p230-c)
 hour **5** in the first branch and **4** in the second. Both source variants
 of C are retained.
 
-The unaltered [p230 D](../../cases/pages/230.md#edition-cases-radio-nov30-radio-personnel-p230-d)
+The unaltered [p230 D](../../pages/230.md#edition-cases-radio-nov30-radio-personnel-p230-d)
 footer becomes **98179**. Its fourth digit supplies one further occurrence
 of `VG=7` outside the thirteen positions counted above. Two more occurrences
 are fixed in the still-damaged `GROSSW7RDEIN` and `7Z12` fields; their words

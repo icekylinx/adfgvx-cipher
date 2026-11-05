@@ -4,7 +4,7 @@
 
 **Source comparison and verification: icekylinx and GPT-6 Astra Pro.**
 
-The request for a wartime officer-register extract in [p132 A](../../cases/pages/132.md#edition-cases-radio-p132-radio-service)
+The request for a wartime officer-register extract in [p132 A](../../pages/132.md#edition-cases-radio-p132-radio-service)
 can be read with the surname **Rohdewald**, conditional on four additional
 observed-coordinate substitutions. This replaces `RHYDEWALD` with `ROHDEWALD`
 after `GENERALMAJ`. The complete optional reading costs **ten observed

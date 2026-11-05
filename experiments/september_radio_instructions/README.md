@@ -8,14 +8,14 @@ unchanged Sep19–21 key fixes **389 raw positions**. Baseline edited proposals
 fix **398/399 positions** with **10 observed-coordinate substitutions** and
 **9 printed-mask fills**, without inserting or deleting coordinates.
 
-The [p57 three-part routing order](../../cases/pages/057.md#edition-cases-radio-september-tiflis-radio-routing)
+The [p57 three-part routing order](../../pages/057.md#edition-cases-radio-september-tiflis-radio-routing)
 becomes readable when the original part boundaries are restored from the
 scan. It concerns direct blind transmissions to Tiflis, reception of NKJ
 and ASO by COS, rapid forwarding and advance notice of traffic. A visible D
 above a typed A directly supports the one-coordinate correction supplying
 ANKUENDIGEN. Repeated call signs and all reference digits remain literal.
 
-The [p61 key-destruction instruction](../../cases/pages/061.md#edition-cases-radio-september-key-destruction-order)
+The [p61 key-destruction instruction](../../pages/061.md#edition-cases-radio-september-key-destruction-order)
 retains a masked first label 77?77 and a direct second 77777. One conditional
 repetition fill is separately priced and excluded from the baseline totals.
 The proposed HIER/SOFORT/ZU VERNICHTEN restorations are exact compatible

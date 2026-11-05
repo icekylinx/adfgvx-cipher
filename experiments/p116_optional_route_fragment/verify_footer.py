@@ -132,7 +132,7 @@ def compute():
     assert [x['plaintext_index'] for x in closing['additional_fills']] == [105,107,108,109]
     assert all(closing['plaintext'][i]=='?' for i in [90,102,106])
     assert 'X' not in domains[102]
-    displays = re.findall(r'```text\n(.*?)\n```', (HERE/'FOOTER.md').read_text(), re.S)
+    displays = re.findall(r'```text\n(.*?)\n```', (HERE/'footer.md').read_text(), re.S)
     assert displays == [primary['plaintext'],closing['plaintext']]
     return dict(schema='adfgvx-p116-optional-footer-v1', authors=['icekylinx','GPT-6 Astra Pro'],
                 dependencies={str(p.relative_to(ROOT)):sha(p) for p in

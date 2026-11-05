@@ -2,7 +2,7 @@
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
-[Read the source edition](../../cases/pages/223.md#edition-cases-naval-nov27-ships-and-vehicle-sale).
+[Read the source edition](../../pages/223.md#edition-cases-naval-nov27-ships-and-vehicle-sale).
 
 Two physical source records on Childs p223 contain **481 printed slots** and
 **479 accepted source coordinates**. The declared frames contain **476

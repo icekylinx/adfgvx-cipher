@@ -83,7 +83,7 @@ models, the same three complete squares and widths 16–24, at 200 restarts of
 50,000 slots. Matched spacing-specific controls recover 3/4 hidden rank orders:
 joined-text width 24 fails at 13/87 fixed letters; joined-text width 16 and both
 word-`X` controls recover 87/87. Model provenance and source hashes are retained
-under [models](models/).
+under [models](models).
 
 ## 2. A word objective with all 36 square cells hidden
 
@@ -96,7 +96,7 @@ arithmetic check, not authentication of a historical square.
 The language objective combines the book quadgram sum with twice
 a trie-based word-segmentation score. Word-pair association bonuses are capped.
 The exact lexicon builder and provenance are shared with
-[p198_word_search](../p198_word_search/). Both objectives use the **same ten
+[p198_word_search](../p198_word_search). Both objectives use the **same ten
 books**; they are not independent language models. No p73 candidate or control
 text trains the original book or word model.
 
@@ -132,7 +132,7 @@ staged run is recorded rather than retroactively changed.
 
 ## 3. Frozen radio-domain objective: a limited follow-up
 
-The team's [radio-domain model](../radio_domain_model/) is a frozen 50:50
+The team's [radio-domain model](../radio_domain_model) is a frozen 50:50
 probability mixture of book quadgrams and source-edition radio quadgrams, with
 uniform digit expansion in the radio component. This package neither retrains
 nor tunes that mixture.

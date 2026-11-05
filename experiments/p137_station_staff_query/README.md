@@ -8,7 +8,7 @@ in [`prior_ocr.json`](prior_ocr.json). This edition supplies a newly reviewed
 source, conditional source map and readable query, rather than changing
 the published key.
 
-The [case](../../cases/pages/137.md#edition-cases-radio-p137-station-staff-query) asks whether the
+The [case](../../pages/137.md#edition-cases-radio-p137-station-staff-query) asks whether the
 station is still staffed by its former personnel and requests an answer
 at the unresolved literal `17?0`, closing `EILVESE`.
 

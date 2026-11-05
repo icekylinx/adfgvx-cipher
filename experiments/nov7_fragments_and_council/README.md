@@ -6,8 +6,8 @@ Four physical records are preserved under the unchanged published partial
 **Nov7–9** key: A1/A2 are the two present parts of a source-labeled
 five-part message; B is a separate acknowledgment with a handwritten
 duplicate; C is a separate surrender notice. Read the
-[fragments and acknowledgment](../../cases/pages/151.md#edition-cases-military-nov7-fragment-and-acknowledgment)
-and [Soldiers Council notice](../../cases/pages/151.md#edition-cases-military-soldiers-council-surrender).
+[fragments and acknowledgment](../../pages/151.md#edition-cases-military-nov7-fragment-and-acknowledgment)
+and [Soldiers Council notice](../../pages/151.md#edition-cases-military-soldiers-council-surrender).
 No missing parts 3–5 or reply relationship are invented.
 
 ## A1: a bounded, explicitly conditional short-group reconstruction

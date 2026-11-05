@@ -4,7 +4,7 @@
 
 A surviving second part reports that DNZW takes over radio traffic and gives further call-name and place-like fields. The source expressly marks the first part missing. One coordinate correction and three printed-dash fills give a readable proposal, while the leading character and exact identity of several labels remain unresolved.
 
-Read the [complete source edition](../../cases/pages/226.md#edition-cases-radio-radio-traffic-transfer-fragment).
+Read the [complete source edition](../../pages/226.md#edition-cases-radio-radio-traffic-transfer-fragment).
 
 | Scope | Count |
 | --- | ---: |

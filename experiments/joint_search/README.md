@@ -242,4 +242,4 @@ and current outcomes. Proposal counts include no-op proposals and are not CPU
 time measurements.
 `results/segmentation16_ranking.json` and `results/segmentation18.json` give
 exact ranking and scope details. The source and algorithm notes in
-`PROVENANCE.md` separate prior art from this implementation.
+`provenance.md` separate prior art from this implementation.

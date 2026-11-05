@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-The [case](../../cases/pages/171.md#edition-cases-people-namur-order-witnesses) presents a source-supported
+The [case](../../pages/171.md#edition-cases-people-namur-order-witnesses) presents a source-supported
 126-position order to Hauptmann Staedt in Namur concerning contact with
 `HPT V. WEIHER`, signed `MJR KROEGER`. Its `INSP1IN` anomaly is retained.
 

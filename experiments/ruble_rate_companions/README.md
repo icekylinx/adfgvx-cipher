@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-The [case](../../cases/pages/171.md#edition-cases-finance-ruble-rate-companions) adds source-reviewed
+The [case](../../pages/171.md#edition-cases-finance-ruble-rate-companions) adds source-reviewed
 physical parts **A2 and A3 only**. Norbert's earlier A1 body, its published
 repairs and Max Baertl's later editorial wording remain credited and unchanged.
 

@@ -2,7 +2,7 @@
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
-The [readable edition](../../cases/pages/220.md#edition-cases-military-mackensen-armistice-appeal)
+The [readable edition](../../pages/220.md#edition-cases-military-mackensen-armistice-appeal)
 covers Childs p220 C1–C4 and p221 A5–A6. The body had already been identified
 by Childs and summarized by Lasry, Niebel, Kopal and Wacker in 2016. The
 published Nov25–28 key is used unchanged.

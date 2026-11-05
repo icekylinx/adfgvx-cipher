@@ -4,7 +4,7 @@ Prepared by **icekylinx and GPT-6 Astra Pro**, using the unchanged published Nov
 
 This source edition contains **2 physical parts, 442 native coordinate slots and 221 plaintext positions**. The raw source fixes 202 positions; the editorial layer fixes 220, with **6 known-coordinate substitutions and 18 printed-erasure fills**. There are 1 remaining source erasures. No coordinates are added, removed or reordered; no key or numerical-label assignment is changed.
 
-The complete readable edition, raw texts and substantive limits are in [the case](../../cases/pages/157.md#edition-cases-radio-apparatus-sale-request). Earlier unreviewed body candidates and any frozen p73 retrieval appearances are preserved in `prior_candidates.json`, with bounded prior-publication checks. New source review is not a claim of first decipherment of every included passage.
+The complete readable edition, raw texts and substantive limits are in [the case](../../pages/157.md#edition-cases-radio-apparatus-sale-request). Earlier unreviewed body candidates and any frozen p73 retrieval appearances are preserved in `prior_candidates.json`, with bounded prior-publication checks. New source review is not a claim of first decipherment of every included passage.
 
 `inputs.json` retains original rows, header discrepancies, the unchanged key and full PDF page/rectangle/scale/image hashes. `certificates.json` records raw and edited readings, exact coordinate costs, all remaining symbol domains, a digit/J/Q/Y inventory and consistency witnesses. `catalog_proposal.json` supplies one record per physical part.
 

@@ -1,6 +1,6 @@
 # p68 A2: a procurement continuation with an unresolved verb
 
-**icekylinx and GPT-6 Astra Pro** · [October Caucasus edition](../../cases/pages/068.md#edition-cases-caucasus-october-caucasus-p68-a--provisional-procurement-text-carrying-chi-labels)
+**icekylinx and GPT-6 Astra Pro** · [October Caucasus edition](../../pages/068.md#edition-cases-caucasus-october-caucasus-p68-a--provisional-procurement-text-carrying-chi-labels)
 
 The second part of the p68 procurement exchange supports a further conditional
 reading: `DONREGIERUNG`, `DORT EINGE?ANGEN`, `HGRU KIEW` and `ROSTOW`.

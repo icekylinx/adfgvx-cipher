@@ -25,13 +25,13 @@ Catalogue metadata records source review for **679 bodies**. The boundary census
 
 | Source | Received source slots | Current question |
 | --- | ---: | --- |
-| [p70 B1](../cases/pages/070.md#edition-cases-open-p70-b1) | 206 | OPEN; 206 received slots, 199 observed coordinates and 7 printed erasures; interruption boundaries retained |
-| [p73](../cases/pages/073.md#edition-cases-p73) | 178 | Open |
-| [p127 B2](../cases/pages/127.md#edition-cases-open-p127-b2) | 152 | OPEN; 152 received slots, 104 observed coordinates and 48 printed erasures; both printed dates retained |
-| [p145 A](../cases/pages/145.md#edition-cases-open-p145-a) | 192 | OPEN; 192 received slots, 187 observed coordinates and 5 printed erasures; transmitted length unknown |
-| [p170](../cases/pages/170.md#edition-cases-p170) | 106 | Open; exact complete-body coordinate bounds under two adjacent squares |
-| [p194 D1](../cases/pages/194.md#edition-cases-open-p194-d1) | 45 | OPEN; 45 observed coordinates against advertised 214; no accepted plaintext or loss frame |
-| [p198](../cases/pages/198.md#edition-cases-p198) | 165 | Open |
+| [p70 B1](../pages/070.md#edition-cases-open-p70-b1) | 206 | OPEN; 206 received slots, 199 observed coordinates and 7 printed erasures; interruption boundaries retained |
+| [p73](../pages/073.md#edition-cases-p73) | 178 | Open |
+| [p127 B2](../pages/127.md#edition-cases-open-p127-b2) | 152 | OPEN; 152 received slots, 104 observed coordinates and 48 printed erasures; both printed dates retained |
+| [p145 A](../pages/145.md#edition-cases-open-p145-a) | 192 | OPEN; 192 received slots, 187 observed coordinates and 5 printed erasures; transmitted length unknown |
+| [p170](../pages/170.md#edition-cases-p170) | 106 | Open; exact complete-body coordinate bounds under two adjacent squares |
+| [p194 D1](../pages/194.md#edition-cases-open-p194-d1) | 45 | OPEN; 45 observed coordinates against advertised 214; no accepted plaintext or loss frame |
+| [p198](../pages/198.md#edition-cases-p198) | 165 | Open |
 
 The four newly catalogued OPEN sources preserve 595 native slots: 535 observed coordinates and 60 printed erasures. Their [source-only package](../experiments/open_source_records/README.md) verifies the literal rows and original-PDF crops. It introduces no key, completed loss frame, plaintext or decipherment count.
 

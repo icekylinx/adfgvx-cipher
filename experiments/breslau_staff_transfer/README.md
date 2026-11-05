@@ -10,7 +10,7 @@ visually checked source edition of bodies already present as unreviewed
 OCR-derived retrieval candidates; it does not claim the first computation
 of those candidates.
 
-The full [case](../../cases/pages/224.md#edition-cases-people-breslau-staff-transfer) preserves both
+The full [case](../../pages/224.md#edition-cases-people-breslau-staff-transfer) preserves both
 raw and ordinary-word candidate readings. All **558 coordinates** are
 valid and the advertised lengths match exactly: **260 + 298**. There are
 **279 raw-label plaintext positions**, all fixed under the published

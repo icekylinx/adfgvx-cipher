@@ -137,7 +137,7 @@ exact table counts and rational statistic with the vectorized implementation.
 
 | Target | Source qualification and consequence |
 | --- | --- |
-| p73 | 26 October page/origin markers conflict with the 8 November reception. The literal 178-slot comparison supplies no rank identification. The separate [square-count diagnostic](../open_targets/P73_HISTOGRAM.md) and [primary-source review](../p73_primary_followup/README.md) remain relevant; neither selects a date or key. |
+| p73 | 26 October page/origin markers conflict with the 8 November reception. The literal 178-slot comparison supplies no rank identification. The separate [square-count diagnostic](../open_targets/p73-histogram.md) and [primary-source review](../p73_primary_followup/README.md) remain relevant; neither selects a date or key. |
 | p170 A | All 106 received symbols are clear, but 106 is handwritten beside RICHI. A complete 106-slot message is only one hypothesis. Source-supported length or an overlapping reception remains more useful than the largest literal-frame score. |
 | p198 D | The 165/170 shortfall is real. This comparison covers a single consecutive five-loss model; arbitrary scattered losses, another length, different ranks and other damage remain open. The [exact loss/count constraints](../p198_letter_bounds/README.md) retain their own broader and narrower boundaries. |
 | p70 B1 | The source labels 206 slots and records jamming before the body and after its first 30 slots. Its top October-vector score is weak under matched controls. Additional reception evidence or a better supported corruption model is needed. |

@@ -2,7 +2,7 @@
 
 **Research and editorial work: icekylinx and GPT-6 Astra Pro.**
 
-The [Jaeger accommodation report](../../cases/pages/183.md#edition-cases-military-jaeger-accommodation-area)
+The [Jaeger accommodation report](../../pages/183.md#edition-cases-military-jaeger-accommodation-area)
 contains `VIERSWT X BARSE`. We propose **VIERSET X BARSE**, identifying the two
 fields with **Vierset-Barse**. This corrects one word at **one additional observed
 coordinate substitution**, with no new mask fill or fixed plaintext position.

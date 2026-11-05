@@ -1,6 +1,6 @@
 # p89 A3: the guard-battalion destination fragment
 
-**icekylinx and GPT-6 Astra Pro** · [Evacuation-order edition](../../cases/pages/089.md#edition-cases-military-black-sea-evacuation-routes-p89-a3)
+**icekylinx and GPT-6 Astra Pro** · [Evacuation-order edition](../../pages/089.md#edition-cases-military-black-sea-evacuation-routes-p89-a3)
 
 The previously unread tail of p89 A3 admits the twenty-character phrase
 `ERSXBATLX2XGARDEREGT`, independently present in the p104 D order to

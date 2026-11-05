@@ -4,7 +4,7 @@
 
 The two-part p224 A telegram asks for experienced listeners, clear transmission and a suitable reception wavelength. The separate p224 B report states that nothing special has happened. This edition preserves the source-length spellings SICERES and MORENMELDUNG and the date-like field 17XJJ.
 
-Read the [complete source edition](../../cases/pages/224.md#edition-cases-radio-nov27-receiving-instructions).
+Read the [complete source edition](../../pages/224.md#edition-cases-radio-nov27-receiving-instructions).
 
 ## Exact scope
 

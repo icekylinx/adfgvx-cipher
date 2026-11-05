@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-The [readable case](../../cases/pages/171.md#edition-cases-radio-newspaper-dispatch) source-reviews
+The [readable case](../../pages/171.md#edition-cases-radio-newspaper-dispatch) source-reviews
 p171 B1–B2: Berlin newspaper sacks have arrived via Orsova, and Breslau's
 postal directorate is asked to arrange immediate postal dispatch along that
 route. The reference fields remain `7?3` and `308`.

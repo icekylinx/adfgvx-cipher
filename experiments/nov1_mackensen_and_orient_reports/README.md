@@ -2,8 +2,8 @@
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. This package edits eight
 physical source records on Childs pp100–102 with the published full `Nov1-3`
-key. The reader pages cover [Eleventh Army subordination](../../cases/pages/100.md#edition-cases-military-mackensen-subordination)
-and [parallel Orient reports](../../cases/pages/101.md#edition-cases-military-orient-south-slav-reports).
+key. The reader pages cover [Eleventh Army subordination](../../pages/100.md#edition-cases-military-mackensen-subordination)
+and [parallel Orient reports](../../pages/101.md#edition-cases-military-orient-south-slav-reports).
 The existing p100 A challenge is a separate record and is unchanged.
 
 ## Completed source editions
@@ -153,6 +153,6 @@ Lasry, Ingo Niebel, Nils Kopal and Arno Wacker**.
 
 The source edition and arithmetic review are by **icekylinx and GPT-6 Astra
 Pro**. No first historical body-reading priority is claimed. The separate
-[p100 challenge](../../cases/pages/100.md#edition-cases-p100) keeps **Armin's 1 March 2017** credit.
+[p100 challenge](../../pages/100.md#edition-cases-p100) keeps **Armin's 1 March 2017** credit.
 The [catalog proposal](catalog_proposal.json) adds only these eight physical
 records and changes no challenge status.

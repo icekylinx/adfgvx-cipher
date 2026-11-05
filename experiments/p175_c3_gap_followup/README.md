@@ -14,7 +14,7 @@ OKMXGEHTHEUTENACHTVONDONAUXUNDSERETHFRONTAUFGEBIRGEZURUECKXWIRDUEBERXKRONSTADTXH
 This is a **conditional source edition**. There are multiple equally
 cheap source alignments, and the complete wording is an editorial
 candidate, not a uniquely established historical plaintext. Read the
-[case](../../cases/pages/175.md#edition-cases-military-p175-c3-withdrawal-followup) for the raw
+[case](../../pages/175.md#edition-cases-military-p175-c3-withdrawal-followup) for the raw
 reading, readable German, source sequence and historical limits.
 
 ## Printed length and missing-coordinate count

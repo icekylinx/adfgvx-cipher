@@ -68,19 +68,22 @@ class SourceEditionTests(unittest.TestCase):
 
     def test_matching_fragment_selects_its_physical_page(self):
         self.assertEqual(sources.page_target(self.key + '#second', self.catalogue, self.root),
-                         'cases/pages/075.md#edition-cases-radio-shared-second')
+                         'pages/075.md#edition-cases-radio-shared-second')
         self.assertEqual(sources.page_target(self.alias + '#second', self.catalogue, self.root),
-                         'cases/pages/075.md#edition-cases-radio-shared-second')
+                         'pages/075.md#edition-cases-radio-shared-second')
 
     def test_shared_context_uses_first_page_and_preserves_queries(self):
         self.assertEqual(sources.page_target(self.key + '?raw=1#legacy', self.catalogue, self.root),
-                         'cases/pages/056.md?raw=1#edition-cases-radio-shared-legacy')
+                         'pages/056.md?raw=1#edition-cases-radio-shared-legacy')
         self.assertEqual(sources.page_target(self.key, self.catalogue, self.root),
-                         'cases/pages/056.md#edition-cases-radio-shared')
+                         'pages/056.md#edition-cases-radio-shared')
         self.assertEqual(sources.page_target('sources/image.png', self.catalogue, self.root),
                          'sources/image.png')
 
     def test_materialize_and_clean_keep_exact_bytes(self):
+        public_page = self.root / 'pages/056.md'
+        public_page.parent.mkdir()
+        public_page.write_text('# Public page\n')
         self.assertEqual(sources.materialize_editions(self.root), [self.key])
         self.assertEqual((self.root / self.key).read_bytes(), self.original.encode('utf-8'))
         self.assertEqual(sources.materialize_editions(self.root), [])
@@ -88,6 +91,7 @@ class SourceEditionTests(unittest.TestCase):
         self.assertEqual(sources.clean_editions(self.root), ([self.key], []))
         self.assertFalse((self.root / self.key).exists())
         self.assertEqual(sources.load_editions(self.root)[self.key], self.original)
+        self.assertEqual(public_page.read_text(), '# Public page\n')
 
     def test_edited_fixture_is_never_overwritten_or_deleted(self):
         sources.materialize_editions(self.root)
@@ -128,6 +132,19 @@ class SourceEditionTests(unittest.TestCase):
         for legacy, destination in expected.items():
             with self.subTest(legacy=legacy):
                 self.assertEqual(sources.page_target(legacy, root=self.root), destination)
+
+    def test_embedded_old_page_and_document_links_use_relocated_targets(self):
+        expected = {
+            'cases/pages/056.md?raw=1#source-p56-a': 'pages/056.md?raw=1#source-p56-a',
+            'cases/pages/050-074/README.md#p71': 'pages/056-074/README.md#p71',
+            'cases/pages/225-249/README.md': 'pages/225-230/README.md',
+            'experiments/corpus_attack/SOURCE_FAMILIES.md#source-fit':
+                'experiments/corpus_attack/README.md#source-fit',
+            'docs/historical-studies/what-retreat-cost.md#a-remittance-was-not-yet-a-payout':
+                'docs/historical-studies/cash-procurement-liquidation.md#a-remittance-was-not-yet-a-payout',
+        }
+        for old, new in expected.items():
+            self.assertEqual(sources.page_target(old, root=self.root), new)
 
 
 if __name__ == '__main__':

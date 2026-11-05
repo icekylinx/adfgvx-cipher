@@ -31,6 +31,27 @@ DATA_TARGETS = {
 }
 
 
+RENAMED_PUBLIC_PATHS = {
+    "docs/historical-studies/an-army-trying-to-get-home.md": "docs/historical-studies/withdrawal-transit-internment.md",
+    "docs/historical-studies/black-sea-network.md": "docs/historical-studies/black-sea-shipping.md",
+    "docs/historical-studies/what-retreat-cost.md": "docs/historical-studies/cash-procurement-liquidation.md",
+    "docs/historical-studies/voices-on-the-wireless.md": "docs/historical-studies/radio-authority-personnel.md",
+    "docs/historical-studies/transport-and-demobilisation.md": "docs/historical-studies/transport-demobilisation.md",
+    "experiments/corpus_attack/SOURCE_FAMILIES.md": "experiments/corpus_attack/README.md",
+    "experiments/joint_search/PROVENANCE.md": "experiments/joint_search/provenance.md",
+    "experiments/known_key/P170_TRUNCATION_NOTE.md": "experiments/known_key/p170-truncation.md",
+    "experiments/open_targets/HELDOUT_CONTROLS.md": "experiments/open_targets/held-out-controls.md",
+    "experiments/open_targets/P73_HISTOGRAM.md": "experiments/open_targets/p73-histogram.md",
+    "experiments/p116_optional_route_fragment/APPROVAL.md": "experiments/p116_optional_route_fragment/approval-request.md",
+    "experiments/p116_optional_route_fragment/FOOTER.md": "experiments/p116_optional_route_fragment/footer.md",
+    "experiments/p170_new_methods/lasry_attribution_audit.md": "experiments/p170_new_methods/lasry-attribution-audit.md",
+    "experiments/p198_letter_bounds/CATEGORY_BOUNDS.md": "experiments/p198_letter_bounds/category-bounds.md",
+    "experiments/p73_primary_followup/ARCHIVE_ACCESS.md": "experiments/p73_primary_followup/archive-access.md",
+    "docs/historical-showcase.md": "README.md#selected-discoveries-and-methods",
+    "cases/pages/050-074/README.md": "pages/056-074/README.md",
+    "cases/pages/225-249/README.md": "pages/225-230/README.md"
+}
+
 @lru_cache(maxsize=8)
 def _load_archive(filename, modified, size):
     data = json.loads(Path(filename).read_text(encoding='utf-8'))
@@ -117,6 +138,12 @@ def page_target(legacyref, catalogue=None, root=ROOT):
     editions, aliases, public_targets = _archive(root)
     key = posixpath.normpath(unquote(parsed.path))
     fragment = unquote(parsed.fragment)
+    moved = RENAMED_PUBLIC_PATHS.get(key)
+    if moved is None and key.startswith('cases/pages/'):
+        moved = 'pages/' + key[len('cases/pages/'):]
+    if moved is not None:
+        target = urlsplit(moved)
+        return urlunsplit(('', '', target.path, parsed.query, target.fragment or fragment))
     if key in GUIDE_TARGETS or key in DATA_TARGETS:
         destination = (GUIDE_TARGETS if key in GUIDE_TARGETS else DATA_TARGETS)[key]
         if key == 'cases/README.md':
@@ -160,7 +187,7 @@ def page_target(legacyref, catalogue=None, root=ROOT):
     anchor = 'edition-' + re.sub(r'[^a-z0-9-]', '-', key[:-3].lower()).strip('-')
     if fragment:
         anchor += '-' + fragment
-    return urlunsplit(('', '', f'cases/pages/{min(pages):03d}.md', parsed.query, anchor))
+    return urlunsplit(('', '', f'pages/{min(pages):03d}.md', parsed.query, anchor))
 
 
 def materialize_editions(root=ROOT):

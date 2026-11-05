@@ -4,7 +4,7 @@
 
 The public edition offers two reading routes. The home page's eight page ranges
 lead to page-number tables and then to the complete editions at
-`cases/pages/NNN.md`. Six [subject guides](topics/README.md) offer 50 curated
+`pages/NNN.md`. Six [subject guides](topics/README.md) offer 50 curated
 summaries whose source links open those same numbered pages directly.
 Historical studies connect the sources through research questions, chronology
 and external evidence.
@@ -28,7 +28,7 @@ its READING, PARTIAL, CONDITIONAL or OPEN state. Improvements update the
 existing source entry. A new edition needs a canonical archive entry and
 the appropriate catalogue association; it does not need a standalone case
 page. For public citations, use the numbered page and its source anchor,
-such as `cases/pages/165.md#source-p165-a1`.
+such as `pages/165.md#source-p165-a1`.
 
 Curated topic sections, summaries and source selections live in
 `data/topic_exploration.json`. Reference catalogue `source_ids` so that the
@@ -46,6 +46,11 @@ python -m adfgvx.catalog --check
 python -m adfgvx.navigation --check
 python -m adfgvx.page_editions --check
 ```
+
+Documentation filenames use lowercase words separated by hyphens; `README.md`
+is the standard directory entry point. Update links and current package
+inventories when moving a document. Verify their recorded paths and hashes with
+`python data/reviews/check_package_inventories.py`.
 
 ## Preserve evidence and attribution
 

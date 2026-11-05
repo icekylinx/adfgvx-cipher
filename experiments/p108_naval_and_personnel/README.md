@@ -7,8 +7,8 @@ under the unchanged published **Nov1–3** key. A is a separate naval inquiry;
 B1/B2 form a source-labeled two-part personnel message. They are not joined
 merely because they appear on the same page.
 
-Read the [naval inquiry](../../cases/pages/108.md#edition-cases-radio-naval-arrival-inquiry) and the
-[personnel order](../../cases/pages/108.md#edition-cases-people-rudolf-discharge). All raw and edited
+Read the [naval inquiry](../../pages/108.md#edition-cases-radio-naval-arrival-inquiry) and the
+[personnel order](../../pages/108.md#edition-cases-people-rudolf-discharge). All raw and edited
 streams, references, abbreviations and repeated names are preserved.
 
 ## Two distinct source problems

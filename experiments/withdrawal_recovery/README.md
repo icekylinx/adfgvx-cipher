@@ -71,7 +71,7 @@ conditional editions re-encrypt exactly. The arbitrary remaining-coordinate
 fills in a witness are expressly not proposed plaintext.
 
 Add `--pdf /path/to/childs.pdf` to verify the complete inspected scan's hash.
-The focused crops are retained in [`sources/`](sources/).
+The focused crops are retained in [`sources/`](sources).
 
 ## Credit
 

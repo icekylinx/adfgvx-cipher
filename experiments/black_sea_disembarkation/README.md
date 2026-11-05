@@ -8,7 +8,7 @@ All four A2/B repairs have direct coordinate-pair witnesses in the other receive
 
 An earlier unreviewed A1 candidate already read the body and was included in frozen p73 retrieval inputs. Earlier A2/B candidates lacked the first printed rows and did not read coherently; all prior candidates and bounded attribution checks are retained. The new contribution is the complete source edition, A2/B readings and exact witness/repair accounting, without a universal priority claim.
 
-See [the readable case](../../cases/pages/098.md#edition-cases-military-black-sea-disembarkation), `inputs.json`, `prior_candidates.json`, `certificates.json` and `catalog_proposal.json`. The three crops include full PDF page/rectangle/scale/hash provenance.
+See [the readable case](../../pages/098.md#edition-cases-military-black-sea-disembarkation), `inputs.json`, `prior_candidates.json`, `certificates.json` and `catalog_proposal.json`. The three crops include full PDF page/rectangle/scale/hash provenance.
 
 From the repository root:
 

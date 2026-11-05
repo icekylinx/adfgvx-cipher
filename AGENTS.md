@@ -10,13 +10,13 @@ The public edition has two reading routes:
 
 - **By printed page:** the home page offers eight page ranges. Each range
   opens a page-number table, and each number opens its complete
-  `cases/pages/NNN.md` edition. Preserve all 175 printed pages.
+  `pages/NNN.md` edition. Preserve all 175 printed pages.
 - **By subject:** six guides under `topics/` contain 50 curated summaries. Each summary
   links its physical source identifiers directly to the complete numbered
   page editions. Historical studies develop arguments across those sources.
 
 Keep the home page concise. There is no separate public case-view layer.
-Keep `cases/` limited to the printed-page tree. Do not recreate standalone
+Keep complete source editions under `pages/`. Do not recreate standalone
 case pages or compatibility stubs as navigation steps. Preserve German readings, English interpretations, source
 explanations and technical evidence within the full page editions.
 

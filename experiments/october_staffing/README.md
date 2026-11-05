@@ -19,12 +19,12 @@ Source review and certificates: **icekylinx and GPT-6 Astra Pro**. The earlier
 key is credited to **J. Rives Childs**, **George Lasry**, and the
 **Lasry–Niebel–Kopal–Wacker** research, as recorded in [inputs.json](inputs.json).
 This is a source edition under a known key, with no first historical
-decipherment or new key claim. The broader [p73 challenge](../../cases/pages/073.md#edition-cases-p73)
+decipherment or new key claim. The broader [p73 challenge](../../pages/073.md#edition-cases-p73)
 remains open.
 
 ## Readings and arithmetic
 
-The [case note](../../cases/pages/066.md#edition-cases-caucasus-october-staffing) gives the German readings,
+The [case note](../../pages/066.md#edition-cases-caucasus-october-staffing) gives the German readings,
 headers, translations and qualifications. All records use exactly the printed
 coordinate frame; there is no insertion, deletion, guessed length or changed
 transposition order.

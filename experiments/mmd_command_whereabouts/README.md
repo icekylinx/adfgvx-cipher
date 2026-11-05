@@ -4,7 +4,7 @@
 
 A complete native short message asks whether a command or representative is present. MMD and the final reference remain literal. The proposed A in KOMMANDO costs an observed-coordinate change; the separate Y-like source glyph stays masked and unresolved.
 
-Read the [complete source edition](../../cases/pages/190.md#edition-cases-naval-mmd-command-whereabouts).
+Read the [complete source edition](../../pages/190.md#edition-cases-naval-mmd-command-whereabouts).
 
 | Scope | Count |
 | --- | ---: |

@@ -16,7 +16,7 @@ and permits plural `LEITUNGEN`; the 284-coordinate model permits singular
 `LEITUNGX`. Both are explicitly retained. No claim of a uniquely recovered
 length or complete plaintext follows from the fluent clause.
 
-[Read the edition](../../cases/pages/163.md#edition-cases-military-p163-infrastructure-clause) ·
+[Read the edition](../../pages/163.md#edition-cases-military-p163-infrastructure-clause) ·
 [Inputs and source identity](inputs.json) ·
 [Exact certificates](certificates.json) · [Verifier](verify.py)
 

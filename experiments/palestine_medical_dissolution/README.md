@@ -4,7 +4,7 @@ Prepared by **icekylinx and GPT-6 Astra Pro**, using unchanged published period 
 
 This package adds **2 physical source records, 598 native coordinate slots and 299 plaintext positions**. Raw fixed positions: 298; edited fixed positions: 299. Exact costs: 0 observed-coordinate substitutions and 1 source-mask fills. No coordinates are inserted, deleted or reordered; no baseline key or numeral assignment changes.
 
-See [the complete case](../../cases/pages/079.md#edition-cases-military-palestine-medical-dissolution). `inputs.json` preserves manual rows, original headers, invalid glyphs and all crop-rendering metadata. `prior_evidence.json` pins the earlier source package and credits the fixed copy-retrieval lead and unreviewed candidates. Existing source records and costs are unchanged.
+See [the complete case](../../pages/079.md#edition-cases-military-palestine-medical-dissolution). `inputs.json` preserves manual rows, original headers, invalid glyphs and all crop-rendering metadata. `prior_evidence.json` pins the earlier source package and credits the fixed copy-retrieval lead and unreviewed candidates. Existing source records and costs are unchanged.
 
 ```bash
 python experiments/palestine_medical_dissolution/verify.py --verify

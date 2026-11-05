@@ -2,7 +2,7 @@
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
-[Read the source edition](../../cases/pages/158.md#edition-cases-military-nov8-serbian-cavalry-parallel).
+[Read the source edition](../../pages/158.md#edition-cases-military-nov8-serbian-cavalry-parallel).
 
 p158 E1 is a new physical witness to the previously edited p170 B1 report.
 It has **235 native source coordinates**, including a four-character

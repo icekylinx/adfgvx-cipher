@@ -66,12 +66,12 @@ the `Nov13-15a DG` transfer layer.
 
 ## Readings and reproduction
 
-See the [case study](../../cases/pages/199.md#edition-cases-naval-black-sea-shipping) for complete raw
+See the [case study](../../pages/199.md#edition-cases-naval-black-sea-shipping) for complete raw
 texts and their meanings. `inputs.json` has the literal source rows, headers,
 crop positions and explicitly declared editorial candidates.
 `certificates.json` gives all source indices, domains, geometric alternatives
 and repair operations. The existing
-[p120/p123 case](../../cases/pages/120.md#edition-cases-naval-p120-p123) is related correspondence,
+[p120/p123 case](../../pages/120.md#edition-cases-naval-p120-p123) is related correspondence,
 not a duplicate of the new p199 message.
 
 ```bash

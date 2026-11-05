@@ -1,6 +1,6 @@
 # Reading the edition
 
-[By page](../cases/pages/README.md) · [By subject](../topics/README.md) · [Historical studies](historical-studies/README.md) · [Methods](methods.md)
+[By page](../pages/README.md) · [By subject](../topics/README.md) · [Historical studies](historical-studies/README.md) · [Methods](methods.md)
 
 Each physical source has one catalogue entry. A source edition may assemble
 several transmissions or successive parts while preserving their separate
@@ -8,7 +8,7 @@ identifiers. Readers reach the complete editions through two routes:
 
 | Route | Purpose |
 | --- | --- |
-| [Printed pages](../cases/pages/README.md) | The home page offers eight ranges. Each opens a page-number table leading to the complete edition of a printed page. |
+| [Printed pages](../pages/README.md) | The home page offers eight ranges. Each opens a page-number table leading to the complete edition of a printed page. |
 | [Subject exploration](../topics/README.md) | Six guides contain 50 curated summaries, each linking its sources directly to the complete numbered pages. |
 
 Historical studies develop arguments across those sources. Their links also
@@ -121,7 +121,7 @@ historical argument establish why that particular reconstruction is credible.
 
 Unknown square cells are globally coupled: one cell has one value, and two
 cells cannot independently take the same symbol. The linked date and serial
-fields in [p153](../cases/pages/153.md#source-p153a) illustrate why replacing every unknown by
+fields in [p153](../pages/153.md#source-p153a) illustrate why replacing every unknown by
 an unrelated question mark loses evidence.
 
 Keep transmitted repetitions, abbreviations, unusual spellings and numerical

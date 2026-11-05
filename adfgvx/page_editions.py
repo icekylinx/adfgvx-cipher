@@ -404,14 +404,14 @@ def rows_by_page(catalogue, locations):
 
 def render_page(page, rows, all_rows, locations, originals, previous=None, following=None,
                 catalogue=None, root=ROOT):
-    destination = f'cases/pages/{page:03d}.md'
+    destination = f'pages/{page:03d}.md'
     groups = {}
     for row in rows:
         groups.setdefault(row['path'].split('#')[0], []).append(row)
     included = {path: case_anchor(path) for path in groups}
-    links = ['[Page ranges](README.md)', '[By subject](../../topics/README.md)',
-             '[Historical research](../../docs/historical-studies/README.md)',
-             '[Reading conventions](../../docs/reading-conventions.md)']
+    links = ['[Page ranges](README.md)', '[By subject](../topics/README.md)',
+             '[Historical research](../docs/historical-studies/README.md)',
+             '[Reading conventions](../docs/reading-conventions.md)']
     if previous is not None:
         links.append(f'[← p{previous}]({previous:03d}.md)')
     if following is not None:
@@ -467,7 +467,7 @@ def generate(catalogue, root=ROOT, locations=None):
     for index, page in enumerate(numbers):
         previous = numbers[index - 1] if index else None
         following = numbers[index + 1] if index + 1 < len(numbers) else None
-        result[root / f'cases/pages/{page:03d}.md'] = render_page(
+        result[root / f'pages/{page:03d}.md'] = render_page(
             page, pages[page], all_rows, locations, originals, previous, following, catalogue, root)
     return result
 
@@ -521,7 +521,7 @@ def main():
     catalogue = load_catalog()
     generated = generate(catalogue)
     summary = validate(generated, catalogue)
-    current = {path for path in (ROOT / 'cases/pages').glob('[0-9][0-9][0-9].md')
+    current = {path for path in (ROOT / 'pages').glob('[0-9][0-9][0-9].md')
                if GENERATED in path.read_text()}
     assert not current - generated.keys(), 'Obsolete generated page editions remain'
     if args.check:

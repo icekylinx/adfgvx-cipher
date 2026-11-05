@@ -2,7 +2,7 @@
 
 Research and source edition: **icekylinx and GPT-6 Astra Pro**.
 
-[Read the source edition](../../cases/pages/182.md#edition-cases-radio-nov12-seifert-additional-witnesses).
+[Read the source edition](../../pages/182.md#edition-cases-radio-nov12-seifert-additional-witnesses).
 
 Two new physical records, p182 A/C, extend already deciphered Seifert-service
 families. Their independent p174/p183 raw sources supply the target coordinates;

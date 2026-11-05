@@ -16,10 +16,10 @@ class PageEditionTests(unittest.TestCase):
         self.temp = TemporaryDirectory(prefix='adfgvx-page-editions-')
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
-        for directory in ('data', 'cases/pages', 'experiments/example', 'sources', 'docs',
+        for directory in ('data', 'pages', 'experiments/example', 'sources', 'docs',
                           'docs/historical-studies', 'topics'):
             (self.root / directory).mkdir(parents=True)
-        for path in ('cases/pages/README.md', 'topics/README.md', 'docs/reading-conventions.md',
+        for path in ('pages/README.md', 'topics/README.md', 'docs/reading-conventions.md',
                      'docs/historical-studies/README.md'):
             (self.root / path).write_text('# Index\n')
         (self.root / 'sources/cipher.png').write_bytes(b'fixture-image')
@@ -61,7 +61,7 @@ class PageEditionTests(unittest.TestCase):
         return editions.generate(self.catalogue, self.root, self.locations)
 
     def test_complete_contents_are_embedded_once_per_case_per_page(self):
-        text = self.build()[self.root / 'cases/pages/056.md']
+        text = self.build()[self.root / 'pages/056.md']
         self.assertEqual(text.count('English interpretation retained in full.'), 1)
         self.assertIn('> German reading.', text)
         self.assertIn('AD?FGX\n# Not a heading\n[Not a link](missing-file.md)', text)
@@ -75,7 +75,7 @@ class PageEditionTests(unittest.TestCase):
 
     def test_source_and_duplicate_heading_links_are_namespaced(self):
         generated = self.build()
-        text = generated[self.root / 'cases/pages/056.md']
+        text = generated[self.root / 'pages/056.md']
         first, second = editions.case_anchor(self.first), editions.case_anchor(self.second)
         self.assertIn('[p56 A](#source-p56-a)', text)
         self.assertNotIn('[Case]', text)
@@ -87,14 +87,14 @@ class PageEditionTests(unittest.TestCase):
         self.assertIn(f'[Repeated heading](#{first}-evidence-1)', text)
         self.assertIn(f'<a id="{first}-legacy-title"></a>', text)
         self.assertIn('[External](https://example.org/x#keep)', text)
-        self.assertIn('![Cipher](../../sources/cipher.png)', text)
+        self.assertIn('![Cipher](../sources/cipher.png)', text)
         self.assertIn('[Page ranges](README.md)', text)
-        self.assertIn('[By subject](../../topics/README.md)', text)
+        self.assertIn('[By subject](../topics/README.md)', text)
         summary = editions.validate(generated, self.catalogue, self.root, self.locations)
         self.assertEqual((summary['pages'], summary['sources']), (2, 3))
 
     def test_nonembedded_case_link_opens_its_page_edition(self):
-        text = self.build()[self.root / 'cases/pages/057.md']
+        text = self.build()[self.root / 'pages/057.md']
         self.assertIn('[Other](056.md#edition-cases-radio-second-evidence)', text)
         self.assertNotIn('../radio/second.md', text)
 
@@ -106,7 +106,7 @@ class PageEditionTests(unittest.TestCase):
                                           self.locations)['sources'], 3)
 
     def test_only_generic_leading_navigation_is_omitted(self):
-        text = self.build()[self.root / 'cases/pages/056.md']
+        text = self.build()[self.root / 'pages/056.md']
         self.assertNotIn('[All cases](../README.md)', text)
         self.assertEqual(text.count('[Reading conventions]'), 1)
         mixed = '[Case guide](../README.md) · [Source image](../../sources/cipher.png)\n'
@@ -116,14 +116,14 @@ class PageEditionTests(unittest.TestCase):
 
     def test_repeated_or_wrong_page_source_anchor_is_rejected(self):
         generated = self.build()
-        path = self.root / 'cases/pages/057.md'
+        path = self.root / 'pages/057.md'
         generated[path] += '\n<a id="source-p56-b"></a>\n'
         with self.assertRaisesRegex(AssertionError, 'Wrong printed page'):
             editions.validate(generated, self.catalogue, self.root, self.locations)
 
     def test_missing_image_and_broken_section_are_rejected(self):
         generated = self.build()
-        path = self.root / 'cases/pages/056.md'
+        path = self.root / 'pages/056.md'
         generated[path] += '\n[Broken](#missing-heading)\n'
         with self.assertRaisesRegex(AssertionError, 'Missing anchor'):
             editions.validate(generated, self.catalogue, self.root, self.locations)
@@ -134,23 +134,23 @@ class PageEditionTests(unittest.TestCase):
 
     def test_rebase_keeps_queries_and_angle_brackets(self):
         target = editions.rebase_target('<../../experiments/example/README.md?raw=1#check>',
-                                        self.first, 'cases/pages/056.md', {})
-        self.assertEqual(target, '<../../experiments/example/README.md?raw=1#check>')
+                                        self.first, 'pages/056.md', {})
+        self.assertEqual(target, '<../experiments/example/README.md?raw=1#check>')
 
     def test_home_page_opens_ranges_and_range_opens_full_pages(self):
         pages = {page: {'challenge': [], 'other': []} for page in (56, 57, 75, 230)}
         text = catalog.render(self.catalogue, catalog.ROOT / 'README.md', pages=pages)
-        self.assertIn('cases/pages/050-074/README.md', text)
-        self.assertIn('cases/pages/075-099/README.md', text)
-        self.assertIn('cases/pages/225-249/README.md', text)
-        self.assertNotIn('cases/pages/056.md', text)
+        self.assertIn('pages/056-057/README.md', text)
+        self.assertIn('pages/075-075/README.md', text)
+        self.assertIn('pages/230-230/README.md', text)
+        self.assertNotIn('pages/056.md', text)
         band = catalog.render_band(self.catalogue, pages, 50)
         self.assertIn('[56](../056.md)', band)
         self.assertIn('[57](../057.md)', band)
         self.assertNotIn('[p56](#p56)', band)
 
     def test_current_sections_precede_comparisons_and_keep_every_block(self):
-        text = self.build()[self.root / 'cases/pages/057.md']
+        text = self.build()[self.root / 'pages/057.md']
         self.assertLess(text.index('### p57 A'), text.index('### p56 A'))
         self.assertLess(text.index('Companion source and explanation.'),
                         text.index('<summary>Comparative source sections'))
@@ -159,7 +159,7 @@ class PageEditionTests(unittest.TestCase):
             self.assertEqual(text.count(phrase), 1)
         self.assertIn('[Repeated heading](#edition-cases-radio-first-evidence-1)', text)
         prefix = editions.case_anchor(self.first)
-        _, before = editions.embed_case(self.original, self.first, 'cases/pages/057.md',
+        _, before = editions.embed_case(self.original, self.first, 'pages/057.md',
                                          {self.first: prefix}, self.catalogue, self.root)
         after = editions.focus_page_sections(before, 57, self.first,
                                               self.catalogue['other'], self.locations)
@@ -176,7 +176,7 @@ class PageEditionTests(unittest.TestCase):
             '<details>\n<summary>Raw evidence</summary>\n\n'
             '```text\n### p57 A\nADF?GX\n```\n\n</details>\n')
         self.catalogue['other'][0]['path'] = self.first + '#readiness'
-        text = self.build()[self.root / 'cases/pages/056.md']
+        text = self.build()[self.root / 'pages/056.md']
         comparative = text.index('<summary>Comparative source sections')
         for phrase in ('Retain the complete gap explanation.', 'Shared argument before the reading.',
                        '> Recovered readiness clause.', '```text\n### p57 A\nADF?GX\n```'):

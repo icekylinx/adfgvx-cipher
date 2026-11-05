@@ -14,7 +14,7 @@ minima at 14 substitutions. The earlier p121 B1 directly reads
 recorded in the extended certificate. This supports a name reading without
 establishing a common personal identity.
 
-[Read the fragment](../../cases/pages/167.md#edition-cases-people-p167-captain-dispatch-fragment)
+[Read the fragment](../../pages/167.md#edition-cases-people-p167-captain-dispatch-fragment)
 · [Inputs](inputs.json) · [Certificate](certificates.json).
 
 The 187-slot source has 183 valid coordinates, invalid C/W and two dashes.

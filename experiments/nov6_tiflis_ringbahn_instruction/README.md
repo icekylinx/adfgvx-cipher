@@ -4,7 +4,7 @@
 
 Childs p146 section C contains a differently worded two-part witness of the
 November/December Ringbahn key schedule. Read the
-[complete edition](../../cases/pages/146.md#edition-cases-radio-nov6-tiflis-ringbahn-instruction).
+[complete edition](../../pages/146.md#edition-cases-radio-nov6-tiflis-ringbahn-instruction).
 
 | Scope | Count |
 | --- | ---: |

@@ -6,7 +6,7 @@ This edition covers six physical parts on Childs printed p184 (PDF page 187): B1
 
 The useful restoration is **B2's missing five-coordinate group `DXDVA`**. The source advertises 192 coordinates but prints 187. An alignment containing 92 directly readable positions from the uncorrected C2 body singles out gap 35, before the eighth printed group, among all 188 possible placements of one contiguous five-coordinate gap. It restores five plaintext letters with **zero changes to observed B2 coordinates**. The uniqueness claim is conditional on this explicit gap model and alignment.
 
-The [reading edition](../../cases/pages/184.md#edition-cases-military-hungary-transport-warning) gives all six raw strings, the conservative candidates and the source differences. The principal evidence is [inputs.json](inputs.json), [certificates.json](certificates.json), and the [source crops](sources/).
+The [reading edition](../../pages/184.md#edition-cases-military-hungary-transport-warning) gives all six raw strings, the conservative candidates and the source differences. The principal evidence is [inputs.json](inputs.json), [certificates.json](certificates.json), and the [source crops](sources).
 
 ## Shared origin and reception differences
 

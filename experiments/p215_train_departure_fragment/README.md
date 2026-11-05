@@ -1,6 +1,6 @@
 # p215 B1: conditional train-departure fragment
 
-**icekylinx and GPT-6 Astra Pro** · [Read the partial edition](../../cases/pages/215.md#edition-cases-military-p215-train-departure-fragment)
+**icekylinx and GPT-6 Astra Pro** · [Read the partial edition](../../pages/215.md#edition-cases-military-p215-train-departure-fragment)
 
 The original prints 145 coordinate slots against an advertised 220 and marks
 missing groups after the first ten. The resulting conditional frame fixes

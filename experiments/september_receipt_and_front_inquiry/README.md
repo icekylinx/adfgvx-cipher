@@ -43,8 +43,8 @@ above or the catalog proposal.
   search of the paper, thesis and cached comments is not priority evidence.
 - [Catalog proposal](catalog_proposal.json) contains exactly the two physical
   ciphertext records. The parent integration process owns the shared catalog.
-- The readable editions are [Kress receipt](../../cases/pages/058.md#edition-cases-finance-kress-money-receipt)
-  and [Nazareth inquiry](../../cases/pages/059.md#edition-cases-radio-nazareth-front-inquiry).
+- The readable editions are [Kress receipt](../../pages/058.md#edition-cases-finance-kress-money-receipt)
+  and [Nazareth inquiry](../../pages/059.md#edition-cases-radio-nazareth-front-inquiry).
 
 From the repository root:
 

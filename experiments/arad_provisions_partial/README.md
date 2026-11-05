@@ -2,7 +2,7 @@
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
-[Read the complete source edition](../../cases/pages/159.md#edition-cases-military-arad-provisions-partial).
+[Read the complete source edition](../../pages/159.md#edition-cases-military-arad-provisions-partial).
 
 p159 A has **271 native valid coordinates**, repeated `VDAGG` and `FFXDF`
 groups, and a short `GDDA` group. The conditional model excludes **10 valid

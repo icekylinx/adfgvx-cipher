@@ -11,7 +11,7 @@ priced coordinate substitutions produce the optional ordinary-word edition
 below. Its total declared cost is **two source exclusions plus three observed
 substitutions**, with no inserted coordinates, fills or changed key.
 
-This is a separate proposal. The [primary p105 case](../../cases/pages/105.md#edition-cases-p105),
+This is a separate proposal. The [primary p105 case](../../pages/105.md#edition-cases-p105),
 Norbert's 2017 reading and Max Baertl's proposed words remain intact. The new
 work concerns source accounting, competing geometries and the conditional
 cost of the reading. It does not claim the first decipherment of this message.

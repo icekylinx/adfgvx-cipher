@@ -8,7 +8,7 @@ already received on p145 and p211. The matching `2230 (6/11)` header,
 This edition restores the truncated reception through an explicit
 copy-origin map and retains its disagreements.
 
-[Read the source edition](../../cases/pages/187.md#edition-cases-radio-nov13-ringbahn-retransmission)
+[Read the source edition](../../pages/187.md#edition-cases-radio-nov13-ringbahn-retransmission)
 · [Source and assumptions](inputs.json)
 · [Per-position certificate](certificates.json)
 · [Original PDF, p190](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view)

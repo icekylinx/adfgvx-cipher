@@ -8,7 +8,7 @@ separately excludes source 28 `D` from the six-character `VDFDVD` group and
 adds 45 unknown prefix slots. The complete 118-coordinate transcription stays
 unchanged. All 20 newly fixed word positions have one observed half-coordinate.
 
-- [Source edition and readable excerpts](../../cases/pages/154.md#edition-cases-military-p154-weisskirchen-fragment)
+- [Source edition and readable excerpts](../../pages/154.md#edition-cases-military-p154-weisskirchen-fragment)
 - [Exact input and frame](inputs.json)
 - [Coordinate domains, repairs and complete witnesses](certificates.json)
 - [Search scope and fresh controls](search_provenance.json)

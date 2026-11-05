@@ -18,7 +18,7 @@ not determine the second place. Four newly supplied plaintext positions
 have neither coordinate observed.
 
 [Inputs](inputs.json) · [Exact certificates](certificates.json) ·
-[Verifier](verify.py) · [Earlier edition](../../cases/pages/176.md#edition-cases-military-p176-coal-train-fragment)
+[Verifier](verify.py) · [Earlier edition](../../pages/176.md#edition-cases-military-p176-coal-train-fragment)
 
 ## Raw and conditional edited output
 

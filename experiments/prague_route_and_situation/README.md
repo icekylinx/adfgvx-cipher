@@ -1,6 +1,6 @@
 # Upper p211: Oderberg fragment and troop-situation query
 
-Prepared by **icekylinx and GPT-6 Astra Pro**. Published **Nov19–21** key and earlier research retain their separate credit. See the [readable source edition](../../cases/pages/211.md#edition-cases-military-prague-route-and-situation).
+Prepared by **icekylinx and GPT-6 Astra Pro**. Published **Nov19–21** key and earlier research retain their separate credit. See the [readable source edition](../../pages/211.md#edition-cases-military-prague-route-and-situation).
 
 This package adds two physical source records, both with native, even-length frames:
 

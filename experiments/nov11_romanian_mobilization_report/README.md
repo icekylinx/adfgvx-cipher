@@ -2,7 +2,7 @@
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
-[Read the source edition](../../cases/pages/180.md#edition-cases-military-nov11-romanian-mobilization-report).
+[Read the source edition](../../pages/180.md#edition-cases-military-nov11-romanian-mobilization-report).
 
 Printed p180 B2 contains 235 native slots (233 valid, two dashes), advertises
 RICHI-240 and ends with “(jammed to end)”. Its conditional terminal-five-slot

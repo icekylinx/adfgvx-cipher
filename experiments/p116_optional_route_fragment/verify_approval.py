@@ -159,7 +159,7 @@ def main():
     parser.add_argument('--pdf', type=Path)
     args=parser.parse_args()
     result=compute()
-    display=(HERE/'APPROVAL.md').read_text()
+    display=(HERE/'approval-request.md').read_text()
     assert re.findall(r'```text\n(.*?)\n```', display, flags=re.S)==[result['primary']['plaintext']]
     quotation=''.join(line[2:] for line in display.splitlines() if line.startswith('> '))
     assert re.sub(r'[^A-Z0-9?]', '', quotation.upper())==result['primary']['plaintext']

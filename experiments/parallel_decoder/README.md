@@ -45,7 +45,7 @@ The complete ranked results are in [p109_results.json](p109_results.json).
 [p109_summary.json](p109_summary.json) contains exact counts, phrase costs,
 agreement intervals, best-at-most-budget choices, and all reported
 occurrences of the phrase probes.
-For the historical reading, see [the p109 case](../../cases/pages/109.md#edition-cases-p109).
+For the historical reading, see [the p109 case](../../pages/109.md#edition-cases-p109).
 
 ## The source model
 

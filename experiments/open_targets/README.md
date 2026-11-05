@@ -14,7 +14,7 @@ Under the published **Nov7–9** square, p73's 26 observed `F` coordinates requi
 
 Two held-out German war books put p73 beyond every reference window under both remaining 5/6 assignments and both joined-text and sentence-`X` conventions. The independently readable p155 A1 message falls inside those same reference ranges. A word-`X` convention fails that positive control and is explicitly retained as a failed sensitivity check.
 
-This evidence lowers the priority of Nov7–9 reuse under the tested ordinary-German prose assumptions. It does not identify a replacement key or exclude names, digits, code groups, a different language, or additional source damage. See the [full coordinate-count report](P73_HISTOGRAM.md), including source URLs, assumptions, and descriptive reference fractions.
+This evidence lowers the priority of Nov7–9 reuse under the tested ordinary-German prose assumptions. It does not identify a replacement key or exclude names, digits, code groups, a different language, or additional source damage. See the [full coordinate-count report](p73-histogram.md), including source URLs, assumptions, and descriptive reference fractions.
 
 ![p73 known coordinate counts and held-out reference means](p73_coordinate_profile.svg)
 
@@ -27,7 +27,7 @@ column direction and unresolved digit assignments. No 53-character window in
 either pinned German reference book meets them under joined or sentence-X
 normalization; two unrestored operational references also exceed them.
 
-The [case explanation](../../cases/pages/170.md#edition-cases-p170-coordinate-count-constraint-for-a-complete-body)
+The [case explanation](../../pages/170.md#edition-cases-p170-coordinate-count-constraint-for-a-complete-body)
 gives the equations and limits. The compact [evidence record](p170_coordinate_budget.json)
 is reproduced by `python experiments/open_targets/p170_coordinate_budget.py`;
 add `--cache /path/to/heldout-books` to recompute all reference windows.
@@ -46,7 +46,7 @@ The five-separate-loss experiment finds a wrong CHI13 control geometry that scor
 
 Two further controls remove every square anchor. They fail despite substantial configured budgets. One component method even receives the correct long/short column segmentation. Its planted text scores better than its returned text, so those trials demonstrate optimizer failure. They were not scaled into a historical campaign or used to exclude a historical key.
 
-Held-out rescoring adds another warning: the wrong Nov13b joint-quad optimum outranks the planted text under **both independent reference books**, for quadgrams, six-grams, and their 30/70 mixture, with every tested separator convention. The CHI13 wrong incumbent is rejected by both mixed held-out models. See [the diagnostic](HELDOUT_CONTROLS.md). Stronger n-grams or a changed training book alone do not supply an acceptance rule.
+Held-out rescoring adds another warning: the wrong Nov13b joint-quad optimum outranks the planted text under **both independent reference books**, for quadgrams, six-grams, and their 30/70 mixture, with every tested separator convention. The CHI13 wrong incumbent is rejected by both mixed held-out models. See [the diagnostic](held-out-controls.md). Stronger n-grams or a changed training book alone do not supply an acceptance rule.
 
 ## Completed search coverage
 
@@ -157,7 +157,7 @@ python experiments/open_targets/run_sparse.py \
   --verify experiments/open_targets/unknown_square_control.json
 ```
 
-The [histogram report](P73_HISTOGRAM.md) and [held-out-control diagnostic](HELDOUT_CONTROLS.md) give their independent source rebuild commands. Binary language models and full books are not committed here.
+The [histogram report](p73-histogram.md) and [held-out-control diagnostic](held-out-controls.md) give their independent source rebuild commands. Binary language models and full books are not committed here.
 
 ### Replay a search
 
@@ -185,8 +185,8 @@ Runtime and binary identity can vary by compiler or platform. Frozen record inpu
 
 - `*_results.json`, `anchored_snapshot.json`, and `*_control*.json` retain immutable search inputs, candidates, budgets, and calibration outcomes.
 - `verify_light.py` supplies a model-free arithmetic and scope check; the individual wrappers and `collect_results.py` perform full score verification.
-- `P73_HISTOGRAM.md`, its result and SVG document the coordinate invariant and its independent references.
-- `HELDOUT_CONTROLS.md`, `joint_control_inputs.json`, and `heldout_control_scores.json` document post-hoc objective diagnostics without optimizing against the new books.
+- `p73-histogram.md`, its result and SVG document the coordinate invariant and its independent references.
+- `held-out-controls.md`, `joint_control_inputs.json`, and `heldout_control_scores.json` document post-hoc objective diagnostics without optimizing against the new books.
 - [MANIFEST.json](MANIFEST.json) lists the package's committed source/data artifacts and their byte hashes; generated binaries, cache directories, and the manifest itself are excluded.
 
 All source additions in this package retain the project's Apache-2.0 license and the joint credit **icekylinx and GPT-6 Astra Pro**. Historical/source authorship remains attributed to its original sources. No exact search bound or failed control is used to claim that p73, p170, or p198 D has no solution under a broader untested model.

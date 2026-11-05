@@ -2,7 +2,7 @@
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. **p198 remains open.**
 
-The [p126 A5 source edition](../../cases/pages/125.md#edition-cases-military-armistice-transit-planning-a5-conditional-recovery-of-the-odd-frame)
+The [p126 A5 source edition](../../pages/125.md#edition-cases-military-armistice-transit-planning-a5-conditional-recovery-of-the-odd-frame)
 motivates a distinct error mechanism: a coordinate may have disappeared
 from the fractionated stream **before** the sender transposed it. The
 source has a printed and observed length of 267, a readable opening and a

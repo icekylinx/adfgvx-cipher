@@ -4,7 +4,7 @@
 
 The 160 coordinates printed as p212 A2 are a close copy of the beginning of the already edited 284-coordinate p218 A2. **157 of the 160 source glyphs are identical**; two valid coordinates disagree and p212 supplies one coordinate where p218 has a printed dash. This identifies a strong source relationship that the earlier date-based screen missed.
 
-The relationship is preserved in a new, independent package. The earlier medical and p218 source data and certificates remain unchanged. The [reading edition](../../cases/pages/212.md#edition-cases-caucasus-p212-p218-crosscopy), [inputs](inputs.json), [certificates](certificates.json) and [source crops](sources/) distinguish the literal fragment, the borrowed tail and the remaining ordinary-word correction.
+The relationship is preserved in a new, independent package. The earlier medical and p218 source data and certificates remain unchanged. The [reading edition](../../pages/212.md#edition-cases-caucasus-p212-p218-crosscopy), [inputs](inputs.json), [certificates](certificates.json) and [source crops](sources) distinguish the literal fragment, the borrowed tail and the remaining ordinary-word correction.
 
 ## The date and message-assembly conflict is unresolved
 

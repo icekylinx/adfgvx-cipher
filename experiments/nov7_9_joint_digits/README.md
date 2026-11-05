@@ -3,9 +3,9 @@
 **icekylinx and GPT-6 Astra Pro**
 
 Two orders cancel Oberleutnant Siegfried’s posting to Turkey and assignment
-to the Military Mission. The earlier [p135 A](../../cases/pages/135.md#edition-cases-people-siegfried-assignment-cancellation)
+to the Military Mission. The earlier [p135 A](../../pages/135.md#edition-cases-people-siegfried-assignment-cancellation)
 reads reference **45610** with the Nov4–6 key. The later
-[p161 C1](../../cases/pages/161.md#edition-cases-people-military-mission-recalls) gives **4??10**
+[p161 C1](../../pages/161.md#edition-cases-people-military-mission-recalls) gives **4??10**
 under Nov7–9: the two question marks are fully received pairs in the two
 unassigned square cells, XA and VF.
 
@@ -23,26 +23,26 @@ partial square and the existing source editions remain intact.
 
 | Source | Conditional reading | Opposite assignment | New digit positions |
 | --- | --- | --- | ---: |
-| [p162 B1](../../cases/pages/162.md#edition-cases-radio-map-sheet-request) | 50 copies; map scale 1:75,000 | 60 copies; 1:76,000 | 2 |
-| [p160 B1](../../cases/pages/160.md#edition-cases-radio-radio-equipment-sale-prices) | Siemens field 21600 | 21500 | 1 |
-| [p160 B2](../../cases/pages/160.md#edition-cases-radio-radio-equipment-sale-prices) | Reference 111?05 | 111?06 | 1 |
-| [p160 C2](../../cases/pages/160.md#edition-cases-radio-ringbahn-key-reuse) | Nach Chef 4 B 49859 | 49869 | 1 |
-| [p160 D1](../../cases/pages/160.md#edition-cases-people-awaloff-return-request) | Nr. 641; Telegramm Nr. 585 | 541; 686 | 3 |
-| [p155 C1](../../cases/pages/155.md#edition-cases-radio-nov7-eighth-part-repetition) | 25.10 | 26.10 | 1 |
-| [p155 C2](../../cases/pages/155.md#edition-cases-radio-nov7-eighth-part-repetition) | RM 5 Nr. 153303 | RM 6 Nr. 163303 | 2 |
-| [p172 D2](../../cases/pages/172.md#edition-cases-finance-staatsbank-accounting-cheques) | am 6. gesandte Cheks | am 5. | 1 |
-| [p151 E2](../../cases/pages/151.md#edition-cases-radio-nov9-operations-map-sheets) | AOK 11, 1d 7065 | 7056 | 2 |
-| [p161 C1](../../cases/pages/161.md#edition-cases-people-military-mission-recalls) | ZU2NR45610 | ZU2NR46510 | 2 |
-| [p175 B2](../../cases/pages/175.md#edition-cases-finance-hauptwechselamt-accounting) | am 6.; literal closing 892409116 | am 5.; 892409115 | 2 |
-| [p167 C1](../../cases/pages/167.md#edition-cases-radio-p167-mission-address) | Roem 5; KR 130615 | Roem 6; KR 130516 | 3 |
-| [p167 D](../../cases/pages/167.md#edition-cases-people-p167-captain-dispatch-fragment) | positions 41/49/91: 6/5/6 | 5/6/5 | 3 |
-| [p168 E](../../cases/pages/168.md#edition-cases-military-danube-arad-witnesses-p168-e) | footer RM 1C 186 GEH | RM 1C 185 GEH | 1 |
-| [p159 A](../../cases/pages/159.md#edition-cases-military-arad-provisions-partial) | footer RM 1C 186 GEH | RM 1C 185 GEH | 1 |
-| [p155 D](../../cases/pages/155.md#edition-cases-military-nov7-derailment-and-trains) | 25 wagons | 26 wagons | 1 |
-| [p169 B](../../cases/pages/155.md#edition-cases-military-nov7-derailment-and-trains) | S1152; 1B16616 | S1162; 1B15515 | 4 |
-| [p158 E1](../../cases/pages/158.md#edition-cases-military-nov8-serbian-cavalry-parallel) | 6 R D | 5 R D | 1 |
-| [p160 A2](../../cases/pages/160.md#edition-cases-military-nov8-alpenkorps-report) | 6 R D | 5 R D | 1 |
-| [p198 A](../../cases/pages/198.md#edition-cases-naval-p198-shipping-query) | 116?0K | 115?0K | 1 |
+| [p162 B1](../../pages/162.md#edition-cases-radio-map-sheet-request) | 50 copies; map scale 1:75,000 | 60 copies; 1:76,000 | 2 |
+| [p160 B1](../../pages/160.md#edition-cases-radio-radio-equipment-sale-prices) | Siemens field 21600 | 21500 | 1 |
+| [p160 B2](../../pages/160.md#edition-cases-radio-radio-equipment-sale-prices) | Reference 111?05 | 111?06 | 1 |
+| [p160 C2](../../pages/160.md#edition-cases-radio-ringbahn-key-reuse) | Nach Chef 4 B 49859 | 49869 | 1 |
+| [p160 D1](../../pages/160.md#edition-cases-people-awaloff-return-request) | Nr. 641; Telegramm Nr. 585 | 541; 686 | 3 |
+| [p155 C1](../../pages/155.md#edition-cases-radio-nov7-eighth-part-repetition) | 25.10 | 26.10 | 1 |
+| [p155 C2](../../pages/155.md#edition-cases-radio-nov7-eighth-part-repetition) | RM 5 Nr. 153303 | RM 6 Nr. 163303 | 2 |
+| [p172 D2](../../pages/172.md#edition-cases-finance-staatsbank-accounting-cheques) | am 6. gesandte Cheks | am 5. | 1 |
+| [p151 E2](../../pages/151.md#edition-cases-radio-nov9-operations-map-sheets) | AOK 11, 1d 7065 | 7056 | 2 |
+| [p161 C1](../../pages/161.md#edition-cases-people-military-mission-recalls) | ZU2NR45610 | ZU2NR46510 | 2 |
+| [p175 B2](../../pages/175.md#edition-cases-finance-hauptwechselamt-accounting) | am 6.; literal closing 892409116 | am 5.; 892409115 | 2 |
+| [p167 C1](../../pages/167.md#edition-cases-radio-p167-mission-address) | Roem 5; KR 130615 | Roem 6; KR 130516 | 3 |
+| [p167 D](../../pages/167.md#edition-cases-people-p167-captain-dispatch-fragment) | positions 41/49/91: 6/5/6 | 5/6/5 | 3 |
+| [p168 E](../../pages/168.md#edition-cases-military-danube-arad-witnesses-p168-e) | footer RM 1C 186 GEH | RM 1C 185 GEH | 1 |
+| [p159 A](../../pages/159.md#edition-cases-military-arad-provisions-partial) | footer RM 1C 186 GEH | RM 1C 185 GEH | 1 |
+| [p155 D](../../pages/155.md#edition-cases-military-nov7-derailment-and-trains) | 25 wagons | 26 wagons | 1 |
+| [p169 B](../../pages/155.md#edition-cases-military-nov7-derailment-and-trains) | S1152; 1B16616 | S1162; 1B15515 | 4 |
+| [p158 E1](../../pages/158.md#edition-cases-military-nov8-serbian-cavalry-parallel) | 6 R D | 5 R D | 1 |
+| [p160 A2](../../pages/160.md#edition-cases-military-nov8-alpenkorps-report) | 6 R D | 5 R D | 1 |
+| [p198 A](../../pages/198.md#edition-cases-naval-p198-shipping-query) | 116?0K | 115?0K | 1 |
 
 Every newly assigned pair is directly observed in its own source. Fifteen
 of the twenty selected layers become label-complete under the shared
@@ -83,7 +83,7 @@ C1 from 101/102 to **102/102 conditional fixed labels**. Its full source
 price becomes four observed substitutions and five printed-erasure fills.
 Together with its unchanged 77-label second part, the Siegfried order has
 **179/179 conditional fixed labels** and a complete readable German display
-in [the case](../../cases/pages/161.md#edition-cases-people-military-mission-recalls-conditional-complete-siegfried-order).
+in [the case](../../pages/161.md#edition-cases-people-military-mission-recalls-conditional-complete-siegfried-order).
 
 The final package therefore records **34 shared-key numeral gains plus one
 local mask completion: 35 added fixed positions**. Sixteen of its twenty

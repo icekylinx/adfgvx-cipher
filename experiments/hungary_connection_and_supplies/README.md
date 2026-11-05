@@ -1,7 +1,7 @@
 # p97: wireless routing, repetition and supplies
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. The
-[reader case](../../cases/pages/097.md#edition-cases-radio-hungary-connection-and-supplies) presents
+[reader case](../../pages/097.md#edition-cases-radio-hungary-connection-and-supplies) presents
 three separately headed records on Childs printed p97 / PDF page 100,
 1 November 1918.
 

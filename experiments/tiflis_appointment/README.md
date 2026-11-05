@@ -18,7 +18,7 @@ masks all relevant names and reference symbols. This source supplies the
 recipient independently of the historical study. The cross-page association
 retains the conflicting headings of 14 and 15 November explicitly.
 
-See the [readable case](../../cases/pages/192.md#edition-cases-caucasus-tiflis-appointment),
+See the [readable case](../../pages/192.md#edition-cases-caucasus-tiflis-appointment),
 [literal inputs](inputs.json), and [exact certificate](certificates.json).
 
 ## Separate evidence layers

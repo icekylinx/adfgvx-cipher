@@ -9,7 +9,7 @@ Turkish crew. They complement the 15 November order in
 messages, not duplicate plaintexts.
 
 The full reading, interpretation, residual uncertainty and attribution are
-in [the case](../../cases/pages/165.md#edition-cases-naval-corcovado-sale-terms). The source is
+in [the case](../../pages/165.md#edition-cases-naval-corcovado-sale-terms). The source is
 J. Rives Childs, *General Solution of the ADFGVX Cipher System*, printed
 pp165 and 173 (PDF page 168 and 176). All six cropped images are retained
 under `sources/`; their coordinates and hashes are in `inputs.json`.

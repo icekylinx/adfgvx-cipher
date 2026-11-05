@@ -2,7 +2,7 @@
 
 Source-reviewed native-frame edition by **icekylinx and GPT-6 Astra Pro**.
 
-The [case study](../../cases/pages/152.md#edition-cases-military-nov7-danube-and-message-reports) adds five distinct physical records:
+The [case study](../../pages/152.md#edition-cases-military-nov7-danube-and-message-reports) adds five distinct physical records:
 `p152_B2`, `p152_C`, `p152_D`, `p153_A3`, and `p153_B1`. It does not
 recount the original challenge bodies `p153a`/`p153b` elsewhere on page 153.
 

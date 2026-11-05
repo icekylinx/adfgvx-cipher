@@ -37,7 +37,7 @@ The [conservative p186 source](../../data/reviews/p186_chi_parallel.json) masks 
 | 83 | `VG` | `[173, 10]` | `2` |
 | 85 | `VG` | `[64, 107]` | `2` |
 
-The administrative ending changes from `CHEF??1???1?X` to **`CHEF??1??212X`**. Five plaintext positions and the reference’s administrative identity remain unresolved. The differently keyed p187b suffix has distinct constraints. The earlier [source and suffix audit](../source_followup/p186_source_and_suffix_delta.json) and [case attribution](../../cases/pages/186.md#edition-cases-context-p186) remain in force.
+The administrative ending changes from `CHEF??1???1?X` to **`CHEF??1??212X`**. Five plaintext positions and the reference’s administrative identity remain unresolved. The differently keyed p187b suffix has distinct constraints. The earlier [source and suffix audit](../source_followup/p186_source_and_suffix_delta.json) and [case attribution](../../pages/186.md#edition-cases-context-p186) remain in force.
 
 The earlier p186 A1 three-fill edition is also checked. In A2, the older
 interpretation of both ambiguous glyphs as `V` gives 84/87 with the shared
@@ -92,60 +92,60 @@ The counts below include all **unrepaired raw labels** under the existing primar
 
 | Source | Raw fixed before → after / positions | Native target pairs | Existing views checked |
 | --- | ---: | ---: | ---: |
-| [p179 D1](../../cases/pages/179.md#edition-cases-military-armistice-and-leave-orders) | 91 → 91 / 95 | 0 | 1 |
-| [p179 D2](../../cases/pages/179.md#edition-cases-military-armistice-and-leave-orders) | 100 → 101 / 106 | 1 | 1 |
-| [p180 E](../../cases/pages/180.md#edition-cases-military-namur-cassel-armistice-requests-p180-e) | 110 → 111 / 112 | 1 | 1 |
-| [p184 A2](../../cases/pages/184.md#edition-cases-military-group-security-measures-fragment-p184-a2) | 96 → 96 / 101 | 0 | 1 |
-| [p185 C](../../cases/pages/185.md#edition-cases-p189) | 48 → 48 / 48 | 0 | 1 |
-| [p185 D](../../cases/pages/185.md#edition-cases-context-transport-p185-d-source-and-gap-model) | 91 → 92 / 99 | 1 | 1 |
-| [p186 A1](../../cases/pages/186.md#edition-cases-context-p186-part-1--richi-170) | 82 → 82 / 85 | 0 | 1 |
-| [p186 A2](../../cases/pages/186.md#edition-cases-context-p186-part-2--richi-174) | 80 → 82 / 87 | 2 | 1 |
-| [p186 B1](../../cases/pages/186.md#edition-cases-military-oberost-troop-movement-obliterations-p186-b1) | 150 → 151 / 154 | 1 | 1 |
-| [p186 B2](../../cases/pages/186.md#edition-cases-military-home-departures-baltic-transport-p186-b2) | 120 → 120 / 121 | 0 | 1 |
-| [p186 C1](../../cases/pages/186.md#edition-cases-military-home-departures-baltic-transport-p186-c1) | 88 → 88 / 91 | 0 | 1 |
-| [p188 A](../../cases/pages/188.md#edition-cases-military-armistice-provisions-requests) | 104 → 105 / 112 | 1 | 1 |
-| [p188 B2](../../cases/pages/188.md#edition-cases-military-armistice-provisions-requests) | 84 → 85 / 88 | 1 | 1 |
-| [p188 C1](../../cases/pages/188.md#edition-cases-military-armistice-provisions-requests) | 130 → 132 / 134 | 2 | 1 |
-| [p189 B](../../cases/pages/189.md#edition-cases-radio-return-time-and-vehicle-attempt-p189-b) | 35 → 35 / 35 | 0 | 1 |
-| [p189 C](../../cases/pages/189.md#edition-cases-context-p189-c) | 61 → 62 / 62 | 1 | 1 |
-| [p189 D](../../cases/pages/189.md#edition-cases-context-benzol-pump-query-p189-d) | 47 → 48 / 51 | 1 | 5 |
-| [p189 E](../../cases/pages/189.md#edition-cases-context-transport-two-vehicles-and-two-trailers--p189-e) | 44 → 46 / 47 | 2 | 1 |
-| [p190 A](../../cases/pages/190.md#edition-cases-radio-nov14-radio-retransmissions) | 117 → 117 / 118 | 0 | 1 |
-| [p190 B](../../cases/pages/190.md#edition-cases-radio-nov14-radio-retransmissions) | 82 → 82 / 88 | 0 | 1 |
-| [p190 C](../../cases/pages/190.md#edition-cases-naval-mmd-command-whereabouts-p190-c) | 59 → 60 / 63 | 1 | 1 |
-| [p191 A1](../../cases/pages/191.md#edition-cases-military-p191-a) | 102 → 103 / 107 | 1 | 1 |
-| [p191 A2](../../cases/pages/191.md#edition-cases-military-p191-a) | 80 → 80 / 93 | 0 | 1 |
-| [p192_2](../../cases/pages/192.md#edition-cases-caucasus-tiflis-appointment) | 115 → 115 / 115 | 0 | 1 |
-| [p192_3](../../cases/pages/192.md#edition-cases-caucasus-tiflis-appointment) | 110 → 110 / 116 | 0 | 1 |
-| [p192 A](../../cases/pages/192.md#edition-cases-radio-warsaw-service-messages) | 171 → 172 / 175 | 1 | 1 |
-| [p192 B](../../cases/pages/192.md#edition-cases-radio-warsaw-service-messages) | 131 → 132 / 134 | 1 | 2 |
-| [p193 A](../../cases/pages/190.md#edition-cases-radio-nov14-radio-retransmissions) | 88 → 89 / 94 | 1 | 1 |
-| [p193 C](../../cases/pages/193.md#edition-cases-radio-nov14-15-departure-and-supper-p193-c) | 104 → 104 / 106 | 0 | 1 |
-| [p193 D](../../cases/pages/193.md#edition-cases-radio-nov14-15-departure-and-supper-p193-d) | 40 → 40 / 41 | 0 | 1 |
-| [p193 E](../../cases/pages/193.md#edition-cases-context-transport-independent-transport-context) | 43 → 43 / 44 | 0 | 1 |
-| [p193 F](../../cases/pages/193.md#edition-cases-people-nov13-conditional-congratulation) | 36 → 37 / 37 | 1 | 4 |
-| [p194 A](../../cases/pages/193.md#edition-cases-context-transport-independent-transport-context) | 85 → 85 / 87 | 0 | 1 |
-| [p194 C](../../cases/pages/192.md#edition-cases-radio-warsaw-service-messages) | 111 → 111 / 112 | 0 | 1 |
-| [p194 E](../../cases/pages/192.md#edition-cases-radio-warsaw-service-messages) | 119 → 119 / 120 | 0 | 1 |
-| [p196 A](../../cases/pages/196.md#edition-cases-radio-nov14-15-departure-and-supper-p196-a) | 37 → 37 / 37 | 0 | 1 |
-| [p196 B](../../cases/pages/193.md#edition-cases-context-transport-independent-transport-context) | 85 → 85 / 87 | 0 | 1 |
-| [p197 A1](../../cases/pages/197.md#edition-cases-radio-nov15-radio-personnel-and-key-notice-p197-a1) | 93 → 93 / 99 | 0 | 1 |
-| [p197 A2](../../cases/pages/197.md#edition-cases-radio-nov15-radio-personnel-and-key-notice-p197-a2) | 68 → 69 / 72 | 1 | 1 |
-| [p197 B](../../cases/pages/197.md#edition-cases-radio-nov15-radio-personnel-and-key-notice-p197-b) | 60 → 61 / 62 | 1 | 1 |
-| [p197 C](../../cases/pages/197.md#edition-cases-context-transport-197-198) | 80 → 81 / 95 | 1 | 2 |
-| [p197 D](../../cases/pages/197.md#edition-cases-context-transport-197-198) | 68 → 68 / 71 | 0 | 2 |
-| [p197 E](../../cases/pages/193.md#edition-cases-context-transport-independent-transport-context) | 89 → 90 / 93 | 1 | 1 |
-| [p198 B](../../cases/pages/197.md#edition-cases-context-transport-197-198) | 90 → 92 / 95 | 2 | 1 |
-| [p198 C](../../cases/pages/193.md#edition-cases-context-transport-independent-transport-context) | 91 → 91 / 93 | 0 | 1 |
-| [p198 E](../../cases/pages/197.md#edition-cases-context-transport-197-198) | 68 → 68 / 71 | 0 | 2 |
-| [p199 A1](../../cases/pages/199.md#edition-cases-naval-black-sea-shipping) | 145 → 146 / 146 | 1 | 3 |
-| [p199 A2](../../cases/pages/199.md#edition-cases-naval-black-sea-shipping) | 171 → 171 / 172 | 0 | 1 |
-| [p199 A3](../../cases/pages/199.md#edition-cases-naval-black-sea-shipping) | 100 → 100 / 103 | 0 | 5 |
-| [p199 B1](../../cases/pages/192.md#edition-cases-caucasus-tiflis-appointment) | 129 → 130 / 131 | 1 | 1 |
-| [p200 A](../../cases/pages/200.md#edition-cases-military-p200-a) | 163 → 163 / 165 | 0 | 1 |
-| [p200 B1](../../cases/pages/199.md#edition-cases-naval-black-sea-shipping) | 195 → 195 / 197 | 0 | 1 |
-| [p200 B2](../../cases/pages/199.md#edition-cases-naval-black-sea-shipping) | 174 → 176 / 180 | 2 | 1 |
-| [p203 A2](../../cases/pages/203.md#edition-cases-radio-nov16-18-command-inquiries-p203-a2) | 63 → 63 / 66 | 0 | 1 |
+| [p179 D1](../../pages/179.md#edition-cases-military-armistice-and-leave-orders) | 91 → 91 / 95 | 0 | 1 |
+| [p179 D2](../../pages/179.md#edition-cases-military-armistice-and-leave-orders) | 100 → 101 / 106 | 1 | 1 |
+| [p180 E](../../pages/180.md#edition-cases-military-namur-cassel-armistice-requests-p180-e) | 110 → 111 / 112 | 1 | 1 |
+| [p184 A2](../../pages/184.md#edition-cases-military-group-security-measures-fragment-p184-a2) | 96 → 96 / 101 | 0 | 1 |
+| [p185 C](../../pages/185.md#edition-cases-p189) | 48 → 48 / 48 | 0 | 1 |
+| [p185 D](../../pages/185.md#edition-cases-context-transport-p185-d-source-and-gap-model) | 91 → 92 / 99 | 1 | 1 |
+| [p186 A1](../../pages/186.md#edition-cases-context-p186-part-1--richi-170) | 82 → 82 / 85 | 0 | 1 |
+| [p186 A2](../../pages/186.md#edition-cases-context-p186-part-2--richi-174) | 80 → 82 / 87 | 2 | 1 |
+| [p186 B1](../../pages/186.md#edition-cases-military-oberost-troop-movement-obliterations-p186-b1) | 150 → 151 / 154 | 1 | 1 |
+| [p186 B2](../../pages/186.md#edition-cases-military-home-departures-baltic-transport-p186-b2) | 120 → 120 / 121 | 0 | 1 |
+| [p186 C1](../../pages/186.md#edition-cases-military-home-departures-baltic-transport-p186-c1) | 88 → 88 / 91 | 0 | 1 |
+| [p188 A](../../pages/188.md#edition-cases-military-armistice-provisions-requests) | 104 → 105 / 112 | 1 | 1 |
+| [p188 B2](../../pages/188.md#edition-cases-military-armistice-provisions-requests) | 84 → 85 / 88 | 1 | 1 |
+| [p188 C1](../../pages/188.md#edition-cases-military-armistice-provisions-requests) | 130 → 132 / 134 | 2 | 1 |
+| [p189 B](../../pages/189.md#edition-cases-radio-return-time-and-vehicle-attempt-p189-b) | 35 → 35 / 35 | 0 | 1 |
+| [p189 C](../../pages/189.md#edition-cases-context-p189-c) | 61 → 62 / 62 | 1 | 1 |
+| [p189 D](../../pages/189.md#edition-cases-context-benzol-pump-query-p189-d) | 47 → 48 / 51 | 1 | 5 |
+| [p189 E](../../pages/189.md#edition-cases-context-transport-two-vehicles-and-two-trailers--p189-e) | 44 → 46 / 47 | 2 | 1 |
+| [p190 A](../../pages/190.md#edition-cases-radio-nov14-radio-retransmissions) | 117 → 117 / 118 | 0 | 1 |
+| [p190 B](../../pages/190.md#edition-cases-radio-nov14-radio-retransmissions) | 82 → 82 / 88 | 0 | 1 |
+| [p190 C](../../pages/190.md#edition-cases-naval-mmd-command-whereabouts-p190-c) | 59 → 60 / 63 | 1 | 1 |
+| [p191 A1](../../pages/191.md#edition-cases-military-p191-a) | 102 → 103 / 107 | 1 | 1 |
+| [p191 A2](../../pages/191.md#edition-cases-military-p191-a) | 80 → 80 / 93 | 0 | 1 |
+| [p192_2](../../pages/192.md#edition-cases-caucasus-tiflis-appointment) | 115 → 115 / 115 | 0 | 1 |
+| [p192_3](../../pages/192.md#edition-cases-caucasus-tiflis-appointment) | 110 → 110 / 116 | 0 | 1 |
+| [p192 A](../../pages/192.md#edition-cases-radio-warsaw-service-messages) | 171 → 172 / 175 | 1 | 1 |
+| [p192 B](../../pages/192.md#edition-cases-radio-warsaw-service-messages) | 131 → 132 / 134 | 1 | 2 |
+| [p193 A](../../pages/190.md#edition-cases-radio-nov14-radio-retransmissions) | 88 → 89 / 94 | 1 | 1 |
+| [p193 C](../../pages/193.md#edition-cases-radio-nov14-15-departure-and-supper-p193-c) | 104 → 104 / 106 | 0 | 1 |
+| [p193 D](../../pages/193.md#edition-cases-radio-nov14-15-departure-and-supper-p193-d) | 40 → 40 / 41 | 0 | 1 |
+| [p193 E](../../pages/193.md#edition-cases-context-transport-independent-transport-context) | 43 → 43 / 44 | 0 | 1 |
+| [p193 F](../../pages/193.md#edition-cases-people-nov13-conditional-congratulation) | 36 → 37 / 37 | 1 | 4 |
+| [p194 A](../../pages/193.md#edition-cases-context-transport-independent-transport-context) | 85 → 85 / 87 | 0 | 1 |
+| [p194 C](../../pages/192.md#edition-cases-radio-warsaw-service-messages) | 111 → 111 / 112 | 0 | 1 |
+| [p194 E](../../pages/192.md#edition-cases-radio-warsaw-service-messages) | 119 → 119 / 120 | 0 | 1 |
+| [p196 A](../../pages/196.md#edition-cases-radio-nov14-15-departure-and-supper-p196-a) | 37 → 37 / 37 | 0 | 1 |
+| [p196 B](../../pages/193.md#edition-cases-context-transport-independent-transport-context) | 85 → 85 / 87 | 0 | 1 |
+| [p197 A1](../../pages/197.md#edition-cases-radio-nov15-radio-personnel-and-key-notice-p197-a1) | 93 → 93 / 99 | 0 | 1 |
+| [p197 A2](../../pages/197.md#edition-cases-radio-nov15-radio-personnel-and-key-notice-p197-a2) | 68 → 69 / 72 | 1 | 1 |
+| [p197 B](../../pages/197.md#edition-cases-radio-nov15-radio-personnel-and-key-notice-p197-b) | 60 → 61 / 62 | 1 | 1 |
+| [p197 C](../../pages/197.md#edition-cases-context-transport-197-198) | 80 → 81 / 95 | 1 | 2 |
+| [p197 D](../../pages/197.md#edition-cases-context-transport-197-198) | 68 → 68 / 71 | 0 | 2 |
+| [p197 E](../../pages/193.md#edition-cases-context-transport-independent-transport-context) | 89 → 90 / 93 | 1 | 1 |
+| [p198 B](../../pages/197.md#edition-cases-context-transport-197-198) | 90 → 92 / 95 | 2 | 1 |
+| [p198 C](../../pages/193.md#edition-cases-context-transport-independent-transport-context) | 91 → 91 / 93 | 0 | 1 |
+| [p198 E](../../pages/197.md#edition-cases-context-transport-197-198) | 68 → 68 / 71 | 0 | 2 |
+| [p199 A1](../../pages/199.md#edition-cases-naval-black-sea-shipping) | 145 → 146 / 146 | 1 | 3 |
+| [p199 A2](../../pages/199.md#edition-cases-naval-black-sea-shipping) | 171 → 171 / 172 | 0 | 1 |
+| [p199 A3](../../pages/199.md#edition-cases-naval-black-sea-shipping) | 100 → 100 / 103 | 0 | 5 |
+| [p199 B1](../../pages/192.md#edition-cases-caucasus-tiflis-appointment) | 129 → 130 / 131 | 1 | 1 |
+| [p200 A](../../pages/200.md#edition-cases-military-p200-a) | 163 → 163 / 165 | 0 | 1 |
+| [p200 B1](../../pages/199.md#edition-cases-naval-black-sea-shipping) | 195 → 195 / 197 | 0 | 1 |
+| [p200 B2](../../pages/199.md#edition-cases-naval-black-sea-shipping) | 174 → 176 / 180 | 2 | 1 |
+| [p203 A2](../../pages/203.md#edition-cases-radio-nov16-18-command-inquiries-p203-a2) | 63 → 63 / 66 | 0 | 1 |
 
 </details>
 

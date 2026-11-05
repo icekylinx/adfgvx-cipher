@@ -7,7 +7,7 @@ Source edition and verification: **icekylinx and GPT-6 Astra Pro**.
 This package edits a six-part report dated 4 November, received 5 November,
 about reported armistice transit conditions and plans for the 11th Army.
 It also preserves a separate adjacent receipt note. The
-[reader edition](../../cases/pages/125.md#edition-cases-military-armistice-transit-planning) explains
+[reader edition](../../pages/125.md#edition-cases-military-armistice-transit-planning) explains
 the bodies and their limits. All use the unchanged published `Nov4-6` key.
 
 Six records have ordinary, exact-length cipher frames. The fifth part of
@@ -122,7 +122,7 @@ also reproduced in George Lasry's 2017 key comment linked in `inputs.json`.
 The primary source is Childs's collected intercepts. Earlier unreviewed
 OCR candidates and selected retrieval strings existed. No explicit p125/p126
 body example was located in the bounded
-[author-paper attribution audit](../p170_new_methods/lasry_attribution_audit.md).
+[author-paper attribution audit](../p170_new_methods/lasry-attribution-audit.md).
 That does not establish first-decipherment priority. The current contribution
 is the manually checked source edition, exact arithmetic and repair ledgers,
 and a clearly conditional analysis of the odd-frame pairing failure.

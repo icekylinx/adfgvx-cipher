@@ -3,7 +3,7 @@
 **Source comparison and edition: icekylinx and GPT-6 Astra Pro.**
 
 Contemporary shipping sources support reading three damaged fields in
-[p213 A2](../../cases/pages/213.md#edition-cases-naval-reval-steamer-notice-p213-a2) as **Peter Benoit,
+[p213 A2](../../pages/213.md#edition-cases-naval-reval-steamer-notice-p213-a2) as **Peter Benoit,
 Bjoern and Babylon**. Each proposal changes two observed coordinates after
 the existing, independent **GD=J / DD=Y** interpretation is applied.
 The source has 208 coordinates throughout; no new mask is filled.

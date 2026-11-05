@@ -30,6 +30,10 @@ jobs:
         run: python data/reviews/verify_source_image_publication.py
       - name: Recompute core source and cipher certificates
         run: python -m adfgvx.verify
+      - name: Verify current package inventories
+        run: |
+          python data/reviews/check_package_inventories.py
+          python experiments/open_targets/manifest.py --verify
       - name: Check the challenge and wider-corpus reading tables
         run: |
           python -m adfgvx.catalog --check

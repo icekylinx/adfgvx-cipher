@@ -8,12 +8,12 @@ now supplies three new physical records, 444 fully observed coordinates and
 222 plaintext positions. There are 221 raw fixed labels, 222 in the edited
 readings, and three explicitly priced observed-coordinate substitutions.
 
-- [p195 A2](../../cases/pages/195.md#edition-cases-finance-crown-banknote-completion) preserves the
+- [p195 A2](../../pages/195.md#edition-cases-finance-crown-banknote-completion) preserves the
   nineteen coordinates missing from p174 A3. Eleven of twelve earlier
   conjectural fills agree with the new source; one is contradicted. All eighty
   contiguous-gap placements are costed. One new observed-coordinate change
   is still needed for `SENDEN`; the raw domain is digits `56789`, not S.
-- [p137 B4 and C](../../cases/pages/137.md#edition-cases-military-armistice-clause-witnesses) provide
+- [p137 B4 and C](../../pages/137.md#edition-cases-military-armistice-clause-witnesses) provide
   the exact armistice clause and receipt fragments. The first witnesses a
   previously masked X. The second repeats both earlier corrupt words and
   therefore does not independently certify their two repairs.

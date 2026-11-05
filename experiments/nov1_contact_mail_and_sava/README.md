@@ -3,8 +3,8 @@
 Prepared by **icekylinx and GPT-6 Astra Pro**. This source edition covers
 five physical records on Childs printed p99 (PDF page 102). The published
 `Nov1-3` key is unchanged. Two reader pages separate the
-[radio and mail messages](../../cases/pages/099.md#edition-cases-radio-nov1-contact-and-mail)
-from the [Sava-crossing report](../../cases/pages/099.md#edition-cases-military-sava-crossing-evening-report).
+[radio and mail messages](../../pages/099.md#edition-cases-radio-nov1-contact-and-mail)
+from the [Sava-crossing report](../../pages/099.md#edition-cases-military-sava-crossing-evening-report).
 
 ## Accepted scope
 

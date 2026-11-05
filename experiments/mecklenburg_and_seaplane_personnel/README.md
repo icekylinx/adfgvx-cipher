@@ -73,8 +73,8 @@ No temporary screen or external model is needed.
 [Inputs](inputs.json), [certificates](certificates.json),
 [prior candidates and bounded attribution checks](prior_candidates.json), and
 [catalog proposal](catalog_proposal.json) retain the complete evidence.
-Readable cases: [Mecklenburg inquiry](../../cases/pages/141.md#edition-cases-people-mecklenburg-inquiry)
-and [seaplane personnel order](../../cases/pages/141.md#edition-cases-military-seaplane-personnel-return).
+Readable cases: [Mecklenburg inquiry](../../pages/141.md#edition-cases-people-mecklenburg-inquiry)
+and [seaplane personnel order](../../pages/141.md#edition-cases-military-seaplane-personnel-return).
 The paper/thesis keyword matches for Michael concern unrelated modern
 bibliography names. That bounded absence of body discussion is not a priority
 claim; the published key and earlier repository readings retain their credit.

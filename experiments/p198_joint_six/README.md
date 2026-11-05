@@ -67,7 +67,7 @@ rounding effects. This candidate preserves all 165 observed coordinates
 after its five explicit inserted coordinates, so it is a valid competing
 witness under the supplied true key.
 
-Separate [held-out-book diagnostics](../open_targets/HELDOUT_CONTROLS.md)
+Separate [held-out-book diagnostics](../open_targets/held-out-controls.md)
 compare the same frozen candidates under two books absent from the
 original training set. Both books reject the CHI-Nov13 wrong candidate
 under six-gram and mixed scores, yet both still favor the Nov13-15b wrong

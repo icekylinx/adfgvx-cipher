@@ -19,7 +19,7 @@ strength, condition and special requirements of troops at Constantinople
 and Haidarpascha, and requests acknowledgment. The literal `9EDE` and the
 footer `ROEMXJAXJJ201` remain in the edition. Reading `9EDE` as *jede* is a
 separate lexical interpretation, consistent with `MA9OR` in the independently
-edited [p224 C1](../breslau_staff_transfer/). Both occurrences use `VD`.
+edited [p224 C1](../breslau_staff_transfer). Both occurrences use `VD`.
 This does not assign the remaining rare-letter or numerical labels, or
 complete a globally bijective replacement square.
 
@@ -33,7 +33,7 @@ These literal dates are preserved without choosing an explanation.
   prior credits, source-image hash and proposed text.
 - [certificates.json](certificates.json): exact raw and edited strings,
   coordinate-pair/source-position mapping, repair and untouched label fields.
-- [Readable edition](../../cases/pages/222.md#edition-cases-military-liman-troop-reports).
+- [Readable edition](../../pages/222.md#edition-cases-military-liman-troop-reports).
 
 ```sh
 python experiments/liman_troop_reports/verify.py --verify

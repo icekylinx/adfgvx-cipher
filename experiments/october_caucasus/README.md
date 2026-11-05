@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-[Read the seven exchanges and their status limits](../../cases/pages/068.md#edition-cases-caucasus-october-caucasus).
+[Read the seven exchanges and their status limits](../../pages/068.md#edition-cases-caucasus-october-caucasus).
 
 Twelve source records on printed pp68–72 cover messages about Kress's delegation, Westernhagen's economic work, equipment sent to Tiflis, Violetta's cargo for Poti, radio timings, a liaison officer and equipment procurement. The p68 procurement pair remains a heavily repaired provisional first part and an opening-only second part. All use the earlier published **4–6 October** square and 22-column rank. The present contribution is source assembly, explicit duplicate/short-group recovery and readable or explicitly partial editions, not a new key or a claim to first historical decipherment.
 

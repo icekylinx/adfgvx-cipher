@@ -76,5 +76,5 @@ python experiments/warsaw_service_messages/verify.py --verify --pdf /path/to/ADF
 ```
 
 The second command verifies the full PDF hash and checks every retained crop
-pixel against a fresh render. The [case study](../../cases/pages/192.md#edition-cases-radio-warsaw-service-messages)
+pixel against a fresh render. The [case study](../../pages/192.md#edition-cases-radio-warsaw-service-messages)
 gives the literal raw and conservative candidate text.

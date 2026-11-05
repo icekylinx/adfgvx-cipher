@@ -10,7 +10,7 @@ and supply **35 absent halves**. No received coordinate changes, and all three
 original dashes remain unknown. This is a sparse, language-guided proposal, not a
 cipher-only recovery or a completed sentence.
 
-The [case edition](../../cases/pages/137.md#edition-cases-military-p137-publicity-fragment) supplies readable
+The [case edition](../../pages/137.md#edition-cases-military-p137-publicity-fragment) supplies readable
 German and the distinct interpretation layer. [Inputs](inputs.json),
 [certificates](certificates.json) and the [verifier](verify.py) retain the exact
 source, modeled coordinate ownership and repair prices.

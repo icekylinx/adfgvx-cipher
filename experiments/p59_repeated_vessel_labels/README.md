@@ -2,7 +2,7 @@
 
 **Source comparison and verification: icekylinx and GPT-6 Astra Pro.**
 
-The [existing first-part edition](../../cases/pages/059.md#edition-cases-caucasus-poti-first-part-conditional)
+The [existing first-part edition](../../pages/059.md#edition-cases-caucasus-poti-first-part-conditional)
 has 105/110 proposed positions after five observed-coordinate substitutions,
 two mask fills and five conditional source exclusions. Its two `AUF DAMPFER`
 clauses each contain a pair of similar labels. Treating each pair as a

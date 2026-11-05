@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-Read the [full two-part edition](../../cases/pages/172.md#edition-cases-finance-staatsbank-accounting-cheques). The first p172 D body contains 197 occupied source slots against advertised 198 and has a four-character ADAX group; the second is a complete native 204-coordinate body. All five positions for the additional first-part coordinate remain replayable. Boundaries 27 and 28 tie and give the same completed ciphertext, so the loss location is not uniquely selected.
+Read the [full two-part edition](../../pages/172.md#edition-cases-finance-staatsbank-accounting-cheques). The first p172 D body contains 197 occupied source slots against advertised 198 and has a four-character ADAX group; the second is a complete native 204-coordinate body. All five positions for the additional first-part coordinate remain replayable. Boundaries 27 and 28 tie and give the same completed ciphertext, so the loss location is not uniquely selected.
 
 Across both stated frames, 192 of 201 labels are fixed raw and 200 are fixed after five observed-coordinate substitutions, seven printed-mask fills and one additional-coordinate fill. The one unresolved label is VF in the date-like AM? field, with domain {5,6}. The complete closing 89240911 remains literal and is not interpreted as an amount. The source-length spellings DRINLICHST and CHEKS remain visible.
 

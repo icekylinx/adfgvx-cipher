@@ -60,7 +60,7 @@ python run_p170.py \
 
 The runner compiles `p170_scan.c`, builds each temporary coordinate model, and writes the top 100 candidates in each of four pools. It compares the SHA-256 of every output to the original archived run. All **23 outputs reproduced byte for byte** in the recorded environment; see [p170_reproduction_report.json](p170_reproduction_report.json). Floating-point libraries or tie ordering on a different platform may change exact output hashes without changing the substantive result; inspect the numerical differences if that occurs.
 
-Use `--key Nov7-9 --no-controls` for one target key, or `--controls-only` for the two controls. The detailed scope and its limits are in [P170_TRUNCATION_NOTE.md](P170_TRUNCATION_NOTE.md). The result remains negative: no newly accepted p170 plaintext, and no exclusion of the truncation hypothesis.
+Use `--key Nov7-9 --no-controls` for one target key, or `--controls-only` for the two controls. The detailed scope and its limits are in [p170-truncation.md](p170-truncation.md). The result remains negative: no newly accepted p170 plaintext, and no exclusion of the truncation hypothesis.
 
 ## Scoring distinction
 

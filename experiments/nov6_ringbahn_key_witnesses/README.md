@@ -8,7 +8,7 @@ plaintext positions**, with **265 fixed raw positions**. Five observed
 substitutions and one inserted-slot fill recover the full stated candidates.
 The Nov4–6 key is unchanged.
 
-The [edition](../../cases/pages/145.md#edition-cases-radio-nov6-ringbahn-key-witnesses) reconstructs
+The [edition](../../pages/145.md#edition-cases-radio-nov6-ringbahn-key-witnesses) reconstructs
 the three-part key-reuse instruction already read in the p211 lower-B copy.
 A printed four-coordinate XFVA group in p145 part 2 requires an explicit
 one-slot frame hypothesis. Adding F at boundary 33 and changing three observed

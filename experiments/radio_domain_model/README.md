@@ -31,7 +31,7 @@ conditions in the p73 and p170 packages; those are not independent historical
 samples.
 
 Each original dependency is hash-pinned. The Tiflis input is preserved in
-[frozen_sources](frozen_sources/) because the live source edition was later
+[frozen_sources](frozen_sources) because the live source edition was later
 extended with the missing preamble. New source editions are not silently
 added to this training snapshot.
 
@@ -73,12 +73,12 @@ mutation proposals**. A proposal can be a no-op; this is not the total number
 of all fitness calls. The first discovery of the best candidate and the actual
 final proposal counter are separate fields.
 
-The [p170 rank-search calibration](../p170_new_methods/) uses the same held-out
+The [p170 rank-search calibration](../p170_new_methods) uses the same held-out
 families in a different task: 53 characters, no source loss, the full true
 square supplied, and hidden column order at the correct width. The matched
 radio mixture recovers 5/6 full texts versus 2/6 for the book model. The
 remaining width-22 control fails under both; its better true score shows a
-search failure. The [p73 fixed-rank hidden-square controls](../p73_new_methods/)
+search failure. The [p73 fixed-rank hidden-square controls](../p73_new_methods)
 recover neither fresh text exactly and still select wrong texts above truth.
 The benefit is therefore specific to the observed search conditions.
 

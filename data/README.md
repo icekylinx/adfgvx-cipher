@@ -12,8 +12,8 @@
 | [prior_readings.json](prior_readings.json) | Earlier attributed readings, exact repair variants, and recomputed arithmetic |
 | [supplementary_readings.json](supplementary_readings.json) | The October 2026 supplementary readings and their primary-source corrections |
 | [review_ledger.json](review_ledger.json) | Claim-by-claim findings, original contributions, corrections, and unresolved limits |
-| [certificates/](certificates/) | Coordinate maps, explicit edits, source relationships, and plaintext constraints |
-| [reviews/](reviews/) | Focused source, attribution, historical, and reproducibility audits |
+| [certificates/](certificates) | Coordinate maps, explicit edits, source relationships, and plaintext constraints |
+| [reviews/](reviews) | Focused source, attribution, historical, and reproducibility audits |
 
 Question marks preserve unresolved source evidence or square cells. They are never silently filled by a language-model best fit. The numbered page editions present readable editorial text; these records preserve the exact evidence behind it.
 
@@ -21,7 +21,7 @@ Research and editorial attribution: **icekylinx and GPT-6 Astra Pro**. Earlier r
 
 Additional source editions live with their verifiers in
 [corpus_readings](../experiments/corpus_readings/README.md),
-[corpus_attack](../experiments/corpus_attack/SOURCE_FAMILIES.md),
+[corpus_attack](../experiments/corpus_attack/README.md),
 [corpus_joint](../experiments/corpus_joint/README.md),
 [p170_continuation](../experiments/p170_continuation/README.md),
 [courier_recovery](../experiments/courier_recovery/README.md) and

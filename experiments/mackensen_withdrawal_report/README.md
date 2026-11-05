@@ -1,7 +1,7 @@
 # Mackensen withdrawal report: source edition and ninth-part assembly
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. Read the
-[full source edition](../../cases/pages/113.md#edition-cases-military-mackensen-withdrawal-report).
+[full source edition](../../pages/113.md#edition-cases-military-mackensen-withdrawal-report).
 
 This package audits twelve surviving physical parts of the thirteen-part
 3 November report. Childs and Lasry et al. retain the historical decipherment

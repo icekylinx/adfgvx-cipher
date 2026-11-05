@@ -4,7 +4,7 @@
 
 Fifteen checked source records on printed pp166–174 contain 2,161 received slots. Nine records provide seven message groups about radio-station control, destroyed records, retained cipher keys and Seifert's arrival, return and departure. Six further records preserve overlapping operational reports about Serbian cavalry and the northward movement of German formations. A full copy on p167 supplies the missing 20-coordinate prefix of p166 part 3. The records use the published 7–9 November and 10–12 November keys.
 
-The readable editions are [Station control and the Seifert service exchange](../../cases/pages/168.md#edition-cases-radio-seifert) and [9 November operational reports](../../cases/pages/166.md#edition-cases-military-nov9-operational-reports).
+The readable editions are [Station control and the Seifert service exchange](../../pages/168.md#edition-cases-radio-seifert) and [9 November operational reports](../../pages/166.md#edition-cases-military-nov9-operational-reports).
 
 The central p170 challenge is **section A** and remains open. These neighboring records are catalog additions; their source arithmetic and historical priority are recorded separately.
 
@@ -16,7 +16,7 @@ The central p170 challenge is **section A** and remains open. These neighboring 
 | [verify_military.py](verify_military.py) | Checks the operational parallels with the same independent arithmetic and globally consistent witnesses for the unresolved 5/6 cell |
 | [military_context.json](military_context.json) | Separately sourced historical identification of the 6th Reserve Division, led by a contemporary French telegram; original key and raw domains remain unchanged |
 | [verify_military_context.py](verify_military_context.py) | Verifies four contextual digit readings with no further cipher edits and retains exact witnesses for both cipher-only alternatives |
-| [Source excerpts](../../sources/excerpts/) | `childs_p168_AB.png`, `childs_p169_A.png`, `childs_p172_AB.png`, `childs_p174_BCDE.png`, `childs_p166_A_military.png`, `childs_p167_A_military.png`, `childs_p170_B_military.png` |
+| [Source excerpts](../../sources/excerpts) | `childs_p168_AB.png`, `childs_p169_A.png`, `childs_p172_AB.png`, `childs_p174_BCDE.png`, `childs_p166_A_military.png`, `childs_p167_A_military.png`, `childs_p170_B_military.png` |
 
 ```sh
 python experiments/p170_continuation/verify_seifert.py

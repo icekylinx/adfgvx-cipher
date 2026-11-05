@@ -2,7 +2,7 @@
 
 Research and editorial work: **icekylinx and GPT-6 Astra Pro**.
 
-[Read the source edition](../../cases/pages/167.md#edition-cases-finance-nov9-crown-airlift-and-embassy).
+[Read the source edition](../../pages/167.md#edition-cases-finance-nov9-crown-airlift-and-embassy).
 
 Four physical records on Childs p167 contain **624 source slots** and **312
 plaintext positions**. The unchanged published Nov7–9 key fixes **311 raw

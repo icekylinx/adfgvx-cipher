@@ -3,7 +3,7 @@
 **Source reconstruction and review: icekylinx and GPT-6 Astra Pro.**
 The published period key retains its Lasry-team attribution.
 
-Two damaged passages in [p163 A](../../cases/pages/163.md#edition-cases-military-p163-a) support the
+Two damaged passages in [p163 A](../../pages/163.md#edition-cases-military-p163-a) support the
 same military compound, **NACHHUTSTELLUNG**. The proposed part-15 continuation
 is **`X7XAUSDER3XNACHHUTSTELLUNG`**: “7. Aus der 3. Nachhutstellung …”. Its
 26 positions preserve **33 of 34 observed coordinates**, require **one observed

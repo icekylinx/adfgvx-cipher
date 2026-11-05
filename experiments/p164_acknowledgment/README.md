@@ -2,7 +2,7 @@
 
 **Source edition and review: icekylinx and GPT-6 Astra Pro.**
 
-[Read p164 D](../../cases/pages/164.md#edition-cases-radio-p164-acknowledgment) · [Certificate](certificates.json) · [Original Childs scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view)
+[Read p164 D](../../pages/164.md#edition-cases-radio-p164-acknowledgment) · [Certificate](certificates.json) · [Original Childs scan](https://drive.google.com/file/d/1_JiNMck7eUvdrOTrH7fsj1Yh44t-VSC6/view)
 
 The native **116-coordinate / 58-position** p164 D source partly reads as an acknowledgement addressed to O.H.L. and closing with O.K.M. Its raw word ERHAITEN becomes the ordinary ERHALTEN after **two observed-coordinate substitutions**, at zero-based source indices 50 and 73. The complete reference groups remain literal.
 

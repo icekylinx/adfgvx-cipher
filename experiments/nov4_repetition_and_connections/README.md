@@ -10,12 +10,12 @@ substitutions** and **1 source-mask fill**, with no insertion, deletion,
 group movement or key modification. They give 515/515 fixed positions;
 these counts are compatibility evidence, not a new numeral interpretation.
 
-The [radio edition](../../cases/pages/121.md#edition-cases-radio-nov4-repetition-and-connections)
+The [radio edition](../../pages/121.md#edition-cases-radio-nov4-repetition-and-connections)
 contains a two-part request to repeat the first part of a telegram to Kress,
 and a two-part inquiry about Constanza, the Bucharest connection, its cable
 and AOK 11. Matching printed part labels pair p121 B1 with p122 A2 while
 preserving their different reception times and page-local section letters.
-The [cash acknowledgment](../../cases/pages/122.md#edition-cases-finance-cash-arrival-acknowledgment)
+The [cash acknowledgment](../../pages/122.md#edition-cases-finance-cash-arrival-acknowledgment)
 reads directly, without a single coordinate change.
 
 `inputs.json` preserves literal rows, the noncoordinate Z-like glyph,

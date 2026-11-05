@@ -5,7 +5,7 @@ Source edition and independent verification: **icekylinx and GPT-6 Astra Pro**.
 The three cipher frames on Childs printed p60 yield a two-part instruction
 to listen at agreed daily times and a separate request to send traffic
 continuously during reception of the Nauen press, with acknowledgment afterward.
-The [reader edition](../../cases/pages/060.md#edition-cases-radio-september-radio-procedure) provides
+The [reader edition](../../pages/060.md#edition-cases-radio-september-radio-procedure) provides
 the German text, English explanation, literal headers and numerical caveats.
 
 ## Evidence and scope

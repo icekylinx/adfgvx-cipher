@@ -6,7 +6,7 @@ This source edition covers Childs p223 A1–A3, a three-part telegram about
 redemption of stamped and unstamped lei notes. It asks for amounts,
 denominations and details of stamping, proposes arrangements with
 Austrian/Hungarian banks, and says negotiations remain in progress.
-The full [case](../../cases/pages/223.md#edition-cases-finance-lei-note-exchange) preserves all raw
+The full [case](../../pages/223.md#edition-cases-finance-lei-note-exchange) preserves all raw
 and candidate readings, with their source limitations.
 
 ## Result

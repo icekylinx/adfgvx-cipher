@@ -4,7 +4,7 @@
 
 A complete native second-part body directs security measures according to one’s own discretion. Its first part is not supplied. Six explicitly priced coordinate changes recover the ordinary-word clause while the opening label, two irregular spellings and three coupled reference positions remain literal or unresolved.
 
-Read the [complete source edition](../../cases/pages/184.md#edition-cases-military-group-security-measures-fragment).
+Read the [complete source edition](../../pages/184.md#edition-cases-military-group-security-measures-fragment).
 
 | Scope | Count |
 | --- | ---: |

@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-The [source edition](../../cases/pages/155.md#edition-cases-radio-nov7-eighth-part-repetition) joins p155 C1 and C2 into a readable request to check and repeat an earlier eighth part. C1 requires an explicit one-coordinate exclusion from an overlong group; C2 is native and unaltered.
+The [source edition](../../pages/155.md#edition-cases-radio-nov7-eighth-part-repetition) joins p155 C1 and C2 into a readable request to check and repeat an earlier eighth part. C1 requires an explicit one-coordinate exclusion from an overlong group; C2 is native and unaltered.
 
 ## Exact primary scope
 

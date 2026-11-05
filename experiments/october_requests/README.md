@@ -3,7 +3,7 @@
 Prepared by **icekylinx and GPT-6 Astra Pro**. This package preserves four
 additional records from Childs pp62, 63 and 65 under the previously published
 **Oct4–6 key**. Earlier key credit remains with **J. Rives Childs, George Lasry,
-and Lasry–Niebel–Kopal–Wacker**. The [case note](../../cases/pages/062.md#edition-cases-caucasus-october-requests)
+and Lasry–Niebel–Kopal–Wacker**. The [case note](../../pages/062.md#edition-cases-caucasus-october-requests)
 gives the readings and their source limits.
 
 | Record | Literal slots | Plaintext positions after stated layout | Raw fixed positions | Proposed positions | Known-coordinate substitutions | Erasure fills | Status |
@@ -27,7 +27,7 @@ must not be reported as a count of correct intended plaintext.
   origins, all edits and fills, the two equivalent p62 B layouts, and
   complete arithmetic witnesses. Its unaccepted p63 normalization is kept
   outside the accepted partial template.
-- [sources](sources/) contains four scan crops with PDF coordinates, scales,
+- [sources](sources) contains four scan crops with PDF coordinates, scales,
   byte hashes and rendered-pixel hashes recorded in the inputs.
 - [verify.py](verify.py) uses an independent column-height inverse and
   compares it with the repository cipher implementation. It preserves

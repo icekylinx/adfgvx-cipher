@@ -4,7 +4,7 @@
 
 **Source comparison and verification: icekylinx and GPT-6 Astra Pro.**
 
-The [primary withdrawal-report edition](../../cases/pages/116.md#edition-cases-military-mackensen-withdrawal-report-p116-a13)
+The [primary withdrawal-report edition](../../pages/116.md#edition-cases-military-mackensen-withdrawal-report-p116-a13)
 leaves the final part raw-only. This separate supplement tests five German
 word spans suggested by the surviving coordinates and the already published
 historical translation. They produce **75 fixed labels out of 111** under
@@ -111,11 +111,11 @@ it is not a blind test: the words were chosen after the historical translation
 and raw domains were read. An exact low-cost fit cannot independently
 authenticate missing letters, original spelling or the historical event.
 
-**Further reading.** The [approval-request extension](APPROVAL.md) adds 15
+**Further reading.** The [approval-request extension](approval-request.md) adds 15
 conditional letters to this route layer, reaching 90/111 positions with no
 observed-coordinate changes; two of those letters are wholly missing.
 
-**Optional footer fields.** The [footer extension](FOOTER.md) adds seven
+**Optional footer fields.** The [footer extension](footer.md) adds seven
 half-supported labels through overlapping original fields, reaching 97/111.
 A separate historical-closing proposal reaches 101/111; all eleven new
 labels retain an observed half and change no observation. Exact prices and

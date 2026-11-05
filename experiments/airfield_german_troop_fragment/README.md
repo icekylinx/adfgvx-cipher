@@ -4,7 +4,7 @@
 
 A native third-part fragment reports an apparent airfield and German troops providing security along a named line. The exact text, three occupied source masks and two proposed coordinate corrections are retained; preceding parts and the geographical referents are not supplied from context.
 
-Read the [complete source edition](../../cases/pages/154.md#edition-cases-military-airfield-german-troop-fragment).
+Read the [complete source edition](../../pages/154.md#edition-cases-military-airfield-german-troop-fragment).
 
 | Scope | Count |
 | --- | ---: |

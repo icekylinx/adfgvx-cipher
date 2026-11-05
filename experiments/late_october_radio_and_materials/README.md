@@ -8,9 +8,9 @@ work and is copied with its provenance in `inputs.json`.
 
 The reader-facing cases are:
 
-- [Late October radio service](../../cases/pages/074.md#edition-cases-radio-late-october-radio-service):
+- [Late October radio service](../../pages/074.md#edition-cases-radio-late-october-radio-service):
   daily calls, a garbled CHI message, and a three-part routing query.
-- [Caucasus hide purchasing](../../cases/pages/075.md#edition-cases-finance-caucasus-hide-purchasing):
+- [Caucasus hide purchasing](../../pages/075.md#edition-cases-finance-caucasus-hide-purchasing):
   exclusive purchasing, return of a signed contract, expense arrangements,
   and the instruction to report at Lederzentrale Magnus in Kiew.
 

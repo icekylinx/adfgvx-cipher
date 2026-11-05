@@ -9,7 +9,7 @@ The existing five-coordinate-loss frame now supports the conditional clause:
 This completes the vehicle noun and the departure-readiness instruction,
 fixing **95 of 99 positions**, up from 91. The opening designation, `1500`,
 `DHFN` and the damaged closing instruction retain their literal labels.
-See the [source and readable case](../../cases/pages/185.md#edition-cases-context-transport-truck-movement-and-readiness).
+See the [source and readable case](../../pages/185.md#edition-cases-context-transport-truck-movement-and-readiness).
 
 ## Coordinate account
 

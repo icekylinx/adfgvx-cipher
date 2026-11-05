@@ -10,8 +10,8 @@ The main source improvement is in p102 C: three masks in the earlier OCR become 
 
 | Source record | Native coordinates | Raw fixed / total plaintext positions | Source result |
 | --- | ---: | ---: | --- |
-| [p102 C](../../cases/pages/102.md#edition-cases-caucasus-caucasus-ammunition-loading-p102-c) | 262 | 131 / 131 | Request to telegraph whether the remaining ammunition should be loaded; quantity `5280625`, reference `2078`, office reference `6829`, signature `HITTMER` |
-| [p102 D](../../cases/pages/102.md#edition-cases-people-roesler-leave-and-travel-p102-d) | 258 | 129 / 129 | Leave and departure on the next ship; both occurrences of `ROESLER`, the reference `109`, and signature `HOENIGSCHMID` retained |
+| [p102 C](../../pages/102.md#edition-cases-caucasus-caucasus-ammunition-loading-p102-c) | 262 | 131 / 131 | Request to telegraph whether the remaining ammunition should be loaded; quantity `5280625`, reference `2078`, office reference `6829`, signature `HITTMER` |
+| [p102 D](../../pages/102.md#edition-cases-people-roesler-leave-and-travel-p102-d) | 258 | 129 / 129 | Leave and departure on the next ship; both occurrences of `ROESLER`, the reference `109`, and signature `HOENIGSCHMID` retained |
 
 The full published Nov1–3 square and 19-column ranks are retained with their Lasry / Niebel / Kopal / Wacker provenance in [inputs.json](inputs.json). No numeral relabeling is performed. `ASRM1`, `RUSSXIS`, `MUV`, `EXH`, and `SXMXSTXPERS` remain literal; the readable layer supplies spacing and punctuation without expanding them. The D header’s `UNG`, `BARON FRANKENSTEIN`, `HPTM BENEDIKT` and `ÖST` are cleartext source evidence, separate from the recovered body.
 

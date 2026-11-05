@@ -79,7 +79,7 @@ language model.
 
 [Inputs](inputs.json), [certificates](certificates.json),
 [prior candidates](prior_candidates.json), [catalog proposal](catalog_proposal.json)
-and the [readable case](../../cases/pages/090.md#edition-cases-military-turkish-armistice-shipping-order)
+and the [readable case](../../pages/090.md#edition-cases-military-turkish-armistice-shipping-order)
 retain the complete edition. All three bodies were already present in earlier
 unreviewed repository screens. The bounded paper/thesis search found coal
 references in the previously published Mackensen withdrawal narrative, without

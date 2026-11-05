@@ -2,7 +2,7 @@
 
 **Source comparison and verification: icekylinx and GPT-6 Astra Pro.**
 
-The source-reviewed first part of the [Kress delegation report](../../cases/pages/068.md#edition-cases-caucasus-october-caucasus)
+The source-reviewed first part of the [Kress delegation report](../../pages/068.md#edition-cases-caucasus-october-caucasus)
 ends `OHNEBETEILIGUNGX?SKXMXANGEORDNET`. Interpreting its `X?S` as **DES**
 gives the ordinary construction “ohne Beteiligung des K.M. angeordnet”.
 This is a grammatical proposal with a small, explicit coordinate cost;

@@ -2,7 +2,7 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro**
 
-Read the [source comparison and edition](../../cases/pages/157.md#edition-cases-military-armistice-departure-copy).
+Read the [source comparison and edition](../../pages/157.md#edition-cases-military-armistice-departure-copy).
 The new physical record is p157 A1. Its 83 surviving slots can be aligned
 conditionally to the 190-slot p151 A1 frame, with 105 missing prefix slots
 and one gap in each short group. The p157 evidence alone fixes **0/95**

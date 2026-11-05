@@ -4,7 +4,7 @@
 
 This native message reports an accommodation area for a German Jaeger division. Its readable proposal repairs one word and fills two printed dashes; the route-like spellings and three globally coupled digit positions remain literal or unresolved. The complete source body matches its advertised 230 slots, with no change to its frame.
 
-Read the [complete source edition](../../cases/pages/183.md#edition-cases-military-jaeger-accommodation-area).
+Read the [complete source edition](../../pages/183.md#edition-cases-military-jaeger-accommodation-area).
 
 | Scope | Count |
 | --- | ---: |

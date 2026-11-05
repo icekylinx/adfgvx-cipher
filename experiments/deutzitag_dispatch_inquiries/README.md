@@ -6,7 +6,7 @@ Childs p80 A and p81 A/C preserve three versions of a commercial inquiry asking 
 
 The adjacent p81 B is a **separate military order** permitting a pioneer detachment to remain in Tiflis. It is included because the same source page and published key allow a complete, reversible reading. It is not joined to the commercial traffic.
 
-Read the [commercial edition](../../cases/pages/080.md#edition-cases-finance-deutzitag-dispatch-inquiries) and [pioneer-detachment edition](../../cases/pages/081.md#edition-cases-caucasus-tiflis-pioneer-detachment). The exact source inputs are [inputs.json](inputs.json), the [crops](sources/), and [certificates.json](certificates.json).
+Read the [commercial edition](../../pages/080.md#edition-cases-finance-deutzitag-dispatch-inquiries) and [pioneer-detachment edition](../../pages/081.md#edition-cases-caucasus-tiflis-pioneer-detachment). The exact source inputs are [inputs.json](inputs.json), the [crops](sources), and [certificates.json](certificates.json).
 
 ## Literal source and comparison
 

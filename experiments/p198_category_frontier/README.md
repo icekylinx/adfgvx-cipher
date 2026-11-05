@@ -75,7 +75,7 @@ outside this result. Inputs and frozen source provenance are in
 
 The earlier [ordinary-letter bounds](../p198_letter_bounds/README.md)
 proved that every reading in the family has at least three digits. The
-[24-letter category audit](../p198_letter_bounds/CATEGORY_BOUNDS.md)
+[24-letter category audit](../p198_letter_bounds/category-bounds.md)
 proved that digits plus Q/Y occupy at least ten positions.
 
 Those separate inequalities allow the hypothetical pair `(3 digits,

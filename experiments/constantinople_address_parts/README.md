@@ -4,7 +4,7 @@ Prepared by **icekylinx and GPT-6 Astra Pro**; published keys credited to Lasry,
 
 **3 physical records; 526 native coordinate slots; 263 plaintext positions.** The raw layer fixes 262 positions and the edition fixes 262, with 2 observed-coordinate substitutions and 0 fills. No geometry, key or numerical-label assignment changes.
 
-See [the complete case](../../cases/pages/147.md#edition-cases-radio-constantinople-address-parts). `inputs.json` records the source rows and crop provenance; `prior_candidates.json` retains earlier readings; `certificates.json` records exact costs, remaining domains and raw/edited round trips. The catalog proposal includes only the listed new physical records.
+See [the complete case](../../pages/147.md#edition-cases-radio-constantinople-address-parts). `inputs.json` records the source rows and crop provenance; `prior_candidates.json` retains earlier readings; `certificates.json` records exact costs, remaining domains and raw/edited round trips. The catalog proposal includes only the listed new physical records.
 
 ```bash
 python experiments/constantinople_address_parts/verify.py --verify

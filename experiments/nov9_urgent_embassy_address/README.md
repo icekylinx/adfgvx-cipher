@@ -2,7 +2,7 @@
 
 Prepared by **icekylinx and GPT-6 Astra Pro**.
 
-The [source edition](../../cases/pages/161.md#edition-cases-people-constantinople-urgent-address-p161-b1) preserves a short native 98-coordinate record from J. Rives Childs, *General Solution of the ADFGVX Cipher System*, printed p161 (PDF page 164). Its unchanged Nov7–9 partial key yields **49 / 49 fixed raw plaintext positions**, with **zero historical coordinate substitutions, source fills, insertions or exclusions**:
+The [source edition](../../pages/161.md#edition-cases-people-constantinople-urgent-address-p161-b1) preserves a short native 98-coordinate record from J. Rives Childs, *General Solution of the ADFGVX Cipher System*, printed p161 (PDF page 164). Its unchanged Nov7–9 partial key yields **49 / 49 fixed raw plaintext positions**, with **zero historical coordinate substitutions, source fills, insertions or exclusions**:
 
 ```text
 DEUTSCHEBOTSCHAFTCONSTANTINOPELDRINGENDXGEZXSTUMM
@@ -23,7 +23,7 @@ Correcting the first draft error alone gives the diagnostic `DRINGENU`. Correcti
 
 The subsection heading says **9th NOVEMBER, 1918.**, the receipt header says **November 8th**, and the internal origin field is **(9/11)**. All three source markers remain literal. The source labels this part 1 of 2; a missing second part is not supplied.
 
-The address/signature wording resembles [p162 D1](../../cases/pages/162.md#edition-cases-people-constantinople-embassy-signature-p162-d1), but the two source records have different headers and C/K spellings of the city. This is related wording only, not evidence that they form one telegram. No substantive missing request or external identity for STUMM is inferred.
+The address/signature wording resembles [p162 D1](../../pages/162.md#edition-cases-people-constantinople-embassy-signature-p162-d1), but the two source records have different headers and C/K spellings of the city. This is related wording only, not evidence that they form one telegram. No substantive missing request or external identity for STUMM is inferred.
 
 ## Reproduction
 

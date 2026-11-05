@@ -1,8 +1,8 @@
 # Inventory and medical-return source records
 
 Prepared by **icekylinx and GPT-6 Astra Pro**. This package verifies
-[p86 A's MG08 inventory query](../../cases/pages/086.md#edition-cases-military-mg08-inventory) and
-[the two-part p104 C medical-return report](../../cases/pages/104.md#edition-cases-people-medical-return-to-unit).
+[p86 A's MG08 inventory query](../../pages/086.md#edition-cases-military-mg08-inventory) and
+[the two-part p104 C medical-return report](../../pages/104.md#edition-cases-people-medical-return-to-unit).
 
 | Record | Observed slots / advertised | Raw labels under stated geometry | Known-coordinate substitutions | Source-erasure fills | Additional geometry |
 | --- | ---: | ---: | ---: | ---: | --- |

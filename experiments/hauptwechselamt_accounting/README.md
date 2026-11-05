@@ -6,7 +6,7 @@ Childs printed p175 B, PDF page 178, preserves a **second part** concerning
 marks paid through the end of October and arrival notices for cheques.
 The signature-like ending reads `HAUPTWECHSELAMT` in the edited candidate.
 No first part is identified or supplied. Read the
-[case](../../cases/pages/175.md#edition-cases-finance-hauptwechselamt-accounting) for all three
+[case](../../pages/175.md#edition-cases-finance-hauptwechselamt-accounting) for all three
 presentation layers and the unresolved fields.
 
 The receiving header is `LP v NKJ (6.02 p.m., November 10th)`. Despite

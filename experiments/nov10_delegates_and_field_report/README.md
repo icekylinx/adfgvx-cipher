@@ -11,8 +11,8 @@ earlier repository screen also contained candidate readings of all four
 parts. The present contribution is a reversible source edition and an
 explicit uncertainty and attribution record.
 
-Read the cases for [delegation travel](../../cases/pages/175.md#edition-cases-people-spa-berlin-delegates)
-and the [Danube field report](../../cases/pages/176.md#edition-cases-military-nov10-danube-field-report).
+Read the cases for [delegation travel](../../pages/175.md#edition-cases-people-spa-berlin-delegates)
+and the [Danube field report](../../pages/176.md#edition-cases-military-nov10-danube-field-report).
 
 ## Source and arithmetic
 

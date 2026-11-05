@@ -8,7 +8,7 @@ header is 31 October. Both parts decode directly under the unchanged
 published **Oct28–31** key. No coordinate substitution, fill, insertion,
 deletion, length repair or key change is needed.
 
-The [reading case](../../cases/pages/078.md#edition-cases-finance-premium-payment-stop) gives the
+The [reading case](../../pages/078.md#edition-cases-finance-premium-payment-stop) gives the
 complete raw and identical edited streams, followed by spaced German.
 The order says to stop all premium payments `AUSLANDESMITTELN` with
 `ABLAUFOKTOBER18`, and immediately inform every subordinate office.

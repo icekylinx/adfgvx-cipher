@@ -8,7 +8,7 @@ warns that the Turkish interest may be in acquiring tonnage rather than
 transporting Germans, requires immediate payment and authorization, and
 quotes terms associated with `GENERAL` and raw `KERKIJRA` / `KEHKYRA`.
 The full raw and proposed readings are in
-[the case](../../cases/pages/177.md#edition-cases-naval-turkish-tonnage).
+[the case](../../pages/177.md#edition-cases-naval-turkish-tonnage).
 
 The primary source is J. Rives Childs, *General Solution of the ADFGVX
 Cipher System*, printed p177, PDF page 180. The page heading says 11 November;

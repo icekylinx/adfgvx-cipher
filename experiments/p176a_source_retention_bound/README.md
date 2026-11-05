@@ -4,7 +4,7 @@
 112-position body, including `BEEURTEILT`, solely to price its compatibility
 with the literal 214-slot source and unchanged Nov10–12 key.
 
-[Case section](../../cases/pages/176.md#edition-cases-p176a-source-retention-bound-for-the-earlier-proposal)
+[Case section](../../pages/176.md#edition-cases-p176a-source-retention-bound-for-the-earlier-proposal)
 · [Inputs](inputs.json) · [Exact certificate](certificates.json).
 
 All monotone source-retaining alignments into 224 slots require at least

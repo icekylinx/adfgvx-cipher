@@ -164,7 +164,7 @@ def render_topic(group, rows, catalogue):
     destination = TOPIC_ROOT / (group['id'] + '.md')
     data, sources = load_exploration(catalogue)
     lines = ['# ' + group['title'], '', GENERATED, '',
-             '[By subject](README.md) · [Page ranges](../cases/pages/README.md) · '
+             '[By subject](README.md) · [Page ranges](../pages/README.md) · '
              '[Historical research](../docs/historical-studies/README.md)', '']
     if group['id'] == 'open':
         lines.extend([data['secondary']['text'], '',
@@ -193,7 +193,7 @@ def render_overview(groups, rows, catalogue=None):
     accounting = physical_source_accounting(catalogue)
     data, _ = load_exploration(catalogue)
     lines = ['# Browse by subject', '', GENERATED, '',
-             '[ADFGVX Cipher](../README.md) · [Page ranges](../cases/pages/README.md) · '
+             '[ADFGVX Cipher](../README.md) · [Page ranges](../pages/README.md) · '
              '[Historical research](../docs/historical-studies/README.md)', '',
              'Choose a subject for short summaries and direct links to the complete page editions. Each guide also includes its full source index.', '',
              '## Subjects', '',

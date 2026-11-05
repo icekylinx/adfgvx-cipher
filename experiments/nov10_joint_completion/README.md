@@ -22,7 +22,7 @@ The [Bundesarchiv’s formation guide](https://www.bundesarchiv.de/im-archiv-rec
 
 The [mobilization poster, museum inventory 1263](https://mvu.ro/product/afisul-prezinta-decretul-3179-din-27-octombrie-emis-de-regele-ferdinand-prin-care-a-proclamat-mobilizarea-generala-a-armatei-romane/), reproduces decree **3179**, dated **27 October 1918**. Its first mobilization day is printed as **28 October / 10 November**. The signature therefore falls on **9 November** in the same calendar as the German report. The [original poster image](sources/romanian_mobilisation_1263.jpg) was checked visually. Connecting the report to this decree selects `XA=9`; the same cell supplies its **9 Uhr abends**. The decree establishes the order’s date, not that later hour independently.
 
-This reverses the previously proposed order of p176b’s two divisions to **219, 217**, retaining **6 R.D.D.** The earlier [French telegram and division-history review](../../data/reviews/p176b_unit_context.json) supports the formation set. It does not dictate the order of their appearance in the German cryptogram. The twenty-coordinate reconstruction and the original Prinz / GPT-6 Astra attribution remain in [p176b](../../cases/pages/176.md#edition-cases-p176b). Its three already supplied historical digits are excluded from the twenty-position gain.
+This reverses the previously proposed order of p176b’s two divisions to **219, 217**, retaining **6 R.D.D.** The earlier [French telegram and division-history review](../../data/reviews/p176b_unit_context.json) supports the formation set. It does not dictate the order of their appearance in the German cryptogram. The twenty-coordinate reconstruction and the original Prinz / GPT-6 Astra attribution remain in [p176b](../../pages/176.md#edition-cases-p176b). Its three already supplied historical digits are excluded from the twenty-position gain.
 
 | Pair | Adopted conditional label | Rival before the decree association |
 | --- | ---: | ---: |
@@ -40,17 +40,17 @@ Counts compare each part’s previously displayed edited layer, including its ea
 
 | Source part | Fixed before → after / length | New pairs | Earlier observed changes / mask fills / added fills / excluded coordinates |
 | --- | ---: | ---: | --- |
-| [p172 B](../../cases/pages/168.md#edition-cases-radio-seifert) | 19 → 20 / 20 | 1 | 0 / 0 / 0 / 0 |
-| [p174 D](../../cases/pages/168.md#edition-cases-radio-seifert) | 19 → 20 / 20 | 1 | 0 / 0 / 0 / 0 |
-| [p173 A1](../../cases/pages/165.md#edition-cases-naval-corcovado-sale-terms) | 120 → 121 / 121 | 1 | 6 / 0 / 0 / 0 |
-| [p175 A2](../../cases/pages/175.md#edition-cases-people-spa-berlin-delegates-p175-a2) | 51 → 52 / 52 | 1 | 1 / 0 / 0 / 0 |
-| [p175 C2](../../cases/pages/175.md#edition-cases-military-romanian-ultimatum-companions-p175-c2) | 102 → 104 / 104 | 2 | 1 / 0 / 0 / 0 |
-| [p177 B3](../../cases/pages/177.md#edition-cases-naval-turkish-tonnage) | 186 → 187 / 187 | 1 | 4 / 0 / 0 / 0 |
-| [p178 A5](../../cases/pages/178.md#edition-cases-naval-naval-armistice-order) | 159 → 161 / 161 | 2 | 2 / 0 / 0 / 0 |
-| [p179 A](../../cases/pages/179.md#edition-cases-radio-right-rhine-equipment) | 130 → 133 / 133 | 3 | 7 / 0 / 0 / 5 |
-| [p179 B](../../cases/pages/179.md#edition-cases-military-armistice-and-leave-orders) | 76 → 79 / 79 | 3 | 1 / 0 / 0 / 0 |
-| [p180 B2](../../cases/pages/180.md#edition-cases-military-nov11-romanian-mobilization-report-p180-b2) | 116 → 118 / 120 | 2 | 4 / 1 / 4 / 0 |
-| [p183 F](../../cases/pages/183.md#edition-cases-military-jaeger-accommodation-area-p183-f) | 112 → 115 / 115 | 3 | 1 / 2 / 0 / 0 |
+| [p172 B](../../pages/168.md#edition-cases-radio-seifert) | 19 → 20 / 20 | 1 | 0 / 0 / 0 / 0 |
+| [p174 D](../../pages/168.md#edition-cases-radio-seifert) | 19 → 20 / 20 | 1 | 0 / 0 / 0 / 0 |
+| [p173 A1](../../pages/165.md#edition-cases-naval-corcovado-sale-terms) | 120 → 121 / 121 | 1 | 6 / 0 / 0 / 0 |
+| [p175 A2](../../pages/175.md#edition-cases-people-spa-berlin-delegates-p175-a2) | 51 → 52 / 52 | 1 | 1 / 0 / 0 / 0 |
+| [p175 C2](../../pages/175.md#edition-cases-military-romanian-ultimatum-companions-p175-c2) | 102 → 104 / 104 | 2 | 1 / 0 / 0 / 0 |
+| [p177 B3](../../pages/177.md#edition-cases-naval-turkish-tonnage) | 186 → 187 / 187 | 1 | 4 / 0 / 0 / 0 |
+| [p178 A5](../../pages/178.md#edition-cases-naval-naval-armistice-order) | 159 → 161 / 161 | 2 | 2 / 0 / 0 / 0 |
+| [p179 A](../../pages/179.md#edition-cases-radio-right-rhine-equipment) | 130 → 133 / 133 | 3 | 7 / 0 / 0 / 5 |
+| [p179 B](../../pages/179.md#edition-cases-military-armistice-and-leave-orders) | 76 → 79 / 79 | 3 | 1 / 0 / 0 / 0 |
+| [p180 B2](../../pages/180.md#edition-cases-military-nov11-romanian-mobilization-report-p180-b2) | 116 → 118 / 120 | 2 | 4 / 1 / 4 / 0 |
+| [p183 F](../../pages/183.md#edition-cases-military-jaeger-accommodation-area-p183-f) | 112 → 115 / 115 | 3 | 1 / 2 / 0 / 0 |
 
 The identical p172 B and p174 D strings are separate physical receptions; each has one native digit position. The p179 A exclusions belong to its printed cancellation. The p180 B2 tail remains a conditional five-slot extension, with four slots filled by its older word proposals and one left masked.
 

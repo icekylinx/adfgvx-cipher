@@ -87,5 +87,5 @@ python experiments/military_intendant_remit/verify.py --verify \
 
 An optional `--pdf /path/to/adfgvx-childs.pdf` verifies the complete source
 PDF hash. The core certificate requires no language model or optimization.
-The [readable case](../../cases/pages/202.md#edition-cases-military-military-intendant-remit) separates
+The [readable case](../../pages/202.md#edition-cases-military-military-intendant-remit) separates
 the proposed body, exact edits, source ambiguity and attribution limits.

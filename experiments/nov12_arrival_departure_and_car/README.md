@@ -4,7 +4,7 @@
 
 Four short native records report arrival and departure, request an arrival notification, and enquire about a car. The arrival enquiry and departure text have earlier p174 parallels already published in this repository; the new witnesses add source support to those readings. In particular, the two complementary arrival-enquiry witnesses now supply every coordinate and every plaintext pair without changing an observed coordinate under the conservative glyph masks. The previously catalogued witnesses are not counted again.
 
-Read the [complete source edition](../../cases/pages/183.md#edition-cases-radio-nov12-arrival-departure-and-car).
+Read the [complete source edition](../../pages/183.md#edition-cases-radio-nov12-arrival-departure-and-car).
 
 | Scope | Count |
 | --- | ---: |

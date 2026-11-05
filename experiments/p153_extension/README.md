@@ -8,7 +8,7 @@ without assigning an unsupported digit or expanding an unidentified signature.
 
 ## Full reading of the surviving second part
 
-With the [previously certified body reconstruction](../../cases/pages/153.md#edition-cases-p153b) and
+With the [previously certified body reconstruction](../../pages/153.md#edition-cases-p153b) and
 the separately stated `AF=X` separator interpretation:
 
 ```text
