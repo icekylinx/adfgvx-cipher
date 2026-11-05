@@ -8,7 +8,9 @@ snapshots are the published Lasry-team period keys, credited in
 explicit editorial proposals; it does not claim that these dispatches were
 never deciphered before.
 
-## What is recovered
+## Source coverage and reading costs
+
+<a id="what-is-recovered"></a>
 
 Eight surviving parts contain 1,632 coordinate slots, representing 816
 plaintext positions. The source-checked transcription has one printed dash.

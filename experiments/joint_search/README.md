@@ -166,7 +166,9 @@ The later `joint_rectangle_warm` experiment uses a separate corrected engine;
 its source hash is recorded with its calibration results. It does not overwrite
 the earlier component-column or fixed-pair search traces.
 
-## What the controls establish
+## Control recovery and coordinate fidelity
+
+<a id="what-the-controls-establish"></a>
 
 At the specified width 16, the surrogate rankings followed by profile and
 language fitting recover all 105 fully observed plaintext characters in both

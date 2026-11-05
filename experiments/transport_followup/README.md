@@ -25,7 +25,9 @@ STATIONBLEIBTBIS16X0???BETRBEREITXSEIFERT
 
 `NACHRCHEF` and `BETRBEREIT` are read as abbreviations for *Nachrichtenchef* and *betriebsbereit*. The expansions are editorial. `EINHAFEN` is the letter sequence supported by the combined witnesses; no place identification is established. `US` remains unexpanded. The time/date is not silently changed to 16:00.
 
-### What the source preserves
+### Printed source lengths and coordinate gaps
+
+<a id="what-the-source-preserves"></a>
 
 | Source | Printed label | Slots | Valid coordinates | Other slots |
 | --- | ---: | ---: | ---: | --- |

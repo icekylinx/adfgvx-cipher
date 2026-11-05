@@ -40,7 +40,9 @@ These coupled restrictions are stronger than three independent lists of
 possible letters. The [result](result.json) includes all twelve footer
 coordinate mappings and exact source indices.
 
-## What a decimal-calendar interpretation supplies
+## Decimal-calendar constraints
+
+<a id="what-a-decimal-calendar-interpretation-supplies"></a>
 
 The first part contains the pattern:
 

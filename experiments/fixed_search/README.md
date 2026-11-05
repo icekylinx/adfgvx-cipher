@@ -5,7 +5,9 @@ plaintext from these search branches has been accepted.** A high language score
 and a mathematically valid fitted square do not establish the historical key.
 The later source-based p152 and p189 findings are separate from these searches.
 
-## What was searched
+## Search scope
+
+<a id="what-was-searched"></a>
 
 | Branch | Exact configured cases | Objective and scope |
 | --- | ---: | --- |

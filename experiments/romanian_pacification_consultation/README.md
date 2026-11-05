@@ -38,7 +38,9 @@ No missing part or opaque p151 closing is supplied by assumed adjacency.
 The p151 comparison literal and certificate hash are frozen locally;
 the verifier does not depend on a mutable external candidate.
 
-## What the source correction adds
+## Source corrections and prior readings
+
+<a id="what-the-source-correction-adds"></a>
 
 Earlier OCR/cached candidates already revealed portions of these bodies;
 their exact rows and hashes are retained in `ocr_snapshot.json` and

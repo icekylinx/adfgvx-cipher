@@ -52,7 +52,9 @@ The historical 50-job portion accounts for 137,008,046 expanded states and
 are preserved under `results/logs`, with their hashes in the stage ledgers.
 No in-progress incumbent was collected as a completed result.
 
-## What the exact DP optimizes
+## Dynamic-programming objective
+
+<a id="what-the-exact-dp-optimizes"></a>
 
 For a fixed supplied square and rank order, let `t` be the number of completed
 plaintext pairs and `g` the number of inserted interim coordinates already

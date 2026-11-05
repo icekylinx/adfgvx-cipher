@@ -8,31 +8,31 @@
 
 ## Ultimatum, transit and provisioning
 
-The Romanian ultimatum, Hungarian movement instructions and Arad provisioning request document the deadlines, permissions and supplies governing withdrawal.
+Withdrawal correspondence combines evacuation deadlines, transit negotiations and provisioning requests.
 
 | Subject | Summary | Page editions |
 | --- | --- | --- |
-| **The Romanian ultimatum in the evening report** | An evening report says the Romanian evacuation ultimatum has not been answered. Its relative deadline remains distinct from an established calendar date. | [p180](../cases/pages/180.md#source-p180-d1) |
+| **The Romanian ultimatum in the evening report** | The Romanian evacuation ultimatum remains unanswered in this evening report. Its relative deadline cannot be securely assigned a calendar date. | [p180](../cases/pages/180.md#source-p180-d1) |
 | **Instructions for movement through Hungary** | The message reports Hungarian armistice negotiations, says German troops are to leave Hungarian and South Slav territory, and requests instructions for the two staff officers AOK11 is to send. | [p124](../cases/pages/124.md#source-p124-a1) |
-| **Arad provisions: 80,000 men and 30,000 animals** | The message requests provision trains to Arad and action through the Hungarian government, and reports 80,000 men and 30,000 animals. Independent receptions restore missing text and support the strength figure. | [p159](../cases/pages/159.md#source-p159-a) · [p168](../cases/pages/168.md#source-p168-e) |
+| **Arad provisions: 80,000 men and 30,000 animals** | Provision trains are requested for Arad, with action through the Hungarian government. Independent receptions supply missing text and support the reported strength figures. | [p159](../cases/pages/159.md#source-p159-a) · [p168](../cases/pages/168.md#source-p168-e) |
 
 ## Transport and medical provision
 
-Transit planning, provisions requests and recommendations for heated sick wagons record preparations for moving personnel.
+Railway planning and medical transport recommendations specify supplies and accommodation for returning personnel.
 
 | Subject | Summary | Page editions |
 | --- | --- | --- |
 | **Transit planning under armistice conditions** | A report cites Hungarian newspapers allowing fifteen days for transit, considers holding the 11th Army on the Danube, and requests the actual agreement. | [p125](../cases/pages/125.md#source-p125-a1) · [p126](../cases/pages/126.md#source-p126-a5) |
-| **Heated sick wagons and medical return transport** | Recommendations for return transports from Turkey specify heated sick wagons, cooking equipment and hot tea; the text records preparations requested, not equipment supplied. | [p212](../cases/pages/212.md#source-p212-a1) · [p213](../cases/pages/213.md#source-p213-a6) |
+| **Heated sick wagons and medical return transport** | The recommendations specify heated sick wagons, cooking equipment and hot tea for return transports from Turkey. | [p212](../cases/pages/212.md#source-p212-a1) · [p213](../cases/pages/213.md#source-p213-a6) |
 | **Requests for provisions during withdrawal** | Separate messages request the applicable armistice conditions and a provisions train to Szolnok on the Theiss. | [p188](../cases/pages/188.md#source-p188-a) |
 
 ## Command, internment and unrest
 
-Mackensen’s appeal and the internment correspondence concern the conditions under which his forces could return. A separate report from Kiev warns of impending unrest and states the soldiers’ council’s decision for neutrality.
+Mackensen’s appeal and the Berlin council’s letter address internment. The Kiev report concerns neutrality during impending unrest.
 
 | Subject | Summary | Page editions |
 | --- | --- | --- |
-| **Mackensen’s appeal against internment** | Mackensen challenges the demand for disarmament and internment and describes provisioning difficulties, after Berthelot communicates Foch’s position. | [p220](../cases/pages/220.md#source-p220-c1) · [p221](../cases/pages/221.md#source-p221-a5) |
+| **Mackensen’s appeal against internment** | After Berthelot communicates Foch’s position, Mackensen challenges the demand for disarmament and internment and describes provisioning difficulties. | [p220](../cases/pages/220.md#source-p220-c1) · [p221](../cases/pages/221.md#source-p221-a5) |
 | **Internment correspondence** | The Berlin council tells Mackensen’s soldiers’ council that the Entente insists on internment and would regard maintaining the departure order as a breach of the armistice. | [p226](../cases/pages/226.md#source-p226-c1) · [p227](../cases/pages/227.md#source-p227-a4) |
 | **Kiev unrest and soldiers’ council neutrality** | The conditional reading warns of impending unrest between the Hetman government and a named opponent and reports the soldiers’ council’s decision for neutrality. Petljura remains a separately priced name proposal. | [p219](../cases/pages/219.md#source-p219-c) |
 

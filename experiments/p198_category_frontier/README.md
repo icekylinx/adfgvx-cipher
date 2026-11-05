@@ -69,7 +69,9 @@ Other keys, transpositions and types of transmission damage remain
 outside this result. Inputs and frozen source provenance are in
 [inputs.json](../p198_exact_sparse/inputs.json).
 
-## What this adds to the scalar bounds
+## Joint category bounds
+
+<a id="what-this-adds-to-the-scalar-bounds"></a>
 
 The earlier [ordinary-letter bounds](../p198_letter_bounds/README.md)
 proved that every reading in the family has at least three digits. The

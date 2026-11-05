@@ -17,7 +17,9 @@ candidate, not a uniquely established historical plaintext. Read the
 [case](../../cases/pages/175.md#edition-cases-military-p175-c3-withdrawal-followup) for the raw
 reading, readable German, source sequence and historical limits.
 
-## What the page actually provides
+## Printed length and missing-coordinate count
+
+<a id="what-the-page-actually-provides"></a>
 
 The [frozen source package](../romanian_ultimatum_companions/inputs.json)
 contains **217 literal slots**, including four printed dashes. An enlarged

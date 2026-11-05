@@ -15,7 +15,9 @@ two explicit short-group insertion hypotheses, exact coordinate-repair
 costs, unresolved numeric domains and a reproducible certificate, by
 **icekylinx and GPT-6 Astra Pro**. The published Nov10–12 key is unchanged.
 
-## What the order says
+## Cessation of hostilities and naval instructions
+
+<a id="what-the-order-says"></a>
 
 The two addressee labels are `MMD` and `SDOKOMMANDO`, followed by
 `VONSKLSKL`. The first instruction directs immediate transmission to all

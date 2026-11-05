@@ -86,7 +86,9 @@ coordinate, every fill, the precise permitted domains and a partially
 reencrypted witness for each span. Coordinates outside the chosen span stay
 as received or erased.
 
-## What the documents support
+<a id="what-the-documents-support"></a>
+
+## Kosch identification and naval context
 
 The source is Winfried Baumgart's 1971 edition of the Paquet, Groener and
 Hopman papers, digitized by the Bayerische Staatsbibliothek. Its

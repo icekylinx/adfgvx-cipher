@@ -4,11 +4,11 @@
 
 **Historical study: icekylinx and GPT-6 Astra Pro.**
 
-German withdrawal from southeastern Europe depended on transit permission, transport, provisions and cooperation from authorities along the route. These conditions did not advance together. Late-November correspondence reported both obstructions and arrivals after the armistice's stated transit period. Headquarters appeals against internment belong to this uneven withdrawal; they do not establish when every formation ceased moving.
+German withdrawal from southeastern Europe depended on transit permission, transport, provisions and cooperation from authorities along the route. Late-November correspondence reported both obstructions and arrivals after the armistice's stated transit period, while headquarters appealed against internment. Contemporary armistice texts, a railway announcement, an operational map and Berlin council documents place this uneven withdrawal within the institutions governing passage and detention.
 
-Childs's intercepted messages are compared here with armistice texts, a railway announcement, an operational map and Berlin council documents. Each witness establishes a report, request or instruction; corroborating one detail does not authenticate the whole account.
+<a id="chronology-and-the-dates-of-the-evidence"></a>
 
-## Chronology and the dates of the evidence
+## Withdrawal chronology
 
 The chronology distinguishes events and originating dates from interception and publication. Unprinted dates remain unresolved.
 
@@ -25,15 +25,17 @@ The chronology distinguishes events and originating dates from interception and 
 
 The Transylvania report's conflicting 5–6 November headings, receipt times and two missing parts prevent a precise sequence. The [editions on pp128–129](../../cases/pages/128.md#edition-cases-military-transylvania-situation-report) and [p137](../../cases/pages/137.md#edition-cases-military-transylvania-situation-report) retain these limits.
 
-## The legal terms of passage
+<a id="the-legal-terms-of-passage"></a>
+
+## The fifteen-day transit period
 
 Signed on 3 November, the Austro-Hungarian armistice took effect at 15:00 Central European time on 4 November. Military clause 5 required German evacuation within fifteen days, with internment for troops remaining. Belgrade clause 11, agreed on 13 November, counted its passage and quartering allowance from **4 November at 15:00**. Clauses 11 and 14 placed communications and railways under Allied control.[^armistices]
 
-The stated fifteen days end, by calculation, on **19 November at 15:00**. The reports originating on 24 and 28 November postdate that allowance without interpreting body digits. They establish neither an extension nor uniform enforcement.
+Counting fifteen days gives a deadline of **19 November at 15:00**. The independently dated reports of 24 and 28 November fall after that allowance; neither reports an extension.
 
-The [message originating on 4 November](../../cases/pages/124.md#edition-cases-military-hungarian-armistice-instructions) instructs German troops to leave Hungarian and South Slav territory promptly and directs AOK 11 to send two staff officers to negotiations. It requests instructions without reporting an agreement or the officers' arrival. The name `KOOVES` remains unidentified.
+The [message originating on 4 November](../../cases/pages/124.md#edition-cases-military-hungarian-armistice-instructions) instructs German troops to leave Hungarian and South Slav territory promptly, directs AOK 11 to send two staff officers to negotiations and requests instructions. The name `KOOVES` remains unidentified.
 
-In [p179 C, intercepted on 11 November](../../cases/pages/179.md#edition-cases-military-armistice-and-leave-orders), Mackensen's high command and the Eleventh Army request OHL's particular armistice conditions for their front. [p181 B](../../cases/pages/181.md#edition-cases-military-namur-cassel-armistice-requests-p181-b) asks again, naming OKM and AOK11. Its 01:00 interception and 23:10 originating fields both carry 12 November, preventing a reliable interval between requests. The repetition documents a continuing demand for authoritative instructions.
+In [p179 C, intercepted on 11 November](../../cases/pages/179.md#edition-cases-military-armistice-and-leave-orders), Mackensen's high command and the Eleventh Army request OHL's particular armistice conditions for their front. [p181 B](../../cases/pages/181.md#edition-cases-military-namur-cassel-armistice-requests-p181-b) repeats the request, naming OKM and AOK11. Its 01:00 interception and 23:10 originating fields both carry 12 November, preventing a reliable interval between requests.
 
 ## Provisioning the route: Arad and the railway allocation
 
@@ -43,7 +45,7 @@ The [Arad report received on 9 November](../../cases/pages/168.md#edition-cases-
 
 The two duration fields have no established relationship. Observed ciphertext pairs in p168 E support both strength figures and resolve the incomplete 80,000 field in the [earlier p159 witness](../../cases/pages/159.md#edition-cases-military-arad-provisions-partial). The closing reference remains unresolved.
 
-The sender seeks Hungarian cooperation for provisioning at Arad, without reporting delivery. The [Danube report](../../cases/pages/164.md#edition-cases-military-danube-arad-witnesses-p164-c1) describes the 219th Infantry Division's crossing as complete and busy crossing traffic at `BELGRAD` and `SEMUM`. Crossing and onward supply appear as distinct requirements.
+The sender seeks Hungarian cooperation for provisioning at Arad. The [Danube report](../../cases/pages/164.md#edition-cases-military-danube-arad-witnesses-p164-c1) describes the 219th Infantry Division's crossing as complete, with crossing traffic at `BELGRAD` and `SEMUM` still busy. Completed crossings and requests for onward supply coexist in the correspondence.
 
 The *Central-Volksblatt* of 14 November printed a WTB dispatch dated 12 November, citing the German liaison officer in Budapest. It announced six trains daily, supplied by the Hungarian government **to each** of the Eleventh Army and Mackensen's army. The quantifier *je* establishes separate allocations.[^railway]
 
@@ -61,7 +63,7 @@ The [instruction intercepted on 9 November, p163](../../cases/pages/163.md#editi
 
 *CAMO/TsAMO 500-12519-274, map no. 9. German-Russian archival digitization project.*
 
-The map corroborates the proposed destination and distinguishes the two headquarters. Its symbols have no individual dates; the 13–18 November interval does not date arrival or prove execution of the projected schedule.
+The map places the two headquarters separately and corroborates Scholtz's proposed destination. Its symbols have no individual dates, leaving the arrival date and execution of the projected schedule unresolved within the 13–18 November interval.
 
 The reconstructed [Romanian ultimatum report received on 11 November, p180 D1](../../cases/pages/180.md#edition-cases-military-nov11-romanian-ultimatum-report) reports an unanswered evacuation demand. Its difficult phrase `Raeumung 24 Stunden vor der Waffenstreckung` and undated originating time cannot establish a precise deadline or the timing of Romanian action.
 
@@ -71,11 +73,11 @@ The [report originating on 24 November](../../cases/pages/217.md#edition-cases-m
 
 > Cechen verweigern Aufenthalt. Wollen auch Durchfahrt nur nach Entwaffnung gestatten.
 
-Massow in Budapest is asked to clarify the conditions. The coal-stoppage date, 22 November, and several formation numbers are conditional numeral interpretations. Poestyen uses a shared-letter interpretation; damaged unit fields remain unresolved. The independently printed 24 November originating date places the report after the stated transit period.
+Massow in Budapest is asked to clarify the conditions. The coal-stoppage date, 22 November, and several formation numbers are conditional numeral interpretations; Poestyen uses a shared-letter interpretation, and damaged unit fields remain unresolved. The printed originating date independently places this report on 24 November.
 
 A Budapest report dated 21 November, reprinted in the *Hamburgischer Correspondent* on 22 November, describes the Slovak council at Poestyen protesting Czech occupation and neighboring communities under Czech control.[^poestyen] Its hostile language reflects the newspaper's position. It independently reports a territorial dispute, without confirming the battalion's arrival or disarmament demand. Together, the accounts distinguish Hungarian cooperation from local control of the route.
 
-The [journey report originating on 28 November](../../cases/pages/225.md#edition-cases-military-regimental-journey-report) states that minor interruptions had been overcome, arrival at the literal `SILEIN` achieved, and every assistance received. Its arrival day **27** is conditional; route spellings and unit labels remain partly unresolved. The header dates this favorable arrival account after the transit period, alongside demands for disarmament and internment.
+The [journey report originating on 28 November](../../cases/pages/225.md#edition-cases-military-regimental-journey-report) states that minor interruptions had been overcome, arrival at the literal `SILEIN` achieved, and every assistance received. Its arrival day **27** is conditional; route spellings and unit labels remain partly unresolved. This favorable arrival account circulated alongside demands for disarmament and internment.
 
 ## Negotiating internment and maintaining cohesion
 
@@ -85,9 +87,9 @@ Pending OHL's decision, headquarters would merely acknowledge receipt of the not
 
 Berlin council documents connect these negotiations to discipline. A telegram approved on 26 November and sent on 28 November urged technical personnel to remain at their posts and soldiers to obey existing commanders. The internment letter, dated 28 November and dispatched on 29 November, reported failed negotiations, urged order and promised assistance toward eventual return.[^council]
 
-That letter survives in the [interception of 2 December, pp226–227](../../cases/pages/226.md#edition-cases-military-mackensen-internment). The published counterpart supports the signatures Molkenbuhr and Müller; Richard comes from that edition. Wording differences preserve distinct versions. The comparison used its transcription, without inspecting the carbon copy. Discipline remained central under the prospect of detention.
+That letter survives in the [interception of 2 December, pp226–227](../../cases/pages/226.md#edition-cases-military-mackensen-internment). The published transcription supports the signatures Molkenbuhr and Müller and supplies the given name Richard. It preserves wording differences from the interception; the carbon copy itself remains uninspected. Discipline remained central under the prospect of detention.
 
-The treaty period and the reported movements followed different chronologies. After the stated allowance, correspondence still concerned fuel, passage, arrival and the terms of detention. These overlapping reports support an uneven transition to internment, without establishing uniform enforcement or every formation's legal status.
+After the stated transit period, correspondence still concerned fuel, passage, arrival and the terms of detention. Obstructed transport, reported arrivals and negotiations over internment overlapped; uniform enforcement and each formation's legal status remain unestablished.
 
 ## Sources and attribution
 

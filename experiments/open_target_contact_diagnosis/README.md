@@ -14,7 +14,9 @@ model scopes, every shuffle maximum, native control outputs and the invariance
 proof. The [verifier](verify.py) recomputes the complete analysis in seconds;
 it uses no dictionary, language model or plaintext crib.
 
-## What is measured
+## Coordinate-contact statistic
+
+<a id="what-is-measured"></a>
 
 For a fixed coordinate frame and column rank order, invert the columnar
 transposition. Count only plaintext positions whose two coordinates were
@@ -109,7 +111,9 @@ rate. Their mask patterns and vocabularies also differ from the open fragments.
 The certificate preserves all native raw garbles and unresolved square labels;
 no edited reading is substituted into the statistic.
 
-## Why coincidence cannot determine the whole key
+## Rank invariance under the coincidence statistic
+
+<a id="why-coincidence-cannot-determine-the-whole-key"></a>
 
 The p70 B1 frame gives an exact example. At length 206 and width 22, four
 adjacent column pairs have height 10 and seven have height 9. Permuting whole

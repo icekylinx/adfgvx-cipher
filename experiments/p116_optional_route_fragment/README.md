@@ -76,7 +76,9 @@ in [the certificate](certificates.json). Eleven printed dashes and 30
 lost-tail coordinates remain unknown. All 144 observed coordinates remain
 byte-for-byte unchanged.
 
-## What the prior translation supports
+## Scope of the prior translation
+
+<a id="what-the-prior-translation-supports"></a>
 
 [Lasry, Niebel, Kopal and Wacker, Table 3, row 13](https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf#page=21)
 does not print a reconstructed German body for this part. Its English column

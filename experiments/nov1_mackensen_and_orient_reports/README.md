@@ -27,7 +27,9 @@ positions are the p101 C1 date. D2's source count explicitly includes one
 weak but visibly occupied glyph slot; the alternate 136-slot interpretation
 is also retained below.
 
-## What the records say
+## Command assignments and operational reports
+
+<a id="what-the-records-say"></a>
 
 - p100 D1 and p101 A2 share origin `2312 (1)` and numbered parts 1/2. They
   state that the 11th Army, including all German elements, is placed under

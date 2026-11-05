@@ -8,27 +8,27 @@
 
 ## Cash supply and denominations
 
-The crown requests specify wages and purchases in Hungary, delivery by aircraft and a suitable supply of small notes. A complete parallel reception restores the ending of the daily airlift instruction.
+Cash requests specify delivery routes and banknote denominations as well as amounts.
 
 | Subject | Summary | Page editions |
 | --- | --- | --- |
-| **Thirty million crowns requested for wages and purchases** | Thirty million crowns are requested for wages and purchases in Hungary, by giant aircraft to Brasso, with a mixture of large and small notes. | [p167](../cases/pages/167.md#source-p167-b1) |
-| **One million crowns daily by ordinary aircraft** | The request proposes one million crowns daily by ordinary aircraft, alternating between Kronstadt and Hermannstadt. Its interrupted ending concerns small banknotes. | [p174](../cases/pages/174.md#source-p174-a1) |
-| **The complete small-banknote instruction** | A complete reception establishes the instruction to send notes as small as possible and corrects one earlier conjecture about the interrupted ending. | [p195](../cases/pages/195.md#source-p195-a2) |
+| **Thirty million crowns requested for wages and purchases** | The request specifies a giant aircraft to Brasso and both large and small notes for wages and purchases in Hungary. | [p167](../cases/pages/167.md#source-p167-b1) |
+| **One million crowns daily by ordinary aircraft** | The proposed daily airlift alternates between Kronstadt and Hermannstadt. The interrupted ending concerns small banknotes. | [p174](../cases/pages/174.md#source-p174-a1) |
+| **The complete small-banknote instruction** | The full reception restores the request for notes as small as possible and corrects an earlier conjecture about the interrupted copy. | [p195](../cases/pages/195.md#source-p195-a2) |
 
 ## Remittance, payout and guarded transport
 
-The Vienna–Kronstadt bank-transfer message asks whether local payment succeeded. Later correspondence concerns a guarded rail alternative, access to an advance at Arad and continuing banknote shortages.
+Bank transfers, local payouts and guarded transport appear as distinct administrative operations.
 
 | Subject | Summary | Page editions |
 | --- | --- | --- |
-| **An initial five-million-crown transfer through Vienna** | The message announces an initial five-million-crown transfer by the Wiener Bankverein to Kronstadt in mixed denominations. The recipient is asked whether local payout succeeded and was sufficient. | [p205](../cases/pages/205.md#source-p205-a1) |
+| **An initial five-million-crown transfer through Vienna** | The message announces a transfer by the Wiener Bankverein to Kronstadt in mixed denominations and asks whether local payout succeeded and was sufficient. | [p205](../cases/pages/205.md#source-p205-a1) |
 | **A guarded rail alternative for Hermannstadt cash** | If the Döberitz aircraft has not departed, cash is to travel under special guard by train through Szolnok and Arad to Hermannstadt, with arrival notices. | [p216](../cases/pages/216.md#source-p216-b1) |
 | **Arad advances and partial crown remittances** | An Arad request asks about access to an advance; a separate message reports partial crown remittances and a severe banknote shortage. Their transactions cannot be equated. | [p219](../cases/pages/219.md#source-p219-a1) |
 
 ## Procurement cancellation and resale
 
-ZITAG orders distinguish further commitments from consignments already paid for. Silk purchases are to be resold where removal is uncertain; a separate Odessa instruction seeks a wagon sale on the best possible terms.
+Paid consignments, outstanding contracts and stranded goods receive different treatment in the procurement orders.
 
 | Subject | Summary | Page editions |
 | --- | --- | --- |
@@ -38,7 +38,7 @@ ZITAG orders distinguish further commitments from consignments already paid for.
 
 ## Allowances and currency redemption
 
-Allowance instructions and exchange correspondence concern the terms on which money could be paid or redeemed. The lei negotiations distinguish stamped from unstamped notes, while several numerical rate fields remain unresolved.
+The correspondence addresses subsistence allowances, banknote redemption and reported currency prices.
 
 | Subject | Summary | Page editions |
 | --- | --- | --- |

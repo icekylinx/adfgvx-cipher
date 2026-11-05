@@ -8,7 +8,9 @@ the published late-period squares. This small certificate applies exactly
 those hypotheses to four other source records. It adds no ciphertext edit
 and does not replace the baseline keys.
 
-## Why the printed square labels require care
+## Numerical labels in reconstructed squares
+
+<a id="why-the-printed-square-labels-require-care"></a>
 
 Lasry, Niebel, Kopal and Wacker explain in [section 5.4 of their author
 manuscript](https://www.apprendre-en-ligne.net/crypto/bibliotheque/PDF/adfgvx.pdf)

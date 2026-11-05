@@ -10,17 +10,17 @@
 
 ## Schedules, retransmission and wire connections
 
-Eilvese transmission periods, NKJ backup and relay requests, and wire-connection reports describe the operation of the communications network. Parallel receptions preserve wording damaged in individual copies.
+Service inquiries concern transmission periods, substitute stations and wire connections.
 
 | Subject | Summary | Page editions |
 | --- | --- | --- |
 | **Eilvese listening and transmission periods** | The telegram specifies Eilvese sending and receiving arrangements and provisional transmission windows; numerical assignments and unstated units remain qualified. | [p113](../cases/pages/113.md#source-p113-d1) |
 | **NKJ backup and relay arrangements** | Repeated messages ask which station could replace NKJ during interruption and whether NKJ relays Mackensen traffic. Sevastopol is proposed as a backup. | [p190](../cases/pages/190.md#source-p190-b) · [p193](../cases/pages/193.md#source-p193-a) |
-| **Wire communications and Braila–Tiraspol return instructions** | Related receptions discuss wire communications, instructions for the Ackermann post to return from Braila, and a Tiraspol continuation. Missing text and disagreements remain distinguished. | [p162](../cases/pages/162.md#source-p162-c1) · [p166](../cases/pages/166.md#source-p166-c1) |
+| **Wire communications and Braila–Tiraspol return instructions** | Related receptions discuss wire communications, instructions for the Ackermann post to return from Braila, and a Tiraspol continuation. | [p162](../cases/pages/162.md#source-p162-c1) · [p166](../cases/pages/166.md#source-p166-c1) |
 
 ## Cipher instructions and service procedure
 
-The Tiflis instruction and Ringbahn key-reuse messages concern continued communication under specified cipher arrangements. September procedure messages provide an earlier record of radio-service practice.
+Ringbahn instructions extend the use of November keys; the September orders regulate listening and acknowledgments.
 
 | Subject | Summary | Page editions |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ The Tiflis instruction and Ringbahn key-reuse messages concern continued communi
 
 ## Vehicles, equipment and departures
 
-Vehicle and trailer requests, readiness orders and a reported truck departure accompany the Seifert station and personnel traffic. Postponements, arrival inquiries and meal preparations document distinct stages of departure.
+Departure arrangements combine vehicle allocation, equipment movement and continued station service.
 
 | Subject | Summary | Page editions |
 | --- | --- | --- |
@@ -38,7 +38,7 @@ Vehicle and trailer requests, readiness orders and a reported truck departure ac
 | **Loading apparatus and keeping the station ready** | Parallel orders send two US apparatuses toward Darmstadt while retaining station readiness, and select the best trailer for loading with a petrol pump held ready. | [p197](../cases/pages/197.md#source-p197-c) · [p198](../cases/pages/198.md#source-p198-b) |
 | **Station control and Seifert’s arrival and departure messages** | Station reports describe soldiers’ council supervision, continued operation and custody of cipher keys. Separate messages concern Seifert’s movements and immediate listening instructions. | [p168](../cases/pages/168.md#source-p168-a) · [p169](../cases/pages/169.md#source-p169-a) · [p172](../cases/pages/172.md#source-p172-a) · [p174](../cases/pages/174.md#source-p174-b) |
 | **Arrival, departure and car inquiries on 12 November 1918** | Short messages report arrival and departure, request notice when Seifert arrives, and ask where the car is. Repeated texts do not establish additional journeys. | [p183](../cases/pages/183.md#source-p183-a) |
-| **Postponed departure, supper inquiry and farewell** | Distinct service messages postpone a departure, ask for a headcount for a warm evening meal, and convey a farewell. The meal inquiry supplies no headcount. | [p193](../cases/pages/193.md#source-p193-c) · [p196](../cases/pages/196.md#source-p196-a) |
+| **Postponed departure, supper inquiry and farewell** | Distinct service messages postpone a departure, ask for a headcount for a warm evening meal, and convey a farewell. | [p193](../cases/pages/193.md#source-p193-c) · [p196](../cases/pages/196.md#source-p196-a) |
 
 ## Complete source index
 

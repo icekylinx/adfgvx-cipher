@@ -8,7 +8,9 @@ The useful restoration is **B2's missing five-coordinate group `DXDVA`**. The so
 
 The [reading edition](../../cases/pages/184.md#edition-cases-military-hungary-transport-warning) gives all six raw strings, the conservative candidates and the source differences. The principal evidence is [inputs.json](inputs.json), [certificates.json](certificates.json), and the [source crops](sources/).
 
-## What is and is not identical
+## Shared origin and reception differences
+
+<a id="what-is-and-is-not-identical"></a>
 
 Both source records retain LP as the origin and UKS as the onward destination, with origin time `13.40 (13/11)` and three parts. Their intercepted radio hops differ: B has `NKJ v LP (02.51 a.m., November 13th)`, meaning LP to NKJ, while C has `ZO'N v NKJ (02.15 a.m., November 13th)`, meaning NKJ to ZO'N. The shared origin is distinct from the immediate radio sender. These morning receipts precede the stated origin time on the same printed date. We preserve that inconsistency and do not repair the date or time.
 

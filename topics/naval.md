@@ -8,17 +8,17 @@
 
 ## Cargo, loading and release
 
-Messages concerning Nikolaev, Poti and Batum address cargo on hand, loading opportunities and the release of supplies.
+Cargo reports accompany requests concerning loading, release and onward transport.
 
 | Subject | Summary | Page editions |
 | --- | --- | --- |
 | **Nikolaev supply cargo and shipping decisions** | A report describes steamers entering Nikolaev and goods remaining aboard under military guard, and asks how the recipient intends to proceed. | [p199](../cases/pages/199.md#source-p199-a1) |
-| **Tobacco awaiting loading at Poti** | Tobacco is reported ready at Poti; the sender asks when loading will be possible. No vessel departure is reported. | [p113](../cases/pages/113.md#source-p113-c) |
-| **An inquiry about releasing oil** | The sender asks whether Izzet Pasha’s renewed order to release oil has succeeded. The result of that order is not supplied. | [p83](../cases/pages/083.md#source-p83-a) |
+| **Tobacco awaiting loading at Poti** | Tobacco is reported ready at Poti; the sender asks when loading will be possible. | [p113](../cases/pages/113.md#source-p113-c) |
+| **An inquiry about releasing oil** | The sender asks whether Izzet Pasha’s renewed order to release oil has succeeded. | [p83](../cases/pages/083.md#source-p83-a) |
 
 ## Ship sales, payment and authority
 
-The proposed Corcovado terms allocate seizure and nonpayment risks. Other Turkish purchase proposals require immediate payment and authorization; naval armistice instructions provide a separate record of command requirements.
+Ship-sale correspondence addresses payment, title and crewing. A separate order sets out naval armistice instructions.
 
 | Subject | Summary | Page editions |
 | --- | --- | --- |

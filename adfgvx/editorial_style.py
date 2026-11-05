@@ -54,6 +54,16 @@ def _prose(text):
     text = CROSS_MONTH.sub(lambda m: m[2] + ' ' + m[1] + '–' + m[4] + ' ' + m[3]
                            + (' ' + m[5] if m[5] else ''), text)
     text = MONTH_FIRST.sub(date, text)
+    text = text.replace('| What remains separate |', '| Evidence distinctions |')
+    text = text.replace('| What it establishes |', '| Evidence provided |')
+    text = text.replace('**Editorial limits.**', '**Editorial limits:**')
+    text = text.replace('**Unresolved details and editorial limits.**',
+                        '**Unresolved details and editorial limits:**')
+    text = text.replace('**Later copy evidence.**', '**Later copy evidence:**')
+    text = text.replace('**Readable German — based on the edited candidate above; the local qualifications remain in force:**',
+                        '**Readable German — edited candidate:**')
+    text = text.replace('**Readable German** — based on the explicitly repaired output below.',
+                        '**Readable German — repaired output:**')
     text = text.replace('**Meaning.**', '**Meaning:**')
     text = text.replace('**Readable German** — ', '**Readable German:** ')
     return re.sub(r'\broundtrip\b', 'round-trip', text)

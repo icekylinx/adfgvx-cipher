@@ -123,7 +123,9 @@ address and Admiralstab footer are readable. `DORTTTELEGR`, `ISTELT`, `B2`,
 the damaged reference syntax, a historical office expansion, or the actual
 date of the referred-to telegram.
 
-## What the geometry search actually establishes
+## Geometry-search constraints and results
+
+<a id="what-the-geometry-search-actually-establishes"></a>
 
 Ten spans were selected from the earlier reading: `GERMANIAETAPPE`,
 `KONSTANTINOPEL`, `XXFUER`, `MITTELMEERDIVISION`, `ZUXTELXNRX`,

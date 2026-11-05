@@ -4,7 +4,9 @@
 
 [Historical research](historical-studies/README.md) · [Catalogue](../topics/README.md) · [Methods](methods.md) · [Experiments](../experiments/README.md)
 
-## What we have established
+## Established results
+
+<a id="what-we-have-established"></a>
 
 Our principal cryptanalytic result is the **new shared 18-column key for the
 two p153 CHI fragments**. It fixes **60/66 positions in part 5 without a source
@@ -17,7 +19,7 @@ the discovery and exact checks.
 Our source reconstructions also recover information that a single damaged
 reception could not provide:
 
-| Result | What the independent evidence adds |
+| Result | Independent evidence |
 | --- | --- |
 | [Arad provisions](../cases/pages/164.md#edition-cases-military-danube-arad-witnesses) | Eleven missing coordinates, including received support for `80000 MANN`; eight source maps give one completed stream. |
 | [Silk resale](../cases/pages/144.md#edition-cases-finance-nov6-silk-resale-continuation) | Two receptions jointly support all 135 continuation positions. |
@@ -85,9 +87,7 @@ Each source edition records its proposed reading, coordinate costs and remaining
 | [p84 illness fragment](../cases/pages/084.md#edition-cases-radio-p84-mother-illness-extension) | A 52/122-position proposal preserves the competing `MUTTER` and `MITTEL` readings. |
 
 The [experiment guide](../experiments/README.md) links the source certificates,
-controls and exact algorithms. The current edition removes duplicated
-machine displays and obsolete layout snapshots; it keeps the evidence needed
-to reproduce these claims and the earlier contributions on which they rest.
+controls and exact algorithms. The source editions retain the evidence needed to reproduce these results and the earlier contributions on which they rest.
 
 <a id="open-work"></a>
 
@@ -96,15 +96,15 @@ to reproduce these claims and the earlier contributions on which they rest.
 **Seven sources have no accepted body reading.** They are visible in the
 [OPEN guide](../topics/open.md), alongside their original transcriptions.
 
-| Target | Research question |
+| Target | Research focus |
 | --- | --- |
-| [p73](../cases/pages/073.md#edition-cases-p73) | Can key structure, contacts or a related message constrain the unknown square and transposition? |
-| [p170 A](../cases/pages/170.md#edition-cases-p170) | Which transmission frame and key family explain the damaged reception? |
-| [p198 D](../cases/pages/198.md#edition-cases-p198) | Is the five-loss model sufficient, or do the source and key need a different explanation? |
-| [p70 B1](../cases/pages/070.md#edition-cases-open-p70-b1) | Does the apparent period-rank signal survive a changed square or a different writing convention? |
-| [p127 B2](../cases/pages/127.md#edition-cases-open-p127-b2) | Do the repeated groups reveal source copying, a repeated plaintext pattern or the wrong frame? |
-| [p145 A](../cases/pages/145.md#edition-cases-open-p145-a) | What remains identifiable in the incomplete transmission without imposing a long guessed message? |
-| [p194 D1](../cases/pages/194.md#edition-cases-open-p194-d1) | Can the short reception be connected to an independently received overlap? |
+| [p73](../cases/pages/073.md#edition-cases-p73) | Joint constraints on the square and transposition from key structure, contacts and related messages. |
+| [p170 A](../cases/pages/170.md#edition-cases-p170) | Transmission frame and key family for the damaged reception. |
+| [p198 D](../cases/pages/198.md#edition-cases-p198) | Sufficiency of the five-loss model and alternative source or key hypotheses. |
+| [p70 B1](../cases/pages/070.md#edition-cases-open-p70-b1) | Robustness of the apparent period-rank signal under other squares and writing conventions. |
+| [p127 B2](../cases/pages/127.md#edition-cases-open-p127-b2) | Repeated-group structure as evidence of copying, repeated plaintext or a different frame. |
+| [p145 A](../cases/pages/145.md#edition-cases-open-p145-a) | Structure directly supported by the incomplete transmission. |
+| [p194 D1](../cases/pages/194.md#edition-cases-open-p194-d1) | An independently received overlap for the short reception. |
 
 For [p170 A](../cases/pages/170.md#edition-cases-p170-coordinate-count-constraint-for-a-complete-body),
 the seven received `D` coordinates now give exact ordinary-letter count bounds

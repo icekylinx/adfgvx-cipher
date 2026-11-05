@@ -27,7 +27,9 @@ the missing coordinates under this fixed complete key:
 loss/fill witnesses. Every one of the 15,504 column allocations completed;
 the search reached at most 16,807 active states and used no beam pruning.
 
-## Why this is still a conditional experiment
+## Conditional key and loss assumptions
+
+<a id="why-this-is-still-a-conditional-experiment"></a>
 
 The preceding [six-gram calibration](../p198_joint_six/README.md) recovered
 the entire CHI-Nov13 synthetic control using its supplied **true complete

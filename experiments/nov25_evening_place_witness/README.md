@@ -27,7 +27,9 @@ The different keys encode the same proposed letter with different pairs;
 the transfer concerns the plaintext spelling, not a reused coordinate pair.
 All indices are zero based and the ranges are end-exclusive.
 
-## What the combined place reading establishes
+## Supported place names and unresolved unit fields
+
+<a id="what-the-combined-place-reading-establishes"></a>
 
 With the separately supported
 [shared Y](../nov25_treaty_digits/README.md#the-shared-y-in-strzemieczny-and-nagymagocs),

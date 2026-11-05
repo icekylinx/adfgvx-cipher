@@ -63,6 +63,7 @@ observed substitutions from erased-coordinate and missing-slot fills. Follow
 
 Historical studies belong in `docs/historical-studies/`. Cite complete numbered
 page editions and give each external source a specific evidentiary role.
-Keep factual qualifications beside the affected claim; avoid repetitive
-general disclaimers. The [repository guide](docs/repository-map.md) and
+Use descriptive headings and state findings directly. Prefer them to question-led
+mini-headings and repeated prompts such as “What this shows”. Keep factual
+qualifications beside the affected claim; avoid repetitive general disclaimers. The [repository guide](docs/repository-map.md) and
 [contribution guide](CONTRIBUTING.md) describe the maintenance workflow.

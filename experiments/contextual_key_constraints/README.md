@@ -38,7 +38,9 @@ Without the name constraint, the corresponding minima were three and ten.
 These are exact restrictions on proposals within a hypothesis, not evidence
 that the historical message had a particular count. **p198 remains open.**
 
-### Why restriction of the earlier exact result is sufficient
+### Completeness of the restricted frontier
+
+<a id="why-restriction-of-the-earlier-exact-result-is-sufficient"></a>
 
 The [earlier frontier](../p198_category_frontier/README.md) exhausted all
 28 choices of two unknown square cells holding Q/Y. Exactly seven of those

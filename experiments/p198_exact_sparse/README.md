@@ -39,7 +39,9 @@ provenance are in [inputs.json](inputs.json); the complete exact records
 and controls are in [results.json](results.json). The earlier stochastic
 work is preserved in [the sparse-search collection](../open_targets/sparse_results.json).
 
-## What is optimized
+## Objective and loss model
+
+<a id="what-is-optimized"></a>
 
 The source is assumed to have lost exactly five coordinate symbols, with
 no substitutions, insertions, transposed groups, or changed key. Every

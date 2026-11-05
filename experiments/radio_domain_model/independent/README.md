@@ -16,7 +16,9 @@ logs**, **2,055,765,000 measured mutation proposals**, and **zero pending
 jobs**. Its records hash matches the final collector and verification gate.
 The initial 30-case snapshot and report remain unchanged.
 
-## What is independently checked
+## Independent scorer and verifier checks
+
+<a id="what-is-independently-checked"></a>
 
 The reference word scorer uses hash lookup of each bounded substring and a
 backwards memoized recurrence over the preceding word identifier. It does not

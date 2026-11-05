@@ -64,7 +64,9 @@ confirms that the received character is F; it is an editorial repair, not a
 corrected transcription. All four earlier observed substitutions remain
 charged to the inherited opening.
 
-## What the independent words support
+## Independent vocabulary witnesses
+
+<a id="what-the-independent-words-support"></a>
 
 | Proposed recipient word | Target start | New observed substitutions for that word | Independent raw word witness |
 | --- | ---: | ---: | --- |

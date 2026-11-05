@@ -21,7 +21,9 @@ fill three erased coordinates in total and propose two changes to observed
 coordinates, yielding 535 fixed plaintext positions. They preserve six unresolved
 reference/garble positions and the unusual original spellings and labels.
 
-## What was recovered
+## Recovered service messages
+
+<a id="what-was-recovered"></a>
 
 - **p192 A:** a request to Kretzschmar at the OKM economic staff, department 1,
   Bucharest, for news on conditions, prospects and decisions affecting the

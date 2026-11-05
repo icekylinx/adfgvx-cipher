@@ -45,6 +45,10 @@ public source links use numbered pages and stable section anchors.
 | Emphasis | Bold reading labels; italics for vessel names and publication titles; code formatting for exact decoded strings and machine identifiers. |
 | Navigation | **Page ranges**, **By subject**, **Historical research** and **Reading conventions** identify the same destinations throughout the reading guides. |
 
+Use descriptive headings that name the subject or finding. Prefer these to question-led
+headings and repeated prompts introducing the evidence. State the result directly,
+with the supporting source and any substantive qualification beside it.
+
 Use an en dash for page, date and position ranges. Keep qualifiers beside
 the reading they govern. A translation, explanatory meaning and conditional
 interpretation retain distinct labels. Historical quotations, source titles,
@@ -84,7 +88,7 @@ For physical-source identity, see the [source register](catalogue-source-identit
 
 ## Text and evidence
 
-| Label | What the reader is seeing |
+| Label | Text layer |
 | --- | --- |
 | **Readable German** | The reading with editorial spacing, case and punctuation. Its caption identifies an excerpt or conditional proposal when necessary. |
 | **Meaning** / **English meaning** | A translation or explanatory summary. Abbreviation expansions and historical interpretation belong here when they are not literally decoded. |

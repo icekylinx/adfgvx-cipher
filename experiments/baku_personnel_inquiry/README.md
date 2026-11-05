@@ -20,7 +20,9 @@ inferred from the inquiry.
 
 **Reviewed source crops:** [p185_B_reviewed.png](sources/p185_B_reviewed.png). [File and pixel verification](../../sources/reviewed-crops.md#verify).
 
-## Why two reference patterns remain
+## Two unresolved reference patterns
+
+<a id="why-two-reference-patterns-remain"></a>
 
 Both duplicate-block locations and every remaining one-coordinate
 exclusion are compared: **538 labelled source maps**. For the declared

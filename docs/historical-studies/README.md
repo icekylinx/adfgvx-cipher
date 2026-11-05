@@ -2,17 +2,17 @@
 
 [ADFGVX Cipher](../../README.md) · [Chronology](chronology.md) · [Ciphertext pages](../../cases/pages/README.md) · [Sources](../../sources/README.md)
 
-The intercepted messages record German forces leaving territories in which they could no longer assume control of transport, money or communications. Orders for withdrawal coexist with purchasing instructions, demands for pay, ship-sale negotiations and enquiries about people still on the road. Reading these records together makes it possible to follow decisions across successive transmissions and to distinguish an announced arrangement from its execution.
+The intercepted messages record German forces leaving territories in which they could no longer assume control of transport, money or communications. Orders for withdrawal coexist with purchasing instructions, demands for pay, ship-sale negotiations and enquiries about people still on the road. References and repeated receptions trace decisions across successive transmissions; their wording distinguishes proposed arrangements from reported actions.
 
 ## Research by subject
 
 | Subject | Historical investigation | Principal evidence |
 | --- | --- | --- |
-| **[Withdrawal, transit and internment](an-army-trying-to-get-home.md)** | How the armistice timetable, railway capacity and territorial authorities shaped the movement of troops. | Arad provisions; Hungarian transit negotiations; the Poestyen report; Mackensen's appeal and the Berlin council letter. |
-| **[Black Sea shipping and disposal](black-sea-network.md)** | How supply routes became evacuation routes, and how instructions about ships changed as access and ownership were negotiated. | The complete five-part routing order and its amendment; *Asgard* and Hopman's diary; *Corcovado*'s terms, crew and later registry. |
-| **[Cash, procurement and liquidation](what-retreat-cost.md)** | How withdrawal combined limits on purchasing with demands for usable cash, small banknotes, remittance and asset sales. | ZITAG instructions; crown-airlift requests; banknote and local-payment correspondence; silk, wagons and lei. |
-| **[Radio authority and personnel](voices-on-the-wireless.md)** | How control of a station, responsibility for its personnel and the ability to carry traffic came apart during withdrawal. | Warsaw, Hermannstadt and Poestyen service traffic; the Grosswardein transfer; arrival and staff enquiries. |
-| **[Vehicles and the stages of departure](transport-and-demobilisation.md)** | What readiness orders, vehicle requests and later departure reports reveal about the practical work of leaving. | The newly completed truck/readiness clause; carts and trailers; Hanau instructions; Seifert's transport correspondence. |
+| **[Withdrawal, transit and internment](an-army-trying-to-get-home.md)** | Troop movements under armistice deadlines, railway constraints and changing territorial authority. | Arad provisions; Hungarian transit negotiations; the Poestyen report; Mackensen's appeal and the Berlin council letter. |
+| **[Black Sea shipping and disposal](black-sea-network.md)** | The conversion of supply routes to evacuation, with revised destinations and negotiations over ships. | The complete five-part routing order and its amendment; *Asgard* and Hopman's diary; *Corcovado*'s terms, crew and later registry. |
+| **[Cash, procurement and liquidation](what-retreat-cost.md)** | Purchasing restrictions, cash supply, remittance and asset disposal during withdrawal. | ZITAG instructions; crown-airlift requests; banknote and local-payment correspondence; silk, wagons and lei. |
+| **[Radio authority and personnel](voices-on-the-wireless.md)** | Station authority, personnel responsibility and the continuation of traffic during withdrawal. | Warsaw, Hermannstadt and Poestyen service traffic; the Grosswardein transfer; arrival and staff enquiries. |
+| **[Vehicles and the stages of departure](transport-and-demobilisation.md)** | Vehicle readiness, transport arrangements and reported departures as distinct stages of withdrawal. | The newly completed truck/readiness clause; carts and trailers; Hanau instructions; Seifert's transport correspondence. |
 
 The [evidence chronology](chronology.md) brings these subjects into one dated sequence. It distinguishes the date of an order or reported event from the time at which a radio station transmitted or intercepted it.
 

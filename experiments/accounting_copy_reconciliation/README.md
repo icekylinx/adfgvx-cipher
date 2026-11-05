@@ -16,7 +16,9 @@ their raw streams, source images, dates, certificates and earlier credits
 remain unchanged. The comparison is supplementary evidence, with the
 common-second-part hypothesis stated explicitly.
 
-## What the sources agree on
+## Coordinate agreement and distinct headers
+
+<a id="what-the-sources-agree-on"></a>
 
 Both records have exactly **204 native source slots**, use the unchanged
 published **Nov7–9** key and decode to **102 positions**. Their source masks

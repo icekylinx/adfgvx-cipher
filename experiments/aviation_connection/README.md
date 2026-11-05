@@ -48,7 +48,9 @@ published unused-symbol pool is `0123456789QY`; no numerical values have
 been assigned by this package. The raw `WORT` and `RM` are retained without
 expansion or silent repair.
 
-## Why the missing-group position is plausible
+## Printed-boundary evidence for the missing group
+
+<a id="why-the-missing-group-position-is-plausible"></a>
 
 The primary candidate inserts `DDDVV` after 245 received coordinates, at
 the printed group boundary between the final complete group `DDDAA` and

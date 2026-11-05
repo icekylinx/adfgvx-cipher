@@ -16,7 +16,9 @@ the already known two equivalent partial-key representations. It is a
 post-discovery consistency check. This package claims no new historical
 decipherment, date, serial number or original-challenge plaintext.
 
-## What is new here
+## Comparison with earlier implementations
+
+<a id="what-is-new-here"></a>
 
 The following comparison is limited to the cited repository implementations.
 

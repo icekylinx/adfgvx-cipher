@@ -13,7 +13,9 @@ not give an explicit total. The surviving fragments are parts 5 and 6, with
 missing coordinates at zero-based positions 5 through 19. The source
 transcription is preserved unchanged in [the certificate](../../data/certificates/p153.json).
 
-## What is recovered
+## Recovered ranks and partial square
+
+<a id="what-is-recovered"></a>
 
 The transposition ranks, indexed by physical column, are:
 
@@ -86,7 +88,9 @@ twelve erased coordinates. Three erased letters and the twelve trailing
 characters remain unresolved; no signature, unit, date or number is invented for
 them.
 
-## How the candidate was found
+## Candidate search and refinement
+
+<a id="how-the-candidate-was-found"></a>
 
 The search visited all **18,564** possible joint length-class segmentations at
 width 18. Pairing and square searches remained bounded heuristics. The eventual

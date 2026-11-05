@@ -1,25 +1,31 @@
-# How the readings are established
+# Decipherment and source criticism
+
+<a id="how-the-readings-are-established"></a>
 
 [ADFGVX Cipher](../README.md) · [Browse the sources](../topics/README.md) · [Experiment index](../experiments/README.md)
 
 **Research and editorial work: icekylinx and GPT-6 Astra Pro.**
 
-This edition aims to make each proposed reading inspectable. A readable German
-sentence is the beginning of a case page; the source, key, repairs and remaining
-alternatives determine how much of that sentence is established.
+Each reading is documented by its source transcription, key, reconstruction
+costs and unresolved alternatives. The page edition presents the German text
+and its English interpretation alongside that evidence.
 
-## Start with the question you want to answer
+## Reading and research resources
 
-| Your question | Where to look |
+<a id="start-with-the-question-you-want-to-answer"></a>
+
+| Research task | Resource |
 | --- | --- |
-| What does a message most likely say? | The **Most likely reading** and explanation at the beginning of its [page edition](../cases/pages/README.md). |
-| Which characters are actually determined? | The raw, unspaced text and character domains in that case's linked certificate. |
-| How much was changed to obtain a readable sentence? | The explicit insertion, deletion, erasure-fill and known-coordinate substitution counts. |
-| Who first published the reading or correction? | The case's attribution and [prior-reading registry](../data/prior_readings.json). |
-| Can I check the arithmetic? | Run `python3 -m adfgvx.verify`; use the focused command in the case or experiment page for later additions. |
-| What has already been tried on an open case? | The [experiment index](../experiments/README.md), including controls, input layers and completed search bounds. |
+| Interpretation | The **Readable German** text and English interpretation in its [page edition](../cases/pages/README.md). |
+| Determined characters | The raw, unspaced text and character domains in the source's linked certificate. |
+| Reconstruction costs | The explicit insertion, deletion, erasure-fill and known-coordinate substitution counts. |
+| Attribution | The source edition's attribution and [prior-reading registry](../data/prior_readings.json). |
+| Reproduction | Run `python3 -m adfgvx.verify`; use the focused command in the source edition or experiment report for later additions. |
+| Completed searches | The [experiment index](../experiments/README.md), including controls, input layers and completed search bounds. |
 
-## What an ADFGVX key does
+## Substitution and columnar transposition
+
+<a id="what-an-adfgvx-key-does"></a>
 
 The implementation uses the coordinate alphabet `ADFGVX` and a 36-cell square
 containing letters and digits. A plaintext character becomes two coordinates:
@@ -35,9 +41,8 @@ readout order are inverse representations of the same permutation.
 
 If the coordinate length is not divisible by the width, the leftmost physical
 columns are one symbol longer. The library computes these lengths explicitly.
-An odd coordinate count cannot represent an ordinary complete sequence of
-two-coordinate characters, so decryption rejects it unless an unpaired-coordinate
-model is requested explicitly. It never silently discards the final symbol.
+An odd coordinate count requires an explicit unpaired-coordinate model;
+ordinary decryption accepts complete two-coordinate characters.
 
 A partial square retains unknown cells. A missing half-coordinate leaves a row
 or column of possible characters; two missing coordinates can leave all 36.
@@ -45,28 +50,32 @@ These are **domains**, not independent choices: every occurrence must use one
 globally consistent, injective square. Repeated cells therefore link dates,
 serial numbers and words across messages that share a key.
 
-## Keep the evidence layers visible
+## Evidence layers
 
-| Layer | What it establishes | Example |
+<a id="keep-the-evidence-layers-visible"></a>
+
+| Layer | Evidentiary role | Example |
 | --- | --- | --- |
-| Source transcription | What is printed in the inspected witness, including damaged or invalid glyphs. | [p198 D](../cases/pages/198.md#edition-cases-p198) has 165 valid coordinates although its header says `CHI-170`. |
-| Source-preserving calculation | What follows under a declared key and structural repair, preserving every known coordinate retained by that explicit hypothesis. | [p146](../cases/pages/146.md#edition-cases-p146) fixes 117/122 positions after the documented duplicate deletion and missing-group insertion. |
-| Explicit editorial repair | What becomes readable after specified fills or substitutions. | [p153b](../cases/pages/153.md#edition-cases-p153b) has 33/54 raw positions; its 50/54 conditional template also needs the recorded repairs and separator interpretation. |
-| Parallel transmission | What another independently inspected witness contributes to a damaged text. | [p152](../cases/pages/152.md#edition-cases-p152) is linked to the fuller p136 transmission; [p109](../cases/pages/109.md#edition-cases-p109) has a same-page near-parallel. |
-| Historical interpretation | Why a name, abbreviation or event is plausible in context. | [p215](../cases/pages/215.md#edition-cases-p215) costs `KORPSXKOSCH` explicitly and links contemporary command records. |
-| Language ranking | Which permitted candidate a specified statistical model prefers. | The [p109 decoder](../experiments/parallel_decoder/README.md) ranks texts at exact source-edit budgets. |
+| Source transcription | Literal observations in the inspected witness, including damaged or invalid glyphs. | [p198 D](../cases/pages/198.md#edition-cases-p198) has 165 valid coordinates although its header says `CHI-170`. |
+| Source-preserving calculation | Character domains under a declared key and structural repair, preserving every known coordinate retained by the hypothesis. | [p146](../cases/pages/146.md#edition-cases-p146) fixes 117/122 positions after the documented duplicate deletion and missing-group insertion. |
+| Explicit editorial repair | A proposed text after specified fills or substitutions. | [p153b](../cases/pages/153.md#edition-cases-p153b) has 33/54 raw positions; its 50/54 conditional template also needs the recorded repairs and separator interpretation. |
+| Parallel transmission | Independent observations supplied by another inspected witness. | [p152](../cases/pages/152.md#edition-cases-p152) is linked to the fuller p136 transmission; [p109](../cases/pages/109.md#edition-cases-p109) has a same-page near-parallel. |
+| Historical interpretation | Contextual support for a name, abbreviation or event. | [p215](../cases/pages/215.md#edition-cases-p215) costs `KORPSXKOSCH` explicitly and links contemporary command records. |
+| Language ranking | Candidate ranking under a specified statistical model. | The [p109 decoder](../experiments/parallel_decoder/README.md) ranks texts at exact source-edit budgets. |
 
-These layers answer different questions. A historical record can support a name
-without determining a damaged coordinate. A source-preserving result can remain
-unreadable. An editorial sentence can be useful while several characters remain
-conjectural. Case pages keep the readable interpretation alongside those limits.
+Historical identification can support a name without determining a damaged
+coordinate. A source-preserving calculation may remain unreadable, while an
+editorial interpretation may retain conjectural letters. The source editions
+state these assumptions and unresolved fields beside each reading.
 
 Spaces and punctuation are editorial unless the raw text explicitly encodes
 them. `X` is a decoded character that often serves as a separator. A question
 mark in a raw string occupies one position; an ellipsis in readable prose does
 not specify a number of missing characters. See the [notation guide](reading-conventions.md#source-editions).
 
-## Follow a candidate back to its source
+## Source tracing and re-encryption
+
+<a id="follow-a-candidate-back-to-its-source"></a>
 
 ```mermaid
 flowchart TD
@@ -93,7 +102,9 @@ squares, shifted indices and unreported edits. It proves arithmetic consistency
 with that reconstruction. The historical plausibility of the reconstruction
 still depends on the source and its alternatives.
 
-## Recover text from source geometry and independent copies
+## Source geometry and parallel receptions
+
+<a id="recover-text-from-source-geometry-and-independent-copies"></a>
 
 Local group lengths and repeated receptions can reveal a useful repair even
 when a message's total coordinate count appears correct. The new editions
@@ -113,7 +124,9 @@ reading records every donor coordinate, including the p158 V that supports
 
 ## Exact searches for damaged texts
 
-### Compare disagreeing witnesses at a declared edit cost
+### Disagreeing witnesses and edit cost
+
+<a id="compare-disagreeing-witnesses-at-a-declared-edit-cost"></a>
 
 For [p109](../experiments/parallel_decoder/README.md), two repaired/aligned
 witnesses have 42 disagreeing known coordinates. At their minimum combined
@@ -128,7 +141,9 @@ toward Belgrade. Of those positions, **33 are unique at minimum source cost
 and 14 are model-selected**. The equal-cost `SAVE` / `SAVA` river-name
 alternatives remain in the readable edition.
 
-### Locate scattered missing coordinates
+### Scattered coordinate loss
+
+<a id="locate-scattered-missing-coordinates"></a>
 
 Under the hypothesis that [p198 D](../cases/pages/198.md#edition-cases-p198) lost exactly five symbols
 from a 170-coordinate transmission, there are
@@ -165,7 +180,9 @@ checks these outcomes, full re-encryption, exact scores and exhaustive small
 controls. Search completeness establishes the optimum for the stated model;
 it does not make that optimum the historical text.
 
-## What a completed search can justify
+## Search scope and control results
+
+<a id="what-a-completed-search-can-justify"></a>
 
 A positive control tests a known text and key with declared damage. Failed
 matched controls limit the conclusions of an unsuccessful historical search.
@@ -180,7 +197,9 @@ remain separate questions. Source retrieval likewise covers the recorded
 corpus and inspected candidates; the [experiment guide](../experiments/README.md)
 links those completed searches.
 
-## Reproduce at the appropriate level
+## Reproduction
+
+<a id="reproduce-at-the-appropriate-level"></a>
 
 Start with the standard-library certificate check:
 
@@ -197,4 +216,4 @@ hashes; generated executables and model binaries are not repository evidence.
 For a new proposed reading, preserve the source layer, report every repair,
 re-encrypt the candidate, retain credible alternatives and credit earlier
 contributors. The [contribution guide](../CONTRIBUTING.md) gives the repository
-conventions. A coherent partial result with explicit limits is a useful outcome.
+conventions.

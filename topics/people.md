@@ -8,17 +8,17 @@
 
 ## Civilian residence, travel and discharge
 
-The Constantinople civilian instructions, Kremp’s departure inquiry and Rudolf’s discharge request concern permission to remain, arrangements to travel and release from service. Each records a different administrative decision or request.
+These requests concern civilian residence, travel after recovery and release from military service.
 
 | Subject | Summary | Page editions |
 | --- | --- | --- |
 | **German civilians in Constantinople** | An inquiry concerns German civilians, especially women and children, their whereabouts and permission to remain in Turkey. It reports that transport through Ukraine is unavailable. | [p221](../cases/pages/221.md#source-p221-b1) |
 | **Kremp’s request for a departure date** | Kremp reports recovery and asks the Constantinople military mission’s transport section to specify his departure date. | [p131](../cases/pages/131.md#source-p131-b) · [p149](../cases/pages/149.md#source-p149-b) · [p159](../cases/pages/159.md#source-p159-d) |
-| **Rudolf’s discharge request** | The military mission is asked to release the man written Rudolf Rudolf, attached to the German Embassy, from military service. | [p108](../cases/pages/108.md#source-p108-b1) |
+| **Rudolf’s discharge request** | The military mission is asked to discharge an embassy-attached serviceman whose name appears as Rudolf Rudolf. | [p108](../cases/pages/108.md#source-p108-b1) |
 
 ## Transfers, recalls and medical recovery
 
-Staff transfers and military-mission recalls continued during withdrawal. A separate medical report concerns transfer to a replacement unit for specialist treatment and recovery.
+Personnel orders assign or cancel postings; the medical report gives treatment and recovery as grounds for transfer.
 
 | Subject | Summary | Page editions |
 | --- | --- | --- |

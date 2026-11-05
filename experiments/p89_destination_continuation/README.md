@@ -22,7 +22,9 @@ with one of the adjacent `ST` repetitions omitted. It does not recover the
 standard spelling or change the cipher frame. The source page presents the
 [whole five-part order](../../cases/pages/089.md#edition-cases-military-black-sea-evacuation-routes-p89-a3).
 
-## What the new evidence contributes
+## Corpus vocabulary and historical place evidence
+
+<a id="what-the-new-evidence-contributes"></a>
 
 The office word has a raw corpus witness. **p78 A2** decrypts to
 `DIENSTSTELLEN` at plaintext positions 21–33, using **26 originally observed

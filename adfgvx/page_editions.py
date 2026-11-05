@@ -46,6 +46,136 @@ REVIEWED_SECTION_SOURCES = {
 NON_CIPHER_SOURCE_PAGES = {'p227_C': 227}
 
 
+# Reviewed editorial headings; the original source and its heading anchors remain intact.
+REVIEWED_DISPLAY_HEADINGS = {
+    'cases/caucasus/october_caucasus.md': {
+        'What the three source parts preserve':
+            'Source evidence in the three parts',
+    },
+    'cases/context/p164_A4.md': {
+        'What this changes':
+            'ABGESESSENEN and the limits of geographic identification',
+    },
+    'cases/context/transport_197_198.md': {
+        'What was repaired':
+            'Source defects and reconstruction models',
+    },
+    'cases/finance/crown_banknote_completion.md': {
+        'What the second source establishes':
+            'Evidence from the complete copy',
+    },
+    'cases/finance/hauptwechselamt_accounting.md': {
+        'What the question marks mean here':
+            'Unresolved positions and their domains',
+    },
+    'cases/military/arad_provisions_partial.md': {
+        'What can be read, and under which model':
+            'Current common reading and reconstruction model',
+    },
+    'cases/military/mackensen_withdrawal_report.md': {
+        'Why part 9 belongs here':
+            'Identification of the ninth part',
+    },
+    'cases/military/nov30_aviation_march_destination.md': {
+        'What the geometry search establishes':
+            'Results and limits of the geometry search',
+    },
+    'cases/military/nov8_serbian_cavalry_parallel.md': {
+        'What the additional source establishes':
+            'Evidence from the additional copy',
+        'What the independent copy supports':
+            'Corrections supported by the independent copy',
+    },
+    'cases/military/p175_c3_withdrawal_followup.md': {
+        'Why there is no unique recovered gap':
+            'Tied gap locations under the stated model',
+    },
+    'cases/military/p176_coal_train_fragment.md': {
+        'Why propose these words?':
+            'Contextual basis for the proposed words',
+    },
+    'cases/p189.md': {
+        'What p189 itself supports':
+            'p189 source evidence and alignment limits',
+    },
+    'cases/p198.md': {
+        'Why individual positions remain open':
+            'Unrestricted individual domains under the five-loss model',
+    },
+    'cases/p215.md': {
+        'Why Corps Kosch is the preferred closing interpretation':
+            'Evidence for the conditional Corps Kosch reading',
+    },
+    'cases/people/namur_order_witnesses.md': {
+        'Why the alignment is useful':
+            'Complementary coordinate evidence',
+    },
+    'cases/people/osthoff.md': {
+        'What the witnesses establish':
+            'Evidence from the two witness pairs',
+    },
+    'cases/people/richter_aleppo.md': {
+        'Why the postal number is not transferred across keys':
+            'Constraints on the cross-key postal-number comparison',
+    },
+    'cases/radio/constantinople_address_parts.md': {
+        'What the visible parts say':
+            'Contents of the surviving parts',
+    },
+    'cases/radio/courier_munich.md': {
+        'What is directly supported':
+            'Direct evidence from the second-part copies',
+    },
+    'cases/radio/document_destruction.md': {
+        'Why the initial odd-length lead was rejected':
+            'Correction of the earlier odd-length OCR transcription',
+    },
+    'cases/radio/newspaper_dispatch.md': {
+        'What remains unknown, and what an earlier hypothesis would imply':
+            'Unresolved postal number and conditional digit assignment',
+    },
+    'cases/radio/nov14_radio_retransmissions.md': {
+        'What the shared surname does and does not constrain':
+            'Shared-surname constraints and remaining domains',
+    },
+    'cases/radio/nov15_radio_personnel_and_key_notice.md': {
+        'What the second copy supports':
+            'Letter support from the second copy',
+    },
+    'cases/radio/nov6_marine_service_notice.md': {
+        'What the gap comparison establishes':
+            'Results of the single-gap comparison',
+    },
+    'cases/radio/odessa_courier_pretransposition.md': {
+        'What the two-loss model means':
+            'The two-loss fractionation model',
+    },
+    'cases/radio/opposite_end_deciphering.md': {
+        'What the bounded search actually found':
+            'Results of the bounded insertion-and-removal search',
+    },
+    'cases/radio/p204_A.md': {
+        'Why 18 November is a strong, conditional reading':
+            'Calendar evidence for the conditional 18 November reading',
+    },
+    'cases/radio/p211_key_schedule.md': {
+        'What this establishes':
+            'The instructed December key schedule',
+    },
+    'cases/radio/p85_B.md': {
+        'What the source actually yields':
+            'Direct source reading and proposed word repairs',
+    },
+    'cases/radio/september_key_destruction_order.md': {
+        'What the key number does and does not establish':
+            'Incomplete key number and conditional repeated-number completion',
+    },
+    'cases/radio/warsaw_station_missing_row.md': {
+        'What the terminal alternatives establish':
+            'Terminal gap alternatives under the proposed wording',
+    },
+}
+
 def omit_top_navigation(body):
     """Remove generic leading navigation, retaining source and evidence links."""
     result = []
@@ -157,7 +287,8 @@ def embed_case(text, source, destination, included, catalogue=None, root=ROOT):
             if (source == 'cases/finance/crown_cash_requests.md'
                     and heading[3] == 'The 11th-Army addresses'):
                 level = 3
-            line = '#' * level + ' ' + heading[3] + '\n'
+            display = REVIEWED_DISPLAY_HEADINGS.get(source, {}).get(heading[3], heading[3])
+            line = '#' * level + ' ' + display + '\n'
 
         def relocate(target):
             return rebase_target(target, source, destination, included, catalogue, root)

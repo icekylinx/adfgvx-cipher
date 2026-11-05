@@ -35,7 +35,9 @@ marks in the zero-unknown Telefunken inquiry have separate explicit offsets. Thi
 reference loss or silent numeral interpretation detectable. It does not
 establish the historical truth of an editorial template.
 
-## What the separate first-part witness establishes
+## Cross-copy support and coordinate conflicts
+
+<a id="what-the-separate-first-part-witness-establishes"></a>
 
 The p111 and p112 first parts share **183 observed coordinates**. They have
 **seventeen one-sided erasures**, all supplied by the other copy, and **two

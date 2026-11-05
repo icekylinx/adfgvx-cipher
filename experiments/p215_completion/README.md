@@ -38,7 +38,9 @@ probabilities, confidence levels or evidence that a proposed erased symbol
 was actually transmitted. Scores from different objectives are not directly
 comparable.
 
-## What changes between models
+## Differences between language-model completions
+
+<a id="what-changes-between-models"></a>
 
 The best completions disagree at two plaintext positions:
 

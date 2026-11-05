@@ -12,7 +12,9 @@ radio message. The edition gives a **28 November** dateline and records
 [Publisher and DOI](https://doi.org/10.1515/9783050068831.400) ·
 [Consulted transcription](https://dokumen.pub/gro-berliner-arbeiter-und-soldatenrte-in-der-revolution-1918-19-dokumente-der-vollversammlungen-und-des-vollzugsrates-vom-ausbruch-der-revolution-bis-zum-1-reichsrtekongre-reprint-2014nbsped-9783050068831-9783050022475.html).
 
-## What the second witness establishes
+## Archival signatures and parallel wording
+
+<a id="what-the-second-witness-establishes"></a>
 
 The copy signs **Molkenbuhr** and **Richard Müller**. This provides independent
 documentary support for the previously proposed `SOLKENBUHR→MOLKENBUHR`

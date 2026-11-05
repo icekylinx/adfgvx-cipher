@@ -23,7 +23,9 @@ square-construction evidence and is skipped in those tests. The instructional
 separate as positive controls. Full per-key results are in
 [result.json](result.json) and [keyword_search.json](keyword_search.json).
 
-## What the primary sources establish
+## Documented key construction
+
+<a id="what-the-primary-sources-establish"></a>
 
 The Childs collection prints the phrase `VIKINGS CROWN HOTEL`, its numeric
 transposition, and its square on printed pages 11–12 (PDF pages 14–15).

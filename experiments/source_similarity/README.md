@@ -9,7 +9,9 @@ supports a plaintext or a change to the case status.
 
 Research and implementation: **icekylinx and GPT-6 Astra Pro**.
 
-## What was compared
+## Comparison corpus and measurements
+
+<a id="what-was-compared"></a>
 
 The inputs are the unchanged analysis transcriptions in
 [`data/messages.json`](../../data/messages.json) and the 788 raw blocks in

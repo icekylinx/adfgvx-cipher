@@ -64,7 +64,9 @@ inverse is compared with the project cipher implementation. The complete
 C1 candidate re-encrypts exactly. The partial candidates receive the
 finite compatibility checks below.
 
-## What the unresolved fields allow
+## Coupled time and reference fields
+
+<a id="what-the-unresolved-fields-allow"></a>
 
 C1 retains `JUDORT`, `1XAX11212OM` and the repeated `24X24` exactly. No
 reference number is normalized, and the repeated hour-like field is

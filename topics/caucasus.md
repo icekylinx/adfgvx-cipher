@@ -8,7 +8,7 @@
 
 ## Mission staffing, equipment and procurement
 
-Caucasus correspondence concerns personnel, equipment, cargo and procurement. Market reports, appointments and suspension of manganese purchases record different decisions within the mission’s work.
+Appointments and procurement exchanges cover reinforcement, market information, equipment and suspended purchases.
 
 | Subject | Summary | Page editions |
 | --- | --- | --- |
@@ -18,12 +18,12 @@ Caucasus correspondence concerns personnel, equipment, cargo and procurement. Ma
 
 ## Representation, Poti traffic and withdrawal
 
-The Tiflis appointment concerns Polish representation. Separate Poti and armistice messages document transport-related communication and withdrawal instructions; their source editions retain damaged passages and differences between receptions.
+Polish representation, Poti horse transport and withdrawal conditions are documented in separate exchanges.
 
 | Subject | Summary | Page editions |
 | --- | --- | --- |
 | **Polish representation in Tiflis** | The Polish Foreign Ministry appoints Waclaw von Ostrowski representative for Georgia, Armenia and Azerbaijan, based in Tiflis; the courier identification remains conditional. | [p192](../cases/pages/192.md#source-p192-2) · [p199](../cases/pages/199.md#source-p199-b1) |
-| **Poti horse shipment and handover** | The partly reconstructed opening concerns horses aboard steamers toward Poti. The later parts concern a cavalry-brigade shipment, a fragmentary horse-handover passage and an urgent request for a reply. | [p59](../cases/pages/059.md#source-p59-a1) |
+| **Poti horse shipment and handover** | The partly reconstructed opening concerns horses aboard steamers toward Poti. Later parts include a cavalry-brigade shipment, an incomplete horse-handover clause and an urgent request for a reply. | [p59](../cases/pages/059.md#source-p59-a1) |
 | **Allied conditions for withdrawal and the Tiflis guard** | Parallel receptions explain that Allied assessment of local conditions governs withdrawal from former Russian territory; no demand to remove the Tiflis guard had yet been received. | [p212](../cases/pages/212.md#source-p212-a2) · [p218](../cases/pages/218.md#source-p218-a1) |
 
 ## Complete source index

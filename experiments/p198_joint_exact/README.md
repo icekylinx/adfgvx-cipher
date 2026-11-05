@@ -126,7 +126,9 @@ is solved exactly, and the global best is selected across all 15,504.
 A configured state-cap failure would abort rather than return a pruned
 answer. All committed runs completed every allocation.
 
-### Why the state count stays small
+### State-count bound
+
+<a id="why-the-state-count-stays-small"></a>
 
 For the 16-column cases, the most recent six coordinates occupy distinct
 columns. If a column has `l` allocated losses, a used-loss count of zero

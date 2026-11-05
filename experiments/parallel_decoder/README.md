@@ -2,7 +2,9 @@
 
 **ADFGVX Cipher · icekylinx and GPT-6 Astra Pro · 2026**
 
-## What this adds to p109
+## Exact joint decoding of p109 B and D
+
+<a id="what-this-adds-to-p109"></a>
 
 An exact decoder now combines the coordinate evidence of p109 B and the
 previously repaired p109 D with independent German language tables. It
@@ -136,7 +138,9 @@ qualified. The source-compatible spelling `ABENDMELUNG` is also
 retained in the compact candidates; inserting the missing `D` of normal
 German *Abendmeldung* would be a different geometry model.
 
-## How many candidates are searched?
+## Candidate count at minimum coordinate cost
+
+<a id="how-many-candidates-are-searched"></a>
 
 At the full-message minimum, the two conditioned coordinate streams
 contain 200 agreements, 42 disagreements, and six positions observed
@@ -258,7 +262,9 @@ The summary command needs only Python and the recorded results.
 Compiler outputs, cost files, and raw engine output stay in the selected
 temporary working directory.
 
-## What remains uncertain
+## Remaining source and language-model uncertainty
+
+<a id="what-remains-uncertain"></a>
 
 The two witnesses may differ in more than transmission errors, especially
 in their endings. Other repairs of the original D transcript remain
@@ -266,9 +272,7 @@ possible. A character can have the best language score while being
 wrong historically; abbreviated unit names, numbers, and call signs
 are particularly poorly modeled by running-text n-grams.
 
-The main advance is a reproducible, exact connection between the
-two-source coordinate evidence and model-ranked complete hypotheses.
-It strengthens the Belgrade/`ERKANNT` passage under the stated model,
+The decoder strengthens the Belgrade/`ERKANNT` passage under the stated model,
 quantifies the costs of the disputed words, and preserves `SAVE/SAVA`
 and other alternatives with their limits. It does not turn a repaired
 editorial interpretation into an untouched-ciphertext solution.

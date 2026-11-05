@@ -7,7 +7,9 @@ Childs p229, using the unchanged published Nov28–Dec1 key. The
 [readable case](../../cases/pages/229.md#edition-cases-military-late-transport-dispatches) gives the
 full conditional texts and preserves all unit, quantity and reference labels.
 
-## What is recovered
+## Transport reports and restored aviation text
+
+<a id="what-is-recovered"></a>
 
 The three-part evening report records an advance to `TISZAFOELDVAR`, halted
 transport on the proposed Arad–Szolnok route, and the resulting failure to

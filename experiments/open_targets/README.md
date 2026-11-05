@@ -66,7 +66,9 @@ The six variable-width square anchors are `CHI-Nov13`, `Nov13-15a`, `Nov13-15b`,
 
 The 70-case anchored snapshot completes the planned campaign from [anchored_search](../anchored_search/README.md). It retains that experiment's model and scope; it does not relabel earlier unsuccessful work as a new solution.
 
-### What is exact in the two large enumerations?
+### Exact enumeration and bounded refinement
+
+<a id="what-is-exact-in-the-two-large-enumerations"></a>
 
 The relabeling branch independently permutes row and column coordinate labels and tests both pair orientations: `6! × 6! × 2 = 1,036,800` transformations per fixed-key geometry. p73 and p170 each retain their literal length. p198 D tests every one of the 166 contiguous five-loss boundaries. This extends the earlier common-permutation convention screen. The published top 20 candidates per case retain exact partial-square arithmetic, even though ranking treats an unknown decoded letter as a whole-letter wildcard.
 
@@ -78,7 +80,7 @@ The matching implementation was independently checked against all **46,080** wid
 
 The new controls use a freshly written 85-character German radio-style body that was absent from model training. Their evaluation-only plaintext and true key never enter the search process. The shorter/longer controls use the same body truncated or extended, so these are related mechanism checks rather than an independent estimate of recovery probability.
 
-| Experiment | Control outcome | What it establishes |
+| Experiment | Control outcome | Evidence provided |
 | --- | --- | --- |
 | Contiguous unknown gap, widths 16/19/20 | Exact ranks and all 80 singleton letters correct in each; truth is in every erased-position domain | The implementation can recover these three planted geometries; the width-20 gap has a genuine source-equivalent alias |
 | Literal-group transfer, widths 16/19/20 | Exact ranks and complete 85/85 plaintext in all three | The concrete-group search passes these positive controls |

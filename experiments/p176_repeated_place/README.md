@@ -69,7 +69,9 @@ both printed masks. Positions 28, 30, 33–36 and 38 each preserve one observed
 coordinate and supply the other. These distinctions are listed individually
 in the certificate.
 
-## What assuming a repeated word actually determines
+## Domain intersections under the repetition hypothesis
+
+<a id="what-assuming-a-repeated-word-actually-determines"></a>
 
 The following table compares the two **native**, unfilled spans at 17–27
 and 29–39. It does not use either proposed word to construct the domains.

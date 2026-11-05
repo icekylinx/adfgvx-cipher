@@ -8,7 +8,7 @@ All dates are in **1918**. **Message** identifies a dated originating field or a
 
 ## From overseas commitments to withdrawal
 
-| Date | Date kind | What the record establishes | Theme | Complete source edition |
+| Date | Date kind | Evidence | Theme | Complete source edition |
 | --- | --- | --- | --- | --- |
 | **30 October** | Message and interception | The medical telegram reports the loss of specified field hospitals and medical companies in Palestine, except for portions of their personnel. It requests dissolution of the formations and directs the remaining personnel toward replacement units at home. The recovered first part supplies the medical antecedent of the return order. | Personnel and demobilization | [p79 A1–A2](../../cases/pages/079.md#source-p79-a1) |
 | **31 October; origin and interception dated 1 November** | Message footer; originating and receiving headers | Order **FR 52751, 31.10** directs Siegfried traffic to Konstanza and other traffic to Odessa. Its conditionally reconstructed third part prohibits Braila and requires onward movement in whole trains. The printed 1 November origin time, 14:00, follows the interception time, 13:18; their hourly relationship remains unresolved. | Black Sea evacuation | [p88 C1](../../cases/pages/088.md#source-p88-c1), [p90 A5](../../cases/pages/090.md#source-p90-a5) |
@@ -20,7 +20,7 @@ All dates are in **1918**. **Message** identifies a dated originating field or a
 
 ## Provision, payment and changing control
 
-| Date | Date kind | What the record establishes | Theme | Complete source edition |
+| Date | Date kind | Evidence | Theme | Complete source edition |
 | --- | --- | --- | --- | --- |
 | **9 November** | Interception, 23:05 | The Arad message seeks supply trains and Hungarian government cooperation for **80,000 men and 30,000 animals**. The second reception directly supports the strength figure. Its fourteen-day and ten-day provision fields remain unexplained, but the requested staging point and reported scale of the supply requirement are clear. | Provision and transit | [p168 E](../../cases/pages/168.md#source-p168-e), [p159 A earlier copy](../../cases/pages/159.md#source-p159-a) |
 | **9 November** | Interception, 19:21 | A three-part request asks for **thirty million crowns** by giant aircraft to Brasso, for pay and purchases in Hungary. It specifies a mixture of large and small notes and reports limited local crown stocks, linking the proposed airlift to the availability of cash suitable for immediate spending. | Military finance | [p167 B1–B3](../../cases/pages/167.md#source-p167-b1) |
@@ -35,7 +35,7 @@ All dates are in **1918**. **Message** identifies a dated originating field or a
 
 ## Passage, internment and the continuation of services
 
-| Date | Date kind | What the record establishes | Theme | Complete source edition |
+| Date | Date kind | Evidence | Theme | Complete source edition |
 | --- | --- | --- | --- | --- |
 | **22 November; intercepted 23 November** | Message, 15:00; interception, 04:50 | The conditional Breslau dispatch identifies horseshoes, hoof nails and screw nails, wagonloads, accompanying personnel and a route through Oderberg. Quantities and some formation labels remain unresolved. The restored commodity words document continuing equipment administration for animal transport during the withdrawal. | Animal transport and equipment | [p215 A](../../cases/pages/215.md#source-p215-a) |
 | **24 November; intercepted 26 November** | Message; earlier event within the report | The report attributes the transport stoppage on the conditionally interpreted **22 November** to coal shortages, places a battalion at Poestyen and suggests others were misdirected. It reports Czech refusal of a stay and proposed transit only after disarmament; Massow in Budapest is asked to clarify. | Transport and territorial authority | [p217 A1–A5](../../cases/pages/217.md#source-p217-a1) |

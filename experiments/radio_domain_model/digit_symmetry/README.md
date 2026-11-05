@@ -53,7 +53,9 @@ They describe separate recorded optimization outcomes, and some families
 can overlap. In particular, counts of verification operations are not
 counts of unique squares across all rows.
 
-## Why the counts and ciphertext invariance are exact
+## Proof of ciphertext invariance and orbit counts
+
+<a id="why-the-counts-and-ciphertext-invariance-are-exact"></a>
 
 Let `S` be a complete substitution square extending the partial anchors,
 `P` its candidate plaintext, and `U` the set of *k* unanchored digit labels.
@@ -143,7 +145,9 @@ above is deliberately about **literal plaintext membership** in this
 candidate's fixed digit orbit, not equality with the originally generated
 full key.
 
-## What was enumerated, and what was proved by counting
+## Explicit enumeration and combinatorial counts
+
+<a id="what-was-enumerated-and-what-was-proved-by-counting"></a>
 
 The standard-library verifier exhausts all digit permutations for the
 six rows with `k≤6`: **1,684 permutation evaluations** in total. It checks

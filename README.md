@@ -28,7 +28,7 @@ Choose a range to see its pages and message subjects. Each page opens its comple
 
 ## Historical research
 
-| Study | What the messages establish |
+| Study | Historical findings |
 | --- | --- |
 | **[Withdrawal, transit and internment](docs/historical-studies/an-army-trying-to-get-home.md)** | Provisioning at Arad, the armistice transit clock and negotiations with territorial authorities connect the means of withdrawal with its changing political conditions. |
 | **[Black Sea shipping and disposal](docs/historical-studies/black-sea-network.md)** | A routing order and its numbered amendment trace a changed destination; diaries and registers place evacuation voyages and a proposed ship sale in a wider record. |
@@ -38,7 +38,9 @@ Choose a range to see its pages and message subjects. Each page opens its comple
 
 The [historical research guide](docs/historical-studies/README.md) classifies the sources and comparisons. The [chronology](docs/historical-studies/chronology.md) distinguishes dates of events, orders, transmission and interception.
 
-## What our recoveries add
+## Selected recoveries
+
+<a id="what-our-recoveries-add"></a>
 
 | Discovery | Result |
 | --- | --- |
